@@ -1,0 +1,39 @@
+.reading-pane {
+  justify-content: center;
+  margin: 40px 40px;
+  height: 100%;
+}
+
+.q1 {
+    margin-top: 10px;
+}
+
+.reading-pane .title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.reading-pane .s {
+  font-size: 1.03em;
+  font-weight: bold;
+  line-height: 1.2em;
+  -webkit-font-smoothing: subpixel-antialiased;
+  margin-top: 20px;
+}
+
+.reading-pane .label {
+    padding: inherit;
+    font-size: 14px;
+    background-color: transparent;
+    color: inherit;
+    display: inherit;
+    margin-right: 5px;
+    color: #616161;
+}
+
+.reading-pane .selected {
+  border-bottom: 1px #313131 dotted;
+}

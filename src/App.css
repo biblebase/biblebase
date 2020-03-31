@@ -1,0 +1,28 @@
+.bible-app {
+  font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-size: 16px;
+  color: #616161;
+  line-height: 1.7em;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  text-align: left;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.left {
+  grid-area: 1/1/1/1;
+  height: 100vh;
+  overflow: scroll;
+  border-right: dotted #313131 1px;
+}
+
+.right {
+  grid-area: 1/2/1/2;
+  height: 100vh;
+  overflow: scroll;
+}
+
+
