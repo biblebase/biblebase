@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReadingPane from './ReadingPane.component';
 import StudyGuide from './StudyGuide.component';
 import './App.css';
@@ -101,13 +101,15 @@ class BibleApp extends React.Component {
         "title": "基督的心",
         "publisher": "sbf2148",
         "description":"你們當以基督耶穌的心為心。腓2:5",
-        "url": "https://www.youtube.com/watch?v=uaMRBhZ1A8s"
+        "url": "https://www.youtube.com/watch?v=uaMRBhZ1A8s",
+        "youtube_id": "uaMRBhZ1A8s"
       }, {
         "id": "Q047iJYVST4",
         "title": "把冷漠變成愛 - 讚美之泉",
         "publisher": "翁偉秦",
         "description": "本音樂版權為讚美之泉音樂事工所有，影片僅供教會主日及小組敬拜使用，切勿使用於商業行為中。\n\n樂團\n：讚美之泉專輯\n：全新的你\n歌詞\n：你的眼　是否\n被太多美麗的事物迷惑你的心　是否被太多紛雜的世俗綁鎖\n分些\n關懷給角落中受傷的靈魂分些\n愛給那些不起眼的面孔\n以基\n督的心為心　以祂的眼看世界你身\n邊的人需要你我　把冷漠變成愛\n以基\n督的心為心　以祂的眼看世界這世界需要你我　把冷漠變成愛",
-        "url": "https://www.youtube.com/watch?v=Q047iJYVST4"
+        "url": "https://www.youtube.com/watch?v=Q047iJYVST4",
+        "youtube_id": "Q047iJYVST4"
       }
     ],
     "notes": [
