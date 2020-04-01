@@ -40,8 +40,8 @@ class StudyGuide extends React.Component {
                         <div className="content">
                             {this.props.verseReference.otherVersions ?
                             this.props.verseReference.otherVersions.map(version => (
-                                <div className="version" key={version.versionId}>
-                                    <div className="version-name">{version.versionName}</div>
+                                <div className="version block" key={version.versionId}>
+                                    <div className="version-name title">{version.versionName}</div>
                                     <div className="version-content">{version.text}</div>
                                 </div>
                             )) : ""}
@@ -54,9 +54,10 @@ class StudyGuide extends React.Component {
                         <div className="content">
                             {this.props.verseReference.sermons?
                             this.props.verseReference.sermons.map(sermon => (
-                                <div className="sermon" key={sermon.id}>
-                                    <div className="sermon-title">{sermon.title}</div>
+                                <div className="sermon block" key={sermon.id}>
+                                    <div className="sermon-title title">{sermon.title}</div>
                                     <div className="sermon-preacher">{sermon.preacher}</div>
+                                    <div className="sermon-date date">{sermon.date}</div>
                                     {sermon.audio? 
                                     (<audio className="sermon-audio" controls>
                                         <source src={sermon.audio} type="audio/mpeg" />
@@ -78,10 +79,10 @@ class StudyGuide extends React.Component {
                         <div className="content">
                             {this.props.verseReference.sundaySchoolClasses?
                             this.props.verseReference.sundaySchoolClasses.map(lesson => (
-                                <div className="lesson" key={lesson.id}>
-                                    <div className="lesson-title">{lesson.title}</div>
+                                <div className="lesson block" key={lesson.id}>
+                                    <div className="lesson-title title">{lesson.title}</div>
                                     <div className="lesson-preacher">{lesson.preacher}</div>
-                                    <div className="lesson-date">{lesson.date}</div>
+                                    <div className="lesson-date date">{lesson.date}</div>
                                     {lesson.slides ? 
                                         (<div className="lesson-slides">
                                             <a href={lesson.slides} target="_blank" rel="noopener noreferrer">Slides</a>
@@ -98,8 +99,8 @@ class StudyGuide extends React.Component {
                         <div className="content">
                             {this.props.verseReference.interpretations?
                             this.props.verseReference.interpretations.map(interpretation => (
-                                <div className="interpretation" key={interpretation.id}>
-                                    <div className="interpretation-title">
+                                <div className="interpretation block" key={interpretation.id}>
+                                    <div className="interpretation-title title">
                                         <a href={interpretation.url} target="_blank" rel="noopener noreferrer">{interpretation.title}</a></div>
                                     <div className="interpretation-text">{interpretation.text}</div>
                                     {interpretation.linkedVerses ? 
@@ -122,13 +123,16 @@ class StudyGuide extends React.Component {
                         <div className="content">
                             {this.props.verseReference.hymns ?
                             this.props.verseReference.hymns.map(hymn => (
-                                <div className="hymn" key={hymn.id}>
-                                    <div className="hymn-title">{hymn.title}</div>
-                                    <div className="hymn-description">{hymn.description}</div>
-                                    <iframe id={`youtube_${hymn.id}`} title={hymn.title} type="text/html" width="640" height="360"
-                                        src={`https://www.youtube.com/embed/${hymn.youtube_id}?autoplay=0&origin=http://example.com"`}
-                                        frameBorder="0">
-                                    </iframe>
+                                <div className="hymn block" key={hymn.id}>
+                                    <div className="hymn-title title">{hymn.title}</div>
+                                    <div className="hymn-description desc">{hymn.description}</div>
+                                    <div className="video-wrapper">
+                                        <iframe className="iframe" id={`youtube_${hymn.id}`} title={hymn.title} type="text/html" width="100vmin" height="100vmin"
+                                            src={`https://www.youtube.com/embed/${hymn.youtube_id}?autoplay=0&origin=http://example.com"`}
+                                            frameBorder="0">
+                                        </iframe>
+                                    </div>
+                                    
                                 </div>
                             )) : ""}
                         </div>
@@ -140,9 +144,9 @@ class StudyGuide extends React.Component {
                         <div className="content">
                             {this.props.verseReference.notes ?
                             this.props.verseReference.notes.map(note => (
-                                <div className="note" key="note.id">
-                                    <div className="note-author">{note.author}</div>
-                                    <div className="note-time">{note.time}</div>
+                                <div className="note block" key="note.id">
+                                    <div className="note-author title">{note.author}</div>
+                                    <div className="note-time date">{note.time}</div>
                                     <div className="note-text">{note.text}</div>
                                     <div className="note-likes">{`${note.likes.length} likes`}</div>
                                     <div className="note-comments">
