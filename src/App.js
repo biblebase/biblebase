@@ -1,9 +1,79 @@
 import React from 'react';
+import BibleSelect from './BibleSelect.component';
 import ReadingPane from './ReadingPane.component';
 import StudyGuide from './StudyGuide.component';
 import './App.css';
 
 class BibleApp extends React.Component {
+
+  bibleIndex = {
+    1: { title: "創世記", chapters: 50 },
+    2: { title: "出埃及記", chapters: 40 },
+    3: { title: "利未記", chapters: 27 },
+    4: { title: "民數記", chapters: 36 },
+    5: { title: "申命記", chapters: 34 },
+    6: { title: "約書亞記", chapters: 24 },
+    7: { title: "士師記", chapters: 21 },
+    8: { title: "路得記", chapters: 4 },
+    9: { title: "撒母耳記上", chapters: 31 },
+    10: { title: "撒母耳記下", chapters: 24 },
+    11: { title: "列王紀上", chapters: 22 },
+    12: { title: "列王記下", chapters: 25 },
+    13: { title: "歷代志上", chapters: 29 },
+    14: { title: "歷代志下", chapters: 36 },
+    15: { title: "以斯拉記", chapters: 10 },
+    16: { title: "尼希米記", chapters: 13 },
+    17: { title: "以斯帖記", chapters: 10 },
+    18: { title: "約伯記", chapters: 42 },
+    19: { title: "詩篇", chapters: 150 },
+    20: { title: "箴言", chapters: 31 },
+    21: { title: "傳道書", chapters: 12 },
+    22: { title: "雅歌書", chapters: 8 },
+    23: { title: "以賽亞書", chapters: 66 },
+    24: { title: "耶利米書", chapters: 52 },
+    25: { title: "耶利米哀歌", chapters: 5 },
+    26: { title: "以西結書", chapters: 48 },
+    27: { title: "但以理書", chapters: 12 },
+    28: { title: "何阿西書", chapters: 14 },
+    29: { title: "約珥書", chapters: 3 },
+    30: { title: "阿摩司書", chapters: 9 },
+    31: { title: "俄巴底亞書", chapters: 1 },
+    32: { title: "約拿書", chapters: 4 },
+    33: { title: "彌迦書", chapters: 7 },
+    34: { title: "那鴻書", chapters: 3 },
+    35: { title: "哈巴谷書", chapters: 3 },
+    36: { title: "西番雅書", chapters: 3 },
+    37: { title: "哈該書", chapters: 2 },
+    38: { title: "撒迦利亞書", chapters: 14 },
+    39: { title: "瑪拉基書", chapters: 4 },
+    40: { title: "馬太福音", chapters: 28 },
+    41: { title: "馬可福音", chapters: 16 },
+    42: { title: "路加福音", chapters: 24 },
+    43: { title: "約翰福音", chapters: 21 },
+    44: { title: "使徒行傳", chapters: 28 },
+    45: { title: "羅馬書", chapters: 16 },
+    46: { title: "哥林多前書", chapters: 16 },
+    47: { title: "哥林多後書", chapters: 13 },
+    48: { title: "加拉太書", chapters: 6 },
+    49: { title: "以弗所書", chapters: 6 },
+    50: { title: "腓力比書", chapters: 4 },
+    51: { title: "歌羅西書", chapters: 4 },
+    52: { title: "帖撒羅尼迦前書", chapters: 5 },
+    53: { title: "帖撒羅尼迦後書", chapters: 3 },
+    54: { title: "提摩太前書", chapters: 6 },
+    55: { title: "提摩太後書", chapters: 4 },
+    56: { title: "提多書", chapters: 3 },
+    57: { title: "腓利門書", chapters: 1 },
+    58: { title: "希伯來書", chapters: 13 },
+    59: { title: "雅各書", chapters: 5 },
+    60: { title: "彼得前書", chapters: 5 },
+    61: { title: "彼得後書", chapters: 3 },
+    62: { title: "約翰一書", chapters: 5 },
+    63: { title: "約翰二書", chapters: 1 },
+    64: { title: "約翰三書", chapters: 1 },
+    65: { title: "猶大書", chapters: 1 },
+    66: { title: "啟示錄", chapters: 22 },
+  };
 
   versePhil_2_5 = {
     "id": "phil-2-5",
@@ -138,8 +208,14 @@ class BibleApp extends React.Component {
   }
 
   state = {
+    selectedBook: "50",
+    selectedChapter: 2,
     selectedVerse: null,
     verseReference: {}
+  }
+
+  selectBookChapter = (bookId, chapter) => {
+    // TODO update the bible text
   }
   
   // select a verse
@@ -159,7 +235,17 @@ class BibleApp extends React.Component {
     return (
       <div className="bible-app">
         <div className="left">
-          <ReadingPane selectVerse={this.selectVerse}/>
+          <div id="book-select">
+            <BibleSelect 
+                bookId={this.state.selectedBook} 
+                chapter={this.state.selectedChapter} 
+                bibleIndex={this.bibleIndex}
+                selectBookChapter={this.selectBookChapter}/>
+          </div>
+          <div id="reading-pane">
+            <ReadingPane selectVerse={this.selectVerse}/>
+          </div>
+          
         </div>
         <div className="right">
           <StudyGuide verseReference={this.state.verseReference} />

@@ -15,8 +15,20 @@
 .left {
   grid-area: 1/1/1/1;
   height: 100vh;
-  overflow: scroll;
   border-right: dotted #313131 1px;
+}
+
+.left #book-select {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.left #reading-pane {
+  height: 100%;
+  overflow: scroll;
+
 }
 
 .right {
