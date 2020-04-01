@@ -9,7 +9,6 @@ class StudyGuide extends React.Component {
 
     handleMenuSelection = (event) => {
         const link = event.target;
-        console.log(event.target);
         if (link.classList.contains("menu-item")) { // clicked on section link
             event.preventDefault();
 
@@ -17,7 +16,6 @@ class StudyGuide extends React.Component {
             let sectionId = link.getAttribute("target");            
             let section = document.getElementById(sectionId);
             let offsetTop = section.offsetTop;
-            console.log(section.offsetTop);
             document.getElementById("study-content").scrollTop = offsetTop;
         }
 
