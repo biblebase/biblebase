@@ -7,19 +7,35 @@ class StudyGuide extends React.Component {
         verseReference: PropTypes.object.isRequired
     }
 
+    handleMenuSelection = (event) => {
+        const link = event.target;
+        console.log(event.target);
+        if (link.classList.contains("menu-item")) { // clicked on section link
+            event.preventDefault();
+
+            // scroll to the selected section
+            let sectionId = link.getAttribute("target");            
+            let section = document.getElementById(sectionId);
+            let offsetTop = section.offsetTop;
+            console.log(section.offsetTop);
+            document.getElementById("study-content").scrollTop = offsetTop;
+        }
+
+    }
+
     render() {
         return (
-            <div className="study-guide">
-                <div className="menu">
-                    <div className="menu-item" selected={true}>Other Versions</div>
-                    <div className="menu-item">Sermons</div>
-                    <div className="menu-item">Sunday School Materials</div>
-                    <div className="menu-item">interpretations</div>
-                    <div className="menu-item">Hymns</div>
-                    <div className="menu-item">Notes</div>
+            <div id="study-guide">
+                <div id="menu" onClick={this.handleMenuSelection}>
+                    <div id="mi-other-versions" className="menu-item" target="other-versions" selected={true}>Other Versions</div>
+                    <div id="mi-sermons" className="menu-item" target="sermons">Sermons</div>
+                    <div id="mi-sunday-school" className="menu-item" target="sunday-school">Sunday School Materials</div>
+                    <div id="mi-interpretations" className="menu-item" target="interpretations">interpretations</div>
+                    <div id="mi-hymns" className="menu-item" target="hymns">Hymns</div>
+                    <div id="mi-notes" className="menu-item" target="notes">Notes</div>
                 </div>
-                <div className="study-content">
-                    <div className="guide other-versions">
+                <div id="study-content">
+                    <div id="other-versions" className="guide">
                         <div className="heading">
                             Other Versions
                         </div>
@@ -33,7 +49,7 @@ class StudyGuide extends React.Component {
                             )) : ""}
                         </div>
                     </div>      
-                    <div className="guide sermons">
+                    <div id="sermons" className="guide">
                         <div className="heading">
                             Sermons
                         </div>
@@ -57,7 +73,7 @@ class StudyGuide extends React.Component {
                             )) : ""}
                         </div>
                     </div>  
-                    <div className="guide sunday-school">
+                    <div id="sunday-school" className="guide">
                         <div className="heading">
                             Sunday School Materials
                         </div>
@@ -77,7 +93,7 @@ class StudyGuide extends React.Component {
                             )) : ""}
                         </div>
                     </div>  
-                    <div className="guide interpretations">
+                    <div id="interpretations" className="guide">
                         <div className="heading">
                             Interpretations
                         </div>
@@ -101,7 +117,7 @@ class StudyGuide extends React.Component {
                             )) : ""}
                         </div>
                     </div>
-                    <div className="guide hymns">
+                    <div id="hymns" className="guide">
                         <div className="heading">
                             Hymns
                         </div>
@@ -119,7 +135,7 @@ class StudyGuide extends React.Component {
                             )) : ""}
                         </div>
                     </div>
-                    <div className="guide notes">
+                    <div id="notes" className="guide">
                         <div className="heading">
                             Notes
                         </div>

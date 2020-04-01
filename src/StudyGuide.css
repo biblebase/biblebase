@@ -1,4 +1,4 @@
-.study-guide {
+#study-guide {
     justify-content: center;
     margin: 20px;
     height: 100%;
@@ -7,25 +7,30 @@
     grid-template-rows: 1fr;
 }
 
-.study-guide .menu {
+#study-guide .menu {
     grid-area: 1/1/1/1;
     height: 100vh;
 }
 
-.study-guide .study-content {
+#study-guide #study-content {
     grid-area: 1/2/1/2;
     height: 100vh;
     overflow: scroll;
 }
 
-.study-guide .menu-item {
-    cursor: pointer;
+#study-guide #menu {
+
 }
 
-.study-guide .guide {
+#study-guide .menu-item{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#study-guide .guide {
     margin: 20px;    
 }
 
-.study-guide .note-comments {
+#study-guide .note-comments {
     margin-left: 50px;
 }
