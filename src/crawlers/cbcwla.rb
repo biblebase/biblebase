@@ -26,10 +26,9 @@ class CbcwlaCrawler < Crawler
 
       verse_bundles = parse_verse_desc(sermon.search('.bible_passage').text)
       date = Date.parse(sermon.search('.sermon_date').text).to_s
-      title = sermon.search('.entry-title').text
       obj = {
-        id: "cbcwla-#{date}-#{title}",
-        title: title,
+        id: "cbcwla-sermon-#{date}",
+        title: sermon.search('.entry-title').text,
         date: date,
         preacher: sermon.search('.preacher_name').text,
         verses: verse_bundles.map{ |v| gen_verse_desc(v) }
