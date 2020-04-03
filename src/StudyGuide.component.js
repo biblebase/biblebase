@@ -5,6 +5,7 @@ import './StudyGuide.css';
 
 class StudyGuide extends React.Component {
     static propTypes = {
+        selectedVerse: PropTypes.string.isRequired,
         verseReference: PropTypes.object.isRequired
     }
 
@@ -24,21 +25,25 @@ class StudyGuide extends React.Component {
 
     render() {
         const verseObject = this.props.verseReference;
+        const title = `${this.props.selectedVerse}`;
         return (
             <div id="study-guide">
-                <div id="menu" onClick={this.handleMenuSelection}>
-                    <div id="mi-other-versions" target="other-versions" selected={true} className={classNames("menu-item", 
-                        { dim: verseObject.otherVersions === undefined || verseObject.otherVersions.length === 0})}>Other Versions</div>
-                    <div id="mi-sermons" target="sermons" className={classNames("menu-item", 
-                        { dim: verseObject.sermons === undefined || verseObject.sermons.length === 0})}>Sermons</div>
-                    <div id="mi-sunday-school" target="sunday-school" className={classNames("menu-item", 
-                        { dim: verseObject.sundaySchoolClasses === undefined || verseObject.sundaySchoolClasses.length === 0})}>Sunday School Materials</div>
-                    <div id="mi-interpretations" target="interpretations" className={classNames("menu-item", 
-                        { dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0})}>interpretations</div>
-                    <div id="mi-hymns" target="hymns" className={classNames("menu-item", 
-                        { dim: verseObject.hymns === undefined || verseObject.hymns.length === 0})}>Hymns</div>
-                    <div id="mi-notes" target="notes" className={classNames("menu-item", 
-                        { dim: verseObject.notes === undefined || verseObject.notes.length === 0})}>Notes</div>
+                <div id="menu" >
+                    <div className="menu-heading">{title.toUpperCase()}</div>
+                    <div className="menu-items" onClick={this.handleMenuSelection}>
+                        <div id="mi-other-versions" target="other-versions" selected={true} className={classNames("menu-item", 
+                            { dim: verseObject.otherVersions === undefined || verseObject.otherVersions.length === 0})}>Other Versions</div>
+                        <div id="mi-sermons" target="sermons" className={classNames("menu-item", 
+                            { dim: verseObject.sermons === undefined || verseObject.sermons.length === 0})}>Sermons</div>
+                        <div id="mi-sunday-school" target="sunday-school" className={classNames("menu-item", 
+                            { dim: verseObject.sundaySchoolClasses === undefined || verseObject.sundaySchoolClasses.length === 0})}>Sunday School Materials</div>
+                        <div id="mi-interpretations" target="interpretations" className={classNames("menu-item", 
+                            { dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0})}>interpretations</div>
+                        <div id="mi-hymns" target="hymns" className={classNames("menu-item", 
+                            { dim: verseObject.hymns === undefined || verseObject.hymns.length === 0})}>Hymns</div>
+                        <div id="mi-notes" target="notes" className={classNames("menu-item", 
+                            { dim: verseObject.notes === undefined || verseObject.notes.length === 0})}>Notes</div>
+                    </div>
                 </div>
                 <div id="study-content">
                     <div id="other-versions" className={classNames("guide", 

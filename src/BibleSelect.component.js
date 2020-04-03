@@ -6,7 +6,7 @@ class BibleSelect extends React.Component {
 
     static propTypes = {
         bookId: PropTypes.string.isRequired,
-        chapter: PropTypes.number.isRequired,
+        chapter: PropTypes.string.isRequired,
         bibleIndex: PropTypes.object.isRequired,
         selectBookChapter: PropTypes.func.isRequired
     }
