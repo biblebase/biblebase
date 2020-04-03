@@ -28,9 +28,9 @@ class StudyGuide extends React.Component {
                     <div id="mi-other-versions" className="menu-item" target="other-versions" selected={true}>Other Versions</div>
                     <div id="mi-sermons" className="menu-item" target="sermons">Sermons</div>
                     <div id="mi-sunday-school" className="menu-item" target="sunday-school">Sunday School Materials</div>
-                    <div id="mi-interpretations" className="menu-item" target="interpretations">interpretations</div>
+                    {/* <div id="mi-interpretations" className="menu-item" target="interpretations">interpretations</div> */}
                     <div id="mi-hymns" className="menu-item" target="hymns">Hymns</div>
-                    <div id="mi-notes" className="menu-item" target="notes">Notes</div>
+                    {/* <div id="mi-notes" className="menu-item" target="notes">Notes</div> */}
                 </div>
                 <div id="study-content">
                     <div id="other-versions" className="guide">
@@ -92,7 +92,7 @@ class StudyGuide extends React.Component {
                             )) : ""}
                         </div>
                     </div>  
-                    <div id="interpretations" className="guide">
+                    {/* <div id="interpretations" className="guide">
                         <div className="heading">
                             Interpretations
                         </div>
@@ -115,7 +115,7 @@ class StudyGuide extends React.Component {
                                 </div>
                             )) : ""}
                         </div>
-                    </div>
+                    </div> */}
                     <div id="hymns" className="guide">
                         <div className="heading">
                             Hymns
@@ -137,7 +137,7 @@ class StudyGuide extends React.Component {
                             )) : ""}
                         </div>
                     </div>
-                    <div id="notes" className="guide">
+                    {/* <div id="notes" className="guide">
                         <div className="heading">
                             Notes
                         </div>
@@ -161,7 +161,7 @@ class StudyGuide extends React.Component {
                                 </div>
                             )) : ""}
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 
             </div>

@@ -1,79 +1,77 @@
 #study-guide {
-    justify-content: center;
-    padding: 20px 20px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr;
+  justify-content: center;
+  padding: 20px 20px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
 }
 
 #study-guide .menu {
-    grid-area: 1/1/1/1;
-    height: 100vh;
+  grid-area: 1/1/1/1;
 }
 
 #study-guide #study-content {
-    grid-area: 1/2/1/2;
-    height: 100vh;
-    overflow: scroll;
+  grid-area: 1/2/1/2;
+  overflow: scroll;
+  margin-bottom: 20px;
 }
 
-#study-guide .menu-item{
-    cursor: pointer;
-    text-decoration: none;
+#study-guide .menu-item {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 #study-guide .guide {
-    width: 90%;
-    margin: 10px;
-    margin-bottom: 20px;
+  width: 90%;
+  margin: 10px;
+  margin-bottom: 20px;
 }
 
 .guide .heading {
-    background-color: rgb(165, 164, 164);
-    border-radius: 10px 10px 0 0;
-    color: black;
-    padding: 5px 10px;
-    font-weight: bold;
+  background-color: rgb(165, 164, 164);
+  border-radius: 10px 10px 0 0;
+  color: black;
+  padding: 5px 10px;
+  font-weight: bold;
 }
 
 .guide .content {
-    padding: 5px 20px 10px 10px;
-    background-color: rgb(247, 245, 243);
-    border-radius: 0 0 10px 10px;
+  padding: 5px 20px 10px 10px;
+  background-color: rgb(247, 245, 243);
+  border-radius: 0 0 10px 10px;
 }
 
 .guide .content .title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .guide .content .block {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .guide .content .date {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .guide .content .desc {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .video-wrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
 }
 .video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #study-guide .note-comments {
-    margin-left: 50px;
+  margin-left: 50px;
 }
-
