@@ -1,0 +1,100 @@
+#!/usr/bin/env ruby
+
+require_relative 'godcom'
+require_relative 'biblecom'
+require_relative 'youtube'
+require_relative 'cbcwla'
+
+book = ARGV.shift
+chapter = ARGV.shift
+max_verse = ARGV.shift
+
+unless book and chapter and max_verse
+  warn "USAGE: #{$0} <book> <chapter> <max_verse>"
+  warn "Example: #{$0} php 2 30"
+
+  exit 1
+end
+
+def output(filename, content)
+  open(filename, 'w') do |f|
+    f.puts content
+  end
+end
+
+def output_html(verse_key, html)
+  open("html/#{verse_key}.htm", 'w') do |f|
+    f.puts """
+    <style>
+      h2 {
+        padding: 10px;
+        border-radius: 2px;
+        background-color: #ddd;
+      }
+      .date {
+        color: grey;
+        font-size: 60%;
+      }
+      .author {
+        color: grey;
+      }
+      pre {
+        word-break: keep-all;
+        white-space: pre-wrap;
+        border-radius: 4px;
+        padding: 4px;
+        background-color: #eee;
+        margin-bottom: 6px;
+      }
+    </style>
+    """
+    f.puts html
+  end
+end
+
+def section_hash(section_name, crawler, verse_key)
+  items = crawler.get(verse_key).map{|item| crawler.item_hash(item)}
+  return {} if items.empty?
+
+  Hash[*[section_name, items]]
+end
+
+def section_html(section_name, crawler, verse_key)
+  items = crawler.get(verse_key)
+  return "" if items.empty?
+
+  """
+  <h2>#{section_name}</h2>#{
+    items.map do |item|
+      crawler.item_html(item) 
+    end.join
+  }
+  """
+end
+
+godcom_crawler = GodcomCrawler.new(max_verse)
+biblecom_crawler = BiblecomCrawler.new
+youtube_crawler = YoutubeCrawler.new(biblecom_crawler)
+cbcwla_crawler = CbcwlaCrawler.new(max_verse)
+
+(1..max_verse).each do |verse|
+  verse_key = "#{book}.#{chapter}.#{verse}"
+
+  versions = biblecom_crawler.get(verse_key)
+  hymns = youtube_crawler.get(verse_key)
+  interpretations = godcom_crawler.get(verse_key)
+
+  html =
+    section_html("圣经版本", biblecom_crawler, verse_key) +
+    section_html("证道", cbcwla_crawler, verse_key) +
+    section_html("解经", godcom_crawler, verse_key) +
+    section_html("诗歌", youtube_crawler, verse_key)
+  output_html verse_key, html
+
+  hash = {}
+    .merge(section_hash(:versions, biblecom_crawler, verse_key))
+    .merge(section_hash(:sermons, cbcwla_crawler, verse_key))
+    .merge(section_hash(:interpretations, godcom_crawler, verse_key))
+    .merge(section_hash(:hymns, youtube_crawler, verse_key))
+  output "json/#{verse_key}.json", hash.to_json
+end
