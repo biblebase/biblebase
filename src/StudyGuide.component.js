@@ -6,7 +6,12 @@ import './StudyGuide.css';
 class StudyGuide extends React.Component {
     static propTypes = {
         selectedVerse: PropTypes.string.isRequired,
-        verseReference: PropTypes.object.isRequired
+        verseReference: PropTypes.object.isRequired,
+        scroll: PropTypes.func.isRequired
+    }
+
+    state = {
+        activeSection: "otherVersions"
     }
 
     handleMenuSelection = (event) => {
@@ -15,10 +20,13 @@ class StudyGuide extends React.Component {
             event.preventDefault();
 
             // scroll to the selected section
-            let sectionId = link.getAttribute("target");            
+            let sectionId = link.getAttribute("target");    
+            this.setState({
+                activeSection: sectionId
+            })        
             let section = document.getElementById(sectionId);
-            let offsetTop = section.offsetTop;
-            document.getElementById("study-content").scrollTop = offsetTop;
+            const menuHeight = document.getElementById("menu").offsetHeight;
+            this.props.scroll(section.offsetTop - menuHeight);
         }
 
     }
@@ -28,23 +36,29 @@ class StudyGuide extends React.Component {
         const title = `${this.props.selectedVerse}`;
         return (
             <div id="study-guide">
-                <div id="menu" >
+                <nav id="menu">
                     <div className="menu-heading">{title.toUpperCase()}</div>
                     <div className="menu-items" onClick={this.handleMenuSelection}>
                         <div id="mi-other-versions" target="other-versions" selected={true} className={classNames("menu-item", 
-                            { dim: verseObject.otherVersions === undefined || verseObject.otherVersions.length === 0})}>Other Versions</div>
+                            { dim: verseObject.otherVersions === undefined || verseObject.otherVersions.length === 0,
+                              "active-menu-item": this.state.activeSection === "other-versions"})}>Other Versions</div>
                         <div id="mi-sermons" target="sermons" className={classNames("menu-item", 
-                            { dim: verseObject.sermons === undefined || verseObject.sermons.length === 0})}>Sermons</div>
+                            { dim: verseObject.sermons === undefined || verseObject.sermons.length === 0,
+                              "active-menu-item": this.state.activeSection === "sermons"})}>Sermons</div>
                         <div id="mi-sunday-school" target="sunday-school" className={classNames("menu-item", 
-                            { dim: verseObject.sundaySchoolClasses === undefined || verseObject.sundaySchoolClasses.length === 0})}>Sunday School Materials</div>
+                            { dim: verseObject.sundaySchoolClasses === undefined || verseObject.sundaySchoolClasses.length === 0,
+                                "active-menu-item": this.state.activeSection === "sunday-school"})}>Sunday School Materials</div>
                         <div id="mi-interpretations" target="interpretations" className={classNames("menu-item", 
-                            { dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0})}>interpretations</div>
+                            { dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0,
+                              "active-menu-item": this.state.activeSection === "interpretations"})}>interpretations</div>
                         <div id="mi-hymns" target="hymns" className={classNames("menu-item", 
-                            { dim: verseObject.hymns === undefined || verseObject.hymns.length === 0})}>Hymns</div>
+                            { dim: verseObject.hymns === undefined || verseObject.hymns.length === 0,
+                                "active-menu-item": this.state.activeSection === "hymns"})}>Hymns</div>
                         <div id="mi-notes" target="notes" className={classNames("menu-item", 
-                            { dim: verseObject.notes === undefined || verseObject.notes.length === 0})}>Notes</div>
+                            { dim: verseObject.notes === undefined || verseObject.notes.length === 0,
+                                "active-menu-item": this.state.activeSection === "notes"})}>Notes</div>
                     </div>
-                </div>
+                </nav>
                 <div id="study-content">
                     <div id="other-versions" className={classNames("guide", 
                         { dim: verseObject.otherVersions === undefined || verseObject.otherVersions.length === 0})}>

@@ -1,36 +1,51 @@
 #study-guide {
   justify-content: center;
-  padding: 20px 20px;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr;
 }
 
-#study-guide .menu {
-  grid-area: 1/1/1/1;
-}
-
-#study-guide #study-content {
-  grid-area: 1/2/1/2;
-  overflow: scroll;
-  margin-bottom: 20px;
+#study-guide #menu {
+  height: 70px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  background-color:#f8f5f5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
 }
 
 #study-guide .menu-heading {
+  width: 150px;
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+#study-guide .menu-items {
+  display: flex;
 }
 
 #study-guide .menu-item {
   cursor: pointer;
   text-decoration: none;
+  margin: 5px 10px;
+}
+
+/* #study-guide .active-menu-item {
+  font-weight: bold;
+} */
+
+#study-guide #study-content {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 120px;
+  margin-bottom: 20px;
 }
 
 #study-guide .guide {
   width: 90%;
-  margin: 10px;
-  margin-bottom: 20px;
+  padding: 20px 0;
 }
 
 .dim {
@@ -40,9 +55,10 @@
 .guide .heading {
   background-color: rgb(165, 164, 164);
   border-radius: 10px 10px 0 0;
-  color: black;
-  padding: 5px 10px;
+  color: #524848;
+  padding: 10px 10px;
   font-weight: bold;
+  font-size: 1.2em;
 }
 
 .guide .content {
@@ -56,7 +72,7 @@
 }
 
 .guide .content .block {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .guide .content .date {
