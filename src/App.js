@@ -110,11 +110,6 @@ class BibleApp extends React.Component {
     
   }
 
-  // request to scroll right pane to a particular section (controlled here)
-  scrollRightPane = (height) => {
-    document.getElementsByClassName("right")[0].scrollTop = height;
-  }
-
   render(){
     return (
       <div className="bible-app">
@@ -132,7 +127,7 @@ class BibleApp extends React.Component {
           
         </div>
         <div className="right">
-          <StudyGuide selectedVerse={this.state.selectedVerse} verseReference={this.state.verseReference} scroll={this.scrollRightPane}/>
+          <StudyGuide selectedVerse={this.state.selectedVerse} verseReference={this.state.verseReference}/>
         </div>
         
       </div>

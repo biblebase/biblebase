@@ -7,7 +7,6 @@ class StudyGuide extends React.Component {
     static propTypes = {
         selectedVerse: PropTypes.string.isRequired,
         verseReference: PropTypes.object.isRequired,
-        scroll: PropTypes.func.isRequired
     }
 
     state = {
@@ -26,7 +25,7 @@ class StudyGuide extends React.Component {
             })        
             let section = document.getElementById(sectionId);
             const menuHeight = document.getElementById("menu").offsetHeight;
-            this.props.scroll(section.offsetTop - menuHeight);
+            document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight
         }
 
     }

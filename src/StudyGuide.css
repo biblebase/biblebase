@@ -1,4 +1,6 @@
 #study-guide {
+  height: 100%;
+  width: 100%;
   justify-content: center;
 }
 
@@ -10,7 +12,7 @@
   position: fixed;
   top: 0px;
   z-index: 5;
-  background-color:#f8f5f5;
+  background-color:#fffafa;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -32,19 +34,20 @@
   margin: 5px 10px;
 }
 
-/* #study-guide .active-menu-item {
-  font-weight: bold;
-} */
-
 #study-guide #study-content {
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 120px;
-  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 90px; /* height of menu, using margin so scroll bar will overlap with menu */
+  padding-bottom: 20px;
+  height: calc(100% - 90px); /* minus height of menu or portion at bottom won't show */
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 #study-guide .guide {
-  width: 90%;
+  width: 100%;
   padding: 20px 0;
 }
 
@@ -89,6 +92,7 @@
   padding-top: 25px;
   height: 0;
 }
+
 .video-wrapper iframe {
   position: absolute;
   top: 0;
