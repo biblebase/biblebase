@@ -32,7 +32,8 @@ class StudyGuide extends React.Component {
 
     render() {
         const verseObject = this.props.verseReference;
-        const title = `${this.props.selectedVerse}`;
+        const titleArray = this.props.selectedVerse.split(".");
+        const title = `${titleArray[0]} ${titleArray[1]} : ${titleArray[2]}`;
         return (
             <div id="study-guide">
                 <nav id="menu">
