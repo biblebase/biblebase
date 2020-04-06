@@ -77,9 +77,14 @@ class BibleApp extends React.Component {
 
   state = {
     selectedBook: "php",
-    selectedChapter: 2,
-    selectedVerse: 1,
+    selectedChapter: "2",
+    selectedVerse: "php.2.1",
     verseReference: {}
+  }
+
+  constructor() {
+    super();
+    this.selectVerse(`${this.state.selectedVerse}`);
   }
 
   selectBookChapter = (bookId, chapter) => {
@@ -122,7 +127,7 @@ class BibleApp extends React.Component {
           
         </div>
         <div className="right">
-          <StudyGuide verseReference={this.state.verseReference} />
+          <StudyGuide selectedVerse={this.state.selectedVerse} verseReference={this.state.verseReference}/>
         </div>
         
       </div>
