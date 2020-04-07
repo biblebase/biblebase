@@ -5,7 +5,10 @@ import './StudyGuide.css';
 
 class StudyGuide extends React.Component {
     static propTypes = {
-        selectedVerse: PropTypes.string.isRequired,
+        bookId: PropTypes.string.isRequired,
+        chapter: PropTypes.number.isRequired,
+        verse: PropTypes.number.isRequired,
+        bibleIndex: PropTypes.object.isRequired,
         verseReference: PropTypes.object.isRequired,
     }
 
@@ -31,9 +34,12 @@ class StudyGuide extends React.Component {
     }
 
     render() {
+        if (Object.keys(this.props.verseReference).length === 0)
+            return <div></div>
+
         const verseObject = this.props.verseReference;
-        const titleArray = this.props.selectedVerse.split(".");
-        const title = `${titleArray[0]} ${titleArray[1]} : ${titleArray[2]}`;
+        const bookTitle = this.props.bibleIndex[this.props.bookId].title;
+        const title = `${bookTitle} ${this.props.chapter} : ${this.props.verse}`;
         return (
             <div id="study-guide">
                 <nav id="menu">

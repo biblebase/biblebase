@@ -4,7 +4,7 @@ import ReadingPane from './ReadingPane.component';
 import StudyGuide from './StudyGuide.component';
 import './App.css';
 import { bibleIndex } from './bibleIndex';
-import { getBookChapterJson } from './DataFetchUtils';
+import { getBookChapterJson, getVerseJson } from './DataFetchUtils';
 
 class BibleApp extends React.Component {
 
@@ -12,14 +12,14 @@ class BibleApp extends React.Component {
   state = {
     bookId: "1",
     chapter: 1,
-    data: null,
-    selectedVerse: 1
+    data: {},
+    selectedVerse: 1,
+    verseReference: {}
   }
 
-  constructor() {
-    // initialize data
-    super();
+  componentDidMount() {
     this.changeBookChapterRequest(this.state.bookId, this.state.chapter);
+    this.changeVerseSelectionRequest(this.state.bookId, this.state.chapter, this.state.selectedVerse);
   }
 
   changeBookChapterRequest = (bookId, chapter) => {
@@ -39,10 +39,24 @@ class BibleApp extends React.Component {
 
   
   // select a verse
-  changeVerseSelectionRequest = (verse) => {
-    this.setState({
-      selectedVerse: verse,
-    });
+  changeVerseSelectionRequest = (bookId, chapter, verse) => {
+    if (bookId === "50") { // TODO can only handle book 50 right now (sample data)
+      getVerseJson(bookId, chapter, verse).then( data => {
+        this.setState({
+          selectedVerse: verse,
+          verseReference: data
+        });
+      }, res => {
+        console.log("Unable to fetch verse data");
+        console.log(res);
+      });
+      
+    } else {
+      this.setState({
+        selectedVerse: verse,
+        verseReference: {}
+      })
+    }
   }
 
   render(){
@@ -61,14 +75,20 @@ class BibleApp extends React.Component {
                 bookId={this.state.bookId}
                 chapter={this.state.chapter}
                 bibleIndex={bibleIndex}
+                verse={this.state.selectedVerse}
                 data={this.state.data}
                 changeVerseSelectionRequest={this.changeVerseSelectionRequest}/>
           </div>
           
         </div>
-        {/* <div className="right">
-          <StudyGuide selectedVerse={this.state.selectedVerse} verseReference={this.state.verseReference}/>
-        </div> */}
+        <div className="right">
+          <StudyGuide 
+                bookId={this.state.bookId} 
+                chapter={this.state.chapter}
+                verse={this.state.selectedVerse}
+                bibleIndex={bibleIndex}
+                verseReference={this.state.verseReference} />
+        </div>
         
       </div>
     );

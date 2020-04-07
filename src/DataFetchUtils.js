@@ -10,14 +10,13 @@ function getBookChapterJson(bookId, chapter) {
     return fetchBookChapterJson(url);
 }
 
-function getVerseJson(verse) {
-  return fetchLocalJsonData(`./json/${verse.toLowerCase()}.json`);
+function getVerseJson(bookId, chapter, verse) {
+  return fetchLocalJsonData(`./json/php.${chapter}.${verse}.json`);
 }
 
 async function fetchBookChapterJson(path) {
     const res = await fetch(path);
     const data = await res.json();    
-    console.log(data);
     return data;
 }
 

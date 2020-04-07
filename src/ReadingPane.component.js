@@ -8,6 +8,7 @@ class ReadingPane extends React.Component {
     bookId: PropTypes.string.isRequired,
     chapter: PropTypes.number.isRequired,
     bibleIndex: PropTypes.object.isRequired,
+    verse: PropTypes.number.isRequired,
     data: PropTypes.object.isRequired,
     changeVerseSelectionRequest: PropTypes.func.isRequired
   }
@@ -28,9 +29,11 @@ class ReadingPane extends React.Component {
   // handle verse selected event
   handleSelectVerseEvent = (event) => {
     let target = event.currentTarget;
-    let selectedVerse = event.currentTarget.dataset.usfm;
+    let book = event.currentTarget.dataset.book;
+    let chapter = event.currentTarget.dataset.chapter;
+    let verse = event.currentTarget.dataset.verse;
     if (target.classList.contains("verse")) {
-      this.props.changeVerseSelectionRequest(selectedVerse);
+      this.props.changeVerseSelectionRequest(book, parseInt(chapter), parseInt(verse));
 
       // clear previous selection
       if (this.state.selectedVerseTarget !== null)
@@ -39,14 +42,14 @@ class ReadingPane extends React.Component {
       // set current selection
       target.classList.add("selected");
       this.setState({
-        selectedVerse: selectedVerse,
+        selectedVerse: verse,
         selectedVerseTarget: target
       });
     }
   }
 
   render() {
-    if (this.props.data === null) {
+    if (Object.keys(this.props.data).length === 0) {
       return <div></div>
     }
     const verses = this.props.data['verses'];
@@ -58,7 +61,9 @@ class ReadingPane extends React.Component {
           {verses.map( verse => (
             <span className="verse" 
               key={`${this.props.bookId}.${verse.chapter}.${verse.verse}`}
-              data-usfm={`${this.props.bookId}.${verse.chapter}.${verse.verse}`}
+              data-book={this.props.bookId}
+              data-chapter={this.props.chapter}
+              data-verse={verse.verse}
               onClick={this.handleSelectVerseEvent} >
               <span className="label">{verse.verse}</span>
               <span className="content">

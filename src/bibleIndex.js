@@ -51,7 +51,7 @@ const bibleIndex =
     49: { abbr: "eph", id: "49", name: "Ephesians", title: "以弗所書", chapters: 6 },
     50: { abbr: "php", id: "50", name: "Philippians", title: "腓力比書", chapters: 4 },
     51: { abbr: "col", id: "51", name: "Colossians", title: "歌羅西書", chapters: 4 },
-    51: { abbr: "1thess", id: "52", name: "1 Thessalonians", title: "帖撒羅尼迦前書", chapters: 5 },
+    52: { abbr: "1thess", id: "52", name: "1 Thessalonians", title: "帖撒羅尼迦前書", chapters: 5 },
     53: { abbr: "2thess", id: "53", name: "2 Thessalonians", title: "帖撒羅尼迦後書", chapters: 3 },
     54: { abbr: "1tim", id: "54", name: "1 Timothy", title: "提摩太前書", chapters: 6 },
     55: { abbr: "2tim", id: "55", name: "2 Timothy", title: "提摩太後書", chapters: 4 },
