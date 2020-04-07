@@ -3,42 +3,38 @@ import BibleSelect from './BibleSelect.component';
 import ReadingPane from './ReadingPane.component';
 import StudyGuide from './StudyGuide.component';
 import './App.css';
-import { encode } from 'punycode';
-import { getBibleIndex, getVerseJson  } from './DataFetchUtils';
+import { bibleIndex } from './bibleIndex';
+import { getBookChapterJson } from './DataFetchUtils';
 
 class BibleApp extends React.Component {
 
   // init to Genesis 1:1
   state = {
-    bookKey: "gen",
+    bookId: "1",
     chapter: 1,
-    selectedVerse: 1,
-    bibleIndex: {}
+    data: null,
+    selectedVerse: 1
   }
-
-  bibleIndex = {}
 
   constructor() {
+    // initialize data
     super();
-
-    // load bible index
-    getBibleIndex().then(data => {
-      this.setState({
-        bibleIndex: data
-      });
-
-    }, () => {
-      console.log("Error: Unable to fetch bible index");
-    });
+    this.changeBookChapterRequest(this.state.bookId, this.state.chapter);
   }
 
+  changeBookChapterRequest = (bookId, chapter) => {
 
-  changeBookChapterRequest = (bookKey, chapter) => {
-    this.setState({
-      bookKey: bookKey,
-      chapter: chapter,
-      selectedVerse: 1 // default
-    })
+    getBookChapterJson(bookId, chapter).then( data => {
+      this.setState({
+        bookId: bookId,
+        chapter: chapter,
+        selectedVerse: 1, // default
+        data: data
+      });
+    }, res => {
+        console.log("Error: unable to fetch bible data");
+        console.log(res);
+      });
   }
 
   
@@ -55,16 +51,17 @@ class BibleApp extends React.Component {
         <div className="left">
           <div id="book-select">
             <BibleSelect 
-                bookKey={this.state.bookKey} 
+                bookId={this.state.bookId} 
                 chapter={this.state.chapter} 
-                bibleIndex={this.state.bibleIndex}
+                bibleIndex={bibleIndex}
                 changeBookChapterRequest={this.changeBookChapterRequest}/>
           </div>
           <div id="reading-pane">
             <ReadingPane 
-                bookKey={this.state.bookKey}
+                bookId={this.state.bookId}
                 chapter={this.state.chapter}
-                bibleIndex={this.state.bibleIndex}
+                bibleIndex={bibleIndex}
+                data={this.state.data}
                 changeVerseSelectionRequest={this.changeVerseSelectionRequest}/>
           </div>
           

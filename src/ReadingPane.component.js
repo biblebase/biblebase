@@ -1,21 +1,20 @@
 import React from "react";
 import './ReadingPane.css';
 import PropTypes from 'prop-types';
-import { getBookChapterJson } from './DataFetchUtils';
 
 class ReadingPane extends React.Component {
 
   static propTypes = {
-    bookKey: PropTypes.string.isRequired,
+    bookId: PropTypes.string.isRequired,
     chapter: PropTypes.number.isRequired,
     bibleIndex: PropTypes.object.isRequired,
+    data: PropTypes.object.isRequired,
     changeVerseSelectionRequest: PropTypes.func.isRequired
   }
 
   state = {
     selectedVerse: 1,
     selectedVerseTarget: null,
-    data: null
   }
 
   // add listeners to verse elements
@@ -46,19 +45,20 @@ class ReadingPane extends React.Component {
     }
   }
 
-  getHtml = () => {
-    if (this.state.data === null)
+  render() {
+    if (this.props.data === null) {
       return <div></div>
-    const verses = this.state.data['verses'];
+    }
+    const verses = this.props.data['verses'];
 
     return (
       <div className="reading-pane">
         <div className="chapter">
-          <div className="title">{this.props.bibleIndex[this.props.bookKey].title} {this.props.chapter}</div>
+          <div className="title">{this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}</div>
           {verses.map( verse => (
             <span className="verse" 
-              key={`${this.props.bookKey}.${verse.chapter}.${verse.verse}`}
-              data-usfm={`${this.props.bookKey}.${verse.chapter}.${verse.verse}`}
+              key={`${this.props.bookId}.${verse.chapter}.${verse.verse}`}
+              data-usfm={`${this.props.bookId}.${verse.chapter}.${verse.verse}`}
               onClick={this.handleSelectVerseEvent} >
               <span className="label">{verse.verse}</span>
               <span className="content">
@@ -69,29 +69,6 @@ class ReadingPane extends React.Component {
         </div>
       </div>
     );
-  }
-
-  render() {
-    // first time
-    if (this.state.data === null && Object.keys(this.props.bibleIndex).length === 0)
-        return <div></div>
-    if (this.state.data !== null &&
-        (this.state.data.book_nr === this.props.bibleIndex[this.props.bookKey].id) &&
-        (this.state.data.chapter === this.props.chapter)) { // no need to fetch data
-          return this.getHtml();
-    }
-    else { // no data or need to fetch
-      getBookChapterJson(this.props.bibleIndex[this.props.bookKey].id, this.props.chapter).then( data => {
-        this.setState({
-          data: data
-        });
-      }, (res) => {
-        console.log("Error: unable to get bible data");
-        console.log(res);
-      });
-      return this.getHtml();
-    }     
-    
   }
 }
 
