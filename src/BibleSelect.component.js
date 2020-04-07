@@ -5,22 +5,23 @@ import './BibleSelect.css';
 class BibleSelect extends React.Component {
 
     static propTypes = {
-        bookId: PropTypes.string.isRequired,
-        chapter: PropTypes.string.isRequired,
+        bookKey: PropTypes.string.isRequired,
+        chapter: PropTypes.number.isRequired,
         bibleIndex: PropTypes.object.isRequired,
-        selectBookChapter: PropTypes.func.isRequired
+        changeBookChapterRequest: PropTypes.func.isRequired
     }
 
     state = {
-        selectedBookId: this.props.bookId,
+        selectedbookKey: this.props.bookKey,
         selectedChapter: this.props.chapter
     }
 
     handleBookSelection = (event) => {
         this.setState({
-            selectedBookId: event.target.value,
+            selectedbookKey: event.target.value,
             selectedChapter: 1
         })
+        this.props.changeBookChapterRequest(event.target.value, 1);
     }
 
     handleChapterSelection = (event) => {
@@ -28,17 +29,20 @@ class BibleSelect extends React.Component {
             selectedChapter: event.target.value
         })
         // call parent function to change selected
-        this.props.selectBookChapter(this.state.selectedBookId, this.state.selectedChapter);
+        this.props.changeBookChapterRequest(this.state.selectedbookKey, parseInt(event.target.value));
     }
 
     render() {
+        if (Object.keys(this.props.bibleIndex).length === 0) {
+            return <div></div>;
+        }
         let menu = [];
-        for (let i = 1; i <= this.props.bibleIndex[this.state.selectedBookId].chapters; i++) {
+        for (let i = 1; i <= this.props.bibleIndex[this.state.selectedbookKey].chapters; i++) {
             menu.push(<option value={i} key={i}>{i}</option>)
         }
         return (
             <div className="book-select">
-                <select className="books-select" value={this.state.selectedBookId} onChange={this.handleBookSelection}>
+                <select className="books-select" value={this.state.selectedbookKey} onChange={this.handleBookSelection}>
                     {Object.keys(this.props.bibleIndex).map(bookKey => (
                         (<option value={bookKey} key={bookKey}>{this.props.bibleIndex[bookKey].title}</option>)
                     ))}
