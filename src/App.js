@@ -1,5 +1,4 @@
 import React from 'react';
-import BibleSelect from './BibleSelect.component';
 import ReadingPane from './ReadingPane.component';
 import StudyGuide from './StudyGuide.component';
 import './App.css';
@@ -63,22 +62,14 @@ class BibleApp extends React.Component {
     return (
       <div className="bible-app">
         <div className="left">
-          <div id="book-select">
-            <BibleSelect 
-                bookId={this.state.bookId} 
-                chapter={this.state.chapter} 
-                bibleIndex={bibleIndex}
-                changeBookChapterRequest={this.changeBookChapterRequest}/>
-          </div>
-          <div id="reading-pane">
-            <ReadingPane 
-                bookId={this.state.bookId}
-                chapter={this.state.chapter}
-                bibleIndex={bibleIndex}
-                verse={this.state.selectedVerse}
-                data={this.state.data}
-                changeVerseSelectionRequest={this.changeVerseSelectionRequest}/>
-          </div>
+          <ReadingPane 
+              bookId={this.state.bookId}
+              chapter={this.state.chapter}
+              bibleIndex={bibleIndex}
+              verse={this.state.selectedVerse}
+              data={this.state.data}
+              changeBookChapterRequest={this.changeBookChapterRequest}
+              changeVerseSelectionRequest={this.changeVerseSelectionRequest}/>
           
         </div>
         <div className="right">

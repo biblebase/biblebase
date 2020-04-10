@@ -1,13 +1,27 @@
 .reading-pane {
   justify-content: center;
-  margin: 20px 40px;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  grid-template-columns: 1fr;
+  height: 100%;
 }
 
-.q1 {
-    margin-top: 10px;
+.reading-pane .book-select {
+  grid-template-areas: 1/1/1/1;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.reading-pane .title {
+.reading-pane .content-pane {
+  grid-template-areas: 2/1/2/1;
+  overflow: scroll;
+  width: calc(100% - 80px);
+  padding: 20px 40px;
+}
+
+.content-pane .title {
   font-size: 2em;
   font-weight: bold;
   line-height: 1.2em;
@@ -15,7 +29,7 @@
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-.reading-pane .s {
+.content-pane .s {
   font-size: 1.03em;
   font-weight: bold;
   line-height: 1.2em;
@@ -23,7 +37,7 @@
   margin-top: 20px;
 }
 
-.reading-pane .label {
+.content-pane .label {
     padding: inherit;
     font-size: 14px;
     background-color: transparent;
@@ -33,6 +47,6 @@
     color: #616161;
 }
 
-.reading-pane .selected {
+.content-pane .selected {
   border-bottom: 1px #313131 dotted;
 }
