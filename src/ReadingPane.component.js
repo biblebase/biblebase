@@ -10,7 +10,6 @@ class ReadingPane extends React.Component {
     bookId: PropTypes.number.isRequired,
     chapter: PropTypes.number.isRequired,
     bibleIndex: PropTypes.object.isRequired,
-    verse: PropTypes.number.isRequired,
     data: PropTypes.object.isRequired,
     changeVerseSelectionRequest: PropTypes.func.isRequired
   }
@@ -18,8 +17,7 @@ class ReadingPane extends React.Component {
   state = {
     selectedbookId: 0,
     selectedChapter: 0,
-    selectedVerse: 1,
-    selectedVerseTarget: null,
+    selectedVerse: 0,
     hideBookDropdown: true,
     hideChapterDropdown: true
   }
@@ -56,7 +54,10 @@ class ReadingPane extends React.Component {
     // reset
     this.setState({
       hideBookDropdown: true,
-      hideChapterDropdown: true
+      hideChapterDropdown: true,
+      selectedBookId: 0,
+      selectedChapter: 0,
+      selectedVerse: 0
     });
       
   }
@@ -68,18 +69,10 @@ class ReadingPane extends React.Component {
     let chapter = event.currentTarget.dataset.chapter;
     let verse = event.currentTarget.dataset.verse;
     if (target.classList.contains("verse")) {
-      this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
-
-      // clear previous selection
-      if (this.state.selectedVerseTarget !== null)
-        this.state.selectedVerseTarget.classList.remove("selected");
-      
-      // set current selection
-      target.classList.add("selected");
       this.setState({
-        selectedVerse: verse,
-        selectedVerseTarget: target
+        selectedVerse: parseInt(verse),
       });
+      this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
     }
   }
 
@@ -117,7 +110,7 @@ class ReadingPane extends React.Component {
           <div className="chapter">
             <div className="title">{this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}</div>
             {verses.map( verse => (
-              <span className="verse" 
+              <span className={classNames("verse", {selected: verse.verse === this.state.selectedVerse})} 
                 key={`${this.props.bookId}.${verse.chapter}.${verse.verse}`}
                 data-book={this.props.bookId}
                 data-chapter={this.props.chapter}

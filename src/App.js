@@ -12,7 +12,7 @@ class BibleApp extends React.Component {
     bookId: 1,
     chapter: 1,
     data: {},
-    selectedVerse: 1,
+    selectedVerse: 0,
     verseReference: {}
   }
 
@@ -66,7 +66,6 @@ class BibleApp extends React.Component {
               bookId={this.state.bookId}
               chapter={this.state.chapter}
               bibleIndex={bibleIndex}
-              verse={this.state.selectedVerse}
               data={this.state.data}
               changeBookChapterRequest={this.changeBookChapterRequest}
               changeVerseSelectionRequest={this.changeVerseSelectionRequest}/>
