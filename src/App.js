@@ -9,7 +9,7 @@ class BibleApp extends React.Component {
 
   // init to Genesis 1:1
   state = {
-    bookId: "1",
+    bookId: 1,
     chapter: 1,
     data: {},
     selectedVerse: 1,
@@ -39,7 +39,7 @@ class BibleApp extends React.Component {
   
   // select a verse
   changeVerseSelectionRequest = (bookId, chapter, verse) => {
-    if (bookId === "50") { // TODO can only handle book 50 right now (sample data)
+    if (bookId === 50) { // TODO can only handle book 50 right now (sample data)
       getVerseJson(bookId, chapter, verse).then( data => {
         this.setState({
           selectedVerse: verse,

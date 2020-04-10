@@ -1,21 +1,95 @@
 .reading-pane {
-  justify-content: center;
-  display: grid;
-  grid-template-rows: 40px 1fr;
-  grid-template-columns: 1fr;
+  /* justify-content: center; */
   height: 100%;
 }
 
 .reading-pane .book-select {
-  grid-template-areas: 1/1/1/1;
+  height: 50px;
   padding: 10px;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-dropdown-button {
+  font-size: 1em;
+  width: 200px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.hide {
+  display: none;
+}
+
+.book-dropdown {
+  font-size: 1em;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  position: fixed;
+  left: 10px;
+  top: 50px;;
+  z-index: 10;
+  border: solid #949494 1px;
+  border-radius: 4px;
+}
+
+.book-list {
+  list-style-type: none;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 0;
+}
+
+.book-list-item {
+  width: 100%;
+  padding-left: 5px;
+}
+
+.highlight {
+  background-color: aquamarine;
+}
+
+.book-list-item:hover {
+  background-color: aquamarine;
+}
+
+.chapter-dropdown {
+  font-size: 1em;
+  width: 100px;
+  height: 200px;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  position: fixed;
+  left: calc(10px + 200px);
+  top: 50px;;
+  z-index: 10;
+  border: solid #949494 1px;
+  border-radius: 4px;
+}
+
+.chapter-list {
+  list-style-type: none;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 0;
+}
+
+.chapter-list-item {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.chapter-list-item:hover {
+  background-color: aquamarine;
 }
 
 .reading-pane .content-pane {
-  grid-template-areas: 2/1/2/1;
   overflow: scroll;
   width: calc(100% - 80px);
   padding: 20px 40px;

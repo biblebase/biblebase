@@ -1,11 +1,13 @@
 import React from "react";
 import './ReadingPane.css';
 import PropTypes from 'prop-types';
+import classNames from 'classnames';
+
 
 class ReadingPane extends React.Component {
 
   static propTypes = {
-    bookId: PropTypes.string.isRequired,
+    bookId: PropTypes.number.isRequired,
     chapter: PropTypes.number.isRequired,
     bibleIndex: PropTypes.object.isRequired,
     verse: PropTypes.number.isRequired,
@@ -14,10 +16,12 @@ class ReadingPane extends React.Component {
   }
 
   state = {
-    selectedbookId: this.props.bookId,
-    selectedChapter: this.props.chapter,
+    selectedbookId: 0,
+    selectedChapter: 0,
     selectedVerse: 1,
     selectedVerseTarget: null,
+    hideBookDropdown: true,
+    hideChapterDropdown: true
   }
 
   // add listeners to verse elements
@@ -28,20 +32,33 @@ class ReadingPane extends React.Component {
     }
   }
 
+  handleDropdownButtonClick = (event) => {
+    this.setState({
+      selectedbookId: 0,
+      selectedChapter: 1,
+      hideBookDropdown: !this.state.hideBookDropdown,
+      hideChapterDropdown: true,
+    });
+  }
+
   handleBookSelection = (event) => {
     this.setState({
         selectedbookId: event.target.value,
-        selectedChapter: 1
-    })
-    this.props.changeBookChapterRequest(event.target.value, 1);
+        selectedChapter: 1,
+        hideChapterDropdown: false
+    });
 }
 
   handleChapterSelection = (event) => {
-      this.setState({
-          selectedChapter: event.target.value
-      })
-      // call parent function to change selected
-      this.props.changeBookChapterRequest(this.state.selectedbookId, parseInt(event.target.value));
+    // call parent function to change selected
+    this.props.changeBookChapterRequest(this.state.selectedbookId, parseInt(event.target.value));
+
+    // reset
+    this.setState({
+      hideBookDropdown: true,
+      hideChapterDropdown: true
+    });
+      
   }
 
   // handle verse selected event
@@ -51,7 +68,7 @@ class ReadingPane extends React.Component {
     let chapter = event.currentTarget.dataset.chapter;
     let verse = event.currentTarget.dataset.verse;
     if (target.classList.contains("verse")) {
-      this.props.changeVerseSelectionRequest(book, parseInt(chapter), parseInt(verse));
+      this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
 
       // clear previous selection
       if (this.state.selectedVerseTarget !== null)
@@ -72,21 +89,29 @@ class ReadingPane extends React.Component {
     }
     const verses = this.props.data['verses'];
     let menu = [];
-    for (let i = 1; i <= this.props.bibleIndex[this.state.selectedbookId].chapters; i++) {
-        menu.push(<option value={i} key={i}>{i}</option>)
+    if (this.state.selectedbookId !== 0) {
+      for (let i = 1; i <= this.props.bibleIndex[this.state.selectedbookId].chapters; i++) {
+        menu.push(<option className="chapter-list-item" value={i} key={i}>{i}</option>)
+      }
     }
-
+    
     return (
       <div className="reading-pane">
         <div className="book-select">
-          <select className="books-select" value={this.state.selectedbookId} onChange={this.handleBookSelection}>
+          <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>{this.props.bibleIndex[this.props.bookId].title}</button>
+          <div className={classNames("book-dropdown", {hide: this.state.hideBookDropdown})}>
+            <ul className="book-list" onClick={this.handleBookSelection}>
               {Object.keys(this.props.bibleIndex).map(bookId => (
-                  (<option value={bookId} key={bookId}>{this.props.bibleIndex[bookId].title}</option>)
+                  (<li className={classNames("book-list-item", {highlight: this.props.bibleIndex[bookId].id === this.state.selectedbookId})} 
+                  value={bookId} key={bookId}>{this.props.bibleIndex[bookId].title}</li>)
               ))}
-          </select>
-          <select className="chapters-select" value={this.state.selectedChapter} onChange={this.handleChapterSelection}>
+            </ul>
+          </div>
+          <div className={classNames("chapter-dropdown", {hide: this.state.hideChapterDropdown})}>
+            <ul className="chapter-list" onClick={this.handleChapterSelection}>
               {menu}
-          </select>
+            </ul>
+          </div>
         </div>
         <div className="content-pane">
           <div className="chapter">
