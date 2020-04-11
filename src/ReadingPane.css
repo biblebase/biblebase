@@ -1,13 +1,104 @@
 .reading-pane {
   justify-content: center;
-  margin: 20px 40px;
+  height: 100%;
 }
 
-.q1 {
-    margin-top: 10px;
+.reading-pane .book-select {
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
-.reading-pane .title {
+.book-dropdown-button {
+  font-size: 1em;
+  width: 200px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.hide {
+  display: none;
+}
+
+.book-dropdown {
+  font-size: 1em;
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  position: fixed;
+  left: 10px;
+  top: 50px;;
+  z-index: 10;
+  border: solid #949494 1px;
+  border-radius: 4px;
+}
+
+.book-list {
+  list-style-type: none;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 0;
+}
+
+.book-list-item {
+  width: calc(100% - 5px);
+  padding-left: 5px;
+}
+
+.highlight {
+  background-color: lightblue;
+}
+
+.book-list-item:hover {
+  background-color: lightblue;
+}
+
+.chapter-dropdown {
+  font-size: 1em;
+  width: 100px;
+  height: 200px;
+  background-color: #ffffff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: fixed;
+  left: calc(10px + 200px);
+  top: 50px;;
+  z-index: 10;
+  border: solid #949494 1px;
+  border-radius: 4px;
+}
+
+.chapter-list {
+  list-style-type: none;
+  text-align: left;
+  cursor: pointer;
+  padding-left: 0;
+  width: 100%;
+}
+
+.chapter-list-item {
+  width: calc(99% - 10px);
+  padding-left: 10px;
+}
+
+.chapter-list-item:hover {
+  background-color: lightblue;
+}
+
+.reading-pane .content-pane {
+  overflow: scroll;
+  width: calc(100% - 80px);
+  padding: 20px 40px;
+  height: calc(100% - 70px); /* 70px is menu height with padding */
+}
+
+.content-pane .title {
   font-size: 2em;
   font-weight: bold;
   line-height: 1.2em;
@@ -15,7 +106,7 @@
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-.reading-pane .s {
+.content-pane .s {
   font-size: 1.03em;
   font-weight: bold;
   line-height: 1.2em;
@@ -23,7 +114,7 @@
   margin-top: 20px;
 }
 
-.reading-pane .label {
+.content-pane .label {
     padding: inherit;
     font-size: 14px;
     background-color: transparent;
@@ -33,6 +124,19 @@
     color: #616161;
 }
 
-.reading-pane .selected {
-  border-bottom: 1px #313131 dotted;
+.content-pane .selected {
+  border-bottom: 2px cornflowerblue dotted;
+}
+
+triangle {
+  border: solid #313131 2px;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  margin: 5px 10px;
+}
+
+triangle.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }

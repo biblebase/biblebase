@@ -1,5 +1,4 @@
 import React from 'react';
-import BibleSelect from './BibleSelect.component';
 import ReadingPane from './ReadingPane.component';
 import StudyGuide from './StudyGuide.component';
 import './App.css';
@@ -10,10 +9,10 @@ class BibleApp extends React.Component {
 
   // init to Genesis 1:1
   state = {
-    bookId: "1",
+    bookId: 1,
     chapter: 1,
     data: {},
-    selectedVerse: 1,
+    selectedVerse: 0,
     verseReference: {}
   }
 
@@ -40,7 +39,7 @@ class BibleApp extends React.Component {
   
   // select a verse
   changeVerseSelectionRequest = (bookId, chapter, verse) => {
-    if (bookId === "50") { // TODO can only handle book 50 right now (sample data)
+    if (bookId === 50) { // TODO can only handle book 50 right now (sample data)
       getVerseJson(bookId, chapter, verse).then( data => {
         this.setState({
           selectedVerse: verse,
@@ -63,22 +62,13 @@ class BibleApp extends React.Component {
     return (
       <div className="bible-app">
         <div className="left">
-          <div id="book-select">
-            <BibleSelect 
-                bookId={this.state.bookId} 
-                chapter={this.state.chapter} 
-                bibleIndex={bibleIndex}
-                changeBookChapterRequest={this.changeBookChapterRequest}/>
-          </div>
-          <div id="reading-pane">
-            <ReadingPane 
-                bookId={this.state.bookId}
-                chapter={this.state.chapter}
-                bibleIndex={bibleIndex}
-                verse={this.state.selectedVerse}
-                data={this.state.data}
-                changeVerseSelectionRequest={this.changeVerseSelectionRequest}/>
-          </div>
+          <ReadingPane 
+              bookId={this.state.bookId}
+              chapter={this.state.chapter}
+              bibleIndex={bibleIndex}
+              data={this.state.data}
+              changeBookChapterRequest={this.changeBookChapterRequest}
+              changeVerseSelectionRequest={this.changeVerseSelectionRequest}/>
           
         </div>
         <div className="right">

@@ -5,7 +5,7 @@ import './StudyGuide.css';
 
 class StudyGuide extends React.Component {
     static propTypes = {
-        bookId: PropTypes.string.isRequired,
+        bookId: PropTypes.number.isRequired,
         chapter: PropTypes.number.isRequired,
         verse: PropTypes.number.isRequired,
         bibleIndex: PropTypes.object.isRequired,
