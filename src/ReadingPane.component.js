@@ -30,6 +30,21 @@ class ReadingPane extends React.Component {
     }
   }
 
+  handleReadingPaneClick = (event) => {
+    event.stopPropagation();
+    // if menu is open and clicked outside selection, close menu
+    if (!this.state.hideBookDropdown && 
+        !event.target.classList.contains("book-dropdown") &&
+        !event.target.classList.contains("chapter-dropdown")) {
+      this.setState({
+        selectedbookId: 0,
+        selectedChapter: 1,
+        hideBookDropdown: !this.state.hideBookDropdown,
+        hideChapterDropdown: true,
+      });
+    }
+  }
+
   handleDropdownButtonClick = (event) => {
     this.setState({
       selectedbookId: 0,
@@ -40,6 +55,7 @@ class ReadingPane extends React.Component {
   }
 
   handleBookSelection = (event) => {
+    event.stopPropagation();
     this.setState({
         selectedbookId: event.target.value,
         selectedChapter: 1,
@@ -48,6 +64,8 @@ class ReadingPane extends React.Component {
 }
 
   handleChapterSelection = (event) => {
+    event.stopPropagation();
+
     // call parent function to change selected
     this.props.changeBookChapterRequest(this.state.selectedbookId, parseInt(event.target.value));
 
@@ -64,15 +82,20 @@ class ReadingPane extends React.Component {
 
   // handle verse selected event
   handleSelectVerseEvent = (event) => {
-    let target = event.currentTarget;
-    let book = event.currentTarget.dataset.book;
-    let chapter = event.currentTarget.dataset.chapter;
-    let verse = event.currentTarget.dataset.verse;
-    if (target.classList.contains("verse")) {
-      this.setState({
-        selectedVerse: parseInt(verse),
-      });
-      this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
+
+    // if menu is not open, allow selecting verse
+    if (this.state.hideBookDropdown) {
+      event.stopPropagation();
+      let target = event.currentTarget;
+      let book = event.currentTarget.dataset.book;
+      let chapter = event.currentTarget.dataset.chapter;
+      let verse = event.currentTarget.dataset.verse;
+      if (target.classList.contains("verse")) {
+        this.setState({
+          selectedVerse: parseInt(verse),
+        });
+        this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
+      }
     }
   }
 
@@ -89,9 +112,12 @@ class ReadingPane extends React.Component {
     }
     
     return (
-      <div className="reading-pane">
+      <div className="reading-pane" onClick={this.handleReadingPaneClick}>
         <div className="book-select">
-          <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>{this.props.bibleIndex[this.props.bookId].title}</button>
+          <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
+            {this.props.bibleIndex[this.props.bookId].title}
+            <triangle className="down"></triangle>
+          </button>
           <div className={classNames("book-dropdown", {hide: this.state.hideBookDropdown})}>
             <ul className="book-list" onClick={this.handleBookSelection}>
               {Object.keys(this.props.bibleIndex).map(bookId => (
