@@ -95,7 +95,7 @@
   overflow: scroll;
   width: calc(100% - 80px);
   padding: 20px 40px;
-  height: 100%;
+  height: calc(100% - 70px); /* 70px is menu height with padding */
 }
 
 .content-pane .title {

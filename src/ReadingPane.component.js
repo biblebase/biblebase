@@ -115,7 +115,7 @@ class ReadingPane extends React.Component {
       <div className="reading-pane" onClick={this.handleReadingPaneClick}>
         <div className="book-select">
           <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
-            {this.props.bibleIndex[this.props.bookId].title}
+            {this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}  
             <triangle className="down"></triangle>
           </button>
           <div className={classNames("book-dropdown", {hide: this.state.hideBookDropdown})}>
@@ -134,7 +134,6 @@ class ReadingPane extends React.Component {
         </div>
         <div className="content-pane">
           <div className="chapter">
-            <div className="title">{this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}</div>
             {verses.map( verse => (
               <span className={classNames("verse", {selected: verse.verse === this.state.selectedVerse})} 
                 key={`${this.props.bookId}.${verse.chapter}.${verse.verse}`}
