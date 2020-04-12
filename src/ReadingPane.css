@@ -5,7 +5,7 @@
 
 .reading-pane .book-select {
   height: 50px;
-  padding: 10px;
+  padding: 10px 40px;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
@@ -32,7 +32,7 @@
   background-color: #ffffff;
   overflow-y: scroll;
   position: fixed;
-  left: 10px;
+  left: 40px;
   top: 50px;;
   z-index: 10;
   border: solid #949494 1px;
@@ -67,7 +67,7 @@
   overflow-y: scroll;
   overflow-x: hidden;
   position: fixed;
-  left: calc(10px + 200px);
+  left: calc(40px + 200px);
   top: 50px;;
   z-index: 10;
   border: solid #949494 1px;
