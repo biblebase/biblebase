@@ -1,13 +1,12 @@
-require 'nokogiri'
-require 'open-uri'
 require 'yaml'
-require 'pry'
 require 'date'
 require 'json'
 require_relative 'consts'
 require_relative 'crawler'
 
 class CbcwlaCrawler < Crawler
+  ALL_VERSES = "*"
+
   def initialize(max_verse)
     @max_verse = max_verse
     super()
@@ -18,8 +17,7 @@ class CbcwlaCrawler < Crawler
     book = $BOOKS[book_abbr.to_sym]
 
     url = "http://cbcwla.org/home/sermons/book/#{book.dig(:full_name, :en).downcase}/"
-    html = open(url)
-    doc = Nokogiri::HTML(html)
+    doc = request(url)
     sermon_sections = doc.search('.cbcwla_sermon_main article')
     ret = sermon_sections.each_with_object({}) do |sermon, ret|
       next unless sermon.search('.service_type a').text == '主日證道'
@@ -98,11 +96,10 @@ class CbcwlaCrawler < Crawler
 
       # TODO
       # 1. consider the part after comma shares the same chapter, e.g. Phil 2:2-4,6
-      # 2. consider only chapter, e.g. Phil 1
-      # 3. consider across chapters, e.g. Phil 1-2
+      # 2. consider across chapters, e.g. Phil 1-2
       chapter_verses.split(/,\s*/).map do |chapter_verse|
         chapter_str, verse_range = chapter_verse.split(':')
-        ret.push("#{book_key}.#{chapter_str}.#{verse_range}")
+        ret.push("#{book_key}.#{chapter_str}.#{verse_range || ALL_VERSES}")
       end
     end
   end
@@ -114,10 +111,14 @@ class CbcwlaCrawler < Crawler
   end
 
   def bundle_to_verses(bundle)
-    book, chapter, verse_bundle, suf = bundle.split('.')
-    lbound, ubound = verse_bundle.split('-')
-    ubound ||= lbound
-    verse_range = (lbound.to_i)..(ubound.to_i)
+    book, chapter, verse_bundle, _ = bundle.split('.')
+    verse_range = if verse_bundle == ALL_VERSES
+                    1..@max_verse
+                  else
+                    lbound, ubound = verse_bundle.split('-')
+                    ubound ||= lbound
+                    (lbound.to_i)..(ubound.to_i)
+                  end
     verse_range.map{|verse| "#{book}.#{chapter}.#{verse}" }
   end
 

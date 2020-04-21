@@ -1,6 +1,3 @@
-require 'nokogiri'
-require 'open-uri'
-require 'pry'
 require_relative 'consts'
 require_relative 'crawler'
 
@@ -97,7 +94,7 @@ class GodcomCrawler < Crawler
     ret = RULES.each_with_object({}) do |kv, ret|
       key, rule = kv
       url = rule.delete(:url_fn).call(book, chapter)
-      doc = get_doc(url)
+      doc = request(url, "GB18030")
       ps = cleaned_paragraphs(doc)
 
       parse_rules = rule.delete(:parse_rules)
@@ -137,11 +134,6 @@ class GodcomCrawler < Crawler
   end
 
   private
-
-  def get_doc(url)
-    html = open(url)
-    return Nokogiri::HTML(html, nil, "GB18030")
-  end
 
   def cleaned_paragraphs(doc)
     return doc.search('p').map do |p| 

@@ -1,6 +1,3 @@
-require 'nokogiri'
-require 'open-uri'
-require 'pry'
 require_relative 'consts'
 require_relative 'crawler'
 
@@ -11,8 +8,7 @@ class BiblecomCrawler < Crawler
 
     versions = $VERSIONS.map do |_, v|
       url = "https://www.bible.com/bible/#{v[:bible_com_index]}/#{book_abbr}.#{chapter}.#{verse}"
-      html = open(url)
-      doc = Nokogiri::HTML(html)
+      doc = request(url)
       text = doc.search('a .lh-copy').text
       v.reject{|k,_| k == :bible_com_index}
         .merge(text: text)

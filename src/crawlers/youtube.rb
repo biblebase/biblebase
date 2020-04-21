@@ -1,5 +1,4 @@
-require 'nokogiri'
-require 'open-uri'; require 'cgi'; require 'uri'
+require 'cgi'; require 'uri'
 require 'date'
 require 'pry'
 
@@ -20,7 +19,7 @@ class YoutubeCrawler < Crawler
 
     base_url = "https://www.youtube.com"
     url = "#{base_url}/results?search_query=#{URI.escape hhb[:text]}"
-    doc = Nokogiri::HTML(open(url))
+    doc = request(url)
 
     hymns = doc.search('.yt-lockup button.addto-button').map do |elem|
       id = elem.attr('data-video-ids')
@@ -35,7 +34,7 @@ class YoutubeCrawler < Crawler
 
       duration = video_data['lengthSeconds'].to_i
       category = video_data['category']
-      valid_duration_range = minutes(2)..minutes(10)
+      valid_duration_range = minutes(3)..minutes(10)
       if category == 'Music' and valid_duration_range.include?(duration)
         {
           id: "youtube-#{id}",
@@ -44,7 +43,7 @@ class YoutubeCrawler < Crawler
           publisher: video_data['ownerChannelName'],
           date: Date.parse(video_data['publishDate']).to_s,
           title: video_data.dig('title', 'simpleText'),
-          description: video_data.dig('description', 'simpleText').gsub(' ', ''),
+          description: video_data.dig('description', 'simpleText').to_s.gsub(' ', ''),
           duration: duration
         }
       end

@@ -1,3 +1,5 @@
+require 'nokogiri'
+require 'open-uri'
 require 'yaml'
 require 'json'
 
@@ -22,5 +24,10 @@ class Crawler
 
   def item_html(obj)
     raise 'to be implemented'
+  end
+
+  def request(url, encoding=nil)
+    html = open(url)
+    doc = Nokogiri::HTML(html, nil, encoding)
   end
 end
