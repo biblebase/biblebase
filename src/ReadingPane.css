@@ -93,9 +93,10 @@
 
 .reading-pane .content-pane {
   overflow: scroll;
-  width: calc(100% - 80px);
-  padding: 20px 40px;
-  height: calc(100% - 70px); /* 70px is menu height with padding */
+  width: calc(100% - 40px);
+  padding: 40px 20px;
+  height: calc(100% - 70px - 80px); /* 70px is menu height with padding */
+  display: flex;
 }
 
 .content-pane .title {
@@ -136,7 +137,7 @@ triangle {
   margin: 5px 10px;
 }
 
-triangle.down {
+.triangle-down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
