@@ -1,5 +1,12 @@
 # BibleBase Development
 
+## Interface
+
+The json for each verse is in format defined in `docs/bible-references-sample.json`, it is the contract between different layers:
+* Crawlers generates the file of this format,
+* Backend (in the future) returns json in this format, and
+* Frontend handles json in this format.
+
 ## Run Crawler
 
 ```bash
