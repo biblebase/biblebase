@@ -1,5 +1,4 @@
-require 'nokogiri'
-require 'open-uri'; require 'cgi'; require 'uri'
+require 'cgi'; require 'uri'
 require 'date'
 require 'pry'
 
@@ -20,7 +19,7 @@ class YoutubeCrawler < Crawler
 
     base_url = "https://www.youtube.com"
     url = "#{base_url}/results?search_query=#{URI.escape hhb[:text]}"
-    doc = Nokogiri::HTML(open(url))
+    doc = request(url)
 
     hymns = doc.search('.yt-lockup button.addto-button').map do |elem|
       id = elem.attr('data-video-ids')

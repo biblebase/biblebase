@@ -1,3 +1,5 @@
+require 'pry'
+
 $CHINESE_NUMBERS = "一二三四五六七八九十廿"
 
 $BOOKS = {
@@ -232,10 +234,10 @@ $BOOKS = {
 }
 $BOOK_LOOKUP = $BOOKS.each_with_object({}) do |kv, ret|
   key, book = kv
-  book[:full_name].each do |lang, v|
+  (book[:full_name] || []).each do |lang, v|
     ret[v] = key
   end
-  book[:short_name].each do |lang, v|
+  (book[:short_name] || []).each do |lang, v|
     ret[v] = key
   end
 end

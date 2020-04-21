@@ -1,7 +1,4 @@
-require 'nokogiri'
-require 'open-uri'
 require 'yaml'
-require 'pry'
 require 'date'
 require 'json'
 require_relative 'consts'
@@ -20,8 +17,7 @@ class CbcwlaCrawler < Crawler
     book = $BOOKS[book_abbr.to_sym]
 
     url = "http://cbcwla.org/home/sermons/book/#{book.dig(:full_name, :en).downcase}/"
-    html = open(url)
-    doc = Nokogiri::HTML(html)
+    doc = request(url)
     sermon_sections = doc.search('.cbcwla_sermon_main article')
     ret = sermon_sections.each_with_object({}) do |sermon, ret|
       next unless sermon.search('.service_type a').text == '主日證道'
