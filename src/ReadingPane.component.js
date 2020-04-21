@@ -116,7 +116,7 @@ class ReadingPane extends React.Component {
         <div className="book-select">
           <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
             {this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}  
-            <triangle className="down"></triangle>
+            <span className="triangle triangle-down"></span>
           </button>
           <div className={classNames("book-dropdown", {hide: this.state.hideBookDropdown})}>
             <ul className="book-list" onClick={this.handleBookSelection}>

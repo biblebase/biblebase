@@ -85,6 +85,19 @@
 
 .guide .content .desc {
   font-size: 0.8em;
+
+    /* below takes care of long URL that's unable to wrap */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  
+    -ms-word-break: break-all;
+    word-break: break-word;
+  
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 .video-wrapper {
@@ -92,6 +105,7 @@
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  width: 100%;
 }
 
 .video-wrapper iframe {

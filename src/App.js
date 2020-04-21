@@ -18,7 +18,6 @@ class BibleApp extends React.Component {
 
   componentDidMount() {
     this.changeBookChapterRequest(this.state.bookId, this.state.chapter);
-    this.changeVerseSelectionRequest(this.state.bookId, this.state.chapter, this.state.selectedVerse);
   }
 
   changeBookChapterRequest = (bookId, chapter) => {
@@ -39,23 +38,15 @@ class BibleApp extends React.Component {
   
   // select a verse
   changeVerseSelectionRequest = (bookId, chapter, verse) => {
-    if (bookId === 50) { // TODO can only handle book 50 right now (sample data)
-      getVerseJson(bookId, chapter, verse).then( data => {
-        this.setState({
-          selectedVerse: verse,
-          verseReference: data
-        });
-      }, res => {
-        console.log("Unable to fetch verse data");
-        console.log(res);
-      });
-      
-    } else {
+    getVerseJson(bookId, chapter, verse).then( data => {
       this.setState({
         selectedVerse: verse,
-        verseReference: {}
-      })
-    }
+        verseReference: data
+      });
+    }, res => {
+      console.log("Unable to fetch verse data");
+      console.log(res);
+    });
   }
 
   render(){
