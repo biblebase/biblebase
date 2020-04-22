@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-require_relative 'godcom'
-require_relative 'biblecom'
-require_relative 'youtube'
-require_relative 'cbcwla'
-require_relative 'consts'
+require_relative 'crawlers/godcom'
+require_relative 'crawlers/biblecom'
+require_relative 'crawlers/youtube'
+require_relative 'crawlers/cbcwla'
+require_relative 'lib/consts'
 
 book = ARGV.shift
 chapter = ARGV.shift

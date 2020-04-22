@@ -3,7 +3,7 @@ require 'open-uri'
 require 'yaml'
 require 'json'
 
-class Crawler
+class Base
   def initialize
     @cache = {}
   end
