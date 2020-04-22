@@ -63,8 +63,12 @@ words_files.each do |words_file|
 
   # connections
   common_words = analytics.delete(:commonWords)
-  connections = common_words.select{|k,v| v.uniq.size >= COMMON_WORDS_TO_CONNECT}
-  analytics[:connections] = connections unless connections.empty?
+  if common_words.nil?
+    warn [verse_key, analytics]
+  else
+    connections = common_words.select{|k,v| v.uniq.size >= COMMON_WORDS_TO_CONNECT}
+    analytics[:connections] = connections unless connections.empty?
+  end
 
   # save
   filename = words_file.sub(/words.json$/, 'analytics.json')

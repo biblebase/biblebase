@@ -87,7 +87,7 @@ $STOP_WORDS = %w[
   within along besides between all under into
   before unto during
   because as but however therefore though then
-  when while what why whatever which there whom
+  when while what why whatever which there who whom
   a an the any not
   and s so this that these those also than or
   never man own now day indeed even
