@@ -28,7 +28,7 @@ class StudyGuide extends React.Component {
             })        
             let section = document.getElementById(sectionId);
             const menuHeight = document.getElementById("menu").offsetHeight;
-            document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight
+            document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight;
         }
 
     }

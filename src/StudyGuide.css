@@ -2,27 +2,23 @@
   height: 100%;
   width: 100%;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 #study-guide #menu {
-  height: 70px;
-  padding-left: 40px;
-  padding-bottom: 20px;
+  height: 80px;
+  padding: 20px 20px 40px 40px;
   width: 100%;
-  position: fixed;
-  top: 0px;
-  z-index: 5;
   background-color:#fffafa;
   display: flex;
-  align-items: flex-end;
   justify-content: flex-start;
   box-shadow: 0px 5px 5px -2px rgba(0,0,0,.2);
+  box-sizing: border-box;
 }
 
 #study-guide .menu-heading {
   width: 200px;
   font-size: 1.5em;
-  margin-bottom: 10px;
 }
 
 #study-guide .menu-items {
@@ -32,7 +28,8 @@
 #study-guide .menu-item {
   cursor: pointer;
   text-decoration: none;
-  margin: 10px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #study-guide #study-content {
@@ -40,11 +37,13 @@
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 90px; /* height of menu, using margin so scroll bar will overlap with menu */
   padding-bottom: 20px;
-  height: calc(100% - 90px); /* minus height of menu or portion at bottom won't show */
+  height: calc(100% - 80px); /* minus height of menu or portion at bottom won't show */
   overflow: scroll;
   scroll-behavior: smooth;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-top: 5px; /* compensate for menu shadow */
 }
 
 #study-guide .guide {

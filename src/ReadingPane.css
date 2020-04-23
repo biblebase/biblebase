@@ -1,6 +1,8 @@
 .reading-pane {
   justify-content: center;
   height: 100%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .reading-pane .book-select {
@@ -92,11 +94,12 @@
 }
 
 .reading-pane .content-pane {
-  overflow: scroll;
-  width: calc(100% - 40px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: calc(100%);
   padding: 40px 20px;
-  height: calc(100% - 70px - 80px); /* 70px is menu height with padding */
-  display: flex;
+  height: calc(100% - 50px); /* 70px is menu height with padding */
+  box-sizing: border-box;
 }
 
 .content-pane .title {
@@ -139,5 +142,10 @@
 
 .triangle-down {
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.previous {
+  transform: rotate(-45deg);
   -webkit-transform: rotate(45deg);
 }

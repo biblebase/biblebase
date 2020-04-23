@@ -9,8 +9,8 @@ class BibleApp extends React.Component {
 
   // init to Genesis 1:1
   state = {
-    bookId: 1,
-    chapter: 1,
+    bookId: 50,
+    chapter: 2,
     data: {},
     selectedVerse: 0,
     verseReference: {}
