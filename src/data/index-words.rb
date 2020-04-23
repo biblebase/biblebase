@@ -2,12 +2,21 @@ require 'json'
 require 'yaml'
 require_relative 'lib/consts'
 
-RARE_WORD_THRESHOLD = 2..3
-POLYSEMY_RANGE = 3..10
+RARE_WORD_BY_POS = %w[n v adj adv i heb aram]
+RARE_WORD_BY_OCCURANCE = 2..3
+POLYSEMY_BY_POS = %w[n v adj]
+POLYSEMY_BY_ENGS = 3..10
+
+def get_main_pos(pos)
+  pos.split(' | ')
+    .map{|k| k.downcase.split(/[^0-9a-z]/).first}
+    .sort_by{|k| RARE_WORD_BY_POS.include?(k) ? 0 : 1 }
+    .first
+end
 
 words_files = `find ./verses_data -name words.json`.split
-bar = ProgressBar.new(words_files.count)
 
+bar = ProgressBar.create(total: words_files.count)
 words_hash = words_files.each_with_object({}) do |words_file, h|
   verse_key, words = JSON.parse(File.read(words_file)).to_a.first
   words.each do |w|
@@ -16,12 +25,15 @@ words_hash = words_files.each_with_object({}) do |words_file, h|
     id = w["id"]
     translit = w["translit"]
 
-    h[id] ||= {translits: {}}
+    h[id] ||= {
+      pos: get_main_pos(w["pos"]),
+      translits: {}
+    }
     h[id][:translits][translit] ||= {}
     h[id][:translits][translit][eng] ||= []
     h[id][:translits][translit][eng].push verse_key
   end
-  bar.increment!
+  bar.increment
 end
 
 words_hash.each do |id, v|
@@ -33,15 +45,15 @@ words_hash.each do |id, v|
     words_hash[id][:unique] = true
   end
 
-  if RARE_WORD_THRESHOLD.include? occurances.size
+  if RARE_WORD_BY_POS.include?(v[:pos]) and RARE_WORD_BY_OCCURANCE.include?(occurances.size)
     words_hash[id][:rare] = true
   end
 
-  if POLYSEMY_RANGE.include? engs.size
-    words_hash[id][:polysemy] = true
+  if POLYSEMY_BY_POS.include?(v[:pos]) and POLYSEMY_BY_ENGS.include?(engs.size)
+    words_hash[id][:polysemies] = engs
   end
 end
 
-File.open("./words_data.yml", 'w') do |f|
+File.open("./verses_data/dict.yml", 'w') do |f|
   f << words_hash.to_yaml
 end

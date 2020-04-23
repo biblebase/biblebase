@@ -1,6 +1,7 @@
 require 'pry'
 require 'yaml'
-require 'progress_bar'
+require 'ruby-progressbar'
+require_relative 'monkey_patches'
 
 $CHINESE_NUMBERS = "一二三四五六七八九十廿"
 
@@ -9,10 +10,15 @@ $BOOK_LOOKUP = $BOOKS.each_with_object({}) do |kv, ret|
   key, book = kv
   (book[:full_name] || []).each do |lang, v|
     ret[v] = key
+    ret[v.downcase] = key
+    ret[v.downcase.snake_case] = key
   end
   (book[:short_name] || []).each do |lang, v|
     ret[v] = key
+    ret[v.downcase] = key
+    ret[v.downcase.snake_case] = key
   end
+  ret["index_#{book[:index]}"] = key
 end
 $LANGS = {
   chs: {
@@ -51,26 +57,6 @@ $VERSIONS = {
   }
 }
 
-# monkey patches
-class Hash
-  def compact
-    self.each_with_object({}) do |kv, h|
-      k,v = kv
-      h[k] = v if v
-    end
-  end
-end
-
-class Array
-  def compact_join
-    if self.any?{|item| not item.nil? and item.size > 0}
-      self.join
-    else
-      nil
-    end
-  end
-end
-
 # functions
 require 'lemmatizer'
 require 'stemmify'
@@ -79,22 +65,20 @@ $STOP_WORDS = %w[
   my our your his their mine them
   myself themselves yourself yourselves himself herself
   be is are was were am been being
-  will should shall might
+  will should shall might would can could may
   do did does
   have has having let
   to from in for out at to of on up
   away with among against after by through
   within along besides between all under into
   before unto during
-  because as but however therefore though then
+  because as but however therefore though then yet
   when while what why whatever which there who whom
-  a an the any not
+  a an the any not o oh
   and s so this that these those also than or
   never man own now day indeed even
   things every anyone everyone if new
-  -
-  lord savior jesus christ god
-  glory beloved holy spirit grace heaven heavens
+  - ‘
 ]
 $lem = Lemmatizer.new
 def stem(word)

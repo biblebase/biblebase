@@ -1,19 +1,40 @@
 require 'json'
 require 'yaml'
+require 'parallel'
 require_relative 'lib/consts'
 
-COMMON_WORDS_TO_CONNECT = 4
+# filter words by its PoS
+# N-*: all the nouns, except(god 2316, lord 2962, jesus 2424, christ 5547,...)
+# V-*: all the verbs except(be 1510, have 2192...)
+# Heb/Aram
+# !adv|conj|relpro|art|prep|ppro
+# ?dpro|ipro|pronoun|ppro|recpro|refpro|i|prtcl|
+# Adj-*: except(one 1520, same 846, many 4183, all 3956) 
+# - OR -
+# Any V,N,Adj that has less than 150 occurances, according to
+# - N:water (5204) has 80
+# - V:live (2198) has 141
+# - A:truely (227) has 26
+# comparing to
+# - N:woman (1135) has 217
+# - V:give (1325) has 416
+# - A:great (3173) has 243
+# And we can use the same rule for hebrew
+CONNECT_BY_POS = %w[n v adj heb aram]
+CONNECT_BY_OCCURANCE = 2..150
+CONNECT_BY_COMMON_WORDS = 4..10
+
 MAX_POLYSEMY_SAMPLES = 3
 
-words_index = YAML.load(File.read('./words_data.yml'))
+words_index = YAML.load(File.read('./verses_data/dict.yml'))
 
 words_files = `find ./verses_data -name words.json`.split
-bar = ProgressBar.new(words_files.count)
 
-words_files.each do |words_file|
+Parallel.each(words_files, progress: 'Analysing') do |words_file|
+# @NON_PARALLEL: words_files.each do |words_file|
   verse_key, words = JSON.parse(File.read(words_file)).to_a.first
   # chapter_key = verse_key.split('.')[0..1].join('.')
-  analytics = words.each_with_object({}) do |w, analytics|
+  analytics = words.uniq{|w| w["id"]}.each_with_object({}) do |w, analytics|
     eng = stem(w["eng"])
     next if eng.empty?
 
@@ -36,44 +57,37 @@ words_files.each do |words_file|
     end
 
     # polysemies
-    if word_info[:polysemy]
+    if word_info[:polysemies]
       analytics[:polysemies] ||= {}
       analytics[:polysemies][w["eng"]] = word_info[:translits].each_with_object({}) do |kv, h|
         _,tr = kv
         tr.each do |k, verse_keys|
-          h[k] = ((h[k] || []) + verse_keys)[0..MAX_POLYSEMY_SAMPLES]
+          h[k] = ((h[k] || []) + verse_keys).uniq[0..MAX_POLYSEMY_SAMPLES]
         end
       end
     end
 
     # all other occurances
+    next unless CONNECT_BY_POS.include? word_info[:pos]
+    otherVerses = (occurances - [verse_key]).uniq
+    next unless CONNECT_BY_OCCURANCE.include? otherVerses.size
+
     analytics[:commonWords] ||= {}
-    (occurances - [verse_key]).uniq.each do |vk|
-      analytics[:commonWords][vk] ||= []
-      analytics[:commonWords][vk].push w["eng"]
+    analytics[:commonWords] = otherVerses.each_with_object(analytics[:commonWords]) do |vk, h|
+      h[vk] ||= []
+      h[vk].push w["eng"]
     end
-#    occurances.map do |vk|
-#      ck = vk.split('.')[0..1].join('.')
-#      ck == chapter_key ? nil : ck
-#    end.compact.uniq.each do |ck|
-#      analytics[:commonWords][ck] ||= 0
-#      analytics[:commonWords][ck] += 1
-#    end
   end
 
   # connections
-  common_words = analytics.delete(:commonWords)
-  if common_words.nil?
-    warn [verse_key, analytics]
-  else
-    connections = common_words.select{|k,v| v.uniq.size >= COMMON_WORDS_TO_CONNECT}
-    analytics[:connections] = connections unless connections.empty?
-  end
+  common_words = analytics.delete(:commonWords) || {}
+  connections = common_words
+    .select{|k,v| CONNECT_BY_COMMON_WORDS.include? v.uniq.size }
+    .map{|k,v| [k, v.uniq]}.to_h
+  analytics[:connections] = connections unless connections.empty?
 
   # save
   filename = words_file.sub(/words.json$/, 'analytics.json')
   output = Hash[*[verse_key, analytics]]
   File.open(filename, 'w'){|f| f << output.to_json}
-
-  bar.increment!
 end
