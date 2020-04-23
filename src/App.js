@@ -26,7 +26,7 @@ class BibleApp extends React.Component {
       this.setState({
         bookId: bookId,
         chapter: chapter,
-        selectedVerse: 1, // default
+        selectedVerse: 0, // default
         data: data
       });
     }, res => {

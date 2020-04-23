@@ -27,14 +27,14 @@ class StudyGuide extends React.Component {
                 activeSection: sectionId
             })        
             let section = document.getElementById(sectionId);
-            const menuHeight = document.getElementById("menu").offsetHeight;
-            document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight;
+            const menuHeight = document.getElementById("menu").offsetHeight; // offsetHeight is height of menu content
+            document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight; 
         }
 
     }
 
     render() {
-        if (Object.keys(this.props.verseReference).length === 0)
+        if (this.props.verse === 0)
             return <div></div>
 
         const verseObject = this.props.verseReference;
