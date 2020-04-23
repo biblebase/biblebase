@@ -1,7 +1,7 @@
-require_relative 'consts'
-require_relative 'crawler'
+require_relative '../lib/consts'
+require_relative 'base'
 
-class BiblecomCrawler < Crawler
+class BiblecomCrawler < Base
   def fetch(verse_key)
     book_abbr, chapter, verse = verse_key.split('.')
     book = $BOOKS[book_abbr.to_sym]

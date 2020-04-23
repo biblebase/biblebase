@@ -1,8 +1,8 @@
-require_relative 'consts'
-require_relative 'crawler'
+require_relative '../lib/consts'
+require_relative 'base'
 
 
-class GodcomCrawler < Crawler
+class GodcomCrawler < Base
   URL_PREFIX = "http://www.godcom.net/chajing/New%20Testament"
   CLEAR_KEY = '<clear>'
   RULES = {

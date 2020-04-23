@@ -1,10 +1,10 @@
 require 'yaml'
 require 'date'
 require 'json'
-require_relative 'consts'
-require_relative 'crawler'
+require_relative '../lib/consts'
+require_relative 'base'
 
-class CbcwlaCrawler < Crawler
+class CbcwlaCrawler < Base
   ALL_VERSES = "*"
 
   def initialize(max_verse)

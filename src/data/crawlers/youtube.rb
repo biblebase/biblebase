@@ -2,11 +2,11 @@ require 'cgi'; require 'uri'
 require 'date'
 require 'pry'
 
-require_relative 'consts'
-require_relative 'crawler'
+require_relative '../lib/consts'
+require_relative 'base'
 require_relative 'biblecom'
 
-class YoutubeCrawler < Crawler
+class YoutubeCrawler < Base
   def initialize(biblecom_crawler)
     @biblecom_crawler = biblecom_crawler
     super()
