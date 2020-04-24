@@ -45,6 +45,50 @@ class ReadingPane extends React.Component {
     }
   }
 
+  handlePrevButtonClick = () => {
+    let book = this.props.bookId;
+    let chapter = this.props.chapter;
+    
+    // invalid
+    if (chapter === 1 && book === 1) {
+      return;
+    }
+
+    // need to go to previous chapter
+    if (chapter === 1) {
+      book -= 1;
+      chapter = this.props.bibleIndex[book].chapters;
+    } else {
+      chapter -= 1;
+    }
+    this.setState({
+      selectedVerse: 0
+    })
+    this.props.changeBookChapterRequest(book, chapter);
+  }
+
+  handleNextButtonClick = () => {
+    let book = this.props.bookId;
+    let chapter = this.props.chapter;
+
+    // invalid
+    if (book === 66 && chapter === 22) {
+      return;
+    }
+
+    // next book
+    if (chapter === this.props.bibleIndex[book].chapters) {
+      book += 1;
+      chapter = 1;
+    } else {
+      chapter += 1;
+    }
+    this.setState({
+      selectedVerse: 0
+    })
+    this.props.changeBookChapterRequest(book, chapter);
+  }
+
   handleDropdownButtonClick = (event) => {
     this.setState({
       selectedbookId: 0,
@@ -114,10 +158,30 @@ class ReadingPane extends React.Component {
     return (
       <div className="reading-pane" onClick={this.handleReadingPaneClick}>
         <div className="book-select">
-          <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
-            {this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}  
-            <span className="triangle triangle-down"></span>
-          </button>
+          {
+            this.props.bookId === 1 && this.props.chapter === 1?
+            (<div className="prev prev-disabled">
+              <span className="triangle triangle-prev-disabled" ></span>
+            </div>) :
+            (<div className="prev" onClick={this.handlePrevButtonClick}>
+              <span className="triangle triangle-prev" ></span>
+            </div>)
+          }
+          <div className="book-nav">
+            <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
+              {this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}  
+              <span className="triangle triangle-down"></span>
+            </button>
+          </div>
+          {
+            this.props.bookId === 66 && this.props.chapter === 22?
+            (<div className="next next-disabled">
+              <span className="triangle triangle-next-disabled" ></span>
+            </div>) :
+            (<div className="next" onClick={this.handleNextButtonClick}>
+              <span className="triangle triangle-next" ></span>
+            </div>)
+          }
           <div className={classNames("book-dropdown", {hide: this.state.hideBookDropdown})}>
             <ul className="book-list" onClick={this.handleBookSelection}>
               {Object.keys(this.props.bibleIndex).map(bookId => (
