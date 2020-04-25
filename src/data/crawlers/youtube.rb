@@ -19,7 +19,7 @@ class YoutubeCrawler < Base
 
     base_url = "https://www.youtube.com"
     url = "#{base_url}/results?search_query=#{URI.escape hhb[:text]}"
-    doc = request(url)
+    doc = get_doc(url)
 
     hymns = doc.search('.yt-lockup button.addto-button').map do |elem|
       id = elem.attr('data-video-ids')

@@ -8,7 +8,7 @@ class BiblecomCrawler < Base
 
     versions = $VERSIONS.map do |_, v|
       url = "https://www.bible.com/bible/#{v[:bible_com_index]}/#{book_abbr}.#{chapter}.#{verse}"
-      doc = request(url)
+      doc = get_doc(url)
       text = doc.search('a .lh-copy').text
       v.reject{|k,_| k == :bible_com_index}
         .merge(text: text)

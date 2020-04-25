@@ -26,5 +26,9 @@ class String
     tr("-", "_").
     downcase
   end
+
+  def kabab_case
+    snake_case.gsub('_', '-')
+  end
 end
 

@@ -13,7 +13,7 @@ class BiblehubCrawler < Base
     file = "./#{HTML_CACHE_ROOT}/#{book_index}/#{c}/#{v}/#{klass_name}.htm"
     mv(html.path, file)
 
-    doc = Nokogiri::HTML(html)
+    doc = get_doc(html)
   end
 
   # We don't want to crawl in parallel to try to be a good citizen
@@ -39,12 +39,12 @@ class BiblehubCrawler < Base
       # save
       _, bn, c, v, _ = f.split('/')
       file = "./verses_data/#{bn}/#{c}/#{v}/words.json"
-      save(file, output.to_json)
+      save_json(file, output.to_json)
     end
   end
 
   def parse(file)
-    doc = Nokogiri::HTML(File.open(file))
+    doc = get_doc(file)
     # e.g. [{
     #   id: 2596,
     #   translit: 'kata',

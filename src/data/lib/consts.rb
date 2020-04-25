@@ -12,11 +12,13 @@ $BOOK_LOOKUP = $BOOKS.each_with_object({}) do |kv, ret|
     ret[v] = key
     ret[v.downcase] = key
     ret[v.downcase.snake_case] = key
+    ret[v.downcase.kabab_case] = key
   end
   (book[:short_name] || []).each do |lang, v|
     ret[v] = key
     ret[v.downcase] = key
     ret[v.downcase.snake_case] = key
+    ret[v.downcase.kabab_case] = key
   end
   ret["index_#{book[:index]}"] = key
 end

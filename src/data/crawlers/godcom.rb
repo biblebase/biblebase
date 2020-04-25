@@ -94,7 +94,7 @@ class GodcomCrawler < Base
     ret = RULES.each_with_object({}) do |kv, ret|
       key, rule = kv
       url = rule.delete(:url_fn).call(book, chapter)
-      doc = request(url, "GB18030")
+      doc = get_doc(url, "GB18030")
       ps = cleaned_paragraphs(doc)
 
       parse_rules = rule.delete(:parse_rules)
