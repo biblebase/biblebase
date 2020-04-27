@@ -58,7 +58,10 @@ class CbcwlaCrawler < Base
     files = `find #{HTML_CACHE_ROOT} -name #{klass_name}*.htm`.split
     bar = ProgressBar.create(total: files.count)
     sermons = files.each_with_object({}) do |f, h|
-      h.merge! parse(f)
+      parsed = parse(f)
+      parsed.each do |verse_key, ss|
+        h[verse_key] = (h[verse_key] || []) + ss
+      end
       bar.increment
     end
 
