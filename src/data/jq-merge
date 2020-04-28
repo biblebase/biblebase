@@ -1,0 +1,5 @@
+mkdir -p ../json/$1
+cat $1/*.json | jq -s '.[0] * (.[1] // {}) * (.[2] // {})' > ../json/$1.json
+if [ ! -s ../json/$1.json ]; then
+  rm ../json/$1.json
+fi

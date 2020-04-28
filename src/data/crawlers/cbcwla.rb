@@ -69,8 +69,8 @@ class CbcwlaCrawler < Base
     sermons.each do |verse_key, ss|
       book_key, c, v = verse_key.split('.')
       book_index = $BOOKS.dig(book_key.to_sym, :index)
-      json = ss.sort_by{|s| - s[:date]}.to_json
-      save_json(json, book_index, c, v)
+      sorted = ss.sort_by{|s| - s[:date]}
+      save_json(sorted, book_index, c, v)
       bar.increment
     end
   end

@@ -57,7 +57,10 @@ class Base
     raise 'implement it!'
   end
 
-  def save_json(content, book_index, chapter, verse = nil)
+  def save_json(obj, book_index, chapter, verse = nil)
+    content = Hash[*[verse_key, 
+                  Hash[*[ section_name, obj]]
+            ]].to_json
     file = "./verses_data/#{book_index}/#{chapter}/"
     file += "#{verse}/" if verse
     file += "#{section_name}.json"
