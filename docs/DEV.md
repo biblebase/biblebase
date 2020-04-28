@@ -24,9 +24,7 @@ And run chapter by chapter according to the help text from `./start`
 ```bash
 brew install parallel
 cd src/data/verses_data
-find . -type d | parallel bash ./jq-merge
-cd ../json
-find . -type d -print | xargs rmdir 2>/dev/null
+find . -type d | parallel bash ../jq-merge
 ```
 
 ## Deployment

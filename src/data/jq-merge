@@ -1,5 +1,8 @@
-mkdir -p ../json/$1
-cat $1/*.json | jq -s '.[0] * (.[1] // {}) * (.[2] // {})' > ../json/$1.json
-if [ ! -s ../json/$1.json ]; then
-  rm ../json/$1.json
+#!/usr/bin/env bash
+
+if [ "$(ls $1/*.json 2>/dev/null)" ]; then
+  mkdir -p ../json/$1
+  cat $1/*.json | jq -s '.[0] * (.[1] // {}) * (.[2] // {})' > ../json/$1.json
+
+  [ ! "$(ls -A ../json/$1)" ] && rmdir ../json/$1
 fi
