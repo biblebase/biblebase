@@ -1,8 +1,27 @@
 require_relative 'consts'
 
 class VerseBundle
-  def initialize(str)
-    @bundles = parse(str)
+  VERSE_KEY_FORMAT = /[#{$BOOKS.keys.join('|')}]\.\d+(\.\d+(-\d+)?)?/
+  # NOTE @bundle format
+  # {
+  #   php: 1,
+  #   php: 2..3,
+  #   php: {
+  #     "1": 1,
+  #     "1": 2..3,
+  #     "1": [
+  #       1,
+  #       2,
+  #       4..6
+  #     ]
+  #   }
+  # }
+  def initialize(verse_key_or_random_string)
+    if verse_key_or_random_string.match VERSE_KEY_FORMAT
+      @bundles = parse_verse_key(verse_key_or_random_string)
+    else
+      @bundles = parse(verse_key_or_random_string)
+    end
   end
 
   def to_s
@@ -81,6 +100,18 @@ class VerseBundle
   end
 
   private
+
+  # NOTE currently only used in GodcomCrawler
+  # and only support: php.1.1, php.1.1-2
+  def parse_verse_key(verse_key)
+    bk, c, v, _ = verse_key.split('.')
+    cv = if v
+           Hash[*[c, get_collection(v)]]
+         else
+           c.to_i
+         end
+    Hash[*[bk.to_sym, cv]]
+  end
 
   def verse_key(b, c, v=nil)
     [b, c, v].compact.map(&:to_s).join('.')

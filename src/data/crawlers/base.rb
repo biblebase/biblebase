@@ -71,6 +71,7 @@ class Base
   end
 
   def save_json(obj, book_index, chapter, verse = nil)
+    verse_key = get_verse_key(book_index, chapter, verse)
     content = Hash[*[verse_key, 
                   Hash[*[ section_name, obj]]
             ]].to_json
@@ -78,6 +79,11 @@ class Base
     file += "#{verse}/" if verse
     file += "#{section_name}.json"
     save_file(content, file)
+  end
+
+  def get_verse_key(book_index, chapter, verse = nil)
+    book_key = $BOOK_LOOKUP["index_#{book_index}"]
+    [book_key, chapter, verse].compact.join('.')
   end
 
   def save_file(content, file)

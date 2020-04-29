@@ -1,138 +1,70 @@
-require_relative '../lib/consts'
 require_relative 'base'
-
+require_relative 'godcom_parsers'
+require_relative '../lib/verse_bundle'
 
 class GodcomCrawler < Base
-  URL_PREFIX = "http://www.godcom.net/chajing/"
-  CLEAR_KEY = '<clear>'
-  RULES = {
-    fengsheng: {
-      title: "丰盛生命研读本",
-      parse_rules: [{ 
-        pattern: /^(\d+):(\d+)$/,
-        key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}" }
-      }, {
-        pattern: /^返回/,
-        key_fn: -> (book, chapter, m) { CLEAR_KEY }
-      }]
-    },
-    chenzhongdao: {
-      title: "新约书信读经讲义",
-      author: "陈终道",
-      parse_rules: [{
-        pattern: /（(\d+):(\d+)(-\d+)?(.)?）$/,
-        key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{m[3]}#{m[4] ? '.' + m[4].ord.to_s : ''}" }
-      }, {
-        pattern: /^问题讨论$/,
-        key_fn: -> (book, chapter, m) { CLEAR_KEY }
-      }, {
-        pattern: /^返回/,
-        key_fn: -> (book, chapter, m) { CLEAR_KEY }
-      }, {
-        pattern: /^(\d+)本节/,
-        key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[1]}" }
-      }]
-    },
-    matangna: {
-      title: "马唐纳注释",
-      author: "马唐纳",
-      parse_rules: [{
-        pattern: /（([#{$CHINESE_NUMBERS}]+)(\d+)(～(\d+))?）$/,
-        key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{ m[3] ? '-' + m[4].to_s : '' }" }
-      }, {
-        pattern: /^([#{$CHINESE_NUMBERS}]+)(\d+)([,，](\d+))?\D+/,
-        key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{ m[3] ? '-' + m[4].to_s : '' }" }
-      }]
-    },
-    dde: {
-      title: "丁道尔圣经注释",
-      author: "丁道尔",
-      parse_rules: [{
-        pattern: /^(\d+)(～(\d+))?\./,
-        key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[1]}#{ m[2] ? '-' + m[3].to_s : '' }" }
-      }, {
-        pattern: /^增注：([#{$CHINESE_NUMBERS}]+)章(\d+)(～(\d+))?节$/,
-        key_fn: -> (book, chapter, m) { CLEAR_KEY }
-      }, {
-        pattern: /^\d+\D+.+\d+页/,
-        key_fn: -> (book, chapter, m) { CLEAR_KEY }
-      }, {
-        pattern: /（([#{$CHINESE_NUMBERS}]+)(\d+)(～(\d+))?）$/,
-        key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{ m[3] ? '-' + m[4].to_s : '' }" }
-    }]
-    }
-  }
+  URL_PREFIX = "http://www.godcom.net/chajing"
 
-  def initialize(max_verse)
-    @max_verse = max_verse
-    super()
+  def fetch(url, key, book_index, ch)
+    html = open(url)
+    path = "./#{HTML_CACHE_ROOT}/#{book_index}/#{ch}"
+    `mkdir -p #{path}`
+    file = "#{path}/#{klass_name}-#{key}.htm"
+    begin
+      File.open(file, 'w'){|f| f << html.read}
+    rescue StandardError => e
+      warn "no such chapter: #{url}"
+    end
   end
 
-  def fetch(verse_key)
-    book, chapter, _ = verse_key.split('.')
+  def fetch_all
+    bar = ProgressBar.create(total: TOTAL_CHAPTERS * FETCH_RULES.size)
+    $BOOKS.each do |book_key, book_info|
+      book_index = book_info[:index]
 
-    ret = RULES.each_with_object({}) do |kv, ret|
-      key, rule = kv
-      url = rule.delete(:url_fn).call(book, chapter)
-      doc = get_doc(url, "GB18030")
-      ps = cleaned_paragraphs(doc)
+      book_index_str = '%02d' % book_index
+      testament = "#{book_info[:testament]}%20Testament"
+      abbr = book_info.dig(:short_name, :en);
+      abbr = "%20" + abbr if abbr.to_i > 0
+      url_prefix = "#{URL_PREFIX}/#{testament}/#{book_index_str}#{abbr}"
+      FETCH_RULES.each do |key, fn|
+        chapter = 1
 
-      parse_rules = rule.delete(:parse_rules)
-      parsed = parse_as_verse_titled(book, chapter, ps, parse_rules)
-      by_verse(parsed).each do |each_verse_key, content|
-        ret[each_verse_key] ||= []
-        obj = {}.merge(rule)
-          .merge(id: key)
-          .merge(text: content.values.join("\n* * *\n"))
-          .merge(content: content)
-        ret[each_verse_key].push(obj)
+        loop do 
+          fmt = (book_key == :psa) ? '%03d' : '%02d'
+          url = url_prefix + fn.call(book_index_str, fmt % chapter)
+          begin
+            fetch(url, key, book_index, chapter)
+            bar.increment
+            chapter += 1
+          rescue OpenURI::HTTPError => e
+            warn url unless key == :chenzhongdao
+            break
+          end
+        end
       end
     end
-
-    (1..@max_verse).each_with_object(ret) do |v, ret|
-      each_verse_key = "#{book}.#{chapter}.#{v}"
-      ret[each_verse_key] ||= []
-    end
   end
 
-  def item_hash(obj)
-    obj.reject do |k, _|
-      k == :content
-    end
+  def section_name
+    'interpretations'
   end
 
-  def item_html(obj)
-    """
-    <h3>#{obj[:title]}</h3>
-    <p class=\"author\">#{obj[:author]}</p>
-    <div>#{
-      obj[:content].map do |_, text|
-        "<pre>#{text}</pre>"
-      end.join
-    }</div>
-    """
-  end
+  def parse(file)
+    doc = get_doc(file, 'GB18030')
+    ps = cleaned_paragraphs(doc)
 
-  private
+    bn,c,_,parser = file.split(/[\.\-\/]/)[-5,4]
+    book_key = $BOOK_LOOKUP["index_#{bn}"]
 
-  def cleaned_paragraphs(doc)
-    return doc.search('p').map do |p| 
-      pt = p.text.gsub(/[\s\u00A0\u3000\uE013]/, '')
-    end
-  end
-
-  def parse_as_verse_titled(book, chapter, paragraphs, rules = nil)
-    default_opts = { 
-      pattern: /^(\d+):(\d+)$/,
-      key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}" }
-    }
-    rules ||= [ default_opts ]
+    parser = parser.to_sym
+    parse_rules = PARSERS[parser]
 
     current_key = nil
-    verses = paragraphs.each_with_object({}) do |p, ret|
-      matched_key = rules.map do |rule|
+    verse_bundles = ps.each_with_object({}) do |p, ret|
+      matched_key = parse_rules.map do |rule|
         if matched = p.match(rule[:pattern])
-          rule[:key_fn].call(book, chapter, matched)
+          rule[:key_fn].call(book_key, c, matched)
         end
       end.compact.first
 
@@ -144,27 +76,53 @@ class GodcomCrawler < Base
       end
     end
 
-    verses.each_with_object({}) do |kv, ret|
+    init_verse_object = Hash[*[parser, {
+      content: []
+    }.merge(METADATA[parser])]]
+    verse_bundles.each_with_object({}) do |kv, ret|
       verse_bundle, ps = kv
-      ret[verse_bundle] = ps.join("\n") unless verse_bundle == CLEAR_KEY
-    end
-  end
+      next if verse_bundle == CLEAR_KEY
+      VerseBundle.new(verse_bundle).to_a.each do |verse_key|
+        ret[verse_key] ||= init_verse_object.deep_dup
 
-  def by_verse(bundle_texts)
-    bundle_texts.each_with_object({}) do |kv, ret|
-      verse_bundle, text = kv
-      bundle_to_verses(verse_bundle).each do |verse|
-        ret[verse] ||= {}
-        ret[verse][verse_bundle] = text
+        ret[verse_key][parser][:content].push({
+          # to chop the addendum part of e.g. 2pe.1.1.19978
+          verse: verse_bundle.split('.')[0,3].join('.'),
+          paragraphs: ps
+        })
       end
     end
   end
 
-  def bundle_to_verses(bundle)
-    book, chapter, verse_bundle, suf = bundle.split('.')
-    lbound, ubound = verse_bundle.split('-')
-    ubound ||= lbound
-    verse_range = (lbound.to_i)..(ubound.to_i)
-    verse_range.map{|verse| "#{book}.#{chapter}.#{verse}" }
+  def parse_all
+    folders = `find #{HTML_CACHE_ROOT} -type d -mindepth 2`.split
+    Parallel.each(folders, progress: 'Parsing') do |d|
+      _,bn,c = d.split('/')
+      files = `ls #{d}/#{klass_name}-*.htm 2>/dev/null`.split
+      chapter_object = files.each_with_object({}) do |f, ret|
+        parsed = parse(f)
+        ret.deep_merge!(parsed)
+      end
+
+      chapter_object.each do |verse_key, obj|
+        _,_,v = verse_key.split('.')
+        save_json(obj, bn, c, v)
+      end
+    end
   end
+
+  private
+
+  def cleaned_paragraphs(doc)
+    return doc.search('p').map do |p| 
+      pt = p.text.gsub(/[\s\u00A0\u3000\uE013]/, '')
+      pt.empty? ? nil : pt
+    end.compact
+  end
+end
+
+if $0 == __FILE__
+  c = GodcomCrawler.new
+  # c.fetch_all
+  c.parse_all
 end
