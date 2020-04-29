@@ -9,7 +9,7 @@ require_relative '../lib/consts'
 class Base
   HTML_CACHE_ROOT = 'source_htmls'
   TOTAL_VERSES = 30985
-  TOTAL_CHAPTERS = 1238
+  TOTAL_CHAPTERS = 1217
 
   def initialize
     @cache = {}

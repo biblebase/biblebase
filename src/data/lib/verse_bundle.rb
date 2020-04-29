@@ -122,7 +122,7 @@ class VerseBundle
     book_key = nil
     chap_str = nil
 
-    str.gsub(/\s+:/, ':').split(/[\s,;，；]+/).each_with_object({}) do |part, h|
+    str.gsub(/\s*[:：]\s*/, ':').split(/[\s,;，；]+/).each_with_object({}) do |part, h|
       if matched = part.match(book_name_re)
         book_name = matched[0]
         chap_str = nil
@@ -136,7 +136,7 @@ class VerseBundle
 
       h[book_key] ||= {}
       if chapter_verse.size > 0
-        chapters, verses, _ = chapter_verse.split(/[:：]/)
+        chapters, verses, _ = chapter_verse.split(':')
 
         # NOTE 14:1-15:13 won't be ignored
         next unless _.nil?
