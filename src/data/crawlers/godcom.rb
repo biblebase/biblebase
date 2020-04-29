@@ -3,16 +3,11 @@ require_relative 'base'
 
 
 class GodcomCrawler < Base
-  URL_PREFIX = "http://www.godcom.net/chajing/New%20Testament"
+  URL_PREFIX = "http://www.godcom.net/chajing/"
   CLEAR_KEY = '<clear>'
   RULES = {
     fengsheng: {
       title: "丰盛生命研读本",
-      url_fn: -> (book, chapter) {
-        book_index = $BOOKS[book.to_sym][:index];
-        en_book_short_name = $BOOKS.dig(book.to_sym, :short_name, :en).capitalize;
-        "#{URL_PREFIX}/#{book_index}#{en_book_short_name}/#{book_index}%E4%B8%B0%E7%9B%9B%E7%94%9F%E5%91%BD%E7%A0%94%E8%AF%BB%E6%9C%AC/#{book_index}JT#{ '%02d' % chapter}.htm"
-      },
       parse_rules: [{ 
         pattern: /^(\d+):(\d+)$/,
         key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}" }
@@ -24,11 +19,6 @@ class GodcomCrawler < Base
     chenzhongdao: {
       title: "新约书信读经讲义",
       author: "陈终道",
-      url_fn: -> (book, chapter) {
-        book_index = $BOOKS[book.to_sym][:index];
-        en_book_short_name = $BOOKS.dig(book.to_sym, :short_name, :en).capitalize;
-        "#{URL_PREFIX}/#{book_index}#{en_book_short_name}/#{book_index}JT#{ '%02d' % chapter}.htm"
-      },
       parse_rules: [{
         pattern: /（(\d+):(\d+)(-\d+)?(.)?）$/,
         key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{m[3]}#{m[4] ? '.' + m[4].ord.to_s : ''}" }
@@ -46,11 +36,6 @@ class GodcomCrawler < Base
     matangna: {
       title: "马唐纳注释",
       author: "马唐纳",
-      url_fn: -> (book, chapter) {
-        book_index = $BOOKS[book.to_sym][:index];
-        en_book_short_name = $BOOKS.dig(book.to_sym, :short_name, :en).capitalize;
-        "#{URL_PREFIX}/#{book_index}#{en_book_short_name}/#{book_index}FT#{ '%02d' % chapter}.htm"
-      },
       parse_rules: [{
         pattern: /（([#{$CHINESE_NUMBERS}]+)(\d+)(～(\d+))?）$/,
         key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{ m[3] ? '-' + m[4].to_s : '' }" }
@@ -62,11 +47,6 @@ class GodcomCrawler < Base
     dde: {
       title: "丁道尔圣经注释",
       author: "丁道尔",
-      url_fn: -> (book, chapter) {
-        book_index = $BOOKS[book.to_sym][:index];
-        en_book_short_name = $BOOKS.dig(book.to_sym, :short_name, :en).capitalize;
-        "#{URL_PREFIX}/#{book_index}#{en_book_short_name}/#{book_index}DT#{ '%02d' % chapter}.htm"
-      },
       parse_rules: [{
         pattern: /^(\d+)(～(\d+))?\./,
         key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[1]}#{ m[2] ? '-' + m[3].to_s : '' }" }
@@ -137,7 +117,7 @@ class GodcomCrawler < Base
 
   def cleaned_paragraphs(doc)
     return doc.search('p').map do |p| 
-      pt = p.text.gsub(/[\s\u00A0\u3000]/, '')
+      pt = p.text.gsub(/[\s\u00A0\u3000\uE013]/, '')
     end
   end
 

@@ -9,6 +9,7 @@ require_relative '../lib/consts'
 class Base
   HTML_CACHE_ROOT = 'source_htmls'
   TOTAL_VERSES = 30985
+  TOTAL_CHAPTERS = 1238
 
   def initialize
     @cache = {}
@@ -20,8 +21,20 @@ class Base
     @cache[verse_key] || []
   end
 
-  def fetch(verse_key)
-    raise 'to be implemented, has to return {<verse_key>: [<object>]}'
+  def fetch_all
+    raise 'to be implemented'
+  end
+
+  def fetch(url)
+    raise 'to be implemented'
+  end
+
+  def parse_all
+    raise 'to be implemented'
+  end
+
+  def parse
+    raise 'to be implemented'
   end
 
   def item_hash(obj)
