@@ -33,17 +33,29 @@ $LANGS = {
   }
 }
 $VERSIONS = {
-  cunpss: {
-    version_id: 'CUNPSS',
-    version_name: '和合本新标点（神版）',
-    lang: 'chs',
-    bible_com_index: 48
+  cunp: {
+    version_id: 'CUNP',
+    version_name: '和合本新標點（神版）',
+    lang: 'cht',
+    bible_com_index: 46
   },
-  cnvs: {
-    version_id: 'CNVS',
-    version_name: '新译本',
+  cnv: {
+    version_id: 'CNV',
+    version_name: '新譯本',
+    lang: 'cht',
+    bible_com_index: 40
+  },
+  ccb: {
+    version_id: 'CCB',
+    version_name: '圣经当代译本',
     lang: 'chs',
-    bible_com_index: 41
+    bible_com_index: 36
+  },
+  niv: {
+    version_id: 'NIV',
+    version_name: 'New International Version',
+    lang: 'en',
+    bible_com_index: 111
   },
   nlt: {
     version_id: 'NLT',
@@ -70,7 +82,7 @@ $STOP_WORDS = %w[
   will should shall might would can could may
   do did does
   have has having let
-  to from in for out at to of on up
+  to from in for out at to of on up over
   away with among against after by through
   within along besides between all under into
   before unto during
@@ -83,10 +95,19 @@ $STOP_WORDS = %w[
   - ‘
 ]
 $lem = Lemmatizer.new
-def stem(word)
+
+def get_main_pos(pos)
+  pos.split(' | ')
+    .map{|k| k.downcase.split(/[^0-9a-z]/).first}
+    .sort_by{|k| RARE_WORD_BY_POS.include?(k) ? 0 : 1 }
+    .first
+end
+
+def stem(word, pos)
   main_word = word.gsub(/\[.+\]/, '').strip
   words = main_word.downcase.split(/[\s'’]+/)
   (words - $STOP_WORDS)
-    .map{|w| $lem.lemma(w).stem}
+    .map{|w| l = $lem.lemma(w); pos == 'n' ? l.stem : l}
     .join(' ')
 end
+

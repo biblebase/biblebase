@@ -36,7 +36,7 @@ Parallel.each(words_files, progress: 'Analysing') do |words_file|
   words = obj["words"]
   # chapter_key = verse_key.split('.')[0..1].join('.')
   analytics = words.uniq{|w| w["id"]}.each_with_object({}) do |w, analytics|
-    eng = stem(w["eng"])
+    eng = stem(w["eng"], w["pos"])
     next if eng.empty?
 
     id = w["id"]
