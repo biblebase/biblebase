@@ -24,6 +24,11 @@ class Version < Base
   end
 
   def format(item)
-    ""
+    key, obj = item
+    @h.li do
+      @h.text! obj["text"]
+      @h.span " - "
+      @h.b obj["version_name"]
+    end
   end
 end

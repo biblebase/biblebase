@@ -93,6 +93,7 @@ $STOP_WORDS = %w[
   never man own now day indeed even
   things every anyone everyone if new
   - ‘
+  jesus god christ lord holy spirit
 ]
 $lem = Lemmatizer.new
 

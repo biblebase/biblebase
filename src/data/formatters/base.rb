@@ -4,12 +4,17 @@ require 'builder'
 require 'json'
 
 class Base
-  def new_html
-    Builder::XmlMarkup.new(indent: 2)
+  def initialize(verse_key)
+    @verse_key = verse_key
+    @h = Builder::XmlMarkup.new(indent: 2)
   end
 
   def section_name
     raise "implement it"
+  end
+
+  def klass_name
+    self.class.name.snake_case
   end
 
   def format(item)
@@ -19,13 +24,12 @@ class Base
   def format_all(items)
     return "" if items.empty?
 
-    """
-    <h2>#{section_name}</h2>#{
-      items.map do |item|
+    @h.div(id: klass_name) do
+      @h.h2 section_name
+      items.each do |item|
         format(item)
-      end.join("\n")
-    }
-    """
+      end
+    end
   end
 
   private
@@ -42,23 +46,74 @@ class Base
 end
 
 if __FILE__ == $0
-  source = "verses_data/1/1/"
-  folder = "#{source}/1" # for loop
-  html = `ls #{folder}/*.json`.split.map do |f|
-    section_key = f.split(/[\/\.]/)[-2]
-    obj = JSON.parse File.open(f).read
-    items = obj.values.first[section_key]
+  source = "verses_data/40/1/"
+  v = "20"
+  folder = "#{source}/#{v}" # for loop
+  ordered_sections = %w[versions words analytics sermons interpretations]
+  html = ordered_sections.map do |sec|
+    f = "#{folder}/#{sec}.json"
+    next unless File.exists?(f)
 
-    klass_name = section_key[0..-2]
+    obj = JSON.parse File.open(f).read
+    items = obj.values.first[sec]
+
+    klass_name = sec[0..-2]
     require_relative klass_name
     klass = Object.const_get(klass_name.capitalize)
-    formatter = klass.new
-    binding.pry
+    formatter = klass.new(obj.keys.first)
     formatter.format_all(items)
-  end.join("\n")
+  end.compact.join
 
   target = source.sub('verses_data', 'html')
   `mkdir -p #{target}`
-  File.open("#{target}/1.htm", 'w'){|f| f << html}
-  `open #{target}/1.htm`
+  filename = "#{target}/#{v}.htm"
+  File.open(filename, 'w') do |f|
+    f << """
+      <style>
+        h2 {
+          clear: both;
+          padding: 10px;
+          border-radius: 2px;
+          background-color: #444;
+          color: #eee
+        }
+        .date {
+          color: grey;
+          font-size: 60%;
+        }
+        author {
+          color: grey;
+        }
+        .block {
+          word-break: keep-all;
+          border-radius: 4px;
+          background-color: #ddd;
+          padding: 10px;
+          margin-bottom: 6px;
+        }
+        .include {
+          background-color: #ccc;
+        }
+        .exact {
+          background-color: #eee;
+        }
+        #word table {
+          float: left;
+          margin: 0px 8px 16px;
+        }
+        #word span {
+          margin: 4px 0px;
+        }
+        #word .translit {
+          font-style: italic;
+        }
+        #word .original {
+          font-weight: 200;
+          font-size: 140%;
+        }
+      </style>
+    """
+    f << html
+  end
+  `open #{filename}`
 end

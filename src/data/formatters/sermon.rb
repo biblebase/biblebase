@@ -20,6 +20,25 @@ class Sermon < Base
   end
 
   def format(item)
-    ""
+    @h.h3 item["title"]
+    @h.div(class: :block) do
+      @h.author item["preacher"]
+      @h.date item["date"] 
+      @h.p(class: :verses) do
+        @h.text! item["verses"] 
+      end
+      if item["audio"]
+        @h.audio(controls: nil) do
+          @h.source(src: item["audio"])
+        end
+      end
+      if item["slides"]
+        @h.p do
+          @h.a(href: item["slides"]) do
+            @h.text! "slides"
+          end
+        end
+      end
+    end
   end
 end

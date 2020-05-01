@@ -42,6 +42,23 @@ class Interpretation < Base
   end
 
   def format(item)
-    ""
+    k, obj = item
+    @h.div do
+      @h.h3 obj["title"]
+      if obj["author"]
+        @h.author obj["author"]
+      end
+
+      obj["content"].each do |block|
+        verse = block["verse"]
+        paragraphs = block["paragraphs"]
+        class_name = verse == @verse_key ? 'exact' : 'include'
+        @h.div(class: [class_name, "block"].join(' ')) do
+          paragraphs.each do |p|
+            @h.p p
+          end
+        end
+      end
+    end
   end
 end
