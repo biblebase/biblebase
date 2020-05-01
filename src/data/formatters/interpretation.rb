@@ -37,4 +37,11 @@ require_relative 'base'
 #     }
 #   }
 class Interpretation < Base
+  def section_name
+    "解經"
+  end
+
+  def format(item)
+    ""
+  end
 end

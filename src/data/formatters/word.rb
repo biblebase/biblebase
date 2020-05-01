@@ -24,4 +24,11 @@ require_relative 'base'
 #   }
 # }
 class Word < Base
+  def section_name
+    "逐詞翻譯"
+  end
+
+  def format(item)
+    ""
+  end
 end

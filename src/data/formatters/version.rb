@@ -19,4 +19,11 @@ require_relative 'base'
 #   }
 # }
 class Version < Base
+  def section_name
+    "聖經版本"
+  end
+
+  def format(item)
+    ""
+  end
 end

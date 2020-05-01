@@ -15,4 +15,11 @@ require_relative 'base'
 #   }
 # }
 class Sermon < Base
+  def section_name
+    "證道"
+  end
+
+  def format(item)
+    ""
+  end
 end
