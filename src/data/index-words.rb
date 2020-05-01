@@ -11,7 +11,8 @@ words_files = `find ./verses_data -name words.json`.split
 
 bar = ProgressBar.create(total: words_files.count)
 words_hash = words_files.each_with_object({}) do |words_file, h|
-  verse_key, words = JSON.parse(File.read(words_file)).to_a.first
+  verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
+  words = obj["words"]
   words.each do |w|
     pos = get_main_pos(w["pos"])
     eng = stem(w["eng"], pos)
