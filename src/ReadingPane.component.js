@@ -18,8 +18,7 @@ class ReadingPane extends React.Component {
     selectedbookId: 0,
     selectedChapter: 0,
     selectedVerse: 0,
-    showBookDropdown: false,
-    showChapterDropdown: false
+    showBookDropdown: false
   }
 
   // add listeners to verse elements
@@ -39,8 +38,7 @@ class ReadingPane extends React.Component {
       this.setState({
         selectedbookId: 0,
         selectedChapter: 1,
-        showBookDropdown: !this.state.showBookDropdown,
-        showChapterDropdown: false,
+        showBookDropdown: !this.state.showBookDropdown
       });
     }
   }
@@ -93,8 +91,7 @@ class ReadingPane extends React.Component {
     this.setState({
       selectedbookId: 0,
       selectedChapter: 1,
-      showBookDropdown: !this.state.showBookDropdown,
-      showChapterDropdown: false,
+      showBookDropdown: !this.state.showBookDropdown
     });
   }
 
@@ -102,8 +99,7 @@ class ReadingPane extends React.Component {
     event.stopPropagation();
     this.setState({
         selectedbookId: event.target.value,
-        selectedChapter: 1,
-        showChapterDropdown: true
+        selectedChapter: 1
     });
 }
 
@@ -111,12 +107,14 @@ class ReadingPane extends React.Component {
     event.stopPropagation();
 
     // call parent function to change selected
-    this.props.changeBookChapterRequest(this.state.selectedbookId, parseInt(event.target.value));
+    if (this.state.selectedbookId === 0) // if using default selection (only changing chapter)
+      this.props.changeBookChapterRequest(this.props.bookId, parseInt(event.target.value));
+    else
+      this.props.changeBookChapterRequest(this.state.selectedbookId, parseInt(event.target.value));
 
     // reset
     this.setState({
       showBookDropdown: false,
-      showChapterDropdown: false,
       selectedBookId: 0,
       selectedChapter: 0,
       selectedVerse: 0
@@ -149,9 +147,15 @@ class ReadingPane extends React.Component {
     }
     const verses = this.props.data['verses'];
     let menu = [];
-    if (this.state.selectedbookId !== 0) {
+    if (this.state.selectedbookId !== 0) { // selected a book
       for (let i = 1; i <= this.props.bibleIndex[this.state.selectedbookId].chapters; i++) {
         menu.push(<option className="chapter-list-item" value={i} key={i}>{i}</option>)
+      }
+    } else { // book has not been selected, is pointing to current book
+      for (let i = 1; i <= this.props.bibleIndex[this.props.bookId].chapters; i++) {
+        menu.push(<option className={classNames("chapter-list-item", 
+            {highlight: i === this.props.chapter})} // highlight original chapter 
+            value={i} key={i}>{i}</option>)
       }
     }
     
@@ -185,12 +189,15 @@ class ReadingPane extends React.Component {
           <div className={classNames("book-dropdown", {hide: !this.state.showBookDropdown})}>
             <ul className="book-list" onClick={this.handleBookSelection}>
               {Object.keys(this.props.bibleIndex).map(bookId => (
-                  (<li className={classNames("book-list-item", {highlight: this.props.bibleIndex[bookId].id === this.state.selectedbookId})} 
+                  (<li className={classNames("book-list-item", 
+                      {highlight: this.state.selectedbookId !== 0? 
+                        this.props.bibleIndex[bookId].id === this.state.selectedbookId :
+                        this.props.bibleIndex[bookId].id === this.props.bookId})} 
                   value={bookId} key={bookId}>{this.props.bibleIndex[bookId].title}</li>)
               ))}
             </ul>
           </div>
-          <div className={classNames("chapter-dropdown", {hide: !this.state.showChapterDropdown})}>
+          <div className={classNames("chapter-dropdown", {hide: !this.state.showBookDropdown})}>
             <ul className="chapter-list" onClick={this.handleChapterSelection}>
               {menu}
             </ul>
