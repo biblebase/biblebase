@@ -18,8 +18,8 @@ class ReadingPane extends React.Component {
     selectedbookId: 0,
     selectedChapter: 0,
     selectedVerse: 0,
-    hideBookDropdown: true,
-    hideChapterDropdown: true
+    showBookDropdown: false,
+    showChapterDropdown: false
   }
 
   // add listeners to verse elements
@@ -33,14 +33,14 @@ class ReadingPane extends React.Component {
   handleReadingPaneClick = (event) => {
     event.stopPropagation();
     // if menu is open and clicked outside selection, close menu
-    if (!this.state.hideBookDropdown && 
+    if (this.state.showBookDropdown && 
         !event.target.classList.contains("book-dropdown") &&
         !event.target.classList.contains("chapter-dropdown")) {
       this.setState({
         selectedbookId: 0,
         selectedChapter: 1,
-        hideBookDropdown: !this.state.hideBookDropdown,
-        hideChapterDropdown: true,
+        showBookDropdown: !this.state.showBookDropdown,
+        showChapterDropdown: false,
       });
     }
   }
@@ -93,8 +93,8 @@ class ReadingPane extends React.Component {
     this.setState({
       selectedbookId: 0,
       selectedChapter: 1,
-      hideBookDropdown: !this.state.hideBookDropdown,
-      hideChapterDropdown: true,
+      showBookDropdown: !this.state.showBookDropdown,
+      showChapterDropdown: false,
     });
   }
 
@@ -103,7 +103,7 @@ class ReadingPane extends React.Component {
     this.setState({
         selectedbookId: event.target.value,
         selectedChapter: 1,
-        hideChapterDropdown: false
+        showChapterDropdown: true
     });
 }
 
@@ -115,8 +115,8 @@ class ReadingPane extends React.Component {
 
     // reset
     this.setState({
-      hideBookDropdown: true,
-      hideChapterDropdown: true,
+      showBookDropdown: false,
+      showChapterDropdown: false,
       selectedBookId: 0,
       selectedChapter: 0,
       selectedVerse: 0
@@ -128,7 +128,7 @@ class ReadingPane extends React.Component {
   handleSelectVerseEvent = (event) => {
 
     // if menu is not open, allow selecting verse
-    if (this.state.hideBookDropdown) {
+    if (!this.state.showBookDropdown) {
       event.stopPropagation();
       let target = event.currentTarget;
       let book = event.currentTarget.dataset.book;
@@ -182,7 +182,7 @@ class ReadingPane extends React.Component {
               <span className="triangle triangle-next" ></span>
             </div>)
           }
-          <div className={classNames("book-dropdown", {hide: this.state.hideBookDropdown})}>
+          <div className={classNames("book-dropdown", {hide: !this.state.showBookDropdown})}>
             <ul className="book-list" onClick={this.handleBookSelection}>
               {Object.keys(this.props.bibleIndex).map(bookId => (
                   (<li className={classNames("book-list-item", {highlight: this.props.bibleIndex[bookId].id === this.state.selectedbookId})} 
@@ -190,7 +190,7 @@ class ReadingPane extends React.Component {
               ))}
             </ul>
           </div>
-          <div className={classNames("chapter-dropdown", {hide: this.state.hideChapterDropdown})}>
+          <div className={classNames("chapter-dropdown", {hide: !this.state.showChapterDropdown})}>
             <ul className="chapter-list" onClick={this.handleChapterSelection}>
               {menu}
             </ul>
