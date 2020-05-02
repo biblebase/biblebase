@@ -32,10 +32,11 @@ words_files = `find ./verses_data -name words.json`.split
 
 Parallel.each(words_files, progress: 'Analysing') do |words_file|
 # @NON_PARALLEL: words_files.each do |words_file|
-  verse_key, words = JSON.parse(File.read(words_file)).to_a.first
+  verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
+  words = obj["words"]
   # chapter_key = verse_key.split('.')[0..1].join('.')
   analytics = words.uniq{|w| w["id"]}.each_with_object({}) do |w, analytics|
-    eng = stem(w["eng"])
+    eng = stem(w["eng"], w["pos"])
     next if eng.empty?
 
     id = w["id"]
@@ -88,6 +89,6 @@ Parallel.each(words_files, progress: 'Analysing') do |words_file|
 
   # save
   filename = words_file.sub(/words.json$/, 'analytics.json')
-  output = Hash[*[verse_key, analytics]]
+  output = Hash[*[verse_key, analytics: analytics]]
   File.open(filename, 'w'){|f| f << output.to_json}
 end

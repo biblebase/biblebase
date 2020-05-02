@@ -9,6 +9,7 @@ require_relative '../lib/consts'
 class Base
   HTML_CACHE_ROOT = 'source_htmls'
   TOTAL_VERSES = 30985
+  TOTAL_CHAPTERS = 1217
 
   def initialize
     @cache = {}
@@ -20,8 +21,20 @@ class Base
     @cache[verse_key] || []
   end
 
-  def fetch(verse_key)
-    raise 'to be implemented, has to return {<verse_key>: [<object>]}'
+  def fetch_all
+    raise 'to be implemented'
+  end
+
+  def fetch(url)
+    raise 'to be implemented'
+  end
+
+  def parse_all
+    raise 'to be implemented'
+  end
+
+  def parse
+    raise 'to be implemented'
   end
 
   def item_hash(obj)
@@ -32,8 +45,14 @@ class Base
     raise 'to be implemented'
   end
 
-  def request(url, encoding=nil)
-    html = open(url)
+  def get_doc(resource, encoding=nil)
+    html = if resource.is_a? Tempfile
+             html
+           elsif resource[0,4] == 'http'
+             open(resource)
+           else
+             File.open(resource)
+           end
     doc = Nokogiri::HTML(html, nil, encoding)
   end
 
@@ -47,7 +66,27 @@ class Base
     [b, c, v].compact.join('.')
   end
 
-  def save(file, content)
+  def section_name
+    raise 'implement it!'
+  end
+
+  def save_json(obj, book_index, chapter, verse = nil)
+    verse_key = get_verse_key(book_index, chapter, verse)
+    content = Hash[*[verse_key, 
+                  Hash[*[ section_name, obj]]
+            ]].to_json
+    file = "./verses_data/#{book_index}/#{chapter}/"
+    file += "#{verse}/" if verse
+    file += "#{section_name}.json"
+    save_file(content, file)
+  end
+
+  def get_verse_key(book_index, chapter, verse = nil)
+    book_key = $BOOK_LOOKUP["index_#{book_index}"]
+    [book_key, chapter, verse].compact.join('.')
+  end
+
+  def save_file(content, file)
     path = file.split('/')[0..-2].join('/')
     `mkdir -p #{path}`
     File.open(file, 'w'){|f| f << content}

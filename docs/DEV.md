@@ -9,6 +9,8 @@ The json for each verse is in format defined in `docs/bible-references-sample.js
 
 ## Run Crawler
 
+TODO: it changed
+
 ```bash
 $ cd src/crawlers
 $ bundle install
@@ -17,7 +19,31 @@ $ ./start
 
 And run chapter by chapter according to the help text from `./start`
 
+### Merge jsons
+
+```bash
+brew install parallel
+cd src/data/verses_data
+find . -type d | parallel bash ../jq-merge
+```
+
 ## Deployment
+
+To upload every generated json file sitting in `./src/data/json` folder to AWS `s3://biblebase/json`.
+The folder structure of json folder is:
+```
+book_index/
+  chapter_num/
+    - sermons.json
+    verse_num/
+      - merged.json
+      - versions.json (TODO)
+      - hymns.json (TODO)
+      - interpretations.json (TODO)
+      - words.json
+      - analytics.json
+      - sermons.json
+```
 
 ### Prerequisite
 
