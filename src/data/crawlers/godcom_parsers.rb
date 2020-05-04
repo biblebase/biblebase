@@ -31,6 +31,9 @@ class GodcomCrawler < Base
       pattern: /^返回/,
       key_fn: -> (book, chapter, m) { CLEAR_KEY }
     }, {
+      pattern: /^(\d+)\D/,
+      key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[1]}" }
+    }, {
       pattern: /^(\d+)本节/,
       key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[1]}" }
     }],

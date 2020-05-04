@@ -81,8 +81,8 @@ $STOP_WORDS = %w[
   be is are was were am been being
   will should shall might would can could may
   do did does
-  have has having let
-  to from in for out at to of on up over
+  have has having let begin
+  to from in for out at to of on up over down
   away with among against after by through
   within along besides between all under into
   before unto during

@@ -27,14 +27,15 @@ class Sermon < Base
       @h.p(class: :verses) do
         @h.text! item["verses"] 
       end
-      if item["audio"]
-        @h.audio(controls: nil) do
-          @h.source(src: item["audio"])
+      @h.p do
+        if item["audio"]
+          @h.a(href: item["audio"], target: '_blank') do
+            @h.text! "audio"
+          end
         end
-      end
-      if item["slides"]
-        @h.p do
-          @h.a(href: item["slides"]) do
+        if item["slides"]
+          @h.text! " | " if item["audio"]
+          @h.a(href: item["slides"], target: '_blank') do
             @h.text! "slides"
           end
         end

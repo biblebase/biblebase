@@ -1,0 +1,306 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+      }
+      #bible-chapter {
+        width: 400px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        overflow-y: scroll;
+        padding: 2px 20px;
+      }
+      #verse-data {
+        position: fixed;
+        top: 0;
+        left: 430px;
+        bottom: 0;
+        overflow-y: scroll;
+        padding: 2px 20px;
+      }
+
+      /* bible-chapter */
+      .chapter div:first-child {
+        margin-top: 0
+      }
+      .chapter>.label {
+        display: none;
+      }
+
+      .label {
+        padding: inherit;
+        font-size: 14px;
+        background-color: transparent;
+        color: inherit;
+        display: inherit;
+        margin-right: 5px;
+        color: #616161;
+      }
+
+      .heading {
+        font-size: 1.03em;
+        font-weight: bold;
+        line-height: 1.2em;
+        margin: 0;
+        -webkit-font-smoothing: subpixel-antialiased
+      }
+
+      .verse.selected .content {
+        border-bottom: dotted 0.07143rem #777
+      }
+
+      .verse .content {
+        cursor: pointer;
+        color: #616161;
+      }
+
+      .s {
+        font-size: 1.1em;
+        font-weight: bold;
+        line-height: 2em;
+        margin-top: 1em;
+      }
+
+      .ip,
+      .im,
+      .iex,
+      .p,
+      .m,
+      .nb,
+      .cls {
+        font-size: 1em;
+        line-height: 2em;
+        margin: 0
+      }
+
+      .qs,
+      .lit {
+        text-align: right;
+        font-style: italic;
+        display: block
+      }
+
+      .note {
+        display: none
+      }
+
+      .imt,
+      .imt1,
+      .mt,
+      .mt1,
+      .ms,
+      .ms1 {
+        font-size: 1.3em;
+        line-height: 2em;
+        margin: 1em 0 0 0;
+        font-weight: bold
+      }
+
+
+      .note img.footnote-icon {
+        width: 12px;
+        height: 12px;
+        margin: 5px;
+        margin-top: -10px
+      }
+
+      .pn {
+        text-decoration: underline
+      }
+
+      .em,
+      .bd {
+        font-weight: bold
+      }
+
+      .ior,
+      .iqt,
+      .bk,
+      .sls,
+      .tl,
+      .r,
+      .sp {
+        font-style: italic
+      }
+      .b {
+        line-height: 2em;
+        height: 1em
+      }
+
+      .add,
+      .dc,
+      .k,
+      .qt,
+      .sig {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+        line-height: 2em;
+        text-indent: 0;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: none;
+        text-decoration: none
+      }
+
+      .it,
+      .cd,
+      .add,
+      .qt,
+      .fq,
+      .tl,
+      .qt {
+        font-style: italic
+      }
+
+      .bdit {
+        font-weight: bold;
+        font-style: italic
+      }
+
+      .d {
+        font-style: italic;
+        margin-bottom: 1em
+      }
+
+      .no {
+        font-weight: normal;
+        font-style: normal
+      }
+
+      .sc {
+        font-variant: small-caps
+      }
+
+      .cl {
+        display: none
+      }
+
+      .vp {
+        font-size: 0.85714rem;
+        color: #777
+      }
+
+      /* verse-data */
+      h2 {
+        clear: both;
+        padding: 10px;
+        border-radius: 2px;
+        background-color: #444;
+        color: #eee
+      }
+      .date {
+        color: grey;
+        font-size: 60%;
+      }
+      author {
+        color: grey;
+      }
+      .block {
+        word-break: keep-all;
+        border-radius: 4px;
+        background-color: #ddd;
+        padding: 10px;
+        margin-bottom: 6px;
+      }
+      .include {
+        background-color: #ccc;
+      }
+      .exact {
+        background-color: #eee;
+      }
+      #word table {
+        float: left;
+        margin: 0px 8px 16px;
+      }
+      #word span {
+        margin: 4px 0px;
+      }
+      #word .translit {
+        font-style: italic;
+      }
+      #word .original {
+        font-weight: 200;
+        font-size: 140%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bible-chapter">
+    </div>
+    <div id="verse-data">
+    </div>
+  </div>
+</div>
+    </div>
+    <script language="javascript">
+      function scrollToVerse(verse) {
+        const className = `verse v${verse}`;
+        const chapterElem = document.getElementById('bible-chapter');
+        const verseElem = chapterElem.getElementsByClassName(className)[0];
+        const top = verseElem.offsetTop;
+        chapterElem.scrollTo(0, top);
+      }
+
+      function deselectAllVerses() {
+        document.querySelectorAll('.verse').forEach(function (el) {
+          el.classList.remove("selected");
+        });
+      }
+
+      function selectVerse(verse) {
+        const className = `verse v${verse}`;
+        const verseElem = document.getElementsByClassName(className)[0];
+        verseElem.classList.add("selected");
+      }
+
+      function loadDiv(elemId, path, cb) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4) {
+            document.getElementById(elemId).innerHTML = xhr.responseText;
+            if (cb) cb();
+          }
+        }
+        xhr.open('GET', path);
+        xhr.send()
+      }
+
+      function initVerseClick() {
+        document.querySelectorAll('.verse').forEach(function (el) {
+          el.addEventListener('click', function () {
+            deselectAllVerses()
+            this.classList.add('selected');
+
+            window.verse = this.getAttribute('data-usfm').split('.')[2];
+            loadDiv('verse-data', `html/${bookIndex}/${chapter}/${verse}.htm`);
+          })
+        });
+      }
+
+      window.onhashchange = window.onload = function () {
+        const x = location.hash;
+        const parts = x.split(/[#\/]/);
+        window.bookIndex = parts[1];
+        window.chapter = parts[2];
+        window.verse = parts[3];
+
+        loadDiv('bible-chapter', `hhb/${bookIndex}.${chapter}.html`, function () {
+          initVerseClick();
+          if (verse) {
+            scrollToVerse(verse);
+            selectVerse(verse);
+          }
+        });
+        if (verse) {
+          loadDiv('verse-data', `html/${bookIndex}/${chapter}/${verse}.htm`);
+        } else {
+          loadDiv('verse-data', `html/${bookIndex}/${chapter}.htm`);
+        }
+      }
+    </script>
+  </body>
+</html>
