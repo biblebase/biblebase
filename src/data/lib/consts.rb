@@ -93,7 +93,7 @@ $STOP_WORDS = %w[
   never man own now day indeed even
   things every anyone everyone if new
   - ‘
-  jesus god christ lord holy spirit
+  jesus god christ lord holy spirit glory grace eternity
 ]
 $lem = Lemmatizer.new
 
@@ -108,7 +108,7 @@ def stem(word, pos)
   main_word = word.gsub(/\[.+\]/, '').strip
   words = main_word.downcase.split(/[\s'’]+/)
   (words - $STOP_WORDS)
-    .map{|w| l = $lem.lemma(w); pos == 'n' ? l.stem : l}
+    .map{|w| l = $lem.lemma(w)}
     .join(' ')
 end
 

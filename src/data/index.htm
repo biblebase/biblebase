@@ -17,9 +17,14 @@
         position: fixed;
         top: 0;
         left: 430px;
+        right: 5px;
         bottom: 0;
+        overflow-x: hidden;
         overflow-y: scroll;
         padding: 2px 20px;
+      }
+      #verse-data:focus {
+        outline: 0px solid transparent;
       }
 
       /* bible-chapter */
@@ -49,12 +54,13 @@
       }
 
       .verse.selected .content {
-        border-bottom: dotted 0.07143rem #777
+        border-bottom: dotted 0.2rem #44a
       }
 
       .verse .content {
         cursor: pointer;
         color: #616161;
+        padding-bottom: 5px;
       }
 
       .s {
@@ -237,12 +243,17 @@
 </div>
     </div>
     <script language="javascript">
+      function scrollTop(elemId) {
+        const div = document.getElementById(elemId);
+        div.focus();
+        div.scrollTo(0, 0);
+      }
+
       function scrollToVerse(verse) {
         const className = `verse v${verse}`;
         const chapterElem = document.getElementById('bible-chapter');
         const verseElem = chapterElem.getElementsByClassName(className)[0];
-        const top = verseElem.offsetTop;
-        chapterElem.scrollTo(0, top);
+        verseElem.scrollIntoView();
       }
 
       function deselectAllVerses() {
@@ -252,9 +263,8 @@
       }
 
       function selectVerse(verse) {
-        const className = `verse v${verse}`;
-        const verseElem = document.getElementsByClassName(className)[0];
-        verseElem.classList.add("selected");
+        const verseElems = document.querySelectorAll(`.v${verse}`);
+        verseElems.forEach(function (el) { el.classList.add("selected") });
       }
 
       function loadDiv(elemId, path, cb) {
@@ -273,20 +283,69 @@
         document.querySelectorAll('.verse').forEach(function (el) {
           el.addEventListener('click', function () {
             deselectAllVerses()
-            this.classList.add('selected');
 
-            window.verse = this.getAttribute('data-usfm').split('.')[2];
-            loadDiv('verse-data', `html/${bookIndex}/${chapter}/${verse}.htm`);
+            window.verse = parseInt(this.getAttribute('data-usfm').split('.')[2]);
+            selectVerse(verse);
+
+            const verseKey = `${bookIndex}/${chapter}/${verse}`;
+            loadDiv('verse-data', `html/${verseKey}.htm`, function () {
+              scrollTop('verse-data');
+              window.verseClicked = true;
+              location.hash = `#${verseKey}`;
+            });
           })
         });
       }
 
+      const gotoVerse = function(newVerse) {
+        if (document.querySelector(`.v${newVerse}`) !== null) {
+          const verseKey = `${bookIndex}/${chapter}/${newVerse}`;
+          location.hash = `#${verseKey}`;
+        }
+        // TODO jump to next chapter
+      }
+
+      const gotoChapter = function(newChapter) {
+        // TODO out of range
+        const verseKey = `${bookIndex}/${newChapter}`;
+        location.hash = `#${verseKey}`;
+      }
+
+      document.onkeyup = function(e) {
+        // NOTE keypress J
+        if (e.which === 74) {
+          gotoVerse(parseInt(window.verse || 0) + 1);
+
+        // NOTE keypress K
+        } else if (e.which === 75) {
+          gotoVerse(parseInt(window.verse) - 1);
+
+        // NOTE keypress N
+        } else if (e.which === 78) {
+          gotoChapter(parseInt(window.chapter) + 1);
+
+        // NOTE keypress P
+        } else if (e.which === 80) {
+          if (window.chapter > 1)
+            gotoChapter(parseInt(window.chapter) - 1);
+
+        // NOTE keypress U
+        } else if (e.which === 85) {
+          gotoChapter(window.chapter);
+        }
+      }
+
       window.onhashchange = window.onload = function () {
+        if (window.verseClicked) {
+          window.verseClicked = null;
+          return;
+        }
+
         const x = location.hash;
         const parts = x.split(/[#\/]/);
         window.bookIndex = parts[1];
         window.chapter = parts[2];
-        window.verse = parts[3];
+        window.verse = parseInt(parts[3]);
 
         loadDiv('bible-chapter', `hhb/${bookIndex}.${chapter}.html`, function () {
           initVerseClick();
@@ -295,11 +354,12 @@
             selectVerse(verse);
           }
         });
-        if (verse) {
-          loadDiv('verse-data', `html/${bookIndex}/${chapter}/${verse}.htm`);
-        } else {
-          loadDiv('verse-data', `html/${bookIndex}/${chapter}.htm`);
-        }
+        const url = (verse) ?
+          `html/${bookIndex}/${chapter}/${verse}.htm` : 
+          `html/${bookIndex}/${chapter}.htm`;
+        loadDiv('verse-data', url, function () {
+          scrollTop('verse-data');
+        });
       }
     </script>
   </body>

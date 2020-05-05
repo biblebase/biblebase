@@ -75,8 +75,9 @@ class Analytic < Base
   def format_unique_words(obj)
     @h.div do
       @h.h3 "只出現過一次的詞"
-      obj.each do |word|
+      obj.each.with_index do |word, idx|
         @h.text! word
+        @h.text! ' | ' unless idx == obj.size - 1
       end
     end
   end
@@ -101,7 +102,7 @@ class Analytic < Base
 
   def format_connections(obj)
     @h.div do
-      @h.h3 "串珠（相同的詞根在另一經節出現過四次以上）"
+      @h.h3 "串珠（相同的詞根在另一經節出現過四處以上）"
       @h.ul do
         obj.each do |verse, words|
           @h.li do

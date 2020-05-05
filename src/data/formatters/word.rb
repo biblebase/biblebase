@@ -24,6 +24,7 @@ require_relative 'base'
 #   }
 # }
 class Word < Base
+  NBSP = "\u00A0"
   def section_name
     "逐詞翻譯"
   end
@@ -44,7 +45,7 @@ class Word < Base
           @h.br
           @h.span(class: ['original', item["lang"]].join(' ')) do
             @h.text! item[item["lang"]]
-            @h.text! ' ' + item["punct"] if item["punct"]
+            @h.text! "#{NBSP}#{item["punct"]}" if item["punct"]
           end
           @h.br
           @h.span(class: :eng) do

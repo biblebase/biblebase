@@ -6,7 +6,7 @@ require 'json'
 class Base
   def initialize(verse_key)
     @verse_key = verse_key
-    @h = Builder::XmlMarkup.new(indent: 2)
+    @h = Builder::XmlMarkup.new
   end
 
   def section_name
@@ -54,8 +54,8 @@ end
 if __FILE__ == $0
   ordered_sections = %w[versions words analytics sermons interpretations]
 
-  bn = ARGV.shift
-  ch = ARGV.shift
+  bn = ARGV.shift || 61
+  ch = ARGV.shift || 1
   root = "verses_data/#{bn}/#{ch}"
   folders = `find #{root} -type d`.split
   folders.each do |folder|
