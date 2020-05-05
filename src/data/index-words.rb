@@ -9,6 +9,7 @@ POLYSEMY_BY_ENGS = 3..10
 
 words_files = `find ./verses_data -name words.json`.split
 
+# index words
 bar = ProgressBar.create(total: words_files.count)
 words_hash = words_files.each_with_object({}) do |words_file, h|
   verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
@@ -31,6 +32,7 @@ words_hash = words_files.each_with_object({}) do |words_file, h|
   bar.increment
 end
 
+# pre-analyse
 words_hash.each do |id, v|
   translits = v[:translits]
   engs = translits.map{|_, tr| tr.keys}.flatten.uniq
@@ -49,6 +51,7 @@ words_hash.each do |id, v|
   end
 end
 
+# save in dict
 File.open("./verses_data/dict.yml", 'w') do |f|
   f << words_hash.to_yaml
 end

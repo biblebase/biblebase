@@ -3,6 +3,10 @@ require 'yaml'
 require 'parallel'
 require_relative 'lib/consts'
 
+def verse_desc(verse_key)
+  VerseBundle.new(verse_key).to_s
+end
+
 # filter words by its PoS
 # N-*: all the nouns, except(god 2316, lord 2962, jesus 2424, christ 5547,...)
 # V-*: all the verbs except(be 1510, have 2192...)
@@ -28,6 +32,7 @@ MAX_POLYSEMY_SAMPLES = 3
 
 words_index = YAML.load(File.read('./verses_data/dict.yml'))
 
+# analyse
 words_files = `find ./verses_data -name words.json`.split
 
 Parallel.each(words_files, progress: 'Analysing') do |words_file|

@@ -112,3 +112,8 @@ def stem(word, pos)
     .join(' ')
 end
 
+def verse_url(verse_key)
+  bk,c,v = verse_key.split('.')
+  b = $BOOKS.dig(bk.downcase.to_sym, :index)
+  "/##{[b,c,v].join('/')}"
+end

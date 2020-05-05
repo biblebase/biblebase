@@ -16,7 +16,7 @@ require_relative 'base'
 # }
 class Sermon < Base
   def section_name
-    "證道"
+    "證道與讀經班"
   end
 
   def format(item)

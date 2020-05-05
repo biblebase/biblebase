@@ -5,17 +5,50 @@
       body {
         font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
       }
-      #bible-chapter {
+      #title {
+        position: fixed;
+        top: 0; left: 0; width: 100%;
+        height: 80px;
+        background-color: #222;
+
+        box-shadow: 0 4px 2px -2px gray;
+      }
+      #title #nav {
+        position: fixed;
+        left: 0; width: 380px;
+      }
+      #title #nav h1 {
+        float: left;
+        margin-left: 10px;
+      }
+      #title h1 {
+        float: right;
+        color: #999;
+        margin-right: 30px;
+      }
+      #title h1 span{
+        margin: 0px 10px;
+      }
+      #title a, #title a:visited {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      #bibleChapter {
         width: 400px;
         position: fixed;
-        top: 0;
+        top: 100px;
         bottom: 0;
         overflow-y: scroll;
         padding: 2px 20px;
       }
-      #verse-data {
+      div:focus {
+        outline: 0px solid transparent;
+      }
+
+      #verseData {
         position: fixed;
-        top: 0;
+        top: 100px;
         left: 430px;
         right: 5px;
         bottom: 0;
@@ -23,11 +56,26 @@
         overflow-y: scroll;
         padding: 2px 20px;
       }
-      #verse-data:focus {
-        outline: 0px solid transparent;
-      }
+      #verseData a, #verseData a:visited { color: #222; }
+      #verseData .nav { visibility: hidden }
 
-      /* bible-chapter */
+      #wordInfo {
+        position: fixed;
+        top: 200px;
+        bottom: 100px;
+        width: 400px;
+        right: 0px;
+        overflow-y: scroll;
+        padding: 2px 20px;
+        background-color: rgba(100,100,100, 0.8);
+        color: #fff;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        visibility: hidden;
+      }
+      #wordInfo a, #wordInfo a:visited { color: #ddd; }
+
+      /* bibleChapter */
       .chapter div:first-child {
         margin-top: 0
       }
@@ -70,20 +118,14 @@
         margin-top: 1em;
       }
 
-      .ip,
-      .im,
-      .iex,
-      .p,
-      .m,
-      .nb,
-      .cls {
+      .ip, .im, .iex, .p, .m,
+      .nb, .cls {
         font-size: 1em;
         line-height: 2em;
         margin: 0
       }
 
-      .qs,
-      .lit {
+      .qs, .lit {
         text-align: right;
         font-style: italic;
         display: block
@@ -93,12 +135,8 @@
         display: none
       }
 
-      .imt,
-      .imt1,
-      .mt,
-      .mt1,
-      .ms,
-      .ms1 {
+      .imt, .imt1, .mt, .mt1,
+      .ms, .ms1 {
         font-size: 1.3em;
         line-height: 2em;
         margin: 1em 0 0 0;
@@ -117,18 +155,12 @@
         text-decoration: underline
       }
 
-      .em,
-      .bd {
+      .em, .bd {
         font-weight: bold
       }
 
-      .ior,
-      .iqt,
-      .bk,
-      .sls,
-      .tl,
-      .r,
-      .sp {
+      .ior, .iqt, .bk, .sls,
+      .tl, .r, .sp {
         font-style: italic
       }
       .b {
@@ -136,11 +168,8 @@
         height: 1em
       }
 
-      .add,
-      .dc,
-      .k,
-      .qt,
-      .sig {
+      .add, .dc, .k,
+      .qt, .sig {
         padding: 0;
         margin: 0;
         font-size: 1em;
@@ -152,13 +181,8 @@
         text-decoration: none
       }
 
-      .it,
-      .cd,
-      .add,
-      .qt,
-      .fq,
-      .tl,
-      .qt {
+      .it, .cd, .add, .qt,
+      .fq, .tl, .qt {
         font-style: italic
       }
 
@@ -190,13 +214,18 @@
         color: #777
       }
 
-      /* verse-data */
+      /* verseData */
       h2 {
         clear: both;
         padding: 10px;
         border-radius: 2px;
         background-color: #444;
         color: #eee
+      }
+      .wordLink {
+        border-bottom: dotted 2px #44a;
+        color: #44a;
+        cursor: pointer;
       }
       .date {
         color: grey;
@@ -218,6 +247,7 @@
       .exact {
         background-color: #eee;
       }
+
       #word table {
         float: left;
         margin: 0px 8px 16px;
@@ -235,23 +265,29 @@
     </style>
   </head>
   <body>
-    <div id="bible-chapter">
+    <div id="title">
+      <h1>BIBLEBASE</h1>
+      <div id="nav">
+        <h1 />
+      </div>
     </div>
-    <div id="verse-data">
-    </div>
-  </div>
-</div>
-    </div>
+    <div id="bibleChapter"></div>
+    <div id="verseData"></div>
+    <div id="wordInfo"></div>
     <script language="javascript">
       function scrollTop(elemId) {
         const div = document.getElementById(elemId);
-        div.focus();
         div.scrollTo(0, 0);
+      }
+
+      function focus(elemId) {
+        const div = document.getElementById(elemId);
+        div.focus();
       }
 
       function scrollToVerse(verse) {
         const className = `verse v${verse}`;
-        const chapterElem = document.getElementById('bible-chapter');
+        const chapterElem = document.getElementById('bibleChapter');
         const verseElem = chapterElem.getElementsByClassName(className)[0];
         verseElem.scrollIntoView();
       }
@@ -288,8 +324,8 @@
             selectVerse(verse);
 
             const verseKey = `${bookIndex}/${chapter}/${verse}`;
-            loadDiv('verse-data', `html/${verseKey}.htm`, function () {
-              scrollTop('verse-data');
+            loadDiv('verseData', `html/${verseKey}.htm`, function () {
+              loadVerseData();
               window.verseClicked = true;
               location.hash = `#${verseKey}`;
             });
@@ -322,17 +358,31 @@
 
         // NOTE keypress N
         } else if (e.which === 78) {
-          gotoChapter(parseInt(window.chapter) + 1);
+          document.querySelector('#nav .next').click();
 
         // NOTE keypress P
         } else if (e.which === 80) {
-          if (window.chapter > 1)
-            gotoChapter(parseInt(window.chapter) - 1);
+          document.querySelector('#nav .prev').click();
 
         // NOTE keypress U
         } else if (e.which === 85) {
-          gotoChapter(window.chapter);
+          location.hash = `#${bookIndex}/${newChapter}`;
         }
+      }
+
+      const loadVerseData = function () {
+        scrollTop('verseData');
+        focus('verseData');
+        document.querySelector('#nav h1').innerHTML =
+          document.querySelector('#verseData .nav').innerHTML
+
+        document.querySelectorAll('.wordLink').forEach(function (el) {
+          el.addEventListener('click', function () {
+            loadDiv('wordInfo', this.getAttribute('href'), function () {
+              document.getElementById('wordInfo').style.visibility = 'visible';
+            });
+          });
+        });
       }
 
       window.onhashchange = window.onload = function () {
@@ -347,7 +397,8 @@
         window.chapter = parts[2];
         window.verse = parseInt(parts[3]);
 
-        loadDiv('bible-chapter', `hhb/${bookIndex}.${chapter}.html`, function () {
+        loadDiv('bibleChapter', `hhb/${bookIndex}.${chapter}.html`, function () {
+          scrollTop('bibleChapter');
           initVerseClick();
           if (verse) {
             scrollToVerse(verse);
@@ -357,10 +408,14 @@
         const url = (verse) ?
           `html/${bookIndex}/${chapter}/${verse}.htm` : 
           `html/${bookIndex}/${chapter}.htm`;
-        loadDiv('verse-data', url, function () {
-          scrollTop('verse-data');
-        });
+        loadDiv('verseData', url, loadVerseData);
       }
+
+      const hideWordInfo = function () {
+        document.getElementById('wordInfo').style.visibility = 'hidden';
+      }
+      document.getElementById('verseData').addEventListener('click', hideWordInfo);
+      document.getElementById('bibleChapter').addEventListener('click', hideWordInfo);
     </script>
   </body>
 </html>
