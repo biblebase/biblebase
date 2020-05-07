@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 ruby index-words.rb
+ruby save-words.rb
 ruby analyse-words.rb
-
-ruby formatters/base.rb $1 $2
+ruby merge-jsons.rb
+ruby formatters/base.rb
