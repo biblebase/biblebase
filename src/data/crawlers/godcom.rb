@@ -68,12 +68,9 @@ class GodcomCrawler < Base
         end
       end.compact.first
 
-      if matched_key
-        current_key = matched_key
-        ret[current_key] = [p]
-      elsif current_key
-        ret[current_key].push p
-      end
+      current_key = matched_key if matched_key
+      ret[current_key] ||= []
+      ret[current_key].push p
     end
 
     init_verse_object = Hash[*[parser, {
@@ -81,7 +78,7 @@ class GodcomCrawler < Base
     }.merge(METADATA[parser])]]
     verse_bundles.each_with_object({}) do |kv, ret|
       verse_bundle, ps = kv
-      next if verse_bundle == CLEAR_KEY
+      next if verse_bundle == CLEAR_KEY or verse_bundle.nil?
       VerseBundle.new(verse_bundle).to_a.each do |verse_key|
         ret[verse_key] ||= init_verse_object.deep_dup
 

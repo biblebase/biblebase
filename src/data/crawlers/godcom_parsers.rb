@@ -29,7 +29,7 @@ class GodcomCrawler < Base
     }],
     chenzhongdao: [{
       pattern: /（(\d+):(\d+)(-\d+)?(.)?）$/,
-      key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{m[3]}#{m[4] ? '.' + m[4].ord.to_s : ''}" }
+      key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[2]}#{m[3]}" }
     }, {
       pattern: /^问题讨论$/,
       key_fn: -> (book, chapter, m) { CLEAR_KEY }
@@ -37,7 +37,7 @@ class GodcomCrawler < Base
       pattern: /^返回/,
       key_fn: -> (book, chapter, m) { CLEAR_KEY }
     }, {
-      pattern: /^(\d+)\D/,
+      pattern: /^(\d+)[上中下]?[^\.]/,
       key_fn: -> (book, chapter, m) { "#{book}.#{chapter}.#{m[1]}" }
     }, {
       pattern: /^(\d+)本节/,

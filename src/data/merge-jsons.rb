@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
+require 'parallel'
 
 folders = `find verses_data -type d`.split
-folders.each do |folder|
+Parallel.each(folders, progress: 'Merging') do |folder|
+# folders.each do |folder|
   next if folder[-1] =~ /[A-Za-z]/
   files = `ls #{folder}/*.json 2>/dev/null`.split
   next if files.empty?

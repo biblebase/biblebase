@@ -5,3 +5,6 @@ ruby save-words.rb
 ruby analyse-words.rb
 ruby merge-jsons.rb
 ruby formatters/base.rb
+
+aws s3 sync --profile=me html/ s3://biblebase/html/
+aws s3 sync --profile=me json/ s3://biblebase/json/
