@@ -293,7 +293,7 @@
       <h1>BIBLEBASE</h1>
       <div class="goto">
         <icon>📖</icon>
-        <input class="gotoInput" placeholder="创1, Gen 1:1, csj1, 創世記1:1"/>
+        <input class="gotoInput" placeholder="太1, Mat 1:1, mtfy1, 馬太福音1:1, tai1"/>
       </div>
       <div id="nav">
         <h1 />
@@ -338,7 +338,10 @@
       document.querySelector('.gotoInput').addEventListener('blur', hideGotoBox);
       document.querySelector('.goto icon').addEventListener('click', showGotoBox);
       document.querySelector('.gotoInput').addEventListener('keyup', function (e) {
-        if (e.which === 13) go();
+        if (e.which === 13) {
+          go();
+          hideGotoBox();
+        }
       });
 
       // NOTE Navigate chapters and verses
@@ -468,6 +471,11 @@
         }
 
         const x = location.hash;
+        if (x == '') {
+          location.hash = '#1/1';
+          return;
+        }
+
         const parts = x.split(/[#\/]/);
         window.bookIndex = parts[1];
         window.chapter = parts[2];
