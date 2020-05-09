@@ -33,6 +33,30 @@
         color: #fff;
         text-decoration: none;
       }
+      #title .goto {
+        float: right;
+        border-radius: 1em;
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        margin: 1.3em;
+        background-color: white;
+      }
+      #title .goto icon {
+        font-size: 1em;
+        margin: 0.5em;
+        cursor: pointer;
+      }
+      #title .gotoInput {
+        visibility: hidden;
+        border: 0;
+        width: 16em;
+        height: 2em;
+        font-size: 1em;
+      }
+      #title .gotoInput:focus {
+        outline: 0px solid transparent;
+      }
 
       #bibleChapter {
         width: 400px;
@@ -267,6 +291,10 @@
   <body>
     <div id="title">
       <h1>BIBLEBASE</h1>
+      <div class="goto">
+        <icon>📖</icon>
+        <input class="gotoInput" placeholder="创1, Gen 1:1, csj1, 創世記1:1"/>
+      </div>
       <div id="nav">
         <h1 />
       </div>
@@ -275,6 +303,45 @@
     <div id="verseData"></div>
     <div id="wordInfo"></div>
     <script language="javascript">
+      const booksLookup = {"gen":1,"genesis":1,"创世记":1,"創世記":1,"創世紀":1,"csj":1,"chuang":1,"gen":1,"创":1,"創":1,"exo":2,"exodus":2,"出埃及记":2,"出埃及記":2,"cajj":2,"chu":2,"exo":2,"出":2,"lev":3,"leviticus":3,"利未记":3,"利未記":3,"lwj":3,"li":3,"lev":3,"利":3,"num":4,"numbers":4,"民数记":4,"民數記":4,"msj":4,"min":4,"num":4,"民":4,"deu":5,"deuteronomy":5,"申命记":5,"申命記":5,"smj":5,"shen":5,"deut":5,"申":5,"jos":6,"joshua":6,"约书亚记":6,"約書亞記":6,"ysyj":6,"shu":6,"josh":6,"书":6,"書":6,"jdg":7,"judges":7,"士师记":7,"士師記":7,"ssj":7,"shishi":7,"judg":7,"士":7,"rut":8,"ruth":8,"路得记":8,"路得記":8,"ldj":8,"de":8,"得":8,"1sa":9,"1 samuel":9,"1samuel":9,"撒母耳记上":9,"撒母耳記上":9,"smejs":9,"sashang":9,"1sam":9,"撒上":9,"2sa":10,"2 samuel":10,"2samuel":10,"撒母耳记下":10,"撒母耳記下":10,"smejx":10,"saxia":10,"2sam":10,"撒下":10,"1ki":11,"1 kings":11,"1kings":11,"列王纪上":11,"列王紀上":11,"列王记上":11,"列王記上":11,"lwjs":11,"wangshang":11,"1king":11,"王上":11,"2ki":12,"2 kings":12,"2kings":12,"列王纪下":12,"列王紀下":12,"列王记下":12,"列王記下":12,"lwjx":12,"wangxia":12,"2king":12,"王下":12,"1ch":13,"1 chronicles":13,"1chronicles":13,"历代志上":13,"歷代志上":13,"ldzs":13,"daishang":13,"1chro":13,"代上":13,"2ch":14,"2 chronicles":14,"2chronicles":14,"历代志下":14,"歷代志下":14,"ldzx":14,"daixia":14,"2chro":14,"代下":14,"ezr":15,"ezra":15,"以斯拉记":15,"以斯拉記":15,"yslj":15,"la":15,"拉":15,"neh":16,"nehemiah":16,"尼希米记":16,"尼希米記":16,"nxmj":16,"ni":16,"neh":16,"尼":16,"est":17,"esther":17,"以斯帖记":17,"以斯帖記":17,"ystj":17,"si":17,"esth":17,"斯":17,"job":18,"job":18,"约伯记":18,"約伯記":18,"ybj":18,"bo":18,"伯":18,"psa":19,"psalms":19,"诗篇":19,"詩篇":19,"sp":19,"shi":19,"psa":19,"诗":19,"詩":19,"pro":20,"proverbs":20,"箴言":20,"zy":20,"zhen":20,"prov":20,"箴":20,"ecc":21,"ecclesiastes":21,"传道书":21,"傳道書":21,"cds":21,"chuan":21,"eccl":21,"传":21,"傳":21,"sng":22,"song of songs":22,"songofsongs":22,"雅歌":22,"songs":22,"雅歌书":22,"雅歌書":22,"yg":22,"ge":22,"song":22,"歌":22,"isa":23,"isaiah":23,"以赛亚书":23,"以賽亞書":23,"ysys":23,"sai":23,"isa":23,"赛":23,"賽":23,"jer":24,"jeremiah":24,"耶利米书":24,"耶利米書":24,"ylms":24,"ye":24,"jer":24,"耶":24,"lam":25,"lamentations":25,"耶利米哀歌":25,"ylmag":25,"ai":25,"lam":25,"哀":25,"ezk":26,"ezekiel":26,"以西结书":26,"以西結書":26,"yxjs":26,"jie":26,"ezek":26,"结":26,"結":26,"dan":27,"daniel":27,"但以理书":27,"但以理書":27,"dyls":27,"dan":27,"但":27,"hos":28,"hosea":28,"何西阿书":28,"何西阿書":28,"hxas":28,"he":28,"何":28,"jol":29,"joel":29,"约珥书":29,"約珥書":29,"yes":29,"er":29,"珥":29,"amo":30,"amos":30,"阿摩司书":30,"阿摩司書":30,"amss":30,"mo":30,"摩":30,"oba":31,"obadiah":31,"俄巴底亚书":31,"俄巴底亞書":31,"ebdys":31,"e":31,"obad":31,"俄":31,"jon":32,"jonah":32,"约拿书":32,"約拿書":32,"yns":32,"na":32,"拿":32,"mic":33,"micah":33,"弥迦书":33,"彌迦書":33,"mjs":33,"mi":33,"弥":33,"彌":33,"nam":34,"nahum":34,"那鸿书":34,"那鴻書":34,"nhs":34,"hong":34,"nah":34,"鸿":34,"鴻":34,"hab":35,"habakkuk":35,"哈巴谷书":35,"哈巴谷書":35,"hbgs":35,"ha":35,"habak":35,"哈":35,"zep":36,"zephaniah":36,"西番雅书":36,"西番雅書":36,"xfys":36,"fan":36,"zeph":36,"番":36,"hag":37,"haggai":37,"哈该书":37,"哈該書":37,"hgs":37,"gai":37,"hagg":37,"该":37,"該":37,"zec":38,"zechariah":38,"撒迦利亚书":38,"撒迦利亞書":38,"sjlys":38,"sa":38,"zech":38,"亚":38,"亞":38,"mal":39,"malachi":39,"玛拉基书":39,"瑪拉基書":39,"玛拉基书":39,"瑪拉基書":39,"mljs":39,"ma":39,"mal":39,"玛":39,"瑪":39,"mat":40,"matthew":40,"马太福音":40,"馬太福音":40,"马太":40,"馬太":40,"mtfy":40,"tai":40,"matt":40,"太":40,"mrk":41,"mark":41,"马可福音":41,"馬可福音":41,"马可":41,"馬可":41,"mkfy":41,"ke":41,"可":41,"luk":42,"luke":42,"路加福音":42,"路加":42,"mjfy":42,"lu":42,"路":42,"jhn":43,"john":43,"约翰福音":43,"約翰福音":43,"yhfy":43,"yue":43,"约":43,"約":43,"act":44,"acts":44,"使徒行传":44,"使徒行傳":44,"stxz":44,"tu":44,"徒":44,"rom":45,"romans":45,"罗马书":45,"羅馬書":45,"羅馬書":45,"lms":45,"luo":45,"rom":45,"罗":45,"羅":45,"羅":45,"1co":46,"1 corinthians":46,"1corinthians":46,"哥林多前书":46,"哥林多前書":46,"gldqs":46,"linqian":46,"1cor":46,"林前":46,"哥前":46,"2co":47,"2 corinthians":47,"2corinthians":47,"哥林多后书":47,"哥林多後書":47,"gldhs":47,"linhou":47,"2cor":47,"林后":47,"林後":47,"gal":48,"galatians":48,"加拉太书":48,"加拉太書":48,"jlts":48,"jia":48,"gal":48,"加":48,"eph":49,"ephesians":49,"以弗所书":49,"以弗所書":49,"以弗所":49,"yfss":49,"fu":49,"eph":49,"弗":49,"php":50,"philippians":50,"腓利比书":50,"腓利比書":50,"腓立比書":50,"腓立比书":50,"flbs":50,"fei":50,"phil":50,"腓":50,"col":51,"colossians":51,"歌罗西书":51,"歌羅西書":51,"glxs":51,"xi":51,"col":51,"西":51,"1th":52,"1 thessalonians":52,"1thessalonians":52,"帖撒罗尼迦前书":52,"帖撒羅尼迦前書":52,"tslnjqs":52,"tieqian":52,"1thes":52,"帖前":52,"2th":53,"2 thessalonians":53,"2thessalonians":53,"帖撒罗尼迦后书":53,"帖撒羅尼迦後書":53,"tslnjhs":53,"tiehou":53,"2thes":53,"帖后":53,"帖後":53,"1ti":54,"1 timothy":54,"1timothy":54,"提摩太前书":54,"提摩太前書":54,"tmtqs":54,"tiqian":54,"1tim":54,"提前":54,"2ti":55,"2 timothy":55,"2timothy":55,"提摩太后书":55,"提摩太後書":55,"tmths":55,"tihou":55,"2tim":55,"提后":55,"提後":55,"tit":56,"titus":56,"提多书":56,"提多書":56,"tds":56,"duo":56,"多":56,"phm":57,"philemon":57,"腓利门书":57,"腓利門書":57,"flms":57,"men":57,"philem":57,"门":57,"門":57,"heb":58,"hebrews":58,"希伯来书":58,"希伯來書":58,"希伯來":58,"xbls":58,"lai":58,"heb":58,"来":58,"來":58,"希":58,"jas":59,"james":59,"雅各书":59,"雅各書":59,"ygs":59,"ya":59,"雅":59,"1pe":60,"1 peter":60,"1peter":60,"彼得前书":60,"彼得前書":60,"bdqs":60,"biqian":60,"1pet":60,"彼前":60,"2pe":61,"2 peter":61,"2peter":61,"彼得后书":61,"彼得後書":61,"bdhs":61,"bihou":61,"2pet":61,"彼后":61,"彼後":61,"1jn":62,"1 john":62,"1john":62,"约翰一书":62,"約翰一書":62,"yhys":62,"yueyi":62,"约一":62,"約一":62,"2jn":63,"2 john":63,"2john":63,"约翰二书":63,"約翰二書":63,"约翰ニ书":63,"約翰ニ書":63,"yhes":63,"yueer":63,"约二":63,"約二":63,"约ニ":63,"約ニ":63,"3jn":64,"3 john":64,"3john":64,"约翰三书":64,"約翰三書":64,"yhss":64,"yuesan":64,"约三":64,"約三":64,"jud":65,"jude":65,"犹大书":65,"猶大書":65,"yds":65,"you":65,"犹":65,"猶":65,"rev":66,"revelation":66,"启示录":66,"啟示錄":66,"啓示錄":66,"qsl":66,"qi":66,"rev":66,"启":66,"啟":66,"啓":66};
+
+      // NOTE Goto chapters and verses
+      const showGotoBox = function () {
+        document.querySelector('.goto').style.width = '20em';
+        document.querySelector('.gotoInput').style.visibility = 'visible';
+        document.querySelector('.gotoInput').focus();
+      }
+
+      const hideGotoBox = function () {
+        document.querySelector('.goto').style.width = '2em';
+        document.querySelector('.gotoInput').value = '';
+        document.querySelector('.gotoInput').style.visibility = 'hidden';
+      }
+
+      const go = function (e) {
+        const inputValue = document.querySelector('.gotoInput').value;
+        const verseDesc = inputValue.replace(/^\s+|\s+$/g, '').replace(/：/g, ':').toLowerCase();
+        const parts = verseDesc.match(/^([1-3]?\d*\D+)\s*(\d+)章?(:(\d+))?$/);
+        const book = parts ? parts[1].replace(/\s+/g, '') : 'none';
+        const bi = booksLookup[book];
+        if (!bi) {
+          alert(`找不到${inputValue}`);
+          return;
+        }
+        const ch = parts[2];
+        const v = parts[4];
+
+        const verseKey = v ? `${bi}/${ch}/${v}` : `${bi}/${ch}`;
+        location.hash = `#${verseKey}`;
+      }
+
+      document.querySelector('.gotoInput').addEventListener('blur', hideGotoBox);
+      document.querySelector('.goto icon').addEventListener('click', showGotoBox);
+      document.querySelector('.gotoInput').addEventListener('keyup', function (e) {
+        if (e.which === 13) go();
+      });
+
+      // NOTE Navigate chapters and verses
       function scrollTop(elemId) {
         const div = document.getElementById(elemId);
         div.scrollTo(0, 0);
@@ -333,6 +400,7 @@
         });
       }
 
+      // NOTE key bindings
       const gotoVerse = function(newVerse) {
         if (document.querySelector(`.v${newVerse}`) !== null) {
           const verseKey = `${bookIndex}/${chapter}/${newVerse}`;
@@ -348,6 +416,8 @@
       }
 
       document.onkeyup = function(e) {
+        if (document.activeElement === document.querySelector('.gotoInput')) return;
+
         // NOTE keypress J
         if (e.which === 74) {
           gotoVerse(parseInt(window.verse || 0) + 1);
@@ -366,10 +436,16 @@
 
         // NOTE keypress U
         } else if (e.which === 85) {
-          location.hash = `#${bookIndex}/${newChapter}`;
+          location.hash = `#${bookIndex}/${chapter}`;
+
+        // NOTE keypress /
+        } else if (e.which === 191) {
+          showGotoBox();
+
         }
       }
 
+      // NOTE load data
       const loadVerseData = function () {
         scrollTop('verseData');
         focus('verseData');

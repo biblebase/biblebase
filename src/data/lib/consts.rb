@@ -13,6 +13,7 @@ $BOOK_LOOKUP = $BOOKS.each_with_object({}) do |kv, ret|
     ret[v.downcase] = key
     ret[v.downcase.snake_case] = key
     ret[v.downcase.kabab_case] = key
+    ret[v.downcase.gsub(/\s+/,'')] = key
   end
   (book[:short_name] || []).each do |lang, v|
     ret[v] = key
