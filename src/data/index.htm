@@ -418,32 +418,39 @@
         location.hash = `#${verseKey}`;
       }
 
-      document.onkeyup = function(e) {
+      document.onkeydown = function(e) {
         if (document.activeElement === document.querySelector('.gotoInput')) return;
 
-        // NOTE keypress J
-        if (e.which === 74) {
+
+        // NOTE keypress J or Arrow Down
+        if (e.which === 74 || e.which === 40) {
           gotoVerse(parseInt(window.verse || 0) + 1);
+          e.preventDefault();
 
-        // NOTE keypress K
-        } else if (e.which === 75) {
+        // NOTE keypress K or Array Up
+        } else if (e.which === 75 || e.which === 38) {
           gotoVerse(parseInt(window.verse) - 1);
+          e.preventDefault();
 
-        // NOTE keypress N
-        } else if (e.which === 78) {
+        // NOTE keypress N or Array Right
+        } else if (e.which === 78 || e.which === 39) {
           document.querySelector('#nav .next').click();
+          e.preventDefault();
 
-        // NOTE keypress P
-        } else if (e.which === 80) {
+        // NOTE keypress P or Array Left
+        } else if (e.which === 80 || e.which === 37) {
           document.querySelector('#nav .prev').click();
+          e.preventDefault();
 
         // NOTE keypress U
         } else if (e.which === 85) {
           location.hash = `#${bookIndex}/${chapter}`;
+          e.preventDefault();
 
         // NOTE keypress /
         } else if (e.which === 191) {
           showGotoBox();
+          e.preventDefault();
 
         }
       }
