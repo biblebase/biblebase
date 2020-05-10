@@ -89,23 +89,23 @@ class GodcomCrawler < Base
 
   METADATA = {
     fengsheng: {
-      title: "丰盛生命研读本"
+      title: "豐盛生命研讀本"
     },
     chenzhongdao: {
-      title: "新约书信读经讲义",
-      author: "陈终道"
+      title: "新約書信讀經講義",
+      author: "陳終道"
     },
     matangna: {
-      title: "马唐纳注释",
-      author: "马唐纳"
+      title: "馬唐納註釋",
+      author: "馬唐納"
     },
     dde: {
-      title: "丁道尔圣经注释",
-      author: "丁道尔"
+      title: "丁道爾聖經註釋",
+      author: "丁道爾"
     },
     leili: {
-      title: "雷历研读本圣经",
-      author: "雷历"
+      title: "雷厲研讀本聖經",
+      author: "雷厲"
     }
   }
 end

@@ -1,3 +1,4 @@
+require 'tradsim'
 require_relative 'base'
 require_relative 'godcom_parsers'
 require_relative '../lib/verse_bundle'
@@ -70,7 +71,7 @@ class GodcomCrawler < Base
 
       current_key = matched_key if matched_key
       ret[current_key] ||= []
-      ret[current_key].push p
+      ret[current_key].push Tradsim::to_trad(p)
     end
 
     init_verse_object = Hash[*[parser, {

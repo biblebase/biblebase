@@ -6,7 +6,8 @@ ruby analyse-words.rb
 ruby merge-jsons.rb
 ruby formatters/base.rb
 
-aws s3 sync --profile=me hhb/ s3://biblebase/hhb/
+aws s3 cp --profile=me index.htm s3://biblebase/index.htm
+aws s3 sync --profile=me cunp/ s3://biblebase/cunp/
 aws s3 sync --profile=me words/ s3://biblebase/words/
 aws s3 sync --profile=me html/ s3://biblebase/html/
 aws s3 sync --profile=me json/ s3://biblebase/json/
