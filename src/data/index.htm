@@ -283,6 +283,7 @@
         font-style: italic;
       }
       #word .original {
+        line-height: 32px;
         font-weight: 200;
         font-size: 140%;
       }
@@ -364,7 +365,7 @@
       }
 
       function deselectAllVerses() {
-        document.querySelectorAll('.verse').forEach(function (el) {
+        document.querySelectorAll('.verse.selected').forEach(function (el) {
           el.classList.remove("selected");
         });
       }
@@ -388,8 +389,15 @@
 
       function initVerseClick() {
         document.querySelectorAll('.verse').forEach(function (el) {
+
           el.addEventListener('click', function () {
+            const selected = el.classList.contains('selected');
             deselectAllVerses()
+            // NOTE unselect, go to chapter-level
+            if (selected) {
+              location.hash = `#${bookIndex}/${chapter}`;
+              return;
+            }
 
             window.verse = parseInt(this.getAttribute('data-usfm').split('.')[2]);
             selectVerse(verse);
@@ -421,6 +429,7 @@
 
       document.onkeydown = function(e) {
         if (document.activeElement === document.querySelector('.gotoInput')) return;
+        if (e.ctrlKey || e.shiftKey || e.metaKey || e.altKey) return;
 
         // Note Trap arrow keys
         if (e.which >= 37 && e.which <= 40) {
@@ -488,7 +497,7 @@
         window.chapter = parts[2];
         window.verse = parseInt(parts[3]);
 
-        loadDiv('bibleChapter', `hhb/${bookIndex}.${chapter}.html`, function () {
+        loadDiv('bibleChapter', `cunp/${bookIndex}/${chapter}.htm`, function () {
           scrollTop('bibleChapter');
           initVerseClick();
           if (verse) {
