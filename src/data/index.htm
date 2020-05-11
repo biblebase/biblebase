@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <title>BIBLEBASE</title>
     <style>
       body {
         font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
@@ -321,9 +322,9 @@
 
       const go = function (e) {
         const inputValue = document.querySelector('.gotoInput').value;
-        const verseDesc = inputValue.replace(/^\s+|\s+$/g, '').replace(/：/g, ':').toLowerCase();
+        const verseDesc = inputValue.replace(/^\s+|\s+$/g, '').replace(/[\.\/：]/g, ':').toLowerCase();
         const parts = verseDesc.match(/^([1-3]?\d*\D+)\s*(\d+)章?(:(\d+))?$/);
-        const book = parts ? parts[1].replace(/\s+/g, '') : 'none';
+        const book = parts ? parts[1].replace(/[\s:]+/g, '') : 'none';
         const bi = booksLookup[book];
         if (!bi) {
           alert(`找不到${inputValue}`);
