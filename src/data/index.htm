@@ -322,8 +322,9 @@
 
       const go = function (e) {
         const inputValue = document.querySelector('.gotoInput').value;
-        const verseDesc = inputValue.replace(/^\s+|\s+$/g, '').replace(/[\.\/：]/g, ':').toLowerCase();
-        const parts = verseDesc.match(/^([1-3]?\d*\D+)\s*(\d+)章?(:(\d+))?$/);
+        const verseDesc = inputValue.replace(/^\s+|\s+$/g, '').replace(/[\.\/：章]/g, ':').replace(/[節节]$/, '').toLowerCase();
+        const parts = verseDesc.match(/^([1-3]?\d*\D+)\s*(\d+)(:(\d*))?$/);
+        console.log(parts)
         const book = parts ? parts[1].replace(/[\s:]+/g, '') : 'none';
         const bi = booksLookup[book];
         if (!bi) {
