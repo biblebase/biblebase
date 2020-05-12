@@ -125,7 +125,7 @@ def save_json_and_html(words_hash)
     html = Builder::XmlMarkup.new
 
     html.h3 "詞性"
-    html.p $PARTS_OF_SPEECH[v[:pos]] || v[:pos].to_s.upcase
+    html.p $PARTS_OF_SPEECH[v[:pos].to_s] || v[:pos].to_s.upcase
 
     if v[:occurences]
       html.h3 "聖經中出現次數"
@@ -158,7 +158,7 @@ def save_json_and_html(words_hash)
             verse_key, idx = ext_verse_key.split('|')
             html.li do
               html.i do
-                if idx > 2
+                if idx.to_i > 1
                   html.span '...'
                 end
                 html.span words[0]
@@ -171,6 +171,7 @@ def save_json_and_html(words_hash)
                 end
               end
               verse_key = verse_key
+              html.span " - "
               html.a(href: verse_url(verse_key)) do
                 html.text! verse_desc(verse_key)
               end

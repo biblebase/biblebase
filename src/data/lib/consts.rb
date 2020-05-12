@@ -74,10 +74,10 @@ $VERSIONS = {
 
 $PARTS_OF_SPEECH = {
   n: '名詞',
-  v: '名詞',
-  adj: '名詞',
-  adv: '名詞',
-  art: '名詞',
+  v: '動詞',
+  adj: '形容詞',
+  adv: '副詞',
+  art: '冠詞',
   dpro: '指示代詞',
   ipro: '不定代詞',
   ppro: '人稱代詞',
