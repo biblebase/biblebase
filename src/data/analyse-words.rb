@@ -24,7 +24,7 @@ end
 # - V:give (1325) has 416
 # - A:great (3173) has 243
 # And we can use the same rule for hebrew
-CONNECT_BY_POS = %w[n v adj heb aram]
+CONNECT_BY_POS = %w[n v adj adv heb aram]
 CONNECT_BY_OCCURANCE = 2..150
 CONNECT_BY_COMMON_WORDS = 4..10
 
@@ -41,7 +41,7 @@ Parallel.each(words_files, progress: 'Analysing') do |words_file|
   words = obj["words"]
   # chapter_key = verse_key.split('.')[0..1].join('.')
   analytics = words.uniq{|w| w["id"]}.each_with_object({}) do |w, analytics|
-    eng = stem(w["eng"], w["pos"])
+    eng = stem(w["eng"])
     next if eng.empty?
 
     id = w["id"]

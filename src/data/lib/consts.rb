@@ -72,6 +72,25 @@ $VERSIONS = {
   }
 }
 
+$PARTS_OF_SPEECH = {
+  n: '名詞',
+  v: '名詞',
+  adj: '名詞',
+  adv: '名詞',
+  art: '名詞',
+  dpro: '指示代詞',
+  ipro: '不定代詞',
+  ppro: '人稱代詞',
+  recpro: '相互代詞',
+  relpro: '關係代詞',
+  refpro: '反身代詞',
+  prep: '介詞',
+  conj: '連接詞',
+  i: '感嘆詞',
+  prtcl: '量詞',
+  heb: '希伯來語詞彙',
+  aram: '亞蘭語詞彙'
+}
 # functions
 require 'lemmatizer'
 require 'stemmify'
@@ -82,7 +101,7 @@ $STOP_WORDS = %w[
   be is are was were am been being
   will should shall might would can could may
   do did does
-  have has having let begin
+  have has having had let begin
   to from in for out at to of on up over down
   away with among against after by through
   within along besides between all under into
@@ -94,23 +113,30 @@ $STOP_WORDS = %w[
   never man own now day indeed even
   things every anyone everyone if new
   - ‘
-  jesus god christ lord holy spirit glory grace eternity
 ]
 $lem = Lemmatizer.new
 
+$STATS_BY_POS = %w[n v adj adv heb aram]
 def get_main_pos(pos)
   pos.split(' | ')
     .map{|k| k.downcase.split(/[^0-9a-z]/).first}
-    .sort_by{|k| RARE_WORD_BY_POS.include?(k) ? 0 : 1 }
+    .sort_by{|k| $STATS_BY_POS.include?(k) ? 0 : 1 }
     .first
 end
 
-def stem(word, pos)
+def stem(word)
   main_word = word.gsub(/\[.+\]/, '').strip
   words = main_word.downcase.split(/[\s'’]+/)
   (words - $STOP_WORDS)
-    .map{|w| l = $lem.lemma(w)}
+    .map{ |w| $lem.lemma(w) }
     .join(' ')
+end
+
+def stemmed_parts(word)
+  main_word = word.gsub(/\[.+\]/, '').strip
+  words = main_word.downcase.gsub(/['’]s/, '').split
+  (words - $STOP_WORDS)
+    .map{ |w| w = $lem.lemma(w) }
 end
 
 def verse_url(verse_key)

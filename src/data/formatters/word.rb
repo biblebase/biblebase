@@ -35,7 +35,11 @@ class Word < Base
         @h.td do
           @h.span(class: :translit) do
             if item["id"]
-              @h.span(class: 'wordLink', href: "/words/#{item["id"]}.htm") do
+              if get_main_pos(item["pos"])
+                @h.span(class: 'wordLink', href: "/words/#{item["id"]}.htm") do
+                  @h.text! item["translit"]
+                end
+              else
                 @h.text! item["translit"]
               end
             else
