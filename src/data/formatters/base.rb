@@ -4,6 +4,8 @@ require 'builder'
 require 'parallel'
 require 'json'
 
+$DICT = YAML.load(File.read('./verses_data/dict.yml'))
+
 class Base
   def initialize(verse_key)
     @verse_key = verse_key
@@ -40,10 +42,6 @@ class Base
       yield
     end
   end
-
-  def verse_desc(verse_key)
-    VerseBundle.new(verse_key).to_s
-  end
 end
 
 # NOTE will only work when /html has been filled
@@ -71,6 +69,7 @@ if __FILE__ == $0
 
   folders = `find verses_data -mindepth 2 -type d`.split
   Parallel.each(folders, progress: 'Formatting') do |folder|
+  # folders.each do |folder|
     parts = folder.match(/^verses_data\/(\d+)\/(\d+)(\/\d+)?$/)
     next unless parts
     book_index, chapter = parts.to_a[1,2].map(&:to_i)
@@ -80,7 +79,7 @@ if __FILE__ == $0
       f = "#{folder}/#{sec}.json"
       next unless File.exists?(f)
 
-      obj = JSON.parse File.open(f).read
+      obj = JSON.parse File.read(f)
       items = obj.values.first[sec]
 
       klass_name = sec[0..-2]

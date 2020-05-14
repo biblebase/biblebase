@@ -24,14 +24,15 @@ class VerseBundle
     end
   end
 
-  def to_s
+  def to_s(desc_mode = :full)
     @bundles.map do |key, ch_ds|
       next if ch_ds.nil? or ch_ds.size == 0
-      b = $BOOKS.dig(key, :full_name, :cht)
+      book_name_mode = desc_mode == :full ? :full_name : :short_name
+      b = $BOOKS.dig(key, book_name_mode, :cht)
       ch_s = if ch_ds.is_a? Range
               "#{ch_ds.begin}-#{ch_ds.end}章"
             elsif ch_ds.is_a? Integer
-              "#{ch_ds}章"
+              desc_mode == :full ? "#{ch_ds}章" : ch_ds.to_s
             elsif ch_ds.is_a? Hash
               ch_ds.map do |ch, v_ds|
                 v_s = if v_ds.is_a? Integer
@@ -56,7 +57,7 @@ class VerseBundle
             else
               raise 'wrong chapter ds'
             end
-      [b, ch_s].join(' ')
+      [b, ch_s].join(desc_mode == :full ? ' ' : '')
     end.compact.join('; ')
   end
 

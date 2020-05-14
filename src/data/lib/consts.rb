@@ -118,7 +118,7 @@ $lem = Lemmatizer.new
 
 $STATS_BY_POS = %w[n v adj adv heb aram]
 def get_main_pos(pos)
-  pos.split(' | ')
+  pos.to_s.split(' | ')
     .map{|k| k.downcase.split(/[^0-9a-z]/).first}
     .sort_by{|k| $STATS_BY_POS.include?(k) ? 0 : 1 }
     .first
@@ -139,8 +139,25 @@ def stemmed_parts(word)
     .map{ |w| w = $lem.lemma(w) }
 end
 
-def verse_url(verse_key)
+#NOTE formatter
+$NBSP = "\u00A0"
+
+def verse_path(verse_key)
   bk,c,v = verse_key.split('.')
   b = $BOOKS.dig(bk.downcase.to_sym, :index)
-  "/##{[b,c,v].join('/')}"
+  [b,c,v].join('/')
+end
+
+def verse_url(verse_key)
+  "/##{verse_path(verse_key)}"
+end
+
+def verse_desc(verse_key, desc_mode=:full)
+  VerseBundle.new(verse_key).to_s(desc_mode)
+end
+
+def verse_link(html_builder, verse_key, desc_mode=:full)
+  html_builder.a(href: verse_url(verse_key)) do
+    html_builder.text! verse_desc(verse_key, desc_mode)
+  end
 end

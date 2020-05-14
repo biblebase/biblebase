@@ -11,11 +11,6 @@ def text(word_info)
   [word_info["eng"], word_info["punct"]].compact.join
 end
 
-def verse_desc(verse_key)
-  VerseBundle.new(verse_key).to_s
-end
-
-
 WORDS_FILES = `find ./verses_data -name words.json`.split
 
 # NOTE index words, output as (in YAML):
@@ -99,14 +94,15 @@ def stats_meanings(words_hash)
         h[candidate] = vks.size if vks.size > 0
         all_verse_keys = all_verse_keys - vks
       end
-      v[:meanings_count] = v[:meanings].size
+      v[:meaningsCount] = v[:meanings].size
+      # v[:meanings] = v[:meanings].first(MAX_SAMPLES).to_h
     end
 
     if v[:translits].size > 0
       v[:occurences] = v[:translits].values.map(&:keys).flatten.size
-      v[:translits].each do |k, h|
-        v[:translits][k] = h.to_a.shuffle.first(MAX_SAMPLES).to_h
-      end
+      # v[:translits].each do |k, h|
+      #   v[:translits][k] = h.to_a.shuffle.first(MAX_SAMPLES).to_h
+      # end
     end
     bar.increment
   end
@@ -124,8 +120,12 @@ def save_json_and_html(words_hash)
   Parallel.each(words_hash, progress: 'Saving Words') do |id, v|
     html = Builder::XmlMarkup.new
 
-    html.h3 "詞性"
-    html.p $PARTS_OF_SPEECH[v[:pos].to_s] || v[:pos].to_s.upcase
+    if v[:pos]
+      html.h3 "詞性"
+      html.p $PARTS_OF_SPEECH[v[:pos].to_sym] || v[:pos].upcase
+    else
+      warn v.inspect
+    end
 
     if v[:occurences]
       html.h3 "聖經中出現次數"
@@ -138,7 +138,7 @@ def save_json_and_html(words_hash)
       html.h3 "上下文意思"
       html.p "共#{v[:meanings_count]}種"
       html.table do
-        v[:meanings].each do |meaning, c|
+        v[:meanings].first(MAX_SAMPLES).each do |meaning, c|
           html.tr do
             html.td do
               html.b meaning
@@ -153,27 +153,28 @@ def save_json_and_html(words_hash)
       html.h3 "原文上下文舉例"
       v[:translits].each do |word, occurences|
         html.h4 word
-        html.ul do
-          occurences.each do |ext_verse_key, words|
+        html.table do
+          sampled_occurences = occurences.to_a.shuffle.first(MAX_SAMPLES)
+          sampled_occurences.each do |ext_verse_key, words|
             verse_key, idx = ext_verse_key.split('|')
-            html.li do
-              html.i do
-                if idx.to_i > 1
-                  html.span '...'
-                end
-                html.span words[0]
-                html.span " "
-                html.b words[1]
-                html.span " "
-                html.span words[2]
-                if words[2] and !words[2].match(/[\.\?\!]$/)
-                  html.span '...'
-                end
+            html.tr do
+              html.td do
+                verse_link(html, verse_key)
               end
-              verse_key = verse_key
-              html.span " - "
-              html.a(href: verse_url(verse_key)) do
-                html.text! verse_desc(verse_key)
+              html.td do
+                html.i do
+                  if idx.to_i > 1
+                    html.span '...'
+                  end
+                  html.span words[0]
+                  html.span " "
+                  html.b words[1]
+                  html.span " "
+                  html.span words[2]
+                  if words[2] and !words[2].match(/[\.\?\!]$/)
+                    html.span '...'
+                  end
+                end
               end
             end
           end
@@ -187,20 +188,3 @@ end
 words_hash = get_words_hash()
 words_hash = stats_meanings(words_hash)
 save_json_and_html(words_hash)
-
-# NOTE connections
-# WORDS_FILES.each do |words_file|
-#   verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
-#   words = obj["words"]
-# 
-#   analytics = {}
-#   analytics[:by_occurences] = words.map do |word|
-#       words_hash.dig(word["id"], :occurences)
-#   end
-#   analytics[:by_meanings] = words.map do |word|
-#       words_hash.dig(word["id"], :meanings_count)
-#   end
-# 
-#   # TODO WIP
-#   connect_words = words.filter{|w| CONNECT_BY_POS.include? w["pos"]}
-# end
