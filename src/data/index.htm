@@ -387,7 +387,6 @@
         const inputValue = document.querySelector('.gotoInput').value;
         const verseDesc = inputValue.replace(/^\s+|\s+$/g, '').replace(/[\.\/：章]/g, ':').replace(/[節节]$/, '').toLowerCase();
         const parts = verseDesc.match(/^([1-3]?\d*\D+)\s*(\d+)(:(\d*))?$/);
-        console.log(parts)
         const book = parts ? parts[1].replace(/[\s:]+/g, '') : 'none';
         const bi = booksLookup[book];
         if (!bi) {
@@ -530,19 +529,14 @@
       }
 
       // NOTE load data
-      const loadVerseData = function () {
-        scrollTop('verseData');
-        focus('verseData');
-
-        const titleHtml = document.querySelector('#verseData .nav').innerHTML;
-        const title = document.querySelector('#verseData .nav span').innerHTML;
-        document.querySelector('#nav h1').innerHTML = titleHtml;
-        document.head.querySelector('title').text = title + ' - BIBLEBASE';
+      const addAnalyticButton = function () {
+        const wordsSection = document.querySelector('#word');
+        if (!wordsSection) return;
 
         const button = document.createElement("button");
         button.classList.add("toggleAnalytics");
         button.innerHTML = "顯示單詞分析";
-        document.querySelector('#word').appendChild(button);
+        wordsSection.appendChild(button);
         button.addEventListener('click', function () {
           if (document.querySelector('.extended').style.display === 'inline') {
             document.querySelectorAll('.extended').forEach( function (el) { el.style.display = 'none' });
@@ -552,6 +546,21 @@
             button.innerHTML = "隱藏單詞分析";
           }
         });
+      }
+
+      const setTitles = function () {
+        const titleHtml = document.querySelector('#verseData .nav').innerHTML;
+        const title = document.querySelector('#verseData .nav span').innerHTML;
+        document.querySelector('#nav h1').innerHTML = titleHtml;
+        document.head.querySelector('title').text = title + ' - BIBLEBASE';
+      }
+
+      const loadVerseData = function () {
+        scrollTop('verseData');
+        focus('verseData');
+
+        setTitles();
+        addAnalyticButton();
 
         document.querySelectorAll('.wordLink').forEach(function (el) {
           el.addEventListener('click', function () {
