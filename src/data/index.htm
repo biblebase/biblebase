@@ -493,27 +493,23 @@
 
       document.onkeydown = function(e) {
         if (document.activeElement === document.querySelector('.gotoInput')) return;
-        if (e.ctrlKey || e.shiftKey || e.metaKey || e.altKey) return;
-
-        // Note Trap arrow keys
-        if (e.which >= 37 && e.which <= 40) {
-          e.preventDefault();
-        }
+        if (e.ctrlKey || e.metaKey || e.altKey) return;
+        if (e.shiftKey && (e.which < 37 || e.which > 40)) return;
 
         // NOTE keypress J or Arrow Down
-        if (e.which === 74 || e.which === 40) {
+        if (e.which === 74 || (e.shiftKey && e.which === 40)) {
           gotoVerse(parseInt(window.verse || 0) + 1);
 
         // NOTE keypress K or Array Up
-        } else if (e.which === 75 || e.which === 38) {
+        } else if (e.which === 75 || (e.shiftKey && e.which === 38)) {
           gotoVerse(parseInt(window.verse) - 1);
 
         // NOTE keypress N or Array Right
-        } else if (e.which === 78 || e.which === 39) {
+        } else if (e.which === 78 || (e.shiftKey && e.which === 39)) {
           document.querySelector('#nav .next').click();
 
         // NOTE keypress P or Array Left
-        } else if (e.which === 80 || e.which === 37) {
+        } else if (e.which === 80 || (e.shiftKey && e.which === 37)) {
           document.querySelector('#nav .prev').click();
 
         // NOTE keypress U
