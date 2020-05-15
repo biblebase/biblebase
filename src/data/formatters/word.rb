@@ -74,8 +74,8 @@ class Word < Base
           end
           @h.br(class: :extended)
           @h.span(class: 'meanings extended') do
-            if word_info[:meanings_count]
-              @h.text! "#{word_info[:meanings_count]}種"
+            if word_info[:meaningsCount]
+              @h.text! "#{word_info[:meaningsCount]}種"
             else
               @h.text! $NBSP
             end

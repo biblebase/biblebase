@@ -6,6 +6,9 @@
       body {
         font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
       }
+      .verseLink {
+        white-space: nowrap
+      }
       #title {
         position: fixed;
         top: 0; left: 0; width: 100%;
@@ -307,9 +310,45 @@
         line-height: 24px;
         color: #333;
       }
+      #word .header .original {
+        line-height: initial;
+        font-size: 100%;
+      }
       #word .extended {
         text-shadow: 2px 2px 5px #666;
         display: none;
+      }
+      #word button.toggleAnalytics:focus {
+        outline: 0px solid transparent;
+      }
+      #word button.toggleAnalytics {
+        border: 0px;
+        border-bottom: 2px dotted #44a;
+        font-style: italic;
+        padding: 5px;
+        color: #333;
+        text-shadow: 2px 2px 5px #666;
+        cursor: pointer;
+        font-size: 100%;
+        float: right;
+        clear: both;
+        margin: 10px;
+      }
+      #analytic td {
+        border-bottom: 1px dotted #333
+      }
+      .wordsMapping ol {
+        font-size: 85%;
+        padding: 20px;
+        margin: 0px;
+      }
+      .wordsMapping span.word {
+        white-space: pre-line;
+      }
+      .wordsMapping span.link {
+        font-size: 120%;
+        margin: 5px;
+        color: #444;
       }
     </style>
   </head>
@@ -493,8 +532,25 @@
       const loadVerseData = function () {
         scrollTop('verseData');
         focus('verseData');
-        document.querySelector('#nav h1').innerHTML =
-          document.querySelector('#verseData .nav').innerHTML
+
+        const titleHtml = document.querySelector('#verseData .nav').innerHTML;
+        const title = document.querySelector('#verseData .nav span').innerHTML;
+        document.querySelector('#nav h1').innerHTML = titleHtml;
+        document.head.querySelector('title').text = title + ' - BIBLEBASE';
+
+        const button = document.createElement("button");
+        button.classList.add("toggleAnalytics");
+        button.innerHTML = "顯示單詞分析";
+        document.querySelector('#word').appendChild(button);
+        button.addEventListener('click', function () {
+          if (document.querySelector('.extended').style.display === 'inline') {
+            document.querySelectorAll('.extended').forEach( function (el) { el.style.display = 'none' });
+            button.innerHTML = "顯示單詞分析";
+          } else {
+            document.querySelectorAll('.extended').forEach( function (el) { el.style.display = 'inline' });
+            button.innerHTML = "隱藏單詞分析";
+          }
+        });
 
         document.querySelectorAll('.wordLink').forEach(function (el) {
           el.addEventListener('click', function () {

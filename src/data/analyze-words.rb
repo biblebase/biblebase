@@ -69,7 +69,7 @@ MAX_SAMPLES = 10
 # NOTE detect english roots, output as (in YAML):
 # hebrew-123:
 #   pos: n
-#   meanings_count: 3
+#   meaningsCount: 3
 #   occurences: 2
 #   meanings:
 #     that: # max 10
@@ -136,7 +136,7 @@ def save_json_and_html(words_hash)
 
     if v[:meanings]
       html.h3 "上下文意思"
-      html.p "共#{v[:meanings_count]}種"
+      html.p "共#{v[:meaningsCount]}種"
       html.table do
         v[:meanings].first(MAX_SAMPLES).each do |meaning, c|
           html.tr do
@@ -159,7 +159,7 @@ def save_json_and_html(words_hash)
             verse_key, idx = ext_verse_key.split('|')
             html.tr do
               html.td do
-                verse_link(html, verse_key)
+                verse_link(html, verse_key, :short)
               end
               html.td do
                 html.i do

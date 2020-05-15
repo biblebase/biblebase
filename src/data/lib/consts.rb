@@ -157,7 +157,7 @@ def verse_desc(verse_key, desc_mode=:full)
 end
 
 def verse_link(html_builder, verse_key, desc_mode=:full)
-  html_builder.a(href: verse_url(verse_key)) do
+  html_builder.a(class: :verseLink, href: verse_url(verse_key)) do
     html_builder.text! verse_desc(verse_key, desc_mode)
   end
 end

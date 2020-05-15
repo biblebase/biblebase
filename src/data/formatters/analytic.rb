@@ -14,6 +14,7 @@ require_relative 'base'
 #           greek-3972: <score>
 #           greek-322: <score>
 class Analytic < Base
+  NO_TRANSLATION = '<no translation>'
   def section_name
     "相關經文"
   end
@@ -52,14 +53,40 @@ class Analytic < Base
               end
             end.join
           end
+        end
 
-          # TODO words mapping
+        # TODO words mapping
+        source_verse_words = get_verse_data(@verse_key, :words) || []
+        words_hash = words_in_eng(words, anchors)
+        source_words_hash = words_in_eng(source_verse_words, anchors)
+        @h.td(class: :wordsMapping) do
+          @h.ol do
+            anchors.keys.each do |wordId|
+              @h.li do
+                @h.span(class: :word) do
+                  @h.text! words_hash[wordId] || NO_TRANSLATION
+                end
+                @h.span(class: :link) do
+                  @h.text! "↔"
+                end
+                @h.span(class: :word) do
+                  @h.text! source_words_hash[wordId] || NO_TRANSLATION
+                end
+              end
+            end
+          end
         end
       end
     end
   end
   
   private
+
+  def words_in_eng(words, anchors)
+    words.each_with_object({}) do |w, h|
+      h[w["id"]] = w["eng"] if anchors[w["id"]]
+    end
+  end
 
   def get_verse_data(verse_key, section)
     begin
