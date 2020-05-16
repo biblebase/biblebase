@@ -1,68 +1,76 @@
 require_relative 'base'
 # Sample
-# {
-#   "gen.1.1": {
-#     "analytics": {
-#       "polysemies": {
-#         "the heavens": {
-#           "heaven": [
-#             "jon.1.9",
-#             "job.41.11"
-#           ],
-#           "air": [
-#             "hos.7.12"
-#           ],
-#           "sky": [
-#             "gen.26.4"
-#           ],
-#           "astrolog": [
-#             "isa.47.13"
-#           ]
-#         }
-#       },
-#       "uniqueWords": ["the tendon"],
-#       "rareWords": {
-#         "and some distance": [
-#           "est.4.14",
-#           "gen.32.16"
-#         ]
-#       },
-#       "connections": {
-#         "jud.1.25": [
-#           "Savior",
-#           "glory",
-#           "of eternity",
-#           "Amen"
-#         ]
-#       }
-#     }
-#   }
-# }
+# php.1.1:
+#   analytics:
+#     crossRefs: # 相關經文
+#       # maxCount: 10, totalScoreThreshold: 5
+#       - verseKey: php.2.12
+#         totalScore: 8.2
+#         anchors:
+#           greek-3972: <score>
+#       - verseKey:  mat.2.14
+#         totalScore: 6.1
+#         anchors:
+#           greek-3972: <score>
+#           greek-322: <score>
 class Analytic < Base
+  NO_TRANSLATION = '<no translation>'
   def section_name
-    "詞頻分析"
+    "相關經文"
   end
 
   def format(item)
-    key, obj = item
-    send("format_#{key.snake_case}", obj) unless obj.empty?
-  end
+    _, cross_refs = item
+    return if cross_refs.empty?
 
-  def format_polysemies(obj)
-    @h.div do
-      @h.h3 "多義詞（有四種以上翻譯）"
+    cross_refs.each do |cross_ref|
+      verse_key = cross_ref["verseKey"]
+      anchors = cross_ref["anchors"]
 
-      obj.each do |word, occurances|
-        @h.div do
-          @h.h5 word
-          @h.ul do
-            occurances.each do |eng, verses|
+      words = get_verse_data(verse_key, :words) || []
+      versions = get_verse_data(verse_key, :versions) || {}
+      @h.tr do
+        @h.td do
+          verse_link(@h, verse_key, :short)
+        end
+        @h.td do
+          @h.span(class: :mainVersion) do
+            @h.text! versions.dig("cunp", "text") || ''
+          end
+          @h.br
+          @h.span(class: :interLinear) do
+            words.map do |w|
+              if score = anchors[w["id"]]
+                @h.b w["eng"]
+              else
+                @h.span w["eng"]
+              end
+
+              if w["punct"]
+                @h.span w["punct"] + $NBSP
+              else
+                @h.span $NBSP
+              end
+            end.join
+          end
+        end
+
+        # TODO words mapping
+        source_verse_words = get_verse_data(@verse_key, :words) || []
+        words_hash = words_in_eng(words, anchors)
+        source_words_hash = words_in_eng(source_verse_words, anchors)
+        @h.td(class: :wordsMapping) do
+          @h.ol do
+            anchors.keys.each do |wordId|
               @h.li do
-                @h.b eng
-                @h.span " - "
-                verses.each.with_index do |verse, idx|
-                  @h.a(href: verse_url(verse)) { @h.text! verse_desc(verse) }
-                  @h.text! ' | ' unless idx == verses.size - 1
+                @h.span(class: :word) do
+                  @h.text! words_hash[wordId] || NO_TRANSLATION
+                end
+                @h.span(class: :link) do
+                  @h.text! "↔"
+                end
+                @h.span(class: :word) do
+                  @h.text! source_words_hash[wordId] || NO_TRANSLATION
                 end
               end
             end
@@ -71,58 +79,36 @@ class Analytic < Base
       end
     end
   end
+  
+  private
 
-  def format_unique_words(obj)
-    @h.div do
-      @h.h3 "只出現過一次的詞"
-      obj.each do |word|
-        @h.text! word
-      end
+  def words_in_eng(words, anchors)
+    words.each_with_object({}) do |w, h|
+      h[w["id"]] = w["eng"] if anchors[w["id"]]
     end
   end
 
-  def format_rare_words(obj)
-    @h.div do
-      @h.h3 "生僻詞（另外出現過兩三次）"
-      @h.ul do
-        obj.each do |word, verses|
-          @h.li do
-            @h.b word
-            @h.span " - "
-            verses.each.with_index do |verse, idx|
-              @h.a(href: verse_url(verse)) { @h.text! verse_desc(verse) }
-              @h.text! ' | ' unless idx == verses.size - 1
-            end
-          end
-        end
-      end
+  def get_verse_data(verse_key, section)
+    begin
+      file = "verses_data/#{verse_path(verse_key)}/#{section}.json"
+      json = JSON.parse(File.read(file))
+      json.dig(verse_key, section.to_s)
+    rescue StandardError => e
+      nil
     end
   end
 
-  def format_connections(obj)
-    @h.div do
-      @h.h3 "串珠（相同的詞根在另一經節出現過四次以上）"
-      @h.ul do
-        obj.each do |verse, words|
-          @h.li do
-            @h.b do
-              @h.a(href: verse_url(verse)) { @h.text! verse_desc(verse) }
-            end
-            @h.span " - "
-            words.each.with_index do |word, idx|
-              @h.span word
-              @h.text! ' | ' unless idx == words.size - 1
-            end
-          end
-        end
-      end
+  def items_wrapper
+    @h.table(id: klass_name) do
+      yield
     end
   end
+
 end
 
 if __FILE__ == $0
   section_key = 'analytics'
-  obj = JSON.parse File.open("verses_data/1/1/1/#{section_key}.json").read
+  obj = JSON.parse File.read("verses_data/1/1/1/#{section_key}.json")
 
-  puts Analytic.new.format_all(obj.values.first[section_key])
+  puts Analytic.new('gen.1.1').format_all(obj.values.first[section_key])
 end

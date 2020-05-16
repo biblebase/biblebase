@@ -16,14 +16,17 @@ class BiblecomCrawler < Base
     doc = get_doc(file, "UTF-8")
     bn,c,_,version = file.split(/[\.\-\/]/)[-5,4]
 
-    doc.search('.verse').each_with_object({}) do |el, h|
-      content = el.search('.content').text.strip
-      next if content.empty?
-      verse_key = el.attr('data-usfm').downcase
+    doc.search('.verse').group_by do |el|
+      el.attr('data-usfm').downcase
+    end.each_with_object({}) do |kv, h|
+      verse_key, elements = kv
+      text = elements.map do |el|
+        content = el.search('.content').text.strip
+        content.empty? ? nil : content
+      end.compact.join(' ')
+
       h[verse_key] ||= {}
-      h[verse_key][version] = {
-        text: content
-      }.merge(VERSION_METADATA[version.to_sym])
+      h[verse_key][version] = VERSION_METADATA[version.to_sym].merge(text: text)
     end
   end
 
@@ -92,6 +95,6 @@ end
 
 if $0 == __FILE__
   c = BiblecomCrawler.new
-  #c.fetch_all
+  # c.fetch_all
   c.parse_all
 end

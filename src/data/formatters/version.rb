@@ -25,10 +25,21 @@ class Version < Base
 
   def format(item)
     key, obj = item
-    @h.li do
-      @h.text! obj["text"]
-      @h.span " - "
-      @h.b obj["version_name"]
+    @h.tr do
+      @h.td do
+        @h.b obj["version_id"]
+      end
+      @h.td do
+        @h.text! obj["text"]
+      end
+    end
+  end
+
+  private
+
+  def items_wrapper
+    @h.table do
+      yield
     end
   end
 end

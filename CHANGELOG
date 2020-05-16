@@ -1,0 +1,42 @@
+# 20200515
+
+## Features
+
+* NavSearch - to go directly to the chapter verse by
+   * full chapter name in 3 languages (en/chs/cht), like Genesis, 馬太福音
+   * short chapter name, like mat, phil, php, 太, 創, 1co, 2th
+	 * pinyin first letters of full name, like csj, qsl, xbls 
+	 * pinyin of short name, like tai, lai, qi
+	 * supported formats for chapters: php.1, 太1, 馬太福音1章, Genesis 50, gen/1
+	 * supported formats for verses: php.1.1, 太 1:1, 馬太福音1章10節, Jobs 1:3, gen/1/3
+* Key bindings: arrow keys, jknpu, /
+* UI language all in traditional chinese
+* A new way of doing words analytics
+   * Occurences and Meanings built into the Words section.
+	 * Analytics has now only Cross-References that are calculated by occurences
+	 and numbers of meanings.
+
+## Fixed Issues
+
+* NLT verses 
+* Text flow of Interlinear
+* Link to chapter-level data - now it can be done by just unselecting verse
+
+# 20200501
+
+## Features
+
+* Data for every book
+* One page app in minimalized js/css/html
+* Interlinear (word-by-word) translation
+* Words frequencey analytics
+   * Unique words
+	 * Rare words
+	 * Polysemies
+	 * Connections
+
+# 20200401
+
+## Proof of Concept
+
+* sermons/versions/interpretations/hymns on php.3

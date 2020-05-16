@@ -13,6 +13,7 @@ $BOOK_LOOKUP = $BOOKS.each_with_object({}) do |kv, ret|
     ret[v.downcase] = key
     ret[v.downcase.snake_case] = key
     ret[v.downcase.kabab_case] = key
+    ret[v.downcase.gsub(/\s+/,'')] = key
   end
   (book[:short_name] || []).each do |lang, v|
     ret[v] = key
@@ -71,6 +72,25 @@ $VERSIONS = {
   }
 }
 
+$PARTS_OF_SPEECH = {
+  n: '名詞',
+  v: '動詞',
+  adj: '形容詞',
+  adv: '副詞',
+  art: '冠詞',
+  dpro: '指示代詞',
+  ipro: '不定代詞',
+  ppro: '人稱代詞',
+  recpro: '相互代詞',
+  relpro: '關係代詞',
+  refpro: '反身代詞',
+  prep: '介詞',
+  conj: '連接詞',
+  i: '感嘆詞',
+  prtcl: '量詞',
+  heb: '希伯來語詞彙',
+  aram: '亞蘭語詞彙'
+}
 # functions
 require 'lemmatizer'
 require 'stemmify'
@@ -81,8 +101,8 @@ $STOP_WORDS = %w[
   be is are was were am been being
   will should shall might would can could may
   do did does
-  have has having let
-  to from in for out at to of on up over
+  have has having had let begin
+  to from in for out at to of on up over down
   away with among against after by through
   within along besides between all under into
   before unto during
@@ -93,22 +113,51 @@ $STOP_WORDS = %w[
   never man own now day indeed even
   things every anyone everyone if new
   - ‘
-  jesus god christ lord holy spirit
 ]
 $lem = Lemmatizer.new
 
+$STATS_BY_POS = %w[n v adj adv heb aram]
 def get_main_pos(pos)
-  pos.split(' | ')
+  pos.to_s.split(' | ')
     .map{|k| k.downcase.split(/[^0-9a-z]/).first}
-    .sort_by{|k| RARE_WORD_BY_POS.include?(k) ? 0 : 1 }
+    .sort_by{|k| $STATS_BY_POS.include?(k) ? 0 : 1 }
     .first
 end
 
-def stem(word, pos)
+def stem(word)
   main_word = word.gsub(/\[.+\]/, '').strip
   words = main_word.downcase.split(/[\s'’]+/)
   (words - $STOP_WORDS)
-    .map{|w| l = $lem.lemma(w); pos == 'n' ? l.stem : l}
+    .map{ |w| $lem.lemma(w) }
     .join(' ')
 end
 
+def stemmed_parts(word)
+  main_word = word.gsub(/\[.+\]/, '').strip
+  words = main_word.downcase.gsub(/['’]s/, '').split
+  (words - $STOP_WORDS)
+    .map{ |w| w = $lem.lemma(w) }
+end
+
+#NOTE formatter
+$NBSP = "\u00A0"
+
+def verse_path(verse_key)
+  bk,c,v = verse_key.split('.')
+  b = $BOOKS.dig(bk.downcase.to_sym, :index)
+  [b,c,v].join('/')
+end
+
+def verse_url(verse_key)
+  "/##{verse_path(verse_key)}"
+end
+
+def verse_desc(verse_key, desc_mode=:full)
+  VerseBundle.new(verse_key).to_s(desc_mode)
+end
+
+def verse_link(html_builder, verse_key, desc_mode=:full)
+  html_builder.a(class: :verseLink, href: verse_url(verse_key)) do
+    html_builder.text! verse_desc(verse_key, desc_mode)
+  end
+end
