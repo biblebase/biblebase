@@ -45,28 +45,32 @@ class StudyGuide extends React.Component {
         // no verse selected
         const reference = Object.entries(this.props.verseReference)[0][1];
         return (
-            <div id="sermons" className={classNames("section", 
-                { dim: reference.sermons === undefined || reference.sermons.length === 0})}>
-                <div className="section-heading">證道與讀經班</div>
-                <div className="section-content">
-                    {reference.sermons.map(sermon => (
-                    <div className="sermon-block" key={sermon.id}>
-                        <div className="title">{sermon.title}</div>
-                        <div className="author">{sermon.preacher}</div>
-                        <div className="date">{sermon.date}</div>
-                        {sermon.audio? 
-                        (<audio className="sermon-audio" controls>
-                            <source src={sermon.audio} type="audio/mpeg" />
-                            Your browser does not support the audio element.
-                        </audio>) : ""}
-                        {sermon.slides ? 
-                            (<div className="sermon-slides">
-                                <a href={sermon.slides} target="_blank" rel="noopener noreferrer">Slides</a>
-                            </div>) : ""
-                        }
-                    </div>))}
+            <div id="study-guide">
+                <div id="study-content">
+                    <div id="sermons" className={classNames("section", 
+                        { dim: reference.sermons === undefined || reference.sermons.length === 0})}>
+                        <div className="section-heading">證道與讀經班</div>
+                        <div className="section-content">
+                            {reference.sermons.map(sermon => (
+                            <div className="sermon-block" key={sermon.id}>
+                                <div className="title">{sermon.title}</div>
+                                <div className="author">{sermon.preacher}</div>
+                                <div className="date">{sermon.date}</div>
+                                {sermon.audio? 
+                                (<audio className="sermon-audio" controls>
+                                    <source src={sermon.audio} type="audio/mpeg" />
+                                    Your browser does not support the audio element.
+                                </audio>) : ""}
+                                {sermon.slides ? 
+                                    (<div className="sermon-slides">
+                                        <a href={sermon.slides} target="_blank" rel="noopener noreferrer">Slides</a>
+                                    </div>) : ""
+                                }
+                            </div>))}
+                        </div>
+                    </div> 
                 </div>
-            </div> 
+            </div>
         );
     }
 
