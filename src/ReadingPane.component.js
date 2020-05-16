@@ -133,10 +133,21 @@ class ReadingPane extends React.Component {
       let chapter = event.currentTarget.dataset.chapter;
       let verse = event.currentTarget.dataset.verse;
       if (target.classList.contains("verse")) {
-        this.setState({
-          selectedVerse: parseInt(verse),
-        });
-        this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
+        if (parseInt(book) === this.props.bookId && 
+            parseInt(chapter) === this.props.chapter && 
+            parseInt(verse) === this.state.selectedVerse) {
+          // clicked on the same verse
+          // reverse selection
+          this.setState({
+            selectedVerse: 0
+          });
+          this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), 0);
+        } else {
+          this.setState({
+            selectedVerse: parseInt(verse),
+          });
+          this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
+        }
       }
     }
   }

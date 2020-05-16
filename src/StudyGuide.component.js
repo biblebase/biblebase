@@ -41,12 +41,42 @@ class StudyGuide extends React.Component {
 
     }
 
+    renderChapterData() {
+        // no verse selected
+        const reference = Object.entries(this.props.verseReference)[0][1];
+        return (
+            <div id="sermons" className={classNames("section", 
+                { dim: reference.sermons === undefined || reference.sermons.length === 0})}>
+                <div className="section-heading">證道與讀經班</div>
+                <div className="section-content">
+                    {reference.sermons.map(sermon => (
+                    <div className="sermon-block" key={sermon.id}>
+                        <div className="title">{sermon.title}</div>
+                        <div className="author">{sermon.preacher}</div>
+                        <div className="date">{sermon.date}</div>
+                        {sermon.audio? 
+                        (<audio className="sermon-audio" controls>
+                            <source src={sermon.audio} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>) : ""}
+                        {sermon.slides ? 
+                            (<div className="sermon-slides">
+                                <a href={sermon.slides} target="_blank" rel="noopener noreferrer">Slides</a>
+                            </div>) : ""
+                        }
+                    </div>))}
+                </div>
+            </div> 
+        );
+    }
+
     render() {
-        if (this.props.verse === 0)
+        if (this.props.verseReference === undefined || this.isObjectEmpty(this.props.verseReference))
             return <div></div>
+        if (this.props.verse === 0)
+            return this.renderChapterData();
 
         const verseObject = Object.entries(this.props.verseReference)[0][1];
-        console.log(verseObject);
         const bookTitle = this.props.bibleIndex[this.props.bookId].title;
         const title = `${bookTitle} ${this.props.chapter} : ${this.props.verse}`;
         return (
@@ -103,6 +133,7 @@ class StudyGuide extends React.Component {
                     <div id="sermons" className={classNames("section", 
                         { dim: verseObject.sermons === undefined || verseObject.sermons.length === 0})}>
                         <div className="section-heading">證道與讀經班</div>
+                        {verseObject.sermons === undefined || verseObject.sermons.length === 0? "" :
                         <div className="section-content">
                             {verseObject.sermons.map(sermon => (
                             <div className="sermon-block" key={sermon.id}>
@@ -120,7 +151,7 @@ class StudyGuide extends React.Component {
                                     </div>) : ""
                                 }
                             </div>))}
-                        </div>
+                        </div>}
                     </div>   
                     <div id="interpretations" className={classNames("section", 
                         { dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0})}>

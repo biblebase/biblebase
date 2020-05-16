@@ -21,18 +21,25 @@ class BibleApp extends React.Component {
   }
 
   changeBookChapterRequest = (bookId, chapter) => {
-
-    getBookChapterJson(bookId, chapter).then( data => {
-      this.setState({
-        bookId: bookId,
-        chapter: chapter,
-        selectedVerse: 0, // default
-        data: data
-      });
+    let tempData = {};
+    getBookChapterJson(bookId, chapter).then( bibleData => {
+      tempData = bibleData;
+      return getVerseJson(bookId, chapter, 0);
     }, res => {
         console.log("Error: unable to fetch bible data");
         console.log(res);
+    }).then(verseData => {
+      this.setState({
+        bookId: bookId,
+        chapter: chapter,
+        selectedVerse: 0,
+        verseReference: verseData,
+        data: tempData
       });
+    }, res => {
+      console.log("Unable to fetch verse data");
+      console.log(res);
+    });
   }
 
   

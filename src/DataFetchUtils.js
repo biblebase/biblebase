@@ -12,9 +12,11 @@ function getBookChapterJson(bookId, chapter) {
 
 function getVerseJson(bookId, chapter, verse) {
   // return fetchLocalJsonData(`./json/php.${chapter}.${verse}.json`);
-  const url = encodeURI(`${GET_VERSE_ENDPOINT}/${bookId}/${chapter}/${verse}.json`);
-  console.log(url);
-  return fetchVerseJson(url);
+  if (verse === 0) {
+    return fetchVerseJson(encodeURI(`${GET_VERSE_ENDPOINT}/${bookId}/${chapter}.json`));
+  } else {
+    return fetchVerseJson(encodeURI(`${GET_VERSE_ENDPOINT}/${bookId}/${chapter}/${verse}.json`));
+  }
 }
 
 async function fetchBookChapterJson(path) {
