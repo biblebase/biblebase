@@ -2,31 +2,56 @@ import React from "react";
 import './ReadingPane.css';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-
+import { getBookChapterJson } from './DataFetchUtils';
+import { Link } from 'react-router-dom';
+import { isEmptyObject } from './Utils';
 
 class ReadingPane extends React.Component {
 
   static propTypes = {
-    bookId: PropTypes.number.isRequired,
-    chapter: PropTypes.number.isRequired,
     bibleIndex: PropTypes.object.isRequired,
-    data: PropTypes.object.isRequired,
     changeVerseSelectionRequest: PropTypes.func.isRequired
   }
 
   state = {
+    bookId: 1,
+    chapter: 1, 
+    verse: 0,
+    /* for menu selection */
     selectedbookId: 0,
     selectedChapter: 0,
     selectedVerse: 0,
-    showBookDropdown: false
+    showBookDropdown: false,
+    chapterData: {}
   }
 
-  // add listeners to verse elements
-  componentDidMount = () => {
-    const verses = document.getElementsByClassName("verse");
-    for (let verse of verses) {
-      verse.addEventListener("click", this.handleSelectVerseEvent);
+  /* 
+   * When props changes (when routing has changed), we need to catch is and update the state
+   * so that it will cause updates to relevent elements in the UI. If we skip this part, 
+   * the whole componenet is re-rendered when routing changes
+   */
+  componentWillReceiveProps(props) {
+    const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
+    const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
+    const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
+    if (bookId !== this.state.bookId || chapter !== this.state.chapterData) {
+      getBookChapterJson(bookId, chapter).then(data => {
+        this.setState({
+          chapterData: data,
+          bookId: bookId,
+          chapter: chapter,
+          verse: verse
+        });
+      });
     }
+  }
+
+  getBookData = (book, chapter) => {
+    getBookChapterJson(book, chapter).then(data => {
+      this.setState({
+        chapterData: data
+      });
+    });
   }
 
   handleReadingPaneClick = (event) => {
@@ -43,48 +68,62 @@ class ReadingPane extends React.Component {
     }
   }
 
-  handlePrevButtonClick = () => {
-    let book = this.props.bookId;
-    let chapter = this.props.chapter;
-    
-    // invalid
-    if (chapter === 1 && book === 1) {
-      return;
-    }
-
-    // need to go to previous chapter
-    if (chapter === 1) {
-      book -= 1;
-      chapter = this.props.bibleIndex[book].chapters;
+  renderPrevChLink = (book, chapter) => {    
+    if (book === 1 && chapter === 1) {
+      return (
+        <div className="prev prev-disabled">
+          <span className="triangle triangle-prev-disabled" ></span>
+        </div>
+      ); 
     } else {
-      chapter -= 1;
+      let prevBook = book;
+      let prevCh = chapter;
+      // need to go to previous book
+      if (chapter === 1) {
+        prevBook =- 1;
+        prevCh = this.props.bibleIndex[book].chapters;
+      } else {
+        prevCh -= 1;
+      }
+  
+      return (
+        <Link to={`/bible/${prevBook}/${prevCh}`}>
+          <div className="prev">
+            <span className="triangle triangle-prev" ></span>
+          </div>
+        </Link>
+      )
     }
-    this.setState({
-      selectedVerse: 0
-    })
-    this.props.changeBookChapterRequest(book, chapter);
+            
   }
 
-  handleNextButtonClick = () => {
-    let book = this.props.bookId;
-    let chapter = this.props.chapter;
-
-    // invalid
+  renderNextChLink = (book, chapter) => {    
+  
     if (book === 66 && chapter === 22) {
-      return;
-    }
-
-    // next book
-    if (chapter === this.props.bibleIndex[book].chapters) {
-      book += 1;
-      chapter = 1;
+      return (
+        <div className="next next-disabled">
+          <span className="triangle triangle-next-disabled" ></span>
+        </div>
+      ); 
     } else {
-      chapter += 1;
+      let nextBook = book;
+      let nextCh = chapter;
+      // need to go to next book
+      if (chapter === this.props.bibleIndex[book].chapters) {
+        nextBook += 1;
+        nextCh = 1;
+      } else {
+        nextCh += 1;
+      }
+      return (
+        <Link to={`/bible/${nextBook}/${nextCh}`}>
+          <div className="next">
+            <span className="triangle triangle-next" ></span>
+          </div>
+        </Link>
+      )
     }
-    this.setState({
-      selectedVerse: 0
-    })
-    this.props.changeBookChapterRequest(book, chapter);
+            
   }
 
   handleDropdownButtonClick = (event) => {
@@ -108,9 +147,9 @@ class ReadingPane extends React.Component {
 
     // call parent function to change selected
     if (this.state.selectedbookId === 0) // if using default selection (only changing chapter)
-      this.props.changeBookChapterRequest(this.props.bookId, parseInt(event.target.value));
+      this.props.history.push(`/bible/${this.props.match.params.book}/${parseInt(event.target.value)}`);
     else
-      this.props.changeBookChapterRequest(this.state.selectedbookId, parseInt(event.target.value));
+      this.props.history.push(`/bible/${this.state.selectedbookId}/${parseInt(event.target.value)}`);
 
     // reset
     this.setState({
@@ -122,50 +161,30 @@ class ReadingPane extends React.Component {
       
   }
 
-  // handle verse selected event
-  handleSelectVerseEvent = (event) => {
-
-    // if menu is not open, allow selecting verse
-    if (!this.state.showBookDropdown) {
-      event.stopPropagation();
-      let target = event.currentTarget;
-      let book = event.currentTarget.dataset.book;
-      let chapter = event.currentTarget.dataset.chapter;
-      let verse = event.currentTarget.dataset.verse;
-      if (target.classList.contains("verse")) {
-        if (parseInt(book) === this.props.bookId && 
-            parseInt(chapter) === this.props.chapter && 
-            parseInt(verse) === this.state.selectedVerse) {
-          // clicked on the same verse
-          // reverse selection
-          this.setState({
-            selectedVerse: 0
-          });
-          this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), 0);
-        } else {
-          this.setState({
-            selectedVerse: parseInt(verse),
-          });
-          this.props.changeVerseSelectionRequest(parseInt(book), parseInt(chapter), parseInt(verse));
-        }
-      }
-    }
-  }
-
   render() {
-    if (Object.keys(this.props.data).length === 0) {
+    console.log("render reading pane");
+    const bookId = this.state.bookId;
+    const chapter = this.state.chapter;
+    const verse = this.state.verse;
+    const chapterData = this.state.chapterData;
+
+    // data has not been loaded
+    if (isEmptyObject(chapterData) || 
+        chapterData.book_nr !== bookId || chapterData.chapter != chapter) {
+      this.getBookData(bookId, chapter);
       return <div></div>
     }
-    const verses = this.props.data['verses'];
+
+    const verses = chapterData['verses'];
     let menu = [];
     if (this.state.selectedbookId !== 0) { // selected a book
       for (let i = 1; i <= this.props.bibleIndex[this.state.selectedbookId].chapters; i++) {
         menu.push(<option className="chapter-list-item" value={i} key={i}>{i}</option>)
       }
     } else { // book has not been selected, is pointing to current book
-      for (let i = 1; i <= this.props.bibleIndex[this.props.bookId].chapters; i++) {
+      for (let i = 1; i <= this.props.bibleIndex[bookId].chapters; i++) {
         menu.push(<option className={classNames("chapter-list-item", 
-            {highlight: i === this.props.chapter})} // highlight original chapter 
+            {highlight: i === chapter})} // highlight original chapter 
             value={i} key={i}>{i}</option>)
       }
     }
@@ -173,38 +192,22 @@ class ReadingPane extends React.Component {
     return (
       <div className="reading-pane" onClick={this.handleReadingPaneClick}>
         <div className="book-select">
-          {
-            this.props.bookId === 1 && this.props.chapter === 1?
-            (<div className="prev prev-disabled">
-              <span className="triangle triangle-prev-disabled" ></span>
-            </div>) :
-            (<div className="prev" onClick={this.handlePrevButtonClick}>
-              <span className="triangle triangle-prev" ></span>
-            </div>)
-          }
+          {this.renderPrevChLink(bookId, chapter)}
           <div className="book-nav">
             <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
-              {this.props.bibleIndex[this.props.bookId].title} {this.props.chapter}  
+              {this.props.bibleIndex[bookId].title} {chapter}  
               <span className="triangle triangle-down"></span>
             </button>
           </div>
-          {
-            this.props.bookId === 66 && this.props.chapter === 22?
-            (<div className="next next-disabled">
-              <span className="triangle triangle-next-disabled" ></span>
-            </div>) :
-            (<div className="next" onClick={this.handleNextButtonClick}>
-              <span className="triangle triangle-next" ></span>
-            </div>)
-          }
+          {this.renderNextChLink(bookId, chapter)}
           <div className={classNames("book-dropdown", {hide: !this.state.showBookDropdown})}>
             <ul className="book-list" onClick={this.handleBookSelection}>
-              {Object.keys(this.props.bibleIndex).map(bookId => (
+              {Object.keys(this.props.bibleIndex).map(bid => (
                   (<li className={classNames("book-list-item", 
                       {highlight: this.state.selectedbookId !== 0? 
-                        this.props.bibleIndex[bookId].id === this.state.selectedbookId :
-                        this.props.bibleIndex[bookId].id === this.props.bookId})} 
-                  value={bookId} key={bookId}>{this.props.bibleIndex[bookId].title}</li>)
+                        this.props.bibleIndex[bid].id === this.state.selectedbookId :
+                        this.props.bibleIndex[bid].id === bookId})} 
+                  value={bid} key={bid}>{this.props.bibleIndex[bid].title}</li>)
               ))}
             </ul>
           </div>
@@ -216,18 +219,20 @@ class ReadingPane extends React.Component {
         </div>
         <div className="content-pane">
           <div className="chapter">
-            {verses.map( verse => (
-              <span className={classNames("verse", {selected: verse.verse === this.state.selectedVerse})} 
-                key={`${this.props.bookId}.${verse.chapter}.${verse.verse}`}
-                data-book={this.props.bookId}
-                data-chapter={this.props.chapter}
-                data-verse={verse.verse}
-                onClick={this.handleSelectVerseEvent} >
-                <span className="label">{verse.verse}</span>
-                <span className="content">
-                  {verse.text}
+            {verses.map( verseObj => (
+              <Link key={`${bookId}.${chapter}.${verseObj.verse}`}
+                    to={verseObj.verse === verse? `/bible/${bookId}/${chapter}` : `/bible/${bookId}/${chapter}/${verseObj.verse}`}>
+                <span className={classNames("verse", {selected: verseObj.verse === verse})} 
+                  key={`${bookId}.${verseObj.chapter}.${verseObj.verse}`}
+                  data-book={bookId}
+                  data-chapter={chapter}
+                  data-verse={verseObj.verse} >
+                  <span className="label">{verseObj.verse}</span>
+                  <span className="content">
+                    {verseObj.text}
+                  </span>
                 </span>
-              </span>
+              </Link>
             ))}
           </div>
         </div>
