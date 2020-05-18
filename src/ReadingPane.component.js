@@ -10,7 +10,6 @@ class ReadingPane extends React.Component {
 
   static propTypes = {
     bibleIndex: PropTypes.object.isRequired,
-    changeVerseSelectionRequest: PropTypes.func.isRequired
   }
 
   state = {
@@ -162,7 +161,6 @@ class ReadingPane extends React.Component {
   }
 
   render() {
-    console.log("render reading pane");
     const bookId = this.state.bookId;
     const chapter = this.state.chapter;
     const verse = this.state.verse;

@@ -8,7 +8,6 @@ import { Switch, Route, Redirect } from "react-router-dom";
 class BibleApp extends React.Component {
 
   render() {
-    console.log("render app");
     return (
       <div>
         <Switch>
@@ -16,13 +15,11 @@ class BibleApp extends React.Component {
             render={(props) => (
               <div className="bible-app">
                 <div className="left">
-                  <ReadingPane 
-                    bibleIndex={bibleIndex}
-                    changeBookChapterRequest={this.changeBookChapterRequest}
-                    changeVerseSelectionRequest={this.changeVerseSelectionRequest}
-                    {...props} />
+                  <ReadingPane bibleIndex={bibleIndex} {...props} />
                 </div>
-                <StudyGuide bibleIndex={bibleIndex} {...props} />
+                <div className="right">
+                  <StudyGuide bibleIndex={bibleIndex} {...props} />
+                </div>
               </div>
             )}
           />

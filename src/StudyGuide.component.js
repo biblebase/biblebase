@@ -64,7 +64,6 @@ class StudyGuide extends React.Component {
   renderChapterData() {
     // no verse selected
     const reference = Object.entries(this.state.contentData)[0][1];
-    console.log(reference);
     return (
       <div id="study-guide">
         <div id="study-content">
@@ -114,7 +113,6 @@ class StudyGuide extends React.Component {
   }
 
   render() {
-    console.log("render guide");
     const bookId = this.state.bookId;
     const chapter = this.state.chapter;
     const verse = this.state.verse;
