@@ -46,7 +46,7 @@
   margin-top: 5px; /* compensate for menu shadow */
 }
 
-#study-guide .guide {
+#study-guide .section {
   width: 100%;
   padding: 20px 0;
 }
@@ -55,7 +55,7 @@
   opacity: 0.2;
 }
 
-.guide .heading {
+.section .section-heading {
   background-color: rgb(165, 164, 164);
   border-radius: 10px 10px 0 0;
   color: #524848;
@@ -64,25 +64,27 @@
   font-size: 1.2em;
 }
 
-.guide .content {
-  padding: 5px 20px 10px 10px;
-  background-color: rgb(247, 245, 243);
-  border-radius: 0 0 10px 10px;
+.sub-section .title {
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-.guide .content .title {
+.section .section-content {
+  /* padding: 5px 20px 0 0; */
+  /* background-color: rgb(247, 245, 243); */
+  /* border-radius: 0 0 10px 10px; */
+}
+
+.section .section-content .title {
   font-weight: bold;
 }
 
-.guide .content .block {
-  margin: 20px;
-}
-
-.guide .content .date {
+.section .section-content .date {
   font-size: 0.8em;
 }
 
-.guide .content .desc {
+.section .section-content .desc {
   font-size: 0.8em;
 
     /* below takes care of long URL that's unable to wrap */
@@ -97,6 +99,66 @@
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+}
+
+#sermons .section-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: (400px, auto);
+}
+
+.sermon-block {
+  background-color: rgb(247, 245, 243);
+  width: cal(100% - 20px);
+  padding: 10px;
+  border: solid 5px white;
+  border-radius: 10px;
+}
+
+.words-table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.words-table .word-cell {
+  margin: 15px;
+}
+
+.translit {
+  font-style: italic;
+}
+
+.word-link {
+  border-bottom: dotted 2px #44a;
+  color: #44a;
+  cursor: pointer;
+}
+
+.greek {
+  font-weight: 200;
+  font-size: 140%;
+}
+
+.paragraph-block {
+  background-color: rgb(247, 245, 243);
+  padding: 10px 10px;
+  border: solid 2px white;
+  border-radius: 10px;
+}
+
+.paragraph {
+  /* below takes care of long URL that's unable to wrap */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 .video-wrapper {
@@ -115,22 +177,11 @@
   height: 100%;
 }
 
-#study-guide .note-comments {
-  margin-left: 50px;
-}
-
-#mi-sunday-school {
+#hymns {
   display: none;
 }
 
-#mi-notes {
-  display: none;
-}
-
-#sunday-school {
-  display: none;
-}
-
-#notes {
-  display: none;
+table td {
+  vertical-align: top;
+  padding-right: 15px;
 }
