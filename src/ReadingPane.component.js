@@ -168,7 +168,7 @@ class ReadingPane extends React.Component {
 
     // data has not been loaded
     if (isEmptyObject(chapterData) || 
-        chapterData.book_nr !== bookId || chapterData.chapter != chapter) {
+        chapterData.book_nr !== bookId || chapterData.chapter !== chapter) {
       this.getBookData(bookId, chapter);
       return <div></div>
     }

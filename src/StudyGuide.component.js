@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { getVerseJson } from "./DataFetchUtils";
+import { getVerseJson, getWordHtml } from "./DataFetchUtils";
 import { isEmptyObject } from './Utils';
 import "./StudyGuide.css";
 
@@ -17,6 +17,7 @@ class StudyGuide extends React.Component {
     verse: 0,
     contentData: {},
     activeSection: "other-versions",
+    showWordInfo: false
   };
 
   componentWillReceiveProps(props) {
@@ -42,6 +43,16 @@ class StudyGuide extends React.Component {
       });
     });
   };
+
+  handleStudyPaneClick = (event) => {
+    event.stopPropagation();
+    // if word info is open, close
+    if (this.state.showWordInfo) {
+      this.setState({
+        showWordInfo: !this.state.showWordInfo
+      });
+    }
+  }
 
   handleMenuSelection = (event) => {
     const link = event.target;
@@ -112,6 +123,22 @@ class StudyGuide extends React.Component {
     );
   }
 
+  handleWordClick = (event) => {
+    event.persist();
+    const wordId = event.currentTarget.dataset["wordid"];
+    // get html for word info
+    getWordHtml(wordId).then((text) => {
+      // TODO this is not ideal as I'm inserting html and not JSX, I don't have <Link>, but <a href> instead.
+      // This mean page will reload when clicked on referenced links
+      const regex = /href="\/#/gmi
+      let html = text.replace(regex, `href=\"/bible/`);
+      document.getElementById("word-lookup").innerHTML = html; 
+      this.setState({
+        showWordInfo: true
+      })
+    });
+  }
+
   render() {
     const bookId = this.state.bookId;
     const chapter = this.state.chapter;
@@ -130,7 +157,7 @@ class StudyGuide extends React.Component {
     const bookTitle = this.props.bibleIndex[bookId].title;
     const title = `${bookTitle} ${chapter} : ${verse}`;
     return (
-      <div id="study-guide">
+      <div id="study-guide" onClick={this.handleStudyPaneClick}>
         <nav id="menu">
           <div className="menu-.section">{title.toUpperCase()}</div>
           <div className="menu-items" onClick={this.handleMenuSelection}>
@@ -238,7 +265,7 @@ class StudyGuide extends React.Component {
             <div className="section-content words-table">
               {verseObject.words.map((word, index) => (
                 <div className="word-cell" key={index}>
-                  <div className="translit">
+                  <div className="translit" data-wordid={word.id} onClick={this.handleWordClick}>
                     <span className="word-link">{word.translit}</span>
                   </div>
                   <div className="greek">{word.greek}</div>
@@ -361,6 +388,8 @@ class StudyGuide extends React.Component {
                   ))
                 : ""}
             </div>
+          </div>
+          <div id="word-lookup" className={classNames({ hidden: !this.state.showWordInfo })}>
           </div>
         </div>
       </div>
