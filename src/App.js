@@ -23,7 +23,7 @@ class BibleApp extends React.Component {
               </div>
             )}
           />
-          <Route expact path="/" render={() => (<Redirect to="/bible" />)} />
+          <Route exact path="/" render={() => (<Redirect to="/bible" />)} />
         </Switch>
       </div>
     );

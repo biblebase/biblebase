@@ -12,15 +12,24 @@ class StudyGuide extends React.Component {
   };
 
   state = {
-    bookId: 1,
-    chapter: 1,
+    bookId: 0,
+    chapter: 0,
     verse: 0,
     contentData: {},
     activeSection: "other-versions",
     showWordInfo: false
   };
 
+  componentDidMount() {
+    this.propsUpdated(this.props);
+  }
+
   componentWillReceiveProps(props) {
+    this.propsUpdated(props);
+  }
+
+  // update state
+  propsUpdated = (props) => {
     const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
     const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
     const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
@@ -144,6 +153,9 @@ class StudyGuide extends React.Component {
     const chapter = this.state.chapter;
     const verse = this.state.verse;
     const contentData = this.state.contentData;
+
+    if (bookId == 0)
+      return <div></div>
 
       // if no content data or content data is not current
     if (isEmptyObject(contentData)) {
