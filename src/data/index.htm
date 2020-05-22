@@ -564,7 +564,8 @@
 
         document.querySelectorAll('.wordLink').forEach(function (el) {
           el.addEventListener('click', function () {
-            loadDiv('wordInfo', this.getAttribute('href'), function () {
+            const wordUrl = this.getAttribute('href');
+            loadDiv('wordInfo', wordUrl, function () {
               document.getElementById('wordInfo').style.visibility = 'visible';
             });
           });

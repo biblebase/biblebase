@@ -10,7 +10,8 @@
 # php.1.1:
 #   analytics:
 #     crossRefs: # 相關經文
-#       # maxCount: 10, totalScoreThreshold: 5
+#       # maxCount: 10, totalScoreThreshold: 5, or
+#       # maxCount: 3, totalScoreThreshold: 3
 #       - verseKey: php.2.12
 #         totalScore: 8.2
 #         anchors:
@@ -39,9 +40,9 @@ THRESHOLDS = {
 def thresholding(related_verses)
   top_score = (related_verses.first || {})[:totalScore] || 0
   if top_score >= THRESHOLDS.dig(:high, :top)
-    related_verses.first(THRESHOLDS.dig(:high, :max))
+    related_verses.first(THRESHOLDS.dig(:high, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:high, :top)}
   elsif top_score >= THRESHOLDS.dig(:low, :top)
-    related_verses.first(THRESHOLDS.dig(:low, :max))
+    related_verses.first(THRESHOLDS.dig(:low, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:low, :top)}
   else
     []
   end
@@ -77,11 +78,19 @@ end
 # NOTE cross_refs
 dict = YAML.load(File.read('./verses_data/dict.yml'))
 
+# be, do, not
+IGNORE_WORDS = %w[
+  greek-1510
+  greek-3756
+  greek-3361
+  hebrew-3808
+]
 WORDS_FILES = `find ./verses_data -name words.json`.split
+
 Parallel.each(WORDS_FILES, progress: 'Cross Referencing') do |words_file|
 # WORDS_FILES.each do |words_file|
   verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
-  word_ids = obj["words"].map{|w| w["id"]}
+  word_ids = obj["words"].map{|w| w["id"]} - IGNORE_WORDS
   words_hash = dict.slice(*word_ids)
   analytics = { crossRefs: cross_refs(words_hash, verse_key) }
 
