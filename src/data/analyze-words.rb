@@ -153,10 +153,9 @@ def save_json_and_html(words_hash)
         end
         if v[:meanings].size > MAX_SAMPLES
           html.tr do
-            html.td do
+            html.td(colspan: 2, align: 'center') do
               html.i "<and more>"
             end
-            html.td "..."
           end
         end
       end
@@ -195,12 +194,11 @@ def save_json_and_html(words_hash)
                 end
               end
             end
-            if sampled_occurences.size > MAX_SAMPLES
-              html.tr do
-                html.td do
-                  html.i "<and more>"
-                end
-                html.td "..."
+          end
+          if occurences.size > MAX_SAMPLES
+            html.tr do
+              html.td(colspan: 2, align: 'center') do
+                html.i "<and more>"
               end
             end
           end
