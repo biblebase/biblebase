@@ -1,7 +1,7 @@
-const GET_BIBLE_ENDPOINT = "https://cors-anywhere.herokuapp.com/https://getbible.net/v2/cut";
+const GET_BIBLE_ENDPOINT = "http://0.0.0.0:8080/https://getbible.net/v2/cut";
 // const GET_BIBLE_ENDPOINT = "https://getbible.net/v2/cut";
-const GET_VERSE_ENDPOINT = "http://cors-anywhere.herokuapp.com/http://biblebase.s3-website-us-east-1.amazonaws.com/json";
-const GET_WORD_ENDPOINT = "http://cors-anywhere.herokuapp.com/http://biblebase.s3-website-us-east-1.amazonaws.com/words";
+const GET_VERSE_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/json";
+const GET_WORD_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/words";
 // TODO these endpoints should be converted to access locally when deployed 
 
 function getBibleIndex() {
@@ -42,9 +42,9 @@ async function fetchHtml(path) {
 
 async function fetchLocalJsonData(path) {
     const res = await fetch(path, {mode: 'no-cors'});
-    const text = await res.text();
-    // const data = await res.json();   
+    const text = await res.text();   
     return JSON.parse(text);
 }
 
-export { getBibleIndex, getBookChapterJson,  getVerseJson, getWordHtml };
+export { getBibleIndex, getBookChapterJson,  getVerseJson, getWordHtml, fetchJson, fetchLocalJsonData, 
+  GET_BIBLE_ENDPOINT, GET_VERSE_ENDPOINT };

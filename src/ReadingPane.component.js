@@ -175,7 +175,7 @@ class ReadingPane extends React.Component {
     const verse = this.state.verse;
     const chapterData = this.state.chapterData;
 
-    if (bookId == 0)
+    if (bookId === 0)
       return <div></div>
 
     // data has not been loaded

@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { getVerseJson, getWordHtml } from "./DataFetchUtils";
+import {  getWordHtml, GET_VERSE_ENDPOINT } from "./DataFetchUtils";
 import { isEmptyObject } from './Utils';
+import books from './books';
+import { Link } from 'react-router-dom';
 import "./StudyGuide.css";
 
 
@@ -17,7 +19,8 @@ class StudyGuide extends React.Component {
     verse: 0,
     contentData: {},
     activeSection: "other-versions",
-    showWordInfo: false
+    showWordInfo: false,
+    crossReferences: []
   };
 
   componentDidMount() {
@@ -34,24 +37,93 @@ class StudyGuide extends React.Component {
     const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
     const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
     if (bookId !== this.state.bookId || chapter !== this.state.chapterData) {
-      getVerseJson(bookId, chapter, verse).then(data => {
-        this.setState({
-          contentData: data,
-          bookId: bookId,
-          chapter: chapter,
-          verse: verse
-        });
-      });
+      this.getVerseData(bookId, chapter, verse);
     }
   }
 
-  getVerseData = (book, chapter, verse) => {
-    getVerseJson(book, chapter, verse).then((data) => {
-      this.setState({
-        contentData: data
-      });
+  // get verse will  
+  // 1. fetch verse reference object (async)
+  // ... 2. for each cross referenced verse (verseKey)
+  // ...... 2.1 fetch verse text in ch and en (asyn: getBible)
+  // ...... 2.2 for each referenced word, fetch word json (async)
+  // .........  2.3 parse json (word from verse & meaning)
+  // crossRereferences = 
+  // [ 
+  //   {
+  //     verseKey: ,
+  //     verseAbbr: , 
+  //     verseTextCh: ,
+  //     verseTextEn: ,
+  //     wordMap: Map
+  //   },
+  //   ...
+  // ]
+  getVerseData = async (book, chapter, verse) => {
+    // 1. fetch verse reference
+    let res = await fetch(`${GET_VERSE_ENDPOINT}/${book}/${chapter}/${verse}.json`);
+    const verseData = await res.json();
+    const verseObj = Object.entries(verseData)[0][1];
+    // console.log(verseObj);
+
+    // 2. for each cross referenced verse
+    const crs = verseObj.analytics.crossRefs;
+    let crossReferences = []; // all cross references
+    for (let cr of crs) {
+      const [crVerseBook, crVerseChapter, crVerseVerse] = cr.verseKey.split(".");
+      let crossRef = {}; // this cross reference
+      crossRef.verseKey = cr.verseKey;
+      crossRef.verseAbbr = `${books[crVerseBook].short_name.cht}${crVerseChapter}:${crVerseVerse}`;
+      crossRef.book = books[crVerseBook].index;
+      crossRef.chapter = crVerseChapter;
+      crossRef.verse = crVerseVerse;
+      
+      // 2.1 fetch verse text 
+      res = await fetch(`${GET_VERSE_ENDPOINT}/${books[crVerseBook].index}/${crVerseChapter}/${crVerseVerse}.json`);
+      const cxVerseData = await res.json();
+      const cxVerseObj = Object.entries(cxVerseData)[0][1];
+      crossRef.verseTextCh = cxVerseObj.versions.cunp.text;
+      crossRef.verseTextEn = cxVerseObj.versions.niv.text;
+      
+      // for each referenced word, fetch word json
+      crossRef.wordMap = {};
+      for (let wordId of Object.keys(cr.anchors)) {
+        res = await fetch(`/json/words/${wordId}.json`);
+        const wordObj = await res.json();
+
+        // find the word used in the text
+        let word = null;
+        for (let [k, translit] of Object.entries(wordObj.translits)) {
+          for (let [vkey, words] of Object.entries(translit)) {
+            if (vkey.indexOf(`${cr.verseKey}|`) !== -1) {
+              word = words[1];
+              break;
+            }
+          }
+          if (word !== null)
+            break;
+        }
+        
+        // meaning (from highest count)
+        let meaning;
+        let value = 0;
+        for (let [k, v] of Object.entries(wordObj.meanings)) {
+          meaning = (v > value)? k : meaning;
+        }
+        crossRef.wordMap[word] = meaning;
+      }
+      crossReferences.push(crossRef);
+    }
+
+    this.setState({
+      contentData: verseData,
+      bookId: book,
+      chapter: chapter,
+      verse: verse,
+      crossReferences: crossReferences
     });
   };
+
+  /************************* handlers **********************************/
 
   handleStudyPaneClick = (event) => {
     event.stopPropagation();
@@ -81,6 +153,23 @@ class StudyGuide extends React.Component {
     }
   };
 
+  handleWordClick = (event) => {
+    event.persist();
+    const wordId = event.currentTarget.dataset["wordid"];
+    // get html for word info
+    getWordHtml(wordId).then((text) => {
+      // TODO this is not ideal as I'm inserting html and not JSX, I don't have <Link>, but <a href> instead.
+      // This mean page will reload when clicked on referenced links
+      const regex = /href="\/#/gmi
+      let html = text.replace(regex, `href="/bible/`);
+      document.getElementById("word-lookup").innerHTML = html; 
+      this.setState({
+        showWordInfo: true
+      })
+    });
+  }
+
+  /**************************** render *********************************/
   renderChapterData() {
     // no verse selected
     const reference = Object.entries(this.state.contentData)[0][1];
@@ -132,29 +221,13 @@ class StudyGuide extends React.Component {
     );
   }
 
-  handleWordClick = (event) => {
-    event.persist();
-    const wordId = event.currentTarget.dataset["wordid"];
-    // get html for word info
-    getWordHtml(wordId).then((text) => {
-      // TODO this is not ideal as I'm inserting html and not JSX, I don't have <Link>, but <a href> instead.
-      // This mean page will reload when clicked on referenced links
-      const regex = /href="\/#/gmi
-      let html = text.replace(regex, `href=\"/bible/`);
-      document.getElementById("word-lookup").innerHTML = html; 
-      this.setState({
-        showWordInfo: true
-      })
-    });
-  }
-
   render() {
     const bookId = this.state.bookId;
     const chapter = this.state.chapter;
     const verse = this.state.verse;
     const contentData = this.state.contentData;
 
-    if (bookId == 0)
+    if (bookId === 0)
       return <div></div>
 
       // if no content data or content data is not current
@@ -224,18 +297,9 @@ class StudyGuide extends React.Component {
             >
               解經
             </div>
-            <div
-              id="mi-analytics"
-              target="analytics"
-              className={classNames("menu-item", {
-                dim:
-                  verseObject.analytics === undefined ||
-                  isEmptyObject(verseObject.analytics),
-                "active-menu-item": this.state.activeSection === "analytics",
-              })}
-            >
-              相關經文
-            </div>
+            <div id="mi-analytics" target="analytics" className={classNames("menu-item", {
+                dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics),
+                "active-menu-item": this.state.activeSection === "analytics"})}>相關經文</div>
           </div>
         </nav>
         <div id="study-content">
@@ -356,16 +420,25 @@ class StudyGuide extends React.Component {
               ))}
             </div>
           </div>
-          <div
-            id="analytics"
-            className={classNames("section", {
-              dim:
-                verseObject.analytics === undefined ||
-                isEmptyObject(verseObject.analytics),
-            })}
-          >
+          <div id="analytics" className={classNames("section", {
+              dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics)})}>
             <div className="section-heading">相關經文</div>
-            <div className="section-content">{/* TODO */}</div>
+            <div className="section-content">
+              {this.state.crossReferences.map((cr) => (
+                <div className="cross-reference" key={cr.verseKey}>
+                  <div>
+                    <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}>{cr.verseAbbr}</Link>
+                  </div>
+                  <div>{cr.verseTextCh}</div>
+                  <div>{cr.verseTextEn}</div>
+                  <div className="cross-ref-words">
+                    {Object.keys(cr.wordMap).map((key) => (
+                      <div key={key}>{key} -> {cr.wordMap[key]}</div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
           <div
             id="hymns"
