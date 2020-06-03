@@ -95,14 +95,10 @@ def stats_meanings(words_hash)
         all_verse_keys = all_verse_keys - vks
       end
       v[:meaningsCount] = v[:meanings].size
-      # v[:meanings] = v[:meanings].first(MAX_SAMPLES).to_h
     end
 
     if v[:translits].size > 0
       v[:occurences] = v[:translits].values.map(&:keys).flatten.size
-      # v[:translits].each do |k, h|
-      #   v[:translits][k] = h.to_a.shuffle.first(MAX_SAMPLES).to_h
-      # end
     end
     bar.increment
   end
@@ -112,12 +108,21 @@ end
 
 # NOTE save in json and htmls
 def save_json_and_html(words_hash)
+  # one yaml file
   File.open("./verses_data/dict.yml", 'w') do |f|
     f << words_hash.to_yaml
   end
 
+  # break into files
+  `mkdir -p ./json/words`
   `mkdir -p words`
   Parallel.each(words_hash, progress: 'Saving Words') do |id, v|
+    # saving json
+    File.open("./json/words/#{id}.json", 'w') do |f|
+      f << v.to_json
+    end
+
+    # saving html
     html = Builder::XmlMarkup.new
 
     if v[:pos]
@@ -146,6 +151,13 @@ def save_json_and_html(words_hash)
             html.td "#{c}次"
           end
         end
+        if v[:meanings].size > MAX_SAMPLES
+          html.tr do
+            html.td(colspan: 2, align: 'center') do
+              html.i "<and more>"
+            end
+          end
+        end
       end
     end
 
@@ -154,7 +166,12 @@ def save_json_and_html(words_hash)
       v[:translits].each do |word, occurences|
         html.h4 word
         html.table do
-          sampled_occurences = occurences.to_a.shuffle.first(MAX_SAMPLES)
+          sampled_occurences = occurences.to_a
+            .shuffle
+            .first(MAX_SAMPLES)
+            .sort_by do |ext_verse_key, _|
+              verse_path(ext_verse_key.split('|').first)
+            end
           sampled_occurences.each do |ext_verse_key, words|
             verse_key, idx = ext_verse_key.split('|')
             html.tr do
@@ -175,6 +192,13 @@ def save_json_and_html(words_hash)
                     html.span '...'
                   end
                 end
+              end
+            end
+          end
+          if occurences.size > MAX_SAMPLES
+            html.tr do
+              html.td(colspan: 2, align: 'center') do
+                html.i "<and more>"
               end
             end
           end
