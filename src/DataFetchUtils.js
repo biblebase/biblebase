@@ -1,8 +1,10 @@
-const GET_BIBLE_ENDPOINT = "http://0.0.0.0:8080/https://getbible.net/v2/cut";
+const GET_BIBLE_ENDPOINT = "http://cors-anywhere.herokuapp.com/https://getbible.net/v2/cut";
 // const GET_BIBLE_ENDPOINT = "https://getbible.net/v2/cut";
-const GET_VERSE_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/json";
-const GET_WORD_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/words";
-// TODO these endpoints should be converted to access locally when deployed 
+
+// remove cors anywhere on deployment
+const GET_VERSE_ENDPOINT = "http://cors-anywhere.herokuapp.com/http://biblebase.s3-website-us-east-1.amazonaws.com/json";
+const GET_WORD_ENDPOINT = "http://cors-anywhere.herokuapp.com/http://biblebase.s3-website-us-east-1.amazonaws.com/words";
+
 
 function getBibleIndex() {
   return fetchLocalJsonData('./json/bibleIndex.json');
