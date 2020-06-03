@@ -41,29 +41,32 @@ class StudyGuide extends React.Component {
     }
   }
 
-  // get verse will  
-  // 1. fetch verse reference object (async)
-  // ... 2. for each cross referenced verse (verseKey)
-  // ...... 2.1 fetch verse text in ch and en (asyn: getBible)
-  // ...... 2.2 for each referenced word, fetch word json (async)
-  // .........  2.3 parse json (word from verse & meaning)
-  // crossRereferences = 
-  // [ 
-  //   {
-  //     verseKey: ,
-  //     verseAbbr: , 
-  //     verseTextCh: ,
-  //     verseTextEn: ,
-  //     wordMap: Map
-  //   },
-  //   ...
-  // ]
   getVerseData = async (book, chapter, verse) => {
+    let url;
+    if (verse === 0)
+      url = `${GET_VERSE_ENDPOINT}/${book}/${chapter}.json`;
+    else
+      url = `${GET_VERSE_ENDPOINT}/${book}/${chapter}/${verse}.json`;
+
     // 1. fetch verse reference
-    let res = await fetch(`${GET_VERSE_ENDPOINT}/${book}/${chapter}/${verse}.json`);
+    let res = await fetch(url);
     const verseData = await res.json();
+    
+    if (verse === 0) {
+      this.setState({
+        contentData: verseData,
+        bookId: book,
+        chapter: chapter,
+        verse: verse,
+        crossReferences: []
+      });
+      return;
+    }
+
     const verseObj = Object.entries(verseData)[0][1];
     // console.log(verseObj);
+
+    const crDict = verseObj.analytics.thisVerse.dict;
 
     // 2. for each cross referenced verse
     const crs = verseObj.analytics.crossRefs;
@@ -76,40 +79,18 @@ class StudyGuide extends React.Component {
       crossRef.book = books[crVerseBook].index;
       crossRef.chapter = crVerseChapter;
       crossRef.verse = crVerseVerse;
-      
-      // 2.1 fetch verse text 
-      res = await fetch(`${GET_VERSE_ENDPOINT}/${books[crVerseBook].index}/${crVerseChapter}/${crVerseVerse}.json`);
-      const cxVerseData = await res.json();
-      const cxVerseObj = Object.entries(cxVerseData)[0][1];
-      crossRef.verseTextCh = cxVerseObj.versions.cunp.text;
-      crossRef.verseTextEn = cxVerseObj.versions.niv.text;
-      
-      // for each referenced word, fetch word json
+      crossRef.verseTextCh = cr.cunp;
+
+      // word map of cross referenced words
       crossRef.wordMap = {};
       for (let wordId of Object.keys(cr.anchors)) {
-        res = await fetch(`/json/words/${wordId}.json`);
-        const wordObj = await res.json();
-
-        // find the word used in the text
-        let word = null;
-        for (let [k, translit] of Object.entries(wordObj.translits)) {
-          for (let [vkey, words] of Object.entries(translit)) {
-            if (vkey.indexOf(`${cr.verseKey}|`) !== -1) {
-              word = words[1];
-              break;
-            }
-          }
-          if (word !== null)
-            break;
+        if (wordId in crDict) {
+          const word = crDict[wordId];
+          const meaning = cr.words.filter((wordObj) => {
+            return wordObj.id === wordId;
+          })[0].eng;
+          crossRef.wordMap[word] = meaning;
         }
-        
-        // meaning (from highest count)
-        let meaning;
-        let value = 0;
-        for (let [k, v] of Object.entries(wordObj.meanings)) {
-          meaning = (v > value)? k : meaning;
-        }
-        crossRef.wordMap[word] = meaning;
       }
       crossReferences.push(crossRef);
     }
@@ -424,20 +405,23 @@ class StudyGuide extends React.Component {
               dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics)})}>
             <div className="section-heading">相關經文</div>
             <div className="section-content">
-              {this.state.crossReferences.map((cr) => (
-                <div className="cross-reference" key={cr.verseKey}>
-                  <div>
-                    <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}>{cr.verseAbbr}</Link>
-                  </div>
-                  <div>{cr.verseTextCh}</div>
-                  <div>{cr.verseTextEn}</div>
-                  <div className="cross-ref-words">
-                    {Object.keys(cr.wordMap).map((key) => (
-                      <div key={key}>{key} -> {cr.wordMap[key]}</div>
-                    ))}
-                  </div>
-                </div>
-              ))}
+              <table>
+                <tbody>
+                  {this.state.crossReferences.map((cr) => (
+                    <tr className="cross-reference" key={cr.verseKey}>
+                      <td className="cr-verseKey-col">
+                        <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}>{cr.verseAbbr}</Link>
+                      </td>
+                      <td className="cr-verse-col">{cr.verseTextCh}</td>
+                      <td className="cross-ref-words-col">
+                        {Object.keys(cr.wordMap).map((key) => (
+                          <div key={key}>{`${key} ↔ ${cr.wordMap[key]}`}</div>
+                        ))}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
           <div
