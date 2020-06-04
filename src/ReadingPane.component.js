@@ -13,8 +13,8 @@ class ReadingPane extends React.Component {
   }
 
   state = {
-    bookId: 1,
-    chapter: 1, 
+    bookId: 0,
+    chapter: 0, 
     verse: 0,
     /* for menu selection */
     selectedbookId: 0,
@@ -24,12 +24,21 @@ class ReadingPane extends React.Component {
     chapterData: {}
   }
 
+  componentDidMount() {
+    this.propsUpdated(this.props);
+  }
+
   /* 
    * When props changes (when routing has changed), we need to catch is and update the state
    * so that it will cause updates to relevent elements in the UI. If we skip this part, 
    * the whole componenet is re-rendered when routing changes
    */
   componentWillReceiveProps(props) {
+    this.propsUpdated(props);
+  }
+
+  // update current state when props change
+  propsUpdated = (props) => {
     const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
     const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
     const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
@@ -166,9 +175,12 @@ class ReadingPane extends React.Component {
     const verse = this.state.verse;
     const chapterData = this.state.chapterData;
 
+    if (bookId === 0)
+      return <div></div>
+
     // data has not been loaded
     if (isEmptyObject(chapterData) || 
-        chapterData.book_nr !== bookId || chapterData.chapter != chapter) {
+        chapterData.book_nr !== bookId || chapterData.chapter !== chapter) {
       this.getBookData(bookId, chapter);
       return <div></div>
     }

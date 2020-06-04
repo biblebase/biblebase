@@ -1,8 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { getVerseJson } from "./DataFetchUtils";
+import {  getWordHtml, GET_VERSE_ENDPOINT } from "./DataFetchUtils";
 import { isEmptyObject } from './Utils';
+import books from './books';
+import { Link } from 'react-router-dom';
 import "./StudyGuide.css";
 
 
@@ -12,36 +14,107 @@ class StudyGuide extends React.Component {
   };
 
   state = {
-    bookId: 1,
-    chapter: 1,
+    bookId: 0,
+    chapter: 0,
     verse: 0,
     contentData: {},
     activeSection: "other-versions",
+    showWordInfo: false,
+    crossReferences: []
   };
 
+  componentDidMount() {
+    this.propsUpdated(this.props);
+  }
+
   componentWillReceiveProps(props) {
+    this.propsUpdated(props);
+  }
+
+  // update state
+  propsUpdated = (props) => {
     const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
     const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
     const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
     if (bookId !== this.state.bookId || chapter !== this.state.chapterData) {
-      getVerseJson(bookId, chapter, verse).then(data => {
-        this.setState({
-          contentData: data,
-          bookId: bookId,
-          chapter: chapter,
-          verse: verse
-        });
-      });
+      this.getVerseData(bookId, chapter, verse);
     }
   }
 
-  getVerseData = (book, chapter, verse) => {
-    getVerseJson(book, chapter, verse).then((data) => {
+  getVerseData = async (book, chapter, verse) => {
+    let url;
+    if (verse === 0)
+      url = `${GET_VERSE_ENDPOINT}/${book}/${chapter}.json`;
+    else
+      url = `${GET_VERSE_ENDPOINT}/${book}/${chapter}/${verse}.json`;
+
+    // 1. fetch verse reference
+    let res = await fetch(url);
+    const verseData = await res.json();
+    
+    if (verse === 0) {
       this.setState({
-        contentData: data
+        contentData: verseData,
+        bookId: book,
+        chapter: chapter,
+        verse: verse,
+        crossReferences: []
       });
+      return;
+    }
+
+    const verseObj = Object.entries(verseData)[0][1];
+    // console.log(verseObj);
+
+    const crDict = verseObj.analytics.thisVerse.dict;
+
+    // 2. for each cross referenced verse
+    const crs = verseObj.analytics.crossRefs;
+    let crossReferences = []; // all cross references
+    for (let cr of crs) {
+      const [crVerseBook, crVerseChapter, crVerseVerse] = cr.verseKey.split(".");
+      let crossRef = {}; // this cross reference
+      crossRef.verseKey = cr.verseKey;
+      crossRef.verseAbbr = `${books[crVerseBook].short_name.cht}${crVerseChapter}:${crVerseVerse}`;
+      crossRef.book = books[crVerseBook].index;
+      crossRef.chapter = crVerseChapter;
+      crossRef.verse = crVerseVerse;
+      crossRef.verseTextCh = cr.cunp;
+
+      // word map of cross referenced words
+      crossRef.wordMap = {};
+      for (let wordId of Object.keys(cr.anchors)) {
+        if (wordId in crDict) {
+          const word = crDict[wordId];
+          const meaning = cr.words.filter((wordObj) => {
+            return wordObj.id === wordId;
+          })[0].eng;
+          crossRef.wordMap[word] = meaning;
+        }
+      }
+      crossReferences.push(crossRef);
+    }
+
+    this.setState({
+      contentData: verseData,
+      bookId: book,
+      chapter: chapter,
+      verse: verse,
+      crossReferences: crossReferences
     });
   };
+
+  /************************* handlers **********************************/
+
+  handleStudyPaneClick = (event) => {
+    event.stopPropagation();
+    // if word info is open, close
+    if (this.state.showWordInfo) {
+      this.setState({
+        showWordInfo: !this.state.showWordInfo
+      });
+    }
+  }
 
   handleMenuSelection = (event) => {
     const link = event.target;
@@ -61,6 +134,23 @@ class StudyGuide extends React.Component {
     }
   };
 
+  handleWordClick = (event) => {
+    event.persist();
+    const wordId = event.currentTarget.dataset["wordid"];
+    // get html for word info
+    getWordHtml(wordId).then((text) => {
+      // TODO this is not ideal as I'm inserting html and not JSX, I don't have <Link>, but <a href> instead.
+      // This mean page will reload when clicked on referenced links
+      const regex = /href="\/#/gmi
+      let html = text.replace(regex, `href="/bible/`);
+      document.getElementById("word-lookup").innerHTML = html; 
+      this.setState({
+        showWordInfo: true
+      })
+    });
+  }
+
+  /**************************** render *********************************/
   renderChapterData() {
     // no verse selected
     const reference = Object.entries(this.state.contentData)[0][1];
@@ -118,6 +208,9 @@ class StudyGuide extends React.Component {
     const verse = this.state.verse;
     const contentData = this.state.contentData;
 
+    if (bookId === 0)
+      return <div></div>
+
       // if no content data or content data is not current
     if (isEmptyObject(contentData)) {
         this.getVerseData(bookId, chapter, verse);
@@ -130,7 +223,7 @@ class StudyGuide extends React.Component {
     const bookTitle = this.props.bibleIndex[bookId].title;
     const title = `${bookTitle} ${chapter} : ${verse}`;
     return (
-      <div id="study-guide">
+      <div id="study-guide" onClick={this.handleStudyPaneClick}>
         <nav id="menu">
           <div className="menu-.section">{title.toUpperCase()}</div>
           <div className="menu-items" onClick={this.handleMenuSelection}>
@@ -185,18 +278,9 @@ class StudyGuide extends React.Component {
             >
               解經
             </div>
-            <div
-              id="mi-analytics"
-              target="analytics"
-              className={classNames("menu-item", {
-                dim:
-                  verseObject.analytics === undefined ||
-                  isEmptyObject(verseObject.analytics),
-                "active-menu-item": this.state.activeSection === "analytics",
-              })}
-            >
-              相關經文
-            </div>
+            <div id="mi-analytics" target="analytics" className={classNames("menu-item", {
+                dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics),
+                "active-menu-item": this.state.activeSection === "analytics"})}>相關經文</div>
           </div>
         </nav>
         <div id="study-content">
@@ -238,7 +322,7 @@ class StudyGuide extends React.Component {
             <div className="section-content words-table">
               {verseObject.words.map((word, index) => (
                 <div className="word-cell" key={index}>
-                  <div className="translit">
+                  <div className="translit" data-wordid={word.id} onClick={this.handleWordClick}>
                     <span className="word-link">{word.translit}</span>
                   </div>
                   <div className="greek">{word.greek}</div>
@@ -317,16 +401,28 @@ class StudyGuide extends React.Component {
               ))}
             </div>
           </div>
-          <div
-            id="analytics"
-            className={classNames("section", {
-              dim:
-                verseObject.analytics === undefined ||
-                isEmptyObject(verseObject.analytics),
-            })}
-          >
+          <div id="analytics" className={classNames("section", {
+              dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics)})}>
             <div className="section-heading">相關經文</div>
-            <div className="section-content">{/* TODO */}</div>
+            <div className="section-content">
+              <table>
+                <tbody>
+                  {this.state.crossReferences.map((cr) => (
+                    <tr className="cross-reference" key={cr.verseKey}>
+                      <td className="cr-verseKey-col">
+                        <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}>{cr.verseAbbr}</Link>
+                      </td>
+                      <td className="cr-verse-col">{cr.verseTextCh}</td>
+                      <td className="cross-ref-words-col">
+                        {Object.keys(cr.wordMap).map((key) => (
+                          <div key={key}>{`${key} ↔ ${cr.wordMap[key]}`}</div>
+                        ))}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
           <div
             id="hymns"
@@ -361,6 +457,8 @@ class StudyGuide extends React.Component {
                   ))
                 : ""}
             </div>
+          </div>
+          <div id="word-lookup" className={classNames({ hidden: !this.state.showWordInfo })}>
           </div>
         </div>
       </div>
