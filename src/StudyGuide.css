@@ -129,8 +129,8 @@
 }
 
 .word-link {
-  border-bottom: dotted 2px #44a;
-  color: #44a;
+  border-bottom: dotted 2px cornflowerblue;
+  color: cornflowerblue;
   cursor: pointer;
 }
 
@@ -161,6 +161,21 @@
   hyphens: auto;
 }
 
+.cr-verseKey-col {
+  width: 15%;
+  padding: 10px;
+}
+
+.cr-verse-col {
+  width: 55%;
+  padding: 10px;
+}
+
+.cross-ref-words-col {
+  width: 30%;
+  padding: 10px;
+}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -184,4 +199,36 @@
 table td {
   vertical-align: top;
   padding-right: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+#word-lookup {
+  position: fixed;
+  top: 200px;
+  bottom: 100px;
+  width: 400px;
+  right: 0px;
+  overflow-y: scroll;
+  padding: 2px 20px;
+  background-color: rgba(78, 78, 78, 0.75);
+  color: #fff;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#word-lookup a, #word-lookup a:visited {
+   color: #ddd; 
+   text-decoration: underline;
+}
+
+#word-lookup h3 {
+  clear: both;
+  border-bottom: 1px dotted;
+}
+
+#word-lookup td {
+  color: #fff;
 }
