@@ -3,6 +3,7 @@ require 'yaml'
 require 'parallel'
 require 'builder'
 require_relative 'lib/consts'
+require_relative 'lib/pos'
 require_relative 'lib/verse_bundle'
 
 # NOTE utils functions
@@ -39,14 +40,14 @@ def get_words_hash
       translit = w["translit"]
 
       parts = stemmed_parts(w["eng"])
-      pos = get_main_pos(w["pos"])
+      pos = Pos.new(w["pos"], w["lang"])
       h[id] ||= {
         pos: pos,
         candidates: {},
         translits: {}
       }
 
-      next unless $STATS_BY_POS.include?(pos)
+      next unless $STATS_BY_POS.include?(pos.main)
 
       parts.each do |candidate|
         h[id][:candidates][candidate] ||= []
@@ -127,7 +128,7 @@ def save_json_and_html(words_hash)
 
     if v[:pos]
       html.h3 "詞性"
-      html.p $PARTS_OF_SPEECH[v[:pos].to_sym] || v[:pos].upcase
+      html.p v[:pos].main || v[:pos].upcase
     else
       warn v.inspect
     end

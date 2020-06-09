@@ -1,4 +1,6 @@
 require_relative 'base'
+require_relative '../lib/pos'
+
 # Sample
 # {
 #   "gen.1.1": {
@@ -31,7 +33,7 @@ class Word < Base
 
   # TODO button to toggle extended table
   def format(item)
-    pos = get_main_pos(item["pos"])
+    pos = Pos.new(item["pos"], item["lang"])
     @h.table do
       @h.tr do
         @h.td do
@@ -60,9 +62,13 @@ class Word < Base
 
           # NOTE extended
           word_info = $DICT[item["id"]]
+          pos_display = pos.to_display
           @h.br(class: :extended)
           @h.span(class: 'pos extended') do
-            @h.text! $PARTS_OF_SPEECH[pos.to_s.to_sym] || ''
+            pos_display.each do |row|
+              @h.text! row
+              @h.br
+            end
           end
           @h.br(class: :extended)
           @h.span(class: 'occurences extended') do
@@ -121,4 +127,11 @@ class Word < Base
       yield
     end
   end
+end
+
+if __FILE__ == $0
+  section_key = 'words'
+  obj = JSON.parse File.read("verses_data/1/1/1/#{section_key}.json")
+
+  puts Word.new('gen.1.1').format_all(obj.values.first[section_key])
 end

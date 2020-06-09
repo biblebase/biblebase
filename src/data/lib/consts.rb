@@ -72,25 +72,6 @@ $VERSIONS = {
   }
 }
 
-$PARTS_OF_SPEECH = {
-  n: '名詞',
-  v: '動詞',
-  adj: '形容詞',
-  adv: '副詞',
-  art: '冠詞',
-  dpro: '指示代詞',
-  ipro: '不定代詞',
-  ppro: '人稱代詞',
-  recpro: '相互代詞',
-  relpro: '關係代詞',
-  refpro: '反身代詞',
-  prep: '介詞',
-  conj: '連接詞',
-  i: '感嘆詞',
-  prtcl: '量詞',
-  heb: '希伯來語詞彙',
-  aram: '亞蘭語詞彙'
-}
 # functions
 require 'lemmatizer'
 require 'stemmify'
