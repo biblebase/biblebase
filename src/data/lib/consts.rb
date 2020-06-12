@@ -97,7 +97,7 @@ $STOP_WORDS = %w[
 ]
 $lem = Lemmatizer.new
 
-$STATS_BY_POS = %w[n v adj adv heb aram]
+$STATS_BY_POS = %w[proper n v adj adv heb aram]
 def get_main_pos(pos)
   pos.to_s.split(' | ')
     .map{|k| k.downcase.split(/[^0-9a-z]/).first}
@@ -109,13 +109,17 @@ def stem(word)
   main_word = word.gsub(/\[.+\]/, '').strip
   words = main_word.downcase.split(/[\s'’]+/)
   (words - $STOP_WORDS)
-    .map{ |w| $lem.lemma(w) }
+    .map{ |w| $lem.lemma(w).stem }
     .join(' ')
 end
 
+$TRAILING_PUNC = /[-\.;:,!']$/
 def stemmed_parts(word)
   main_word = word.gsub(/\[.+\]/, '').strip
-  words = main_word.downcase.gsub(/['’]s/, '').split
+  words = main_word.downcase
+    .gsub(/['’]s/, '')
+    .sub($TRAILING_PUNC, '')
+    .split
   (words - $STOP_WORDS)
     .map{ |w| w = $lem.lemma(w) }
 end

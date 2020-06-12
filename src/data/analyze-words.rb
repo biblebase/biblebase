@@ -37,7 +37,7 @@ def get_words_hash
     words.each.with_index do |w, idx|
       ext_verse_key = [verse_key, idx].join('|')
       id = w["id"]
-      translit = w["translit"]
+      translit = w["translit"].sub($TRAILING_PUNC, '')
 
       parts = stemmed_parts(w["eng"])
       pos = Pos.new(w["pos"], w["lang"])
@@ -128,7 +128,7 @@ def save_json_and_html(words_hash)
 
     if v[:pos]
       html.h3 "詞性"
-      html.p v[:pos].main || v[:pos].upcase
+      html.p v[:pos].main_pos
     else
       warn v.inspect
     end

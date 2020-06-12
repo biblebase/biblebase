@@ -1,6 +1,8 @@
 require 'pry'
 
 class Pos
+  attr_reader :desc
+
   PARTS_OF_SPEECH = {
     n: '名詞',
     v: '動詞',
@@ -137,13 +139,17 @@ class Pos
   end
 
   def main
-    @parts.first[:pos]
+    (@parts.first || {})[:pos]
+  end
+
+  def main_pos
+    display_pos(main)
   end
 
   private
 
   def display_pos(pos)
-    PARTS_OF_SPEECH[pos.to_sym].to_s
+    pos ?  PARTS_OF_SPEECH[pos.to_sym] : ''
   end
 
   # NOTE return an array, e.g.
@@ -214,7 +220,7 @@ class Pos
       end
     end
 
-    part
+    [ part ]
   end
 
   def ext_to_hash(ext, *keys)
