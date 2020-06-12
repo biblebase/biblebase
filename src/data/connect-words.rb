@@ -44,10 +44,12 @@ require_relative 'lib/consts'
 THRESHOLDS = {
   high: {
     top: 5,
+    bottom: 3,
     max: 10
   },
   low: {
     top: 3,
+    bottom: 1,
     max: 3
   }
 }
@@ -55,9 +57,9 @@ THRESHOLDS = {
 def thresholding(related_verses)
   top_score = (related_verses.first || {})[:totalScore] || 0
   if top_score >= THRESHOLDS.dig(:high, :top)
-    related_verses.first(THRESHOLDS.dig(:high, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:high, :top)}
+    related_verses.first(THRESHOLDS.dig(:high, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:high, :bottom)}
   elsif top_score >= THRESHOLDS.dig(:low, :top)
-    related_verses.first(THRESHOLDS.dig(:low, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:low, :top)}
+    related_verses.first(THRESHOLDS.dig(:low, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:low, :bottom)}
   else
     []
   end
