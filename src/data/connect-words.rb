@@ -13,6 +13,8 @@
 #       dict:
 #         greek-3778: This
 #         greek-5426: let mind be
+#     translations:
+#       hebrew-123: greek-5426
 #     crossRefs: # 相關經文
 #       # maxCount: 10, totalScoreThreshold: 5
 #       - verseKey: php.2.12
@@ -133,6 +135,7 @@ Parallel.each(WORDS_FILES, progress: 'Cross Referencing') do |words_file|
                   t = dict[tid]
                   {
                     pos: v[:pos],
+                    translation: tid,
                     occurences: v[:occurences] + t[:occurences],
                     translits: v[:translits].merge(t[:translits])
                   }
@@ -145,6 +148,7 @@ Parallel.each(WORDS_FILES, progress: 'Cross Referencing') do |words_file|
   verse_dict = obj["words"].each_with_object({}){ |w,h| h[w["id"]] = w["eng"] }
   analytics = {
     thisVerse: { dict: verse_dict},
+    translations: words_hash.each_with_object({}){|(id, v), h| h[v[:translation]] = id}.select{|k,v| k},
     crossRefs: cross_refs(words_hash, verse_key)
   }
 
