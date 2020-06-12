@@ -9,3 +9,5 @@ cp index.htm ../../../biblebase.github.io/index.html
 cp -R cunp   ../../../biblebase.github.io/
 cp -R words  ../../../biblebase.github.io/
 cp -R html   ../../../biblebase.github.io/
+
+aws s3 sync --profile=me json/ s3://biblebase/json/
