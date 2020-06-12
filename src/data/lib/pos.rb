@@ -116,7 +116,7 @@ class Pos
 
     [
       # e.g '名詞'
-      display_pos(main_part[:pos]),
+      Pos.display_pos(main_part[:pos]),
 
       # e.g. '陽性,第二人稱,單數'
       main_part.each_with_object([]) do |(k, v), arr|
@@ -133,7 +133,7 @@ class Pos
 
       # e.g. '連接詞|冠詞'
       rest_parts.map do |part|
-        display_pos(part[:pos])
+        Pos.display_pos(part[:pos])
       end.join('|')
     ]
   end
