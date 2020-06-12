@@ -37,9 +37,9 @@ class Version < Base
 
   private
 
-  def items_wrapper
+  def items_wrapper(items)
     @h.table do
-      yield
+      yield(items)
     end
   end
 end

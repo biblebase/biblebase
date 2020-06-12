@@ -21,20 +21,62 @@ class Pos
     aram: '亞蘭語詞彙',
     number: '數詞',
     punc: '標點',
+    proper: '專有名詞',
     pror: '關係代詞'
   }
 
   TENSES = {
-    perf: '完成式',
-    imperf: '未完成式',
-    conjperf: '連接完成式',
-    conjimperf: '連接未完成式',
-    consecimperf: '連續未完成式'
+    p: '現在時',
+    i: '未完成時',
+    f: '將來時',
+    a: '不定過去時',
+    r: '完成時',
+    l: '過去完成時',
+
+    imp: '祈使語氣',
+    prtcpl: '分詞',
+    qalpassparticiple: '過去分詞',
+
+    perf: '完成時',
+    imperf: '未完成時',
+    conjperf: '連接完成時',
+    conjimperf: '連接未完成時',
+    consecimperf: '連續未完成時'
+  }
+
+  VOICES = {
+    a: '主動語態',
+    m: '中間語態',
+    p: '被動語態',
+    'm/p': '中間或被動語態'
+  }
+
+  CASES = {
+    n: '主格',
+    v: '呼格',
+    a: '賓格',
+    g: '屬格',
+    d: '與格'
+  }
+
+  COMPARISONS = {
+    c: '比較級',
+    s: '最高級'
+  }
+
+  MOODS = {
+    i: '陳述語氣',
+    m: '祈使語氣',
+    s: '虛擬語氣',
+    o: '祈願語氣',
+    n: '不定式',
+    p: '分詞'
   }
 
   GENDERS = {
     m: '陽性',
     f: '陰性',
+    n: '中性',
     c: '通用性別'
   }
 
@@ -57,7 +99,7 @@ class Pos
 
   def initialize(desc, lang='hebrew')
     @desc = desc
-    @parts = lang == 'hebrew' ? parse_hebrew : parse_greek
+    @parts = parse(lang)
   end
 
   # NOTE e.g
@@ -67,7 +109,9 @@ class Pos
   #   '連接詞|冠詞'
   # ]
   def to_display
+    return [] if @parts.empty?
     main_part, *rest_parts = @parts
+
     [
       # e.g '名詞'
       display_pos(main_part[:pos]),
@@ -77,8 +121,12 @@ class Pos
         arr.push PERSONS[v.to_sym] if k == :person
         arr.push NUMBERS[v.to_sym] if k == :number
         arr.push GENDERS[v.to_sym] if k == :gender
-        arr.push STATES[v.to_sym]  if k == :state
+        # arr.push STATES[v.to_sym]  if k == :state
         arr.push TENSES[v.to_sym]  if k == :tense
+        arr.push MOODS[v.to_sym]  if k == :mood
+        arr.push CASES[v.to_sym]  if k == :case
+        arr.push VOICES[v.to_sym]  if k == :voice
+        arr.push COMPARISONS[v.to_sym]  if k == :comparison
       end.join(','),
 
       # e.g. '連接詞|冠詞'
@@ -107,10 +155,19 @@ class Pos
   # }, {
   #   pos: 'art'
   # }]
+  def parse(lang)
+    lang == 'hebrew' ? parse_hebrew : parse_greek
+  end
+
   def parse_hebrew
     @desc.split('|').reverse.map(&:strip).map(&:downcase).map do |part_desc|
       part_desc = part_desc.sub(/^pro-r$/, 'pror')
       pos, ext1, ext2, ext3 = part_desc.split('‑')
+      if pos == 'n' && ext1 == 'proper'
+        pos = 'proper'
+        ext1 = ext2
+      end
+
       part = { pos: pos }
 
       if pos == 'v'
@@ -122,7 +179,7 @@ class Pos
         part.merge!(person: char) if PERSONS[char.to_sym]
         part.merge!(number: char) if NUMBERS[char.to_sym]
         part.merge!(gender: char) if GENDERS[char.to_sym]
-        part.merge!(state:  char) if STATES[char.to_sym]
+        # part.merge!(state:  char) if STATES[char.to_sym]
       end
 
       part
@@ -130,5 +187,43 @@ class Pos
   end
 
   def parse_greek
+    pos, ext1, ext2 = @desc.split('-').map(&:downcase)
+    part = { pos: pos }
+
+    case pos
+    when 'n', 'art', 'ipro'
+      part.merge! ext_to_hash(ext1, :case, :gender, :number)
+    when 'ppro'
+      if ext1 && ext1.size == 3
+        part.merge! ext_to_hash(ext1, :case, :person, :number)
+      end
+      if ext1 && ext1.size == 4
+        part.merge! ext_to_hash(ext1, :case, :gender, :person, :number)
+      end
+    when 'adj'
+      part.merge! ext_to_hash(ext1, :case, :gender, :number)
+      part.merge! ext_to_hash(ext2, :comparison)
+    when 'v'
+      part.merge! ext_to_hash(ext1, :tense, :mood, :voice)
+
+      if ext2 && ext2.size == 2
+        part.merge! ext_to_hash(ext2, :person, :number)
+      end
+      if ext2 && ext2.size == 3
+        part.merge! ext_to_hash(ext2, :case, :_, :number)
+      end
+    end
+
+    part
+  end
+
+  def ext_to_hash(ext, *keys)
+    return {} if ext.nil? or ext.empty?
+    values = ext.split('')
+    values[keys.size - 1] = values[(keys.size - 1)..-1].join if values.size > keys.size
+
+    keys.each_with_object({}).with_index do |(key, h), idx|
+      h[key] = values[idx] if key != :_ and values[idx] and values[idx].size > 0
+    end
   end
 end

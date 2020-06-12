@@ -28,7 +28,7 @@ class Base
     return "" if items.empty?
 
     @h.h2 section_name
-    items_wrapper do
+    items_wrapper(items) do
       items.each do |item|
         format(item)
       end
@@ -37,8 +37,12 @@ class Base
 
   private
 
-  def items_wrapper
-    @h.div(id: klass_name) do
+  def section_class(items)
+    ''
+  end
+
+  def items_wrapper(items=[])
+    @h.div(id: klass_name, class: section_class(items)) do
       yield
     end
   end

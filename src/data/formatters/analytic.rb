@@ -39,7 +39,7 @@ class Analytic < Base
     @h.h2 section_name
     @this_verse_dict = items.dig("thisVerse", "dict")
 
-    items_wrapper do
+    items_wrapper(items) do
       (items["crossRefs"] || []).each do |item|
         format(item)
       end
@@ -102,7 +102,7 @@ class Analytic < Base
   
   private
 
-  def items_wrapper
+  def items_wrapper(items)
     @h.table(id: klass_name) do
       yield
     end

@@ -59,18 +59,28 @@ class Word < Base
           @h.span(class: :eng) do
             @h.text! item["eng"]
           end
+          @h.br(class: :extended)
 
           # NOTE extended
           word_info = $DICT[item["id"]]
           pos_display = pos.to_display
-          @h.br(class: :extended)
+          pos, pos_ext, pos_conj = pos_display
+
           @h.span(class: 'pos extended') do
-            pos_display.each do |row|
-              @h.text! row
-              @h.br
-            end
+            @h.text! pos.to_s.empty? ? '-' : pos
           end
           @h.br(class: :extended)
+          @h.span(class: 'pos ext extended') do
+            @h.text! pos_ext.to_s.empty? ? '-' : pos_ext
+          end
+          @h.br(class: :extended)
+          if item['lang'] == 'hebrew' then
+            @h.span(class: 'pos conj extended') do
+              @h.text! pos_conj.to_s.empty? ? '-' : pos_conj
+            end
+            @h.br(class: :extended)
+          end
+
           @h.span(class: 'occurences extended') do
             if word_info[:occurences]
               @h.text! "#{word_info[:occurences]}次"
@@ -93,8 +103,13 @@ class Word < Base
 
   private
 
-  def items_wrapper
-    @h.div(id: klass_name) do
+  def section_class(items)
+    first_item = items.first
+    first_item.is_a?(Hash) ? first_item["lang"] : ''
+  end
+
+  def items_wrapper(items)
+    super(items) do
       @h.table(class: 'header extended') do
         @h.tr do
           @h.td do
@@ -111,9 +126,17 @@ class Word < Base
             end
             @h.br
             @h.span(class: :pos) do
-              @h.text! "詞性"
+              @h.text! "主要詞性"
             end
             @h.br
+            @h.span(class: 'pos ext') do
+              @h.text! "單詞變化"
+            end
+            @h.br
+            @h.span(class: 'pos conj') do
+              @h.text! "附属詞"
+            end
+            @h.br(class: 'pos conj')
             @h.span(class: :occurences) do
               @h.text! "聖經中出現"
             end
@@ -131,7 +154,7 @@ end
 
 if __FILE__ == $0
   section_key = 'words'
-  obj = JSON.parse File.read("verses_data/1/1/1/#{section_key}.json")
+  obj = JSON.parse File.read("verses_data/51/1/1/#{section_key}.json")
 
   puts Word.new('gen.1.1').format_all(obj.values.first[section_key])
 end
