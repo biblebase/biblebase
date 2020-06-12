@@ -143,14 +143,14 @@ class Pos
   end
 
   def main_pos
-    display_pos(main)
+    Pos.display_pos(main)
+  end
+
+  def self.display_pos(pos)
+    pos ?  PARTS_OF_SPEECH[pos.to_sym] : ''
   end
 
   private
-
-  def display_pos(pos)
-    pos ?  PARTS_OF_SPEECH[pos.to_sym] : ''
-  end
 
   # NOTE return an array, e.g.
   # [{

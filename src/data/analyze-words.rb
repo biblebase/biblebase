@@ -42,7 +42,7 @@ def get_words_hash
       parts = stemmed_parts(w["eng"])
       pos = Pos.new(w["pos"], w["lang"])
       h[id] ||= {
-        pos: pos,
+        pos: pos.main,
         candidates: {},
         translits: {}
       }
@@ -107,9 +107,48 @@ def stats_meanings(words_hash)
   return words_hash
 end
 
+# TODO connect words in 2 languages by top meaning and top occurences
+def meanings_mapping(words_hash)
+  # god:
+  #   hebrew-430: 1234
+  #   greek-123: 123
+  #   hebrew-123: 2
+  words_hash.each_with_object({}) do |(id, v), h|
+    next unless v[:meanings]
+
+    top_meaning, occurences = v[:meanings].first
+    h[top_meaning] ||= {}
+    h[top_meaning][id] = occurences
+
+  # filter out items can't be matched
+  end.select do |k, v|
+    v.size > 1 and v.keys.map{|k| k.to_s.split('-').first}.uniq.size > 1
+
+  # {
+  #   hebrew-430: :greek-123,
+  #   greek-123:  :hebrew-430
+  # }
+  end.each_with_object({}) do |(eng, words), h|
+    lang1_word, lang2_word = words
+      .group_by{|k,v| k.to_s.split('-').first}
+      .values.map{|p| p.sort_by{|word, occ| occ}.last[0]}
+
+    h[lang1_word] = lang2_word
+    h[lang2_word] = lang1_word
+  end
+end
+
 # NOTE save in json and htmls
 def save_json_and_html(words_hash)
-  # one yaml file
+  # add translation
+  translations = meanings_mapping(words_hash)
+  words_hash.each do |id, v|
+    if t = translations[id]
+      v[:translation] = t
+    end
+  end
+
+  # one dict yaml file
   File.open("./verses_data/dict.yml", 'w') do |f|
     f << words_hash.to_yaml
   end
@@ -128,9 +167,16 @@ def save_json_and_html(words_hash)
 
     if v[:pos]
       html.h3 "詞性"
-      html.p v[:pos].main_pos
+      html.p Pos.display_pos(v[:pos])
     else
       warn v.inspect
+    end
+
+    if tid = v[:translation]
+      html.h3 id.split('-').first == 'hebrew' ? '希臘文對應詞彙' : '希伯來文對應詞彙'
+      html.span(class: :wordLink, href: "/words/#{tid}.htm") do
+        html.text! words_hash.dig(tid, :translits).keys.first
+      end
     end
 
     if v[:occurences]

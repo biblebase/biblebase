@@ -86,9 +86,7 @@ def expand(related_verses)
 end
 
 def cross_refs(words_hash, this_verse_key)
-  related_verses = words_hash.select { |id, w|
-    w[:occurences]
-  }.each_with_object({}) { |(id, w), h|
+  related_verses = words_hash.each_with_object({}) { |(id, w), h|
     next unless $STATS_BY_POS.include?(w[:pos])
 
     score = 14 / (w[:occurences] ** 0.45)
@@ -129,6 +127,21 @@ Parallel.each(WORDS_FILES, progress: 'Cross Referencing') do |words_file|
   verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
   word_ids = obj["words"].map{|w| w["id"]} - IGNORE_WORDS
   words_hash = dict.slice(*word_ids)
+    .select{|id, w| w[:occurences]}
+    .map do |id, v|
+    word_info = if tid = v[:translation]
+                  t = dict[tid]
+                  {
+                    pos: v[:pos],
+                    occurences: v[:occurences] + t[:occurences],
+                    translits: v[:translits].merge(t[:translits])
+                  }
+                else
+                  v.slice(:pos, :occurences, :translits)
+                end
+    [id, word_info]
+  end.to_h
+
   verse_dict = obj["words"].each_with_object({}){ |w,h| h[w["id"]] = w["eng"] }
   analytics = {
     thisVerse: { dict: verse_dict},
