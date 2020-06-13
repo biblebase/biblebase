@@ -10,7 +10,9 @@ import "./StudyGuide.css";
 
 class StudyGuide extends React.Component {
   static propTypes = {
-    bibleIndex: PropTypes.object.isRequired
+    bibleIndex: PropTypes.object.isRequired,
+    menuOpen: PropTypes.bool.isRequired,
+    closeMenu: PropTypes.func.isRequired
   };
 
   state = {
@@ -106,16 +108,6 @@ class StudyGuide extends React.Component {
 
   /************************* handlers **********************************/
 
-  handleStudyPaneClick = (event) => {
-    event.stopPropagation();
-    // if word info is open, close
-    if (this.state.showWordInfo) {
-      this.setState({
-        showWordInfo: !this.state.showWordInfo
-      });
-    }
-  }
-
   handleMenuSelection = (event) => {
     const link = event.target;
     if (link.classList.contains("menu-item")) {
@@ -150,50 +142,50 @@ class StudyGuide extends React.Component {
     });
   }
 
+  handleStudyPaneClick = (event) => {
+    // if menu is open and clicked outside selection, close menu
+    if (this.props.menuOpen) {
+      event.preventDefault();
+      event.stopPropagation();
+      this.props.closeMenu();
+    } else if (this.state.showWordInfo) {
+      // if word info is open, close
+      event.stopPropagation();
+      this.setState({
+        showWordInfo: !this.state.showWordInfo
+      });
+    }
+   }
+
   /**************************** render *********************************/
+
   renderChapterData() {
     // no verse selected
     const reference = Object.entries(this.state.contentData)[0][1];
     return (
-      <div id="study-guide">
+      <div id="study-guide" onClickCapture={this.handleStudyPaneClick}>
         <div id="study-content">
-          <div
-            id="sermons"
-            className={classNames("section", {
-              dim:
-                reference.sermons === undefined ||
-                reference.sermons.length === 0,
-            })}
-          >
+          <div id="sermons" className={classNames("section", {
+              dim: reference.sermons === undefined || reference.sermons.length === 0})}>
             <div className="section-heading">證道與讀經班</div>
             <div className="section-content">
-              {reference.sermons.map((sermon) => (
+              {reference.sermons === undefined || 
+               reference.sermons.length === 0 ||
+               (reference.sermons.map((sermon) => (
                 <div className="sermon-block" key={sermon.id}>
                   <div className="title">{sermon.title}</div>
                   <div className="author">{sermon.preacher}</div>
                   <div className="date">{sermon.date}</div>
-                  {sermon.audio ? (
-                    <audio className="sermon-audio" controls>
-                      <source src={sermon.audio} type="audio/mpeg" />
-                      Your browser does not support the audio element.
-                    </audio>
-                  ) : (
-                    ""
+                  {sermon.audio === undefined ||
+                   (<audio className="sermon-audio" controls>
+                      <source src={sermon.audio} type="audio/mpeg" />Your browser does not support the audio element.</audio>
                   )}
-                  {sermon.slides ? (
-                    <div className="sermon-slides">
-                      <a
-                        href={sermon.slides}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Slides
-                      </a>
+                  {sermon.slides === undefined ||
+                   (<div className="sermon-slides">
+                      <a href={sermon.slides} target="_blank" rel="noopener noreferrer">Slides</a>
                     </div>
-                  ) : (
-                    ""
                   )}
-                </div>
+                </div>)
               ))}
             </div>
           </div>
@@ -222,171 +214,116 @@ class StudyGuide extends React.Component {
     const verseObject = Object.entries(contentData)[0][1];
     const bookTitle = this.props.bibleIndex[bookId].title;
     const title = `${bookTitle} ${chapter} : ${verse}`;
+
     return (
-      <div id="study-guide" onClick={this.handleStudyPaneClick}>
+      <div id="study-guide" onClickCapture={this.handleStudyPaneClick}>
+
+        {/* Menu */}
         <nav id="menu">
-          <div className="menu-.section">{title.toUpperCase()}</div>
-          <div className="menu-items" onClick={this.handleMenuSelection}>
-            <div
-              id="mi-other-versions"
-              target="other-versions"
-              selected={true}
+          <div className="menu-heading">{title.toUpperCase()}</div>
+          <div className="menu-items" onClickCapture={this.handleMenuSelection}>
+            <div id="mi-other-versions" target="other-versions" selected={true}
               className={classNames("menu-item", {
-                dim:
-                  verseObject.versions === undefined ||
-                  isEmptyObject(verseObject.versions),
-                "active-menu-item":
-                  this.state.activeSection === "other-versions",
-              })}
-            >
-              聖經版本
-            </div>
-            <div
-              id="mi-words"
-              target="words"
+                dim: verseObject.versions === undefined || isEmptyObject(verseObject.versions),
+                "active-menu-item": this.state.activeSection === "other-versions"})}>聖經版本</div>
+            <div id="mi-words" target="words"
               className={classNames("menu-item", {
-                dim:
-                  verseObject.words === undefined ||
-                  verseObject.words.length === 0,
-                "active-menu-item": this.state.activeSection === "words",
-              })}
-            >
-              逐詞翻譯
-            </div>
-            <div
-              id="mi-sermons"
-              target="sermons"
+                dim: verseObject.words === undefined || verseObject.words.length === 0,
+                "active-menu-item": this.state.activeSection === "words"})}>逐詞翻譯</div>
+            <div id="mi-sermons" target="sermons"
               className={classNames("menu-item", {
-                dim:
-                  verseObject.sermons === undefined ||
-                  verseObject.sermons.length === 0,
-                "active-menu-item": this.state.activeSection === "sermons",
-              })}
-            >
-              證道與讀經班
-            </div>
-            <div
-              id="mi-interpretations"
-              target="interpretations"
+                dim: verseObject.sermons === undefined || verseObject.sermons.length === 0,
+                "active-menu-item": this.state.activeSection === "sermons"})}>證道與讀經班</div>
+            <div id="mi-interpretations" target="interpretations"
               className={classNames("menu-item", {
-                dim:
-                  verseObject.interpretations === undefined ||
-                  verseObject.interpretations.length === 0,
-                "active-menu-item":
-                  this.state.activeSection === "interpretations",
-              })}
-            >
-              解經
-            </div>
-            <div id="mi-analytics" target="analytics" className={classNames("menu-item", {
+                dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0,
+                "active-menu-item": this.state.activeSection === "interpretations"})}>解經</div>
+            <div id="mi-analytics" target="analytics" 
+              className={classNames("menu-item", {
                 dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics),
                 "active-menu-item": this.state.activeSection === "analytics"})}>相關經文</div>
           </div>
         </nav>
+
+        {/* content */}
         <div id="study-content">
-          <div
-            id="other-versions"
-            className={classNames("section", {
-              dim:
-                verseObject.versions === undefined ||
-                isEmptyObject(verseObject.versions),
-            })}
-          >
+
+          {/* Other versions */}
+          <div id="other-versions" className={classNames("section", {
+            dim: verseObject.versions === undefined || isEmptyObject(verseObject.versions)})}>
             <div className="section-heading">聖經版本</div>
             <div className="section-content">
-              <table>
+              {verseObject.versions === undefined || isEmptyObject(verseObject.versions) ||
+              (<table>
                 <tbody>
                   {Object.entries(verseObject.versions).map(
                     ([key, version]) => (
                       <tr className="version" key={version.version_id}>
-                        <td className="version-name title">
-                          {version.version_id}
-                        </td>
+                        <td className="version-name">{version.version_id}</td>
                         <td className="version-content">{version.text}</td>
                       </tr>
                     )
                   )}
                 </tbody>
               </table>
+              )}
             </div>
           </div>
-          <div
-            id="words"
-            className={classNames("section", {
-              dim:
-                verseObject.words === undefined ||
-                verseObject.words.length === 0,
-            })}
-          >
+
+          {/* Words */}
+          <div id="words" className={classNames("section", {
+            dim: verseObject.words === undefined || verseObject.words.length === 0})}>
             <div className="section-heading">逐詞翻譯</div>
             <div className="section-content words-table">
-              {verseObject.words.map((word, index) => (
+              {verseObject.words === undefined || verseObject.words.length === 0 ||
+              (verseObject.words.map((word, index) => (
                 <div className="word-cell" key={index}>
-                  <div className="translit" data-wordid={word.id} onClick={this.handleWordClick}>
+                  <div className="translit" data-wordid={word.id} onClickCapture={this.handleWordClick}>
                     <span className="word-link">{word.translit}</span>
                   </div>
                   <div className="greek">{word.greek}</div>
                   <div className="eng">{word.eng}</div>
                 </div>
-              ))}
+              )))}
             </div>
           </div>
-          <div
-            id="sermons"
-            className={classNames("section", {
-              dim:
-                verseObject.sermons === undefined ||
-                verseObject.sermons.length === 0,
-            })}
-          >
+
+          {/* Sermons */}
+          <div id="sermons" className={classNames("section", {
+              dim: verseObject.sermons === undefined || verseObject.sermons.length === 0 })}>
             <div className="section-heading">證道與讀經班</div>
-            {verseObject.sermons === undefined ||
-            verseObject.sermons.length === 0 ? (
-              ""
-            ) : (
-              <div className="section-content">
+            {verseObject.sermons === undefined || verseObject.sermons.length === 0 ||
+              (<div className="section-content">
                 {verseObject.sermons.map((sermon) => (
                   <div className="sermon-block" key={sermon.id}>
                     <div className="title">{sermon.title}</div>
                     <div className="author">{sermon.preacher}</div>
                     <div className="date">{sermon.date}</div>
-                    {sermon.audio ? (
-                      <audio className="sermon-audio" controls>
+                    {sermon.audio === undefined || 
+                      (<audio className="sermon-audio" controls>
                         <source src={sermon.audio} type="audio/mpeg" />
                         Your browser does not support the audio element.
-                      </audio>
-                    ) : (
-                      ""
-                    )}
-                    {sermon.slides ? (
-                      <div className="sermon-slides">
-                        <a
-                          href={sermon.slides}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          Slides
-                        </a>
+                      </audio>)
+                    }
+                    {sermon.slides === undefined ||
+                      (<div className="sermon-slides">
+                        <a href={sermon.slides} target="_blank" rel="noopener noreferrer">Slides</a>
                       </div>
-                    ) : (
-                      ""
-                    )}
+                      )
+                    }
                   </div>
                 ))}
               </div>
             )}
           </div>
-          <div
-            id="interpretations"
-            className={classNames("section", {
-              dim:
-                verseObject.interpretations === undefined ||
-                verseObject.interpretations.length === 0,
-            })}
-          >
+
+          {/* Interpretations */}
+          <div id="interpretations" className={classNames("section", {
+              dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0})}>
             <div className="section-heading">解經</div>
             <div className="section-content">
-              {Object.entries(verseObject.interpretations).map((entry) => (
+              {verseObject.interpretations === undefined || verseObject.interpretations.length === 0 || 
+                (Object.entries(verseObject.interpretations).map((entry) => (
                 <div className="sub-section" key={entry[0]}>
                   <div className="title">{entry[1].title}</div>
                   <div className="author">{entry[1].author}</div>
@@ -398,64 +335,56 @@ class StudyGuide extends React.Component {
                     </div>
                   ))}
                 </div>
-              ))}
+              )))}
             </div>
           </div>
+
+          {/* Analytics */}
           <div id="analytics" className={classNames("section", {
               dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics)})}>
             <div className="section-heading">相關經文</div>
             <div className="section-content">
-              <table>
-                <tbody>
-                  {this.state.crossReferences.map((cr) => (
-                    <tr className="cross-reference" key={cr.verseKey}>
-                      <td className="cr-verseKey-col">
-                        <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}>{cr.verseAbbr}</Link>
-                      </td>
-                      <td className="cr-verse-col">{cr.verseTextCh}</td>
-                      <td className="cross-ref-words-col">
-                        {Object.keys(cr.wordMap).map((key) => (
-                          <div key={key}>{`${key} ↔ ${cr.wordMap[key]}`}</div>
-                        ))}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              {verseObject.analytics === undefined || isEmptyObject(verseObject.analytics) ||
+                (<table>
+                  <tbody>
+                    {this.state.crossReferences.map((cr) => (
+                      <tr className="cross-reference" key={cr.verseKey}>
+                        <td className="cr-verseKey-col">
+                          <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}>{cr.verseAbbr}</Link>
+                        </td>
+                        <td className="cr-verse-col">{cr.verseTextCh}</td>
+                        <td className="cross-ref-words-col">
+                          {Object.keys(cr.wordMap).map((key) => (
+                            <div key={key}>{`${key} ↔ ${cr.wordMap[key]}`}</div>
+                          ))}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>)
+              }
             </div>
           </div>
-          <div
-            id="hymns"
-            className={classNames("section", {
-              dim:
-                verseObject.hymns === undefined ||
-                verseObject.hymns.length === 0,
-            })}
-          >
+
+          {/* Hymns */}
+          <div id="hymns" className={classNames("section", {
+              dim: verseObject.hymns === undefined || verseObject.hymns.length === 0})}>
             <div className="section-heading">詩歌</div>
             <div className="section-content">
-              {verseObject.hymns
-                ? verseObject.hymns.map((hymn) => (
-                    <div className="hymn block" key={hymn.id}>
-                      <div className="hymn-title title">{hymn.title}</div>
-                      <div className="hymn-description desc">
-                        {hymn.description}
-                      </div>
-                      <div className="video-wrapper">
-                        <iframe
-                          className="iframe"
-                          id={`youtube_${hymn.id}`}
-                          title={hymn.title}
-                          type="text/html"
-                          width="100vmin"
-                          height="100vmin"
-                          src={`https://www.youtube.com/embed/${hymn.youtube_id}?autoplay=0&origin=http://example.com"`}
-                          frameBorder="0"
-                        ></iframe>
-                      </div>
-                    </div>
-                  ))
-                : ""}
+              {verseObject.hymns === undefined || verseObject.hymns.length === 0 ||
+              (verseObject.hymns.map((hymn) => (
+                <div className="hymn block" key={hymn.id}>
+                  <div className="hymn-title title">{hymn.title}</div>
+                  <div className="hymn-description desc">
+                    {hymn.description}
+                  </div>
+                  <div className="video-wrapper">
+                    <iframe className="iframe" id={`youtube_${hymn.id}`} title={hymn.title} type="text/html" width="100vmin" height="100vmin"
+                      src={`https://www.youtube.com/embed/${hymn.youtube_id}?autoplay=0&origin=http://example.com"`}
+                      frameBorder="0"></iframe>
+                  </div>
+                </div>
+              )))}
             </div>
           </div>
           <div id="word-lookup" className={classNames({ hidden: !this.state.showWordInfo })}>

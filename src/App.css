@@ -8,18 +8,31 @@
   text-align: left;
   height: 100vh;
   width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.left {
-  grid-area: 1/1/1/1;
-  border-right: dotted #313131 1px;
+.header {
+  height: 70px;
 }
 
-.right {
-  grid-area: 1/2/1/2;
+.body {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 70px - 25px);
 }
 
+.body-left {
+  width: 35%;
+  height: 100%;
+}
+
+.body-right {
+  width: 65%;
+  height: 100%;
+}
+
+.footer {
+  height: 25px;
+}
 
