@@ -44,66 +44,8 @@ class Menu extends React.Component {
     });
   }
 
-
-  renderPrevChLink = (book, chapter) => {    
-    if (book === 1 && chapter === 1) {
-      return (
-        <div className="prev prev-disabled">
-          <span className="triangle triangle-prev-disabled" ></span>
-        </div>
-      ); 
-    } else {
-      let prevBook = book;
-      let prevCh = chapter;
-      // need to go to previous book
-      if (chapter === 1) {
-        prevBook =- 1;
-        prevCh = this.props.bibleIndex[book].chapters;
-      } else {
-        prevCh -= 1;
-      }
-  
-      return (
-        <Link to={`/bible/${prevBook}/${prevCh}`}>
-          <div className="prev">
-            <span className="triangle triangle-prev" ></span>
-          </div>
-        </Link>
-      )
-    }
-            
-  }
-
-  renderNextChLink = (book, chapter) => {    
-  
-    if (book === 66 && chapter === 22) {
-      return (
-        <div className="next next-disabled">
-          <span className="triangle triangle-next-disabled" ></span>
-        </div>
-      ); 
-    } else {
-      let nextBook = book;
-      let nextCh = chapter;
-      // need to go to next book
-      if (chapter === this.props.bibleIndex[book].chapters) {
-        nextBook += 1;
-        nextCh = 1;
-      } else {
-        nextCh += 1;
-      }
-      return (
-        <Link to={`/bible/${nextBook}/${nextCh}`}>
-          <div className="next">
-            <span className="triangle triangle-next" ></span>
-          </div>
-        </Link>
-      )
-    }
-            
-  }
-
   handleDropdownButtonClick = (event) => {
+    event.stopPropagation();
     if (this.props.menuOpen) {
       console.log("close menu");
       this.props.closeMenu();
@@ -139,6 +81,74 @@ class Menu extends React.Component {
       
   }
 
+  handleMenuPaneClick = (event) => {
+    // if menu is open and clicked outside selection, close menu
+    const classes = event.target.classList;
+    if (this.props.menuOpen && !classes.contains("book-list-item") && !classes.contains("chapter-list-item")) {
+      event.preventDefault();
+      event.stopPropagation();
+      this.props.closeMenu();
+    }
+  }
+
+  renderPrevChLink = (book, chapter) => {    
+    if (book === 1 && chapter === 1) {
+      return (
+        <div className="prev prev-disabled">
+          <span className="triangle triangle-prev-disabled" ></span>
+        </div>
+      ); 
+    } else {
+      let prevBook = book;
+      let prevCh = chapter;
+      // need to go to previous book
+      if (chapter === 1) {
+        prevBook =- 1;
+        prevCh = this.props.bibleIndex[book].chapters;
+      } else {
+        prevCh -= 1;
+      }
+  
+      return (
+        <Link to={`/bible/${prevBook}/${prevCh}`} className={classNames({"disable-link": this.props.menuOpen})}>
+          <div className="prev">
+            <span className="triangle triangle-prev" ></span>
+          </div>
+        </Link>
+      )
+    }
+            
+  }
+
+  renderNextChLink = (book, chapter) => {    
+  
+    if (book === 66 && chapter === 22) {
+      return (
+        <div className="next next-disabled">
+          <span className="triangle triangle-next-disabled" ></span>
+        </div>
+      ); 
+    } else {
+      let nextBook = book;
+      let nextCh = chapter;
+      // need to go to next book
+      if (chapter === this.props.bibleIndex[book].chapters) {
+        nextBook += 1;
+        nextCh = 1;
+      } else {
+        nextCh += 1;
+      }
+      return (
+        <Link to={`/bible/${nextBook}/${nextCh}`} className={classNames({"disable-link": this.props.menuOpen})}>
+          <div className="next">
+            <span className="triangle triangle-next" ></span>
+          </div>
+        </Link>
+      )
+    }
+            
+  }
+
   render() {
 
     const bookId = this.state.bookId;
@@ -158,7 +168,7 @@ class Menu extends React.Component {
     }
 
     return (
-      <div id="menu">
+      <div id="book-menu" onClickCapture={this.handleMenuPaneClick}>
         <div id="branding">
           <h1>Biblebase</h1>
         </div>

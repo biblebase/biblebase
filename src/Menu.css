@@ -1,17 +1,17 @@
-#menu {
+#book-menu {
   width: 100%;
   display: flex;
   background-color: #494949;;
 }
 
-#menu #branding {
+#book-menu #branding {
   color: #ffffff;
   width: 30%;
   padding-left: 20px;
   box-sizing: border-box;
 }
 
-#menu #book-selector {
+#book-menu #book-selector {
   position: relative;
   width: 40%;
   padding: 10px 10px;
@@ -22,52 +22,50 @@
   align-items: center;
 }
 
-#menu #search {
+#book-menu #search {
   width: 25%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-#menu .search-box {
+#book-menu .search-box {
   width: 200px;
   height: 30px;
   box-sizing: border-box;
 }
 
-#menu .search-button {
+#book-menu .search-button {
   height: 30px;
 }
 
-#menu #user {
+#book-menu #user {
   width: 5%;
 }
 
-#menu .prev {
-  cursor: pointer;
+#book-menu .prev {
   padding: 0 10px;
 }
 
-#menu .prev-disabled {
+#book-menu .prev-disabled {
   cursor: default;
   padding: 0 10px;
 }
 
-#menu .book-nav {
+#book-menu .book-nav {
   align-items: center;
 }
 
-#menu .next {
-  cursor: pointer;
+#book-menu .next {
   padding: 0 10px;
 }
 
-#menu .next-disabled {
+#book-menu .next-disabled {
   cursor: default;
   padding: 0 10px;
 }
 
-#menu .book-dropdown-button {
+#book-menu .book-dropdown-button {
   font-size: 1em;
   width: 200px;
   height: 40px;
@@ -76,11 +74,11 @@
   border: 1px solid #949494;
 }
 
-#menu .hide {
+#book-menu .hide {
   display: none;
 }
 
-#menu .book-dropdown {
+#book-menu .book-dropdown {
   position: absolute;
   font-size: 1em;
   width: 200px;
@@ -94,29 +92,29 @@
   border-radius: 4px;
 }
 
-#menu .book-list {
+#book-menu .book-list {
   list-style-type: none;
   text-align: left;
   cursor: pointer;
   padding-left: 0;
 }
 
-#menu .book-list-item {
+#book-menu .book-list-item {
   width: calc(100% - 5px);
   padding-left: 5px;
 }
 
-#menu .highlight-current {
+#book-menu .highlight-current {
   background-color: rgb(42, 71, 128, 0.8);
   color: white;
 }
 
-#menu .book-list-item:hover {
+#book-menu .book-list-item:hover {
   background-color: rgb(42, 71, 128);
   color: white;
 }
 
-#menu .chapter-dropdown {
+#book-menu .chapter-dropdown {
   position: absolute;
   font-size: 1em;
   width: 200px;
@@ -131,7 +129,7 @@
   border-radius: 4px;
 }
 
-#menu .chapter-list {
+#book-menu .chapter-list {
   list-style-type: none;
   text-align: left;
   cursor: pointer;
@@ -139,17 +137,17 @@
   width: 100%;
 }
 
-#menu .chapter-list-item {
+#book-menu .chapter-list-item {
   width: calc(99% - 10px);
   padding-left: 10px;
 }
 
-#menu .chapter-list-item:hover {
+#book-menu .chapter-list-item:hover {
   background-color: rgb(42, 71, 128);
   color: white;
 }
 
-#menu .triangle {
+#book-menu .triangle {
   border: solid #616060 2px;
   border-width: 0 2px 2px 0;
   display: inline-block;
@@ -157,35 +155,40 @@
   margin: 5px 10px;
 }
 
-#menu .triangle-down {
+#book-menu .triangle-down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
-#menu .triangle-prev {
+#book-menu .triangle-prev {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   padding: 8px;
   border-color: #ffffff;
 }
 
-#menu .triangle-prev-disabled {
+#book-menu .triangle-prev-disabled {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   padding: 8px;
   border-color: #616161;
 }
 
-#menu .triangle-next {
+#book-menu .triangle-next {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   padding: 8px;
   border-color: #ffffff;
 }
 
-#menu .triangle-next-disabled {
+#book-menu .triangle-next-disabled {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   padding: 8px;
   border-color: #616161;
+}
+
+#book-menu .disable-link {
+  /* pointer-events: none; */
+  cursor: default;
 }
