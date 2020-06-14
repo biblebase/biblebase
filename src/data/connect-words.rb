@@ -13,6 +13,8 @@
 #       dict:
 #         greek-3778: This
 #         greek-5426: let mind be
+#     translations:
+#       hebrew-123: greek-5426
 #     crossRefs: # 相關經文
 #       # maxCount: 10, totalScoreThreshold: 5
 #       - verseKey: php.2.12
@@ -42,10 +44,12 @@ require_relative 'lib/consts'
 THRESHOLDS = {
   high: {
     top: 5,
+    bottom: 3,
     max: 10
   },
   low: {
     top: 3,
+    bottom: 1,
     max: 3
   }
 }
@@ -53,9 +57,9 @@ THRESHOLDS = {
 def thresholding(related_verses)
   top_score = (related_verses.first || {})[:totalScore] || 0
   if top_score >= THRESHOLDS.dig(:high, :top)
-    related_verses.first(THRESHOLDS.dig(:high, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:high, :top)}
+    related_verses.first(THRESHOLDS.dig(:high, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:high, :bottom)}
   elsif top_score >= THRESHOLDS.dig(:low, :top)
-    related_verses.first(THRESHOLDS.dig(:low, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:low, :top)}
+    related_verses.first(THRESHOLDS.dig(:low, :max)).select{|v| v[:totalScore] >= THRESHOLDS.dig(:low, :bottom)}
   else
     []
   end
@@ -86,9 +90,7 @@ def expand(related_verses)
 end
 
 def cross_refs(words_hash, this_verse_key)
-  related_verses = words_hash.select { |id, w|
-    w[:occurences]
-  }.each_with_object({}) { |(id, w), h|
+  related_verses = words_hash.each_with_object({}) { |(id, w), h|
     next unless $STATS_BY_POS.include?(w[:pos])
 
     score = 14 / (w[:occurences] ** 0.45)
@@ -129,9 +131,26 @@ Parallel.each(WORDS_FILES, progress: 'Cross Referencing') do |words_file|
   verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
   word_ids = obj["words"].map{|w| w["id"]} - IGNORE_WORDS
   words_hash = dict.slice(*word_ids)
+    .select{|id, w| w[:occurences]}
+    .map do |id, v|
+    word_info = if tid = v[:translation]
+                  t = dict[tid]
+                  {
+                    pos: v[:pos],
+                    translation: tid,
+                    occurences: v[:occurences] + t[:occurences],
+                    translits: v[:translits].merge(t[:translits])
+                  }
+                else
+                  v.slice(:pos, :occurences, :translits)
+                end
+    [id, word_info]
+  end.to_h
+
   verse_dict = obj["words"].each_with_object({}){ |w,h| h[w["id"]] = w["eng"] }
   analytics = {
     thisVerse: { dict: verse_dict},
+    translations: words_hash.each_with_object({}){|(id, v), h| h[v[:translation]] = id}.select{|k,v| k},
     crossRefs: cross_refs(words_hash, verse_key)
   }
 

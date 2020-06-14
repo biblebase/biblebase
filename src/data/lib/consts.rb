@@ -72,25 +72,6 @@ $VERSIONS = {
   }
 }
 
-$PARTS_OF_SPEECH = {
-  n: '名詞',
-  v: '動詞',
-  adj: '形容詞',
-  adv: '副詞',
-  art: '冠詞',
-  dpro: '指示代詞',
-  ipro: '不定代詞',
-  ppro: '人稱代詞',
-  recpro: '相互代詞',
-  relpro: '關係代詞',
-  refpro: '反身代詞',
-  prep: '介詞',
-  conj: '連接詞',
-  i: '感嘆詞',
-  prtcl: '量詞',
-  heb: '希伯來語詞彙',
-  aram: '亞蘭語詞彙'
-}
 # functions
 require 'lemmatizer'
 require 'stemmify'
@@ -116,7 +97,7 @@ $STOP_WORDS = %w[
 ]
 $lem = Lemmatizer.new
 
-$STATS_BY_POS = %w[n v adj adv heb aram]
+$STATS_BY_POS = %w[proper n v adj adv heb aram]
 def get_main_pos(pos)
   pos.to_s.split(' | ')
     .map{|k| k.downcase.split(/[^0-9a-z]/).first}
@@ -128,13 +109,17 @@ def stem(word)
   main_word = word.gsub(/\[.+\]/, '').strip
   words = main_word.downcase.split(/[\s'’]+/)
   (words - $STOP_WORDS)
-    .map{ |w| $lem.lemma(w) }
+    .map{ |w| $lem.lemma(w).stem }
     .join(' ')
 end
 
+$TRAILING_PUNC = /[-\.;:,!']$/
 def stemmed_parts(word)
   main_word = word.gsub(/\[.+\]/, '').strip
-  words = main_word.downcase.gsub(/['’]s/, '').split
+  words = main_word.downcase
+    .gsub(/['’]s/, '')
+    .sub($TRAILING_PUNC, '')
+    .split
   (words - $STOP_WORDS)
     .map{ |w| w = $lem.lemma(w) }
 end

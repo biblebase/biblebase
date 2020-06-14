@@ -103,6 +103,10 @@
         visibility: hidden;
       }
       #wordInfo a, #wordInfo a:visited { color: #ddd; }
+      #wordInfo .wordLink {
+        border-bottom-color: #ddd;
+        color: #ddd;
+      }
       #wordInfo h3 {
         clear: both;
         border-bottom: 1px dotted;
@@ -306,6 +310,13 @@
       }
       #word .pos {
         font-style: italic;
+      }
+      #word.greek .pos.conj {
+        visibility: hidden;
+        line-height: 0px;
+      }
+      #word .pos.ext, #word .pos.conj {
+        font-size: 70%;
       }
       #word .pos, #word .meanings, #word .occurences {
         line-height: 24px;
@@ -555,6 +566,18 @@
         document.head.querySelector('title').text = title + ' - BIBLEBASE';
       }
 
+      const wordLinkOnClick = function () {
+        document.querySelectorAll('.wordLink').forEach(function (el) {
+          el.addEventListener('click', function () {
+            const wordUrl = this.getAttribute('href');
+            loadDiv('wordInfo', wordUrl, function () {
+              document.getElementById('wordInfo').style.visibility = 'visible';
+              wordLinkOnClick();
+            });
+          });
+        });
+      }
+
       const loadVerseData = function () {
         scrollTop('verseData');
         focus('verseData');
@@ -562,14 +585,7 @@
         setTitles();
         addAnalyticButton();
 
-        document.querySelectorAll('.wordLink').forEach(function (el) {
-          el.addEventListener('click', function () {
-            const wordUrl = this.getAttribute('href');
-            loadDiv('wordInfo', wordUrl, function () {
-              document.getElementById('wordInfo').style.visibility = 'visible';
-            });
-          });
-        });
+        wordLinkOnClick();
       }
 
       window.onhashchange = window.onload = function () {

@@ -6,6 +6,8 @@ require_relative 'base'
 #       dict:
 #         greek-3778: This
 #         greek-5426: let mind be
+#     translations:
+#       hebrew-123: greek-5426
 #     crossRefs: # 相關經文
 #       # maxCount: 10, totalScoreThreshold: 5
 #       - verseKey: php.2.12
@@ -29,6 +31,7 @@ require_relative 'base'
 #           punct: .
 class Analytic < Base
   NO_TRANSLATION = '<no translation>'
+
   def section_name
     "相關經文"
   end
@@ -38,8 +41,9 @@ class Analytic < Base
 
     @h.h2 section_name
     @this_verse_dict = items.dig("thisVerse", "dict")
+    @translations = items.dig("translations")
 
-    items_wrapper do
+    items_wrapper(items) do
       (items["crossRefs"] || []).each do |item|
         format(item)
       end
@@ -77,7 +81,9 @@ class Analytic < Base
       end
 
       words_hash = cross_ref["words"].each_with_object({}) do |w, h|
-        h[w["id"]] = w["eng"] if anchors[w["id"]]
+        id = w["id"]
+        h[id] = w["eng"] if anchors[id]
+        h[@translations[id]] = w["eng"] if anchors[@translations[id]]
       end
 
       @h.td(class: :wordsMapping) do
@@ -102,7 +108,7 @@ class Analytic < Base
   
   private
 
-  def items_wrapper
+  def items_wrapper(items)
     @h.table(id: klass_name) do
       yield
     end
