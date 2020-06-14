@@ -120,9 +120,9 @@ class StudyGuide extends React.Component {
         activeSection: sectionId,
       });
       let section = document.getElementById(sectionId);
-      const menuHeight = document.getElementById("menu").offsetHeight; // offsetHeight is height of menu content
-      document.getElementById("study-content").scrollTop =
-        section.offsetTop - menuHeight;
+      const headerHeight = 70; // offsetHeight is height of header
+      const menuHeight = document.getElementById("studyguide-menu").offsetHeight; // offsetHeight is height of menu content
+      document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight - headerHeight;
     }
   };
 
@@ -219,7 +219,7 @@ class StudyGuide extends React.Component {
       <div id="study-guide" onClickCapture={this.handleStudyPaneClick}>
 
         {/* Menu */}
-        <nav id="menu">
+        <nav id="studyguide-menu">
           <div className="menu-heading">{title.toUpperCase()}</div>
           <div className="menu-items" onClickCapture={this.handleMenuSelection}>
             <div id="mi-other-versions" target="other-versions" selected={true}
