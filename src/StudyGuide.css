@@ -5,24 +5,28 @@
   box-sizing: border-box;
 }
 
-#study-guide #menu {
-  height: 80px;
-  padding: 20px 20px 40px 40px;
+#study-guide #studyguide-menu {
+  height: 50px;
+  padding: 20px 20px 40px 20px;
   width: 100%;
-  background-color:#fffafa;
+  background-color:#eeeeee;
   display: flex;
   justify-content: flex-start;
-  box-shadow: 0px 5px 5px -2px rgba(0,0,0,.2);
+  box-shadow: 0px 2px 2px -2px rgba(0,0,0,.2);
   box-sizing: border-box;
 }
 
 #study-guide .menu-heading {
-  width: 200px;
-  font-size: 1.5em;
+  width: 20%;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 #study-guide .menu-items {
+  width: 80%;
   display: flex;
+  font-size: 1.1em;
+  justify-content: flex-end;
 }
 
 #study-guide .menu-item {
@@ -51,40 +55,38 @@
   padding: 20px 0;
 }
 
-.dim {
+#study-guide .dim {
   opacity: 0.2;
 }
 
-.section .section-heading {
-  background-color: rgb(165, 164, 164);
-  border-radius: 10px 10px 0 0;
-  color: #524848;
+#study-guide .section .section-heading {
+  background-color: #494949;
+  color: #f3f3f3;
   padding: 10px 10px;
   font-weight: bold;
   font-size: 1.2em;
 }
 
-.sub-section .title {
+#study-guide .sub-section .title {
   padding: 20px 0;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
-.section .section-content {
-  /* padding: 5px 20px 0 0; */
-  /* background-color: rgb(247, 245, 243); */
-  /* border-radius: 0 0 10px 10px; */
+#study-guide .section .section-content .title {
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-.section .section-content .title {
+#study-guide .author {
   font-weight: bold;
 }
 
-.section .section-content .date {
+#study-guide .section .section-content .date {
   font-size: 0.8em;
 }
 
-.section .section-content .desc {
+#study-guide .section .section-content .desc {
   font-size: 0.8em;
 
     /* below takes care of long URL that's unable to wrap */
@@ -101,13 +103,18 @@
     hyphens: auto;
 }
 
-#sermons .section-content {
+#study-guide .version-name {
+  font-size: 1.1m;
+  font-weight: bold;
+}
+
+#study-guide #sermons .section-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: (400px, auto);
 }
 
-.sermon-block {
+#study-guide .sermon-block {
   background-color: rgb(247, 245, 243);
   width: cal(100% - 20px);
   padding: 10px;
@@ -115,38 +122,38 @@
   border-radius: 10px;
 }
 
-.words-table {
+#study-guide .words-table {
   display: flex;
   flex-wrap: wrap;
 }
 
-.words-table .word-cell {
+#study-guide .words-table .word-cell {
   margin: 15px;
 }
 
-.translit {
+#study-guide .translit {
   font-style: italic;
 }
 
-.word-link {
-  border-bottom: dotted 2px cornflowerblue;
-  color: cornflowerblue;
+#study-guide .word-link {
+  border-bottom: dotted 2px rgb(42, 71, 128);
+  color: rgb(42, 71, 128);
   cursor: pointer;
 }
 
-.greek {
+#study-guide .greek {
   font-weight: 200;
   font-size: 140%;
 }
 
-.paragraph-block {
+#study-guide .paragraph-block {
   background-color: rgb(247, 245, 243);
   padding: 10px 10px;
   border: solid 2px white;
   border-radius: 10px;
 }
 
-.paragraph {
+#study-guide .paragraph {
   /* below takes care of long URL that's unable to wrap */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -161,22 +168,22 @@
   hyphens: auto;
 }
 
-.cr-verseKey-col {
+#study-guide .cr-verseKey-col {
   width: 15%;
   padding: 10px;
 }
 
-.cr-verse-col {
+#study-guide .cr-verse-col {
   width: 55%;
   padding: 10px;
 }
 
-.cross-ref-words-col {
+#study-guide .cross-ref-words-col {
   width: 30%;
   padding: 10px;
 }
 
-.video-wrapper {
+#study-guide .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
@@ -184,7 +191,7 @@
   width: 100%;
 }
 
-.video-wrapper iframe {
+#study-guide .video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -192,20 +199,20 @@
   height: 100%;
 }
 
-#hymns {
+#study-guide #hymns {
   display: none;
 }
 
-table td {
+#study-guide table td {
   vertical-align: top;
   padding-right: 15px;
 }
 
-.hidden {
+#study-guide .hidden {
   display: none;
 }
 
-#word-lookup {
+#study-guide #word-lookup {
   position: fixed;
   top: 200px;
   bottom: 100px;
@@ -213,22 +220,22 @@ table td {
   right: 0px;
   overflow-y: scroll;
   padding: 2px 20px;
-  background-color: rgba(78, 78, 78, 0.75);
+  background-color: rgba(78, 78, 78, 0.9);
   color: #fff;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
 
-#word-lookup a, #word-lookup a:visited {
+#study-guide #word-lookup a, #word-lookup a:visited {
    color: #ddd; 
    text-decoration: underline;
 }
 
-#word-lookup h3 {
+#study-guide #word-lookup h3 {
   clear: both;
   border-bottom: 1px dotted;
 }
 
-#word-lookup td {
+#study-guide #word-lookup td {
   color: #fff;
 }

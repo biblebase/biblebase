@@ -10,17 +10,14 @@ class ReadingPane extends React.Component {
 
   static propTypes = {
     bibleIndex: PropTypes.object.isRequired,
+    menuOpen: PropTypes.bool.isRequired,
+    closeMenu: PropTypes.func.isRequired
   }
 
   state = {
     bookId: 0,
     chapter: 0, 
     verse: 0,
-    /* for menu selection */
-    selectedbookId: 0,
-    selectedChapter: 0,
-    selectedVerse: 0,
-    showBookDropdown: false,
     chapterData: {}
   }
 
@@ -63,110 +60,12 @@ class ReadingPane extends React.Component {
   }
 
   handleReadingPaneClick = (event) => {
-    event.stopPropagation();
     // if menu is open and clicked outside selection, close menu
-    if (this.state.showBookDropdown && 
-        !event.target.classList.contains("book-dropdown") &&
-        !event.target.classList.contains("chapter-dropdown")) {
-      this.setState({
-        selectedbookId: 0,
-        selectedChapter: 1,
-        showBookDropdown: !this.state.showBookDropdown
-      });
+    if (this.props.menuOpen) {
+      event.preventDefault();
+      event.stopPropagation();
+      this.props.closeMenu();
     }
-  }
-
-  renderPrevChLink = (book, chapter) => {    
-    if (book === 1 && chapter === 1) {
-      return (
-        <div className="prev prev-disabled">
-          <span className="triangle triangle-prev-disabled" ></span>
-        </div>
-      ); 
-    } else {
-      let prevBook = book;
-      let prevCh = chapter;
-      // need to go to previous book
-      if (chapter === 1) {
-        prevBook =- 1;
-        prevCh = this.props.bibleIndex[book].chapters;
-      } else {
-        prevCh -= 1;
-      }
-  
-      return (
-        <Link to={`/bible/${prevBook}/${prevCh}`}>
-          <div className="prev">
-            <span className="triangle triangle-prev" ></span>
-          </div>
-        </Link>
-      )
-    }
-            
-  }
-
-  renderNextChLink = (book, chapter) => {    
-  
-    if (book === 66 && chapter === 22) {
-      return (
-        <div className="next next-disabled">
-          <span className="triangle triangle-next-disabled" ></span>
-        </div>
-      ); 
-    } else {
-      let nextBook = book;
-      let nextCh = chapter;
-      // need to go to next book
-      if (chapter === this.props.bibleIndex[book].chapters) {
-        nextBook += 1;
-        nextCh = 1;
-      } else {
-        nextCh += 1;
-      }
-      return (
-        <Link to={`/bible/${nextBook}/${nextCh}`}>
-          <div className="next">
-            <span className="triangle triangle-next" ></span>
-          </div>
-        </Link>
-      )
-    }
-            
-  }
-
-  handleDropdownButtonClick = (event) => {
-    this.setState({
-      selectedbookId: 0,
-      selectedChapter: 1,
-      showBookDropdown: !this.state.showBookDropdown
-    });
-  }
-
-  handleBookSelection = (event) => {
-    event.stopPropagation();
-    this.setState({
-        selectedbookId: event.target.value,
-        selectedChapter: 1
-    });
-}
-
-  handleChapterSelection = (event) => {
-    event.stopPropagation();
-
-    // call parent function to change selected
-    if (this.state.selectedbookId === 0) // if using default selection (only changing chapter)
-      this.props.history.push(`/bible/${this.props.match.params.book}/${parseInt(event.target.value)}`);
-    else
-      this.props.history.push(`/bible/${this.state.selectedbookId}/${parseInt(event.target.value)}`);
-
-    // reset
-    this.setState({
-      showBookDropdown: false,
-      selectedBookId: 0,
-      selectedChapter: 0,
-      selectedVerse: 0
-    });
-      
   }
 
   render() {
@@ -186,52 +85,14 @@ class ReadingPane extends React.Component {
     }
 
     const verses = chapterData['verses'];
-    let menu = [];
-    if (this.state.selectedbookId !== 0) { // selected a book
-      for (let i = 1; i <= this.props.bibleIndex[this.state.selectedbookId].chapters; i++) {
-        menu.push(<option className="chapter-list-item" value={i} key={i}>{i}</option>)
-      }
-    } else { // book has not been selected, is pointing to current book
-      for (let i = 1; i <= this.props.bibleIndex[bookId].chapters; i++) {
-        menu.push(<option className={classNames("chapter-list-item", 
-            {highlight: i === chapter})} // highlight original chapter 
-            value={i} key={i}>{i}</option>)
-      }
-    }
     
     return (
-      <div className="reading-pane" onClick={this.handleReadingPaneClick}>
-        <div className="book-select">
-          {this.renderPrevChLink(bookId, chapter)}
-          <div className="book-nav">
-            <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
-              {this.props.bibleIndex[bookId].title} {chapter}  
-              <span className="triangle triangle-down"></span>
-            </button>
-          </div>
-          {this.renderNextChLink(bookId, chapter)}
-          <div className={classNames("book-dropdown", {hide: !this.state.showBookDropdown})}>
-            <ul className="book-list" onClick={this.handleBookSelection}>
-              {Object.keys(this.props.bibleIndex).map(bid => (
-                  (<li className={classNames("book-list-item", 
-                      {highlight: this.state.selectedbookId !== 0? 
-                        this.props.bibleIndex[bid].id === this.state.selectedbookId :
-                        this.props.bibleIndex[bid].id === bookId})} 
-                  value={bid} key={bid}>{this.props.bibleIndex[bid].title}</li>)
-              ))}
-            </ul>
-          </div>
-          <div className={classNames("chapter-dropdown", {hide: !this.state.showBookDropdown})}>
-            <ul className="chapter-list" onClick={this.handleChapterSelection}>
-              {menu}
-            </ul>
-          </div>
-        </div>
-        <div className="content-pane">
+      <div className="reading-pane" onClickCapture={this.handleReadingPaneClick}>
           <div className="chapter">
             {verses.map( verseObj => (
               <Link key={`${bookId}.${chapter}.${verseObj.verse}`}
-                    to={verseObj.verse === verse? `/bible/${bookId}/${chapter}` : `/bible/${bookId}/${chapter}/${verseObj.verse}`}>
+                    to={verseObj.verse === verse? `/bible/${bookId}/${chapter}` : `/bible/${bookId}/${chapter}/${verseObj.verse}`}
+                    className={classNames({"disable-link": this.props.menuOpen})} >
                 <span className={classNames("verse", {selected: verseObj.verse === verse})} 
                   key={`${bookId}.${verseObj.chapter}.${verseObj.verse}`}
                   data-book={bookId}
@@ -245,7 +106,6 @@ class ReadingPane extends React.Component {
               </Link>
             ))}
           </div>
-        </div>
       </div>
     );
   }
