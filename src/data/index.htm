@@ -257,9 +257,19 @@
       h2 {
         clear: both;
         padding: 10px;
-        border-radius: 2px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        margin-bottom: 0px;
         background-color: #444;
-        color: #eee
+        color: #eee;
+      }
+      div.description {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        padding: 0px 10px 5px;
+        background-color: #444;
+        color: #ccc;
+        font-size: 80%;
       }
       .wordLink {
         border-bottom: dotted 2px #44a;
@@ -330,21 +340,24 @@
         text-shadow: 2px 2px 5px #666;
         display: none;
       }
-      #word button.toggleAnalytics:focus {
+      #word .punctCht {
+        visibility: hidden;
+      }
+      button {
         outline: 0px solid transparent;
       }
-      #word button.toggleAnalytics {
+      button {
         border: 0px;
-        border-bottom: 2px dotted #44a;
         font-style: italic;
         padding: 5px;
         color: #333;
         text-shadow: 2px 2px 5px #666;
         cursor: pointer;
         font-size: 100%;
-        float: right;
+        margin: 0px 5px;
+      }
+      .clear {
         clear: both;
-        margin: 10px;
       }
       #analytic td {
         border-bottom: 1px dotted #333
@@ -540,14 +553,47 @@
       }
 
       // NOTE load data
-      const addAnalyticButton = function () {
-        const wordsSection = document.querySelector('#word');
-        if (!wordsSection) return;
+      const addSeqButton = function (wordsDesc) {
+        const button = document.createElement("button");
+        button.classList.add("wordSequence");
+        button.setAttribute("sequenceBy", "cht");
+        button.innerHTML = "顯示中文語序";
+        wordsDesc.appendChild(button);
+        button.addEventListener('click', function () {
+          const wordsSection = document.querySelector('#word');
+          
+          const sortByLang = function (lang) {
+            const sortByAttr = function (item) {
+              return item.querySelector(`span.${lang}`).getAttribute('index')
+            }
+            const sortByFn = function (itemA, itemB) {
+              return sortByAttr(itemA) - sortByAttr(itemB)
+            }
+            const newList = [].slice.call(wordsSection.querySelectorAll('table.word')).sort(sortByFn);
+            newList.forEach(function (w) {
+              wordsSection.appendChild(w);
+            })
+          }
 
+          const lang = button.getAttribute("sequenceBy");
+          sortByLang(lang);
+          if (lang == "original") {
+            button.innerHTML = "顯示中文語序";
+            button.setAttribute("sequenceBy", "cht");
+            document.querySelectorAll('.punctCht').forEach(function (el) { el.style.visibility = 'hidden' });
+          } else {
+            button.innerHTML = "顯示原文語序";
+            button.setAttribute("sequenceBy", "original");
+            document.querySelectorAll('.punctCht').forEach(function (el) { el.style.visibility = 'visible' });
+          }
+        });
+      }
+
+      const addAnalyticButton = function (wordsDesc) {
         const button = document.createElement("button");
         button.classList.add("toggleAnalytics");
         button.innerHTML = "顯示單詞分析";
-        wordsSection.appendChild(button);
+        wordsDesc.appendChild(button);
         button.addEventListener('click', function () {
           if (document.querySelector('.extended').style.display === 'inline') {
             document.querySelectorAll('.extended').forEach( function (el) { el.style.display = 'none' });
@@ -557,6 +603,8 @@
             button.innerHTML = "隱藏單詞分析";
           }
         });
+
+        return button;
       }
 
       const setTitles = function () {
@@ -578,14 +626,27 @@
         });
       }
 
+      const addWordControls = function () {
+        const wordsDesc = document.querySelector('.word.description');
+        if (!wordsDesc) return;
+
+        const buttons = document.createElement('div');
+        buttons.style.float = 'right';
+        wordsDesc.appendChild(buttons);
+
+        addSeqButton(buttons);
+        addAnalyticButton(buttons);
+        buttons.insertAdjacentHTML('afterend', '<div class="clear" />');
+
+        wordLinkOnClick();
+      }
+
       const loadVerseData = function () {
         scrollTop('verseData');
         focus('verseData');
 
         setTitles();
-        addAnalyticButton();
-
-        wordLinkOnClick();
+        addWordControls();
       }
 
       window.onhashchange = window.onload = function () {

@@ -16,21 +16,30 @@ class Base
     raise "implement it"
   end
 
+  def description
+    raise "implement it"
+  end
+
   def klass_name
     self.class.name.snake_case
   end
 
-  def format(item)
+  def format(item, idx)
     raise "implement it"
   end
 
   def format_all(items)
     return "" if items.empty?
 
-    @h.h2 section_name
+    @h.h2(class: klass_name) do
+      @h.text! section_name
+    end
+    @h.div(class: [klass_name, :description].join(' ')) do
+      @h.text! description
+    end
     items_wrapper(items) do
-      items.each do |item|
-        format(item)
+      items.each.with_index do |item, idx|
+        format(item, idx)
       end
     end
   end

@@ -19,7 +19,11 @@ class Sermon < Base
     "證道與讀經班"
   end
 
-  def format(item)
+  def description
+    "CBCWLA教會歷年來的證道內容，以及三年一輪的讀經班所用的講義。"
+  end
+
+  def format(item, idx)
     @h.h3 item["title"]
     @h.div(class: :block) do
       @h.author item["preacher"]
