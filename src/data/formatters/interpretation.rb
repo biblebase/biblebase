@@ -42,7 +42,7 @@ class Interpretation < Base
   end
 
   def description
-    "CBCWLA雅歌團契的解經材料選擇。"
+    "CBCWLA雅歌團契所選用的解經材料。"
   end
 
   def format(item, idx)
