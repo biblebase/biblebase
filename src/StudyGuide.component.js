@@ -328,8 +328,7 @@ class StudyGuide extends React.Component {
                   <div className="title">{entry[1].title}</div>
                   <div className="author">{entry[1].author}</div>
                   {entry[1].content.map((content, index) => (
-                    <div className={classNames({
-                      key: index,
+                    <div key={index} className={classNames({
                       "paragraph-block-specific": content.verse.endsWith(`.${chapter}.${verse}`),
                       "paragraph-block": !content.verse.endsWith(`.${chapter}.${verse}`)}
                     )}>
