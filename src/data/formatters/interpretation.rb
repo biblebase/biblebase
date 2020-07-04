@@ -41,7 +41,11 @@ class Interpretation < Base
     "解經"
   end
 
-  def format(item)
+  def description
+    "CBCWLA雅歌團契所選用的解經材料。"
+  end
+
+  def format(item, idx)
     k, obj = item
     @h.div do
       @h.h3 obj["title"]

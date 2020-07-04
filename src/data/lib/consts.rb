@@ -4,6 +4,21 @@ require 'ruby-progressbar'
 require_relative 'monkey_patches'
 
 $CHINESE_NUMBERS = "一二三四五六七八九十廿"
+$CHINESE_PUNCT = /[，。：“”‘’；「」『 』？！]/
+
+$GREEK_TRANSLITERATES = {
+  "α" => "άὰᾶἀἁἄἂἆἅἃἇᾳᾴᾲᾷᾀᾁᾄᾂᾆᾅᾃᾇ",
+  "ε" => "έὲἐἑἔἒἕἓ",
+  "η" => "ήὴῆἠἡἤἢἦἥἣἧῃῄῂῇᾐᾑᾔᾒᾖᾕᾓᾗ",
+  "ι" => "ίὶῖἰἱἴἲἶἵἳἷ",
+  "ο" => "όὸὀὁὄὂὅὃ",
+  "υ" => "ύὺῦὐὑὔὒὖὕὓὗ",
+  "ω" => "ώὼῶὠὡὤὢὦὥὣὧῳῴῲῷᾠᾡᾤᾢᾦᾥᾣᾧ",
+  "ρ" => "ῤῥ"
+}.each_with_object(["", ""]) do |(vowel, with_accents), map|
+  map[0] += with_accents
+  map[1] += vowel * with_accents.size
+end
 
 $BOOKS = YAML.load_file(File.dirname(__FILE__) +  '/books.yml')
 $BOOK_LOOKUP = $BOOKS.each_with_object({}) do |kv, ret|
@@ -126,6 +141,7 @@ end
 
 #NOTE formatter
 $NBSP = "\u00A0"
+$SP_RE = /[\s\u00A0\u3000\uE013]/
 
 def verse_path(verse_key)
   bk,c,v = verse_key.split('.')

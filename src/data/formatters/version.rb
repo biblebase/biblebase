@@ -23,7 +23,11 @@ class Version < Base
     "聖經版本"
   end
 
-  def format(item)
+  def description
+    "中英文各選取三個常用版本。"
+  end
+
+  def format(item, idx)
     key, obj = item
     @h.tr do
       @h.td do

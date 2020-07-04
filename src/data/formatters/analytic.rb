@@ -36,21 +36,20 @@ class Analytic < Base
     "相關經文"
   end
 
+  def description
+    "根據相同的原文詞根串珠，並根據原詞的詞頻排序。"
+  end
+
   def format_all(items)
     return "" if items.empty?
-
-    @h.h2 section_name
     @this_verse_dict = items.dig("thisVerse", "dict")
     @translations = items.dig("translations")
 
-    items_wrapper(items) do
-      (items["crossRefs"] || []).each do |item|
-        format(item)
-      end
-    end
+    cross_refs = items["crossRefs"] || []
+    super(cross_refs)
   end
 
-  def format(cross_ref)
+  def format(cross_ref, idx)
     verse_key = cross_ref["verseKey"]
     anchors = cross_ref["anchors"]
 

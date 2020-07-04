@@ -11,7 +11,9 @@ require_relative '../lib/pos'
 #         "lang": "hebrew",
 #         "hebrew": "בְּרֵאשִׁ֖ית",
 #         "pos": "Prep‑b | N‑fs",
-#         "eng": "In the beginning"
+#         "eng": "In the beginning",
+#         "cht": "起初",
+#         "index_cht": 0
 #       },
 #       {
 #         "id": "hebrew-776",
@@ -21,62 +23,83 @@ require_relative '../lib/pos'
 #         "pos": "Art | N‑fs",
 #         "punct": ".",
 #         "eng": "the earth"
+#         "cht": "地",
+#         "punct_cht": "。",
+#         "index_cht": 4
 #       }
 #     ]
 #   }
 # }
 
 class Word < Base
+  CHAR_PLACEHOLDER = '～'
+
   def section_name
     "逐詞翻譯"
   end
 
-  # TODO button to toggle extended table
-  def format(item)
-    pos = Pos.new(item["pos"], item["lang"])
-    @h.table do
+  def description
+    "根據聖經原文（舊約希伯來文，新約希臘文）逐詞的翻譯，英文靠近NASB版本，中文靠近和合本。"
+  end
+
+  def format_all(items)
+    @cht_indexes = {}
+    super(items)
+  end
+
+  def format(item, idx)
+    @h.table(class: :word) do
       @h.tr do
         @h.td do
           @h.span(class: :translit) do
-            if item["id"]
-              if pos
-                @h.span(class: 'wordLink', href: "/words/#{item["id"]}.htm") do
-                  @h.text! item["translit"]
-                end
-              else
-                @h.text! item["translit"]
-              end
+            if item["id"].empty?
+              text(@h, item["translit"])
             else
-              @h.text! item["translit"]
+              @h.span(class: 'wordLink', href: "/words/#{item["id"]}.htm") do
+                text(@h, item["translit"])
+              end
             end
           end
           @h.br
-          @h.span(class: ['original', item["lang"]].join(' ')) do
-            @h.text! item[item["lang"]]
+          @h.span(class: ['original', item["lang"]].join(' '), index: idx) do
+            text(@h, item[item["lang"]])
             @h.text! "#{$NBSP}#{item["punct"]}" if item["punct"]
           end
           @h.br
           @h.span(class: :eng) do
-            @h.text! item["eng"]
+            text(@h, item["eng"])
+          end
+          @h.br
+          @h.span(class: :cht, index: item["index_cht"]) do
+            if item["index_cht"] and @cht_indexes[item["index_cht"].to_s]
+              @h.text! CHAR_PLACEHOLDER
+            else
+              text(@h, item["cht"], CHAR_PLACEHOLDER)
+              @cht_indexes[item["index_cht"].to_s] = true
+              if item["punct_cht"]
+                @h.span(class: :punctCht) do
+                  @h.text! "#{$NBSP}#{item["punct_cht"]}"
+                end
+              end
+            end
           end
           @h.br(class: :extended)
 
           # NOTE extended
-          word_info = $DICT[item["id"]]
-          pos_display = pos.to_display
-          pos, pos_ext, pos_conj = pos_display
+          word_info = $DICT[item["id"]] || {}
+          pos, pos_ext, pos_conj = Pos.new(item["pos"], item["lang"]).to_display
 
           @h.span(class: 'pos extended') do
-            @h.text! pos.to_s.empty? ? '-' : pos
+            text(@h, pos)
           end
           @h.br(class: :extended)
           @h.span(class: 'pos ext extended') do
-            @h.text! pos_ext.to_s.empty? ? '-' : pos_ext
+            text(@h, pos_ext)
           end
           @h.br(class: :extended)
           if item['lang'] == 'hebrew' then
             @h.span(class: 'pos conj extended') do
-              @h.text! pos_conj.to_s.empty? ? '-' : pos_conj
+              text(@h, pos_conj)
             end
             @h.br(class: :extended)
           end
@@ -103,6 +126,10 @@ class Word < Base
 
   private
 
+  def text(h, str, placeholder='-')
+    h.text! str.to_s.empty? ? placeholder: str
+  end
+
   def section_class(items)
     first_item = items.first
     first_item.is_a?(Hash) ? first_item["lang"] : ''
@@ -123,6 +150,10 @@ class Word < Base
             @h.br
             @h.span(class: :eng) do
               @h.text! "英文"
+            end
+            @h.br
+            @h.span(class: :cht) do
+              @h.text! "中文"
             end
             @h.br
             @h.span(class: :pos) do

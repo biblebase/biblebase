@@ -62,8 +62,7 @@ class Base
   
   def path_to_key(path)
     root, bn, c, v, _ = path.split('/')
-    b = $BOOK_LOOKUP["index_#{bn}"]
-    [b, c, v].compact.join('.')
+    get_verse_key(bn, c, v)
   end
 
   def section_name
@@ -81,6 +80,13 @@ class Base
     save_file(content, file)
   end
 
+  def load_json(book_index, chapter, verse = nil)
+    file = "./verses_data/#{book_index}/#{chapter}/"
+    file += "#{verse}/" if verse
+    file += "#{section_name}.json"
+    JSON.parse File.open(file, 'r').read
+  end
+
   def get_verse_key(book_index, chapter, verse = nil)
     book_key = $BOOK_LOOKUP["index_#{book_index}"]
     [book_key, chapter, verse].compact.join('.')
@@ -88,7 +94,7 @@ class Base
 
   def save_file(content, file)
     path = file.split('/')[0..-2].join('/')
-    `mkdir -p #{path}`
+    `mkdir -p #{path}` unless File.exists?(path)
     File.open(file, 'w'){|f| f << content}
   end
 

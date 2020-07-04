@@ -100,7 +100,7 @@ class Pos
   }
 
   def initialize(desc, lang='hebrew')
-    @desc = desc
+    @desc = desc || ''
     @parts = parse(lang)
   end
 
