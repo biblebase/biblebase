@@ -1,7 +1,7 @@
 const GET_BIBLE_ENDPOINT = "/json/cunp";
 
 // deployement
-const GET_VERSE_ENDPOINT = "/json";
+const GET_VERSE_ENDPOINT = "/json/verses";
 const GET_WORD_ENDPOINT = "/json/words";
 
 // local test

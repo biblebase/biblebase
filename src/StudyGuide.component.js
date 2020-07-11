@@ -68,7 +68,6 @@ class StudyGuide extends React.Component {
     }
 
     const verseObj = Object.entries(verseData)[0][1];
-    // console.log(verseObj);
 
     const crDict = verseObj.analytics.thisVerse.dict;
 
@@ -92,8 +91,9 @@ class StudyGuide extends React.Component {
           const word = crDict[wordId];
           const meaning = cr.words.filter((wordObj) => {
             return wordObj.id === wordId;
-          })[0].eng;
-          crossRef.wordMap[word] = meaning;
+          })[0];
+          if (meaning !== undefined)
+            crossRef.wordMap[word] = meaning.eng;
         }
       }
       crossReferences.push(crossRef);
@@ -148,6 +148,10 @@ class StudyGuide extends React.Component {
       this.props.closeMenu();
     } 
     else if (this.state.showWordInfo) {
+      // TODO
+      // stop propagation will prevent links
+      // but I want links to work on word info, but not on rest of study guide
+
       // if word info is open, close 
       this.setState({
         showWordInfo: !this.state.showWordInfo
