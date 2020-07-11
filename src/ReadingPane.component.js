@@ -68,10 +68,39 @@ class ReadingPane extends React.Component {
     }
   }
 
-  render() {
+  renderSection = (section, key) => {
     const bookId = this.state.bookId;
     const chapter = this.state.chapter;
     const verse = this.state.verse;
+
+    if ("heading" in section) { // heading section
+      return (
+        <div className={`heading ${section.type}`} key={key}>{section.heading}</div>
+      )
+    } else { // content section
+      return (
+        <div className={`section ${section.type}`} key={key}>
+          {section.contents.map( (content, index) => (
+            <span className="section-content" key={index}>
+              { "hasVerseLabel" in content &&  content.hasVerseLabel? <span className="label">{content.verseNum}</span> : ""}
+              <Link to={content.verseNum === verse? `/bible/${bookId}/${chapter}` : `/bible/${bookId}/${chapter}/${content.verseNum}`}
+                    className={classNames({"disable-link": this.props.menuOpen})} >
+                <span data-verse={content.verseNum} className={classNames("verse", {selected: content.verseNum === verse})} >
+                  {content.verseText}
+                </span>
+              </Link>
+            </span>
+            
+          ))}
+        </div>
+      )
+    }
+  }
+
+  render() {
+    const bookId = this.state.bookId;
+    const chapter = this.state.chapter;
+    // const verse = this.state.verse;
     const chapterData = this.state.chapterData;
 
     if (bookId === 0)
@@ -79,32 +108,17 @@ class ReadingPane extends React.Component {
 
     // data has not been loaded
     if (isEmptyObject(chapterData) || 
-        chapterData.book_nr !== bookId || chapterData.chapter !== chapter) {
+        chapterData.book !== bookId || chapterData.chapter !== chapter) {
       this.getBookData(bookId, chapter);
       return <div></div>
     }
 
-    const verses = chapterData['verses'];
+    const sections = chapterData['sections'];
     
     return (
       <div className="reading-pane" onClickCapture={this.handleReadingPaneClick}>
           <div className="chapter">
-            {verses.map( verseObj => (
-              <Link key={`${bookId}.${chapter}.${verseObj.verse}`}
-                    to={verseObj.verse === verse? `/bible/${bookId}/${chapter}` : `/bible/${bookId}/${chapter}/${verseObj.verse}`}
-                    className={classNames({"disable-link": this.props.menuOpen})} >
-                <span className={classNames("verse", {selected: verseObj.verse === verse})} 
-                  key={`${bookId}.${verseObj.chapter}.${verseObj.verse}`}
-                  data-book={bookId}
-                  data-chapter={chapter}
-                  data-verse={verseObj.verse} >
-                  <span className="label">{verseObj.verse}</span>
-                  <span className="content">
-                    {verseObj.text}
-                  </span>
-                </span>
-              </Link>
-            ))}
+            {sections.map( (section, index) => this.renderSection(section, index))}
           </div>
       </div>
     );

@@ -1,10 +1,10 @@
+const GET_BIBLE_ENDPOINT = "/json/cunp";
+
 // deployement
-const GET_BIBLE_ENDPOINT = "http://cors-anywhere.herokuapp.com/https://getbible.net/v2/cut";
-const GET_VERSE_ENDPOINT = "http://biblebase.s3-website-us-east-1.amazonaws.com/json";
-const GET_WORD_ENDPOINT = "http://biblebase.s3-website-us-east-1.amazonaws.com/words";
+const GET_VERSE_ENDPOINT = "/json";
+const GET_WORD_ENDPOINT = "/words";
 
 // local test
-// const GET_BIBLE_ENDPOINT = "http://0.0.0.0:8080/https://getbible.net/v2/cut";
 // const GET_VERSE_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/json";
 // const GET_WORD_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/words";
 
