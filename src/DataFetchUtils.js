@@ -2,11 +2,10 @@ const GET_BIBLE_ENDPOINT = "/json/cunp";
 
 // deployement
 const GET_VERSE_ENDPOINT = "/json";
-const GET_WORD_ENDPOINT = "/words";
+const GET_WORD_ENDPOINT = "/json/words";
 
 // local test
 // const GET_VERSE_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/json";
-// const GET_WORD_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/words";
 
 
 function getBibleIndex() {
@@ -29,8 +28,8 @@ function getVerseJson(bookId, chapter, verse) {
   }
 }
 
-function getWordHtml(id) {
-  return fetchHtml(encodeURI(`${GET_WORD_ENDPOINT}/${id}.htm`));
+function getWordJson(wordId) {
+  return fetchJson(encodeURI(`${GET_WORD_ENDPOINT}/${wordId}.json`))
 }
 
 async function fetchJson(path) {
@@ -51,5 +50,5 @@ async function fetchLocalJsonData(path) {
     return JSON.parse(text);
 }
 
-export { getBibleIndex, getBookChapterJson,  getVerseJson, getWordHtml, fetchJson, fetchLocalJsonData, 
+export { getBibleIndex, getBookChapterJson,  getVerseJson, fetchJson, fetchLocalJsonData, getWordJson,
   GET_BIBLE_ENDPOINT, GET_VERSE_ENDPOINT };

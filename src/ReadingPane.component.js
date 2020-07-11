@@ -39,7 +39,7 @@ class ReadingPane extends React.Component {
     const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
     const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
     const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
-    if (bookId !== this.state.bookId || chapter !== this.state.chapterData) {
+    if (bookId !== this.state.bookId || chapter !== this.state.chapterData || verse !== this.state.verse) {
       getBookChapterJson(bookId, chapter).then(data => {
         this.setState({
           chapterData: data,
