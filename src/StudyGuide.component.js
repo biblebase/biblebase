@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import {  getWordHtml, GET_VERSE_ENDPOINT } from "./DataFetchUtils";
+import {  GET_VERSE_ENDPOINT, getWordJson } from "./DataFetchUtils";
 import { isEmptyObject } from './Utils';
 import books from './books';
 import { Link } from 'react-router-dom';
@@ -38,7 +38,7 @@ class StudyGuide extends React.Component {
     const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
     const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
     const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
-    if (bookId !== this.state.bookId || chapter !== this.state.chapterData) {
+    if (bookId !== this.state.bookId || chapter !== this.state.chapterData || verse !== this.state.verse) {
       this.getVerseData(bookId, chapter, verse);
     }
   }
@@ -60,13 +60,14 @@ class StudyGuide extends React.Component {
         bookId: book,
         chapter: chapter,
         verse: verse,
-        crossReferences: []
+        crossReferences: [],
+        wordObj: {},
+        showWordInfo: false
       });
       return;
     }
 
     const verseObj = Object.entries(verseData)[0][1];
-    // console.log(verseObj);
 
     const crDict = verseObj.analytics.thisVerse.dict;
 
@@ -90,8 +91,9 @@ class StudyGuide extends React.Component {
           const word = crDict[wordId];
           const meaning = cr.words.filter((wordObj) => {
             return wordObj.id === wordId;
-          })[0].eng;
-          crossRef.wordMap[word] = meaning;
+          })[0];
+          if (meaning !== undefined)
+            crossRef.wordMap[word] = meaning.eng;
         }
       }
       crossReferences.push(crossRef);
@@ -102,7 +104,8 @@ class StudyGuide extends React.Component {
       bookId: book,
       chapter: chapter,
       verse: verse,
-      crossReferences: crossReferences
+      crossReferences: crossReferences,
+      showWordInfo: false
     });
   };
 
@@ -129,14 +132,9 @@ class StudyGuide extends React.Component {
   handleWordClick = (event) => {
     event.persist();
     const wordId = event.currentTarget.dataset["wordid"];
-    // get html for word info
-    getWordHtml(wordId).then((text) => {
-      // TODO this is not ideal as I'm inserting html and not JSX, I don't have <Link>, but <a href> instead.
-      // This mean page will reload when clicked on referenced links
-      const regex = /href="\/#/gmi
-      let html = text.replace(regex, `href="/bible/`);
-      document.getElementById("word-lookup").innerHTML = html; 
+    getWordJson(wordId).then((data) => {
       this.setState({
+        wordObj: data,
         showWordInfo: true
       })
     });
@@ -148,9 +146,13 @@ class StudyGuide extends React.Component {
       event.preventDefault();
       event.stopPropagation();
       this.props.closeMenu();
-    } else if (this.state.showWordInfo) {
-      // if word info is open, close
-      event.stopPropagation();
+    } 
+    else if (this.state.showWordInfo) {
+      // TODO
+      // stop propagation will prevent links
+      // but I want links to work on word info, but not on rest of study guide
+
+      // if word info is open, close 
       this.setState({
         showWordInfo: !this.state.showWordInfo
       });
@@ -158,6 +160,78 @@ class StudyGuide extends React.Component {
    }
 
   /**************************** render *********************************/
+
+  renderWord = () => {
+    const wordObj = this.state.wordObj;
+    if (isEmptyObject(wordObj))
+      return "";
+
+    if (!("occurences" in wordObj)) {
+      return (
+        <div>
+          <h3>詞性</h3>
+          <p>{wordObj.pos}</p>
+          <i>對於聖經中的名詞、動詞、形容詞、副詞，BibleBase會有詳細信息。</i>
+        </div>
+      )
+    }
+    return (
+      <div>
+        <h3>詞性</h3>
+        <p>{wordObj.pos}</p>
+        <h3>聖經中出現次數</h3>
+        <p>{`共${wordObj.occurences}次`}</p>
+        <h3>上下文意思</h3>
+        <p>{`共${wordObj.meaningsCount}種`}</p>
+        <table>
+          <tbody>
+            {Object.keys(wordObj.meanings).map((key) => (
+              <tr key={key}>
+                <td>
+                  <b>{key}</b>
+                </td>
+                <td>{`${wordObj.meanings[key]}次`}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>        
+        <h3>原文上下文舉例</h3>
+        {Object.keys(wordObj.translits).map((word) => {
+          const verses = Object.keys(wordObj.translits[word]);
+          return (
+            <div key={word}>
+              <h4>{word}</h4>
+              <table>
+                <tbody>
+                  {verses.map( (verse, index) => {
+                    let [b, c, v] = verse.split('.');
+                    v = v.split('|')[0];
+                    const book = books[b].index;
+                    const list = wordObj.translits[word][verse];
+                    return (
+                      <tr key={index}>
+                        <td>
+                          <Link className="verseLink" 
+                                to={`/bible/${book}/${c}/${v}`} 
+                                className={classNames({"disable-link": this.props.menuOpen})} >
+                                  {`${books[b]["short_name"].cht} ${c}:${v}`}
+                          </Link>
+                        </td>
+                        <td>
+                          <i><span>...</span><span>{list[0]}</span><span> </span><b>{list[1]}</b><span> </span><span>{list[2]}</span><span>...</span></i>
+                        </td>
+                      </tr>
+                    )
+                  })}
+                  
+                </tbody>
+              </table>
+            </div>
+          )
+        })}
+      </div>
+    );
+  }
 
   renderChapterData() {
     // no verse selected
@@ -279,7 +353,7 @@ class StudyGuide extends React.Component {
               (verseObject.words.map((word, index) => (
                 <div className="word-cell" key={index}>
                   <div className="translit" data-wordid={word.id} onClickCapture={this.handleWordClick}>
-                    <span className="word-link">{word.translit}</span>
+                    <span className={classNames("word-link", {"disable-link": this.props.menuOpen})}>{word.translit}</span>
                   </div>
                   <div className="greek">{word.greek}</div>
                   <div className="eng">{word.eng}</div>
@@ -353,7 +427,8 @@ class StudyGuide extends React.Component {
                     {this.state.crossReferences.map((cr) => (
                       <tr className="cross-reference" key={cr.verseKey}>
                         <td className="cr-verseKey-col">
-                          <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}>{cr.verseAbbr}</Link>
+                          <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}
+                                className={classNames({"disable-link": this.props.menuOpen})}>{cr.verseAbbr}</Link>
                         </td>
                         <td className="cr-verse-col">{cr.verseTextCh}</td>
                         <td className="cross-ref-words-col">
@@ -391,6 +466,7 @@ class StudyGuide extends React.Component {
             </div>
           </div>
           <div id="word-lookup" className={classNames({ hidden: !this.state.showWordInfo })}>
+            {this.state.wordObj && this.state.showWordInfo? this.renderWord() : ""}
           </div>
         </div>
       </div>
