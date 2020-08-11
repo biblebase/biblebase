@@ -405,20 +405,19 @@ class StudyGuide extends React.Component {
                 verseObject.words.length === 0,
             })}
           >
-            <div className="section-heading">逐詞翻譯</div>
-            <div className="section-description">
-              根據聖經原文（舊約希伯來文，新約希臘文）逐詞的翻譯，英文靠近NASB版本，中文靠近和合本。
-              <span style={{ float: "right" }}>
+            <div className="section-heading">
+              逐詞翻譯
+              <span style={{ float: "right", "font-size": "60%" }}>
                 <span>中文語序</span>
-                <span style={{ margin: "4px" }}>
+                <span style={{ margin: "10px" }}>
                   <Switch
                     checked={this.state.wordSequenceInOriginal}
                     onColor="#aaa"
                     onHandleColor="#333"
                     uncheckedIcon={false}
                     checkedIcon={false}
-                    height={20}
-                    width={48}
+                    height={16}
+                    width={36}
                     onChange={(checked) => {
                       this.setState({ wordSequenceInOriginal: checked });
                     }}
@@ -426,6 +425,9 @@ class StudyGuide extends React.Component {
                 </span>
                 <span>原文語序</span>
               </span>
+            </div>
+            <div className="section-description">
+              根據聖經原文（舊約希伯來文，新約希臘文）逐詞的翻譯，英文靠近NASB版本，中文靠近和合本。
             </div>
             <div className="section-content words-table">
               {words.map((word, index) => (
