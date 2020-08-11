@@ -67,9 +67,9 @@ class Menu extends React.Component {
 
     // call parent function to change selected
     if (this.state.selectedbookId === 0) // if using default selection (only changing chapter)
-      this.props.history.push(`/bible/${this.props.match.params.book}/${parseInt(event.target.value)}`);
+      this.props.history.push(`/biblebase/${this.props.match.params.book}/${parseInt(event.target.value)}`);
     else
-      this.props.history.push(`/bible/${this.state.selectedbookId}/${parseInt(event.target.value)}`);
+      this.props.history.push(`/biblebase/${this.state.selectedbookId}/${parseInt(event.target.value)}`);
 
     // reset
     this.setState({
@@ -110,7 +110,7 @@ class Menu extends React.Component {
       }
   
       return (
-        <Link to={`/bible/${prevBook}/${prevCh}`} className={classNames({"disable-link": this.props.menuOpen})}>
+        <Link to={`/biblebase/${prevBook}/${prevCh}`} className={classNames({"disable-link": this.props.menuOpen})}>
           <div className="prev">
             <span className="triangle triangle-prev" ></span>
           </div>
@@ -139,7 +139,7 @@ class Menu extends React.Component {
         nextCh += 1;
       }
       return (
-        <Link to={`/bible/${nextBook}/${nextCh}`} className={classNames({"disable-link": this.props.menuOpen})}>
+        <Link to={`/biblebase/${nextBook}/${nextCh}`} className={classNames({"disable-link": this.props.menuOpen})}>
           <div className="next">
             <span className="triangle triangle-next" ></span>
           </div>

@@ -83,7 +83,7 @@ class ReadingPane extends React.Component {
           {section.contents.map( (content, index) => (
             <span className="section-content" key={index}>
               { "hasVerseLabel" in content &&  content.hasVerseLabel? <span className="label">{content.verseNum}</span> : ""}
-              <Link to={content.verseNum === verse? `/bible/${bookId}/${chapter}` : `/bible/${bookId}/${chapter}/${content.verseNum}`}
+              <Link to={content.verseNum === verse? `/biblebase/${bookId}/${chapter}` : `/biblebase/${bookId}/${chapter}/${content.verseNum}`}
                     className={classNames({"disable-link": this.props.menuOpen})} >
                 <span data-verse={content.verseNum} className={classNames("verse", {selected: content.verseNum === verse})} >
                   {content.verseText}

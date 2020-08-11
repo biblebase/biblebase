@@ -1,8 +1,8 @@
-const GET_BIBLE_ENDPOINT = "/json/cunp";
+const GET_BIBLE_ENDPOINT = "/biblebase/json/cunp";
 
 // deployement
-const GET_VERSE_ENDPOINT = "/json/verses";
-const GET_WORD_ENDPOINT = "/json/words";
+const GET_VERSE_ENDPOINT = "/biblebase/json/verses";
+const GET_WORD_ENDPOINT = "/biblebase/json/words";
 
 // local test
 // const GET_VERSE_ENDPOINT = "http://0.0.0.0:8080/http://biblebase.s3-website-us-east-1.amazonaws.com/json";

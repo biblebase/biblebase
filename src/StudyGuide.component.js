@@ -107,6 +107,8 @@ class StudyGuide extends React.Component {
       crossReferences: crossReferences,
       showWordInfo: false
     });
+
+    return;
   };
 
   /************************* handlers **********************************/
@@ -211,10 +213,13 @@ class StudyGuide extends React.Component {
                     return (
                       <tr key={index}>
                         <td>
-                          <Link className="verseLink" 
-                                to={`/bible/${book}/${c}/${v}`} 
-                                className={classNames({"disable-link": this.props.menuOpen})} >
-                                  {`${books[b]["short_name"].cht} ${c}:${v}`}
+                          <Link to={`/biblebase/${book}/${c}/${v}`}
+                                className={classNames({
+                                  "verseLink": true,
+                                  "disable-link": this.props.menuOpen
+                                })}
+                          >
+                            {`${books[b]["short_name"].cht} ${c}:${v}`}
                           </Link>
                         </td>
                         <td>
@@ -279,7 +284,7 @@ class StudyGuide extends React.Component {
 
       // if no content data or content data is not current
     if (isEmptyObject(contentData)) {
-        this.getVerseData(bookId, chapter, verse);
+      this.getVerseData(bookId, chapter, verse);
       return <div></div>;
     }
 
@@ -427,7 +432,7 @@ class StudyGuide extends React.Component {
                     {this.state.crossReferences.map((cr) => (
                       <tr className="cross-reference" key={cr.verseKey}>
                         <td className="cr-verseKey-col">
-                          <Link to={`/bible/${cr.book}/${cr.chapter}/${cr.verse}`}
+                          <Link to={`/biblebase/${cr.book}/${cr.chapter}/${cr.verse}`}
                                 className={classNames({"disable-link": this.props.menuOpen})}>{cr.verseAbbr}</Link>
                         </td>
                         <td className="cr-verse-col">{cr.verseTextCh}</td>
