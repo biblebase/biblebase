@@ -1,0 +1,56 @@
+.reading-pane {
+  height: 100%;
+  width: 100%;
+  padding: 40px 40px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-right: dotted 1px #616161;
+}
+
+.reading-pane a {
+  text-decoration: none;
+}
+
+.reading-pane .title {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.reading-pane .heading {
+  font-size: 1.03em;
+  font-weight: bold;
+  line-height: 1.2em;
+  -webkit-font-smoothing: subpixel-antialiased;
+  margin-top: 20px;
+}
+
+.reading-pane .label {
+    padding: inherit;
+    font-size: 10px;
+    background-color: transparent;
+    color: inherit;
+    display: inherit;
+    margin-right: 5px;
+    color: #8b8b8b;
+}
+
+.reading-pane .verse {
+  font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  font-size: 16px;
+  color: #616161;
+  line-height: 1.7em;
+}
+
+.reading-pane .disable-link {
+  /* pointer-events: none; */
+  cursor: default;
+}
+
+.reading-pane .selected {
+  border-bottom: 2px rgb(42, 71, 128) dotted;
+}
+
