@@ -6,17 +6,23 @@
           "greek-2532": "and",
           "greek-1437": "if",
           "greek-191": "is heard",
-          "greek-3778": "this",
+          "greek-5124": "this",
           "greek-1909": "by",
           "greek-3588": "the",
           "greek-2232": "governor",
-          "greek-1473": "we",
+          "greek-2249": "we",
           "greek-3982": "will persuade",
           "greek-846": "him",
-          "greek-4771": "you",
+          "greek-5209": "you",
           "greek-275": "out of trouble",
           "greek-4160": "will keep"
         }
+      },
+      "translations": {
+        "hebrew-8085": "greek-191",
+        "hebrew-6346": "greek-2232",
+        "hebrew-5496": "greek-3982",
+        "hebrew-6213": "greek-4160"
       },
       "crossRefs": [
         {
@@ -36,7 +42,7 @@
               "eng": "now"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-5209",
               "eng": "you"
             },
             {
@@ -89,13 +95,16 @@
               "id": "greek-2962",
               "eng": "Lord",
               "punct": ";"
+            },
+            {
+              "id": "greek-1511"
             }
           ]
         },
         {
-          "totalScore": 7.272680910696115,
+          "totalScore": 5.10040105519502,
           "anchors": {
-            "greek-2232": 3.6363404553480576
+            "greek-2232": 2.55020052759751
           },
           "verseKey": "mat.27.11",
           "cunp": "耶穌站在巡撫面前；巡撫問他說：「你是猶太人的王嗎？」耶穌說：「你說的是。」",
@@ -160,7 +169,7 @@
               "eng": "You"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-1488",
               "eng": "are"
             },
             {
@@ -205,6 +214,150 @@
               "id": "greek-3004",
               "eng": "say",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "greek-846"
+            }
+          ]
+        },
+        {
+          "totalScore": 3.303654219274766,
+          "anchors": {
+            "greek-2232": 2.55020052759751,
+            "greek-4160": 0.3767268458386281
+          },
+          "verseKey": "neh.5.18",
+          "cunp": "每日預備一隻公牛，六隻肥羊，又預備些飛禽；每十日一次，多預備各樣的酒。雖然如此，我並不要省長的俸祿，因為百姓服役甚重。",
+          "words": [
+            {
+              "id": "hebrew-834",
+              "eng": "And [that] which"
+            },
+            {
+              "id": "hebrew-1961",
+              "eng": "was"
+            },
+            {
+              "id": "hebrew-6213",
+              "eng": "prepared"
+            },
+            {
+              "id": "hebrew-3117",
+              "eng": "for one"
+            },
+            {
+              "id": "hebrew-259",
+              "eng": "day"
+            },
+            {
+              "id": "hebrew-7794",
+              "eng": "ox"
+            },
+            {
+              "id": "hebrew-259",
+              "eng": "[was] one"
+            },
+            {
+              "id": "hebrew-6629",
+              "eng": "[and] sheep",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-8337",
+              "eng": "six"
+            },
+            {
+              "id": "hebrew-1305",
+              "eng": "choice"
+            },
+            {
+              "id": "hebrew-6833",
+              "eng": "and fowl"
+            },
+            {
+              "id": "hebrew-6213",
+              "eng": "were prepared"
+            },
+            {
+              "id": "hebrew-996",
+              "eng": "and once every"
+            },
+            {
+              "id": "hebrew-6235",
+              "eng": "ten"
+            },
+            {
+              "id": "hebrew-3117",
+              "eng": "days"
+            },
+            {
+              "id": "hebrew-3605",
+              "eng": "of all [kinds]"
+            },
+            {
+              "id": "hebrew-3196",
+              "eng": "of wine",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-7235",
+              "eng": "an abundance"
+            },
+            {
+              "id": "hebrew-5973",
+              "eng": "and yet in spite"
+            },
+            {
+              "id": "hebrew-2088",
+              "eng": "of this"
+            },
+            {
+              "id": "hebrew-3899",
+              "eng": "provisions"
+            },
+            {
+              "id": "hebrew-6346",
+              "eng": "of the governor",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3808",
+              "eng": "not"
+            },
+            {
+              "id": "hebrew-1245",
+              "eng": "I did demand"
+            },
+            {
+              "id": "hebrew-3588",
+              "eng": "because"
+            },
+            {
+              "id": "hebrew-3513",
+              "eng": "was heavy"
+            },
+            {
+              "id": "hebrew-5656",
+              "eng": "the bondage"
+            },
+            {
+              "id": "hebrew-5921",
+              "eng": "on"
+            },
+            {
+              "id": "hebrew-5971",
+              "eng": "people"
+            },
+            {
+              "id": "hebrew-2088",
+              "eng": "this",
+              "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -309,7 +462,8 @@
         "lang": "greek",
         "greek": "καὶ",
         "pos": "Conj",
-        "eng": "And"
+        "eng": "And",
+        "origin_simp": "και"
       },
       {
         "id": "greek-1437",
@@ -317,7 +471,10 @@
         "lang": "greek",
         "greek": "ἐὰν",
         "pos": "Conj",
-        "eng": "if"
+        "eng": "if",
+        "origin_simp": "εαν",
+        "index_cht": 0,
+        "cht": "倘若"
       },
       {
         "id": "greek-191",
@@ -325,15 +482,22 @@
         "lang": "greek",
         "greek": "ἀκουσθῇ",
         "pos": "V-ASP-3S",
-        "eng": "is heard"
+        "eng": "is heard",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "聽見",
+        "punct_cht": "，"
       },
       {
-        "id": "greek-3778",
+        "id": "greek-5124",
         "translit": "touto",
         "lang": "greek",
         "greek": "τοῦτο",
         "pos": "DPro-NNS",
-        "eng": "this"
+        "eng": "this",
+        "origin_simp": "τουτο",
+        "index_cht": 1,
+        "cht": "這"
       },
       {
         "id": "greek-1909",
@@ -341,7 +505,11 @@
         "lang": "greek",
         "greek": "ἐπὶ",
         "pos": "Prep",
-        "eng": "by"
+        "eng": "by",
+        "origin_simp": "επιακουσθη",
+        "index_cht": 3,
+        "cht": "聽見",
+        "punct_cht": "，"
       },
       {
         "id": "greek-3588",
@@ -349,7 +517,8 @@
         "lang": "greek",
         "greek": "τοῦ",
         "pos": "Art-GMS",
-        "eng": "the"
+        "eng": "the",
+        "origin_simp": "του"
       },
       {
         "id": "greek-2232",
@@ -358,15 +527,21 @@
         "greek": "ἡγεμόνος",
         "pos": "N-GMS",
         "punct": ",",
-        "eng": "governor"
+        "eng": "governor",
+        "origin_simp": "ηγεμονος",
+        "index_cht": 2,
+        "cht": "話被巡撫"
       },
       {
-        "id": "greek-1473",
+        "id": "greek-2249",
         "translit": "hēmeis",
         "lang": "greek",
         "greek": "ἡμεῖς",
         "pos": "PPro-N1P",
-        "eng": "we"
+        "eng": "we",
+        "origin_simp": "ημεις",
+        "index_cht": 4,
+        "cht": "有我們"
       },
       {
         "id": "greek-3982",
@@ -374,7 +549,10 @@
         "lang": "greek",
         "greek": "πείσομεν",
         "pos": "V-FIA-1P",
-        "eng": "will persuade"
+        "eng": "will persuade",
+        "origin_simp": "πεισομεν",
+        "index_cht": 5,
+        "cht": "勸"
       },
       {
         "id": "greek-846",
@@ -383,7 +561,11 @@
         "greek": "‹αὐτὸν›",
         "pos": "PPro-AM3S",
         "punct": ",",
-        "eng": "him"
+        "eng": "him",
+        "origin_simp": "αυτον",
+        "index_cht": 6,
+        "cht": "他",
+        "punct_cht": "，"
       },
       {
         "id": "greek-2532",
@@ -391,15 +573,19 @@
         "lang": "greek",
         "greek": "καὶ",
         "pos": "Conj",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "και"
       },
       {
-        "id": "greek-4771",
+        "id": "greek-5209",
         "translit": "hymas",
         "lang": "greek",
         "greek": "ὑμᾶς",
         "pos": "PPro-A2P",
-        "eng": "you"
+        "eng": "you",
+        "origin_simp": "υμας",
+        "index_cht": 8,
+        "cht": "你們"
       },
       {
         "id": "greek-275",
@@ -407,7 +593,11 @@
         "lang": "greek",
         "greek": "ἀμερίμνους",
         "pos": "Adj-AMP",
-        "eng": "out of trouble"
+        "eng": "out of trouble",
+        "origin_simp": "αμεριμνους",
+        "index_cht": 9,
+        "cht": "無事",
+        "punct_cht": "。"
       },
       {
         "id": "greek-4160",
@@ -416,7 +606,10 @@
         "greek": "ποιήσομεν",
         "pos": "V-FIA-1P",
         "punct": ".",
-        "eng": "will keep"
+        "eng": "will keep",
+        "origin_simp": "ποιησομεν",
+        "index_cht": 7,
+        "cht": "保"
       }
     ]
   }

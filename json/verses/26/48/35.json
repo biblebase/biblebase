@@ -11,14 +11,24 @@
           "hebrew-5892": "of the city",
           "hebrew-3117": "from [that] day",
           "hebrew-3068": "[shall] [be] YAHWEH",
-          "hebrew-8033": "[Is] THERE"
+          "hebrew-8033": "[Is] THERE",
+          "": null,
+          "hebrew-4480": null,
+          "hebrew-3074": null
         }
+      },
+      "translations": {
+        "greek-2943": "hebrew-5439",
+        "greek-3686": "hebrew-8034",
+        "greek-4172": "hebrew-5892",
+        "greek-2250": "hebrew-3117",
+        "greek-3699": "hebrew-8033"
       },
       "crossRefs": [
         {
-          "totalScore": 4.091832654225777,
+          "totalScore": 4.450080516341555,
           "anchors": {
-            "hebrew-5439": 1.0229581635564442
+            "hebrew-5439": 1.1125201290853888
           },
           "verseKey": "ezk.40.16",
           "cunp": "衛房和門洞兩旁柱間並廊子，都有嚴緊的窗櫺；裏邊都有窗櫺，柱上有雕刻的棕樹。",
@@ -107,10 +117,10 @@
           ]
         },
         {
-          "totalScore": 3.7010435776386017,
+          "totalScore": 3.7529863798326333,
           "anchors": {
-            "hebrew-5439": 1.0229581635564442,
-            "hebrew-5892": 0.6008263387289119,
+            "hebrew-5439": 1.1125201290853888,
+            "hebrew-5892": 0.5914215478951839,
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "jer.32.44",
@@ -229,14 +239,20 @@
               "id": "hebrew-3068",
               "eng": "Yahweh",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 3.7010435776386017,
+          "totalScore": 3.7529863798326333,
           "anchors": {
-            "hebrew-5439": 1.0229581635564442,
-            "hebrew-5892": 0.6008263387289119,
+            "hebrew-5439": 1.1125201290853888,
+            "hebrew-5892": 0.5914215478951839,
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "jer.33.13",
@@ -328,6 +344,12 @@
               "id": "hebrew-3068",
               "eng": "Yahweh",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -411,7 +433,10 @@
         "lang": "hebrew",
         "hebrew": "סָבִ֕יב",
         "pos": "Adv",
-        "eng": "All the way around [shall] [be]"
+        "eng": "All the way around [shall] [be]",
+        "origin_simp": "סָבִיב",
+        "index_cht": 0,
+        "cht": "城四圍"
       },
       {
         "id": "hebrew-8083",
@@ -419,7 +444,10 @@
         "lang": "hebrew",
         "hebrew": "שְׁמֹנָ֥ה",
         "pos": "Number‑ms",
-        "eng": "eight"
+        "eng": "eight",
+        "origin_simp": "שְׁמֹנָהעָשָׂראָלֶף",
+        "index_cht": 1,
+        "cht": "共一萬八千"
       },
       {
         "id": "hebrew-6240",
@@ -427,7 +455,10 @@
         "lang": "hebrew",
         "hebrew": "עָשָׂ֖ר",
         "pos": "Number‑ms",
-        "eng": "[and] ten"
+        "eng": "[and] ten",
+        "origin_simp": "",
+        "index_cht": 1,
+        "cht": "共一萬八千"
       },
       {
         "id": "hebrew-505",
@@ -435,7 +466,10 @@
         "lang": "hebrew",
         "hebrew": "אָ֑לֶף",
         "pos": "Number‑ms",
-        "eng": "thousand [cubits]"
+        "eng": "thousand [cubits]",
+        "origin_simp": "",
+        "index_cht": 1,
+        "cht": "共一萬八千"
       },
       {
         "id": "hebrew-8034",
@@ -443,7 +477,10 @@
         "lang": "hebrew",
         "hebrew": "וְשֵׁם־",
         "pos": "Conj‑w | N‑msc",
-        "eng": "and the name"
+        "eng": "and the name",
+        "origin_simp": "וְשֵׁם",
+        "index_cht": 5,
+        "cht": "的名字"
       },
       {
         "id": "hebrew-5892",
@@ -451,7 +488,10 @@
         "lang": "hebrew",
         "hebrew": "הָעִ֥יר",
         "pos": "Art | N‑fs",
-        "eng": "of the city"
+        "eng": "of the city",
+        "origin_simp": "הָעִיר",
+        "index_cht": 4,
+        "cht": "這城"
       },
       {
         "id": "hebrew-3117",
@@ -459,7 +499,11 @@
         "lang": "hebrew",
         "hebrew": "מִיּ֖וֹם",
         "pos": "Prep‑m | N‑ms",
-        "eng": "from [that] day"
+        "eng": "from [that] day",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "從此以後",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-3068",
@@ -467,7 +511,8 @@
         "lang": "hebrew",
         "hebrew": "יְהוָ֥ה ׀",
         "pos": "N‑proper‑ms",
-        "eng": "[shall] [be] YAHWEH"
+        "eng": "[shall] [be] YAHWEH",
+        "origin_simp": "יְהוָ֥ה ׀"
       },
       {
         "id": "hebrew-8033",
@@ -476,7 +521,29 @@
         "hebrew": "שָֽׁמָּה׃",
         "pos": "Adv | 3fs",
         "punct": ".",
-        "eng": "[Is] THERE"
+        "eng": "[Is] THERE",
+        "origin_simp": "שָֽׁמָּה׃"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 2,
+        "cht": "肘",
+        "punct_cht": "。"
+      },
+      {
+        "id": "hebrew-4480",
+        "origin_simp": "[fromמִיּוֹם]",
+        "index_cht": 3,
+        "cht": "從此以後",
+        "punct_cht": "，"
+      },
+      {
+        "id": "hebrew-3074",
+        "origin_simp": "[YHWH|Yahweh-shammah]",
+        "index_cht": 6,
+        "cht": "必稱為耶和華的所在",
+        "punct_cht": "。"
       }
     ]
   }

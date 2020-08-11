@@ -8,21 +8,28 @@
           "greek-846": "them",
           "greek-3004": "says",
           "greek-5101": "Who",
-          "greek-1510": "are",
+          "greek-2076": "are",
           "greek-3588": "the",
           "greek-3384": "mother",
-          "greek-1473": "of Me",
-          "greek-80": "brothers"
+          "greek-3450": null,
+          "greek-80": "brothers",
+          "greek-1473": "of Me"
         }
+      },
+      "translations": {
+        "hebrew-6030": "greek-611",
+        "hebrew-559": "greek-3004",
+        "hebrew-517": "greek-3384",
+        "hebrew-251": "greek-80"
       },
       "crossRefs": [
         {
-          "totalScore": 4.704733302675842,
+          "totalScore": 3.706415866350117,
           "anchors": {
-            "greek-611": 1.2068643049200045,
-            "greek-3004": 0.5793683651346344,
-            "greek-3384": 1.9063487630112834,
-            "greek-80": 1.0121518696099194
+            "greek-611": 0.8684740944152882,
+            "greek-3004": 0.27053312959209697,
+            "greek-3384": 1.6550610094271732,
+            "greek-80": 0.9123476329155591
           },
           "verseKey": "mat.12.48",
           "cunp": "他卻回答那人說：「誰是我的母親？誰是我的弟兄？」",
@@ -62,7 +69,7 @@
               "eng": "Who"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-2076",
               "eng": "is"
             },
             {
@@ -74,7 +81,7 @@
               "eng": "mother"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-3450",
               "eng": "of Me",
               "punct": ","
             },
@@ -87,7 +94,7 @@
               "eng": "who"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-1526",
               "eng": "are"
             },
             {
@@ -99,17 +106,20 @@
               "eng": "brothers"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-3450",
               "eng": "of Me",
               "punct": "?"
+            },
+            {
+              "id": "greek-2036"
             }
           ]
         },
         {
-          "totalScore": 4.392065891157202,
+          "totalScore": 3.5806551484464433,
           "anchors": {
-            "greek-3004": 0.5793683651346344,
-            "greek-3384": 1.9063487630112834
+            "greek-3004": 0.27053312959209697,
+            "greek-3384": 1.6550610094271732
           },
           "verseKey": "jhn.19.26",
           "cunp": "耶穌見母親和他所愛的那門徒站在旁邊，就對他母親說：「母親，看，你的兒子！」",
@@ -124,7 +134,7 @@
               "punct": ","
             },
             {
-              "id": "greek-3708",
+              "id": "greek-2400",
               "eng": "having seen"
             },
             {
@@ -192,18 +202,24 @@
               "eng": "son"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-4675",
               "eng": "of you",
               "punct": "."
+            },
+            {
+              "id": "greek-846"
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 4.125364937541208,
+          "totalScore": 3.4358827367580207,
           "anchors": {
-            "greek-611": 1.2068643049200045,
-            "greek-3384": 1.9063487630112834,
-            "greek-80": 1.0121518696099194
+            "greek-611": 0.8684740944152882,
+            "greek-3384": 1.6550610094271732,
+            "greek-80": 0.9123476329155591
           },
           "verseKey": "luk.8.21",
           "cunp": "耶穌回答說：「聽了神之道而遵行的人就是我的母親，我的弟兄了。」",
@@ -239,7 +255,7 @@
               "eng": "Mother"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-3450",
               "eng": "of Me"
             },
             {
@@ -251,7 +267,7 @@
               "eng": "brothers"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-3450",
               "eng": "of me",
               "punct": ","
             },
@@ -260,7 +276,7 @@
               "eng": "those"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-1526",
               "eng": "are"
             },
             {
@@ -295,6 +311,12 @@
               "id": "greek-4160",
               "eng": "doing",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -406,7 +428,8 @@
         "lang": "greek",
         "greek": "Καὶ",
         "pos": "Conj",
-        "eng": "And"
+        "eng": "And",
+        "origin_simp": "και"
       },
       {
         "id": "greek-611",
@@ -414,7 +437,10 @@
         "lang": "greek",
         "greek": "ἀποκριθεὶς",
         "pos": "V-APP-NMS",
-        "eng": "He answering"
+        "eng": "He answering",
+        "origin_simp": "απεκριθηαυτοις",
+        "index_cht": 0,
+        "cht": "耶穌回答"
       },
       {
         "id": "greek-846",
@@ -423,7 +449,10 @@
         "greek": "αὐτοῖς",
         "pos": "PPro-DM3P",
         "punct": ",",
-        "eng": "them"
+        "eng": "them",
+        "origin_simp": "",
+        "index_cht": 0,
+        "cht": "耶穌回答"
       },
       {
         "id": "greek-3004",
@@ -432,7 +461,11 @@
         "greek": "λέγει",
         "pos": "V-PIA-3S",
         "punct": ",",
-        "eng": "says"
+        "eng": "says",
+        "origin_simp": "λεγων",
+        "index_cht": 1,
+        "cht": "說",
+        "punct_cht": "："
       },
       {
         "id": "greek-5101",
@@ -440,15 +473,21 @@
         "lang": "greek",
         "greek": "Τίς",
         "pos": "IPro-NFS",
-        "eng": "Who"
+        "eng": "Who",
+        "origin_simp": "τις",
+        "index_cht": 2,
+        "cht": "誰"
       },
       {
-        "id": "greek-1510",
+        "id": "greek-2076",
         "translit": "estin",
         "lang": "greek",
         "greek": "ἐστιν",
         "pos": "V-PIA-3S",
-        "eng": "are"
+        "eng": "are",
+        "origin_simp": "εστιν",
+        "index_cht": 3,
+        "cht": "是"
       },
       {
         "id": "greek-3588",
@@ -456,7 +495,11 @@
         "lang": "greek",
         "greek": "ἡ",
         "pos": "Art-NFS",
-        "eng": "the"
+        "eng": "the",
+        "origin_simp": "ημητηρ",
+        "index_cht": 5,
+        "cht": "母親",
+        "punct_cht": "？"
       },
       {
         "id": "greek-3384",
@@ -464,15 +507,22 @@
         "lang": "greek",
         "greek": "μήτηρ",
         "pos": "N-NFS",
-        "eng": "mother"
+        "eng": "mother",
+        "origin_simp": "",
+        "index_cht": 5,
+        "cht": "母親",
+        "punct_cht": "？"
       },
       {
-        "id": "greek-1473",
+        "id": "greek-3450",
         "translit": "mou",
         "lang": "greek",
         "greek": "μου",
         "pos": "PPro-G1S",
-        "eng": "of Me"
+        "eng": "of Me",
+        "origin_simp": "μου",
+        "index_cht": 4,
+        "cht": "我的"
       },
       {
         "id": "greek-2532",
@@ -480,7 +530,8 @@
         "lang": "greek",
         "greek": "καὶ",
         "pos": "Conj",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "και"
       },
       {
         "id": "greek-3588",
@@ -488,7 +539,11 @@
         "lang": "greek",
         "greek": "οἱ",
         "pos": "Art-NMP",
-        "eng": "the"
+        "eng": "the",
+        "origin_simp": "οιαδελφοι",
+        "index_cht": 7,
+        "cht": "弟兄",
+        "punct_cht": "？"
       },
       {
         "id": "greek-80",
@@ -496,7 +551,11 @@
         "lang": "greek",
         "greek": "ἀδελφοί",
         "pos": "N-NMP",
-        "eng": "brothers"
+        "eng": "brothers",
+        "origin_simp": "",
+        "index_cht": 7,
+        "cht": "弟兄",
+        "punct_cht": "？"
       },
       {
         "id": "greek-1473",
@@ -505,7 +564,14 @@
         "greek": "‹μου›",
         "pos": "PPro-G1S",
         "punct": "?",
-        "eng": "of Me"
+        "eng": "of Me",
+        "origin_simp": "‹μου›"
+      },
+      {
+        "id": "greek-3450",
+        "origin_simp": "μου",
+        "index_cht": 6,
+        "cht": "誰是我的"
       }
     ]
   }

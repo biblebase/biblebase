@@ -9,14 +9,19 @@
           "hebrew-5002": "says",
           "hebrew-3068": "Yahweh",
           "hebrew-3808": "and not",
-          "hebrew-7350": "afar off"
+          "hebrew-7350": "afar off",
+          "hebrew-4480": null,
+          "": null
         }
+      },
+      "translations": {
+        "greek-2316": "hebrew-430"
       },
       "crossRefs": [
         {
-          "totalScore": 4.514505462192772,
+          "totalScore": 4.6619262562313635,
           "anchors": {
-            "hebrew-7138": 1.9824726719298762,
+            "hebrew-7138": 2.056183068949172,
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "zep.1.14",
@@ -87,10 +92,69 @@
           ]
         },
         {
-          "totalScore": 4.285645555041133,
+          "totalScore": 4.387146197064854,
           "anchors": {
-            "hebrew-430": 0.40694940669606317,
-            "hebrew-7138": 1.9824726719298762,
+            "hebrew-7138": 2.056183068949172,
+            "hebrew-3068": 0.27478005916650944
+          },
+          "verseKey": "ezk.30.3",
+          "cunp": "因為耶和華的日子臨近， 就是密雲之日， 列國受罰之期。",
+          "words": [
+            {
+              "id": "hebrew-3588",
+              "eng": "for"
+            },
+            {
+              "id": "hebrew-7138",
+              "eng": "near",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3117",
+              "eng": "the day [is]"
+            },
+            {
+              "id": "hebrew-7138",
+              "eng": "and Even near",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3117",
+              "eng": "the day [is]"
+            },
+            {
+              "id": "hebrew-3068",
+              "eng": "of Yahweh"
+            },
+            {
+              "id": "hebrew-3117",
+              "eng": "a day",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-6051",
+              "eng": "of clouds"
+            },
+            {
+              "id": "hebrew-6256",
+              "eng": "the time"
+            },
+            {
+              "id": "hebrew-1471",
+              "eng": "of the Gentiles"
+            },
+            {
+              "id": "hebrew-1961",
+              "eng": "it will be",
+              "punct": "."
+            }
+          ]
+        },
+        {
+          "totalScore": 4.337033442230552,
+          "anchors": {
+            "hebrew-430": 0.3846268968661864,
+            "hebrew-7138": 2.056183068949172,
             "hebrew-7350": 1.8962234764151933
           },
           "verseKey": "deu.13.7",
@@ -152,65 +216,15 @@
               "id": "hebrew-776",
               "eng": "of the earth",
               "punct": "–"
-            }
-          ]
-        },
-        {
-          "totalScore": 4.239725403026262,
-          "anchors": {
-            "hebrew-7138": 1.9824726719298762,
-            "hebrew-3068": 0.27478005916650944
-          },
-          "verseKey": "ezk.30.3",
-          "cunp": "因為耶和華的日子臨近， 就是密雲之日， 列國受罰之期。",
-          "words": [
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
             },
             {
-              "id": "hebrew-7138",
-              "eng": "near",
-              "punct": "､"
+              "id": "hebrew-4480"
             },
             {
-              "id": "hebrew-3117",
-              "eng": "the day [is]"
+              "id": "hebrew-4480"
             },
             {
-              "id": "hebrew-7138",
-              "eng": "and Even near",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day [is]"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "a day",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6051",
-              "eng": "of clouds"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "the time"
-            },
-            {
-              "id": "hebrew-1471",
-              "eng": "of the Gentiles"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "it will be",
-              "punct": "."
+              "id": ""
             }
           ]
         }
@@ -275,7 +289,10 @@
         "lang": "hebrew",
         "hebrew": "הַאֱלֹהֵ֧י",
         "pos": "Art | N‑mpc",
-        "eng": "[am] a God"
+        "eng": "[am] a God",
+        "origin_simp": "הַאֱלֹהֵי",
+        "index_cht": 5,
+        "cht": "神"
       },
       {
         "id": "hebrew-7138",
@@ -284,7 +301,10 @@
         "hebrew": "מִקָּרֹ֛ב",
         "pos": "Prep‑m | Adj‑ms",
         "punct": "､",
-        "eng": "near at hand"
+        "eng": "near at hand",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "豈為近處"
       },
       {
         "id": "hebrew-589",
@@ -292,7 +312,10 @@
         "lang": "hebrew",
         "hebrew": "אָ֖נִי",
         "pos": "Pro‑1cs",
-        "eng": "I"
+        "eng": "I",
+        "origin_simp": "אָנִי",
+        "index_cht": 2,
+        "cht": "我"
       },
       {
         "id": "hebrew-5002",
@@ -300,7 +323,11 @@
         "lang": "hebrew",
         "hebrew": "נְאֻם־",
         "pos": "N‑msc",
-        "eng": "says"
+        "eng": "says",
+        "origin_simp": "נְאֻם",
+        "index_cht": 1,
+        "cht": "說",
+        "punct_cht": "：「"
       },
       {
         "id": "hebrew-3068",
@@ -309,7 +336,10 @@
         "hebrew": "יְהוָ֑ה",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Yahweh"
+        "eng": "Yahweh",
+        "origin_simp": "יְהוָה",
+        "index_cht": 0,
+        "cht": "耶和華"
       },
       {
         "id": "hebrew-3808",
@@ -317,7 +347,10 @@
         "lang": "hebrew",
         "hebrew": "וְלֹ֥א",
         "pos": "Conj‑w | Adv‑NegPrt",
-        "eng": "and not"
+        "eng": "and not",
+        "origin_simp": "וְלֹא",
+        "index_cht": 7,
+        "cht": "不"
       },
       {
         "id": "hebrew-430",
@@ -325,7 +358,10 @@
         "lang": "hebrew",
         "hebrew": "אֱלֹהֵ֖י",
         "pos": "N‑mpc",
-        "eng": "a God"
+        "eng": "a God",
+        "origin_simp": "אֱלֹהֵי",
+        "index_cht": 10,
+        "cht": "神"
       },
       {
         "id": "hebrew-7350",
@@ -333,7 +369,48 @@
         "lang": "hebrew",
         "hebrew": "מֵרָחֹֽק׃",
         "pos": "Prep‑m | Adj‑ms",
-        "eng": "afar off"
+        "eng": "afar off",
+        "origin_simp": "",
+        "index_cht": 8,
+        "cht": "也為遠處"
+      },
+      {
+        "id": "hebrew-4480",
+        "origin_simp": "[fromמִקָּרֹב]",
+        "index_cht": 3,
+        "cht": "豈為近處"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 4,
+        "cht": "的"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 6,
+        "cht": "呢",
+        "punct_cht": "？"
+      },
+      {
+        "id": "hebrew-4480",
+        "origin_simp": "[fromמֵרָחֹֽק]",
+        "index_cht": 8,
+        "cht": "也為遠處"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 9,
+        "cht": "的"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 11,
+        "cht": "嗎",
+        "punct_cht": "？」"
       }
     ]
   }

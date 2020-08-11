@@ -12,12 +12,15 @@
           "hebrew-3392": "Jerah"
         }
       },
+      "translations": {
+        "greek-430": "hebrew-3205"
+      },
       "crossRefs": [
         {
-          "totalScore": 48.10212971584582,
+          "totalScore": 48.13074564333969,
           "anchors": {
             "hebrew-3355": 6.2511507603914795,
-            "hebrew-3205": 0.8565794689768332,
+            "hebrew-3205": 0.8851953964706981,
             "hebrew-486": 10.248599871619378,
             "hebrew-8026": 10.248599871619378,
             "hebrew-2700": 10.248599871619378,
@@ -73,10 +76,10 @@
           ]
         },
         {
-          "totalScore": 7.107730229368313,
+          "totalScore": 7.136346156862178,
           "anchors": {
             "hebrew-3355": 6.2511507603914795,
-            "hebrew-3205": 0.8565794689768332
+            "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "1ch.1.19",
           "cunp": "希伯生了兩個兒子：一個名叫法勒，因為那時人就分地居住；法勒的兄弟名叫約坍。",
@@ -140,14 +143,20 @@
               "id": "hebrew-3355",
               "eng": "[was] Joktan",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 7.107730229368313,
+          "totalScore": 7.136346156862178,
           "anchors": {
             "hebrew-3355": 6.2511507603914795,
-            "hebrew-3205": 0.8565794689768332
+            "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "gen.10.25",
           "cunp": "希伯生了兩個兒子，一個名叫法勒，因為那時人就分地居住；法勒的兄弟名叫約坍。",
@@ -211,6 +220,12 @@
               "id": "hebrew-3355",
               "eng": "[was] Joktan",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
@@ -321,6 +336,84 @@
               "punct": "."
             }
           ]
+        },
+        {
+          "totalScore": 3.5407815858827925,
+          "anchors": {
+            "hebrew-3205": 0.8851953964706981
+          },
+          "verseKey": "gen.4.18",
+          "cunp": "以諾生以拿；以拿生米戶雅利；米戶雅利生瑪土撒利；瑪土撒利生拉麥。",
+          "words": [
+            {
+              "id": "hebrew-3205",
+              "eng": "And was born"
+            },
+            {
+              "id": "hebrew-2585",
+              "eng": "to Enoch"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-5897",
+              "eng": "Irad",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-5897",
+              "eng": "and Irad"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "begat"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-4232",
+              "eng": "Mehujael",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-4232",
+              "eng": "and Mehujael"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "begat"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-4967",
+              "eng": "Methushael",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-4967",
+              "eng": "and Methushael"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "begat"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-3929",
+              "eng": "Lamech",
+              "punct": "."
+            }
+          ]
         }
       ]
     },
@@ -383,7 +476,10 @@
         "lang": "hebrew",
         "hebrew": "וְיָקְטָ֣ן",
         "pos": "Conj‑w | N‑proper‑ms",
-        "eng": "And Joktan"
+        "eng": "And Joktan",
+        "origin_simp": "וְיָקְטָן",
+        "index_cht": 0,
+        "cht": "約坍"
       },
       {
         "id": "hebrew-3205",
@@ -391,7 +487,10 @@
         "lang": "hebrew",
         "hebrew": "יָלַ֔ד",
         "pos": "V‑Qal‑Perf‑3ms",
-        "eng": "begat"
+        "eng": "begat",
+        "origin_simp": "יָלַד#[Obj.]",
+        "index_cht": 1,
+        "cht": "生"
       },
       {
         "id": "hebrew-853",
@@ -399,7 +498,10 @@
         "lang": "hebrew",
         "hebrew": "אֶת־",
         "pos": "DirObjM",
-        "eng": "-"
+        "eng": "-",
+        "origin_simp": "",
+        "index_cht": 1,
+        "cht": "生"
       },
       {
         "id": "hebrew-486",
@@ -408,7 +510,10 @@
         "hebrew": "אַלְמוֹדָ֖ד",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Almodad"
+        "eng": "Almodad",
+        "origin_simp": "אַלְמוֹדָד",
+        "index_cht": 2,
+        "cht": "亞摩答、"
       },
       {
         "id": "hebrew-853",
@@ -416,7 +521,8 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "וְאֶת־"
       },
       {
         "id": "hebrew-8026",
@@ -425,7 +531,10 @@
         "hebrew": "שָׁ֑לֶף",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Sheleph"
+        "eng": "Sheleph",
+        "origin_simp": "שָׁלֶף",
+        "index_cht": 3,
+        "cht": "沙列、"
       },
       {
         "id": "hebrew-853",
@@ -433,7 +542,8 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "וְאֶת־"
       },
       {
         "id": "hebrew-2700",
@@ -442,7 +552,10 @@
         "hebrew": "חֲצַרְמָ֖וֶת",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Hazarmaveth"
+        "eng": "Hazarmaveth",
+        "origin_simp": "חֲצַרְמָוֶת",
+        "index_cht": 4,
+        "cht": "哈薩瑪非、"
       },
       {
         "id": "hebrew-853",
@@ -450,7 +563,8 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "וְאֶת־"
       },
       {
         "id": "hebrew-3392",
@@ -459,7 +573,10 @@
         "hebrew": "יָֽרַח׃",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Jerah"
+        "eng": "Jerah",
+        "origin_simp": "יָֽרַח",
+        "index_cht": 5,
+        "cht": "耶拉、"
       }
     ]
   }

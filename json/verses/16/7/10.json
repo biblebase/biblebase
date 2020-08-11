@@ -8,14 +8,18 @@
           "hebrew-8337": "six",
           "hebrew-3967": "hundred",
           "hebrew-2572": "fifty",
-          "hebrew-8147": "and two"
+          "hebrew-8147": "and two",
+          "": null
         }
+      },
+      "translations": {
+        "greek-5207": "hebrew-1121"
       },
       "crossRefs": [
         {
-          "totalScore": 8.417429923906559,
+          "totalScore": 8.1451744673818,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-733": 7.502414237754052
           },
           "verseKey": "neh.6.18",
@@ -98,13 +102,51 @@
               "id": "hebrew-1296",
               "eng": "of Berechiah",
               "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 7.807419466471554,
+          "totalScore": 7.823794352567926,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
+            "hebrew-733": 7.502414237754052
+          },
+          "verseKey": "1ch.7.39",
+          "cunp": "烏拉的兒子是亞拉、漢尼業、利寫。",
+          "words": [
+            {
+              "id": "hebrew-1121",
+              "eng": "And the sons"
+            },
+            {
+              "id": "hebrew-5925",
+              "eng": "of Ulla",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-733",
+              "eng": "[were] Arah",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-2592",
+              "eng": "and Hanniel",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-7525",
+              "eng": "and Rizia",
+              "punct": "."
+            }
+          ]
+        },
+        {
+          "totalScore": 7.823794352567926,
+          "anchors": {
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-733": 7.502414237754052
           },
           "verseKey": "ezr.2.5",
@@ -135,41 +177,9 @@
               "id": "hebrew-7657",
               "eng": "and seventy",
               "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 7.807419466471554,
-          "anchors": {
-            "hebrew-1121": 0.30500522871750213,
-            "hebrew-733": 7.502414237754052
-          },
-          "verseKey": "1ch.7.39",
-          "cunp": "烏拉的兒子是亞拉、漢尼業、利寫。",
-          "words": [
-            {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
             },
             {
-              "id": "hebrew-5925",
-              "eng": "of Ulla",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-733",
-              "eng": "[were] Arah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2592",
-              "eng": "and Hanniel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7525",
-              "eng": "and Rizia",
-              "punct": "."
+              "id": ""
             }
           ]
         }
@@ -255,7 +265,10 @@
         "lang": "hebrew",
         "hebrew": "בְּנֵ֣י",
         "pos": "N‑mpc",
-        "eng": "The sons"
+        "eng": "The sons",
+        "origin_simp": "בְּנֵי",
+        "index_cht": 1,
+        "cht": "的子孫"
       },
       {
         "id": "hebrew-733",
@@ -264,7 +277,10 @@
         "hebrew": "אָרַ֔ח",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "of Arah"
+        "eng": "of Arah",
+        "origin_simp": "אָרַח",
+        "index_cht": 0,
+        "cht": "亞拉"
       },
       {
         "id": "hebrew-8337",
@@ -272,7 +288,10 @@
         "lang": "hebrew",
         "hebrew": "שֵׁ֥שׁ",
         "pos": "Number‑fsc",
-        "eng": "six"
+        "eng": "six",
+        "origin_simp": "שֵׁשׁ",
+        "index_cht": 2,
+        "cht": "六"
       },
       {
         "id": "hebrew-3967",
@@ -280,7 +299,10 @@
         "lang": "hebrew",
         "hebrew": "מֵא֖וֹת",
         "pos": "Number‑fp",
-        "eng": "hundred"
+        "eng": "hundred",
+        "origin_simp": "מֵאוֹת",
+        "index_cht": 3,
+        "cht": "百"
       },
       {
         "id": "hebrew-2572",
@@ -288,7 +310,10 @@
         "lang": "hebrew",
         "hebrew": "חֲמִשִּׁ֥ים",
         "pos": "Number‑cp",
-        "eng": "fifty"
+        "eng": "fifty",
+        "origin_simp": "חֲמִשִּׁים",
+        "index_cht": 4,
+        "cht": "五十"
       },
       {
         "id": "hebrew-8147",
@@ -297,7 +322,17 @@
         "hebrew": "וּשְׁנָֽיִם׃",
         "pos": "Conj‑w | Number‑md",
         "punct": ".",
-        "eng": "and two"
+        "eng": "and two",
+        "origin_simp": "וּשְׁנָֽיִם",
+        "index_cht": 5,
+        "cht": "二"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 6,
+        "cht": "名",
+        "punct_cht": "；"
       }
     ]
   }

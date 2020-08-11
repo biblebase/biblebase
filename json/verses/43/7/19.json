@@ -5,26 +5,37 @@
         "dict": {
           "greek-3756": "Not",
           "greek-3475": "Moses",
-          "greek-1325": "has given",
-          "greek-4771": "you",
+          "greek-1325": null,
+          "greek-5213": "to you",
           "greek-3588": "the",
           "greek-3551": "law",
           "greek-2532": "and",
           "greek-3762": "no one",
           "greek-1537": "of",
+          "greek-5216": "you",
           "greek-4160": "keeps",
           "greek-5101": "Why",
-          "greek-1473": "Me",
+          "greek-3165": "Me",
           "greek-2212": "do you seek",
-          "greek-615": "to kill"
+          "greek-615": "to kill",
+          "": null
         }
+      },
+      "translations": {
+        "hebrew-4872": "greek-3475",
+        "hebrew-5414": "greek-1325",
+        "hebrew-8451": "greek-3551",
+        "hebrew-3808": "greek-3762",
+        "hebrew-6213": "greek-4160",
+        "hebrew-1245": "greek-2212",
+        "hebrew-2026": "greek-615"
       },
       "crossRefs": [
         {
-          "totalScore": 6.011471078568639,
+          "totalScore": 4.36823075639785,
           "anchors": {
-            "greek-3551": 1.3020054543174675,
-            "greek-4160": 0.8034492612987686
+            "greek-3551": 0.9978759776398055,
+            "greek-4160": 0.3767268458386281
           },
           "verseKey": "rom.2.14",
           "cunp": "沒有律法的外邦人若順着本性行律法上的事，他們雖然沒有律法，自己就是自己的律法。",
@@ -101,7 +112,7 @@
               "eng": "to themselves"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-1526",
               "eng": "are"
             },
             {
@@ -112,9 +123,9 @@
           ]
         },
         {
-          "totalScore": 5.20802181726987,
+          "totalScore": 3.991503910559222,
           "anchors": {
-            "greek-3551": 1.3020054543174675
+            "greek-3551": 0.9978759776398055
           },
           "verseKey": "jas.4.11",
           "cunp": "弟兄們，你們不可彼此批評。人若批評弟兄，論斷弟兄，就是批評律法，論斷律法。你若論斷律法，就不是遵行律法，乃是判斷人的。",
@@ -213,7 +224,7 @@
               "eng": "not"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-1488",
               "eng": "you are"
             },
             {
@@ -237,9 +248,9 @@
           ]
         },
         {
-          "totalScore": 5.20802181726987,
+          "totalScore": 3.991503910559222,
           "anchors": {
-            "greek-3551": 1.3020054543174675
+            "greek-3551": 0.9978759776398055
           },
           "verseKey": "1co.9.20",
           "cunp": "向猶太人，我就作猶太人，為要得猶太人；向律法以下的人，我雖不在律法以下，還是作律法以下的人，為要得律法以下的人。",
@@ -348,6 +359,15 @@
               "id": "greek-2770",
               "eng": "I might win",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -418,7 +438,10 @@
         "lang": "greek",
         "greek": "Οὐ",
         "pos": "Adv",
-        "eng": "Not"
+        "eng": "Not",
+        "origin_simp": "ου",
+        "index_cht": 1,
+        "cht": "豈不"
       },
       {
         "id": "greek-3475",
@@ -426,7 +449,10 @@
         "lang": "greek",
         "greek": "Μωϋσῆς",
         "pos": "N-NMS",
-        "eng": "Moses"
+        "eng": "Moses",
+        "origin_simp": "μωσης",
+        "index_cht": 0,
+        "cht": "摩西"
       },
       {
         "id": "greek-1325",
@@ -434,15 +460,21 @@
         "lang": "greek",
         "greek": "δέδωκεν*",
         "pos": "V-RIA-3S",
-        "eng": "has given"
+        "eng": "has given",
+        "origin_simp": "δεδωκεν",
+        "index_cht": 2,
+        "cht": "是"
       },
       {
-        "id": "greek-4771",
+        "id": "greek-5213",
         "translit": "hymin",
         "lang": "greek",
         "greek": "ὑμῖν",
         "pos": "PPro-D2P",
-        "eng": "to you"
+        "eng": "to you",
+        "origin_simp": "υμιν",
+        "index_cht": 5,
+        "cht": "你們"
       },
       {
         "id": "greek-3588",
@@ -450,7 +482,8 @@
         "lang": "greek",
         "greek": "τὸν",
         "pos": "Art-AMS",
-        "eng": "the"
+        "eng": "the",
+        "origin_simp": "τον"
       },
       {
         "id": "greek-3551",
@@ -459,7 +492,10 @@
         "greek": "νόμον",
         "pos": "N-AMS",
         "punct": ",",
-        "eng": "law"
+        "eng": "law",
+        "origin_simp": "νομον",
+        "index_cht": 3,
+        "cht": "傳律法"
       },
       {
         "id": "greek-2532",
@@ -467,7 +503,8 @@
         "lang": "greek",
         "greek": "καὶ",
         "pos": "Conj",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "και"
       },
       {
         "id": "greek-3762",
@@ -475,7 +512,10 @@
         "lang": "greek",
         "greek": "οὐδεὶς",
         "pos": "Adj-NMS",
-        "eng": "no one"
+        "eng": "no one",
+        "origin_simp": "ουδεις",
+        "index_cht": 7,
+        "cht": "你們卻沒有"
       },
       {
         "id": "greek-1537",
@@ -483,15 +523,19 @@
         "lang": "greek",
         "greek": "ἐξ",
         "pos": "Prep",
-        "eng": "of"
+        "eng": "of",
+        "origin_simp": "εξ"
       },
       {
-        "id": "greek-4771",
+        "id": "greek-5216",
         "translit": "hymōn",
         "lang": "greek",
         "greek": "ὑμῶν",
         "pos": "PPro-G2P",
-        "eng": "you"
+        "eng": "you",
+        "origin_simp": "υμων",
+        "index_cht": 8,
+        "cht": "一個人"
       },
       {
         "id": "greek-4160",
@@ -499,7 +543,10 @@
         "lang": "greek",
         "greek": "ποιεῖ",
         "pos": "V-PIA-3S",
-        "eng": "keeps"
+        "eng": "keeps",
+        "origin_simp": "ποιει",
+        "index_cht": 9,
+        "cht": "守"
       },
       {
         "id": "greek-3588",
@@ -507,7 +554,8 @@
         "lang": "greek",
         "greek": "τὸν",
         "pos": "Art-AMS",
-        "eng": "the"
+        "eng": "the",
+        "origin_simp": "τον"
       },
       {
         "id": "greek-3551",
@@ -516,7 +564,11 @@
         "greek": "νόμον",
         "pos": "N-AMS",
         "punct": "?",
-        "eng": "law"
+        "eng": "law",
+        "origin_simp": "νομον",
+        "index_cht": 10,
+        "cht": "律法",
+        "punct_cht": "。"
       },
       {
         "id": "greek-5101",
@@ -524,15 +576,21 @@
         "lang": "greek",
         "greek": "τί",
         "pos": "IPro-ANS",
-        "eng": "Why"
+        "eng": "Why",
+        "origin_simp": "τι",
+        "index_cht": 11,
+        "cht": "為甚麼"
       },
       {
-        "id": "greek-1473",
+        "id": "greek-3165",
         "translit": "me",
         "lang": "greek",
         "greek": "με",
         "pos": "PPro-A1S",
-        "eng": "Me"
+        "eng": "Me",
+        "origin_simp": "με",
+        "index_cht": 14,
+        "cht": "我"
       },
       {
         "id": "greek-2212",
@@ -540,7 +598,10 @@
         "lang": "greek",
         "greek": "ζητεῖτε",
         "pos": "V-PIA-2P",
-        "eng": "do you seek"
+        "eng": "do you seek",
+        "origin_simp": "ζητειτε",
+        "index_cht": 12,
+        "cht": "想要"
       },
       {
         "id": "greek-615",
@@ -549,7 +610,30 @@
         "greek": "ἀποκτεῖναι",
         "pos": "V-ANA",
         "punct": "?",
-        "eng": "to kill"
+        "eng": "to kill",
+        "origin_simp": "αποκτειναι",
+        "index_cht": 13,
+        "cht": "殺"
+      },
+      {
+        "id": "greek-1325",
+        "origin_simp": "[togive]",
+        "index_cht": 4,
+        "cht": "給"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 6,
+        "cht": "麼",
+        "punct_cht": "？"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 15,
+        "cht": "呢",
+        "punct_cht": "？"
       }
     ]
   }

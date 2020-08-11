@@ -9,12 +9,12 @@
           "hebrew-4158": "Mephaath"
         }
       },
+      "translations": {},
       "crossRefs": [
         {
-          "totalScore": 18.31495049436245,
+          "totalScore": 15.004828475508104,
           "anchors": {
             "hebrew-6932": 7.502414237754052,
-            "hebrew-4054": 1.6550610094271732,
             "hebrew-4158": 7.502414237754052
           },
           "verseKey": "jos.21.37",
@@ -62,6 +62,12 @@
               "id": "hebrew-702",
               "eng": "four",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
@@ -88,6 +94,65 @@
               "id": "hebrew-4158",
               "eng": "and Mephaath",
               "punct": "､"
+            }
+          ]
+        },
+        {
+          "totalScore": 7.502414237754052,
+          "anchors": {
+            "hebrew-6932": 7.502414237754052
+          },
+          "verseKey": "deu.2.26",
+          "cunp": "「我從基底莫的曠野差遣使者去見希實本王西宏，用和睦的話說：",
+          "words": [
+            {
+              "id": "hebrew-7971",
+              "eng": "And I sent"
+            },
+            {
+              "id": "hebrew-4397",
+              "eng": "messengers"
+            },
+            {
+              "id": "hebrew-4057",
+              "eng": "from the Wilderness"
+            },
+            {
+              "id": "hebrew-6932",
+              "eng": "of Kedemoth"
+            },
+            {
+              "id": "hebrew-413",
+              "eng": "to"
+            },
+            {
+              "id": "hebrew-5511",
+              "eng": "Sihon"
+            },
+            {
+              "id": "hebrew-4428",
+              "eng": "king"
+            },
+            {
+              "id": "hebrew-2809",
+              "eng": "of Heshbon"
+            },
+            {
+              "id": "hebrew-1697",
+              "eng": "with words"
+            },
+            {
+              "id": "hebrew-7965",
+              "eng": "of peace",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-559",
+              "eng": "saying",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         },
@@ -148,62 +213,6 @@
               "punct": "､"
             }
           ]
-        },
-        {
-          "totalScore": 7.502414237754052,
-          "anchors": {
-            "hebrew-6932": 7.502414237754052
-          },
-          "verseKey": "deu.2.26",
-          "cunp": "「我從基底莫的曠野差遣使者去見希實本王西宏，用和睦的話說：",
-          "words": [
-            {
-              "id": "hebrew-7971",
-              "eng": "And I sent"
-            },
-            {
-              "id": "hebrew-4397",
-              "eng": "messengers"
-            },
-            {
-              "id": "hebrew-4057",
-              "eng": "from the Wilderness"
-            },
-            {
-              "id": "hebrew-6932",
-              "eng": "of Kedemoth"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-5511",
-              "eng": "Sihon"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
-            },
-            {
-              "id": "hebrew-2809",
-              "eng": "of Heshbon"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "with words"
-            },
-            {
-              "id": "hebrew-7965",
-              "eng": "of peace",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            }
-          ]
         }
       ]
     },
@@ -252,7 +261,10 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "[[Obj.]]",
+        "index_cht": 1,
+        "cht": "與"
       },
       {
         "id": "hebrew-6932",
@@ -260,7 +272,10 @@
         "lang": "hebrew",
         "hebrew": "קְדֵמוֹת֙",
         "pos": "N‑proper‑fs",
-        "eng": "Kedemoth"
+        "eng": "Kedemoth",
+        "origin_simp": "קְדֵמוֹת",
+        "index_cht": 0,
+        "cht": "基底莫"
       },
       {
         "id": "hebrew-853",
@@ -268,7 +283,10 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and with"
+        "eng": "and with",
+        "origin_simp": "[[Obj.]]",
+        "index_cht": 4,
+        "cht": "與"
       },
       {
         "id": "hebrew-4054",
@@ -277,7 +295,11 @@
         "hebrew": "מִגְרָשֶׁ֔יהָ",
         "pos": "N‑mpc | 3fs",
         "punct": "､",
-        "eng": "its common-lands"
+        "eng": "its common-lands",
+        "origin_simp": "מִגְרָשֶׁיהָ",
+        "index_cht": 2,
+        "cht": "其郊野",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-853",
@@ -285,7 +307,8 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "וְאֶת־"
       },
       {
         "id": "hebrew-4158",
@@ -293,7 +316,10 @@
         "lang": "hebrew",
         "hebrew": "מֵיפַ֖עַת",
         "pos": "N‑proper‑fs",
-        "eng": "Mephaath"
+        "eng": "Mephaath",
+        "origin_simp": "מֵיפַעַת",
+        "index_cht": 3,
+        "cht": "米法押"
       },
       {
         "id": "hebrew-853",
@@ -301,7 +327,8 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and with"
+        "eng": "and with",
+        "origin_simp": "וְאֶת־"
       },
       {
         "id": "hebrew-4054",
@@ -310,7 +337,11 @@
         "hebrew": "מִגְרָשֶֽׁיהָ׃",
         "pos": "N‑mpc | 3fs",
         "punct": "–",
-        "eng": "its common-lands"
+        "eng": "its common-lands",
+        "origin_simp": "מִגְרָשֶֽׁיהָ",
+        "index_cht": 5,
+        "cht": "其郊野",
+        "punct_cht": "；"
       }
     ]
   }

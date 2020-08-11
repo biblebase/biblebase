@@ -7,14 +7,18 @@
           "hebrew-1586": "of [were] Gomer",
           "hebrew-813": "Ashkenaz",
           "hebrew-7384": "and Diphath",
-          "hebrew-8425": "and Togarmah"
+          "hebrew-8425": "and Togarmah",
+          "": null
         }
+      },
+      "translations": {
+        "greek-5207": "hebrew-1121"
       },
       "crossRefs": [
         {
-          "totalScore": 32.846493688218025,
+          "totalScore": 32.8628685743144,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-1586": 6.2511507603914795,
             "hebrew-813": 8.539323589735611,
             "hebrew-7384": 10.248599871619378,
@@ -114,6 +118,9 @@
               "id": "hebrew-854",
               "eng": "with you",
               "punct": "."
+            },
+            {
+              "id": "hebrew-854"
             }
           ]
         },
@@ -257,13 +264,72 @@
               "id": "hebrew-5801",
               "eng": "for your wares",
               "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         },
         {
-          "totalScore": 6.556155989108982,
+          "totalScore": 6.572530875205354,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
+            "hebrew-1586": 6.2511507603914795
+          },
+          "verseKey": "hos.1.3",
+          "cunp": "於是，何西阿去娶了滴拉音的女兒歌篾。這婦人懷孕，給他生了一個兒子。",
+          "words": [
+            {
+              "id": "hebrew-1980",
+              "eng": "So he went"
+            },
+            {
+              "id": "hebrew-3947",
+              "eng": "and took"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-1586",
+              "eng": "Gomer"
+            },
+            {
+              "id": "hebrew-1323",
+              "eng": "the daughter"
+            },
+            {
+              "id": "hebrew-1691",
+              "eng": "of Diblaim",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-2029",
+              "eng": "and she conceived",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "and bore"
+            },
+            {
+              "id": "hebrew-1121",
+              "eng": "a son",
+              "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "hebrew-3212"
+            }
+          ]
+        },
+        {
+          "totalScore": 6.572530875205354,
+          "anchors": {
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-1586": 6.2511507603914795
           },
           "verseKey": "gen.10.2",
@@ -316,9 +382,9 @@
           ]
         },
         {
-          "totalScore": 6.556155989108982,
+          "totalScore": 6.572530875205354,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-1586": 6.2511507603914795
           },
           "verseKey": "1ch.1.5",
@@ -366,56 +432,6 @@
             {
               "id": "hebrew-8494",
               "eng": "and Tiras",
-              "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 6.556155989108982,
-          "anchors": {
-            "hebrew-1121": 0.30500522871750213,
-            "hebrew-1586": 6.2511507603914795
-          },
-          "verseKey": "hos.1.3",
-          "cunp": "於是，何西阿去娶了滴拉音的女兒歌篾。這婦人懷孕，給他生了一個兒子。",
-          "words": [
-            {
-              "id": "hebrew-1980",
-              "eng": "So he went"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "and took"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1586",
-              "eng": "Gomer"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-1691",
-              "eng": "of Diblaim",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2029",
-              "eng": "and she conceived",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "and bore"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "a son",
               "punct": "."
             }
           ]
@@ -481,7 +497,10 @@
         "lang": "hebrew",
         "hebrew": "וּבְנֵ֖י",
         "pos": "Conj‑w | N‑mpc",
-        "eng": "And the sons"
+        "eng": "And the sons",
+        "origin_simp": "וּבְנֵי",
+        "index_cht": 1,
+        "cht": "的兒子"
       },
       {
         "id": "hebrew-1586",
@@ -490,7 +509,10 @@
         "hebrew": "גֹּ֑מֶר",
         "pos": "N‑proper‑ms",
         "punct": "–",
-        "eng": "of [were] Gomer"
+        "eng": "of [were] Gomer",
+        "origin_simp": "גֹּמֶר",
+        "index_cht": 0,
+        "cht": "歌篾"
       },
       {
         "id": "hebrew-813",
@@ -499,7 +521,10 @@
         "hebrew": "אַשְׁכֲּנַ֥ז",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Ashkenaz"
+        "eng": "Ashkenaz",
+        "origin_simp": "אַשְׁכֲּנַז",
+        "index_cht": 2,
+        "cht": "是亞實基拿、"
       },
       {
         "id": "hebrew-7384",
@@ -508,7 +533,10 @@
         "hebrew": "וְדִיפַ֖ת",
         "pos": "Conj‑w | N‑proper‑ms",
         "punct": "､",
-        "eng": "and Diphath"
+        "eng": "and Diphath",
+        "origin_simp": "וְדִיפַת",
+        "index_cht": 3,
+        "cht": "低法"
       },
       {
         "id": "hebrew-8425",
@@ -517,7 +545,17 @@
         "hebrew": "וְתוֹגַרְמָֽה׃",
         "pos": "Conj‑w | N‑proper‑ms",
         "punct": ".",
-        "eng": "and Togarmah"
+        "eng": "and Togarmah",
+        "origin_simp": "וְתוֹגַרְמָֽה",
+        "index_cht": 5,
+        "cht": "陀迦瑪",
+        "punct_cht": "。"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 4,
+        "cht": "【創十章三節作利法】、"
       }
     ]
   }

@@ -7,18 +7,24 @@
           "greek-1161": "now",
           "greek-3588": "the",
           "greek-2250": "days",
-          "greek-3778": "these",
+          "greek-5025": "these",
           "greek-643": "having packed the baggage",
           "greek-305": "we started on our way up",
           "greek-1519": "to",
-          "greek-2414": "Jerusalem"
+          "greek-2414": "Jerusalem",
+          "greek-2419": null,
+          "": null
         }
+      },
+      "translations": {
+        "hebrew-3117": "greek-2250",
+        "hebrew-3389": "greek-2419"
       },
       "crossRefs": [
         {
-          "totalScore": 5.035856184336935,
+          "totalScore": 4.491292918144708,
           "anchors": {
-            "greek-2250": 0.9542199558913412,
+            "greek-2250": 0.4096566896991143,
             "greek-305": 1.9271335050919907,
             "greek-2414": 2.154502723353603
           },
@@ -78,6 +84,117 @@
               "id": "greek-2542",
               "eng": "Caesarea",
               "punct": "."
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 4.081636228445594,
+          "anchors": {
+            "greek-305": 1.9271335050919907,
+            "greek-2414": 2.154502723353603
+          },
+          "verseKey": "luk.19.28",
+          "cunp": "耶穌說完了這話，就在前面走，上耶路撒冷去。",
+          "words": [
+            {
+              "id": "greek-2532",
+              "eng": "And"
+            },
+            {
+              "id": "greek-2036",
+              "eng": "having said"
+            },
+            {
+              "id": "greek-5023",
+              "eng": "these things"
+            },
+            {
+              "id": "greek-4198",
+              "eng": "He went on"
+            },
+            {
+              "id": "greek-1715",
+              "eng": "ahead",
+              "punct": ","
+            },
+            {
+              "id": "greek-305",
+              "eng": "going up"
+            },
+            {
+              "id": "greek-1519",
+              "eng": "to"
+            },
+            {
+              "id": "greek-2414",
+              "eng": "Jerusalem",
+              "punct": "."
+            },
+            {
+              "id": "greek-2424"
+            }
+          ]
+        },
+        {
+          "totalScore": 4.081636228445594,
+          "anchors": {
+            "greek-305": 1.9271335050919907,
+            "greek-2414": 2.154502723353603
+          },
+          "verseKey": "jhn.5.1",
+          "cunp": "這事以後，到了猶太人的一個節期，耶穌就上耶路撒冷去。",
+          "words": [
+            {
+              "id": "greek-3326",
+              "eng": "After"
+            },
+            {
+              "id": "greek-5023",
+              "eng": "these things"
+            },
+            {
+              "id": "greek-2258",
+              "eng": "there was"
+            },
+            {
+              "id": "greek-1859",
+              "eng": "a feast"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "of the"
+            },
+            {
+              "id": "greek-2453",
+              "eng": "Jews",
+              "punct": ","
+            },
+            {
+              "id": "greek-2532",
+              "eng": "and"
+            },
+            {
+              "id": "greek-305",
+              "eng": "went up"
+            },
+            {
+              "id": "greek-2424",
+              "eng": "Jesus"
+            },
+            {
+              "id": "greek-1519",
+              "eng": "to"
+            },
+            {
+              "id": "greek-2414",
+              "eng": "Jerusalem",
+              "punct": "."
+            },
+            {
+              "id": "greek-2258"
             }
           ]
         }
@@ -171,7 +288,10 @@
         "lang": "greek",
         "greek": "Μετὰ",
         "pos": "Prep",
-        "eng": "After"
+        "eng": "After",
+        "origin_simp": "μετα",
+        "index_cht": 0,
+        "cht": "過了"
       },
       {
         "id": "greek-1161",
@@ -179,7 +299,8 @@
         "lang": "greek",
         "greek": "δὲ",
         "pos": "Conj",
-        "eng": "now"
+        "eng": "now",
+        "origin_simp": "δε"
       },
       {
         "id": "greek-3588",
@@ -187,7 +308,8 @@
         "lang": "greek",
         "greek": "τὰς",
         "pos": "Art-AFP",
-        "eng": "the"
+        "eng": "the",
+        "origin_simp": "τας"
       },
       {
         "id": "greek-2250",
@@ -195,16 +317,23 @@
         "lang": "greek",
         "greek": "ἡμέρας",
         "pos": "N-AFP",
-        "eng": "days"
+        "eng": "days",
+        "origin_simp": "ημερας",
+        "index_cht": 2,
+        "cht": "日",
+        "punct_cht": "，"
       },
       {
-        "id": "greek-3778",
+        "id": "greek-5025",
         "translit": "tautas",
         "lang": "greek",
         "greek": "ταύτας",
         "pos": "DPro-AFP",
         "punct": ",",
-        "eng": "these"
+        "eng": "these",
+        "origin_simp": "ταυτας",
+        "index_cht": 1,
+        "cht": "幾"
       },
       {
         "id": "greek-643",
@@ -213,7 +342,10 @@
         "greek": "ἐπισκευασάμενοι",
         "pos": "V-APM-NMP",
         "punct": ",",
-        "eng": "having packed the baggage"
+        "eng": "having packed the baggage",
+        "origin_simp": "επισκευασαμενοι",
+        "index_cht": 3,
+        "cht": "我們收拾"
       },
       {
         "id": "greek-305",
@@ -221,7 +353,10 @@
         "lang": "greek",
         "greek": "ἀνεβαίνομεν",
         "pos": "V-IIA-1P",
-        "eng": "we started on our way up"
+        "eng": "we started on our way up",
+        "origin_simp": "ανεβαινομενεις",
+        "index_cht": 4,
+        "cht": "行李上"
       },
       {
         "id": "greek-1519",
@@ -229,7 +364,10 @@
         "lang": "greek",
         "greek": "εἰς",
         "pos": "Prep",
-        "eng": "to"
+        "eng": "to",
+        "origin_simp": "",
+        "index_cht": 4,
+        "cht": "行李上"
       },
       {
         "id": "greek-2414",
@@ -238,7 +376,21 @@
         "greek": "Ἱεροσόλυμα",
         "pos": "N-ANP",
         "punct": ".",
-        "eng": "Jerusalem"
+        "eng": "Jerusalem",
+        "origin_simp": "ιεροσολυμα"
+      },
+      {
+        "id": "greek-2419",
+        "origin_simp": "ιερουσαλημ",
+        "index_cht": 5,
+        "cht": "耶路撒冷"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 6,
+        "cht": "去",
+        "punct_cht": "。"
       }
     ]
   }

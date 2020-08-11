@@ -14,11 +14,14 @@
           "hebrew-6002": "and Amalek"
         }
       },
+      "translations": {
+        "greek-5207": "hebrew-1121"
+      },
       "crossRefs": [
         {
-          "totalScore": 39.579580306415025,
+          "totalScore": 39.5959551925114,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-464": 4.1389193993584925,
             "hebrew-8487": 4.758842454566098,
             "hebrew-201": 8.539323589735611,
@@ -69,9 +72,9 @@
           ]
         },
         {
-          "totalScore": 31.345261945396913,
+          "totalScore": 31.378011717589658,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-464": 4.1389193993584925,
             "hebrew-8487": 4.758842454566098,
             "hebrew-201": 8.539323589735611,
@@ -151,13 +154,16 @@
               "id": "hebrew-7073",
               "eng": "Kenaz",
               "punct": "､"
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 17.831458172210542,
+          "totalScore": 17.864207944403287,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-464": 4.1389193993584925,
             "hebrew-8555": 6.2511507603914795,
             "hebrew-6002": 2.6924581556670724
@@ -233,9 +239,9 @@
           ]
         },
         {
-          "totalScore": 15.675706373478679,
+          "totalScore": 15.692081259575051,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-464": 4.1389193993584925,
             "hebrew-1609": 8.539323589735611,
             "hebrew-6002": 2.6924581556670724
@@ -312,7 +318,7 @@
             "hebrew-8487": 4.758842454566098,
             "hebrew-7073": 4.758842454566098
           },
-          "verseKey": "gen.36.42",
+          "verseKey": "1ch.1.53",
           "cunp": "基納斯族長、提幔族長、米比薩族長、",
           "words": [
             {
@@ -350,7 +356,7 @@
             "hebrew-8487": 4.758842454566098,
             "hebrew-7073": 4.758842454566098
           },
-          "verseKey": "1ch.1.53",
+          "verseKey": "gen.36.42",
           "cunp": "基納斯族長、提幔族長、米比薩族長、",
           "words": [
             {
@@ -383,53 +389,9 @@
           ]
         },
         {
-          "totalScore": 6.556155989108982,
+          "totalScore": 6.572530875205354,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
-            "hebrew-8555": 6.2511507603914795
-          },
-          "verseKey": "1ch.1.39",
-          "cunp": "羅坍的兒子是何利、荷幔；羅坍的妹子是亭納。",
-          "words": [
-            {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
-            },
-            {
-              "id": "hebrew-3877",
-              "eng": "of Lotan",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2753",
-              "eng": "[were] Hori",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1950",
-              "eng": "and Homam",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-269",
-              "eng": "and sister",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3877",
-              "eng": "Of Lotan"
-            },
-            {
-              "id": "hebrew-8555",
-              "eng": "[was] Timna",
-              "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 6.556155989108982,
-          "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-8555": 6.2511507603914795
           },
           "verseKey": "gen.36.22",
@@ -463,6 +425,50 @@
             {
               "id": "hebrew-3877",
               "eng": "of Lotan"
+            },
+            {
+              "id": "hebrew-8555",
+              "eng": "[was] Timna",
+              "punct": "."
+            }
+          ]
+        },
+        {
+          "totalScore": 6.572530875205354,
+          "anchors": {
+            "hebrew-1121": 0.3213801148138742,
+            "hebrew-8555": 6.2511507603914795
+          },
+          "verseKey": "1ch.1.39",
+          "cunp": "羅坍的兒子是何利、荷幔；羅坍的妹子是亭納。",
+          "words": [
+            {
+              "id": "hebrew-1121",
+              "eng": "And the sons"
+            },
+            {
+              "id": "hebrew-3877",
+              "eng": "of Lotan",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-2753",
+              "eng": "[were] Hori",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1950",
+              "eng": "and Homam",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-269",
+              "eng": "and sister",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-3877",
+              "eng": "Of Lotan"
             },
             {
               "id": "hebrew-8555",
@@ -645,7 +651,10 @@
         "lang": "hebrew",
         "hebrew": "בְּנֵ֖י",
         "pos": "N‑mpc",
-        "eng": "And the sons"
+        "eng": "And the sons",
+        "origin_simp": "בְּנֵי",
+        "index_cht": 1,
+        "cht": "的兒子"
       },
       {
         "id": "hebrew-464",
@@ -654,7 +663,10 @@
         "hebrew": "אֱלִיפָ֑ז",
         "pos": "N‑proper‑ms",
         "punct": "–",
-        "eng": "of Eliphaz"
+        "eng": "of Eliphaz",
+        "origin_simp": "אֱלִיפָז",
+        "index_cht": 0,
+        "cht": "以利法"
       },
       {
         "id": "hebrew-8487",
@@ -663,7 +675,10 @@
         "hebrew": "תֵּימָ֤ן",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "[were] Teman"
+        "eng": "[were] Teman",
+        "origin_simp": "תֵּימָן",
+        "index_cht": 2,
+        "cht": "是提幔、"
       },
       {
         "id": "hebrew-201",
@@ -672,7 +687,10 @@
         "hebrew": "וְאוֹמָר֙",
         "pos": "Conj‑w | N‑proper‑ms",
         "punct": "､",
-        "eng": "and Omar"
+        "eng": "and Omar",
+        "origin_simp": "וְאוֹמָר",
+        "index_cht": 3,
+        "cht": "阿抹、"
       },
       {
         "id": "hebrew-6825",
@@ -681,7 +699,10 @@
         "hebrew": "צְפִ֣י",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Zepho"
+        "eng": "Zepho",
+        "origin_simp": "צְפִי",
+        "index_cht": 4,
+        "cht": "洗玻、"
       },
       {
         "id": "hebrew-1609",
@@ -690,7 +711,10 @@
         "hebrew": "וְגַעְתָּ֔ם",
         "pos": "Conj‑w | N‑proper‑ms",
         "punct": "､",
-        "eng": "and Gatam"
+        "eng": "and Gatam",
+        "origin_simp": "וְגַעְתָּם",
+        "index_cht": 5,
+        "cht": "迦坦、"
       },
       {
         "id": "hebrew-7073",
@@ -699,7 +723,10 @@
         "hebrew": "קְנַ֖ז",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "[and] Kenaz"
+        "eng": "[and] Kenaz",
+        "origin_simp": "קְנַז",
+        "index_cht": 6,
+        "cht": "基納斯、"
       },
       {
         "id": "hebrew-8555",
@@ -708,7 +735,10 @@
         "hebrew": "וְתִמְנָ֥ע",
         "pos": "Conj‑w | N‑proper‑ms",
         "punct": "､",
-        "eng": "and [by] Timna"
+        "eng": "and [by] Timna",
+        "origin_simp": "וְתִמְנָע",
+        "index_cht": 7,
+        "cht": "亭納、"
       },
       {
         "id": "hebrew-6002",
@@ -717,7 +747,11 @@
         "hebrew": "וַעֲמָלֵֽק׃",
         "pos": "Conj‑w | N‑proper‑ms",
         "punct": ".",
-        "eng": "and Amalek"
+        "eng": "and Amalek",
+        "origin_simp": "וַעֲמָלֵֽק",
+        "index_cht": 8,
+        "cht": "亞瑪力",
+        "punct_cht": "。"
       }
     ]
   }

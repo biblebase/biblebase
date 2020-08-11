@@ -6,7 +6,7 @@
           "greek-3956": "All things",
           "greek-1223": "through",
           "greek-846": "Him",
-          "greek-1096": "has come into being",
+          "greek-1096": null,
           "greek-2532": "and",
           "greek-5565": "without",
           "greek-3761": "not even",
@@ -14,12 +14,15 @@
           "greek-3739": "that"
         }
       },
+      "translations": {
+        "hebrew-7813": "greek-1520"
+      },
       "crossRefs": [
         {
-          "totalScore": 4.1401994090681224,
+          "totalScore": 4.136338721162273,
           "anchors": {
             "greek-3956": 0.5656118892528341,
-            "greek-1520": 1.0029918768541513
+            "greek-1520": 1.0017049808855352
           },
           "verseKey": "1co.12.13",
           "cunp": "我們不拘是猶太人，是希臘人，是為奴的，是自主的，都從一位聖靈受洗，成了一個身體，飲於一位聖靈。",
@@ -46,7 +49,7 @@
               "punct": ","
             },
             {
-              "id": "greek-1473",
+              "id": "greek-2249",
               "eng": "we"
             },
             {
@@ -124,14 +127,17 @@
               "id": "greek-4222",
               "eng": "we were made to drink",
               "punct": "."
+            },
+            {
+              "id": "greek-1519"
             }
           ]
         },
         {
-          "totalScore": 3.757322423129989,
+          "totalScore": 3.753461735224141,
           "anchors": {
             "greek-1096": 0.7483467925675353,
-            "greek-1520": 1.0029918768541513
+            "greek-1520": 1.0017049808855352
           },
           "verseKey": "luk.9.33",
           "cunp": "二人正要和耶穌分離的時候，彼得對耶穌說：「夫子，我們在這裏真好！可以搭三座棚，一座為你，一座為摩西，一座為以利亞。」他卻不知道所說的是甚麼。",
@@ -174,7 +180,7 @@
               "eng": "said"
             },
             {
-              "id": "greek-3588",
+              "id": "greek-3739",
               "eng": "-"
             },
             {
@@ -204,11 +210,11 @@
               "eng": "good"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-1511",
               "eng": "it is"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-2248",
               "eng": "for us"
             },
             {
@@ -216,7 +222,7 @@
               "eng": "here"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-2076",
               "eng": "to be",
               "punct": ";"
             },
@@ -242,7 +248,7 @@
               "eng": "one"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-4671",
               "eng": "for You",
               "punct": ","
             },
@@ -288,14 +294,26 @@
               "id": "greek-3004",
               "eng": "he is saying",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "greek-3391"
+            },
+            {
+              "id": "greek-3391"
+            },
+            {
+              "id": "greek-3391"
             }
           ]
         },
         {
-          "totalScore": 3.574587519815288,
+          "totalScore": 3.5707268319094396,
           "anchors": {
             "greek-3956": 0.5656118892528341,
-            "greek-1520": 1.0029918768541513
+            "greek-1520": 1.0017049808855352
           },
           "verseKey": "1co.10.17",
           "cunp": "我們雖多，仍是一個餅，一個身體，因為我們都是分受這一個餅。",
@@ -330,7 +348,7 @@
               "eng": "many"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-2070",
               "eng": "we are",
               "punct": ";"
             },
@@ -489,7 +507,10 @@
         "lang": "greek",
         "greek": "πάντα",
         "pos": "Adj-NNP",
-        "eng": "All things"
+        "eng": "All things",
+        "origin_simp": "παντα",
+        "index_cht": 0,
+        "cht": "萬物"
       },
       {
         "id": "greek-1223",
@@ -497,7 +518,10 @@
         "lang": "greek",
         "greek": "δι’",
         "pos": "Prep",
-        "eng": "through"
+        "eng": "through",
+        "origin_simp": "δι",
+        "index_cht": 1,
+        "cht": "是藉著"
       },
       {
         "id": "greek-846",
@@ -505,7 +529,10 @@
         "lang": "greek",
         "greek": "αὐτοῦ",
         "pos": "PPro-GM3S",
-        "eng": "Him"
+        "eng": "Him",
+        "origin_simp": "αυτου",
+        "index_cht": 2,
+        "cht": "他"
       },
       {
         "id": "greek-1096",
@@ -514,7 +541,11 @@
         "greek": "ἐγένετο",
         "pos": "V-AIM-3S",
         "punct": ",",
-        "eng": "came into being"
+        "eng": "came into being",
+        "origin_simp": "εγενετο",
+        "index_cht": 3,
+        "cht": "造的",
+        "punct_cht": "；"
       },
       {
         "id": "greek-2532",
@@ -522,7 +553,11 @@
         "lang": "greek",
         "greek": "καὶ",
         "pos": "Conj",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "",
+        "index_cht": 4,
+        "cht": "凡被造的",
+        "punct_cht": "，"
       },
       {
         "id": "greek-5565",
@@ -530,7 +565,10 @@
         "lang": "greek",
         "greek": "χωρὶς",
         "pos": "Prep",
-        "eng": "without"
+        "eng": "without",
+        "origin_simp": "χωρις",
+        "index_cht": 7,
+        "cht": "藉著"
       },
       {
         "id": "greek-846",
@@ -538,7 +576,10 @@
         "lang": "greek",
         "greek": "αὐτοῦ",
         "pos": "PPro-GM3S",
-        "eng": "Him"
+        "eng": "Him",
+        "origin_simp": "αυτου",
+        "index_cht": 8,
+        "cht": "他"
       },
       {
         "id": "greek-1096",
@@ -546,7 +587,11 @@
         "lang": "greek",
         "greek": "ἐγένετο",
         "pos": "V-AIM-3S",
-        "eng": "came into being"
+        "eng": "came into being",
+        "origin_simp": "",
+        "index_cht": 4,
+        "cht": "凡被造的",
+        "punct_cht": "，"
       },
       {
         "id": "greek-3761",
@@ -554,7 +599,8 @@
         "lang": "greek",
         "greek": "οὐδὲ",
         "pos": "Adv",
-        "eng": "not even"
+        "eng": "not even",
+        "origin_simp": "ουδε"
       },
       {
         "id": "greek-1520",
@@ -562,7 +608,11 @@
         "lang": "greek",
         "greek": "ἕν",
         "pos": "Adj-NNS",
-        "eng": "one [thing]"
+        "eng": "one [thing]",
+        "origin_simp": "ενεγενετοκαι",
+        "index_cht": 4,
+        "cht": "凡被造的",
+        "punct_cht": "，"
       },
       {
         "id": "greek-3739",
@@ -570,7 +620,10 @@
         "lang": "greek",
         "greek": "ὃ",
         "pos": "RelPro-NNS",
-        "eng": "that"
+        "eng": "that",
+        "origin_simp": "ο",
+        "index_cht": 5,
+        "cht": "沒有一樣"
       },
       {
         "id": "greek-1096",
@@ -579,7 +632,17 @@
         "greek": "γέγονεν",
         "pos": "V-RIA-3S",
         "punct": ".",
-        "eng": "has come into being"
+        "eng": "has come into being",
+        "origin_simp": "γεγονεν",
+        "index_cht": 6,
+        "cht": "不是"
+      },
+      {
+        "id": "greek-1096",
+        "origin_simp": "[tobe]",
+        "index_cht": 9,
+        "cht": "造的",
+        "punct_cht": "。"
       }
     ]
   }

@@ -8,15 +8,75 @@
           "greek-1438": "of himself",
           "greek-2212": "let seek",
           "greek-235": "but",
-          "greek-2087": "other"
+          "greek-2087": "other",
+          "": null,
+          "greek-1538": null
         }
+      },
+      "translations": {
+        "hebrew-1245": "greek-2212",
+        "hebrew-312": "greek-2087",
+        "hebrew-1538": "greek-1538"
       },
       "crossRefs": [
         {
-          "totalScore": 5.456402843059282,
+          "totalScore": 4.911230911957589,
+          "anchors": {
+            "greek-2087": 1.1386919976601375,
+            "greek-1538": 1.8862694571487257
+          },
+          "verseKey": "php.2.4",
+          "cunp": "各人不要單顧自己的事，也要顧別人的事。",
+          "words": [
+            {
+              "id": "greek-3361",
+              "eng": "not"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the things"
+            },
+            {
+              "id": "greek-1438",
+              "eng": "of themselves"
+            },
+            {
+              "id": "greek-1538",
+              "eng": "each"
+            },
+            {
+              "id": "greek-4648",
+              "eng": "considering",
+              "punct": ","
+            },
+            {
+              "id": "greek-235",
+              "eng": "but"
+            },
+            {
+              "id": "greek-2532",
+              "eng": "also"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the things"
+            },
+            {
+              "id": "greek-2087",
+              "eng": "of others"
+            },
+            {
+              "id": "greek-1538",
+              "eng": "each",
+              "punct": "."
+            }
+          ]
+        },
+        {
+          "totalScore": 4.816502975607962,
           "anchors": {
             "greek-3367": 1.8389054889739125,
-            "greek-2087": 1.7785918651114567
+            "greek-2087": 1.1386919976601375
           },
           "verseKey": "rom.13.8",
           "cunp": "凡事都不可虧欠人，惟有彼此相愛要常以為虧欠，因為愛人的就完全了律法。",
@@ -84,6 +144,88 @@
               "id": "greek-4137",
               "eng": "has fulfilled",
               "punct": "."
+            },
+            {
+              "id": "greek-1508"
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 3.7725389142974515,
+          "anchors": {
+            "greek-1538": 1.8862694571487257
+          },
+          "verseKey": "1co.7.2",
+          "cunp": "但要免淫亂的事，男子當各有自己的妻子；女子也當各有自己的丈夫。",
+          "words": [
+            {
+              "id": "greek-1223",
+              "eng": "Because of"
+            },
+            {
+              "id": "greek-1161",
+              "eng": "however"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "-"
+            },
+            {
+              "id": "greek-4202",
+              "eng": "sexual immorality",
+              "punct": ","
+            },
+            {
+              "id": "greek-1538",
+              "eng": "each man"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the [own]"
+            },
+            {
+              "id": "greek-1438",
+              "eng": "of him"
+            },
+            {
+              "id": "greek-1135",
+              "eng": "wife"
+            },
+            {
+              "id": "greek-2192",
+              "eng": "let have",
+              "punct": ","
+            },
+            {
+              "id": "greek-2532",
+              "eng": "and"
+            },
+            {
+              "id": "greek-1538",
+              "eng": "each [woman]"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-2398",
+              "eng": "own"
+            },
+            {
+              "id": "greek-435",
+              "eng": "husband"
+            },
+            {
+              "id": "greek-2192",
+              "eng": "let have",
+              "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -168,7 +310,11 @@
         "lang": "greek",
         "greek": "μηδεὶς",
         "pos": "Adj-NMS",
-        "eng": "No one"
+        "eng": "No one",
+        "origin_simp": "μηδεις",
+        "index_cht": 0,
+        "cht": "無論何人",
+        "punct_cht": "，"
       },
       {
         "id": "greek-3588",
@@ -176,7 +322,8 @@
         "lang": "greek",
         "greek": "τὸ",
         "pos": "Art-ANS",
-        "eng": "the [good]"
+        "eng": "the [good]",
+        "origin_simp": "το"
       },
       {
         "id": "greek-1438",
@@ -184,7 +331,10 @@
         "lang": "greek",
         "greek": "ἑαυτοῦ",
         "pos": "RefPro-GM3S",
-        "eng": "of himself"
+        "eng": "of himself",
+        "origin_simp": "εαυτου",
+        "index_cht": 2,
+        "cht": "自己"
       },
       {
         "id": "greek-2212",
@@ -193,7 +343,10 @@
         "greek": "ζητείτω",
         "pos": "V-PMA-3S",
         "punct": ",",
-        "eng": "let seek"
+        "eng": "let seek",
+        "origin_simp": "ζητειτω",
+        "index_cht": 1,
+        "cht": "不要求"
       },
       {
         "id": "greek-235",
@@ -201,7 +354,10 @@
         "lang": "greek",
         "greek": "ἀλλὰ",
         "pos": "Conj",
-        "eng": "but"
+        "eng": "but",
+        "origin_simp": "αλλα",
+        "index_cht": 4,
+        "cht": "乃"
       },
       {
         "id": "greek-3588",
@@ -209,7 +365,8 @@
         "lang": "greek",
         "greek": "τὸ",
         "pos": "Art-ANS",
-        "eng": "that"
+        "eng": "that",
+        "origin_simp": "το"
       },
       {
         "id": "greek-3588",
@@ -217,7 +374,8 @@
         "lang": "greek",
         "greek": "τοῦ",
         "pos": "Art-GMS",
-        "eng": "of the"
+        "eng": "of the",
+        "origin_simp": "του"
       },
       {
         "id": "greek-2087",
@@ -226,7 +384,30 @@
         "greek": "ἑτέρου",
         "pos": "Adj-GMS",
         "punct": ".",
-        "eng": "other"
+        "eng": "other",
+        "origin_simp": "ετερου",
+        "index_cht": 5,
+        "cht": "要求別"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "的益處",
+        "punct_cht": "，"
+      },
+      {
+        "id": "greek-1538",
+        "origin_simp": "εκαστος",
+        "index_cht": 6,
+        "cht": "人"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 7,
+        "cht": "的益處",
+        "punct_cht": "。"
       }
     ]
   }

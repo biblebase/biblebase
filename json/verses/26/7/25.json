@@ -7,14 +7,20 @@
           "hebrew-935": "comes",
           "hebrew-1245": "and they will seek",
           "hebrew-7965": "peace",
-          "hebrew-369": "but [there shall be] none"
+          "hebrew-369": "but [there shall be] none",
+          "": null
         }
+      },
+      "translations": {
+        "greek-2064": "hebrew-935",
+        "greek-2212": "hebrew-1245",
+        "greek-1515": "hebrew-7965"
       },
       "crossRefs": [
         {
-          "totalScore": 4.781358098741965,
+          "totalScore": 4.1888597819356175,
           "anchors": {
-            "hebrew-7965": 1.1953395246854912
+            "hebrew-7965": 1.0472149454839044
           },
           "verseKey": "2ki.4.26",
           "cunp": "你跑去迎接她，問她說：你平安嗎？你丈夫平安嗎？孩子平安嗎？」她說：「平安。」",
@@ -70,21 +76,30 @@
               "id": "hebrew-7965",
               "eng": "[it is] well",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 4.282547899824058,
+          "totalScore": 3.883069926343612,
           "anchors": {
-            "hebrew-7965": 1.1953395246854912,
-            "hebrew-369": 0.6965293257675844
+            "hebrew-7965": 1.0472149454839044,
+            "hebrew-369": 0.7414250898918989
           },
-          "verseKey": "jer.6.14",
-          "cunp": "他們輕輕忽忽地醫治我百姓的損傷， 說：平安了！平安了！ 其實沒有平安。",
+          "verseKey": "jer.8.11",
+          "cunp": "他們輕輕忽忽地醫治我百姓的損傷，說： 平安了！平安了！ 其實沒有平安。",
           "words": [
             {
               "id": "hebrew-7495",
-              "eng": "And they have healed"
+              "eng": "For they have healed"
             },
             {
               "id": "hebrew-853",
@@ -95,12 +110,16 @@
               "eng": "the hurt"
             },
             {
+              "id": "hebrew-1323",
+              "eng": "of the daughter"
+            },
+            {
               "id": "hebrew-5971",
               "eng": "of My people"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "eng": "upon"
             },
             {
               "id": "hebrew-7043",
@@ -130,21 +149,27 @@
               "id": "hebrew-7965",
               "eng": "peace",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 4.282547899824058,
+          "totalScore": 3.883069926343612,
           "anchors": {
-            "hebrew-7965": 1.1953395246854912,
-            "hebrew-369": 0.6965293257675844
+            "hebrew-7965": 1.0472149454839044,
+            "hebrew-369": 0.7414250898918989
           },
-          "verseKey": "jer.8.11",
-          "cunp": "他們輕輕忽忽地醫治我百姓的損傷，說： 平安了！平安了！ 其實沒有平安。",
+          "verseKey": "jer.6.14",
+          "cunp": "他們輕輕忽忽地醫治我百姓的損傷， 說：平安了！平安了！ 其實沒有平安。",
           "words": [
             {
               "id": "hebrew-7495",
-              "eng": "For they have healed"
+              "eng": "And they have healed"
             },
             {
               "id": "hebrew-853",
@@ -155,16 +180,12 @@
               "eng": "the hurt"
             },
             {
-              "id": "hebrew-1323",
-              "eng": "of the daughter"
-            },
-            {
               "id": "hebrew-5971",
               "eng": "of My people"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
+              "eng": "on"
             },
             {
               "id": "hebrew-7043",
@@ -277,7 +298,10 @@
         "lang": "hebrew",
         "hebrew": "קְפָ֖דָה־",
         "pos": "N‑fs",
-        "eng": "Destruction"
+        "eng": "Destruction",
+        "origin_simp": "קְפָדָה",
+        "index_cht": 0,
+        "cht": "毀滅"
       },
       {
         "id": "hebrew-935",
@@ -286,7 +310,11 @@
         "hebrew": "בָ֑א",
         "pos": "V‑Qal‑Perf‑3ms",
         "punct": "–",
-        "eng": "comes"
+        "eng": "comes",
+        "origin_simp": "בָא",
+        "index_cht": 1,
+        "cht": "臨近了",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-1245",
@@ -294,7 +322,10 @@
         "lang": "hebrew",
         "hebrew": "וּבִקְשׁ֥וּ",
         "pos": "Conj‑w | V‑Piel‑ConjPerf‑3cp",
-        "eng": "and they will seek"
+        "eng": "and they will seek",
+        "origin_simp": "וּבִקְשׁוּ",
+        "index_cht": 2,
+        "cht": "他們要求"
       },
       {
         "id": "hebrew-7965",
@@ -303,7 +334,11 @@
         "hebrew": "שָׁל֖וֹם",
         "pos": "N‑ms",
         "punct": "､",
-        "eng": "peace"
+        "eng": "peace",
+        "origin_simp": "שָׁלוֹם",
+        "index_cht": 3,
+        "cht": "平安",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-369",
@@ -312,7 +347,17 @@
         "hebrew": "וָאָֽיִן׃",
         "pos": "Conj‑w | Adv",
         "punct": ".",
-        "eng": "but [there shall be] none"
+        "eng": "but [there shall be] none",
+        "origin_simp": "וָאָֽיִן",
+        "index_cht": 4,
+        "cht": "卻無"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 5,
+        "cht": "平安可得",
+        "punct_cht": "。"
       }
     ]
   }

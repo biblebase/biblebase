@@ -9,14 +9,64 @@
           "hebrew-3045": "and my acquaintances",
           "hebrew-389": "completely",
           "hebrew-2114": "are estranged",
-          "hebrew-4480": "from me"
+          "hebrew-4480": null,
+          "": null
         }
+      },
+      "translations": {
+        "greek-80": "hebrew-251",
+        "greek-3112": "hebrew-7368",
+        "greek-1492": "hebrew-3045"
       },
       "crossRefs": [
         {
-          "totalScore": 4.504176851194007,
+          "totalScore": 4.309005446707206,
           "anchors": {
-            "hebrew-7368": 2.2520884255970035
+            "hebrew-7368": 2.154502723353603
+          },
+          "verseKey": "psa.103.12",
+          "cunp": "東離西有多遠， 他叫我們的過犯離我們也有多遠！",
+          "words": [
+            {
+              "id": "hebrew-7368",
+              "eng": "As far as"
+            },
+            {
+              "id": "hebrew-4217",
+              "eng": "the east is"
+            },
+            {
+              "id": "hebrew-4628",
+              "eng": "from the west",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-7368",
+              "eng": "[So] far has He removed"
+            },
+            {
+              "id": "hebrew-4480",
+              "eng": "from us",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-6588",
+              "eng": "our transgressions",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
+            }
+          ]
+        },
+        {
+          "totalScore": 4.309005446707206,
+          "anchors": {
+            "hebrew-7368": 2.154502723353603
           },
           "verseKey": "exo.8.28",
           "cunp": "法老說：「我容你們去，在曠野祭祀耶和華－你們的神；只是不要走得很遠。求你們為我祈禱。」",
@@ -90,56 +140,21 @@
               "id": "hebrew-1157",
               "eng": "for me",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "hebrew-3212"
             }
           ]
         },
         {
-          "totalScore": 4.504176851194007,
+          "totalScore": 4.006768728479124,
           "anchors": {
-            "hebrew-7368": 2.2520884255970035
-          },
-          "verseKey": "psa.103.12",
-          "cunp": "東離西有多遠， 他叫我們的過犯離我們也有多遠！",
-          "words": [
-            {
-              "id": "hebrew-7368",
-              "eng": "As far as"
-            },
-            {
-              "id": "hebrew-4217",
-              "eng": "the east is"
-            },
-            {
-              "id": "hebrew-4628",
-              "eng": "from the west",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7368",
-              "eng": "[So] far has He removed"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from us",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6588",
-              "eng": "our transgressions",
-              "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 4.051379523945791,
-          "anchors": {
-            "hebrew-3045": 0.6423994041135569,
+            "hebrew-3045": 0.5860924714677592,
             "hebrew-389": 1.4265074479023576,
-            "hebrew-2114": 1.9824726719298762
+            "hebrew-2114": 1.9941688091090077
           },
           "verseKey": "jer.3.13",
           "cunp": "只要承認你的罪孽， 就是你違背耶和華－你的神， 在各青翠樹下向別神東奔西跑， 沒有聽從我的話。 這是耶和華說的。",
@@ -228,6 +243,9 @@
               "id": "hebrew-3068",
               "eng": "Yahweh",
               "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -314,7 +332,10 @@
         "lang": "hebrew",
         "hebrew": "אַ֭חַי",
         "pos": "N‑mpc | 1cs",
-        "eng": "My brothers"
+        "eng": "My brothers",
+        "origin_simp": "אַחַי",
+        "index_cht": 0,
+        "cht": "他把我的弟兄"
       },
       {
         "id": "hebrew-5921",
@@ -322,7 +343,10 @@
         "lang": "hebrew",
         "hebrew": "מֵעָלַ֣י",
         "pos": "Prep‑m | 1cs",
-        "eng": "from me"
+        "eng": "from me",
+        "origin_simp": "",
+        "index_cht": 2,
+        "cht": "在"
       },
       {
         "id": "hebrew-7368",
@@ -330,7 +354,10 @@
         "lang": "hebrew",
         "hebrew": "הִרְחִ֑יק",
         "pos": "V‑Hifil‑Perf‑3ms",
-        "eng": "He has removed far"
+        "eng": "He has removed far",
+        "origin_simp": "הִרְחִיק",
+        "index_cht": 1,
+        "cht": "隔"
       },
       {
         "id": "hebrew-3045",
@@ -338,7 +365,10 @@
         "lang": "hebrew",
         "hebrew": "וְ֝יֹדְעַ֗י",
         "pos": "Conj‑w | V‑Qal‑Prtcpl‑mpc | 1cs",
-        "eng": "and my acquaintances"
+        "eng": "and my acquaintances",
+        "origin_simp": "וְיֹדְעַי",
+        "index_cht": 4,
+        "cht": "使我所認識的"
       },
       {
         "id": "hebrew-389",
@@ -346,7 +376,10 @@
         "lang": "hebrew",
         "hebrew": "אַךְ־",
         "pos": "Adv",
-        "eng": "completely"
+        "eng": "completely",
+        "origin_simp": "אַךְ",
+        "index_cht": 5,
+        "cht": "全然"
       },
       {
         "id": "hebrew-2114",
@@ -354,7 +387,11 @@
         "lang": "hebrew",
         "hebrew": "זָ֥רוּ",
         "pos": "V‑Qal‑Perf‑3cp",
-        "eng": "are estranged"
+        "eng": "are estranged",
+        "origin_simp": "זָרוּ",
+        "index_cht": 7,
+        "cht": "生疏",
+        "punct_cht": "。"
       },
       {
         "id": "hebrew-4480",
@@ -363,7 +400,23 @@
         "hebrew": "מִמֶּֽנִּי׃",
         "pos": "Prep | 1cs",
         "punct": ".",
-        "eng": "from me"
+        "eng": "from me",
+        "origin_simp": "מִמֶּֽנִּימֵעָלַי",
+        "index_cht": 2,
+        "cht": "在"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "遠處",
+        "punct_cht": "，"
+      },
+      {
+        "id": "hebrew-4480",
+        "origin_simp": "[from]",
+        "index_cht": 6,
+        "cht": "與我"
       }
     ]
   }

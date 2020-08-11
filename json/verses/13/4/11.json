@@ -14,12 +14,16 @@
           "hebrew-850": "of Eshton"
         }
       },
+      "translations": {
+        "greek-80": "hebrew-251",
+        "greek-430": "hebrew-3205",
+        "greek-3962": "hebrew-1"
+      },
       "crossRefs": [
         {
-          "totalScore": 11.678703684493065,
+          "totalScore": 11.133795268090076,
           "anchors": {
-            "hebrew-3205": 0.8565794689768332,
-            "hebrew-1": 0.5735243438968544,
+            "hebrew-3205": 0.8851953964706981,
             "hebrew-850": 10.248599871619378
           },
           "verseKey": "1ch.4.12",
@@ -80,6 +84,9 @@
               "id": "hebrew-7397",
               "eng": "of Rechah",
               "punct": "."
+            },
+            {
+              "id": "hebrew-582"
             }
           ]
         },
@@ -127,6 +134,84 @@
               "id": "hebrew-3620",
               "eng": "Chelub",
               "punct": "–"
+            }
+          ]
+        },
+        {
+          "totalScore": 3.5407815858827925,
+          "anchors": {
+            "hebrew-3205": 0.8851953964706981
+          },
+          "verseKey": "gen.4.18",
+          "cunp": "以諾生以拿；以拿生米戶雅利；米戶雅利生瑪土撒利；瑪土撒利生拉麥。",
+          "words": [
+            {
+              "id": "hebrew-3205",
+              "eng": "And was born"
+            },
+            {
+              "id": "hebrew-2585",
+              "eng": "to Enoch"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-5897",
+              "eng": "Irad",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-5897",
+              "eng": "and Irad"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "begat"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-4232",
+              "eng": "Mehujael",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-4232",
+              "eng": "and Mehujael"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "begat"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-4967",
+              "eng": "Methushael",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-4967",
+              "eng": "and Methushael"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "begat"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-3929",
+              "eng": "Lamech",
+              "punct": "."
             }
           ]
         }
@@ -177,7 +262,10 @@
         "lang": "hebrew",
         "hebrew": "וּכְל֥וּב",
         "pos": "Conj‑w | N‑proper‑ms",
-        "eng": "And Chelub"
+        "eng": "And Chelub",
+        "origin_simp": "וּכְלוּב",
+        "index_cht": 2,
+        "cht": "基綠"
       },
       {
         "id": "hebrew-251",
@@ -185,7 +273,10 @@
         "lang": "hebrew",
         "hebrew": "אֲחִֽי־",
         "pos": "N‑msc",
-        "eng": "the brother"
+        "eng": "the brother",
+        "origin_simp": "אֲחִֽי",
+        "index_cht": 1,
+        "cht": "的弟兄"
       },
       {
         "id": "hebrew-7746",
@@ -193,7 +284,10 @@
         "lang": "hebrew",
         "hebrew": "שׁוּחָ֖ה",
         "pos": "N‑proper‑ms",
-        "eng": "of Shuhah"
+        "eng": "of Shuhah",
+        "origin_simp": "שׁוּחָה",
+        "index_cht": 0,
+        "cht": "書哈"
       },
       {
         "id": "hebrew-3205",
@@ -201,7 +295,10 @@
         "lang": "hebrew",
         "hebrew": "הוֹלִ֣יד",
         "pos": "V‑Hifil‑Perf‑3ms",
-        "eng": "begat"
+        "eng": "begat",
+        "origin_simp": "הוֹלִיד#[Obj.]",
+        "index_cht": 3,
+        "cht": "生"
       },
       {
         "id": "hebrew-853",
@@ -209,7 +306,10 @@
         "lang": "hebrew",
         "hebrew": "אֶת־",
         "pos": "DirObjM",
-        "eng": "-"
+        "eng": "-",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "生"
       },
       {
         "id": "hebrew-4243",
@@ -218,7 +318,11 @@
         "hebrew": "מְחִ֑יר",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Mehir"
+        "eng": "Mehir",
+        "origin_simp": "מְחִיר",
+        "index_cht": 4,
+        "cht": "米黑",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-1931",
@@ -226,7 +330,10 @@
         "lang": "hebrew",
         "hebrew": "ה֖וּא",
         "pos": "Pro‑3ms",
-        "eng": "he [was]"
+        "eng": "he [was]",
+        "origin_simp": "הוּא",
+        "index_cht": 5,
+        "cht": "米黑"
       },
       {
         "id": "hebrew-1",
@@ -234,7 +341,11 @@
         "lang": "hebrew",
         "hebrew": "אֲבִ֥י",
         "pos": "N‑msc",
-        "eng": "the father"
+        "eng": "the father",
+        "origin_simp": "אֲבִי",
+        "index_cht": 7,
+        "cht": "之祖",
+        "punct_cht": "。"
       },
       {
         "id": "hebrew-850",
@@ -243,7 +354,10 @@
         "hebrew": "אֶשְׁתּֽוֹן׃",
         "pos": "N‑proper‑ms",
         "punct": ".",
-        "eng": "of Eshton"
+        "eng": "of Eshton",
+        "origin_simp": "אֶשְׁתּֽוֹן",
+        "index_cht": 6,
+        "cht": "是伊施屯"
       }
     ]
   }

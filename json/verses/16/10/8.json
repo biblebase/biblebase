@@ -10,6 +10,9 @@
           "hebrew-3548": "the priests"
         }
       },
+      "translations": {
+        "greek-749": "hebrew-3548"
+      },
       "crossRefs": [
         {
           "totalScore": 10.248599871619378,
@@ -45,6 +48,72 @@
               "id": "hebrew-6242",
               "eng": "and twenty",
               "punct": "."
+            }
+          ]
+        },
+        {
+          "totalScore": 5.265083896191722,
+          "anchors": {
+            "hebrew-8098": 2.632541948095861
+          },
+          "verseKey": "1ch.3.22",
+          "cunp": "示迦尼的兒子是示瑪雅；示瑪雅的兒子是哈突、以甲、巴利亞、尼利雅、沙法，共六人。",
+          "words": [
+            {
+              "id": "hebrew-1121",
+              "eng": "And the son"
+            },
+            {
+              "id": "hebrew-7935",
+              "eng": "of Shechaniah",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-8098",
+              "eng": "was Shemaiah",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1121",
+              "eng": "and the sons"
+            },
+            {
+              "id": "hebrew-8098",
+              "eng": "of Shemaiah",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-2407",
+              "eng": "[were] Hattush",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3008",
+              "eng": "and Igal",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1282",
+              "eng": "and Bariah",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-5294",
+              "eng": "and Neariah",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-8202",
+              "eng": "and Shaphat",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-8337",
+              "eng": "six [in all]",
+              "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         },
@@ -150,69 +219,6 @@
               "punct": "､"
             }
           ]
-        },
-        {
-          "totalScore": 5.265083896191722,
-          "anchors": {
-            "hebrew-8098": 2.632541948095861
-          },
-          "verseKey": "1ch.3.22",
-          "cunp": "示迦尼的兒子是示瑪雅；示瑪雅的兒子是哈突、以甲、巴利亞、尼利雅、沙法，共六人。",
-          "words": [
-            {
-              "id": "hebrew-1121",
-              "eng": "And the son"
-            },
-            {
-              "id": "hebrew-7935",
-              "eng": "of Shechaniah",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8098",
-              "eng": "was Shemaiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "and the sons"
-            },
-            {
-              "id": "hebrew-8098",
-              "eng": "of Shemaiah",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2407",
-              "eng": "[were] Hattush",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3008",
-              "eng": "and Igal",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1282",
-              "eng": "and Bariah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5294",
-              "eng": "and Neariah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8202",
-              "eng": "and Shaphat",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8337",
-              "eng": "six [in all]",
-              "punct": "."
-            }
-          ]
         }
       ]
     },
@@ -282,7 +288,10 @@
         "hebrew": "מַֽעַזְיָ֥ה",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Maaziah"
+        "eng": "Maaziah",
+        "origin_simp": "מַֽעַזְיָה",
+        "index_cht": 0,
+        "cht": "瑪西亞、"
       },
       {
         "id": "hebrew-1084",
@@ -291,7 +300,10 @@
         "hebrew": "בִלְגַּ֖י",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "Bilgai"
+        "eng": "Bilgai",
+        "origin_simp": "בִלְגַּי",
+        "index_cht": 1,
+        "cht": "璧該、"
       },
       {
         "id": "hebrew-8098",
@@ -300,7 +312,11 @@
         "hebrew": "שְׁמַֽעְיָ֑ה",
         "pos": "N‑proper‑ms",
         "punct": ".",
-        "eng": "[and] Shemaiah"
+        "eng": "[and] Shemaiah",
+        "origin_simp": "שְׁמַֽעְיָה",
+        "index_cht": 2,
+        "cht": "示瑪雅",
+        "punct_cht": "；"
       },
       {
         "id": "hebrew-428",
@@ -308,7 +324,8 @@
         "lang": "hebrew",
         "hebrew": "אֵ֖לֶּה",
         "pos": "Pro‑cp",
-        "eng": "These [were]"
+        "eng": "These [were]",
+        "origin_simp": "אֵ֖לֶּה"
       },
       {
         "id": "hebrew-3548",
@@ -317,7 +334,8 @@
         "hebrew": "הַכֹּהֲנִֽים׃",
         "pos": "Art | N‑mp",
         "punct": ".",
-        "eng": "the priests"
+        "eng": "the priests",
+        "origin_simp": "הַכֹּהֲנִֽים׃"
       }
     ]
   }

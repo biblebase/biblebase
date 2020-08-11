@@ -3,23 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3739": "who",
+          "greek-3588": "those",
           "greek-4218": "once [were]",
           "greek-3756": "not",
           "greek-2992": "[the] people",
           "greek-3568": "now",
           "greek-1161": "however",
           "greek-2316": "of God",
-          "greek-3588": "those",
-          "greek-1653": "having received mercy"
+          "greek-1653": "having received mercy",
+          "": null
         }
+      },
+      "translations": {
+        "hebrew-5971": "greek-2992",
+        "hebrew-430": "greek-2316",
+        "hebrew-2617": "greek-1653"
       },
       "crossRefs": [
         {
-          "totalScore": 5.907048945789407,
+          "totalScore": 4.4458672386021085,
           "anchors": {
             "greek-3568": 1.481955746200703,
-            "greek-1653": 2.943137453388001
+            "greek-1653": 1.481955746200703
           },
           "verseKey": "rom.11.31",
           "cunp": "這樣，他們也是不順服，叫他們因着施給你們的憐恤，現在也就蒙憐恤。",
@@ -82,9 +87,75 @@
           ]
         },
         {
-          "totalScore": 5.886274906776002,
+          "totalScore": 3.348538389267592,
           "anchors": {
-            "greek-1653": 2.943137453388001
+            "greek-3568": 1.481955746200703,
+            "greek-2316": 0.3846268968661864,
+            "greek-1653": 1.481955746200703
+          },
+          "verseKey": "rom.11.30",
+          "cunp": "你們從前不順服神，如今因他們的不順服，你們倒蒙了憐恤。",
+          "words": [
+            {
+              "id": "greek-5618",
+              "eng": "Just as"
+            },
+            {
+              "id": "greek-1063",
+              "eng": "for"
+            },
+            {
+              "id": "greek-5210",
+              "eng": "you"
+            },
+            {
+              "id": "greek-4218",
+              "eng": "once"
+            },
+            {
+              "id": "greek-544",
+              "eng": "were disobedient"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "-"
+            },
+            {
+              "id": "greek-2316",
+              "eng": "to God",
+              "punct": ","
+            },
+            {
+              "id": "greek-3568",
+              "eng": "now"
+            },
+            {
+              "id": "greek-1161",
+              "eng": "however"
+            },
+            {
+              "id": "greek-1653",
+              "eng": "have been shown mercy"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-5130",
+              "eng": "of these"
+            },
+            {
+              "id": "greek-543",
+              "eng": "disobedience",
+              "punct": ","
+            }
+          ]
+        },
+        {
+          "totalScore": 2.963911492401406,
+          "anchors": {
+            "greek-1653": 1.481955746200703
           },
           "verseKey": "mat.18.33",
           "cunp": "你不應當憐恤你的同伴，像我憐恤你嗎？』",
@@ -102,7 +173,7 @@
               "eng": "also"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-4571",
               "eng": "you"
             },
             {
@@ -118,7 +189,7 @@
               "eng": "fellow servant"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-4675",
               "eng": "of you",
               "punct": ","
             },
@@ -131,78 +202,19 @@
               "eng": "also I"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-4571",
               "eng": "you"
             },
             {
               "id": "greek-1653",
               "eng": "had pitied",
               "punct": "?"
-            }
-          ]
-        },
-        {
-          "totalScore": 5.886274906776002,
-          "anchors": {
-            "greek-1653": 2.943137453388001
-          },
-          "verseKey": "rom.9.15",
-          "cunp": "因他對摩西說： 我要憐憫誰就憐憫誰， 要恩待誰就恩待誰。",
-          "words": [
-            {
-              "id": "greek-3588",
-              "eng": "To"
             },
             {
-              "id": "greek-3475",
-              "eng": "Moses"
+              "id": "greek-1473"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "He says",
-              "punct": ":"
-            },
-            {
-              "id": "greek-1653",
-              "eng": "I will show mercy to"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1653",
-              "eng": "I may show mercy",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3627",
-              "eng": "I will have compassion on"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3627",
-              "eng": "I may have compassion",
-              "punct": "."
+              "id": ""
             }
           ]
         }
@@ -330,12 +342,15 @@
     },
     "words": [
       {
-        "id": "greek-3739",
+        "id": "greek-3588",
         "translit": "hoi",
         "lang": "greek",
         "greek": "οἵ",
         "pos": "RelPro-NMP",
-        "eng": "who"
+        "eng": "who",
+        "origin_simp": "οι",
+        "index_cht": 0,
+        "cht": "你們"
       },
       {
         "id": "greek-4218",
@@ -343,7 +358,10 @@
         "lang": "greek",
         "greek": "ποτε",
         "pos": "Prtcl",
-        "eng": "once [were]"
+        "eng": "once [were]",
+        "origin_simp": "ποτε",
+        "index_cht": 1,
+        "cht": "從前"
       },
       {
         "id": "greek-3756",
@@ -351,7 +369,10 @@
         "lang": "greek",
         "greek": "οὐ",
         "pos": "Adv",
-        "eng": "not"
+        "eng": "not",
+        "origin_simp": "ου",
+        "index_cht": 2,
+        "cht": "算不得"
       },
       {
         "id": "greek-2992",
@@ -360,7 +381,11 @@
         "greek": "λαὸς",
         "pos": "N-NMS",
         "punct": ",",
-        "eng": "a people"
+        "eng": "a people",
+        "origin_simp": "λαος",
+        "index_cht": 3,
+        "cht": "子民",
+        "punct_cht": "，"
       },
       {
         "id": "greek-3568",
@@ -368,7 +393,10 @@
         "lang": "greek",
         "greek": "νῦν",
         "pos": "Adv",
-        "eng": "now"
+        "eng": "now",
+        "origin_simp": "νυν",
+        "index_cht": 4,
+        "cht": "現在"
       },
       {
         "id": "greek-1161",
@@ -376,7 +404,10 @@
         "lang": "greek",
         "greek": "δὲ",
         "pos": "Conj",
-        "eng": "however"
+        "eng": "however",
+        "origin_simp": "δε",
+        "index_cht": 5,
+        "cht": "卻"
       },
       {
         "id": "greek-2992",
@@ -384,7 +415,11 @@
         "lang": "greek",
         "greek": "λαὸς",
         "pos": "N-NMS",
-        "eng": "[the] people"
+        "eng": "[the] people",
+        "origin_simp": "λαος",
+        "index_cht": 8,
+        "cht": "的子民",
+        "punct_cht": "；"
       },
       {
         "id": "greek-2316",
@@ -393,7 +428,10 @@
         "greek": "Θεοῦ",
         "pos": "N-GMS",
         "punct": ";",
-        "eng": "of God"
+        "eng": "of God",
+        "origin_simp": "θεου",
+        "index_cht": 7,
+        "cht": "神"
       },
       {
         "id": "greek-3588",
@@ -401,7 +439,8 @@
         "lang": "greek",
         "greek": "οἱ",
         "pos": "Art-NMP",
-        "eng": "those"
+        "eng": "those",
+        "origin_simp": "οι"
       },
       {
         "id": "greek-3756",
@@ -409,7 +448,10 @@
         "lang": "greek",
         "greek": "οὐκ",
         "pos": "Adv",
-        "eng": "not"
+        "eng": "not",
+        "origin_simp": "ουκ",
+        "index_cht": 9,
+        "cht": "從前未曾蒙"
       },
       {
         "id": "greek-1653",
@@ -418,7 +460,11 @@
         "greek": "ἠλεημένοι",
         "pos": "V-RPM/P-NMP",
         "punct": ",",
-        "eng": "having received mercy"
+        "eng": "having received mercy",
+        "origin_simp": "ηλεημενοι",
+        "index_cht": 10,
+        "cht": "憐恤",
+        "punct_cht": "，"
       },
       {
         "id": "greek-3568",
@@ -426,7 +472,10 @@
         "lang": "greek",
         "greek": "νῦν",
         "pos": "Adv",
-        "eng": "now"
+        "eng": "now",
+        "origin_simp": "νυν",
+        "index_cht": 11,
+        "cht": "現在"
       },
       {
         "id": "greek-1161",
@@ -434,7 +483,10 @@
         "lang": "greek",
         "greek": "δὲ",
         "pos": "Conj",
-        "eng": "however"
+        "eng": "however",
+        "origin_simp": "δε",
+        "index_cht": 12,
+        "cht": "卻"
       },
       {
         "id": "greek-1653",
@@ -443,7 +495,17 @@
         "greek": "ἐλεηθέντες",
         "pos": "V-APP-NMP",
         "punct": ".",
-        "eng": "having received mercy"
+        "eng": "having received mercy",
+        "origin_simp": "ελεηθεντες",
+        "index_cht": 13,
+        "cht": "蒙了憐恤",
+        "punct_cht": "。"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 6,
+        "cht": "作了"
       }
     ]
   }

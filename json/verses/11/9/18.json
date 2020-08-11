@@ -10,12 +10,16 @@
           "hebrew-776": "in the land [of Judah]"
         }
       },
+      "translations": {
+        "greek-2048": "hebrew-4057",
+        "greek-5564": "hebrew-776"
+      },
       "crossRefs": [
         {
-          "totalScore": 11.375834552110707,
+          "totalScore": 11.325253481653304,
           "anchors": {
             "hebrew-8412": 10.248599871619378,
-            "hebrew-4057": 1.127234680491329
+            "hebrew-4057": 1.0766536100339261
           },
           "verseKey": "2ch.8.4",
           "cunp": "所羅門建造曠野裏的達莫，又建造哈馬所有的積貨城，",
@@ -66,14 +70,41 @@
               "id": "hebrew-2574",
               "eng": "in Hamath",
               "punct": "."
+            },
+            {
+              "id": "hebrew-8010"
             }
           ]
         },
         {
-          "totalScore": 8.953226755619408,
+          "totalScore": 8.539323589735611,
           "anchors": {
-            "hebrew-1191": 8.539323589735611,
-            "hebrew-776": 0.4139031658837977
+            "hebrew-1191": 8.539323589735611
+          },
+          "verseKey": "jos.19.44",
+          "cunp": "伊利提基、基比頓、巴拉、",
+          "words": [
+            {
+              "id": "hebrew-514",
+              "eng": "and Eltekeh",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1405",
+              "eng": "and Gibbethon",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1191",
+              "eng": "and Baalath",
+              "punct": "､"
+            }
+          ]
+        },
+        {
+          "totalScore": 8.539323589735611,
+          "anchors": {
+            "hebrew-1191": 8.539323589735611
           },
           "verseKey": "2ch.8.6",
           "cunp": "又建造巴拉和所有的積貨城，並屯車輛馬兵的城，與耶路撒冷、黎巴嫩，以及自己治理的全國中所願意建造的。",
@@ -196,31 +227,12 @@
               "id": "hebrew-4474",
               "eng": "of his dominion",
               "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 8.539323589735611,
-          "anchors": {
-            "hebrew-1191": 8.539323589735611
-          },
-          "verseKey": "jos.19.44",
-          "cunp": "伊利提基、基比頓、巴拉、",
-          "words": [
-            {
-              "id": "hebrew-514",
-              "eng": "and Eltekeh",
-              "punct": "､"
             },
             {
-              "id": "hebrew-1405",
-              "eng": "and Gibbethon",
-              "punct": "､"
+              "id": "hebrew-4475"
             },
             {
-              "id": "hebrew-1191",
-              "eng": "and Baalath",
-              "punct": "､"
+              "id": ""
             }
           ]
         }
@@ -304,7 +316,10 @@
         "lang": "hebrew",
         "hebrew": "וְאֶֽת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "[[Obj.]]",
+        "index_cht": 1,
+        "cht": "並"
       },
       {
         "id": "hebrew-1191",
@@ -313,7 +328,11 @@
         "hebrew": "בַּעֲלָ֛ת",
         "pos": "N‑proper‑fs",
         "punct": "､",
-        "eng": "Baalath"
+        "eng": "Baalath",
+        "origin_simp": "בַּעֲלָת",
+        "index_cht": 0,
+        "cht": "巴拉",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-853",
@@ -321,7 +340,8 @@
         "lang": "hebrew",
         "hebrew": "וְאֶת־",
         "pos": "Conj‑w | DirObjM",
-        "eng": "and"
+        "eng": "and",
+        "origin_simp": "וְאֶת־"
       },
       {
         "id": "hebrew-8412",
@@ -329,7 +349,11 @@
         "lang": "hebrew",
         "hebrew": "(תַּדְמֹ֥ר)",
         "pos": "N‑proper‑fs",
-        "eng": "Tadmor"
+        "eng": "Tadmor",
+        "origin_simp": "תמר",
+        "index_cht": 4,
+        "cht": "裡的達莫",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-4057",
@@ -338,7 +362,10 @@
         "hebrew": "בַּמִּדְבָּ֖ר",
         "pos": "Prep‑b, Art | N‑ms",
         "punct": "､",
-        "eng": "in the wilderness"
+        "eng": "in the wilderness",
+        "origin_simp": "בַּמִּדְבָּר",
+        "index_cht": 3,
+        "cht": "中曠野"
       },
       {
         "id": "hebrew-776",
@@ -347,7 +374,10 @@
         "hebrew": "בָּאָֽרֶץ׃",
         "pos": "Prep‑b, Art | N‑fs",
         "punct": "､",
-        "eng": "in the land [of Judah]"
+        "eng": "in the land [of Judah]",
+        "origin_simp": "בָּאָֽרֶץ",
+        "index_cht": 2,
+        "cht": "國"
       }
     ]
   }

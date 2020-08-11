@@ -9,16 +9,22 @@
           "greek-2443": "that",
           "greek-3367": "no one",
           "greek-3004": "they should tell",
-          "greek-4012": "concerning"
+          "greek-4012": "concerning",
+          "greek-2424": null
         }
+      },
+      "translations": {
+        "hebrew-3198": "greek-2008",
+        "hebrew-559": "greek-3004"
       },
       "crossRefs": [
         {
-          "totalScore": 5.494717305244679,
+          "totalScore": 4.716852451588265,
           "anchors": {
-            "greek-2008": 3.0764434511361327,
+            "greek-2008": 1.9597282114607166,
             "greek-3367": 1.8389054889739125,
-            "greek-3004": 0.5793683651346344
+            "greek-3004": 0.27053312959209697,
+            "greek-2424": 0.6476856215615396
           },
           "verseKey": "luk.4.35",
           "cunp": "耶穌責備他說：「不要作聲，從這人身上出來吧！」鬼把那人摔倒在眾人中間，就出來了，卻也沒有害他。",
@@ -128,15 +134,24 @@
               "id": "greek-846",
               "eng": "him",
               "punct": "."
+            },
+            {
+              "id": "greek-1537"
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 5.494717305244679,
+          "totalScore": 4.069166830026726,
           "anchors": {
-            "greek-2008": 3.0764434511361327,
+            "greek-2008": 1.9597282114607166,
             "greek-3367": 1.8389054889739125,
-            "greek-3004": 0.5793683651346344
+            "greek-3004": 0.27053312959209697
           },
           "verseKey": "luk.9.21",
           "cunp": "耶穌切切地囑咐他們，不可將這事告訴人，",
@@ -171,9 +186,132 @@
               "eng": "to tell"
             },
             {
-              "id": "greek-3778",
+              "id": "greek-5124",
               "eng": "this",
               "punct": ","
+            },
+            {
+              "id": "greek-2036"
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 3.948344107539922,
+          "anchors": {
+            "greek-3367": 1.8389054889739125,
+            "greek-3004": 0.27053312959209697
+          },
+          "verseKey": "mrk.1.44",
+          "cunp": "對他說：「你要謹慎，甚麼話都不可告訴人，只要去把身體給祭司察看，又因為你潔淨了，獻上摩西所吩咐的禮物，對眾人作證據。」",
+          "words": [
+            {
+              "id": "greek-2532",
+              "eng": "And"
+            },
+            {
+              "id": "greek-3004",
+              "eng": "He says"
+            },
+            {
+              "id": "greek-846",
+              "eng": "to him",
+              "punct": ","
+            },
+            {
+              "id": "greek-3708",
+              "eng": "See [that]"
+            },
+            {
+              "id": "greek-3367",
+              "eng": "nothing"
+            },
+            {
+              "id": "greek-3367",
+              "eng": "to none"
+            },
+            {
+              "id": "greek-2036",
+              "eng": "you speak",
+              "punct": "."
+            },
+            {
+              "id": "greek-235",
+              "eng": "But"
+            },
+            {
+              "id": "greek-5217",
+              "eng": "go",
+              "punct": ","
+            },
+            {
+              "id": "greek-4572",
+              "eng": "yourself"
+            },
+            {
+              "id": "greek-1166",
+              "eng": "show"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "to the"
+            },
+            {
+              "id": "greek-2409",
+              "eng": "priest",
+              "punct": ","
+            },
+            {
+              "id": "greek-2532",
+              "eng": "and"
+            },
+            {
+              "id": "greek-4374",
+              "eng": "offer"
+            },
+            {
+              "id": "greek-4012",
+              "eng": "for"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-2512",
+              "eng": "cleansing"
+            },
+            {
+              "id": "greek-4675",
+              "eng": "of you"
+            },
+            {
+              "id": "greek-3739",
+              "eng": "what"
+            },
+            {
+              "id": "greek-4367",
+              "eng": "commanded"
+            },
+            {
+              "id": "greek-3475",
+              "eng": "Moses",
+              "punct": ","
+            },
+            {
+              "id": "greek-1519",
+              "eng": "for"
+            },
+            {
+              "id": "greek-3142",
+              "eng": "a testimony"
+            },
+            {
+              "id": "greek-846",
+              "eng": "to them",
+              "punct": "."
             }
           ]
         }
@@ -284,7 +422,10 @@
         "lang": "greek",
         "greek": "Καὶ",
         "pos": "Conj",
-        "eng": "And"
+        "eng": "And",
+        "origin_simp": "και",
+        "index_cht": 1,
+        "cht": "就"
       },
       {
         "id": "greek-2008",
@@ -292,7 +433,10 @@
         "lang": "greek",
         "greek": "ἐπετίμησεν",
         "pos": "V-AIA-3S",
-        "eng": "He warned"
+        "eng": "He warned",
+        "origin_simp": "επετιμησεν",
+        "index_cht": 2,
+        "cht": "禁戒"
       },
       {
         "id": "greek-846",
@@ -300,7 +444,11 @@
         "lang": "greek",
         "greek": "αὐτοῖς",
         "pos": "PPro-DM3P",
-        "eng": "them"
+        "eng": "them",
+        "origin_simp": "αυτοις",
+        "index_cht": 3,
+        "cht": "他們",
+        "punct_cht": "，"
       },
       {
         "id": "greek-2443",
@@ -308,7 +456,8 @@
         "lang": "greek",
         "greek": "ἵνα",
         "pos": "Conj",
-        "eng": "that"
+        "eng": "that",
+        "origin_simp": "ινα"
       },
       {
         "id": "greek-3367",
@@ -316,7 +465,11 @@
         "lang": "greek",
         "greek": "μηδενὶ",
         "pos": "Adj-DMS",
-        "eng": "no one"
+        "eng": "no one",
+        "origin_simp": "μηδενι",
+        "index_cht": 5,
+        "cht": "人",
+        "punct_cht": "。"
       },
       {
         "id": "greek-3004",
@@ -324,7 +477,10 @@
         "lang": "greek",
         "greek": "λέγωσιν",
         "pos": "V-PSA-3P",
-        "eng": "they should tell"
+        "eng": "they should tell",
+        "origin_simp": "λεγωσιν",
+        "index_cht": 4,
+        "cht": "不要告訴"
       },
       {
         "id": "greek-4012",
@@ -332,7 +488,8 @@
         "lang": "greek",
         "greek": "περὶ",
         "pos": "Prep",
-        "eng": "concerning"
+        "eng": "concerning",
+        "origin_simp": "περι"
       },
       {
         "id": "greek-846",
@@ -341,7 +498,14 @@
         "greek": "αὐτοῦ",
         "pos": "PPro-GM3S",
         "punct": ".",
-        "eng": "Him"
+        "eng": "Him",
+        "origin_simp": "αυτου"
+      },
+      {
+        "id": "greek-2424",
+        "origin_simp": "[Jesus/Joshua]",
+        "index_cht": 0,
+        "cht": "耶穌"
       }
     ]
   }

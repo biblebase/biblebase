@@ -3,20 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-4771": "You",
+          "greek-5210": "You",
           "greek-1161": "however",
           "greek-3756": "not",
           "greek-3779": "this way",
-          "greek-3129": "learned",
+          "greek-3129": null,
           "greek-3588": "-",
           "greek-5547": "Christ"
         }
       },
+      "translations": {
+        "hebrew-3541": "greek-3779",
+        "hebrew-3948": "greek-3129"
+      },
       "crossRefs": [
         {
-          "totalScore": 6.577866081292906,
+          "totalScore": 5.97097522393643,
           "anchors": {
-            "greek-3129": 3.288933040646453
+            "greek-3129": 2.985487611968215
           },
           "verseKey": "2ti.3.14",
           "cunp": "但你所學習的，所確信的，要存在心裏；因為你知道是跟誰學的，",
@@ -71,6 +75,109 @@
               "id": "greek-3129",
               "eng": "you learned [them]",
               "punct": ","
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 3.8106716978088113,
+          "anchors": {
+            "greek-3129": 2.985487611968215,
+            "greek-5547": 0.825184085840596
+          },
+          "verseKey": "col.1.7",
+          "cunp": "正如你們從我們所親愛、一同作僕人的以巴弗所學的。他為我們作了基督忠心的執事，",
+          "words": [
+            {
+              "id": "greek-2531",
+              "eng": "just as"
+            },
+            {
+              "id": "greek-3129",
+              "eng": "you learned"
+            },
+            {
+              "id": "greek-575",
+              "eng": "from"
+            },
+            {
+              "id": "greek-1889",
+              "eng": "Epaphras",
+              "punct": ","
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-27",
+              "eng": "beloved"
+            },
+            {
+              "id": "greek-4889",
+              "eng": "fellow bond-servant"
+            },
+            {
+              "id": "greek-2257",
+              "eng": "of us",
+              "punct": ","
+            },
+            {
+              "id": "greek-3739",
+              "eng": "who"
+            },
+            {
+              "id": "greek-2076",
+              "eng": "is"
+            },
+            {
+              "id": "greek-4103",
+              "eng": "faithful"
+            },
+            {
+              "id": "greek-5228",
+              "eng": "on behalf of"
+            },
+            {
+              "id": "greek-1473",
+              "eng": "us",
+              "punct": ","
+            },
+            {
+              "id": "greek-1249",
+              "eng": "a servant"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "-"
+            },
+            {
+              "id": "greek-5547",
+              "eng": "of Christ",
+              "punct": ","
+            },
+            {
+              "id": "greek-2532"
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "greek-5216"
             }
           ]
         }
@@ -175,12 +282,15 @@
     },
     "words": [
       {
-        "id": "greek-4771",
+        "id": "greek-5210",
         "translit": "Hymeis",
         "lang": "greek",
         "greek": "Ὑμεῖς",
         "pos": "PPro-N2P",
-        "eng": "You"
+        "eng": "You",
+        "origin_simp": "υμεις",
+        "index_cht": 0,
+        "cht": "你們"
       },
       {
         "id": "greek-1161",
@@ -188,7 +298,10 @@
         "lang": "greek",
         "greek": "δὲ",
         "pos": "Conj",
-        "eng": "however"
+        "eng": "however",
+        "origin_simp": "δε",
+        "index_cht": 3,
+        "cht": "卻"
       },
       {
         "id": "greek-3756",
@@ -196,7 +309,10 @@
         "lang": "greek",
         "greek": "οὐχ",
         "pos": "Adv",
-        "eng": "not"
+        "eng": "not",
+        "origin_simp": "ουχ",
+        "index_cht": 4,
+        "cht": "不是"
       },
       {
         "id": "greek-3779",
@@ -204,7 +320,11 @@
         "lang": "greek",
         "greek": "οὕτως",
         "pos": "Adv",
-        "eng": "this way"
+        "eng": "this way",
+        "origin_simp": "ουτως",
+        "index_cht": 5,
+        "cht": "這樣",
+        "punct_cht": "。"
       },
       {
         "id": "greek-3129",
@@ -212,7 +332,10 @@
         "lang": "greek",
         "greek": "ἐμάθετε",
         "pos": "V-AIA-2P",
-        "eng": "learned"
+        "eng": "learned",
+        "origin_simp": "εμαθετε#tolearn",
+        "index_cht": 1,
+        "cht": "學了"
       },
       {
         "id": "greek-3588",
@@ -220,7 +343,11 @@
         "lang": "greek",
         "greek": "τὸν",
         "pos": "Art-AMS",
-        "eng": "-"
+        "eng": "-",
+        "origin_simp": "τονχριστον",
+        "index_cht": 2,
+        "cht": "基督",
+        "punct_cht": "，"
       },
       {
         "id": "greek-5547",
@@ -229,7 +356,17 @@
         "greek": "Χριστόν",
         "pos": "N-AMS",
         "punct": ",",
-        "eng": "Christ"
+        "eng": "Christ",
+        "origin_simp": "",
+        "index_cht": 2,
+        "cht": "基督",
+        "punct_cht": "，"
+      },
+      {
+        "id": "greek-3129",
+        "origin_simp": "",
+        "index_cht": 1,
+        "cht": "學了"
       }
     ]
   }

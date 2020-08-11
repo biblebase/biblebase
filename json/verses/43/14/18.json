@@ -5,11 +5,15 @@
         "dict": {
           "greek-3756": "Not",
           "greek-863": "I will leave",
-          "greek-4771": "you",
+          "greek-5209": "you",
           "greek-3737": "as orphans",
           "greek-2064": "I am coming",
           "greek-4314": "to"
         }
+      },
+      "translations": {
+        "hebrew-7604": "greek-863",
+        "hebrew-935": "greek-2064"
       },
       "crossRefs": [
         {
@@ -122,6 +126,138 @@
               "id": "greek-2889",
               "eng": "world",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "greek-2076"
+            }
+          ]
+        },
+        {
+          "totalScore": 3.3321719095088653,
+          "anchors": {
+            "greek-863": 1.1107239698362885
+          },
+          "verseKey": "2ki.7.13",
+          "cunp": "有一個臣僕對王說：「我們不如用城裏剩下之馬中的五匹馬（馬和城裏剩下的以色列人都是一樣，快要滅絕），打發人去窺探。」",
+          "words": [
+            {
+              "id": "hebrew-6030",
+              "eng": "And answered"
+            },
+            {
+              "id": "hebrew-259",
+              "eng": "one"
+            },
+            {
+              "id": "hebrew-5650",
+              "eng": "of his servants"
+            },
+            {
+              "id": "hebrew-559",
+              "eng": "and said",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3947",
+              "eng": "and let several [men] take",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-4994",
+              "eng": "please",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-2568",
+              "eng": "five"
+            },
+            {
+              "id": "hebrew-4480",
+              "eng": "of"
+            },
+            {
+              "id": "hebrew-5483",
+              "eng": "the horses"
+            },
+            {
+              "id": "hebrew-7604",
+              "eng": "remaining",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-834",
+              "eng": "which"
+            },
+            {
+              "id": "hebrew-7604",
+              "eng": "are left"
+            },
+            {
+              "id": "hebrew-2009",
+              "eng": "Look they [may either become]",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3605",
+              "eng": "like all"
+            },
+            {
+              "id": "hebrew-1995",
+              "eng": "the multitude of"
+            },
+            {
+              "id": "hebrew-3478",
+              "eng": "Israel"
+            },
+            {
+              "id": "hebrew-834",
+              "eng": "that"
+            },
+            {
+              "id": "hebrew-7604",
+              "eng": "are left"
+            },
+            {
+              "id": "hebrew-2005",
+              "eng": "or indeed [I say] they [may become]"
+            },
+            {
+              "id": "hebrew-3605",
+              "eng": "like all"
+            },
+            {
+              "id": "hebrew-1995",
+              "eng": "the multitude"
+            },
+            {
+              "id": "hebrew-3478",
+              "eng": "of the Israel"
+            },
+            {
+              "id": "hebrew-834",
+              "eng": "left from those who"
+            },
+            {
+              "id": "hebrew-8552",
+              "eng": "are consumed"
+            },
+            {
+              "id": "hebrew-7971",
+              "eng": "so let us send them"
+            },
+            {
+              "id": "hebrew-7200",
+              "eng": "and see",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -203,7 +339,10 @@
         "lang": "greek",
         "greek": "Οὐκ",
         "pos": "Adv",
-        "eng": "Not"
+        "eng": "Not",
+        "origin_simp": "ουκ",
+        "index_cht": 0,
+        "cht": "我不"
       },
       {
         "id": "greek-863",
@@ -211,15 +350,21 @@
         "lang": "greek",
         "greek": "ἀφήσω",
         "pos": "V-FIA-1S",
-        "eng": "I will leave"
+        "eng": "I will leave",
+        "origin_simp": "αφησω",
+        "index_cht": 1,
+        "cht": "撇下"
       },
       {
-        "id": "greek-4771",
+        "id": "greek-5209",
         "translit": "hymas",
         "lang": "greek",
         "greek": "ὑμᾶς",
         "pos": "PPro-A2P",
-        "eng": "you"
+        "eng": "you",
+        "origin_simp": "υμας",
+        "index_cht": 2,
+        "cht": "你們"
       },
       {
         "id": "greek-3737",
@@ -228,7 +373,11 @@
         "greek": "ὀρφανούς",
         "pos": "Adj-AMP",
         "punct": ";",
-        "eng": "as orphans"
+        "eng": "as orphans",
+        "origin_simp": "ορφανους",
+        "index_cht": 3,
+        "cht": "為孤兒",
+        "punct_cht": "，"
       },
       {
         "id": "greek-2064",
@@ -236,7 +385,11 @@
         "lang": "greek",
         "greek": "ἔρχομαι",
         "pos": "V-PIM/P-1S",
-        "eng": "I am coming"
+        "eng": "I am coming",
+        "origin_simp": "ερχομαι",
+        "index_cht": 6,
+        "cht": "這裡來",
+        "punct_cht": "。"
       },
       {
         "id": "greek-4314",
@@ -244,16 +397,22 @@
         "lang": "greek",
         "greek": "πρὸς",
         "pos": "Prep",
-        "eng": "to"
+        "eng": "to",
+        "origin_simp": "προς",
+        "index_cht": 4,
+        "cht": "我必到"
       },
       {
-        "id": "greek-4771",
+        "id": "greek-5209",
         "translit": "hymas",
         "lang": "greek",
         "greek": "ὑμᾶς",
         "pos": "PPro-A2P",
         "punct": ".",
-        "eng": "you"
+        "eng": "you",
+        "origin_simp": "υμας",
+        "index_cht": 5,
+        "cht": "你們"
       }
     ]
   }

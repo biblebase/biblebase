@@ -10,15 +10,26 @@
           "hebrew-398": "and ate",
           "hebrew-1931": "and he",
           "hebrew-1004": "and her household",
-          "hebrew-3117": "[for many] days"
+          "hebrew-3117": "[for many] days",
+          "hebrew-3212": null,
+          "": null
         }
+      },
+      "translations": {
+        "greek-1831": "hebrew-1980",
+        "greek-4160": "hebrew-6213",
+        "greek-3056": "hebrew-1697",
+        "greek-2243": "hebrew-452",
+        "greek-5315": "hebrew-398",
+        "greek-3614": "hebrew-1004",
+        "greek-2250": "hebrew-3117"
       },
       "crossRefs": [
         {
-          "totalScore": 4.626690093034783,
+          "totalScore": 4.020409008740459,
           "anchors": {
-            "hebrew-1980": 0.5143239551364394,
-            "hebrew-452": 2.056183068949172
+            "hebrew-1980": 0.4954178557167908,
+            "hebrew-452": 1.762495576511834
           },
           "verseKey": "2ki.2.1",
           "cunp": "耶和華要用旋風接以利亞升天的時候，以利亞與以利沙從吉甲前往。",
@@ -73,14 +84,19 @@
               "id": "hebrew-1537",
               "eng": "Gilgal",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "hebrew-3212"
             }
           ]
         },
         {
-          "totalScore": 4.564500626458798,
+          "totalScore": 3.524991153023668,
           "anchors": {
-            "hebrew-452": 2.056183068949172,
-            "hebrew-1004": 0.4521344885604547
+            "hebrew-452": 1.762495576511834
           },
           "verseKey": "1ki.17.23",
           "cunp": "以利亞將孩子從樓上抱下來，進屋子交給他母親，說：「看哪，你的兒子活了！」",
@@ -154,9 +170,9 @@
           ]
         },
         {
-          "totalScore": 4.112366137898344,
+          "totalScore": 3.524991153023668,
           "anchors": {
-            "hebrew-452": 2.056183068949172
+            "hebrew-452": 1.762495576511834
           },
           "verseKey": "1ki.18.40",
           "cunp": "以利亞對他們說：「拿住巴力的先知，不容一人逃脫！」眾人就拿住他們。以利亞帶他們到基順河邊，在那裏殺了他們。",
@@ -236,6 +252,12 @@
               "id": "hebrew-8033",
               "eng": "there",
               "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
+            },
+            {
+              "id": ""
             }
           ]
         }
@@ -320,7 +342,8 @@
         "lang": "hebrew",
         "hebrew": "וַתֵּ֥לֶךְ",
         "pos": "Conj‑w | V‑Qal‑ConsecImperf‑3fs",
-        "eng": "So she went away"
+        "eng": "So she went away",
+        "origin_simp": "וַתֵּ֥לֶךְ"
       },
       {
         "id": "hebrew-6213",
@@ -328,7 +351,11 @@
         "lang": "hebrew",
         "hebrew": "וַתַּעֲשֶׂ֖ה",
         "pos": "Conj‑w | V‑Qal‑ConsecImperf‑3fs",
-        "eng": "and did"
+        "eng": "and did",
+        "origin_simp": "וַתַּעֲשֶׂה",
+        "index_cht": 3,
+        "cht": "行",
+        "punct_cht": "。"
       },
       {
         "id": "hebrew-1697",
@@ -336,7 +363,10 @@
         "lang": "hebrew",
         "hebrew": "כִּדְבַ֣ר",
         "pos": "Prep‑k | N‑msc",
-        "eng": "according to the word"
+        "eng": "according to the word",
+        "origin_simp": "כִּדְבַר",
+        "index_cht": 1,
+        "cht": "的話"
       },
       {
         "id": "hebrew-452",
@@ -345,7 +375,10 @@
         "hebrew": "אֵלִיָּ֑הוּ",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "of Elijah"
+        "eng": "of Elijah",
+        "origin_simp": "אֵלִיָּהוּ",
+        "index_cht": 0,
+        "cht": "婦人就照以利亞"
       },
       {
         "id": "hebrew-398",
@@ -353,7 +386,10 @@
         "lang": "hebrew",
         "hebrew": "וַתֹּ֧אכַל",
         "pos": "Conj‑w | V‑Qal‑ConsecImperf‑3fs",
-        "eng": "and ate"
+        "eng": "and ate",
+        "origin_simp": "וַתֹּאכַל",
+        "index_cht": 8,
+        "cht": "吃了"
       },
       {
         "id": "hebrew-1931",
@@ -362,7 +398,10 @@
         "hebrew": "(הִֽיא־)",
         "pos": "Pro‑3fs",
         "punct": "､",
-        "eng": "she"
+        "eng": "she",
+        "origin_simp": "הוא",
+        "index_cht": 4,
+        "cht": "她"
       },
       {
         "id": "hebrew-1931",
@@ -371,7 +410,11 @@
         "hebrew": "(וָה֛וּא)",
         "pos": "Conj‑w | Pro‑3ms",
         "punct": "､",
-        "eng": "and he"
+        "eng": "and he",
+        "origin_simp": "והיא",
+        "index_cht": 7,
+        "cht": "並以利亞",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-1004",
@@ -380,7 +423,10 @@
         "hebrew": "וּבֵיתָ֖הּ",
         "pos": "Conj‑w | N‑msc | 3fs",
         "punct": "､",
-        "eng": "and her household"
+        "eng": "and her household",
+        "origin_simp": "וּבֵיתָהּ",
+        "index_cht": 5,
+        "cht": "和她家"
       },
       {
         "id": "hebrew-3117",
@@ -389,7 +435,24 @@
         "hebrew": "יָמִֽים׃",
         "pos": "N‑mp",
         "punct": ".",
-        "eng": "[for many] days"
+        "eng": "[for many] days",
+        "origin_simp": "יָמִֽים",
+        "index_cht": 9,
+        "cht": "許多日子",
+        "punct_cht": "。"
+      },
+      {
+        "id": "hebrew-3212",
+        "origin_simp": "וַתֵּלֶךְ",
+        "index_cht": 2,
+        "cht": "去"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 6,
+        "cht": "中的人",
+        "punct_cht": "，"
       }
     ]
   }

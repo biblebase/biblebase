@@ -10,8 +10,15 @@
           "hebrew-4970": "how",
           "hebrew-6225": "will You be angry",
           "hebrew-8605": "Against the prayer",
-          "hebrew-5971": "of Your people"
+          "hebrew-5971": "of Your people",
+          "": null
         }
+      },
+      "translations": {
+        "greek-2316": "hebrew-430",
+        "greek-4756": "hebrew-6635",
+        "greek-4335": "hebrew-8605",
+        "greek-2992": "hebrew-5971"
       },
       "crossRefs": [
         {
@@ -120,13 +127,19 @@
               "id": "hebrew-8064",
               "eng": "heaven",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         },
         {
-          "totalScore": 6.658100167087543,
+          "totalScore": 6.635777657257666,
           "anchors": {
-            "hebrew-430": 0.40694940669606317,
+            "hebrew-430": 0.3846268968661864,
             "hebrew-6225": 6.2511507603914795
           },
           "verseKey": "psa.74.1",
@@ -173,6 +186,15 @@
             {
               "id": "hebrew-4830",
               "eng": "of Your pasture"
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
@@ -260,6 +282,9 @@
               "id": "hebrew-3966",
               "eng": "greatly",
               "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         },
@@ -304,6 +329,9 @@
               "id": "hebrew-6225",
               "eng": "and they shall smoke",
               "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         },
@@ -341,6 +369,84 @@
             {
               "id": "hebrew-6225",
               "eng": "and they smoke",
+              "punct": "."
+            }
+          ]
+        },
+        {
+          "totalScore": 3.5728645621704684,
+          "anchors": {
+            "hebrew-3068": 0.27478005916650944,
+            "hebrew-6635": 0.9161747948903133
+          },
+          "verseKey": "zec.1.3",
+          "cunp": "所以你要對以色列人說，萬軍之耶和華如此說：你們要轉向我，我就轉向你們。這是萬軍之耶和華說的。",
+          "words": [
+            {
+              "id": "hebrew-559",
+              "eng": "Therefore say"
+            },
+            {
+              "id": "hebrew-413",
+              "eng": "to them"
+            },
+            {
+              "id": "hebrew-3541",
+              "eng": "thus"
+            },
+            {
+              "id": "hebrew-559",
+              "eng": "says"
+            },
+            {
+              "id": "hebrew-3068",
+              "eng": "Yahweh"
+            },
+            {
+              "id": "hebrew-6635",
+              "eng": "of hosts",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-7725",
+              "eng": "Return"
+            },
+            {
+              "id": "hebrew-413",
+              "eng": "to Me"
+            },
+            {
+              "id": "hebrew-5002",
+              "eng": "says"
+            },
+            {
+              "id": "hebrew-3068",
+              "eng": "Yahweh"
+            },
+            {
+              "id": "hebrew-6635",
+              "eng": "of hosts",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-7725",
+              "eng": "and I will return"
+            },
+            {
+              "id": "hebrew-413",
+              "eng": "to you"
+            },
+            {
+              "id": "hebrew-559",
+              "eng": "says"
+            },
+            {
+              "id": "hebrew-3068",
+              "eng": "Yahweh"
+            },
+            {
+              "id": "hebrew-6635",
+              "eng": "of hosts",
               "punct": "."
             }
           ]
@@ -392,7 +498,10 @@
         "lang": "hebrew",
         "hebrew": "יְהוָ֣ה",
         "pos": "N‑proper‑ms",
-        "eng": "Yahweh"
+        "eng": "Yahweh",
+        "origin_simp": "יְהוָה",
+        "index_cht": 0,
+        "cht": "耶和華─"
       },
       {
         "id": "hebrew-430",
@@ -400,7 +509,10 @@
         "lang": "hebrew",
         "hebrew": "אֱלֹהִ֣ים",
         "pos": "N‑mp",
-        "eng": "God"
+        "eng": "God",
+        "origin_simp": "אֱלֹהִים",
+        "index_cht": 3,
+        "cht": "神"
       },
       {
         "id": "hebrew-6635",
@@ -409,7 +521,10 @@
         "hebrew": "צְבָא֑וֹת",
         "pos": "N‑cp",
         "punct": "､",
-        "eng": "of hosts"
+        "eng": "of hosts",
+        "origin_simp": "צְבָאוֹת",
+        "index_cht": 1,
+        "cht": "萬軍"
       },
       {
         "id": "hebrew-5704",
@@ -417,7 +532,10 @@
         "lang": "hebrew",
         "hebrew": "עַד־",
         "pos": "Prep",
-        "eng": "long"
+        "eng": "long",
+        "origin_simp": "עַד",
+        "index_cht": 8,
+        "cht": "要到"
       },
       {
         "id": "hebrew-4970",
@@ -425,7 +543,10 @@
         "lang": "hebrew",
         "hebrew": "מָתַ֥י",
         "pos": "Interrog",
-        "eng": "how"
+        "eng": "how",
+        "origin_simp": "מָתַי",
+        "index_cht": 9,
+        "cht": "幾時"
       },
       {
         "id": "hebrew-6225",
@@ -433,7 +554,11 @@
         "lang": "hebrew",
         "hebrew": "עָ֝שַׁ֗נְתָּ",
         "pos": "V‑Qal‑Perf‑2ms",
-        "eng": "will You be angry"
+        "eng": "will You be angry",
+        "origin_simp": "עָשַׁנְתָּ",
+        "index_cht": 7,
+        "cht": "發怒",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-8605",
@@ -441,7 +566,10 @@
         "lang": "hebrew",
         "hebrew": "בִּתְפִלַּ֥ת",
         "pos": "Prep‑b | N‑fsc",
-        "eng": "Against the prayer"
+        "eng": "Against the prayer",
+        "origin_simp": "בִּתְפִלַּת",
+        "index_cht": 6,
+        "cht": "的禱告"
       },
       {
         "id": "hebrew-5971",
@@ -449,7 +577,30 @@
         "lang": "hebrew",
         "hebrew": "עַמֶּֽךָ׃",
         "pos": "N‑msc | 2ms",
-        "eng": "of Your people"
+        "eng": "of Your people",
+        "origin_simp": "עַמֶּֽךָ",
+        "index_cht": 5,
+        "cht": "你向你百姓"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 2,
+        "cht": "之"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 4,
+        "cht": "啊",
+        "punct_cht": "，"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 10,
+        "cht": "呢",
+        "punct_cht": "？"
       }
     ]
   }

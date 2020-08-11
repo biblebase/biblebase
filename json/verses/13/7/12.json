@@ -11,6 +11,9 @@
           "hebrew-313": "of Aher"
         }
       },
+      "translations": {
+        "greek-5207": "hebrew-1121"
+      },
       "crossRefs": [
         {
           "totalScore": 17.078647179471222,
@@ -83,10 +86,10 @@
           ]
         },
         {
-          "totalScore": 8.844328818453112,
+          "totalScore": 8.860703704549485,
           "anchors": {
             "hebrew-2650": 8.539323589735611,
-            "hebrew-1121": 0.30500522871750213
+            "hebrew-1121": 0.3213801148138742
           },
           "verseKey": "gen.46.21",
           "cunp": "便雅憫的兒子是比拉、比結、亞實別、基拉、乃幔、以希、羅實、母平、戶平、亞勒。",
@@ -206,13 +209,19 @@
               "id": "hebrew-4929",
               "eng": "watchman",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 7.807419466471554,
+          "totalScore": 7.823794352567926,
           "anchors": {
-            "hebrew-1121": 0.30500522871750213,
+            "hebrew-1121": 0.3213801148138742,
             "hebrew-2366": 7.502414237754052
           },
           "verseKey": "gen.46.23",
@@ -231,6 +240,48 @@
               "id": "hebrew-2366",
               "eng": "Hushim",
               "punct": "."
+            }
+          ]
+        },
+        {
+          "totalScore": 7.502414237754052,
+          "anchors": {
+            "hebrew-2366": 7.502414237754052
+          },
+          "verseKey": "1ch.8.11",
+          "cunp": "他的妻戶伸給他生的兒子有亞比突、以利巴力。",
+          "words": [
+            {
+              "id": "hebrew-2366",
+              "eng": "And by Hushim"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "he begat"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "-"
+            },
+            {
+              "id": "hebrew-36",
+              "eng": "Abitub",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-853",
+              "eng": "and"
+            },
+            {
+              "id": "hebrew-508",
+              "eng": "Elpaal",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
+            },
+            {
+              "id": "hebrew-1121"
             }
           ]
         },
@@ -287,42 +338,9 @@
               "id": "hebrew-802",
               "eng": "his wives",
               "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 7.502414237754052,
-          "anchors": {
-            "hebrew-2366": 7.502414237754052
-          },
-          "verseKey": "1ch.8.11",
-          "cunp": "他的妻戶伸給他生的兒子有亞比突、以利巴力。",
-          "words": [
-            {
-              "id": "hebrew-2366",
-              "eng": "And by Hushim"
             },
             {
-              "id": "hebrew-3205",
-              "eng": "he begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-36",
-              "eng": "Abitub",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-508",
-              "eng": "Elpaal",
-              "punct": "."
+              "id": ""
             }
           ]
         }
@@ -387,7 +405,10 @@
         "lang": "hebrew",
         "hebrew": "וְשֻׁפִּ֤ם",
         "pos": "Conj‑w | N‑proper‑ms",
-        "eng": "And Shuppim"
+        "eng": "And Shuppim",
+        "origin_simp": "וְשֻׁפִּם",
+        "index_cht": 2,
+        "cht": "書品、"
       },
       {
         "id": "hebrew-2650",
@@ -396,7 +417,11 @@
         "hebrew": "וְחֻפִּם֙",
         "pos": "Conj‑w | N‑proper‑ms",
         "punct": "､",
-        "eng": "and Huppim [were]"
+        "eng": "and Huppim [were]",
+        "origin_simp": "וְחֻפִּם",
+        "index_cht": 3,
+        "cht": "戶品",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-1121",
@@ -404,7 +429,10 @@
         "lang": "hebrew",
         "hebrew": "בְּנֵ֣י",
         "pos": "N‑mpc",
-        "eng": "the sons"
+        "eng": "the sons",
+        "origin_simp": "בְּנֵי",
+        "index_cht": 1,
+        "cht": "的兒子"
       },
       {
         "id": "hebrew-5893",
@@ -413,7 +441,10 @@
         "hebrew": "עִ֔יר",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "of Ir"
+        "eng": "of Ir",
+        "origin_simp": "עִיר",
+        "index_cht": 0,
+        "cht": "還有以珥"
       },
       {
         "id": "hebrew-2366",
@@ -422,7 +453,11 @@
         "hebrew": "חֻשִׁ֖ם",
         "pos": "N‑proper‑ms",
         "punct": "､",
-        "eng": "[and] Hushim [was]"
+        "eng": "[and] Hushim [was]",
+        "origin_simp": "חֻשִׁם",
+        "index_cht": 6,
+        "cht": "戶伸",
+        "punct_cht": "。"
       },
       {
         "id": "hebrew-1121",
@@ -430,7 +465,10 @@
         "lang": "hebrew",
         "hebrew": "בְּנֵ֥י",
         "pos": "N‑mpc",
-        "eng": "the son"
+        "eng": "the son",
+        "origin_simp": "בְּנֵי",
+        "index_cht": 5,
+        "cht": "的兒子"
       },
       {
         "id": "hebrew-313",
@@ -439,7 +477,10 @@
         "hebrew": "אַחֵֽר׃",
         "pos": "N‑proper‑ms",
         "punct": ".",
-        "eng": "of Aher"
+        "eng": "of Aher",
+        "origin_simp": "אַחֵֽר",
+        "index_cht": 4,
+        "cht": "並亞黑"
       }
     ]
   }
