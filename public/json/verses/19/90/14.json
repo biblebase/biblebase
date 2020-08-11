@@ -12,14 +12,60 @@
           "hebrew-3117": "our days"
         }
       },
+      "translations": {
+        "greek-5526": "hebrew-7646",
+        "greek-4404": "hebrew-1242",
+        "greek-1653": "hebrew-2617",
+        "greek-5463": "hebrew-8055",
+        "greek-830": "hebrew-3605",
+        "greek-2250": "hebrew-3117"
+      },
       "crossRefs": [
         {
-          "totalScore": 5.180414046830781,
+          "totalScore": 4.651369485368396,
           "anchors": {
-            "hebrew-1242": 1.251531652043869,
-            "hebrew-2617": 1.1733144160563405,
+            "hebrew-7442": 2.325684742684198
+          },
+          "verseKey": "psa.132.16",
+          "cunp": "我要使祭司披上救恩， 聖民大聲歡呼！",
+          "words": [
+            {
+              "id": "hebrew-3548",
+              "eng": "And her priests"
+            },
+            {
+              "id": "hebrew-3847",
+              "eng": "I will clothe"
+            },
+            {
+              "id": "hebrew-3468",
+              "eng": "with salvation",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-2623",
+              "eng": "and her saints"
+            },
+            {
+              "id": "hebrew-7442",
+              "eng": "aloud"
+            },
+            {
+              "id": "hebrew-7442",
+              "eng": "shall shout for joy",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-7444"
+            }
+          ]
+        },
+        {
+          "totalScore": 3.9565201813241506,
+          "anchors": {
+            "hebrew-1242": 1.2211787489408383,
             "hebrew-7442": 2.325684742684198,
-            "hebrew-3117": 0.429883236046373
+            "hebrew-3117": 0.4096566896991143
           },
           "verseKey": "psa.59.16",
           "cunp": "但我要歌頌你的力量， 早晨要高唱你的慈愛； 因為你作過我的高臺， 在我急難的日子作過我的避難所。",
@@ -75,6 +121,77 @@
               "eng": "of trouble"
             }
           ]
+        },
+        {
+          "totalScore": 3.874888888252035,
+          "anchors": {
+            "hebrew-7442": 2.325684742684198,
+            "hebrew-8055": 1.251531652043869,
+            "hebrew-3605": 0.29767249352396796
+          },
+          "verseKey": "zep.3.14",
+          "cunp": "錫安的民哪，應當歌唱！ 以色列啊，應當歡呼！ 耶路撒冷的民哪，應當滿心歡喜快樂！",
+          "words": [
+            {
+              "id": "hebrew-7442",
+              "eng": "Sing",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1323",
+              "eng": "daughter"
+            },
+            {
+              "id": "hebrew-6726",
+              "eng": "of Zion",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-7321",
+              "eng": "Shout",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3478",
+              "eng": "Israel",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-8055",
+              "eng": "Be glad"
+            },
+            {
+              "id": "hebrew-5937",
+              "eng": "and rejoice"
+            },
+            {
+              "id": "hebrew-3605",
+              "eng": "with all"
+            },
+            {
+              "id": "hebrew-3820",
+              "eng": "[your] heart",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1323",
+              "eng": "daughter"
+            },
+            {
+              "id": "hebrew-3389",
+              "eng": "of Jerusalem",
+              "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
+            }
+          ]
         }
       ]
     },
@@ -123,7 +240,10 @@
         "lang": "hebrew",
         "hebrew": "שַׂבְּעֵ֣נוּ",
         "pos": "V‑Piel‑Imp‑ms | 1cp",
-        "eng": "Oh satisfy us"
+        "eng": "Oh satisfy us",
+        "origin_simp": "שַׂבְּעֵנוּ",
+        "index_cht": 1,
+        "cht": "飽得"
       },
       {
         "id": "hebrew-1242",
@@ -131,7 +251,10 @@
         "lang": "hebrew",
         "hebrew": "בַבֹּ֣קֶר",
         "pos": "Prep‑b, Art | N‑ms",
-        "eng": "with early"
+        "eng": "with early",
+        "origin_simp": "בַבֹּקֶר",
+        "index_cht": 0,
+        "cht": "求你使我們早早"
       },
       {
         "id": "hebrew-2617",
@@ -140,7 +263,11 @@
         "hebrew": "חַסְדֶּ֑ךָ",
         "pos": "N‑msc | 2ms",
         "punct": "–",
-        "eng": "Your mercy"
+        "eng": "Your mercy",
+        "origin_simp": "חַסְדֶּךָ",
+        "index_cht": 2,
+        "cht": "你的慈愛",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-7442",
@@ -148,7 +275,10 @@
         "lang": "hebrew",
         "hebrew": "וּֽנְרַנְּנָ֥ה",
         "pos": "Conj‑w | V‑Piel‑ConjImperf.Cohort‑1cp",
-        "eng": "that we may rejoice"
+        "eng": "that we may rejoice",
+        "origin_simp": "וּֽנְרַנְּנָה",
+        "index_cht": 4,
+        "cht": "歡呼"
       },
       {
         "id": "hebrew-8055",
@@ -156,7 +286,11 @@
         "lang": "hebrew",
         "hebrew": "וְ֝נִשְׂמְחָ֗ה",
         "pos": "Conj‑w | V‑Qal‑ConjImperf.Cohort‑1cp",
-        "eng": "and be glad"
+        "eng": "and be glad",
+        "origin_simp": "וְנִשְׂמְחָה",
+        "index_cht": 5,
+        "cht": "喜樂",
+        "punct_cht": "。"
       },
       {
         "id": "hebrew-3605",
@@ -164,7 +298,10 @@
         "lang": "hebrew",
         "hebrew": "בְּכָל־",
         "pos": "Prep‑b | N‑msc",
-        "eng": "all"
+        "eng": "all",
+        "origin_simp": "בְּכָליָמֵֽינוּ",
+        "index_cht": 3,
+        "cht": "好叫我們一生一世"
       },
       {
         "id": "hebrew-3117",
@@ -173,7 +310,10 @@
         "hebrew": "יָמֵֽינוּ׃",
         "pos": "N‑mpc | 1cp",
         "punct": ".",
-        "eng": "our days"
+        "eng": "our days",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "好叫我們一生一世"
       }
     ]
   }

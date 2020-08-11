@@ -5,12 +5,16 @@
         "dict": {
           "greek-3756": "Not",
           "greek-1063": "for",
-          "greek-1510": "is",
+          "greek-2076": "is",
           "greek-435": "man",
           "greek-1537": "of",
           "greek-1135": "woman",
-          "greek-235": "but"
+          "greek-235": "but",
+          "": null
         }
+      },
+      "translations": {
+        "hebrew-802": "greek-1135"
       },
       "crossRefs": [
         {
@@ -94,7 +98,7 @@
               "eng": "free"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-2076",
               "eng": "she is"
             },
             {
@@ -119,7 +123,7 @@
               "eng": "not"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-1511",
               "eng": "to be"
             },
             {
@@ -147,10 +151,10 @@
           ]
         },
         {
-          "totalScore": 4.977502537179067,
+          "totalScore": 4.420073010648276,
           "anchors": {
             "greek-435": 1.2463035947172354,
-            "greek-1135": 1.2385917530273611
+            "greek-1135": 0.6811622264965705
           },
           "verseKey": "rom.7.2",
           "cunp": "就如女人有了丈夫，丈夫還活着，就被律法約束；丈夫若死了，就脫離了丈夫的律法。",
@@ -242,33 +246,47 @@
           ]
         },
         {
-          "totalScore": 4.969790695489193,
+          "totalScore": 3.8549316424276117,
           "anchors": {
             "greek-435": 1.2463035947172354,
-            "greek-1135": 1.2385917530273611
+            "greek-1135": 0.6811622264965705
           },
-          "verseKey": "1co.11.12",
-          "cunp": "因為女人原是由男人而出，男人也是由女人而出；但萬有都是出乎神。",
+          "verseKey": "1co.7.4",
+          "cunp": "妻子沒有權柄主張自己的身子，乃在丈夫；丈夫也沒有權柄主張自己的身子，乃在妻子。",
           "words": [
             {
-              "id": "greek-5618",
-              "eng": "Just as"
+              "id": "greek-3588",
+              "eng": "The"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-1135",
+              "eng": "wife",
+              "punct": ","
             },
             {
               "id": "greek-3588",
               "eng": "the"
             },
             {
-              "id": "greek-1135",
-              "eng": "woman"
+              "id": "greek-2398",
+              "eng": "own"
             },
             {
-              "id": "greek-1537",
-              "eng": "of"
+              "id": "greek-4983",
+              "eng": "body"
+            },
+            {
+              "id": "greek-3756",
+              "eng": "not"
+            },
+            {
+              "id": "greek-1850",
+              "eng": "has authority over",
+              "punct": ","
+            },
+            {
+              "id": "greek-235",
+              "eng": "but"
             },
             {
               "id": "greek-3588",
@@ -276,12 +294,17 @@
             },
             {
               "id": "greek-435",
-              "eng": "man [is]",
-              "punct": ","
+              "eng": "husband",
+              "punct": ";"
             },
             {
-              "id": "greek-3779",
-              "eng": "so"
+              "id": "greek-3668",
+              "eng": "likewise"
+            },
+            {
+              "id": "greek-1161",
+              "eng": "now",
+              "punct": ","
             },
             {
               "id": "greek-2532",
@@ -293,11 +316,32 @@
             },
             {
               "id": "greek-435",
-              "eng": "man"
+              "eng": "husband"
             },
             {
-              "id": "greek-1223",
-              "eng": "by"
+              "id": "greek-3588",
+              "eng": "of the"
+            },
+            {
+              "id": "greek-2398",
+              "eng": "own"
+            },
+            {
+              "id": "greek-4983",
+              "eng": "body"
+            },
+            {
+              "id": "greek-3756",
+              "eng": "not"
+            },
+            {
+              "id": "greek-1850",
+              "eng": "has authority over",
+              "punct": ","
+            },
+            {
+              "id": "greek-235",
+              "eng": "but"
             },
             {
               "id": "greek-3588",
@@ -305,32 +349,7 @@
             },
             {
               "id": "greek-1135",
-              "eng": "woman [is]",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all things"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God",
+              "eng": "wife",
               "punct": "."
             }
           ]
@@ -458,7 +477,10 @@
         "lang": "greek",
         "greek": "οὐ",
         "pos": "Adv",
-        "eng": "Not"
+        "eng": "Not",
+        "origin_simp": "ου",
+        "index_cht": 2,
+        "cht": "不"
       },
       {
         "id": "greek-1063",
@@ -466,15 +488,22 @@
         "lang": "greek",
         "greek": "γάρ",
         "pos": "Conj",
-        "eng": "for"
+        "eng": "for",
+        "origin_simp": "γαρ",
+        "index_cht": 0,
+        "cht": "起初",
+        "punct_cht": "，"
       },
       {
-        "id": "greek-1510",
+        "id": "greek-2076",
         "translit": "estin",
         "lang": "greek",
         "greek": "ἐστιν",
         "pos": "V-PIA-3S",
-        "eng": "is"
+        "eng": "is",
+        "origin_simp": "εστιν",
+        "index_cht": 3,
+        "cht": "是"
       },
       {
         "id": "greek-435",
@@ -482,7 +511,10 @@
         "lang": "greek",
         "greek": "ἀνὴρ",
         "pos": "N-NMS",
-        "eng": "man"
+        "eng": "man",
+        "origin_simp": "ανηρ",
+        "index_cht": 1,
+        "cht": "男人"
       },
       {
         "id": "greek-1537",
@@ -490,7 +522,10 @@
         "lang": "greek",
         "greek": "ἐκ",
         "pos": "Prep",
-        "eng": "of"
+        "eng": "of",
+        "origin_simp": "εκ",
+        "index_cht": 4,
+        "cht": "由"
       },
       {
         "id": "greek-1135",
@@ -499,7 +534,10 @@
         "greek": "γυναικός",
         "pos": "N-GFS",
         "punct": ",",
-        "eng": "woman"
+        "eng": "woman",
+        "origin_simp": "γυναικος",
+        "index_cht": 5,
+        "cht": "女人"
       },
       {
         "id": "greek-235",
@@ -507,7 +545,10 @@
         "lang": "greek",
         "greek": "ἀλλὰ",
         "pos": "Conj",
-        "eng": "but"
+        "eng": "but",
+        "origin_simp": "αλλα",
+        "index_cht": 8,
+        "cht": "乃"
       },
       {
         "id": "greek-1135",
@@ -515,7 +556,10 @@
         "lang": "greek",
         "greek": "γυνὴ",
         "pos": "N-NFS",
-        "eng": "woman"
+        "eng": "woman",
+        "origin_simp": "γυνη",
+        "index_cht": 7,
+        "cht": "女人"
       },
       {
         "id": "greek-1537",
@@ -523,7 +567,10 @@
         "lang": "greek",
         "greek": "ἐξ",
         "pos": "Prep",
-        "eng": "of"
+        "eng": "of",
+        "origin_simp": "εξ",
+        "index_cht": 9,
+        "cht": "是由"
       },
       {
         "id": "greek-435",
@@ -532,7 +579,24 @@
         "greek": "ἀνδρός",
         "pos": "N-GMS",
         "punct": ".",
-        "eng": "man"
+        "eng": "man",
+        "origin_simp": "ανδρος",
+        "index_cht": 10,
+        "cht": "男人"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 6,
+        "cht": "而出",
+        "punct_cht": "，"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 11,
+        "cht": "而出",
+        "punct_cht": "。"
       }
     ]
   }

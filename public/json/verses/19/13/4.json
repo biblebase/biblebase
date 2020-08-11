@@ -13,12 +13,18 @@
           "hebrew-4131": "I am moved"
         }
       },
+      "translations": {
+        "greek-3004": "hebrew-559",
+        "greek-2190": "hebrew-341",
+        "greek-1410": "hebrew-3201",
+        "greek-2795": "hebrew-4131"
+      },
       "crossRefs": [
         {
-          "totalScore": 5.7435394059221565,
+          "totalScore": 5.2699230134243535,
           "anchors": {
-            "hebrew-559": 0.2953096619084053,
-            "hebrew-4131": 2.7241148720068757
+            "hebrew-559": 0.27053312959209697,
+            "hebrew-4131": 2.499694941916128
           },
           "verseKey": "isa.54.10",
           "cunp": "大山可以挪開， 小山可以遷移； 但我的慈愛必不離開你； 我平安的約也不遷移。 這是憐恤你的耶和華說的。",
@@ -90,13 +96,70 @@
               "id": "hebrew-3068",
               "eng": "Yahweh",
               "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
+            },
+            {
+              "id": "hebrew-854"
             }
           ]
         },
         {
-          "totalScore": 5.4482297440137515,
+          "totalScore": 5.10040105519502,
           "anchors": {
-            "hebrew-4131": 2.7241148720068757
+            "hebrew-1523": 2.55020052759751
+          },
+          "verseKey": "pro.23.24",
+          "cunp": "義人的父親必大得快樂； 人生智慧的兒子，必因他歡喜。",
+          "words": [
+            {
+              "id": "hebrew-1523",
+              "eng": "Greatly",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-1523",
+              "eng": "will rejoice",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-1",
+              "eng": "the father"
+            },
+            {
+              "id": "hebrew-6662",
+              "eng": "of the righteous"
+            },
+            {
+              "id": "hebrew-3205",
+              "eng": "and he who begets"
+            },
+            {
+              "id": "hebrew-2450",
+              "eng": "a wise [child]"
+            },
+            {
+              "id": "hebrew-8055",
+              "eng": "will delight"
+            },
+            {
+              "id": "hebrew-8055",
+              "eng": "in him",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-1524"
+            },
+            {
+              "id": "hebrew-1121"
+            }
+          ]
+        },
+        {
+          "totalScore": 4.999389883832256,
+          "anchors": {
+            "hebrew-4131": 2.499694941916128
           },
           "verseKey": "isa.24.19",
           "cunp": "地全然破壞，盡都崩裂， 大大地震動了。",
@@ -138,51 +201,6 @@
             {
               "id": "hebrew-776",
               "eng": "the earth",
-              "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 5.049081723279475,
-          "anchors": {
-            "hebrew-1523": 2.5245408616397373
-          },
-          "verseKey": "pro.23.24",
-          "cunp": "義人的父親必大得快樂； 人生智慧的兒子，必因他歡喜。",
-          "words": [
-            {
-              "id": "hebrew-1523",
-              "eng": "Greatly",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1523",
-              "eng": "will rejoice",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "the father"
-            },
-            {
-              "id": "hebrew-6662",
-              "eng": "of the righteous"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "and he who begets"
-            },
-            {
-              "id": "hebrew-2450",
-              "eng": "a wise [child]"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "will delight"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "in him",
               "punct": "."
             }
           ]
@@ -248,7 +266,10 @@
         "lang": "hebrew",
         "hebrew": "פֶּן־",
         "pos": "Conj",
-        "eng": "lest"
+        "eng": "lest",
+        "origin_simp": "פֶּן",
+        "index_cht": 0,
+        "cht": "免得"
       },
       {
         "id": "hebrew-559",
@@ -257,7 +278,11 @@
         "hebrew": "יֹאמַ֣ר",
         "pos": "V‑Qal‑Imperf‑3ms",
         "punct": "､",
-        "eng": "say"
+        "eng": "say",
+        "origin_simp": "יֹאמַר",
+        "index_cht": 2,
+        "cht": "說",
+        "punct_cht": "："
       },
       {
         "id": "hebrew-341",
@@ -265,7 +290,10 @@
         "lang": "hebrew",
         "hebrew": "אֹיְבִ֣י",
         "pos": "V‑Qal‑Prtcpl‑msc | 1cs",
-        "eng": "my enemy"
+        "eng": "my enemy",
+        "origin_simp": "אֹיְבִי",
+        "index_cht": 1,
+        "cht": "我的仇敵"
       },
       {
         "id": "hebrew-3201",
@@ -273,7 +301,11 @@
         "lang": "hebrew",
         "hebrew": "יְכָלְתִּ֑יו",
         "pos": "V‑Qal‑Perf‑1cs | 3ms",
-        "eng": "I have prevailed against him"
+        "eng": "I have prevailed against him",
+        "origin_simp": "יְכָלְתִּיו",
+        "index_cht": 3,
+        "cht": "我勝了他",
+        "punct_cht": "；"
       },
       {
         "id": "hebrew-6862",
@@ -281,7 +313,10 @@
         "lang": "hebrew",
         "hebrew": "צָרַ֥י",
         "pos": "N‑mpc | 1cs",
-        "eng": "[Lest] those who trouble me"
+        "eng": "[Lest] those who trouble me",
+        "origin_simp": "צָרַי",
+        "index_cht": 4,
+        "cht": "免得我的敵人"
       },
       {
         "id": "hebrew-1523",
@@ -289,7 +324,11 @@
         "lang": "hebrew",
         "hebrew": "יָ֝גִ֗ילוּ",
         "pos": "V‑Qal‑Imperf‑3mp",
-        "eng": "rejoice"
+        "eng": "rejoice",
+        "origin_simp": "יָגִילוּ",
+        "index_cht": 7,
+        "cht": "喜樂",
+        "punct_cht": "。"
       },
       {
         "id": "hebrew-3588",
@@ -297,7 +336,10 @@
         "lang": "hebrew",
         "hebrew": "כִּ֣י",
         "pos": "Conj",
-        "eng": "when"
+        "eng": "when",
+        "origin_simp": "כִּי",
+        "index_cht": 6,
+        "cht": "的時候"
       },
       {
         "id": "hebrew-4131",
@@ -306,7 +348,10 @@
         "hebrew": "אֶמּֽוֹט׃",
         "pos": "V‑Nifal‑Imperf‑1cs",
         "punct": ".",
-        "eng": "I am moved"
+        "eng": "I am moved",
+        "origin_simp": "אֶמּֽוֹט",
+        "index_cht": 5,
+        "cht": "在我搖動"
       }
     ]
   }

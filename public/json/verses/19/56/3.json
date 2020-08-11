@@ -10,11 +10,15 @@
           "hebrew-982": "will trust"
         }
       },
+      "translations": {
+        "greek-2250": "hebrew-3117",
+        "greek-5399": "hebrew-3372"
+      },
       "crossRefs": [
         {
-          "totalScore": 3.247330343213044,
+          "totalScore": 3.271983674151834,
           "anchors": {
-            "hebrew-982": 1.623665171606522
+            "hebrew-982": 1.635991837075917
           },
           "verseKey": "isa.36.6",
           "cunp": "看哪，你所倚靠的埃及是那壓傷的葦杖，人若靠這杖，就必刺透他的手。埃及王法老向一切倚靠他的人也是這樣。",
@@ -116,13 +120,47 @@
               "id": "hebrew-5921",
               "eng": "in him",
               "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 3.247330343213044,
+          "totalScore": 3.271983674151834,
           "anchors": {
-            "hebrew-982": 1.623665171606522
+            "hebrew-982": 1.635991837075917
+          },
+          "verseKey": "psa.22.4",
+          "cunp": "我們的祖宗倚靠你； 他們倚靠你，你便解救他們。",
+          "words": [
+            {
+              "id": "hebrew-982",
+              "eng": "trusted"
+            },
+            {
+              "id": "hebrew-1",
+              "eng": "Our fathers"
+            },
+            {
+              "id": "hebrew-982",
+              "eng": "they trusted",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-6403",
+              "eng": "and You delivered them",
+              "punct": "."
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 3.271983674151834,
+          "anchors": {
+            "hebrew-982": 1.635991837075917
           },
           "verseKey": "2ki.18.21",
           "cunp": "看哪，你所倚靠的埃及是那壓傷的葦杖；人若靠這杖，就必刺透他的手。埃及王法老向一切倚靠他的人也是這樣。",
@@ -231,34 +269,6 @@
               "punct": "."
             }
           ]
-        },
-        {
-          "totalScore": 3.247330343213044,
-          "anchors": {
-            "hebrew-982": 1.623665171606522
-          },
-          "verseKey": "psa.22.4",
-          "cunp": "我們的祖宗倚靠你； 他們倚靠你，你便解救他們。",
-          "words": [
-            {
-              "id": "hebrew-982",
-              "eng": "trusted"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "Our fathers"
-            },
-            {
-              "id": "hebrew-982",
-              "eng": "they trusted",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6403",
-              "eng": "and You delivered them",
-              "punct": "."
-            }
-          ]
         }
       ]
     },
@@ -307,7 +317,10 @@
         "lang": "hebrew",
         "hebrew": "י֥וֹם",
         "pos": "N‑ms",
-        "eng": "Whenever"
+        "eng": "Whenever",
+        "origin_simp": "יוֹם",
+        "index_cht": 2,
+        "cht": "的時候"
       },
       {
         "id": "hebrew-3372",
@@ -316,7 +329,10 @@
         "hebrew": "אִירָ֑א",
         "pos": "V‑Qal‑Imperf‑1cs",
         "punct": "､",
-        "eng": "I am afraid"
+        "eng": "I am afraid",
+        "origin_simp": "אִירָא",
+        "index_cht": 1,
+        "cht": "懼怕"
       },
       {
         "id": "hebrew-589",
@@ -324,7 +340,10 @@
         "lang": "hebrew",
         "hebrew": "אֲ֝נִ֗י",
         "pos": "Pro‑1cs",
-        "eng": "I"
+        "eng": "I",
+        "origin_simp": "אֲנִי",
+        "index_cht": 0,
+        "cht": "我"
       },
       {
         "id": "hebrew-413",
@@ -332,7 +351,11 @@
         "lang": "hebrew",
         "hebrew": "אֵלֶ֥יךָ",
         "pos": "Prep | 2ms",
-        "eng": "in You"
+        "eng": "in You",
+        "origin_simp": "אֵלֶיךָ",
+        "index_cht": 4,
+        "cht": "你",
+        "punct_cht": "。"
       },
       {
         "id": "hebrew-982",
@@ -341,7 +364,10 @@
         "hebrew": "אֶבְטָֽח׃",
         "pos": "V‑Qal‑Imperf‑1cs",
         "punct": ".",
-        "eng": "will trust"
+        "eng": "will trust",
+        "origin_simp": "אֶבְטָֽח",
+        "index_cht": 3,
+        "cht": "要倚靠"
       }
     ]
   }

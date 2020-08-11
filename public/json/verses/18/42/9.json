@@ -18,12 +18,21 @@
           "hebrew-5375": "for had accepted",
           "hebrew-853": "-",
           "hebrew-6440": "before the face of",
-          "hebrew-347": "Job"
+          "hebrew-347": "Job",
+          "hebrew-3212": null
         }
+      },
+      "translations": {
+        "greek-1831": "hebrew-1980",
+        "greek-4160": "hebrew-6213",
+        "greek-2980": "hebrew-1696",
+        "greek-1869": "hebrew-5375",
+        "greek-4383": "hebrew-6440",
+        "greek-2492": "hebrew-347"
       },
       "crossRefs": [
         {
-          "totalScore": 40.45922743893971,
+          "totalScore": 40.441969722509995,
           "anchors": {
             "hebrew-464": 4.1389193993584925,
             "hebrew-8489": 5.492088685277254,
@@ -31,7 +40,7 @@
             "hebrew-7747": 6.7856512265994295,
             "hebrew-6691": 7.502414237754052,
             "hebrew-5284": 7.502414237754052,
-            "hebrew-347": 2.2520884255970035
+            "hebrew-347": 2.234830709167281
           },
           "verseKey": "job.2.11",
           "cunp": "約伯的三個朋友－提幔人以利法、書亞人比勒達、拿瑪人瑣法－聽說有這一切的災禍臨到他身上，各人就從本處約會同來，為他悲傷，安慰他。",
@@ -136,17 +145,20 @@
               "id": "hebrew-5162",
               "eng": "and to comfort him",
               "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         },
         {
-          "totalScore": 15.862451976235194,
+          "totalScore": 15.721772194693717,
           "anchors": {
             "hebrew-464": 4.1389193993584925,
             "hebrew-8489": 5.492088685277254,
-            "hebrew-1696": 0.5888534610362111,
+            "hebrew-1696": 0.5357712866951944,
             "hebrew-3068": 0.27478005916650944,
-            "hebrew-347": 2.2520884255970035
+            "hebrew-347": 2.234830709167281
           },
           "verseKey": "job.42.7",
           "cunp": "耶和華對約伯說話以後，就對提幔人以利法說：「我的怒氣向你和你兩個朋友發作，因為你們議論我不如我的僕人約伯說的是。",
@@ -351,7 +363,7 @@
             "hebrew-1085": 6.7856512265994295,
             "hebrew-7747": 6.7856512265994295
           },
-          "verseKey": "job.25.1",
+          "verseKey": "job.8.1",
           "cunp": "書亞人比勒達回答說：",
           "words": [
             {
@@ -380,7 +392,7 @@
             "hebrew-1085": 6.7856512265994295,
             "hebrew-7747": 6.7856512265994295
           },
-          "verseKey": "job.8.1",
+          "verseKey": "job.25.1",
           "cunp": "書亞人比勒達回答說：",
           "words": [
             {
@@ -409,12 +421,12 @@
             "hebrew-464": 4.1389193993584925,
             "hebrew-8489": 5.492088685277254
           },
-          "verseKey": "job.15.1",
+          "verseKey": "job.22.1",
           "cunp": "提幔人以利法回答說：",
           "words": [
             {
               "id": "hebrew-6030",
-              "eng": "And answered"
+              "eng": "and answered"
             },
             {
               "id": "hebrew-464",
@@ -422,8 +434,7 @@
             },
             {
               "id": "hebrew-8489",
-              "eng": "the Temanite",
-              "punct": "､"
+              "eng": "the Temanite"
             },
             {
               "id": "hebrew-559",
@@ -466,12 +477,12 @@
             "hebrew-464": 4.1389193993584925,
             "hebrew-8489": 5.492088685277254
           },
-          "verseKey": "job.22.1",
+          "verseKey": "job.15.1",
           "cunp": "提幔人以利法回答說：",
           "words": [
             {
               "id": "hebrew-6030",
-              "eng": "and answered"
+              "eng": "And answered"
             },
             {
               "id": "hebrew-464",
@@ -479,7 +490,8 @@
             },
             {
               "id": "hebrew-8489",
-              "eng": "the Temanite"
+              "eng": "the Temanite",
+              "punct": "､"
             },
             {
               "id": "hebrew-559",
@@ -570,7 +582,8 @@
         "hebrew": "וַיֵּלְכוּ֩",
         "pos": "Conj‑w | V‑Qal‑ConsecImperf‑3mp",
         "punct": "､",
-        "eng": "So went"
+        "eng": "So went",
+        "origin_simp": "וַיֵּלְכוּ֩"
       },
       {
         "id": "hebrew-464",
@@ -578,7 +591,10 @@
         "lang": "hebrew",
         "hebrew": "אֱלִיפַ֨ז",
         "pos": "N‑proper‑ms",
-        "eng": "Eliphaz"
+        "eng": "Eliphaz",
+        "origin_simp": "אֱלִיפַז",
+        "index_cht": 1,
+        "cht": "以利法、"
       },
       {
         "id": "hebrew-8489",
@@ -586,7 +602,10 @@
         "lang": "hebrew",
         "hebrew": "הַתֵּֽימָנִ֜י",
         "pos": "Art | N‑proper‑ms",
-        "eng": "the Temanite"
+        "eng": "the Temanite",
+        "origin_simp": "הַתֵּֽימָנִי",
+        "index_cht": 0,
+        "cht": "於是提幔人"
       },
       {
         "id": "hebrew-1085",
@@ -594,7 +613,10 @@
         "lang": "hebrew",
         "hebrew": "וּבִלְדַּ֣ד",
         "pos": "Conj‑w | N‑proper‑ms",
-        "eng": "and Bildad"
+        "eng": "and Bildad",
+        "origin_simp": "וּבִלְדַּד",
+        "index_cht": 3,
+        "cht": "比勒達、"
       },
       {
         "id": "hebrew-7747",
@@ -602,7 +624,10 @@
         "lang": "hebrew",
         "hebrew": "הַשּׁוּחִ֗י",
         "pos": "Art | N‑proper‑ms",
-        "eng": "the Shuhite"
+        "eng": "the Shuhite",
+        "origin_simp": "הַשּׁוּחִי",
+        "index_cht": 2,
+        "cht": "書亞人"
       },
       {
         "id": "hebrew-6691",
@@ -610,7 +635,10 @@
         "lang": "hebrew",
         "hebrew": "צֹפַר֙",
         "pos": "N‑proper‑ms",
-        "eng": "[and] Zophar"
+        "eng": "[and] Zophar",
+        "origin_simp": "צֹפַר",
+        "index_cht": 5,
+        "cht": "瑣法"
       },
       {
         "id": "hebrew-5284",
@@ -618,7 +646,10 @@
         "lang": "hebrew",
         "hebrew": "הַנַּ֣עֲמָתִ֔י",
         "pos": "Art | N‑proper‑ms",
-        "eng": "the Naamathite"
+        "eng": "the Naamathite",
+        "origin_simp": "הַנַּעֲמָתִי",
+        "index_cht": 4,
+        "cht": "拿瑪人"
       },
       {
         "id": "hebrew-6213",
@@ -626,7 +657,11 @@
         "lang": "hebrew",
         "hebrew": "וַֽיַּעֲשׂ֔וּ",
         "pos": "Conj‑w | V‑Qal‑ConsecImperf‑3mp",
-        "eng": "and did"
+        "eng": "and did",
+        "origin_simp": "וַֽיַּעֲשׂוּ",
+        "index_cht": 11,
+        "cht": "行",
+        "punct_cht": "；"
       },
       {
         "id": "hebrew-834",
@@ -634,7 +669,10 @@
         "lang": "hebrew",
         "hebrew": "כַּאֲשֶׁ֛ר",
         "pos": "Prep‑k | Pro‑r",
-        "eng": "as"
+        "eng": "as",
+        "origin_simp": "כַּאֲשֶׁר",
+        "index_cht": 7,
+        "cht": "所"
       },
       {
         "id": "hebrew-1696",
@@ -642,7 +680,10 @@
         "lang": "hebrew",
         "hebrew": "דִּבֶּ֥ר",
         "pos": "V‑Piel‑Perf‑3ms",
-        "eng": "commanded"
+        "eng": "commanded",
+        "origin_simp": "דִּבֶּר",
+        "index_cht": 8,
+        "cht": "吩咐"
       },
       {
         "id": "hebrew-413",
@@ -650,7 +691,10 @@
         "lang": "hebrew",
         "hebrew": "אֲלֵיהֶ֖ם",
         "pos": "Prep | 3mp",
-        "eng": "commanded them"
+        "eng": "commanded them",
+        "origin_simp": "אֲלֵיהֶם",
+        "index_cht": 9,
+        "cht": "的"
       },
       {
         "id": "hebrew-3068",
@@ -658,7 +702,10 @@
         "lang": "hebrew",
         "hebrew": "יְהוָ֑ה",
         "pos": "N‑proper‑ms",
-        "eng": "Yahweh"
+        "eng": "Yahweh",
+        "origin_simp": "יְהוָה",
+        "index_cht": 6,
+        "cht": "照著耶和華"
       },
       {
         "id": "hebrew-5375",
@@ -666,7 +713,10 @@
         "lang": "hebrew",
         "hebrew": "וַיִּשָּׂ֥א",
         "pos": "Conj‑w | V‑Qal‑ConsecImperf‑3ms",
-        "eng": "for had accepted"
+        "eng": "for had accepted",
+        "origin_simp": "וַיִּשָּׂא#[Obj.]פְּנֵי",
+        "index_cht": 13,
+        "cht": "就悅納"
       },
       {
         "id": "hebrew-3068",
@@ -674,7 +724,10 @@
         "lang": "hebrew",
         "hebrew": "יְהוָ֖ה",
         "pos": "N‑proper‑ms",
-        "eng": "Yahweh"
+        "eng": "Yahweh",
+        "origin_simp": "יְהוָה",
+        "index_cht": 12,
+        "cht": "耶和華"
       },
       {
         "id": "hebrew-853",
@@ -682,7 +735,10 @@
         "lang": "hebrew",
         "hebrew": "אֶת־",
         "pos": "DirObjM",
-        "eng": "-"
+        "eng": "-",
+        "origin_simp": "",
+        "index_cht": 13,
+        "cht": "就悅納"
       },
       {
         "id": "hebrew-6440",
@@ -690,7 +746,10 @@
         "lang": "hebrew",
         "hebrew": "פְּנֵ֥י",
         "pos": "N‑cpc",
-        "eng": "before the face of"
+        "eng": "before the face of",
+        "origin_simp": "",
+        "index_cht": 13,
+        "cht": "就悅納"
       },
       {
         "id": "hebrew-347",
@@ -699,7 +758,17 @@
         "hebrew": "אִיּֽוֹב׃",
         "pos": "N‑proper‑ms",
         "punct": ".",
-        "eng": "Job"
+        "eng": "Job",
+        "origin_simp": "אִיּֽוֹב",
+        "index_cht": 14,
+        "cht": "約伯",
+        "punct_cht": "。"
+      },
+      {
+        "id": "hebrew-3212",
+        "origin_simp": "וַיֵּלְכוּ",
+        "index_cht": 10,
+        "cht": "去"
       }
     ]
   }

@@ -16,16 +16,24 @@
           "hebrew-6493": "the seeing",
           "hebrew-5787": "the blind",
           "hebrew-3808": "[Have] not",
-          "hebrew-595": "I"
+          "hebrew-595": "I",
+          "": null
         }
+      },
+      "translations": {
+        "greek-3004": "hebrew-559",
+        "greek-1746": "hebrew-7760",
+        "greek-4750": "hebrew-6310",
+        "greek-2974": "hebrew-483",
+        "greek-5185": "hebrew-5787"
       },
       "crossRefs": [
         {
-          "totalScore": 15.177539434729166,
+          "totalScore": 11.465861298651754,
           "anchors": {
             "hebrew-3068": 0.27478005916650944,
             "hebrew-2795": 5.208574812158221,
-            "hebrew-5787": 3.231394854468145
+            "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "isa.42.19",
           "cunp": "誰比我的僕人眼瞎呢？ 誰比我差遣的使者耳聾呢？ 誰瞎眼像那與我和好的？ 誰瞎眼像耶和華的僕人呢？",
@@ -88,53 +96,15 @@
             {
               "id": "hebrew-3068",
               "eng": "of Yahweh"
-            }
-          ]
-        },
-        {
-          "totalScore": 12.316305041526533,
-          "anchors": {
-            "hebrew-6310": 0.8565794689768332,
-            "hebrew-483": 6.2511507603914795,
-            "hebrew-2795": 5.208574812158221
-          },
-          "verseKey": "psa.38.13",
-          "cunp": "但我如聾子不聽， 像啞巴不開口。",
-          "words": [
-            {
-              "id": "hebrew-589",
-              "eng": "But I",
-              "punct": "､"
             },
             {
-              "id": "hebrew-2795",
-              "eng": "like a deaf [man]"
+              "id": ""
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not",
-              "punct": "–"
+              "id": ""
             },
             {
-              "id": "hebrew-8085",
-              "eng": "do hear"
-            },
-            {
-              "id": "hebrew-483",
-              "eng": "and like [I am] a mute"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-6605",
-              "eng": "who does open"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "his mouth",
-              "punct": "."
+              "id": ""
             }
           ]
         },
@@ -191,89 +161,225 @@
           ]
         },
         {
-          "totalScore": 9.482545614859625,
+          "totalScore": 9.266849719805123,
           "anchors": {
-            "hebrew-483": 6.2511507603914795,
-            "hebrew-5787": 3.231394854468145
+            "hebrew-483": 3.6363404553480576,
+            "hebrew-5787": 1.9941688091090077
           },
-          "verseKey": "isa.56.10",
-          "cunp": "他看守的人是瞎眼的， 都沒有知識， 都是啞巴狗，不能叫喚； 但知做夢，躺臥，貪睡，",
+          "verseKey": "mat.12.22",
+          "cunp": "當下，有人將一個被鬼附着、又瞎又啞的人帶到耶穌那裏，耶穌就醫治他，甚至那啞巴又能說話，又能看見。",
           "words": [
             {
-              "id": "hebrew-6822",
-              "eng": "His watchmen [are]"
+              "id": "greek-5119",
+              "eng": "Then"
             },
             {
-              "id": "hebrew-5787",
-              "eng": "blind",
+              "id": "greek-4374",
+              "eng": "was brought"
+            },
+            {
+              "id": "greek-846",
+              "eng": "to Him"
+            },
+            {
+              "id": "greek-1139",
+              "eng": "[one] possessed by a demon",
+              "punct": ","
+            },
+            {
+              "id": "greek-5185",
+              "eng": "blind"
+            },
+            {
+              "id": "greek-2532",
+              "eng": "and"
+            },
+            {
+              "id": "greek-2974",
+              "eng": "mute",
+              "punct": ","
+            },
+            {
+              "id": "greek-2532",
+              "eng": "and"
+            },
+            {
+              "id": "greek-2323",
+              "eng": "He healed"
+            },
+            {
+              "id": "greek-846",
+              "eng": "him",
+              "punct": ","
+            },
+            {
+              "id": "greek-5620",
+              "eng": "in order for"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-2974",
+              "eng": "mute [man]"
+            },
+            {
+              "id": "greek-2980",
+              "eng": "to speak"
+            },
+            {
+              "id": "greek-2532",
+              "eng": "and"
+            },
+            {
+              "id": "greek-991",
+              "eng": "to see",
+              "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "greek-5185"
+            },
+            {
+              "id": "greek-2532"
+            },
+            {
+              "id": "greek-2532"
+            }
+          ]
+        },
+        {
+          "totalScore": 8.844915267506279,
+          "anchors": {
+            "hebrew-483": 3.6363404553480576,
+            "hebrew-2795": 5.208574812158221
+          },
+          "verseKey": "psa.38.13",
+          "cunp": "但我如聾子不聽， 像啞巴不開口。",
+          "words": [
+            {
+              "id": "hebrew-589",
+              "eng": "But I",
               "punct": "､"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "they are all"
+              "id": "hebrew-2795",
+              "eng": "like a deaf [man]"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nothing"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "ignorant",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "they [are] all"
-            },
-            {
-              "id": "hebrew-3611",
-              "eng": "dogs",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-483",
-              "eng": "mute"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "cannot"
-            },
-            {
-              "id": "hebrew-3201",
-              "eng": "they"
-            },
-            {
-              "id": "hebrew-5024",
-              "eng": "bark",
+              "eng": "not",
               "punct": "–"
             },
             {
-              "id": "hebrew-1957",
-              "eng": "Sleeping",
-              "punct": "､"
+              "id": "hebrew-8085",
+              "eng": "do hear"
             },
             {
-              "id": "hebrew-7901",
-              "eng": "lying down",
-              "punct": "､"
+              "id": "hebrew-483",
+              "eng": "and like [I am] a mute"
             },
             {
-              "id": "hebrew-157",
-              "eng": "loving"
+              "id": "hebrew-3808",
+              "eng": "not"
             },
             {
-              "id": "hebrew-5123",
-              "eng": "to slumber",
+              "id": "hebrew-6605",
+              "eng": "who does open"
+            },
+            {
+              "id": "hebrew-6310",
+              "eng": "his mouth",
               "punct": "."
             }
           ]
         },
         {
-          "totalScore": 8.714749725792876,
+          "totalScore": 7.976675236436031,
+          "anchors": {
+            "hebrew-5787": 1.9941688091090077
+          },
+          "verseKey": "mat.15.14",
+          "cunp": "任憑他們吧！他們是瞎眼領路的；若是瞎子領瞎子，兩個人都要掉在坑裏。」",
+          "words": [
+            {
+              "id": "greek-863",
+              "eng": "Leave"
+            },
+            {
+              "id": "greek-846",
+              "eng": "them",
+              "punct": "!"
+            },
+            {
+              "id": "greek-5185",
+              "eng": "Blind"
+            },
+            {
+              "id": "greek-1526",
+              "eng": "they are"
+            },
+            {
+              "id": "greek-3595",
+              "eng": "guides"
+            },
+            {
+              "id": "greek-5185",
+              "eng": "of the blind",
+              "punct": "."
+            },
+            {
+              "id": "greek-5185",
+              "eng": "Blind"
+            },
+            {
+              "id": "greek-1161",
+              "eng": "now"
+            },
+            {
+              "id": "greek-5185",
+              "eng": "blind"
+            },
+            {
+              "id": "greek-1437",
+              "eng": "if"
+            },
+            {
+              "id": "greek-3594",
+              "eng": "they lead",
+              "punct": ","
+            },
+            {
+              "id": "greek-297",
+              "eng": "both"
+            },
+            {
+              "id": "greek-1519",
+              "eng": "into"
+            },
+            {
+              "id": "greek-999",
+              "eng": "a pit"
+            },
+            {
+              "id": "greek-4098",
+              "eng": "will fall",
+              "punct": "."
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 7.477523680433738,
           "anchors": {
             "hebrew-3068": 0.27478005916650944,
             "hebrew-2795": 5.208574812158221,
-            "hebrew-5787": 3.231394854468145
+            "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "lev.19.14",
           "cunp": "不可咒罵聾子，也不可將絆腳石放在瞎子面前，只要敬畏你的神。我是耶和華。",
@@ -329,14 +435,124 @@
               "id": "hebrew-3068",
               "eng": "[am] Yahweh",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         },
         {
-          "totalScore": 8.439969666626366,
+          "totalScore": 7.272680910696115,
+          "anchors": {
+            "hebrew-483": 3.6363404553480576
+          },
+          "verseKey": "luk.11.14",
+          "cunp": "耶穌趕出一個叫人啞巴的鬼；鬼出去了，啞巴就說出話來；眾人都希奇。",
+          "words": [
+            {
+              "id": "greek-2532",
+              "eng": "And"
+            },
+            {
+              "id": "greek-1510",
+              "eng": "He was"
+            },
+            {
+              "id": "greek-1544",
+              "eng": "casting out"
+            },
+            {
+              "id": "greek-1140",
+              "eng": "a demon",
+              "punct": ","
+            },
+            {
+              "id": "greek-2532",
+              "eng": "and"
+            },
+            {
+              "id": "greek-846",
+              "eng": "it"
+            },
+            {
+              "id": "greek-1510",
+              "eng": "was"
+            },
+            {
+              "id": "greek-2974",
+              "eng": "mute",
+              "punct": ";"
+            },
+            {
+              "id": "greek-1096",
+              "eng": "it came to pass"
+            },
+            {
+              "id": "greek-1161",
+              "eng": "then"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-1140",
+              "eng": "demon"
+            },
+            {
+              "id": "greek-1831",
+              "eng": "having gone out",
+              "punct": ","
+            },
+            {
+              "id": "greek-2980",
+              "eng": "spoke"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-2974",
+              "eng": "mute [man]",
+              "punct": "."
+            },
+            {
+              "id": "greek-2532",
+              "eng": "And"
+            },
+            {
+              "id": "greek-2296",
+              "eng": "marveled"
+            },
+            {
+              "id": "greek-3588",
+              "eng": "the"
+            },
+            {
+              "id": "greek-3793",
+              "eng": "crowds",
+              "punct": "."
+            },
+            {
+              "id": "greek-2258"
+            },
+            {
+              "id": "greek-2258"
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 7.202743621267229,
           "anchors": {
             "hebrew-2795": 5.208574812158221,
-            "hebrew-5787": 3.231394854468145
+            "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "isa.35.5",
           "cunp": "那時，瞎子的眼必睜開； 聾子的耳必開通。",
@@ -374,10 +590,10 @@
           ]
         },
         {
-          "totalScore": 8.439969666626366,
+          "totalScore": 7.202743621267229,
           "anchors": {
             "hebrew-2795": 5.208574812158221,
-            "hebrew-5787": 3.231394854468145
+            "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "isa.29.18",
           "cunp": "那時，聾子必聽見這書上的話； 瞎子的眼必從迷矇黑暗中得以看見。",
@@ -429,54 +645,20 @@
               "id": "hebrew-7200",
               "eng": "shall see",
               "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         },
         {
-          "totalScore": 8.439969666626366,
+          "totalScore": 7.202743621267229,
           "anchors": {
             "hebrew-2795": 5.208574812158221,
-            "hebrew-5787": 3.231394854468145
-          },
-          "verseKey": "isa.43.8",
-          "cunp": "你要將有眼而瞎、 有耳而聾的民都帶出來！",
-          "words": [
-            {
-              "id": "hebrew-3318",
-              "eng": "Bring out"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-5787",
-              "eng": "blind"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "and eyes",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3426",
-              "eng": "who have"
-            },
-            {
-              "id": "hebrew-2795",
-              "eng": "and the deaf"
-            },
-            {
-              "id": "hebrew-241",
-              "eng": "and ears"
-            }
-          ]
-        },
-        {
-          "totalScore": 8.439969666626366,
-          "anchors": {
-            "hebrew-2795": 5.208574812158221,
-            "hebrew-5787": 3.231394854468145
+            "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "isa.42.18",
           "cunp": "你們這耳聾的，聽吧！ 你們這眼瞎的，看吧！ 使你們能看見。",
@@ -504,50 +686,6 @@
             {
               "id": "hebrew-7200",
               "eng": "that you may see",
-              "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 7.107730229368313,
-          "anchors": {
-            "hebrew-6310": 0.8565794689768332,
-            "hebrew-483": 6.2511507603914795
-          },
-          "verseKey": "pro.31.8",
-          "cunp": "你當為啞巴開口， 為一切孤獨的伸冤。",
-          "words": [
-            {
-              "id": "hebrew-6605",
-              "eng": "Open"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "your mouth"
-            },
-            {
-              "id": "hebrew-483",
-              "eng": "for the mute"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "the cause"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "such as"
-            },
-            {
-              "id": "hebrew-2475",
-              "eng": "[who are appointed] to die",
               "punct": "."
             }
           ]
@@ -625,7 +763,11 @@
         "lang": "hebrew",
         "hebrew": "וַיֹּ֨אמֶר",
         "pos": "Conj‑w | V‑Qal‑ConsecImperf‑3ms",
-        "eng": "So said"
+        "eng": "So said",
+        "origin_simp": "וַיֹּאמֶר",
+        "index_cht": 2,
+        "cht": "說",
+        "punct_cht": "：「"
       },
       {
         "id": "hebrew-3068",
@@ -633,7 +775,10 @@
         "lang": "hebrew",
         "hebrew": "יְהוָ֜ה",
         "pos": "N‑proper‑ms",
-        "eng": "Yahweh"
+        "eng": "Yahweh",
+        "origin_simp": "יְהוָה",
+        "index_cht": 0,
+        "cht": "耶和華"
       },
       {
         "id": "hebrew-413",
@@ -642,7 +787,10 @@
         "hebrew": "אֵלָ֗יו",
         "pos": "Prep | 3ms",
         "punct": "､",
-        "eng": "to him"
+        "eng": "to him",
+        "origin_simp": "אֵלָיו",
+        "index_cht": 1,
+        "cht": "對他"
       },
       {
         "id": "hebrew-4310",
@@ -650,7 +798,10 @@
         "lang": "hebrew",
         "hebrew": "מִ֣י",
         "pos": "Interrog",
-        "eng": "who"
+        "eng": "who",
+        "origin_simp": "מִי",
+        "index_cht": 3,
+        "cht": "誰"
       },
       {
         "id": "hebrew-7760",
@@ -658,7 +809,10 @@
         "lang": "hebrew",
         "hebrew": "שָׂ֣ם",
         "pos": "V‑Qal‑Perf‑3ms",
-        "eng": "has made"
+        "eng": "has made",
+        "origin_simp": "שָׂם",
+        "index_cht": 4,
+        "cht": "造"
       },
       {
         "id": "hebrew-6310",
@@ -666,7 +820,10 @@
         "lang": "hebrew",
         "hebrew": "פֶּה֮",
         "pos": "N‑ms",
-        "eng": "the mouth"
+        "eng": "the mouth",
+        "origin_simp": "פֶּה",
+        "index_cht": 6,
+        "cht": "口"
       },
       {
         "id": "hebrew-120",
@@ -674,7 +831,10 @@
         "lang": "hebrew",
         "hebrew": "לָֽאָדָם֒",
         "pos": "Prep‑l, Art | N‑ms",
-        "eng": "of man"
+        "eng": "of man",
+        "origin_simp": "לָֽאָדָם",
+        "index_cht": 5,
+        "cht": "人的"
       },
       {
         "id": "hebrew-176",
@@ -682,7 +842,8 @@
         "lang": "hebrew",
         "hebrew": "א֚וֹ",
         "pos": "Conj",
-        "eng": "Or"
+        "eng": "Or",
+        "origin_simp": "א֚וֹ"
       },
       {
         "id": "hebrew-4310",
@@ -690,7 +851,10 @@
         "lang": "hebrew",
         "hebrew": "מִֽי־",
         "pos": "Interrog",
-        "eng": "who"
+        "eng": "who",
+        "origin_simp": "מִֽי",
+        "index_cht": 8,
+        "cht": "誰"
       },
       {
         "id": "hebrew-7760",
@@ -698,7 +862,10 @@
         "lang": "hebrew",
         "hebrew": "יָשׂ֣וּם",
         "pos": "V‑Qal‑Imperf‑3ms",
-        "eng": "makes"
+        "eng": "makes",
+        "origin_simp": "יָשׂוּם",
+        "index_cht": 9,
+        "cht": "使"
       },
       {
         "id": "hebrew-483",
@@ -707,7 +874,10 @@
         "hebrew": "אִלֵּ֔ם",
         "pos": "Adj‑ms",
         "punct": "､",
-        "eng": "the mute"
+        "eng": "the mute",
+        "origin_simp": "אִלֵּם",
+        "index_cht": 10,
+        "cht": "人口啞、"
       },
       {
         "id": "hebrew-176",
@@ -715,7 +885,8 @@
         "lang": "hebrew",
         "hebrew": "א֣וֹ",
         "pos": "Conj",
-        "eng": "or"
+        "eng": "or",
+        "origin_simp": "א֣וֹ"
       },
       {
         "id": "hebrew-2795",
@@ -724,7 +895,10 @@
         "hebrew": "חֵרֵ֔שׁ",
         "pos": "Adj‑ms",
         "punct": "､",
-        "eng": "the deaf"
+        "eng": "the deaf",
+        "origin_simp": "חֵרֵשׁ",
+        "index_cht": 11,
+        "cht": "耳聾、"
       },
       {
         "id": "hebrew-176",
@@ -732,7 +906,8 @@
         "lang": "hebrew",
         "hebrew": "א֥וֹ",
         "pos": "Conj",
-        "eng": "or"
+        "eng": "or",
+        "origin_simp": "א֥וֹ"
       },
       {
         "id": "hebrew-6493",
@@ -741,7 +916,10 @@
         "hebrew": "פִקֵּ֖חַ",
         "pos": "Adj‑ms",
         "punct": "､",
-        "eng": "the seeing"
+        "eng": "the seeing",
+        "origin_simp": "פִקֵּחַ",
+        "index_cht": 12,
+        "cht": "目明、"
       },
       {
         "id": "hebrew-176",
@@ -749,7 +927,8 @@
         "lang": "hebrew",
         "hebrew": "א֣וֹ",
         "pos": "Conj",
-        "eng": "or"
+        "eng": "or",
+        "origin_simp": "א֣וֹ"
       },
       {
         "id": "hebrew-5787",
@@ -757,7 +936,10 @@
         "lang": "hebrew",
         "hebrew": "עִוֵּ֑ר",
         "pos": "Adj‑ms",
-        "eng": "the blind"
+        "eng": "the blind",
+        "origin_simp": "עִוֵּר",
+        "index_cht": 13,
+        "cht": "眼瞎"
       },
       {
         "id": "hebrew-3808",
@@ -765,7 +947,10 @@
         "lang": "hebrew",
         "hebrew": "הֲלֹ֥א",
         "pos": "Adv‑NegPrt",
-        "eng": "[Have] not"
+        "eng": "[Have] not",
+        "origin_simp": "הֲלֹא",
+        "index_cht": 15,
+        "cht": "豈不是"
       },
       {
         "id": "hebrew-595",
@@ -773,7 +958,10 @@
         "lang": "hebrew",
         "hebrew": "אָנֹכִ֖י",
         "pos": "Pro‑1cs",
-        "eng": "I"
+        "eng": "I",
+        "origin_simp": "אָנֹכִי",
+        "index_cht": 16,
+        "cht": "我─"
       },
       {
         "id": "hebrew-3068",
@@ -781,7 +969,31 @@
         "lang": "hebrew",
         "hebrew": "יְהוָֽה׃",
         "pos": "N‑proper‑ms",
-        "eng": "Yahweh"
+        "eng": "Yahweh",
+        "origin_simp": "יְהוָֽה",
+        "index_cht": 17,
+        "cht": "耶和華"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 7,
+        "cht": "呢",
+        "punct_cht": "？"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 14,
+        "cht": "呢",
+        "punct_cht": "？"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 18,
+        "cht": "嗎",
+        "punct_cht": "？"
       }
     ]
   }

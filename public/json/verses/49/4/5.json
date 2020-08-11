@@ -6,14 +6,19 @@
           "greek-1520": "one",
           "greek-2962": "Lord",
           "greek-4102": "faith",
-          "greek-908": "baptism"
+          "greek-908": "baptism",
+          "greek-3391": null
         }
+      },
+      "translations": {
+        "hebrew-7813": "greek-1520",
+        "hebrew-136": "greek-2962"
       },
       "crossRefs": [
         {
-          "totalScore": 4.560364455383971,
+          "totalScore": 4.559077559415355,
           "anchors": {
-            "greek-1520": 1.0029918768541513,
+            "greek-1520": 1.0017049808855352,
             "greek-908": 3.55737257852982
           },
           "verseKey": "act.1.22",
@@ -64,7 +69,7 @@
               "eng": "from"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-2257",
               "eng": "us",
               "punct": ","
             },
@@ -89,7 +94,7 @@
               "eng": "with"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-2254",
               "eng": "us"
             },
             {
@@ -104,13 +109,19 @@
               "id": "greek-3778",
               "eng": "of these",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "greek-1163"
             }
           ]
         },
         {
-          "totalScore": 4.281001309714045,
+          "totalScore": 4.141195805753617,
           "anchors": {
-            "greek-2962": 0.7236287311842251,
+            "greek-2962": 0.5838232272237975,
             "greek-908": 3.55737257852982
           },
           "verseKey": "act.18.25",
@@ -121,7 +132,7 @@
               "eng": "He"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-2258",
               "eng": "was"
             },
             {
@@ -215,14 +226,20 @@
               "id": "greek-2491",
               "eng": "of John",
               "punct": "."
+            },
+            {
+              "id": "greek-2962"
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 3.732604361746679,
+          "totalScore": 3.588938169880403,
           "anchors": {
-            "greek-1520": 1.0029918768541513,
-            "greek-2962": 0.7236287311842251
+            "greek-1520": 1.0017049808855352,
+            "greek-2962": 0.5838232272237975
           },
           "verseKey": "2pe.3.8",
           "cunp": "親愛的弟兄啊，有一件事你們不可忘記，就是主看一日如千年，千年如一日。",
@@ -236,7 +253,7 @@
               "eng": "however"
             },
             {
-              "id": "greek-3778",
+              "id": "greek-5124",
               "eng": "thing"
             },
             {
@@ -248,7 +265,7 @@
               "eng": "let be hidden from"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-5209",
               "eng": "you",
               "punct": ","
             },
@@ -314,6 +331,15 @@
               "id": "greek-1520",
               "eng": "one",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": "greek-3391"
+            },
+            {
+              "id": "greek-3391"
             }
           ]
         }
@@ -450,7 +476,10 @@
         "lang": "greek",
         "greek": "εἷς",
         "pos": "Adj-NMS",
-        "eng": "one"
+        "eng": "one",
+        "origin_simp": "εις",
+        "index_cht": 0,
+        "cht": "一"
       },
       {
         "id": "greek-2962",
@@ -459,7 +488,11 @@
         "greek": "Κύριος",
         "pos": "N-NMS",
         "punct": ",",
-        "eng": "Lord"
+        "eng": "Lord",
+        "origin_simp": "κυριος",
+        "index_cht": 1,
+        "cht": "主",
+        "punct_cht": "，"
       },
       {
         "id": "greek-1520",
@@ -467,7 +500,10 @@
         "lang": "greek",
         "greek": "μία",
         "pos": "Adj-NFS",
-        "eng": "one"
+        "eng": "one",
+        "origin_simp": "μια",
+        "index_cht": 2,
+        "cht": "一"
       },
       {
         "id": "greek-4102",
@@ -476,7 +512,11 @@
         "greek": "πίστις",
         "pos": "N-NFS",
         "punct": ",",
-        "eng": "faith"
+        "eng": "faith",
+        "origin_simp": "πιστις",
+        "index_cht": 3,
+        "cht": "信",
+        "punct_cht": "，"
       },
       {
         "id": "greek-1520",
@@ -484,7 +524,8 @@
         "lang": "greek",
         "greek": "ἓν",
         "pos": "Adj-NNS",
-        "eng": "one"
+        "eng": "one",
+        "origin_simp": "εν"
       },
       {
         "id": "greek-908",
@@ -493,7 +534,17 @@
         "greek": "βάπτισμα",
         "pos": "N-NNS",
         "punct": ";",
-        "eng": "baptism"
+        "eng": "baptism",
+        "origin_simp": "βαπτισμα",
+        "index_cht": 5,
+        "cht": "洗",
+        "punct_cht": "，"
+      },
+      {
+        "id": "greek-3391",
+        "origin_simp": "[first]",
+        "index_cht": 4,
+        "cht": "一"
       }
     ]
   }

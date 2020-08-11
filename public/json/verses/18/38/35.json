@@ -7,15 +7,23 @@
           "hebrew-1300": "lightnings",
           "hebrew-1980": "that they may go",
           "hebrew-559": "and say",
-          "hebrew-2005": "Here we [are]"
+          "hebrew-2005": "Here we [are]",
+          "hebrew-3212": null,
+          "hebrew-2009": null
         }
+      },
+      "translations": {
+        "greek-649": "hebrew-7971",
+        "greek-796": "hebrew-1300",
+        "greek-1831": "hebrew-1980",
+        "greek-3004": "hebrew-559"
       },
       "crossRefs": [
         {
-          "totalScore": 4.4433015642550355,
+          "totalScore": 3.8880428399124236,
           "anchors": {
-            "hebrew-1300": 3.55737257852982,
-            "hebrew-559": 0.2953096619084053
+            "hebrew-1300": 3.0764434511361327,
+            "hebrew-559": 0.27053312959209697
           },
           "verseKey": "ezk.21.28",
           "cunp": "「人子啊，要發預言說：主耶和華論到亞捫人和他們的凌辱，吩咐我如此說：有刀，有拔出來的刀，已經擦亮，為行殺戮，使他像閃電以行吞滅。",
@@ -119,14 +127,54 @@
               "id": "hebrew-1300",
               "eng": "flashing",
               "punct": "–"
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 4.231607701202351,
+          "totalScore": 3.7663063892650808,
           "anchors": {
-            "hebrew-7971": 0.6742351226725307,
-            "hebrew-1300": 3.55737257852982
+            "hebrew-7971": 0.6898629381289483,
+            "hebrew-1300": 3.0764434511361327
+          },
+          "verseKey": "2sa.22.15",
+          "cunp": "他射出箭來，使仇敵四散， 發出閃電，使他們擾亂。",
+          "words": [
+            {
+              "id": "hebrew-7971",
+              "eng": "And He sent out"
+            },
+            {
+              "id": "hebrew-2671",
+              "eng": "arrows",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-6327",
+              "eng": "and scattered them"
+            },
+            {
+              "id": "hebrew-1300",
+              "eng": "Lightning bolts",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-2000",
+              "eng": "and He vanquished them",
+              "punct": "."
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 3.7663063892650808,
+          "anchors": {
+            "hebrew-7971": 0.6898629381289483,
+            "hebrew-1300": 3.0764434511361327
           },
           "verseKey": "psa.18.14",
           "cunp": "他射出箭來，使仇敵四散； 多多發出閃電，使他們擾亂。",
@@ -157,40 +205,9 @@
               "id": "hebrew-2000",
               "eng": "and He vanquished them",
               "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 4.231607701202351,
-          "anchors": {
-            "hebrew-7971": 0.6742351226725307,
-            "hebrew-1300": 3.55737257852982
-          },
-          "verseKey": "2sa.22.15",
-          "cunp": "他射出箭來，使仇敵四散， 發出閃電，使他們擾亂。",
-          "words": [
-            {
-              "id": "hebrew-7971",
-              "eng": "And He sent out"
             },
             {
-              "id": "hebrew-2671",
-              "eng": "arrows",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6327",
-              "eng": "and scattered them"
-            },
-            {
-              "id": "hebrew-1300",
-              "eng": "Lightning bolts",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2000",
-              "eng": "and He vanquished them",
-              "punct": "."
+              "id": ""
             }
           ]
         }
@@ -256,7 +273,10 @@
         "lang": "hebrew",
         "hebrew": "הַֽתְשַׁלַּ֣ח",
         "pos": "V‑Piel‑Imperf‑2ms",
-        "eng": "Can you send out"
+        "eng": "Can you send out",
+        "origin_simp": "הַֽתְשַׁלַּח",
+        "index_cht": 0,
+        "cht": "你能發出"
       },
       {
         "id": "hebrew-1300",
@@ -265,7 +285,11 @@
         "hebrew": "בְּרָקִ֣ים",
         "pos": "N‑mp",
         "punct": "､",
-        "eng": "lightnings"
+        "eng": "lightnings",
+        "origin_simp": "בְּרָקִים",
+        "index_cht": 1,
+        "cht": "閃電",
+        "punct_cht": "，"
       },
       {
         "id": "hebrew-1980",
@@ -274,7 +298,8 @@
         "hebrew": "וְיֵלֵ֑כוּ",
         "pos": "Conj‑w | V‑Qal‑ConjImperf‑3mp",
         "punct": "､",
-        "eng": "that they may go"
+        "eng": "that they may go",
+        "origin_simp": "וְיֵלֵ֑כוּ"
       },
       {
         "id": "hebrew-559",
@@ -282,7 +307,11 @@
         "lang": "hebrew",
         "hebrew": "וְיֹאמְר֖וּ",
         "pos": "Conj‑w | V‑Qal‑ConjImperf‑3mp",
-        "eng": "and say"
+        "eng": "and say",
+        "origin_simp": "וְיֹאמְרוּ",
+        "index_cht": 4,
+        "cht": "說",
+        "punct_cht": "："
       },
       {
         "id": "hebrew-2005",
@@ -291,7 +320,22 @@
         "hebrew": "הִנֵּֽנוּ׃",
         "pos": "Interjection | 1cp",
         "punct": ".",
-        "eng": "Here we [are]"
+        "eng": "Here we [are]",
+        "origin_simp": "הִנֵּֽנוּ׃"
+      },
+      {
+        "id": "hebrew-3212",
+        "origin_simp": "וְיֵלֵכוּ",
+        "index_cht": 2,
+        "cht": "叫它行去",
+        "punct_cht": "，"
+      },
+      {
+        "id": "hebrew-2009",
+        "origin_simp": "הִנֵּֽנוּ",
+        "index_cht": 5,
+        "cht": "我們在這裡",
+        "punct_cht": "？"
       }
     ]
   }

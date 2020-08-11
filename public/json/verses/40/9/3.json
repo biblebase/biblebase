@@ -15,12 +15,16 @@
           "greek-987": "blasphemes"
         }
       },
+      "translations": {
+        "hebrew-5608": "greek-1122",
+        "hebrew-1442": "greek-987"
+      },
       "crossRefs": [
         {
-          "totalScore": 4.033679490842644,
+          "totalScore": 3.8110134586073627,
           "anchors": {
             "greek-2400": 1.2068643049200045,
-            "greek-987": 2.8268151859226394
+            "greek-987": 2.604149153687358
           },
           "verseKey": "mat.26.65",
           "cunp": "大祭司就撕開衣服，說：「他說了僭妄的話，我們何必再用見證人呢？這僭妄的話，現在你們都聽見了。",
@@ -106,6 +110,9 @@
               "id": "greek-988",
               "eng": "blasphemy",
               "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         },
@@ -181,7 +188,7 @@
               "eng": "He goes before"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-5209",
               "eng": "you"
             },
             {
@@ -220,101 +227,60 @@
               "eng": "I have told"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-5213",
               "eng": "you",
               "punct": "."
+            },
+            {
+              "id": ""
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 3.4301317238090476,
+          "totalScore": 3.2074656915737663,
           "anchors": {
             "greek-2036": 0.6033165378864083,
-            "greek-987": 2.8268151859226394
+            "greek-987": 2.604149153687358
           },
-          "verseKey": "jhn.10.36",
-          "cunp": "父所分別為聖、又差到世間來的，他自稱是神的兒子，你們還向他說『你說僭妄的話』嗎？",
+          "verseKey": "luk.22.65",
+          "cunp": "他們還用許多別的話辱罵他。",
           "words": [
             {
-              "id": "greek-3739",
-              "eng": "[of Him] whom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father"
-            },
-            {
-              "id": "greek-37",
-              "eng": "sanctified"
-            },
-            {
               "id": "greek-2532",
-              "eng": "and"
+              "eng": "And"
             },
             {
-              "id": "greek-649",
-              "eng": "sent"
+              "id": "greek-2087",
+              "eng": "other things"
             },
             {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2889",
-              "eng": "world",
-              "punct": ","
-            },
-            {
-              "id": "greek-4771",
-              "eng": "you"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "do say"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
+              "id": "greek-4183",
+              "eng": "many",
               "punct": ","
             },
             {
               "id": "greek-987",
-              "eng": "You blaspheme",
+              "eng": "blaspheming",
               "punct": ","
-            },
-            {
-              "id": "greek-3754",
-              "eng": "because"
             },
             {
               "id": "greek-2036",
-              "eng": "I said",
-              "punct": ","
+              "eng": "they were saying"
             },
             {
-              "id": "greek-5207",
-              "eng": "Son"
+              "id": "greek-1519",
+              "eng": "to"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-846",
+              "eng": "Him",
+              "punct": "."
             },
             {
-              "id": "greek-2316",
-              "eng": "of God"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "I am",
-              "punct": "?"
+              "id": "greek-3004"
             }
           ]
         }
@@ -403,7 +369,8 @@
         "lang": "greek",
         "greek": "Καὶ",
         "pos": "Conj",
-        "eng": "And"
+        "eng": "And",
+        "origin_simp": "και"
       },
       {
         "id": "greek-2400",
@@ -412,7 +379,8 @@
         "greek": "ἰδού",
         "pos": "I",
         "punct": ",",
-        "eng": "behold"
+        "eng": "behold",
+        "origin_simp": "ιδου"
       },
       {
         "id": "greek-5100",
@@ -420,7 +388,10 @@
         "lang": "greek",
         "greek": "τινες",
         "pos": "IPro-NMP",
-        "eng": "some"
+        "eng": "some",
+        "origin_simp": "τινες",
+        "index_cht": 0,
+        "cht": "有幾個"
       },
       {
         "id": "greek-3588",
@@ -428,7 +399,8 @@
         "lang": "greek",
         "greek": "τῶν",
         "pos": "Art-GMP",
-        "eng": "of the"
+        "eng": "of the",
+        "origin_simp": "των"
       },
       {
         "id": "greek-1122",
@@ -436,7 +408,10 @@
         "lang": "greek",
         "greek": "γραμματέων",
         "pos": "N-GMP",
-        "eng": "scribes"
+        "eng": "scribes",
+        "origin_simp": "γραμματεωνεαυτοις",
+        "index_cht": 1,
+        "cht": "文士"
       },
       {
         "id": "greek-2036",
@@ -444,7 +419,11 @@
         "lang": "greek",
         "greek": "εἶπαν",
         "pos": "V-AIA-3P",
-        "eng": "said"
+        "eng": "said",
+        "origin_simp": "ειπον",
+        "index_cht": 3,
+        "cht": "說",
+        "punct_cht": "："
       },
       {
         "id": "greek-1722",
@@ -452,7 +431,10 @@
         "lang": "greek",
         "greek": "ἐν",
         "pos": "Prep",
-        "eng": "to"
+        "eng": "to",
+        "origin_simp": "εν",
+        "index_cht": 2,
+        "cht": "心裡"
       },
       {
         "id": "greek-1438",
@@ -461,7 +443,10 @@
         "greek": "ἑαυτοῖς",
         "pos": "RefPro-DM3P",
         "punct": ",",
-        "eng": "themselves"
+        "eng": "themselves",
+        "origin_simp": "",
+        "index_cht": 1,
+        "cht": "文士"
       },
       {
         "id": "greek-3778",
@@ -469,7 +454,10 @@
         "lang": "greek",
         "greek": "Οὗτος",
         "pos": "DPro-NMS",
-        "eng": "This [man]"
+        "eng": "This [man]",
+        "origin_simp": "ουτος",
+        "index_cht": 4,
+        "cht": "這個"
       },
       {
         "id": "greek-987",
@@ -478,7 +466,11 @@
         "greek": "βλασφημεῖ",
         "pos": "V-PIA-3S",
         "punct": "!",
-        "eng": "blasphemes"
+        "eng": "blasphemes",
+        "origin_simp": "βλασφημει",
+        "index_cht": 5,
+        "cht": "人說僭妄的話了",
+        "punct_cht": "。"
       }
     ]
   }

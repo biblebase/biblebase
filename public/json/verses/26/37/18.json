@@ -11,17 +11,23 @@
           "hebrew-3808": "will not",
           "hebrew-5046": "you show",
           "hebrew-4100": "what",
-          "hebrew-428": "these"
+          "hebrew-428": "these",
+          "": null
         }
+      },
+      "translations": {
+        "greek-3004": "hebrew-559",
+        "greek-5207": "hebrew-1121",
+        "greek-2992": "hebrew-5971",
+        "greek-1583": "hebrew-5046"
       },
       "crossRefs": [
         {
-          "totalScore": 4.302589270703309,
+          "totalScore": 3.8637165445994324,
           "anchors": {
-            "hebrew-559": 0.2953096619084053,
-            "hebrew-1121": 0.30500522871750213,
-            "hebrew-5971": 0.4722998394473307,
-            "hebrew-5046": 0.9782216262405552
+            "hebrew-559": 0.27053312959209697,
+            "hebrew-1121": 0.3213801148138742,
+            "hebrew-5046": 1.000423390200455
           },
           "verseKey": "jdg.14.16",
           "cunp": "參孫的妻在丈夫面前啼哭說：「你是恨我，不是愛我，你給我本國的人出謎語，卻沒有將意思告訴我。」參孫回答說：「連我父母我都沒有告訴，豈可告訴你呢？」",
@@ -119,14 +125,17 @@
               "id": "hebrew-5046",
               "eng": "should I explain [it]",
               "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 3.525284202538476,
+          "totalScore": 3.542336429785559,
           "anchors": {
-            "hebrew-559": 0.2953096619084053,
-            "hebrew-5046": 0.9782216262405552
+            "hebrew-559": 0.27053312959209697,
+            "hebrew-5046": 1.000423390200455
           },
           "verseKey": "1sa.10.16",
           "cunp": "掃羅對他叔叔說：「他明明地告訴我們驢已經找着了。」至於撒母耳所說的國事，掃羅卻沒有告訴叔叔。",
@@ -206,6 +215,78 @@
               "punct": "."
             }
           ]
+        },
+        {
+          "totalScore": 3.001270170601365,
+          "anchors": {
+            "hebrew-5046": 1.000423390200455
+          },
+          "verseKey": "jer.51.31",
+          "cunp": "跑報的要彼此相遇， 送信的要互相迎接， 報告巴比倫王說： 城的四方被攻取了，",
+          "words": [
+            {
+              "id": "hebrew-7323",
+              "eng": "One runner"
+            },
+            {
+              "id": "hebrew-7125",
+              "eng": "to meet"
+            },
+            {
+              "id": "hebrew-7323",
+              "eng": "will run"
+            },
+            {
+              "id": "hebrew-7323",
+              "eng": "another",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-5046",
+              "eng": "and one messenger"
+            },
+            {
+              "id": "hebrew-7125",
+              "eng": "to meet"
+            },
+            {
+              "id": "hebrew-5046",
+              "eng": "another",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-5046",
+              "eng": "to show"
+            },
+            {
+              "id": "hebrew-4428",
+              "eng": "the king"
+            },
+            {
+              "id": "hebrew-894",
+              "eng": "of Babylon"
+            },
+            {
+              "id": "hebrew-3588",
+              "eng": "that"
+            },
+            {
+              "id": "hebrew-3920",
+              "eng": "is taken"
+            },
+            {
+              "id": "hebrew-5892",
+              "eng": "his city"
+            },
+            {
+              "id": "hebrew-7097",
+              "eng": "on [all] sides",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-4480"
+            }
+          ]
         }
       ]
     },
@@ -276,7 +357,8 @@
         "lang": "hebrew",
         "hebrew": "וְכַֽאֲשֶׁר֙",
         "pos": "Conj‑w, Prep‑k | Pro‑r",
-        "eng": "And when"
+        "eng": "And when",
+        "origin_simp": "וְכַֽאֲשֶׁר֙"
       },
       {
         "id": "hebrew-559",
@@ -284,7 +366,10 @@
         "lang": "hebrew",
         "hebrew": "יֹאמְר֣וּ",
         "pos": "V‑Qal‑Imperf‑3mp",
-        "eng": "speak"
+        "eng": "speak",
+        "origin_simp": "יֹאמְרוּ",
+        "index_cht": 2,
+        "cht": "問"
       },
       {
         "id": "hebrew-413",
@@ -292,7 +377,10 @@
         "lang": "hebrew",
         "hebrew": "אֵלֶ֔יךָ",
         "pos": "Prep | 2ms",
-        "eng": "to you"
+        "eng": "to you",
+        "origin_simp": "אֵלֶיךָ",
+        "index_cht": 3,
+        "cht": "你"
       },
       {
         "id": "hebrew-1121",
@@ -300,7 +388,10 @@
         "lang": "hebrew",
         "hebrew": "בְּנֵ֥י",
         "pos": "N‑mpc",
-        "eng": "the sons"
+        "eng": "the sons",
+        "origin_simp": "בְּנֵי",
+        "index_cht": 1,
+        "cht": "的子民"
       },
       {
         "id": "hebrew-5971",
@@ -308,7 +399,10 @@
         "lang": "hebrew",
         "hebrew": "עַמְּךָ֖",
         "pos": "N‑msc | 2ms",
-        "eng": "of your people"
+        "eng": "of your people",
+        "origin_simp": "עַמְּךָ",
+        "index_cht": 0,
+        "cht": "你本國"
       },
       {
         "id": "hebrew-559",
@@ -317,7 +411,11 @@
         "hebrew": "לֵאמֹ֑ר",
         "pos": "Prep‑l | V‑Qal‑Inf",
         "punct": "､",
-        "eng": "saying"
+        "eng": "saying",
+        "origin_simp": "לֵאמֹר",
+        "index_cht": 4,
+        "cht": "說",
+        "punct_cht": "：『"
       },
       {
         "id": "hebrew-3808",
@@ -325,7 +423,10 @@
         "lang": "hebrew",
         "hebrew": "הֲלֽוֹא־",
         "pos": "Adv‑NegPrt",
-        "eng": "will not"
+        "eng": "will not",
+        "origin_simp": "הֲלֽוֹא",
+        "index_cht": 8,
+        "cht": "你不"
       },
       {
         "id": "hebrew-5046",
@@ -333,7 +434,10 @@
         "lang": "hebrew",
         "hebrew": "תַגִּ֥יד",
         "pos": "V‑Hifil‑Imperf‑2ms",
-        "eng": "you show"
+        "eng": "you show",
+        "origin_simp": "תַגִּיד",
+        "index_cht": 9,
+        "cht": "指示"
       },
       {
         "id": "hebrew-4100",
@@ -341,7 +445,10 @@
         "lang": "hebrew",
         "hebrew": "מָה־",
         "pos": "Interrog",
-        "eng": "what"
+        "eng": "what",
+        "origin_simp": "מָה",
+        "index_cht": 6,
+        "cht": "是甚麼"
       },
       {
         "id": "hebrew-428",
@@ -349,7 +456,17 @@
         "lang": "hebrew",
         "hebrew": "אֵ֥לֶּה",
         "pos": "Pro‑cp",
-        "eng": "these"
+        "eng": "these",
+        "origin_simp": "אֵלֶּה",
+        "index_cht": 5,
+        "cht": "這"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 11,
+        "cht": "麼",
+        "punct_cht": "？』"
       }
     ]
   }

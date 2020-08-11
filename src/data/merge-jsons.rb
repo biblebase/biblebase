@@ -6,6 +6,7 @@ Parallel.each(folders, progress: 'Merging') do |folder|
 # folders.each do |folder|
   next if folder[-1] =~ /[A-Za-z]/
   files = `ls #{folder}/*.json 2>/dev/null`.split
+  files = files.map{ |f| not f.include?('interpretations') }
   next if files.empty?
   jq = (0..(files.count)).map{|idx| "(.[#{idx}] // {})"}.join(" * ")
 

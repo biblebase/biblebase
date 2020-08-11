@@ -11,14 +11,20 @@
           "greek-1115": "Golgotha",
           "greek-3739": "which",
           "greek-1510": "is",
-          "greek-2898": "of a Skull"
+          "greek-2898": "of a Skull",
+          "greek-2076": null
         }
+      },
+      "translations": {
+        "hebrew-935": "greek-2064",
+        "hebrew-4725": "greek-5117",
+        "hebrew-559": "greek-3004"
       },
       "crossRefs": [
         {
-          "totalScore": 19.66625779997103,
+          "totalScore": 17.901716129281613,
           "anchors": {
-            "greek-5117": 1.8122599862406836,
+            "greek-5117": 0.9299891508959751,
             "greek-1115": 8.539323589735611,
             "greek-2898": 7.502414237754052
           },
@@ -59,7 +65,7 @@
               "eng": "which"
             },
             {
-              "id": "greek-1510",
+              "id": "greek-2076",
               "eng": "is"
             },
             {
@@ -79,10 +85,10 @@
           ]
         },
         {
-          "totalScore": 19.012734543999617,
+          "totalScore": 17.51279323756983,
           "anchors": {
-            "greek-5117": 1.8122599862406836,
-            "greek-3004": 0.5793683651346344,
+            "greek-5117": 0.9299891508959751,
+            "greek-3004": 0.27053312959209697,
             "greek-1115": 8.539323589735611,
             "greek-2898": 7.502414237754052
           },
@@ -151,14 +157,29 @@
               "id": "greek-1115",
               "eng": "Golgotha",
               "punct": ","
+            },
+            {
+              "id": "greek-1161"
+            },
+            {
+              "id": "greek-3880"
+            },
+            {
+              "id": "greek-2424"
+            },
+            {
+              "id": "greek-520"
+            },
+            {
+              "id": "greek-846"
             }
           ]
         },
         {
-          "totalScore": 10.07858374410875,
+          "totalScore": 8.817324505288965,
           "anchors": {
-            "greek-2064": 0.7639095201140141,
-            "greek-5117": 1.8122599862406836,
+            "greek-2064": 0.38492111663893813,
+            "greek-5117": 0.9299891508959751,
             "greek-2898": 7.502414237754052
           },
           "verseKey": "luk.23.33",
@@ -260,6 +281,92 @@
               "id": "greek-710",
               "eng": "[the] left",
               "punct": "."
+            },
+            {
+              "id": "greek-565"
+            },
+            {
+              "id": ""
+            }
+          ]
+        },
+        {
+          "totalScore": 3.1748885693268636,
+          "anchors": {
+            "greek-2064": 0.38492111663893813,
+            "greek-5117": 0.9299891508959751
+          },
+          "verseKey": "gen.28.11",
+          "cunp": "到了一個地方，因為太陽落了，就在那裏住宿，便拾起那地方的一塊石頭枕在頭下，在那裏躺臥睡了，",
+          "words": [
+            {
+              "id": "hebrew-6293",
+              "eng": "So he came"
+            },
+            {
+              "id": "hebrew-4725",
+              "eng": "to a certain place",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3885",
+              "eng": "and stayed all night"
+            },
+            {
+              "id": "hebrew-8033",
+              "eng": "there",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3588",
+              "eng": "because"
+            },
+            {
+              "id": "hebrew-935",
+              "eng": "had set"
+            },
+            {
+              "id": "hebrew-8121",
+              "eng": "the sun",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-3947",
+              "eng": "and he took"
+            },
+            {
+              "id": "hebrew-68",
+              "eng": "one of the stones"
+            },
+            {
+              "id": "hebrew-4725",
+              "eng": "of the place",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-7760",
+              "eng": "and put it at"
+            },
+            {
+              "id": "hebrew-4763",
+              "eng": "his head",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-7901",
+              "eng": "and he lay down to sleep"
+            },
+            {
+              "id": "hebrew-4725",
+              "eng": "in place"
+            },
+            {
+              "id": "hebrew-1931",
+              "eng": "that",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-4480"
             }
           ]
         }
@@ -355,7 +462,8 @@
         "lang": "greek",
         "greek": "Καὶ",
         "pos": "Conj",
-        "eng": "And"
+        "eng": "And",
+        "origin_simp": "και"
       },
       {
         "id": "greek-2064",
@@ -363,7 +471,10 @@
         "lang": "greek",
         "greek": "ἐλθόντες",
         "pos": "V-APA-NMP",
-        "eng": "having come"
+        "eng": "having come",
+        "origin_simp": "ελθοντεςεις",
+        "index_cht": 0,
+        "cht": "到了"
       },
       {
         "id": "greek-1519",
@@ -371,7 +482,10 @@
         "lang": "greek",
         "greek": "εἰς",
         "pos": "Prep",
-        "eng": "to"
+        "eng": "to",
+        "origin_simp": "",
+        "index_cht": 0,
+        "cht": "到了"
       },
       {
         "id": "greek-5117",
@@ -379,7 +493,10 @@
         "lang": "greek",
         "greek": "τόπον",
         "pos": "N-AMS",
-        "eng": "a place"
+        "eng": "a place",
+        "origin_simp": "τοπον",
+        "index_cht": 1,
+        "cht": "一個地方"
       },
       {
         "id": "greek-3004",
@@ -387,7 +504,10 @@
         "lang": "greek",
         "greek": "λεγόμενον",
         "pos": "V-PPM/P-AMS",
-        "eng": "called"
+        "eng": "called",
+        "origin_simp": "λεγομενον",
+        "index_cht": 2,
+        "cht": "名叫"
       },
       {
         "id": "greek-1115",
@@ -396,7 +516,11 @@
         "greek": "Γολγοθᾶ",
         "pos": "N-AFS",
         "punct": ",",
-        "eng": "Golgotha"
+        "eng": "Golgotha",
+        "origin_simp": "γολγοθα",
+        "index_cht": 3,
+        "cht": "各各他",
+        "punct_cht": "，"
       },
       {
         "id": "greek-3739",
@@ -404,7 +528,10 @@
         "lang": "greek",
         "greek": "ὅ",
         "pos": "RelPro-NNS",
-        "eng": "which"
+        "eng": "which",
+        "origin_simp": "ο",
+        "index_cht": 4,
+        "cht": "意思"
       },
       {
         "id": "greek-1510",
@@ -412,7 +539,8 @@
         "lang": "greek",
         "greek": "ἐστιν",
         "pos": "V-PIA-3S",
-        "eng": "is"
+        "eng": "is",
+        "origin_simp": "εστιν"
       },
       {
         "id": "greek-2898",
@@ -420,7 +548,10 @@
         "lang": "greek",
         "greek": "κρανίου",
         "pos": "N-GNS",
-        "eng": "of a Skull"
+        "eng": "of a Skull",
+        "origin_simp": "κρανιου",
+        "index_cht": 6,
+        "cht": "髑髏"
       },
       {
         "id": "greek-5117",
@@ -428,7 +559,11 @@
         "lang": "greek",
         "greek": "τόπος",
         "pos": "N-NMS",
-        "eng": "Place"
+        "eng": "Place",
+        "origin_simp": "τοπος",
+        "index_cht": 7,
+        "cht": "地",
+        "punct_cht": "。"
       },
       {
         "id": "greek-3004",
@@ -437,7 +572,16 @@
         "greek": "λεγόμενος",
         "pos": "V-PPM/P-NMS",
         "punct": ",",
-        "eng": "called"
+        "eng": "called",
+        "origin_simp": "",
+        "index_cht": 5,
+        "cht": "就是"
+      },
+      {
+        "id": "greek-2076",
+        "origin_simp": "εστινλεγομενος",
+        "index_cht": 5,
+        "cht": "就是"
       }
     ]
   }

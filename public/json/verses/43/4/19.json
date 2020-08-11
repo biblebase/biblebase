@@ -9,11 +9,16 @@
           "greek-1135": "woman",
           "greek-2962": "Sir",
           "greek-2334": "I understand",
-          "greek-3754": "that",
+          "greek-3754": null,
           "greek-4396": "a prophet",
-          "greek-1510": "are",
+          "greek-1488": "are",
           "greek-4771": "You"
         }
+      },
+      "translations": {
+        "hebrew-559": "greek-3004",
+        "hebrew-802": "greek-1135",
+        "hebrew-136": "greek-2962"
       },
       "crossRefs": [
         {
@@ -29,7 +34,7 @@
               "eng": "Yet"
             },
             {
-              "id": "greek-3398",
+              "id": "greek-3397",
               "eng": "a little while"
             },
             {
@@ -45,7 +50,7 @@
               "eng": "world"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-3165",
               "eng": "Me"
             },
             {
@@ -58,7 +63,7 @@
               "punct": ","
             },
             {
-              "id": "greek-4771",
+              "id": "greek-5210",
               "eng": "you"
             },
             {
@@ -70,7 +75,7 @@
               "eng": "see"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-3165",
               "eng": "Me",
               "punct": ";"
             },
@@ -92,7 +97,7 @@
               "eng": "also"
             },
             {
-              "id": "greek-4771",
+              "id": "greek-5210",
               "eng": "you"
             },
             {
@@ -123,7 +128,7 @@
               "eng": "beholding"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-1691",
               "eng": "Me",
               "punct": ","
             },
@@ -140,9 +145,12 @@
               "eng": "having sent"
             },
             {
-              "id": "greek-1473",
+              "id": "greek-3165",
               "eng": "Me",
               "punct": "."
+            },
+            {
+              "id": ""
             }
           ]
         },
@@ -332,7 +340,11 @@
         "lang": "greek",
         "greek": "Λέγει",
         "pos": "V-PIA-3S",
-        "eng": "Says"
+        "eng": "Says",
+        "origin_simp": "λεγειαυτω",
+        "index_cht": 1,
+        "cht": "說",
+        "punct_cht": "：「"
       },
       {
         "id": "greek-846",
@@ -340,7 +352,11 @@
         "lang": "greek",
         "greek": "αὐτῷ",
         "pos": "PPro-DM3S",
-        "eng": "to Him"
+        "eng": "to Him",
+        "origin_simp": "",
+        "index_cht": 1,
+        "cht": "說",
+        "punct_cht": "：「"
       },
       {
         "id": "greek-3588",
@@ -348,7 +364,8 @@
         "lang": "greek",
         "greek": "ἡ",
         "pos": "Art-NFS",
-        "eng": "the"
+        "eng": "the",
+        "origin_simp": "η"
       },
       {
         "id": "greek-1135",
@@ -357,7 +374,10 @@
         "greek": "γυνή",
         "pos": "N-NFS",
         "punct": ",",
-        "eng": "woman"
+        "eng": "woman",
+        "origin_simp": "γυνη",
+        "index_cht": 0,
+        "cht": "婦人"
       },
       {
         "id": "greek-2962",
@@ -366,7 +386,11 @@
         "greek": "Κύριε",
         "pos": "N-VMS",
         "punct": ",",
-        "eng": "Sir"
+        "eng": "Sir",
+        "origin_simp": "κυριε",
+        "index_cht": 2,
+        "cht": "先生",
+        "punct_cht": "，"
       },
       {
         "id": "greek-2334",
@@ -374,7 +398,10 @@
         "lang": "greek",
         "greek": "θεωρῶ",
         "pos": "V-PIA-1S",
-        "eng": "I understand"
+        "eng": "I understand",
+        "origin_simp": "θεωρωοτι",
+        "index_cht": 3,
+        "cht": "我看出"
       },
       {
         "id": "greek-3754",
@@ -382,7 +409,10 @@
         "lang": "greek",
         "greek": "ὅτι",
         "pos": "Conj",
-        "eng": "that"
+        "eng": "that",
+        "origin_simp": "",
+        "index_cht": 3,
+        "cht": "我看出"
       },
       {
         "id": "greek-4396",
@@ -390,15 +420,22 @@
         "lang": "greek",
         "greek": "προφήτης",
         "pos": "N-NMS",
-        "eng": "a prophet"
+        "eng": "a prophet",
+        "origin_simp": "προφητης",
+        "index_cht": 6,
+        "cht": "先知",
+        "punct_cht": "。"
       },
       {
-        "id": "greek-1510",
+        "id": "greek-1488",
         "translit": "ei",
         "lang": "greek",
         "greek": "εἶ",
         "pos": "V-PIA-2S",
-        "eng": "are"
+        "eng": "are",
+        "origin_simp": "ει",
+        "index_cht": 5,
+        "cht": "是"
       },
       {
         "id": "greek-4771",
@@ -407,7 +444,14 @@
         "greek": "σύ",
         "pos": "PPro-N2S",
         "punct": ".",
-        "eng": "You"
+        "eng": "You",
+        "origin_simp": "συ"
+      },
+      {
+        "id": "greek-3754",
+        "origin_simp": "[that/since]",
+        "index_cht": 4,
+        "cht": "你"
       }
     ]
   }

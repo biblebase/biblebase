@@ -361,6 +361,7 @@ class StudyGuide extends React.Component {
                   </div>
                   <div className="greek">{word.greek}</div>
                   <div className="eng">{word.eng}</div>
+                  <div className="cht" index={word.index_cht}>{word.cht}</div>
                 </div>
               )))}
             </div>

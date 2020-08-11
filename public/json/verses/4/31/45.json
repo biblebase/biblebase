@@ -7,14 +7,18 @@
           "hebrew-7970": "thirty",
           "hebrew-505": "thousand",
           "hebrew-2568": "and five",
-          "hebrew-3967": "hundred"
+          "hebrew-3967": "hundred",
+          "": null
         }
+      },
+      "translations": {
+        "greek-3688": "hebrew-2543"
       },
       "crossRefs": [
         {
-          "totalScore": 3.590343297650078,
+          "totalScore": 3.8973332007891885,
           "anchors": {
-            "hebrew-2543": 1.795171648825039
+            "hebrew-2543": 1.9486666003945943
           },
           "verseKey": "1ki.13.28",
           "cunp": "他去了，看見神人的屍身倒在路上，驢和獅子站在屍身旁邊，獅子卻沒有吃屍身，也沒有抓傷驢。",
@@ -102,13 +106,69 @@
               "id": "hebrew-2543",
               "eng": "the donkey",
               "punct": "."
+            },
+            {
+              "id": "hebrew-3212"
+            },
+            {
+              "id": ""
             }
           ]
         },
         {
-          "totalScore": 3.590343297650078,
+          "totalScore": 3.8973332007891885,
           "anchors": {
-            "hebrew-2543": 1.795171648825039
+            "hebrew-2543": 1.9486666003945943
+          },
+          "verseKey": "1ki.13.13",
+          "cunp": "老先知就吩咐他兒子們說：「你們為我備驢。」他們備好了驢，他就騎上，",
+          "words": [
+            {
+              "id": "hebrew-559",
+              "eng": "And he said"
+            },
+            {
+              "id": "hebrew-413",
+              "eng": "to"
+            },
+            {
+              "id": "hebrew-1121",
+              "eng": "his sons",
+              "punct": "､"
+            },
+            {
+              "id": "hebrew-2280",
+              "eng": "Saddle"
+            },
+            {
+              "id": "hebrew-2543",
+              "eng": "the donkey",
+              "punct": "."
+            },
+            {
+              "id": "hebrew-2280",
+              "eng": "So they saddled"
+            },
+            {
+              "id": "hebrew-2543",
+              "eng": "the donkey",
+              "punct": "–"
+            },
+            {
+              "id": "hebrew-7392",
+              "eng": "and he rode"
+            },
+            {
+              "id": "hebrew-5921",
+              "eng": "on it",
+              "punct": "､"
+            }
+          ]
+        },
+        {
+          "totalScore": 3.8973332007891885,
+          "anchors": {
+            "hebrew-2543": 1.9486666003945943
           },
           "verseKey": "jdg.15.16",
           "cunp": "參孫說： 我用驢腮骨殺人成堆， 用驢腮骨殺了一千人。",
@@ -159,56 +219,12 @@
               "id": "hebrew-376",
               "eng": "men",
               "punct": "."
-            }
-          ]
-        },
-        {
-          "totalScore": 3.590343297650078,
-          "anchors": {
-            "hebrew-2543": 1.795171648825039
-          },
-          "verseKey": "1ki.13.13",
-          "cunp": "老先知就吩咐他兒子們說：「你們為我備驢。」他們備好了驢，他就騎上，",
-          "words": [
-            {
-              "id": "hebrew-559",
-              "eng": "And he said"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
+              "id": "hebrew-2565"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "his sons",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2280",
-              "eng": "Saddle"
-            },
-            {
-              "id": "hebrew-2543",
-              "eng": "the donkey",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2280",
-              "eng": "So they saddled"
-            },
-            {
-              "id": "hebrew-2543",
-              "eng": "the donkey",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7392",
-              "eng": "and he rode"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on it",
-              "punct": "､"
+              "id": "hebrew-2565"
             }
           ]
         }
@@ -272,7 +288,10 @@
         "lang": "hebrew",
         "hebrew": "וַחֲמֹרִ֕ים",
         "pos": "Conj‑w | N‑mp",
-        "eng": "And donkeys"
+        "eng": "And donkeys",
+        "origin_simp": "וַחֲמֹרִים",
+        "index_cht": 0,
+        "cht": "驢"
       },
       {
         "id": "hebrew-7970",
@@ -280,7 +299,10 @@
         "lang": "hebrew",
         "hebrew": "שְׁלֹשִׁ֥ים",
         "pos": "Number‑cp",
-        "eng": "thirty"
+        "eng": "thirty",
+        "origin_simp": "שְׁלֹשִׁים",
+        "index_cht": 1,
+        "cht": "三"
       },
       {
         "id": "hebrew-505",
@@ -288,7 +310,10 @@
         "lang": "hebrew",
         "hebrew": "אֶ֖לֶף",
         "pos": "Number‑ms",
-        "eng": "thousand"
+        "eng": "thousand",
+        "origin_simp": "אֶלֶף",
+        "index_cht": 2,
+        "cht": "萬"
       },
       {
         "id": "hebrew-2568",
@@ -296,7 +321,10 @@
         "lang": "hebrew",
         "hebrew": "וַחֲמֵ֥שׁ",
         "pos": "Conj‑w | Number‑fsc",
-        "eng": "and five"
+        "eng": "and five",
+        "origin_simp": "וַחֲמֵשׁ",
+        "index_cht": 3,
+        "cht": "零五"
       },
       {
         "id": "hebrew-3967",
@@ -305,7 +333,17 @@
         "hebrew": "מֵאֽוֹת׃",
         "pos": "Number‑fp",
         "punct": "､",
-        "eng": "hundred"
+        "eng": "hundred",
+        "origin_simp": "מֵאֽוֹת",
+        "index_cht": 4,
+        "cht": "百"
+      },
+      {
+        "id": "",
+        "origin_simp": "",
+        "index_cht": 5,
+        "cht": "匹",
+        "punct_cht": "；"
       }
     ]
   }
