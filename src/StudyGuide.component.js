@@ -1,4 +1,5 @@
 import React from "react";
+import Switch from "react-switch";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import {  GET_VERSE_ENDPOINT, getWordJson } from "./DataFetchUtils";
@@ -22,6 +23,7 @@ class StudyGuide extends React.Component {
     contentData: {},
     activeSection: "other-versions",
     showWordInfo: false,
+    wordSequenceInOriginal: true,
     crossReferences: []
   };
 
@@ -295,160 +297,299 @@ class StudyGuide extends React.Component {
     const bookTitle = this.props.bibleIndex[bookId].title;
     const title = `${bookTitle} ${chapter} : ${verse}`;
 
+    const words = this.state.wordSequenceInOriginal
+      ? verseObject.words
+      : [...verseObject.words].sort((a, b) => a.index_cht - b.index_cht);
+
     return (
       <div id="study-guide" onClickCapture={this.handleStudyPaneClick}>
-
         {/* Menu */}
         <nav id="studyguide-menu">
           <div className="menu-heading">{title.toUpperCase()}</div>
           <div className="menu-items" onClickCapture={this.handleMenuSelection}>
-            <div id="mi-other-versions" target="other-versions" selected={true}
+            <div
+              id="mi-other-versions"
+              target="other-versions"
+              selected={true}
               className={classNames("menu-item", {
-                dim: verseObject.versions === undefined || isEmptyObject(verseObject.versions),
-                "active-menu-item": this.state.activeSection === "other-versions"})}>聖經版本</div>
-            <div id="mi-words" target="words"
+                dim:
+                  verseObject.versions === undefined ||
+                  isEmptyObject(verseObject.versions),
+                "active-menu-item":
+                  this.state.activeSection === "other-versions",
+              })}
+            >
+              聖經版本
+            </div>
+            <div
+              id="mi-words"
+              target="words"
               className={classNames("menu-item", {
-                dim: verseObject.words === undefined || verseObject.words.length === 0,
-                "active-menu-item": this.state.activeSection === "words"})}>逐詞翻譯</div>
-            <div id="mi-sermons" target="sermons"
+                dim:
+                  verseObject.words === undefined ||
+                  verseObject.words.length === 0,
+                "active-menu-item": this.state.activeSection === "words",
+              })}
+            >
+              逐詞翻譯
+            </div>
+            <div
+              id="mi-sermons"
+              target="sermons"
               className={classNames("menu-item", {
-                dim: verseObject.sermons === undefined || verseObject.sermons.length === 0,
-                "active-menu-item": this.state.activeSection === "sermons"})}>證道與讀經班</div>
-            <div id="mi-analytics" target="analytics" 
+                dim:
+                  verseObject.sermons === undefined ||
+                  verseObject.sermons.length === 0,
+                "active-menu-item": this.state.activeSection === "sermons",
+              })}
+            >
+              證道與讀經班
+            </div>
+            <div
+              id="mi-analytics"
+              target="analytics"
               className={classNames("menu-item", {
-                dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics),
-                "active-menu-item": this.state.activeSection === "analytics"})}>相關經文</div>
+                dim:
+                  verseObject.analytics === undefined ||
+                  isEmptyObject(verseObject.analytics),
+                "active-menu-item": this.state.activeSection === "analytics",
+              })}
+            >
+              相關經文
+            </div>
           </div>
         </nav>
 
         {/* content */}
         <div id="study-content">
-
           {/* Other versions */}
-          <div id="other-versions" className={classNames("section", {
-            dim: verseObject.versions === undefined || isEmptyObject(verseObject.versions)})}>
+          <div
+            id="other-versions"
+            className={classNames("section", {
+              dim:
+                verseObject.versions === undefined ||
+                isEmptyObject(verseObject.versions),
+            })}
+          >
             <div className="section-heading">聖經版本</div>
-            <div className="section-description">中英文各選取三個常用版本。</div>
+            <div className="section-description">
+              中英文各選取三個常用版本。
+            </div>
             <div className="section-content">
-              {verseObject.versions === undefined || isEmptyObject(verseObject.versions) ||
-              (<table>
-                <tbody>
-                  {Object.entries(verseObject.versions).map(
-                    ([key, version]) => (
-                      <tr className="version" key={version.version_id}>
-                        <td className="version-name">{version.version_id}</td>
-                        <td className="version-content">{version.text}</td>
-                      </tr>
-                    )
-                  )}
-                </tbody>
-              </table>
-              )}
+              {verseObject.versions === undefined ||
+                isEmptyObject(verseObject.versions) || (
+                  <table>
+                    <tbody>
+                      {Object.entries(verseObject.versions).map(
+                        ([key, version]) => (
+                          <tr className="version" key={version.version_id}>
+                            <td className="version-name">
+                              {version.version_id}
+                            </td>
+                            <td className="version-content">{version.text}</td>
+                          </tr>
+                        )
+                      )}
+                    </tbody>
+                  </table>
+                )}
             </div>
           </div>
 
           {/* Words */}
-          <div id="words" className={classNames("section", {
-            dim: verseObject.words === undefined || verseObject.words.length === 0})}>
+          <div
+            id="words"
+            className={classNames("section", {
+              dim:
+                verseObject.words === undefined ||
+                verseObject.words.length === 0,
+            })}
+          >
             <div className="section-heading">逐詞翻譯</div>
-            <div className="section-description">根據聖經原文（舊約希伯來文，新約希臘文）逐詞的翻譯，英文靠近NASB版本，中文靠近和合本。</div>
+            <div className="section-description">
+              根據聖經原文（舊約希伯來文，新約希臘文）逐詞的翻譯，英文靠近NASB版本，中文靠近和合本。
+              <span style={{ float: "right" }}>
+                <span>中文語序</span>
+                <span style={{ margin: "4px" }}>
+                  <Switch
+                    checked={this.state.wordSequenceInOriginal}
+                    onColor="#aaa"
+                    onHandleColor="#333"
+                    uncheckedIcon={false}
+                    checkedIcon={false}
+                    height={20}
+                    width={48}
+                    onChange={(checked) => {
+                      this.setState({ wordSequenceInOriginal: checked });
+                    }}
+                  />
+                </span>
+                <span>原文語序</span>
+              </span>
+            </div>
             <div className="section-content words-table">
-              {verseObject.words === undefined || verseObject.words.length === 0 ||
-              (verseObject.words.map((word, index) => (
+              {words.map((word, index) => (
                 <div className="word-cell" key={index}>
-                  <div className="translit" data-wordid={word.id} onClickCapture={this.handleWordClick}>
-                    <span className={classNames("word-link", {"disable-link": this.props.menuOpen})}>{word.translit}</span>
+                  <div
+                    className="translit"
+                    data-wordid={word.id}
+                    onClickCapture={this.handleWordClick}
+                  >
+                    <span
+                      className={classNames("word-link", {
+                        "disable-link": this.props.menuOpen,
+                      })}
+                    >
+                      {word.translit}
+                    </span>
                   </div>
                   <div className="greek">{word.greek}</div>
                   <div className="eng">{word.eng}</div>
-                  <div className="cht" index={word.index_cht}>{word.cht}</div>
+                  <div className="cht">
+                    {word.cht}
+                    {this.state.wordSequenceInOriginal ? (
+                      <span />
+                    ) : (
+                      <span className="punctCht">{word.punct_cht}</span>
+                    )}
+                  </div>
                 </div>
-              )))}
+              ))}
             </div>
           </div>
 
           {/* Sermons */}
-          <div id="sermons" className={classNames("section", {
-              dim: verseObject.sermons === undefined || verseObject.sermons.length === 0 })}>
+          <div
+            id="sermons"
+            className={classNames("section", {
+              dim:
+                verseObject.sermons === undefined ||
+                verseObject.sermons.length === 0,
+            })}
+          >
             <div className="section-heading">證道與讀經班</div>
-            <div className="section-description">CBCWLA教會歷年來的證道內容，以及三年一輪的讀經班所用的講義。</div>
-            {verseObject.sermons === undefined || verseObject.sermons.length === 0 ||
-              (<div className="section-content">
-                {verseObject.sermons.map((sermon) => (
-                  <div className="sermon-block" key={sermon.id}>
-                    <div className="title">{sermon.title}</div>
-                    <div className="author">{sermon.preacher}</div>
-                    <div className="date">{sermon.date}</div>
-                    {sermon.audio === undefined || 
-                      (<audio className="sermon-audio" controls>
-                        <source src={sermon.audio} type="audio/mpeg" />
-                        Your browser does not support the audio element.
-                      </audio>)
-                    }
-                    {sermon.slides === undefined ||
-                      (<div className="sermon-slides">
-                        <a href={sermon.slides} target="_blank" rel="noopener noreferrer">Slides</a>
-                      </div>
-                      )
-                    }
-                  </div>
-                ))}
-              </div>
-            )}
+            <div className="section-description">
+              CBCWLA教會歷年來的證道內容，以及三年一輪的讀經班所用的講義。
+            </div>
+            {verseObject.sermons === undefined ||
+              verseObject.sermons.length === 0 || (
+                <div className="section-content">
+                  {verseObject.sermons.map((sermon) => (
+                    <div className="sermon-block" key={sermon.id}>
+                      <div className="title">{sermon.title}</div>
+                      <div className="author">{sermon.preacher}</div>
+                      <div className="date">{sermon.date}</div>
+                      {sermon.audio === undefined || (
+                        <audio className="sermon-audio" controls>
+                          <source src={sermon.audio} type="audio/mpeg" />
+                          Your browser does not support the audio element.
+                        </audio>
+                      )}
+                      {sermon.slides === undefined || (
+                        <div className="sermon-slides">
+                          <a
+                            href={sermon.slides}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Slides
+                          </a>
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
           </div>
 
           {/* Analytics */}
-          <div id="analytics" className={classNames("section", {
-              dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics)})}>
+          <div
+            id="analytics"
+            className={classNames("section", {
+              dim:
+                verseObject.analytics === undefined ||
+                isEmptyObject(verseObject.analytics),
+            })}
+          >
             <div className="section-heading">相關經文（實驗功能）</div>
-            <div className="section-description">根據相同的原文詞根串珠，並根據原詞的詞頻排序。</div>
+            <div className="section-description">
+              根據相同的原文詞根串珠，並根據原詞的詞頻排序。
+            </div>
             <div className="section-content">
-              {verseObject.analytics === undefined || isEmptyObject(verseObject.analytics) ||
-                (<table>
-                  <tbody>
-                    {this.state.crossReferences.map((cr) => (
-                      <tr className="cross-reference" key={cr.verseKey}>
-                        <td className="cr-verseKey-col">
-                          <Link to={`/biblebase/${cr.book}/${cr.chapter}/${cr.verse}`}
-                                className={classNames({"disable-link": this.props.menuOpen})}>{cr.verseAbbr}</Link>
-                        </td>
-                        <td className="cr-verse-col">{cr.verseTextCh}</td>
-                        <td className="cross-ref-words-col">
-                          {Object.keys(cr.wordMap).map((key) => (
-                            <div key={key}>{`${key} ↔ ${cr.wordMap[key]}`}</div>
-                          ))}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>)
-              }
+              {verseObject.analytics === undefined ||
+                isEmptyObject(verseObject.analytics) || (
+                  <table>
+                    <tbody>
+                      {this.state.crossReferences.map((cr) => (
+                        <tr className="cross-reference" key={cr.verseKey}>
+                          <td className="cr-verseKey-col">
+                            <Link
+                              to={`/biblebase/${cr.book}/${cr.chapter}/${cr.verse}`}
+                              className={classNames({
+                                "disable-link": this.props.menuOpen,
+                              })}
+                            >
+                              {cr.verseAbbr}
+                            </Link>
+                          </td>
+                          <td className="cr-verse-col">{cr.verseTextCh}</td>
+                          <td className="cross-ref-words-col">
+                            {Object.keys(cr.wordMap).map((key) => (
+                              <div
+                                key={key}
+                              >{`${key} ↔ ${cr.wordMap[key]}`}</div>
+                            ))}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                )}
             </div>
           </div>
 
           {/* Hymns */}
-          <div id="hymns" className={classNames("section", {
-              dim: verseObject.hymns === undefined || verseObject.hymns.length === 0})}>
+          <div
+            id="hymns"
+            className={classNames("section", {
+              dim:
+                verseObject.hymns === undefined ||
+                verseObject.hymns.length === 0,
+            })}
+          >
             <div className="section-heading">詩歌</div>
             <div className="section-content">
-              {verseObject.hymns === undefined || verseObject.hymns.length === 0 ||
-              (verseObject.hymns.map((hymn) => (
-                <div className="hymn block" key={hymn.id}>
-                  <div className="hymn-title title">{hymn.title}</div>
-                  <div className="hymn-description desc">
-                    {hymn.description}
+              {verseObject.hymns === undefined ||
+                verseObject.hymns.length === 0 ||
+                verseObject.hymns.map((hymn) => (
+                  <div className="hymn block" key={hymn.id}>
+                    <div className="hymn-title title">{hymn.title}</div>
+                    <div className="hymn-description desc">
+                      {hymn.description}
+                    </div>
+                    <div className="video-wrapper">
+                      <iframe
+                        className="iframe"
+                        id={`youtube_${hymn.id}`}
+                        title={hymn.title}
+                        type="text/html"
+                        width="100vmin"
+                        height="100vmin"
+                        src={`https://www.youtube.com/embed/${hymn.youtube_id}?autoplay=0&origin=http://example.com"`}
+                        frameBorder="0"
+                      ></iframe>
+                    </div>
                   </div>
-                  <div className="video-wrapper">
-                    <iframe className="iframe" id={`youtube_${hymn.id}`} title={hymn.title} type="text/html" width="100vmin" height="100vmin"
-                      src={`https://www.youtube.com/embed/${hymn.youtube_id}?autoplay=0&origin=http://example.com"`}
-                      frameBorder="0"></iframe>
-                  </div>
-                </div>
-              )))}
+                ))}
             </div>
           </div>
-          <div id="word-lookup" className={classNames({ hidden: !this.state.showWordInfo })}>
-            {this.state.wordObj && this.state.showWordInfo? this.renderWord() : ""}
+          <div
+            id="word-lookup"
+            className={classNames({ hidden: !this.state.showWordInfo })}
+          >
+            {this.state.wordObj && this.state.showWordInfo
+              ? this.renderWord()
+              : ""}
           </div>
         </div>
       </div>
