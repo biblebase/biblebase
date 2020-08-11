@@ -200,13 +200,9 @@ class Menu extends React.Component {
           </div>
         </div>
 
-        <div id="search">
-          <input type="text" className="search-box" placeholder="Search"></input>
-          <button className="search-button">Search</button>
-        </div>
-        <div id="user">
+        <div id="search"></div>
 
-        </div>
+        <div id="user"></div>
 
       </div>
     );

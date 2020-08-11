@@ -247,6 +247,7 @@ class StudyGuide extends React.Component {
           <div id="sermons" className={classNames("section", {
               dim: reference.sermons === undefined || reference.sermons.length === 0})}>
             <div className="section-heading">證道與讀經班</div>
+            <div className="section-description">CBCWLA教會歷年來的證道內容，以及三年一輪的讀經班所用的講義。</div>
             <div className="section-content">
               {reference.sermons === undefined || 
                reference.sermons.length === 0 ||
@@ -313,10 +314,6 @@ class StudyGuide extends React.Component {
               className={classNames("menu-item", {
                 dim: verseObject.sermons === undefined || verseObject.sermons.length === 0,
                 "active-menu-item": this.state.activeSection === "sermons"})}>證道與讀經班</div>
-            <div id="mi-interpretations" target="interpretations"
-              className={classNames("menu-item", {
-                dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0,
-                "active-menu-item": this.state.activeSection === "interpretations"})}>解經</div>
             <div id="mi-analytics" target="analytics" 
               className={classNames("menu-item", {
                 dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics),
@@ -331,6 +328,7 @@ class StudyGuide extends React.Component {
           <div id="other-versions" className={classNames("section", {
             dim: verseObject.versions === undefined || isEmptyObject(verseObject.versions)})}>
             <div className="section-heading">聖經版本</div>
+            <div className="section-description">中英文各選取三個常用版本。</div>
             <div className="section-content">
               {verseObject.versions === undefined || isEmptyObject(verseObject.versions) ||
               (<table>
@@ -353,6 +351,7 @@ class StudyGuide extends React.Component {
           <div id="words" className={classNames("section", {
             dim: verseObject.words === undefined || verseObject.words.length === 0})}>
             <div className="section-heading">逐詞翻譯</div>
+            <div className="section-description">根據聖經原文（舊約希伯來文，新約希臘文）逐詞的翻譯，英文靠近NASB版本，中文靠近和合本。</div>
             <div className="section-content words-table">
               {verseObject.words === undefined || verseObject.words.length === 0 ||
               (verseObject.words.map((word, index) => (
@@ -371,6 +370,7 @@ class StudyGuide extends React.Component {
           <div id="sermons" className={classNames("section", {
               dim: verseObject.sermons === undefined || verseObject.sermons.length === 0 })}>
             <div className="section-heading">證道與讀經班</div>
+            <div className="section-description">CBCWLA教會歷年來的證道內容，以及三年一輪的讀經班所用的講義。</div>
             {verseObject.sermons === undefined || verseObject.sermons.length === 0 ||
               (<div className="section-content">
                 {verseObject.sermons.map((sermon) => (
@@ -396,35 +396,11 @@ class StudyGuide extends React.Component {
             )}
           </div>
 
-          {/* Interpretations */}
-          <div id="interpretations" className={classNames("section", {
-              dim: verseObject.interpretations === undefined || verseObject.interpretations.length === 0})}>
-            <div className="section-heading">解經</div>
-            <div className="section-content">
-              {verseObject.interpretations === undefined || verseObject.interpretations.length === 0 || 
-                (Object.entries(verseObject.interpretations).map((entry) => (
-                <div className="sub-section" key={entry[0]}>
-                  <div className="title">{entry[1].title}</div>
-                  <div className="author">{entry[1].author}</div>
-                  {entry[1].content.map((content, index) => (
-                    <div key={index} className={classNames({
-                      "paragraph-block-specific": content.verse.endsWith(`.${chapter}.${verse}`),
-                      "paragraph-block": !content.verse.endsWith(`.${chapter}.${verse}`)}
-                    )}>
-                      {content.paragraphs.map((para, i) => (
-                        <p key={i} className="paragraph">{para}</p>
-                      ))}
-                    </div>
-                  ))}
-                </div>
-              )))}
-            </div>
-          </div>
-
           {/* Analytics */}
           <div id="analytics" className={classNames("section", {
               dim: verseObject.analytics === undefined || isEmptyObject(verseObject.analytics)})}>
-            <div className="section-heading">相關經文</div>
+            <div className="section-heading">相關經文（實驗功能）</div>
+            <div className="section-description">根據相同的原文詞根串珠，並根據原詞的詞頻排序。</div>
             <div className="section-content">
               {verseObject.analytics === undefined || isEmptyObject(verseObject.analytics) ||
                 (<table>
