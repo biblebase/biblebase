@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a27597e8d016cd6ff05a30265106d61",
+    "revision": "284d6d9eb6b7930f777063bce4f83b95",
     "url": "/biblebase/index.html"
   },
   {
-    "revision": "7c5f9d980350909e2b84",
+    "revision": "14d8273bd2c41db6c31f",
     "url": "/biblebase/static/css/main.77e0a923.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/biblebase/static/js/2.c50f0de2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c5f9d980350909e2b84",
-    "url": "/biblebase/static/js/main.8548d321.chunk.js"
+    "revision": "14d8273bd2c41db6c31f",
+    "url": "/biblebase/static/js/main.12761095.chunk.js"
   },
   {
     "revision": "15805b85c38fcfc280d4",
