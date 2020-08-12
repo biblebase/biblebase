@@ -103,7 +103,7 @@ class Menu extends React.Component {
       let prevCh = chapter;
       // need to go to previous book
       if (chapter === 1) {
-        prevBook =- 1;
+        prevBook -= 1;
         prevCh = this.props.bibleIndex[book].chapters;
       } else {
         prevCh -= 1;
