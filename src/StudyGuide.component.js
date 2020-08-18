@@ -16,6 +16,12 @@ class StudyGuide extends React.Component {
     closeMenu: PropTypes.func.isRequired
   };
 
+  VERSION_NAMES = {
+    CCB: '当代译本',
+    CNV: '新譯本',
+    CUNP: '和合本'
+  }
+
   state = {
     bookId: 0,
     chapter: 0,
@@ -384,7 +390,8 @@ class StudyGuide extends React.Component {
                         ([key, version]) => (
                           <tr className="version" key={version.version_id}>
                             <td className="version-name">
-                              {version.version_id}
+                              {this.VERSION_NAMES[version.version_id] ||
+                                version.version_id}
                             </td>
                             <td className="version-content">{version.text}</td>
                           </tr>
@@ -437,18 +444,22 @@ class StudyGuide extends React.Component {
                     data-wordid={word.id}
                     onClickCapture={this.handleWordClick}
                   >
-                    <span
-                      className={classNames("word-link", {
-                        "disable-link": this.props.menuOpen,
-                      })}
-                    >
-                      {word.translit}
-                    </span>
+                    {word.translit ? (
+                      <span
+                        className={classNames("word-link", {
+                          "disable-link": this.props.menuOpen,
+                        })}
+                      >
+                        {word.translit}
+                      </span>
+                    ) : (
+                      <span>-</span>
+                    )}
                   </div>
-                  <div className="greek">{word.greek}</div>
-                  <div className="eng">{word.eng}</div>
+                  <div className="original">{word[word.lang] || '-'}</div>
+                  <div className="eng">{word.eng || '-'}</div>
                   <div className="cht">
-                    {word.cht}
+                    {word.cht || '-'}
                     {this.state.wordSequenceInOriginal ? (
                       <span />
                     ) : (
