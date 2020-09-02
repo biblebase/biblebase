@@ -306,6 +306,13 @@ class StudyGuide extends React.Component {
     const words = this.state.wordSequenceInOriginal
       ? verseObject.words
       : [...verseObject.words].sort((a, b) => a.index_cht - b.index_cht);
+    const dedupedWords = this.state.wordSequenceInOriginal
+      ? words
+      : words.map((w, idx) =>
+        (idx > 1 && words[idx-1].index_cht === w.index_cht)
+        ? Object.assign({}, w, {cht: '~'})
+        : w
+        )
 
     return (
       <div id="study-guide" onClickCapture={this.handleStudyPaneClick}>
@@ -414,7 +421,7 @@ class StudyGuide extends React.Component {
           >
             <div className="section-heading">
               逐詞翻譯
-              <span style={{ float: "right", "font-size": "60%" }}>
+              <span style={{ float: "right", "fontSize": "60%" }}>
                 <span>中文語序</span>
                 <span style={{ margin: "10px" }}>
                   <Switch
@@ -437,7 +444,7 @@ class StudyGuide extends React.Component {
               根據聖經原文（舊約希伯來文，新約希臘文）逐詞的翻譯，英文靠近NASB版本，中文靠近和合本。
             </div>
             <div className="section-content words-table">
-              {words.map((word, index) => (
+              {dedupedWords.map((word, index) => (
                 <div className="word-cell" key={index}>
                   <div
                     className="translit"
