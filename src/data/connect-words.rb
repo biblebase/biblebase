@@ -11,31 +11,35 @@
 #   analytics:
 #     thisVerse:
 #       dict:
-#         greek-3778: This
-#         greek-5426: let mind be
+#         eng:
+#           greek-3778: This
+#           greek-5426: let mind be
+#         cht:
+#           greek-3778: 這
+#           greek-5426: 意念
+#           "": 上
 #     translations:
 #       hebrew-123: greek-5426
 #     crossRefs: # 相關經文
 #       # maxCount: 10, totalScoreThreshold: 5
 #       - verseKey: php.2.12
 #         totalScore: 8.2
+#         nasb: Testify I to everyone
 #         anchors:
 #           greek-3972: <score>
-#         cunp: 這樣看來，我親愛的弟兄，你們既是常順服的
 #         words:
 #           id: greek-3778
-#           eng: Not
-#           punct: .
+#           cht: 弟兄
 #       - verseKey:  mat.2.14
 #         totalScore: 6.1
+#         nasb: strike the earth with every plague
 #         anchors:
 #           greek-3972: <score>
 #           greek-322: <score>
-#         cunp: 約瑟就起來，夜間帶着小孩子和他母親往埃及去
 #         words:
 #           id: greek-3778
-#           eng: Not
-#           punct: .
+#           cht: mother
+#           punct_cht: ,
 require 'json'
 require 'yaml'
 require 'parallel'
@@ -79,13 +83,20 @@ def expand(related_verses)
   related_verses.map do |item|
     verse_key = item[:verseKey]
     versions = get_verse_data(verse_key, :versions) || {}
-    cunp = versions.dig("cunp", "text") || ''
+    nasb = versions.dig("nasb", "text") || ''
 
-    words = (get_verse_data(verse_key, :words) || []).map do |w|
-      w.slice("id", "eng", "punct")
-    end
+    cht_words = (get_verse_data(verse_key, :words) || []).select{|w| w["index_cht"]}.sort_by{|w| w["index_cht"]}
+    words = cht_words.map.with_index do |w, idx|
+      ret = w.slice("id", "cht", "punct_cht")
 
-    item.merge cunp: cunp, words: words
+      # NOTE in case of many translits share one cht word
+      if idx > 0 and cht_words[idx-1]["index_cht"] == w["index_cht"]
+        ret = nil # ret.merge("cht" => "(#{w["cht"]})")
+      end
+      ret
+    end.compact
+
+    item.merge nasb: nasb, words: words
   end
 end
 
@@ -147,7 +158,11 @@ Parallel.each(WORDS_FILES, progress: 'Cross Referencing') do |words_file|
     [id, word_info]
   end.to_h
 
-  verse_dict = obj["words"].each_with_object({}){ |w,h| h[w["id"]] = w["eng"] }
+  cht_words = obj["words"].select{|w| w["id"] != "" and w["cht"]}
+  verse_dict = {
+    eng: obj["words"].each_with_object({}){ |w,h| h[w["id"]] = w["eng"] },
+    cht: cht_words.each_with_object({}){ |w,h| h[w["id"]] = w["cht"] }
+  }
   analytics = {
     thisVerse: { dict: verse_dict},
     translations: words_hash.each_with_object({}){|(id, v), h| h[v[:translation]] = id}.select{|k,v| k},

@@ -4,8 +4,12 @@ require_relative 'base'
 #   analytics:
 #     thisVerse:
 #       dict:
-#         greek-3778: This
-#         greek-5426: let mind be
+#         eng:
+#           greek-3778: This
+#           greek-5426: let mind be
+#         cht:
+#           greek-3778: 這
+#           greek-5426: 意志
 #     translations:
 #       hebrew-123: greek-5426
 #     crossRefs: # 相關經文
@@ -14,21 +18,21 @@ require_relative 'base'
 #         totalScore: 8.2
 #         anchors:
 #           greek-3972: <score>
-#         cunp: 這樣看來，我親愛的弟兄，你們既是常順服的
+#         nasb: Testify I to everyone
 #         words:
 #           id: greek-3778
-#           eng: Not
-#           punct: .
+#           cht: 不是
+#           punct_cht: ，
 #       - verseKey:  mat.2.14
 #         totalScore: 6.1
 #         anchors:
 #           greek-3972: <score>
 #           greek-322: <score>
-#         cunp: 約瑟就起來，夜間帶着小孩子和他母親往埃及去
+#         nasb: strike the earth with every plague
 #         words:
 #           id: greek-3778
-#           eng: Not
-#           punct: .
+#           cht: 不是
+#           punct_cht: ，
 class Analytic < Base
   NO_TRANSLATION = '<no translation>'
 
@@ -42,7 +46,7 @@ class Analytic < Base
 
   def format_all(items)
     return "" if items.empty?
-    @this_verse_dict = items.dig("thisVerse", "dict")
+    @this_verse_dict = items.dig("thisVerse", "dict", "cht")
     @translations = items.dig("translations")
 
     cross_refs = items["crossRefs"] || []
@@ -59,30 +63,28 @@ class Analytic < Base
       end
       @h.td do
         @h.span(class: :mainVersion) do
-          @h.text! cross_ref["cunp"]
+          cross_ref["words"].map do |w|
+            if score = anchors[w["id"]]
+              @h.b w["cht"]
+            else
+              @h.span w["cht"]
+            end
+
+            if w["punct_cht"]
+              @h.span w["punct_cht"]
+            end
+          end.join
         end
         @h.br
         @h.span(class: :interLinear) do
-          cross_ref["words"].map do |w|
-            if score = anchors[w["id"]]
-              @h.b w["eng"]
-            else
-              @h.span w["eng"]
-            end
-
-            if w["punct"]
-              @h.span w["punct"] + $NBSP
-            else
-              @h.span $NBSP
-            end
-          end.join
+          @h.text! cross_ref["nasb"]
         end
       end
 
       words_hash = cross_ref["words"].each_with_object({}) do |w, h|
         id = w["id"]
-        h[id] = w["eng"] if anchors[id]
-        h[@translations[id]] = w["eng"] if anchors[@translations[id]]
+        h[id] = w["cht"] if anchors[id]
+        h[@translations[id]] = w["cht"] if anchors[@translations[id]]
       end
 
       @h.td(class: :wordsMapping) do
