@@ -77,7 +77,8 @@ class StudyGuide extends React.Component {
 
     const verseObj = Object.entries(verseData)[0][1];
 
-    const crDict = verseObj.analytics.thisVerse.dict;
+    const crDict = verseObj.analytics.thisVerse.dict.cht;
+    const translations = verseObj.analytics.translations;
 
     // 2. for each cross referenced verse
     const crs = verseObj.analytics.crossRefs;
@@ -90,18 +91,22 @@ class StudyGuide extends React.Component {
       crossRef.book = books[crVerseBook].index;
       crossRef.chapter = crVerseChapter;
       crossRef.verse = crVerseVerse;
-      crossRef.verseTextCh = cr.cunp;
+      crossRef.verseTextCh = cr.words.map((word) => 
+        Object.assign({}, word, 
+          cr.anchors[word.id] ? {anchorWordId: word.id} : {},
+          cr.anchors[translations[word.id]] ? {anchorWordId: translations[word.id]} : {}
+      ));
 
       // word map of cross referenced words
       crossRef.wordMap = {};
       for (let wordId of Object.keys(cr.anchors)) {
         if (wordId in crDict) {
           const word = crDict[wordId];
-          const meaning = cr.words.filter((wordObj) => {
-            return wordObj.id === wordId;
+          const meaning = crossRef.verseTextCh.filter((wordObj) => {
+            return wordObj.anchorWordId === wordId;
           })[0];
           if (meaning !== undefined)
-            crossRef.wordMap[word] = meaning.eng;
+            crossRef.wordMap[word] = meaning.cht;
         }
       }
       crossReferences.push(crossRef);
@@ -552,7 +557,19 @@ class StudyGuide extends React.Component {
                               {cr.verseAbbr}
                             </Link>
                           </td>
-                          <td className="cr-verse-col">{cr.verseTextCh}</td>
+                          <td className="cr-verse-col">
+                            {cr.verseTextCh.map((word, idx) => (
+                              <span key={idx}>
+                                { word.anchorWordId
+                                  ? <b>{word.cht}</b>
+                                  : <span>{word.cht}</span>
+
+                                }{
+                                  word.punct_cht && <span>{word.punct_cht}</span>
+                                }
+                              </span>
+                            ))}
+                          </td>
                           <td className="cross-ref-words-col">
                             {Object.keys(cr.wordMap).map((key) => (
                               <div

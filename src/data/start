@@ -9,7 +9,8 @@ ruby formatters/base.rb
 # cp -R cunp   ../../../biblebase.github.io/
 # cp -R words  ../../../biblebase.github.io/
 # cp -R html   ../../../biblebase.github.io/
-# 
-aws s3 sync --profile=me json/ s3://biblebase/json/
+#aws s3 sync --profile=me json/ s3://biblebase/json/
 
-cp -R ./json ../../public/json/verses
+aws s3 sync --profile=me html/ s3://biblebase/html/
+
+cp -R ./json/* ../../public/json/verses
