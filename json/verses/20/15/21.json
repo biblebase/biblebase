@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-200": "Folly [is]",
-          "hebrew-8057": "joy",
-          "hebrew-2638": "[to [him who is] lacking",
-          "hebrew-3820": "discernment",
-          "hebrew-376": "but a man",
-          "hebrew-8394": "of understanding",
-          "hebrew-3474": "uprightly",
-          "hebrew-1980": "walks",
-          "hebrew-3212": null
+          "eng": {
+            "hebrew-200": "Folly [is]",
+            "hebrew-8057": "joy",
+            "hebrew-2638": "[to [him who is] lacking",
+            "hebrew-3820": "discernment",
+            "hebrew-376": "but a man",
+            "hebrew-8394": "of understanding",
+            "hebrew-3474": "uprightly",
+            "hebrew-1980": "walks",
+            "hebrew-3212": null
+          },
+          "cht": {
+            "hebrew-200": "的人以愚妄",
+            "hebrew-8057": "為樂",
+            "hebrew-2638": "無",
+            "hebrew-3820": "知",
+            "hebrew-376": "的人",
+            "hebrew-8394": "聰明",
+            "hebrew-3474": "按正直",
+            "hebrew-3212": "而行"
+          }
         }
       },
       "translations": {
@@ -32,40 +44,42 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "pro.11.12",
-          "cunp": "藐視鄰舍的，毫無智慧； 明哲人卻靜默不言。",
+          "nasb": "He who despises his neighbor lacks sense, But a man of understanding keeps silent.",
           "words": [
             {
               "id": "hebrew-936",
-              "eng": "Despises"
+              "cht": "藐視"
             },
             {
               "id": "hebrew-7453",
-              "eng": "his neighbor",
-              "punct": "–"
+              "cht": "鄰舍"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2638",
-              "eng": "He who is lacking"
+              "cht": "毫無"
             },
             {
               "id": "hebrew-3820",
-              "eng": "of wisdom"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "but a man"
+              "cht": "智慧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8394",
-              "eng": "of understanding"
+              "cht": "明哲"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-2790",
-              "eng": "holds his peace",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "卻靜默不言",
+              "punct_cht": "。"
             }
           ]
         },
@@ -75,36 +89,33 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.14.24",
-          "cunp": "智慧人的財為自己的冠冕； 愚妄人的愚昧終是愚昧。",
+          "nasb": "The crown of the wise is their riches, But the folly of fools is foolishness.",
           "words": [
             {
               "id": "hebrew-5850",
-              "eng": "The crown"
-            },
-            {
-              "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-6239",
-              "eng": "is their riches",
-              "punct": "､"
+              "cht": "的財"
             },
             {
-              "id": "hebrew-200",
-              "eng": "[But] the foolishness"
+              "id": "hebrew-5850",
+              "cht": "為自己的冠冕",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚妄人"
             },
             {
               "id": "hebrew-200",
-              "eng": "[is] folly",
-              "punct": "."
+              "cht": "的愚昧"
             },
             {
-              "id": "hebrew-5850"
+              "id": "hebrew-200",
+              "cht": "終是愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -115,47 +126,51 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "pro.14.29",
-          "cunp": "不輕易發怒的，大有聰明； 性情暴躁的，大顯愚妄。",
+          "nasb": "He who is slow to anger has great understanding, But he who is quick-tempered exalts folly.",
           "words": [
             {
               "id": "hebrew-750",
-              "eng": "[He who is] slow"
+              "cht": "不輕易"
             },
             {
               "id": "hebrew-639",
-              "eng": "to wrath"
+              "cht": "發怒"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "great"
+              "cht": "大"
             },
             {
               "id": "hebrew-8394",
-              "eng": "has understanding",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7116",
-              "eng": "but [he who is] impulsive"
+              "cht": "有聰明",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7307",
-              "eng": "of spirit"
+              "cht": "性情"
+            },
+            {
+              "id": "hebrew-7116",
+              "cht": "暴躁"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7311",
-              "eng": "exalts"
+              "cht": "大顯"
             },
             {
               "id": "hebrew-200",
-              "eng": "folly",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "愚妄",
+              "punct_cht": "。"
             }
           ]
         },
@@ -166,54 +181,50 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "pro.28.16",
-          "cunp": "無知的君多行暴虐； 以貪財為可恨的，必年長日久。",
+          "nasb": "A leader who is a great oppressor lacks understanding, But he who hates unjust gain will prolong his days.",
           "words": [
             {
-              "id": "hebrew-5057",
-              "eng": "A ruler"
-            },
-            {
               "id": "hebrew-2638",
-              "eng": "lacking"
+              "cht": "無"
             },
             {
               "id": "hebrew-8394",
-              "eng": "understanding"
+              "cht": "知"
             },
             {
-              "id": "hebrew-7227",
-              "eng": "and great"
+              "id": "hebrew-5057",
+              "cht": "的君"
+            },
+            {
+              "id": "hebrew-8394",
+              "cht": "多行"
             },
             {
               "id": "hebrew-4642",
-              "eng": "[is] a oppressor",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8130",
-              "eng": "[But] he who hates"
+              "cht": "暴虐",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1215",
-              "eng": "covetousness"
+              "cht": "以貪財"
+            },
+            {
+              "id": "hebrew-4642",
+              "cht": "為可恨的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-748",
-              "eng": "will prolong"
+              "cht": "必年長"
             },
             {
               "id": "hebrew-3117",
-              "eng": "[his] days",
-              "punct": "."
+              "cht": "日"
             },
             {
-              "id": "hebrew-8394"
-            },
-            {
-              "id": "hebrew-4642"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "久",
+              "punct_cht": "。"
             }
           ]
         },
@@ -224,106 +235,97 @@
             "hebrew-1980": 0.4954178557167908
           },
           "verseKey": "1sa.6.12",
-          "cunp": "牛直行大道，往伯‧示麥去，一面走一面叫，不偏左右。非利士的首領跟在後面，直到伯‧示麥的境界。",
+          "nasb": "And the cows took the straight way in the direction of Beth-shemesh; they went along the highway, lowing as they went, and did not turn aside to the right or to the left. And the lords of the Philistines followed them to the border of Beth-shemesh.",
           "words": [
             {
-              "id": "hebrew-3474",
-              "eng": "And"
-            },
-            {
               "id": "hebrew-6510",
-              "eng": "the cows"
+              "cht": "牛"
             },
             {
-              "id": "hebrew-1870",
-              "eng": "headed straight"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "the road to"
-            },
-            {
-              "id": "hebrew-1053",
-              "eng": "Beth Shemesh",
-              "punct": "､"
+              "id": "hebrew-3474",
+              "cht": "直行"
             },
             {
               "id": "hebrew-4546",
-              "eng": "along highway",
-              "punct": "､"
+              "cht": "大道",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-259",
-              "eng": "one"
+              "id": "hebrew-1870",
+              "cht": "往"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "[and] went"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "as they went",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1600",
-              "eng": "and lowing"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-5493",
-              "eng": "did turn aside"
-            },
-            {
-              "id": "hebrew-3225",
-              "eng": "to the right hand"
-            },
-            {
-              "id": "hebrew-8040",
-              "eng": "or the left",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5633",
-              "eng": "and the lords"
-            },
-            {
-              "id": "hebrew-6430",
-              "eng": "of the Philistines"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "went"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "after them"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "id": "",
+              "cht": "伯‧"
             },
             {
               "id": "hebrew-1053",
-              "eng": "Beth Shemesh",
-              "punct": "."
+              "cht": "示麥"
             },
             {
-              "id": ""
+              "id": "hebrew-1980",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-1980",
+              "cht": "一面走"
+            },
+            {
+              "id": "hebrew-1600",
+              "cht": "一面叫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-5493",
+              "cht": "偏"
+            },
+            {
+              "id": "hebrew-8040",
+              "cht": "左"
+            },
+            {
+              "id": "hebrew-3225",
+              "cht": "右",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-6430",
+              "cht": "非利士"
+            },
+            {
+              "id": "hebrew-5633",
+              "cht": "的首領"
+            },
+            {
+              "id": "hebrew-1980",
+              "cht": "跟"
+            },
+            {
+              "id": "hebrew-310",
+              "cht": "在後面",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "直到"
+            },
+            {
+              "id": "",
+              "cht": "伯‧"
+            },
+            {
+              "id": "hebrew-1053",
+              "cht": "示麥"
+            },
+            {
+              "id": "hebrew-1366",
+              "cht": "的境界",
+              "punct_cht": "。"
             }
           ]
         },
@@ -335,44 +337,46 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "pro.20.5",
-          "cunp": "人心懷藏謀略，好像深水， 惟明哲人才能汲引出來。",
+          "nasb": "A plan in the heart of a man is like deep water, But a man of understanding draws it out.",
           "words": [
             {
-              "id": "hebrew-4325",
-              "eng": "[is like] water",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6013",
-              "eng": "deep"
-            },
-            {
-              "id": "hebrew-6098",
-              "eng": "Counsel"
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-3820",
-              "eng": "in the heart"
+              "cht": "心"
             },
             {
-              "id": "hebrew-376",
-              "eng": "of man"
+              "id": "hebrew-6098",
+              "cht": "懷藏謀略",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-376",
-              "eng": "but a man"
+              "id": "hebrew-6013",
+              "cht": "好像深"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8394",
-              "eng": "of understanding"
+              "cht": "惟明哲"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-1802",
-              "eng": "will draw it out",
-              "punct": "."
+              "cht": "才能汲引"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -384,49 +388,40 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "pro.24.30",
-          "cunp": "我經過懶惰人的田地、 無知人的葡萄園，",
+          "nasb": "I passed by the field of the sluggard And by the vineyard of the man lacking sense,",
           "words": [
             {
               "id": "hebrew-5921",
-              "eng": "By"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "the field"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "of the man"
+              "cht": "我經過"
             },
             {
               "id": "hebrew-6102",
-              "eng": "lazy",
-              "punct": "､"
+              "cht": "懶惰"
             },
             {
-              "id": "hebrew-5674",
-              "eng": "I went"
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "and by"
-            },
-            {
-              "id": "hebrew-3754",
-              "eng": "the vineyard"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "of the [man ]"
+              "id": "hebrew-7704",
+              "cht": "的田地、"
             },
             {
               "id": "hebrew-2638",
-              "eng": "lacking"
+              "cht": "無"
             },
             {
               "id": "hebrew-3820",
-              "eng": "understanding",
-              "punct": "–"
+              "cht": "知"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3754",
+              "cht": "的葡萄園",
+              "punct_cht": "，"
             }
           ]
         },
@@ -437,41 +432,41 @@
             "hebrew-3820": 0.9299891508959751
           },
           "verseKey": "pro.12.23",
-          "cunp": "通達人隱藏知識； 愚昧人的心彰顯愚昧。",
+          "nasb": "A prudent man conceals knowledge, But the heart of fools proclaims folly.",
           "words": [
             {
-              "id": "hebrew-120",
-              "eng": "A man"
+              "id": "hebrew-6175",
+              "cht": "通達"
             },
             {
-              "id": "hebrew-6175",
-              "eng": "prudent"
+              "id": "hebrew-120",
+              "cht": "人"
             },
             {
               "id": "hebrew-3680",
-              "eng": "conceals"
+              "cht": "隱藏"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "but the heart"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "的心"
             },
             {
               "id": "hebrew-7121",
-              "eng": "proclaims"
+              "cht": "彰顯"
             },
             {
               "id": "hebrew-200",
-              "eng": "foolishness",
-              "punct": "."
+              "cht": "愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -482,44 +477,41 @@
             "hebrew-3820": 0.9299891508959751
           },
           "verseKey": "pro.15.14",
-          "cunp": "聰明人心求知識； 愚昧人口吃愚昧。",
+          "nasb": "The mind of the intelligent seeks knowledge, But the mouth of fools feeds on folly.",
           "words": [
             {
-              "id": "hebrew-3820",
-              "eng": "The heart"
+              "id": "hebrew-995",
+              "cht": "聰明人"
             },
             {
-              "id": "hebrew-995",
-              "eng": "of him who has understanding"
+              "id": "hebrew-3820",
+              "cht": "心"
             },
             {
               "id": "hebrew-1245",
-              "eng": "seeks"
+              "cht": "求"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "but the mouth of"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "口"
             },
             {
               "id": "hebrew-7462",
-              "eng": "feeds on"
+              "cht": "吃"
             },
             {
               "id": "hebrew-200",
-              "eng": "foolishness",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6310"
+              "cht": "愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -530,41 +522,41 @@
             "hebrew-3820": 0.9299891508959751
           },
           "verseKey": "pro.22.15",
-          "cunp": "愚蒙迷住孩童的心， 用管教的杖可以遠遠趕除。",
+          "nasb": "Foolishness is bound up in the heart of a child; The rod of discipline will remove it far from him.",
           "words": [
             {
               "id": "hebrew-200",
-              "eng": "Foolishness"
+              "cht": "愚蒙"
             },
             {
               "id": "hebrew-7194",
-              "eng": "[is] bound up"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "in the heart"
+              "cht": "迷住"
             },
             {
               "id": "hebrew-5288",
-              "eng": "of a child",
-              "punct": "–"
+              "cht": "孩童"
             },
             {
-              "id": "hebrew-7626",
-              "eng": "the rod"
+              "id": "hebrew-3820",
+              "cht": "的心",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4148",
-              "eng": "of correction"
+              "cht": "用管教"
+            },
+            {
+              "id": "hebrew-7626",
+              "cht": "的杖"
             },
             {
               "id": "hebrew-7368",
-              "eng": "will drive it far"
+              "cht": "可以遠遠"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from him",
-              "punct": "."
+              "cht": "趕除",
+              "punct_cht": "。"
             }
           ]
         }

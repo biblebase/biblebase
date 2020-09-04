@@ -3,18 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1961": "And when",
-          "hebrew-8121": "the sun",
-          "hebrew-935": "was going [down]",
-          "hebrew-8639": "then a deep sleep",
-          "hebrew-5307": "fell",
-          "hebrew-5921": "upon him",
-          "hebrew-87": "Abram",
-          "hebrew-2009": "and behold",
-          "hebrew-367": "terror",
-          "hebrew-2825": "and darkness",
-          "hebrew-1419": "great",
-          "": null
+          "eng": {
+            "hebrew-1961": "And when",
+            "hebrew-8121": "the sun",
+            "hebrew-935": "was going [down]",
+            "hebrew-8639": "then a deep sleep",
+            "hebrew-5307": "fell",
+            "hebrew-5921": "upon him",
+            "hebrew-87": "Abram",
+            "hebrew-2009": "and behold",
+            "hebrew-367": "terror",
+            "hebrew-2825": "and darkness",
+            "hebrew-1419": "great",
+            "": null
+          },
+          "cht": {
+            "hebrew-8121": "日頭",
+            "hebrew-935": "正落",
+            "hebrew-8639": "沉沉地睡",
+            "hebrew-5307": "落",
+            "hebrew-5921": "在他身上",
+            "hebrew-87": "亞伯蘭",
+            "hebrew-2009": "忽然",
+            "hebrew-367": "有驚人",
+            "hebrew-2825": "黑暗",
+            "hebrew-1419": "的大"
+          }
         }
       },
       "translations": {
@@ -30,56 +44,59 @@
             "hebrew-2825": 6.7856512265994295
           },
           "verseKey": "psa.139.12",
-          "cunp": "黑暗也不能遮蔽我，使你不見， 黑夜卻如白晝發亮。 黑暗和光明，在你看都是一樣。",
+          "nasb": "Even the darkness is not dark to You, And the night is as bright as the day. Darkness and light are alike to You.",
           "words": [
             {
-              "id": "hebrew-1571",
-              "eng": "Indeed",
-              "punct": "､"
+              "id": "hebrew-2822",
+              "cht": "黑暗"
             },
             {
-              "id": "hebrew-2822",
-              "eng": "the darkness"
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不能"
             },
             {
               "id": "hebrew-2821",
-              "eng": "shall hide"
+              "cht": "遮蔽"
+            },
+            {
+              "id": "",
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from You"
+              "cht": "使你不見",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3915",
-              "eng": "but the night"
+              "cht": "黑夜"
             },
             {
               "id": "hebrew-3117",
-              "eng": "as the day",
-              "punct": "."
+              "cht": "卻如白晝"
             },
             {
               "id": "hebrew-215",
-              "eng": "Shines"
+              "cht": "發亮",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2825",
-              "eng": "the darkness"
+              "cht": "黑暗"
             },
             {
               "id": "hebrew-219",
-              "eng": "both alike [to You] the and light [are]",
-              "punct": "."
+              "cht": "和光明"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "在你看都是一樣",
+              "punct_cht": "，。"
             }
           ]
         },
@@ -89,55 +106,51 @@
             "hebrew-2825": 6.7856512265994295
           },
           "verseKey": "psa.82.5",
-          "cunp": "你們仍不知道，也不明白， 在黑暗中走來走去； 地的根基都搖動了。",
+          "nasb": "They do not know nor do they understand; They walk about in darkness; All the foundations of the earth are shaken.",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Not",
-              "punct": "､"
+              "cht": "你們仍不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "they do know"
+              "cht": "知道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-995",
-              "eng": "do they understand",
-              "punct": "–"
+              "cht": "明白",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2825",
-              "eng": "in darkness",
-              "punct": "–"
+              "cht": "在黑暗中"
             },
             {
               "id": "hebrew-1980",
-              "eng": "they walk about"
-            },
-            {
-              "id": "hebrew-4131",
-              "eng": "are unstable",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "All"
-            },
-            {
-              "id": "hebrew-4144",
-              "eng": "the foundations"
+              "cht": "走來走去",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "."
+              "cht": "地"
             },
             {
-              "id": "hebrew-776"
+              "id": "hebrew-4144",
+              "cht": "的根基"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "搖動了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -147,85 +160,88 @@
             "hebrew-2825": 6.7856512265994295
           },
           "verseKey": "isa.50.10",
-          "cunp": "你們中間誰是敬畏耶和華、 聽從他僕人之話的？ 這人行在暗中，沒有亮光。 當倚靠耶和華的名， 仗賴自己的神。",
+          "nasb": "Who is among you that fears the Lord, That obeys the voice of His servant, That walks in darkness and has no light? Let him trust in the name of the Lord and rely on his God.",
           "words": [
             {
               "id": "hebrew-4310",
-              "eng": "Who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-3373",
-              "eng": "fears"
+              "cht": "是敬畏"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華、"
             },
             {
               "id": "hebrew-8085",
-              "eng": "who obeys"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "the voice"
+              "cht": "聽從"
             },
             {
               "id": "hebrew-5650",
-              "eng": "of his Servant",
-              "punct": "､"
+              "cht": "他僕人"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "之話"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "這"
             },
             {
               "id": "hebrew-1980",
-              "eng": "walks"
+              "cht": "人行"
             },
             {
               "id": "hebrew-2825",
-              "eng": "in darkness",
-              "punct": "､"
+              "cht": "在暗"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and has no"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-5051",
-              "eng": "light"
+              "cht": "亮光",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-982",
-              "eng": "let him trust"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "in the name"
+              "cht": "當倚靠"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "的名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8172",
-              "eng": "and rely"
+              "cht": "仗賴"
+            },
+            {
+              "id": "",
+              "cht": "自己的"
             },
             {
               "id": "hebrew-430",
-              "eng": "upon His God",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -235,60 +251,61 @@
             "hebrew-2825": 6.7856512265994295
           },
           "verseKey": "isa.8.22",
-          "cunp": "仰觀上天，俯察下地，不料，盡是艱難、黑暗，和幽暗的痛苦。他們必被趕入烏黑的黑暗中去。",
+          "nasb": "Then they will look to the earth, and behold, distress and darkness, the gloom of anguish; and they will be driven away into darkness.",
           "words": [
             {
-              "id": "hebrew-413",
-              "eng": "And to"
+              "id": "hebrew-6437",
+              "cht": "仰觀"
             },
             {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
+              "id": "hebrew-4605",
+              "cht": "上天",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5027",
-              "eng": "they will look"
+              "cht": "俯察"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "下地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and see"
+              "cht": "不料",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6869",
-              "eng": "trouble"
+              "cht": "盡是艱難、"
             },
             {
               "id": "hebrew-2825",
-              "eng": "and darkness",
-              "punct": "､"
+              "cht": "黑暗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4588",
-              "eng": "gloom"
+              "cht": "和幽暗"
             },
             {
               "id": "hebrew-6695",
-              "eng": "of anguish",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-653",
-              "eng": "and into darkness"
+              "cht": "的痛苦",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5080",
-              "eng": "[they will be] driven",
-              "punct": "."
+              "cht": "他們必被趕入"
             },
             {
-              "id": "hebrew-6437"
+              "id": "hebrew-653",
+              "cht": "烏黑的黑暗"
             },
             {
-              "id": "hebrew-4605"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "中去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -299,60 +316,53 @@
             "hebrew-5307": 0.8474323399070219
           },
           "verseKey": "job.33.15",
-          "cunp": "人躺在牀上沉睡的時候， 神就用夢和夜間的異象，",
+          "nasb": "In a dream, a vision of the night, When sound sleep falls on men, While they slumber in their beds,",
           "words": [
             {
-              "id": "hebrew-2472",
-              "eng": "In a dream",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2384",
-              "eng": "in a vision"
-            },
-            {
-              "id": "hebrew-3915",
-              "eng": "of the night",
-              "punct": "､"
+              "id": "hebrew-582",
+              "cht": "人"
             },
             {
               "id": "hebrew-5307",
-              "eng": "when falls"
-            },
-            {
-              "id": "hebrew-8639",
-              "eng": "deep sleep"
+              "cht": "躺"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "men",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8572",
-              "eng": "while slumbering"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-4904",
-              "eng": "their beds",
-              "punct": "–"
+              "cht": "床上"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-8639",
+              "cht": "沉"
             },
             {
-              "id": ""
+              "id": "hebrew-8572",
+              "cht": "睡"
             },
             {
-              "id": "hebrew-430"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-2472",
+              "cht": "就用夢"
+            },
+            {
+              "id": "hebrew-3915",
+              "cht": "和夜間"
+            },
+            {
+              "id": "hebrew-2384",
+              "cht": "的異象",
+              "punct_cht": "，"
             }
           ]
         },
@@ -363,69 +373,55 @@
             "hebrew-5307": 0.8474323399070219
           },
           "verseKey": "gen.2.21",
-          "cunp": "耶和華神使他沉睡，他就睡了；於是取下他的一條肋骨，又把肉合起來。",
+          "nasb": "So the Lord God caused a deep sleep to fall upon the man, and he slept; then He took one of his ribs and closed up the flesh at that place.",
           "words": [
             {
-              "id": "hebrew-5307",
-              "eng": "And caused to fall"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-5307",
+              "cht": "使"
+            },
+            {
+              "id": "hebrew-121",
+              "cht": "他"
             },
             {
               "id": "hebrew-8639",
-              "eng": "a deep sleep"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "Adam",
-              "punct": "–"
+              "cht": "沉睡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3462",
-              "eng": "and he slept",
-              "punct": "､"
+              "cht": "他就睡了",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3947",
-              "eng": "and He took"
+              "cht": "於是取下"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "他的一"
             },
             {
               "id": "hebrew-6763",
-              "eng": "of his ribs",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5462",
-              "eng": "and closed up"
+              "cht": "條肋骨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1320",
-              "eng": "the flesh"
+              "cht": "又把肉"
             },
             {
-              "id": "hebrew-8478",
-              "eng": "in its place",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-121"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5462",
+              "cht": "合起來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -436,115 +432,102 @@
             "hebrew-5307": 0.8474323399070219
           },
           "verseKey": "1sa.26.12",
-          "cunp": "大衛從掃羅的頭旁拿了槍和水瓶，二人就走了，沒有人看見，沒有人知道，也沒有人醒起，都睡着了，因為耶和華使他們沉沉地睡了。",
+          "nasb": "So David took the spear and the jug of water from beside Saul’s head, and they went away, but no one saw or knew it, nor did any awake, for they were all asleep, because a sound sleep from the Lord had fallen on them.",
           "words": [
             {
-              "id": "hebrew-3947",
-              "eng": "So took"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-2595",
-              "eng": "the spear"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-6835",
-              "eng": "the jug"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "of water"
-            },
-            {
-              "id": "hebrew-7226",
-              "eng": "[by] head"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-7586",
-              "eng": "of Saul"
+              "cht": "從掃羅"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "and they got away",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "的頭旁"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "拿了"
+            },
+            {
+              "id": "hebrew-2595",
+              "cht": "槍"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
+            },
+            {
+              "id": "hebrew-6835",
+              "cht": "瓶",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "就走了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and no"
+              "cht": "沒有人"
             },
             {
               "id": "hebrew-7200",
-              "eng": "man saw [it]"
+              "cht": "看見",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and no"
+              "cht": "沒有人"
             },
             {
               "id": "hebrew-3045",
-              "eng": "[one] knew [it]"
+              "cht": "知道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and none"
+              "cht": "也沒有人"
             },
             {
               "id": "hebrew-6974",
-              "eng": "awoke",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "醒起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "they [were] all"
+              "cht": "都"
             },
             {
-              "id": "hebrew-3462",
-              "eng": "asleep"
+              "id": "hebrew-3463",
+              "cht": "睡著了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-8639",
-              "eng": "a deep sleep from"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5307",
-              "eng": "had fallen"
+              "cht": "使"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on them",
-              "punct": "."
+              "cht": "他們"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-3463"
+              "id": "hebrew-8639",
+              "cht": "沉沉地睡了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -555,33 +538,33 @@
             "hebrew-5307": 0.8474323399070219
           },
           "verseKey": "pro.19.15",
-          "cunp": "懶惰使人沉睡； 懈怠的人必受飢餓。",
+          "nasb": "Laziness casts into a deep sleep, And an idle man will suffer hunger.",
           "words": [
             {
               "id": "hebrew-6103",
-              "eng": "Laziness"
+              "cht": "懶惰"
             },
             {
               "id": "hebrew-5307",
-              "eng": "casts [one]"
+              "cht": "使"
             },
             {
               "id": "hebrew-8639",
-              "eng": "into a deep sleep",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "and an"
+              "cht": "人沉睡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7423",
-              "eng": "idle person"
+              "cht": "懈怠"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的人"
             },
             {
               "id": "hebrew-7456",
-              "eng": "will suffer hunger",
-              "punct": "."
+              "cht": "必受飢餓",
+              "punct_cht": "。"
             }
           ]
         },
@@ -592,52 +575,45 @@
             "hebrew-5307": 0.8474323399070219
           },
           "verseKey": "job.4.13",
-          "cunp": "在思念夜中、異象之間， 世人沉睡的時候，",
+          "nasb": "Amid disquieting thoughts from the visions of the night, When deep sleep falls on men,",
           "words": [
             {
               "id": "hebrew-5587",
-              "eng": "In disquieting thoughts"
-            },
-            {
-              "id": "hebrew-2384",
-              "eng": "from the visions"
+              "cht": "在思念"
             },
             {
               "id": "hebrew-3915",
-              "eng": "of the night",
-              "punct": "､"
+              "cht": "夜"
+            },
+            {
+              "id": "",
+              "cht": "中、"
+            },
+            {
+              "id": "hebrew-2384",
+              "cht": "異象"
+            },
+            {
+              "id": "",
+              "cht": "之間",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "世人"
             },
             {
               "id": "hebrew-5307",
-              "eng": "when falls"
+              "cht": "沉"
             },
             {
               "id": "hebrew-8639",
-              "eng": "deep sleep"
+              "cht": "睡"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "men",
-              "punct": "､"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-582"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             }
           ]
         },
@@ -647,97 +623,77 @@
             "hebrew-87": 2.2015553563646506
           },
           "verseKey": "gen.16.3",
-          "cunp": "於是亞伯蘭的妻子撒萊將使女埃及人夏甲給了丈夫為妾；那時亞伯蘭在迦南已經住了十年。",
+          "nasb": "After Abram had lived ten years in the land of Canaan, Abram’s wife Sarai took Hagar the Egyptian, her maid, and gave her to her husband Abram as his wife.",
           "words": [
             {
-              "id": "hebrew-3947",
-              "eng": "And took"
+              "id": "hebrew-87",
+              "cht": "於是亞伯蘭"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "的妻子"
             },
             {
               "id": "hebrew-8297",
-              "eng": "Sarai"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "wife"
-            },
-            {
-              "id": "hebrew-87",
-              "eng": "of Abram"
+              "cht": "撒萊"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1904",
-              "eng": "Hagar"
-            },
-            {
-              "id": "hebrew-4713",
-              "eng": "the Egyptianess",
-              "punct": "､"
+              "cht": "將"
             },
             {
               "id": "hebrew-8198",
-              "eng": "her maidservant",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7093",
-              "eng": "after"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "had dwelt"
-            },
-            {
-              "id": "hebrew-87",
-              "eng": "Abram"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "in the land"
-            },
-            {
-              "id": "hebrew-3667",
-              "eng": "of Canaan",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "and she gave"
+              "cht": "使女"
             },
             {
               "id": "hebrew-853",
-              "eng": "her"
+              "cht": "埃及人"
             },
             {
-              "id": "hebrew-87",
-              "eng": "to Abram"
+              "id": "hebrew-1904",
+              "cht": "夏甲"
             },
             {
-              "id": "hebrew-582",
-              "eng": "her husband"
+              "id": "hebrew-5414",
+              "cht": "給"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "了丈夫"
             },
             {
               "id": "hebrew-802",
-              "eng": "wife",
-              "punct": "."
+              "cht": "為妾",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-376"
+              "id": "hebrew-87",
+              "cht": "那時亞伯蘭"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-776",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-3667",
+              "cht": "迦南"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "已經"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "住了"
+            },
+            {
+              "id": "hebrew-6235",
+              "cht": "十"
+            },
+            {
+              "id": "hebrew-8141",
+              "cht": "年",
+              "punct_cht": "。"
             }
           ]
         }

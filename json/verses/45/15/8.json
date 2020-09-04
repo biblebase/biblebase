@@ -3,21 +3,37 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3004": "I say",
-          "greek-1063": "for",
-          "greek-5547": "Christ",
-          "greek-1249": "a servant",
-          "greek-1096": "to have become",
-          "greek-4061": "of [the] circumcision",
-          "greek-5228": "for",
-          "greek-225": "[the] truth",
-          "greek-2316": "of God",
-          "greek-1519": "in order",
-          "greek-3588": "to the",
-          "greek-950": "to confirm",
-          "greek-1860": "promises given",
-          "greek-3962": "fathers",
-          "": null
+          "eng": {
+            "greek-3004": "I say",
+            "greek-1063": "for",
+            "greek-5547": "Christ",
+            "greek-1249": "a servant",
+            "greek-1096": "to have become",
+            "greek-4061": "of [the] circumcision",
+            "greek-5228": "for",
+            "greek-225": "[the] truth",
+            "greek-2316": "of God",
+            "greek-1519": "in order",
+            "greek-3588": "to the",
+            "greek-950": "to confirm",
+            "greek-1860": "promises given",
+            "greek-3962": "fathers",
+            "": null
+          },
+          "cht": {
+            "greek-3004": "我說",
+            "greek-5547": "基督",
+            "greek-1249": "的執事",
+            "greek-1096": "是",
+            "greek-4061": "作了受割禮人",
+            "greek-5228": "為",
+            "greek-225": "真理",
+            "greek-2316": "神",
+            "greek-1519": "要",
+            "greek-950": "證實",
+            "greek-1860": "所應許",
+            "greek-3962": "列祖"
+          }
         }
       },
       "translations": {
@@ -35,104 +51,74 @@
             "greek-3962": 0.7720929478928475
           },
           "verseKey": "rom.4.12",
-          "cunp": "又作受割禮之人的父，就是那些不但受割禮，並且按我們的祖宗亞伯拉罕未受割禮而信之蹤跡去行的人。",
+          "nasb": "and the father of circumcision to those who not only are of the circumcision, but who also follow in the steps of the faith of our father Abraham which he had while uncircumcised.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "father"
+              "cht": "又"
             },
             {
               "id": "greek-4061",
-              "eng": "of circumcision"
+              "cht": "作受割禮之人"
             },
             {
-              "id": "greek-3588",
-              "eng": "to those"
+              "id": "greek-3962",
+              "cht": "的父",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-4061",
-              "eng": "circumcision"
+              "cht": "就是那些不"
             },
             {
               "id": "greek-3440",
-              "eng": "only",
-              "punct": ","
+              "cht": "但"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "受"
+            },
+            {
+              "id": "greek-4061",
+              "cht": "割禮",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to those"
-            },
-            {
-              "id": "greek-4748",
-              "eng": "walking"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "in the"
-            },
-            {
-              "id": "greek-2487",
-              "eng": "steps"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "during"
-            },
-            {
-              "id": "greek-203",
-              "eng": "uncircumcision"
-            },
-            {
-              "id": "greek-4102",
-              "eng": "faith"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "father"
+              "cht": "並且"
             },
             {
               "id": "greek-2257",
-              "eng": "of us",
-              "punct": ","
+              "cht": "按我們的"
             },
             {
-              "id": "greek-11",
-              "eng": "Abraham",
-              "punct": "."
+              "id": "greek-3962",
+              "cht": "祖宗"
             },
             {
-              "id": "greek-1161"
+              "id": "greek-1722",
+              "cht": "亞伯拉罕"
             },
             {
-              "id": ""
+              "id": "greek-203",
+              "cht": "未受割禮"
+            },
+            {
+              "id": "greek-4102",
+              "cht": "而信"
+            },
+            {
+              "id": "greek-2487",
+              "cht": "之蹤跡"
+            },
+            {
+              "id": "greek-4748",
+              "cht": "去行"
+            },
+            {
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -143,137 +129,111 @@
             "greek-2316": 0.3846268968661864
           },
           "verseKey": "rom.13.4",
-          "cunp": "因為他是神的用人，是與你有益的。你若作惡，卻當懼怕，因為他不是空空地佩劍；他是神的用人，是伸冤的，刑罰那作惡的。",
+          "nasb": "for it is a minister of God to you for good. But if you do what is evil, be afraid; for it does not bear the sword for nothing; for it is a minister of God, an avenger who brings wrath on the one who practices evil.",
           "words": [
             {
-              "id": "greek-2316",
-              "eng": "Of God"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1249",
-              "eng": "servant"
+              "cht": "因為"
             },
             {
               "id": "greek-2076",
-              "eng": "he is"
+              "cht": "他是"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神的"
+            },
+            {
+              "id": "greek-1249",
+              "cht": "用人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "是與"
             },
             {
               "id": "greek-4671",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "你"
             },
             {
               "id": "greek-18",
-              "eng": "good",
-              "punct": "."
+              "cht": "有益的",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1437",
-              "eng": "If"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2556",
-              "eng": "evil"
+              "cht": "你若"
             },
             {
               "id": "greek-4160",
-              "eng": "you do",
-              "punct": ","
-            },
-            {
-              "id": "greek-5399",
-              "eng": "be afraid",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1500",
-              "eng": "in vain"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3162",
-              "eng": "sword"
-            },
-            {
-              "id": "greek-5409",
-              "eng": "he bears",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "of God"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1249",
-              "eng": "a servant"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "He is",
-              "punct": ","
-            },
-            {
-              "id": "greek-1558",
-              "eng": "an avenger"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3709",
-              "eng": "wrath"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the [one]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "作"
             },
             {
               "id": "greek-2556",
-              "eng": "evil"
+              "cht": "惡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5399",
+              "cht": "卻當懼怕",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1063",
+              "cht": "因為"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "他不"
+            },
+            {
+              "id": "greek-5409",
+              "cht": "是"
+            },
+            {
+              "id": "greek-1500",
+              "cht": "空空的"
+            },
+            {
+              "id": "greek-3162",
+              "cht": "佩劍",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "他是"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神的"
+            },
+            {
+              "id": "greek-1249",
+              "cht": "用人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1558",
+              "cht": "是伸冤的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3709",
+              "cht": "刑罰"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "那"
             },
             {
               "id": "greek-4238",
-              "eng": "doing",
-              "punct": "."
+              "cht": "作"
+            },
+            {
+              "id": "greek-2556",
+              "cht": "惡的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -285,61 +245,53 @@
             "greek-950": 5.492088685277254
           },
           "verseKey": "2co.1.21",
-          "cunp": "那在基督裏堅固我們和你們，並且膏我們的就是神。",
+          "nasb": "Now He who establishes us with you in Christ and anointed us is God,",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [One]"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-950",
-              "eng": "establishing"
-            },
-            {
-              "id": "greek-2248",
-              "eng": "us"
-            },
-            {
-              "id": "greek-4862",
-              "eng": "with"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "you"
-            },
-            {
               "id": "greek-1519",
-              "eng": "unto"
+              "cht": "那在"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": ","
+              "cht": "基督"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5548",
-              "eng": "having anointed"
+              "id": "greek-950",
+              "cht": "裡堅固"
             },
             {
               "id": "greek-2248",
-              "eng": "us",
-              "punct": ","
+              "cht": "我們"
+            },
+            {
+              "id": "greek-4862",
+              "cht": "和"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "你們",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並且"
+            },
+            {
+              "id": "greek-5548",
+              "cht": "膏"
+            },
+            {
+              "id": "greek-2248",
+              "cht": "我們"
+            },
+            {
+              "id": "",
+              "cht": "的就是"
             },
             {
               "id": "greek-2316",
-              "eng": "[is] God",
-              "punct": ","
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -350,85 +302,61 @@
             "greek-4061": 2.757003134390137
           },
           "verseKey": "col.2.11",
-          "cunp": "你們在他裏面也受了不是人手所行的割禮，乃是基督使你們脫去肉體情慾的割禮。",
+          "nasb": "and in Him you were also circumcised with a circumcision made without hands, in the removal of the body of the flesh by the circumcision of Christ;",
           "words": [
             {
-              "id": "greek-1722",
-              "eng": "in"
+              "id": "greek-3739",
+              "cht": "你們在他"
             },
             {
-              "id": "greek-3739",
-              "eng": "whom"
+              "id": "greek-1722",
+              "cht": "裡面"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "也"
             },
             {
               "id": "greek-4059",
-              "eng": "you were circumcised"
-            },
-            {
-              "id": "greek-4061",
-              "eng": "with [the] circumcision"
+              "cht": "受了"
             },
             {
               "id": "greek-886",
-              "eng": "made without hands",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-555",
-              "eng": "removal"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "flesh",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "不是人手"
             },
             {
               "id": "greek-4061",
-              "eng": "circumcision"
+              "cht": "所行的割禮",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1722",
+              "cht": "乃"
             },
             {
               "id": "greek-5547",
-              "eng": "of Christ",
-              "punct": ","
+              "cht": "是基督"
             },
             {
-              "id": "greek-266"
+              "id": "greek-1722",
+              "cht": "使"
+            },
+            {
+              "id": "greek-555",
+              "cht": "你們脫去"
+            },
+            {
+              "id": "greek-4561",
+              "cht": "肉體"
+            },
+            {
+              "id": "greek-266",
+              "cht": "情慾"
+            },
+            {
+              "id": "greek-4061",
+              "cht": "的割禮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -439,40 +367,33 @@
             "greek-950": 5.492088685277254
           },
           "verseKey": "1co.1.6",
-          "cunp": "正如我為基督作的見證，在你們心裏得以堅固，",
+          "nasb": "even as the testimony concerning Christ was confirmed in you,",
           "words": [
             {
               "id": "greek-2531",
-              "eng": "as"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3142",
-              "eng": "testimony"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "about"
+              "cht": "正如"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ"
+              "cht": "我為基督"
             },
             {
-              "id": "greek-950",
-              "eng": "was confirmed"
+              "id": "greek-3142",
+              "cht": "作的見證",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-5213",
-              "eng": "you",
-              "punct": ","
+              "cht": "你們"
+            },
+            {
+              "id": "greek-950",
+              "cht": "心裡得以堅固",
+              "punct_cht": "，"
             }
           ]
         },
@@ -483,69 +404,61 @@
             "greek-950": 5.492088685277254
           },
           "verseKey": "1co.1.8",
-          "cunp": "他也必堅固你們到底，叫你們在我們主耶穌基督的日子無可責備。",
+          "nasb": "who will also confirm you to the end, blameless in the day of our Lord Jesus Christ.",
           "words": [
             {
               "id": "greek-3739",
-              "eng": "who"
+              "cht": "他"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "也"
             },
             {
               "id": "greek-950",
-              "eng": "will sustain"
+              "cht": "必堅固"
             },
             {
               "id": "greek-5209",
-              "eng": "you"
+              "cht": "你們"
             },
             {
               "id": "greek-2193",
-              "eng": "to [the]"
+              "cht": "到"
             },
             {
               "id": "greek-5056",
-              "eng": "end",
-              "punct": ","
-            },
-            {
-              "id": "greek-410",
-              "eng": "blameless"
+              "cht": "底",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2250",
-              "eng": "day"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "叫你們在"
             },
             {
               "id": "greek-2257",
-              "eng": "of us"
+              "cht": "我們"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "主"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": "."
+              "cht": "基督"
+            },
+            {
+              "id": "greek-2250",
+              "cht": "的日子"
+            },
+            {
+              "id": "greek-410",
+              "cht": "無可責備",
+              "punct_cht": "。"
             }
           ]
         },
@@ -556,85 +469,75 @@
             "greek-4061": 2.757003134390137
           },
           "verseKey": "rom.2.25",
-          "cunp": "你若是行律法的，割禮固然於你有益；若是犯律法的，你的割禮就算不得割禮。",
+          "nasb": "For indeed circumcision is of value if you practice the Law; but if you are a transgressor of the Law, your circumcision has become uncircumcision.",
           "words": [
             {
-              "id": "greek-4061",
-              "eng": "Circumcision"
-            },
-            {
-              "id": "greek-3303",
-              "eng": "indeed"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5623",
-              "eng": "profits",
-              "punct": ","
-            },
-            {
               "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "[the] law"
+              "cht": "你若是"
             },
             {
               "id": "greek-4238",
-              "eng": "you do",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-3848",
-              "eng": "a transgressor"
+              "cht": "行"
             },
             {
               "id": "greek-3551",
-              "eng": "of law"
+              "cht": "律法"
             },
             {
-              "id": "greek-5600",
-              "eng": "you are",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4061",
-              "eng": "circumcision"
+              "cht": "割禮"
+            },
+            {
+              "id": "greek-3303",
+              "cht": "固然"
+            },
+            {
+              "id": "greek-5623",
+              "cht": "於你有益",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "若"
+            },
+            {
+              "id": "greek-5600",
+              "cht": "是"
+            },
+            {
+              "id": "greek-3848",
+              "cht": "犯"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4675",
-              "eng": "of you"
+              "cht": "你的"
             },
             {
-              "id": "greek-203",
-              "eng": "uncircumcision"
+              "id": "greek-4061",
+              "cht": "割禮"
             },
             {
               "id": "greek-1096",
-              "eng": "has become",
-              "punct": "."
+              "cht": "就算不得"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-203",
+              "cht": "割禮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -644,93 +547,75 @@
             "greek-1249": 3.0764434511361327
           },
           "verseKey": "2co.11.15",
-          "cunp": "所以他的差役，若裝作仁義的差役，也不算希奇。他們的結局必然照着他們的行為。",
+          "nasb": "Therefore it is not surprising if his servants also disguise themselves as servants of righteousness, whose end will be according to their deeds.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "[It is] not"
-            },
-            {
-              "id": "greek-3173",
-              "eng": "surprising"
-            },
-            {
               "id": "greek-3767",
-              "eng": "therefore",
-              "punct": ","
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1249",
-              "eng": "servants"
+              "cht": "所以"
             },
             {
               "id": "greek-846",
-              "eng": "of him"
+              "cht": "他的"
+            },
+            {
+              "id": "greek-1249",
+              "cht": "差役",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1499",
+              "cht": "若"
             },
             {
               "id": "greek-3345",
-              "eng": "masquerade"
+              "cht": "裝"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
-            },
-            {
-              "id": "greek-1249",
-              "eng": "servants"
+              "cht": "作"
             },
             {
               "id": "greek-1343",
-              "eng": "of righteousness",
-              "punct": ","
+              "cht": "仁義的"
+            },
+            {
+              "id": "greek-1249",
+              "cht": "差役",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "也不算"
+            },
+            {
+              "id": "greek-3173",
+              "cht": "希奇",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3739",
-              "eng": "whose"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "他們的"
             },
             {
               "id": "greek-5056",
-              "eng": "end"
+              "cht": "結局"
             },
             {
               "id": "greek-2071",
-              "eng": "will be"
+              "cht": "必然"
             },
             {
               "id": "greek-2596",
-              "eng": "according to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2041",
-              "eng": "deeds"
+              "cht": "照著"
             },
             {
               "id": "greek-846",
-              "eng": "of them",
-              "punct": "."
+              "cht": "他們的"
             },
             {
-              "id": "greek-1499"
+              "id": "greek-2041",
+              "cht": "行為",
+              "punct_cht": "。"
             }
           ]
         },
@@ -740,87 +625,84 @@
             "greek-4061": 2.757003134390137
           },
           "verseKey": "rom.4.10",
-          "cunp": "是怎麼算的呢？是在他受割禮的時候呢？是在他未受割禮的時候呢？不是在受割禮的時候，乃是在未受割禮的時候。",
+          "nasb": "How then was it credited? While he was circumcised, or uncircumcised? Not while circumcised, but while uncircumcised;",
           "words": [
             {
               "id": "greek-4459",
-              "eng": "How"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "then"
+              "cht": "是怎麼"
             },
             {
               "id": "greek-3049",
-              "eng": "was it credited",
-              "punct": "?"
+              "cht": "算的"
             },
             {
-              "id": "greek-1722",
-              "eng": "In"
-            },
-            {
-              "id": "greek-4061",
-              "eng": "circumcision"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-5607",
-              "eng": "being",
-              "punct": ","
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-203",
-              "eng": "uncircumcision",
-              "punct": "?"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-4061",
-              "eng": "circumcision",
-              "punct": ","
+              "cht": "他受割禮"
             },
             {
-              "id": "greek-235",
-              "eng": "but"
+              "id": "",
+              "cht": "的時候呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "是在"
             },
             {
               "id": "greek-203",
-              "eng": "uncircumcision",
-              "punct": "."
+              "cht": "他未受割禮"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的時候呢",
+              "punct_cht": "？"
             },
             {
-              "id": ""
+              "id": "greek-3756",
+              "cht": "不是"
             },
             {
-              "id": ""
+              "id": "greek-1722",
+              "cht": "在"
             },
             {
-              "id": ""
+              "id": "greek-4061",
+              "cht": "受割禮"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-235",
+              "cht": "乃是"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-203",
+              "cht": "未受割禮"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "。"
             }
           ]
         },
@@ -830,91 +712,83 @@
             "greek-950": 5.492088685277254
           },
           "verseKey": "heb.2.3",
-          "cunp": "我們若忽略這麼大的救恩，怎能逃罪呢？這救恩起先是主親自講的，後來是聽見的人給我們證實了。",
+          "nasb": "how will we escape if we neglect so great a salvation? After it was at the first spoken through the Lord, it was confirmed to us by those who heard,",
           "words": [
             {
-              "id": "greek-4459",
-              "eng": "how"
-            },
-            {
               "id": "greek-2249",
-              "eng": "we"
-            },
-            {
-              "id": "greek-1628",
-              "eng": "will escape"
-            },
-            {
-              "id": "greek-5082",
-              "eng": "such a great"
+              "cht": "我們"
             },
             {
               "id": "greek-272",
-              "eng": "having neglected"
+              "cht": "若忽略"
+            },
+            {
+              "id": "greek-5082",
+              "cht": "這麼大"
             },
             {
               "id": "greek-4991",
-              "eng": "a salvation",
-              "punct": ","
+              "cht": "的救恩",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4459",
+              "cht": "怎能"
+            },
+            {
+              "id": "greek-1628",
+              "cht": "逃罪"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-3748",
-              "eng": "which"
-            },
-            {
-              "id": "greek-746",
-              "eng": "a commencement"
+              "cht": "這救恩"
             },
             {
               "id": "greek-2983",
-              "eng": "having received",
-              "punct": ","
+              "cht": "起"
             },
             {
-              "id": "greek-2980",
-              "eng": "declared"
+              "id": "greek-746",
+              "cht": "先"
             },
             {
               "id": "greek-1223",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "是"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord",
-              "punct": ","
+              "cht": "主"
+            },
+            {
+              "id": "greek-2980",
+              "cht": "親自講的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5259",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "後來是"
             },
             {
               "id": "greek-191",
-              "eng": "having heard",
-              "punct": ","
+              "cht": "聽見"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
+              "cht": "的人給"
             },
             {
               "id": "greek-2248",
-              "eng": "us"
+              "cht": "我們"
             },
             {
               "id": "greek-950",
-              "eng": "it was confirmed",
-              "punct": ","
-            },
-            {
-              "id": ""
+              "cht": "證實了",
+              "punct_cht": "。"
             }
           ]
         }

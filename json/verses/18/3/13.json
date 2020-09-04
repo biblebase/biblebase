@@ -3,13 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "for",
-          "hebrew-6258": "now",
-          "hebrew-7901": "I would have lain still",
-          "hebrew-8252": "and been quiet",
-          "hebrew-3462": "I would have been asleep",
-          "hebrew-227": "then",
-          "hebrew-5117": "would have been at rest"
+          "eng": {
+            "hebrew-3588": "for",
+            "hebrew-6258": "now",
+            "hebrew-7901": "I would have lain still",
+            "hebrew-8252": "and been quiet",
+            "hebrew-3462": "I would have been asleep",
+            "hebrew-227": "then",
+            "hebrew-5117": "would have been at rest"
+          },
+          "cht": {
+            "hebrew-3588": "不然",
+            "hebrew-6258": "不然",
+            "hebrew-7901": "我就早已躺臥",
+            "hebrew-8252": "安",
+            "hebrew-3462": "睡"
+          }
         }
       },
       "translations": {
@@ -24,51 +33,37 @@
             "hebrew-3462": 2.55020052759751
           },
           "verseKey": "1th.5.7",
-          "cunp": "因為睡了的人是在夜間睡，醉了的人是在夜間醉。",
+          "nasb": "For those who sleep do their sleeping at night, and those who get drunk get drunk at night.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "Those"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "greek-2518",
-              "eng": "sleeping",
-              "punct": ","
+              "cht": "睡了"
             },
             {
               "id": "greek-3571",
-              "eng": "by night"
+              "cht": "的人是在夜間"
             },
             {
               "id": "greek-2518",
-              "eng": "sleep",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "睡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3182",
-              "eng": "becoming drunk",
-              "punct": ","
+              "cht": "醉了"
             },
             {
               "id": "greek-3571",
-              "eng": "by night"
+              "cht": "的人是在夜間"
             },
             {
               "id": "greek-3184",
-              "eng": "get drunk",
-              "punct": "."
+              "cht": "醉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -78,86 +73,73 @@
             "hebrew-3462": 2.55020052759751
           },
           "verseKey": "mrk.14.37",
-          "cunp": "耶穌回來，見他們睡着了，就對彼得說：「西門，你睡覺嗎？不能警醒片時嗎？",
+          "nasb": "And He *came and *found them sleeping, and *said to Peter, “Simon, are you asleep? Could you not keep watch for one hour?",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-2064",
-              "eng": "He comes"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "耶穌回來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2147",
-              "eng": "finds"
+              "cht": "見"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "他們"
             },
             {
               "id": "greek-2518",
-              "eng": "sleeping",
-              "punct": "."
+              "cht": "睡著了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "He says"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "就"
             },
             {
               "id": "greek-4074",
-              "eng": "to Peter",
-              "punct": ","
+              "cht": "對彼得"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4613",
-              "eng": "Simon",
-              "punct": ","
+              "cht": "西門",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2518",
-              "eng": "are you asleep",
-              "punct": "?"
+              "cht": "你睡覺嗎",
+              "punct_cht": "？"
             },
             {
               "id": "greek-3756",
-              "eng": "Not"
+              "cht": "不"
             },
             {
               "id": "greek-2480",
-              "eng": "were you able"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-5610",
-              "eng": "hour"
+              "cht": "能"
             },
             {
               "id": "greek-1127",
-              "eng": "to watch",
-              "punct": "?"
+              "cht": "儆醒"
             },
             {
-              "id": "greek-3391"
+              "id": "greek-3391",
+              "cht": "片"
             },
             {
-              "id": ""
+              "id": "greek-5610",
+              "cht": "時"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -167,43 +149,37 @@
             "hebrew-3462": 2.55020052759751
           },
           "verseKey": "lev.26.10",
-          "cunp": "你們要吃陳糧，又因新糧挪開陳糧。",
+          "nasb": "You will eat the old supply and clear out the old because of the new.",
           "words": [
             {
               "id": "hebrew-398",
-              "eng": "And You shall eat"
+              "cht": "你們要吃"
             },
             {
               "id": "hebrew-3465",
-              "eng": "the old stope"
+              "cht": "陳"
             },
             {
               "id": "hebrew-3462",
-              "eng": "long"
+              "cht": "糧",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3462",
-              "eng": "kept",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "because"
+              "id": "hebrew-4480",
+              "cht": "又因"
             },
             {
               "id": "hebrew-2319",
-              "eng": "of the new"
+              "cht": "新糧"
             },
             {
               "id": "hebrew-3318",
-              "eng": "clear out",
-              "punct": "."
+              "cht": "挪開"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-3465"
+              "id": "hebrew-3465",
+              "cht": "陳糧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -214,49 +190,51 @@
             "hebrew-5117": 2.217991987904543
           },
           "verseKey": "ezk.16.42",
-          "cunp": "這樣，我就止息向你發的忿怒，我的忌恨也要離開你，我要安靜不再惱怒。",
+          "nasb": "So I will calm My fury against you and My jealousy will depart from you, and I will be pacified and angry no more.",
           "words": [
             {
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-5117",
-              "eng": "So I will lay to rest",
-              "punct": "､"
+              "cht": "我就止息"
             },
             {
               "id": "hebrew-2534",
-              "eng": "My fury"
-            },
-            {
-              "id": "hebrew-5493",
-              "eng": "and shall depart"
+              "cht": "發的忿怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7068",
-              "eng": "My jealousy"
+              "cht": "我的忌恨"
+            },
+            {
+              "id": "hebrew-5493",
+              "cht": "也要離開"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from you"
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8252",
-              "eng": "and I will be quiet",
-              "punct": "､"
+              "cht": "我要安靜"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-3707",
-              "eng": "be angry"
+              "cht": "不"
             },
             {
               "id": "hebrew-5750",
-              "eng": "more",
-              "punct": "."
+              "cht": "再"
             },
             {
-              "id": ""
+              "id": "hebrew-3707",
+              "cht": "惱怒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -267,43 +245,43 @@
             "hebrew-5117": 2.217991987904543
           },
           "verseKey": "job.3.26",
-          "cunp": "我不得安逸，不得平靜， 也不得安息，卻有患難來到。",
+          "nasb": "I am not at ease, nor am I quiet, And I am not at rest, but turmoil comes.”",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Not"
+              "cht": "我不得"
             },
             {
               "id": "hebrew-7951",
-              "eng": "I am at ease",
-              "punct": "､"
+              "cht": "安逸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "不得"
             },
             {
               "id": "hebrew-8252",
-              "eng": "am I quiet",
-              "punct": "､"
+              "cht": "平靜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and no"
+              "cht": "也不得"
             },
             {
               "id": "hebrew-5117",
-              "eng": "I have rest",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "for comes"
+              "cht": "安息",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7267",
-              "eng": "trouble",
-              "punct": "."
+              "cht": "卻有患難"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "來到",
+              "punct_cht": "。"
             }
           ]
         },
@@ -314,42 +292,42 @@
             "hebrew-5117": 2.217991987904543
           },
           "verseKey": "2ch.20.30",
-          "cunp": "這樣，約沙法的國得享太平，因為神賜他四境平安。",
+          "nasb": "So the kingdom of Jehoshaphat was at peace, for his God gave him rest on all sides.",
           "words": [
             {
-              "id": "hebrew-8252",
-              "eng": "And was quiet",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4438",
-              "eng": "the realm"
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3092",
-              "eng": "of Jehoshaphat"
+              "cht": "約沙法"
             },
             {
-              "id": "hebrew-5117",
-              "eng": "for gave rest"
+              "id": "hebrew-4438",
+              "cht": "的國"
+            },
+            {
+              "id": "hebrew-8252",
+              "cht": "得享太平"
+            },
+            {
+              "id": "",
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "his God"
+              "cht": "神"
             },
             {
               "id": "hebrew-5439",
-              "eng": "all around",
-              "punct": "."
+              "cht": "四境"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5117",
+              "cht": "平安",
+              "punct_cht": "。"
             }
           ]
         },
@@ -360,34 +338,34 @@
             "hebrew-5117": 2.217991987904543
           },
           "verseKey": "isa.14.7",
-          "cunp": "現在全地得安息，享平靜； 人皆發聲歡呼。",
+          "nasb": "The whole earth is at rest and is quiet; They break forth into shouts of joy.",
           "words": [
             {
-              "id": "hebrew-5117",
-              "eng": "Is at rest",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8252",
-              "eng": "[and] quiet",
-              "punct": "–"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "現在全"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-5117",
+              "cht": "得安息",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8252",
+              "cht": "享平靜",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6476",
-              "eng": "they break forth"
+              "cht": "人皆發聲"
             },
             {
               "id": "hebrew-7440",
-              "eng": "into singing",
-              "punct": "."
+              "cht": "歡呼",
+              "punct_cht": "。"
             }
           ]
         },
@@ -398,70 +376,63 @@
             "hebrew-5117": 2.217991987904543
           },
           "verseKey": "2ch.14.6",
-          "cunp": "又在猶大建造了幾座堅固城。國中太平數年，沒有戰爭，因為耶和華賜他平安。",
+          "nasb": "He built fortified cities in Judah, since the land was undisturbed, and there was no one at war with him during those years, because the Lord had given him rest.",
           "words": [
             {
-              "id": "hebrew-1129",
-              "eng": "And he built"
+              "id": "hebrew-3063",
+              "cht": "又在猶大"
             },
             {
-              "id": "hebrew-5892",
-              "eng": "cities"
+              "id": "hebrew-1129",
+              "cht": "建造了"
             },
             {
               "id": "hebrew-4694",
-              "eng": "fortified"
+              "cht": "幾座堅固"
             },
             {
-              "id": "hebrew-3063",
-              "eng": "in Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-8252",
-              "eng": "had rest",
-              "punct": "､"
+              "id": "hebrew-5892",
+              "cht": "城",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "國中"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and had no"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "he"
-            },
-            {
-              "id": "hebrew-4421",
-              "eng": "war"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "in years",
-              "punct": "–"
+              "id": "hebrew-8252",
+              "cht": "太平"
             },
             {
               "id": "hebrew-428",
-              "eng": "these"
+              "cht": "數"
+            },
+            {
+              "id": "hebrew-8141",
+              "cht": "年",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-4421",
+              "cht": "戰爭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-5117",
-              "eng": "had given rest"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5117",
+              "cht": "平安",
+              "punct_cht": "。"
             }
           ]
         },
@@ -472,101 +443,95 @@
             "hebrew-5117": 2.217991987904543
           },
           "verseKey": "jos.22.4",
-          "cunp": "如今耶和華－你們神照着他所應許的，使你們弟兄得享平安，現在可以轉回你們的帳棚，到耶和華的僕人摩西在約旦河東所賜你們為業之地。",
+          "nasb": "And now the Lord your God has given rest to your brothers, as He spoke to them; therefore turn now and go to your tents, to the land of your possession, which Moses the servant of the Lord gave you beyond the Jordan.",
           "words": [
             {
               "id": "hebrew-6258",
-              "eng": "Now"
-            },
-            {
-              "id": "hebrew-5117",
-              "eng": "has given rest"
+              "cht": "如今"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "to your brothers",
-              "punct": "､"
+              "cht": "神"
             },
             {
               "id": "hebrew-834",
-              "eng": "as"
+              "cht": "照著"
             },
             {
               "id": "hebrew-1696",
-              "eng": "He promised"
+              "cht": "他所應許的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-251",
+              "cht": "使你們弟兄"
+            },
+            {
+              "id": "hebrew-5117",
+              "cht": "得享平安",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6258",
-              "eng": "therefore now"
+              "cht": "現在"
             },
             {
-              "id": "hebrew-6437",
-              "eng": "return"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "and go"
+              "id": "hebrew-3212",
+              "cht": "可以轉回"
             },
             {
               "id": "hebrew-168",
-              "eng": "to your tents",
-              "punct": "､"
+              "cht": "的帳棚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "[and] to"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
-            },
-            {
-              "id": "hebrew-272",
-              "eng": "of your possession",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "gave"
-            },
-            {
-              "id": "hebrew-4872",
-              "eng": "Moses"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "the servant"
+              "cht": "到"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-5676",
-              "eng": "on the other side"
+              "id": "hebrew-5650",
+              "cht": "的僕人"
+            },
+            {
+              "id": "hebrew-4872",
+              "cht": "摩西"
             },
             {
               "id": "hebrew-3383",
-              "eng": "of the Jordan",
-              "punct": "."
+              "cht": "在約旦河"
             },
             {
-              "id": ""
+              "id": "hebrew-5676",
+              "cht": "東"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "賜"
+            },
+            {
+              "id": "hebrew-272",
+              "cht": "為業"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "之地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -577,82 +542,80 @@
             "hebrew-8252": 2.57672001355142
           },
           "verseKey": "2ch.14.1",
-          "cunp": "亞比雅與他列祖同睡，葬在大衛城裏。他兒子亞撒接續他作王。亞撒年間，國中太平十年。",
+          "nasb": "So Abijah slept with his fathers, and they buried him in the city of David, and his son Asa became king in his place. The land was undisturbed for ten years during his days.",
           "words": [
             {
-              "id": "hebrew-7901",
-              "eng": "So rested"
-            },
-            {
               "id": "hebrew-29",
-              "eng": "Abijah"
+              "cht": "亞比雅"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
+              "cht": "與"
             },
             {
               "id": "hebrew-1",
-              "eng": "his fathers",
-              "punct": "､"
+              "cht": "他列祖"
+            },
+            {
+              "id": "hebrew-7901",
+              "cht": "同睡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6912",
-              "eng": "and they buried"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "him"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "in the City"
+              "cht": "葬"
             },
             {
               "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "､"
+              "cht": "在大衛"
             },
             {
-              "id": "hebrew-4427",
-              "eng": "and reigned"
+              "id": "hebrew-5892",
+              "cht": "城"
             },
             {
-              "id": "hebrew-609",
-              "eng": "Asa"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1121",
-              "eng": "his son"
+              "cht": "他兒子"
+            },
+            {
+              "id": "hebrew-609",
+              "cht": "亞撒"
             },
             {
               "id": "hebrew-8478",
-              "eng": "in his place",
-              "punct": "."
+              "cht": "接續他"
+            },
+            {
+              "id": "hebrew-4427",
+              "cht": "作王",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3117",
-              "eng": "In his days"
-            },
-            {
-              "id": "hebrew-8252",
-              "eng": "was quiet"
+              "cht": "亞撒年間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "國中"
+            },
+            {
+              "id": "hebrew-8252",
+              "cht": "太平"
             },
             {
               "id": "hebrew-6235",
-              "eng": "[for] ten"
+              "cht": "十"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "年",
+              "punct_cht": "。"
             }
           ]
         }

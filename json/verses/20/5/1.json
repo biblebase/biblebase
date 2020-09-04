@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1121": "My son",
-          "hebrew-2451": "to my wisdom",
-          "hebrew-7181": "pay attention",
-          "hebrew-8394": "to my understanding",
-          "hebrew-5186": "Lend",
-          "hebrew-241": "your ear",
-          "": null
+          "eng": {
+            "hebrew-1121": "My son",
+            "hebrew-2451": "to my wisdom",
+            "hebrew-7181": "pay attention",
+            "hebrew-8394": "to my understanding",
+            "hebrew-5186": "Lend",
+            "hebrew-241": "your ear",
+            "": null
+          },
+          "cht": {
+            "hebrew-1121": "我兒",
+            "hebrew-2451": "我智慧",
+            "hebrew-7181": "要留心",
+            "hebrew-8394": "聽我聰明",
+            "hebrew-5186": "側",
+            "hebrew-241": "耳"
+          }
         }
       },
       "translations": {
@@ -29,33 +39,29 @@
             "hebrew-5186": 1.243715811065198
           },
           "verseKey": "pro.2.2",
-          "cunp": "側耳聽智慧， 專心求聰明，",
+          "nasb": "Make your ear attentive to wisdom, Incline your heart to understanding;",
           "words": [
             {
               "id": "hebrew-7181",
-              "eng": "So that you incline"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "to wisdom",
-              "punct": "､"
+              "cht": "側"
             },
             {
               "id": "hebrew-241",
-              "eng": "your ear"
+              "cht": "耳"
+            },
+            {
+              "id": "hebrew-2451",
+              "cht": "聽智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5186",
-              "eng": "[And] apply"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "your heart"
+              "cht": "專心"
             },
             {
               "id": "hebrew-8394",
-              "eng": "to understanding",
-              "punct": "–"
+              "cht": "求聰明",
+              "punct_cht": "，"
             }
           ]
         },
@@ -65,49 +71,51 @@
             "hebrew-7181": 2.757003134390137
           },
           "verseKey": "jer.6.17",
-          "cunp": "我設立守望的人照管你們， 說：要聽角聲。 他們卻說：我們不聽。",
+          "nasb": "And I set watchmen over you, saying, ‘Listen to the sound of the trumpet!’ But they said, ‘We will not listen.’",
           "words": [
             {
               "id": "hebrew-6965",
-              "eng": "And I set"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "over you"
+              "cht": "我設立"
             },
             {
               "id": "hebrew-6822",
-              "eng": "watchmen"
+              "cht": "守望的人"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "照管你們"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "，："
             },
             {
               "id": "hebrew-7181",
-              "eng": "[saying] Listen"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "to the sound"
+              "cht": "要聽"
             },
             {
               "id": "hebrew-7782",
-              "eng": "of the trumpet",
-              "punct": "."
+              "cht": "角"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "聲",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-559",
-              "eng": "But they said",
-              "punct": "､"
+              "cht": "他們卻說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我們不"
             },
             {
               "id": "hebrew-7181",
-              "eng": "we will listen",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "聽",
+              "punct_cht": "。"
             }
           ]
         },
@@ -119,144 +127,126 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "1ki.7.14",
-          "cunp": "他是拿弗他利支派中一個寡婦的兒子，他父親是泰爾人，作銅匠的。戶蘭滿有智慧、聰明、技能，善於各樣銅作。他來到所羅門王那裏，做王一切所要做的。",
+          "nasb": "He was a widow’s son from the tribe of Naphtali, and his father was a man of Tyre, a worker in bronze; and he was filled with wisdom and understanding and skill for doing any work in bronze. So he came to King Solomon and performed all his work.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "The son of"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman"
-            },
-            {
-              "id": "hebrew-490",
-              "eng": "a widow"
-            },
-            {
               "id": "hebrew-1931",
-              "eng": "He [was]"
-            },
-            {
-              "id": "hebrew-4294",
-              "eng": "from the tribe"
+              "cht": "他是"
             },
             {
               "id": "hebrew-5321",
-              "eng": "of Naphtali",
-              "punct": "､"
+              "cht": "拿弗他利"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "支派中"
+            },
+            {
+              "id": "hebrew-490",
+              "cht": "一個寡"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "婦"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1",
-              "eng": "and his father [was]"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "他父親"
             },
             {
               "id": "hebrew-6876",
-              "eng": "Tyrian",
-              "punct": "､"
+              "cht": "是推羅"
             },
             {
-              "id": "hebrew-2794",
-              "eng": "a worker"
+              "id": "hebrew-376",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5178",
-              "eng": "bronze",
-              "punct": "–"
+              "cht": "作銅"
+            },
+            {
+              "id": "hebrew-2790",
+              "cht": "匠的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4390",
-              "eng": "and he was filled"
+              "cht": "戶蘭滿"
             },
             {
               "id": "hebrew-853",
-              "eng": "with"
+              "cht": "有"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "智慧、"
             },
             {
               "id": "hebrew-8394",
-              "eng": "understanding",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "聰明、"
             },
             {
               "id": "hebrew-1847",
-              "eng": "skill"
+              "cht": "技能",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "in working with"
+              "cht": "善於"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all kinds"
-            },
-            {
-              "id": "hebrew-4399",
-              "eng": "of work"
+              "cht": "各樣"
             },
             {
               "id": "hebrew-5178",
-              "eng": "bronze",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "So he came"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "King"
-            },
-            {
-              "id": "hebrew-8010",
-              "eng": "Solomon",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "and did"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "銅"
             },
             {
               "id": "hebrew-4399",
-              "eng": "his work",
-              "punct": "."
+              "cht": "作",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-935",
+              "cht": "他來"
             },
             {
-              "id": "hebrew-2790"
+              "id": "hebrew-413",
+              "cht": "到"
             },
             {
-              "id": ""
+              "id": "hebrew-8010",
+              "cht": "所羅門"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "王一切"
+            },
+            {
+              "id": "hebrew-4399",
+              "cht": "所要做的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -267,55 +257,44 @@
             "hebrew-2451": 1.373665129919359
           },
           "verseKey": "1ki.4.30",
-          "cunp": "所羅門的智慧超過東方人和埃及人的一切智慧。",
+          "nasb": "Solomon’s wisdom surpassed the wisdom of all the sons of the east and all the wisdom of Egypt.",
           "words": [
             {
-              "id": "hebrew-7235",
-              "eng": "Thus excelled"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "wisdom"
-            },
-            {
               "id": "hebrew-8010",
-              "eng": "of Solomon"
+              "cht": "所羅門"
             },
             {
               "id": "hebrew-2451",
-              "eng": "the wisdom"
+              "cht": "的智慧"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the men"
+              "id": "hebrew-7235",
+              "cht": "超過"
             },
             {
               "id": "hebrew-6924",
-              "eng": "of the East",
-              "punct": "､"
+              "cht": "東方"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "the wisdom"
+              "cht": "和"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "埃及人"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3605",
+              "cht": "的一切"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2451",
+              "cht": "智慧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -326,69 +305,61 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "1ki.4.29",
-          "cunp": "神賜給所羅門極大的智慧聰明和廣大的心，如同海沙不可測量。",
+          "nasb": "Now God gave Solomon wisdom and very great discernment and breadth of mind, like the sand that is on the seashore.",
           "words": [
             {
-              "id": "hebrew-5414",
-              "eng": "And gave"
-            },
-            {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-2451",
-              "eng": "wisdom"
+              "id": "hebrew-5414",
+              "cht": "賜"
             },
             {
               "id": "hebrew-8010",
-              "eng": "Solomon"
-            },
-            {
-              "id": "hebrew-8394",
-              "eng": "and understanding"
-            },
-            {
-              "id": "hebrew-7235",
-              "eng": "great",
-              "punct": "､"
+              "cht": "給所羅門"
             },
             {
               "id": "hebrew-3966",
-              "eng": "exceedingly"
+              "cht": "極"
+            },
+            {
+              "id": "hebrew-7235",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-2451",
+              "cht": "的智慧"
+            },
+            {
+              "id": "hebrew-8394",
+              "cht": "聰明"
             },
             {
               "id": "hebrew-7341",
-              "eng": "and largeness"
+              "cht": "和廣大"
             },
             {
               "id": "hebrew-3820",
-              "eng": "of heart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2344",
-              "eng": "like the sand"
+              "cht": "的心",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "如同"
             },
             {
               "id": "hebrew-8193",
-              "eng": "shore"
+              "cht": "海"
             },
             {
-              "id": "hebrew-3220",
-              "eng": "the seashore",
-              "punct": "."
+              "id": "hebrew-2344",
+              "cht": "沙"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "不可測量",
+              "punct_cht": "。"
             }
           ]
         },
@@ -399,32 +370,33 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "job.12.13",
-          "cunp": "在神有智慧和能力； 他有謀略和知識。",
+          "nasb": "“With Him are wisdom and might; To Him belong counsel and understanding.",
           "words": [
             {
+              "id": "",
+              "cht": "在"
+            },
+            {
               "id": "hebrew-5973",
-              "eng": "With Him"
+              "cht": "神"
             },
             {
               "id": "hebrew-2451",
-              "eng": "[are] wisdom"
+              "cht": "有智慧"
             },
             {
               "id": "hebrew-1369",
-              "eng": "and strength",
-              "punct": "､"
+              "cht": "和能力",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6098",
-              "eng": "has counsel"
+              "cht": "謀略"
             },
             {
               "id": "hebrew-8394",
-              "eng": "and understanding",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "和知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -435,48 +407,48 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "exo.31.3",
-          "cunp": "我也以我的靈充滿了他，使他有智慧，有聰明，有知識，能做各樣的工，",
+          "nasb": "I have filled him with the Spirit of God in wisdom, in understanding, in knowledge, and in all kinds of craftsmanship,",
           "words": [
             {
-              "id": "hebrew-4390",
-              "eng": "And I have filled"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "him"
+              "id": "hebrew-430",
+              "cht": "我也以我"
             },
             {
               "id": "hebrew-7307",
-              "eng": "with the Spirit"
+              "cht": "的靈"
             },
             {
-              "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "､"
+              "id": "hebrew-4390",
+              "cht": "充滿了"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2451",
-              "eng": "in wisdom",
-              "punct": "､"
+              "cht": "使他有智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8394",
-              "eng": "and in understanding",
-              "punct": "､"
+              "cht": "有聰明",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1847",
-              "eng": "and in knowledge",
-              "punct": "､"
+              "cht": "有知識",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and in all [manner of]"
+              "cht": "能做各樣"
             },
             {
               "id": "hebrew-4399",
-              "eng": "workmanship",
-              "punct": "､"
+              "cht": "的工",
+              "punct_cht": "，"
             }
           ]
         },
@@ -487,29 +459,25 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "job.12.12",
-          "cunp": "年老的有智慧； 壽高的有知識。",
+          "nasb": "Wisdom is with aged men, With long life is understanding.",
           "words": [
             {
               "id": "hebrew-3453",
-              "eng": "With aged men"
+              "cht": "年老的"
             },
             {
               "id": "hebrew-2451",
-              "eng": "Wisdom [is]",
-              "punct": "–"
+              "cht": "有智慧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-753",
-              "eng": "and with length"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "of days"
+              "cht": "壽高的"
             },
             {
               "id": "hebrew-8394",
-              "eng": "understanding",
-              "punct": "."
+              "cht": "有知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -520,43 +488,42 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "pro.2.6",
-          "cunp": "因為，耶和華賜人智慧； 知識和聰明都由他口而出。",
+          "nasb": "For the Lord gives wisdom; From His mouth come knowledge and understanding.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5414",
-              "eng": "gives"
+              "cht": "賜人"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "from His mouth [come]"
+              "cht": "智慧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge"
+              "cht": "知識"
             },
             {
               "id": "hebrew-8394",
-              "eng": "and understanding",
-              "punct": "."
+              "cht": "和聰明"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6310",
+              "cht": "都由他口"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "而出",
+              "punct_cht": "。"
             }
           ]
         },
@@ -567,37 +534,38 @@
             "hebrew-8394": 2.9026639737222575
           },
           "verseKey": "pro.3.13",
-          "cunp": "得智慧，得聰明的， 這人便為有福。",
+          "nasb": "How blessed is the man who finds wisdom And the man who gains understanding.",
           "words": [
             {
-              "id": "hebrew-835",
-              "eng": "Blessed"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "[is] the man"
-            },
-            {
               "id": "hebrew-4672",
-              "eng": "[who] finds"
+              "cht": "得"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "and the man"
+              "cht": "智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6329",
-              "eng": "[who] gains"
+              "cht": "得"
             },
             {
               "id": "hebrew-8394",
-              "eng": "understanding",
-              "punct": "."
+              "cht": "聰明"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "這人"
+            },
+            {
+              "id": "hebrew-835",
+              "cht": "便為有福",
+              "punct_cht": "。"
             }
           ]
         }

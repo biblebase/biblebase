@@ -3,20 +3,34 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-611": "Answering",
-          "greek-1161": "now",
-          "greek-2455": "Judas",
-          "greek-3588": "who",
-          "greek-3860": "was betraying",
-          "greek-846": "to him",
-          "greek-2036": "have said",
-          "greek-3385": "Not",
-          "greek-1473": "I",
-          "greek-1510": "is it",
-          "greek-4461": "Rabbi",
-          "greek-3004": "He says",
-          "greek-4771": "You",
-          "": null
+          "eng": {
+            "greek-611": "Answering",
+            "greek-1161": "now",
+            "greek-2455": "Judas",
+            "greek-3588": "who",
+            "greek-3860": "was betraying",
+            "greek-846": "to him",
+            "greek-2036": "have said",
+            "greek-3385": "Not",
+            "greek-1473": "I",
+            "greek-1510": "is it",
+            "greek-4461": "Rabbi",
+            "greek-3004": "He says",
+            "greek-4771": "You",
+            "": null
+          },
+          "cht": {
+            "greek-611": "的猶大",
+            "greek-2455": "的猶大",
+            "greek-3860": "賣",
+            "greek-846": "耶穌",
+            "greek-2036": "說的是",
+            "greek-1473": "我",
+            "greek-1510": "是",
+            "greek-4461": "拉比",
+            "greek-3004": "說",
+            "greek-4771": "你"
+          }
         }
       },
       "translations": {
@@ -31,49 +45,38 @@
             "greek-2455": 2.8268151859226394
           },
           "verseKey": "luk.6.16",
-          "cunp": "雅各的兒子猶大，和賣主的加略人猶大。",
+          "nasb": "Judas the son of James, and Judas Iscariot, who became a traitor.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2455",
-              "eng": "Judas [son]"
-            },
-            {
               "id": "greek-2385",
-              "eng": "of James",
-              "punct": ";"
+              "cht": "雅各"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "的兒子（或作兄弟）",
+              "punct_cht": "："
             },
             {
               "id": "greek-2455",
-              "eng": "Judas"
+              "cht": "猶大",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2469",
-              "eng": "Iscariot",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "who"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "became"
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
               "id": "greek-4273",
-              "eng": "[the] betrayer",
-              "punct": "."
+              "cht": "賣主的"
             },
             {
-              "id": ""
+              "id": "greek-2469",
+              "cht": "加略人"
+            },
+            {
+              "id": "greek-2455",
+              "cht": "猶大",
+              "punct_cht": "。"
             }
           ]
         },
@@ -85,111 +88,70 @@
             "greek-3004": 0.27053312959209697
           },
           "verseKey": "jhn.1.38",
-          "cunp": "耶穌轉過身來，看見他們跟着，就問他們說：「你們要甚麼？」他們說：「拉比，在哪裏住？」（拉比翻出來就是夫子。）",
+          "nasb": "And Jesus turned and saw them following, and *said to them, “What do you seek?” They said to Him, “Rabbi (which translated means Teacher), where are You staying?”",
           "words": [
             {
-              "id": "greek-4762",
-              "eng": "Having turned"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4762",
+              "cht": "轉過身來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2300",
-              "eng": "having beheld"
+              "cht": "看見"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "他們"
             },
             {
               "id": "greek-190",
-              "eng": "following",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "He says"
+              "cht": "跟著",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "就問他們"
             },
             {
-              "id": "greek-5101",
-              "eng": "What"
-            },
-            {
-              "id": "greek-2212",
-              "eng": "seek you",
-              "punct": "?"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "greek-1161",
-              "eng": "And"
+              "cht": "你們要"
+            },
+            {
+              "id": "greek-5101",
+              "cht": "甚麼",
+              "punct_cht": "？」"
             },
             {
               "id": "greek-2036",
-              "eng": "they said"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to Him",
-              "punct": ","
+              "cht": "他們說",
+              "punct_cht": "：「"
             },
             {
               "id": "greek-4461",
-              "eng": "Rabbi"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "is to say",
-              "punct": ","
-            },
-            {
-              "id": "greek-3177",
-              "eng": "being translated",
-              "punct": ","
-            },
-            {
-              "id": "greek-1320",
-              "eng": "Teacher",
-              "punct": "—"
+              "cht": "拉比",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4226",
-              "eng": "where"
+              "cht": "在哪裡"
             },
             {
               "id": "greek-3306",
-              "eng": "are You staying",
-              "punct": "?"
+              "cht": "住"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "（拉比翻出來就是夫子）",
+              "punct_cht": "？」。"
             }
           ]
         },
@@ -201,130 +163,86 @@
             "greek-3004": 0.27053312959209697
           },
           "verseKey": "mrk.9.5",
-          "cunp": "彼得對耶穌說：「拉比，我們在這裏真好！可以搭三座棚，一座為你，一座為摩西，一座為以利亞。」",
+          "nasb": "Peter *said to Jesus, “Rabbi, it is good for us to be here; let us make three tabernacles, one for You, and one for Moses, and one for Elijah.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-611",
-              "eng": "answering",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-4074",
-              "eng": "Peter"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "says"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "彼得"
             },
             {
               "id": "greek-2424",
-              "eng": "to Jesus",
-              "punct": ","
+              "cht": "對耶穌"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4461",
-              "eng": "Rabbi",
-              "punct": ","
+              "cht": "拉比"
             },
             {
-              "id": "greek-2570",
-              "eng": "good"
-            },
-            {
-              "id": "greek-1511",
-              "eng": "it is"
+              "id": "",
+              "cht": "（就是夫子）",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2248",
-              "eng": "for us"
+              "cht": "我們"
+            },
+            {
+              "id": "greek-1511",
+              "cht": "在"
             },
             {
               "id": "greek-5602",
-              "eng": "here"
+              "cht": "這裡"
             },
             {
-              "id": "greek-1510",
-              "eng": "to be",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2570",
+              "cht": "真好",
+              "punct_cht": "！"
             },
             {
               "id": "greek-4160",
-              "eng": "let us make"
+              "cht": "可以搭"
             },
             {
               "id": "greek-5140",
-              "eng": "three"
+              "cht": "三座"
             },
             {
               "id": "greek-4633",
-              "eng": "tabernacles",
-              "punct": ":"
+              "cht": "棚",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3391",
+              "cht": "一座"
             },
             {
               "id": "greek-4671",
-              "eng": "for You"
+              "cht": "為你",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1520",
-              "eng": "one",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3391",
+              "cht": "一座"
             },
             {
               "id": "greek-3475",
-              "eng": "for Moses"
+              "cht": "為摩西",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1520",
-              "eng": "one",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3391",
+              "cht": "一座"
             },
             {
               "id": "greek-2243",
-              "eng": "for Elijah"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2076"
-            },
-            {
-              "id": "greek-3391"
-            },
-            {
-              "id": "greek-3391"
-            },
-            {
-              "id": "greek-3391"
+              "cht": "為以利亞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -337,95 +255,76 @@
             "greek-3004": 0.27053312959209697
           },
           "verseKey": "jhn.18.5",
-          "cunp": "他們回答說：「找拿撒勒人耶穌。」耶穌說：「我就是！」賣他的猶大也同他們站在那裏。",
+          "nasb": "They answered Him, “Jesus the Nazarene.” He *said to them, “I am He.” And Judas also, who was betraying Him, was standing with them.",
           "words": [
             {
-              "id": "greek-611",
-              "eng": "They answered"
-            },
-            {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
+              "cht": "他們回答"
             },
             {
-              "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3480",
-              "eng": "Nazareth",
-              "punct": "."
+              "cht": "找拿撒勒人"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-3004",
-              "eng": "He says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1473",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "greek-1510",
-              "eng": "am [He]",
-              "punct": "."
-            },
-            {
-              "id": "greek-2476",
-              "eng": "Had been standing"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-2455",
-              "eng": "Judas",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "who"
+              "cht": "就是",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3860",
-              "eng": "is delivering up"
+              "cht": "賣"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
+              "cht": "他"
+            },
+            {
+              "id": "greek-2455",
+              "cht": "的猶大"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-3326",
-              "eng": "with"
+              "cht": "同"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": "."
+              "cht": "他們"
             },
             {
-              "id": ""
+              "id": "greek-2476",
+              "cht": "站"
             },
             {
-              "id": "greek-2424"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "在那裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -436,77 +335,55 @@
             "greek-4461": 4.1389193993584925
           },
           "verseKey": "jhn.1.49",
-          "cunp": "拿但業說：「拉比，你是神的兒子，你是以色列的王！」",
+          "nasb": "Nathanael answered Him, “Rabbi, You are the Son of God; You are the King of Israel.”",
           "words": [
             {
-              "id": "greek-611",
-              "eng": "Answered"
+              "id": "greek-3482",
+              "cht": "拿但業"
             },
             {
               "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-3482",
-              "eng": "Nathanael",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "greek-4461",
-              "eng": "Rabbi",
-              "punct": ","
+              "cht": "拉比",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4771",
-              "eng": "You"
+              "cht": "你"
             },
             {
               "id": "greek-1488",
-              "eng": "are"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5207",
-              "eng": "Son"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": ";"
+              "cht": "神"
+            },
+            {
+              "id": "greek-5207",
+              "cht": "的兒子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4771",
-              "eng": "You"
-            },
-            {
-              "id": "greek-935",
-              "eng": "King"
+              "cht": "你"
             },
             {
               "id": "greek-1488",
-              "eng": "are"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是"
             },
             {
               "id": "greek-2474",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列"
             },
             {
-              "id": "greek-3004"
-            },
-            {
-              "id": "greek-2532"
+              "id": "greek-935",
+              "cht": "的王",
+              "punct_cht": "！」"
             }
           ]
         },
@@ -517,59 +394,47 @@
             "greek-4461": 4.1389193993584925
           },
           "verseKey": "jhn.6.25",
-          "cunp": "既在海那邊找着了，就對他說：「拉比，是幾時到這裏來的？」",
+          "nasb": "When they found Him on the other side of the sea, they said to Him, “Rabbi, when did You get here?”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2147",
-              "eng": "having found"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
+              "id": "greek-2281",
+              "cht": "既在海"
             },
             {
               "id": "greek-4008",
-              "eng": "on the other side"
+              "cht": "那邊"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2281",
-              "eng": "sea",
-              "punct": ","
-            },
-            {
-              "id": "greek-2036",
-              "eng": "they said"
+              "id": "greek-2147",
+              "cht": "找著了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "to Him",
-              "punct": ","
+              "cht": "就對他"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4461",
-              "eng": "Rabbi",
-              "punct": ","
+              "cht": "拉比",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4219",
-              "eng": "when"
+              "cht": "是幾時"
             },
             {
               "id": "greek-5602",
-              "eng": "here"
+              "cht": "到這裡"
             },
             {
               "id": "greek-1096",
-              "eng": "have You come",
-              "punct": "?"
+              "cht": "來的",
+              "punct_cht": "？"
             }
           ]
         },
@@ -580,121 +445,89 @@
             "greek-4461": 4.1389193993584925
           },
           "verseKey": "jhn.3.26",
-          "cunp": "就來見約翰，說：「拉比，從前同你在約旦河外、你所見證的那位，現在施洗，眾人都往他那裏去了。」",
+          "nasb": "And they came to John and said to him, “Rabbi, He who was with you beyond the Jordan, to whom you have testified, behold, He is baptizing and all are coming to Him.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "就"
             },
             {
               "id": "greek-2064",
-              "eng": "they came"
+              "cht": "來"
             },
             {
               "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "見"
             },
             {
               "id": "greek-2491",
-              "eng": "John"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "約翰",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2036",
-              "eng": "said"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "greek-4461",
-              "eng": "Rabbi",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "He who"
-            },
-            {
-              "id": "greek-2258",
-              "eng": "was"
+              "cht": "拉比",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3326",
-              "eng": "with"
+              "cht": "從前同"
             },
             {
               "id": "greek-4675",
-              "eng": "you"
+              "cht": "你"
             },
             {
-              "id": "greek-4008",
-              "eng": "beyond"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2258",
+              "cht": "在"
             },
             {
               "id": "greek-2446",
-              "eng": "Jordan",
-              "punct": ","
+              "cht": "約旦河"
             },
             {
-              "id": "greek-3739",
-              "eng": "to whom"
+              "id": "greek-4008",
+              "cht": "外、"
             },
             {
               "id": "greek-4771",
-              "eng": "you"
+              "cht": "你"
             },
             {
               "id": "greek-3140",
-              "eng": "have borne witness",
-              "punct": ","
+              "cht": "所見證"
             },
             {
-              "id": "greek-2400",
-              "eng": "behold"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "He"
+              "id": "greek-3739",
+              "cht": "的那位",
+              "punct_cht": "，"
             },
             {
               "id": "greek-907",
-              "eng": "baptizes",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "現在施洗",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "are coming"
+              "cht": "眾人"
             },
             {
               "id": "greek-4314",
-              "eng": "to"
+              "cht": "都往"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
+              "cht": "他"
+            },
+            {
+              "id": "greek-2064",
+              "cht": "那裡去了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -705,159 +538,101 @@
             "greek-4461": 4.1389193993584925
           },
           "verseKey": "jhn.3.2",
-          "cunp": "這人夜裏來見耶穌，說：「拉比，我們知道你是由神那裏來作師傅的；因為你所行的神蹟，若沒有神同在，無人能行。」",
+          "nasb": "this man came to Jesus by night and said to Him, “Rabbi, we know that You have come from God as a teacher; for no one can do these signs that You do unless God is with him.”",
           "words": [
             {
               "id": "greek-3778",
-              "eng": "He"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "came"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
+              "cht": "這人"
             },
             {
               "id": "greek-3571",
-              "eng": "by night"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "said"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-4461",
-              "eng": "Rabbi",
-              "punct": ","
-            },
-            {
-              "id": "greek-1492",
-              "eng": "we know"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God"
+              "cht": "夜裡"
             },
             {
               "id": "greek-2064",
-              "eng": "You have come",
-              "punct": ","
+              "cht": "來見"
             },
             {
-              "id": "greek-1320",
-              "eng": "a teacher",
-              "punct": ";"
+              "id": "greek-2424",
+              "cht": "耶穌",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3762",
-              "eng": "no one"
+              "id": "greek-2036",
+              "cht": "說"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "",
+              "cht": "拉比",
+              "punct_cht": "「，"
             },
             {
-              "id": "greek-1410",
-              "eng": "is able"
+              "id": "greek-1492",
+              "cht": "我們知道"
             },
             {
-              "id": "greek-3778",
-              "eng": "these"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4592",
-              "eng": "signs"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "to do"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "that"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "You"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "do",
-              "punct": ","
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "should be"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2064",
+              "cht": "你是由"
             },
             {
               "id": "greek-2316",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "greek-3326",
-              "eng": "with"
+              "id": "greek-2064",
+              "cht": "那來作"
             },
             {
-              "id": "greek-846",
-              "eng": "him",
-              "punct": "."
+              "id": "greek-1320",
+              "cht": "師傅的",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-2424"
+              "id": "greek-1063",
+              "cht": "因為"
             },
             {
-              "id": ""
+              "id": "greek-4771",
+              "cht": "你"
             },
             {
-              "id": "greek-2064"
+              "id": "greek-3739",
+              "cht": "所"
             },
             {
-              "id": "greek-5023"
+              "id": "greek-4160",
+              "cht": "行的"
             },
             {
-              "id": "greek-3362"
+              "id": "greek-5023",
+              "cht": "神蹟",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-5600"
+              "id": "greek-3362",
+              "cht": "若沒有"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "greek-5600",
+              "cht": "同在",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3762",
+              "cht": "無人"
+            },
+            {
+              "id": "greek-1410",
+              "cht": "能"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "行",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -868,59 +643,51 @@
             "greek-4461": 4.1389193993584925
           },
           "verseKey": "mat.26.49",
-          "cunp": "猶大隨即到耶穌跟前，說：「請拉比安」，就與他親嘴。",
+          "nasb": "Immediately Judas went to Jesus and said, “Hail, Rabbi!” and kissed Him.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-2112",
-              "eng": "immediately"
+              "cht": "猶大隨即"
             },
             {
               "id": "greek-4334",
-              "eng": "having come up"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "到"
             },
             {
               "id": "greek-2424",
-              "eng": "to Jesus",
-              "punct": ","
+              "cht": "耶穌"
+            },
+            {
+              "id": "",
+              "cht": "跟前",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2036",
-              "eng": "he said",
-              "punct": ","
-            },
-            {
-              "id": "greek-5463",
-              "eng": "Greetings",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4461",
-              "eng": "Rabbi",
-              "punct": ","
+              "cht": "請拉比"
+            },
+            {
+              "id": "greek-5463",
+              "cht": "安",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2705",
-              "eng": "kissed"
+              "cht": "就"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
+              "cht": "與他"
             },
             {
-              "id": ""
+              "id": "greek-2705",
+              "cht": "親嘴",
+              "punct_cht": "。"
             }
           ]
         },
@@ -932,57 +699,46 @@
             "greek-2036": 0.6033165378864083
           },
           "verseKey": "luk.22.48",
-          "cunp": "耶穌對他說：「猶大！你用親嘴的暗號賣人子嗎？」",
+          "nasb": "But Jesus said to him, “Judas, are you betraying the Son of Man with a kiss?”",
           "words": [
             {
               "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "said"
+              "cht": "耶穌"
             },
             {
               "id": "greek-846",
-              "eng": "to him",
-              "punct": ","
+              "cht": "對他"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2455",
-              "eng": "Judas",
-              "punct": ","
+              "cht": "猶大",
+              "punct_cht": "！"
             },
             {
               "id": "greek-5370",
-              "eng": "with a kiss"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5207",
-              "eng": "Son"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-444",
-              "eng": "of Man"
+              "cht": "你用親嘴"
             },
             {
               "id": "greek-3860",
-              "eng": "are you betraying",
-              "punct": "?"
+              "cht": "的暗號賣"
             },
             {
-              "id": ""
+              "id": "greek-444",
+              "cht": "人"
+            },
+            {
+              "id": "greek-5207",
+              "cht": "子"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         }

@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1980": "Come",
-          "hebrew-1730": "my beloved",
-          "hebrew-3318": null,
-          "hebrew-7704": "to the field",
-          "hebrew-3885": "let us lodge",
-          "hebrew-3723": "in the villages",
-          "hebrew-3212": null
+          "eng": {
+            "hebrew-1980": "Come",
+            "hebrew-1730": "my beloved",
+            "hebrew-3318": null,
+            "hebrew-7704": "to the field",
+            "hebrew-3885": "let us lodge",
+            "hebrew-3723": "in the villages",
+            "hebrew-3212": null
+          },
+          "cht": {
+            "hebrew-1730": "我的良人",
+            "hebrew-3318": "去",
+            "hebrew-7704": "田間",
+            "hebrew-3885": "住宿",
+            "hebrew-3723": "你我可以在村莊",
+            "hebrew-3212": "來吧"
+          }
         }
       },
       "translations": {
@@ -25,7 +35,7 @@
             "hebrew-1730": 4.576110205744392
           },
           "verseKey": "deu.9.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -37,7 +47,7 @@
             "hebrew-3723": 3.0298663446363143
           },
           "verseKey": "jdg.11.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -46,83 +56,46 @@
             "hebrew-3723": 3.0298663446363143
           },
           "verseKey": "mrk.8.26",
-          "cunp": "耶穌打發他回家，說：「連這村子你也不要進去。」",
+          "nasb": "And He sent him to his home, saying, “Do not even enter the village.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-649",
-              "eng": "He sent"
+              "cht": "耶穌打發"
             },
             {
               "id": "greek-846",
-              "eng": "him"
+              "cht": "他"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
+              "cht": "回"
             },
             {
               "id": "greek-3624",
-              "eng": "[the] home"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
+              "cht": "家",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-3366",
-              "eng": "Not"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "連"
             },
             {
               "id": "greek-2968",
-              "eng": "village"
-            },
-            {
-              "id": "greek-1525",
-              "eng": "may you enter",
-              "punct": "."
+              "cht": "這村子"
             },
             {
               "id": "greek-3366",
-              "eng": "nor"
+              "cht": "你也不要"
             },
             {
-              "id": "greek-2036",
-              "eng": "may tell [it]"
-            },
-            {
-              "id": "greek-5101",
-              "eng": "to anyone"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2968",
-              "eng": "village",
-              "punct": "."
+              "id": "greek-1525",
+              "cht": "進去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -133,96 +106,89 @@
             "hebrew-1730": 4.576110205744392
           },
           "verseKey": "1sa.10.14",
-          "cunp": "掃羅的叔叔問掃羅和他僕人說：「你們往哪裏去了？」回答說：「找驢去了。我們見沒有驢，就到了撒母耳那裏。」",
+          "nasb": "Now Saul’s uncle said to him and his servant, “Where did you go?” And he said, “To look for the donkeys. When we saw that they could not be found, we went to Samuel.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "hebrew-7586",
+              "cht": "掃羅"
             },
             {
               "id": "hebrew-1730",
-              "eng": "uncle"
-            },
-            {
-              "id": "hebrew-7586",
-              "eng": "of Saul"
+              "cht": "的叔叔"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him"
+              "cht": "問掃羅"
             },
             {
               "id": "hebrew-413",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-5288",
-              "eng": "his servant",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-575",
-              "eng": "where"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "did you go"
+              "cht": "他僕人"
             },
             {
               "id": "hebrew-559",
-              "eng": "so he said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-575",
+              "cht": "你們往哪裡"
+            },
+            {
+              "id": "hebrew-1980",
+              "cht": "去"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "？」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "回答說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-1245",
-              "eng": "to look for"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "找"
             },
             {
               "id": "hebrew-860",
-              "eng": "the donkeys",
-              "punct": "."
+              "cht": "驢"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "And when we saw"
+              "id": "",
+              "cht": "去了",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "我們見"
             },
             {
               "id": "hebrew-369",
-              "eng": "[they were] not [found]",
-              "punct": "､"
+              "cht": "沒有"
+            },
+            {
+              "id": "",
+              "cht": "驢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-935",
-              "eng": "and we went"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
+              "cht": "就到了"
             },
             {
               "id": "hebrew-8050",
-              "eng": "Samuel",
-              "punct": "."
+              "cht": "撒母耳"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -233,105 +199,95 @@
             "hebrew-3885": 1.8210031994102585
           },
           "verseKey": "rut.1.16",
-          "cunp": "路得說：「不要催我回去不跟隨你。你往哪裏去，我也往那裏去；你在哪裏住宿，我也在那裏住宿；你的國就是我的國，你的神就是我的神。",
+          "nasb": "But Ruth said, “Do not urge me to leave you or turn back from following you; for where you go, I will go, and where you lodge, I will lodge. Your people shall be my people, and your God, my God.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "But said",
-              "punct": "､"
+              "id": "hebrew-7327",
+              "cht": "路得"
             },
             {
-              "id": "hebrew-7327",
-              "eng": "Ruth"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-6293",
-              "eng": "Entreat"
+              "cht": "催"
             },
             {
               "id": "hebrew-5800",
-              "eng": "to leave you"
+              "cht": "我"
             },
             {
               "id": "hebrew-7725",
-              "eng": "[Or [to] turn back"
+              "cht": "回去"
             },
             {
-              "id": "hebrew-310",
-              "eng": "from following after you"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4480",
+              "cht": "不跟隨你",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-413",
-              "eng": "there"
+              "cht": "你往"
             },
             {
               "id": "hebrew-834",
-              "eng": "wherever"
+              "cht": "哪裡"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "you go",
-              "punct": "､"
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "I will go",
-              "punct": "–"
+              "id": "hebrew-3212",
+              "cht": "我也往那裡去",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-834",
-              "eng": "and wherever"
+              "cht": "你在哪裡"
             },
             {
               "id": "hebrew-3885",
-              "eng": "you lodge",
-              "punct": "､"
+              "cht": "住宿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3885",
-              "eng": "I will lodge",
-              "punct": "."
+              "cht": "我也在那裡住宿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5971",
-              "eng": "Your people"
+              "cht": "你的國"
             },
             {
               "id": "hebrew-5971",
-              "eng": "[shall be] my people",
-              "punct": "､"
+              "cht": "就是我的國"
+            },
+            {
+              "id": "",
+              "cht": "你的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "and your God"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "就是我的"
             },
             {
               "id": "hebrew-430",
-              "eng": "my God",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -342,144 +298,122 @@
             "hebrew-3885": 1.8210031994102585
           },
           "verseKey": "jdg.19.9",
-          "cunp": "那人同他的妾和僕人起來要走，他岳父，就是女子的父親，對他說：「看哪，日頭偏西了，請你再住一夜；天快晚了，可以在這裏住宿，暢快你的心。明天早早起行回家去。」",
+          "nasb": "When the man arose to go along with his concubine and servant, his father-in-law, the girl’s father, said to him, “Behold now, the day has drawn to a close; please spend the night. Lo, the day is coming to an end; spend the night here that your heart may be merry. Then tomorrow you may arise early for your journey so that you may go home.”",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "And when stood"
-            },
-            {
               "id": "hebrew-376",
-              "eng": "the man"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "to depart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "he",
-              "punct": "､"
+              "cht": "那人"
             },
             {
               "id": "hebrew-6370",
-              "eng": "and his concubine",
-              "punct": "､"
+              "cht": "同他的妾"
             },
             {
               "id": "hebrew-5288",
-              "eng": "and his servant",
-              "punct": "､"
+              "cht": "和僕人"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "hebrew-6965",
+              "cht": "起來"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "要走",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2859",
-              "eng": "his father-in-law",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "father",
-              "punct": "､"
+              "cht": "他岳父",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5291",
-              "eng": "of the young woman"
+              "cht": "就是女子"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "的父親",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2009",
-              "eng": "Look",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "now"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7503",
-              "eng": "is drawing"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "日頭偏"
             },
             {
               "id": "hebrew-6150",
-              "eng": "toward evening",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "spend the night",
-              "punct": "–"
+              "cht": "西了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "See",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2583",
-              "eng": "is coming to an end",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "請"
             },
             {
               "id": "hebrew-3885",
-              "eng": "lodge"
+              "cht": "你再住"
+            },
+            {
+              "id": "",
+              "cht": "一夜",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-2583",
+              "cht": "快晚了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6311",
-              "eng": "here",
-              "punct": "､"
+              "cht": "可以在這裡"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "住宿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3190",
-              "eng": "that may be merry",
-              "punct": "–"
+              "cht": "暢快"
             },
             {
               "id": "hebrew-3824",
-              "eng": "your heart"
-            },
-            {
-              "id": "hebrew-7925",
-              "eng": "and go early"
+              "cht": "你的心",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4279",
-              "eng": "Tomorrow"
+              "cht": "明天"
+            },
+            {
+              "id": "hebrew-7925",
+              "cht": "早早起"
             },
             {
               "id": "hebrew-1870",
-              "eng": "your way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "so that you may get"
+              "cht": "行"
             },
             {
               "id": "hebrew-168",
-              "eng": "home",
-              "punct": "."
+              "cht": "回家"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1980",
+              "cht": "去",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -489,65 +423,63 @@
             "hebrew-1730": 4.576110205744392
           },
           "verseKey": "ezk.23.17",
-          "cunp": "巴比倫人就來登她愛情的牀，與她行淫玷污她。她被玷污，隨後心裏與他們生疏。",
+          "nasb": "The Babylonians came to her to the bed of love and defiled her with their harlotry. And when she had been defiled by them, she became disgusted with them.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "And came"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to her"
+              "id": "hebrew-894",
+              "cht": "巴比倫"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the Babylonians"
+              "cht": "人"
             },
             {
-              "id": "hebrew-894",
-              "eng": "Babylon"
+              "id": "hebrew-935",
+              "cht": "就來"
             },
             {
-              "id": "hebrew-4904",
-              "eng": "into the bed"
+              "id": "hebrew-413",
+              "cht": "登"
             },
             {
               "id": "hebrew-1730",
-              "eng": "of love",
-              "punct": "､"
+              "cht": "她愛情"
             },
             {
-              "id": "hebrew-2930",
-              "eng": "and they defiled"
+              "id": "hebrew-4904",
+              "cht": "的床",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "her"
+              "cht": "與她"
             },
             {
               "id": "hebrew-8457",
-              "eng": "with their immorality",
-              "punct": "､"
+              "cht": "行淫"
             },
             {
               "id": "hebrew-2930",
-              "eng": "so she was defiled"
+              "cht": "玷污她",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-3363",
-              "eng": "and alienated"
+              "id": "hebrew-2930",
+              "cht": "她被玷污",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "herself"
+              "cht": "隨後心裡"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "from them",
-              "punct": "."
+              "id": "hebrew-4480",
+              "cht": "與他們"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3363",
+              "cht": "生疏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -557,7 +489,7 @@
             "hebrew-1730": 4.576110205744392
           },
           "verseKey": "deu.1.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -566,113 +498,95 @@
             "hebrew-1730": 4.576110205744392
           },
           "verseKey": "lev.10.4",
-          "cunp": "摩西召了亞倫叔父烏薛的兒子米沙利、以利撒反來，對他們說：「上前來，把你們的親屬從聖所前擡到營外。」",
+          "nasb": "Moses called also to Mishael and Elzaphan, the sons of Aaron’s uncle Uzziel, and said to them, “Come forward, carry your relatives away from the front of the sanctuary to the outside of the camp.”",
           "words": [
             {
-              "id": "hebrew-7121",
-              "eng": "And"
-            },
-            {
               "id": "hebrew-4872",
-              "eng": "Moses"
+              "cht": "摩西"
             },
             {
-              "id": "hebrew-413",
-              "eng": "called"
-            },
-            {
-              "id": "hebrew-4332",
-              "eng": "Mishael"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-469",
-              "eng": "Elzaphan",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
-            },
-            {
-              "id": "hebrew-5816",
-              "eng": "of Uzziel"
-            },
-            {
-              "id": "hebrew-1730",
-              "eng": "the uncle"
+              "id": "hebrew-7121",
+              "cht": "召了"
             },
             {
               "id": "hebrew-175",
-              "eng": "of Aaron",
-              "punct": "､"
+              "cht": "亞倫"
+            },
+            {
+              "id": "hebrew-1730",
+              "cht": "叔父"
+            },
+            {
+              "id": "hebrew-5816",
+              "cht": "烏薛"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-4332",
+              "cht": "米沙利、"
+            },
+            {
+              "id": "hebrew-469",
+              "cht": "以利撒反"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "對他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to them"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-7126",
-              "eng": "come near",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "carry"
+              "cht": "上前來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "把"
             },
             {
               "id": "hebrew-251",
-              "eng": "your brothers"
+              "cht": "你們的親屬"
             },
             {
-              "id": "hebrew-853",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before"
+              "id": "hebrew-854",
+              "cht": "從"
             },
             {
               "id": "hebrew-6944",
-              "eng": "the sanctuary"
+              "cht": "聖所"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "前"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "抬"
             },
             {
               "id": "hebrew-413",
-              "eng": "out",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2351",
-              "eng": "of"
+              "cht": "到"
             },
             {
               "id": "hebrew-4264",
-              "eng": "the camp",
-              "punct": "."
+              "cht": "營"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-854"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "外",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -682,156 +596,137 @@
             "hebrew-1730": 4.576110205744392
           },
           "verseKey": "est.2.15",
-          "cunp": "末底改叔叔亞比孩的女兒，就是末底改收為自己女兒的以斯帖，按次序當進去見王的時候，除了掌管女子的太監希該所派定給她的，她別無所求。凡看見以斯帖的都喜悅她。",
+          "nasb": "Now when the turn of Esther, the daughter of Abihail the uncle of Mordecai who had taken her as his daughter, came to go in to the king, she did not request anything except what Hegai, the king’s eunuch who was in charge of the women, advised. And Esther found favor in the eyes of all who saw her.",
           "words": [
             {
-              "id": "hebrew-5060",
-              "eng": "And when came"
-            },
-            {
-              "id": "hebrew-8447",
-              "eng": "the turn for"
-            },
-            {
-              "id": "hebrew-635",
-              "eng": "Esther",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-32",
-              "eng": "of Abihail"
+              "id": "hebrew-4782",
+              "cht": "末底改"
             },
             {
               "id": "hebrew-1730",
-              "eng": "the uncle"
+              "cht": "叔叔"
             },
             {
-              "id": "hebrew-4782",
-              "eng": "of Mordecai",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "had taken"
+              "id": "hebrew-32",
+              "cht": "亞比孩"
             },
             {
               "id": "hebrew-1323",
-              "eng": "as his daughter",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "to go in"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "nothing"
-            },
-            {
-              "id": "hebrew-1245",
-              "eng": "she requested"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "nothing"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "的女兒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "what"
+              "cht": "就是"
             },
             {
-              "id": "hebrew-559",
-              "eng": "advised",
-              "punct": "."
+              "id": "hebrew-3947",
+              "cht": "末底改收為"
             },
             {
-              "id": "hebrew-1896",
-              "eng": "Hegai"
-            },
-            {
-              "id": "hebrew-5631",
-              "eng": "eunuch",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "of the king"
-            },
-            {
-              "id": "hebrew-8104",
-              "eng": "the custodian"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "of the women",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and"
+              "id": "hebrew-1323",
+              "cht": "女兒"
             },
             {
               "id": "hebrew-635",
-              "eng": "Esther"
+              "cht": "的以斯帖",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "obtained"
+              "id": "hebrew-5060",
+              "cht": "按"
             },
             {
-              "id": "hebrew-2580",
-              "eng": "favor"
+              "id": "hebrew-8447",
+              "cht": "次序"
             },
             {
-              "id": "hebrew-5869",
-              "eng": "in the sight"
+              "id": "hebrew-935",
+              "cht": "當進去"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "見"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "除了"
+            },
+            {
+              "id": "hebrew-8104",
+              "cht": "掌管"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "女子"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "的太監"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "希該"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "派定"
+            },
+            {
+              "id": "",
+              "cht": "給她的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "她別"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "無"
+            },
+            {
+              "id": "hebrew-1245",
+              "cht": "所求",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-7200",
-              "eng": "who saw her",
-              "punct": "."
+              "cht": "看見"
             },
             {
-              "id": ""
+              "id": "hebrew-5375",
+              "cht": "以斯帖"
             },
             {
-              "id": ""
+              "id": "hebrew-1961",
+              "cht": "的"
             },
             {
-              "id": ""
+              "id": "hebrew-2580",
+              "cht": "都喜悅"
+            },
+            {
+              "id": "",
+              "cht": "她",
+              "punct_cht": "。"
             }
           ]
         }

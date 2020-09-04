@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2022": "mountains",
-          "hebrew-7540": "[that] you skipped",
-          "hebrew-352": "like rams",
-          "hebrew-1389": "little hills",
-          "hebrew-1121": "like",
-          "hebrew-6629": "lambs",
-          "": null
+          "eng": {
+            "hebrew-2022": "mountains",
+            "hebrew-7540": "[that] you skipped",
+            "hebrew-352": "like rams",
+            "hebrew-1389": "little hills",
+            "hebrew-1121": "like",
+            "hebrew-6629": "lambs",
+            "": null
+          },
+          "cht": {
+            "hebrew-2022": "大山",
+            "hebrew-7540": "你為何踴躍",
+            "hebrew-352": "如公羊",
+            "hebrew-1389": "小山",
+            "hebrew-1121": "如羊羔",
+            "hebrew-6629": "如羊羔"
+          }
         }
       },
       "translations": {
@@ -31,36 +41,35 @@
             "hebrew-6629": 1.2649175171645017
           },
           "verseKey": "psa.114.4",
-          "cunp": "大山踴躍，如公羊； 小山跳舞，如羊羔。",
+          "nasb": "The mountains skipped like rams, The hills, like lambs.",
           "words": [
             {
               "id": "hebrew-2022",
-              "eng": "The mountains"
+              "cht": "大山"
             },
             {
               "id": "hebrew-7540",
-              "eng": "skipped"
+              "cht": "踴躍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-352",
-              "eng": "like rams",
-              "punct": "､"
+              "cht": "如公羊",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1389",
-              "eng": "the little hills"
+              "cht": "小山"
+            },
+            {
+              "id": "",
+              "cht": "跳舞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "like"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "lambs",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "如羊羔",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,43 +79,43 @@
             "hebrew-7540": 6.2511507603914795
           },
           "verseKey": "ecc.3.4",
-          "cunp": "哭有時，笑有時； 哀慟有時，跳舞有時；",
+          "nasb": "A time to weep and a time to laugh; A time to mourn and a time to dance.",
           "words": [
             {
-              "id": "hebrew-6256",
-              "eng": "a time"
-            },
-            {
               "id": "hebrew-1058",
-              "eng": "to weep",
-              "punct": "､"
+              "cht": "哭"
             },
             {
               "id": "hebrew-6256",
-              "eng": "and a time"
+              "cht": "有時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7832",
-              "eng": "to laugh",
-              "punct": "–"
+              "cht": "笑"
             },
             {
               "id": "hebrew-6256",
-              "eng": "a time"
+              "cht": "有時",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5594",
-              "eng": "to mourn",
-              "punct": "､"
+              "cht": "哀慟"
             },
             {
               "id": "hebrew-6256",
-              "eng": "and a time"
+              "cht": "有時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7540",
-              "eng": "to dance",
-              "punct": "–"
+              "cht": "跳舞"
+            },
+            {
+              "id": "hebrew-6256",
+              "cht": "有時",
+              "punct_cht": "；"
             }
           ]
         },
@@ -116,47 +125,43 @@
             "hebrew-7540": 6.2511507603914795
           },
           "verseKey": "nam.3.2",
-          "cunp": "鞭聲響亮，車輪轟轟， 馬匹踢跳，車輛奔騰，",
+          "nasb": "The noise of the whip, The noise of the rattling of the wheel, Galloping horses And bounding chariots!",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "The noise"
-            },
-            {
               "id": "hebrew-7752",
-              "eng": "of a whip",
-              "punct": "､"
+              "cht": "鞭"
             },
             {
               "id": "hebrew-6963",
-              "eng": "and the noise"
-            },
-            {
-              "id": "hebrew-7494",
-              "eng": "of rattling"
+              "cht": "聲響亮",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-212",
-              "eng": "wheels",
-              "punct": "､"
+              "cht": "車輪"
+            },
+            {
+              "id": "hebrew-7494",
+              "cht": "轟轟",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5483",
-              "eng": "and of horses",
-              "punct": "､"
+              "cht": "馬匹"
             },
             {
               "id": "hebrew-1725",
-              "eng": "galloping"
+              "cht": "踢跳",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4818",
-              "eng": "and of chariots"
+              "cht": "車輛"
             },
             {
               "id": "hebrew-7540",
-              "eng": "clattering",
-              "punct": "."
+              "cht": "奔騰",
+              "punct_cht": "，"
             }
           ]
         },
@@ -166,102 +171,90 @@
             "hebrew-7540": 6.2511507603914795
           },
           "verseKey": "1ch.15.29",
-          "cunp": "耶和華的約櫃進了大衛城的時候，掃羅的女兒米甲從窗戶裏觀看，見大衛王踴躍跳舞，心裏就輕視他。",
+          "nasb": "It happened when the ark of the covenant of the Lord came to the city of David, that Michal the daughter of Saul looked out of the window and saw King David leaping and celebrating; and she despised him in her heart.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it came to pass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-727",
-              "eng": "[as] the ark"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1285",
-              "eng": "of the covenant"
+              "cht": "的約"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-727",
+              "cht": "櫃"
             },
             {
               "id": "hebrew-935",
-              "eng": "came"
+              "cht": "進了"
             },
             {
-              "id": "hebrew-5704",
-              "eng": "to"
+              "id": "hebrew-1732",
+              "cht": "大衛"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the City"
+              "cht": "城"
             },
             {
-              "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4324",
-              "eng": "that Michal"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "daughter"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7586",
-              "eng": "of Saul"
+              "cht": "掃羅"
             },
             {
-              "id": "hebrew-8259",
-              "eng": "looked through"
+              "id": "hebrew-1323",
+              "cht": "的女兒"
+            },
+            {
+              "id": "hebrew-4324",
+              "cht": "米甲"
             },
             {
               "id": "hebrew-1157",
-              "eng": "at"
+              "cht": "從"
             },
             {
               "id": "hebrew-2474",
-              "eng": "a window"
+              "cht": "窗戶"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "and saw"
+              "id": "hebrew-8259",
+              "cht": "裡觀看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "King"
+              "cht": "見"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
-              "id": "hebrew-7540",
-              "eng": "whirling"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-7832",
-              "eng": "and playing music",
-              "punct": "–"
+              "cht": "踴躍"
             },
             {
-              "id": "hebrew-959",
-              "eng": "and she despised"
+              "id": "hebrew-7540",
+              "cht": "跳舞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "in her heart",
-              "punct": "."
+              "cht": "心裡"
             },
             {
-              "id": ""
+              "id": "hebrew-959",
+              "cht": "就輕視"
             }
           ]
         },
@@ -271,63 +264,59 @@
             "hebrew-7540": 6.2511507603914795
           },
           "verseKey": "isa.13.21",
-          "cunp": "只有曠野的走獸臥在那裏； 咆哮的獸滿了房屋。 鴕鳥住在那裏； 野山羊在那裏跳舞。",
+          "nasb": "But desert creatures will lie down there, And their houses will be full of owls; Ostriches also will live there, and shaggy goats will frolic there.",
           "words": [
             {
+              "id": "hebrew-6728",
+              "cht": "只有曠野的走獸"
+            },
+            {
               "id": "hebrew-7257",
-              "eng": "But will lie"
+              "cht": "臥"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6728",
-              "eng": "wild beasts of the desert"
-            },
-            {
-              "id": "hebrew-4390",
-              "eng": "and will be full"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of their houses"
+              "cht": "在那裡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-255",
-              "eng": "owls",
-              "punct": "–"
+              "cht": "咆哮的獸"
             },
             {
-              "id": "hebrew-7931",
-              "eng": "and will dwell"
+              "id": "hebrew-4390",
+              "cht": "滿了"
             },
             {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "owls"
+              "id": "hebrew-1004",
+              "cht": "房屋",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3284",
-              "eng": "Ostriches"
+              "cht": "鴕鳥"
             },
             {
-              "id": "hebrew-8163",
-              "eng": "and wild goats"
-            },
-            {
-              "id": "hebrew-7540",
-              "eng": "will caper"
+              "id": "hebrew-7931",
+              "cht": "住"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "."
+              "cht": "在那裡",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-8163",
+              "cht": "野山羊"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "在那裡"
+            },
+            {
+              "id": "hebrew-7540",
+              "cht": "跳舞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -337,126 +326,115 @@
             "hebrew-352": 1.373665129919359
           },
           "verseKey": "dan.8.7",
-          "cunp": "我見公山羊就近公綿羊，向牠發烈怒，牴觸牠，折斷牠的兩角。綿羊在牠面前站立不住；牠將綿羊觸倒在地，用腳踐踏，沒有能救綿羊脫離牠手的。",
+          "nasb": "I saw him come beside the ram, and he was enraged at him; and he struck the ram and shattered his two horns, and the ram had no strength to withstand him. So he hurled him to the ground and trampled on him, and there was none to rescue the ram from his power.",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "And I saw him"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "confronting"
+              "cht": "我見"
             },
             {
               "id": "hebrew-681",
-              "eng": "to"
+              "cht": "公山羊就"
+            },
+            {
+              "id": "hebrew-5060",
+              "cht": "近"
             },
             {
               "id": "hebrew-352",
-              "eng": "the ram",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4843",
-              "eng": "and he was moved with rage"
+              "cht": "公綿羊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "against him"
+              "cht": "向牠"
+            },
+            {
+              "id": "hebrew-4843",
+              "cht": "發烈怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5221",
-              "eng": "and attacked"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "牴觸"
             },
             {
               "id": "hebrew-352",
-              "eng": "the ram",
-              "punct": "､"
+              "cht": "牠",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7665",
-              "eng": "and broke"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "折斷"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "牠的兩"
             },
             {
               "id": "hebrew-7161",
-              "eng": "his horns",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there was"
-            },
-            {
-              "id": "hebrew-3581",
-              "eng": "power"
+              "cht": "角",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-352",
-              "eng": "in the ram"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "to withstand"
+              "cht": "綿羊"
             },
             {
               "id": "hebrew-6440",
-              "eng": "him"
+              "cht": "在牠面前"
             },
             {
-              "id": "hebrew-7993",
-              "eng": "but he cast him down"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "to the ground",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7429",
-              "eng": "and trampled him"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no one"
+              "id": "hebrew-5975",
+              "cht": "站立"
             },
             {
               "id": "hebrew-1961",
-              "eng": "there was"
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3581",
+              "cht": "住",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-7993",
+              "cht": "牠將綿羊觸倒"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "在地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7429",
+              "cht": "用腳踐踏",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "沒"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
             },
             {
               "id": "hebrew-5337",
-              "eng": "that could deliver"
+              "cht": "能救"
             },
             {
               "id": "hebrew-352",
-              "eng": "the ram"
+              "cht": "綿羊"
             },
             {
               "id": "hebrew-3027",
-              "eng": "from his hand",
-              "punct": "."
+              "cht": "脫離牠手"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -468,74 +446,68 @@
             "hebrew-6629": 1.2649175171645017
           },
           "verseKey": "jer.50.6",
-          "cunp": "「我的百姓作了迷失的羊，牧人使他們走差路，使他們轉到山上。他們從大山走到小山，竟忘了安歇之處。",
+          "nasb": "“My people have become lost sheep; Their shepherds have led them astray. They have made them turn aside on the mountains; They have gone along from mountain to hill And have forgotten their resting place.",
           "words": [
             {
-              "id": "hebrew-6629",
-              "eng": "Sheep",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "lost"
+              "id": "hebrew-5971",
+              "cht": "我的百姓"
             },
             {
               "id": "hebrew-1961",
-              "eng": "have been"
+              "cht": "作了"
             },
             {
-              "id": "hebrew-5971",
-              "eng": "My people"
+              "id": "hebrew-6",
+              "cht": "迷失的"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "羊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7462",
-              "eng": "their shepherds"
+              "cht": "牧人"
             },
             {
               "id": "hebrew-8582",
-              "eng": "have led them astray",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "[on] the mountains",
-              "punct": "–"
+              "cht": "使他們走差路",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7726",
-              "eng": "they have turned them away"
+              "cht": "使他們轉到"
             },
             {
               "id": "hebrew-2022",
-              "eng": "from mountain"
+              "cht": "山上",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1389",
-              "eng": "hill",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "他們從大山"
             },
             {
               "id": "hebrew-1980",
-              "eng": "they have gone"
+              "cht": "走"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-1389",
+              "cht": "小山",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7911",
-              "eng": "they have forgotten"
+              "cht": "竟忘了"
             },
             {
               "id": "hebrew-7258",
-              "eng": "their resting place",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7725"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "安歇之處",
+              "punct_cht": "。"
             }
           ]
         },
@@ -545,69 +517,62 @@
             "hebrew-352": 1.373665129919359
           },
           "verseKey": "lev.8.22",
-          "cunp": "他又奉上第二隻公綿羊，就是承接聖職之禮的羊；亞倫和他兒子按手在羊的頭上，",
+          "nasb": "Then he presented the second ram, the ram of ordination, and Aaron and his sons laid their hands on the head of the ram.",
           "words": [
             {
               "id": "hebrew-7126",
-              "eng": "And he brought"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-352",
-              "eng": "the ram"
+              "cht": "他又奉上"
             },
             {
               "id": "hebrew-8145",
-              "eng": "second",
-              "punct": "､"
+              "cht": "第二"
             },
             {
               "id": "hebrew-352",
-              "eng": "ram"
+              "cht": "隻公綿羊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4394",
-              "eng": "of the consecration",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5564",
-              "eng": "and laid"
-            },
-            {
-              "id": "hebrew-175",
-              "eng": "Aaron"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "and his sons"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "their hands"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the head"
+              "cht": "就是承接聖職之禮"
             },
             {
               "id": "hebrew-352",
-              "eng": "of the ram",
-              "punct": "."
+              "cht": "的羊",
+              "punct_cht": "；"
             },
             {
-              "id": ""
+              "id": "hebrew-175",
+              "cht": "亞倫"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "和他兒子"
+            },
+            {
+              "id": "hebrew-5564",
+              "cht": "按"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "手"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-352",
+              "cht": "羊"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "的頭"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             }
           ]
         },
@@ -617,78 +582,71 @@
             "hebrew-6629": 1.2649175171645017
           },
           "verseKey": "ezk.36.38",
-          "cunp": "耶路撒冷在守節作祭物所獻的羊羣怎樣多，照樣，荒涼的城邑必被人羣充滿。他們就知道我是耶和華。」",
+          "nasb": "Like the flock for sacrifices, like the flock at Jerusalem during her appointed feasts, so will the waste cities be filled with flocks of men. Then they will know that I am the Lord.” ’ ”",
           "words": [
             {
-              "id": "hebrew-6629",
-              "eng": "Like a flock",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6944",
-              "eng": "consecration"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "like the flock at"
-            },
-            {
               "id": "hebrew-3389",
-              "eng": "Jerusalem"
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-4150",
-              "eng": "on its feast [days]",
-              "punct": "–"
+              "cht": "在守節"
             },
             {
-              "id": "hebrew-3651",
-              "eng": "so"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "shall be"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "the cities"
-            },
-            {
-              "id": "hebrew-2720",
-              "eng": "ruined"
-            },
-            {
-              "id": "hebrew-4392",
-              "eng": "filled"
+              "id": "hebrew-6944",
+              "cht": "作祭"
             },
             {
               "id": "hebrew-6629",
-              "eng": "with flocks"
+              "cht": "物"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "所獻的羊群"
+            },
+            {
+              "id": "",
+              "cht": "怎樣多",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "照樣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2720",
+              "cht": "荒涼"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "的城邑"
             },
             {
               "id": "hebrew-120",
-              "eng": "of men",
-              "punct": "."
+              "cht": "必被人"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "群"
+            },
+            {
+              "id": "hebrew-4392",
+              "cht": "充滿",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3045",
-              "eng": "And they shall know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "他們就知道"
             },
             {
               "id": "hebrew-589",
-              "eng": "I [am]"
+              "cht": "我"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "是耶和華",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -698,92 +656,91 @@
             "hebrew-6629": 1.2649175171645017
           },
           "verseKey": "gen.30.40",
-          "cunp": "雅各把羊羔分出來，使拉班的羊與這有紋和黑色的羊相對，把自己的羊另放一處，不叫他和拉班的羊混雜。",
+          "nasb": "Jacob separated the lambs, and made the flocks face toward the striped and all the black in the flock of Laban; and he put his own herds apart, and did not put them with Laban’s flock.",
           "words": [
             {
+              "id": "hebrew-3290",
+              "cht": "雅各"
+            },
+            {
               "id": "hebrew-3775",
-              "eng": "And the lambs",
-              "punct": "､"
+              "cht": "把羊羔"
             },
             {
               "id": "hebrew-6504",
-              "eng": "separated"
+              "cht": "分出來",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3290",
-              "eng": "Jacob"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "and made"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "face"
+              "id": "hebrew-3837",
+              "cht": "使拉班"
             },
             {
               "id": "hebrew-6629",
-              "eng": "the flocks"
+              "cht": "的羊"
             },
             {
               "id": "hebrew-413",
-              "eng": "toward"
+              "cht": "與"
             },
             {
               "id": "hebrew-6124",
-              "eng": "the streaked",
-              "punct": "､"
+              "cht": "這有紋"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "和"
             },
             {
               "id": "hebrew-2345",
-              "eng": "the brown"
+              "cht": "黑色的"
             },
             {
               "id": "hebrew-6629",
-              "eng": "in the flock"
+              "cht": "羊"
             },
             {
-              "id": "hebrew-3837",
-              "eng": "of Laban",
-              "punct": "–"
+              "id": "hebrew-6440",
+              "cht": "相"
             },
             {
-              "id": "hebrew-7896",
-              "eng": "but he put"
+              "id": "hebrew-5414",
+              "cht": "對",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5739",
-              "eng": "flocks"
-            },
-            {
-              "id": "hebrew-905",
-              "eng": "by themselves",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "羊"
             },
             {
               "id": "hebrew-7896",
-              "eng": "did put them"
+              "cht": "另放"
+            },
+            {
+              "id": "hebrew-905",
+              "cht": "一處",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
             },
             {
               "id": "hebrew-5921",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "flock"
+              "cht": "叫他和"
             },
             {
               "id": "hebrew-3837",
-              "eng": "of Laban",
-              "punct": "."
+              "cht": "拉班"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "的羊"
+            },
+            {
+              "id": "hebrew-7896",
+              "cht": "混雜",
+              "punct_cht": "。"
             }
           ]
         }

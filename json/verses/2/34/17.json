@@ -3,10 +3,18 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-430": "Gods",
-          "hebrew-4541": "molded",
-          "hebrew-3808": "no",
-          "hebrew-6213": "You shall make"
+          "eng": {
+            "hebrew-430": "Gods",
+            "hebrew-4541": "molded",
+            "hebrew-3808": "no",
+            "hebrew-6213": "You shall make"
+          },
+          "cht": {
+            "hebrew-430": "神",
+            "hebrew-4541": "像",
+            "hebrew-3808": "不可",
+            "hebrew-6213": "鑄造"
+          }
         }
       },
       "translations": {
@@ -22,81 +30,77 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "1ki.14.9",
-          "cunp": "你竟行惡，比那在你以先的更甚，為自己立了別神，鑄了偶像，惹我發怒，將我丟在背後。",
+          "nasb": "you also have done more evil than all who were before you, and have gone and made for yourself other gods and molten images to provoke Me to anger, and have cast Me behind your back—",
           "words": [
             {
-              "id": "hebrew-7489",
-              "eng": "but evil"
-            },
-            {
               "id": "hebrew-6213",
-              "eng": "you have done"
+              "cht": "你竟行"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "more than all"
+              "id": "hebrew-7489",
+              "cht": "惡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "比"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "那"
             },
             {
               "id": "hebrew-1961",
-              "eng": "were"
+              "cht": "在"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before you"
+              "cht": "你以先"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "for you have gone"
+              "id": "",
+              "cht": "的更甚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "and made"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "gods",
-              "punct": "､"
+              "cht": "立了"
             },
             {
               "id": "hebrew-312",
-              "eng": "other"
+              "cht": "別"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4541",
-              "eng": "and molded images",
-              "punct": "､"
+              "cht": "鑄了偶像",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3707",
-              "eng": "to provoke Me to anger",
-              "punct": "､"
+              "cht": "惹我發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and Me"
+              "cht": "將我"
             },
             {
               "id": "hebrew-7993",
-              "eng": "have cast"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "behind"
+              "cht": "丟"
             },
             {
               "id": "hebrew-1458",
-              "eng": "your back",
-              "punct": "–"
+              "cht": "在背"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-310",
+              "cht": "後",
+              "punct_cht": "。"
             }
           ]
         },
@@ -108,56 +112,58 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "lev.19.4",
-          "cunp": "你們不可偏向虛無的神，也不可為自己鑄造神像。我是耶和華－你們的神。",
+          "nasb": "Do not turn to idols or make for yourselves molten gods; I am the Lord your God.",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
+              "cht": "你們不可"
             },
             {
               "id": "hebrew-6437",
-              "eng": "do turn"
+              "cht": "偏"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "向"
             },
             {
               "id": "hebrew-457",
-              "eng": "idols",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "and gods"
-            },
-            {
-              "id": "hebrew-4541",
-              "eng": "molded"
+              "cht": "虛無的神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-6213",
-              "eng": "make"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "[am] Yahweh"
+              "cht": "鑄造"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "hebrew-4541",
+              "cht": "像",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-589",
+              "cht": "我是"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -168,71 +174,59 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "neh.9.18",
-          "cunp": "他們雖然鑄了一隻牛犢，彼此說『這是領你出埃及的神』，因而大大惹動你的怒氣；",
+          "nasb": "Even when they made for themselves A calf of molten metal And said, ‘This is your God Who brought you up from Egypt,’ And committed great blasphemies,",
           "words": [
             {
-              "id": "hebrew-637",
-              "eng": "Even",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3588",
-              "eng": "when"
+              "cht": "他們雖然"
             },
             {
               "id": "hebrew-6213",
-              "eng": "they made"
-            },
-            {
-              "id": "hebrew-5695",
-              "eng": "a calf",
-              "punct": "､"
+              "cht": "鑄了"
             },
             {
               "id": "hebrew-4541",
-              "eng": "molded"
+              "cht": "一隻牛犢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
+              "cht": "彼此說",
+              "punct_cht": "『"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [is]"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your god"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "這是"
             },
             {
               "id": "hebrew-5927",
-              "eng": "brought you up"
+              "cht": "領你"
             },
             {
-              "id": "hebrew-4714",
-              "eng": "out of Egypt"
+              "id": "hebrew-4480",
+              "cht": "出埃及"
             },
             {
-              "id": "hebrew-6213",
-              "eng": "and worked"
+              "id": "hebrew-834",
+              "cht": "的"
             },
             {
-              "id": "hebrew-5007",
-              "eng": "provocations",
-              "punct": "–"
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "』，"
             },
             {
               "id": "hebrew-1419",
-              "eng": "great",
-              "punct": "."
+              "cht": "因而大大"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6213",
+              "cht": "惹動"
+            },
+            {
+              "id": "hebrew-5007",
+              "cht": "你的怒氣",
+              "punct_cht": "；"
             }
           ]
         }

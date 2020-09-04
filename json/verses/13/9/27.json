@@ -3,18 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5439": "And [all] around",
-          "hebrew-1004": "the house",
-          "hebrew-430": "of God",
-          "hebrew-3885": "they lodged",
-          "hebrew-3588": "because",
-          "hebrew-5921": "In charge of",
-          "hebrew-4931": "the responsibility",
-          "hebrew-1992": "and they [were]",
-          "hebrew-4669": "opening [it]",
-          "hebrew-1242": "every morning",
-          "": null,
-          "hebrew-4668": null
+          "eng": {
+            "hebrew-5439": "And [all] around",
+            "hebrew-1004": "the house",
+            "hebrew-430": "of God",
+            "hebrew-3885": "they lodged",
+            "hebrew-3588": "because",
+            "hebrew-5921": "In charge of",
+            "hebrew-4931": "the responsibility",
+            "hebrew-1992": "and they [were]",
+            "hebrew-4669": "opening [it]",
+            "hebrew-1242": "every morning",
+            "": null,
+            "hebrew-4668": null
+          },
+          "cht": {
+            "hebrew-5439": "的四圍",
+            "hebrew-1004": "殿",
+            "hebrew-430": "神",
+            "hebrew-3885": "他們住在",
+            "hebrew-3588": "是因",
+            "hebrew-5921": "早晨",
+            "hebrew-4931": "守",
+            "hebrew-1242": "早晨",
+            "hebrew-4668": "開門"
+          }
         }
       },
       "translations": {
@@ -33,38 +46,38 @@
             "hebrew-4669": 10.248599871619378
           },
           "verseKey": "pro.8.6",
-          "cunp": "你們當聽，因我要說極美的話； 我張嘴要論正直的事。",
+          "nasb": "Listen, for I will speak noble things; And the opening of my lips will reveal right things.",
           "words": [
             {
               "id": "hebrew-8085",
-              "eng": "Listen",
-              "punct": "–"
+              "cht": "你們當聽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5057",
-              "eng": "excellent things",
-              "punct": "–"
+              "cht": "因"
             },
             {
               "id": "hebrew-1696",
-              "eng": "I will speak"
+              "cht": "我要說"
+            },
+            {
+              "id": "hebrew-5057",
+              "cht": "極美的話",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4669",
-              "eng": "and from the opening"
+              "cht": "我張"
             },
             {
               "id": "hebrew-8193",
-              "eng": "of my lips"
+              "cht": "嘴"
             },
             {
               "id": "hebrew-4339",
-              "eng": "[will come] right things",
-              "punct": "."
+              "cht": "要論正直的事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -75,63 +88,64 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "isa.22.22",
-          "cunp": "我必將大衛家的鑰匙放在他肩頭上。他開，無人能關；他關，無人能開。",
+          "nasb": "Then I will set the key of the house of David on his shoulder, When he opens no one will shut, When he shuts no one will open.",
           "words": [
             {
-              "id": "hebrew-5414",
-              "eng": "And I will lay"
-            },
-            {
-              "id": "hebrew-4668",
-              "eng": "the key"
+              "id": "hebrew-1732",
+              "cht": "我必將大衛"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the house"
+              "cht": "家"
             },
             {
-              "id": "hebrew-1732",
-              "eng": "of David"
+              "id": "hebrew-4668",
+              "cht": "的鑰匙"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "放"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-7926",
-              "eng": "his shoulder",
-              "punct": "–"
+              "cht": "他肩頭"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6605",
-              "eng": "so he shall open",
-              "punct": "､"
+              "cht": "他開",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and no one"
+              "cht": "無人"
             },
             {
               "id": "hebrew-5462",
-              "eng": "shall shut",
-              "punct": "–"
+              "cht": "能關",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5462",
-              "eng": "and he shall shut",
-              "punct": "､"
+              "cht": "他關",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and no one"
+              "cht": "無人"
             },
             {
               "id": "hebrew-6605",
-              "eng": "shall open",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "能開",
+              "punct_cht": "。"
             }
           ]
         },
@@ -141,132 +155,90 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "rev.3.7",
-          "cunp": "「你要寫信給非拉鐵非教會的使者，說：『那聖潔、真實、拿着大衛的鑰匙、開了就沒有人能關、關了就沒有人能開的，說：",
+          "nasb": "“And to the angel of the church in Philadelphia write: He who is holy, who is true, who has the key of David, who opens and no one will shut, and who shuts and no one opens, says this:",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to"
-            },
-            {
-              "id": "greek-32",
-              "eng": "[the] messenger"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-1125",
+              "cht": "你要寫信"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "給"
             },
             {
               "id": "greek-5359",
-              "eng": "Philadelphia"
+              "cht": "非拉鐵非"
             },
             {
               "id": "greek-1577",
-              "eng": "church"
+              "cht": "教會"
             },
             {
-              "id": "greek-1125",
-              "eng": "write",
-              "punct": ":"
-            },
-            {
-              "id": "greek-3592",
-              "eng": "These things"
+              "id": "greek-32",
+              "cht": "的使者",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "says"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-40",
-              "eng": "Holy [One]",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "那聖潔、"
             },
             {
               "id": "greek-228",
-              "eng": "True [One]",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "真實、"
             },
             {
               "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "key"
+              "cht": "拿著"
             },
             {
               "id": "greek-1138",
-              "eng": "of David",
-              "punct": ","
+              "cht": "大衛"
             },
             {
-              "id": "greek-3588",
-              "eng": "the [One]"
-            },
-            {
-              "id": "greek-455",
-              "eng": "opening"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3762",
-              "eng": "no one"
-            },
-            {
-              "id": "greek-2808",
-              "eng": "will shut",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2808",
-              "eng": "shutting"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3762",
-              "eng": "no one"
+              "id": "greek-2807",
+              "cht": "的鑰匙、"
             },
             {
               "id": "greek-455",
-              "eng": "opens",
-              "punct": "."
+              "cht": "開了"
             },
             {
-              "id": ""
+              "id": "greek-2532",
+              "cht": "就"
+            },
+            {
+              "id": "greek-3762",
+              "cht": "沒有人"
+            },
+            {
+              "id": "greek-2808",
+              "cht": "能關、"
+            },
+            {
+              "id": "greek-2808",
+              "cht": "關了"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "就"
+            },
+            {
+              "id": "greek-3762",
+              "cht": "沒有人"
+            },
+            {
+              "id": "greek-455",
+              "cht": "能開"
+            },
+            {
+              "id": "",
+              "cht": "的說",
+              "punct_cht": "，："
             }
           ]
         },
@@ -276,87 +248,81 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "jdg.3.25",
-          "cunp": "他們等煩了，見仍不開樓門，就拿鑰匙開了，不料，他們的主人已死，倒在地上。",
+          "nasb": "They waited until they became anxious; but behold, he did not open the doors of the roof chamber. Therefore they took the key and opened them, and behold, their master had fallen to the floor dead.",
           "words": [
             {
               "id": "hebrew-2342",
-              "eng": "So they waited"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "till"
+              "cht": "他們等"
             },
             {
               "id": "hebrew-954",
-              "eng": "they were embarrassed",
-              "punct": "–"
+              "cht": "煩"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and still",
-              "punct": "､"
+              "cht": "見"
             },
             {
               "id": "hebrew-369",
-              "eng": "not"
+              "cht": "仍不"
             },
             {
               "id": "hebrew-6605",
-              "eng": "he had opened"
-            },
-            {
-              "id": "hebrew-1817",
-              "eng": "the doors"
+              "cht": "開"
             },
             {
               "id": "hebrew-5944",
-              "eng": "of the upper room",
-              "punct": "–"
+              "cht": "樓"
             },
             {
-              "id": "hebrew-3947",
-              "eng": "therefore they took"
+              "id": "hebrew-1817",
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "就拿"
             },
             {
               "id": "hebrew-4668",
-              "eng": "the key",
-              "punct": "､"
+              "cht": "鑰匙"
             },
             {
               "id": "hebrew-6605",
-              "eng": "and opened [them]"
+              "cht": "開"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and there was",
-              "punct": "､"
+              "cht": "不料",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-113",
-              "eng": "their master"
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "fallen"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "on the floor"
+              "cht": "他們的主人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "dead",
-              "punct": "."
+              "cht": "已死",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-5307",
+              "cht": "倒"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "在地上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -366,110 +332,68 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "rev.1.18",
-          "cunp": "又是那存活的；我曾死過，現在又活了，直活到永永遠遠；並且拿着死亡和陰間的鑰匙。",
+          "nasb": "and the living One; and I was dead, and behold, I am alive forevermore, and I have the keys of death and of Hades.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "又"
             },
             {
               "id": "greek-2198",
-              "eng": "Living [One]",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "是那存活的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1096",
-              "eng": "I was"
+              "cht": "我曾"
             },
             {
               "id": "greek-3498",
-              "eng": "dead",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2400",
-              "eng": "behold"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "living"
+              "cht": "死過",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1510",
-              "eng": "I am"
+              "cht": "現在又"
+            },
+            {
+              "id": "greek-2198",
+              "cht": "活了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
+              "cht": "直活到"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-165",
-              "eng": "ages"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-165",
-              "eng": "ages",
-              "punct": ","
+              "id": "greek-281",
+              "cht": "永永遠遠",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "並且"
             },
             {
               "id": "greek-2192",
-              "eng": "I have"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "keys"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
+              "cht": "拿著"
             },
             {
               "id": "greek-2288",
-              "eng": "Death"
+              "cht": "死亡"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
+              "cht": "和"
             },
             {
               "id": "greek-86",
-              "eng": "Hades",
-              "punct": "."
+              "cht": "陰間"
             },
             {
-              "id": "greek-281"
+              "id": "greek-2807",
+              "cht": "的鑰匙",
+              "punct_cht": "。"
             }
           ]
         },
@@ -479,86 +403,65 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "rev.20.1",
-          "cunp": "我又看見一位天使從天降下，手裏拿着無底坑的鑰匙和一條大鍊子。",
+          "nasb": "Then I saw an angel coming down from heaven, holding the key of the abyss and a great chain in his hand.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "我又"
             },
             {
               "id": "greek-1492",
-              "eng": "I saw"
+              "cht": "看見"
             },
             {
               "id": "greek-32",
-              "eng": "an angel"
-            },
-            {
-              "id": "greek-2597",
-              "eng": "descending"
+              "cht": "一位天使"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven",
-              "punct": ","
+              "cht": "天"
             },
             {
-              "id": "greek-2192",
-              "eng": "holding"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "key"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-12",
-              "eng": "Abyss",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-254",
-              "eng": "a chain"
-            },
-            {
-              "id": "greek-3173",
-              "eng": "great"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2597",
+              "cht": "降下",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5495",
-              "eng": "hand"
+              "cht": "手"
             },
             {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "id": "greek-1909",
+              "cht": "裡"
+            },
+            {
+              "id": "greek-2192",
+              "cht": "拿著"
+            },
+            {
+              "id": "greek-12",
+              "cht": "無底坑"
+            },
+            {
+              "id": "greek-2807",
+              "cht": "的鑰匙"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "和"
+            },
+            {
+              "id": "greek-3173",
+              "cht": "一條大"
+            },
+            {
+              "id": "greek-254",
+              "cht": "鍊子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -568,106 +471,74 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "rev.9.1",
-          "cunp": "第五位天使吹號，我就看見一個星從天落到地上，有無底坑的鑰匙賜給它。",
+          "nasb": "Then the fifth angel sounded, and I saw a star from heaven which had fallen to the earth; and the key of the bottomless pit was given to him.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-3991",
-              "eng": "fifth"
+              "cht": "第五位"
             },
             {
               "id": "greek-32",
-              "eng": "angel"
+              "cht": "天使"
             },
             {
               "id": "greek-4537",
-              "eng": "sounded [his] trumpet",
-              "punct": ","
+              "cht": "吹號",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "我就"
             },
             {
               "id": "greek-1492",
-              "eng": "I saw"
+              "cht": "看見"
             },
             {
               "id": "greek-792",
-              "eng": "a star"
+              "cht": "一個星"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven"
+              "cht": "天"
             },
             {
               "id": "greek-4098",
-              "eng": "having fallen"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "落到"
             },
             {
               "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
+              "cht": "地"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "was given"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to it"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "key"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-1519",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "greek-12",
-              "eng": "Abyss",
-              "punct": "."
+              "cht": "有無底"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑"
+            },
+            {
+              "id": "greek-2807",
+              "cht": "的鑰匙"
+            },
+            {
+              "id": "greek-1325",
+              "cht": "賜給"
+            },
+            {
+              "id": "greek-846",
+              "cht": "它",
+              "punct_cht": "。"
             }
           ]
         },
@@ -677,83 +548,67 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "luk.11.52",
-          "cunp": "你們律法師有禍了！因為你們把知識的鑰匙奪了去，自己不進去，正要進去的人你們也阻擋他們。」",
+          "nasb": "Woe to you lawyers! For you have taken away the key of knowledge; you yourselves did not enter, and you hindered those who were entering.”",
           "words": [
             {
-              "id": "greek-3759",
-              "eng": "Woe"
-            },
-            {
               "id": "greek-5213",
-              "eng": "to you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你們"
             },
             {
               "id": "greek-3544",
-              "eng": "lawyers",
-              "punct": ","
+              "cht": "律法師"
+            },
+            {
+              "id": "greek-3759",
+              "cht": "有禍了",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3754",
-              "eng": "for"
-            },
-            {
-              "id": "greek-142",
-              "eng": "you have taken away"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "key"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "因為"
             },
             {
               "id": "greek-1108",
-              "eng": "knowledge",
-              "punct": "."
+              "cht": "你們把知識"
+            },
+            {
+              "id": "greek-2807",
+              "cht": "的鑰匙"
+            },
+            {
+              "id": "greek-142",
+              "cht": "奪了去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "You yourselves"
+              "cht": "自己"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-1525",
-              "eng": "did enter",
-              "punct": ","
+              "cht": "進去",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1525",
+              "cht": "正要進去"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those who"
-            },
-            {
-              "id": "greek-1525",
-              "eng": "are entering"
+              "cht": "的人你們也"
             },
             {
               "id": "greek-2967",
-              "eng": "you hindered",
-              "punct": "."
+              "cht": "阻擋"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -763,146 +618,104 @@
             "hebrew-4668": 5.492088685277254
           },
           "verseKey": "mat.16.19",
-          "cunp": "我要把天國的鑰匙給你，凡你在地上所捆綁的，在天上也要捆綁；凡你在地上所釋放的，在天上也要釋放。」",
+          "nasb": "I will give you the keys of the kingdom of heaven; and whatever you bind on earth shall have been bound in heaven, and whatever you loose on earth shall have been loosed in heaven.”",
           "words": [
             {
-              "id": "greek-1325",
-              "eng": "I will give"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "keys"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-3772",
+              "cht": "我要把天"
             },
             {
               "id": "greek-932",
-              "eng": "kingdom"
+              "cht": "國"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2807",
+              "cht": "的鑰匙"
             },
             {
-              "id": "greek-3772",
-              "eng": "heavens",
-              "punct": ";"
+              "id": "greek-1325",
+              "cht": "給"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1210",
-              "eng": "you might bind"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-2071",
-              "eng": "will be"
-            },
-            {
-              "id": "greek-1210",
-              "eng": "bound"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3772",
-              "eng": "heavens",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4671",
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3089",
-              "eng": "you might loose"
+              "cht": "凡"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你在"
             },
             {
               "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
+              "cht": "地上"
             },
             {
-              "id": "greek-2071",
-              "eng": "will be"
+              "id": "greek-1210",
+              "cht": "所捆綁"
             },
             {
-              "id": "greek-3089",
-              "eng": "loosed"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-3772",
-              "eng": "heavens",
-              "punct": "."
+              "cht": "天上"
             },
             {
-              "id": ""
+              "id": "greek-2071",
+              "cht": "也要"
             },
             {
-              "id": ""
+              "id": "greek-1210",
+              "cht": "捆綁",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "凡"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "你在"
+            },
+            {
+              "id": "greek-1093",
+              "cht": "地上"
+            },
+            {
+              "id": "greek-3089",
+              "cht": "所釋放"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-3772",
+              "cht": "天上"
+            },
+            {
+              "id": "greek-2071",
+              "cht": "也要"
+            },
+            {
+              "id": "greek-3089",
+              "cht": "釋放",
+              "punct_cht": "。"
             }
           ]
         },
@@ -912,88 +725,75 @@
             "hebrew-5439": 1.1125201290853888
           },
           "verseKey": "ezk.40.16",
-          "cunp": "衛房和門洞兩旁柱間並廊子，都有嚴緊的窗櫺；裏邊都有窗櫺，柱上有雕刻的棕樹。",
+          "nasb": "There were shuttered windows looking toward the guardrooms, and toward their side pillars within the gate all around, and likewise for the porches. And there were windows all around inside; and on each side pillar were palm tree ornaments.",
           "words": [
             {
-              "id": "hebrew-2474",
-              "eng": "And [There] [were] window [frames]"
-            },
-            {
-              "id": "hebrew-331",
-              "eng": "beveled"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "in"
-            },
-            {
               "id": "hebrew-8372",
-              "eng": "the gate chambers",
-              "punct": "､"
+              "cht": "衛房"
             },
             {
               "id": "hebrew-413",
-              "eng": "and in"
-            },
-            {
-              "id": "hebrew-352",
-              "eng": "their [intervening] archways"
-            },
-            {
-              "id": "hebrew-6441",
-              "eng": "on the inside"
+              "cht": "和"
             },
             {
               "id": "hebrew-8179",
-              "eng": "of the gateway"
+              "cht": "門洞"
             },
             {
               "id": "hebrew-5439",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "around",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "and likewise"
-            },
-            {
-              "id": "hebrew-361",
-              "eng": "in the vestibules",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2474",
-              "eng": "And [There] [were] windows"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "around"
-            },
-            {
-              "id": "hebrew-6441",
-              "eng": "on the inside",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "and on"
+              "cht": "兩旁"
             },
             {
               "id": "hebrew-352",
-              "eng": "each gatepost [were]"
+              "cht": "柱"
+            },
+            {
+              "id": "hebrew-6441",
+              "cht": "間"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "並"
+            },
+            {
+              "id": "hebrew-361",
+              "cht": "廊子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-331",
+              "cht": "都有嚴緊"
+            },
+            {
+              "id": "hebrew-2474",
+              "cht": "的窗櫺",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-6441",
+              "cht": "裡"
+            },
+            {
+              "id": "hebrew-5439",
+              "cht": "邊"
+            },
+            {
+              "id": "hebrew-2474",
+              "cht": "都有窗櫺",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-352",
+              "cht": "柱"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "上"
             },
             {
               "id": "hebrew-8561",
-              "eng": "palm trees",
-              "punct": "."
+              "cht": "有雕刻的棕樹",
+              "punct_cht": "。"
             }
           ]
         }

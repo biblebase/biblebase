@@ -3,18 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-559": "and said",
-          "hebrew-4428": "the king",
-          "hebrew-5921": "upon",
-          "hebrew-4100": "what",
-          "hebrew-2088": "[is] this [that]",
-          "hebrew-859": "you",
-          "hebrew-1245": "request",
-          "hebrew-6419": "so I prayed",
-          "hebrew-413": "to",
-          "hebrew-430": "the God",
-          "hebrew-8064": "of heaven",
-          "": null
+          "eng": {
+            "hebrew-559": "and said",
+            "hebrew-4428": "the king",
+            "hebrew-5921": "upon",
+            "hebrew-4100": "what",
+            "hebrew-2088": "[is] this [that]",
+            "hebrew-859": "you",
+            "hebrew-1245": "request",
+            "hebrew-6419": "so I prayed",
+            "hebrew-413": "to",
+            "hebrew-430": "the God",
+            "hebrew-8064": "of heaven",
+            "": null
+          },
+          "cht": {
+            "hebrew-559": "說",
+            "hebrew-4428": "王",
+            "hebrew-5921": "要求",
+            "hebrew-4100": "甚麼",
+            "hebrew-2088": "甚麼",
+            "hebrew-859": "你",
+            "hebrew-1245": "要求",
+            "hebrew-6419": "於是我默禱",
+            "hebrew-413": "於是我默禱",
+            "hebrew-430": "神",
+            "hebrew-8064": "天上"
+          }
         }
       },
       "translations": {
@@ -34,127 +49,118 @@
             "hebrew-1245": 1.0547100487778034
           },
           "verseKey": "jer.44.30",
-          "cunp": "耶和華如此說：我必將埃及王法老合弗拉交在他仇敵和尋索其命的人手中，像我將猶大王西底家交在他仇敵和尋索其命的巴比倫王尼布甲尼撒手中一樣。」",
+          "nasb": "Thus says the Lord, ‘Behold, I am going to give over Pharaoh Hophra king of Egypt to the hand of his enemies, to the hand of those who seek his life, just as I gave over Zedekiah king of Judah to the hand of Nebuchadnezzar king of Babylon, who was his enemy and was seeking his life.’ ”",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2005",
-              "eng": "behold I"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "will give"
+              "id": "hebrew-2009",
+              "cht": "我"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6548",
-              "eng": "Hophra"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "必將"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt"
+              "cht": "埃及"
             },
             {
-              "id": "hebrew-3027",
-              "eng": "into the hand"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
-              "id": "hebrew-341",
-              "eng": "of his enemies",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "and into the hand"
-            },
-            {
-              "id": "hebrew-1245",
-              "eng": "of those who seek"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "his life",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "as"
+              "id": "hebrew-6548",
+              "cht": "法老合弗拉"
             },
             {
               "id": "hebrew-5414",
-              "eng": "I gave"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6667",
-              "eng": "Zedekiah"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "into the hand"
-            },
-            {
-              "id": "hebrew-5019",
-              "eng": "of Nebuchadnezzar"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
-            },
-            {
-              "id": "hebrew-894",
-              "eng": "of Babylon",
-              "punct": "､"
+              "cht": "交"
             },
             {
               "id": "hebrew-341",
-              "eng": "his enemy",
-              "punct": "､"
+              "cht": "在他仇敵"
             },
             {
               "id": "hebrew-1245",
-              "eng": "and who sought"
+              "cht": "和尋索"
             },
             {
               "id": "hebrew-5315",
-              "eng": "his life",
-              "punct": "."
+              "cht": "其命"
             },
             {
-              "id": "hebrew-2009"
+              "id": "hebrew-3027",
+              "cht": "的人手中",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-834",
+              "cht": "像"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "我將"
+            },
+            {
+              "id": "hebrew-3063",
+              "cht": "猶大"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-6667",
+              "cht": "西底家"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "交"
+            },
+            {
+              "id": "hebrew-341",
+              "cht": "在他仇敵"
+            },
+            {
+              "id": "hebrew-1245",
+              "cht": "和尋索"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "其命"
+            },
+            {
+              "id": "hebrew-894",
+              "cht": "的巴比倫"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-5019",
+              "cht": "尼布甲尼撒"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "手中"
+            },
+            {
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -167,135 +173,105 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "1ki.13.6",
-          "cunp": "王對神人說：「請你為我禱告，求耶和華－你神的恩典使我的手復原。」於是神人祈禱耶和華，王的手就復了原，仍如尋常一樣。",
+          "nasb": "The king said to the man of God, “Please entreat the Lord your God, and pray for me, that my hand may be restored to me.” So the man of God entreated the Lord, and the king’s hand was restored to him, and it became as it was before.",
           "words": [
             {
               "id": "hebrew-6030",
-              "eng": "And answered"
+              "cht": "王"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "id": "hebrew-413",
+              "cht": "對"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2470",
-              "eng": "please entreat"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4994",
-              "eng": "now"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the favor"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6419",
-              "eng": "and pray"
+              "cht": "請"
             },
             {
               "id": "hebrew-1157",
-              "eng": "for me"
+              "cht": "你為我"
             },
             {
-              "id": "hebrew-7725",
-              "eng": "that may be restored"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "my hand"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to me",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2470",
-              "eng": "So entreated"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "of God"
+              "id": "hebrew-6419",
+              "cht": "禱告",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before the face of"
+              "cht": "求"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-7725",
-              "eng": "and was restored",
-              "punct": "､"
+              "id": "",
+              "cht": "─你"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-3027",
-              "eng": "hand"
+              "cht": "的恩典使我的手"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "復原",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "於是神"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-2470",
+              "cht": "祈禱"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "王"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to him",
-              "punct": "､"
+              "id": "hebrew-3027",
+              "cht": "的手"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "and became"
+              "id": "hebrew-7725",
+              "cht": "就復了原",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7223",
-              "eng": "as before",
-              "punct": "."
+              "cht": "仍如尋常"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -307,104 +283,94 @@
             "hebrew-8064": 0.7424012920136152
           },
           "verseKey": "2ch.7.14",
-          "cunp": "這稱為我名下的子民，若是自卑、禱告，尋求我的面，轉離他們的惡行，我必從天上垂聽，赦免他們的罪，醫治他們的地。",
+          "nasb": "and My people who are called by My name humble themselves and pray and seek My face and turn from their wicked ways, then I will hear from heaven, will forgive their sin and will heal their land.",
           "words": [
             {
-              "id": "hebrew-3665",
-              "eng": "and if will humble themselves",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "My people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
               "id": "hebrew-7121",
-              "eng": "are called"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "by My name",
-              "punct": "､"
+              "cht": "這稱"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
+              "cht": "為"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "我名"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "下的"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "子民",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3665",
+              "cht": "若是自卑、"
             },
             {
               "id": "hebrew-6419",
-              "eng": "and pray",
-              "punct": "､"
+              "cht": "禱告",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1245",
-              "eng": "and seek"
+              "cht": "尋求"
             },
             {
               "id": "hebrew-6440",
-              "eng": "My face",
-              "punct": "､"
+              "cht": "我的面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "and turn"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "from their ways",
-              "punct": "–"
+              "cht": "轉離"
             },
             {
               "id": "hebrew-7451",
-              "eng": "wicked"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "then I"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "will hear"
+              "cht": "他們的惡"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from",
-              "punct": "–"
+              "cht": "行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-589",
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "必從"
             },
             {
               "id": "hebrew-8064",
-              "eng": "heaven",
-              "punct": "､"
+              "cht": "天上"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "垂聽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5545",
-              "eng": "and will forgive"
+              "cht": "赦免"
             },
             {
               "id": "hebrew-2403",
-              "eng": "their sin",
-              "punct": "､"
+              "cht": "他們的罪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7495",
-              "eng": "and heal"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "醫治"
             },
             {
               "id": "hebrew-776",
-              "eng": "their land",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "他們的地",
+              "punct_cht": "。"
             }
           ]
         }

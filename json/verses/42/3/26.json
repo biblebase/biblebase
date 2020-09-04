@@ -3,14 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "-",
-          "greek-3092": "of Maath",
-          "greek-3161": "of Mattathias",
-          "greek-4584": "of Semein",
-          "greek-2501": "of Josech",
-          "greek-2448": "of Joda",
-          "": null,
-          "greek-2455": null
+          "eng": {
+            "greek-3588": "-",
+            "greek-3092": "of Maath",
+            "greek-3161": "of Mattathias",
+            "greek-4584": "of Semein",
+            "greek-2501": "of Josech",
+            "greek-2448": "of Joda",
+            "": null,
+            "greek-2455": null
+          },
+          "cht": {
+            "greek-3092": "拿該是瑪押",
+            "greek-3161": "瑪押是瑪他提亞",
+            "greek-4584": "瑪他提亞是西美",
+            "greek-2501": "西美是約瑟",
+            "greek-2455": "約瑟是猶大"
+          }
         }
       },
       "translations": {
@@ -24,67 +33,52 @@
             "greek-3161": 10.248599871619378
           },
           "verseKey": "luk.3.25",
-          "cunp": "約瑟是瑪他提亞的兒子；瑪他提亞是亞摩斯的兒子；亞摩斯是拿鴻的兒子；拿鴻是以斯利的兒子；以斯利是拿該的兒子；",
+          "nasb": "the son of Mattathias, the son of Amos, the son of Nahum, the son of Hesli, the son of Naggai,",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-3161",
-              "eng": "of Mattathias",
-              "punct": ","
+              "cht": "約瑟是瑪他提亞"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-301",
-              "eng": "of Amos",
-              "punct": ","
+              "cht": "瑪他提亞是亞摩斯"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3486",
-              "eng": "of Nahum",
-              "punct": ","
+              "cht": "亞摩斯是拿鴻"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2069",
-              "eng": "of Esli",
-              "punct": ","
+              "cht": "拿鴻是以斯利"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3477",
-              "eng": "of Naggai",
-              "punct": ","
+              "cht": "以斯利是拿該"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -94,49 +88,38 @@
             "greek-2455": 2.8268151859226394
           },
           "verseKey": "luk.6.16",
-          "cunp": "雅各的兒子猶大，和賣主的加略人猶大。",
+          "nasb": "Judas the son of James, and Judas Iscariot, who became a traitor.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2455",
-              "eng": "Judas [son]"
-            },
-            {
               "id": "greek-2385",
-              "eng": "of James",
-              "punct": ";"
+              "cht": "雅各"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "的兒子（或作兄弟）",
+              "punct_cht": "："
             },
             {
               "id": "greek-2455",
-              "eng": "Judas"
+              "cht": "猶大",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2469",
-              "eng": "Iscariot",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "who"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "became"
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
               "id": "greek-4273",
-              "eng": "[the] betrayer",
-              "punct": "."
+              "cht": "賣主的"
             },
             {
-              "id": ""
+              "id": "greek-2469",
+              "cht": "加略人"
+            },
+            {
+              "id": "greek-2455",
+              "cht": "猶大",
+              "punct_cht": "。"
             }
           ]
         },
@@ -147,124 +130,91 @@
             "greek-2455": 2.8268151859226394
           },
           "verseKey": "mat.13.55",
-          "cunp": "這不是木匠的兒子嗎？他母親不是叫馬利亞嗎？他弟兄們不是叫雅各、約西  、 西門、猶大嗎？",
+          "nasb": "Is not this the carpenter’s son? Is not His mother called Mary, and His brothers, James and Joseph and Simon and Judas?",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
+              "id": "greek-3778",
+              "cht": "這"
             },
             {
-              "id": "greek-3778",
-              "eng": "this"
+              "id": "greek-3756",
+              "cht": "不"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "是"
             },
             {
               "id": "greek-5045",
-              "eng": "carpenter"
+              "cht": "木匠"
             },
             {
               "id": "greek-5207",
-              "eng": "Son",
-              "punct": "?"
+              "cht": "的兒子"
             },
             {
-              "id": "greek-3756",
-              "eng": "[Is] not"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "他"
             },
             {
               "id": "greek-3384",
-              "eng": "mother"
+              "cht": "母親"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him"
+              "id": "greek-3780",
+              "cht": "不是"
             },
             {
               "id": "greek-3004",
-              "eng": "called"
+              "cht": "叫"
             },
             {
               "id": "greek-3137",
-              "eng": "Mary",
-              "punct": "?"
+              "cht": "馬利亞"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brothers"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "greek-846",
-              "eng": "of Him"
+              "cht": "他"
+            },
+            {
+              "id": "greek-80",
+              "cht": "弟兄們"
             },
             {
               "id": "greek-2385",
-              "eng": "James"
+              "cht": "不是叫雅各、"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2500",
+              "cht": "約西"
             },
             {
-              "id": "greek-2501",
-              "eng": "Joseph"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "（有古卷約瑟）、",
+              "punct_cht": "："
             },
             {
               "id": "greek-4613",
-              "eng": "Simon"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "西門、"
             },
             {
               "id": "greek-2455",
-              "eng": "Judas",
-              "punct": "?"
+              "cht": "猶大"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-3780"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2500"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -274,97 +224,92 @@
             "greek-2501": 1.1690641140623588
           },
           "verseKey": "gen.37.28",
-          "cunp": "有些米甸的商人從那裏經過，哥哥們就把約瑟從坑裏拉上來，講定二十舍客勒銀子，把約瑟賣給以實瑪利人。他們就把約瑟帶到埃及去了。",
+          "nasb": "Then some Midianite traders passed by, so they pulled him up and lifted Joseph out of the pit, and sold him to the Ishmaelites for twenty shekels of silver. Thus they brought Joseph into Egypt.",
           "words": [
             {
-              "id": "hebrew-5674",
-              "eng": "And passed by"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "men"
-            },
-            {
               "id": "hebrew-4084",
-              "eng": "Midianites"
+              "cht": "有些米甸的"
             },
             {
               "id": "hebrew-5503",
-              "eng": "traders",
-              "punct": "–"
+              "cht": "商"
             },
             {
-              "id": "hebrew-4900",
-              "eng": "so they pulled up"
+              "id": "hebrew-582",
+              "cht": "人"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "and lifted up"
+              "id": "hebrew-5674",
+              "cht": "從那裡經過",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "哥哥們就把"
             },
             {
               "id": "hebrew-3130",
-              "eng": "Joseph"
+              "cht": "約瑟"
             },
             {
               "id": "hebrew-4480",
-              "eng": "out"
+              "cht": "從"
             },
             {
               "id": "hebrew-953",
-              "eng": "of the pit",
-              "punct": "､"
+              "cht": "坑"
             },
             {
-              "id": "hebrew-4376",
-              "eng": "and sold"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3130",
-              "eng": "Joseph"
-            },
-            {
-              "id": "hebrew-3459",
-              "eng": "to the Ishmaelites"
+              "id": "hebrew-4900",
+              "cht": "裡拉上來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6242",
-              "eng": "for twenty [shekels]"
+              "cht": "講定二十"
             },
             {
               "id": "hebrew-3701",
-              "eng": "of silver",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "And they took"
+              "cht": "舍客勒銀子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "把"
             },
             {
               "id": "hebrew-3130",
-              "eng": "Joseph"
+              "cht": "約瑟"
+            },
+            {
+              "id": "hebrew-4376",
+              "cht": "賣"
+            },
+            {
+              "id": "hebrew-3459",
+              "cht": "給以實瑪利人",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "他們就把"
+            },
+            {
+              "id": "hebrew-3130",
+              "cht": "約瑟"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "帶到"
             },
             {
               "id": "hebrew-4714",
-              "eng": "to Egypt",
-              "punct": "."
+              "cht": "埃及"
             },
             {
-              "id": "hebrew-582"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "去了",
+              "punct_cht": "。"
             }
           ]
         }

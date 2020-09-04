@@ -3,17 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-559": "And He said",
-          "hebrew-413": "to me",
-          "hebrew-1121": "Son",
-          "hebrew-120": "of man",
-          "hebrew-2864": "And when I dug",
-          "hebrew-4994": "now",
-          "hebrew-7023": "into the wall",
-          "hebrew-2009": "and there was",
-          "hebrew-6607": "door",
-          "hebrew-259": "a",
-          "": null
+          "eng": {
+            "hebrew-559": "And He said",
+            "hebrew-413": "to me",
+            "hebrew-1121": "Son",
+            "hebrew-120": "of man",
+            "hebrew-2864": "And when I dug",
+            "hebrew-4994": "now",
+            "hebrew-7023": "into the wall",
+            "hebrew-2009": "and there was",
+            "hebrew-6607": "door",
+            "hebrew-259": "a",
+            "": null
+          },
+          "cht": {
+            "hebrew-559": "說",
+            "hebrew-413": "他對我",
+            "hebrew-1121": "子",
+            "hebrew-120": "人",
+            "hebrew-2864": "我一挖",
+            "hebrew-4994": "你要",
+            "hebrew-7023": "牆",
+            "hebrew-2009": "見",
+            "hebrew-6607": "門",
+            "hebrew-259": "有一"
+          }
         }
       },
       "translations": {
@@ -29,24 +43,25 @@
             "hebrew-7023": 2.082792210842197
           },
           "verseKey": "ezk.12.5",
-          "cunp": "你要在他們眼前挖通了牆，從其中將物件帶出去。",
+          "nasb": "Dig a hole through the wall in their sight and go out through it.",
           "words": [
             {
               "id": "hebrew-5869",
-              "eng": "In their sight",
-              "punct": "､"
+              "cht": "你要在他們眼前"
             },
             {
               "id": "hebrew-2864",
-              "eng": "Dig"
+              "cht": "挖"
             },
             {
               "id": "hebrew-7023",
-              "eng": "through the wall"
+              "cht": "通了牆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3318",
-              "eng": "and carry out your belongings"
+              "cht": "將物件帶出去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -57,96 +72,80 @@
             "hebrew-7023": 2.082792210842197
           },
           "verseKey": "ezk.12.12",
-          "cunp": "他們中間的君王也必在天黑的時候將物件搭在肩頭上帶出去。他們要挖通了牆，從其中帶出去。他必蒙住臉，眼看不見地。",
+          "nasb": "The prince who is among them will load his baggage on his shoulder in the dark and go out. They will dig a hole through the wall to bring it out. He will cover his face so that he can not see the land with his eyes.",
           "words": [
             {
-              "id": "hebrew-5387",
-              "eng": "And the prince"
-            },
-            {
               "id": "hebrew-834",
-              "eng": "who [is]"
+              "cht": "他們"
             },
             {
               "id": "hebrew-8432",
-              "eng": "among them"
+              "cht": "中間"
             },
             {
-              "id": "hebrew-413",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-3802",
-              "eng": "[his] shoulder"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "shall bear [his belongings]"
+              "id": "hebrew-5387",
+              "cht": "的君王"
             },
             {
               "id": "hebrew-5939",
-              "eng": "at twilight",
-              "punct": "､"
+              "cht": "也必在天黑"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "的時候將物件搭"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-3802",
+              "cht": "肩頭"
             },
             {
               "id": "hebrew-3318",
-              "eng": "and go out",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7023",
-              "eng": "through the wall"
+              "cht": "上帶出去",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2864",
-              "eng": "they shall dig"
+              "cht": "他們要挖"
+            },
+            {
+              "id": "hebrew-7023",
+              "cht": "通了牆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3318",
-              "eng": "to carry [them] out"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "his face",
-              "punct": "､"
+              "cht": "帶出去",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3680",
-              "eng": "He shall cover"
+              "cht": "他必蒙住"
             },
             {
-              "id": "hebrew-3282",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "so that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "cannot"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "see"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "with [his] eyes",
-              "punct": "."
+              "id": "hebrew-6440",
+              "cht": "臉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "He"
+              "cht": "眼"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3808",
+              "cht": "看不"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "見"
             },
             {
               "id": "hebrew-776",
-              "eng": "the ground",
-              "punct": "."
+              "cht": "地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -157,92 +156,94 @@
             "hebrew-7023": 2.082792210842197
           },
           "verseKey": "ezk.12.7",
-          "cunp": "我就照着所吩咐的去行，白日帶出我的物件，好像預備擄去使用的物件。到了晚上，我用手挖通了牆。天黑的時候，就當他們眼前搭在肩頭上帶出去。",
+          "nasb": "I did so, as I had been commanded. By day I brought out my baggage like the baggage of an exile. Then in the evening I dug through the wall with my hands; I went out in the dark and carried the baggage on my shoulder in their sight.",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "So I did"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "-"
-            },
-            {
               "id": "hebrew-834",
-              "eng": "as"
+              "cht": "我就照著所"
             },
             {
               "id": "hebrew-6680",
-              "eng": "I was commanded",
-              "punct": "."
+              "cht": "吩咐"
             },
             {
-              "id": "hebrew-3627",
-              "eng": "My belongings"
+              "id": "hebrew-3651",
+              "cht": "的"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "I brought out"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "as though going into"
-            },
-            {
-              "id": "hebrew-1473",
-              "eng": "captivity",
-              "punct": "､"
+              "id": "hebrew-6213",
+              "cht": "去行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3119",
-              "eng": "by day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6153",
-              "eng": "and at evening"
-            },
-            {
-              "id": "hebrew-2864",
-              "eng": "dug"
-            },
-            {
-              "id": "hebrew-7023",
-              "eng": "through the wall"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "with my hand",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5939",
-              "eng": "at twilight",
-              "punct": "､"
+              "cht": "白日"
             },
             {
               "id": "hebrew-3318",
-              "eng": "I brought [them] out"
+              "cht": "帶出"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "id": "hebrew-3627",
+              "cht": "我的物件",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3802",
-              "eng": "[my] shoulder"
+              "id": "hebrew-1473",
+              "cht": "好像預備擄去"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "[and] I bore [them]"
+              "id": "hebrew-3627",
+              "cht": "使用的物件",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-6153",
+              "cht": "到了晚上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "我用手"
+            },
+            {
+              "id": "hebrew-2864",
+              "cht": "挖"
+            },
+            {
+              "id": "hebrew-7023",
+              "cht": "牆",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-5939",
+              "cht": "天黑"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in their sight",
-              "punct": "."
+              "cht": "就當他們眼前"
             },
             {
-              "id": ""
+              "id": "hebrew-5375",
+              "cht": "搭"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-3802",
+              "cht": "肩頭"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "上帶出去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -252,63 +253,59 @@
             "hebrew-2864": 5.492088685277254
           },
           "verseKey": "amo.9.2",
-          "cunp": "他們雖然挖透陰間， 我的手必取出他們來； 雖然爬上天去， 我必拿下他們來；",
+          "nasb": "Though they dig into Sheol, From there will My hand take them; And though they ascend to heaven, From there will I bring them down.",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "Though"
+              "cht": "他們雖然"
             },
             {
               "id": "hebrew-2864",
-              "eng": "they dig"
+              "cht": "挖透"
             },
             {
               "id": "hebrew-7585",
-              "eng": "into hell",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "from there"
+              "cht": "陰間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "my hand"
+              "cht": "我的手"
             },
             {
               "id": "hebrew-3947",
-              "eng": "shall take them"
+              "cht": "必取出他們"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-518",
-              "eng": "and Though"
+              "cht": "雖然"
             },
             {
               "id": "hebrew-5927",
-              "eng": "they climb up"
+              "cht": "爬上"
             },
             {
               "id": "hebrew-8064",
-              "eng": "to heaven",
-              "punct": "､"
+              "cht": "天"
             },
             {
-              "id": "hebrew-8033",
-              "eng": "from there"
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3381",
-              "eng": "I will bring them down",
-              "punct": "–"
+              "cht": "我必拿下他們"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
             }
           ]
         },
@@ -318,42 +315,42 @@
             "hebrew-2864": 5.492088685277254
           },
           "verseKey": "job.24.16",
-          "cunp": "盜賊黑夜挖窟窿； 白日躲藏， 並不認識光明。",
+          "nasb": "In the dark they dig into houses, They shut themselves up by day; They do not know the light.",
           "words": [
             {
-              "id": "hebrew-2864",
-              "eng": "They break into"
+              "id": "hebrew-2822",
+              "cht": "盜賊黑夜"
             },
             {
-              "id": "hebrew-2822",
-              "eng": "in the dark"
+              "id": "hebrew-2864",
+              "cht": "挖"
             },
             {
               "id": "hebrew-1004",
-              "eng": "houses",
-              "punct": "､"
+              "cht": "窟窿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3119",
-              "eng": "in the daytime",
-              "punct": "–"
+              "cht": "白日"
             },
             {
               "id": "hebrew-2856",
-              "eng": "which they marked"
+              "cht": "躲藏",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "並不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "they do know"
+              "cht": "認識"
             },
             {
               "id": "hebrew-216",
-              "eng": "the light",
-              "punct": "."
+              "cht": "光明",
+              "punct_cht": "。"
             }
           ]
         },
@@ -363,59 +360,55 @@
             "hebrew-2864": 5.492088685277254
           },
           "verseKey": "jon.1.13",
-          "cunp": "然而那些人竭力盪槳，要把船攏岸，卻是不能，因為海浪越發向他們翻騰。",
+          "nasb": "However, the men rowed desperately to return to land but they could not, for the sea was becoming even stormier against them.",
           "words": [
             {
-              "id": "hebrew-2864",
-              "eng": "And nevertheless rowed hard"
+              "id": "hebrew-582",
+              "cht": "然而那些人"
             },
             {
-              "id": "hebrew-582",
-              "eng": "the men"
+              "id": "hebrew-2864",
+              "cht": "竭力盪槳",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "to return"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
+              "cht": "要把船攏"
             },
             {
               "id": "hebrew-3004",
-              "eng": "land",
-              "punct": "–"
+              "cht": "岸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "but not",
-              "punct": "–"
+              "cht": "卻是不"
             },
             {
               "id": "hebrew-3201",
-              "eng": "they could"
+              "cht": "能",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the sea"
+              "cht": "海浪"
             },
             {
               "id": "hebrew-1980",
-              "eng": "continued to grow",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5590",
-              "eng": "and more tempestuous"
+              "cht": "越發"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against them",
-              "punct": "."
+              "cht": "向他們"
+            },
+            {
+              "id": "hebrew-5590",
+              "cht": "翻騰",
+              "punct_cht": "。"
             }
           ]
         },
@@ -429,137 +422,107 @@
             "hebrew-6607": 1.3080286520561046
           },
           "verseKey": "ezk.33.30",
-          "cunp": "「人子啊，你本國的子民在牆垣旁邊、在房屋門口談論你。弟兄對弟兄彼此說：『來吧！聽聽有甚麼話從耶和華而出。』",
+          "nasb": "“But as for you, son of man, your fellow citizens who talk about you by the walls and in the doorways of the houses, speak to one another, each to his brother, saying, ‘Come now and hear what the message is which comes forth from the Lord.’",
           "words": [
             {
-              "id": "hebrew-859",
-              "eng": "And as for you"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
               "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "子"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of your people"
+              "cht": "你本國"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "are talking"
+              "id": "hebrew-1121",
+              "cht": "的子民"
             },
             {
-              "id": "hebrew-681",
-              "eng": "beside"
+              "id": "hebrew-5921",
+              "cht": "在"
             },
             {
               "id": "hebrew-7023",
-              "eng": "the walls"
+              "cht": "牆垣"
             },
             {
-              "id": "hebrew-6607",
-              "eng": "and in the doors"
+              "id": "hebrew-681",
+              "cht": "旁邊、"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the houses",
-              "punct": "､"
+              "cht": "在房屋"
+            },
+            {
+              "id": "hebrew-6607",
+              "cht": "門口"
             },
             {
               "id": "hebrew-1696",
-              "eng": "and they speak"
-            },
-            {
-              "id": "hebrew-2297",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one",
-              "punct": "､"
+              "cht": "談論"
             },
             {
               "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "弟兄"
             },
             {
               "id": "hebrew-854",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-251",
-              "eng": "his brother",
-              "punct": "､"
+              "cht": "弟兄"
             },
             {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "id": "hebrew-2297",
+              "cht": "彼此"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-935",
-              "eng": "come",
-              "punct": "､"
+              "cht": "來"
             },
             {
-              "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "､"
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and hear"
+              "cht": "聽聽"
             },
             {
               "id": "hebrew-4100",
-              "eng": "what [is]"
+              "cht": "有甚麼"
             },
             {
               "id": "hebrew-1697",
-              "eng": "the word"
+              "cht": "話"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "that comes"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "from"
+              "id": "hebrew-854",
+              "cht": "從"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-5921"
-            },
-            {
-              "id": "hebrew-413"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-854"
+              "id": "hebrew-3318",
+              "cht": "而出",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -570,64 +533,58 @@
             "hebrew-7023": 2.082792210842197
           },
           "verseKey": "ezk.13.15",
-          "cunp": "我要這樣向牆和用未泡透灰抹牆的人成就我怒中所定的，並要對你們說：『牆和抹牆的人都沒有了。』",
+          "nasb": "Thus I will spend My wrath on the wall and on those who have plastered it over with whitewash; and I will say to you, ‘The wall is gone and its plasterers are gone,",
           "words": [
             {
-              "id": "hebrew-3615",
-              "eng": "Thus will I accomplish"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-2534",
-              "eng": "My wrath"
-            },
-            {
               "id": "hebrew-7023",
-              "eng": "on the wall",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2902",
-              "eng": "and on those who have plastered"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "it"
+              "cht": "我要這樣向牆"
             },
             {
               "id": "hebrew-8602",
-              "eng": "with untempered [mortar]"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and I will say"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "[is] no [more]"
-            },
-            {
-              "id": "hebrew-7023",
-              "eng": "the wall"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and [are] no [more]"
+              "cht": "和用未泡透灰"
             },
             {
               "id": "hebrew-2902",
-              "eng": "those who plastered"
+              "cht": "抹"
             },
             {
               "id": "hebrew-853",
-              "eng": "it",
-              "punct": "."
+              "cht": "牆"
             },
             {
-              "id": ""
+              "id": "hebrew-3615",
+              "cht": "的人成就"
+            },
+            {
+              "id": "hebrew-2534",
+              "cht": "我怒中所定的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
+            },
+            {
+              "id": "hebrew-7023",
+              "cht": "牆"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和抹牆"
+            },
+            {
+              "id": "hebrew-2902",
+              "cht": "的人"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "都沒有"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -637,74 +594,42 @@
             "hebrew-7023": 2.082792210842197
           },
           "verseKey": "1ki.6.5",
-          "cunp": "靠着殿牆，圍着外殿內殿，造了三層旁屋；",
+          "nasb": "Against the wall of the house he built stories encompassing the walls of the house around both the nave and the inner sanctuary; thus he made side chambers all around.",
           "words": [
             {
-              "id": "hebrew-1129",
-              "eng": "And he built"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "Against"
-            },
-            {
-              "id": "hebrew-7023",
-              "eng": "the wall"
+              "cht": "靠著"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the temple"
-            },
-            {
-              "id": "hebrew-3326",
-              "eng": "chambers"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "all around",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "殿"
             },
             {
               "id": "hebrew-7023",
-              "eng": "[against] the walls"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the temple"
+              "cht": "牆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5439",
-              "eng": "all around",
-              "punct": "､"
+              "cht": "圍著"
             },
             {
               "id": "hebrew-1964",
-              "eng": "the sanctuary"
+              "cht": "外殿"
             },
             {
               "id": "hebrew-1687",
-              "eng": "and the inner sanctuary",
-              "punct": "–"
+              "cht": "內殿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "thus he made"
+              "cht": "造了"
             },
             {
               "id": "hebrew-6763",
-              "eng": "side chambers"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "all around it",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3326"
+              "cht": "三層旁屋",
+              "punct_cht": "；"
             }
           ]
         },
@@ -714,103 +639,84 @@
             "hebrew-7023": 2.082792210842197
           },
           "verseKey": "ezk.41.6",
-          "cunp": "旁屋有三層，層疊而上，每層排列三十間。旁屋的梁木擱在殿牆坎上，免得插入殿牆。",
+          "nasb": "The side chambers were in three stories, one above another, and thirty in each story; and the side chambers extended to the wall which stood on their inward side all around, that they might be fastened, and not be fastened into the wall of the temple itself.",
           "words": [
             {
               "id": "hebrew-6763",
-              "eng": "And the side chambers [were]"
-            },
-            {
-              "id": "hebrew-6763",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "above"
-            },
-            {
-              "id": "hebrew-6763",
-              "eng": "the other",
-              "punct": "､"
+              "cht": "旁屋"
             },
             {
               "id": "hebrew-7969",
-              "eng": "[in] three [stories]",
-              "punct": "､"
+              "cht": "有三"
             },
             {
-              "id": "hebrew-7970",
-              "eng": "and thirty [chambers]"
+              "id": "",
+              "cht": "層",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "層疊而上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6471",
-              "eng": "in each story",
-              "punct": "–"
+              "cht": "每層排列"
             },
             {
-              "id": "hebrew-935",
-              "eng": "and they rested"
+              "id": "hebrew-7970",
+              "cht": "三十"
             },
             {
-              "id": "hebrew-7023",
-              "eng": "on ledges"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that [were]"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house"
+              "id": "",
+              "cht": "間",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6763",
-              "eng": "for the side chambers"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "around",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "that they might be"
+              "cht": "旁屋"
             },
             {
               "id": "hebrew-270",
-              "eng": "supported",
-              "punct": "､"
+              "cht": "的梁木"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "but not"
+              "id": "hebrew-935",
+              "cht": "擱"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "they had"
-            },
-            {
-              "id": "hebrew-270",
-              "eng": "fastened"
+              "id": "hebrew-834",
+              "cht": "在殿"
             },
             {
               "id": "hebrew-7023",
-              "eng": "to the wall"
+              "cht": "牆"
+            },
+            {
+              "id": "hebrew-5439",
+              "cht": "坎上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "免"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "得"
+            },
+            {
+              "id": "hebrew-270",
+              "cht": "插入"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the temple",
-              "punct": "."
+              "cht": "殿"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-7023",
+              "cht": "牆",
+              "punct_cht": "。"
             }
           ]
         }

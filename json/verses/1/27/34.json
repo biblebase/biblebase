@@ -3,22 +3,41 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8085": "When heard",
-          "hebrew-6215": "Esau",
-          "hebrew-853": "-",
-          "hebrew-1697": "the words",
-          "hebrew-1": "my father",
-          "hebrew-6817": "and he cried",
-          "hebrew-6818": "a cry",
-          "hebrew-1419": "great",
-          "hebrew-4751": "and bitter",
-          "hebrew-5704": "and",
-          "hebrew-3966": "exceeding",
-          "hebrew-559": "and said",
-          "hebrew-1288": "Bless me",
-          "hebrew-1571": "also",
-          "hebrew-589": "me",
-          "": null
+          "eng": {
+            "hebrew-8085": "When heard",
+            "hebrew-6215": "Esau",
+            "hebrew-853": "-",
+            "hebrew-1697": "the words",
+            "hebrew-1": "my father",
+            "hebrew-6817": "and he cried",
+            "hebrew-6818": "a cry",
+            "hebrew-1419": "great",
+            "hebrew-4751": "and bitter",
+            "hebrew-5704": "and",
+            "hebrew-3966": "exceeding",
+            "hebrew-559": "and said",
+            "hebrew-1288": "Bless me",
+            "hebrew-1571": "also",
+            "hebrew-589": "me",
+            "": null
+          },
+          "cht": {
+            "hebrew-8085": "聽了",
+            "hebrew-6215": "以掃",
+            "hebrew-853": "聽了",
+            "hebrew-1697": "的話",
+            "hebrew-1": "我父",
+            "hebrew-6817": "就放聲",
+            "hebrew-6818": "哭",
+            "hebrew-1419": "就放聲",
+            "hebrew-4751": "痛",
+            "hebrew-5704": "就放聲",
+            "hebrew-3966": "就放聲",
+            "hebrew-559": "說",
+            "hebrew-1288": "祝福",
+            "hebrew-1571": "求你也",
+            "hebrew-589": "為我"
+          }
         }
       },
       "translations": {
@@ -40,36 +59,37 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "job.34.28",
-          "cunp": "甚至使貧窮人的哀聲達到他那裏； 他也聽了困苦人的哀聲。",
+          "nasb": "So that they caused the cry of the poor to come to Him, And that He might hear the cry of the afflicted—",
           "words": [
             {
+              "id": "hebrew-1800",
+              "cht": "甚至使貧窮人"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀聲"
+            },
+            {
               "id": "hebrew-935",
-              "eng": "To come"
+              "cht": "達"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to Him"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "so that they caused the cry"
-            },
-            {
-              "id": "hebrew-1800",
-              "eng": "of the poor"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "and the cry"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "of the afflicted"
+              "cht": "到他那裡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8085",
-              "eng": "for He hears",
-              "punct": "."
+              "cht": "他也聽了"
+            },
+            {
+              "id": "hebrew-6041",
+              "cht": "困苦人"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -80,58 +100,46 @@
             "hebrew-6817": 2.306560367072849
           },
           "verseKey": "exo.22.23",
-          "cunp": "若是苦待他們一點，他們向我一哀求，我總要聽他們的哀聲，",
+          "nasb": "If you afflict him at all, and if he does cry out to Me, I will surely hear his cry;",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "If"
+              "cht": "若是"
             },
             {
               "id": "hebrew-6031",
-              "eng": "in any way"
-            },
-            {
-              "id": "hebrew-6031",
-              "eng": "you afflict"
+              "cht": "苦待"
             },
             {
               "id": "hebrew-853",
-              "eng": "them",
-              "punct": "､"
+              "cht": "他們"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-6817",
-              "eng": "at all"
-            },
-            {
-              "id": "hebrew-6817",
-              "eng": "they cry"
+              "id": "hebrew-6031",
+              "cht": "一點",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to Me",
-              "punct": "､"
+              "cht": "他們向我"
+            },
+            {
+              "id": "hebrew-6817",
+              "cht": "一哀求",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8085",
-              "eng": "surely"
+              "cht": "我總要"
             },
             {
               "id": "hebrew-8085",
-              "eng": "I will hear"
+              "cht": "聽"
             },
             {
               "id": "hebrew-6818",
-              "eng": "their cry",
-              "punct": "–"
+              "cht": "他們的哀聲",
+              "punct_cht": "，"
             }
           ]
         },
@@ -142,80 +150,82 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "isa.5.20",
-          "cunp": "禍哉！那些稱惡為善，稱善為惡， 以暗為光，以光為暗， 以苦為甜，以甜為苦的人。",
+          "nasb": "Woe to those who call evil good, and good evil; Who substitute darkness for light and light for darkness; Who substitute bitter for sweet and sweet for bitter!",
           "words": [
             {
               "id": "hebrew-1945",
-              "eng": "Woe"
+              "cht": "禍哉",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-559",
-              "eng": "to those who call"
+              "cht": "那些稱"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
+              "cht": "惡"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good",
-              "punct": "､"
+              "cht": "為善",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2896",
-              "eng": "and good"
+              "cht": "稱善"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "–"
+              "cht": "為惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7760",
-              "eng": "who put"
+              "cht": "以"
             },
             {
               "id": "hebrew-2822",
-              "eng": "darkness"
+              "cht": "暗"
             },
             {
               "id": "hebrew-216",
-              "eng": "for light",
-              "punct": "､"
+              "cht": "為光",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-216",
-              "eng": "and light"
+              "cht": "以光"
             },
             {
               "id": "hebrew-2822",
-              "eng": "for darkness",
-              "punct": "–"
+              "cht": "為暗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7760",
-              "eng": "who put"
+              "cht": "以"
             },
             {
               "id": "hebrew-4751",
-              "eng": "bitter"
+              "cht": "苦"
             },
             {
               "id": "hebrew-4966",
-              "eng": "for sweet",
-              "punct": "､"
+              "cht": "為甜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4966",
-              "eng": "and sweet"
+              "cht": "以甜"
             },
             {
               "id": "hebrew-4751",
-              "eng": "for bitter",
-              "punct": "!"
+              "cht": "為苦"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -225,68 +235,66 @@
             "hebrew-6215": 1.762495576511834
           },
           "verseKey": "gen.36.10",
-          "cunp": "以掃眾子的名字如下。以掃的妻子亞大生以利法；以掃的妻子巴實抹生流珥。",
+          "nasb": "These are the names of Esau’s sons: Eliphaz the son of Esau’s wife Adah, Reuel the son of Esau’s wife Basemath.",
           "words": [
             {
-              "id": "hebrew-428",
-              "eng": "These [were]"
+              "id": "hebrew-6215",
+              "cht": "以掃"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "眾子"
             },
             {
               "id": "hebrew-8034",
-              "eng": "the names"
+              "cht": "的名字"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "of sons"
+              "id": "hebrew-428",
+              "cht": "如下",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6215",
-              "eng": "of Esau",
-              "punct": ":"
+              "cht": "以掃"
             },
             {
-              "id": "hebrew-464",
-              "eng": "Eliphaz"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "id": "hebrew-802",
+              "cht": "的妻子"
             },
             {
               "id": "hebrew-5711",
-              "eng": "of Adah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "the wife"
-            },
-            {
-              "id": "hebrew-6215",
-              "eng": "of Esau",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7467",
-              "eng": "and Reuel"
+              "cht": "亞大"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "生"
             },
             {
-              "id": "hebrew-1315",
-              "eng": "of Basemath",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "the wife"
+              "id": "hebrew-464",
+              "cht": "以利法",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6215",
-              "eng": "of Esau",
-              "punct": "."
+              "cht": "以掃"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "的妻"
+            },
+            {
+              "id": "hebrew-1315",
+              "cht": "子巴實抹"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "生"
+            },
+            {
+              "id": "hebrew-7467",
+              "cht": "流珥",
+              "punct_cht": "。"
             }
           ]
         },
@@ -296,56 +304,49 @@
             "hebrew-4751": 2.57672001355142
           },
           "verseKey": "num.5.24",
-          "cunp": "又叫婦人喝這致咒詛的苦水；這水要進入她裏面變苦了。",
+          "nasb": "Then he shall make the woman drink the water of bitterness that brings a curse, so that the water which brings a curse will go into her and cause bitterness.",
           "words": [
             {
-              "id": "hebrew-8248",
-              "eng": "And drink"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "he shall make"
+              "cht": "又叫"
             },
             {
               "id": "hebrew-802",
-              "eng": "the woman"
+              "cht": "婦人"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "water"
-            },
-            {
-              "id": "hebrew-4751",
-              "eng": "the bitter"
+              "id": "hebrew-8248",
+              "cht": "喝"
             },
             {
               "id": "hebrew-779",
-              "eng": "that brings a curse",
-              "punct": "–"
+              "cht": "這致咒詛"
+            },
+            {
+              "id": "hebrew-4751",
+              "cht": "的苦"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "這水"
             },
             {
               "id": "hebrew-935",
-              "eng": "and shall enter"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "the water"
-            },
-            {
-              "id": "hebrew-779",
-              "eng": "that brings the curse"
+              "cht": "要進入"
             },
             {
               "id": "hebrew-4751",
-              "eng": "[to become] bitter",
-              "punct": "."
+              "cht": "變苦"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -355,79 +356,77 @@
             "hebrew-4751": 2.57672001355142
           },
           "verseKey": "isa.38.17",
-          "cunp": "看哪，我受大苦，本為使我得平安； 你因愛我的靈魂便救我脫離敗壞的坑， 因為你將我一切的罪扔在你的背後。",
+          "nasb": "Lo, for my own welfare I had great bitterness; It is You who has kept my soul from the pit of nothingness, For You have cast all my sins behind Your back.",
           "words": [
             {
               "id": "hebrew-2009",
-              "eng": "Indeed",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4843",
+              "cht": "受"
+            },
+            {
+              "id": "hebrew-4751",
+              "cht": "大苦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7965",
-              "eng": "[it was] for [my own] peace"
-            },
-            {
-              "id": "hebrew-4751",
-              "eng": "great"
-            },
-            {
-              "id": "hebrew-4751",
-              "eng": "great bitterness"
+              "cht": "本為使我得平安",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-859",
-              "eng": "but You"
+              "cht": "你"
             },
             {
               "id": "hebrew-2836",
-              "eng": "have lovingly"
+              "cht": "因愛"
             },
             {
               "id": "hebrew-5315",
-              "eng": "my soul"
+              "cht": "我的靈魂"
             },
             {
-              "id": "hebrew-7845",
-              "eng": "[delivered] from the pit"
+              "id": "",
+              "cht": "（或譯生命）",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1097",
-              "eng": "of corruption",
-              "punct": "､"
+              "cht": "便救我脫離敗壞的"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7993",
-              "eng": "You have cast"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "behind"
-            },
-            {
-              "id": "hebrew-1460",
-              "eng": "Your back"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "你將我一切的"
             },
             {
               "id": "hebrew-2399",
-              "eng": "my sins",
-              "punct": "."
+              "cht": "罪"
             },
             {
-              "id": "hebrew-4843"
+              "id": "hebrew-7993",
+              "cht": "扔"
             },
             {
-              "id": ""
+              "id": "hebrew-310",
+              "cht": "在"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1460",
+              "cht": "你的背後",
+              "punct_cht": "。"
             }
           ]
         },
@@ -437,53 +436,51 @@
             "hebrew-4751": 2.57672001355142
           },
           "verseKey": "ezk.27.31",
-          "cunp": "又為你使頭上光禿， 用麻布束腰， 號咷痛哭， 苦苦悲哀。",
+          "nasb": "Also they will make themselves bald for you And gird themselves with sackcloth; And they will weep for you in bitterness of soul With bitter mourning.",
           "words": [
             {
-              "id": "hebrew-7139",
-              "eng": "And they will shave themselves bald"
+              "id": "hebrew-413",
+              "cht": "又為你"
             },
             {
-              "id": "hebrew-413",
-              "eng": "because of you"
+              "id": "hebrew-7139",
+              "cht": "使"
             },
             {
               "id": "hebrew-7144",
-              "eng": "completely"
-            },
-            {
-              "id": "hebrew-2296",
-              "eng": "and Gird themselves"
+              "cht": "頭上光禿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8242",
-              "eng": "with sackcloth",
-              "punct": "､"
+              "cht": "用麻布"
             },
             {
-              "id": "hebrew-1058",
-              "eng": "and weep"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "for you"
-            },
-            {
-              "id": "hebrew-4751",
-              "eng": "with bitterness"
+              "id": "hebrew-2296",
+              "cht": "束腰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "of heart"
-            },
-            {
-              "id": "hebrew-4553",
-              "eng": "[and] wailing"
+              "cht": "號咷"
             },
             {
               "id": "hebrew-4751",
-              "eng": "bitter",
-              "punct": "."
+              "cht": "痛"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "哭",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4751",
+              "cht": "苦苦"
+            },
+            {
+              "id": "hebrew-4553",
+              "cht": "悲哀",
+              "punct_cht": "。"
             }
           ]
         },
@@ -496,95 +493,92 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "gen.27.42",
-          "cunp": "有人把利百加大兒子以掃的話告訴利百加，她就打發人去，叫了她小兒子雅各來，對他說：「你哥哥以掃想要殺你，報仇雪恨。",
+          "nasb": "Now when the words of her elder son Esau were reported to Rebekah, she sent and called her younger son Jacob, and said to him, “Behold your brother Esau is consoling himself concerning you by planning to kill you.",
           "words": [
             {
-              "id": "hebrew-5046",
-              "eng": "And were told"
-            },
-            {
-              "id": "hebrew-7259",
-              "eng": "to Rebekah"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the words"
-            },
-            {
-              "id": "hebrew-6215",
-              "eng": "of Esau"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "her son"
+              "cht": "有人把"
             },
             {
               "id": "hebrew-1419",
-              "eng": "older",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "so she sent"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "and called"
-            },
-            {
-              "id": "hebrew-3290",
-              "eng": "Jacob"
+              "cht": "利百加大"
             },
             {
               "id": "hebrew-1121",
-              "eng": "her son"
-            },
-            {
-              "id": "hebrew-6996",
-              "eng": "younger",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to him"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "surely",
-              "punct": "､"
+              "cht": "兒子"
             },
             {
               "id": "hebrew-6215",
-              "eng": "Esau",
-              "punct": "､"
+              "cht": "以掃"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話"
+            },
+            {
+              "id": "hebrew-5046",
+              "cht": "告訴"
+            },
+            {
+              "id": "hebrew-7259",
+              "cht": "利百加",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "她就打發"
+            },
+            {
+              "id": "",
+              "cht": "人去",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "叫了"
+            },
+            {
+              "id": "hebrew-6996",
+              "cht": "她小"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "兒子"
+            },
+            {
+              "id": "hebrew-3290",
+              "cht": "雅各"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "對他"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-251",
-              "eng": "your brother"
+              "cht": "你哥哥"
             },
             {
-              "id": "hebrew-5162",
-              "eng": "comforts himself",
-              "punct": "､"
+              "id": "hebrew-6215",
+              "cht": "以掃"
             },
             {
               "id": "hebrew-2026",
-              "eng": "to kill you",
-              "punct": "."
+              "cht": "想要殺"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-5162",
+              "cht": "報仇雪恨",
+              "punct_cht": "。"
             }
           ]
         },
@@ -596,74 +590,66 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "1sa.4.14",
-          "cunp": "以利聽見呼喊的聲音就問說：「這喧嚷是甚麼緣故呢？」那人急忙來報信給以利。",
+          "nasb": "When Eli heard the noise of the outcry, he said, “What does the noise of this commotion mean?” Then the man came hurriedly and told Eli.",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "And when heard"
-            },
-            {
               "id": "hebrew-5941",
-              "eng": "Eli"
+              "cht": "以利"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "the noise"
+              "id": "hebrew-8085",
+              "cht": "聽見"
             },
             {
               "id": "hebrew-6818",
-              "eng": "of the outcry",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "what [does mean]"
+              "cht": "呼喊"
             },
             {
               "id": "hebrew-6963",
-              "eng": "the sound"
+              "cht": "的聲音"
             },
             {
-              "id": "hebrew-1995",
-              "eng": "of tumult"
+              "id": "hebrew-559",
+              "cht": "就問說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-1995",
+              "cht": "喧嚷"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "是甚麼"
+            },
+            {
+              "id": "",
+              "cht": "緣故呢",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-376",
-              "eng": "and the man"
+              "cht": "那人"
             },
             {
               "id": "hebrew-4116",
-              "eng": "quickly",
-              "punct": "､"
+              "cht": "急忙"
             },
             {
               "id": "hebrew-935",
-              "eng": "and came"
+              "cht": "來"
             },
             {
               "id": "hebrew-5046",
-              "eng": "and told"
+              "cht": "報信"
             },
             {
               "id": "hebrew-5941",
-              "eng": "Eli",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "給以利",
+              "punct_cht": "。"
             }
           ]
         },
@@ -674,42 +660,42 @@
             "hebrew-4751": 2.57672001355142
           },
           "verseKey": "isa.33.7",
-          "cunp": "看哪，他們的豪傑在外頭哀號； 求和的使臣痛痛哭泣。",
+          "nasb": "Behold, their brave men cry in the streets, The ambassadors of peace weep bitterly.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Surely",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-691",
-              "eng": "their valiant ones"
-            },
-            {
-              "id": "hebrew-6817",
-              "eng": "shall cry"
+              "cht": "他們的豪傑"
             },
             {
               "id": "hebrew-2351",
-              "eng": "outside",
-              "punct": "､"
+              "cht": "在外頭"
             },
             {
-              "id": "hebrew-4397",
-              "eng": "the ambassadors"
+              "id": "hebrew-6817",
+              "cht": "哀號",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7965",
-              "eng": "of peace"
+              "cht": "求和"
+            },
+            {
+              "id": "hebrew-4397",
+              "cht": "的使臣"
             },
             {
               "id": "hebrew-4751",
-              "eng": "bitterly"
+              "cht": "痛痛"
             },
             {
               "id": "hebrew-1058",
-              "eng": "shall weep",
-              "punct": "."
+              "cht": "哭泣",
+              "punct_cht": "。"
             }
           ]
         }

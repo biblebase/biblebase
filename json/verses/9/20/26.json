@@ -3,17 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3808": "not",
-          "hebrew-1696": "did say",
-          "hebrew-7586": "Saul",
-          "hebrew-3972": "anything",
-          "hebrew-3117": "day",
-          "hebrew-1931": "he [is]",
-          "hebrew-3588": "surely",
-          "hebrew-559": "he thought",
-          "hebrew-4745": "Something has happened to",
-          "hebrew-1115": "not",
-          "hebrew-2889": "he [is] unclean"
+          "eng": {
+            "hebrew-3808": "not",
+            "hebrew-1696": "did say",
+            "hebrew-7586": "Saul",
+            "hebrew-3972": "anything",
+            "hebrew-3117": "day",
+            "hebrew-1931": "he [is]",
+            "hebrew-3588": "surely",
+            "hebrew-559": "he thought",
+            "hebrew-4745": "Something has happened to",
+            "hebrew-1115": "not",
+            "hebrew-2889": "he [is] unclean"
+          },
+          "cht": {
+            "hebrew-3808": "是不",
+            "hebrew-1696": "說",
+            "hebrew-7586": "掃羅",
+            "hebrew-3972": "甚麼",
+            "hebrew-3117": "日",
+            "hebrew-1931": "大衛",
+            "hebrew-3588": "他必定",
+            "hebrew-559": "他想",
+            "hebrew-4745": "遇事",
+            "hebrew-1115": "偶染不",
+            "hebrew-2889": "潔"
+          }
         }
       },
       "translations": {
@@ -29,109 +44,103 @@
             "hebrew-4745": 5.208574812158221
           },
           "verseKey": "ecc.3.19",
-          "cunp": "因為世人遭遇的，獸也遭遇，所遭遇的都是一樣：這個怎樣死，那個也怎樣死，氣息都是一樣。人不能強於獸，都是虛空。",
+          "nasb": "For the fate of the sons of men and the fate of beasts is the same. As one dies so dies the other; indeed, they all have the same breath and there is no advantage for man over beast, for all is vanity.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-4745",
-              "eng": "what happens to"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "因為"
             },
             {
               "id": "hebrew-120",
-              "eng": "of men"
+              "cht": "世人"
             },
             {
               "id": "hebrew-4745",
-              "eng": "and happens to"
+              "cht": "遭遇的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-929",
-              "eng": "animals",
-              "punct": "–"
+              "cht": "獸"
             },
             {
               "id": "hebrew-4745",
-              "eng": "and befalls"
+              "cht": "也遭遇",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4745",
+              "cht": "所遭遇的"
             },
             {
               "id": "hebrew-259",
-              "eng": "one [thing]"
-            },
-            {
-              "id": "hebrew-4194",
-              "eng": "as dies",
-              "punct": "､"
+              "cht": "都是一樣",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [one]"
+              "cht": "這個"
+            },
+            {
+              "id": "hebrew-4194",
+              "cht": "怎樣死",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "那個"
             },
             {
               "id": "hebrew-3651",
-              "eng": "so"
+              "cht": "也怎樣"
             },
             {
               "id": "hebrew-4194",
-              "eng": "dies"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this [one]",
-              "punct": "–"
+              "cht": "死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7307",
-              "eng": "and breath",
-              "punct": "–"
+              "cht": "氣息"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "surely they all have"
-            },
-            {
-              "id": "hebrew-4195",
-              "eng": "and advantage"
+              "cht": "是一樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "over"
-            },
-            {
-              "id": "hebrew-929",
-              "eng": "animals",
-              "punct": "､"
+              "cht": "人"
             },
             {
               "id": "hebrew-369",
-              "eng": "has no"
+              "cht": "不能"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4195",
+              "cht": "強"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "於"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "獸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
             },
             {
               "id": "hebrew-1892",
-              "eng": "[is] vanity",
-              "punct": "."
+              "cht": "是虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -142,107 +151,104 @@
             "hebrew-2889": 1.8210031994102585
           },
           "verseKey": "ecc.9.2",
-          "cunp": "凡臨到眾人的事都是一樣：義人和惡人都遭遇一樣的事；好人，潔淨人和不潔淨人，獻祭的與不獻祭的，也是一樣。好人如何，罪人也如何；起誓的如何，怕起誓的也如何。",
+          "nasb": "It is the same for all. There is one fate for the righteous and for the wicked; for the good, for the clean and for the unclean; for the man who offers a sacrifice and for the one who does not sacrifice. As the good man is, so is the sinner; as the swearer is, so is the one who is afraid to swear.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All things [come]"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "alike"
+              "cht": "凡"
             },
             {
               "id": "hebrew-3605",
-              "eng": "to all",
-              "punct": "–"
+              "cht": "臨到眾人"
             },
             {
-              "id": "hebrew-4745",
-              "eng": "event [happens]"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "id": "hebrew-834",
+              "cht": "的事都是一樣",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6662",
-              "eng": "to the righteous",
-              "punct": "､"
+              "cht": "義人"
             },
             {
               "id": "hebrew-7563",
-              "eng": "and the wicked",
-              "punct": "–"
+              "cht": "和惡人"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "都遭遇一樣的"
+            },
+            {
+              "id": "hebrew-4745",
+              "cht": "事",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2896",
-              "eng": "to the good"
+              "cht": "好人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2889",
-              "eng": "and the clean",
-              "punct": "､"
+              "cht": "潔淨人"
             },
             {
               "id": "hebrew-2931",
-              "eng": "and the unclean",
-              "punct": "–"
+              "cht": "和不潔淨人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2076",
-              "eng": "and to him who sacrifices",
-              "punct": "､"
+              "cht": "獻祭的"
             },
             {
               "id": "hebrew-834",
-              "eng": "and him who"
+              "cht": "與"
             },
             {
               "id": "hebrew-369",
-              "eng": "not",
-              "punct": "–"
+              "cht": "不"
             },
             {
               "id": "hebrew-2076",
-              "eng": "does sacrifice"
+              "cht": "獻祭的"
+            },
+            {
+              "id": "",
+              "cht": "也是一樣",
+              "punct_cht": "，。"
             },
             {
               "id": "hebrew-2896",
-              "eng": "as the is good",
-              "punct": "､"
+              "cht": "好人如何",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2398",
-              "eng": "so the [is] sinner",
-              "punct": "–"
+              "cht": "罪人也如何",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7650",
-              "eng": "He who takes an oath",
-              "punct": "､"
+              "cht": "起誓的"
             },
             {
-              "id": "hebrew-834",
-              "eng": "as"
+              "id": "",
+              "cht": "如何",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3373",
+              "cht": "怕"
             },
             {
               "id": "hebrew-7621",
-              "eng": "an oath"
+              "cht": "起誓的"
             },
             {
-              "id": "hebrew-3372",
-              "eng": "[he] who fears",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3373"
+              "id": "hebrew-834",
+              "cht": "也如何",
+              "punct_cht": "。"
             }
           ]
         },
@@ -254,89 +260,85 @@
             "hebrew-4745": 5.208574812158221
           },
           "verseKey": "ecc.2.15",
-          "cunp": "我就心裏說：「愚昧人所遇見的，我也必遇見，我為何更有智慧呢？」我心裏說，這也是虛空。",
+          "nasb": "Then I said to myself, “As is the fate of the fool, it will also befall me. Why then have I been extremely wise?” So I said to myself, “This too is vanity.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "So said"
-            },
-            {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-3820",
-              "eng": "in my heart",
-              "punct": "､"
+              "cht": "就心裡"
             },
             {
-              "id": "hebrew-4745",
-              "eng": "as it happens to"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3684",
-              "eng": "the fool",
-              "punct": "､"
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-4745",
+              "cht": "所遇見的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-589",
-              "eng": "me"
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-7136",
-              "eng": "it happens to"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "and why"
-            },
-            {
-              "id": "hebrew-2449",
-              "eng": "was wise"
+              "cht": "必遇見",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
-              "id": "hebrew-227",
-              "eng": "then"
+              "id": "hebrew-4100",
+              "cht": "為何"
             },
             {
               "id": "hebrew-3148",
-              "eng": "more"
+              "cht": "更有"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "and I said"
+              "id": "hebrew-2449",
+              "cht": "智慧"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-3820",
-              "eng": "in my heart",
-              "punct": "､"
+              "cht": "我心裡"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-1696",
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也是"
             },
             {
               "id": "hebrew-1892",
-              "eng": "[is] vanity",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-7945"
+              "cht": "虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -349,162 +351,150 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "1sa.29.3",
-          "cunp": "非利士人的首領說：「這些希伯來人在這裏做甚麼呢？」亞吉對他們說：「這不是以色列王掃羅的臣子大衛嗎？他在我這裏有些年日了。自從他投降我直到今日，我未曾見他有過錯。」",
+          "nasb": "Then the commanders of the Philistines said, “What are these Hebrews doing here?” And Achish said to the commanders of the Philistines, “Is this not David, the servant of Saul the king of Israel, who has been with me these days, or rather these years, and I have found no fault in him from the day he deserted to me to this day?”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "hebrew-6430",
+              "cht": "非利士人"
             },
             {
               "id": "hebrew-8269",
-              "eng": "the princes"
+              "cht": "的首領"
             },
             {
-              "id": "hebrew-6430",
-              "eng": "of the Philistines",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "what [are doing here]"
-            },
-            {
-              "id": "hebrew-5680",
-              "eng": "Hebrews"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-428",
-              "eng": "these"
+              "cht": "這些"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "hebrew-5680",
+              "cht": "希伯來人"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "在這裡做甚麼"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-397",
-              "eng": "Achish"
+              "cht": "亞吉"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-8269",
-              "eng": "the princes"
+              "cht": "對"
             },
             {
               "id": "hebrew-6430",
-              "eng": "of the Philistines",
-              "punct": "､"
+              "cht": "他們"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "[Is] not"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-1732",
-              "eng": "David",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "the servant"
-            },
-            {
-              "id": "hebrew-7586",
-              "eng": "of Saul"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "id": "hebrew-3808",
+              "cht": "不是"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-7586",
+              "cht": "掃羅"
+            },
+            {
+              "id": "hebrew-5650",
+              "cht": "的臣子"
+            },
+            {
+              "id": "hebrew-1732",
+              "cht": "大衛"
+            },
+            {
+              "id": "",
+              "cht": "麼",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "他"
             },
             {
               "id": "hebrew-1961",
-              "eng": "has been"
+              "cht": "在"
             },
             {
               "id": "hebrew-854",
-              "eng": "with me"
+              "cht": "我這裡"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [is]"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "days",
-              "punct": "､"
+              "cht": "有些"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this [is]"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "I have found"
-            },
-            {
-              "id": "hebrew-3972",
-              "eng": "fault"
+              "cht": "年"
             },
             {
               "id": "hebrew-3117",
-              "eng": "since"
+              "cht": "日"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "自從"
             },
             {
               "id": "hebrew-5307",
-              "eng": "he defected [to me]"
+              "cht": "他投降"
             },
             {
               "id": "hebrew-5704",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day"
+              "cht": "我直到"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this",
-              "punct": "."
+              "cht": "今"
             },
             {
-              "id": ""
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "我未"
             },
             {
-              "id": ""
+              "id": "hebrew-4672",
+              "cht": "曾見"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3972",
+              "cht": "有過錯",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -514,111 +504,104 @@
             "hebrew-4745": 5.208574812158221
           },
           "verseKey": "1sa.6.9",
-          "cunp": "你們要看看：車若直行以色列的境界到伯‧示麥去，這大災就是耶和華降在我們身上的；若不然，便可以知道不是他的手擊打我們，是我們偶然遇見的。」",
+          "nasb": "Watch, if it goes up by the way of its own territory to Beth-shemesh, then He has done us this great evil. But if not, then we will know that it was not His hand that struck us; it happened to us by chance.”",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "And watch",
-              "punct": "､"
+              "cht": "你們要看看",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-518",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "the road to"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "its own territory"
+              "cht": "車若"
             },
             {
               "id": "hebrew-5927",
-              "eng": "it goes up"
+              "cht": "直行"
+            },
+            {
+              "id": "hebrew-1366",
+              "cht": "以色列的境界"
+            },
+            {
+              "id": "",
+              "cht": "到伯‧"
             },
             {
               "id": "hebrew-1053",
-              "eng": "Beth Shemesh",
-              "punct": "､"
+              "cht": "示麥"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "[then] He"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "has done"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "disaster",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-518",
-              "eng": "but if"
+              "id": "hebrew-1419",
+              "cht": "大"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "then we shall know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that [it is]"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "His hand"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "[that] struck"
-            },
-            {
-              "id": "hebrew-4745",
-              "eng": "by chance"
+              "id": "hebrew-7451",
+              "cht": "災"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "就是耶和華"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "降"
+            },
+            {
+              "id": "",
+              "cht": "身上的",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "若"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不然",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "便可以知道"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不是"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "他的手"
+            },
+            {
+              "id": "hebrew-5060",
+              "cht": "擊打"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-4745",
+              "cht": "偶然"
             },
             {
               "id": "hebrew-1961",
-              "eng": "happened"
+              "cht": "遇見"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -628,107 +611,104 @@
             "hebrew-4745": 5.208574812158221
           },
           "verseKey": "ecc.9.3",
-          "cunp": "在日光之下所行的一切事上有一件禍患，就是眾人所遭遇的都是一樣，並且世人的心充滿了惡；活着的時候心裏狂妄，後來就歸死人那裏去了。",
+          "nasb": "This is an evil in all that is done under the sun, that there is one fate for all men. Furthermore, the hearts of the sons of men are full of evil and insanity is in their hearts throughout their lives. Afterwards they go to the dead.",
           "words": [
             {
-              "id": "hebrew-2088",
-              "eng": "This [is]"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "an evil"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "in all"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "is done"
+              "id": "hebrew-8121",
+              "cht": "在日光"
             },
             {
               "id": "hebrew-8478",
-              "eng": "under"
+              "cht": "之下"
             },
             {
-              "id": "hebrew-8121",
-              "eng": "the sun",
-              "punct": "､"
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-4745",
-              "eng": "thing [happens]"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "id": "hebrew-6213",
+              "cht": "行"
             },
             {
               "id": "hebrew-3605",
-              "eng": "to all",
-              "punct": "–"
+              "cht": "的一切事上"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "and Truly"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "the hearts"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "of men"
-            },
-            {
-              "id": "hebrew-4390",
-              "eng": "are full"
+              "id": "hebrew-2088",
+              "cht": "有一件"
             },
             {
               "id": "hebrew-7451",
-              "eng": "of evil",
-              "punct": "､"
+              "cht": "禍患",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1947",
-              "eng": "and madness [is]"
+              "id": "hebrew-3588",
+              "cht": "就是"
             },
             {
-              "id": "hebrew-3824",
-              "eng": "in their hearts"
+              "id": "hebrew-3605",
+              "cht": "眾人"
+            },
+            {
+              "id": "hebrew-4745",
+              "cht": "所遭遇的"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "都是一樣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "並且"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "世人"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "的心"
+            },
+            {
+              "id": "hebrew-4390",
+              "cht": "充滿了"
+            },
+            {
+              "id": "hebrew-7451",
+              "cht": "惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2416",
-              "eng": "while they live",
-              "punct": "､"
+              "cht": "活著的時候"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心裡"
+            },
+            {
+              "id": "hebrew-1947",
+              "cht": "狂妄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-310",
-              "eng": "and after that [they go]"
+              "cht": "後來"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "就歸"
             },
             {
               "id": "hebrew-4191",
-              "eng": "the dead",
-              "punct": "."
+              "cht": "死"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "人那裡去了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -738,72 +718,71 @@
             "hebrew-4745": 5.208574812158221
           },
           "verseKey": "ecc.2.14",
-          "cunp": "智慧人的眼目光明，愚昧人在黑暗裏行。我卻看明有一件事，這兩等人都必遇見。",
+          "nasb": "The wise man’s eyes are in his head, but the fool walks in darkness. And yet I know that one fate befalls them both.",
           "words": [
             {
               "id": "hebrew-2450",
-              "eng": "Of the wise man"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-5869",
-              "eng": "eyes [are]"
+              "cht": "的眼目"
+            },
+            {
+              "id": "",
+              "cht": "光明（"
             },
             {
               "id": "hebrew-7218",
-              "eng": "in his head",
-              "punct": "–"
+              "cht": "光明原文是在他頭上）",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3684",
-              "eng": "but the fool"
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-2822",
-              "eng": "in darkness",
-              "punct": "."
+              "cht": "在黑暗裡"
             },
             {
               "id": "hebrew-1980",
-              "eng": "Walks"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "and yet perceived"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "cht": "行",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
-              "id": "hebrew-4745",
-              "eng": "that the event"
+              "id": "hebrew-1571",
+              "cht": "卻"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "看明"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "有一件"
             },
             {
-              "id": "hebrew-7136",
-              "eng": "happens to"
+              "id": "hebrew-7945",
+              "cht": "事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "這兩等人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "them all",
-              "punct": "."
+              "cht": "都"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-7945"
+              "id": "hebrew-7136",
+              "cht": "必遇見",
+              "punct_cht": "。"
             }
           ]
         },
@@ -815,90 +794,72 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "num.22.38",
-          "cunp": "巴蘭說：「我已經到你這裏來了！現在我豈能擅自說甚麼呢？神將甚麼話傳給我，我就說甚麼。」",
+          "nasb": "So Balaam said to Balak, “Behold, I have come now to you! Am I able to speak anything at all? The word that God puts in my mouth, that I shall speak.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "hebrew-1109",
+              "cht": "巴蘭"
             },
             {
-              "id": "hebrew-1109",
-              "eng": "Balaam"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1111",
-              "eng": "Balak",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "Look",
-              "punct": "､"
+              "cht": "我已經到你這裡"
             },
             {
               "id": "hebrew-935",
-              "eng": "I have come"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to you"
+              "cht": "來了",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-6258",
-              "eng": "now"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "have at all"
-            },
-            {
-              "id": "hebrew-3201",
-              "eng": "I any power"
+              "cht": "現在"
             },
             {
               "id": "hebrew-1696",
-              "eng": "to say"
+              "cht": "我豈能擅自說"
             },
             {
               "id": "hebrew-3972",
-              "eng": "anything"
+              "cht": "甚麼"
             },
             {
-              "id": "hebrew-1697",
-              "eng": "the word"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-7760",
-              "eng": "puts"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "將甚麼"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "話"
+            },
+            {
+              "id": "hebrew-7760",
+              "cht": "傳"
             },
             {
               "id": "hebrew-6310",
-              "eng": "in my mouth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "that"
+              "cht": "給我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1696",
-              "eng": "I must speak",
-              "punct": "."
+              "cht": "我就說"
             },
             {
-              "id": ""
+              "id": "hebrew-853",
+              "cht": "甚麼",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -909,82 +870,84 @@
             "hebrew-2889": 1.8210031994102585
           },
           "verseKey": "zec.3.5",
-          "cunp": "我說：「要將潔淨的冠冕戴在他頭上。」他們就把潔淨的冠冕戴在他頭上，給他穿上華美的衣服，耶和華的使者在旁邊站立。",
+          "nasb": "Then I said, “Let them put a clean turban on his head.” So they put a clean turban on his head and clothed him with garments, while the angel of the Lord was standing by.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And I said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7760",
-              "eng": "let them put"
-            },
-            {
-              "id": "hebrew-6797",
-              "eng": "a turban"
+              "cht": "我說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2889",
-              "eng": "clean"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "his head",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7760",
-              "eng": "So they put"
+              "cht": "要將潔淨"
             },
             {
               "id": "hebrew-6797",
-              "eng": "a turban"
+              "cht": "的冠冕"
             },
             {
-              "id": "hebrew-2889",
-              "eng": "clean"
+              "id": "hebrew-7760",
+              "cht": "戴"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-7218",
-              "eng": "his head",
-              "punct": "､"
+              "cht": "他頭"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-2889",
+              "cht": "他們就把潔淨"
+            },
+            {
+              "id": "hebrew-6797",
+              "cht": "的冠冕"
+            },
+            {
+              "id": "hebrew-7760",
+              "cht": "戴"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "他頭"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3847",
-              "eng": "and they put on him"
+              "cht": "給他穿上"
             },
             {
               "id": "hebrew-899",
-              "eng": "the clothes",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4397",
-              "eng": "And the Angel"
+              "cht": "華美的衣服",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-4397",
+              "cht": "的使者"
             },
             {
               "id": "hebrew-5975",
-              "eng": "stood by",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "在旁邊站立",
+              "punct_cht": "。"
             }
           ]
         },
@@ -996,71 +959,68 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "1sa.12.5",
-          "cunp": "撒母耳對他們說：「你們在我手裏沒有找着甚麼，有耶和華和他的受膏者今日為證。」他們說：「願他為證。」",
+          "nasb": "He said to them, “The Lord is witness against you, and His anointed is witness this day that you have found nothing in my hand.” And they said, “He is witness.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And he said"
-            },
-            {
               "id": "hebrew-413",
-              "eng": "to them"
+              "cht": "撒母耳對他們"
             },
             {
-              "id": "hebrew-5707",
-              "eng": "[is] witness"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-5707",
-              "eng": "and [is] witness"
-            },
-            {
-              "id": "hebrew-4899",
-              "eng": "His anointed"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "you have found"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3027",
-              "eng": "in my hand",
-              "punct": "."
+              "cht": "在我手裡"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "找著"
             },
             {
               "id": "hebrew-3972",
-              "eng": "Anything"
+              "cht": "甚麼",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and they answered",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "有耶和華"
             },
             {
               "id": "hebrew-5707",
-              "eng": "[He is] witness",
-              "punct": "."
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-4899",
+              "cht": "他的受膏者"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "今"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-5707",
+              "cht": "為證",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "他們說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-5707",
+              "cht": "願他為證",
+              "punct_cht": "。」"
             }
           ]
         }

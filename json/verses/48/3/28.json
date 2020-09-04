@@ -3,25 +3,46 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3756": "neither",
-          "greek-1762": "there is",
-          "greek-2453": "Jew",
-          "greek-3761": "nor",
-          "greek-1672": "Greek",
-          "greek-1401": "slave",
-          "greek-1658": "free",
-          "greek-730": "male",
-          "greek-2532": "and",
-          "greek-2338": "female",
-          "greek-3956": "all",
-          "greek-1063": "for",
-          "greek-5210": "you",
-          "greek-1520": "one",
-          "greek-2075": "are",
-          "greek-1722": "in",
-          "greek-5547": "Christ",
-          "greek-2424": "Jesus",
-          "": null
+          "eng": {
+            "greek-3756": "neither",
+            "greek-1762": "there is",
+            "greek-2453": "Jew",
+            "greek-3761": "nor",
+            "greek-1672": "Greek",
+            "greek-1401": "slave",
+            "greek-1658": "free",
+            "greek-730": "male",
+            "greek-2532": "and",
+            "greek-2338": "female",
+            "greek-3956": "all",
+            "greek-1063": "for",
+            "greek-5210": "you",
+            "greek-1520": "one",
+            "greek-2075": "are",
+            "greek-1722": "in",
+            "greek-5547": "Christ",
+            "greek-2424": "Jesus",
+            "": null
+          },
+          "cht": {
+            "greek-3756": "或",
+            "greek-1762": "並不分",
+            "greek-2453": "猶太人、",
+            "greek-3761": "或",
+            "greek-1672": "希臘人",
+            "greek-1401": "為奴的",
+            "greek-1658": "自主的、",
+            "greek-730": "男",
+            "greek-2338": "女",
+            "greek-3956": "都",
+            "greek-1063": "因為",
+            "greek-5210": "你們",
+            "greek-1520": "一",
+            "greek-2075": "成為",
+            "greek-1722": "裡",
+            "greek-5547": "在基督",
+            "greek-2424": "耶穌"
+          }
         }
       },
       "translations": {
@@ -46,97 +67,86 @@
             "greek-5547": 0.825184085840596
           },
           "verseKey": "col.3.11",
-          "cunp": "在此並不分希臘人、猶太人，受割禮的、未受割禮的，化外人、西古提人，為奴的、自主的，惟有基督是包括一切，又住在各人之內。",
+          "nasb": "a renewal in which there is no distinction between Greek and Jew, circumcised and uncircumcised, barbarian, Scythian, slave and freeman, but Christ is all, and in all.",
           "words": [
             {
               "id": "greek-3699",
-              "eng": "where"
+              "cht": "在此"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "並不"
             },
             {
               "id": "greek-1762",
-              "eng": "there is"
+              "cht": "分"
             },
             {
               "id": "greek-1672",
-              "eng": "Greek"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "希臘人、"
             },
             {
               "id": "greek-2453",
-              "eng": "Jew",
-              "punct": ","
+              "cht": "猶太人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4061",
-              "eng": "circumcision"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "受割禮的、"
             },
             {
               "id": "greek-203",
-              "eng": "uncircumcision",
-              "punct": ","
+              "cht": "未受割禮的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-915",
-              "eng": "Barbarian",
-              "punct": ","
+              "cht": "化外人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4658",
-              "eng": "Scythian",
-              "punct": ","
+              "cht": "西古提人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1401",
-              "eng": "slave",
-              "punct": ","
+              "cht": "為奴的、"
             },
             {
               "id": "greek-1658",
-              "eng": "free",
-              "punct": ";"
+              "cht": "自主的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
+              "cht": "惟有"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ [is]",
-              "punct": "."
+              "cht": "基督"
             },
             {
-              "id": ""
+              "id": "greek-3956",
+              "cht": "是包括一切",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "又"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "住在"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "各人"
+            },
+            {
+              "id": "",
+              "cht": "之內",
+              "punct_cht": "。"
             }
           ]
         },
@@ -151,111 +161,98 @@
             "greek-1520": 1.0017049808855352
           },
           "verseKey": "1co.12.13",
-          "cunp": "我們不拘是猶太人，是希臘人，是為奴的，是自主的，都從一位聖靈受洗，成了一個身體，飲於一位聖靈。",
+          "nasb": "For by one Spirit we were all baptized into one body, whether Jews or Greeks, whether slaves or free, and we were all made to drink of one Spirit.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "Also"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit",
-              "punct": ","
-            },
-            {
               "id": "greek-2249",
-              "eng": "we"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
-            },
-            {
-              "id": "greek-907",
-              "eng": "were baptized",
-              "punct": ","
+              "cht": "我們"
             },
             {
               "id": "greek-1535",
-              "eng": "whether"
+              "cht": "不拘"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews"
+              "cht": "是猶太人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1535",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "greek-1672",
-              "eng": "Greeks",
-              "punct": ","
+              "cht": "希臘人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1535",
-              "eng": "whether"
+              "cht": "是"
             },
             {
               "id": "greek-1401",
-              "eng": "slaves"
+              "cht": "為奴的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1535",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "greek-1658",
-              "eng": "free",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "自主的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "都"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "從"
             },
             {
               "id": "greek-1520",
-              "eng": "one"
+              "cht": "一位"
             },
             {
               "id": "greek-4151",
-              "eng": "Spirit"
+              "cht": "聖靈"
+            },
+            {
+              "id": "greek-907",
+              "cht": "受洗",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "成了"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一個"
+            },
+            {
+              "id": "greek-4983",
+              "cht": "身體",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4222",
-              "eng": "we were made to drink",
-              "punct": "."
+              "cht": "飲"
             },
             {
-              "id": "greek-1519"
+              "id": "greek-1519",
+              "cht": "於"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一位"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "聖靈",
+              "punct_cht": "。"
             }
           ]
         },
@@ -266,157 +263,113 @@
             "greek-2338": 3.1769789830261015
           },
           "verseKey": "rom.1.27",
-          "cunp": "男人也是如此，棄了女人順性的用處，慾火攻心，彼此貪戀，男和男行可羞恥的事，就在自己身上受這妄為當得的報應。",
+          "nasb": "and in the same way also the men abandoned the natural function of the woman and burned in their desire toward one another, men with men committing indecent acts and receiving in their own persons the due penalty of their error.",
           "words": [
             {
-              "id": "greek-3668",
-              "eng": "Likewise"
+              "id": "greek-730",
+              "cht": "男人"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-5037",
-              "eng": "then"
+              "cht": "是"
             },
             {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-730",
-              "eng": "males",
-              "punct": ","
+              "id": "greek-3668",
+              "cht": "如此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-863",
-              "eng": "having left"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5446",
-              "eng": "natural"
-            },
-            {
-              "id": "greek-5540",
-              "eng": "use"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "棄了"
             },
             {
               "id": "greek-2338",
-              "eng": "female",
-              "punct": ","
+              "cht": "女人"
             },
             {
-              "id": "greek-1572",
-              "eng": "were inflamed"
+              "id": "greek-5446",
+              "cht": "順性的"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5540",
+              "cht": "用處",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3715",
-              "eng": "desire"
+              "cht": "慾火"
             },
             {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "toward"
+              "id": "greek-1572",
+              "cht": "攻心",
+              "punct_cht": "，"
             },
             {
               "id": "greek-240",
-              "eng": "one another",
-              "punct": ","
+              "cht": "彼此"
+            },
+            {
+              "id": "",
+              "cht": "貪戀",
+              "punct_cht": "，"
             },
             {
               "id": "greek-730",
-              "eng": "males"
+              "cht": "男"
             },
             {
               "id": "greek-1722",
-              "eng": "with"
+              "cht": "和"
             },
             {
               "id": "greek-730",
-              "eng": "males",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-808",
-              "eng": "shame"
+              "cht": "男"
             },
             {
               "id": "greek-2716",
-              "eng": "working out",
-              "punct": ","
+              "cht": "行"
+            },
+            {
+              "id": "greek-808",
+              "cht": "可羞恥的事",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-489",
-              "eng": "recompense"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-1163",
-              "eng": "was fitting"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4106",
-              "eng": "error"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": ","
+              "cht": "就"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-1438",
-              "eng": "themselves"
+              "cht": "自己"
             },
             {
               "id": "greek-618",
-              "eng": "receiving",
-              "punct": "."
+              "cht": "身上受"
             },
             {
-              "id": ""
+              "id": "greek-846",
+              "cht": "這"
+            },
+            {
+              "id": "greek-4106",
+              "cht": "妄為"
+            },
+            {
+              "id": "greek-1163",
+              "cht": "當得"
+            },
+            {
+              "id": "greek-489",
+              "cht": "的報應",
+              "punct_cht": "。"
             }
           ]
         },
@@ -427,127 +380,95 @@
             "greek-1672": 3.231394854468145
           },
           "verseKey": "jhn.7.35",
-          "cunp": "猶太人就彼此對問說：「這人要往哪裏去，叫我們找不着呢？難道他要往散住希臘中的猶太人那裏去教訓希臘人嗎？",
+          "nasb": "The Jews then said to one another, “Where does this man intend to go that we will not find Him? He is not intending to go to the Dispersion among the Greeks, and teach the Greeks, is He?",
           "words": [
             {
-              "id": "greek-2036",
-              "eng": "Said"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-2453",
-              "eng": "Jews"
+              "cht": "猶太人"
             },
             {
               "id": "greek-4314",
-              "eng": "among"
+              "cht": "就彼此"
             },
             {
-              "id": "greek-1438",
-              "eng": "themselves",
-              "punct": ","
-            },
-            {
-              "id": "greek-4226",
-              "eng": "Where"
+              "id": "greek-2036",
+              "cht": "對問說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3778",
-              "eng": "He"
+              "cht": "這人"
             },
             {
               "id": "greek-3195",
-              "eng": "is about"
+              "cht": "要"
+            },
+            {
+              "id": "greek-4226",
+              "cht": "往那裡"
             },
             {
               "id": "greek-4198",
-              "eng": "to go"
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "that"
+              "cht": "叫"
             },
             {
               "id": "greek-2249",
-              "eng": "we"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2147",
-              "eng": "will find"
+              "cht": "我們"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "?"
+              "cht": "找"
             },
             {
-              "id": "greek-3361",
-              "eng": "Not"
+              "id": "greek-3756",
+              "cht": "不"
             },
             {
-              "id": "greek-1519",
-              "eng": "to"
+              "id": "greek-2147",
+              "cht": "著"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1290",
-              "eng": "Dispersion"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "among the"
-            },
-            {
-              "id": "greek-1672",
-              "eng": "Greeks"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-3195",
-              "eng": "is He about"
+              "cht": "難道他要"
             },
             {
-              "id": "greek-4198",
-              "eng": "to go"
+              "id": "greek-1519",
+              "cht": "往"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1321",
-              "eng": "to teach"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1290",
+              "cht": "散住"
             },
             {
               "id": "greek-1672",
-              "eng": "Greeks",
-              "punct": "?"
+              "cht": "希臘"
             },
             {
-              "id": "greek-2147"
+              "id": "greek-4198",
+              "cht": "中的猶太人那裡去"
             },
             {
-              "id": ""
+              "id": "greek-1321",
+              "cht": "教訓"
             },
             {
-              "id": ""
+              "id": "greek-1672",
+              "cht": "希臘人"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -558,110 +479,103 @@
             "greek-3956": 0.5656118892528341
           },
           "verseKey": "jas.1.17",
-          "cunp": "各樣美善的恩賜和各樣全備的賞賜都是從上頭來的，從眾光之父那裏降下來的；在他並沒有改變，也沒有轉動的影兒。",
+          "nasb": "Every good thing given and every perfect gift is from above, coming down from the Father of lights, with whom there is no variation or shifting shadow.",
           "words": [
             {
               "id": "greek-3956",
-              "eng": "Every"
-            },
-            {
-              "id": "greek-1394",
-              "eng": "act of giving"
+              "cht": "各樣"
             },
             {
               "id": "greek-18",
-              "eng": "good",
-              "punct": ","
+              "cht": "美善的"
+            },
+            {
+              "id": "greek-1394",
+              "cht": "恩賜"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-3956",
-              "eng": "every"
-            },
-            {
-              "id": "greek-1434",
-              "eng": "gift"
+              "cht": "各樣"
             },
             {
               "id": "greek-5046",
-              "eng": "perfect",
-              "punct": ","
+              "cht": "全備的"
             },
             {
-              "id": "greek-509",
-              "eng": "from above"
+              "id": "greek-1434",
+              "cht": "賞賜"
             },
             {
               "id": "greek-2076",
-              "eng": "is",
-              "punct": ","
+              "cht": "都是"
             },
             {
-              "id": "greek-2597",
-              "eng": "coming down"
+              "id": "greek-509",
+              "cht": "從上頭"
+            },
+            {
+              "id": "",
+              "cht": "來的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-5457",
-              "eng": "of lights",
-              "punct": ","
+              "cht": "眾光"
+            },
+            {
+              "id": "greek-3962",
+              "cht": "之父"
+            },
+            {
+              "id": "greek-2597",
+              "cht": "那裡降下來"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3844",
-              "eng": "with"
+              "cht": "在"
             },
             {
               "id": "greek-3739",
-              "eng": "whom"
+              "cht": "他"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "並沒"
             },
             {
               "id": "greek-1762",
-              "eng": "there is"
+              "cht": "有"
             },
             {
               "id": "greek-3883",
-              "eng": "variation"
+              "cht": "改變",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2228",
-              "eng": "or"
+              "cht": "也沒有"
             },
             {
               "id": "greek-5157",
-              "eng": "of shifting"
+              "cht": "轉動的"
             },
             {
               "id": "greek-644",
-              "eng": "shadow",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "影兒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -671,99 +585,65 @@
             "greek-1762": 6.2511507603914795
           },
           "verseKey": "1co.6.5",
-          "cunp": "我說這話是要叫你們羞恥。難道你們中間沒有一個智慧人能審斷弟兄們的事嗎？",
+          "nasb": "I say this to your shame. Is it so, that there is not among you one wise man who will be able to decide between his brethren,",
           "words": [
             {
+              "id": "greek-3004",
+              "cht": "我說"
+            },
+            {
               "id": "greek-4314",
-              "eng": "For"
+              "cht": "這話是要"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "叫你們"
             },
             {
               "id": "greek-1791",
-              "eng": "shame"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "I say this",
-              "punct": "."
+              "cht": "羞恥",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3779",
-              "eng": "Thus"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1762",
-              "eng": "is there"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "among"
+              "cht": "難道"
             },
             {
               "id": "greek-5213",
-              "eng": "you"
+              "cht": "你們"
             },
             {
-              "id": "greek-3762",
-              "eng": "no one",
-              "punct": ","
+              "id": "greek-1722",
+              "cht": "中間"
             },
             {
-              "id": "greek-4680",
-              "eng": "a wise [man]",
-              "punct": ","
+              "id": "greek-3756",
+              "cht": "沒"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "有"
             },
             {
               "id": "greek-3739",
-              "eng": "who"
+              "cht": "一個智慧人"
             },
             {
               "id": "greek-1410",
-              "eng": "will be able"
-            },
-            {
-              "id": "greek-1252",
-              "eng": "to decide"
-            },
-            {
-              "id": "greek-303",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3319",
-              "eng": "between"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brother"
+              "cht": "能"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "?"
+              "cht": "審斷"
             },
             {
-              "id": "greek-2076"
+              "id": "greek-80",
+              "cht": "弟兄們"
             },
             {
-              "id": "greek-3761"
-            },
-            {
-              "id": "greek-1520"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的事嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -776,118 +656,85 @@
             "greek-2424": 0.6476856215615396
           },
           "verseKey": "act.19.17",
-          "cunp": "凡住在以弗所的，無論是猶太人，是希臘人，都知道這事，也都懼怕；主耶穌的名從此就尊大了。",
+          "nasb": "This became known to all, both Jews and Greeks, who lived in Ephesus; and fear fell upon them all and the name of the Lord Jesus was being magnified.",
           "words": [
             {
-              "id": "greek-5124",
-              "eng": "This"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "became"
-            },
-            {
-              "id": "greek-1110",
-              "eng": "known"
-            },
-            {
               "id": "greek-3956",
-              "eng": "to all"
-            },
-            {
-              "id": "greek-2453",
-              "eng": "Jews"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "both"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1672",
-              "eng": "Greeks",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "凡"
             },
             {
               "id": "greek-2730",
-              "eng": "inhabiting"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "住在"
             },
             {
               "id": "greek-2181",
-              "eng": "Ephesus",
-              "punct": ";"
+              "cht": "以弗所"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "無論是"
             },
             {
-              "id": "greek-1968",
-              "eng": "fell"
+              "id": "greek-2453",
+              "cht": "猶太人",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-5401",
-              "eng": "fear"
+              "id": "greek-1672",
+              "cht": "是希臘人",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1909",
-              "eng": "upon"
+              "id": "greek-1096",
+              "cht": "都"
+            },
+            {
+              "id": "greek-1110",
+              "cht": "知道"
+            },
+            {
+              "id": "greek-5124",
+              "cht": "這事",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "都"
             },
             {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3170",
-              "eng": "was being magnified"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3686",
-              "eng": "name"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-1909",
+              "cht": "懼怕",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "主"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": "."
+              "cht": "耶穌"
             },
             {
-              "id": ""
+              "id": "greek-3686",
+              "cht": "的名"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "從此就"
+            },
+            {
+              "id": "greek-3170",
+              "cht": "尊大了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -900,79 +747,65 @@
             "greek-2424": 0.6476856215615396
           },
           "verseKey": "act.20.21",
-          "cunp": "又對猶太人和希臘人證明當向神悔改，信靠我主耶穌基督。",
+          "nasb": "solemnly testifying to both Jews and Greeks of repentance toward God and faith in our Lord Jesus Christ.",
           "words": [
             {
-              "id": "greek-1263",
-              "eng": "earnestly testifying"
+              "id": "greek-5037",
+              "cht": "又對"
             },
             {
               "id": "greek-2453",
-              "eng": "to the Jewish"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "both"
+              "cht": "猶太人"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
-              "id": "greek-1672",
-              "eng": "to Greeks",
-              "punct": ","
+              "id": "greek-2532",
+              "cht": "希臘人"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1263",
+              "cht": "證明"
             },
             {
               "id": "greek-1519",
-              "eng": "in"
+              "cht": "當向"
             },
             {
               "id": "greek-2316",
-              "eng": "God"
+              "cht": "神"
             },
             {
               "id": "greek-3341",
-              "eng": "repentance"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "悔改",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4102",
-              "eng": "faith"
+              "cht": "信"
             },
             {
               "id": "greek-1519",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "靠"
             },
             {
               "id": "greek-2257",
-              "eng": "of us",
-              "punct": ","
+              "cht": "我"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "主"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": "."
+              "cht": "耶穌"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": "."
+              "cht": "基督",
+              "punct_cht": "。"
             }
           ]
         },
@@ -984,88 +817,70 @@
             "greek-3956": 0.5656118892528341
           },
           "verseKey": "rom.10.12",
-          "cunp": "猶太人和希臘人並沒有分別，因為眾人同有一位主；他也厚待一切求告他的人。",
+          "nasb": "For there is no distinction between Jew and Greek; for the same Lord is Lord of all, abounding in riches for all who call on Him;",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "there is"
-            },
-            {
-              "id": "greek-1293",
-              "eng": "difference"
-            },
-            {
               "id": "greek-2453",
-              "eng": "Jew"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "between"
+              "cht": "猶太人"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-1672",
-              "eng": "Greek",
-              "punct": ";"
+              "cht": "希臘人"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3756",
+              "cht": "並沒"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "有"
+            },
+            {
+              "id": "greek-1293",
+              "cht": "分別",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "眾人"
             },
             {
               "id": "greek-846",
-              "eng": "the same"
+              "cht": "同有一位"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "of all"
+              "cht": "主",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4147",
-              "eng": "is rich"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "toward"
+              "cht": "他也厚待"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "一切"
             },
             {
               "id": "greek-1941",
-              "eng": "calling"
+              "cht": "求告"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
+              "cht": "他"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -1076,109 +891,62 @@
             "greek-1672": 3.231394854468145
           },
           "verseKey": "act.14.1",
-          "cunp": "二人在以哥念同進猶太人的會堂，在那裏講的，叫猶太人和希臘人信的很多。",
+          "nasb": "In Iconium they entered the synagogue of the Jews together, and spoke in such a manner that a large number of people believed, both of Jews and of Greeks.",
           "words": [
             {
-              "id": "greek-1096",
-              "eng": "It came to pass"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "二人在"
             },
             {
               "id": "greek-2430",
-              "eng": "Iconium",
-              "punct": ","
-            },
-            {
-              "id": "greek-2596",
-              "eng": "according to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "以哥念"
             },
             {
               "id": "greek-846",
-              "eng": "same"
+              "cht": "同"
             },
             {
               "id": "greek-1525",
-              "eng": "entered"
+              "cht": "進"
             },
             {
-              "id": "greek-846",
-              "eng": "they"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2453",
+              "cht": "猶太人"
             },
             {
               "id": "greek-4864",
-              "eng": "synagogue"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2453",
-              "eng": "Jews"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "的會堂",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2980",
-              "eng": "spoke"
-            },
-            {
-              "id": "greek-3779",
-              "eng": "so"
+              "cht": "在那裡講的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5620",
-              "eng": "that"
-            },
-            {
-              "id": "greek-4100",
-              "eng": "believed"
+              "cht": "叫"
             },
             {
               "id": "greek-2453",
-              "eng": "of Jewish"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "both"
+              "cht": "猶太人"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-1672",
-              "eng": "Greeks"
+              "cht": "希臘人"
             },
             {
-              "id": "greek-4183",
-              "eng": "a great"
+              "id": "greek-4100",
+              "cht": "信的"
             },
             {
               "id": "greek-4128",
-              "eng": "number",
-              "punct": "."
+              "cht": "很多",
+              "punct_cht": "。"
             }
           ]
         }

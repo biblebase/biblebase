@@ -3,16 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1121": "The sons",
-          "hebrew-8007": "of Salma",
-          "hebrew-1035": "Bethlehem",
-          "hebrew-5200": "and the Netophathite",
-          "hebrew-5854": "Atroth Beth Joab",
-          "hebrew-2677": "and half",
-          "hebrew-2680": "of the Manahethites",
-          "hebrew-6882": "the Zorites",
-          "": null,
-          "hebrew-5852": null
+          "eng": {
+            "hebrew-1121": "The sons",
+            "hebrew-8007": "of Salma",
+            "hebrew-1035": "Bethlehem",
+            "hebrew-5200": "and the Netophathite",
+            "hebrew-5854": "Atroth Beth Joab",
+            "hebrew-2677": "and half",
+            "hebrew-2680": "of the Manahethites",
+            "hebrew-6882": "the Zorites",
+            "": null,
+            "hebrew-5852": null
+          },
+          "cht": {
+            "hebrew-1121": "的子孫",
+            "hebrew-8007": "薩瑪",
+            "hebrew-1035": "是伯利恆人、",
+            "hebrew-5200": "尼陀法人",
+            "hebrew-5854": "約押人、",
+            "hebrew-2677": "一半",
+            "hebrew-2680": "瑪拿哈人、",
+            "hebrew-6882": "瑣利人",
+            "hebrew-5852": "伯‧"
+          }
         }
       },
       "translations": {
@@ -27,41 +40,33 @@
             "hebrew-8007": 7.502414237754052
           },
           "verseKey": "1ch.2.11",
-          "cunp": "拿順生撒門；撒門生波阿斯；",
+          "nasb": "Nahshon became the father of Salma, Salma became the father of Boaz,",
           "words": [
             {
               "id": "hebrew-5177",
-              "eng": "and Nahshon"
+              "cht": "拿順"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-8007",
-              "eng": "Salma",
-              "punct": "､"
+              "cht": "撒門",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8007",
-              "eng": "and Salma"
+              "cht": "撒門"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-1162",
-              "eng": "Boaz",
-              "punct": "､"
+              "cht": "波阿斯",
+              "punct_cht": "；"
             }
           ]
         },
@@ -72,33 +77,33 @@
             "hebrew-1035": 2.429628088078134
           },
           "verseKey": "1ch.2.51",
-          "cunp": "伯利恆之祖薩瑪，伯迦得之祖哈勒。",
+          "nasb": "Salma the father of Bethlehem and Hareph the father of Beth-gader.",
           "words": [
             {
-              "id": "hebrew-8007",
-              "eng": "Salma"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "the father"
-            },
-            {
               "id": "hebrew-1035",
-              "eng": "Bethlehem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2780",
-              "eng": "[and] Hareph"
+              "cht": "伯利恆"
             },
             {
               "id": "hebrew-1",
-              "eng": "the father"
+              "cht": "之祖"
+            },
+            {
+              "id": "hebrew-8007",
+              "cht": "薩瑪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1013",
-              "eng": "Beth Gader",
-              "punct": "."
+              "cht": "伯迦得"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "之祖"
+            },
+            {
+              "id": "hebrew-2780",
+              "cht": "哈勒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -109,33 +114,33 @@
             "hebrew-5200": 4.758842454566098
           },
           "verseKey": "1ch.11.30",
-          "cunp": "尼陀法人瑪哈萊，尼陀法人巴拿的兒子希立，",
+          "nasb": "Maharai the Netophathite, Heled the son of Baanah the Netophathite,",
           "words": [
             {
+              "id": "hebrew-5200",
+              "cht": "尼陀法人"
+            },
+            {
               "id": "hebrew-4121",
-              "eng": "Maharai"
+              "cht": "瑪哈萊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5200",
-              "eng": "the Netophathite",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2466",
-              "eng": "Heled"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "尼陀法人"
             },
             {
               "id": "hebrew-1196",
-              "eng": "of Baanah"
+              "cht": "巴拿"
             },
             {
-              "id": "hebrew-5200",
-              "eng": "the Netophathite",
-              "punct": "､"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-2466",
+              "cht": "希立",
+              "punct_cht": "，"
             }
           ]
         },
@@ -146,71 +151,62 @@
             "hebrew-6882": 8.539323589735611
           },
           "verseKey": "1ch.4.2",
-          "cunp": "朔巴的兒子利亞雅生雅哈；雅哈生亞戶買和拉哈。這是瑣拉人的諸族。",
+          "nasb": "Reaiah the son of Shobal became the father of Jahath, and Jahath became the father of Ahumai and Lahad. These were the families of the Zorathites.",
           "words": [
             {
-              "id": "hebrew-7211",
-              "eng": "And Reaiah"
+              "id": "hebrew-7732",
+              "cht": "朔巴"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-7732",
-              "eng": "of Shobal"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3189",
-              "eng": "Jahath",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3189",
-              "eng": "and Jahath"
+              "id": "hebrew-7211",
+              "cht": "利亞雅"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
+              "cht": "生"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3189",
+              "cht": "雅哈",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3189",
+              "cht": "雅哈"
+            },
+            {
+              "id": "hebrew-3205",
+              "cht": "生"
             },
             {
               "id": "hebrew-267",
-              "eng": "Ahumai",
-              "punct": "､"
+              "cht": "亞戶買"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-3855",
-              "eng": "Lahad",
-              "punct": "."
+              "cht": "拉哈",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-428",
-              "eng": "These [were]"
-            },
-            {
-              "id": "hebrew-4940",
-              "eng": "the families"
+              "cht": "這"
             },
             {
               "id": "hebrew-6882",
-              "eng": "of the Zorathite",
-              "punct": "."
+              "cht": "是瑣拉人"
+            },
+            {
+              "id": "hebrew-4940",
+              "cht": "的諸族",
+              "punct_cht": "。"
             }
           ]
         },
@@ -220,63 +216,57 @@
             "hebrew-6882": 8.539323589735611
           },
           "verseKey": "1ch.2.53",
-          "cunp": "基列‧耶琳的諸族是以帖人、布特人、舒瑪人、密來人，又從這些族中生出瑣拉人和以實陶人來。",
+          "nasb": "and the families of Kiriath-jearim: the Ithrites, the Puthites, the Shumathites and the Mishraites; from these came the Zorathites and the Eshtaolites.",
           "words": [
             {
-              "id": "hebrew-4940",
-              "eng": "And the families"
+              "id": "",
+              "cht": "基列‧"
             },
             {
               "id": "hebrew-7157",
-              "eng": "Kirjath Jearim",
-              "punct": "–"
+              "cht": "耶琳"
+            },
+            {
+              "id": "hebrew-4940",
+              "cht": "的諸族"
             },
             {
               "id": "hebrew-3505",
-              "eng": "the [were] Ithrite",
-              "punct": "､"
+              "cht": "是以帖人、"
             },
             {
               "id": "hebrew-6336",
-              "eng": "and the Puthite",
-              "punct": "､"
+              "cht": "布特人、"
             },
             {
               "id": "hebrew-8126",
-              "eng": "and the Shumathite",
-              "punct": "､"
+              "cht": "舒瑪人、"
             },
             {
               "id": "hebrew-4954",
-              "eng": "and the Mishraite",
-              "punct": "–"
+              "cht": "密來人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-428",
-              "eng": "from these"
+              "cht": "又從這些"
             },
             {
               "id": "hebrew-3318",
-              "eng": "came"
+              "cht": "族中生出"
             },
             {
               "id": "hebrew-6882",
-              "eng": "the Zorathite",
-              "punct": "､"
+              "cht": "瑣拉人"
             },
             {
               "id": "hebrew-848",
-              "eng": "and the Eshtaolite",
-              "punct": "."
+              "cht": "和以實陶人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -287,46 +277,31 @@
             "hebrew-5852": 7.502414237754052
           },
           "verseKey": "num.32.34",
-          "cunp": "迦得子孫建造底本、亞他錄、亞羅珥、",
+          "nasb": "The sons of Gad built Dibon and Ataroth and Aroer,",
           "words": [
             {
-              "id": "hebrew-1129",
-              "eng": "And built"
+              "id": "hebrew-1410",
+              "cht": "迦得"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "子孫"
             },
             {
-              "id": "hebrew-1410",
-              "eng": "of Gad"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-1129",
+              "cht": "建造"
             },
             {
               "id": "hebrew-1769",
-              "eng": "Dibon",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "底本、"
             },
             {
               "id": "hebrew-5852",
-              "eng": "Ataroth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "亞他錄、"
             },
             {
               "id": "hebrew-6177",
-              "eng": "Aroer",
-              "punct": "､"
+              "cht": "亞羅珥、"
             }
           ]
         },
@@ -336,52 +311,44 @@
             "hebrew-5852": 7.502414237754052
           },
           "verseKey": "num.32.3",
-          "cunp": "「亞大錄、底本、雅謝、寧拉、希實本、以利亞利、示班、尼波、比穩，",
+          "nasb": "“Ataroth, Dibon, Jazer, Nimrah, Heshbon, Elealeh, Sebam, Nebo and Beon,",
           "words": [
             {
               "id": "hebrew-5852",
-              "eng": "Ataroth",
-              "punct": "､"
+              "cht": "亞大錄、"
             },
             {
               "id": "hebrew-1769",
-              "eng": "and Dibon",
-              "punct": "､"
+              "cht": "底本、"
             },
             {
               "id": "hebrew-3270",
-              "eng": "and Jazer",
-              "punct": "､"
+              "cht": "雅謝、"
             },
             {
               "id": "hebrew-5247",
-              "eng": "and Nimrah",
-              "punct": "､"
+              "cht": "寧拉、"
             },
             {
               "id": "hebrew-2809",
-              "eng": "and Heshbon",
-              "punct": "､"
+              "cht": "希實本、"
             },
             {
               "id": "hebrew-500",
-              "eng": "and Elealeh",
-              "punct": "､"
+              "cht": "以利亞利、"
             },
             {
               "id": "hebrew-7643",
-              "eng": "and Shebam",
-              "punct": "､"
+              "cht": "示班、"
             },
             {
               "id": "hebrew-5015",
-              "eng": "and Nebo",
-              "punct": "､"
+              "cht": "尼波、"
             },
             {
               "id": "hebrew-1194",
-              "eng": "and Beon",
-              "punct": "､"
+              "cht": "比穩",
+              "punct_cht": "，"
             }
           ]
         },
@@ -391,49 +358,47 @@
             "hebrew-5852": 7.502414237754052
           },
           "verseKey": "jos.16.7",
-          "cunp": "從雅挪哈下到亞他綠，又到拿拉，達到耶利哥，通到約旦河為止；",
+          "nasb": "It went down from Janoah to Ataroth and to Naarah, then reached Jericho and came out at the Jordan.",
           "words": [
             {
-              "id": "hebrew-3381",
-              "eng": "and it went down"
+              "id": "hebrew-4480",
+              "cht": "從雅挪哈"
             },
             {
-              "id": "hebrew-3239",
-              "eng": "from Janohah"
+              "id": "hebrew-3381",
+              "cht": "下"
             },
             {
               "id": "hebrew-5852",
-              "eng": "to Ataroth",
-              "punct": "､"
+              "cht": "到亞他綠",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5292",
-              "eng": "and Naarah",
-              "punct": "､"
+              "cht": "又到拿拉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6293",
-              "eng": "and reached"
+              "cht": "達"
             },
             {
               "id": "hebrew-3405",
-              "eng": "to Jericho",
-              "punct": "､"
+              "cht": "到耶利哥",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3318",
-              "eng": "and came out"
+              "cht": "通"
             },
             {
               "id": "hebrew-3383",
-              "eng": "at the Jordan",
-              "punct": "."
+              "cht": "到約旦河"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "為止",
+              "punct_cht": "；"
             }
           ]
         },
@@ -443,44 +408,38 @@
             "hebrew-5852": 7.502414237754052
           },
           "verseKey": "jos.16.2",
-          "cunp": "又從伯特利到路斯，接連到亞基人的境界，至亞他綠；",
+          "nasb": "It went from Bethel to Luz, and continued to the border of the Archites at Ataroth.",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "then went out"
-            },
-            {
               "id": "hebrew-1008",
-              "eng": "Bethel"
+              "cht": "又從伯特利"
             },
             {
               "id": "hebrew-3870",
-              "eng": "to Luz",
-              "punct": "､"
+              "cht": "到路斯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5674",
-              "eng": "and passed along"
+              "cht": "接連"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "cht": "到"
             },
             {
               "id": "hebrew-757",
-              "eng": "of the Archite"
+              "cht": "亞基人"
+            },
+            {
+              "id": "hebrew-1366",
+              "cht": "的境界",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5852",
-              "eng": "at Ataroth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "至亞他綠",
+              "punct_cht": "；"
             }
           ]
         },
@@ -491,102 +450,101 @@
             "hebrew-5200": 4.758842454566098
           },
           "verseKey": "jer.40.8",
-          "cunp": "於是軍長尼探雅的兒子以實瑪利，加利亞的兩個兒子約哈難和約拿單，單戶篾的兒子西萊雅，並尼陀法人以斐的眾子，瑪迦人的兒子耶撒尼亞和屬他們的人，都到米斯巴見基大利。",
+          "nasb": "So they came to Gedaliah at Mizpah, along with Ishmael the son of Nethaniah, and Johanan and Jonathan the sons of Kareah, and Seraiah the son of Tanhumeth, and the sons of Ephai the Netophathite, and Jezaniah the son of the Maacathite, both they and their men.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "then they came"
+              "id": "hebrew-5418",
+              "cht": "於是軍長尼探雅"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1436",
-              "eng": "Gedaliah"
-            },
-            {
-              "id": "hebrew-4708",
-              "eng": "at Mizpah",
-              "punct": "､"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-3458",
-              "eng": "and Ishmael"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-5418",
-              "eng": "of Nethaniah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3110",
-              "eng": "and Johanan"
-            },
-            {
-              "id": "hebrew-3129",
-              "eng": "and Jonathan"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "以實瑪利",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7143",
-              "eng": "of Kareah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8304",
-              "eng": "and Seraiah"
+              "cht": "加利亞"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兩個兒子"
+            },
+            {
+              "id": "hebrew-3110",
+              "cht": "約哈難"
+            },
+            {
+              "id": "hebrew-3129",
+              "cht": "和約拿單",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8576",
-              "eng": "of Tanhumeth",
-              "punct": "､"
+              "cht": "單戶篾"
             },
             {
               "id": "hebrew-1121",
-              "eng": "and the sons"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-5778",
-              "eng": "Ephai"
+              "id": "hebrew-8304",
+              "cht": "西萊雅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5200",
-              "eng": "the Netophathite",
-              "punct": "､"
+              "cht": "並尼陀法人"
             },
             {
-              "id": "hebrew-3153",
-              "eng": "and Jezaniah"
+              "id": "hebrew-5778",
+              "cht": "以斐"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的眾子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4602",
-              "eng": "of a Maachathite",
-              "punct": "､"
+              "cht": "瑪迦人"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3153",
+              "cht": "耶撒尼亞"
             },
             {
               "id": "hebrew-1992",
-              "eng": "they"
+              "cht": "和屬他們"
             },
             {
               "id": "hebrew-582",
-              "eng": "and their men",
-              "punct": "."
+              "cht": "的人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "都到"
+            },
+            {
+              "id": "hebrew-4708",
+              "cht": "米斯巴"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "見"
+            },
+            {
+              "id": "hebrew-1436",
+              "cht": "基大利",
+              "punct_cht": "。"
             }
           ]
         }

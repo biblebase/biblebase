@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8085": "To hear",
-          "hebrew-603": "the groaning",
-          "hebrew-615": "of the prisoner",
-          "hebrew-6605": "to release",
-          "hebrew-1121": "those appointed",
-          "hebrew-8546": "to death"
+          "eng": {
+            "hebrew-8085": "To hear",
+            "hebrew-603": "the groaning",
+            "hebrew-615": "of the prisoner",
+            "hebrew-6605": "to release",
+            "hebrew-1121": "those appointed",
+            "hebrew-8546": "to death"
+          },
+          "cht": {
+            "hebrew-8085": "要垂聽",
+            "hebrew-603": "的歎息",
+            "hebrew-615": "被囚之人",
+            "hebrew-6605": "要釋放",
+            "hebrew-1121": "的人",
+            "hebrew-8546": "將要死"
+          }
         }
       },
       "translations": {
@@ -27,47 +37,45 @@
             "hebrew-8546": 10.248599871619378
           },
           "verseKey": "psa.79.11",
-          "cunp": "願被囚之人的歎息達到你面前； 願你按你的大能力存留那些將要死的人。",
+          "nasb": "Let the groaning of the prisoner come before You; According to the greatness of Your power preserve those who are doomed to die.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "Let come"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before You"
+              "id": "hebrew-615",
+              "cht": "願被囚之人"
             },
             {
               "id": "hebrew-603",
-              "eng": "the groaning"
+              "cht": "的歎息"
             },
             {
-              "id": "hebrew-616",
-              "eng": "of the prisoner"
+              "id": "hebrew-935",
+              "cht": "達"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "到你面前",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1433",
-              "eng": "According to the greatness"
+              "cht": "願你按你的大"
             },
             {
               "id": "hebrew-2220",
-              "eng": "of Your power"
+              "cht": "能力"
             },
             {
               "id": "hebrew-3498",
-              "eng": "Preserve"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "sons"
+              "cht": "存留"
             },
             {
               "id": "hebrew-8546",
-              "eng": "those who are [appointed] to die",
-              "punct": "–"
+              "cht": "那些將要死"
             },
             {
-              "id": "hebrew-615"
+              "id": "hebrew-1121",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -77,80 +85,60 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "jas.5.9",
-          "cunp": "弟兄們，你們不要彼此埋怨，免得受審判。看哪，審判的主站在門前了。",
+          "nasb": "Do not complain, brethren, against one another, so that you yourselves may not be judged; behold, the Judge is standing right at the door.",
           "words": [
             {
-              "id": "greek-3361",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-4727",
-              "eng": "grumble"
-            },
-            {
               "id": "greek-80",
-              "eng": "brothers"
+              "cht": "弟兄們",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "你們不要"
             },
             {
               "id": "greek-2596",
-              "eng": "against"
+              "cht": "彼此"
             },
             {
-              "id": "greek-240",
-              "eng": "one another",
-              "punct": ","
+              "id": "greek-4727",
+              "cht": "埋怨",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2443",
-              "eng": "so that"
+              "id": "greek-3363",
+              "cht": "免得"
             },
             {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2919",
-              "eng": "you may be condemned",
-              "punct": "."
+              "id": "greek-2632",
+              "cht": "受審判",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2923",
-              "eng": "Judge"
-            },
-            {
-              "id": "greek-4253",
-              "eng": "before"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2374",
-              "eng": "doors"
+              "cht": "審判的主"
             },
             {
               "id": "greek-2476",
-              "eng": "is standing",
-              "punct": "."
+              "cht": "站"
             },
             {
-              "id": "greek-3363"
+              "id": "greek-2374",
+              "cht": "在門"
             },
             {
-              "id": "greek-2632"
+              "id": "greek-4253",
+              "cht": "前"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -160,138 +148,126 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "heb.13.17",
-          "cunp": "你們要依從那些引導你們的，且要順服；因他們為你們的靈魂時刻警醒，好像那將來交帳的人。你們要使他們交的時候有快樂，不致憂愁；若憂愁就與你們無益了。",
+          "nasb": "Obey your leaders and submit to them, for they keep watch over your souls as those who will give an account. Let them do this with joy and not with grief, for this would be unprofitable for you.",
           "words": [
             {
-              "id": "greek-3982",
-              "eng": "Obey"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-2233",
-              "eng": "leading"
-            },
-            {
-              "id": "greek-5216",
-              "eng": "you",
-              "punct": ","
-            },
-            {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "你們要"
             },
             {
               "id": "greek-5226",
-              "eng": "be submissive",
-              "punct": ";"
+              "cht": "依從"
             },
             {
-              "id": "greek-846",
-              "eng": "they"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-69",
-              "eng": "watch"
-            },
-            {
-              "id": "greek-5228",
-              "eng": "over"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5590",
-              "eng": "souls"
+              "id": "greek-2233",
+              "cht": "那些引導"
             },
             {
               "id": "greek-5216",
-              "eng": "of you",
-              "punct": ","
+              "cht": "你們"
             },
             {
-              "id": "greek-5613",
-              "eng": "as"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3056",
-              "eng": "account"
-            },
-            {
-              "id": "greek-591",
-              "eng": "about to give",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3326",
-              "eng": "with"
-            },
-            {
-              "id": "greek-5479",
-              "eng": "joy"
-            },
-            {
-              "id": "greek-5124",
-              "eng": "this"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "they might do",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4727",
-              "eng": "groaning",
-              "punct": ","
-            },
-            {
-              "id": "greek-255",
-              "eng": "unprofitable"
+              "id": "greek-3982",
+              "cht": "且要順服",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1063",
-              "eng": "indeed"
+              "cht": "因"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們"
+            },
+            {
+              "id": "greek-5228",
+              "cht": "為"
+            },
+            {
+              "id": "greek-5216",
+              "cht": "你們"
+            },
+            {
+              "id": "greek-5590",
+              "cht": "的靈魂"
+            },
+            {
+              "id": "greek-69",
+              "cht": "時刻儆醒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "好像"
+            },
+            {
+              "id": "greek-591",
+              "cht": "那將來交"
+            },
+            {
+              "id": "greek-3056",
+              "cht": "帳"
+            },
+            {
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-2443",
+              "cht": "你們要使"
+            },
+            {
+              "id": "greek-5124",
+              "cht": "他們交的"
+            },
+            {
+              "id": "greek-3326",
+              "cht": "時候有"
+            },
+            {
+              "id": "greek-5479",
+              "cht": "快樂",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "不"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "致"
+            },
+            {
+              "id": "greek-4727",
+              "cht": "憂愁",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1063",
+              "cht": "若"
+            },
+            {
+              "id": "greek-5124",
+              "cht": "憂愁"
             },
             {
               "id": "greek-5213",
-              "eng": "for you [is]"
+              "cht": "就與你們"
             },
             {
-              "id": "greek-3778",
-              "eng": "this",
-              "punct": "."
+              "id": "greek-255",
+              "cht": "無益"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-5124"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -301,115 +277,88 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "rom.8.23",
-          "cunp": "不但如此，就是我們這有聖靈初結果子的，也是自己心裏歎息，等候得着兒子的名分，乃是我們的身體得贖。",
+          "nasb": "And not only this, but also we ourselves, having the first fruits of the Spirit, even we ourselves groan within ourselves, waiting eagerly for our adoption as sons, the redemption of our body.",
           "words": [
             {
               "id": "greek-3756",
-              "eng": "Not"
+              "cht": "不"
             },
             {
               "id": "greek-3440",
-              "eng": "only [so]"
+              "cht": "但"
             },
             {
-              "id": "greek-1161",
-              "eng": "now",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
+              "id": "",
+              "cht": "如此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "even"
-            },
-            {
-              "id": "greek-846",
-              "eng": "ourselves",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-536",
-              "eng": "firstfruit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit"
-            },
-            {
-              "id": "greek-2192",
-              "eng": "having",
-              "punct": ","
+              "cht": "就是"
             },
             {
               "id": "greek-2249",
-              "eng": "we"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "我們"
             },
             {
               "id": "greek-846",
-              "eng": "ourselves"
+              "cht": "這"
+            },
+            {
+              "id": "greek-2192",
+              "cht": "有"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "聖靈"
+            },
+            {
+              "id": "greek-536",
+              "cht": "初結果子"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也是"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "自己"
             },
             {
               "id": "greek-1438",
-              "eng": "ourselves"
+              "cht": "心裡"
             },
             {
               "id": "greek-4727",
-              "eng": "groan",
-              "punct": ","
-            },
-            {
-              "id": "greek-5206",
-              "eng": "divine adoption as sons"
+              "cht": "歎息",
+              "punct_cht": "，"
             },
             {
               "id": "greek-553",
-              "eng": "awaiting",
-              "punct": ","
+              "cht": "等候"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-629",
-              "eng": "redemption"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
+              "id": "greek-5206",
+              "cht": "得著兒子的名分",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2257",
-              "eng": "of us",
-              "punct": "."
+              "cht": "乃是我們的"
             },
             {
-              "id": ""
+              "id": "greek-4983",
+              "cht": "身體"
             },
             {
-              "id": ""
+              "id": "greek-629",
+              "cht": "得贖",
+              "punct_cht": "。"
             }
           ]
         },
@@ -419,120 +368,79 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "2co.5.4",
-          "cunp": "我們在這帳棚裏歎息勞苦，並非願意脫下這個，乃是願意穿上那個，好叫這必死的被生命吞滅了。",
+          "nasb": "For indeed while we are in this tent, we groan, being burdened, because we do not want to be unclothed but to be clothed, so that what is mortal will be swallowed up by life.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "being"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5607",
+              "cht": "我們在"
             },
             {
               "id": "greek-4636",
-              "eng": "tent",
-              "punct": ","
+              "cht": "這帳棚裡"
             },
             {
               "id": "greek-4727",
-              "eng": "we groan",
-              "punct": ","
+              "cht": "歎息"
             },
             {
               "id": "greek-916",
-              "eng": "being burdened",
-              "punct": ","
+              "cht": "勞苦",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1909",
-              "eng": "because"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "greek-1894",
+              "cht": "並非"
             },
             {
               "id": "greek-2309",
-              "eng": "we do wish"
+              "cht": "願意"
             },
             {
               "id": "greek-1562",
-              "eng": "to be unclothed"
+              "cht": "脫下"
+            },
+            {
+              "id": "",
+              "cht": "這個",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
+              "cht": "乃是"
             },
             {
               "id": "greek-1902",
-              "eng": "to be clothed",
-              "punct": ","
+              "cht": "願意穿上"
+            },
+            {
+              "id": "",
+              "cht": "那個",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-2666",
-              "eng": "may be swallowed up"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "好叫"
             },
             {
               "id": "greek-2349",
-              "eng": "mortal"
+              "cht": "這必死的"
             },
             {
               "id": "greek-5259",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "被"
             },
             {
               "id": "greek-2222",
-              "eng": "life",
-              "punct": "."
+              "cht": "生命"
             },
             {
-              "id": "greek-5607"
+              "id": "greek-2666",
+              "cht": "吞滅"
             },
             {
-              "id": "greek-1894"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -542,62 +450,50 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "2co.5.2",
-          "cunp": "我們在這帳棚裏歎息，深想得那從天上來的房屋，好像穿上衣服；",
+          "nasb": "For indeed in this house we groan, longing to be clothed with our dwelling from heaven,",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "indeed",
-              "punct": ","
+              "id": "greek-2257",
+              "cht": "我們"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-5129",
-              "eng": "this"
+              "cht": "這"
             },
             {
               "id": "greek-4727",
-              "eng": "we groan",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3613",
-              "eng": "dwelling"
-            },
-            {
-              "id": "greek-2257",
-              "eng": "of us"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "which [is]"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3772",
-              "eng": "heaven"
-            },
-            {
-              "id": "greek-1902",
-              "eng": "to be clothed with"
+              "cht": "帳棚裡歎息",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1971",
-              "eng": "longing",
-              "punct": "."
+              "cht": "深想得"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "那"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-3772",
+              "cht": "天上"
+            },
+            {
+              "id": "greek-3613",
+              "cht": "來的房屋",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1902",
+              "cht": "好像穿上衣服",
+              "punct_cht": "；"
             }
           ]
         },
@@ -607,61 +503,55 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "psa.12.5",
-          "cunp": "耶和華說：因為困苦人的冤屈 和貧窮人的歎息， 我現在要起來， 把他安置在他所切慕的穩妥之地。",
+          "nasb": "“Because of the devastation of the afflicted, because of the groaning of the needy, Now I will arise,” says the Lord; “I will set him in the safety for which he longs.”",
           "words": [
             {
-              "id": "hebrew-7701",
-              "eng": "For the oppression"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "of the poor",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-603",
-              "eng": "for the groaning"
-            },
-            {
-              "id": "hebrew-34",
-              "eng": "of the needy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6258",
-              "eng": "now"
-            },
-            {
-              "id": "hebrew-6965",
-              "eng": "I will arise",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
+              "id": "hebrew-6041",
+              "cht": "因為困苦人"
+            },
+            {
+              "id": "hebrew-7701",
+              "cht": "的冤屈"
+            },
+            {
+              "id": "hebrew-34",
+              "cht": "和貧窮人"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的歎息",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6258",
+              "cht": "我現在"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "要起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7896",
-              "eng": "I will set [him]"
-            },
-            {
-              "id": "hebrew-3468",
-              "eng": "in the safety"
+              "cht": "把他安置"
             },
             {
               "id": "hebrew-6315",
-              "eng": "for which yearns"
+              "cht": "所切慕"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-3468",
+              "cht": "的穩妥之地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -671,70 +561,48 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "mrk.7.34",
-          "cunp": "望天歎息，對他說：「以法大！」就是說：「開了吧！」",
+          "nasb": "and looking up to heaven with a deep sigh, He *said to him, “Ephphatha!” that is, “Be opened!”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
               "id": "greek-308",
-              "eng": "having looked up"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "望"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven"
+              "cht": "天"
             },
             {
               "id": "greek-4727",
-              "eng": "He sighed deeply",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "He says"
+              "cht": "歎息",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "to him",
-              "punct": ","
+              "cht": "對他"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2188",
-              "eng": "Ephphatha",
-              "punct": "!"
+              "cht": "以法大",
+              "punct_cht": "！"
             },
             {
-              "id": "greek-3739",
-              "eng": "that"
+              "id": "greek-3603",
+              "cht": "就是"
             },
             {
-              "id": "greek-1510",
-              "eng": "is",
-              "punct": ","
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1272",
-              "eng": "Be opened",
-              "punct": "!"
-            },
-            {
-              "id": "greek-3603"
-            },
-            {
-              "id": ""
+              "cht": "開了吧",
+              "punct_cht": "！"
             }
           ]
         },
@@ -744,91 +612,75 @@
             "hebrew-603": 4.967387449270056
           },
           "verseKey": "mal.2.13",
-          "cunp": "你們又行了一件這樣的事，使前妻歎息哭泣的眼淚遮蓋耶和華的壇，以致耶和華不再看顧那供物，也不樂意從你們手中收納。",
+          "nasb": "“This is another thing you do: you cover the altar of the Lord with tears, with weeping and with groaning, because He no longer regards the offering or accepts it with favor from your hand.",
           "words": [
             {
-              "id": "hebrew-2063",
-              "eng": "And this [is]"
-            },
-            {
               "id": "hebrew-8145",
-              "eng": "the second [thing]",
-              "punct": "､"
+              "cht": "你們又"
             },
             {
               "id": "hebrew-6213",
-              "eng": "you do"
+              "cht": "行"
             },
             {
-              "id": "hebrew-3680",
-              "eng": "You cover"
-            },
-            {
-              "id": "hebrew-1832",
-              "eng": "with tears",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4196",
-              "eng": "the altar"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-1065",
-              "eng": "with weeping",
-              "punct": "､"
+              "id": "hebrew-2063",
+              "cht": "了一件這樣的事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-603",
-              "eng": "and groaning",
-              "punct": "､"
+              "cht": "使前妻歎息"
+            },
+            {
+              "id": "hebrew-1065",
+              "cht": "哭泣"
+            },
+            {
+              "id": "hebrew-1832",
+              "cht": "的眼淚"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "遮蓋"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-4196",
+              "cht": "的壇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "not"
+              "cht": "以致耶和華不"
             },
             {
               "id": "hebrew-5750",
-              "eng": "anymore",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6437",
-              "eng": "so He does regard"
+              "cht": "再"
             },
             {
               "id": "hebrew-413",
-              "eng": "unto"
+              "cht": "看顧"
             },
             {
               "id": "hebrew-4503",
-              "eng": "the offering"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "nor receive [it]"
+              "cht": "那供物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7522",
-              "eng": "with goodwill"
+              "cht": "也不樂意"
             },
             {
               "id": "hebrew-3027",
-              "eng": "from your hands",
-              "punct": "."
+              "cht": "從你們手"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-3947",
+              "cht": "中收納",
+              "punct_cht": "。"
             }
           ]
         },
@@ -839,100 +691,67 @@
             "hebrew-6605": 1.2463035947172354
           },
           "verseKey": "act.16.27",
-          "cunp": "禁卒一醒，看見監門全開，以為囚犯已經逃走，就拔刀要自殺。",
+          "nasb": "When the jailer awoke and saw the prison doors opened, he drew his sword and was about to kill himself, supposing that the prisoners had escaped.",
           "words": [
             {
-              "id": "greek-1853",
-              "eng": "Awoken"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "id": "greek-1200",
+              "cht": "禁卒"
             },
             {
               "id": "greek-1096",
-              "eng": "having been"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1200",
-              "eng": "jailer",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "一醒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1492",
-              "eng": "having seen"
-            },
-            {
-              "id": "greek-455",
-              "eng": "open"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2374",
-              "eng": "doors"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "看見"
             },
             {
               "id": "greek-5438",
-              "eng": "prison",
-              "punct": ","
+              "cht": "監"
             },
             {
-              "id": "greek-4685",
-              "eng": "having drawn"
+              "id": "greek-2374",
+              "cht": "門"
             },
             {
-              "id": "greek-3588",
-              "eng": "his"
-            },
-            {
-              "id": "greek-3162",
-              "eng": "sword",
-              "punct": ","
-            },
-            {
-              "id": "greek-3195",
-              "eng": "he was about"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "himself"
-            },
-            {
-              "id": "greek-337",
-              "eng": "to kill",
-              "punct": ","
+              "id": "greek-455",
+              "cht": "全開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3543",
-              "eng": "supposing"
-            },
-            {
-              "id": "greek-1628",
-              "eng": "to have escaped"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "以為"
             },
             {
               "id": "greek-1198",
-              "eng": "prisoners",
-              "punct": "."
+              "cht": "囚犯"
+            },
+            {
+              "id": "greek-1628",
+              "cht": "已經逃走",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4685",
+              "cht": "就拔"
+            },
+            {
+              "id": "greek-3162",
+              "cht": "刀"
+            },
+            {
+              "id": "greek-3195",
+              "cht": "要"
+            },
+            {
+              "id": "greek-1438",
+              "cht": "自"
+            },
+            {
+              "id": "greek-337",
+              "cht": "殺",
+              "punct_cht": "。"
             }
           ]
         }

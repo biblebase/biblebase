@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-369": "and no",
-          "hebrew-562": "speech",
-          "hebrew-1697": "language",
-          "hebrew-1097": "not",
-          "hebrew-8085": "[Where] is heard",
-          "hebrew-6963": "their voice"
+          "eng": {
+            "hebrew-369": "and no",
+            "hebrew-562": "speech",
+            "hebrew-1697": "language",
+            "hebrew-1097": "not",
+            "hebrew-8085": "[Where] is heard",
+            "hebrew-6963": "their voice"
+          },
+          "cht": {
+            "hebrew-369": "無",
+            "hebrew-562": "言",
+            "hebrew-1697": "語",
+            "hebrew-1097": "也無",
+            "hebrew-8085": "可聽",
+            "hebrew-6963": "聲音"
+          }
         }
       },
       "translations": {
@@ -26,79 +36,57 @@
             "hebrew-8085": 0.5216855633148915
           },
           "verseKey": "jhn.8.43",
-          "cunp": "你們為甚麼不明白我的話呢？無非是因你們不能聽我的道。",
+          "nasb": "Why do you not understand what I am saying? It is because you cannot hear My word.",
           "words": [
             {
+              "id": "greek-1097",
+              "cht": "你們"
+            },
+            {
               "id": "greek-1302",
-              "eng": "Because of"
-            },
-            {
-              "id": "greek-5101",
-              "eng": "why"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2981",
-              "eng": "speech"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1699",
-              "eng": "My"
+              "cht": "為甚麼"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-1097",
-              "eng": "do you understand",
-              "punct": "?"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "Because"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1410",
-              "eng": "you are able"
-            },
-            {
-              "id": "greek-191",
-              "eng": "to hear"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3056",
-              "eng": "word"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "明白"
             },
             {
               "id": "greek-1699",
-              "eng": "My",
-              "punct": "."
+              "cht": "我的"
             },
             {
-              "id": "greek-1097"
+              "id": "greek-2981",
+              "cht": "話"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
+            },
+            {
+              "id": "greek-3754",
+              "cht": "無非是因"
+            },
+            {
+              "id": "greek-1410",
+              "cht": "你們不能"
+            },
+            {
+              "id": "greek-191",
+              "cht": "聽"
+            },
+            {
+              "id": "greek-1699",
+              "cht": "我的"
+            },
+            {
+              "id": "greek-3056",
+              "cht": "道",
+              "punct_cht": "。"
             }
           ]
         },
@@ -109,113 +97,72 @@
             "hebrew-8085": 0.5216855633148915
           },
           "verseKey": "jhn.4.42",
-          "cunp": "便對婦人說：「現在我們信，不是因為你的話，是我們親自聽見了，知道這真是救世主。」",
+          "nasb": "and they were saying to the woman, “It is no longer because of what you said that we believe, for we have heard for ourselves and know that this One is indeed the Savior of the world.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "and"
-            },
-            {
               "id": "greek-1135",
-              "eng": "to the woman"
+              "cht": "便對婦人"
             },
             {
               "id": "greek-3004",
-              "eng": "they were saying"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3765",
-              "eng": "No longer"
-            },
-            {
-              "id": "greek-1223",
-              "eng": "because of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4674",
-              "eng": "your"
-            },
-            {
-              "id": "greek-2981",
-              "eng": "speech"
+              "cht": "現在"
             },
             {
               "id": "greek-4100",
-              "eng": "we believe",
-              "punct": ";"
-            },
-            {
-              "id": "greek-846",
-              "eng": "we ourselves"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-191",
-              "eng": "have heard",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "we know"
+              "cht": "我們信",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "that"
+              "cht": "不是"
+            },
+            {
+              "id": "greek-1223",
+              "cht": "因為"
+            },
+            {
+              "id": "greek-4674",
+              "cht": "你的"
+            },
+            {
+              "id": "greek-2981",
+              "cht": "話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1063",
+              "cht": "是"
+            },
+            {
+              "id": "greek-846",
+              "cht": "我們"
+            },
+            {
+              "id": "greek-191",
+              "cht": "親自聽見了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1492",
+              "cht": "知道"
             },
             {
               "id": "greek-3778",
-              "eng": "this"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
+              "cht": "這"
             },
             {
               "id": "greek-230",
-              "eng": "truly"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4990",
-              "eng": "Savior"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "真是"
             },
             {
               "id": "greek-2889",
-              "eng": "world",
-              "punct": "."
-            },
-            {
-              "id": "greek-2076"
-            },
-            {
-              "id": "greek-5547"
+              "cht": "救世主",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -226,84 +173,78 @@
             "hebrew-1097": 2.2520884255970035
           },
           "verseKey": "zep.3.6",
-          "cunp": "我－耶和華已經除滅列國的民； 他們的城樓毀壞。 我使他們的街道荒涼，以致無人經過； 他們的城邑毀滅，以致無人， 也無居民。",
+          "nasb": "“I have cut off nations; Their corner towers are in ruins. I have made their streets desolate, With no one passing by; Their cities are laid waste, Without a man, without an inhabitant.",
           "words": [
             {
+              "id": "",
+              "cht": "我─"
+            },
+            {
               "id": "hebrew-3772",
-              "eng": "I have cut off"
+              "cht": "耶和華已經除滅"
             },
             {
               "id": "hebrew-1471",
-              "eng": "nations",
-              "punct": "–"
+              "cht": "列國"
             },
             {
-              "id": "hebrew-8074",
-              "eng": "are devastated",
-              "punct": "–"
+              "id": "",
+              "cht": "的民",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6438",
-              "eng": "their fortresses"
+              "cht": "他們的城樓"
             },
             {
-              "id": "hebrew-2717",
-              "eng": "I have made desolate"
+              "id": "hebrew-8074",
+              "cht": "毀壞",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2351",
-              "eng": "their streets"
+              "cht": "我使他們的街道"
+            },
+            {
+              "id": "hebrew-2717",
+              "cht": "荒涼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1097",
-              "eng": "with none"
+              "cht": "以致無人"
             },
             {
               "id": "hebrew-5674",
-              "eng": "passing by",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6658",
-              "eng": "are destroyed",
-              "punct": "､"
+              "cht": "經過",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5892",
-              "eng": "their cities"
+              "cht": "他們的城邑"
+            },
+            {
+              "id": "hebrew-6658",
+              "cht": "毀滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1097",
-              "eng": "[There is] no"
+              "cht": "以致無"
             },
             {
               "id": "hebrew-376",
-              "eng": "one",
-              "punct": "､"
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "no"
+              "cht": "也無"
             },
             {
               "id": "hebrew-3427",
-              "eng": "inhabitant",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "居民",
+              "punct_cht": "。"
             }
           ]
         },
@@ -313,41 +254,41 @@
             "hebrew-562": 4.967387449270056
           },
           "verseKey": "psa.19.2",
-          "cunp": "這日到那日發出言語； 這夜到那夜傳出知識。",
+          "nasb": "Day to day pours forth speech, And night to night reveals knowledge.",
           "words": [
             {
               "id": "hebrew-3117",
-              "eng": "Day"
+              "cht": "這日"
             },
             {
               "id": "hebrew-3117",
-              "eng": "unto day"
+              "cht": "到那日"
             },
             {
               "id": "hebrew-5042",
-              "eng": "utters"
+              "cht": "發出"
             },
             {
               "id": "hebrew-562",
-              "eng": "speech",
-              "punct": "､"
+              "cht": "言語",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3915",
-              "eng": "and night"
+              "cht": "這夜"
             },
             {
               "id": "hebrew-3915",
-              "eng": "unto night"
+              "cht": "到那夜"
             },
             {
               "id": "hebrew-2331",
-              "eng": "reveals"
+              "cht": "傳出"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "."
+              "cht": "知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -357,38 +298,37 @@
             "hebrew-562": 4.967387449270056
           },
           "verseKey": "psa.77.8",
-          "cunp": "難道他的慈愛永遠窮盡， 他的應許世世廢棄嗎？",
+          "nasb": "Has His lovingkindness ceased forever? Has His promise come to an end forever?",
           "words": [
             {
-              "id": "hebrew-656",
-              "eng": "Has ceased"
+              "id": "hebrew-2617",
+              "cht": "難道他的慈愛"
             },
             {
               "id": "hebrew-5331",
-              "eng": "forever"
+              "cht": "永遠"
             },
             {
-              "id": "hebrew-2617",
-              "eng": "His mercy"
-            },
-            {
-              "id": "hebrew-1584",
-              "eng": "Has failed"
+              "id": "hebrew-656",
+              "cht": "窮盡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-562",
-              "eng": "[His] speech"
+              "cht": "他的應許"
             },
             {
               "id": "hebrew-1755",
-              "eng": "generation"
+              "cht": "世世"
             },
             {
-              "id": "hebrew-1755",
-              "eng": "and forevermore"
+              "id": "hebrew-1584",
+              "cht": "廢棄"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -398,37 +338,34 @@
             "hebrew-562": 4.967387449270056
           },
           "verseKey": "job.22.28",
-          "cunp": "你定意要做何事，必然給你成就； 亮光也必照耀你的路。",
+          "nasb": "You will also decree a thing, and it will be established for you; And light will shine on your ways.",
           "words": [
             {
               "id": "hebrew-1504",
-              "eng": "And You will utter"
+              "cht": "你定意要做"
             },
             {
               "id": "hebrew-562",
-              "eng": "speech",
-              "punct": "､"
+              "cht": "何事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6965",
-              "eng": "and it will be established"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "so on"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "your ways"
-            },
-            {
-              "id": "hebrew-5050",
-              "eng": "will shine"
+              "cht": "成就",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-216",
-              "eng": "light",
-              "punct": "."
+              "cht": "亮光"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "也必照耀"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "你的路",
+              "punct_cht": "。"
             }
           ]
         },
@@ -438,55 +375,50 @@
             "hebrew-562": 4.967387449270056
           },
           "verseKey": "hab.3.9",
-          "cunp": "你的弓全然顯露， 向眾支派所起的誓都是可信的。（細拉） 你以江河分開大地。",
+          "nasb": "Your bow was made bare, The rods of chastisement were sworn. Selah. You cleaved the earth with rivers.",
           "words": [
             {
+              "id": "hebrew-7198",
+              "cht": "你的弓"
+            },
+            {
               "id": "hebrew-6181",
-              "eng": "quite"
+              "cht": "全然"
             },
             {
               "id": "hebrew-5783",
-              "eng": "was made ready",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7198",
-              "eng": "Your bow"
-            },
-            {
-              "id": "hebrew-7621",
-              "eng": "was sworn"
+              "cht": "顯露",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4294",
-              "eng": "[over Your] arrows",
-              "punct": "､"
+              "cht": "向眾支派"
             },
             {
               "id": "hebrew-562",
-              "eng": "speech",
-              "punct": "."
+              "cht": "所起的誓"
+            },
+            {
+              "id": "",
+              "cht": "都是可信的（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
+              "cht": "細拉）"
             },
             {
               "id": "hebrew-5104",
-              "eng": "With rivers"
+              "cht": "你以江河"
             },
             {
               "id": "hebrew-1234",
-              "eng": "You divided"
+              "cht": "分開"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "大地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -496,104 +428,76 @@
             "hebrew-562": 4.967387449270056
           },
           "verseKey": "mat.26.73",
-          "cunp": "過了不多的時候，旁邊站着的人前來，對彼得說：「你真是他們一黨的，你的口音把你露出來了。」",
+          "nasb": "A little later the bystanders came up and said to Peter, “Surely you too are one of them; for even the way you talk gives you away.”",
           "words": [
             {
               "id": "greek-3326",
-              "eng": "After"
+              "cht": "過了"
             },
             {
               "id": "greek-3397",
-              "eng": "a little while",
-              "punct": ","
-            },
-            {
-              "id": "greek-1161",
-              "eng": "also"
-            },
-            {
-              "id": "greek-4334",
-              "eng": "having come to [him]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "不多的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2476",
-              "eng": "standing by",
-              "punct": ","
+              "cht": "旁邊站著"
             },
             {
-              "id": "greek-2036",
-              "eng": "they said"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4334",
+              "cht": "的人前來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4074",
-              "eng": "to Peter",
-              "punct": ","
+              "cht": "對彼得"
             },
             {
-              "id": "greek-230",
-              "eng": "Surely"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4771",
-              "eng": "you"
+              "cht": "你"
             },
             {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
+              "id": "greek-230",
+              "cht": "真"
             },
             {
               "id": "greek-1488",
-              "eng": "are",
-              "punct": ","
+              "cht": "是"
             },
             {
-              "id": "greek-2532",
-              "eng": "even"
+              "id": "greek-846",
+              "cht": "他們"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2981",
-              "eng": "speech"
+              "id": "greek-1537",
+              "cht": "一黨的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4675",
-              "eng": "of you"
+              "cht": "你的"
             },
             {
-              "id": "greek-1212",
-              "eng": "away"
+              "id": "greek-2981",
+              "cht": "口音"
             },
             {
               "id": "greek-4571",
-              "eng": "you"
+              "cht": "把你"
+            },
+            {
+              "id": "greek-1212",
+              "cht": "露"
             },
             {
               "id": "greek-4160",
-              "eng": "gives",
-              "punct": "."
+              "cht": "出來了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -603,123 +507,76 @@
             "hebrew-562": 4.967387449270056
           },
           "verseKey": "mrk.14.70",
-          "cunp": "彼得又不承認。過了不多的時候，旁邊站着的人又對彼得說：「你真是他們一黨的！因為你是加利利人。」",
+          "nasb": "But again he denied it. And after a little while the bystanders were again saying to Peter, “Surely you are one of them, for you are a Galilean too.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "But"
-            },
-            {
               "id": "greek-3825",
-              "eng": "again"
+              "cht": "彼得又"
             },
             {
               "id": "greek-720",
-              "eng": "he denied",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
+              "cht": "不承認",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3326",
-              "eng": "after"
+              "cht": "過了"
             },
             {
               "id": "greek-3397",
-              "eng": "a little",
-              "punct": ","
+              "cht": "不多的"
             },
             {
-              "id": "greek-3825",
-              "eng": "again"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "id": "",
+              "cht": "時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3936",
-              "eng": "standing by"
+              "cht": "旁邊站著"
             },
             {
-              "id": "greek-3004",
-              "eng": "were saying"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3825",
+              "cht": "的人又"
             },
             {
               "id": "greek-4074",
-              "eng": "to Peter",
-              "punct": ","
+              "cht": "對彼得"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-230",
-              "eng": "Truly"
+              "cht": "你真"
             },
             {
-              "id": "greek-1537",
-              "eng": "of"
+              "id": "greek-1488",
+              "cht": "是"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "他們"
             },
             {
-              "id": "greek-1488",
-              "eng": "you are",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1057",
-              "eng": "a Galilean"
-            },
-            {
-              "id": "greek-1488",
-              "eng": "you are",
-              "punct": "."
+              "id": "greek-1537",
+              "cht": "一黨的",
+              "punct_cht": "！"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "因為"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2981",
-              "eng": "speech"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "of you"
+              "id": "greek-1488",
+              "cht": "你是"
             },
             {
               "id": "greek-3662",
-              "eng": "agrees",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-4675"
+              "cht": "加利利人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -729,33 +586,33 @@
             "hebrew-562": 4.967387449270056
           },
           "verseKey": "psa.68.11",
-          "cunp": "主發命令， 傳好信息的婦女成了大羣。",
+          "nasb": "The Lord gives the command; The women who proclaim the good tidings are a great host:",
           "words": [
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-5414",
-              "eng": "uttered"
+              "cht": "發"
             },
             {
               "id": "hebrew-562",
-              "eng": "speech",
-              "punct": "–"
+              "cht": "命令",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1319",
-              "eng": "those who proclaimed [it]"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "the company"
+              "cht": "傳好信息的婦女"
             },
             {
               "id": "hebrew-7227",
-              "eng": "of Great [was]",
-              "punct": "."
+              "cht": "成了大"
+            },
+            {
+              "id": "hebrew-6635",
+              "cht": "群",
+              "punct_cht": "。"
             }
           ]
         }

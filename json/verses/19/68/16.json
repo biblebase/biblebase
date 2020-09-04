@@ -3,18 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4100": "Why",
-          "hebrew-7520": "do you fume with envy",
-          "hebrew-2022": "[This is] the mountain",
-          "hebrew-1386": "of [many] peaks",
-          "hebrew-2530": "[which] desires",
-          "hebrew-430": "God",
-          "hebrew-3427": "to dwell in",
-          "hebrew-637": "Yes",
-          "hebrew-3068": "Yahweh",
-          "hebrew-7931": "will dwell [in it]",
-          "hebrew-5331": "forever",
-          "": null
+          "eng": {
+            "hebrew-4100": "Why",
+            "hebrew-7520": "do you fume with envy",
+            "hebrew-2022": "[This is] the mountain",
+            "hebrew-1386": "of [many] peaks",
+            "hebrew-2530": "[which] desires",
+            "hebrew-430": "God",
+            "hebrew-3427": "to dwell in",
+            "hebrew-637": "Yes",
+            "hebrew-3068": "Yahweh",
+            "hebrew-7931": "will dwell [in it]",
+            "hebrew-5331": "forever",
+            "": null
+          },
+          "cht": {
+            "hebrew-4100": "為何",
+            "hebrew-7520": "斜看",
+            "hebrew-2022": "的山",
+            "hebrew-1386": "你們多峰多嶺",
+            "hebrew-2530": "所願",
+            "hebrew-430": "神",
+            "hebrew-3427": "居住",
+            "hebrew-637": "必",
+            "hebrew-3068": "耶和華",
+            "hebrew-7931": "住",
+            "hebrew-5331": "直到永遠"
+          }
         }
       },
       "translations": {
@@ -31,44 +46,45 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "psa.68.15",
-          "cunp": "巴珊山是神的山； 巴珊山是多峯多嶺的山。",
+          "nasb": "A mountain of God is the mountain of Bashan; A mountain of many peaks is the mountain of Bashan.",
           "words": [
             {
+              "id": "hebrew-1316",
+              "cht": "巴珊"
+            },
+            {
               "id": "hebrew-2022",
-              "eng": "A mountain"
+              "cht": "山"
+            },
+            {
+              "id": "",
+              "cht": "是"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God"
+              "cht": "神"
             },
             {
               "id": "hebrew-2022",
-              "eng": "[is] the mountain"
+              "cht": "的山",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1316",
-              "eng": "of Bashan",
-              "punct": "–"
+              "cht": "巴珊"
             },
             {
               "id": "hebrew-2022",
-              "eng": "a mountain [of]"
+              "cht": "山"
             },
             {
               "id": "hebrew-1386",
-              "eng": "[many] peaks"
+              "cht": "是多峰多嶺"
             },
             {
               "id": "hebrew-2022",
-              "eng": "[is] the mountain"
-            },
-            {
-              "id": "hebrew-1316",
-              "eng": "of Bashan",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "的山",
+              "punct_cht": "。"
             }
           ]
         },
@@ -78,74 +94,70 @@
             "hebrew-2530": 3.4146839202627715
           },
           "verseKey": "exo.20.17",
-          "cunp": "「不可貪戀人的房屋；也不可貪戀人的妻子、僕婢、牛驢，並他一切所有的。」",
+          "nasb": "“You shall not covet your neighbor’s house; you shall not covet your neighbor’s wife or his male servant or his female servant or his ox or his donkey or anything that belongs to your neighbor.”",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-2530",
-              "eng": "You shall covet"
+              "cht": "貪戀"
+            },
+            {
+              "id": "hebrew-7453",
+              "cht": "人"
             },
             {
               "id": "hebrew-1004",
-              "eng": "house"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "of your neighbor",
-              "punct": "–"
+              "cht": "的房屋",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-2530",
-              "eng": "you shall covet"
+              "cht": "貪戀"
+            },
+            {
+              "id": "hebrew-7453",
+              "cht": "人"
             },
             {
               "id": "hebrew-802",
-              "eng": "wife",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "of your neighbor"
+              "cht": "的妻子、"
             },
             {
               "id": "hebrew-5650",
-              "eng": "nor his manservant",
-              "punct": "､"
+              "cht": "僕"
             },
             {
               "id": "hebrew-519",
-              "eng": "nor his maidservant",
-              "punct": "､"
+              "cht": "婢、"
             },
             {
               "id": "hebrew-7794",
-              "eng": "nor his ox",
-              "punct": "､"
+              "cht": "牛"
             },
             {
               "id": "hebrew-2543",
-              "eng": "nor his donkey",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "nor anything"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "驢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7453",
-              "eng": "[is] your neighbor",
-              "punct": "."
+              "cht": "並他"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所有的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -157,80 +169,70 @@
             "hebrew-5331": 2.57672001355142
           },
           "verseKey": "jer.50.39",
-          "cunp": "所以曠野的走獸和豺狼必住在那裏，鴕鳥也住在其中，永無人煙，世世代代無人居住。」",
+          "nasb": "“Therefore the desert creatures will live there along with the jackals; The ostriches also will live in it, And it will never again be inhabited Or dwelt in from generation to generation.",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "Therefore"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "shall dwell [there]"
+              "cht": "所以"
             },
             {
               "id": "hebrew-6728",
-              "eng": "the wild desert beasts"
+              "cht": "曠野的走獸"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
+              "cht": "和"
             },
             {
               "id": "hebrew-338",
-              "eng": "the jackals"
+              "cht": "豺狼"
             },
             {
               "id": "hebrew-3427",
-              "eng": "and shall dwell"
+              "cht": "必住"
+            },
+            {
+              "id": "",
+              "cht": "在那裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1323",
-              "eng": "the owls"
-            },
-            {
-              "id": "hebrew-3284",
-              "eng": "the ostriches"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
+              "cht": "鴕鳥"
             },
             {
               "id": "hebrew-3427",
-              "eng": "it shall be inhabited"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "more"
+              "cht": "也住"
             },
             {
               "id": "hebrew-5331",
-              "eng": "forever",
-              "punct": "–"
+              "cht": "永"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "無"
             },
             {
-              "id": "hebrew-7931",
-              "eng": "shall it be dwelt in"
+              "id": "hebrew-3427",
+              "cht": "人煙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "from"
+              "cht": "世世"
             },
             {
               "id": "hebrew-1755",
-              "eng": "generation"
+              "cht": "代代"
             },
             {
-              "id": "hebrew-1755",
-              "eng": "and to generation",
-              "punct": "."
+              "id": "hebrew-3808",
+              "cht": "無人"
             },
             {
-              "id": ""
+              "id": "hebrew-7931",
+              "cht": "居住",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -240,70 +242,63 @@
             "hebrew-5331": 2.57672001355142
           },
           "verseKey": "isa.34.10",
-          "cunp": "晝夜總不熄滅， 煙氣永遠上騰， 必世世代代成為荒廢， 永永遠遠無人經過。",
+          "nasb": "It will not be quenched night or day; Its smoke will go up forever. From generation to generation it will be desolate; None will pass through it forever and ever.",
           "words": [
             {
-              "id": "hebrew-3915",
-              "eng": "Night"
+              "id": "hebrew-3119",
+              "cht": "晝"
             },
             {
-              "id": "hebrew-3119",
-              "eng": "or day",
-              "punct": "–"
+              "id": "hebrew-3915",
+              "cht": "夜"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "總不"
             },
             {
               "id": "hebrew-3518",
-              "eng": "it shall be quenched"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "Shall ascend"
+              "cht": "熄滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6227",
-              "eng": "Its smoke"
+              "cht": "煙氣"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "永遠"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "上騰",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "必世世"
             },
             {
               "id": "hebrew-1755",
-              "eng": "from generation"
-            },
-            {
-              "id": "hebrew-1755",
-              "eng": "to generation"
+              "cht": "代代"
             },
             {
               "id": "hebrew-2717",
-              "eng": "it shall lie waste",
-              "punct": "–"
+              "cht": "成為荒廢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5331",
-              "eng": "forever"
-            },
-            {
-              "id": "hebrew-5331",
-              "eng": "and ever",
-              "punct": "."
+              "cht": "永永遠遠"
             },
             {
               "id": "hebrew-369",
-              "eng": "No one"
+              "cht": "無人"
             },
             {
               "id": "hebrew-5674",
-              "eng": "shall pass"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "經過",
+              "punct_cht": "。"
             }
           ]
         },
@@ -315,75 +310,71 @@
             "hebrew-5331": 2.57672001355142
           },
           "verseKey": "isa.13.20",
-          "cunp": "其內必永無人煙， 世世代代無人居住。 阿拉伯人也不在那裏支搭帳棚； 牧羊的人也不使羊羣臥在那裏。",
+          "nasb": "It will never be inhabited or lived in from generation to generation; Nor will the Arab pitch his tent there, Nor will shepherds make their flocks lie down there.",
           "words": [
             {
+              "id": "hebrew-5331",
+              "cht": "其內必永"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "Never"
+              "cht": "無"
             },
             {
               "id": "hebrew-3427",
-              "eng": "it will be inhabited",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5331",
-              "eng": "it shall never"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-7931",
-              "eng": "will it be settled"
+              "cht": "人煙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "from"
+              "cht": "世世"
             },
             {
               "id": "hebrew-1755",
-              "eng": "generation to"
-            },
-            {
-              "id": "hebrew-1755",
-              "eng": "and generation",
-              "punct": "–"
+              "cht": "代代"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "無人"
             },
             {
-              "id": "hebrew-167",
-              "eng": "will pitch tents"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "–"
+              "id": "hebrew-7931",
+              "cht": "居住",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6163",
-              "eng": "the Arabian"
-            },
-            {
-              "id": "hebrew-7462",
-              "eng": "and the shepherds"
+              "cht": "亞拉伯人"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-7257",
-              "eng": "will make their sheepfolds"
+              "cht": "也不"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "."
+              "cht": "在那裡"
+            },
+            {
+              "id": "hebrew-167",
+              "cht": "支搭帳棚",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-7462",
+              "cht": "牧羊的人"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-7257",
+              "cht": "使羊群臥在"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "那裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -395,90 +386,91 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "gen.2.9",
-          "cunp": "耶和華神使各樣的樹從地裏長出來，可以悅人的眼目，其上的果子好作食物。園子當中又有生命樹和分別善惡的樹。",
+          "nasb": "Out of the ground the Lord God caused to grow every tree that is pleasing to the sight and good for food; the tree of life also in the midst of the garden, and the tree of the knowledge of good and evil.",
           "words": [
             {
-              "id": "hebrew-6779",
-              "eng": "And made grow"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-4480",
-              "eng": "out"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "of the ground"
+              "id": "hebrew-6779",
+              "cht": "使"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "各樣"
             },
             {
               "id": "hebrew-6086",
-              "eng": "tree"
+              "cht": "的樹"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從"
+            },
+            {
+              "id": "hebrew-127",
+              "cht": "地裡"
+            },
+            {
+              "id": "hebrew-6779",
+              "cht": "長出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2530",
-              "eng": "that is pleasing"
+              "cht": "可以悅人"
             },
             {
               "id": "hebrew-4758",
-              "eng": "to the sight",
-              "punct": "､"
+              "cht": "的眼目",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2896",
-              "eng": "and good"
+              "cht": "其上的果子好"
             },
             {
               "id": "hebrew-3978",
-              "eng": "for food",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "and the tree"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "of life [was]"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "in the midst"
+              "cht": "作食物",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1588",
-              "eng": "of the garden",
-              "punct": "､"
+              "cht": "園子"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "當中"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "又有生命"
             },
             {
               "id": "hebrew-6086",
-              "eng": "and the tree"
+              "cht": "樹"
             },
             {
               "id": "hebrew-1847",
-              "eng": "of the knowledge"
+              "cht": "和分別"
             },
             {
               "id": "hebrew-2896",
-              "eng": "of good"
+              "cht": "善"
             },
             {
               "id": "hebrew-7451",
-              "eng": "and evil",
-              "punct": "."
+              "cht": "惡"
             },
             {
-              "id": "hebrew-6779"
+              "id": "hebrew-6086",
+              "cht": "的樹",
+              "punct_cht": "。"
             }
           ]
         },
@@ -490,85 +482,82 @@
             "hebrew-7931": 1.588405164233749
           },
           "verseKey": "num.35.34",
-          "cunp": "你們不可玷污所住之地，就是我住在其中之地，因為我－耶和華住在以色列人中間。」",
+          "nasb": "You shall not defile the land in which you live, in the midst of which I dwell; for I the Lord am dwelling in the midst of the sons of Israel.’ ”",
           "words": [
             {
+              "id": "hebrew-859",
+              "cht": "你們"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "Therefore not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-2930",
-              "eng": "do defile"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "玷污"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "you"
+              "cht": "所"
             },
             {
               "id": "hebrew-3427",
-              "eng": "inhabit",
-              "punct": "､"
+              "cht": "住"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "就是"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-7931",
-              "eng": "dwell",
-              "punct": "–"
+              "cht": "住"
             },
             {
               "id": "hebrew-8432",
-              "eng": "in the midst"
+              "cht": "在其中"
+            },
+            {
+              "id": "",
+              "cht": "之地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我─"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-7931",
-              "eng": "dwell"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "住"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "在以色列"
             },
             {
-              "id": ""
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "中間",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -579,7 +568,7 @@
             "hebrew-3427": 0.6117765853095607
           },
           "verseKey": "exo.3.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -589,95 +578,93 @@
             "hebrew-7931": 1.588405164233749
           },
           "verseKey": "ezk.17.23",
-          "cunp": "在以色列高處的山栽上。它就生枝子，結果子，成為佳美的香柏樹，各類飛鳥都必宿在其下，就是宿在枝子的蔭下。",
+          "nasb": "On the high mountain of Israel I will plant it, that it may bring forth boughs and bear fruit and become a stately cedar. And birds of every kind will nest under it; they will nest in the shade of its branches.",
           "words": [
             {
-              "id": "hebrew-2022",
-              "eng": "On the mountain"
+              "id": "hebrew-3478",
+              "cht": "在以色列"
             },
             {
               "id": "hebrew-4791",
-              "eng": "height"
+              "cht": "高處"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "id": "hebrew-2022",
+              "cht": "的山"
             },
             {
               "id": "hebrew-8362",
-              "eng": "I will plant it"
+              "cht": "栽上",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5375",
-              "eng": "and it will bring forth"
+              "cht": "它就生"
             },
             {
               "id": "hebrew-6057",
-              "eng": "boughs",
-              "punct": "､"
+              "cht": "枝子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "and bear"
+              "cht": "結"
             },
             {
               "id": "hebrew-6529",
-              "eng": "fruit",
-              "punct": "､"
+              "cht": "果子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and be"
-            },
-            {
-              "id": "hebrew-730",
-              "eng": "a cedar",
-              "punct": "."
+              "cht": "成為"
             },
             {
               "id": "hebrew-117",
-              "eng": "Majestic"
+              "cht": "佳美"
             },
             {
-              "id": "hebrew-7931",
-              "eng": "and will dwell"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "Under it"
+              "id": "hebrew-730",
+              "cht": "的香柏樹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "類飛"
             },
             {
               "id": "hebrew-6833",
-              "eng": "birds"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of every"
-            },
-            {
-              "id": "hebrew-3671",
-              "eng": "sort",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6738",
-              "eng": "in the shadow"
-            },
-            {
-              "id": "hebrew-1808",
-              "eng": "of its branches"
+              "cht": "鳥"
             },
             {
               "id": "hebrew-7931",
-              "eng": "they will dwell",
-              "punct": "."
+              "cht": "都必宿"
             },
             {
-              "id": ""
+              "id": "hebrew-8478",
+              "cht": "在其下",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7931",
+              "cht": "就是宿"
+            },
+            {
+              "id": "hebrew-1808",
+              "cht": "在枝子"
+            },
+            {
+              "id": "hebrew-6738",
+              "cht": "的蔭"
+            },
+            {
+              "id": "",
+              "cht": "下",
+              "punct_cht": "。"
             }
           ]
         },
@@ -688,73 +675,75 @@
             "hebrew-7931": 1.588405164233749
           },
           "verseKey": "jdg.5.17",
-          "cunp": "基列人安居在約旦河外。 但人為何等在船上？ 亞設人在海口靜坐， 在港口安居。",
+          "nasb": "Gilead remained across the Jordan; And why did Dan stay in ships? Asher sat at the seashore, And remained by its landings.",
           "words": [
             {
               "id": "hebrew-1568",
-              "eng": "Gilead"
+              "cht": "基列人"
             },
             {
-              "id": "hebrew-5676",
-              "eng": "beyond"
+              "id": "hebrew-7931",
+              "cht": "安居"
             },
             {
               "id": "hebrew-3383",
-              "eng": "the Jordan",
-              "punct": "–"
+              "cht": "在約旦河"
             },
             {
-              "id": "hebrew-7931",
-              "eng": "stayed"
+              "id": "hebrew-5676",
+              "cht": "外",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1835",
-              "eng": "and Dan"
+              "cht": "但人"
             },
             {
               "id": "hebrew-4100",
-              "eng": "why"
+              "cht": "為何"
             },
             {
               "id": "hebrew-1481",
-              "eng": "did remain"
+              "cht": "等"
             },
             {
               "id": "hebrew-591",
-              "eng": "on ships"
+              "cht": "在船"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-836",
-              "eng": "Asher"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "continued"
-            },
-            {
-              "id": "hebrew-2348",
-              "eng": "at the",
-              "punct": "､"
+              "cht": "亞設人"
             },
             {
               "id": "hebrew-3220",
-              "eng": "seashore"
+              "cht": "在海"
+            },
+            {
+              "id": "hebrew-2348",
+              "cht": "口"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "靜坐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and by"
+              "cht": "在"
             },
             {
               "id": "hebrew-4664",
-              "eng": "his inlets"
+              "cht": "港口"
             },
             {
               "id": "hebrew-7931",
-              "eng": "stayed",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "安居",
+              "punct_cht": "。"
             }
           ]
         }

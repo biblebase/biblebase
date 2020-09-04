@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-794": "unloving",
-          "greek-786": "implacable",
-          "greek-1228": "slanderous",
-          "greek-193": "without self-control",
-          "greek-434": "savage",
-          "greek-865": "without love of good"
+          "eng": {
+            "greek-794": "unloving",
+            "greek-786": "implacable",
+            "greek-1228": "slanderous",
+            "greek-193": "without self-control",
+            "greek-434": "savage",
+            "greek-865": "without love of good"
+          },
+          "cht": {
+            "greek-794": "無親情、",
+            "greek-786": "不解怨、",
+            "greek-1228": "好說讒言、",
+            "greek-193": "不能自約、",
+            "greek-434": "性情兇暴、",
+            "greek-865": "不愛良善、"
+          }
         }
       },
       "translations": {},
@@ -19,30 +29,27 @@
             "greek-794": 10.248599871619378
           },
           "verseKey": "rom.1.31",
-          "cunp": "無知的、背約的、無親情的、不憐憫人的。",
+          "nasb": "without understanding, untrustworthy, unloving, unmerciful;",
           "words": [
             {
               "id": "greek-801",
-              "eng": "foolish",
-              "punct": ","
+              "cht": "無知的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-802",
-              "eng": "untrustworthy",
-              "punct": ","
+              "cht": "背約的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-794",
-              "eng": "heartless",
-              "punct": ","
+              "cht": "無親情的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-415",
-              "eng": "unmerciful",
-              "punct": ";"
-            },
-            {
-              "id": "greek-786"
+              "cht": "不憐憫人的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -52,123 +59,79 @@
             "greek-1228": 2.7241148720068757
           },
           "verseKey": "1jn.3.8",
-          "cunp": "犯罪的是屬魔鬼，因為魔鬼從起初就犯罪。神的兒子顯現出來，為要除滅魔鬼的作為。",
+          "nasb": "the one who practices sin is of the devil; for the devil has sinned from the beginning. The Son of God appeared for this purpose, to destroy the works of the devil.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-4160",
-              "eng": "practicing"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "犯"
             },
             {
               "id": "greek-266",
-              "eng": "sin",
-              "punct": ","
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1228",
-              "eng": "devil"
+              "cht": "罪"
             },
             {
               "id": "greek-2076",
-              "eng": "is",
-              "punct": ","
+              "cht": "的是"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "屬"
+            },
+            {
+              "id": "greek-1228",
+              "cht": "魔鬼",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "because"
+              "cht": "因為"
+            },
+            {
+              "id": "greek-1228",
+              "cht": "魔鬼"
             },
             {
               "id": "greek-575",
-              "eng": "from"
+              "cht": "從"
             },
             {
               "id": "greek-746",
-              "eng": "[the] beginning"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1228",
-              "eng": "devil"
+              "cht": "起初"
             },
             {
               "id": "greek-264",
-              "eng": "has been sinning",
-              "punct": "."
-            },
-            {
-              "id": "greek-1519",
-              "eng": "For"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this [reason]"
-            },
-            {
-              "id": "greek-5319",
-              "eng": "was revealed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5207",
-              "eng": "Son"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "就犯罪",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": ","
+              "cht": "神的"
             },
             {
-              "id": "greek-2443",
-              "eng": "so that"
+              "id": "greek-5207",
+              "cht": "兒子"
+            },
+            {
+              "id": "greek-5319",
+              "cht": "顯現出來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5124",
+              "cht": "為要"
             },
             {
               "id": "greek-3089",
-              "eng": "He might destroy"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2041",
-              "eng": "works"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "除滅"
             },
             {
               "id": "greek-1228",
-              "eng": "devil",
-              "punct": "."
+              "cht": "魔鬼"
             },
             {
-              "id": "greek-5124"
+              "id": "greek-2041",
+              "cht": "的作為",
+              "punct_cht": "。"
             }
           ]
         }

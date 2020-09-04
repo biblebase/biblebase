@@ -3,19 +3,35 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-518": "If",
-          "hebrew-4194": "like",
-          "hebrew-3605": "of all",
-          "hebrew-120": "men",
-          "hebrew-4191": "men die naturally",
-          "hebrew-428": "these",
-          "hebrew-6486": "or if the common fate",
-          "hebrew-6485": "they are visited",
-          "hebrew-5921": "by",
-          "hebrew-3808": "not",
-          "hebrew-3068": "[then] Yahweh",
-          "hebrew-7971": "has sent me",
-          "": null
+          "eng": {
+            "hebrew-518": "If",
+            "hebrew-4194": "like",
+            "hebrew-3605": "of all",
+            "hebrew-120": "men",
+            "hebrew-4191": "men die naturally",
+            "hebrew-428": "these",
+            "hebrew-6486": "or if the common fate",
+            "hebrew-6485": "they are visited",
+            "hebrew-5921": "by",
+            "hebrew-3808": "not",
+            "hebrew-3068": "[then] Yahweh",
+            "hebrew-7971": "has sent me",
+            "": null
+          },
+          "cht": {
+            "hebrew-518": "若",
+            "hebrew-4194": "無異",
+            "hebrew-3605": "與世",
+            "hebrew-120": "人",
+            "hebrew-4191": "死",
+            "hebrew-428": "這些人",
+            "hebrew-6486": "相同",
+            "hebrew-6485": "或是他們所遭的",
+            "hebrew-5921": "人",
+            "hebrew-3808": "就不是",
+            "hebrew-3068": "耶和華",
+            "hebrew-7971": "打發我"
+          }
         }
       },
       "translations": {
@@ -33,109 +49,103 @@
             "hebrew-120": 0.8170628239250021
           },
           "verseKey": "ecc.3.19",
-          "cunp": "因為世人遭遇的，獸也遭遇，所遭遇的都是一樣：這個怎樣死，那個也怎樣死，氣息都是一樣。人不能強於獸，都是虛空。",
+          "nasb": "For the fate of the sons of men and the fate of beasts is the same. As one dies so dies the other; indeed, they all have the same breath and there is no advantage for man over beast, for all is vanity.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-4745",
-              "eng": "what happens to"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "因為"
             },
             {
               "id": "hebrew-120",
-              "eng": "of men"
+              "cht": "世人"
             },
             {
               "id": "hebrew-4745",
-              "eng": "and happens to"
+              "cht": "遭遇的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-929",
-              "eng": "animals",
-              "punct": "–"
+              "cht": "獸"
             },
             {
               "id": "hebrew-4745",
-              "eng": "and befalls"
+              "cht": "也遭遇",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4745",
+              "cht": "所遭遇的"
             },
             {
               "id": "hebrew-259",
-              "eng": "one [thing]"
-            },
-            {
-              "id": "hebrew-4194",
-              "eng": "as dies",
-              "punct": "､"
+              "cht": "都是一樣",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [one]"
+              "cht": "這個"
+            },
+            {
+              "id": "hebrew-4194",
+              "cht": "怎樣死",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "那個"
             },
             {
               "id": "hebrew-3651",
-              "eng": "so"
+              "cht": "也怎樣"
             },
             {
               "id": "hebrew-4194",
-              "eng": "dies"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this [one]",
-              "punct": "–"
+              "cht": "死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7307",
-              "eng": "and breath",
-              "punct": "–"
+              "cht": "氣息"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "surely they all have"
-            },
-            {
-              "id": "hebrew-4195",
-              "eng": "and advantage"
+              "cht": "是一樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "over"
-            },
-            {
-              "id": "hebrew-929",
-              "eng": "animals",
-              "punct": "､"
+              "cht": "人"
             },
             {
               "id": "hebrew-369",
-              "eng": "has no"
+              "cht": "不能"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4195",
+              "cht": "強"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "於"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "獸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
             },
             {
               "id": "hebrew-1892",
-              "eng": "[is] vanity",
-              "punct": "."
+              "cht": "是虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -148,147 +158,133 @@
             "hebrew-7971": 0.6898629381289483
           },
           "verseKey": "1sa.5.11",
-          "cunp": "於是打發人去請非利士的眾首領來，說：「願你們將以色列神的約櫃送回原處，免得害了我們和我們的眾民！」原來神的手重重攻擊那城，城中的人有因驚慌而死的；",
+          "nasb": "They sent therefore and gathered all the lords of the Philistines and said, “Send away the ark of the God of Israel, and let it return to its own place, so that it will not kill us and our people.” For there was a deadly confusion throughout the city; the hand of God was very heavy there.",
           "words": [
             {
               "id": "hebrew-7971",
-              "eng": "So they sent"
-            },
-            {
-              "id": "hebrew-622",
-              "eng": "and gathered together"
+              "cht": "於是打發人"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5633",
-              "eng": "the lords"
+              "cht": "去請"
             },
             {
               "id": "hebrew-6430",
-              "eng": "of the Philistines",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "Send away"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-727",
-              "eng": "the ark"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "of the God"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "and let it go back"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "to its own place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "so that not",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "it does kill"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "us"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "our people",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there was"
-            },
-            {
-              "id": "hebrew-4103",
-              "eng": "a destruction"
-            },
-            {
-              "id": "hebrew-4194",
-              "eng": "deadly"
+              "cht": "非利士"
             },
             {
               "id": "hebrew-3605",
-              "eng": "throughout all"
+              "cht": "的眾"
             },
             {
-              "id": "hebrew-5892",
-              "eng": "the city",
-              "punct": "–"
+              "id": "hebrew-5633",
+              "cht": "首領"
             },
             {
-              "id": "hebrew-3513",
-              "eng": "was heavy"
+              "id": "hebrew-622",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3966",
-              "eng": "very"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-3027",
-              "eng": "the hand"
+              "id": "hebrew-853",
+              "cht": "願你們將"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-727",
+              "cht": "的約櫃"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "送"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "回"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "原處",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "免得"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "害了"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "我們"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "我們的眾民",
+              "punct_cht": "！」"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "原來"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "的手"
+            },
+            {
+              "id": "hebrew-3966",
+              "cht": "重"
+            },
+            {
+              "id": "hebrew-3513",
+              "cht": "重"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "."
+              "cht": "攻擊那城",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-7971"
+              "id": "hebrew-5892",
+              "cht": "城"
             },
             {
-              "id": "hebrew-7971"
+              "id": "hebrew-1961",
+              "cht": "中的人有"
             },
             {
-              "id": "hebrew-7971"
+              "id": "hebrew-4103",
+              "cht": "因驚慌"
             },
             {
-              "id": ""
+              "id": "hebrew-4194",
+              "cht": "而死"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "；"
             }
           ]
         },
@@ -299,139 +295,127 @@
             "hebrew-6485": 1.2163466252528228
           },
           "verseKey": "2ki.10.19",
-          "cunp": "現在我要給巴力獻大祭。應當叫巴力的眾先知和一切拜巴力的人，並巴力的眾祭司，都到我這裏來，不可缺少一個；凡不來的必不得活。」耶戶這樣行，是用詭計要殺盡拜巴力的人。",
+          "nasb": "Now, summon all the prophets of Baal, all his worshipers and all his priests; let no one be missing, for I have a great sacrifice for Baal; whoever is missing shall not live.” But Jehu did it in cunning, so that he might destroy the worshipers of Baal.",
           "words": [
             {
               "id": "hebrew-6258",
-              "eng": "Now therefore"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5030",
-              "eng": "the prophets"
+              "cht": "現在"
             },
             {
               "id": "hebrew-1168",
-              "eng": "of Baal",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5647",
-              "eng": "his servants",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-3548",
-              "eng": "his priests",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "call"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to me"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "no one"
-            },
-            {
-              "id": "hebrew-6485",
-              "eng": "let be missing",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2077",
-              "eng": "a sacrifice"
+              "cht": "給巴力"
             },
             {
               "id": "hebrew-1419",
-              "eng": "great"
+              "cht": "獻大"
+            },
+            {
+              "id": "hebrew-2077",
+              "cht": "祭",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "應當叫"
             },
             {
               "id": "hebrew-1168",
-              "eng": "for Baal",
-              "punct": "–"
+              "cht": "巴力"
             },
             {
               "id": "hebrew-3605",
-              "eng": "anyone"
+              "cht": "的眾"
             },
             {
-              "id": "hebrew-834",
-              "eng": "Whoever"
+              "id": "hebrew-5030",
+              "cht": "先知"
             },
             {
-              "id": "hebrew-6485",
-              "eng": "is missing",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2421",
-              "eng": "shall live",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3058",
-              "eng": "But Jehu"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "acted"
-            },
-            {
-              "id": "hebrew-6122",
-              "eng": "deceptively",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4616",
-              "eng": "with the intent"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "of destroying"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3605",
+              "cht": "和一切"
             },
             {
               "id": "hebrew-5647",
-              "eng": "the worshipers"
+              "cht": "拜巴力的人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "並巴力的眾"
+            },
+            {
+              "id": "hebrew-3548",
+              "cht": "祭司",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "都到我"
+            },
+            {
+              "id": "",
+              "cht": "這裡來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "不可"
+            },
+            {
+              "id": "hebrew-6485",
+              "cht": "缺少"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "一個",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "凡"
+            },
+            {
+              "id": "hebrew-6485",
+              "cht": "不來的"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "必不"
+            },
+            {
+              "id": "hebrew-2421",
+              "cht": "得活",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-3058",
+              "cht": "耶戶"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "這樣行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6122",
+              "cht": "是用詭計"
+            },
+            {
+              "id": "hebrew-4616",
+              "cht": "要"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "殺盡"
             },
             {
               "id": "hebrew-1168",
-              "eng": "of Baal",
-              "punct": "."
+              "cht": "拜巴力"
             },
             {
-              "id": ""
+              "id": "hebrew-5647",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         }

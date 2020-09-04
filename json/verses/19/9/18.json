@@ -3,16 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "For",
-          "hebrew-3808": "not",
-          "hebrew-5331": "always",
-          "hebrew-7911": "shall be forgotten",
-          "hebrew-34": "the needy",
-          "hebrew-8615": "the expectation",
-          "hebrew-6035": "the poor",
-          "hebrew-6": "shall [not] perish",
-          "hebrew-5703": "forever",
-          "hebrew-6041": null
+          "eng": {
+            "hebrew-3588": "For",
+            "hebrew-3808": "not",
+            "hebrew-5331": "always",
+            "hebrew-7911": "shall be forgotten",
+            "hebrew-34": "the needy",
+            "hebrew-8615": "the expectation",
+            "hebrew-6035": "the poor",
+            "hebrew-6": "shall [not] perish",
+            "hebrew-5703": "forever",
+            "hebrew-6041": null
+          },
+          "cht": {
+            "hebrew-3808": "必不",
+            "hebrew-5331": "永久",
+            "hebrew-7911": "被忘",
+            "hebrew-34": "窮乏人",
+            "hebrew-8615": "的指望",
+            "hebrew-6035": "困苦人",
+            "hebrew-6": "落空",
+            "hebrew-5703": "必不永遠",
+            "hebrew-6041": "困苦人"
+          }
         }
       },
       "translations": {
@@ -29,45 +42,37 @@
             "hebrew-6041": 1.70964261929426
           },
           "verseKey": "amo.8.4",
-          "cunp": "你們這些要吞吃窮乏人、 使困苦人衰敗的，當聽我的話！",
+          "nasb": "Hear this, you who trample the needy, to do away with the humble of the land,",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "Hear"
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "this",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-7602",
-              "eng": "you who swallow up"
+              "cht": "你們這些要吞吃"
             },
             {
               "id": "hebrew-34",
-              "eng": "the needy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7673",
-              "eng": "and make fail",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the poor"
+              "cht": "窮乏人、"
             },
             {
               "id": "hebrew-6041",
-              "eng": "of the land",
-              "punct": "."
+              "cht": "使困苦人"
             },
             {
-              "id": "hebrew-776"
+              "id": "hebrew-7673",
+              "cht": "衰敗"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "當聽"
+            },
+            {
+              "id": "hebrew-2063",
+              "cht": "我的話",
+              "punct_cht": "！"
             }
           ]
         },
@@ -77,33 +82,33 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "psa.25.9",
-          "cunp": "他必按公平引領謙卑人， 將他的道教訓他們。",
+          "nasb": "He leads the humble in justice, And He teaches the humble His way.",
           "words": [
             {
-              "id": "hebrew-1869",
-              "eng": "He guides"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the humble"
-            },
-            {
               "id": "hebrew-4941",
-              "eng": "in justice",
-              "punct": "､"
+              "cht": "他必按公平"
             },
             {
-              "id": "hebrew-3925",
-              "eng": "and He teaches"
+              "id": "hebrew-1869",
+              "cht": "引領"
             },
             {
               "id": "hebrew-6035",
-              "eng": "the humble"
+              "cht": "謙卑人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1870",
-              "eng": "His way",
-              "punct": "."
+              "cht": "將他的道"
+            },
+            {
+              "id": "hebrew-3925",
+              "cht": "教訓"
+            },
+            {
+              "id": "hebrew-6035",
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -115,44 +120,46 @@
             "hebrew-6": 1.1733144160563405
           },
           "verseKey": "job.8.13",
-          "cunp": "凡忘記神的人，景況也是這樣； 不虔敬人的指望要滅沒。",
+          "nasb": "So are the paths of all who forget God; And the hope of the godless will perish,",
           "words": [
             {
-              "id": "hebrew-3651",
-              "eng": "So"
-            },
-            {
-              "id": "hebrew-734",
-              "eng": "[are] the paths"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-7911",
-              "eng": "who forget"
+              "cht": "忘記"
             },
             {
               "id": "hebrew-410",
-              "eng": "God",
-              "punct": "–"
+              "cht": "神"
             },
             {
-              "id": "hebrew-8615",
-              "eng": "and the hope"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-734",
+              "cht": "景況"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "也是這樣",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2611",
-              "eng": "of the hypocrite"
+              "cht": "不虔敬人"
+            },
+            {
+              "id": "hebrew-8615",
+              "cht": "的指望"
             },
             {
               "id": "hebrew-6",
-              "eng": "shall perish",
-              "punct": "､"
-            },
-            {
-              "id": ""
+              "cht": "要滅沒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -163,48 +170,50 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "psa.22.26",
-          "cunp": "謙卑的人必吃得飽足； 尋求耶和華的人必讚美他。 願你們的心永遠活着！",
+          "nasb": "The afflicted will eat and be satisfied; Those who seek Him will praise the Lord. Let your heart live forever!",
           "words": [
             {
-              "id": "hebrew-398",
-              "eng": "Shall eat"
+              "id": "hebrew-6035",
+              "cht": "謙卑的人"
             },
             {
-              "id": "hebrew-6035",
-              "eng": "the poor"
+              "id": "hebrew-398",
+              "cht": "必吃"
             },
             {
               "id": "hebrew-7646",
-              "eng": "and be satisfied",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1984",
-              "eng": "will praise"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "得飽足",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1875",
-              "eng": "Those who seek Him"
+              "cht": "尋求"
             },
             {
-              "id": "hebrew-2421",
-              "eng": "let live"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1984",
+              "cht": "的人必讚美"
+            },
+            {
+              "id": "",
+              "cht": "他",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3824",
-              "eng": "your heart"
+              "cht": "願你們的心"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "."
+              "cht": "永遠"
             },
             {
-              "id": ""
+              "id": "hebrew-2421",
+              "cht": "活著",
+              "punct_cht": "！"
             }
           ]
         },
@@ -215,44 +224,37 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "job.24.4",
-          "cunp": "他們使窮人離開正道； 世上的貧民盡都隱藏。",
+          "nasb": "They push the needy aside from the road; The poor of the land are made to hide themselves altogether.",
           "words": [
             {
               "id": "hebrew-5186",
-              "eng": "They push"
+              "cht": "他們使"
             },
             {
               "id": "hebrew-34",
-              "eng": "the needy"
+              "cht": "窮人"
             },
             {
               "id": "hebrew-1870",
-              "eng": "off the road",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "all",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2244",
-              "eng": "Are forced to hide"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the poor"
+              "cht": "離開正道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "."
+              "cht": "世上的"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6041",
+              "cht": "貧民"
             },
             {
-              "id": "hebrew-6041"
+              "id": "hebrew-3162",
+              "cht": "盡都"
+            },
+            {
+              "id": "hebrew-2244",
+              "cht": "隱藏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -263,45 +265,45 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "isa.29.19",
-          "cunp": "謙卑人必因耶和華增添歡喜； 人間貧窮的必因以色列的聖者快樂。",
+          "nasb": "The afflicted also will increase their gladness in the Lord, And the needy of mankind will rejoice in the Holy One of Israel.",
           "words": [
             {
-              "id": "hebrew-3254",
-              "eng": "And shall increase"
-            },
-            {
               "id": "hebrew-6035",
-              "eng": "the humble"
+              "cht": "謙卑人"
             },
             {
               "id": "hebrew-3068",
-              "eng": "in Yahweh",
-              "punct": "､"
+              "cht": "必因耶和華"
+            },
+            {
+              "id": "hebrew-3254",
+              "cht": "增添"
             },
             {
               "id": "hebrew-8057",
-              "eng": "[their] joy"
-            },
-            {
-              "id": "hebrew-34",
-              "eng": "and the poor"
+              "cht": "歡喜",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-120",
-              "eng": "among men"
+              "cht": "人間"
             },
             {
-              "id": "hebrew-6918",
-              "eng": "in the Holy one"
+              "id": "hebrew-34",
+              "cht": "貧窮的"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "必因以色列"
+            },
+            {
+              "id": "hebrew-6918",
+              "cht": "的聖者"
             },
             {
               "id": "hebrew-1523",
-              "eng": "shall rejoice",
-              "punct": "."
+              "cht": "快樂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -312,68 +314,67 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "isa.32.7",
-          "cunp": "吝嗇人所用的法子是惡的； 他圖謀惡計， 用謊言毀滅謙卑人； 窮乏人講公理的時候， 他也是這樣行。",
+          "nasb": "As for a rogue, his weapons are evil; He devises wicked schemes To destroy the afflicted with slander, Even though the needy one speaks what is right.",
           "words": [
             {
               "id": "hebrew-3596",
-              "eng": "And of the schemer"
+              "cht": "吝嗇人"
             },
             {
               "id": "hebrew-3627",
-              "eng": "the schemes"
+              "cht": "所用的法子"
             },
             {
               "id": "hebrew-7451",
-              "eng": "[are] evil",
-              "punct": "–"
+              "cht": "是惡的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1931",
-              "eng": "He"
-            },
-            {
-              "id": "hebrew-2154",
-              "eng": "wicked plans"
+              "cht": "他"
             },
             {
               "id": "hebrew-3289",
-              "eng": "devises"
+              "cht": "圖謀"
             },
             {
-              "id": "hebrew-2254",
-              "eng": "to destroy"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the poor"
-            },
-            {
-              "id": "hebrew-561",
-              "eng": "with words",
-              "punct": "､"
+              "id": "hebrew-2154",
+              "cht": "惡計",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8267",
-              "eng": "lying"
+              "cht": "用謊"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "and Even when speaks"
+              "id": "hebrew-561",
+              "cht": "言"
+            },
+            {
+              "id": "hebrew-2254",
+              "cht": "毀滅"
+            },
+            {
+              "id": "hebrew-6035",
+              "cht": "謙卑人",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-34",
-              "eng": "the needy"
+              "cht": "窮乏人"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "講"
             },
             {
               "id": "hebrew-4941",
-              "eng": "justice",
-              "punct": "."
+              "cht": "公理"
             },
             {
-              "id": "hebrew-6041"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的時候他也是這樣行",
+              "punct_cht": "，。"
             }
           ]
         },
@@ -384,42 +385,42 @@
             "hebrew-6": 1.1733144160563405
           },
           "verseKey": "pro.11.7",
-          "cunp": "惡人一死，他的指望必滅絕； 罪人的盼望也必滅沒。",
+          "nasb": "When a wicked man dies, his expectation will perish, And the hope of strong men perishes.",
           "words": [
             {
-              "id": "hebrew-4194",
-              "eng": "When dies",
-              "punct": "､"
+              "id": "hebrew-7563",
+              "cht": "惡"
             },
             {
               "id": "hebrew-120",
-              "eng": "a man"
+              "cht": "人"
             },
             {
-              "id": "hebrew-7563",
-              "eng": "wicked"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "will perish",
-              "punct": "､"
+              "id": "hebrew-4194",
+              "cht": "一死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8615",
-              "eng": "[his] expectation"
-            },
-            {
-              "id": "hebrew-8431",
-              "eng": "and the hope in"
-            },
-            {
-              "id": "hebrew-205",
-              "eng": "strength"
+              "cht": "他的指望"
             },
             {
               "id": "hebrew-6",
-              "eng": "perishes",
-              "punct": "."
+              "cht": "必滅絕",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-205",
+              "cht": "罪人"
+            },
+            {
+              "id": "hebrew-8431",
+              "cht": "的盼望"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "也必滅沒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -430,72 +431,67 @@
             "hebrew-6041": 1.70964261929426
           },
           "verseKey": "psa.35.10",
-          "cunp": "我的骨頭都要說： 耶和華啊，誰能像你 救護困苦人脫離那比他強壯的， 救護困苦窮乏人脫離那搶奪他的？",
+          "nasb": "All my bones will say, “Lord, who is like You, Who delivers the afflicted from him who is too strong for him, And the afflicted and the needy from him who robs him?”",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "All"
+              "id": "hebrew-6106",
+              "cht": "我的骨頭"
             },
             {
-              "id": "hebrew-6106",
-              "eng": "my bones"
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-559",
-              "eng": "shall say",
-              "punct": "､"
+              "cht": "要說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who [is]"
+              "cht": "誰"
             },
             {
               "id": "hebrew-3644",
-              "eng": "like You",
-              "punct": "､"
+              "cht": "能像你"
             },
             {
               "id": "hebrew-5337",
-              "eng": "Delivering"
+              "cht": "救護"
             },
             {
               "id": "hebrew-6041",
-              "eng": "the poor"
-            },
-            {
-              "id": "hebrew-2389",
-              "eng": "from him who is stronger"
+              "cht": "困苦人"
             },
             {
               "id": "hebrew-4480",
-              "eng": "than he"
+              "cht": "脫離那比他"
+            },
+            {
+              "id": "hebrew-2389",
+              "cht": "強壯的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6041",
-              "eng": "and Yes the poor"
+              "cht": "救護困苦"
             },
             {
               "id": "hebrew-34",
-              "eng": "and the needy"
+              "cht": "窮乏人"
             },
             {
               "id": "hebrew-1497",
-              "eng": "from him who plunders him",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "脫離那搶奪他的",
+              "punct_cht": "？"
             }
           ]
         },
@@ -506,108 +502,94 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "amo.1.11",
-          "cunp": "耶和華如此說： 以東三番四次地犯罪， 我必不免去她的刑罰； 因為她拿刀追趕兄弟，毫無憐憫， 發怒撕裂，永懷忿怒。",
+          "nasb": "Thus says the Lord, “For three transgressions of Edom and for four I will not revoke its punishment, Because he pursued his brother with the sword, While he stifled his compassion; His anger also tore continually, And he maintained his fury forever.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5921",
-              "eng": "for"
+              "cht": "以東"
             },
             {
               "id": "hebrew-7969",
-              "eng": "three"
-            },
-            {
-              "id": "hebrew-6588",
-              "eng": "transgressions"
-            },
-            {
-              "id": "hebrew-123",
-              "eng": "of Edom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "for"
+              "cht": "三番"
             },
             {
               "id": "hebrew-702",
-              "eng": "four",
-              "punct": "､"
+              "cht": "四次"
+            },
+            {
+              "id": "hebrew-6588",
+              "cht": "地犯罪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我必不"
             },
             {
               "id": "hebrew-7725",
-              "eng": "I will turn away its [punishment]"
+              "cht": "免去她的刑罰",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5921",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-7291",
-              "eng": "he pursued"
+              "cht": "因為"
             },
             {
               "id": "hebrew-2719",
-              "eng": "with the sword",
-              "punct": "､"
+              "cht": "她拿刀"
+            },
+            {
+              "id": "hebrew-7291",
+              "cht": "追趕"
             },
             {
               "id": "hebrew-251",
-              "eng": "his brother"
+              "cht": "兄弟",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7843",
-              "eng": "and cast off"
+              "cht": "毫無"
             },
             {
               "id": "hebrew-7356",
-              "eng": "all pity",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2963",
-              "eng": "and tore"
-            },
-            {
-              "id": "hebrew-5703",
-              "eng": "perpetually",
-              "punct": "､"
+              "cht": "憐憫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-639",
-              "eng": "His anger"
+              "cht": "發怒"
             },
             {
-              "id": "hebrew-5678",
-              "eng": "and his wrath"
-            },
-            {
-              "id": "hebrew-8104",
-              "eng": "he kept"
+              "id": "hebrew-2963",
+              "cht": "撕裂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5331",
-              "eng": "forever",
-              "punct": "."
+              "cht": "永"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-8104",
+              "cht": "懷"
+            },
+            {
+              "id": "hebrew-5678",
+              "cht": "忿怒",
+              "punct_cht": "。"
             }
           ]
         }

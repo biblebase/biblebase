@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5099": "The roaring",
-          "hebrew-3715": "of like a lion",
-          "hebrew-2197": "wrath [is]",
-          "hebrew-4428": "of the king",
-          "hebrew-2919": "but like dew",
-          "hebrew-5921": "on",
-          "hebrew-6212": "the grass",
-          "hebrew-7522": "his favor [is]"
+          "eng": {
+            "hebrew-5099": "The roaring",
+            "hebrew-3715": "of like a lion",
+            "hebrew-2197": "wrath [is]",
+            "hebrew-4428": "of the king",
+            "hebrew-2919": "but like dew",
+            "hebrew-5921": "on",
+            "hebrew-6212": "the grass",
+            "hebrew-7522": "his favor [is]"
+          },
+          "cht": {
+            "hebrew-5099": "吼叫",
+            "hebrew-3715": "好像獅子",
+            "hebrew-2197": "的忿怒",
+            "hebrew-4428": "王",
+            "hebrew-2919": "的甘露",
+            "hebrew-5921": "上",
+            "hebrew-6212": "卻如草",
+            "hebrew-7522": "他的恩典"
+          }
         }
       },
       "translations": {
@@ -25,40 +37,42 @@
             "hebrew-4428": 0.4103064360103035
           },
           "verseKey": "pro.20.2",
-          "cunp": "王的威嚇如同獅子吼叫； 惹動他怒的，是自害己命。",
+          "nasb": "The terror of a king is like the growling of a lion; He who provokes him to anger forfeits his own life.",
           "words": [
             {
-              "id": "hebrew-5099",
-              "eng": "The roaring"
-            },
-            {
-              "id": "hebrew-3715",
-              "eng": "of [is] like a lion",
-              "punct": "–"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-367",
-              "eng": "the fear"
+              "cht": "的威嚇"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "of a king"
+              "id": "hebrew-3715",
+              "cht": "如同獅子"
+            },
+            {
+              "id": "hebrew-5099",
+              "cht": "吼叫",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5674",
-              "eng": "[Whoever] provokes him to anger"
+              "cht": "惹動他怒"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2398",
-              "eng": "sins"
+              "cht": "是自害"
             },
             {
               "id": "hebrew-5315",
-              "eng": "[against] his own life",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "己命",
+              "punct_cht": "。"
             }
           ]
         },
@@ -69,106 +83,96 @@
             "hebrew-6212": 2.943137453388001
           },
           "verseKey": "mic.5.7",
-          "cunp": "雅各餘剩的人必在多國的民中， 如從耶和華那裏降下的露水， 又如甘霖降在草上； 不仗賴人力，也不等候世人之功。",
+          "nasb": "Then the remnant of Jacob Will be among many peoples Like dew from the Lord, Like showers on vegetation Which do not wait for man Or delay for the sons of men.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And shall be"
+              "id": "hebrew-3290",
+              "cht": "雅各"
             },
             {
               "id": "hebrew-7611",
-              "eng": "the remnant"
+              "cht": "餘剩的人"
             },
             {
-              "id": "hebrew-3290",
-              "eng": "of Jacob"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "in the midst"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of peoples"
+              "id": "hebrew-1961",
+              "cht": "必"
             },
             {
               "id": "hebrew-7227",
-              "eng": "many"
+              "cht": "在多"
             },
             {
-              "id": "hebrew-2919",
-              "eng": "Like dew"
+              "id": "hebrew-5971",
+              "cht": "國的民"
             },
             {
-              "id": "hebrew-853",
-              "eng": "from"
+              "id": "hebrew-7130",
+              "cht": "中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "如從"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-2919",
+              "cht": "那裡降下的露水",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7241",
-              "eng": "Like showers"
+              "cht": "又如甘霖"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "降在"
             },
             {
               "id": "hebrew-6212",
-              "eng": "the grass",
-              "punct": "､"
+              "cht": "草"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "不"
             },
             {
               "id": "hebrew-6960",
-              "eng": "tarry"
+              "cht": "仗賴"
             },
             {
               "id": "hebrew-376",
-              "eng": "for man",
-              "punct": "､"
+              "cht": "人"
+            },
+            {
+              "id": "",
+              "cht": "力",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-3176",
-              "eng": "wait"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "for the sons"
+              "cht": "等候"
             },
             {
               "id": "hebrew-120",
-              "eng": "of men",
-              "punct": "."
+              "cht": "世人"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-854"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "之功",
+              "punct_cht": "。"
             }
           ]
         },
@@ -179,65 +183,67 @@
             "hebrew-6212": 2.943137453388001
           },
           "verseKey": "deu.32.2",
-          "cunp": "我的教訓要淋漓如雨； 我的言語要滴落如露， 如細雨降在嫩草上， 如甘霖降在菜蔬中。",
+          "nasb": "Let my teaching drop as the rain, My speech distill as the dew, As the droplets on the fresh grass And as the showers on the herb.",
           "words": [
             {
+              "id": "hebrew-3948",
+              "cht": "我的教訓"
+            },
+            {
               "id": "hebrew-6201",
-              "eng": "Let drop"
+              "cht": "要淋漓"
             },
             {
               "id": "hebrew-4306",
-              "eng": "as the rain",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3948",
-              "eng": "my teaching"
-            },
-            {
-              "id": "hebrew-5140",
-              "eng": "distill"
-            },
-            {
-              "id": "hebrew-2919",
-              "eng": "as the dew",
-              "punct": "､"
+              "cht": "如雨",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-565",
-              "eng": "My speech"
+              "cht": "我的言語"
+            },
+            {
+              "id": "hebrew-5140",
+              "cht": "要滴落"
+            },
+            {
+              "id": "hebrew-2919",
+              "cht": "如露",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8164",
-              "eng": "as raindrops"
+              "cht": "如細雨"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "降在"
             },
             {
               "id": "hebrew-1877",
-              "eng": "the tender herb",
-              "punct": "､"
+              "cht": "嫩草"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7241",
-              "eng": "and as showers"
+              "cht": "如甘霖"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "降在"
             },
             {
               "id": "hebrew-6212",
-              "eng": "the grass",
-              "punct": "."
+              "cht": "菜蔬"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "中",
+              "punct_cht": "。"
             }
           ]
         },
@@ -247,130 +253,118 @@
             "hebrew-6212": 2.943137453388001
           },
           "verseKey": "exo.10.15",
-          "cunp": "因為這蝗蟲遮滿地面，甚至地都黑暗了，又吃地上一切的菜蔬和冰雹所剩樹上的果子。埃及遍地，無論是樹木，是田間的菜蔬，連一點青的也沒有留下。",
+          "nasb": "For they covered the surface of the whole land, so that the land was darkened; and they ate every plant of the land and all the fruit of the trees that the hail had left. Thus nothing green was left on tree or plant of the field through all the land of Egypt.",
           "words": [
             {
               "id": "hebrew-3680",
-              "eng": "For they covered"
+              "cht": "因為這蝗蟲遮"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3605",
+              "cht": "滿"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
               "id": "hebrew-5869",
-              "eng": "the face"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "甚至地"
             },
             {
               "id": "hebrew-2821",
-              "eng": "so that was darkened"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "."
+              "cht": "都黑暗了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "And they ate"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "herb"
+              "cht": "又吃"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "地"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "上一切"
             },
             {
-              "id": "hebrew-6529",
-              "eng": "the fruit"
+              "id": "hebrew-6212",
+              "cht": "的菜蔬"
             },
             {
-              "id": "hebrew-6086",
-              "eng": "of the trees"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3498",
-              "eng": "had left"
+              "id": "hebrew-853",
+              "cht": "和"
             },
             {
               "id": "hebrew-1259",
-              "eng": "the hail",
-              "punct": "."
+              "cht": "冰雹"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "So not"
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-3498",
-              "eng": "there remained"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "anything"
-            },
-            {
-              "id": "hebrew-3418",
-              "eng": "green"
+              "cht": "剩"
             },
             {
               "id": "hebrew-6086",
-              "eng": "on the trees",
-              "punct": "､"
+              "cht": "樹上"
             },
             {
-              "id": "hebrew-6212",
-              "eng": "or on the plants"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "throughout all"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "id": "hebrew-6529",
+              "cht": "的果子",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "埃及"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "遍"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "無論是樹木",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7704",
+              "cht": "是田間"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "的菜蔬",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "連一點"
+            },
+            {
+              "id": "hebrew-3418",
+              "cht": "青的"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也沒有"
+            },
+            {
+              "id": "hebrew-3498",
+              "cht": "留下",
+              "punct_cht": "。"
             }
           ]
         },
@@ -381,40 +375,42 @@
             "hebrew-7522": 3.1769789830261015
           },
           "verseKey": "pro.16.13",
-          "cunp": "公義的嘴為王所喜悅； 說正直話的，為王所喜愛。",
+          "nasb": "Righteous lips are the delight of kings, And he who speaks right is loved.",
           "words": [
             {
-              "id": "hebrew-7522",
-              "eng": "The delight"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "of kings",
-              "punct": "–"
+              "id": "hebrew-6664",
+              "cht": "公義"
             },
             {
               "id": "hebrew-8193",
-              "eng": "lips [are]"
+              "cht": "的嘴"
             },
             {
-              "id": "hebrew-6664",
-              "eng": "Righteous"
+              "id": "hebrew-4428",
+              "cht": "為王"
+            },
+            {
+              "id": "hebrew-7522",
+              "cht": "所喜悅",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1696",
-              "eng": "and him who speaks [what is]"
+              "cht": "說"
             },
             {
               "id": "hebrew-3477",
-              "eng": "right"
+              "cht": "正直"
+            },
+            {
+              "id": "",
+              "cht": "話的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-157",
-              "eng": "they love",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "為王所喜愛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -425,78 +421,71 @@
             "hebrew-7522": 3.1769789830261015
           },
           "verseKey": "est.1.8",
-          "cunp": "喝酒有例，不准勉強人，因王吩咐宮裏的一切臣宰，讓人各隨己意。",
+          "nasb": "The drinking was done according to the law, there was no compulsion, for so the king had given orders to each official of his household that he should do according to the desires of each person.",
           "words": [
             {
               "id": "hebrew-8360",
-              "eng": "And the drinking"
+              "cht": "喝酒"
             },
             {
               "id": "hebrew-1881",
-              "eng": "in accordance with the law",
-              "punct": "–"
+              "cht": "有例",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "was not"
+              "cht": "不准"
             },
             {
               "id": "hebrew-597",
-              "eng": "compulsory",
-              "punct": "､"
+              "cht": "勉強"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3651",
-              "eng": "so"
-            },
-            {
-              "id": "hebrew-3245",
-              "eng": "had ordered"
+              "cht": "因"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7227",
-              "eng": "the officers"
+              "cht": "吩咐"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of his household",
-              "punct": "､"
+              "cht": "宮裡"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "的一切"
+            },
+            {
+              "id": "hebrew-7227",
+              "cht": "臣宰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "that they should do"
+              "cht": "讓"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人各"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "隨己"
             },
             {
               "id": "hebrew-7522",
-              "eng": "according to pleasure"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "each"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "and man's",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "意",
+              "punct_cht": "。"
             }
           ]
         },
@@ -507,37 +496,37 @@
             "hebrew-7522": 3.1769789830261015
           },
           "verseKey": "pro.14.35",
-          "cunp": "智慧的臣子蒙王恩惠； 貽羞的僕人遭其震怒。",
+          "nasb": "The king’s favor is toward a servant who acts wisely, But his anger is toward him who acts shamefully.",
           "words": [
             {
-              "id": "hebrew-7522",
-              "eng": "The favor [is]"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "of king"
+              "id": "hebrew-7919",
+              "cht": "智慧"
             },
             {
               "id": "hebrew-5650",
-              "eng": "toward a servant",
-              "punct": "–"
+              "cht": "的臣子"
             },
             {
-              "id": "hebrew-7919",
-              "eng": "wise"
+              "id": "hebrew-4428",
+              "cht": "蒙王"
             },
             {
-              "id": "hebrew-5678",
-              "eng": "but his wrath"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "[is against]"
+              "id": "hebrew-7522",
+              "cht": "恩惠",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-954",
-              "eng": "him who causes shame",
-              "punct": "."
+              "cht": "貽羞"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "的僕人遭"
+            },
+            {
+              "id": "hebrew-5678",
+              "cht": "其震怒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -548,115 +537,112 @@
             "hebrew-4428": 0.4103064360103035
           },
           "verseKey": "ezk.32.2",
-          "cunp": "「人子啊，你要為埃及王法老作哀歌，說： 從前你在列國中，如同少壯獅子； 現在你卻像海中的大魚。 你衝出江河， 用爪攪動諸水， 使江河渾濁。",
+          "nasb": "“Son of man, take up a lamentation over Pharaoh king of Egypt and say to him, ‘You compared yourself to a young lion of the nations, Yet you are like the monster in the seas; And you burst forth in your rivers And muddied the waters with your feet And fouled their rivers.’ ”",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "Son"
-            },
-            {
               "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "take up"
+              "id": "hebrew-1121",
+              "cht": "子"
             },
             {
-              "id": "hebrew-7015",
-              "eng": "a lamentation"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-6547",
-              "eng": "Pharaoh"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "你要為"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "､"
+              "cht": "埃及"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-6547",
+              "cht": "法老"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "作"
+            },
+            {
+              "id": "hebrew-7015",
+              "cht": "哀歌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and say"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to him"
-            },
-            {
-              "id": "hebrew-3715",
-              "eng": "a young lion among"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1471",
-              "eng": "the nations",
-              "punct": "､"
+              "cht": "從前你在列國"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1819",
-              "eng": "You are like"
+              "cht": "如同"
+            },
+            {
+              "id": "hebrew-3715",
+              "cht": "少壯獅子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-859",
-              "eng": "and you [are]"
-            },
-            {
-              "id": "hebrew-8577",
-              "eng": "like a monster"
+              "cht": "現在你"
             },
             {
               "id": "hebrew-3220",
-              "eng": "in the seas",
-              "punct": "–"
+              "cht": "卻像海中"
+            },
+            {
+              "id": "hebrew-8565",
+              "cht": "的大魚",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1518",
-              "eng": "and Bursting forth"
+              "cht": "你衝出"
             },
             {
               "id": "hebrew-5104",
-              "eng": "in your rivers",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1804",
-              "eng": "and Troubling"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "the waters"
+              "cht": "江河",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7272",
-              "eng": "with your feet",
-              "punct": "､"
+              "cht": "用爪"
             },
             {
-              "id": "hebrew-7515",
-              "eng": "and fouling"
+              "id": "hebrew-1804",
+              "cht": "攪動"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "諸水",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5104",
-              "eng": "their rivers",
-              "punct": "."
+              "cht": "使江河"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-8565"
+              "id": "hebrew-7515",
+              "cht": "渾濁",
+              "punct_cht": "。"
             }
           ]
         },
@@ -666,61 +652,59 @@
             "hebrew-7522": 3.1769789830261015
           },
           "verseKey": "deu.33.16",
-          "cunp": "得地和其中所充滿的寶物， 並住荊棘中上主的喜悅。 願這些福都歸於約瑟的頭上， 歸於那與弟兄迥別之人的頂上。",
+          "nasb": "And with the choice things of the earth and its fullness, And the favor of Him who dwelt in the bush. Let it come to the head of Joseph, And to the crown of the head of the one distinguished among his brothers.",
           "words": [
             {
-              "id": "hebrew-4022",
-              "eng": "And with the precious things"
-            },
-            {
               "id": "hebrew-776",
-              "eng": "of the earth"
+              "cht": "得地"
             },
             {
               "id": "hebrew-4393",
-              "eng": "and its fullness"
+              "cht": "和其中所充滿"
             },
             {
-              "id": "hebrew-7522",
-              "eng": "and the favor"
+              "id": "hebrew-4022",
+              "cht": "的寶物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7931",
-              "eng": "of Him who dwelt"
+              "cht": "並住"
             },
             {
               "id": "hebrew-5572",
-              "eng": "in the bush",
-              "punct": "."
+              "cht": "荊棘中"
+            },
+            {
+              "id": "hebrew-7522",
+              "cht": "上主的喜悅",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-935",
-              "eng": "Let [the blessing] come"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "on the head"
+              "cht": "願這些福都歸於"
             },
             {
               "id": "hebrew-3130",
-              "eng": "of Joseph",
-              "punct": "､"
+              "cht": "約瑟"
             },
             {
-              "id": "hebrew-6936",
-              "eng": "and on the crown of the head"
-            },
-            {
-              "id": "hebrew-5139",
-              "eng": "of him [who was] separate from"
+              "id": "hebrew-7218",
+              "cht": "的頭上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-251",
-              "eng": "his brothers",
-              "punct": "."
+              "cht": "歸於那與弟兄"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5139",
+              "cht": "迥別"
+            },
+            {
+              "id": "hebrew-6936",
+              "cht": "之人的頂上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -730,56 +714,54 @@
             "hebrew-7522": 3.1769789830261015
           },
           "verseKey": "psa.19.14",
-          "cunp": "耶和華－我的磐石，我的救贖主啊， 願我口中的言語、心裏的意念在你面前蒙悅納。",
+          "nasb": "Let the words of my mouth and the meditation of my heart Be acceptable in Your sight, O Lord, my rock and my Redeemer.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "Let"
-            },
-            {
-              "id": "hebrew-7522",
-              "eng": "Be acceptable"
-            },
-            {
-              "id": "hebrew-561",
-              "eng": "the words"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "of my mouth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1902",
-              "eng": "and the meditation"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "of my heart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "in Your sight",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華─"
             },
             {
               "id": "hebrew-6697",
-              "eng": "my strength",
-              "punct": "､"
+              "cht": "我的磐石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1350",
-              "eng": "and my Redeemer",
-              "punct": "."
+              "cht": "我的救贖主"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "願"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "我口中"
+            },
+            {
+              "id": "hebrew-561",
+              "cht": "的言語、"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-1902",
+              "cht": "裡的意念"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "在你面前"
+            },
+            {
+              "id": "hebrew-7522",
+              "cht": "蒙悅納",
+              "punct_cht": "。"
             }
           ]
         }

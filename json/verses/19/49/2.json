@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1571": "and",
-          "hebrew-1121": "son",
-          "hebrew-120": "low",
-          "hebrew-376": "high",
-          "hebrew-3162": "together",
-          "hebrew-6223": "Rich",
-          "hebrew-34": "and poor",
-          "hebrew-238": null
+          "eng": {
+            "hebrew-1571": "and",
+            "hebrew-1121": "son",
+            "hebrew-120": "low",
+            "hebrew-376": "high",
+            "hebrew-3162": "together",
+            "hebrew-6223": "Rich",
+            "hebrew-34": "and poor",
+            "hebrew-238": null
+          },
+          "cht": {
+            "hebrew-1571": "上流",
+            "hebrew-1121": "下流",
+            "hebrew-120": "上流",
+            "hebrew-376": "下流",
+            "hebrew-3162": "都",
+            "hebrew-6223": "富足",
+            "hebrew-34": "貧窮",
+            "hebrew-238": "當留心聽"
+          }
         }
       },
       "translations": {
@@ -26,37 +38,33 @@
             "hebrew-34": 2.2520884255970035
           },
           "verseKey": "psa.72.13",
-          "cunp": "他要憐恤貧寒和窮乏的人， 拯救窮苦人的性命。",
+          "nasb": "He will have compassion on the poor and needy, And the lives of the needy he will save.",
           "words": [
             {
               "id": "hebrew-2347",
-              "eng": "He will spare"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "他要憐恤"
             },
             {
               "id": "hebrew-1800",
-              "eng": "the poor"
+              "cht": "貧寒"
             },
             {
               "id": "hebrew-34",
-              "eng": "and needy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "and the souls"
-            },
-            {
-              "id": "hebrew-34",
-              "eng": "of the needy"
+              "cht": "和窮乏的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3467",
-              "eng": "will save",
-              "punct": "."
+              "cht": "拯救"
+            },
+            {
+              "id": "hebrew-34",
+              "cht": "窮苦人"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的性命",
+              "punct_cht": "。"
             }
           ]
         },
@@ -66,113 +74,99 @@
             "hebrew-34": 2.2520884255970035
           },
           "verseKey": "deu.15.7",
-          "cunp": "「在耶和華－你神所賜你的地上，無論哪一座城裏，你弟兄中若有一個窮人，你不可忍着心、揝着手不幫補你窮乏的弟兄。",
+          "nasb": "“If there is a poor man with you, one of your brothers, in any of your towns in your land which the Lord your God is giving you, you shall not harden your heart, nor close your hand from your poor brother;",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "If"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there is"
-            },
-            {
-              "id": "hebrew-34",
-              "eng": "a poor man"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "of one"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "of your brothers"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "within one"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gates"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "in your land"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "在耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-5414",
-              "eng": "is giving"
+              "cht": "賜"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "id": "hebrew-776",
+              "cht": "的地"
             },
             {
-              "id": "hebrew-553",
-              "eng": "you shall harden"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-259",
+              "cht": "無論那一"
             },
             {
-              "id": "hebrew-3824",
-              "eng": "your heart",
-              "punct": "､"
+              "id": "hebrew-8179",
+              "cht": "座城"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-7092",
-              "eng": "shut"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "your hand"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-251",
-              "eng": "from your brother",
-              "punct": "–"
+              "cht": "你弟兄"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "中若"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "一個"
             },
             {
               "id": "hebrew-34",
-              "eng": "poor",
-              "punct": "."
+              "cht": "窮人",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "你不可"
             },
             {
-              "id": ""
+              "id": "hebrew-553",
+              "cht": "忍著"
             },
             {
-              "id": ""
+              "id": "hebrew-3824",
+              "cht": "心、"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-853",
+              "cht": "揝著"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3027",
+              "cht": "手"
+            },
+            {
+              "id": "hebrew-34",
+              "cht": "不幫補你窮乏"
+            },
+            {
+              "id": "hebrew-251",
+              "cht": "的弟兄",
+              "punct_cht": "。"
             }
           ]
         },
@@ -183,44 +177,37 @@
             "hebrew-34": 2.2520884255970035
           },
           "verseKey": "job.24.4",
-          "cunp": "他們使窮人離開正道； 世上的貧民盡都隱藏。",
+          "nasb": "They push the needy aside from the road; The poor of the land are made to hide themselves altogether.",
           "words": [
             {
               "id": "hebrew-5186",
-              "eng": "They push"
+              "cht": "他們使"
             },
             {
               "id": "hebrew-34",
-              "eng": "the needy"
+              "cht": "窮人"
             },
             {
               "id": "hebrew-1870",
-              "eng": "off the road",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "all",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2244",
-              "eng": "Are forced to hide"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the poor"
+              "cht": "離開正道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "."
+              "cht": "世上的"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6041",
+              "cht": "貧民"
             },
             {
-              "id": "hebrew-6041"
+              "id": "hebrew-3162",
+              "cht": "盡都"
+            },
+            {
+              "id": "hebrew-2244",
+              "cht": "隱藏",
+              "punct_cht": "。"
             }
           ]
         }

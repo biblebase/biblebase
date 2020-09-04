@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-589": "But I [am]",
-          "hebrew-6041": "poor",
-          "hebrew-3510": "and sorrowful",
-          "hebrew-3444": "Your salvation",
-          "hebrew-430": "God",
-          "hebrew-7682": "let set me up on high",
-          "": null
+          "eng": {
+            "hebrew-589": "But I [am]",
+            "hebrew-6041": "poor",
+            "hebrew-3510": "and sorrowful",
+            "hebrew-3444": "Your salvation",
+            "hebrew-430": "God",
+            "hebrew-7682": "let set me up on high",
+            "": null
+          },
+          "cht": {
+            "hebrew-589": "但我是",
+            "hebrew-6041": "困苦",
+            "hebrew-3510": "憂傷",
+            "hebrew-3444": "願你的救恩",
+            "hebrew-430": "神",
+            "hebrew-7682": "將我安置在高處"
+          }
         }
       },
       "translations": {
@@ -24,40 +34,42 @@
             "hebrew-3510": 5.832220266167411
           },
           "verseKey": "pro.14.13",
-          "cunp": "人在喜笑中，心也憂愁； 快樂至極就生愁苦。",
+          "nasb": "Even in laughter the heart may be in pain, And the end of joy may be grief.",
           "words": [
             {
-              "id": "hebrew-1571",
-              "eng": "Even"
-            },
-            {
               "id": "hebrew-7814",
-              "eng": "in laughter"
+              "cht": "人在喜笑"
             },
             {
-              "id": "hebrew-3510",
-              "eng": "may sorrow",
-              "punct": "–"
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "the heart"
+              "cht": "心"
             },
             {
-              "id": "hebrew-319",
-              "eng": "and the end"
+              "id": "hebrew-1571",
+              "cht": "也"
+            },
+            {
+              "id": "hebrew-3510",
+              "cht": "憂愁",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8057",
-              "eng": "of mirth"
+              "cht": "快樂"
+            },
+            {
+              "id": "hebrew-319",
+              "cht": "至極"
             },
             {
               "id": "hebrew-8424",
-              "eng": "[may be] grief",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "就生愁苦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -67,92 +79,87 @@
             "hebrew-3510": 5.832220266167411
           },
           "verseKey": "2ki.3.19",
-          "cunp": "你們必攻破一切堅城美邑，砍伐各種佳樹，塞住一切水泉，用石頭糟踏一切美田。」",
+          "nasb": "Then you shall strike every fortified city and every choice city, and fell every good tree and stop all springs of water, and mar every good piece of land with stones.’ ”",
           "words": [
             {
               "id": "hebrew-5221",
-              "eng": "And you shall attack"
+              "cht": "你們必攻破"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "city",
-              "punct": "､"
+              "cht": "一切"
             },
             {
               "id": "hebrew-4013",
-              "eng": "fortified"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and every"
+              "cht": "堅"
             },
             {
               "id": "hebrew-5892",
-              "eng": "city",
-              "punct": "､"
+              "cht": "城"
             },
             {
               "id": "hebrew-4004",
-              "eng": "choice"
+              "cht": "美"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "and every"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "good"
+              "id": "hebrew-5892",
+              "cht": "邑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5307",
-              "eng": "shall cut down"
+              "cht": "砍伐"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and every"
-            },
-            {
-              "id": "hebrew-4599",
-              "eng": "spring"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "of water",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5640",
-              "eng": "stop up"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and every"
-            },
-            {
-              "id": "hebrew-2513",
-              "eng": "piece of land"
+              "cht": "各種"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good"
+              "cht": "佳"
             },
             {
-              "id": "hebrew-3510",
-              "eng": "ruin"
+              "id": "hebrew-6086",
+              "cht": "樹",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5640",
+              "cht": "塞住"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
+            },
+            {
+              "id": "hebrew-4599",
+              "cht": "泉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-68",
-              "eng": "with stones",
-              "punct": "."
+              "cht": "用石頭"
+            },
+            {
+              "id": "hebrew-3510",
+              "cht": "糟踏"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "美"
+            },
+            {
+              "id": "hebrew-2513",
+              "cht": "田",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -162,84 +169,79 @@
             "hebrew-3510": 5.832220266167411
           },
           "verseKey": "ezk.28.24",
-          "cunp": "「四圍恨惡以色列家的人，必不再向他們作刺人的荊棘，傷人的蒺藜，人就知道我是主耶和華。」",
+          "nasb": "And there will be no more for the house of Israel a prickling brier or a painful thorn from any round about them who scorned them; then they will know that I am the Lord God.”",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "And no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there shall be"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "longer"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "for the house"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5544",
-              "eng": "a brier"
-            },
-            {
-              "id": "hebrew-3992",
-              "eng": "pricking"
-            },
-            {
-              "id": "hebrew-6975",
-              "eng": "or a thorn"
-            },
-            {
-              "id": "hebrew-3510",
-              "eng": "painful"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "from among all"
-            },
-            {
               "id": "hebrew-5439",
-              "eng": "[who] [are] around them"
+              "cht": "四圍"
             },
             {
               "id": "hebrew-7590",
-              "eng": "who despise"
+              "cht": "恨惡"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家"
+            },
+            {
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "必不"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "再"
             },
             {
               "id": "hebrew-853",
-              "eng": "them"
+              "cht": "向他們"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "作"
+            },
+            {
+              "id": "hebrew-3510",
+              "cht": "刺人的"
+            },
+            {
+              "id": "hebrew-6975",
+              "cht": "荊棘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3992",
+              "cht": "傷人的"
+            },
+            {
+              "id": "hebrew-5544",
+              "cht": "蒺藜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "and they shall know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "人就知道"
             },
             {
               "id": "hebrew-589",
-              "eng": "I [am]"
+              "cht": "我"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "是主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "耶和華",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -249,109 +251,110 @@
             "hebrew-3510": 5.832220266167411
           },
           "verseKey": "gen.34.25",
-          "cunp": "到第三天，眾人正在疼痛的時候，雅各的兩個兒子，就是底拿的哥哥西緬和利未，各拿刀劍，趁着眾人想不到的時候來到城中，把一切男丁都殺了，",
+          "nasb": "Now it came about on the third day, when they were in pain, that two of Jacob’s sons, Simeon and Levi, Dinah’s brothers, each took his sword and came upon the city unawares, and killed every male.",
           "words": [
             {
               "id": "hebrew-1961",
-              "eng": "And it came to pass"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "on the day",
-              "punct": "､"
+              "cht": "到"
             },
             {
               "id": "hebrew-7992",
-              "eng": "third"
+              "cht": "第三"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "天",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "when they were"
+              "cht": "眾人正在"
             },
             {
               "id": "hebrew-3510",
-              "eng": "in pain",
-              "punct": "､"
+              "cht": "疼痛"
             },
             {
-              "id": "hebrew-3947",
-              "eng": "that took"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "two"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3290",
-              "eng": "of Jacob",
-              "punct": "､"
+              "cht": "雅各"
             },
             {
-              "id": "hebrew-8095",
-              "eng": "Simeon"
+              "id": "hebrew-8147",
+              "cht": "的兩"
             },
             {
-              "id": "hebrew-3878",
-              "eng": "and Levi",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "brothers"
+              "id": "hebrew-1121",
+              "cht": "個兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1783",
-              "eng": "of Dinah",
-              "punct": "､"
+              "cht": "就是底拿"
+            },
+            {
+              "id": "hebrew-251",
+              "cht": "的哥哥"
+            },
+            {
+              "id": "hebrew-8095",
+              "cht": "西緬"
+            },
+            {
+              "id": "hebrew-3878",
+              "cht": "和利未",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-376",
-              "eng": "each"
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "拿"
             },
             {
               "id": "hebrew-2719",
-              "eng": "his sword",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "and came"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "the city"
+              "cht": "刀劍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-983",
-              "eng": "boldly",
-              "punct": "､"
+              "cht": "趁著眾人想不到的時候"
             },
             {
-              "id": "hebrew-2026",
-              "eng": "and killed"
+              "id": "hebrew-935",
+              "cht": "來"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "城"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "把一切"
             },
             {
               "id": "hebrew-2145",
-              "eng": "the males",
-              "punct": "."
+              "cht": "男丁"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-2026",
+              "cht": "都殺了",
+              "punct_cht": "，"
             }
           ]
         },
@@ -361,37 +364,37 @@
             "hebrew-3510": 5.832220266167411
           },
           "verseKey": "job.14.22",
-          "cunp": "但知身上疼痛， 心中悲哀。",
+          "nasb": "But his body pains him, And he mourns only for himself.”",
           "words": [
             {
               "id": "hebrew-389",
-              "eng": "But"
+              "cht": "但"
             },
             {
               "id": "hebrew-1320",
-              "eng": "his flesh"
+              "cht": "知身"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over it"
+              "cht": "上"
             },
             {
               "id": "hebrew-3510",
-              "eng": "will be in pain",
-              "punct": "､"
+              "cht": "疼痛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and his soul"
+              "cht": "心"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over it"
+              "cht": "中"
             },
             {
               "id": "hebrew-56",
-              "eng": "will mourn",
-              "punct": "."
+              "cht": "悲哀",
+              "punct_cht": "。"
             }
           ]
         },
@@ -401,39 +404,39 @@
             "hebrew-3510": 5.832220266167411
           },
           "verseKey": "job.5.18",
-          "cunp": "因為他打破，又纏裹； 他擊傷，用手醫治。",
+          "nasb": "For He inflicts pain, and gives relief; He wounds, and His hands also heal.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1931",
-              "eng": "He"
+              "cht": "他"
             },
             {
               "id": "hebrew-3510",
-              "eng": "bruises",
-              "punct": "､"
+              "cht": "打破",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2280",
-              "eng": "but He binds up",
-              "punct": "–"
+              "cht": "又纏裹",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4272",
-              "eng": "He wounds",
-              "punct": "､"
+              "cht": "他擊傷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "but His hands"
+              "cht": "用手"
             },
             {
               "id": "hebrew-7495",
-              "eng": "make whole",
-              "punct": "."
+              "cht": "醫治",
+              "punct_cht": "。"
             }
           ]
         },
@@ -443,43 +446,37 @@
             "hebrew-7682": 4.0204442424896225
           },
           "verseKey": "pro.18.10",
-          "cunp": "耶和華的名是堅固臺； 義人奔入便得安穩。",
+          "nasb": "The name of the Lord is a strong tower; The righteous runs into it and is safe.",
           "words": [
             {
-              "id": "hebrew-4026",
-              "eng": "[is] a tower",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5797",
-              "eng": "strong"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "的名"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "of Yahweh"
+              "id": "hebrew-5797",
+              "cht": "是堅固"
             },
             {
-              "id": "hebrew-7323",
-              "eng": "run"
+              "id": "hebrew-5797",
+              "cht": "臺",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6662",
-              "eng": "the righteous"
+              "cht": "義人"
+            },
+            {
+              "id": "hebrew-7323",
+              "cht": "奔入"
             },
             {
               "id": "hebrew-7682",
-              "eng": "and are safe",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3068"
-            },
-            {
-              "id": "hebrew-5797"
+              "cht": "便得安穩",
+              "punct_cht": "。"
             }
           ]
         },
@@ -489,46 +486,46 @@
             "hebrew-7682": 4.0204442424896225
           },
           "verseKey": "isa.33.5",
-          "cunp": "耶和華被尊崇，因他居在高處； 他以公平公義充滿錫安。",
+          "nasb": "The Lord is exalted, for He dwells on high; He has filled Zion with justice and righteousness.",
           "words": [
             {
-              "id": "hebrew-7682",
-              "eng": "Is exalted",
-              "punct": "–"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "hebrew-7682",
+              "cht": "被尊崇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因"
             },
             {
               "id": "hebrew-7931",
-              "eng": "He dwells"
+              "cht": "他居"
             },
             {
               "id": "hebrew-4791",
-              "eng": "on high",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4390",
-              "eng": "He has filled"
-            },
-            {
-              "id": "hebrew-6726",
-              "eng": "Zion"
+              "cht": "在高處",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4941",
-              "eng": "with justice"
+              "cht": "他以公平"
             },
             {
               "id": "hebrew-6666",
-              "eng": "and righteousness",
-              "punct": "."
+              "cht": "公義"
+            },
+            {
+              "id": "hebrew-4390",
+              "cht": "充滿"
+            },
+            {
+              "id": "hebrew-6726",
+              "cht": "錫安",
+              "punct_cht": "。"
             }
           ]
         },
@@ -538,61 +535,58 @@
             "hebrew-7682": 4.0204442424896225
           },
           "verseKey": "psa.148.13",
-          "cunp": "願這些都讚美耶和華的名！ 因為獨有他的名被尊崇； 他的榮耀在天地之上。",
+          "nasb": "Let them praise the name of the Lord, For His name alone is exalted; His glory is above earth and heaven.",
           "words": [
             {
               "id": "hebrew-1984",
-              "eng": "Let them praise"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "願這些都讚美"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7682",
-              "eng": "exalted",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-8034",
-              "eng": "His name His"
+              "cht": "的名",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-905",
-              "eng": "alone"
+              "cht": "獨有"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "他的名"
+            },
+            {
+              "id": "hebrew-7682",
+              "cht": "被尊崇",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1935",
-              "eng": "His glory [is]"
+              "cht": "他的榮耀"
             },
             {
               "id": "hebrew-5921",
-              "eng": "above"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "在"
             },
             {
               "id": "hebrew-8064",
-              "eng": "and heaven",
-              "punct": "."
+              "cht": "天"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "",
+              "cht": "之上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -602,35 +596,34 @@
             "hebrew-7682": 4.0204442424896225
           },
           "verseKey": "psa.139.6",
-          "cunp": "這樣的知識奇妙，是我不能測的， 至高，是我不能及的。",
+          "nasb": "Such knowledge is too wonderful for me; It is too high, I cannot attain to it.",
           "words": [
             {
-              "id": "hebrew-6383",
-              "eng": "Too wonderful"
+              "id": "hebrew-1847",
+              "cht": "這樣的知識"
             },
             {
-              "id": "hebrew-1847",
-              "eng": "[Such] knowledge [is]"
+              "id": "hebrew-6383",
+              "cht": "奇妙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "for me"
+              "cht": "是我不能測的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7682",
-              "eng": "it is high",
-              "punct": "､"
+              "cht": "至高",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "cannot"
+              "cht": "是我不"
             },
             {
               "id": "hebrew-3201",
-              "eng": "I [attain]"
-            },
-            {
-              "id": "hebrew-6383"
+              "cht": "能"
             }
           ]
         }

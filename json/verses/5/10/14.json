@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2005": "indeed",
-          "hebrew-3068": "belong to Yahweh",
-          "hebrew-430": "your God",
-          "hebrew-8064": "the highest",
-          "hebrew-776": "the earth",
-          "hebrew-3605": "and [also] with all",
-          "hebrew-834": "that [is]",
-          "": null
+          "eng": {
+            "hebrew-2005": "indeed",
+            "hebrew-3068": "belong to Yahweh",
+            "hebrew-430": "your God",
+            "hebrew-8064": "the highest",
+            "hebrew-776": "the earth",
+            "hebrew-3605": "and [also] with all",
+            "hebrew-834": "that [is]",
+            "": null
+          },
+          "cht": {
+            "hebrew-2005": "看哪",
+            "hebrew-3068": "屬耶和華",
+            "hebrew-430": "神",
+            "hebrew-8064": "的天",
+            "hebrew-776": "地",
+            "hebrew-3605": "都",
+            "hebrew-834": "所有的"
+          }
         }
       },
       "translations": {
@@ -28,124 +39,106 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "neh.9.6",
-          "cunp": "「你，惟獨你是耶和華！你造了天和天上的天，並天上的萬象，地和地上的萬物，海和海中所有的；這一切都是你所保存的。天軍也都敬拜你。",
+          "nasb": "You alone are the Lord. You have made the heavens, The heaven of heavens with all their host, The earth and all that is on it, The seas and all that is in them. You give life to all of them And the heavenly host bows down before You.",
           "words": [
             {
               "id": "hebrew-859",
-              "eng": "You"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "are",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-905",
-              "eng": "alone",
-              "punct": "–"
+              "cht": "惟獨你"
             },
             {
-              "id": "hebrew-853",
-              "eng": "You"
+              "id": "hebrew-1931",
+              "cht": "是"
             },
             {
-              "id": "hebrew-6213",
-              "eng": "have made"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "heaven",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "the heaven"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "of heavens",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "with their host",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "everything"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on it",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "the seas",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that is"
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-859",
-              "eng": "and You"
+              "cht": "你"
             },
             {
-              "id": "hebrew-2421",
-              "eng": "preserve"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "them all",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "and the host"
+              "id": "hebrew-6213",
+              "cht": "造了"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of heaven"
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "和天"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "上的天",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "並天上的萬"
+            },
+            {
+              "id": "hebrew-6635",
+              "cht": "象",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "和地上"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "萬物",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3220",
+              "cht": "海"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "所有的",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "這一切"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "都是你"
+            },
+            {
+              "id": "hebrew-2421",
+              "cht": "所保存的",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-6635",
+              "cht": "軍"
             },
             {
               "id": "hebrew-7812",
-              "eng": "worships",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-859"
+              "cht": "也都敬拜"
             }
           ]
         },
@@ -157,127 +150,114 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "deu.4.19",
-          "cunp": "又恐怕你向天舉目觀看，見耶和華－你的神為天下萬民所擺列的日月星，就是天上的萬象，自己便被勾引敬拜事奉它。",
+          "nasb": "And beware not to lift up your eyes to heaven and see the sun and the moon and the stars, all the host of heaven, and be drawn away and worship them and serve them, those which the Lord your God has allotted to all the peoples under the whole heaven.",
           "words": [
             {
               "id": "hebrew-6435",
-              "eng": "And [take heed] lest"
+              "cht": "又恐怕"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "你向天"
             },
             {
               "id": "hebrew-5375",
-              "eng": "you lift"
+              "cht": "舉"
             },
             {
               "id": "hebrew-5869",
-              "eng": "your eyes"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "to heaven",
-              "punct": "､"
+              "cht": "目"
             },
             {
               "id": "hebrew-7200",
-              "eng": "and [when] you see"
+              "cht": "觀看",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8121",
-              "eng": "the sun",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-3394",
-              "eng": "the moon",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-3556",
-              "eng": "the stars",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "the host"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "of heaven",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5080",
-              "eng": "and you feel driven"
-            },
-            {
-              "id": "hebrew-7812",
-              "eng": "and to worship"
-            },
-            {
-              "id": "hebrew-5647",
-              "eng": "and serve them"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-2505",
-              "eng": "has given as a heritage"
+              "id": "hebrew-7200",
+              "cht": "見"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "神"
             },
             {
               "id": "hebrew-3605",
-              "eng": "to all"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the peoples"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "under"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "whole"
+              "cht": "為"
             },
             {
               "id": "hebrew-8064",
-              "eng": "the heaven",
-              "punct": "."
+              "cht": "天"
             },
             {
-              "id": "hebrew-7200"
+              "id": "hebrew-8478",
+              "cht": "下"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "萬"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "擺列"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-8121",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-3394",
+              "cht": "月"
+            },
+            {
+              "id": "hebrew-3556",
+              "cht": "星",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "就是天上"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "的萬"
+            },
+            {
+              "id": "hebrew-6635",
+              "cht": "象",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5080",
+              "cht": "自己便被勾引"
+            },
+            {
+              "id": "hebrew-7812",
+              "cht": "敬拜"
+            },
+            {
+              "id": "hebrew-5647",
+              "cht": "事奉"
             }
           ]
         },
@@ -288,95 +268,91 @@
             "hebrew-8064": 0.7424012920136152
           },
           "verseKey": "2ch.6.18",
-          "cunp": "「神果真與世人同住在地上嗎？看哪，天和天上的天尚且不足你居住的，何況我所建的這殿呢？",
+          "nasb": "“But will God indeed dwell with mankind on the earth? Behold, heaven and the highest heaven cannot contain You; how much less this house which I have built.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "But"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-552",
-              "eng": "will indeed"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "dwell"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
+              "cht": "果真"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
+              "cht": "與"
             },
             {
               "id": "hebrew-120",
-              "eng": "men"
+              "cht": "世人"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "同住"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地上"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8064",
-              "eng": "heaven"
+              "cht": "天"
             },
             {
               "id": "hebrew-8064",
-              "eng": "and the heaven"
+              "cht": "和天上"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of heavens"
+              "cht": "的天"
             },
             {
               "id": "hebrew-3808",
-              "eng": "cannot"
+              "cht": "尚且不足"
             },
             {
               "id": "hebrew-3557",
-              "eng": "contain You"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "how much less"
+              "cht": "你居住的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "how much less"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "temple"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "何況"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "我所"
             },
             {
               "id": "hebrew-1129",
-              "eng": "I have built",
-              "punct": "!"
+              "cht": "建"
             },
             {
-              "id": ""
+              "id": "hebrew-2088",
+              "cht": "的這"
             },
             {
-              "id": ""
+              "id": "hebrew-1004",
+              "cht": "殿"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         }

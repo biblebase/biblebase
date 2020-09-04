@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "Yet",
-          "hebrew-120": "man",
-          "hebrew-5999": "to trouble",
-          "hebrew-3205": "is born",
-          "hebrew-1121": "and as",
-          "hebrew-7565": "the sparks",
-          "hebrew-1361": "upward",
-          "hebrew-5774": "fly"
+          "eng": {
+            "hebrew-3588": "Yet",
+            "hebrew-120": "man",
+            "hebrew-5999": "to trouble",
+            "hebrew-3205": "is born",
+            "hebrew-1121": "and as",
+            "hebrew-7565": "the sparks",
+            "hebrew-1361": "upward",
+            "hebrew-5774": "fly"
+          },
+          "cht": {
+            "hebrew-120": "人",
+            "hebrew-5999": "在世必遇患難",
+            "hebrew-3205": "生",
+            "hebrew-1121": "星",
+            "hebrew-7565": "如同火",
+            "hebrew-1361": "騰",
+            "hebrew-5774": "飛"
+          }
         }
       },
       "translations": {
@@ -25,36 +36,33 @@
             "hebrew-7565": 6.2511507603914795
           },
           "verseKey": "hab.3.5",
-          "cunp": "在他前面有瘟疫流行； 在他腳下有熱症發出。",
+          "nasb": "Before Him goes pestilence, And plague comes after Him.",
           "words": [
             {
               "id": "hebrew-6440",
-              "eng": "Before Him"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "went"
+              "cht": "在他前面"
             },
             {
               "id": "hebrew-1698",
-              "eng": "pestilence",
-              "punct": "､"
+              "cht": "有瘟疫"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "and followed"
-            },
-            {
-              "id": "hebrew-7565",
-              "eng": "fever"
+              "id": "hebrew-3212",
+              "cht": "流行",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7272",
-              "eng": "at His feet",
-              "punct": "."
+              "cht": "在他腳"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-7565",
+              "cht": "下有熱症"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "發出",
+              "punct_cht": "。"
             }
           ]
         },
@@ -64,29 +72,29 @@
             "hebrew-7565": 6.2511507603914795
           },
           "verseKey": "psa.78.48",
-          "cunp": "又把他們的牲畜交給冰雹， 把他們的羣畜交給閃電。",
+          "nasb": "He gave over their cattle also to the hailstones And their herds to bolts of lightning.",
           "words": [
             {
+              "id": "hebrew-1165",
+              "cht": "又把他們的牲畜"
+            },
+            {
               "id": "hebrew-5462",
-              "eng": "And He gave up"
+              "cht": "交"
             },
             {
               "id": "hebrew-1259",
-              "eng": "to the hail",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1165",
-              "eng": "their cattle"
+              "cht": "給冰雹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4735",
-              "eng": "and their flocks"
+              "cht": "把他們的群畜"
             },
             {
               "id": "hebrew-7565",
-              "eng": "to fiery lightning",
-              "punct": "."
+              "cht": "交給閃電",
+              "punct_cht": "。"
             }
           ]
         },
@@ -96,7 +104,7 @@
             "hebrew-7565": 6.2511507603914795
           },
           "verseKey": "rut.6.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -105,44 +113,42 @@
             "hebrew-7565": 6.2511507603914795
           },
           "verseKey": "psa.76.3",
-          "cunp": "他在那裏折斷弓上的火箭， 並盾牌、刀劍，和爭戰的兵器。（細拉）",
+          "nasb": "There He broke the flaming arrows, The shield and the sword and the weapons of war. Selah.",
           "words": [
             {
               "id": "hebrew-8033",
-              "eng": "There"
+              "cht": "他在那裡"
             },
             {
               "id": "hebrew-7665",
-              "eng": "He broke"
-            },
-            {
-              "id": "hebrew-7565",
-              "eng": "the arrows"
+              "cht": "折斷"
             },
             {
               "id": "hebrew-7198",
-              "eng": "of the bow",
-              "punct": "､"
+              "cht": "弓"
+            },
+            {
+              "id": "hebrew-7565",
+              "cht": "上的火箭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4043",
-              "eng": "the shield",
-              "punct": "､"
+              "cht": "並盾牌、"
             },
             {
               "id": "hebrew-2719",
-              "eng": "and sword",
-              "punct": "､"
+              "cht": "刀劍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4421",
-              "eng": "and of battle",
-              "punct": "."
+              "cht": "和爭戰的兵器（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
+              "cht": "細拉）"
             }
           ]
         },
@@ -152,66 +158,67 @@
             "hebrew-7565": 6.2511507603914795
           },
           "verseKey": "deu.32.24",
-          "cunp": "他們必因飢餓消瘦， 被炎熱苦毒吞滅。 我要打發野獸用牙齒咬他們， 並土中腹行的，用毒氣害他們。",
+          "nasb": "They will be wasted by famine, and consumed by plague And bitter destruction; And the teeth of beasts I will send upon them, With the venom of crawling things of the dust.",
           "words": [
             {
-              "id": "hebrew-4198",
-              "eng": "[They shall be] wasted"
-            },
-            {
               "id": "hebrew-7458",
-              "eng": "with hunger",
-              "punct": "､"
+              "cht": "他們必因飢餓"
             },
             {
-              "id": "hebrew-3898",
-              "eng": "and Devoured"
+              "id": "hebrew-4198",
+              "cht": "消瘦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7565",
-              "eng": "by pestilence",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6986",
-              "eng": "and destruction",
-              "punct": "–"
+              "cht": "被炎熱"
             },
             {
               "id": "hebrew-4815",
-              "eng": "bitter"
+              "cht": "苦毒"
             },
             {
-              "id": "hebrew-8127",
-              "eng": "and the teeth"
+              "id": "hebrew-3898",
+              "cht": "吞"
             },
             {
-              "id": "hebrew-929",
-              "eng": "of beasts"
+              "id": "hebrew-6986",
+              "cht": "滅",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7971",
-              "eng": "I will send"
+              "cht": "我要打發"
             },
             {
-              "id": "hebrew-5973",
-              "eng": "with"
+              "id": "hebrew-929",
+              "cht": "野獸"
             },
             {
-              "id": "hebrew-2534",
-              "eng": "the poison"
-            },
-            {
-              "id": "hebrew-2119",
-              "eng": "of serpents"
+              "id": "hebrew-8127",
+              "cht": "用牙齒"
             },
             {
               "id": "hebrew-6083",
-              "eng": "of the dust",
-              "punct": "."
+              "cht": "並土中"
             },
             {
-              "id": ""
+              "id": "hebrew-2119",
+              "cht": "腹行的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5973",
+              "cht": "用"
+            },
+            {
+              "id": "hebrew-2534",
+              "cht": "毒氣"
+            },
+            {
+              "id": "",
+              "cht": "害他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -221,59 +228,47 @@
             "hebrew-1361": 2.9026639737222575
           },
           "verseKey": "isa.55.9",
-          "cunp": "天怎樣高過地， 照樣，我的道路高過你們的道路； 我的意念高過你們的意念。",
+          "nasb": "“For as the heavens are higher than the earth, So are My ways higher than your ways And My thoughts than your thoughts.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
+              "id": "hebrew-8064",
+              "cht": "天"
             },
             {
               "id": "hebrew-1361",
-              "eng": "are higher"
+              "cht": "怎樣高"
             },
             {
-              "id": "hebrew-8064",
-              "eng": "[as] the heavens"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "than the earth",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "過地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3651",
-              "eng": "so"
+              "cht": "照樣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "我的道路"
             },
             {
               "id": "hebrew-1361",
-              "eng": "are higher"
+              "cht": "高"
             },
             {
               "id": "hebrew-1870",
-              "eng": "My ways"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "than your ways",
-              "punct": "､"
+              "cht": "過你們的道路",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4284",
-              "eng": "and My thoughts"
+              "cht": "我的意念"
             },
             {
-              "id": "hebrew-4284",
-              "eng": "than your thoughts",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "高過你們的意念",
+              "punct_cht": "。"
             }
           ]
         },
@@ -283,58 +278,50 @@
             "hebrew-5774": 2.9026639737222575
           },
           "verseKey": "pro.23.5",
-          "cunp": "你豈要定睛在虛無的錢財上嗎？ 因錢財必長翅膀，如鷹向天飛去。",
+          "nasb": "When you set your eyes on it, it is gone. For wealth certainly makes itself wings Like an eagle that flies toward the heavens.",
           "words": [
             {
               "id": "hebrew-5774",
-              "eng": "Will you set"
+              "cht": "你豈要定"
             },
             {
               "id": "hebrew-5869",
-              "eng": "your eyes"
+              "cht": "睛"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and which is not"
+              "id": "",
+              "cht": "上嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因"
             },
             {
               "id": "hebrew-6213",
-              "eng": "surely"
+              "cht": "必"
             },
             {
               "id": "hebrew-6213",
-              "eng": "[riches] make"
+              "cht": "長"
             },
             {
               "id": "hebrew-3671",
-              "eng": "wings",
-              "punct": "–"
+              "cht": "翅膀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5404",
-              "eng": "like an eagle"
-            },
-            {
-              "id": "hebrew-5774",
-              "eng": "they fly away"
+              "cht": "如鷹"
             },
             {
               "id": "hebrew-8064",
-              "eng": "[toward] heaven",
-              "punct": "."
+              "cht": "向天"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-5774"
-            },
-            {
-              "id": "hebrew-5774"
+              "id": "hebrew-5774",
+              "cht": "飛去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -346,133 +333,129 @@
             "hebrew-1361": 2.9026639737222575
           },
           "verseKey": "ezk.28.2",
-          "cunp": "「人子啊，你對泰爾君王說，主耶和華如此說： 因你心裏高傲，說：我是神； 我在海中坐神之位。 你雖然居心自比神， 也不過是人，並不是神！",
+          "nasb": "“Son of man, say to the leader of Tyre, ‘Thus says the Lord God, “Because your heart is lifted up And you have said, ‘I am a god, I sit in the seat of gods In the heart of the seas’; Yet you are a man and not God, Although you make your heart like the heart of God—",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "Son"
-            },
-            {
               "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
             },
             {
-              "id": "hebrew-559",
-              "eng": "say"
+              "id": "hebrew-1121",
+              "cht": "子"
             },
             {
-              "id": "hebrew-5057",
-              "eng": "to the prince"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6865",
-              "eng": "of Tyre",
-              "punct": "､"
+              "cht": "你對推羅"
             },
             {
-              "id": "hebrew-3541",
-              "eng": "thus"
+              "id": "hebrew-5057",
+              "cht": "君王"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
+              "cht": "主"
             },
             {
-              "id": "hebrew-3282",
-              "eng": "because"
+              "id": "hebrew-136",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-1361",
-              "eng": "[is] lifted up",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "your heart"
+              "id": "hebrew-3541",
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "and you say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-410",
-              "eng": "a god",
-              "punct": "､"
+              "id": "hebrew-3282",
+              "cht": "因"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "你心裡"
+            },
+            {
+              "id": "hebrew-1361",
+              "cht": "高傲",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-589",
-              "eng": "I [am]"
-            },
-            {
-              "id": "hebrew-4186",
-              "eng": "[in] the seat"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "of gods",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "I sit"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "in the midst"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "of the seas",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "and yet you [are]"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "a man",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "我"
             },
             {
               "id": "hebrew-410",
-              "eng": "a god",
-              "punct": "､"
+              "cht": "是神",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and Though you set"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "your heart"
+              "id": "hebrew-3220",
+              "cht": "我在海"
             },
             {
               "id": "hebrew-3820",
-              "eng": "as the heart"
+              "cht": "中"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "坐"
             },
             {
               "id": "hebrew-430",
-              "eng": "of a god",
-              "punct": "–"
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "hebrew-4186",
+              "cht": "之位",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "雖然居"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "自比神",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "也不過是人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "並不是"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "神",
+              "punct_cht": "！"
             }
           ]
         },
@@ -484,164 +467,146 @@
             "hebrew-1361": 2.9026639737222575
           },
           "verseKey": "ezk.31.14",
-          "cunp": "好使水旁的諸樹不因高大而自尊，也不將樹尖插入雲中，並且那些得水滋潤、有勢力的，也不得高大自立。因為它們在世人中，和下坑的人都被交與死亡，到陰府去了。」",
+          "nasb": "so that all the trees by the waters may not be exalted in their stature, nor set their top among the clouds, nor their well-watered mighty ones stand erect in their height. For they have all been given over to death, to the earth beneath, among the sons of men, with those who go down to the pit.”",
           "words": [
             {
               "id": "hebrew-4616",
-              "eng": "So"
+              "cht": "好使"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-1361",
-              "eng": "may ever again exalt themselves"
-            },
-            {
-              "id": "hebrew-6967",
-              "eng": "for their height",
-              "punct": "､"
+              "id": "hebrew-4325",
+              "cht": "水"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "旁的諸"
             },
             {
               "id": "hebrew-6086",
-              "eng": "trees"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "by the waters"
+              "cht": "樹"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and nor"
+              "cht": "不"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "set"
+              "id": "hebrew-6967",
+              "cht": "因高大"
+            },
+            {
+              "id": "hebrew-1361",
+              "cht": "而自尊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "將"
             },
             {
               "id": "hebrew-6788",
-              "eng": "their tops"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-5688",
-              "eng": "the thick boughs",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "that no"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "to reach up to them"
-            },
-            {
-              "id": "hebrew-352",
-              "eng": "terebinth tree"
-            },
-            {
-              "id": "hebrew-1363",
-              "eng": "may ever be high [enough]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-8354",
-              "eng": "which drinks"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "water",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "they all"
+              "cht": "樹尖"
             },
             {
               "id": "hebrew-5414",
-              "eng": "have been delivered"
+              "cht": "插"
             },
             {
-              "id": "hebrew-4194",
-              "eng": "to death",
-              "punct": "､"
+              "id": "hebrew-996",
+              "cht": "入"
+            },
+            {
+              "id": "hebrew-5688",
+              "cht": "雲中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "並且那些"
+            },
+            {
+              "id": "hebrew-8354",
+              "cht": "得"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
+            },
+            {
+              "id": "",
+              "cht": "滋潤、"
+            },
+            {
+              "id": "hebrew-352",
+              "cht": "有勢力的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-1363",
+              "cht": "得高大"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "自立",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8482",
-              "eng": "the depths"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "of Among"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-120",
-              "eng": "of men",
-              "punct": "､"
+              "cht": "它們在世人"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "with"
+              "cht": "和"
             },
             {
               "id": "hebrew-3381",
-              "eng": "who go down"
+              "cht": "下"
             },
             {
               "id": "hebrew-953",
-              "eng": "to the Pit",
-              "punct": "."
+              "cht": "坑"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "的人都"
             },
             {
-              "id": "hebrew-413"
+              "id": "hebrew-5414",
+              "cht": "被交"
             },
             {
-              "id": ""
+              "id": "hebrew-4194",
+              "cht": "與死亡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "陰府"
+            },
+            {
+              "id": "",
+              "cht": "去了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -652,39 +617,38 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "psa.7.14",
-          "cunp": "試看惡人因奸惡而劬勞， 所懷的是毒害，所生的是虛假。",
+          "nasb": "Behold, he travails with wickedness, And he conceives mischief and brings forth falsehood.",
           "words": [
             {
               "id": "hebrew-2009",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "試看"
             },
             {
               "id": "hebrew-2254",
-              "eng": "[the wicked] brings forth"
+              "cht": "惡人因奸惡"
             },
             {
               "id": "hebrew-205",
-              "eng": "iniquity",
-              "punct": "､"
+              "cht": "而劬勞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2029",
-              "eng": "and Yes he conceives"
+              "cht": "所懷"
             },
             {
               "id": "hebrew-5999",
-              "eng": "trouble",
-              "punct": "､"
+              "cht": "的是毒害",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and brings forth"
+              "cht": "所生"
             },
             {
               "id": "hebrew-8267",
-              "eng": "falsehood",
-              "punct": "."
+              "cht": "的是虛假",
+              "punct_cht": "。"
             }
           ]
         }

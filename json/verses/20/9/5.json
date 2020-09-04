@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1980": "Come",
-          "hebrew-3898": "eat",
-          "hebrew-3899": "of my bread",
-          "hebrew-8354": "and drink",
-          "hebrew-3196": "of the wine",
-          "hebrew-4537": "I have mixed",
-          "hebrew-3212": null
+          "eng": {
+            "hebrew-1980": "Come",
+            "hebrew-3898": "eat",
+            "hebrew-3899": "of my bread",
+            "hebrew-8354": "and drink",
+            "hebrew-3196": "of the wine",
+            "hebrew-4537": "I have mixed",
+            "hebrew-3212": null
+          },
+          "cht": {
+            "hebrew-3898": "吃",
+            "hebrew-3899": "我的餅",
+            "hebrew-8354": "喝",
+            "hebrew-3196": "的酒",
+            "hebrew-4537": "我調和",
+            "hebrew-3212": "你們來"
+          }
         }
       },
       "translations": {
@@ -28,41 +38,42 @@
             "hebrew-4537": 6.7856512265994295
           },
           "verseKey": "isa.5.22",
-          "cunp": "禍哉！那些勇於飲酒， 以能力調濃酒的人。",
+          "nasb": "Woe to those who are heroes in drinking wine And valiant men in mixing strong drink,",
           "words": [
             {
               "id": "hebrew-1945",
-              "eng": "Woe"
+              "cht": "禍哉",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-1368",
-              "eng": "to men mighty"
+              "cht": "那些勇於"
             },
             {
               "id": "hebrew-8354",
-              "eng": "at drinking"
+              "cht": "飲"
             },
             {
               "id": "hebrew-3196",
-              "eng": "wine",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "and [Woe] to men"
+              "cht": "酒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2428",
-              "eng": "valiant"
+              "cht": "以能力"
             },
             {
               "id": "hebrew-4537",
-              "eng": "for mixing"
+              "cht": "調"
             },
             {
               "id": "hebrew-7941",
-              "eng": "intoxicating drink",
-              "punct": "–"
+              "cht": "濃酒"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -73,38 +84,34 @@
             "hebrew-4537": 6.7856512265994295
           },
           "verseKey": "psa.102.9",
-          "cunp": "我吃過爐灰，如同吃飯； 我所喝的與眼淚攙雜。",
+          "nasb": "For I have eaten ashes like bread And mingled my drink with weeping",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
+              "id": "hebrew-398",
+              "cht": "我吃過"
             },
             {
               "id": "hebrew-665",
-              "eng": "ashes"
+              "cht": "爐灰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3899",
-              "eng": "like bread",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "I have eaten"
+              "cht": "如同吃飯",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8249",
-              "eng": "and my drink"
+              "cht": "我所喝的"
             },
             {
               "id": "hebrew-1065",
-              "eng": "with weeping",
-              "punct": "､"
+              "cht": "與眼淚"
             },
             {
               "id": "hebrew-4537",
-              "eng": "mingled",
-              "punct": "."
+              "cht": "攙雜",
+              "punct_cht": "。"
             }
           ]
         },
@@ -114,38 +121,34 @@
             "hebrew-4537": 6.7856512265994295
           },
           "verseKey": "pro.9.2",
-          "cunp": "宰殺牲畜， 調和旨酒， 設擺筵席；",
+          "nasb": "She has prepared her food, she has mixed her wine; She has also set her table;",
           "words": [
             {
               "id": "hebrew-2873",
-              "eng": "She has slaughtered"
+              "cht": "宰殺"
             },
             {
               "id": "hebrew-2874",
-              "eng": "her meat",
-              "punct": "–"
+              "cht": "牲畜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4537",
-              "eng": "she has mixed"
+              "cht": "調和"
             },
             {
               "id": "hebrew-3196",
-              "eng": "her wine",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "also"
+              "cht": "旨酒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6186",
-              "eng": "she has furnished"
+              "cht": "設擺"
             },
             {
               "id": "hebrew-7979",
-              "eng": "her table",
-              "punct": "."
+              "cht": "筵席",
+              "punct_cht": "；"
             }
           ]
         },
@@ -155,60 +158,62 @@
             "hebrew-4537": 6.7856512265994295
           },
           "verseKey": "isa.19.14",
-          "cunp": "耶和華使乖謬的靈攙入埃及中間； 首領使埃及一切所做的都有差錯， 好像醉酒之人嘔吐的時候東倒西歪一樣。",
+          "nasb": "The Lord has mixed within her a spirit of distortion; They have led Egypt astray in all that it does, As a drunken man staggers in his vomit.",
           "words": [
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-4537",
-              "eng": "has mingled"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "in her midst"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "a spirit"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5773",
-              "eng": "perverse"
+              "cht": "使乖謬的"
             },
             {
-              "id": "hebrew-8582",
-              "eng": "and they have caused to err"
+              "id": "hebrew-7307",
+              "cht": "靈"
+            },
+            {
+              "id": "hebrew-4537",
+              "cht": "攙入"
+            },
+            {
+              "id": "hebrew-7130",
+              "cht": "埃及中間",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "首領使"
             },
             {
               "id": "hebrew-4714",
-              "eng": "Egypt"
+              "cht": "埃及"
             },
             {
               "id": "hebrew-3605",
-              "eng": "in all"
+              "cht": "一切"
             },
             {
               "id": "hebrew-4639",
-              "eng": "her work"
+              "cht": "所做的"
             },
             {
               "id": "hebrew-8582",
-              "eng": "as staggers"
+              "cht": "都有差錯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7910",
-              "eng": "a drunken man"
+              "cht": "好像醉酒之人"
             },
             {
               "id": "hebrew-6892",
-              "eng": "in his vomit",
-              "punct": "."
+              "cht": "嘔吐的時候"
+            },
+            {
+              "id": "hebrew-8582",
+              "cht": "東倒西歪一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -218,148 +223,111 @@
             "hebrew-3196": 1.4068903824067434
           },
           "verseKey": "mrk.2.22",
-          "cunp": "也沒有人把新酒裝在舊皮袋裏，恐怕酒把皮袋裂開，酒和皮袋就都壞了；惟把新酒裝在新皮袋裏。」",
+          "nasb": "No one puts new wine into old wineskins; otherwise the wine will burst the skins, and the wine is lost and the skins as well; but one puts new wine into fresh wineskins.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "也"
             },
             {
               "id": "greek-3762",
-              "eng": "no one"
+              "cht": "沒有人"
+            },
+            {
+              "id": "greek-3501",
+              "cht": "把新"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
             },
             {
               "id": "greek-906",
-              "eng": "puts"
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-3501",
-              "eng": "new"
+              "cht": "裝"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins"
+              "cht": "在"
             },
             {
               "id": "greek-3820",
-              "eng": "old",
-              "punct": ";"
+              "cht": "舊"
             },
             {
-              "id": "greek-1487",
-              "eng": "if"
+              "id": "greek-779",
+              "cht": "皮袋"
             },
             {
-              "id": "greek-1161",
-              "eng": "now"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3361",
-              "eng": "not",
-              "punct": ","
+              "id": "greek-3588",
+              "cht": "恐怕"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "把皮袋"
             },
             {
               "id": "greek-4486",
-              "eng": "will burst"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "裂開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins",
-              "punct": ","
+              "cht": "酒"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-622",
-              "eng": "will be destroyed",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-779",
-              "eng": "wineskins",
-              "punct": "."
+              "cht": "皮袋"
+            },
+            {
+              "id": "greek-1632",
+              "cht": "就都壞了",
+              "punct_cht": "；"
             },
             {
               "id": "greek-235",
-              "eng": "Instead",
-              "punct": ","
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
+              "cht": "惟"
             },
             {
               "id": "greek-3501",
-              "eng": "new"
+              "cht": "把新"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
+            },
+            {
+              "id": "greek-992",
+              "cht": "裝"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins"
+              "cht": "在"
             },
             {
               "id": "greek-2537",
-              "eng": "new",
-              "punct": "."
+              "cht": "新"
             },
             {
-              "id": ""
+              "id": "greek-779",
+              "cht": "皮袋"
             },
             {
-              "id": "greek-1490"
-            },
-            {
-              "id": "greek-1632"
-            },
-            {
-              "id": "greek-3501"
-            },
-            {
-              "id": "greek-992"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -369,99 +337,84 @@
             "hebrew-8354": 1.1071595021700873
           },
           "verseKey": "jer.49.12",
-          "cunp": "耶和華如此說：「原不該喝那杯的一定要喝。你能盡免刑罰嗎？你必不能免，一定要喝！」",
+          "nasb": "For thus says the Lord, “Behold, those who were not sentenced to drink the cup will certainly drink it, and are you the one who will be completely acquitted? You will not be acquitted, but you will certainly drink it.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-834",
-              "eng": "those whose"
+              "cht": "原"
             },
             {
               "id": "hebrew-369",
-              "eng": "[was] not"
+              "cht": "不"
             },
             {
               "id": "hebrew-4941",
-              "eng": "judgment"
+              "cht": "該"
             },
             {
               "id": "hebrew-8354",
-              "eng": "to drink"
+              "cht": "喝"
             },
             {
               "id": "hebrew-3563",
-              "eng": "of the cup"
+              "cht": "那杯"
             },
             {
               "id": "hebrew-8354",
-              "eng": "assuredly"
+              "cht": "的一定要"
             },
             {
               "id": "hebrew-8354",
-              "eng": "have drunk",
-              "punct": "–"
+              "cht": "喝",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-859",
-              "eng": "and you"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "are"
+              "cht": "你"
             },
             {
               "id": "hebrew-5352",
-              "eng": "altogether"
+              "cht": "能盡"
             },
             {
               "id": "hebrew-5352",
-              "eng": "the one who will go unpunished"
+              "cht": "免刑罰"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你必不能"
             },
             {
               "id": "hebrew-5352",
-              "eng": "You shall go unpunished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "but"
+              "cht": "免",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8354",
-              "eng": "surely"
+              "cht": "一定要"
             },
             {
               "id": "hebrew-8354",
-              "eng": "you shall drink [of it]",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "喝",
+              "punct_cht": "！」"
             }
           ]
         },
@@ -472,96 +425,87 @@
             "hebrew-3196": 1.4068903824067434
           },
           "verseKey": "num.6.3",
-          "cunp": "他就要遠離清酒濃酒，也不可喝甚麼清酒濃酒做的醋；不可喝甚麼葡萄汁，也不可吃鮮葡萄和乾葡萄。",
+          "nasb": "he shall abstain from wine and strong drink; he shall drink no vinegar, whether made from wine or strong drink, nor shall he drink any grape juice nor eat fresh or dried grapes.",
           "words": [
             {
-              "id": "hebrew-3196",
-              "eng": "From wine"
-            },
-            {
-              "id": "hebrew-7941",
-              "eng": "and [similar] drink"
-            },
-            {
               "id": "hebrew-5144",
-              "eng": "he shall separate himself",
-              "punct": "."
+              "cht": "他就要遠離"
             },
             {
-              "id": "hebrew-2558",
-              "eng": "Vinegar made from"
-            },
-            {
-              "id": "hebrew-3196",
-              "eng": "wine",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2558",
-              "eng": "nor vinegar made from"
+              "id": "hebrew-4480",
+              "cht": "清酒"
             },
             {
               "id": "hebrew-7941",
-              "eng": "[similar] drink",
-              "punct": "､"
+              "cht": "濃酒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "neither"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-8354",
-              "eng": "he shall drink",
-              "punct": "､"
+              "cht": "喝"
+            },
+            {
+              "id": "hebrew-3196",
+              "cht": "甚麼清酒"
+            },
+            {
+              "id": "hebrew-7941",
+              "cht": "濃酒"
+            },
+            {
+              "id": "hebrew-2558",
+              "cht": "做的醋",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不可"
+            },
+            {
+              "id": "hebrew-8354",
+              "cht": "喝"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and any"
+              "cht": "甚麼"
+            },
+            {
+              "id": "hebrew-6025",
+              "cht": "葡萄"
             },
             {
               "id": "hebrew-4952",
-              "eng": "juice"
-            },
-            {
-              "id": "hebrew-6025",
-              "eng": "grape",
-              "punct": "–"
+              "cht": "汁",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "neither"
-            },
-            {
-              "id": "hebrew-8354",
-              "eng": "shall he drink"
-            },
-            {
-              "id": "hebrew-6025",
-              "eng": "and grapes"
-            },
-            {
-              "id": "hebrew-3892",
-              "eng": "fresh"
-            },
-            {
-              "id": "hebrew-3002",
-              "eng": "or raisins",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-398",
-              "eng": "eat",
-              "punct": "."
+              "cht": "吃"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3892",
+              "cht": "鮮"
             },
             {
-              "id": ""
+              "id": "hebrew-6025",
+              "cht": "葡萄"
+            },
+            {
+              "id": "hebrew-3002",
+              "cht": "和乾"
+            },
+            {
+              "id": "",
+              "cht": "葡萄",
+              "punct_cht": "。"
             }
           ]
         },
@@ -572,89 +516,83 @@
             "hebrew-3196": 1.4068903824067434
           },
           "verseKey": "jer.35.6",
-          "cunp": "他們卻說：「我們不喝酒；因為我們先祖利甲的兒子約拿達曾吩咐我們說：『你們與你們的子孫永不可喝酒，",
+          "nasb": "But they said, “We will not drink wine, for Jonadab the son of Rechab, our father, commanded us, saying, ‘You shall not drink wine, you or your sons, forever.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "But they said",
-              "punct": "､"
+              "cht": "他們卻說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "我們不"
             },
             {
               "id": "hebrew-8354",
-              "eng": "we will drink"
+              "cht": "喝"
             },
             {
               "id": "hebrew-3196",
-              "eng": "wine",
-              "punct": "､"
+              "cht": "酒",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3122",
-              "eng": "Jonadab"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-7394",
-              "eng": "of Rechab"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1",
-              "eng": "our father"
+              "cht": "我們先祖"
             },
             {
-              "id": "hebrew-6680",
-              "eng": "commanded"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "us"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-8354",
-              "eng": "You shall drink"
-            },
-            {
-              "id": "hebrew-3196",
-              "eng": "wine",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "you",
-              "punct": "､"
+              "id": "hebrew-7394",
+              "cht": "利甲"
             },
             {
               "id": "hebrew-1121",
-              "eng": "nor your sons"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3122",
+              "cht": "約拿達"
+            },
+            {
+              "id": "hebrew-6680",
+              "cht": "曾吩咐"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "我們"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你們"
             },
             {
               "id": "hebrew-5704",
-              "eng": "for"
+              "cht": "與你們的子孫"
             },
             {
               "id": "hebrew-5769",
-              "eng": "ever",
-              "punct": "–"
+              "cht": "永"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不可"
+            },
+            {
+              "id": "hebrew-8354",
+              "cht": "喝"
+            },
+            {
+              "id": "hebrew-3196",
+              "cht": "酒",
+              "punct_cht": "，"
             }
           ]
         },
@@ -667,37 +605,33 @@
             "hebrew-3196": 1.4068903824067434
           },
           "verseKey": "pro.4.17",
-          "cunp": "因為他們以奸惡吃餅， 以強暴喝酒。",
+          "nasb": "For they eat the bread of wickedness And drink the wine of violence.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3898",
-              "eng": "they eat"
+              "cht": "他們以奸惡吃"
             },
             {
               "id": "hebrew-3899",
-              "eng": "the bread"
-            },
-            {
-              "id": "hebrew-7562",
-              "eng": "of wickedness",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3196",
-              "eng": "and the wine"
+              "cht": "餅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2555",
-              "eng": "of violence"
+              "cht": "以強暴"
             },
             {
               "id": "hebrew-8354",
-              "eng": "drink",
-              "punct": "."
+              "cht": "喝"
+            },
+            {
+              "id": "hebrew-3196",
+              "cht": "酒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -708,96 +642,78 @@
             "hebrew-8354": 1.1071595021700873
           },
           "verseKey": "1ki.13.22",
-          "cunp": "反倒回來，在耶和華禁止你吃飯喝水的地方吃了喝了，因此你的屍身不得入你列祖的墳墓。」",
+          "nasb": "but have returned and eaten bread and drunk water in the place of which He said to you, “Eat no bread and drink no water”; your body shall not come to the grave of your fathers.’ ”",
           "words": [
             {
               "id": "hebrew-7725",
-              "eng": "But you came back",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "and ate"
-            },
-            {
-              "id": "hebrew-3899",
-              "eng": "bread"
-            },
-            {
-              "id": "hebrew-8354",
-              "eng": "and drank"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "water"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "in the place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "of which"
+              "cht": "反倒回來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1696",
-              "eng": "[the $Lord] said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to you"
+              "cht": "在耶和華"
             },
             {
               "id": "hebrew-408",
-              "eng": "no"
+              "cht": "禁止"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "你"
             },
             {
               "id": "hebrew-398",
-              "eng": "Eat"
+              "cht": "吃"
             },
             {
               "id": "hebrew-3899",
-              "eng": "bread",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "and no"
+              "cht": "飯"
             },
             {
               "id": "hebrew-8354",
-              "eng": "drink"
+              "cht": "喝"
             },
             {
               "id": "hebrew-4325",
-              "eng": "water",
-              "punct": "–"
+              "cht": "水"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "id": "hebrew-834",
+              "cht": "的"
             },
             {
-              "id": "hebrew-935",
-              "eng": "shall come"
+              "id": "hebrew-4725",
+              "cht": "地方"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "吃了"
+            },
+            {
+              "id": "hebrew-8354",
+              "cht": "喝了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5038",
-              "eng": "your corpse"
+              "cht": "因此你的屍身"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
+              "id": "hebrew-3808",
+              "cht": "不"
             },
             {
-              "id": "hebrew-6913",
-              "eng": "the tomb"
+              "id": "hebrew-935",
+              "cht": "得入"
             },
             {
               "id": "hebrew-1",
-              "eng": "of your fathers'",
-              "punct": "."
+              "cht": "你列祖"
+            },
+            {
+              "id": "hebrew-6913",
+              "cht": "的墳墓",
+              "punct_cht": "。」"
             }
           ]
         }

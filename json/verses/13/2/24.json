@@ -3,17 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-310": "And after",
-          "hebrew-4194": "died",
-          "hebrew-2696": "of Hezron",
-          "hebrew-3613": "Caleb Ephrathah",
-          "hebrew-802": "and wife",
-          "hebrew-29": "Abijah",
-          "hebrew-3205": "and bore",
-          "hebrew-853": "-",
-          "hebrew-806": "Ashhur",
-          "hebrew-1": "the father",
-          "hebrew-8620": "of Tekoa"
+          "eng": {
+            "hebrew-310": "And after",
+            "hebrew-4194": "died",
+            "hebrew-2696": "of Hezron",
+            "hebrew-3613": "Caleb Ephrathah",
+            "hebrew-802": "and wife",
+            "hebrew-29": "Abijah",
+            "hebrew-3205": "and bore",
+            "hebrew-853": "-",
+            "hebrew-806": "Ashhur",
+            "hebrew-1": "the father",
+            "hebrew-8620": "of Tekoa"
+          },
+          "cht": {
+            "hebrew-310": "後",
+            "hebrew-4194": "死",
+            "hebrew-2696": "他的",
+            "hebrew-3613": "在迦勒以法他",
+            "hebrew-802": "妻",
+            "hebrew-29": "亞比雅",
+            "hebrew-3205": "生了",
+            "hebrew-853": "生了",
+            "hebrew-806": "亞施戶",
+            "hebrew-1": "的父親",
+            "hebrew-8620": "亞施戶是提哥亞"
+          }
         }
       },
       "translations": {
@@ -33,41 +48,42 @@
             "hebrew-806": 10.248599871619378
           },
           "verseKey": "1ch.4.5",
-          "cunp": "提哥亞之祖亞施戶有兩個妻子：一名希拉，一名拿拉。",
+          "nasb": "Ashhur, the father of Tekoa, had two wives, Helah and Naarah.",
           "words": [
             {
-              "id": "hebrew-806",
-              "eng": "And Ashhur"
+              "id": "hebrew-8620",
+              "cht": "提哥亞"
             },
             {
               "id": "hebrew-1",
-              "eng": "the father"
+              "cht": "之祖"
             },
             {
-              "id": "hebrew-8620",
-              "eng": "of Tekoa"
+              "id": "hebrew-806",
+              "cht": "亞施戶"
             },
             {
               "id": "hebrew-1961",
-              "eng": "had"
+              "cht": "有"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-802",
-              "eng": "wives",
-              "punct": "､"
+              "cht": "妻子",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2458",
-              "eng": "Helah"
+              "cht": "一名希拉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5292",
-              "eng": "and Naarah",
-              "punct": "."
+              "cht": "一名拿拉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -77,94 +93,62 @@
             "hebrew-2696": 3.55737257852982
           },
           "verseKey": "mat.1.3",
-          "cunp": "猶大從她瑪氏生法勒斯和謝拉；法勒斯生希斯崙；希斯崙生亞蘭；",
+          "nasb": "Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, and Hezron the father of Ram.",
           "words": [
             {
               "id": "greek-2455",
-              "eng": "Judah"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-1080",
-              "eng": "begat"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5329",
-              "eng": "Perez"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2196",
-              "eng": "Zerah"
+              "cht": "猶大"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-2283",
-              "eng": "Tamar",
-              "punct": ","
+              "cht": "她瑪氏"
+            },
+            {
+              "id": "greek-1080",
+              "cht": "生"
             },
             {
               "id": "greek-5329",
-              "eng": "Perez"
+              "cht": "法勒斯"
             },
             {
-              "id": "greek-1161",
-              "eng": "then"
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
-              "id": "greek-1080",
-              "eng": "begat"
+              "id": "greek-2196",
+              "cht": "謝拉",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2074",
-              "eng": "Hezron",
-              "punct": ","
-            },
-            {
-              "id": "greek-2074",
-              "eng": "Hezron"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "id": "greek-5329",
+              "cht": "法勒斯"
             },
             {
               "id": "greek-1080",
-              "eng": "begat"
+              "cht": "生"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2074",
+              "cht": "希斯崙",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-2074",
+              "cht": "希斯崙"
+            },
+            {
+              "id": "greek-1080",
+              "cht": "生"
             },
             {
               "id": "greek-689",
-              "eng": "Ram",
-              "punct": "."
+              "cht": "亞蘭",
+              "punct_cht": "；"
             }
           ]
         },
@@ -174,70 +158,46 @@
             "hebrew-29": 3.125409454472294
           },
           "verseKey": "mat.1.7",
-          "cunp": "所羅門生羅波安；羅波安生亞比雅；亞比雅生亞撒；",
+          "nasb": "Solomon was the father of Rehoboam, Rehoboam the father of Abijah, and Abijah the father of Asa.",
           "words": [
             {
               "id": "greek-4672",
-              "eng": "Solomon"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "cht": "所羅門"
             },
             {
               "id": "greek-1080",
-              "eng": "begat"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "greek-4497",
-              "eng": "Rehoboam",
-              "punct": ","
+              "cht": "羅波安",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4497",
-              "eng": "Rehoboam"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "cht": "羅波安"
             },
             {
               "id": "greek-1080",
-              "eng": "begat"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "greek-7",
-              "eng": "Abijah",
-              "punct": ","
+              "cht": "亞比雅",
+              "punct_cht": "；"
             },
             {
               "id": "greek-7",
-              "eng": "Abijah"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "cht": "亞比雅"
             },
             {
               "id": "greek-1080",
-              "eng": "begat"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "greek-760",
-              "eng": "Asa",
-              "punct": "."
+              "cht": "亞撒",
+              "punct_cht": "；"
             }
           ]
         },
@@ -248,41 +208,33 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "rut.4.19",
-          "cunp": "希斯崙生蘭；蘭生亞米拿達；",
+          "nasb": "and to Hezron was born Ram, and to Ram, Amminadab,",
           "words": [
             {
               "id": "hebrew-2696",
-              "eng": "and Hezron"
+              "cht": "希斯崙"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-7410",
-              "eng": "Ram",
-              "punct": "､"
+              "cht": "蘭",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7410",
-              "eng": "and Ram"
+              "cht": "蘭"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-5992",
-              "eng": "Amminadab",
-              "punct": "､"
+              "cht": "亞米拿達",
+              "punct_cht": "；"
             }
           ]
         },
@@ -294,72 +246,61 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "1ch.2.18",
-          "cunp": "希斯崙的兒子迦勒娶阿蘇巴和耶略為妻，阿蘇巴的兒子是耶設、朔罷、押墩。",
+          "nasb": "Now Caleb the son of Hezron had sons by Azubah his wife, and by Jerioth; and these were her sons: Jesher, Shobab, and Ardon.",
           "words": [
             {
-              "id": "hebrew-3612",
-              "eng": "And Caleb"
+              "id": "hebrew-2696",
+              "cht": "希斯崙"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-2696",
-              "eng": "of Hezron"
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-3205",
-              "eng": "had children"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5806",
-              "eng": "by Azubah"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "[his] wife",
-              "punct": "､"
+              "cht": "迦勒"
             },
             {
               "id": "hebrew-854",
-              "eng": "and by"
+              "cht": "娶"
+            },
+            {
+              "id": "hebrew-5806",
+              "cht": "阿蘇巴"
+            },
+            {
+              "id": "hebrew-854",
+              "cht": "和"
             },
             {
               "id": "hebrew-3408",
-              "eng": "Jerioth",
-              "punct": "–"
+              "cht": "耶略"
             },
             {
-              "id": "hebrew-428",
-              "eng": "and these [were]",
-              "punct": "–"
+              "id": "hebrew-802",
+              "cht": "為妻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "her sons"
+              "cht": "阿蘇巴的兒子"
+            },
+            {
+              "id": "hebrew-428",
+              "cht": "是"
             },
             {
               "id": "hebrew-3475",
-              "eng": "Jesher",
-              "punct": "､"
+              "cht": "耶設、"
             },
             {
               "id": "hebrew-7727",
-              "eng": "and Shobab",
-              "punct": "､"
+              "cht": "朔罷、"
             },
             {
               "id": "hebrew-715",
-              "eng": "and Ardon",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-854"
+              "cht": "押墩",
+              "punct_cht": "。"
             }
           ]
         },
@@ -371,66 +312,67 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "2ch.13.21",
-          "cunp": "亞比雅卻漸漸強盛，娶妻妾十四個，生了二十二個兒子，十六個女兒。",
+          "nasb": "But Abijah became powerful; and took fourteen wives to himself, and became the father of twenty-two sons and sixteen daughters.",
           "words": [
             {
-              "id": "hebrew-2388",
-              "eng": "But grew mighty",
-              "punct": "､"
+              "id": "hebrew-29",
+              "cht": "亞比雅"
             },
             {
-              "id": "hebrew-29",
-              "eng": "Abijah"
+              "id": "hebrew-2388",
+              "cht": "卻漸漸強盛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5375",
-              "eng": "and married"
+              "cht": "娶"
             },
             {
               "id": "hebrew-802",
-              "eng": "wives",
-              "punct": "､"
+              "cht": "妻妾"
+            },
+            {
+              "id": "hebrew-6240",
+              "cht": "十"
             },
             {
               "id": "hebrew-702",
-              "eng": "four"
+              "cht": "四"
             },
             {
-              "id": "hebrew-6240",
-              "eng": "[and] ten"
+              "id": "",
+              "cht": "個",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and he begat"
+              "cht": "生了"
             },
             {
               "id": "hebrew-6242",
-              "eng": "twenty"
+              "cht": "二十"
             },
             {
               "id": "hebrew-8147",
-              "eng": "and two"
+              "cht": "二"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8337",
-              "eng": "and six"
+              "cht": "個兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6240",
-              "eng": "[and] ten"
+              "cht": "十"
+            },
+            {
+              "id": "hebrew-8337",
+              "cht": "六"
             },
             {
               "id": "hebrew-1323",
-              "eng": "daughters",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "個女兒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -441,78 +383,62 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "1ch.2.21",
-          "cunp": "希斯崙正六十歲娶了基列父親瑪吉的女兒，與她同房；瑪吉的女兒生了西割；",
+          "nasb": "Afterward Hezron went in to the daughter of Machir the father of Gilead, whom he married when he was sixty years old; and she bore him Segub.",
           "words": [
             {
-              "id": "hebrew-310",
-              "eng": "And afterward"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "went in"
-            },
-            {
               "id": "hebrew-2696",
-              "eng": "Hezron"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-4353",
-              "eng": "of Machir"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "the father"
-            },
-            {
-              "id": "hebrew-1568",
-              "eng": "of Gilead",
-              "punct": "､"
+              "cht": "希斯崙"
             },
             {
               "id": "hebrew-1931",
-              "eng": "and he"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "married her"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "and when he [was]"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "old",
-              "punct": "–"
+              "cht": "正"
             },
             {
               "id": "hebrew-8346",
-              "eng": "sixty"
+              "cht": "六十"
             },
             {
-              "id": "hebrew-8141",
-              "eng": "years"
+              "id": "hebrew-1931",
+              "cht": "歲"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "娶了"
+            },
+            {
+              "id": "hebrew-1568",
+              "cht": "基列"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "父親"
+            },
+            {
+              "id": "hebrew-4353",
+              "cht": "瑪吉"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的女兒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "與"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "她同房",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and she bore"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "瑪吉的女兒生了"
             },
             {
               "id": "hebrew-7687",
-              "eng": "Segub",
-              "punct": "."
+              "cht": "西割",
+              "punct_cht": "；"
             }
           ]
         },
@@ -523,37 +449,33 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "rut.4.18",
-          "cunp": "法勒斯的後代記在下面：法勒斯生希斯崙；",
+          "nasb": "Now these are the generations of Perez: to Perez was born Hezron,",
           "words": [
             {
-              "id": "hebrew-428",
-              "eng": "Now these [are]"
+              "id": "hebrew-6557",
+              "cht": "法勒斯"
             },
             {
               "id": "hebrew-8435",
-              "eng": "the generations"
+              "cht": "的後代"
+            },
+            {
+              "id": "hebrew-428",
+              "cht": "記在下面",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6557",
-              "eng": "of Perez",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6557",
-              "eng": "Perez"
+              "cht": "法勒斯"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-2696",
-              "eng": "Hezron",
-              "punct": "､"
+              "cht": "希斯崙",
+              "punct_cht": "；"
             }
           ]
         },
@@ -564,51 +486,40 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "1ch.2.9",
-          "cunp": "希斯崙所生的兒子是耶拉篾、蘭、基路拜。",
+          "nasb": "Now the sons of Hezron, who were born to him were Jerahmeel, Ram and Chelubai.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
-            },
-            {
               "id": "hebrew-2696",
-              "eng": "of Hezron",
-              "punct": "､"
+              "cht": "希斯崙"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "所"
             },
             {
               "id": "hebrew-3205",
-              "eng": "were born"
+              "cht": "生"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "兒子"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "是"
             },
             {
               "id": "hebrew-3396",
-              "eng": "[were] Jerahmeel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "耶拉篾、"
             },
             {
               "id": "hebrew-7410",
-              "eng": "Ram",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "蘭、"
             },
             {
               "id": "hebrew-3621",
-              "eng": "Chelubai",
-              "punct": "."
+              "cht": "基路拜",
+              "punct_cht": "。"
             }
           ]
         },
@@ -619,75 +530,53 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "2ch.11.20",
-          "cunp": "後來又娶押沙龍的女兒瑪迦，從她生了亞比雅、亞太、細撒、示羅密。",
+          "nasb": "After her he took Maacah the daughter of Absalom, and she bore him Abijah, Attai, Ziza and Shelomith.",
           "words": [
             {
               "id": "hebrew-310",
-              "eng": "And after her"
+              "cht": "後來"
             },
             {
               "id": "hebrew-3947",
-              "eng": "he took"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4601",
-              "eng": "Maacah"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the granddaughter"
+              "cht": "又娶"
             },
             {
               "id": "hebrew-53",
-              "eng": "of Absalom",
-              "punct": "–"
+              "cht": "押沙龍"
             },
             {
-              "id": "hebrew-3205",
-              "eng": "and she bore"
+              "id": "hebrew-1323",
+              "cht": "的女兒"
+            },
+            {
+              "id": "hebrew-4601",
+              "cht": "瑪迦"
+            },
+            {
+              "id": "",
+              "cht": "【十三章二節作烏列的女兒米該雅】",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "從她生了"
             },
             {
               "id": "hebrew-29",
-              "eng": "Abijah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "亞比雅、"
             },
             {
               "id": "hebrew-6262",
-              "eng": "Attai",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "亞太、"
             },
             {
               "id": "hebrew-2124",
-              "eng": "Ziza",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "細撒、"
             },
             {
               "id": "hebrew-8019",
-              "eng": "Shelomith",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "示羅密",
+              "punct_cht": "。"
             }
           ]
         }

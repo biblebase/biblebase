@@ -3,17 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-974": "You have tested",
-          "hebrew-3820": "my heart",
-          "hebrew-6485": "You have visited [me]",
-          "hebrew-3915": "in the night",
-          "hebrew-6884": "You have tried me",
-          "hebrew-1077": "not",
-          "hebrew-4672": "and have found",
-          "hebrew-2161": "I have purposed",
-          "hebrew-5674": "[that] shall transgress",
-          "hebrew-6310": "my mouth",
-          "": null
+          "eng": {
+            "hebrew-974": "You have tested",
+            "hebrew-3820": "my heart",
+            "hebrew-6485": "You have visited [me]",
+            "hebrew-3915": "in the night",
+            "hebrew-6884": "You have tried me",
+            "hebrew-1077": "not",
+            "hebrew-4672": "and have found",
+            "hebrew-2161": "I have purposed",
+            "hebrew-5674": "[that] shall transgress",
+            "hebrew-6310": "my mouth",
+            "": null
+          },
+          "cht": {
+            "hebrew-974": "你已經試驗",
+            "hebrew-3820": "我的心",
+            "hebrew-6485": "鑒察",
+            "hebrew-3915": "你在夜間",
+            "hebrew-6884": "你熬煉我",
+            "hebrew-1077": "沒有",
+            "hebrew-4672": "卻找",
+            "hebrew-2161": "我立志",
+            "hebrew-5674": "過失",
+            "hebrew-6310": "叫我口中"
+          }
         }
       },
       "translations": {
@@ -32,59 +46,56 @@
             "hebrew-6884": 3.288933040646453
           },
           "verseKey": "jer.6.29",
-          "cunp": "風箱吹火，鉛被燒毀； 他們煉而又煉，終是徒然； 因為惡劣的還未除掉。",
+          "nasb": "The bellows blow fiercely, The lead is consumed by the fire; In vain the refining goes on, But the wicked are not separated.",
           "words": [
             {
-              "id": "hebrew-2787",
-              "eng": "Blow fiercely",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-4647",
-              "eng": "the bellows"
+              "cht": "風箱"
             },
             {
               "id": "hebrew-800",
-              "eng": "is consumed"
+              "cht": "吹火",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5777",
-              "eng": "the lead"
+              "cht": "鉛"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "被燒"
+            },
+            {
+              "id": "hebrew-8552",
+              "cht": "毀",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-6884",
+              "cht": "他們煉"
+            },
+            {
+              "id": "hebrew-6884",
+              "cht": "而又煉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7723",
-              "eng": "in vain",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6884",
-              "eng": "refines"
-            },
-            {
-              "id": "hebrew-6884",
-              "eng": "the smelter"
+              "cht": "終是徒然",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7451",
-              "eng": "for the wicked"
+              "cht": "因為惡劣的"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "還未"
             },
             {
               "id": "hebrew-5423",
-              "eng": "are drawn off",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-784"
-            },
-            {
-              "id": "hebrew-8552"
+              "cht": "除掉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -94,46 +105,46 @@
             "hebrew-6884": 3.288933040646453
           },
           "verseKey": "isa.40.19",
-          "cunp": "偶像是匠人鑄造， 銀匠用金包裹， 為它鑄造銀鍊。",
+          "nasb": "As for the idol, a craftsman casts it, A goldsmith plates it with gold, And a silversmith fashions chains of silver.",
           "words": [
             {
               "id": "hebrew-6459",
-              "eng": "An image",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5258",
-              "eng": "molds"
+              "cht": "偶像"
             },
             {
               "id": "hebrew-2796",
-              "eng": "the workman"
+              "cht": "是匠人"
+            },
+            {
+              "id": "hebrew-5258",
+              "cht": "鑄造",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6884",
-              "eng": "and the goldsmith"
+              "cht": "銀匠"
             },
             {
               "id": "hebrew-2091",
-              "eng": "with gold",
-              "punct": "､"
+              "cht": "用金"
             },
             {
               "id": "hebrew-7554",
-              "eng": "overspreads it"
-            },
-            {
-              "id": "hebrew-7577",
-              "eng": "and chains"
-            },
-            {
-              "id": "hebrew-3701",
-              "eng": "silver"
+              "cht": "包裹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6884",
-              "eng": "the silversmith casts",
-              "punct": "."
+              "cht": "為它鑄造"
+            },
+            {
+              "id": "hebrew-3701",
+              "cht": "銀"
+            },
+            {
+              "id": "hebrew-7577",
+              "cht": "鍊",
+              "punct_cht": "。"
             }
           ]
         },
@@ -144,109 +155,80 @@
             "hebrew-3820": 0.9299891508959751
           },
           "verseKey": "1th.2.4",
-          "cunp": "但神既然驗中了我們，把福音託付我們，我們就照樣講，不是要討人喜歡，乃是要討那察驗我們心的神喜歡。",
+          "nasb": "but just as we have been approved by God to be entrusted with the gospel, so we speak, not as pleasing men, but God who examines our hearts.",
           "words": [
             {
               "id": "greek-235",
-              "eng": "but"
+              "cht": "但"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "神"
             },
             {
               "id": "greek-2531",
-              "eng": "just as"
+              "cht": "既然"
             },
             {
               "id": "greek-1381",
-              "eng": "we have been approved"
-            },
-            {
-              "id": "greek-5259",
-              "eng": "by"
+              "cht": "驗中了我們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God"
+              "cht": "把福音"
             },
             {
               "id": "greek-4100",
-              "eng": "to be entrusted with"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2098",
-              "eng": "gospel",
-              "punct": ","
+              "cht": "託付我們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3779",
-              "eng": "so"
-            },
-            {
-              "id": "greek-2980",
-              "eng": "we speak",
-              "punct": ","
+              "cht": "我們就照樣講",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不是"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
-            },
-            {
-              "id": "greek-444",
-              "eng": "men"
+              "cht": "要"
             },
             {
               "id": "greek-700",
-              "eng": "pleasing",
-              "punct": ","
+              "cht": "討人"
+            },
+            {
+              "id": "",
+              "cht": "喜歡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
+              "cht": "乃是"
             },
             {
               "id": "greek-3588",
-              "eng": "the [One]"
-            },
-            {
-              "id": "greek-1381",
-              "eng": "examining"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2588",
-              "eng": "hearts"
+              "cht": "要討那察驗"
             },
             {
               "id": "greek-2257",
-              "eng": "of us",
-              "punct": "."
+              "cht": "我們"
             },
             {
-              "id": ""
+              "id": "greek-3588",
+              "cht": "心的"
             },
             {
-              "id": "greek-3588"
+              "id": "greek-2316",
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "喜歡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -256,92 +238,87 @@
             "hebrew-1077": 2.056183068949172
           },
           "verseKey": "isa.40.24",
-          "cunp": "他們是剛才栽上， 剛才種上， 根也剛才扎在地裏， 他一吹在其上，便都枯乾； 旋風將他們吹去，像碎稭一樣。",
+          "nasb": "Scarcely have they been planted, Scarcely have they been sown, Scarcely has their stock taken root in the earth, But He merely blows on them, and they wither, And the storm carries them away like stubble.",
           "words": [
             {
-              "id": "hebrew-637",
-              "eng": "Scarcely",
-              "punct": "､"
+              "id": "",
+              "cht": "他們是剛才（或譯",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1077",
-              "eng": "not"
+              "cht": "不曾"
+            },
+            {
+              "id": "",
+              "cht": "下同）",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5193",
-              "eng": "shall they be planted",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "Scarcely",
-              "punct": "､"
+              "cht": "栽上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1077",
-              "eng": "not"
+              "cht": "剛才"
             },
             {
               "id": "hebrew-2232",
-              "eng": "shall they be sown",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "Scarcely",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1077",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-8327",
-              "eng": "shall take root"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "in the earth",
-              "punct": "､"
+              "cht": "種上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1503",
-              "eng": "their stock"
+              "cht": "根"
+            },
+            {
+              "id": "hebrew-637",
+              "cht": "也"
+            },
+            {
+              "id": "hebrew-1077",
+              "cht": "剛才"
+            },
+            {
+              "id": "hebrew-8327",
+              "cht": "扎"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "在地裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "and when also"
+              "cht": "他一"
             },
             {
               "id": "hebrew-5398",
-              "eng": "He will blow"
+              "cht": "吹"
             },
             {
               "id": "hebrew-3001",
-              "eng": "and they will wither",
-              "punct": "､"
+              "cht": "便都枯乾",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5591",
-              "eng": "and the whirlwind"
-            },
-            {
-              "id": "hebrew-7179",
-              "eng": "like stubble"
+              "cht": "旋風"
             },
             {
               "id": "hebrew-5375",
-              "eng": "will take them away",
-              "punct": "."
+              "cht": "將他們吹去",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-7179",
+              "cht": "像碎秸"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -351,73 +328,68 @@
             "hebrew-1077": 2.056183068949172
           },
           "verseKey": "isa.44.9",
-          "cunp": "製造雕刻偶像的盡都虛空；他們所喜悅的都無益處；他們的見證無所看見，無所知曉，他們便覺羞愧。",
+          "nasb": "Those who fashion a graven image are all of them futile, and their precious things are of no profit; even their own witnesses fail to see or know, so that they will be put to shame.",
           "words": [
             {
               "id": "hebrew-3335",
-              "eng": "Those who make"
+              "cht": "製造"
             },
             {
               "id": "hebrew-6459",
-              "eng": "an image"
+              "cht": "雕刻偶像"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all of them"
+              "cht": "的盡都"
             },
             {
               "id": "hebrew-8414",
-              "eng": "[are] useless",
-              "punct": "–"
+              "cht": "虛空",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2530",
-              "eng": "and their precious things"
+              "cht": "他們所喜悅的"
             },
             {
               "id": "hebrew-1077",
-              "eng": "not"
+              "cht": "都無"
             },
             {
               "id": "hebrew-3276",
-              "eng": "shall profit",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5707",
-              "eng": "and their own witnesses",
-              "punct": "–"
+              "cht": "益處",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1992",
-              "eng": "they [are]"
+              "cht": "他們"
+            },
+            {
+              "id": "hebrew-5707",
+              "cht": "的見證"
             },
             {
               "id": "hebrew-1077",
-              "eng": "neither",
-              "punct": "､"
+              "cht": "無"
             },
             {
               "id": "hebrew-7200",
-              "eng": "they see"
+              "cht": "所看見",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1077",
-              "eng": "nor"
+              "cht": "無"
             },
             {
               "id": "hebrew-3045",
-              "eng": "know",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4616",
-              "eng": "that"
+              "cht": "所知曉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-954",
-              "eng": "they may be ashamed",
-              "punct": "."
+              "cht": "他們便覺羞愧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -427,93 +399,88 @@
             "hebrew-1077": 2.056183068949172
           },
           "verseKey": "isa.33.20",
-          "cunp": "你要看錫安－我們守聖節的城！ 你的眼必見耶路撒冷為安靜的居所， 為不挪移的帳幕， 橛子永不拔出， 繩索一根也不折斷。",
+          "nasb": "Look upon Zion, the city of our appointed feasts; Your eyes will see Jerusalem, an undisturbed habitation, A tent which will not be folded; Its stakes will never be pulled up, Nor any of its cords be torn apart.",
           "words": [
             {
               "id": "hebrew-2372",
-              "eng": "Look"
+              "cht": "你要看"
             },
             {
               "id": "hebrew-6726",
-              "eng": "upon Zion",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7151",
-              "eng": "the city"
+              "cht": "錫安─"
             },
             {
               "id": "hebrew-4150",
-              "eng": "of our appointed feasts",
-              "punct": "–"
+              "cht": "我們守聖節"
+            },
+            {
+              "id": "hebrew-7151",
+              "cht": "的城",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5869",
-              "eng": "Your eyes"
+              "cht": "你的眼"
             },
             {
               "id": "hebrew-7200",
-              "eng": "will see"
+              "cht": "必見"
             },
             {
               "id": "hebrew-3389",
-              "eng": "Jerusalem"
-            },
-            {
-              "id": "hebrew-5116",
-              "eng": "a home",
-              "punct": "､"
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-7600",
-              "eng": "quiet"
+              "cht": "為安靜的"
             },
             {
-              "id": "hebrew-168",
-              "eng": "a tabernacle"
+              "id": "hebrew-5116",
+              "cht": "居所",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1077",
-              "eng": "not"
+              "cht": "為不"
             },
             {
               "id": "hebrew-6813",
-              "eng": "[that] will be taken down",
-              "punct": "–"
+              "cht": "挪移"
             },
             {
-              "id": "hebrew-1077",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-5265",
-              "eng": "one will be removed",
-              "punct": "､"
+              "id": "hebrew-168",
+              "cht": "的帳幕",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3489",
-              "eng": "of its stakes"
+              "cht": "橛子"
             },
             {
               "id": "hebrew-5331",
-              "eng": "ever"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and any"
-            },
-            {
-              "id": "hebrew-2256",
-              "eng": "of its cords"
+              "cht": "永"
             },
             {
               "id": "hebrew-1077",
-              "eng": "nor"
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-5265",
+              "cht": "拔出",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2256",
+              "cht": "繩索"
+            },
+            {
+              "id": "hebrew-1077",
+              "cht": "一根也不"
             },
             {
               "id": "hebrew-5423",
-              "eng": "will be broken",
-              "punct": "."
+              "cht": "折斷",
+              "punct_cht": "。"
             }
           ]
         },
@@ -524,121 +491,110 @@
             "hebrew-6884": 3.288933040646453
           },
           "verseKey": "zec.13.9",
-          "cunp": "我要使這三分之一經火， 熬煉他們，如熬煉銀子； 試煉他們，如試煉金子。 他們必求告我的名， 我必應允他們。 我要說：這是我的子民。 他們也要說：耶和華是我們的神。",
+          "nasb": "And I will bring the third part through the fire, Refine them as silver is refined, And test them as gold is tested. They will call on My name, And I will answer them; I will say, ‘They are My people,’ And they will say, ‘The Lord is my God.’ ”",
           "words": [
             {
               "id": "hebrew-935",
-              "eng": "And I will bring"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我要使"
             },
             {
               "id": "hebrew-7992",
-              "eng": "the a third"
+              "cht": "這三分之一"
             },
             {
               "id": "hebrew-784",
-              "eng": "through the fire",
-              "punct": "､"
+              "cht": "經火",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6884",
-              "eng": "and will refine them"
+              "cht": "熬煉他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6884",
-              "eng": "as is refined",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "如熬煉"
             },
             {
               "id": "hebrew-3701",
-              "eng": "silver"
+              "cht": "銀子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-974",
-              "eng": "and test them"
+              "cht": "試煉"
+            },
+            {
+              "id": "",
+              "cht": "他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-974",
-              "eng": "as is tested",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "如試煉"
             },
             {
               "id": "hebrew-2091",
-              "eng": "Gold"
+              "cht": "金子",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1931",
-              "eng": "He"
+              "cht": "他們"
             },
             {
               "id": "hebrew-7121",
-              "eng": "will call"
+              "cht": "必求告"
             },
             {
               "id": "hebrew-8034",
-              "eng": "on my name",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "and I"
+              "cht": "我的名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6030",
-              "eng": "will answer"
+              "cht": "我必應允"
             },
             {
               "id": "hebrew-853",
-              "eng": "him"
+              "cht": "他們",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-559",
-              "eng": "I will say",
-              "punct": "､"
+              "cht": "我要說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "這是"
             },
             {
               "id": "hebrew-5971",
-              "eng": "My people",
-              "punct": "–"
+              "cht": "我的子民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that [is]"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "and he"
+              "cht": "他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "will say",
-              "punct": "､"
+              "cht": "也要說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh [is]"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "是我們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "My God",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -649,63 +605,66 @@
             "hebrew-1077": 2.056183068949172
           },
           "verseKey": "isa.26.14",
-          "cunp": "他們死了，必不能再活； 他們去世，必不能再起； 因為你刑罰他們，毀滅他們， 他們的名號就全然消滅。",
+          "nasb": "The dead will not live, the departed spirits will not rise; Therefore You have punished and destroyed them, And You have wiped out all remembrance of them.",
           "words": [
             {
               "id": "hebrew-4191",
-              "eng": "[They are] dead",
-              "punct": "､"
+              "cht": "他們死了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1077",
-              "eng": "not"
+              "cht": "必不能"
             },
             {
               "id": "hebrew-2421",
-              "eng": "they will live",
-              "punct": "–"
+              "cht": "再活",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7496",
-              "eng": "[They are] deceased",
-              "punct": "､"
+              "cht": "他們去世",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1077",
-              "eng": "not"
+              "cht": "必不能"
             },
             {
               "id": "hebrew-6965",
-              "eng": "they will rise",
-              "punct": "–"
+              "cht": "再起",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3651",
-              "eng": "therefore"
+              "cht": "因為"
             },
             {
               "id": "hebrew-6485",
-              "eng": "You have punished"
+              "cht": "你刑罰"
+            },
+            {
+              "id": "",
+              "cht": "他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8045",
-              "eng": "and destroyed them"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "and made to perish",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "毀滅他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2143",
-              "eng": "memory"
+              "cht": "名號"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "就全然"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "消滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -715,89 +674,62 @@
             "hebrew-974": 2.632541948095861
           },
           "verseKey": "luk.12.56",
-          "cunp": "假冒為善的人哪，你們知道分辨天地的氣色，怎麼不知道分辨這時候呢？」",
+          "nasb": "You hypocrites! You know how to analyze the appearance of the earth and the sky, but why do you not analyze this present time?",
           "words": [
             {
               "id": "greek-5273",
-              "eng": "Hypocrites",
-              "punct": "!"
+              "cht": "假冒為善的人"
             },
             {
-              "id": "greek-3588",
-              "eng": "The"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-4383",
-              "eng": "appearance"
+              "id": "greek-1492",
+              "cht": "你們知道"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-1381",
+              "cht": "分辨"
             },
             {
               "id": "greek-3772",
-              "eng": "sky"
+              "cht": "天"
             },
             {
-              "id": "greek-1492",
-              "eng": "you know [how]"
+              "id": "greek-1093",
+              "cht": "地"
             },
             {
-              "id": "greek-1381",
-              "eng": "to discern",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2540",
-              "eng": "time"
+              "id": "greek-4383",
+              "cht": "的氣色",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-5126",
-              "eng": "this",
-              "punct": ","
-            },
-            {
-              "id": "greek-4459",
-              "eng": "how"
+              "cht": "怎麼"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "do you know"
+              "cht": "不"
             },
             {
               "id": "greek-1381",
-              "eng": "to discern",
-              "punct": "?"
+              "cht": "知道分辨"
             },
             {
-              "id": ""
+              "id": "greek-5126",
+              "cht": "這"
             },
             {
-              "id": ""
+              "id": "greek-2540",
+              "cht": "時候"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -808,87 +740,86 @@
             "hebrew-5674": 0.8137541152315025
           },
           "verseKey": "1sa.9.4",
-          "cunp": "掃羅就走過以法蓮山地，又過沙利沙地，都沒有找着；又過沙琳地，驢也不在那裏；又過便雅憫地，還沒有找着。",
+          "nasb": "He passed through the hill country of Ephraim and passed through the land of Shalishah, but they did not find them. Then they passed through the land of Shaalim, but they were not there. Then he passed through the land of the Benjamites, but they did not find them.",
           "words": [
             {
               "id": "hebrew-5674",
-              "eng": "So he passed"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "through the mountains"
+              "cht": "掃羅就走過"
             },
             {
               "id": "hebrew-669",
-              "eng": "of Ephraim",
-              "punct": "､"
+              "cht": "以法蓮"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5674",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "through the land"
+              "cht": "又過"
             },
             {
               "id": "hebrew-8031",
-              "eng": "of Shalisha",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "but not",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "they did find [them]"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "and they passed"
+              "cht": "沙利沙"
             },
             {
               "id": "hebrew-776",
-              "eng": "through the land"
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "都沒有"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "找著",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "又過"
             },
             {
               "id": "hebrew-8171",
-              "eng": "of Shaalim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and [they were] not [there]",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "and he passed"
+              "cht": "沙琳"
             },
             {
               "id": "hebrew-776",
-              "eng": "through the land"
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3227",
-              "eng": "of the Benjamite"
+              "id": "hebrew-369",
+              "cht": "驢也不在"
+            },
+            {
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "又過"
+            },
+            {
+              "id": "hebrew-1145",
+              "cht": "便雅憫"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "but not"
+              "cht": "還沒有"
             },
             {
               "id": "hebrew-4672",
-              "eng": "they did find [them]",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-1145"
+              "cht": "找著",
+              "punct_cht": "。"
             }
           ]
         }

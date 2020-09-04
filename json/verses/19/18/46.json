@@ -3,15 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2416": "Lives",
-          "hebrew-3068": "Yahweh",
-          "hebrew-1288": "and Blessed [be]",
-          "hebrew-6697": "my Rock",
-          "hebrew-7311": "and let be exalted",
-          "hebrew-433": "the God",
-          "hebrew-3468": "of my salvation",
-          "": null,
-          "hebrew-430": null
+          "eng": {
+            "hebrew-2416": "Lives",
+            "hebrew-3068": "Yahweh",
+            "hebrew-1288": "and Blessed [be]",
+            "hebrew-6697": "my Rock",
+            "hebrew-7311": "and let be exalted",
+            "hebrew-433": "the God",
+            "hebrew-3468": "of my salvation",
+            "": null,
+            "hebrew-430": null
+          },
+          "cht": {
+            "hebrew-2416": "是活",
+            "hebrew-3068": "耶和華",
+            "hebrew-1288": "被人稱頌",
+            "hebrew-6697": "願我的磐石",
+            "hebrew-7311": "被人尊崇",
+            "hebrew-3468": "願救我",
+            "hebrew-430": "神"
+          }
         }
       },
       "translations": {
@@ -32,48 +43,50 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "2sa.22.47",
-          "cunp": "耶和華是活神，願我的磐石被人稱頌！ 願神－那拯救我的磐石被人尊崇！",
+          "nasb": "The Lord lives, and blessed be my rock; And exalted be God, the rock of my salvation,",
           "words": [
             {
-              "id": "hebrew-2416",
-              "eng": "Lives",
-              "punct": "–"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "",
+              "cht": "是活"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "神",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6697",
+              "cht": "願我的磐石"
             },
             {
               "id": "hebrew-1288",
-              "eng": "and Blessed [be]"
+              "cht": "被人稱頌"
             },
             {
-              "id": "hebrew-6697",
-              "eng": "my Rock",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7311",
-              "eng": "and let be exalted"
+              "id": "",
+              "cht": "願",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
-            },
-            {
-              "id": "hebrew-6697",
-              "eng": "the Rock"
+              "cht": "神─"
             },
             {
               "id": "hebrew-3468",
-              "eng": "of my salvation",
-              "punct": "."
+              "cht": "那拯救我"
             },
             {
-              "id": ""
+              "id": "hebrew-6697",
+              "cht": "的磐石"
             },
             {
-              "id": ""
+              "id": "hebrew-7311",
+              "cht": "被人尊崇",
+              "punct_cht": "！"
             }
           ]
         },
@@ -83,82 +96,73 @@
             "hebrew-433": 2.2520884255970035
           },
           "verseKey": "dan.11.38",
-          "cunp": "他倒要敬拜保障的神，用金、銀、寶石和可愛之物敬奉他列祖所不認識的神。",
+          "nasb": "But instead he will honor a god of fortresses, a god whom his fathers did not know; he will honor him with gold, silver, costly stones and treasures.",
           "words": [
             {
-              "id": "hebrew-433",
-              "eng": "But a god"
+              "id": "hebrew-5921",
+              "cht": "他倒要"
+            },
+            {
+              "id": "hebrew-3513",
+              "cht": "敬拜"
             },
             {
               "id": "hebrew-4581",
-              "eng": "of fortresses",
-              "punct": "､"
+              "cht": "保障"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-3653",
-              "eng": "their place"
-            },
-            {
-              "id": "hebrew-3513",
-              "eng": "he shall honor"
+              "id": "",
+              "cht": "的"
             },
             {
               "id": "hebrew-433",
-              "eng": "and a god"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "did know"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "his fathers"
-            },
-            {
-              "id": "hebrew-3513",
-              "eng": "he shall honor"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2091",
-              "eng": "with gold",
-              "punct": "､"
+              "cht": "用金、"
             },
             {
               "id": "hebrew-3701",
-              "eng": "and silver",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "and with stones",
-              "punct": "､"
+              "cht": "銀、"
             },
             {
               "id": "hebrew-3368",
-              "eng": "precious"
+              "cht": "寶"
             },
             {
-              "id": "hebrew-2530",
-              "eng": "and pleasant things",
-              "punct": "."
+              "id": "hebrew-68",
+              "cht": "石"
             },
             {
-              "id": ""
+              "id": "hebrew-2532",
+              "cht": "和可愛之物"
             },
             {
-              "id": "hebrew-2532"
+              "id": "hebrew-3513",
+              "cht": "敬奉"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "他列祖"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "認識"
+            },
+            {
+              "id": "hebrew-433",
+              "cht": "的神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -170,58 +174,59 @@
             "hebrew-433": 2.2520884255970035
           },
           "verseKey": "psa.18.31",
-          "cunp": "除了耶和華，誰是神呢？ 除了我們的神，誰是磐石呢？",
+          "nasb": "For who is God, but the Lord? And who is a rock, except our God,",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-4310",
-              "eng": "who [is]"
-            },
-            {
-              "id": "hebrew-433",
-              "eng": "God"
-            },
-            {
-              "id": "hebrew-1107",
-              "eng": "except"
+              "id": "hebrew-4480",
+              "cht": "除了"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4310",
-              "eng": "and who [is]"
+              "cht": "誰"
             },
             {
-              "id": "hebrew-6697",
-              "eng": "a rock"
+              "id": "",
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-433",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-2108",
-              "eng": "except"
+              "cht": "除了"
+            },
+            {
+              "id": "",
+              "cht": "我們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "our God"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4310",
+              "cht": "誰"
             },
             {
-              "id": ""
+              "id": "hebrew-6697",
+              "cht": "是磐石"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -232,99 +237,99 @@
             "hebrew-433": 2.2520884255970035
           },
           "verseKey": "isa.44.8",
-          "cunp": "你們不要恐懼，也不要害怕。 我豈不是從上古就說明指示你們嗎？ 並且你們是我的見證！ 除我以外，豈有真神嗎？ 誠然沒有磐石，我不知道一個！",
+          "nasb": "Do not tremble and do not be afraid; Have I not long since announced it to you and declared it? And you are My witnesses. Is there any God besides Me, Or is there any other Rock? I know of none.’ ”",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not",
-              "punct": "､"
+              "cht": "你們不要"
             },
             {
               "id": "hebrew-6342",
-              "eng": "do fear"
+              "cht": "恐懼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
+              "cht": "也不要"
             },
             {
               "id": "hebrew-7297",
-              "eng": "be afraid",
-              "punct": "–"
+              "cht": "害怕",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3808",
-              "eng": "have not"
+              "cht": "我豈不"
             },
             {
               "id": "hebrew-227",
-              "eng": "from then [on]",
-              "punct": "､"
+              "cht": "是從上古"
             },
             {
               "id": "hebrew-8085",
-              "eng": "I told you"
+              "cht": "就說明"
             },
             {
               "id": "hebrew-5046",
-              "eng": "and declared [it]"
+              "cht": "指示"
+            },
+            {
+              "id": "",
+              "cht": "你們嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-859",
-              "eng": "and You [are]"
+              "cht": "並且你們"
             },
             {
               "id": "hebrew-5707",
-              "eng": "My witnesses",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3426",
-              "eng": "Is there"
-            },
-            {
-              "id": "hebrew-433",
-              "eng": "a God"
+              "cht": "是我的見證",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-1107",
-              "eng": "besides Me"
+              "cht": "除我以外",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3426",
+              "cht": "豈有"
+            },
+            {
+              "id": "",
+              "cht": "真"
+            },
+            {
+              "id": "hebrew-433",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-369",
-              "eng": "and indeed [there is] no other"
+              "cht": "誠然沒有"
             },
             {
               "id": "hebrew-6697",
-              "eng": "Rock",
-              "punct": "–"
+              "cht": "磐石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1077",
-              "eng": "not"
+              "cht": "我不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "I know [one]",
-              "punct": "."
+              "cht": "知道"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一個",
+              "punct_cht": "！"
             }
           ]
         },
@@ -335,66 +340,65 @@
             "hebrew-433": 2.2520884255970035
           },
           "verseKey": "deu.32.15",
-          "cunp": "但耶書崙漸漸肥胖，粗壯， 光潤，踢跳，奔跑， 便離棄造他的神， 輕看救他的磐石；",
+          "nasb": "“But Jeshurun grew fat and kicked— You are grown fat, thick, and sleek— Then he forsook God who made him, And scorned the Rock of his salvation.",
           "words": [
             {
-              "id": "hebrew-8080",
-              "eng": "But grew fat",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3484",
-              "eng": "Jeshurun"
-            },
-            {
-              "id": "hebrew-1163",
-              "eng": "and kicked",
-              "punct": "–"
+              "cht": "但耶書崙"
             },
             {
               "id": "hebrew-8080",
-              "eng": "You grew fat",
-              "punct": "､"
+              "cht": "漸漸肥胖",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5666",
-              "eng": "you grew thick",
-              "punct": "､"
+              "cht": "粗壯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3780",
-              "eng": "You are obese"
+              "cht": "光潤",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1163",
+              "cht": "踢跳"
+            },
+            {
+              "id": "",
+              "cht": "奔跑",
+              "punct_cht": "，，"
             },
             {
               "id": "hebrew-5203",
-              "eng": "and he forsook"
-            },
-            {
-              "id": "hebrew-433",
-              "eng": "God"
+              "cht": "便離棄"
             },
             {
               "id": "hebrew-6213",
-              "eng": "[who] made him"
+              "cht": "造他"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-433",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5034",
-              "eng": "and esteemed scornfully"
-            },
-            {
-              "id": "hebrew-6697",
-              "eng": "the Rock"
+              "cht": "輕看"
             },
             {
               "id": "hebrew-3444",
-              "eng": "of his salvation",
-              "punct": "."
+              "cht": "救他"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-6697",
+              "cht": "的磐石",
+              "punct_cht": "；"
             }
           ]
         },
@@ -404,95 +408,93 @@
             "hebrew-6697": 1.9709947363221503
           },
           "verseKey": "exo.17.6",
-          "cunp": "我必在何烈的磐石那裏，站在你面前。你要擊打磐石，從磐石裏必有水流出來，使百姓可以喝。」摩西就在以色列的長老眼前這樣行了。",
+          "nasb": "Behold, I will stand before you there on the rock at Horeb; and you shall strike the rock, and water will come out of it, that the people may drink.” And Moses did so in the sight of the elders of Israel.",
           "words": [
             {
-              "id": "hebrew-2005",
-              "eng": "Behold"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "I will stand"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before you"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
+              "id": "hebrew-2009",
+              "cht": "我"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6697",
-              "eng": "the rock"
+              "cht": "必在"
             },
             {
               "id": "hebrew-2722",
-              "eng": "in Horeb",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "and you shall strike"
+              "cht": "何烈"
             },
             {
               "id": "hebrew-6697",
-              "eng": "the rock",
-              "punct": "､"
+              "cht": "的磐石"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "and will come"
+              "id": "hebrew-8033",
+              "cht": "那裡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5975",
+              "cht": "站"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "在你面前",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-5221",
+              "cht": "你要擊打"
+            },
+            {
+              "id": "hebrew-6697",
+              "cht": "磐石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "out of it"
+              "cht": "從磐石裡"
             },
             {
               "id": "hebrew-4325",
-              "eng": "water",
-              "punct": "､"
+              "cht": "必有水"
             },
             {
-              "id": "hebrew-8354",
-              "eng": "that may drink"
+              "id": "hebrew-3318",
+              "cht": "流出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "."
+              "cht": "使百姓"
             },
             {
-              "id": "hebrew-6213",
-              "eng": "Did"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "so"
+              "id": "hebrew-8354",
+              "cht": "可以喝",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-4872",
-              "eng": "then Moses"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "in the sight"
-            },
-            {
-              "id": "hebrew-2205",
-              "eng": "of the elders"
+              "cht": "摩西"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "就在以色列"
             },
             {
-              "id": "hebrew-2009"
+              "id": "hebrew-2205",
+              "cht": "的長老"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "眼前"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "這樣"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "行了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -502,86 +504,75 @@
             "hebrew-6697": 1.9709947363221503
           },
           "verseKey": "1co.10.4",
-          "cunp": "也都喝了一樣的靈水。所喝的，是出於隨着他們的靈磐石；那磐石就是基督。",
+          "nasb": "and all drank the same spiritual drink, for they were drinking from a spiritual rock which followed them; and the rock was Christ.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "都"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-4095",
+              "cht": "喝了"
             },
             {
               "id": "greek-846",
-              "eng": "same"
+              "cht": "一樣的"
             },
             {
               "id": "greek-4152",
-              "eng": "spiritual"
-            },
-            {
-              "id": "greek-4095",
-              "eng": "drank"
+              "cht": "靈"
             },
             {
               "id": "greek-4188",
-              "eng": "drink",
-              "punct": ";"
-            },
-            {
-              "id": "greek-4095",
-              "eng": "they were drinking"
+              "cht": "水",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "所"
+            },
+            {
+              "id": "greek-4095",
+              "cht": "喝"
             },
             {
               "id": "greek-1537",
-              "eng": "from"
-            },
-            {
-              "id": "greek-4152",
-              "eng": "[the] spiritual"
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-190",
-              "eng": "accompanying [them]"
+              "cht": "是出於隨著"
+            },
+            {
+              "id": "greek-4152",
+              "cht": "他們的靈"
             },
             {
               "id": "greek-4073",
-              "eng": "rock",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4073",
-              "eng": "rock"
+              "cht": "磐石",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1161",
-              "eng": "then"
+              "cht": "那"
+            },
+            {
+              "id": "greek-4073",
+              "cht": "磐石"
             },
             {
               "id": "greek-2258",
-              "eng": "was"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "就是"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": "."
+              "cht": "基督",
+              "punct_cht": "。"
             }
           ]
         },
@@ -591,59 +582,56 @@
             "hebrew-6697": 1.9709947363221503
           },
           "verseKey": "isa.48.21",
-          "cunp": "耶和華引導他們經過沙漠。 他們並不乾渴； 他為他們使水從磐石而流， 分裂磐石，水就湧出。",
+          "nasb": "They did not thirst when He led them through the deserts. He made the water flow out of the rock for them; He split the rock and the water gushed forth.",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "And not"
-            },
-            {
-              "id": "hebrew-6770",
-              "eng": "they did thirst"
+              "id": "hebrew-3212",
+              "cht": "耶和華引導他們"
             },
             {
               "id": "hebrew-2723",
-              "eng": "through the deserts",
-              "punct": "."
+              "cht": "經過沙漠",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "When He led them"
+              "id": "hebrew-3808",
+              "cht": "他們並不"
+            },
+            {
+              "id": "hebrew-6770",
+              "cht": "乾渴",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters"
+              "cht": "使水"
             },
             {
-              "id": "hebrew-6697",
-              "eng": "from the rock"
+              "id": "hebrew-4480",
+              "cht": "從磐石"
             },
             {
               "id": "hebrew-5140",
-              "eng": "He caused to flow"
+              "cht": "而流",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1234",
-              "eng": "and He split"
+              "cht": "分裂"
             },
             {
               "id": "hebrew-6697",
-              "eng": "the rock"
-            },
-            {
-              "id": "hebrew-2100",
-              "eng": "and gushed out"
+              "cht": "磐石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters",
-              "punct": "."
+              "cht": "水"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-2100",
+              "cht": "就湧出",
+              "punct_cht": "。"
             }
           ]
         },
@@ -655,137 +643,116 @@
             "hebrew-7311": 1.3461576113013007
           },
           "verseKey": "neh.9.5",
-          "cunp": "利未人耶書亞、甲篾、巴尼、哈沙尼、示利比、荷第雅、示巴尼、毗他希雅說：「你們要站起來稱頌耶和華－你們的神，永世無盡。耶和華啊，你榮耀之名是應當稱頌的！超乎一切稱頌和讚美。」",
+          "nasb": "Then the Levites, Jeshua, Kadmiel, Bani, Hashabneiah, Sherebiah, Hodiah, Shebaniah and Pethahiah, said, “Arise, bless the Lord your God forever and ever! O may Your glorious name be blessed And exalted above all blessing and praise!",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3881",
-              "eng": "the Levites",
-              "punct": "､"
+              "cht": "利未人"
             },
             {
               "id": "hebrew-3442",
-              "eng": "Jeshua",
-              "punct": "､"
+              "cht": "耶書亞、"
             },
             {
               "id": "hebrew-6934",
-              "eng": "and Kadmiel",
-              "punct": "､"
+              "cht": "甲篾、"
             },
             {
               "id": "hebrew-1137",
-              "eng": "Bani",
-              "punct": "､"
+              "cht": "巴尼、"
             },
             {
               "id": "hebrew-2813",
-              "eng": "Hashabniah",
-              "punct": "､"
+              "cht": "哈沙尼、"
             },
             {
               "id": "hebrew-8274",
-              "eng": "Sherebiah",
-              "punct": "､"
+              "cht": "示利比、"
             },
             {
               "id": "hebrew-1941",
-              "eng": "Hodijah",
-              "punct": "､"
+              "cht": "荷第雅、"
             },
             {
               "id": "hebrew-7645",
-              "eng": "Shebaniah",
-              "punct": "､"
+              "cht": "示巴尼、"
             },
             {
               "id": "hebrew-6611",
-              "eng": "[and] Pethahiah",
-              "punct": "､"
+              "cht": "毗他希雅"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6965",
-              "eng": "Stand up"
+              "cht": "你們要站起來"
             },
             {
               "id": "hebrew-1288",
-              "eng": "[and] bless"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "稱頌"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5769",
-              "eng": "Forever"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "and"
+              "cht": "永世"
             },
             {
               "id": "hebrew-5769",
-              "eng": "ever",
-              "punct": "!"
+              "cht": "無盡"
             },
             {
-              "id": "hebrew-1288",
-              "eng": "Blessed be"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "Your name",
-              "punct": "､"
+              "id": "",
+              "cht": "耶和華啊",
+              "punct_cht": "。，"
             },
             {
               "id": "hebrew-3519",
-              "eng": "glorious"
+              "cht": "你榮耀"
             },
             {
-              "id": "hebrew-7311",
-              "eng": "and which is exalted"
+              "id": "hebrew-8034",
+              "cht": "之名"
+            },
+            {
+              "id": "hebrew-1288",
+              "cht": "是應當稱頌"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5921",
-              "eng": "above"
+              "cht": "超乎"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "一切"
             },
             {
               "id": "hebrew-1293",
-              "eng": "blessing"
+              "cht": "稱頌"
             },
             {
               "id": "hebrew-8416",
-              "eng": "and praise",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "和讚美",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -796,51 +763,49 @@
             "hebrew-433": 2.2520884255970035
           },
           "verseKey": "job.22.12",
-          "cunp": "神豈不是在高天嗎？ 你看星宿何其高呢！",
+          "nasb": "“Is not God in the height of heaven? Look also at the distant stars, how high they are!",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "Is not"
+              "id": "hebrew-433",
+              "cht": "神"
             },
             {
-              "id": "hebrew-433",
-              "eng": "God"
+              "id": "hebrew-3808",
+              "cht": "豈不是"
             },
             {
               "id": "hebrew-1363",
-              "eng": "in the height"
+              "cht": "在高"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of heaven"
+              "cht": "天"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "and see"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-7218",
-              "eng": "the highest"
+              "cht": "你看"
             },
             {
               "id": "hebrew-3556",
-              "eng": "stars",
-              "punct": "､"
+              "cht": "星宿"
             },
             {
               "id": "hebrew-3588",
-              "eng": "how"
+              "cht": "何其"
             },
             {
               "id": "hebrew-7311",
-              "eng": "lofty they are",
-              "punct": "!"
+              "cht": "高"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "！"
             }
           ]
         }

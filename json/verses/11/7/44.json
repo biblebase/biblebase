@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-853": "and",
-          "hebrew-3220": "the Sea",
-          "hebrew-259": "one",
-          "hebrew-1241": "oxen",
-          "hebrew-8147": "two",
-          "hebrew-6240": "[and] ten",
-          "hebrew-8478": "under"
+          "eng": {
+            "hebrew-853": "and",
+            "hebrew-3220": "the Sea",
+            "hebrew-259": "one",
+            "hebrew-1241": "oxen",
+            "hebrew-8147": "two",
+            "hebrew-6240": "[and] ten",
+            "hebrew-8478": "under"
+          },
+          "cht": {
+            "hebrew-853": "和",
+            "hebrew-3220": "海",
+            "hebrew-1241": "隻牛",
+            "hebrew-8147": "二",
+            "hebrew-6240": "的十",
+            "hebrew-8478": "下"
+          }
         }
       },
       "translations": {
@@ -24,88 +34,59 @@
             "hebrew-1241": 1.3881168340678858
           },
           "verseKey": "2ch.4.3",
-          "cunp": "海周圍有野瓜的樣式，每肘十瓜，共有兩行，是鑄海的時候鑄上的；",
+          "nasb": "Now figures like oxen were under it and all around it, ten cubits, entirely encircling the sea. The oxen were in two rows, cast in one piece.",
           "words": [
             {
-              "id": "hebrew-1823",
-              "eng": "And the likeness"
+              "id": "hebrew-8478",
+              "cht": "海"
+            },
+            {
+              "id": "hebrew-5439",
+              "cht": "周圍"
+            },
+            {
+              "id": "",
+              "cht": "有野瓜【"
             },
             {
               "id": "hebrew-1241",
-              "eng": "of oxen",
-              "punct": "､"
+              "cht": "原文作牛】"
             },
             {
-              "id": "hebrew-8478",
-              "eng": "[was] under"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "it around"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "encircling",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5437",
-              "eng": "all around"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "it"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
+              "id": "hebrew-1823",
+              "cht": "的樣式",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-520",
-              "eng": "to a cubit",
-              "punct": "､"
+              "cht": "每肘"
             },
             {
-              "id": "hebrew-5362",
-              "eng": "all the way"
+              "id": "hebrew-6235",
+              "cht": "十"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "the Sea"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "around",
-              "punct": "."
+              "cht": "瓜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8147",
-              "eng": "[in] two"
+              "cht": "共有兩"
             },
             {
               "id": "hebrew-2905",
-              "eng": "rows"
-            },
-            {
-              "id": "hebrew-1241",
-              "eng": "the oxen [were]"
-            },
-            {
-              "id": "hebrew-3332",
-              "eng": "cast",
-              "punct": "､"
+              "cht": "行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4166",
-              "eng": "when it was cast",
-              "punct": "."
+              "cht": "是鑄"
             },
             {
-              "id": ""
+              "id": "hebrew-3332",
+              "cht": "海的時候鑄上的",
+              "punct_cht": "；"
             }
           ]
         },
@@ -115,87 +96,75 @@
             "hebrew-1241": 1.3881168340678858
           },
           "verseKey": "1co.9.9",
-          "cunp": "就如摩西的律法記着說：「牛在場上踹穀的時候，不可籠住牠的嘴。」難道神所掛念的是牛嗎？",
+          "nasb": "For it is written in the Law of Moses, “You shall not muzzle the ox while he is threshing.” God is not concerned about oxen, is He?",
           "words": [
             {
-              "id": "greek-1722",
-              "eng": "In"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "就如"
             },
             {
               "id": "greek-3475",
-              "eng": "of Moses"
+              "cht": "摩西"
             },
             {
               "id": "greek-3551",
-              "eng": "law",
-              "punct": ","
+              "cht": "的律法"
             },
             {
               "id": "greek-1125",
-              "eng": "it has been written",
-              "punct": ":"
+              "cht": "記著"
             },
             {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-5392",
-              "eng": "you shall muzzle"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1016",
-              "eng": "an ox"
+              "cht": "牛"
             },
             {
               "id": "greek-248",
-              "eng": "treading out grain",
-              "punct": "."
+              "cht": "在場上踹穀"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "不"
+            },
+            {
+              "id": "greek-5392",
+              "cht": "可籠住"
+            },
+            {
+              "id": "",
+              "cht": "牠的嘴",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3361",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
-            },
-            {
-              "id": "greek-1016",
-              "eng": "oxen"
-            },
-            {
-              "id": "greek-3199",
-              "eng": "is there care"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "難道"
             },
             {
               "id": "greek-2316",
-              "eng": "with God",
-              "punct": "?"
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "greek-3199",
+              "cht": "所掛念"
             },
             {
-              "id": ""
+              "id": "greek-1016",
+              "cht": "的是牛"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -205,79 +174,80 @@
             "hebrew-1241": 1.3881168340678858
           },
           "verseKey": "1ki.4.23",
-          "cunp": "肥牛十隻，草場的牛二十隻，羊一百隻，還有鹿、羚羊、麅子，並肥禽。",
+          "nasb": "ten fat oxen, twenty pasture-fed oxen, a hundred sheep besides deer, gazelles, roebucks, and fattened fowl.",
           "words": [
             {
-              "id": "hebrew-6235",
-              "eng": "ten"
-            },
-            {
-              "id": "hebrew-1241",
-              "eng": "oxen",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1277",
-              "eng": "fat"
-            },
-            {
-              "id": "hebrew-6242",
-              "eng": "and twenty"
+              "cht": "肥"
             },
             {
               "id": "hebrew-1241",
-              "eng": "oxen"
+              "cht": "牛"
+            },
+            {
+              "id": "hebrew-6235",
+              "cht": "十"
+            },
+            {
+              "id": "",
+              "cht": "隻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7471",
-              "eng": "from the pastures",
-              "punct": "､"
+              "cht": "草場"
             },
             {
-              "id": "hebrew-3967",
-              "eng": "and a hundred"
+              "id": "hebrew-1241",
+              "cht": "的牛"
+            },
+            {
+              "id": "hebrew-6242",
+              "cht": "二十"
+            },
+            {
+              "id": "",
+              "cht": "隻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6629",
-              "eng": "sheep",
-              "punct": "､"
+              "cht": "羊"
+            },
+            {
+              "id": "hebrew-3967",
+              "cht": "一百"
+            },
+            {
+              "id": "",
+              "cht": "隻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-905",
-              "eng": "besides"
+              "cht": "還有"
             },
             {
               "id": "hebrew-354",
-              "eng": "deer",
-              "punct": "､"
+              "cht": "鹿、"
             },
             {
               "id": "hebrew-6643",
-              "eng": "and gazelles",
-              "punct": "､"
+              "cht": "羚羊、"
             },
             {
               "id": "hebrew-3180",
-              "eng": "and roebucks",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1257",
-              "eng": "and fowl"
+              "cht": "麃子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-75",
-              "eng": "fatted",
-              "punct": "."
+              "cht": "並肥"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-1257",
+              "cht": "禽",
+              "punct_cht": "。"
             }
           ]
         }

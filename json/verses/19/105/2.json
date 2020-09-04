@@ -3,11 +3,20 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7891": "Sing",
-          "hebrew-2167": "sing psalms",
-          "hebrew-7878": "Talk",
-          "hebrew-3605": "of all",
-          "hebrew-6381": "His wondrous works"
+          "eng": {
+            "hebrew-7891": "Sing",
+            "hebrew-2167": "sing psalms",
+            "hebrew-7878": "Talk",
+            "hebrew-3605": "of all",
+            "hebrew-6381": "His wondrous works"
+          },
+          "cht": {
+            "hebrew-7891": "唱詩",
+            "hebrew-2167": "歌頌",
+            "hebrew-7878": "談論",
+            "hebrew-3605": "他一切",
+            "hebrew-6381": "奇妙的作為"
+          }
         }
       },
       "translations": {
@@ -22,38 +31,39 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.47.6",
-          "cunp": "你們要向神歌頌，歌頌！ 向我們王歌頌，歌頌！",
+          "nasb": "Sing praises to God, sing praises; Sing praises to our King, sing praises.",
           "words": [
             {
-              "id": "hebrew-2167",
-              "eng": "Sing praises"
+              "id": "",
+              "cht": "你們要向"
             },
             {
               "id": "hebrew-430",
-              "eng": "to God",
-              "punct": "､"
+              "cht": "神"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing praises",
-              "punct": "–"
+              "cht": "歌頌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing praises"
+              "cht": "歌頌",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-4428",
-              "eng": "to our Sing",
-              "punct": "､"
+              "cht": "向我們王"
             },
             {
               "id": "hebrew-2167",
-              "eng": "Sing praises",
-              "punct": "."
+              "cht": "歌頌",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-2167",
+              "cht": "歌頌",
+              "punct_cht": "！"
             }
           ]
         },
@@ -64,37 +74,36 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "psa.66.4",
-          "cunp": "全地要敬拜你，歌頌你， 要歌頌你的名。（細拉）",
+          "nasb": "All the earth will worship You, And will sing praises to You; They will sing praises to Your name.” Selah.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "全"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地"
             },
             {
               "id": "hebrew-7812",
-              "eng": "shall worship"
+              "cht": "要敬拜"
             },
             {
               "id": "hebrew-2167",
-              "eng": "and sing praises"
+              "cht": "歌頌"
             },
             {
               "id": "hebrew-2167",
-              "eng": "they shall sing praises"
+              "cht": "要歌頌"
             },
             {
               "id": "hebrew-8034",
-              "eng": "[to] Your name",
-              "punct": "."
+              "cht": "你的名（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
+              "cht": "細拉）"
             }
           ]
         },
@@ -104,91 +113,80 @@
             "hebrew-6381": 2.407639909866712
           },
           "verseKey": "zec.8.6",
-          "cunp": "萬軍之耶和華如此說：到那日，這事在餘剩的民眼中看為希奇，在我眼中也看為希奇嗎？這是萬軍之耶和華說的。",
+          "nasb": "Thus says the Lord of hosts, ‘If it is too difficult in the sight of the remnant of this people in those days, will it also be too difficult in My sight?’ declares the Lord of hosts.",
           "words": [
             {
+              "id": "hebrew-6635",
+              "cht": "萬軍"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "it is marvelous"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "in the eyes"
-            },
-            {
-              "id": "hebrew-7611",
-              "eng": "of the remnant"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of people"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in days",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1992",
-              "eng": "those"
+              "cht": "到那"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7611",
+              "cht": "這事在餘剩的"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in My eyes"
+              "cht": "眼"
             },
             {
               "id": "hebrew-6381",
-              "eng": "will it be marvelous"
+              "cht": "中看為希奇",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-5869",
+              "cht": "在我眼"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
+              "id": "hebrew-1571",
+              "cht": "中也"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "看為希奇"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "."
+              "cht": "這是萬軍"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -198,81 +196,72 @@
             "hebrew-6381": 2.407639909866712
           },
           "verseKey": "isa.29.14",
-          "cunp": "所以，我在這百姓中要行奇妙的事， 就是奇妙又奇妙的事。 他們智慧人的智慧必然消滅， 聰明人的聰明必然隱藏。",
+          "nasb": "Therefore behold, I will once again deal marvelously with this people, wondrously marvelous; And the wisdom of their wise men will perish, And the discernment of their discerning men will be concealed.”",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "Therefore",
-              "punct": "､"
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2005",
-              "eng": "behold I"
+              "id": "hebrew-2009",
+              "cht": "我"
             },
             {
-              "id": "hebrew-3254",
-              "eng": "will again"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "do a marvelous work"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "Among people",
-              "punct": "､"
+              "id": "hebrew-853",
+              "cht": "在"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-6381",
-              "eng": "a marvelous work"
+              "id": "hebrew-5971",
+              "cht": "百姓"
+            },
+            {
+              "id": "hebrew-3254",
+              "cht": "中要行"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "奇妙的事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6382",
-              "eng": "and a wonder",
-              "punct": "–"
+              "cht": "就是奇妙"
             },
             {
-              "id": "hebrew-6",
-              "eng": "for shall perish",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "the wisdom"
+              "id": "hebrew-6381",
+              "cht": "又奇妙的事",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of their wise [men]"
+              "cht": "他們智慧人"
             },
             {
-              "id": "hebrew-998",
-              "eng": "and the understanding"
+              "id": "hebrew-2451",
+              "cht": "的智慧"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "必然消滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "of their prudent [men]"
+              "cht": "聰明人"
+            },
+            {
+              "id": "hebrew-998",
+              "cht": "的聰明"
             },
             {
               "id": "hebrew-5641",
-              "eng": "shall be hidden",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2009"
-            },
-            {
-              "id": "hebrew-853"
-            },
-            {
-              "id": "hebrew-1931"
+              "cht": "必然隱藏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -284,28 +273,29 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "1ch.16.9",
-          "cunp": "要向他唱詩、歌頌， 談論他一切奇妙的作為。",
+          "nasb": "Sing to Him, sing praises to Him; Speak of all His wonders.",
           "words": [
             {
               "id": "hebrew-7891",
-              "eng": "Sing"
+              "cht": "唱詩、"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing psalms"
+              "cht": "歌頌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7878",
-              "eng": "Talk"
+              "cht": "談論"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "他一切"
             },
             {
               "id": "hebrew-6381",
-              "eng": "His wondrous works",
-              "punct": "."
+              "cht": "奇妙的作為",
+              "punct_cht": "。"
             }
           ]
         },
@@ -316,61 +306,64 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.68.4",
-          "cunp": "你們當向神唱詩，歌頌他的名； 為那坐車行過曠野的修平大路。 他的名是耶和華， 要在他面前歡樂！",
+          "nasb": "Sing to God, sing praises to His name; Lift up a song for Him who rides through the deserts, Whose name is the Lord, and exult before Him.",
           "words": [
             {
-              "id": "hebrew-7891",
-              "eng": "Sing"
+              "id": "",
+              "cht": "你們當向"
             },
             {
               "id": "hebrew-430",
-              "eng": "to God",
-              "punct": "､"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-7891",
+              "cht": "唱"
+            },
+            {
+              "id": "",
+              "cht": "詩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing praises"
+              "cht": "歌頌"
             },
             {
               "id": "hebrew-8034",
-              "eng": "to His name",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5549",
-              "eng": "Extol"
+              "cht": "他的名",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7392",
-              "eng": "Him who rides"
+              "cht": "為那坐車"
             },
             {
               "id": "hebrew-6160",
-              "eng": "on the clouds"
+              "cht": "行過曠野"
             },
             {
-              "id": "hebrew-3050",
-              "eng": "by YAH",
-              "punct": "､"
+              "id": "hebrew-5549",
+              "cht": "的修平大路",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-8034",
-              "eng": "His name"
+              "cht": "他的名"
             },
             {
-              "id": "hebrew-5937",
-              "eng": "and rejoice"
+              "id": "hebrew-3050",
+              "cht": "是耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before Him",
-              "punct": "."
+              "cht": "要在他面前"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-5937",
+              "cht": "歡樂",
+              "punct_cht": "！"
             }
           ]
         },
@@ -381,42 +374,43 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.101.1",
-          "cunp": "我要歌唱慈愛和公平； 耶和華啊，我要向你歌頌！",
+          "nasb": "I will sing of lovingkindness and justice, To You, O Lord, I will sing praises.",
           "words": [
             {
               "id": "hebrew-1732",
-              "eng": "Of David",
-              "punct": "."
+              "cht": "大衛的"
             },
             {
               "id": "hebrew-4210",
-              "eng": "A Psalm"
-            },
-            {
-              "id": "hebrew-2617",
-              "eng": "of mercy"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "and justice",
-              "punct": "､"
+              "cht": "詩）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7891",
-              "eng": "I will sing"
+              "cht": "我要歌唱"
+            },
+            {
+              "id": "hebrew-2617",
+              "cht": "慈愛"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "和公平",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2167",
-              "eng": "I will sing praises",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "歌頌",
+              "punct_cht": "！"
             }
           ]
         },
@@ -427,42 +421,44 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.57.7",
-          "cunp": "神啊，我心堅定，我心堅定； 我要唱詩，我要歌頌！",
+          "nasb": "My heart is steadfast, O God, my heart is steadfast; I will sing, yes, I will sing praises!",
           "words": [
             {
-              "id": "hebrew-3559",
-              "eng": "Is steadfast",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "My heart"
-            },
-            {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "､"
+              "cht": "神"
             },
             {
-              "id": "hebrew-3559",
-              "eng": "is steadfast",
-              "punct": "–"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "my heart"
+              "cht": "我心"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "堅定",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "我心"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "堅定",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7891",
-              "eng": "I will sing"
+              "cht": "我要唱詩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2167",
-              "eng": "and give praise",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "我要歌頌",
+              "punct_cht": "！"
             }
           ]
         },
@@ -473,62 +469,63 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.27.6",
-          "cunp": "現在我得以昂首，高過四面的仇敵。 我要在他的帳幕裏歡然獻祭； 我要唱詩歌頌耶和華。",
+          "nasb": "And now my head will be lifted up above my enemies around me, And I will offer in His tent sacrifices with shouts of joy; I will sing, yes, I will sing praises to the Lord.",
           "words": [
             {
               "id": "hebrew-6258",
-              "eng": "Now"
+              "cht": "現在"
             },
             {
               "id": "hebrew-7311",
-              "eng": "shall be lifted up"
+              "cht": "我得以昂"
             },
             {
               "id": "hebrew-7218",
-              "eng": "my head"
+              "cht": "首",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "above"
-            },
-            {
-              "id": "hebrew-341",
-              "eng": "my enemies"
+              "cht": "高過"
             },
             {
               "id": "hebrew-5439",
-              "eng": "all around me"
+              "cht": "四面"
             },
             {
-              "id": "hebrew-2076",
-              "eng": "therefore I will offer"
+              "id": "hebrew-341",
+              "cht": "的仇敵",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-168",
-              "eng": "in His tabernacle"
-            },
-            {
-              "id": "hebrew-2077",
-              "eng": "sacrifices"
+              "cht": "我要在他的帳幕裡"
             },
             {
               "id": "hebrew-8643",
-              "eng": "of joy",
-              "punct": "–"
+              "cht": "歡然"
+            },
+            {
+              "id": "hebrew-2076",
+              "cht": "獻"
+            },
+            {
+              "id": "hebrew-2077",
+              "cht": "祭",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7891",
-              "eng": "I will sing",
-              "punct": "､"
+              "cht": "我要唱詩"
             },
             {
               "id": "hebrew-2167",
-              "eng": "and yes I will sing praises"
+              "cht": "歌頌"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "."
+              "cht": "耶和華",
+              "punct_cht": "。"
             }
           ]
         },
@@ -539,39 +536,42 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.104.33",
-          "cunp": "我要一生向耶和華唱詩！ 我還活的時候，要向我神歌頌！",
+          "nasb": "I will sing to the Lord as long as I live; I will sing praise to my God while I have my being.",
           "words": [
             {
-              "id": "hebrew-7891",
-              "eng": "I will sing"
+              "id": "hebrew-2416",
+              "cht": "我要一生"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh"
+              "cht": "向耶和華"
             },
             {
-              "id": "hebrew-2416",
-              "eng": "as long as I live",
-              "punct": "–"
+              "id": "hebrew-7891",
+              "cht": "唱"
             },
             {
-              "id": "hebrew-2167",
-              "eng": "I will sing praise"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "to my God"
+              "id": "",
+              "cht": "詩",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5750",
-              "eng": "while I have my being",
-              "punct": "."
+              "cht": "我還活的時候"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "要向我",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-2167",
+              "cht": "歌頌",
+              "punct_cht": "！"
             }
           ]
         }

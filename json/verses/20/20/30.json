@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2250": "Blows",
-          "hebrew-6482": "that hurt",
-          "hebrew-4838": "cleanse away",
-          "hebrew-7451": "evil",
-          "hebrew-4347": "and as [do] stripes",
-          "hebrew-2315": "the inner depths",
-          "hebrew-990": "of the heart",
-          "hebrew-8562": null
+          "eng": {
+            "hebrew-2250": "Blows",
+            "hebrew-6482": "that hurt",
+            "hebrew-4838": "cleanse away",
+            "hebrew-7451": "evil",
+            "hebrew-4347": "and as [do] stripes",
+            "hebrew-2315": "the inner depths",
+            "hebrew-990": "of the heart",
+            "hebrew-8562": null
+          },
+          "cht": {
+            "hebrew-2250": "鞭",
+            "hebrew-6482": "傷",
+            "hebrew-7451": "人的罪惡",
+            "hebrew-4347": "責打",
+            "hebrew-2315": "能入人的心",
+            "hebrew-990": "腹",
+            "hebrew-8562": "除淨"
+          }
         }
       },
       "translations": {
@@ -28,46 +39,46 @@
             "hebrew-6482": 5.492088685277254
           },
           "verseKey": "exo.21.25",
-          "cunp": "以烙還烙，以傷還傷，以打還打。",
+          "nasb": "burn for burn, wound for wound, bruise for bruise.",
           "words": [
             {
               "id": "hebrew-3555",
-              "eng": "burn"
+              "cht": "以烙"
             },
             {
               "id": "hebrew-8478",
-              "eng": "for"
+              "cht": "還"
             },
             {
               "id": "hebrew-3555",
-              "eng": "burn",
-              "punct": "､"
+              "cht": "烙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6482",
-              "eng": "wound"
+              "cht": "以傷"
             },
             {
               "id": "hebrew-8478",
-              "eng": "for"
+              "cht": "還"
             },
             {
               "id": "hebrew-6482",
-              "eng": "wound",
-              "punct": "､"
+              "cht": "傷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2250",
-              "eng": "stripe"
+              "cht": "以打"
             },
             {
               "id": "hebrew-8478",
-              "eng": "for"
+              "cht": "還"
             },
             {
               "id": "hebrew-2250",
-              "eng": "stripe",
-              "punct": "."
+              "cht": "打",
+              "punct_cht": "。"
             }
           ]
         },
@@ -78,84 +89,82 @@
             "hebrew-6482": 5.492088685277254
           },
           "verseKey": "isa.1.6",
-          "cunp": "從腳掌到頭頂， 沒有一處完全的， 盡是傷口、青腫，與新打的傷痕， 都沒有收口，沒有纏裹， 也沒有用膏滋潤。",
+          "nasb": "From the sole of the foot even to the head There is nothing sound in it, Only bruises, welts and raw wounds, Not pressed out or bandaged, Nor softened with oil.",
           "words": [
             {
-              "id": "hebrew-3709",
-              "eng": "From the sole"
+              "id": "hebrew-7272",
+              "cht": "從腳"
             },
             {
-              "id": "hebrew-7272",
-              "eng": "of the foot"
+              "id": "hebrew-3709",
+              "cht": "掌"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and even to"
+              "cht": "到"
             },
             {
               "id": "hebrew-7218",
-              "eng": "the head"
+              "cht": "頭頂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "[There is] no"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-4974",
-              "eng": "soundness"
+              "cht": "完全的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6482",
-              "eng": "[But] wounds",
-              "punct": "､"
+              "cht": "盡是傷口、"
             },
             {
               "id": "hebrew-2250",
-              "eng": "and bruises",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4347",
-              "eng": "and sores",
-              "punct": "､"
+              "cht": "青腫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2961",
-              "eng": "putrefying"
+              "cht": "與新打的"
+            },
+            {
+              "id": "hebrew-4347",
+              "cht": "傷痕",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "都沒有"
             },
             {
               "id": "hebrew-2115",
-              "eng": "they have been closed",
-              "punct": "､"
+              "cht": "收口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "or"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-2280",
-              "eng": "bound up",
-              "punct": "､"
+              "cht": "纏裹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "Or"
-            },
-            {
-              "id": "hebrew-7401",
-              "eng": "soothed"
+              "cht": "也沒有"
             },
             {
               "id": "hebrew-8081",
-              "eng": "with ointment",
-              "punct": "."
+              "cht": "用膏"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7401",
+              "cht": "滋潤",
+              "punct_cht": "。"
             }
           ]
         },
@@ -165,61 +174,63 @@
             "hebrew-4838": 7.502414237754052
           },
           "verseKey": "lev.6.28",
-          "cunp": "惟有煮祭物的瓦器要打碎；若是煮在銅器裏，這銅器要擦磨，在水中涮淨。",
+          "nasb": "Also the earthenware vessel in which it was boiled shall be broken; and if it was boiled in a bronze vessel, then it shall be scoured and rinsed in water.",
           "words": [
             {
-              "id": "hebrew-3627",
-              "eng": "But the vessel"
-            },
-            {
-              "id": "hebrew-2789",
-              "eng": "earthen"
+              "id": "hebrew-1310",
+              "cht": "惟有煮"
             },
             {
               "id": "hebrew-834",
-              "eng": "in which"
+              "cht": "祭物的"
             },
             {
-              "id": "hebrew-1310",
-              "eng": "it is boiled"
-            },
-            {
-              "id": "hebrew-7665",
-              "eng": "shall be broken",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "and if"
+              "id": "hebrew-2789",
+              "cht": "瓦"
             },
             {
               "id": "hebrew-3627",
-              "eng": "in a pot"
+              "cht": "器"
             },
             {
-              "id": "hebrew-5178",
-              "eng": "bronze"
+              "id": "hebrew-7665",
+              "cht": "要打碎",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "若"
             },
             {
               "id": "hebrew-1310",
-              "eng": "it is boiled",
-              "punct": "､"
+              "cht": "是煮"
+            },
+            {
+              "id": "hebrew-5178",
+              "cht": "在銅"
+            },
+            {
+              "id": "hebrew-3627",
+              "cht": "器"
+            },
+            {
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4838",
-              "eng": "and it shall be scoured"
-            },
-            {
-              "id": "hebrew-7857",
-              "eng": "and rinsed"
+              "cht": "這銅器要擦磨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4325",
-              "eng": "in water",
-              "punct": "."
+              "cht": "在水中"
             },
             {
-              "id": ""
+              "id": "hebrew-7857",
+              "cht": "涮淨",
+              "punct_cht": "。"
             }
           ]
         },
@@ -229,53 +240,51 @@
             "hebrew-4838": 7.502414237754052
           },
           "verseKey": "jer.46.4",
-          "cunp": "你們套上車， 騎上馬！ 頂盔站立， 磨槍貫甲！",
+          "nasb": "Harness the horses, And mount the steeds, And take your stand with helmets on! Polish the spears, Put on the scale-armor!",
           "words": [
             {
-              "id": "hebrew-631",
-              "eng": "Harness"
+              "id": "hebrew-6571",
+              "cht": "你們"
             },
             {
-              "id": "hebrew-5483",
-              "eng": "the horses",
-              "punct": "–"
+              "id": "hebrew-631",
+              "cht": "套上車",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5927",
-              "eng": "and mount up",
-              "punct": "､"
+              "cht": "騎上"
             },
             {
-              "id": "hebrew-6571",
-              "eng": "you horsemen",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3320",
-              "eng": "and Stand forth"
+              "id": "hebrew-5483",
+              "cht": "馬",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3553",
-              "eng": "with [your] helmets",
-              "punct": "–"
+              "cht": "頂盔"
+            },
+            {
+              "id": "hebrew-3320",
+              "cht": "站立",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4838",
-              "eng": "Polish"
+              "cht": "磨"
             },
             {
               "id": "hebrew-7420",
-              "eng": "the spears",
-              "punct": "､"
+              "cht": "槍"
             },
             {
               "id": "hebrew-3847",
-              "eng": "Put on"
+              "cht": "貫"
             },
             {
               "id": "hebrew-5630",
-              "eng": "the armor",
-              "punct": "."
+              "cht": "甲",
+              "punct_cht": "！"
             }
           ]
         },
@@ -285,89 +294,74 @@
             "hebrew-4838": 7.502414237754052
           },
           "verseKey": "2ch.4.16",
-          "cunp": "盆、鏟子、肉鍤子，與耶和華殿裏的一切器皿，都是巧匠戶蘭用光亮的銅為所羅門王造成的，",
+          "nasb": "The pails, the shovels, the forks and all its utensils, Huram-abi made of polished bronze for King Solomon for the house of the Lord.",
           "words": [
             {
-              "id": "hebrew-853",
-              "eng": "And also"
-            },
-            {
               "id": "hebrew-5518",
-              "eng": "the pots"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "盆、"
             },
             {
               "id": "hebrew-3257",
-              "eng": "the shovels",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "鏟子、"
             },
             {
               "id": "hebrew-4207",
-              "eng": "the forks",
-              "punct": "､"
+              "cht": "肉鍤子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "與"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "their articles",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "made"
-            },
-            {
-              "id": "hebrew-2361",
-              "eng": "Huram his master [craftsman]"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "his father"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "for King"
-            },
-            {
-              "id": "hebrew-8010",
-              "eng": "Solomon"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1004",
-              "eng": "for the house"
+              "cht": "殿"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "of Yahweh"
+              "id": "hebrew-3605",
+              "cht": "裡的一切"
             },
             {
-              "id": "hebrew-5178",
-              "eng": "of bronze"
+              "id": "hebrew-3627",
+              "cht": "器皿",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "都是巧匠"
+            },
+            {
+              "id": "hebrew-2361",
+              "cht": "戶蘭"
             },
             {
               "id": "hebrew-4838",
-              "eng": "burnished",
-              "punct": "."
+              "cht": "用光亮的"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-5178",
+              "cht": "銅"
             },
             {
-              "id": ""
+              "id": "hebrew-8010",
+              "cht": "為所羅門"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "造成"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             }
           ]
         },
@@ -378,133 +372,92 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "act.19.16",
-          "cunp": "惡鬼所附的人就跳在他們身上，勝了其中二人，制伏他們，叫他們赤着身子受了傷，從那房子裏逃出去了。",
+          "nasb": "And the man, in whom was the evil spirit, leaped on them and subdued all of them and overpowered them, so that they fled out of that house naked and wounded.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2177",
-              "eng": "having leapt"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-444",
-              "eng": "man"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "was"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-4190",
+              "cht": "惡"
             },
             {
               "id": "greek-4151",
-              "eng": "spirit"
+              "cht": "鬼"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3739",
+              "cht": "所附"
             },
             {
-              "id": "greek-4190",
-              "eng": "evil",
-              "punct": ","
+              "id": "greek-444",
+              "cht": "的人"
             },
             {
-              "id": "greek-2634",
-              "eng": "having overpowered"
+              "id": "greek-2177",
+              "cht": "就跳"
             },
             {
-              "id": "greek-297",
-              "eng": "them all",
-              "punct": ","
-            },
-            {
-              "id": "greek-2480",
-              "eng": "he prevailed"
-            },
-            {
-              "id": "greek-2596",
-              "eng": "against"
+              "id": "greek-1909",
+              "cht": "在"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "他們"
+            },
+            {
+              "id": "",
+              "cht": "身上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "勝了"
+            },
+            {
+              "id": "",
+              "cht": "其中二人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2480",
+              "cht": "制伏"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5620",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-1131",
-              "eng": "naked"
+              "cht": "叫"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "他們赤著身子"
             },
             {
               "id": "greek-5135",
-              "eng": "wounded"
-            },
-            {
-              "id": "greek-1628",
-              "eng": "they fled"
+              "cht": "受了傷",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3624",
-              "eng": "house"
+              "cht": "從"
             },
             {
               "id": "greek-1565",
-              "eng": "that",
-              "punct": "."
+              "cht": "那"
             },
             {
-              "id": "greek-2258"
+              "id": "greek-3624",
+              "cht": "房子"
             },
             {
-              "id": ""
+              "id": "greek-1628",
+              "cht": "裡逃出去"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-846"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -514,99 +467,96 @@
             "hebrew-2315": 3.0298663446363143
           },
           "verseKey": "1ki.20.30",
-          "cunp": "其餘的逃入亞弗城；城牆塌倒，壓死剩下的二萬七千人。 便‧哈達也逃入城，藏在嚴密的屋子裏。",
+          "nasb": "But the rest fled to Aphek into the city, and the wall fell on 27,000 men who were left. And Ben-hadad fled and came into the city into an inner chamber.",
           "words": [
             {
-              "id": "hebrew-5127",
-              "eng": "But fled"
+              "id": "hebrew-3498",
+              "cht": "其餘"
             },
             {
-              "id": "hebrew-3498",
-              "eng": "the rest"
+              "id": "hebrew-5127",
+              "cht": "的逃"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "入"
             },
             {
               "id": "hebrew-663",
-              "eng": "to Aphek",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "into"
+              "cht": "亞弗"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "then fell"
+              "cht": "城",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2346",
-              "eng": "a wall"
+              "cht": "城牆"
+            },
+            {
+              "id": "hebrew-5307",
+              "cht": "塌倒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6242",
-              "eng": "twenty"
-            },
-            {
-              "id": "hebrew-7651",
-              "eng": "and seven"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "of the men"
+              "cht": "壓死"
             },
             {
               "id": "hebrew-3498",
-              "eng": "[who were] left",
-              "punct": "."
+              "cht": "剩下"
+            },
+            {
+              "id": "hebrew-6242",
+              "cht": "的二"
+            },
+            {
+              "id": "hebrew-7651",
+              "cht": "萬七"
+            },
+            {
+              "id": "hebrew-505",
+              "cht": "千"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1130",
-              "eng": "Ben-hadad"
+              "cht": "便哈達"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-5127",
-              "eng": "fled",
-              "punct": "､"
+              "cht": "逃"
             },
             {
               "id": "hebrew-935",
-              "eng": "and went"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "into"
+              "cht": "入"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city",
-              "punct": "､"
+              "cht": "城",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2315",
-              "eng": "into an inner"
+              "cht": "藏在嚴密"
             },
             {
               "id": "hebrew-2315",
-              "eng": "into an inner chamber",
-              "punct": "."
+              "cht": "的屋子"
             },
             {
-              "id": "hebrew-1571"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -616,56 +566,54 @@
             "hebrew-2315": 3.0298663446363143
           },
           "verseKey": "2ch.18.24",
-          "cunp": "米該雅說：「你進嚴密的屋子藏躲的那日，就必看見了。」",
+          "nasb": "Micaiah said, “Behold, you will see on that day when you enter an inner room to hide yourself.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-4321",
-              "eng": "Micaiah"
+              "cht": "米該雅"
             },
             {
-              "id": "hebrew-2005",
-              "eng": "indeed"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "you shall see"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "on day"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "when"
+              "id": "hebrew-2009",
+              "cht": "你"
             },
             {
               "id": "hebrew-935",
-              "eng": "you go"
+              "cht": "進"
             },
             {
               "id": "hebrew-2315",
-              "eng": "into an inner"
+              "cht": "嚴密的"
             },
             {
               "id": "hebrew-2315",
-              "eng": "into an inner chamber"
+              "cht": "屋子"
             },
             {
               "id": "hebrew-2244",
-              "eng": "to hide",
-              "punct": "."
+              "cht": "藏躲"
             },
             {
-              "id": "hebrew-2009"
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "那"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "就必看見了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -675,60 +623,58 @@
             "hebrew-2315": 3.0298663446363143
           },
           "verseKey": "1ki.22.25",
-          "cunp": "米該雅說：「你進嚴密的屋子藏躲的那日，就必看見了。」",
+          "nasb": "Micaiah said, “Behold, you shall see on that day when you enter an inner room to hide yourself.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-4321",
-              "eng": "Micaiah"
+              "cht": "米該雅"
             },
             {
-              "id": "hebrew-2005",
-              "eng": "indeed"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "you shall see"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "on day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "when"
+              "id": "hebrew-2009",
+              "cht": "你"
             },
             {
               "id": "hebrew-935",
-              "eng": "you go into"
+              "cht": "進"
             },
             {
               "id": "hebrew-2315",
-              "eng": "a chamber"
+              "cht": "嚴密"
             },
             {
               "id": "hebrew-2315",
-              "eng": "inner"
+              "cht": "的屋子"
             },
             {
               "id": "hebrew-2247",
-              "eng": "to hide",
-              "punct": "."
+              "cht": "藏躲"
             },
             {
-              "id": "hebrew-2009"
+              "id": "hebrew-834",
+              "cht": "的"
             },
             {
-              "id": ""
+              "id": "hebrew-1931",
+              "cht": "那"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "就必看見"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -738,83 +684,71 @@
             "hebrew-2315": 3.0298663446363143
           },
           "verseKey": "2ki.9.2",
-          "cunp": "到了那裏，要尋找寧示的孫子、約沙法的兒子耶戶，使他從同僚中起來，帶他進嚴密的屋子，",
+          "nasb": "When you arrive there, search out Jehu the son of Jehoshaphat the son of Nimshi, and go in and bid him arise from among his brothers, and bring him to an inner room.",
           "words": [
             {
               "id": "hebrew-935",
-              "eng": "And when you arrive"
+              "cht": "到了"
             },
             {
               "id": "hebrew-8033",
-              "eng": "at that place",
-              "punct": "､"
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "and look for"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-3058",
-              "eng": "Jehu"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-3092",
-              "eng": "of Jehoshaphat"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "要尋找"
             },
             {
               "id": "hebrew-5250",
-              "eng": "of Nimshi",
-              "punct": "､"
+              "cht": "寧示"
             },
             {
-              "id": "hebrew-935",
-              "eng": "and go in",
-              "punct": "､"
+              "id": "hebrew-1121",
+              "cht": "的孫子、"
             },
             {
-              "id": "hebrew-6965",
-              "eng": "and make him rise up"
+              "id": "hebrew-3092",
+              "cht": "約沙法"
             },
             {
-              "id": "hebrew-8432",
-              "eng": "from among"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3058",
+              "cht": "耶戶",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-251",
-              "eng": "his associates",
-              "punct": "､"
+              "cht": "使他從同僚"
             },
             {
-              "id": "hebrew-935",
-              "eng": "and take"
+              "id": "hebrew-4480",
+              "cht": "中"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "him"
+              "cht": "帶他"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "進"
             },
             {
               "id": "hebrew-2315",
-              "eng": "to an inner"
+              "cht": "嚴密"
             },
             {
               "id": "hebrew-2315",
-              "eng": "to an inner room",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "的屋子",
+              "punct_cht": "，"
             }
           ]
         }

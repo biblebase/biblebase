@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8210": "He pours",
-          "hebrew-937": "contempt",
-          "hebrew-5921": "on",
-          "hebrew-5081": "princes",
-          "hebrew-4206": "and the",
-          "hebrew-650": "mighty",
-          "hebrew-7503": "disarms"
+          "eng": {
+            "hebrew-8210": "He pours",
+            "hebrew-937": "contempt",
+            "hebrew-5921": "on",
+            "hebrew-5081": "princes",
+            "hebrew-4206": "and the",
+            "hebrew-650": "mighty",
+            "hebrew-7503": "disarms"
+          },
+          "cht": {
+            "hebrew-8210": "蒙羞被辱",
+            "hebrew-937": "蒙羞被辱",
+            "hebrew-5921": "他使",
+            "hebrew-5081": "君王",
+            "hebrew-4206": "的腰帶",
+            "hebrew-650": "有力之人",
+            "hebrew-7503": "放鬆"
+          }
         }
       },
       "translations": {
@@ -22,37 +33,37 @@
             "hebrew-5081": 3.125409454472294
           },
           "verseKey": "isa.32.8",
-          "cunp": "高明人卻謀高明事， 在高明事上也必永存。",
+          "nasb": "But the noble man devises noble plans; And by noble plans he stands.",
           "words": [
             {
               "id": "hebrew-5081",
-              "eng": "But a generous man"
-            },
-            {
-              "id": "hebrew-5081",
-              "eng": "generous things",
-              "punct": "–"
+              "cht": "高明人"
             },
             {
               "id": "hebrew-3289",
-              "eng": "devises"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "and he"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "by"
+              "cht": "卻謀"
             },
             {
               "id": "hebrew-5081",
-              "eng": "generosity"
+              "cht": "高明事",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-5081",
+              "cht": "高明事"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "上也必"
             },
             {
               "id": "hebrew-6965",
-              "eng": "shall stand",
-              "punct": "."
+              "cht": "永存",
+              "punct_cht": "。"
             }
           ]
         },
@@ -64,42 +75,41 @@
             "hebrew-5081": 3.125409454472294
           },
           "verseKey": "psa.107.40",
-          "cunp": "他使君王蒙羞被辱， 使他們在荒廢無路之地漂流。",
+          "nasb": "He pours contempt upon princes And makes them wander in a pathless waste.",
           "words": [
             {
-              "id": "hebrew-8210",
-              "eng": "He pours"
-            },
-            {
-              "id": "hebrew-937",
-              "eng": "contempt"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "他使"
             },
             {
               "id": "hebrew-5081",
-              "eng": "princes",
-              "punct": "､"
+              "cht": "君王"
             },
             {
-              "id": "hebrew-8582",
-              "eng": "and causes them to wander"
+              "id": "hebrew-8210",
+              "cht": "蒙羞"
+            },
+            {
+              "id": "hebrew-937",
+              "cht": "被辱",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8414",
-              "eng": "in the wilderness",
-              "punct": "､"
+              "cht": "使他們在荒廢"
             },
             {
               "id": "hebrew-3808",
-              "eng": "[where there is] no"
+              "cht": "無"
             },
             {
               "id": "hebrew-1870",
-              "eng": "way",
-              "punct": "."
+              "cht": "路"
+            },
+            {
+              "id": "hebrew-8582",
+              "cht": "之地漂流",
+              "punct_cht": "。"
             }
           ]
         },
@@ -109,32 +119,33 @@
             "hebrew-4206": 8.539323589735611
           },
           "verseKey": "psa.109.19",
-          "cunp": "願這咒罵當他遮身的衣服， 當他常束的腰帶！",
+          "nasb": "Let it be to him as a garment with which he covers himself, And for a belt with which he constantly girds himself.",
           "words": [
             {
               "id": "hebrew-1961",
-              "eng": "Let it be"
-            },
-            {
-              "id": "hebrew-899",
-              "eng": "like the garment"
+              "cht": "願"
             },
             {
               "id": "hebrew-5844",
-              "eng": "which covers him"
+              "cht": "遮"
             },
             {
-              "id": "hebrew-4206",
-              "eng": "and for a belt"
+              "id": "hebrew-899",
+              "cht": "身的衣服",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8548",
-              "eng": "continually"
+              "cht": "當他常"
             },
             {
               "id": "hebrew-2296",
-              "eng": "with which he girds himself",
-              "punct": "."
+              "cht": "束"
+            },
+            {
+              "id": "hebrew-4206",
+              "cht": "的腰帶",
+              "punct_cht": "！"
             }
           ]
         },
@@ -144,51 +155,55 @@
             "hebrew-4206": 8.539323589735611
           },
           "verseKey": "isa.23.10",
-          "cunp": "他施的民哪， 可以流行你的地，好像尼羅河； 不再有腰帶拘緊你。",
+          "nasb": "Overflow your land like the Nile, O daughter of Tarshish, There is no more restraint.",
           "words": [
             {
-              "id": "hebrew-5674",
-              "eng": "Overflow through"
+              "id": "hebrew-8659",
+              "cht": "他施"
             },
             {
-              "id": "hebrew-776",
-              "eng": "your land"
-            },
-            {
-              "id": "hebrew-2975",
-              "eng": "like the Nile",
-              "punct": "､"
+              "id": "",
+              "cht": "的民（"
             },
             {
               "id": "hebrew-1323",
-              "eng": "daughter"
+              "cht": "原文是女"
             },
             {
-              "id": "hebrew-8659",
-              "eng": "of Tarshish",
-              "punct": "､"
+              "id": "",
+              "cht": "）哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "可以流行"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "你的地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2975",
+              "cht": "好像尼羅河",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-369",
-              "eng": "[There is] no"
-            },
-            {
-              "id": "hebrew-4206",
-              "eng": "strength"
+              "cht": "不"
             },
             {
               "id": "hebrew-5750",
-              "eng": "more",
-              "punct": "."
+              "cht": "再"
             },
             {
-              "id": ""
+              "id": "hebrew-4206",
+              "cht": "有腰帶"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "拘緊你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -198,36 +213,37 @@
             "hebrew-5081": 3.125409454472294
           },
           "verseKey": "psa.113.8",
-          "cunp": "使他們與王子同坐， 就是與本國的王子同坐。",
+          "nasb": "To make them sit with princes, With the princes of His people.",
           "words": [
             {
+              "id": "hebrew-5973",
+              "cht": "使他們與"
+            },
+            {
+              "id": "hebrew-5081",
+              "cht": "王子"
+            },
+            {
               "id": "hebrew-3427",
-              "eng": "That He may seat [him]"
+              "cht": "同坐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-5081",
-              "eng": "princes",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-5081",
-              "eng": "the princes"
+              "cht": "就是與"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of His people",
-              "punct": "."
+              "cht": "本國"
             },
             {
-              "id": ""
+              "id": "hebrew-5081",
+              "cht": "的王子"
+            },
+            {
+              "id": "",
+              "cht": "同坐",
+              "punct_cht": "。"
             }
           ]
         },
@@ -237,64 +253,56 @@
             "hebrew-7503": 2.7912061306530696
           },
           "verseKey": "exo.5.17",
-          "cunp": "但法老說：「你們是懶惰的！你們是懶惰的！所以說：『容我們去祭祀耶和華。』",
+          "nasb": "But he said, “You are lazy, very lazy; therefore you say, ‘Let us go and sacrifice to the Lord.’",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "But he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7503",
-              "eng": "[are] idle"
+              "cht": "但法老說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "你們"
             },
             {
               "id": "hebrew-7503",
-              "eng": "idle",
-              "punct": "–"
+              "cht": "是懶惰"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "upon"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "！"
             },
             {
-              "id": "hebrew-3651",
-              "eng": "thus"
+              "id": "hebrew-7503",
+              "cht": "你們是懶惰"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "所以"
             },
             {
               "id": "hebrew-559",
-              "eng": "say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "let us go"
+              "id": "hebrew-3212",
+              "cht": "容我們去"
             },
             {
               "id": "hebrew-2076",
-              "eng": "[and] sacrifice"
+              "cht": "祭祀"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "耶和華",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -304,44 +312,42 @@
             "hebrew-937": 4.576110205744392
           },
           "verseKey": "pro.12.8",
-          "cunp": "人必按自己的智慧被稱讚； 心中乖謬的，必被藐視。",
+          "nasb": "A man will be praised according to his insight, But one of perverse mind will be despised.",
           "words": [
             {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-6310",
-              "eng": "According to"
+              "cht": "必按"
             },
             {
               "id": "hebrew-7922",
-              "eng": "his wisdom",
-              "punct": "､"
+              "cht": "自己的智慧"
             },
             {
               "id": "hebrew-1984",
-              "eng": "will be commended"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-5753",
-              "eng": "but he who is of a perverse"
+              "cht": "被稱讚",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3820",
-              "eng": "heart"
+              "cht": "心中"
+            },
+            {
+              "id": "hebrew-5753",
+              "cht": "乖謬的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "will be"
+              "cht": "必"
             },
             {
-              "id": "hebrew-937",
-              "eng": "despised",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3820"
+              "id": "hebrew-3820",
+              "cht": "被藐視",
+              "punct_cht": "。"
             }
           ]
         },
@@ -351,67 +357,64 @@
             "hebrew-937": 4.576110205744392
           },
           "verseKey": "gen.38.23",
-          "cunp": "猶大說：「我把這山羊羔送去了，你竟找不着她。任憑她拿去吧，免得我們被羞辱。」",
+          "nasb": "Then Judah said, “Let her keep them, otherwise we will become a laughingstock. After all, I sent this young goat, but you did not find her.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-3063",
-              "eng": "Judah",
-              "punct": "､"
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-3947",
-              "eng": "let her take [them]"
-            },
-            {
-              "id": "hebrew-6435",
-              "eng": "lest"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "we be"
-            },
-            {
-              "id": "hebrew-937",
-              "eng": "shamed",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "For",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "I sent"
-            },
-            {
-              "id": "hebrew-1423",
-              "eng": "young goat"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this",
-              "punct": "､"
+              "cht": "我把這"
+            },
+            {
+              "id": "hebrew-1423",
+              "cht": "山羊羔"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "送去了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-859",
-              "eng": "and you"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你"
             },
             {
               "id": "hebrew-4672",
-              "eng": "have found her",
-              "punct": "."
+              "cht": "竟找"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "",
+              "cht": "著她",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "拿去吧",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6435",
+              "cht": "免得"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "我們被"
+            },
+            {
+              "id": "hebrew-937",
+              "cht": "羞辱",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -421,53 +424,55 @@
             "hebrew-937": 4.576110205744392
           },
           "verseKey": "job.31.34",
-          "cunp": "因懼怕大眾， 又因宗族藐視我使我驚恐， 以致閉口無言，杜門不出；",
+          "nasb": "Because I feared the great multitude, And the contempt of families terrified me, And kept silent and did not go out of doors?",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "Because"
+              "cht": "因"
             },
             {
               "id": "hebrew-6206",
-              "eng": "I feared"
-            },
-            {
-              "id": "hebrew-1995",
-              "eng": "the multitude",
-              "punct": "､"
+              "cht": "懼怕"
             },
             {
               "id": "hebrew-7227",
-              "eng": "great"
+              "cht": "大"
             },
             {
-              "id": "hebrew-937",
-              "eng": "and the contempt"
+              "id": "hebrew-1995",
+              "cht": "眾",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4940",
-              "eng": "of families"
+              "cht": "又因宗族"
+            },
+            {
+              "id": "hebrew-937",
+              "cht": "藐視"
             },
             {
               "id": "hebrew-2865",
-              "eng": "dreaded"
+              "cht": "我使我驚恐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1826",
-              "eng": "so that I kept silence",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "[And] did go out"
+              "cht": "以致閉口無言",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6607",
-              "eng": "of the door"
+              "cht": "杜門"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "出",
+              "punct_cht": "；"
             }
           ]
         },
@@ -477,40 +482,37 @@
             "hebrew-937": 4.576110205744392
           },
           "verseKey": "psa.119.22",
-          "cunp": "求你除掉我所受的羞辱和藐視， 因我遵守你的法度。",
+          "nasb": "Take away reproach and contempt from me, For I observe Your testimonies.",
           "words": [
             {
               "id": "hebrew-1556",
-              "eng": "Remove"
+              "cht": "求你除掉"
             },
             {
               "id": "hebrew-5921",
-              "eng": "from me"
+              "cht": "我所受的"
             },
             {
               "id": "hebrew-2781",
-              "eng": "reproach"
+              "cht": "羞辱"
             },
             {
               "id": "hebrew-937",
-              "eng": "and contempt",
-              "punct": "–"
+              "cht": "和藐視",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5713",
-              "eng": "Your testimonies"
+              "cht": "因"
             },
             {
               "id": "hebrew-5341",
-              "eng": "I have kept",
-              "punct": "."
+              "cht": "我遵守"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5713",
+              "cht": "你的法度",
+              "punct_cht": "。"
             }
           ]
         }

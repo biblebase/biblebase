@@ -3,18 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3780": "No",
-          "greek-3004": "I say",
-          "greek-5213": "to you",
-          "greek-235": "but",
-          "greek-1437": "if",
-          "greek-3361": "not",
-          "greek-3340": "you repent",
-          "greek-3956": "all",
-          "greek-5615": "likewise",
-          "greek-622": "you will perish",
-          "greek-3362": null,
-          "greek-3668": null
+          "eng": {
+            "greek-3780": "No",
+            "greek-3004": "I say",
+            "greek-5213": "to you",
+            "greek-235": "but",
+            "greek-1437": "if",
+            "greek-3361": "not",
+            "greek-3340": "you repent",
+            "greek-3956": "all",
+            "greek-5615": "likewise",
+            "greek-622": "you will perish",
+            "greek-3362": null,
+            "greek-3668": null
+          },
+          "cht": {
+            "greek-3780": "不是的",
+            "greek-3004": "我告訴",
+            "greek-5213": "你們",
+            "greek-3340": "悔改",
+            "greek-3956": "都",
+            "greek-622": "滅亡",
+            "greek-3362": "你們若不",
+            "greek-3668": "要如此"
+          }
         }
       },
       "translations": {
@@ -32,57 +44,43 @@
             "greek-3668": 2.985487611968215
           },
           "verseKey": "luk.13.3",
-          "cunp": "我告訴你們，不是的！你們若不悔改，都要如此滅亡！",
+          "nasb": "I tell you, no, but unless you repent, you will all likewise perish.",
           "words": [
             {
-              "id": "greek-3780",
-              "eng": "No",
-              "punct": ","
-            },
-            {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "我告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "to you",
-              "punct": ";"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-235",
-              "eng": "but"
+              "id": "greek-3780",
+              "cht": "不是的",
+              "punct_cht": "！"
             },
             {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "greek-3362",
+              "cht": "你們若不"
             },
             {
               "id": "greek-3340",
-              "eng": "you repent",
-              "punct": ","
+              "cht": "悔改",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "都"
             },
             {
-              "id": "greek-3668",
-              "eng": "likewise"
+              "id": "greek-5615",
+              "cht": "要如此"
             },
             {
               "id": "greek-622",
-              "eng": "you will perish",
-              "punct": "."
-            },
-            {
-              "id": "greek-3362"
-            },
-            {
-              "id": "greek-5615"
+              "cht": "滅亡",
+              "punct_cht": "！"
             }
           ]
         },
@@ -92,65 +90,45 @@
             "greek-3340": 2.863930819310529
           },
           "verseKey": "rev.2.21",
-          "cunp": "我曾給她悔改的機會，她卻不肯悔改她的淫行。",
+          "nasb": "I gave her time to repent, and she does not want to repent of her immorality.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-1325",
-              "eng": "I have given"
+              "cht": "我曾給"
             },
             {
               "id": "greek-846",
-              "eng": "her"
+              "cht": "她"
+            },
+            {
+              "id": "greek-3340",
+              "cht": "悔改"
             },
             {
               "id": "greek-5550",
-              "eng": "time"
-            },
-            {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3340",
-              "eng": "she might repent",
-              "punct": ","
+              "cht": "的機會",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "她卻"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2309",
-              "eng": "she is willing"
+              "cht": "不肯"
             },
             {
               "id": "greek-3340",
-              "eng": "to repent"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4202",
-              "eng": "sexual immorality"
+              "cht": "悔改"
             },
             {
               "id": "greek-846",
-              "eng": "of her",
-              "punct": "."
+              "cht": "她的"
+            },
+            {
+              "id": "greek-4202",
+              "cht": "淫行",
+              "punct_cht": "。"
             }
           ]
         },
@@ -160,141 +138,94 @@
             "greek-3340": 2.863930819310529
           },
           "verseKey": "rev.2.5",
-          "cunp": "所以，應當回想你是從哪裏墜落的，並要悔改，行起初所行的事。你若不悔改，我就臨到你那裏，把你的燈臺從原處挪去。",
+          "nasb": "Therefore remember from where you have fallen, and repent and do the deeds you did at first; or else I am coming to you and will remove your lampstand out of its place—unless you repent.",
           "words": [
             {
-              "id": "greek-3421",
-              "eng": "Remember"
+              "id": "greek-3767",
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3767",
-              "eng": "therefore"
+              "id": "greek-3421",
+              "cht": "應當回想"
             },
             {
               "id": "greek-4159",
-              "eng": "from where"
+              "cht": "你是從那裡"
             },
             {
-              "id": "greek-4098",
-              "eng": "you have fallen",
-              "punct": ","
+              "id": "greek-1601",
+              "cht": "墜落"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "並要"
             },
             {
               "id": "greek-3340",
-              "eng": "repent",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4413",
-              "eng": "first"
-            },
-            {
-              "id": "greek-2041",
-              "eng": "works"
+              "cht": "悔改",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4160",
-              "eng": "do",
-              "punct": "."
+              "cht": "行"
             },
             {
-              "id": "greek-1487",
-              "eng": "If"
+              "id": "greek-4413",
+              "cht": "起初"
             },
             {
-              "id": "greek-1161",
-              "eng": "however"
+              "id": "greek-2041",
+              "cht": "所行的事",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-3361",
-              "eng": "not",
-              "punct": ","
+              "id": "greek-1490",
+              "cht": "你若不悔改",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5035",
+              "cht": "我就"
             },
             {
               "id": "greek-2064",
-              "eng": "I am coming"
+              "cht": "臨到"
             },
             {
               "id": "greek-4671",
-              "eng": "to you",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2795",
-              "eng": "I will remove"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3087",
-              "eng": "lampstand"
+              "cht": "你那裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4675",
-              "eng": "of you"
+              "cht": "把你的"
+            },
+            {
+              "id": "greek-3087",
+              "cht": "燈臺"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5117",
-              "eng": "place"
+              "cht": "從"
             },
             {
               "id": "greek-846",
-              "eng": "of it",
-              "punct": ","
+              "cht": "原"
             },
             {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "greek-5117",
+              "cht": "處"
             },
             {
               "id": "greek-3340",
-              "eng": "you should repent",
-              "punct": "."
-            },
-            {
-              "id": "greek-1601"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-1490"
-            },
-            {
-              "id": "greek-5035"
-            },
-            {
-              "id": "greek-3362"
+              "cht": "挪去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -305,50 +236,48 @@
             "greek-5615": 3.9122447917377814
           },
           "verseKey": "1ti.3.11",
-          "cunp": "女執事也是如此：必須端莊，不說讒言，有節制，凡事忠心。",
+          "nasb": "Women must likewise be dignified, not malicious gossips, but temperate, faithful in all things.",
           "words": [
             {
               "id": "greek-1135",
-              "eng": "Women"
+              "cht": "女執事"
+            },
+            {
+              "id": "",
+              "cht": "（原文是女人）"
             },
             {
               "id": "greek-5615",
-              "eng": "likewise"
+              "cht": "也是如此",
+              "punct_cht": "："
             },
             {
               "id": "greek-4586",
-              "eng": "[must be] dignified",
-              "punct": ","
+              "cht": "必須端莊",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-1228",
-              "eng": "slanderers",
-              "punct": ","
+              "cht": "說讒言",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3524",
-              "eng": "clear-minded",
-              "punct": ","
-            },
-            {
-              "id": "greek-4103",
-              "eng": "faithful"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
+              "cht": "有節制",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "all things",
-              "punct": "."
+              "cht": "凡事"
             },
             {
-              "id": ""
+              "id": "greek-4103",
+              "cht": "忠心",
+              "punct_cht": "。"
             }
           ]
         },
@@ -359,98 +288,71 @@
             "greek-5615": 3.9122447917377814
           },
           "verseKey": "mrk.14.31",
-          "cunp": "彼得卻極力地說：「我就是必須和你同死，也總不能不認你。」眾門徒都是這樣說。",
+          "nasb": "But Peter kept saying insistently, “Even if I have to die with You, I will not deny You!” And they all were saying the same thing also.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3123",
+              "cht": "彼得卻極"
             },
             {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
-              "id": "greek-4057",
-              "eng": "emphatically"
-            },
-            {
-              "id": "greek-2980",
-              "eng": "he kept saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
-              "id": "greek-1163",
-              "eng": "it is needful"
-            },
-            {
-              "id": "greek-3165",
-              "eng": "of me"
-            },
-            {
-              "id": "greek-4880",
-              "eng": "to die with"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "You",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "no"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4571",
-              "eng": "You"
-            },
-            {
-              "id": "greek-533",
-              "eng": "will I deny",
-              "punct": "."
-            },
-            {
-              "id": "greek-5615",
-              "eng": "Likewise"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
+              "id": "greek-4053",
+              "cht": "力"
             },
             {
               "id": "greek-3004",
-              "eng": "of them were saying",
-              "punct": "."
+              "cht": "的說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-3123"
+              "id": "greek-3165",
+              "cht": "我"
             },
             {
-              "id": "greek-1537"
+              "id": "greek-1437",
+              "cht": "就是"
             },
             {
-              "id": "greek-4053"
+              "id": "greek-1163",
+              "cht": "必須"
             },
             {
-              "id": "greek-3004"
+              "id": "greek-4671",
+              "cht": "和你"
             },
             {
-              "id": "greek-3364"
+              "id": "greek-4880",
+              "cht": "同死",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3364",
+              "cht": "也總"
+            },
+            {
+              "id": "greek-533",
+              "cht": "不能不認"
+            },
+            {
+              "id": "greek-4571",
+              "cht": "你",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "眾"
+            },
+            {
+              "id": "greek-1161",
+              "cht": "門徒都是"
+            },
+            {
+              "id": "greek-5615",
+              "cht": "這樣"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "。"
             }
           ]
         },
@@ -461,105 +363,83 @@
             "greek-5615": 3.9122447917377814
           },
           "verseKey": "luk.22.20",
-          "cunp": "飯後也照樣拿起杯來，說：「這杯是用我血所立的新約，是為你們流出來的。",
+          "nasb": "And in the same way He took the cup after they had eaten, saying, “This cup which is poured out for you is the new covenant in My blood.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4221",
-              "eng": "cup"
-            },
-            {
-              "id": "greek-5615",
-              "eng": "likewise"
+              "id": "greek-1172",
+              "cht": "飯"
             },
             {
               "id": "greek-3326",
-              "eng": "after"
+              "cht": "後"
             },
             {
-              "id": "greek-3588",
-              "eng": "which"
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
-              "id": "greek-1172",
-              "eng": "having supped",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-5124",
-              "eng": "This"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5615",
+              "cht": "照樣"
             },
             {
               "id": "greek-4221",
-              "eng": "cup [is]"
+              "cht": "拿起杯"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2537",
-              "eng": "new"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-1242",
-              "eng": "covenant"
+              "id": "greek-5124",
+              "cht": "這"
+            },
+            {
+              "id": "greek-4221",
+              "cht": "杯"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-129",
-              "eng": "blood"
+              "cht": "是用"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me",
-              "punct": ","
+              "cht": "我"
             },
             {
-              "id": "greek-3588",
-              "eng": "which"
+              "id": "greek-129",
+              "cht": "血"
+            },
+            {
+              "id": "greek-2537",
+              "cht": "所立的新"
+            },
+            {
+              "id": "greek-1242",
+              "cht": "約",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5228",
-              "eng": "for"
+              "cht": "是為"
             },
             {
               "id": "greek-5216",
-              "eng": "you"
+              "cht": "你們"
             },
             {
               "id": "greek-1632",
-              "eng": "is being poured out",
-              "punct": "."
+              "cht": "流出來"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -570,135 +450,106 @@
             "greek-5615": 3.9122447917377814
           },
           "verseKey": "1co.11.25",
-          "cunp": "飯後，也照樣拿起杯來，說：「這杯是用我的血所立的新約，你們每逢喝的時候，要如此行，為的是記念我。」",
+          "nasb": "In the same way He took the cup also after supper, saying, “This cup is the new covenant in My blood; do this, as often as you drink it, in remembrance of Me.”",
           "words": [
             {
-              "id": "greek-5615",
-              "eng": "Likewise"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4221",
-              "eng": "cup",
-              "punct": ","
+              "id": "greek-1172",
+              "cht": "飯"
             },
             {
               "id": "greek-3326",
-              "eng": "after"
+              "cht": "後",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
-              "id": "greek-1172",
-              "eng": "having supped",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-5124",
-              "eng": "This"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5615",
+              "cht": "照樣"
             },
             {
               "id": "greek-4221",
-              "eng": "cup"
+              "cht": "拿起杯"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2537",
-              "eng": "new"
-            },
-            {
-              "id": "greek-1242",
-              "eng": "covenant"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "is"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1699",
-              "eng": "My"
-            },
-            {
-              "id": "greek-129",
-              "eng": "blood",
-              "punct": ";"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5124",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "greek-4160",
-              "eng": "do",
-              "punct": ","
+              "id": "greek-4221",
+              "cht": "杯"
             },
             {
-              "id": "greek-3740",
-              "eng": "as often as"
+              "id": "greek-2076",
+              "cht": "是"
             },
             {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-4095",
-              "eng": "you might drink [it]",
-              "punct": ","
-            },
-            {
-              "id": "greek-1519",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1722",
+              "cht": "用"
             },
             {
               "id": "greek-1699",
-              "eng": "of Me"
+              "cht": "我"
+            },
+            {
+              "id": "greek-129",
+              "cht": "的血"
+            },
+            {
+              "id": "greek-2537",
+              "cht": "所立的新"
+            },
+            {
+              "id": "greek-1242",
+              "cht": "約",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-302",
+              "cht": "你們每逢"
+            },
+            {
+              "id": "greek-4095",
+              "cht": "喝"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5124",
+              "cht": "要如此"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "為"
             },
             {
               "id": "greek-364",
-              "eng": "remembrance",
-              "punct": "."
+              "cht": "的是記念"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-302"
-            },
-            {
-              "id": ""
+              "id": "greek-1699",
+              "cht": "我",
+              "punct_cht": "。"
             }
           ]
         },
@@ -708,62 +559,41 @@
             "greek-5615": 3.9122447917377814
           },
           "verseKey": "mat.20.5",
-          "cunp": "約在午正和申初又出去，也是這樣行。",
+          "nasb": "Again he went out about the sixth and the ninth hour, and did the same thing.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
-              "id": "greek-565",
-              "eng": "they went",
-              "punct": "."
-            },
-            {
-              "id": "greek-3825",
-              "eng": "Again"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-1831",
-              "eng": "having gone out"
-            },
-            {
               "id": "greek-4012",
-              "eng": "about [the]"
+              "cht": "約"
             },
             {
               "id": "greek-1623",
-              "eng": "sixth"
+              "cht": "在午正"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-1766",
-              "eng": "ninth"
+              "cht": "申初"
             },
             {
-              "id": "greek-5610",
-              "eng": "hour",
-              "punct": ","
+              "id": "greek-3825",
+              "cht": "又"
             },
             {
-              "id": "greek-4160",
-              "eng": "he did"
+              "id": "greek-1831",
+              "cht": "出去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5615",
-              "eng": "likewise",
-              "punct": "."
+              "cht": "也是這樣"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "行",
+              "punct_cht": "。"
             }
           ]
         },
@@ -773,57 +603,54 @@
             "greek-5615": 3.9122447917377814
           },
           "verseKey": "mat.21.36",
-          "cunp": "主人又打發別的僕人去，比先前更多；園戶還是照樣待他們。",
+          "nasb": "Again he sent another group of slaves larger than the first; and they did the same thing to them.",
           "words": [
             {
               "id": "greek-3825",
-              "eng": "Again"
+              "cht": "主人又"
             },
             {
               "id": "greek-649",
-              "eng": "he sent"
+              "cht": "打發"
             },
             {
               "id": "greek-243",
-              "eng": "other"
+              "cht": "別的"
             },
             {
               "id": "greek-1401",
-              "eng": "servants",
-              "punct": ","
+              "cht": "僕人"
             },
             {
-              "id": "greek-4119",
-              "eng": "more"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "than the"
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4413",
-              "eng": "first",
-              "punct": ","
+              "cht": "比先前"
+            },
+            {
+              "id": "greek-4119",
+              "cht": "更多",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "they did"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them"
+              "cht": "園戶還是"
             },
             {
               "id": "greek-5615",
-              "eng": "likewise",
-              "punct": "."
+              "cht": "照樣"
             },
             {
-              "id": ""
+              "id": "greek-4160",
+              "cht": "待"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -833,78 +660,64 @@
             "greek-5615": 3.9122447917377814
           },
           "verseKey": "mat.21.30",
-          "cunp": "又來對小兒子也是這樣說。他回答說：『父啊，我去』，他卻不去。",
+          "nasb": "The man came to the second and said the same thing; and he answered, ‘I will, sir’; but he did not go.",
           "words": [
             {
+              "id": "greek-2532",
+              "cht": "又"
+            },
+            {
               "id": "greek-4334",
-              "eng": "Having come"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "來"
             },
             {
               "id": "greek-1208",
-              "eng": "second",
-              "punct": ","
-            },
-            {
-              "id": "greek-2036",
-              "eng": "he said"
+              "cht": "對小兒子"
             },
             {
               "id": "greek-5615",
-              "eng": "likewise",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
-              "id": "greek-611",
-              "eng": "answering"
+              "cht": "也是這樣"
             },
             {
               "id": "greek-2036",
-              "eng": "he said",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-1473",
-              "eng": "I [will]"
+              "id": "greek-611",
+              "cht": "他回答"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2962",
-              "eng": "sir",
-              "punct": ","
+              "cht": "父啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1473",
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "他卻"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-565",
-              "eng": "did he go",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2532"
+              "cht": "去",
+              "punct_cht": "。"
             }
           ]
         }

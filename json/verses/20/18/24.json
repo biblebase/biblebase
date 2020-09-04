@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-376": "A man",
-          "hebrew-7453": "[who has] friends",
-          "hebrew-7489": "must himself be friendly",
-          "hebrew-3426": "but there is",
-          "hebrew-157": "a friend",
-          "hebrew-1695": "clinging",
-          "hebrew-251": "closer than a brother",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-376": "A man",
+            "hebrew-7453": "[who has] friends",
+            "hebrew-7489": "must himself be friendly",
+            "hebrew-3426": "but there is",
+            "hebrew-157": "a friend",
+            "hebrew-1695": "clinging",
+            "hebrew-251": "closer than a brother",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-376": "的",
+            "hebrew-7453": "濫交朋友",
+            "hebrew-7489": "自取敗壞",
+            "hebrew-3426": "但有",
+            "hebrew-157": "一朋友",
+            "hebrew-1695": "更親密",
+            "hebrew-251": "比弟兄",
+            "hebrew-4480": "比弟兄"
+          }
         }
       },
       "translations": {
@@ -26,42 +38,45 @@
             "hebrew-1695": 8.539323589735611
           },
           "verseKey": "deu.4.4",
-          "cunp": "惟有你們專靠耶和華－你們神的人，今日全都存活。",
+          "nasb": "But you who held fast to the Lord your God are alive today, every one of you.",
           "words": [
             {
               "id": "hebrew-859",
-              "eng": "But you"
+              "cht": "惟有你們"
             },
             {
               "id": "hebrew-1695",
-              "eng": "the ones clinging"
+              "cht": "專靠"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-2416",
-              "eng": "[are] alive"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every one of you"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3117",
-              "eng": "today",
-              "punct": "."
+              "cht": "今日"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "全都"
             },
             {
-              "id": ""
+              "id": "hebrew-2416",
+              "cht": "存活",
+              "punct_cht": "。"
             }
           ]
         },
@@ -71,74 +86,75 @@
             "hebrew-1695": 8.539323589735611
           },
           "verseKey": "2ch.3.12",
-          "cunp": "那基路伯的一個翅膀長五肘，挨着殿那邊的牆；那一個翅膀也長五肘，與這基路伯的翅膀相接。",
+          "nasb": "The wing of the other cherub, of five cubits, touched the wall of the house; and its other wing of five cubits was attached to the wing of the first cherub.",
           "words": [
             {
-              "id": "hebrew-3671",
-              "eng": "And wing"
+              "id": "hebrew-259",
+              "cht": "那"
             },
             {
               "id": "hebrew-3742",
-              "eng": "of the cherub [was]"
+              "cht": "基路伯"
             },
             {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubits",
-              "punct": "､"
+              "id": "hebrew-3671",
+              "cht": "的一個翅膀"
             },
             {
               "id": "hebrew-2568",
-              "eng": "five"
+              "cht": "長五"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5060",
-              "eng": "touching"
-            },
-            {
-              "id": "hebrew-7023",
-              "eng": "the wall"
+              "cht": "挨著"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the room",
-              "punct": "–"
+              "cht": "殿"
             },
             {
-              "id": "hebrew-3671",
-              "eng": "and the wing [also was]"
+              "id": "hebrew-7023",
+              "cht": "那邊的牆",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-312",
-              "eng": "other"
+              "cht": "那一個"
             },
             {
-              "id": "hebrew-520",
-              "eng": "cubits"
+              "id": "hebrew-3671",
+              "cht": "翅膀"
             },
             {
               "id": "hebrew-2568",
-              "eng": "five"
+              "cht": "也長五"
             },
             {
-              "id": "hebrew-1695",
-              "eng": "clinging"
-            },
-            {
-              "id": "hebrew-3671",
-              "eng": "the wing"
-            },
-            {
-              "id": "hebrew-3742",
-              "eng": "of cherub"
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-312",
-              "eng": "the one",
-              "punct": "."
+              "cht": "與這"
+            },
+            {
+              "id": "hebrew-3742",
+              "cht": "基路伯"
+            },
+            {
+              "id": "hebrew-3671",
+              "cht": "的翅膀"
+            },
+            {
+              "id": "hebrew-1695",
+              "cht": "相接",
+              "punct_cht": "。"
             }
           ]
         },
@@ -148,116 +164,90 @@
             "hebrew-3426": 1.5827647200657178
           },
           "verseKey": "ecc.8.14",
-          "cunp": "世上有一件虛空的事，就是義人所遭遇的，反照惡人所行的；又有惡人所遭遇的，反照義人所行的。我說，這也是虛空。",
+          "nasb": "There is futility which is done on the earth, that is, there are righteous men to whom it happens according to the deeds of the wicked. On the other hand, there are evil men to whom it happens according to the deeds of the righteous. I say that this too is futility.",
           "words": [
             {
+              "id": "hebrew-5921",
+              "cht": "世上"
+            },
+            {
               "id": "hebrew-3426",
-              "eng": "There is"
+              "cht": "有"
             },
             {
               "id": "hebrew-1892",
-              "eng": "a vanity"
+              "cht": "一件虛空"
             },
             {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "occurs"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "earth",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "id": "",
+              "cht": "的事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3426",
-              "eng": "there are"
+              "cht": "就是"
             },
             {
               "id": "hebrew-6662",
-              "eng": "just [men]"
+              "cht": "義人"
             },
             {
               "id": "hebrew-834",
-              "eng": "to whom"
+              "cht": "所"
             },
             {
               "id": "hebrew-5060",
-              "eng": "it happens"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "according"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "to the work"
+              "cht": "遭遇的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7563",
-              "eng": "of the wicked",
-              "punct": "–"
+              "cht": "反照惡人"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "所行的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3426",
-              "eng": "and again there are"
+              "cht": "又有"
             },
             {
               "id": "hebrew-7563",
-              "eng": "wicked [men]"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-5060",
-              "eng": "to whom it happens"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "unto"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "according to the work"
+              "id": "hebrew-7945",
+              "cht": "所遭遇的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6662",
-              "eng": "of the righteous",
-              "punct": "–"
+              "cht": "反照義人"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "所行的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-559",
-              "eng": "I said"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "that also"
+              "cht": "我說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也是"
             },
             {
               "id": "hebrew-1892",
-              "eng": "[is] vanity",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-7945"
-            },
-            {
-              "id": "hebrew-7945"
+              "cht": "虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -267,155 +257,138 @@
             "hebrew-3426": 1.5827647200657178
           },
           "verseKey": "2ki.10.15",
-          "cunp": "耶戶從那裏前行，恰遇利甲的兒子約拿達來迎接他，耶戶問他安，對他說：「你誠心待我像我誠心待你嗎？」約拿達回答說：「是。」耶戶說：「若是這樣，你向我伸手」，他就伸手；耶戶拉他上車。",
+          "nasb": "Now when he had departed from there, he met Jehonadab the son of Rechab coming to meet him; and he greeted him and said to him, “Is your heart right, as my heart is with your heart?” And Jehonadab answered, “It is.” Jehu said, “If it is, give me your hand.” And he gave him his hand, and he took him up to him into the chariot.",
           "words": [
             {
-              "id": "hebrew-1980",
-              "eng": "And when he departed"
+              "id": "hebrew-4480",
+              "cht": "耶戶從那裡"
             },
             {
-              "id": "hebrew-8033",
-              "eng": "from there",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "and he met"
+              "id": "hebrew-3212",
+              "cht": "前行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3082",
-              "eng": "Jonadab"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "恰遇"
             },
             {
               "id": "hebrew-7394",
-              "eng": "of Rechab [coming]"
+              "cht": "利甲"
             },
             {
-              "id": "hebrew-7125",
-              "eng": "to meet him"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "and he greeted him"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to him"
-            },
-            {
-              "id": "hebrew-3426",
-              "eng": "is"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "your heart"
-            },
-            {
-              "id": "hebrew-3477",
-              "eng": "right",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "as"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "my heart [is]"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "toward"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "your heart"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and answered",
-              "punct": "､"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-3082",
-              "eng": "Jehonadab"
+              "cht": "約拿達"
+            },
+            {
+              "id": "hebrew-7125",
+              "cht": "來迎接他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1288",
+              "cht": "耶戶問他安",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "對他"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-3477",
+              "cht": "你誠"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "待我像"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "我誠心"
+            },
+            {
+              "id": "hebrew-5973",
+              "cht": "待"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "你"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？」"
+            },
+            {
+              "id": "hebrew-3082",
+              "cht": "約拿達"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "回答說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3426",
-              "eng": "it is",
-              "punct": "."
+              "cht": "是"
+            },
+            {
+              "id": "",
+              "cht": "耶戶說",
+              "punct_cht": "。」：「"
             },
             {
               "id": "hebrew-3426",
-              "eng": "And [Jehu said] if it is",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "give [me]"
+              "cht": "若是這樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "你向我伸"
             },
             {
               "id": "hebrew-3027",
-              "eng": "your hand",
-              "punct": "."
+              "cht": "手",
+              "punct_cht": "」，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "So he gave [him]"
+              "cht": "他就伸"
             },
             {
               "id": "hebrew-3027",
-              "eng": "his hand",
-              "punct": "–"
+              "cht": "手",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5927",
-              "eng": "and he took him up"
+              "cht": "耶戶拉"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him"
+              "cht": "他"
             },
             {
               "id": "hebrew-413",
-              "eng": "into"
+              "cht": "上"
             },
             {
               "id": "hebrew-4818",
-              "eng": "the chariot",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "車",
+              "punct_cht": "。"
             }
           ]
         },
@@ -425,140 +398,108 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "jhn.14.21",
-          "cunp": "有了我的命令又遵守的，這人就是愛我的；愛我的必蒙我父愛他，我也要愛他，並且要向他顯現。」",
+          "nasb": "He who has My commandments and keeps them is the one who loves Me; and he who loves Me will be loved by My Father, and I will love him and will disclose Myself to him.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1785",
-              "eng": "commandments"
+              "cht": "有"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me"
+              "cht": "了我的"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "命令"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5083",
-              "eng": "keeping"
+              "cht": "又"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "遵守"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1565",
-              "eng": "he"
+              "cht": "這人"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
+              "cht": "就是"
             },
             {
               "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
+              "cht": "我的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": ","
-            },
-            {
-              "id": "greek-25",
-              "eng": "will be loved"
+              "cht": "我的"
             },
             {
               "id": "greek-5259",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father"
+              "cht": "必蒙"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me",
-              "punct": ";"
+              "cht": "我"
             },
             {
-              "id": "greek-2504",
-              "eng": "and I"
+              "id": "greek-3962",
+              "cht": "父"
             },
             {
               "id": "greek-25",
-              "eng": "will love"
+              "cht": "愛"
             },
             {
-              "id": "greek-846",
-              "eng": "him"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3450",
+              "cht": "我"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
-              "id": "greek-1718",
-              "eng": "will show"
+              "id": "greek-25",
+              "cht": "要愛"
             },
             {
               "id": "greek-846",
-              "eng": "to him"
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並且"
+            },
+            {
+              "id": "greek-846",
+              "cht": "要向他"
             },
             {
               "id": "greek-1683",
-              "eng": "Myself",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3450"
-            },
-            {
-              "id": "greek-2532"
+              "cht": "顯現",
+              "punct_cht": "。"
             }
           ]
         },
@@ -568,92 +509,74 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "luk.6.32",
-          "cunp": "你們若單愛那愛你們的人，有甚麼可酬謝的呢？就是罪人也愛那愛他們的人。",
+          "nasb": "If you love those who love you, what credit is that to you? For even sinners love those who love them.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-5213",
+              "cht": "你們"
             },
             {
               "id": "greek-1487",
-              "eng": "if"
+              "cht": "若"
             },
             {
               "id": "greek-25",
-              "eng": "you love"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "單愛"
             },
             {
               "id": "greek-25",
-              "eng": "loving"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "you",
-              "punct": ","
-            },
-            {
-              "id": "greek-4169",
-              "eng": "what"
+              "cht": "那愛"
             },
             {
               "id": "greek-5209",
-              "eng": "to you"
+              "cht": "你們"
             },
             {
-              "id": "greek-5485",
-              "eng": "credit"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2076",
-              "eng": "is it",
-              "punct": "?"
+              "cht": "有"
             },
             {
-              "id": "greek-2532",
-              "eng": "Even"
+              "id": "greek-4169",
+              "cht": "甚麼"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-5485",
+              "cht": "可酬謝"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-268",
-              "eng": "sinners"
+              "cht": "就是罪人"
             },
             {
-              "id": "greek-3588",
-              "eng": "those"
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
+            },
+            {
+              "id": "greek-25",
+              "cht": "那愛"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "他們"
             },
             {
-              "id": "greek-25",
-              "eng": "love",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -664,141 +587,120 @@
             "hebrew-3426": 1.5827647200657178
           },
           "verseKey": "deu.29.18",
-          "cunp": "惟恐你們中間，或男或女，或族長或支派長，今日心裏偏離耶和華－我們的神，去事奉那些國的神；又怕你們中間有惡根生出苦菜和茵蔯來，",
+          "nasb": "so that there will not be among you a man or woman, or family or tribe, whose heart turns away today from the Lord our God, to go and serve the gods of those nations; that there will not be among you a root bearing poisonous fruit and wormwood.",
           "words": [
             {
               "id": "hebrew-6435",
-              "eng": "So that"
-            },
-            {
-              "id": "hebrew-3426",
-              "eng": "there may not be"
+              "cht": "惟恐"
             },
             {
               "id": "hebrew-376",
-              "eng": "man",
-              "punct": "､"
+              "cht": "或男"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-802",
-              "eng": "woman",
-              "punct": "､"
+              "cht": "女",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-4940",
-              "eng": "family",
-              "punct": "､"
+              "cht": "族長"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-7626",
-              "eng": "tribe",
-              "punct": "､"
+              "cht": "支派長",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "whose"
+              "cht": "今日"
             },
             {
               "id": "hebrew-3824",
-              "eng": "heart"
+              "cht": "心裡"
             },
             {
               "id": "hebrew-6437",
-              "eng": "turns away"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "today"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "from"
+              "cht": "偏離"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─我們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "our God",
-              "punct": "､"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "to go"
+              "id": "hebrew-3212",
+              "cht": "去"
             },
             {
               "id": "hebrew-5647",
-              "eng": "[and] serve"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "the gods"
-            },
-            {
-              "id": "hebrew-1471",
-              "eng": "of nations",
-              "punct": "–"
+              "cht": "事奉"
             },
             {
               "id": "hebrew-1992",
-              "eng": "those"
+              "cht": "那些"
+            },
+            {
+              "id": "hebrew-1471",
+              "cht": "國"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6435",
-              "eng": "that"
+              "cht": "又怕"
             },
             {
               "id": "hebrew-3426",
-              "eng": "there may not be"
+              "cht": "有"
             },
             {
               "id": "hebrew-8328",
-              "eng": "a root"
+              "cht": "惡根"
             },
             {
               "id": "hebrew-6509",
-              "eng": "bearing"
+              "cht": "生出"
             },
             {
               "id": "hebrew-7219",
-              "eng": "bitterness"
+              "cht": "苦菜"
             },
             {
               "id": "hebrew-3939",
-              "eng": "or wormwood",
-              "punct": "–"
+              "cht": "和茵蔯"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             }
           ]
         },
@@ -808,46 +710,38 @@
             "hebrew-7489": 1.7868197956968273
           },
           "verseKey": "isa.24.19",
-          "cunp": "地全然破壞，盡都崩裂， 大大地震動了。",
+          "nasb": "The earth is broken asunder, The earth is split through, The earth is shaken violently.",
           "words": [
             {
-              "id": "hebrew-7489",
-              "eng": "Violently"
-            },
-            {
-              "id": "hebrew-7489",
-              "eng": "is broken",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-7489",
+              "cht": "全然"
+            },
+            {
+              "id": "hebrew-7489",
+              "cht": "破壞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6565",
-              "eng": "open"
+              "cht": "盡都"
             },
             {
               "id": "hebrew-6565",
-              "eng": "is split",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "崩裂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4131",
-              "eng": "exceedingly"
+              "cht": "大大地"
             },
             {
               "id": "hebrew-4131",
-              "eng": "is shaken"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "."
+              "cht": "震動了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -857,144 +751,135 @@
             "hebrew-7489": 1.7868197956968273
           },
           "verseKey": "1ch.21.17",
-          "cunp": "大衛禱告神說：「吩咐數點百姓的不是我嗎？我犯了罪，行了惡，但這羣羊做了甚麼呢？願耶和華－我神的手攻擊我和我的父家，不要攻擊你的民，降瘟疫與他們。」",
+          "nasb": "David said to God, “Is it not I who commanded to count the people? Indeed, I am the one who has sinned and done very wickedly, but these sheep, what have they done? O Lord my God, please let Your hand be against me and my father’s household, but not against Your people that they should be plagued.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "禱告"
             },
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "Was not"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "I"
+              "cht": "神"
             },
             {
               "id": "hebrew-559",
-              "eng": "it who commanded"
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "吩咐"
             },
             {
               "id": "hebrew-4487",
-              "eng": "to be numbered"
+              "cht": "數點"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "and I"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "am"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "the one who"
-            },
-            {
-              "id": "hebrew-2398",
-              "eng": "has sinned"
-            },
-            {
-              "id": "hebrew-7489",
-              "eng": "and indeed"
-            },
-            {
-              "id": "hebrew-7489",
-              "eng": "done evil",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-428",
-              "eng": "but these"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "sheep",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "what"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "have they done"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "my God",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "be"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "I pray",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "let Your hand",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "and house",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "my father's"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "but against Your people",
-              "punct": "､"
+              "cht": "百姓"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "的不是"
+            },
+            {
+              "id": "hebrew-589",
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "麼",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-2398",
+              "cht": "犯了罪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7489",
+              "cht": "行了"
+            },
+            {
+              "id": "hebrew-7489",
+              "cht": "惡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-428",
+              "cht": "但這"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "群羊"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "了甚麼"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "願"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─我"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "的手"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "和我的父"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不要"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "攻擊你的民",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4046",
-              "eng": "that they should be plagued",
-              "punct": "."
+              "cht": "降瘟疫"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "與他們",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -1004,42 +889,37 @@
             "hebrew-7489": 1.7868197956968273
           },
           "verseKey": "1sa.12.25",
-          "cunp": "你們若仍然作惡，你們和你們的王必一同滅亡。」",
+          "nasb": "But if you still do wickedly, both you and your king will be swept away.”",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "But if"
+              "cht": "你們若"
             },
             {
               "id": "hebrew-7489",
-              "eng": "still"
+              "cht": "仍然"
             },
             {
               "id": "hebrew-7489",
-              "eng": "you do wickedly",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "both"
+              "cht": "作惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "你們"
             },
             {
               "id": "hebrew-1571",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-4428",
-              "eng": "your king",
-              "punct": "."
+              "cht": "你們的王"
             },
             {
               "id": "hebrew-5595",
-              "eng": "You shall be swept away",
-              "punct": "､"
+              "cht": "必一同滅亡",
+              "punct_cht": "。」"
             }
           ]
         }

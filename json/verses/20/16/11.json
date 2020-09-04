@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6425": "Weights",
-          "hebrew-3976": "and scales [are]",
-          "hebrew-4941": "Honest",
-          "hebrew-3068": "of Yahweh",
-          "hebrew-4639": "[are] His work",
-          "hebrew-3605": "All",
-          "hebrew-68": "the weights in",
-          "hebrew-3599": "the bag"
+          "eng": {
+            "hebrew-6425": "Weights",
+            "hebrew-3976": "and scales [are]",
+            "hebrew-4941": "Honest",
+            "hebrew-3068": "of Yahweh",
+            "hebrew-4639": "[are] His work",
+            "hebrew-3605": "All",
+            "hebrew-68": "the weights in",
+            "hebrew-3599": "the bag"
+          },
+          "cht": {
+            "hebrew-6425": "和秤",
+            "hebrew-3976": "的天平",
+            "hebrew-4941": "公道",
+            "hebrew-3068": "都屬耶和華",
+            "hebrew-4639": "都為他所定",
+            "hebrew-3605": "中一切",
+            "hebrew-68": "法碼",
+            "hebrew-3599": "囊"
+          }
         }
       },
       "translations": {
@@ -29,78 +41,80 @@
             "hebrew-3976": 4.0204442424896225
           },
           "verseKey": "isa.40.12",
-          "cunp": "誰曾用手心量諸水， 用手虎口量蒼天， 用升斗盛大地的塵土， 用秤稱山嶺， 用天平平岡陵呢？",
+          "nasb": "Who has measured the waters in the hollow of His hand, And marked off the heavens by the span, And calculated the dust of the earth by the measure, And weighed the mountains in a balance And the hills in a pair of scales?",
           "words": [
             {
               "id": "hebrew-4310",
-              "eng": "Who"
-            },
-            {
-              "id": "hebrew-4058",
-              "eng": "has measured"
+              "cht": "誰"
             },
             {
               "id": "hebrew-8168",
-              "eng": "in the hollow of His hand",
-              "punct": "､"
+              "cht": "曾用手心"
+            },
+            {
+              "id": "hebrew-4058",
+              "cht": "量"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "and heaven"
+              "cht": "諸水",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2239",
-              "eng": "with a span",
-              "punct": "､"
+              "cht": "用手虎口"
             },
             {
               "id": "hebrew-8505",
-              "eng": "Measured"
+              "cht": "量"
             },
             {
-              "id": "hebrew-3557",
-              "eng": "and calculated"
+              "id": "hebrew-8064",
+              "cht": "蒼天",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7991",
-              "eng": "in a measure",
-              "punct": "､"
+              "cht": "用升斗"
             },
             {
-              "id": "hebrew-6083",
-              "eng": "the dust"
+              "id": "hebrew-3557",
+              "cht": "盛"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth"
+              "cht": "大地"
             },
             {
-              "id": "hebrew-8254",
-              "eng": "and Weighed"
+              "id": "hebrew-6083",
+              "cht": "的塵土",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6425",
-              "eng": "in scales",
-              "punct": "､"
+              "cht": "用秤"
+            },
+            {
+              "id": "hebrew-8254",
+              "cht": "稱"
             },
             {
               "id": "hebrew-2022",
-              "eng": "the mountains"
-            },
-            {
-              "id": "hebrew-1389",
-              "eng": "and the hills"
+              "cht": "山嶺",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3976",
-              "eng": "in a balance"
+              "cht": "用天平"
             },
             {
-              "id": ""
+              "id": "hebrew-1389",
+              "cht": "平岡陵"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -112,35 +126,37 @@
             "hebrew-3599": 4.758842454566098
           },
           "verseKey": "mic.6.11",
-          "cunp": "我若用不公道的天平和囊中詭詐的法碼， 豈可算為清潔呢？",
+          "nasb": "Can I justify wicked scales And a bag of deceptive weights?",
           "words": [
             {
-              "id": "hebrew-2135",
-              "eng": "shall I count pure"
+              "id": "hebrew-7562",
+              "cht": "我若用不公道"
             },
             {
               "id": "hebrew-3976",
-              "eng": "[those] with the scales",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7562",
-              "eng": "wicked"
+              "cht": "的天平"
             },
             {
               "id": "hebrew-3599",
-              "eng": "and with the bag"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "of weights"
+              "cht": "和囊中"
             },
             {
               "id": "hebrew-4820",
-              "eng": "deceitful"
+              "cht": "詭詐"
             },
             {
-              "id": ""
+              "id": "hebrew-68",
+              "cht": "的法碼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2135",
+              "cht": "豈可算為清潔"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -152,41 +168,37 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "pro.20.23",
-          "cunp": "兩樣的法碼為耶和華所憎惡； 詭詐的天平也為不善。",
+          "nasb": "Differing weights are an abomination to the Lord, And a false scale is not good.",
           "words": [
             {
-              "id": "hebrew-8441",
-              "eng": "An abomination to"
+              "id": "hebrew-68",
+              "cht": "兩樣的法碼"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
+              "cht": "為耶和華"
             },
             {
-              "id": "hebrew-68",
-              "eng": "Differing"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "and [Diverse] weights [are]"
-            },
-            {
-              "id": "hebrew-3976",
-              "eng": "and scales [are]"
+              "id": "hebrew-8441",
+              "cht": "所憎惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4820",
-              "eng": "dishonest"
+              "cht": "詭詐"
+            },
+            {
+              "id": "hebrew-3976",
+              "cht": "的天平"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "也為不"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good",
-              "punct": "."
+              "cht": "善",
+              "punct_cht": "。"
             }
           ]
         },
@@ -198,37 +210,37 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "pro.11.1",
-          "cunp": "詭詐的天平為耶和華所憎惡； 公平的法碼為他所喜悅。",
+          "nasb": "A false balance is an abomination to the Lord, But a just weight is His delight.",
           "words": [
             {
-              "id": "hebrew-3976",
-              "eng": "Scales [are]"
-            },
-            {
               "id": "hebrew-4820",
-              "eng": "Dishonest"
+              "cht": "詭詐"
             },
             {
-              "id": "hebrew-8441",
-              "eng": "an abomination to"
+              "id": "hebrew-3976",
+              "cht": "的天平"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "為耶和華"
             },
             {
-              "id": "hebrew-68",
-              "eng": "but a weight [is]"
+              "id": "hebrew-8441",
+              "cht": "所憎惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8003",
-              "eng": "just"
+              "cht": "公平"
+            },
+            {
+              "id": "hebrew-68",
+              "cht": "的法碼"
             },
             {
               "id": "hebrew-7522",
-              "eng": "His delight",
-              "punct": "."
+              "cht": "為他所喜悅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -240,86 +252,82 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "lev.19.36",
-          "cunp": "要用公道天平、公道法碼、公道升斗、公道秤。我是耶和華－你們的神，曾把你們從埃及地領出來的。",
+          "nasb": "You shall have just balances, just weights, a just ephah, and a just hin; I am the Lord your God, who brought you out from the land of Egypt.",
           "words": [
             {
-              "id": "hebrew-3976",
-              "eng": "Scales"
+              "id": "hebrew-1961",
+              "cht": "要"
             },
             {
               "id": "hebrew-6664",
-              "eng": "honest",
-              "punct": "､"
+              "cht": "用公道"
+            },
+            {
+              "id": "hebrew-3976",
+              "cht": "天平、"
+            },
+            {
+              "id": "hebrew-6664",
+              "cht": "公道"
             },
             {
               "id": "hebrew-68",
-              "eng": "weights"
+              "cht": "法碼、"
             },
             {
               "id": "hebrew-6664",
-              "eng": "honest",
-              "punct": "､"
+              "cht": "公道"
             },
             {
               "id": "hebrew-374",
-              "eng": "an ephah"
+              "cht": "升斗、"
             },
             {
               "id": "hebrew-6664",
-              "eng": "honest",
-              "punct": "､"
+              "cht": "公道"
             },
             {
               "id": "hebrew-1969",
-              "eng": "and an hin"
-            },
-            {
-              "id": "hebrew-6664",
-              "eng": "honest"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "have"
+              "cht": "秤",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我是"
             },
             {
               "id": "hebrew-3068",
-              "eng": "[am] Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "brought you out"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "of the land"
+              "cht": "曾把你們"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "從埃及"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3318",
+              "cht": "領出來"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -330,144 +338,140 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "1ch.29.2",
-          "cunp": "我為我神的殿已經盡力，預備金子做金器，銀子做銀器，銅做銅器，鐵做鐵器，木做木器，還有紅瑪瑙可鑲嵌的寶石，彩石和一切的寶石，並許多漢白玉。",
+          "nasb": "Now with all my ability I have provided for the house of my God the gold for the things of gold, and the silver for the things of silver, and the bronze for the things of bronze, the iron for the things of iron, and wood for the things of wood, onyx stones and inlaid stones, stones of antimony and stones of various colors, and all kinds of precious stones and alabaster in abundance.",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "Now with all"
-            },
-            {
-              "id": "hebrew-3581",
-              "eng": "my might"
-            },
-            {
-              "id": "hebrew-3559",
-              "eng": "I have prepared"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "for the house"
+              "id": "",
+              "cht": "我為我"
             },
             {
               "id": "hebrew-430",
-              "eng": "of my God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-2091",
-              "eng": "gold"
-            },
-            {
-              "id": "hebrew-2091",
-              "eng": "for [things to be made of] gold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3701",
-              "eng": "and silver"
-            },
-            {
-              "id": "hebrew-3701",
-              "eng": "for [things of] silver",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5178",
-              "eng": "and bronze"
-            },
-            {
-              "id": "hebrew-5178",
-              "eng": "for [things of] bronze",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1270",
-              "eng": "iron"
-            },
-            {
-              "id": "hebrew-1270",
-              "eng": "for [things of] iron",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "and wood"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "for [things of] wood",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "stones",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7718",
-              "eng": "onyx"
-            },
-            {
-              "id": "hebrew-4394",
-              "eng": "and [stones] to be set",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "stones",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6320",
-              "eng": "of glistening"
-            },
-            {
-              "id": "hebrew-7553",
-              "eng": "and various colors",
-              "punct": "､"
+              "id": "hebrew-1004",
+              "cht": "的殿"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all kinds"
+              "cht": "已經盡"
+            },
+            {
+              "id": "hebrew-3581",
+              "cht": "力",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "預備"
+            },
+            {
+              "id": "hebrew-2091",
+              "cht": "金子"
+            },
+            {
+              "id": "hebrew-2091",
+              "cht": "做金"
+            },
+            {
+              "id": "",
+              "cht": "器",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3701",
+              "cht": "銀子"
+            },
+            {
+              "id": "hebrew-3701",
+              "cht": "做銀"
+            },
+            {
+              "id": "",
+              "cht": "器",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5178",
+              "cht": "銅"
+            },
+            {
+              "id": "hebrew-5178",
+              "cht": "做銅"
+            },
+            {
+              "id": "",
+              "cht": "器",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1270",
+              "cht": "鐵"
+            },
+            {
+              "id": "hebrew-1270",
+              "cht": "做鐵"
+            },
+            {
+              "id": "",
+              "cht": "器",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "木"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "做木"
+            },
+            {
+              "id": "",
+              "cht": "器",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-68",
-              "eng": "of stones",
-              "punct": "､"
+              "cht": "還有紅瑪瑙"
+            },
+            {
+              "id": "hebrew-4394",
+              "cht": "可鑲嵌"
+            },
+            {
+              "id": "hebrew-6320",
+              "cht": "的寶"
+            },
+            {
+              "id": "hebrew-68",
+              "cht": "石",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7553",
+              "cht": "彩石"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "和一切的"
             },
             {
               "id": "hebrew-3368",
-              "eng": "precious"
+              "cht": "寶"
             },
             {
               "id": "hebrew-68",
-              "eng": "and slabs"
-            },
-            {
-              "id": "hebrew-7893",
-              "eng": "marble"
+              "cht": "石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7230",
-              "eng": "in abundance",
-              "punct": "."
+              "cht": "並許多"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-7893",
+              "cht": "漢白玉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -477,87 +481,75 @@
             "hebrew-3599": 4.758842454566098
           },
           "verseKey": "mat.10.10",
-          "cunp": "行路不要帶口袋；不要帶兩件褂子，也不要帶鞋和柺杖。因為工人得飲食是應當的。",
+          "nasb": "or a bag for your journey, or even two coats, or sandals, or a staff; for the worker is worthy of his support.",
           "words": [
             {
+              "id": "greek-3598",
+              "cht": "行路"
+            },
+            {
               "id": "greek-3361",
-              "eng": "nor"
+              "cht": "不要"
             },
             {
               "id": "greek-4082",
-              "eng": "provision-bag"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3598",
-              "eng": "[the] way",
-              "punct": ","
+              "cht": "帶口袋",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3366",
-              "eng": "nor"
+              "cht": "不要"
             },
             {
               "id": "greek-1417",
-              "eng": "two"
+              "cht": "帶兩件"
             },
             {
               "id": "greek-5509",
-              "eng": "tunics",
-              "punct": ","
+              "cht": "褂子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3366",
-              "eng": "nor"
+              "cht": "也不要"
             },
             {
               "id": "greek-5266",
-              "eng": "sandals",
-              "punct": ","
+              "cht": "帶鞋"
             },
             {
               "id": "greek-3366",
-              "eng": "nor"
+              "cht": "和"
             },
             {
               "id": "greek-4464",
-              "eng": "a staff",
-              "punct": ";"
-            },
-            {
-              "id": "greek-514",
-              "eng": "worthy [is]"
+              "cht": "柺杖",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "因為"
             },
             {
               "id": "greek-2040",
-              "eng": "workman"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-5160",
-              "eng": "provisions"
+              "cht": "工人"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "cht": "得"
             },
             {
-              "id": "greek-2076"
+              "id": "greek-5160",
+              "cht": "飲食"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "是"
+            },
+            {
+              "id": "greek-514",
+              "cht": "應當的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -567,69 +559,63 @@
             "hebrew-3599": 4.758842454566098
           },
           "verseKey": "luk.10.4",
-          "cunp": "不要帶錢囊，不要帶口袋，不要帶鞋；在路上也不要問人的安。",
+          "nasb": "Carry no money belt, no bag, no shoes; and greet no one on the way.",
           "words": [
             {
               "id": "greek-3361",
-              "eng": "Neither"
+              "cht": "不"
             },
             {
               "id": "greek-941",
-              "eng": "carry"
+              "cht": "要帶"
             },
             {
               "id": "greek-905",
-              "eng": "purse",
-              "punct": ","
+              "cht": "錢囊",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3361",
-              "eng": "nor"
+              "cht": "不"
             },
             {
               "id": "greek-4082",
-              "eng": "bag",
-              "punct": ","
+              "cht": "要帶口袋",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3361",
-              "eng": "nor"
+              "id": "greek-3366",
+              "cht": "不"
             },
             {
               "id": "greek-5266",
-              "eng": "sandals",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3367",
-              "eng": "no one"
+              "cht": "要帶鞋",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2596",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-3598",
-              "eng": "road"
+              "cht": "路上"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-782",
-              "eng": "greet",
-              "punct": "."
+              "cht": "不要問"
             },
             {
-              "id": "greek-3366"
+              "id": "greek-3367",
+              "cht": "人"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的安",
+              "punct_cht": "。"
             }
           ]
         },
@@ -639,37 +625,33 @@
             "hebrew-3599": 4.758842454566098
           },
           "verseKey": "pro.1.14",
-          "cunp": "你與我們大家同分， 我們共用一個囊袋；",
+          "nasb": "Throw in your lot with us, We shall all have one purse,”",
           "words": [
             {
-              "id": "hebrew-1486",
-              "eng": "your lot"
+              "id": "hebrew-8432",
+              "cht": "你與我們"
             },
             {
               "id": "hebrew-5307",
-              "eng": "Cast in"
+              "cht": "大家同"
             },
             {
-              "id": "hebrew-8432",
-              "eng": "among us"
-            },
-            {
-              "id": "hebrew-3599",
-              "eng": "purse",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "let have"
+              "id": "hebrew-1486",
+              "cht": "分",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "us all",
-              "punct": "."
+              "cht": "我們共用"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一個"
+            },
+            {
+              "id": "hebrew-3599",
+              "cht": "囊袋",
+              "punct_cht": "；"
             }
           ]
         },
@@ -679,91 +661,87 @@
             "hebrew-3599": 4.758842454566098
           },
           "verseKey": "luk.22.35",
-          "cunp": "耶穌又對他們說：「我差你們出去的時候，沒有錢囊，沒有口袋，沒有鞋，你們缺少甚麼沒有？」他們說：「沒有。」",
+          "nasb": "And He said to them, “When I sent you out without money belt and bag and sandals, you did not lack anything, did you?” They said, “No, nothing.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
-              "id": "greek-2036",
-              "eng": "He said"
+              "id": "greek-2532",
+              "cht": "又"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-3753",
-              "eng": "When"
-            },
-            {
-              "id": "greek-649",
-              "eng": "I sent"
-            },
-            {
-              "id": "greek-5209",
-              "eng": "you"
-            },
-            {
-              "id": "greek-817",
-              "eng": "without"
-            },
-            {
-              "id": "greek-905",
-              "eng": "purse"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4082",
-              "eng": "bag"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5266",
-              "eng": "sandals",
-              "punct": ","
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "anything"
-            },
-            {
-              "id": "greek-5302",
-              "eng": "did you lack",
-              "punct": "?"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
+              "cht": "對他們"
             },
             {
               "id": "greek-2036",
-              "eng": "they said",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-649",
+              "cht": "我差"
+            },
+            {
+              "id": "greek-5209",
+              "cht": "你們"
+            },
+            {
+              "id": "greek-3753",
+              "cht": "出去的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-817",
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-905",
+              "cht": "錢囊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-4082",
+              "cht": "口袋",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-5266",
+              "cht": "鞋",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5302",
+              "cht": "你們缺少"
+            },
+            {
+              "id": "greek-5100",
+              "cht": "甚麼"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "沒有",
+              "punct_cht": "？"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "他們說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3762",
-              "eng": "Nothing",
-              "punct": "."
-            },
-            {
-              "id": "greek-2424"
+              "cht": "沒有",
+              "punct_cht": "。"
             }
           ]
         }

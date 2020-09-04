@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5414": "And I will show",
-          "hebrew-4159": "wonders",
-          "hebrew-8064": "in the heavens",
-          "hebrew-776": "and in the earth",
-          "hebrew-1818": "Blood",
-          "hebrew-784": "and fire",
-          "hebrew-8490": "and pillars",
-          "hebrew-6227": "of smoke"
+          "eng": {
+            "hebrew-5414": "And I will show",
+            "hebrew-4159": "wonders",
+            "hebrew-8064": "in the heavens",
+            "hebrew-776": "and in the earth",
+            "hebrew-1818": "Blood",
+            "hebrew-784": "and fire",
+            "hebrew-8490": "and pillars",
+            "hebrew-6227": "of smoke"
+          },
+          "cht": {
+            "hebrew-5414": "我要顯出",
+            "hebrew-4159": "奇事",
+            "hebrew-8064": "在天上",
+            "hebrew-776": "地下",
+            "hebrew-1818": "有血",
+            "hebrew-784": "有火",
+            "hebrew-8490": "柱",
+            "hebrew-6227": "有煙"
+          }
         }
       },
       "translations": {
@@ -30,7 +42,7 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "lev.6.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -39,126 +51,83 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "rev.9.2",
-          "cunp": "它開了無底坑，便有煙從坑裏往上冒，好像大火爐的煙；日頭和天空都因這煙昏暗了。",
+          "nasb": "He opened the bottomless pit, and smoke went up out of the pit, like the smoke of a great furnace; and the sun and the air were darkened by the smoke of the pit.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-455",
-              "eng": "he opened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "它開了"
             },
             {
               "id": "greek-12",
-              "eng": "Abyss",
-              "punct": ","
+              "cht": "無底"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "便有"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "煙"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑裡"
             },
             {
               "id": "greek-305",
-              "eng": "went up"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "smoke"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": ","
+              "cht": "往上冒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "like"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "[the] smoke"
-            },
-            {
-              "id": "greek-2575",
-              "eng": "of a furnace"
+              "cht": "好像"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": ","
+              "cht": "大"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4656",
-              "eng": "were darkened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2246",
-              "eng": "sun"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-109",
-              "eng": "air"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2575",
+              "cht": "火爐"
             },
             {
               "id": "greek-2586",
-              "eng": "smoke"
+              "cht": "的煙",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2246",
+              "cht": "日頭"
             },
             {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": "."
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
-              "id": "greek-4654"
+              "id": "greek-109",
+              "cht": "天空"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "都因"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "這煙"
+            },
+            {
+              "id": "greek-4654",
+              "cht": "昏暗了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -173,86 +142,60 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "act.2.19",
-          "cunp": "在天上，我要顯出奇事； 在地下， 我要顯出神蹟； 有血，有火，有煙霧。",
+          "nasb": "And I will grant wonders in the sky above And signs on the earth below, Blood, and fire, and vapor of smoke.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "I will show"
-            },
-            {
-              "id": "greek-5059",
-              "eng": "wonders"
-            },
-            {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "在"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven"
+              "cht": "天"
             },
             {
               "id": "greek-507",
-              "eng": "above",
-              "punct": ","
+              "cht": "上、"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1325",
+              "cht": "我要顯出"
             },
             {
-              "id": "greek-4592",
-              "eng": "signs"
+              "id": "greek-5059",
+              "cht": "奇事",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-1093",
-              "eng": "earth"
+              "cht": "地"
             },
             {
               "id": "greek-2736",
-              "eng": "below",
-              "punct": ","
+              "cht": "下、"
+            },
+            {
+              "id": "greek-4592",
+              "cht": "我要顯出神蹟",
+              "punct_cht": "；"
             },
             {
               "id": "greek-129",
-              "eng": "blood"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "有血",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4442",
-              "eng": "fire"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "有火",
+              "punct_cht": "，"
             },
             {
               "id": "greek-822",
-              "eng": "vapor"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "of smoke",
-              "punct": "."
+              "cht": "有煙霧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -263,81 +206,77 @@
             "hebrew-4159": 2.499694941916128
           },
           "verseKey": "1ki.13.3",
-          "cunp": "當日，神人設個預兆，說：「這壇必破裂，壇上的灰必傾撒，這是耶和華說的預兆。」",
+          "nasb": "Then he gave a sign the same day, saying, “This is the sign which the Lord has spoken, ‘Behold, the altar shall be split apart and the ashes which are on it shall be poured out.’ ”",
           "words": [
             {
-              "id": "hebrew-5414",
-              "eng": "And he gave"
+              "id": "hebrew-1931",
+              "cht": "當"
             },
             {
               "id": "hebrew-3117",
-              "eng": "day",
-              "punct": "､"
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-5414",
+              "cht": "神人設"
             },
             {
               "id": "hebrew-4159",
-              "eng": "a sign"
+              "cht": "個預兆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [is]"
-            },
-            {
-              "id": "hebrew-4159",
-              "eng": "the sign"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "has spoken",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "surely"
+              "cht": "這"
             },
             {
               "id": "hebrew-4196",
-              "eng": "the altar"
+              "cht": "壇"
             },
             {
               "id": "hebrew-7167",
-              "eng": "shall be split apart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8210",
-              "eng": "and shall poured out",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1880",
-              "eng": "The ashes"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "必破裂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on it",
-              "punct": "."
+              "cht": "壇上"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-1880",
+              "cht": "灰"
+            },
+            {
+              "id": "hebrew-8210",
+              "cht": "必傾撒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "這是"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "說"
+            },
+            {
+              "id": "hebrew-4159",
+              "cht": "的預兆",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -348,122 +287,119 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "isa.51.6",
-          "cunp": "你們要向天舉目， 觀看下地； 因為天必像煙雲消散， 地必如衣服漸漸舊了； 其上的居民也要如此死亡。 惟有我的救恩永遠長存； 我的公義也不廢掉。",
+          "nasb": "Lift up your eyes to the sky, Then look to the earth beneath; For the sky will vanish like smoke, And the earth will wear out like a garment And its inhabitants will die in like manner; But My salvation will be forever, And My righteousness will not wane.",
           "words": [
             {
-              "id": "hebrew-5375",
-              "eng": "Lift up"
+              "id": "hebrew-8064",
+              "cht": "你們要向天"
             },
             {
-              "id": "hebrew-8064",
-              "eng": "to the heavens",
-              "punct": "､"
+              "id": "hebrew-5375",
+              "cht": "舉"
             },
             {
               "id": "hebrew-5869",
-              "eng": "your eyes"
+              "cht": "目",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5027",
-              "eng": "and look"
+              "cht": "觀看"
             },
             {
-              "id": "hebrew-413",
-              "eng": "on"
+              "id": "hebrew-4480",
+              "cht": "下"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "beneath",
-              "punct": "–"
+              "cht": "地",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-8064",
-              "eng": "the heavens"
+              "cht": "天"
             },
             {
               "id": "hebrew-6227",
-              "eng": "like smoke",
-              "punct": "､"
+              "cht": "必像煙雲"
             },
             {
               "id": "hebrew-4414",
-              "eng": "will vanish away"
+              "cht": "消散",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "and the earth"
+              "cht": "地"
             },
             {
               "id": "hebrew-899",
-              "eng": "like a garment",
-              "punct": "､"
+              "cht": "必如衣服"
             },
             {
               "id": "hebrew-1086",
-              "eng": "will grow old"
+              "cht": "漸漸舊了",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3427",
-              "eng": "and those who dwell in it"
-            },
-            {
-              "id": "hebrew-3644",
-              "eng": "in"
+              "cht": "其上的居民"
             },
             {
               "id": "hebrew-3651",
-              "eng": "like manner",
-              "punct": "–"
+              "cht": "也要如此"
             },
             {
               "id": "hebrew-4191",
-              "eng": "will die"
+              "cht": "死亡"
+            },
+            {
+              "id": "",
+              "cht": "（如此死亡",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-3644",
+              "cht": "或譯像"
+            },
+            {
+              "id": "hebrew-3654",
+              "cht": "蠓蟲"
+            },
+            {
+              "id": "",
+              "cht": "死亡）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3444",
-              "eng": "but My salvation"
+              "cht": "惟有我的救恩"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "､"
+              "cht": "永遠"
             },
             {
               "id": "hebrew-1961",
-              "eng": "will be"
+              "cht": "長存",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6666",
-              "eng": "and My righteousness"
+              "cht": "我的公義"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "也不"
             },
             {
               "id": "hebrew-2865",
-              "eng": "will be abolished",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3654"
-            },
-            {
-              "id": ""
+              "cht": "廢掉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -473,92 +409,90 @@
             "hebrew-1818": 0.9770342233278884
           },
           "verseKey": "ezk.35.6",
-          "cunp": "所以主耶和華說：我指着我的永生起誓，我必使你遭遇流血的報應，罪必追趕你；你既不恨惡殺人流血，所以這罪必追趕你。",
+          "nasb": "therefore as I live,” declares the Lord God, “I will give you over to bloodshed, and bloodshed will pursue you; since you have not hated bloodshed, therefore bloodshed will pursue you.",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "therefore",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "live",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "[as] I"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "所以"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "GOD"
+              "id": "hebrew-3069",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-5002",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-1818",
-              "eng": "for blood",
-              "punct": "､"
+              "id": "hebrew-589",
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "指著我的永生"
+            },
+            {
+              "id": "",
+              "cht": "起誓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "I will prepare you"
+              "cht": "我必使"
             },
             {
               "id": "hebrew-1818",
-              "eng": "and blood"
+              "cht": "你遭遇流血的"
+            },
+            {
+              "id": "",
+              "cht": "報應罪（",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1818",
+              "cht": "原文是血"
+            },
+            {
+              "id": "",
+              "cht": "本節同）",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7291",
-              "eng": "shall pursue you"
+              "cht": "必追趕你",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-518",
-              "eng": "since"
+              "cht": "你既"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-1818",
-              "eng": "blood",
-              "punct": "､"
+              "cht": "不"
             },
             {
               "id": "hebrew-8130",
-              "eng": "you have hated"
+              "cht": "恨"
             },
             {
               "id": "hebrew-1818",
-              "eng": "and therefore blood"
+              "cht": "惡殺人流血",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1818",
+              "cht": "所以這罪"
             },
             {
               "id": "hebrew-7291",
-              "eng": "shall pursue you",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3069"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "必追趕你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -569,69 +503,72 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "isa.65.5",
-          "cunp": "且對人說：你站開吧！ 不要挨近我，因為我比你聖潔。 主說：這些人是我鼻中的煙， 是整天燒着的火。",
+          "nasb": "Who say, ‘Keep to yourself, do not come near me, For I am holier than you!’ These are smoke in My nostrils, A fire that burns all the day.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "who say",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7126",
-              "eng": "Keep"
+              "cht": "且對人說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-413",
-              "eng": "to yourself"
+              "cht": "你"
+            },
+            {
+              "id": "hebrew-7126",
+              "cht": "站開吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-5066",
-              "eng": "do come near"
+              "cht": "挨近"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-6942",
-              "eng": "I am holier than you"
+              "cht": "我比你聖潔"
+            },
+            {
+              "id": "",
+              "cht": "主說",
+              "punct_cht": "。："
             },
             {
               "id": "hebrew-428",
-              "eng": "these [are]"
-            },
-            {
-              "id": "hebrew-6227",
-              "eng": "smoke"
+              "cht": "這些人"
             },
             {
               "id": "hebrew-639",
-              "eng": "in My nostrils",
-              "punct": "､"
+              "cht": "是我鼻中"
             },
             {
-              "id": "hebrew-784",
-              "eng": "a fire"
-            },
-            {
-              "id": "hebrew-3344",
-              "eng": "that burns"
+              "id": "hebrew-6227",
+              "cht": "的煙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "是整"
             },
             {
               "id": "hebrew-3117",
-              "eng": "the day",
-              "punct": "."
+              "cht": "天"
             },
             {
-              "id": ""
+              "id": "hebrew-3344",
+              "cht": "燒著"
+            },
+            {
+              "id": "hebrew-784",
+              "cht": "的火",
+              "punct_cht": "。"
             }
           ]
         },
@@ -642,112 +579,61 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "rev.9.18",
-          "cunp": "口中所出來的火與煙並硫磺，這三樣災殺了人的三分之一。",
+          "nasb": "A third of mankind was killed by these three plagues, by the fire and the smoke and the brimstone which proceeded out of their mouths.",
           "words": [
             {
-              "id": "greek-575",
-              "eng": "By"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5140",
-              "eng": "three"
-            },
-            {
-              "id": "greek-4127",
-              "eng": "plagues"
-            },
-            {
-              "id": "greek-5130",
-              "eng": "these"
-            },
-            {
-              "id": "greek-615",
-              "eng": "was killed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "a"
-            },
-            {
-              "id": "greek-5154",
-              "eng": "third"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
-            },
-            {
-              "id": "greek-444",
-              "eng": "mankind",
-              "punct": ","
-            },
-            {
-              "id": "greek-1537",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4442",
-              "eng": "fire",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "by the"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "smoke",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "by the"
-            },
-            {
-              "id": "greek-2303",
-              "eng": "brimstone",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4750",
+              "cht": "口中"
             },
             {
               "id": "greek-1607",
-              "eng": "proceeding"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
+              "cht": "所出來"
             },
             {
               "id": "greek-3588",
-              "eng": "the"
+              "cht": "的"
             },
             {
-              "id": "greek-4750",
-              "eng": "mouths"
+              "id": "greek-4442",
+              "cht": "火"
             },
             {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": "."
+              "id": "greek-2532",
+              "cht": "與"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "煙"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
+            },
+            {
+              "id": "greek-2303",
+              "cht": "硫磺",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5130",
+              "cht": "這"
+            },
+            {
+              "id": "greek-5140",
+              "cht": "三樣"
+            },
+            {
+              "id": "greek-615",
+              "cht": "災殺了"
+            },
+            {
+              "id": "greek-444",
+              "cht": "人"
+            },
+            {
+              "id": "greek-5154",
+              "cht": "的三分之一",
+              "punct_cht": "。"
             }
           ]
         },
@@ -758,176 +644,120 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "rev.9.17",
-          "cunp": "我在異象中看見那些馬和騎馬的，騎馬的胸前有甲如火，與紫瑪瑙並硫磺。馬的頭好像獅子頭，有火、有煙、有硫磺從馬的口中出來。",
+          "nasb": "And this is how I saw in the vision the horses and those who sat on them: the riders had breastplates the color of fire and of hyacinth and of brimstone; and the heads of the horses are like the heads of lions; and out of their mouths proceed fire and smoke and brimstone.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3779",
-              "eng": "thus"
-            },
-            {
-              "id": "greek-3708",
-              "eng": "I saw"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2462",
-              "eng": "horses"
+              "id": "greek-3706",
+              "cht": "我在異象"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "中"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3706",
-              "eng": "vision",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-2521",
-              "eng": "sitting"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-2382",
-              "eng": "breastplates"
-            },
-            {
-              "id": "greek-4447",
-              "eng": "fiery"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5191",
-              "eng": "hyacinthine"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2306",
-              "eng": "brimstone",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2776",
-              "eng": "heads"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-1492",
+              "cht": "看見"
             },
             {
               "id": "greek-2462",
-              "eng": "horses [were]"
+              "cht": "那些馬"
             },
             {
-              "id": "greek-5613",
-              "eng": "like"
+              "id": "greek-2532",
+              "cht": "和"
+            },
+            {
+              "id": "greek-2521",
+              "cht": "騎"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "馬"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2192",
+              "cht": "騎馬的胸前有"
+            },
+            {
+              "id": "greek-2382",
+              "cht": "甲"
+            },
+            {
+              "id": "greek-4447",
+              "cht": "如火",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "與"
+            },
+            {
+              "id": "greek-5191",
+              "cht": "紫瑪瑙"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
+            },
+            {
+              "id": "greek-2306",
+              "cht": "硫磺",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-2462",
+              "cht": "馬"
             },
             {
               "id": "greek-2776",
-              "eng": "heads"
+              "cht": "的頭"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "好像"
             },
             {
               "id": "greek-3023",
-              "eng": "of lions",
-              "punct": ","
+              "cht": "獅子"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4750",
-              "eng": "mouths"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-1607",
-              "eng": "proceed"
+              "id": "greek-2776",
+              "cht": "頭",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4442",
-              "eng": "fire",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "有火、"
             },
             {
               "id": "greek-2586",
-              "eng": "smoke",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "有煙、"
             },
             {
               "id": "greek-2303",
-              "eng": "brimstone",
-              "punct": "."
+              "cht": "有硫磺"
             },
             {
-              "id": "greek-1492"
+              "id": "greek-1537",
+              "cht": "從"
             },
             {
-              "id": ""
+              "id": "greek-846",
+              "cht": "馬的"
+            },
+            {
+              "id": "greek-4750",
+              "cht": "口中"
+            },
+            {
+              "id": "greek-1607",
+              "cht": "出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -938,73 +768,61 @@
             "hebrew-6227": 2.7912061306530696
           },
           "verseKey": "gen.15.17",
-          "cunp": "日落天黑，不料有冒煙的爐並燒着的火把從那些肉塊中經過。",
+          "nasb": "It came about when the sun had set, that it was very dark, and behold, there appeared a smoking oven and a flaming torch which passed between these pieces.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it came to pass",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-8121",
-              "eng": "when the sun"
+              "cht": "日"
             },
             {
               "id": "hebrew-935",
-              "eng": "went [down]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5939",
-              "eng": "and dark"
+              "cht": "落"
             },
             {
               "id": "hebrew-1961",
-              "eng": "it was",
-              "punct": "､"
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-5939",
+              "cht": "黑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "that behold there appeared"
-            },
-            {
-              "id": "hebrew-8574",
-              "eng": "a firepot",
-              "punct": "､"
+              "cht": "不料"
             },
             {
               "id": "hebrew-6227",
-              "eng": "smoking"
+              "cht": "有冒煙"
             },
             {
-              "id": "hebrew-3940",
-              "eng": "and a torch"
+              "id": "hebrew-8574",
+              "cht": "的爐"
             },
             {
               "id": "hebrew-784",
-              "eng": "burning",
-              "punct": "､"
+              "cht": "並燒"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "passed"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-1506",
-              "eng": "pieces"
+              "id": "hebrew-3940",
+              "cht": "著的火把"
             },
             {
               "id": "hebrew-428",
-              "eng": "these",
-              "punct": "."
+              "cht": "從那些"
+            },
+            {
+              "id": "hebrew-1506",
+              "cht": "肉塊"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "中"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "經過",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,17 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "When",
-          "hebrew-1875": "He avenges",
-          "hebrew-1818": "blood",
-          "hebrew-853": "them",
-          "hebrew-2142": "He remembers",
-          "hebrew-3808": "not",
-          "hebrew-7911": "He does forget",
-          "hebrew-6818": "the cry",
-          "hebrew-6041": "the humble",
-          "": null,
-          "hebrew-6035": null
+          "eng": {
+            "hebrew-3588": "When",
+            "hebrew-1875": "He avenges",
+            "hebrew-1818": "blood",
+            "hebrew-853": "them",
+            "hebrew-2142": "He remembers",
+            "hebrew-3808": "not",
+            "hebrew-7911": "He does forget",
+            "hebrew-6818": "the cry",
+            "hebrew-6041": "the humble",
+            "": null,
+            "hebrew-6035": null
+          },
+          "cht": {
+            "hebrew-3588": "因為",
+            "hebrew-1875": "那追討",
+            "hebrew-1818": "流人血",
+            "hebrew-853": "之罪的─",
+            "hebrew-2142": "他記念",
+            "hebrew-3808": "不",
+            "hebrew-7911": "忘記",
+            "hebrew-6818": "的哀求",
+            "hebrew-6041": "困苦人",
+            "hebrew-6035": "困苦人"
+          }
         }
       },
       "translations": {
@@ -30,36 +44,37 @@
             "hebrew-6041": 1.70964261929426
           },
           "verseKey": "job.34.28",
-          "cunp": "甚至使貧窮人的哀聲達到他那裏； 他也聽了困苦人的哀聲。",
+          "nasb": "So that they caused the cry of the poor to come to Him, And that He might hear the cry of the afflicted—",
           "words": [
             {
+              "id": "hebrew-1800",
+              "cht": "甚至使貧窮人"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀聲"
+            },
+            {
               "id": "hebrew-935",
-              "eng": "To come"
+              "cht": "達"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to Him"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "so that they caused the cry"
-            },
-            {
-              "id": "hebrew-1800",
-              "eng": "of the poor"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "and the cry"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "of the afflicted"
+              "cht": "到他那裡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8085",
-              "eng": "for He hears",
-              "punct": "."
+              "cht": "他也聽了"
+            },
+            {
+              "id": "hebrew-6041",
+              "cht": "困苦人"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -69,33 +84,33 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "psa.25.9",
-          "cunp": "他必按公平引領謙卑人， 將他的道教訓他們。",
+          "nasb": "He leads the humble in justice, And He teaches the humble His way.",
           "words": [
             {
-              "id": "hebrew-1869",
-              "eng": "He guides"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the humble"
-            },
-            {
               "id": "hebrew-4941",
-              "eng": "in justice",
-              "punct": "､"
+              "cht": "他必按公平"
             },
             {
-              "id": "hebrew-3925",
-              "eng": "and He teaches"
+              "id": "hebrew-1869",
+              "cht": "引領"
             },
             {
               "id": "hebrew-6035",
-              "eng": "the humble"
+              "cht": "謙卑人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1870",
-              "eng": "His way",
-              "punct": "."
+              "cht": "將他的道"
+            },
+            {
+              "id": "hebrew-3925",
+              "cht": "教訓"
+            },
+            {
+              "id": "hebrew-6035",
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -106,48 +121,41 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "psa.9.18",
-          "cunp": "窮乏人必不永久被忘； 困苦人的指望必不永遠落空。",
+          "nasb": "For the needy will not always be forgotten, Nor the hope of the afflicted perish forever.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
+              "id": "hebrew-34",
+              "cht": "窮乏人"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "必不"
             },
             {
               "id": "hebrew-5331",
-              "eng": "always"
+              "cht": "永久"
             },
             {
               "id": "hebrew-7911",
-              "eng": "shall be forgotten",
-              "punct": "､"
+              "cht": "被忘",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-34",
-              "eng": "the needy"
+              "id": "hebrew-6041",
+              "cht": "困苦人"
             },
             {
               "id": "hebrew-8615",
-              "eng": "the expectation"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the poor"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "shall [not] perish"
+              "cht": "的指望"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "."
+              "cht": "必不永遠"
             },
             {
-              "id": "hebrew-6041"
+              "id": "hebrew-6",
+              "cht": "落空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -158,45 +166,37 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "amo.8.4",
-          "cunp": "你們這些要吞吃窮乏人、 使困苦人衰敗的，當聽我的話！",
+          "nasb": "Hear this, you who trample the needy, to do away with the humble of the land,",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "Hear"
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "this",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-7602",
-              "eng": "you who swallow up"
+              "cht": "你們這些要吞吃"
             },
             {
               "id": "hebrew-34",
-              "eng": "the needy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7673",
-              "eng": "and make fail",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6035",
-              "eng": "the poor"
+              "cht": "窮乏人、"
             },
             {
               "id": "hebrew-6041",
-              "eng": "of the land",
-              "punct": "."
+              "cht": "使困苦人"
             },
             {
-              "id": "hebrew-776"
+              "id": "hebrew-7673",
+              "cht": "衰敗"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "當聽"
+            },
+            {
+              "id": "hebrew-2063",
+              "cht": "我的話",
+              "punct_cht": "！"
             }
           ]
         },
@@ -207,40 +207,42 @@
             "hebrew-6035": 3.6363404553480576
           },
           "verseKey": "psa.69.32",
-          "cunp": "謙卑的人看見了就喜樂； 尋求神的人，願你們的心甦醒。",
+          "nasb": "The humble have seen it and are glad; You who seek God, let your heart revive.",
           "words": [
             {
-              "id": "hebrew-7200",
-              "eng": "Shall see [this]"
+              "id": "hebrew-6035",
+              "cht": "謙卑的人"
             },
             {
-              "id": "hebrew-6035",
-              "eng": "the humble"
+              "id": "hebrew-7200",
+              "cht": "看見了"
             },
             {
               "id": "hebrew-8055",
-              "eng": "[and] be glad",
-              "punct": "–"
+              "cht": "就喜樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1875",
-              "eng": "you who seek"
+              "cht": "尋求"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-2421",
-              "eng": "and shall live"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3824",
-              "eng": "your hearts",
-              "punct": "."
+              "cht": "願你們的心"
             },
             {
-              "id": ""
+              "id": "hebrew-2421",
+              "cht": "甦醒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -250,57 +252,59 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "jer.25.36",
-          "cunp": "聽啊，有牧人呼喊， 有羣眾頭目哀號的聲音， 因為耶和華使他們的草場變為荒場。",
+          "nasb": "Hear the sound of the cry of the shepherds, And the wailing of the masters of the flock! For the Lord is destroying their pasture,",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "A voice"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "of the cry"
+              "id": "",
+              "cht": "聽啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7462",
-              "eng": "of the shepherds",
-              "punct": "､"
+              "cht": "有牧人"
             },
             {
-              "id": "hebrew-3215",
-              "eng": "and a wailing"
-            },
-            {
-              "id": "hebrew-117",
-              "eng": "of the leaders to"
+              "id": "hebrew-6818",
+              "cht": "呼喊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6629",
-              "eng": "the flock",
-              "punct": "､"
+              "cht": "有群眾"
+            },
+            {
+              "id": "hebrew-117",
+              "cht": "頭目"
+            },
+            {
+              "id": "hebrew-3215",
+              "cht": "哀號"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "[will be heard] for"
-            },
-            {
-              "id": "hebrew-7703",
-              "eng": "has plundered"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-4830",
-              "eng": "their pasture",
-              "punct": "."
+              "cht": "他們的草場"
             },
             {
-              "id": ""
+              "id": "hebrew-7703",
+              "cht": "變為荒場",
+              "punct_cht": "。"
             }
           ]
         },
@@ -310,61 +314,53 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "jer.48.5",
-          "cunp": "人上魯希坡隨走隨哭， 因為在何羅念的下坡聽見毀滅的哀聲。",
+          "nasb": "For by the ascent of Luhith They will ascend with continual weeping; For at the descent of Horonaim They have heard the anguished cry of destruction.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-4608",
-              "eng": "in the Ascent"
+              "id": "hebrew-5927",
+              "cht": "人上"
             },
             {
               "id": "hebrew-3872",
-              "eng": "Luhith"
+              "cht": "魯希"
+            },
+            {
+              "id": "hebrew-4608",
+              "cht": "坡"
             },
             {
               "id": "hebrew-1065",
-              "eng": "with weeping"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "they ascend",
-              "punct": "–"
+              "cht": "隨走隨"
             },
             {
               "id": "hebrew-1065",
-              "eng": "continual"
+              "cht": "哭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4174",
-              "eng": "in the descent"
+              "cht": "因為"
             },
             {
               "id": "hebrew-2773",
-              "eng": "of Horonaim"
+              "cht": "在何羅念"
             },
             {
-              "id": "hebrew-6862",
-              "eng": "the enemies"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "a cry"
-            },
-            {
-              "id": "hebrew-7667",
-              "eng": "of destruction"
+              "id": "hebrew-4174",
+              "cht": "的下坡"
             },
             {
               "id": "hebrew-8085",
-              "eng": "have heard",
-              "punct": "."
+              "cht": "聽見"
+            },
+            {
+              "id": "hebrew-6862",
+              "cht": "毀滅的"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "哀聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -374,40 +370,37 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "neh.5.1",
-          "cunp": "百姓和他們的妻大大呼號，埋怨他們的弟兄猶大人。",
+          "nasb": "Now there was a great outcry of the people and of their wives against their Jewish brothers.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And there was"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "a outcry"
-            },
-            {
               "id": "hebrew-5971",
-              "eng": "of the people"
+              "cht": "百姓"
             },
             {
               "id": "hebrew-802",
-              "eng": "and their wives"
+              "cht": "和他們的妻"
             },
             {
               "id": "hebrew-1419",
-              "eng": "great"
+              "cht": "大大"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "呼號",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "against"
+              "cht": "埋怨"
             },
             {
               "id": "hebrew-251",
-              "eng": "their brothers"
+              "cht": "他們的弟兄"
             },
             {
               "id": "hebrew-3064",
-              "eng": "the Jews",
-              "punct": "."
+              "cht": "猶大人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -417,85 +410,76 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "zep.1.10",
-          "cunp": "耶和華說：當那日， 從魚門必發出悲哀的聲音， 從二城發出哀號的聲音， 從山間發出大破裂的響聲。",
+          "nasb": "On that day,” declares the Lord, “There will be the sound of a cry from the Fish Gate, A wail from the Second Quarter, And a loud crash from the hills.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And there shall be"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "on day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-1931",
+              "cht": "當那"
             },
             {
-              "id": "hebrew-6963",
-              "eng": "the sound"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "of a [mournful] cry"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "from Gate",
-              "punct": "､"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1709",
-              "eng": "the Fish"
-            },
-            {
-              "id": "hebrew-3215",
-              "eng": "a wailing"
+              "cht": "從魚"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from",
-              "punct": "､"
+              "cht": "門"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "必發出悲哀"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從"
             },
             {
               "id": "hebrew-4932",
-              "eng": "the Second Quarter",
-              "punct": "､"
+              "cht": "二"
             },
             {
-              "id": "hebrew-7667",
-              "eng": "and a crashing"
+              "id": "hebrew-3215",
+              "cht": "城發出哀號"
             },
             {
-              "id": "hebrew-1419",
-              "eng": "loud"
+              "id": "",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1389",
-              "eng": "from the hills",
-              "punct": "."
+              "cht": "從山間"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1419",
+              "cht": "發出大"
             },
             {
-              "id": ""
+              "id": "hebrew-7667",
+              "cht": "破裂"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的響聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -505,79 +489,61 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "exo.3.9",
-          "cunp": "現在以色列人的哀聲達到我耳中，我也看見埃及人怎樣欺壓他們。",
+          "nasb": "Now, behold, the cry of the sons of Israel has come to Me; furthermore, I have seen the oppression with which the Egyptians are oppressing them.",
           "words": [
             {
-              "id": "hebrew-6258",
-              "eng": "And therefore"
-            },
-            {
               "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "the cry"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
+              "cht": "現在"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀聲"
             },
             {
               "id": "hebrew-935",
-              "eng": "has come"
+              "cht": "達"
             },
             {
               "id": "hebrew-413",
-              "eng": "to Me",
-              "punct": "､"
+              "cht": "到我"
+            },
+            {
+              "id": "",
+              "cht": "耳中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "and also"
+              "cht": "我也"
             },
             {
               "id": "hebrew-7200",
-              "eng": "I have seen"
+              "cht": "看見"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3906",
-              "eng": "the oppression"
+              "id": "hebrew-4714",
+              "cht": "埃及人"
             },
             {
               "id": "hebrew-834",
-              "eng": "with which"
-            },
-            {
-              "id": "hebrew-4713",
-              "eng": "Egypt"
+              "cht": "怎樣"
             },
             {
               "id": "hebrew-3905",
-              "eng": "oppressed"
+              "cht": "欺壓"
             },
             {
               "id": "hebrew-853",
-              "eng": "them",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4714"
-            },
-            {
-              "id": "hebrew-834"
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         }

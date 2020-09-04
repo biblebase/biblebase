@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-408": "Not",
-          "hebrew-1961": "do mix",
-          "hebrew-5433": "with",
-          "hebrew-3196": "winebibbers",
-          "hebrew-2151": "[Or] with gluttonous eaters",
-          "hebrew-1320": "of meat",
-          "": null
+          "eng": {
+            "hebrew-408": "Not",
+            "hebrew-1961": "do mix",
+            "hebrew-5433": "with",
+            "hebrew-3196": "winebibbers",
+            "hebrew-2151": "[Or] with gluttonous eaters",
+            "hebrew-1320": "of meat",
+            "": null
+          },
+          "cht": {
+            "hebrew-408": "不要",
+            "hebrew-1961": "與他們來往",
+            "hebrew-5433": "好飲",
+            "hebrew-3196": "酒",
+            "hebrew-2151": "好吃",
+            "hebrew-1320": "肉"
+          }
         }
       },
       "translations": {
@@ -25,43 +35,47 @@
             "hebrew-2151": 4.967387449270056
           },
           "verseKey": "pro.23.21",
-          "cunp": "因為好酒貪食的，必致貧窮； 好睡覺的，必穿破爛衣服。",
+          "nasb": "For the heavy drinker and the glutton will come to poverty, And drowsiness will clothe one with rags.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "因為"
             },
             {
               "id": "hebrew-5433",
-              "eng": "the drunkard"
+              "cht": "好酒"
             },
             {
               "id": "hebrew-2151",
-              "eng": "and the glutton"
+              "cht": "貪食"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3423",
-              "eng": "will come to poverty",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7168",
-              "eng": "and with rags"
-            },
-            {
-              "id": "hebrew-3847",
-              "eng": "will clothe [a man]"
+              "cht": "必致貧窮",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5124",
-              "eng": "drowsiness",
-              "punct": "."
+              "cht": "好睡覺"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3847",
+              "cht": "必穿"
+            },
+            {
+              "id": "hebrew-7168",
+              "cht": "破爛衣服",
+              "punct_cht": "。"
             }
           ]
         },
@@ -73,68 +87,73 @@
             "hebrew-3196": 1.4068903824067434
           },
           "verseKey": "isa.56.12",
-          "cunp": "他們說：來吧！我去拿酒， 我們飽飲濃酒； 明日必和今日一樣， 就是宴樂無量極大之日。",
+          "nasb": "“Come,” they say, “let us get wine, and let us drink heavily of strong drink; And tomorrow will be like today, only more so.”",
           "words": [
             {
+              "id": "",
+              "cht": "他們說",
+              "punct_cht": "："
+            },
+            {
               "id": "hebrew-857",
-              "eng": "Come [one says]"
+              "cht": "來吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3947",
-              "eng": "I will bring"
+              "cht": "我去拿"
             },
             {
               "id": "hebrew-3196",
-              "eng": "wine",
-              "punct": "､"
+              "cht": "酒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5433",
-              "eng": "and we will fill ourselves"
+              "cht": "我們飽飲"
             },
             {
               "id": "hebrew-7941",
-              "eng": "with intoxicating drink",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and will be"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "as this"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day",
-              "punct": "､"
+              "cht": "濃酒",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4279",
-              "eng": "Tomorrow"
+              "cht": "明日"
             },
             {
-              "id": "hebrew-1419",
-              "eng": "more"
+              "id": "hebrew-1961",
+              "cht": "必"
             },
             {
-              "id": "hebrew-3499",
-              "eng": "abundant"
+              "id": "hebrew-2088",
+              "cht": "和今"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3966",
-              "eng": "[And] much",
-              "punct": "."
+              "cht": "就是宴樂無量"
             },
             {
-              "id": ""
+              "id": "hebrew-3499",
+              "cht": "極"
             },
             {
-              "id": ""
+              "id": "hebrew-1419",
+              "cht": "大"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "之日",
+              "punct_cht": "。"
             }
           ]
         },
@@ -144,53 +163,46 @@
             "hebrew-5433": 6.7856512265994295
           },
           "verseKey": "nam.1.10",
-          "cunp": "你們像叢雜的荊棘， 像喝醉了的人， 又如枯乾的碎稭全然燒滅。",
+          "nasb": "Like tangled thorns, And like those who are drunken with their drink, They are consumed As stubble completely withered.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
               "id": "hebrew-5704",
-              "eng": "while"
-            },
-            {
-              "id": "hebrew-5518",
-              "eng": "[like] thorns",
-              "punct": "､"
+              "cht": "你們像"
             },
             {
               "id": "hebrew-5440",
-              "eng": "tangled"
+              "cht": "叢雜"
             },
             {
-              "id": "hebrew-5435",
-              "eng": "and while drunken"
+              "id": "hebrew-5518",
+              "cht": "的荊棘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5433",
-              "eng": "[like] drunkards",
-              "punct": "､"
+              "cht": "像喝"
             },
             {
-              "id": "hebrew-398",
-              "eng": "they shall be devoured"
-            },
-            {
-              "id": "hebrew-7179",
-              "eng": "like stubble"
+              "id": "hebrew-5435",
+              "cht": "醉了的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3002",
-              "eng": "dried"
+              "cht": "又如枯乾"
             },
             {
-              "id": "hebrew-4390",
-              "eng": "fully",
-              "punct": "."
+              "id": "hebrew-7179",
+              "cht": "的碎秸"
             },
             {
-              "id": "hebrew-4392"
+              "id": "hebrew-4392",
+              "cht": "全然"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "燒滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -200,100 +212,87 @@
             "hebrew-5433": 6.7856512265994295
           },
           "verseKey": "ezk.23.42",
-          "cunp": "在那裏有羣眾安逸歡樂的聲音，並有粗俗的人和酒徒從曠野同來，把鐲子戴在二婦的手上，把華冠戴在她們的頭上。",
+          "nasb": "The sound of a carefree multitude was with her; and drunkards were brought from the wilderness with men of the common sort. And they put bracelets on the hands of the women and beautiful crowns on their heads.",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "And the sound"
-            },
-            {
               "id": "hebrew-1995",
-              "eng": "of a multitude"
+              "cht": "有群眾"
             },
             {
               "id": "hebrew-7961",
-              "eng": "carefree"
+              "cht": "安逸"
             },
             {
-              "id": "hebrew-413",
-              "eng": "and with"
+              "id": "hebrew-6963",
+              "cht": "歡樂的聲音",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men"
+              "id": "hebrew-582",
+              "cht": "並有"
             },
             {
-              "id": "hebrew-7230",
-              "eng": "of many"
+              "id": "hebrew-4480",
+              "cht": "粗俗的"
             },
             {
               "id": "hebrew-120",
-              "eng": "people"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "[were] brought"
+              "cht": "人"
             },
             {
               "id": "hebrew-5433",
-              "eng": "Sabeans"
+              "cht": "和酒徒"
             },
             {
-              "id": "hebrew-4057",
-              "eng": "from the wilderness",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "從曠野"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and who put"
+              "id": "hebrew-935",
+              "cht": "同來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6781",
-              "eng": "bracelets"
+              "cht": "把鐲子"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "戴"
             },
             {
               "id": "hebrew-413",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-3027",
-              "eng": "their wrists",
-              "punct": "､"
+              "cht": "二婦的手"
             },
             {
-              "id": "hebrew-5850",
-              "eng": "and crowns"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8597",
-              "eng": "beautiful"
+              "cht": "把華"
+            },
+            {
+              "id": "hebrew-5850",
+              "cht": "冠"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "戴在"
             },
             {
               "id": "hebrew-7218",
-              "eng": "their heads",
-              "punct": "."
+              "cht": "她們的頭"
             },
             {
-              "id": "hebrew-582"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-5436"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -303,148 +302,111 @@
             "hebrew-3196": 1.4068903824067434
           },
           "verseKey": "mrk.2.22",
-          "cunp": "也沒有人把新酒裝在舊皮袋裏，恐怕酒把皮袋裂開，酒和皮袋就都壞了；惟把新酒裝在新皮袋裏。」",
+          "nasb": "No one puts new wine into old wineskins; otherwise the wine will burst the skins, and the wine is lost and the skins as well; but one puts new wine into fresh wineskins.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "也"
             },
             {
               "id": "greek-3762",
-              "eng": "no one"
+              "cht": "沒有人"
+            },
+            {
+              "id": "greek-3501",
+              "cht": "把新"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
             },
             {
               "id": "greek-906",
-              "eng": "puts"
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-3501",
-              "eng": "new"
+              "cht": "裝"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins"
+              "cht": "在"
             },
             {
               "id": "greek-3820",
-              "eng": "old",
-              "punct": ";"
+              "cht": "舊"
             },
             {
-              "id": "greek-1487",
-              "eng": "if"
+              "id": "greek-779",
+              "cht": "皮袋"
             },
             {
-              "id": "greek-1161",
-              "eng": "now"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3361",
-              "eng": "not",
-              "punct": ","
+              "id": "greek-3588",
+              "cht": "恐怕"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "把皮袋"
             },
             {
               "id": "greek-4486",
-              "eng": "will burst"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "裂開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins",
-              "punct": ","
+              "cht": "酒"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-622",
-              "eng": "will be destroyed",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-779",
-              "eng": "wineskins",
-              "punct": "."
+              "cht": "皮袋"
+            },
+            {
+              "id": "greek-1632",
+              "cht": "就都壞了",
+              "punct_cht": "；"
             },
             {
               "id": "greek-235",
-              "eng": "Instead",
-              "punct": ","
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
+              "cht": "惟"
             },
             {
               "id": "greek-3501",
-              "eng": "new"
+              "cht": "把新"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
+            },
+            {
+              "id": "greek-992",
+              "cht": "裝"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins"
+              "cht": "在"
             },
             {
               "id": "greek-2537",
-              "eng": "new",
-              "punct": "."
+              "cht": "新"
             },
             {
-              "id": ""
+              "id": "greek-779",
+              "cht": "皮袋"
             },
             {
-              "id": "greek-1490"
-            },
-            {
-              "id": "greek-1632"
-            },
-            {
-              "id": "greek-3501"
-            },
-            {
-              "id": "greek-992"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -455,104 +417,99 @@
             "hebrew-2151": 4.967387449270056
           },
           "verseKey": "jer.15.19",
-          "cunp": "耶和華如此說：你若歸回， 我就將你再帶來， 使你站在我面前； 你若將寶貴的和下賤的分別出來， 你就可以當作我的口。 他們必歸向你， 你卻不可歸向他們。",
+          "nasb": "Therefore, thus says the Lord, “If you return, then I will restore you— Before Me you will stand; And if you extract the precious from the worthless, You will become My spokesman. They for their part may turn to you, But as for you, you must not turn to them.",
           "words": [
             {
-              "id": "hebrew-3651",
-              "eng": "therefore"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-518",
-              "eng": "if"
+              "cht": "你若"
             },
             {
               "id": "hebrew-7725",
-              "eng": "you return",
-              "punct": "､"
+              "cht": "歸回",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "and I will bring you back",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before Me"
+              "cht": "我就將你再帶來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5975",
-              "eng": "You shall stand"
+              "cht": "使你站"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "在我面前",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-518",
-              "eng": "and if"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "you take out"
+              "cht": "你若"
             },
             {
               "id": "hebrew-3368",
-              "eng": "the precious"
+              "cht": "將寶貴的"
             },
             {
-              "id": "hebrew-2151",
-              "eng": "from the vile",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "和下賤的"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "as My mouth",
-              "punct": "."
+              "id": "hebrew-3318",
+              "cht": "分別出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "You shall be"
+              "cht": "你就可以當作"
             },
             {
-              "id": "hebrew-7725",
-              "eng": "let return"
+              "id": "hebrew-6310",
+              "cht": "我的口",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1992",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to you"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "but you"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "他們必"
             },
             {
               "id": "hebrew-7725",
-              "eng": "must return"
+              "cht": "歸"
             },
             {
               "id": "hebrew-413",
-              "eng": "to them",
-              "punct": "."
+              "cht": "向你",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-859",
+              "cht": "你"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "卻不可"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "歸"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "向他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -563,87 +520,86 @@
             "hebrew-2151": 4.967387449270056
           },
           "verseKey": "lam.1.11",
-          "cunp": "她的民都歎息，尋求食物； 他們用美物換糧食，要救性命。 他們說：耶和華啊，求你觀看， 因為我甚是卑賤。",
+          "nasb": "All her people groan seeking bread; They have given their precious things for food To restore their lives themselves. “See, O Lord, and look, For I am despised.”",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "All"
+              "id": "hebrew-5971",
+              "cht": "她的民"
             },
             {
-              "id": "hebrew-5971",
-              "eng": "her people"
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-584",
-              "eng": "sigh",
-              "punct": "､"
+              "cht": "歎息",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1245",
-              "eng": "they seek"
+              "cht": "尋求"
             },
             {
               "id": "hebrew-3899",
-              "eng": "bread",
-              "punct": "–"
+              "cht": "食物",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5414",
-              "eng": "they have given"
+              "cht": "他們用"
             },
             {
               "id": "hebrew-4262",
-              "eng": "their valuables"
+              "cht": "美物"
             },
             {
               "id": "hebrew-400",
-              "eng": "for food"
+              "cht": "換糧食",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "to restore"
+              "cht": "要救"
             },
             {
               "id": "hebrew-5315",
-              "eng": "life",
-              "punct": "–"
+              "cht": "性命"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "See",
-              "punct": "､"
+              "id": "",
+              "cht": "他們說",
+              "punct_cht": "。："
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "求你觀"
             },
             {
               "id": "hebrew-5027",
-              "eng": "and consider",
-              "punct": "–"
+              "cht": "看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1961",
-              "eng": "I am"
+              "cht": "我甚是"
             },
             {
               "id": "hebrew-2151",
-              "eng": "scorned",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4261"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "卑賤",
+              "punct_cht": "。"
             }
           ]
         },
@@ -653,130 +609,95 @@
             "hebrew-1320": 1.042799396354061
           },
           "verseKey": "rev.19.18",
-          "cunp": "可以吃君王與將軍的肉，壯士與馬和騎馬者的肉，並一切自主的為奴的，以及大小人民的肉。」",
+          "nasb": "so that you may eat the flesh of kings and the flesh of commanders and the flesh of mighty men and the flesh of horses and of those who sit on them and the flesh of all men, both free men and slaves, and small and great.”",
           "words": [
             {
               "id": "greek-2443",
-              "eng": "so that"
+              "cht": "可以"
             },
             {
               "id": "greek-5315",
-              "eng": "you may eat"
+              "cht": "吃"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
-            },
-            {
-              "id": "greek-935",
-              "eng": "of kings",
-              "punct": ","
+              "cht": "君王"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "與"
             },
             {
               "id": "greek-5506",
-              "eng": "of commanders",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "將軍"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
-            },
-            {
-              "id": "greek-2478",
-              "eng": "of mighty [men]",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "的肉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "壯士"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "與"
             },
             {
               "id": "greek-2462",
-              "eng": "of horses"
+              "cht": "馬"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of those"
+              "cht": "和"
             },
             {
               "id": "greek-2521",
-              "eng": "sitting"
+              "cht": "騎"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "馬"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "者的肉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
             },
             {
               "id": "greek-3956",
-              "eng": "of all",
-              "punct": ","
-            },
-            {
-              "id": "greek-1658",
-              "eng": "free"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "both"
+              "cht": "一切"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "自主的"
             },
             {
               "id": "greek-1401",
-              "eng": "slaves",
-              "punct": ","
+              "cht": "為奴的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "以及"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "大"
             },
             {
               "id": "greek-3398",
-              "eng": "small"
+              "cht": "小"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3173",
-              "eng": "great",
-              "punct": "."
+              "id": "greek-4561",
+              "cht": "人民的肉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -786,128 +707,100 @@
             "hebrew-2151": 4.967387449270056
           },
           "verseKey": "mat.11.19",
-          "cunp": "人子來了，也吃也喝，人又說他是貪食好酒的人，是稅吏和罪人的朋友。但智慧之子總以智慧為是 。」",
+          "nasb": "The Son of Man came eating and drinking, and they say, ‘Behold, a gluttonous man and a drunkard, a friend of tax collectors and sinners!’ Yet wisdom is vindicated by her deeds.”",
           "words": [
             {
-              "id": "greek-2064",
-              "eng": "Came"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-444",
+              "cht": "人"
             },
             {
               "id": "greek-5207",
-              "eng": "Son"
+              "cht": "子"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-444",
-              "eng": "of Man"
+              "id": "greek-2064",
+              "cht": "來了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2068",
-              "eng": "eating"
+              "cht": "也吃"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
               "id": "greek-4095",
-              "eng": "drinking",
-              "punct": ","
+              "cht": "喝",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "人又"
             },
             {
               "id": "greek-3004",
-              "eng": "they say",
-              "punct": ","
-            },
-            {
-              "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-444",
-              "eng": "a man",
-              "punct": ","
+              "cht": "說"
             },
             {
               "id": "greek-5314",
-              "eng": "a glutton"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "他是貪食"
             },
             {
               "id": "greek-3630",
-              "eng": "a drunkard",
-              "punct": ","
+              "cht": "好酒"
+            },
+            {
+              "id": "greek-444",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5057",
-              "eng": "of tax collectors"
-            },
-            {
-              "id": "greek-5384",
-              "eng": "a friend"
+              "cht": "是稅吏"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-268",
-              "eng": "of sinners",
-              "punct": "!"
+              "cht": "罪人"
+            },
+            {
+              "id": "greek-5384",
+              "cht": "的朋友",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2532",
-              "eng": "But"
-            },
-            {
-              "id": "greek-1344",
-              "eng": "is justified"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4678",
-              "eng": "wisdom"
-            },
-            {
-              "id": "greek-575",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2041",
-              "eng": "deeds"
+              "cht": "但"
             },
             {
               "id": "greek-846",
-              "eng": "of her",
-              "punct": "."
+              "cht": "智慧之"
             },
             {
-              "id": "greek-5043"
+              "id": "greek-5043",
+              "cht": "子"
             },
             {
-              "id": ""
+              "id": "greek-575",
+              "cht": "總以"
+            },
+            {
+              "id": "greek-4678",
+              "cht": "智慧"
+            },
+            {
+              "id": "greek-1344",
+              "cht": "為是"
+            },
+            {
+              "id": "",
+              "cht": "（有古卷但智慧在行為上就顯為是）",
+              "punct_cht": "：。"
             }
           ]
         },
@@ -917,90 +810,67 @@
             "hebrew-2151": 4.967387449270056
           },
           "verseKey": "luk.7.34",
-          "cunp": "人子來，也吃也喝，你們說他是貪食好酒的人，是稅吏和罪人的朋友。",
+          "nasb": "The Son of Man has come eating and drinking, and you say, ‘Behold, a gluttonous man and a drunkard, a friend of tax collectors and sinners!’",
           "words": [
             {
-              "id": "greek-2064",
-              "eng": "Has come"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-444",
+              "cht": "人"
             },
             {
               "id": "greek-5207",
-              "eng": "Son"
+              "cht": "子"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-444",
-              "eng": "of Man",
-              "punct": ","
+              "id": "greek-2064",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2068",
-              "eng": "eating"
+              "cht": "也吃"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
               "id": "greek-4095",
-              "eng": "drinking",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "you say",
-              "punct": ","
+              "cht": "喝",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-444",
-              "eng": "a man",
-              "punct": ","
+              "cht": "你們說"
             },
             {
               "id": "greek-5314",
-              "eng": "a glutton"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "他是貪食"
             },
             {
               "id": "greek-3630",
-              "eng": "a drunkard",
-              "punct": ","
+              "cht": "好酒"
             },
             {
-              "id": "greek-5384",
-              "eng": "a friend"
+              "id": "greek-444",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5057",
-              "eng": "of tax collectors"
+              "cht": "是稅吏"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-268",
-              "eng": "of sinners",
-              "punct": "."
+              "cht": "罪人"
+            },
+            {
+              "id": "greek-5384",
+              "cht": "的朋友",
+              "punct_cht": "。"
             }
           ]
         }

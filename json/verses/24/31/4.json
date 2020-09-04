@@ -3,16 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5750": "again",
-          "hebrew-1129": "and you shall be rebuilt",
-          "hebrew-1330": "virgin",
-          "hebrew-3478": "of Israel",
-          "hebrew-5710": "You shall be adorned",
-          "hebrew-8596": "with your tambourines",
-          "hebrew-3318": "and shall go forth",
-          "hebrew-4234": "in the dances",
-          "hebrew-7832": "of those who rejoice",
-          "": null
+          "eng": {
+            "hebrew-5750": "again",
+            "hebrew-1129": "and you shall be rebuilt",
+            "hebrew-1330": "virgin",
+            "hebrew-3478": "of Israel",
+            "hebrew-5710": "You shall be adorned",
+            "hebrew-8596": "with your tambourines",
+            "hebrew-3318": "and shall go forth",
+            "hebrew-4234": "in the dances",
+            "hebrew-7832": "of those who rejoice",
+            "": null
+          },
+          "cht": {
+            "hebrew-5750": "你必再",
+            "hebrew-1129": "你就被建立",
+            "hebrew-1330": "原文是處女",
+            "hebrew-3478": "以色列",
+            "hebrew-5710": "為美",
+            "hebrew-8596": "以擊鼓",
+            "hebrew-3318": "而出",
+            "hebrew-4234": "的人一同跳舞",
+            "hebrew-7832": "與歡樂"
+          }
         }
       },
       "translations": {
@@ -31,32 +44,32 @@
             "hebrew-4234": 6.7856512265994295
           },
           "verseKey": "psa.149.3",
-          "cunp": "願他們跳舞讚美他的名， 擊鼓彈琴歌頌他！",
+          "nasb": "Let them praise His name with dancing; Let them sing praises to Him with timbrel and lyre.",
           "words": [
             {
+              "id": "hebrew-4234",
+              "cht": "願他們跳舞"
+            },
+            {
               "id": "hebrew-1984",
-              "eng": "Let them praise"
+              "cht": "讚美"
             },
             {
               "id": "hebrew-8034",
-              "eng": "His name"
-            },
-            {
-              "id": "hebrew-4234",
-              "eng": "with the dance",
-              "punct": "–"
+              "cht": "他的名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8596",
-              "eng": "with the timbrel"
+              "cht": "擊鼓"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and harp"
+              "cht": "彈琴"
             },
             {
               "id": "hebrew-2167",
-              "eng": "let them sing praises"
+              "cht": "歌頌"
             }
           ]
         },
@@ -67,33 +80,33 @@
             "hebrew-4234": 6.7856512265994295
           },
           "verseKey": "psa.150.4",
-          "cunp": "擊鼓跳舞讚美他！ 用絲弦的樂器和簫的聲音讚美他！",
+          "nasb": "Praise Him with timbrel and dancing; Praise Him with stringed instruments and pipe.",
           "words": [
             {
-              "id": "hebrew-1984",
-              "eng": "Praise Him"
-            },
-            {
               "id": "hebrew-8596",
-              "eng": "with the timbrel"
+              "cht": "擊鼓"
             },
             {
               "id": "hebrew-4234",
-              "eng": "and dance",
-              "punct": "–"
+              "cht": "跳舞"
             },
             {
               "id": "hebrew-1984",
-              "eng": "Praise Him"
+              "cht": "讚美他",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-4482",
-              "eng": "with stringed instruments"
+              "cht": "用絲弦的樂器"
             },
             {
               "id": "hebrew-5748",
-              "eng": "and flutes",
-              "punct": "."
+              "cht": "和簫"
+            },
+            {
+              "id": "hebrew-1984",
+              "cht": "的聲音讚美他",
+              "punct_cht": "！"
             }
           ]
         },
@@ -104,69 +117,70 @@
             "hebrew-4234": 6.7856512265994295
           },
           "verseKey": "jer.31.13",
-          "cunp": "那時，處女必歡樂跳舞； 年少的、年老的，也必一同歡樂； 因為我要使他們的悲哀變為歡喜， 並要安慰他們，使他們的愁煩轉為快樂。",
+          "nasb": "Then the virgin will rejoice in the dance, And the young men and the old, together, For I will turn their mourning into joy And will comfort them and give them joy for their sorrow.",
           "words": [
             {
               "id": "hebrew-227",
-              "eng": "Then"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "shall rejoice"
+              "cht": "那時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1330",
-              "eng": "the virgin"
-            },
-            {
-              "id": "hebrew-4234",
-              "eng": "in the dance",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-970",
-              "eng": "and the young men"
-            },
-            {
-              "id": "hebrew-2205",
-              "eng": "and the old"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "together",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2015",
-              "eng": "for I will turn"
-            },
-            {
-              "id": "hebrew-60",
-              "eng": "their mourning"
-            },
-            {
-              "id": "hebrew-8342",
-              "eng": "to joy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5162",
-              "eng": "and will comfort them"
+              "cht": "處女"
             },
             {
               "id": "hebrew-8055",
-              "eng": "and make them rejoice"
+              "cht": "必歡樂"
+            },
+            {
+              "id": "hebrew-4234",
+              "cht": "跳舞",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-970",
+              "cht": "年少的、"
+            },
+            {
+              "id": "hebrew-2205",
+              "cht": "年老的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "也必一同"
+            },
+            {
+              "id": "",
+              "cht": "歡樂",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-60",
+              "cht": "因為我要使他們的悲哀"
+            },
+            {
+              "id": "hebrew-2015",
+              "cht": "變為"
+            },
+            {
+              "id": "hebrew-8342",
+              "cht": "歡喜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5162",
+              "cht": "並要安慰他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3015",
-              "eng": "rather than sorrow",
-              "punct": "."
+              "cht": "使他們的愁煩"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-8055",
+              "cht": "轉為快樂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -177,66 +191,63 @@
             "hebrew-3318": 0.6448696551882642
           },
           "verseKey": "exo.15.20",
-          "cunp": "亞倫的姊姊，女先知米利暗，手裏拿着鼓；眾婦女也跟她出去拿鼓跳舞。",
+          "nasb": "Miriam the prophetess, Aaron’s sister, took the timbrel in her hand, and all the women went out after her with timbrels and with dancing.",
           "words": [
             {
-              "id": "hebrew-3947",
-              "eng": "And took"
-            },
-            {
-              "id": "hebrew-4813",
-              "eng": "Miriam"
-            },
-            {
-              "id": "hebrew-5031",
-              "eng": "the prophetess"
+              "id": "hebrew-175",
+              "cht": "亞倫"
             },
             {
               "id": "hebrew-269",
-              "eng": "the sister"
+              "cht": "的姊姊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-175",
-              "eng": "of Aaron",
-              "punct": "､"
+              "id": "hebrew-5031",
+              "cht": "女先知"
             },
             {
-              "id": "hebrew-853",
-              "eng": "the"
-            },
-            {
-              "id": "hebrew-8596",
-              "eng": "timbrel"
+              "id": "hebrew-4813",
+              "cht": "米利暗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "in her hand",
-              "punct": "–"
+              "cht": "手裡"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "and went out"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "the women"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "after her"
+              "id": "hebrew-3947",
+              "cht": "拿著"
             },
             {
               "id": "hebrew-8596",
-              "eng": "with timbrels"
+              "cht": "鼓",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "眾"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "婦女"
+            },
+            {
+              "id": "hebrew-310",
+              "cht": "也跟她"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "出去"
+            },
+            {
+              "id": "hebrew-8596",
+              "cht": "拿鼓"
             },
             {
               "id": "hebrew-4246",
-              "eng": "and with dances",
-              "punct": "."
+              "cht": "跳舞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -248,73 +259,70 @@
             "hebrew-7832": 2.6924581556670724
           },
           "verseKey": "2sa.6.5",
-          "cunp": "大衛和以色列的全家在耶和華面前，用松木製造的各樣樂器和琴、瑟、鼓、鈸、鑼，作樂跳舞。",
+          "nasb": "Meanwhile, David and all the house of Israel were celebrating before the Lord with all kinds of instruments made of fir wood, and with lyres, harps, tambourines, castanets and cymbals.",
           "words": [
             {
               "id": "hebrew-1732",
-              "eng": "And David"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
-            },
-            {
-              "id": "hebrew-7832",
-              "eng": "played [music]"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "和以色列"
             },
             {
               "id": "hebrew-3605",
-              "eng": "on all kinds"
+              "cht": "的全"
             },
             {
-              "id": "hebrew-6086",
-              "eng": "of [instruments of] wood",
-              "punct": "､"
+              "id": "hebrew-1004",
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "在耶和華"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "面前",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1265",
-              "eng": "fir"
+              "cht": "用松"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "木"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "製造的各樣"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and on harps",
-              "punct": "､"
+              "cht": "樂器和琴、"
             },
             {
               "id": "hebrew-5035",
-              "eng": "and on stringed instruments",
-              "punct": "､"
+              "cht": "瑟、"
             },
             {
               "id": "hebrew-8596",
-              "eng": "and on tambourines",
-              "punct": "､"
+              "cht": "鼓、"
             },
             {
               "id": "hebrew-4517",
-              "eng": "and on sistrums",
-              "punct": "､"
+              "cht": "鈸、"
             },
             {
               "id": "hebrew-6767",
-              "eng": "and on cymbals",
-              "punct": "."
+              "cht": "鑼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7832",
+              "cht": "作樂跳舞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -326,76 +334,73 @@
             "hebrew-7832": 2.6924581556670724
           },
           "verseKey": "1ch.13.8",
-          "cunp": "大衛和以色列眾人在神前用琴、瑟、鑼、鼓、號作樂，極力跳舞歌唱。",
+          "nasb": "David and all Israel were celebrating before God with all their might, even with songs and with lyres, harps, tambourines, cymbals and with trumpets.",
           "words": [
             {
               "id": "hebrew-1732",
-              "eng": "And David"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel"
-            },
-            {
-              "id": "hebrew-7832",
-              "eng": "played [music]"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
+              "cht": "和以色列"
             },
             {
               "id": "hebrew-3605",
-              "eng": "with all"
+              "cht": "眾人"
             },
             {
-              "id": "hebrew-5797",
-              "eng": "[their] might",
-              "punct": "､"
+              "id": "",
+              "cht": "在"
             },
             {
-              "id": "hebrew-7892",
-              "eng": "and with singing",
-              "punct": "､"
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "前"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and on harps",
-              "punct": "､"
+              "cht": "用琴、"
             },
             {
               "id": "hebrew-5035",
-              "eng": "and on stringed instruments",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8596",
-              "eng": "and on tambourines",
-              "punct": "､"
+              "cht": "瑟、"
             },
             {
               "id": "hebrew-4700",
-              "eng": "and on cymbals",
-              "punct": "､"
+              "cht": "鑼、"
+            },
+            {
+              "id": "hebrew-8596",
+              "cht": "鼓、"
             },
             {
               "id": "hebrew-2689",
-              "eng": "and with trumpets",
-              "punct": "."
+              "cht": "號"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "作樂",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "極"
+            },
+            {
+              "id": "hebrew-5797",
+              "cht": "力"
+            },
+            {
+              "id": "hebrew-7832",
+              "cht": "跳舞"
+            },
+            {
+              "id": "hebrew-7892",
+              "cht": "歌唱",
+              "punct_cht": "。"
             }
           ]
         },
@@ -405,38 +410,38 @@
             "hebrew-4234": 6.7856512265994295
           },
           "verseKey": "psa.30.11",
-          "cunp": "你已將我的哀哭變為跳舞， 將我的麻衣脫去，給我披上喜樂，",
+          "nasb": "You have turned for me my mourning into dancing; You have loosed my sackcloth and girded me with gladness,",
           "words": [
             {
-              "id": "hebrew-2015",
-              "eng": "You have turned"
+              "id": "hebrew-4553",
+              "cht": "你已將我的哀哭"
             },
             {
-              "id": "hebrew-4553",
-              "eng": "my mourning"
+              "id": "hebrew-2015",
+              "cht": "變為"
             },
             {
               "id": "hebrew-4234",
-              "eng": "into dancing",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6605",
-              "eng": "You have put off"
+              "cht": "跳舞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8242",
-              "eng": "my sackcloth",
-              "punct": "､"
+              "cht": "將我的麻衣"
+            },
+            {
+              "id": "hebrew-6605",
+              "cht": "脫去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-247",
-              "eng": "and clothed me"
+              "cht": "給我披上"
             },
             {
               "id": "hebrew-8057",
-              "eng": "with gladness",
-              "punct": "–"
+              "cht": "喜樂",
+              "punct_cht": "，"
             }
           ]
         },
@@ -447,55 +452,32 @@
             "hebrew-5710": 3.7212505791847406
           },
           "verseKey": "mat.25.7",
-          "cunp": "那些童女就都起來收拾燈。",
+          "nasb": "Then all those virgins rose and trimmed their lamps.",
           "words": [
             {
-              "id": "greek-5119",
-              "eng": "Then"
-            },
-            {
-              "id": "greek-1453",
-              "eng": "arose"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1565",
+              "cht": "那些"
             },
             {
               "id": "greek-3933",
-              "eng": "virgins"
+              "cht": "童女"
             },
             {
-              "id": "greek-1565",
-              "eng": "those"
+              "id": "greek-3956",
+              "cht": "就都"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1453",
+              "cht": "起來"
             },
             {
               "id": "greek-2885",
-              "eng": "trimmed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "收拾"
             },
             {
               "id": "greek-2985",
-              "eng": "lamps"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "of them",
-              "punct": "."
-            },
-            {
-              "id": "greek-846"
+              "cht": "燈",
+              "punct_cht": "。"
             }
           ]
         },
@@ -507,107 +489,90 @@
             "hebrew-3318": 0.6448696551882642
           },
           "verseKey": "1sa.18.6",
-          "cunp": "大衛打死了那非利士人，同眾人回來的時候，婦女們從以色列各城裏出來，歡歡喜喜，打鼓擊磬，歌唱跳舞，迎接掃羅王。",
+          "nasb": "It happened as they were coming, when David returned from killing the Philistine, that the women came out of all the cities of Israel, singing and dancing, to meet King Saul, with tambourines, with joy and with musical instruments.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it had happened"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "as they were coming [home]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "when was returning"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
-              "id": "hebrew-5221",
-              "eng": "from the slaughter"
+              "id": "hebrew-4480",
+              "cht": "打死了"
             },
             {
               "id": "hebrew-853",
-              "eng": "of"
+              "cht": "那"
             },
             {
               "id": "hebrew-6430",
-              "eng": "the Philistine",
-              "punct": "､"
+              "cht": "非利士人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "that had come out"
+              "id": "hebrew-7725",
+              "cht": "同眾人回來"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-802",
-              "eng": "the women"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "the cities"
+              "cht": "婦女們"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "從以色列"
             },
             {
-              "id": "hebrew-7891",
-              "eng": "singing"
+              "id": "hebrew-3605",
+              "cht": "各"
             },
             {
-              "id": "hebrew-4246",
-              "eng": "and dancing",
-              "punct": "､"
+              "id": "hebrew-5892",
+              "cht": "城"
             },
             {
-              "id": "hebrew-7122",
-              "eng": "to meet"
-            },
-            {
-              "id": "hebrew-7586",
-              "eng": "Saul",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "King"
-            },
-            {
-              "id": "hebrew-8596",
-              "eng": "with tambourines",
-              "punct": "､"
+              "id": "hebrew-3318",
+              "cht": "裡出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8057",
-              "eng": "with joy",
-              "punct": "､"
+              "cht": "歡歡喜喜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8596",
+              "cht": "打鼓"
             },
             {
               "id": "hebrew-7991",
-              "eng": "and with musical instruments",
-              "punct": "."
+              "cht": "擊磬",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7891",
+              "cht": "歌唱"
             },
             {
-              "id": ""
+              "id": "hebrew-4246",
+              "cht": "跳舞",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7125",
+              "cht": "迎接"
             },
             {
-              "id": "hebrew-7125"
+              "id": "hebrew-7586",
+              "cht": "掃羅"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王",
+              "punct_cht": "。"
             }
           ]
         },
@@ -618,88 +583,88 @@
             "hebrew-3318": 0.6448696551882642
           },
           "verseKey": "jdg.11.34",
-          "cunp": "耶弗他回米斯巴到了自己的家，不料，他女兒拿着鼓跳舞出來迎接他，是他獨生的，此外無兒無女。",
+          "nasb": "When Jephthah came to his house at Mizpah, behold, his daughter was coming out to meet him with tambourines and with dancing. Now she was his one and only child; besides her he had no son or daughter.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "And when came"
+              "id": "hebrew-3316",
+              "cht": "耶弗他"
             },
             {
-              "id": "hebrew-3316",
-              "eng": "Jephthah"
+              "id": "hebrew-935",
+              "cht": "回"
             },
             {
               "id": "hebrew-4709",
-              "eng": "at Mizpah"
+              "cht": "米斯巴"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到了"
             },
             {
               "id": "hebrew-1004",
-              "eng": "his house",
-              "punct": "､"
+              "cht": "自己的家",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and there was",
-              "punct": "､"
+              "cht": "不料",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1323",
-              "eng": "his daughter"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "coming out"
-            },
-            {
-              "id": "hebrew-7125",
-              "eng": "to meet him"
+              "cht": "他女兒"
             },
             {
               "id": "hebrew-8596",
-              "eng": "with timbrels"
+              "cht": "拿著鼓"
             },
             {
               "id": "hebrew-4246",
-              "eng": "and dancing",
-              "punct": "."
+              "cht": "跳舞"
             },
             {
-              "id": "hebrew-7535",
-              "eng": "And only"
+              "id": "hebrew-3318",
+              "cht": "出來"
+            },
+            {
+              "id": "hebrew-7125",
+              "cht": "迎接他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "she [was]"
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-7535",
+              "cht": "他獨"
             },
             {
               "id": "hebrew-3173",
-              "eng": "[his] child",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "not"
+              "cht": "生的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "Besides her"
+              "cht": "此外"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "無"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "兒"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "無"
             },
             {
               "id": "hebrew-1323",
-              "eng": "daughter",
-              "punct": "."
+              "cht": "女",
+              "punct_cht": "。"
             }
           ]
         }

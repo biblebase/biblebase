@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7200": "Do you see",
-          "hebrew-376": "a man",
-          "hebrew-2450": "wise",
-          "hebrew-5869": "in his own eyes",
-          "hebrew-8615": "[There is] more hope",
-          "hebrew-3684": "for a fool",
-          "hebrew-4480": "than for him",
-          "": null
+          "eng": {
+            "hebrew-7200": "Do you see",
+            "hebrew-376": "a man",
+            "hebrew-2450": "wise",
+            "hebrew-5869": "in his own eyes",
+            "hebrew-8615": "[There is] more hope",
+            "hebrew-3684": "for a fool",
+            "hebrew-4480": "than for him",
+            "": null
+          },
+          "cht": {
+            "hebrew-7200": "你見",
+            "hebrew-376": "的人",
+            "hebrew-2450": "有智慧",
+            "hebrew-5869": "自以為",
+            "hebrew-8615": "更有指望",
+            "hebrew-3684": "愚昧人",
+            "hebrew-4480": "比他"
+          }
         }
       },
       "translations": {
@@ -28,84 +39,84 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "ecc.2.16",
-          "cunp": "智慧人和愚昧人一樣，永遠無人記念，因為日後都被忘記；可歎智慧人死亡，與愚昧人無異。",
+          "nasb": "For there is no lasting remembrance of the wise man as with the fool, inasmuch as in the coming days all will be forgotten. And how the wise man and the fool alike die!",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "[there is] no"
-            },
-            {
-              "id": "hebrew-2146",
-              "eng": "remembrance"
-            },
-            {
               "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-5973",
-              "eng": "more than"
+              "cht": "和"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of the fool"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-7945",
+              "cht": "一樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "–"
+              "cht": "永遠"
             },
             {
-              "id": "hebrew-3528",
-              "eng": "Since that now [is]"
+              "id": "hebrew-369",
+              "cht": "無人"
+            },
+            {
+              "id": "hebrew-2146",
+              "cht": "記念",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in the days"
+              "cht": "日"
             },
             {
               "id": "hebrew-935",
-              "eng": "to come"
+              "cht": "後"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
             },
             {
               "id": "hebrew-7911",
-              "eng": "will be forgotten",
-              "punct": "."
+              "cht": "被忘記",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-349",
-              "eng": "And how"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "does die"
+              "cht": "可歎"
             },
             {
               "id": "hebrew-2450",
-              "eng": "a wise [man]"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "死亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5973",
-              "eng": "as"
+              "cht": "與"
             },
             {
               "id": "hebrew-3684",
-              "eng": "the fool",
-              "punct": "."
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-7945"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "無異",
+              "punct_cht": "。"
             }
           ]
         },
@@ -117,39 +128,41 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "pro.29.20",
-          "cunp": "你見言語急躁的人嗎？ 愚昧人比他更有指望。",
+          "nasb": "Do you see a man who is hasty in his words? There is more hope for a fool than for him.",
           "words": [
             {
               "id": "hebrew-2372",
-              "eng": "Do you see"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-213",
-              "eng": "hasty"
+              "cht": "你見"
             },
             {
               "id": "hebrew-1697",
-              "eng": "in his words"
+              "cht": "言語"
             },
             {
-              "id": "hebrew-8615",
-              "eng": "[There is] more hope"
+              "id": "hebrew-213",
+              "cht": "急躁的"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3684",
-              "eng": "for a fool"
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-4480",
-              "eng": "than for him",
-              "punct": "."
+              "cht": "比他更"
             },
             {
-              "id": ""
+              "id": "hebrew-8615",
+              "cht": "有指望",
+              "punct_cht": "。"
             }
           ]
         },
@@ -160,95 +173,78 @@
             "hebrew-8615": 3.483676583494497
           },
           "verseKey": "rut.1.12",
-          "cunp": "我女兒們哪，回去吧！我年紀老邁，不能再有丈夫；即或說，我還有指望，今夜有丈夫可以生子，",
+          "nasb": "Return, my daughters! Go, for I am too old to have a husband. If I said I have hope, if I should even have a husband tonight and also bear sons,",
           "words": [
             {
-              "id": "hebrew-7725",
-              "eng": "Turn back",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1323",
-              "eng": "my daughters",
-              "punct": "､"
+              "cht": "我女兒們"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "go"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-7725",
+              "cht": "回"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "去吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-2204",
-              "eng": "I am too old"
+              "cht": "我年紀老邁",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "to have"
+              "id": "hebrew-4480",
+              "cht": "不能再有"
             },
             {
               "id": "hebrew-376",
-              "eng": "a husband",
-              "punct": "."
+              "cht": "丈夫",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "If"
+              "cht": "即或"
             },
             {
               "id": "hebrew-559",
-              "eng": "I should say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3426",
-              "eng": "have"
+              "cht": "還有"
             },
             {
               "id": "hebrew-8615",
-              "eng": "hope",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "also"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "[if] I should have"
+              "cht": "指望",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3915",
-              "eng": "tonight",
-              "punct": "､"
+              "cht": "今夜"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
             },
             {
               "id": "hebrew-376",
-              "eng": "a husband"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and also"
+              "cht": "丈夫"
             },
             {
               "id": "hebrew-3205",
-              "eng": "should bear"
+              "cht": "可以生"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons",
-              "punct": "–"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "子",
+              "punct_cht": "，"
             }
           ]
         },
@@ -260,54 +256,54 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "psa.49.10",
-          "cunp": "他必見智慧人死， 又見愚頑人和畜類人一同滅亡， 將他們的財貨留給別人。",
+          "nasb": "For he sees that even wise men die; The stupid and the senseless alike perish And leave their wealth to others.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "他必"
             },
             {
               "id": "hebrew-7200",
-              "eng": "he sees"
+              "cht": "見"
             },
             {
               "id": "hebrew-2450",
-              "eng": "wise men"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "die",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "Likewise"
+              "cht": "死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3684",
-              "eng": "the fool"
+              "cht": "又見愚頑人"
             },
             {
               "id": "hebrew-1198",
-              "eng": "and the stupid person"
+              "cht": "和畜類人"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "一同"
             },
             {
               "id": "hebrew-6",
-              "eng": "perish",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5800",
-              "eng": "and leave"
-            },
-            {
-              "id": "hebrew-312",
-              "eng": "to others"
+              "cht": "滅亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2428",
-              "eng": "their wealth",
-              "punct": "."
+              "cht": "將他們的財貨"
+            },
+            {
+              "id": "hebrew-5800",
+              "cht": "留"
+            },
+            {
+              "id": "hebrew-312",
+              "cht": "給別人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -317,98 +313,80 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "2co.11.16",
-          "cunp": "我再說，人不可把我看作愚妄的。縱然如此，也要把我當作愚妄人接納，叫我可以略略自誇。",
+          "nasb": "Again I say, let no one think me foolish; but if you do, receive me even as foolish, so that I also may boast a little.",
           "words": [
             {
               "id": "greek-3825",
-              "eng": "Again"
+              "cht": "我再"
             },
             {
               "id": "greek-3004",
-              "eng": "I say",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5100",
+              "cht": "人"
             },
             {
               "id": "greek-3361",
-              "eng": "no"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "one"
+              "cht": "不可"
             },
             {
               "id": "greek-3165",
-              "eng": "me"
+              "cht": "把我"
             },
             {
               "id": "greek-1380",
-              "eng": "should think"
-            },
-            {
-              "id": "greek-878",
-              "eng": "a fool"
+              "cht": "看"
             },
             {
               "id": "greek-1511",
-              "eng": "to be",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-1490",
-              "eng": "otherwise"
-            },
-            {
-              "id": "greek-2579",
-              "eng": "even"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "as"
+              "cht": "作"
             },
             {
               "id": "greek-878",
-              "eng": "a fool"
+              "cht": "愚妄的",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-1209",
-              "eng": "receive"
+              "id": "greek-2579",
+              "cht": "縱然如此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3165",
-              "eng": "me",
-              "punct": ","
+              "cht": "也要把我"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "當作"
+            },
+            {
+              "id": "greek-878",
+              "cht": "愚妄人"
+            },
+            {
+              "id": "greek-1209",
+              "cht": "接納",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
+              "cht": "叫"
             },
             {
               "id": "greek-2504",
-              "eng": "I also"
-            },
-            {
-              "id": "greek-3398",
-              "eng": "little"
+              "cht": "我"
             },
             {
               "id": "greek-5100",
-              "eng": "a"
+              "cht": "可以略略"
             },
             {
               "id": "greek-2744",
-              "eng": "may boast",
-              "punct": "."
-            },
-            {
-              "id": "greek-3397"
+              "cht": "自誇",
+              "punct_cht": "。"
             }
           ]
         },
@@ -420,44 +398,37 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "ecc.7.5",
-          "cunp": "聽智慧人的責備， 強如聽愚昧人的歌唱。",
+          "nasb": "It is better to listen to the rebuke of a wise man Than for one to listen to the song of fools.",
           "words": [
             {
-              "id": "hebrew-2896",
-              "eng": "[it is] better"
-            },
-            {
               "id": "hebrew-8085",
-              "eng": "to hear"
-            },
-            {
-              "id": "hebrew-1606",
-              "eng": "the rebuke"
+              "cht": "聽"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of the wise",
-              "punct": "､"
+              "cht": "智慧人"
             },
             {
-              "id": "hebrew-376",
-              "eng": "Than for a man"
+              "id": "hebrew-1606",
+              "cht": "的責備",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "強如"
             },
             {
               "id": "hebrew-8085",
-              "eng": "to hear"
-            },
-            {
-              "id": "hebrew-7892",
-              "eng": "the song"
+              "cht": "聽"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools",
-              "punct": "."
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7892",
+              "cht": "的歌唱",
+              "punct_cht": "。"
             }
           ]
         },
@@ -467,86 +438,79 @@
             "hebrew-8615": 3.483676583494497
           },
           "verseKey": "jer.29.11",
-          "cunp": "耶和華說：我知道我向你們所懷的意念是賜平安的意念，不是降災禍的意念，要叫你們末後有指望。",
+          "nasb": "For I know the plans that I have for you,’ declares the Lord, ‘plans for welfare and not for calamity to give you a future and a hope.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-595",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "know"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4284",
-              "eng": "the thoughts"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-595",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-2803",
-              "eng": "think"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "toward you"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-595",
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知道"
+            },
+            {
+              "id": "hebrew-595",
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "向你們"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-2803",
+              "cht": "懷"
             },
             {
               "id": "hebrew-4284",
-              "eng": "thoughts"
+              "cht": "的意念"
             },
             {
               "id": "hebrew-7965",
-              "eng": "of peace",
-              "punct": "､"
+              "cht": "是賜平安"
+            },
+            {
+              "id": "hebrew-4284",
+              "cht": "的意念",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "不是"
             },
             {
               "id": "hebrew-7451",
-              "eng": "of evil",
-              "punct": "､"
+              "cht": "降災禍"
+            },
+            {
+              "id": "",
+              "cht": "的意念",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "to give"
+              "cht": "要叫"
             },
             {
               "id": "hebrew-319",
-              "eng": "a future"
+              "cht": "末後"
             },
             {
               "id": "hebrew-8615",
-              "eng": "and a hope",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "有指望",
+              "punct_cht": "。"
             }
           ]
         },
@@ -556,42 +520,42 @@
             "hebrew-8615": 3.483676583494497
           },
           "verseKey": "pro.11.7",
-          "cunp": "惡人一死，他的指望必滅絕； 罪人的盼望也必滅沒。",
+          "nasb": "When a wicked man dies, his expectation will perish, And the hope of strong men perishes.",
           "words": [
             {
-              "id": "hebrew-4194",
-              "eng": "When dies",
-              "punct": "､"
+              "id": "hebrew-7563",
+              "cht": "惡"
             },
             {
               "id": "hebrew-120",
-              "eng": "a man"
+              "cht": "人"
             },
             {
-              "id": "hebrew-7563",
-              "eng": "wicked"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "will perish",
-              "punct": "､"
+              "id": "hebrew-4194",
+              "cht": "一死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8615",
-              "eng": "[his] expectation"
-            },
-            {
-              "id": "hebrew-8431",
-              "eng": "and the hope in"
-            },
-            {
-              "id": "hebrew-205",
-              "eng": "strength"
+              "cht": "他的指望"
             },
             {
               "id": "hebrew-6",
-              "eng": "perishes",
-              "punct": "."
+              "cht": "必滅絕",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-205",
+              "cht": "罪人"
+            },
+            {
+              "id": "hebrew-8431",
+              "cht": "的盼望"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "也必滅沒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -601,50 +565,46 @@
             "hebrew-8615": 3.483676583494497
           },
           "verseKey": "pro.19.18",
-          "cunp": "趁有指望，管教你的兒子； 你的心不可任他死亡。",
+          "nasb": "Discipline your son while there is hope, And do not desire his death.",
           "words": [
             {
-              "id": "hebrew-3256",
-              "eng": "Chasten"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "your son"
-            },
-            {
               "id": "hebrew-3588",
-              "eng": "while"
+              "cht": "趁"
             },
             {
               "id": "hebrew-3426",
-              "eng": "there is"
+              "cht": "有"
             },
             {
               "id": "hebrew-8615",
-              "eng": "hope",
-              "punct": "､"
+              "cht": "指望",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-413",
-              "eng": "and on"
+              "id": "hebrew-3256",
+              "cht": "管教"
             },
             {
-              "id": "hebrew-4191",
-              "eng": "his destruction",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "do set"
+              "id": "hebrew-1121",
+              "cht": "你的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5315",
-              "eng": "your heart",
-              "punct": "."
+              "cht": "你的心"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "不可"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "任"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "他死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -654,38 +614,38 @@
             "hebrew-8615": 3.483676583494497
           },
           "verseKey": "job.11.18",
-          "cunp": "你因有指望就必穩固， 也必四圍巡查，坦然安息。",
+          "nasb": "Then you would trust, because there is hope; And you would look around and rest securely.",
           "words": [
             {
-              "id": "hebrew-982",
-              "eng": "And you would be secure",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "你因"
             },
             {
               "id": "hebrew-3426",
-              "eng": "there is"
+              "cht": "有"
             },
             {
               "id": "hebrew-8615",
-              "eng": "hope",
-              "punct": "–"
+              "cht": "指望"
+            },
+            {
+              "id": "hebrew-982",
+              "cht": "就必穩固",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2658",
-              "eng": "and Yes you would dig [around you]"
+              "cht": "也必四圍巡查",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-983",
-              "eng": "in safety"
+              "cht": "坦然"
             },
             {
               "id": "hebrew-7901",
-              "eng": "[and] take your rest",
-              "punct": "."
+              "cht": "安息",
+              "punct_cht": "。"
             }
           ]
         }

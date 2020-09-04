@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3605": "They [are] all",
-          "hebrew-5228": "plain",
-          "hebrew-995": "to him who understands",
-          "hebrew-3477": "and right",
-          "hebrew-4672": "to those who find",
-          "hebrew-1847": "knowledge"
+          "eng": {
+            "hebrew-3605": "They [are] all",
+            "hebrew-5228": "plain",
+            "hebrew-995": "to him who understands",
+            "hebrew-3477": "and right",
+            "hebrew-4672": "to those who find",
+            "hebrew-1847": "knowledge"
+          },
+          "cht": {
+            "hebrew-3605": "以為",
+            "hebrew-5228": "明顯",
+            "hebrew-995": "有聰明的",
+            "hebrew-3477": "以為正直",
+            "hebrew-4672": "得",
+            "hebrew-1847": "知識的"
+          }
         }
       },
       "translations": {
@@ -24,28 +34,25 @@
             "hebrew-5228": 8.539323589735611
           },
           "verseKey": "pro.24.26",
-          "cunp": "應對正直的，猶如與人親嘴。",
+          "nasb": "He kisses the lips Who gives a right answer.",
           "words": [
             {
-              "id": "hebrew-8193",
-              "eng": "The lips"
-            },
-            {
-              "id": "hebrew-5401",
-              "eng": "kisses"
-            },
-            {
               "id": "hebrew-7725",
-              "eng": "He who gives"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "a answer"
+              "cht": "應對"
             },
             {
               "id": "hebrew-5228",
-              "eng": "right",
-              "punct": "."
+              "cht": "正直的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5401",
+              "cht": "猶如與人親"
+            },
+            {
+              "id": "hebrew-8193",
+              "cht": "嘴",
+              "punct_cht": "。"
             }
           ]
         },
@@ -55,63 +62,54 @@
             "hebrew-5228": 8.539323589735611
           },
           "verseKey": "2sa.15.3",
-          "cunp": "押沙龍對他說：「你的事有情有理，無奈王沒有委人聽你伸訴。」",
+          "nasb": "Then Absalom would say to him, “See, your claims are good and right, but no man listens to you on the part of the king.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And would say"
+              "id": "hebrew-53",
+              "cht": "押沙龍"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him"
+              "cht": "對他"
             },
             {
-              "id": "hebrew-53",
-              "eng": "Absalom"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "Look",
-              "punct": "､"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-1697",
-              "eng": "your case [is]"
+              "cht": "你的事"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good"
+              "cht": "有情"
             },
             {
               "id": "hebrew-5228",
-              "eng": "and right",
-              "punct": "–"
+              "cht": "有理",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8085",
-              "eng": "but to hear"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "[there is] no deputy"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "of"
+              "id": "hebrew-854",
+              "cht": "無奈"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king",
-              "punct": "."
+              "cht": "王"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-369",
+              "cht": "沒有"
             },
             {
-              "id": "hebrew-854"
+              "id": "hebrew-8085",
+              "cht": "委人聽"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "伸訴",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -122,41 +120,41 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "pro.18.15",
-          "cunp": "聰明人的心得知識； 智慧人的耳求知識。",
+          "nasb": "The mind of the prudent acquires knowledge, And the ear of the wise seeks knowledge.",
           "words": [
             {
-              "id": "hebrew-3820",
-              "eng": "the heart"
+              "id": "hebrew-995",
+              "cht": "聰明人"
             },
             {
-              "id": "hebrew-995",
-              "eng": "of the prudent"
+              "id": "hebrew-3820",
+              "cht": "的心"
             },
             {
               "id": "hebrew-7069",
-              "eng": "acquires"
+              "cht": "得"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-241",
-              "eng": "and the ear"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-241",
+              "cht": "的耳"
             },
             {
               "id": "hebrew-1245",
-              "eng": "seeks"
+              "cht": "求"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "."
+              "cht": "知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -167,46 +165,47 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "pro.19.25",
-          "cunp": "鞭打褻慢人，愚蒙人必長見識； 責備明哲人，他就明白知識。",
+          "nasb": "Strike a scoffer and the naive may become shrewd, But reprove one who has understanding and he will gain knowledge.",
           "words": [
             {
-              "id": "hebrew-3887",
-              "eng": "A scoffer",
-              "punct": "､"
+              "id": "hebrew-5221",
+              "cht": "鞭打"
             },
             {
-              "id": "hebrew-5221",
-              "eng": "Strike"
+              "id": "hebrew-3887",
+              "cht": "褻慢"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6612",
-              "eng": "and the simple"
+              "cht": "愚蒙人"
             },
             {
               "id": "hebrew-6191",
-              "eng": "will become wary",
-              "punct": "–"
+              "cht": "必長見識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3198",
-              "eng": "and Rebuke"
+              "cht": "責備"
             },
             {
               "id": "hebrew-995",
-              "eng": "one who has understanding",
-              "punct": "､"
+              "cht": "明哲人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "[and] he will discern"
+              "cht": "他就明白"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -217,78 +216,79 @@
             "hebrew-3477": 1.623665171606522
           },
           "verseKey": "hos.14.9",
-          "cunp": "誰是智慧人？可以明白這些事； 誰是通達人？可以知道這一切。 因為，耶和華的道是正直的； 義人必在其中行走， 罪人卻在其上跌倒。",
+          "nasb": "Whoever is wise, let him understand these things; Whoever is discerning, let him know them. For the ways of the Lord are right, And the righteous will walk in them, But transgressors will stumble in them.",
           "words": [
             {
               "id": "hebrew-4310",
-              "eng": "Who [is]"
+              "cht": "誰是"
             },
             {
               "id": "hebrew-2450",
-              "eng": "wise",
-              "punct": "､"
+              "cht": "智慧人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "and let him understand"
+              "cht": "可以明白"
+            },
+            {
+              "id": "",
+              "cht": "這些事",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-428",
-              "eng": "these things"
+              "cht": "誰是"
             },
             {
               "id": "hebrew-995",
-              "eng": "[Who is] prudent",
-              "punct": "､"
+              "cht": "通達人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "and let him know them"
+              "cht": "可以知道"
+            },
+            {
+              "id": "",
+              "cht": "這一切",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3477",
-              "eng": "[are] right",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1870",
-              "eng": "the ways of"
+              "cht": "的道"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
+              "id": "hebrew-3477",
+              "cht": "是正直的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6662",
-              "eng": "and the righteous"
+              "cht": "義人"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "walk"
+              "id": "hebrew-3212",
+              "cht": "行走",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6586",
-              "eng": "but transgressors"
+              "cht": "罪人"
             },
             {
               "id": "hebrew-3782",
-              "eng": "stumble"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "跌倒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -300,37 +300,37 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "pro.2.5",
-          "cunp": "你就明白敬畏耶和華， 得以認識神。",
+          "nasb": "Then you will discern the fear of the Lord And discover the knowledge of God.",
           "words": [
             {
               "id": "hebrew-227",
-              "eng": "Then"
+              "cht": "你就"
             },
             {
               "id": "hebrew-995",
-              "eng": "you will understand"
+              "cht": "明白"
             },
             {
               "id": "hebrew-3374",
-              "eng": "the fear"
+              "cht": "敬畏"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1847",
-              "eng": "and the knowledge"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "of God"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4672",
-              "eng": "find",
-              "punct": "."
+              "cht": "得以"
+            },
+            {
+              "id": "hebrew-1847",
+              "cht": "認識"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -342,109 +342,93 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "dan.1.4",
-          "cunp": "就是年少沒有殘疾、相貌俊美、通達各樣學問、知識聰明俱備、足能侍立在王宮裏的，要教他們迦勒底的文字言語。",
+          "nasb": "youths in whom was no defect, who were good-looking, showing intelligence in every branch of wisdom, endowed with understanding and discerning knowledge, and who had ability for serving in the king’s court; and he ordered him to teach them the literature and language of the Chaldeans.",
           "words": [
             {
-              "id": "hebrew-3206",
-              "eng": "young men"
+              "id": "hebrew-834",
+              "cht": "就是"
             },
             {
-              "id": "hebrew-834",
-              "eng": "in whom"
+              "id": "hebrew-3206",
+              "cht": "年少"
             },
             {
               "id": "hebrew-369",
-              "eng": "[there was] no"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-3971",
-              "eng": "blemish",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "but"
+              "cht": "殘疾、"
             },
             {
               "id": "hebrew-4758",
-              "eng": "good-looking",
-              "punct": "､"
+              "cht": "相貌"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "俊美、"
             },
             {
               "id": "hebrew-7919",
-              "eng": "and gifted"
+              "cht": "通達"
             },
             {
               "id": "hebrew-3605",
-              "eng": "in all"
+              "cht": "各樣"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "and possessing"
+              "cht": "學問、"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "､"
+              "cht": "知識"
             },
             {
               "id": "hebrew-995",
-              "eng": "and to understand"
+              "cht": "聰明"
             },
             {
-              "id": "hebrew-4093",
-              "eng": "quick",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "and who [had]"
+              "id": "hebrew-3045",
+              "cht": "俱備、"
             },
             {
               "id": "hebrew-3581",
-              "eng": "ability"
+              "cht": "足能"
             },
             {
               "id": "hebrew-5975",
-              "eng": "to serve"
-            },
-            {
-              "id": "hebrew-1964",
-              "eng": "in palace",
-              "punct": "､"
+              "cht": "侍立"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "在王"
+            },
+            {
+              "id": "hebrew-1964",
+              "cht": "宮"
+            },
+            {
+              "id": "",
+              "cht": "裡的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3925",
-              "eng": "and whom they might teach"
-            },
-            {
-              "id": "hebrew-5612",
-              "eng": "the language"
-            },
-            {
-              "id": "hebrew-3956",
-              "eng": "and literature"
+              "cht": "要教他們"
             },
             {
               "id": "hebrew-3778",
-              "eng": "of the Chaldeans",
-              "punct": "."
+              "cht": "迦勒底"
             },
             {
-              "id": ""
+              "id": "hebrew-5612",
+              "cht": "的文字"
+            },
+            {
+              "id": "hebrew-3956",
+              "cht": "言語",
+              "punct_cht": "。"
             }
           ]
         },
@@ -454,81 +438,63 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "1co.8.1",
-          "cunp": "論到祭偶像之物，我們曉得我們都有知識。但知識是叫人自高自大，惟有愛心能造就人。",
+          "nasb": "Now concerning things sacrificed to idols, we know that we all have knowledge. Knowledge makes arrogant, but love edifies.",
           "words": [
             {
               "id": "greek-4012",
-              "eng": "Concerning"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "cht": "論到"
             },
             {
               "id": "greek-1494",
-              "eng": "sacrificed to idols",
-              "punct": ","
+              "cht": "祭偶像"
+            },
+            {
+              "id": "",
+              "cht": "之物",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1492",
-              "eng": "we know"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "indeed"
+              "cht": "我們曉得"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-1108",
-              "eng": "knowledge"
+              "cht": "我們都"
             },
             {
               "id": "greek-2192",
-              "eng": "we have",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "有"
             },
             {
               "id": "greek-1108",
-              "eng": "Knowledge"
+              "cht": "知識",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-1108",
+              "cht": "但知識"
             },
             {
               "id": "greek-5448",
-              "eng": "puffs up",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是叫人自高自大",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1161",
-              "eng": "but"
+              "cht": "惟"
             },
             {
               "id": "greek-26",
-              "eng": "love"
+              "cht": "有愛心"
             },
             {
               "id": "greek-3618",
-              "eng": "builds up",
-              "punct": "."
+              "cht": "能造就"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -538,88 +504,81 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "hos.4.6",
-          "cunp": "我的民因無知識而滅亡。 你棄掉知識， 我也必棄掉你， 使你不再給我作祭司。 你既忘了你神的律法， 我也必忘記你的兒女。",
+          "nasb": "My people are destroyed for lack of knowledge. Because you have rejected knowledge, I also will reject you from being My priest. Since you have forgotten the law of your God, I also will forget your children.",
           "words": [
             {
-              "id": "hebrew-1820",
-              "eng": "Are destroyed"
-            },
-            {
               "id": "hebrew-5971",
-              "eng": "My people"
+              "cht": "我的民"
             },
             {
               "id": "hebrew-1097",
-              "eng": "for lack"
+              "cht": "因無"
             },
             {
               "id": "hebrew-1847",
-              "eng": "of knowledge",
-              "punct": "."
+              "cht": "知識"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "Because"
+              "id": "hebrew-1820",
+              "cht": "而滅亡",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "你"
+            },
+            {
+              "id": "hebrew-3988",
+              "cht": "棄掉"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "､"
+              "cht": "知識",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3988",
-              "eng": "have rejected"
-            },
-            {
-              "id": "hebrew-3988",
-              "eng": "and I will reject you"
+              "cht": "我也必棄掉你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3547",
-              "eng": "from being priest"
+              "cht": "作祭司",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7911",
-              "eng": "and because you have forgotten"
+              "cht": "你既忘"
             },
             {
-              "id": "hebrew-8451",
-              "eng": "the law"
+              "id": "",
+              "cht": "了你"
             },
             {
               "id": "hebrew-430",
-              "eng": "of your God",
-              "punct": "､"
+              "cht": "神"
             },
             {
-              "id": "hebrew-7911",
-              "eng": "will forget"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "your children"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-8451",
+              "cht": "的律法",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-589",
-              "eng": "I",
-              "punct": "."
+              "cht": "我"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7911",
+              "cht": "必忘記"
             },
             {
-              "id": ""
+              "id": "hebrew-1121",
+              "cht": "你的兒女",
+              "punct_cht": "。"
             }
           ]
         },
@@ -630,82 +589,76 @@
             "hebrew-995": 1.3494993415382406
           },
           "verseKey": "dan.11.37",
-          "cunp": "他必不顧他列祖的神，也不顧婦女所羨慕的神，無論何神他都不顧；因為他必自大，高過一切。",
+          "nasb": "He will show no regard for the gods of his fathers or for the desire of women, nor will he show regard for any other god; for he will magnify himself above them all.",
           "words": [
             {
-              "id": "hebrew-5921",
-              "eng": "And"
+              "id": "hebrew-3808",
+              "cht": "他必不"
             },
             {
-              "id": "hebrew-430",
-              "eng": "the God"
+              "id": "hebrew-5921",
+              "cht": "顧"
             },
             {
               "id": "hebrew-1",
-              "eng": "of his fathers",
-              "punct": "､"
+              "cht": "他列祖"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "的神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "neither"
-            },
-            {
-              "id": "hebrew-995",
-              "eng": "He shall regard"
+              "cht": "也不"
             },
             {
               "id": "hebrew-5921",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-2532",
-              "eng": "the desire"
+              "cht": "顧"
             },
             {
               "id": "hebrew-802",
-              "eng": "of women",
-              "punct": "､"
+              "cht": "婦女"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "and"
+              "id": "hebrew-2532",
+              "cht": "所羨慕"
+            },
+            {
+              "id": "",
+              "cht": "的神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "any"
+              "cht": "無論何"
             },
             {
               "id": "hebrew-433",
-              "eng": "god",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "神"
             },
             {
               "id": "hebrew-995",
-              "eng": "regard"
+              "cht": "他都不顧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "above"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "[them] all"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1431",
-              "eng": "he shall exalt himself",
-              "punct": "."
+              "cht": "他必自大",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-5921",
+              "cht": "高過"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,18 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "-",
-          "greek-5381": "Of hospitality",
-          "greek-3361": null,
-          "greek-1950": "be forgetful",
-          "greek-1223": "through",
-          "greek-3778": "this",
-          "greek-1063": "for",
-          "greek-2990": "unawares",
-          "greek-5100": "some",
-          "greek-3579": "have entertained",
-          "greek-32": "angels",
-          "greek-5026": null
+          "eng": {
+            "greek-3588": "-",
+            "greek-5381": "Of hospitality",
+            "greek-3361": null,
+            "greek-1950": "be forgetful",
+            "greek-1223": "through",
+            "greek-3778": "this",
+            "greek-1063": "for",
+            "greek-2990": "unawares",
+            "greek-5100": "some",
+            "greek-3579": "have entertained",
+            "greek-32": "angels",
+            "greek-5026": null
+          },
+          "cht": {
+            "greek-5381": "用愛心接待客旅",
+            "greek-3361": "可忘記",
+            "greek-1223": "就",
+            "greek-1063": "因為",
+            "greek-2990": "不知不覺",
+            "greek-5100": "曾有接待客旅的",
+            "greek-3579": "接待了",
+            "greek-32": "天使",
+            "greek-5026": "就"
+          }
         }
       },
       "translations": {
@@ -29,41 +42,25 @@
             "greek-5381": 10.248599871619378
           },
           "verseKey": "rom.12.13",
-          "cunp": "聖徒缺乏，要幫補；客，要一味地款待。",
+          "nasb": "contributing to the needs of the saints, practicing hospitality.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "to the"
+              "id": "greek-40",
+              "cht": "聖徒"
             },
             {
               "id": "greek-5532",
-              "eng": "needs"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-40",
-              "eng": "saints"
+              "cht": "缺乏"
             },
             {
               "id": "greek-2841",
-              "eng": "contributing",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "要幫補",
+              "punct_cht": "；"
             },
             {
               "id": "greek-5381",
-              "eng": "hospitality"
-            },
-            {
-              "id": "greek-1377",
-              "eng": "pursuing",
-              "punct": "."
+              "cht": "客要一味的款待",
+              "punct_cht": "。"
             }
           ]
         },
@@ -73,97 +70,75 @@
             "greek-2990": 6.2511507603914795
           },
           "verseKey": "2pe.3.5",
-          "cunp": "他們故意忘記，從太古，憑神的命有了天，並從水而出、藉水而成的地。",
+          "nasb": "For when they maintain this, it escapes their notice that by the word of God the heavens existed long ago and the earth was formed out of water and by water,",
           "words": [
             {
-              "id": "greek-2990",
-              "eng": "It is concealed from"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "indeed"
-            },
-            {
               "id": "greek-846",
-              "eng": "them"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this"
+              "cht": "他們"
             },
             {
               "id": "greek-2309",
-              "eng": "willingly",
-              "punct": ","
+              "cht": "故意"
             },
             {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3772",
-              "eng": "heavens"
-            },
-            {
-              "id": "greek-2258",
-              "eng": "existed"
+              "id": "greek-2990",
+              "cht": "忘記",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1597",
-              "eng": "long ago",
-              "punct": ","
+              "cht": "從太古",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "[the] earth"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-5204",
-              "eng": "water"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-5204",
-              "eng": "water"
-            },
-            {
-              "id": "greek-4921",
-              "eng": "having been composed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "by the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "憑"
             },
             {
               "id": "greek-2316",
-              "eng": "of God"
+              "cht": "神"
             },
             {
               "id": "greek-3056",
-              "eng": "word",
-              "punct": ","
+              "cht": "的命"
             },
             {
-              "id": ""
+              "id": "greek-2258",
+              "cht": "有了"
+            },
+            {
+              "id": "greek-3772",
+              "cht": "天",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-5204",
+              "cht": "水"
+            },
+            {
+              "id": "greek-4921",
+              "cht": "而出、"
+            },
+            {
+              "id": "greek-1223",
+              "cht": "藉"
+            },
+            {
+              "id": "greek-5204",
+              "cht": "水"
+            },
+            {
+              "id": "greek-1093",
+              "cht": "而成的地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -173,104 +148,91 @@
             "greek-2990": 6.2511507603914795
           },
           "verseKey": "2pe.3.8",
-          "cunp": "親愛的弟兄啊，有一件事你們不可忘記，就是主看一日如千年，千年如一日。",
+          "nasb": "But do not let this one fact escape your notice, beloved, that with the Lord one day is like a thousand years, and a thousand years like one day.",
           "words": [
             {
-              "id": "greek-1520",
-              "eng": "[This] one"
+              "id": "greek-27",
+              "cht": "親愛的"
             },
             {
-              "id": "greek-1161",
-              "eng": "however"
+              "id": "",
+              "cht": "弟兄啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "有一件"
             },
             {
               "id": "greek-5124",
-              "eng": "thing"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2990",
-              "eng": "let be hidden from"
+              "cht": "事"
             },
             {
               "id": "greek-5209",
-              "eng": "you",
-              "punct": ","
+              "cht": "你們"
             },
             {
-              "id": "greek-27",
-              "eng": "beloved",
-              "punct": ","
+              "id": "greek-3361",
+              "cht": "不可"
+            },
+            {
+              "id": "greek-2990",
+              "cht": "忘記",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-2250",
-              "eng": "day"
-            },
-            {
-              "id": "greek-3844",
-              "eng": "with [the]"
+              "cht": "就是"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord [is]"
+              "cht": "主"
             },
             {
-              "id": "greek-5613",
-              "eng": "like"
+              "id": "greek-3844",
+              "cht": "看"
             },
             {
-              "id": "greek-5507",
-              "eng": "a thousand"
-            },
-            {
-              "id": "greek-2094",
-              "eng": "years",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5507",
-              "eng": "a thousand"
-            },
-            {
-              "id": "greek-2094",
-              "eng": "years"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "like"
+              "id": "greek-3391",
+              "cht": "一"
             },
             {
               "id": "greek-2250",
-              "eng": "day"
+              "cht": "日"
             },
             {
-              "id": "greek-1520",
-              "eng": "one",
-              "punct": "."
+              "id": "greek-5613",
+              "cht": "如"
             },
             {
-              "id": ""
+              "id": "greek-5507",
+              "cht": "千"
             },
             {
-              "id": "greek-3391"
+              "id": "greek-2094",
+              "cht": "年",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3391"
+              "id": "greek-5507",
+              "cht": "千"
+            },
+            {
+              "id": "greek-2094",
+              "cht": "年"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "如"
+            },
+            {
+              "id": "greek-3391",
+              "cht": "一"
+            },
+            {
+              "id": "greek-2250",
+              "cht": "日",
+              "punct_cht": "。"
             }
           ]
         },
@@ -280,125 +242,91 @@
             "greek-2990": 6.2511507603914795
           },
           "verseKey": "luk.8.47",
-          "cunp": "那女人知道不能隱藏，就戰戰兢兢地來俯伏在耶穌腳前，把摸他的緣故和怎樣立刻得好了，當着眾人都說出來。",
+          "nasb": "When the woman saw that she had not escaped notice, she came trembling and fell down before Him, and declared in the presence of all the people the reason why she had touched Him, and how she had been immediately healed.",
           "words": [
             {
-              "id": "greek-3708",
-              "eng": "Having seen"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-1135",
-              "eng": "woman"
+              "cht": "那女人"
             },
             {
-              "id": "greek-3754",
-              "eng": "that"
+              "id": "greek-1492",
+              "cht": "知道"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不能"
             },
             {
               "id": "greek-2990",
-              "eng": "she was hid",
-              "punct": ","
+              "cht": "隱藏",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5141",
-              "eng": "trembling"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "she came",
-              "punct": ","
+              "cht": "就戰戰兢兢的"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "來"
             },
             {
               "id": "greek-4363",
-              "eng": "having fallen down before"
+              "cht": "俯伏"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
+              "cht": "在耶穌"
             },
             {
-              "id": "greek-1223",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "what"
-            },
-            {
-              "id": "greek-156",
-              "eng": "cause"
+              "id": "",
+              "cht": "腳前",
+              "punct_cht": "，"
             },
             {
               "id": "greek-680",
-              "eng": "she touched"
+              "cht": "把摸"
             },
             {
               "id": "greek-846",
-              "eng": "Him"
+              "cht": "他"
             },
             {
-              "id": "greek-518",
-              "eng": "she declared"
+              "id": "greek-3739",
+              "cht": "的"
             },
             {
-              "id": "greek-1799",
-              "eng": "before"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2992",
-              "eng": "people",
-              "punct": ","
+              "id": "greek-156",
+              "cht": "緣故"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-5613",
-              "eng": "how"
-            },
-            {
-              "id": "greek-2390",
-              "eng": "she was healed"
+              "cht": "怎樣"
             },
             {
               "id": "greek-3916",
-              "eng": "immediately",
-              "punct": "."
+              "cht": "立刻"
             },
             {
-              "id": "greek-1492"
+              "id": "greek-2390",
+              "cht": "得好了",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-1799",
+              "cht": "當著"
             },
             {
-              "id": "greek-846"
+              "id": "greek-3956",
+              "cht": "眾人"
+            },
+            {
+              "id": "greek-846",
+              "cht": "都說出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -408,99 +336,76 @@
             "greek-2990": 6.2511507603914795
           },
           "verseKey": "mrk.7.24",
-          "cunp": "耶穌從那裏起身，往泰爾、西頓的境內去，進了一家，不願意人知道，卻隱藏不住。",
+          "nasb": "Jesus got up and went away from there to the region of Tyre. And when He had entered a house, He wanted no one to know of it; yet He could not escape notice.",
           "words": [
             {
               "id": "greek-1564",
-              "eng": "From there"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "also"
+              "cht": "耶穌從那裡"
             },
             {
               "id": "greek-450",
-              "eng": "having risen up",
-              "punct": ","
-            },
-            {
-              "id": "greek-565",
-              "eng": "He went away"
+              "cht": "起身",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3725",
-              "eng": "region"
+              "cht": "往"
             },
             {
               "id": "greek-5184",
-              "eng": "of Tyre",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "泰爾、"
             },
             {
               "id": "greek-4605",
-              "eng": "Sidon"
+              "cht": "西頓"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-3181",
+              "cht": "的境內"
+            },
+            {
+              "id": "greek-565",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1525",
-              "eng": "having entered"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
+              "cht": "進了"
             },
             {
               "id": "greek-3614",
-              "eng": "a house",
-              "punct": ","
+              "cht": "一家",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3762",
-              "eng": "no one"
+              "cht": "不"
             },
             {
               "id": "greek-2309",
-              "eng": "He was wishing"
+              "cht": "願意"
             },
             {
               "id": "greek-1097",
-              "eng": "to know [it]",
-              "punct": ","
+              "cht": "人知道",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1410",
-              "eng": "He was able"
+              "cht": "卻"
             },
             {
               "id": "greek-2990",
-              "eng": "to be hidden",
-              "punct": "."
+              "cht": "隱藏"
             },
             {
-              "id": "greek-3181"
+              "id": "greek-3756",
+              "cht": "不"
+            },
+            {
+              "id": "greek-1410",
+              "cht": "住",
+              "punct_cht": "。"
             }
           ]
         },
@@ -510,122 +415,87 @@
             "greek-2990": 6.2511507603914795
           },
           "verseKey": "act.26.26",
-          "cunp": "王也曉得這些事，所以我向王放膽直言，我深信這些事沒有一件向王隱藏的，因都不是在背地裏做的。",
+          "nasb": "For the king knows about these matters, and I speak to him also with confidence, since I am persuaded that none of these things escape his notice; for this has not been done in a corner.",
           "words": [
             {
+              "id": "greek-935",
+              "cht": "王"
+            },
+            {
               "id": "greek-1987",
-              "eng": "Understands"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "concerning"
+              "cht": "也曉得"
             },
             {
               "id": "greek-5130",
-              "eng": "these things"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-935",
-              "eng": "king",
-              "punct": ","
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
+              "cht": "這些事",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "所以"
+            },
+            {
+              "id": "greek-4314",
+              "cht": "我向"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "王"
             },
             {
               "id": "greek-3955",
-              "eng": "using boldness"
+              "cht": "放膽"
             },
             {
               "id": "greek-2980",
-              "eng": "I speak",
-              "punct": "."
+              "cht": "直言",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2990",
-              "eng": "Are hidden from"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "any"
+              "id": "greek-3756",
+              "cht": "我深信"
             },
             {
               "id": "greek-5130",
-              "eng": "of these things"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not",
-              "punct": "."
-            },
-            {
-              "id": "greek-3982",
-              "eng": "I am persuaded"
+              "cht": "這些事"
             },
             {
               "id": "greek-3762",
-              "eng": "none"
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-846",
+              "cht": "一件向王"
+            },
+            {
+              "id": "greek-2990",
+              "cht": "隱藏的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5124",
+              "cht": "因"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "都不"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
+              "id": "greek-2076",
+              "cht": "是"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-1137",
-              "eng": "a corner"
+              "cht": "背地"
             },
             {
               "id": "greek-4238",
-              "eng": "done",
-              "punct": ","
-            },
-            {
-              "id": "greek-3778",
-              "eng": "of these things",
-              "punct": "."
-            },
-            {
-              "id": "greek-5124"
-            },
-            {
-              "id": "greek-2076"
+              "cht": "裡做的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -635,105 +505,95 @@
             "greek-3579": 1.8210031994102585
           },
           "verseKey": "rut.1.16",
-          "cunp": "路得說：「不要催我回去不跟隨你。你往哪裏去，我也往那裏去；你在哪裏住宿，我也在那裏住宿；你的國就是我的國，你的神就是我的神。",
+          "nasb": "But Ruth said, “Do not urge me to leave you or turn back from following you; for where you go, I will go, and where you lodge, I will lodge. Your people shall be my people, and your God, my God.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "But said",
-              "punct": "､"
+              "id": "hebrew-7327",
+              "cht": "路得"
             },
             {
-              "id": "hebrew-7327",
-              "eng": "Ruth"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-6293",
-              "eng": "Entreat"
+              "cht": "催"
             },
             {
               "id": "hebrew-5800",
-              "eng": "to leave you"
+              "cht": "我"
             },
             {
               "id": "hebrew-7725",
-              "eng": "[Or [to] turn back"
+              "cht": "回去"
             },
             {
-              "id": "hebrew-310",
-              "eng": "from following after you"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4480",
+              "cht": "不跟隨你",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-413",
-              "eng": "there"
+              "cht": "你往"
             },
             {
               "id": "hebrew-834",
-              "eng": "wherever"
+              "cht": "哪裡"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "you go",
-              "punct": "､"
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "I will go",
-              "punct": "–"
+              "id": "hebrew-3212",
+              "cht": "我也往那裡去",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-834",
-              "eng": "and wherever"
+              "cht": "你在哪裡"
             },
             {
               "id": "hebrew-3885",
-              "eng": "you lodge",
-              "punct": "､"
+              "cht": "住宿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3885",
-              "eng": "I will lodge",
-              "punct": "."
+              "cht": "我也在那裡住宿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5971",
-              "eng": "Your people"
+              "cht": "你的國"
             },
             {
               "id": "hebrew-5971",
-              "eng": "[shall be] my people",
-              "punct": "､"
+              "cht": "就是我的國"
+            },
+            {
+              "id": "",
+              "cht": "你的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "and your God"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "就是我的"
             },
             {
               "id": "hebrew-430",
-              "eng": "my God",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -743,144 +603,122 @@
             "greek-3579": 1.8210031994102585
           },
           "verseKey": "jdg.19.9",
-          "cunp": "那人同他的妾和僕人起來要走，他岳父，就是女子的父親，對他說：「看哪，日頭偏西了，請你再住一夜；天快晚了，可以在這裏住宿，暢快你的心。明天早早起行回家去。」",
+          "nasb": "When the man arose to go along with his concubine and servant, his father-in-law, the girl’s father, said to him, “Behold now, the day has drawn to a close; please spend the night. Lo, the day is coming to an end; spend the night here that your heart may be merry. Then tomorrow you may arise early for your journey so that you may go home.”",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "And when stood"
-            },
-            {
               "id": "hebrew-376",
-              "eng": "the man"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "to depart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "he",
-              "punct": "､"
+              "cht": "那人"
             },
             {
               "id": "hebrew-6370",
-              "eng": "and his concubine",
-              "punct": "､"
+              "cht": "同他的妾"
             },
             {
               "id": "hebrew-5288",
-              "eng": "and his servant",
-              "punct": "､"
+              "cht": "和僕人"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "hebrew-6965",
+              "cht": "起來"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "要走",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2859",
-              "eng": "his father-in-law",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "father",
-              "punct": "､"
+              "cht": "他岳父",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5291",
-              "eng": "of the young woman"
+              "cht": "就是女子"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "的父親",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2009",
-              "eng": "Look",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "now"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7503",
-              "eng": "is drawing"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "日頭偏"
             },
             {
               "id": "hebrew-6150",
-              "eng": "toward evening",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "spend the night",
-              "punct": "–"
+              "cht": "西了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "See",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2583",
-              "eng": "is coming to an end",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "請"
             },
             {
               "id": "hebrew-3885",
-              "eng": "lodge"
+              "cht": "你再住"
+            },
+            {
+              "id": "",
+              "cht": "一夜",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-2583",
+              "cht": "快晚了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6311",
-              "eng": "here",
-              "punct": "､"
+              "cht": "可以在這裡"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "住宿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3190",
-              "eng": "that may be merry",
-              "punct": "–"
+              "cht": "暢快"
             },
             {
               "id": "hebrew-3824",
-              "eng": "your heart"
-            },
-            {
-              "id": "hebrew-7925",
-              "eng": "and go early"
+              "cht": "你的心",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4279",
-              "eng": "Tomorrow"
+              "cht": "明天"
+            },
+            {
+              "id": "hebrew-7925",
+              "cht": "早早起"
             },
             {
               "id": "hebrew-1870",
-              "eng": "your way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "so that you may get"
+              "cht": "行"
             },
             {
               "id": "hebrew-168",
-              "eng": "home",
-              "punct": "."
+              "cht": "回家"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1980",
+              "cht": "去",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -890,104 +728,83 @@
             "greek-3579": 1.8210031994102585
           },
           "verseKey": "gen.19.2",
-          "cunp": "說：「我主啊，請你們到僕人家裏洗洗腳，住一夜，清早起來再走。」他們說：「不！我們要在街上過夜。」",
+          "nasb": "And he said, “Now behold, my lords, please turn aside into your servant’s house, and spend the night, and wash your feet; then you may rise early and go on your way.” They said however, “No, but we shall spend the night in the square.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "Here"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "now",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-113",
-              "eng": "my lords",
-              "punct": "､"
+              "cht": "我主"
             },
             {
-              "id": "hebrew-5493",
-              "eng": "turn in",
-              "punct": "､"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "､"
+              "cht": "請"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "house",
-              "punct": "､"
+              "cht": "你們到"
             },
             {
               "id": "hebrew-5650",
-              "eng": "of your servant",
-              "punct": "､"
+              "cht": "僕人"
             },
             {
-              "id": "hebrew-3885",
-              "eng": "and spend the night",
-              "punct": "､"
+              "id": "hebrew-1004",
+              "cht": "家"
             },
             {
               "id": "hebrew-7364",
-              "eng": "and wash"
+              "cht": "裡洗洗"
             },
             {
               "id": "hebrew-7272",
-              "eng": "your feet",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7925",
-              "eng": "Then you may rise early",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "and go"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "on your way",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "And they said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "No",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7339",
-              "eng": "in the open square"
+              "cht": "腳",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3885",
-              "eng": "we will spend the night",
-              "punct": "."
+              "cht": "住一夜",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-7925",
+              "cht": "清早起來"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "再走",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "他們說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "我們要"
+            },
+            {
+              "id": "hebrew-7339",
+              "cht": "在街上"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "過夜",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -997,85 +814,75 @@
             "greek-3579": 1.8210031994102585
           },
           "verseKey": "num.14.27",
-          "cunp": "「這惡會眾向我發怨言，我忍耐他們要到幾時呢？以色列人向我所發的怨言，我都聽見了。",
+          "nasb": "“How long shall I bear with this evil congregation who are grumbling against Me? I have heard the complaints of the sons of Israel, which they are making against Me.",
           "words": [
             {
-              "id": "hebrew-5704",
-              "eng": "how"
-            },
-            {
-              "id": "hebrew-4970",
-              "eng": "long"
-            },
-            {
-              "id": "hebrew-5712",
-              "eng": "congregation",
-              "punct": "､"
+              "id": "hebrew-2063",
+              "cht": "這"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "[shall I bear with] this"
+              "cht": "惡"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "they"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "complain"
+              "cht": "會眾"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against Me"
+              "cht": "向我"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3885",
+              "cht": "發怨言",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8519",
-              "eng": "the complaints"
+              "id": "hebrew-5704",
+              "cht": "我忍耐他們要到"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "id": "hebrew-4970",
+              "cht": "幾時"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "they"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "make"
+              "id": "hebrew-1121",
+              "cht": "人"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against Me"
+              "cht": "向我"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "發"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-8519",
+              "cht": "怨言",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8085",
-              "eng": "I have heard",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "我都聽見了",
+              "punct_cht": "。"
             }
           ]
         }

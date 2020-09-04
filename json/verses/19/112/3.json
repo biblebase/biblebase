@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1952": "Wealth",
-          "hebrew-6239": "and riches [will be]",
-          "hebrew-1004": "in his house",
-          "hebrew-6666": "and his righteousness",
-          "hebrew-5975": "endures",
-          "hebrew-5703": "forever"
+          "eng": {
+            "hebrew-1952": "Wealth",
+            "hebrew-6239": "and riches [will be]",
+            "hebrew-1004": "in his house",
+            "hebrew-6666": "and his righteousness",
+            "hebrew-5975": "endures",
+            "hebrew-5703": "forever"
+          },
+          "cht": {
+            "hebrew-1952": "有貨物",
+            "hebrew-6239": "有錢財",
+            "hebrew-1004": "他家中",
+            "hebrew-6666": "他的公義",
+            "hebrew-5975": "存",
+            "hebrew-5703": "到永遠"
+          }
         }
       },
       "translations": {
@@ -26,35 +36,37 @@
             "hebrew-6239": 2.3862803027790513
           },
           "verseKey": "pro.8.18",
-          "cunp": "豐富尊榮在我； 恆久的財並公義也在我。",
+          "nasb": "Riches and honor are with me, Enduring wealth and righteousness.",
           "words": [
             {
               "id": "hebrew-6239",
-              "eng": "Riches"
+              "cht": "豐富"
             },
             {
               "id": "hebrew-3519",
-              "eng": "and honor [are]"
+              "cht": "尊榮"
             },
             {
               "id": "hebrew-854",
-              "eng": "with me"
-            },
-            {
-              "id": "hebrew-1952",
-              "eng": "riches"
+              "cht": "在我",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6276",
-              "eng": "Enduring"
+              "cht": "恆久的"
+            },
+            {
+              "id": "hebrew-1952",
+              "cht": "財"
             },
             {
               "id": "hebrew-6666",
-              "eng": "and righteousness",
-              "punct": "."
+              "cht": "並公義"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "也在我",
+              "punct_cht": "。"
             }
           ]
         },
@@ -64,86 +76,64 @@
             "hebrew-6239": 2.3862803027790513
           },
           "verseKey": "rom.11.12",
-          "cunp": "若他們的過失為天下的富足，他們的缺乏為外邦人的富足，何況他們的豐滿呢？",
+          "nasb": "Now if their transgression is riches for the world and their failure is riches for the Gentiles, how much more will their fulfillment be!",
           "words": [
             {
               "id": "greek-1487",
-              "eng": "If"
+              "cht": "若"
             },
             {
-              "id": "greek-1161",
-              "eng": "however",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "他們"
             },
             {
               "id": "greek-3900",
-              "eng": "trespass"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-4149",
-              "eng": "[is] riches"
+              "cht": "的過失",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2889",
-              "eng": "of [the] world",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2275",
-              "eng": "failure"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
+              "cht": "為天下"
             },
             {
               "id": "greek-4149",
-              "eng": "[is the] riches"
-            },
-            {
-              "id": "greek-1484",
-              "eng": "of [the] Gentiles",
-              "punct": ","
-            },
-            {
-              "id": "greek-4214",
-              "eng": "how much"
-            },
-            {
-              "id": "greek-3123",
-              "eng": "more"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4138",
-              "eng": "fullness"
+              "cht": "的富足",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "of them",
-              "punct": "!"
+              "cht": "他們的"
             },
             {
-              "id": ""
+              "id": "greek-2275",
+              "cht": "缺乏",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1484",
+              "cht": "為外邦人的"
+            },
+            {
+              "id": "greek-4149",
+              "cht": "富足",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-4214",
+              "cht": "何況"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們的"
+            },
+            {
+              "id": "greek-4138",
+              "cht": "豐滿"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -154,46 +144,45 @@
             "hebrew-1004": 0.48514274799114365
           },
           "verseKey": "pro.19.14",
-          "cunp": "房屋錢財是祖宗所遺留的； 惟有賢慧的妻是耶和華所賜的。",
+          "nasb": "House and wealth are an inheritance from fathers, But a prudent wife is from the Lord.",
           "words": [
             {
               "id": "hebrew-1004",
-              "eng": "Houses"
+              "cht": "房屋"
             },
             {
               "id": "hebrew-1952",
-              "eng": "and riches [are]"
-            },
-            {
-              "id": "hebrew-5159",
-              "eng": "an inheritance from"
+              "cht": "錢財"
             },
             {
               "id": "hebrew-1",
-              "eng": "fathers",
-              "punct": "､"
+              "cht": "是祖宗"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "but from Yahweh"
+              "id": "hebrew-5159",
+              "cht": "所遺留"
             },
             {
-              "id": "hebrew-802",
-              "eng": "a wife [is]"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7919",
-              "eng": "prudent",
-              "punct": "."
+              "cht": "惟有賢慧"
             },
             {
-              "id": ""
+              "id": "hebrew-802",
+              "cht": "的妻"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3068",
+              "cht": "是耶和華"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "所賜的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -204,59 +193,54 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "psa.111.10",
-          "cunp": "敬畏耶和華是智慧的開端； 凡遵行他命令的是聰明人。 耶和華是永遠當讚美的！",
+          "nasb": "The fear of the Lord is the beginning of wisdom; A good understanding have all those who do His commandments; His praise endures forever.",
           "words": [
             {
-              "id": "hebrew-7225",
-              "eng": "[is] the beginning"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "of wisdom",
-              "punct": "–"
-            },
-            {
               "id": "hebrew-3374",
-              "eng": "the fear"
+              "cht": "敬畏"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-7922",
-              "eng": "a understanding"
+              "id": "hebrew-2451",
+              "cht": "是智慧"
             },
             {
-              "id": "hebrew-2896",
-              "eng": "good"
+              "id": "hebrew-7225",
+              "cht": "的開端",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-6213",
-              "eng": "have those who do [His commandments]"
+              "cht": "遵行"
             },
             {
-              "id": "hebrew-8416",
-              "eng": "His praise"
+              "id": "hebrew-2896",
+              "cht": "他命令的是聰明"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5975",
-              "eng": "endures"
+              "cht": "耶和華是永遠"
             },
             {
-              "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "."
+              "id": "hebrew-8416",
+              "cht": "當讚美"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "！"
             }
           ]
         },
@@ -267,50 +251,52 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "psa.112.9",
-          "cunp": "他施捨錢財，賙濟貧窮； 他的仁義存到永遠。 他的角必被高舉，大有榮耀。",
+          "nasb": "He has given freely to the poor, His righteousness endures forever; His horn will be exalted in honor.",
           "words": [
             {
               "id": "hebrew-6340",
-              "eng": "He has dispersed abroad",
-              "punct": "､"
+              "cht": "他施捨"
+            },
+            {
+              "id": "",
+              "cht": "錢財",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "He has given"
+              "cht": "賙濟"
             },
             {
               "id": "hebrew-34",
-              "eng": "to the poor",
-              "punct": "–"
+              "cht": "貧窮",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6666",
-              "eng": "His righteousness"
+              "cht": "他的仁義"
             },
             {
               "id": "hebrew-5975",
-              "eng": "endures"
+              "cht": "存"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "–"
+              "cht": "到永遠",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7161",
-              "eng": "His horn"
+              "cht": "他的角"
             },
             {
               "id": "hebrew-7311",
-              "eng": "will be exalted"
+              "cht": "必被高舉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3519",
-              "eng": "with honor",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "大有榮耀",
+              "punct_cht": "。"
             }
           ]
         },
@@ -321,33 +307,33 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "psa.111.3",
-          "cunp": "他所行的是尊榮和威嚴； 他的公義存到永遠。",
+          "nasb": "Splendid and majestic is His work, And His righteousness endures forever.",
           "words": [
             {
+              "id": "hebrew-6467",
+              "cht": "他所行的"
+            },
+            {
               "id": "hebrew-1935",
-              "eng": "Honorable"
+              "cht": "是尊榮"
             },
             {
               "id": "hebrew-1926",
-              "eng": "and glorious",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6467",
-              "eng": "His work [is]"
+              "cht": "和威嚴",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6666",
-              "eng": "and His righteousness"
+              "cht": "他的公義"
             },
             {
               "id": "hebrew-5975",
-              "eng": "endures"
+              "cht": "存到"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "."
+              "cht": "永遠",
+              "punct_cht": "。"
             }
           ]
         },
@@ -358,50 +344,50 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "psa.19.9",
-          "cunp": "耶和華的道理潔淨，存到永遠； 耶和華的典章真實，全然公義－",
+          "nasb": "The fear of the Lord is clean, enduring forever; The judgments of the Lord are true; they are righteous altogether.",
           "words": [
             {
-              "id": "hebrew-3374",
-              "eng": "The fear"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-3374",
+              "cht": "的道理"
             },
             {
               "id": "hebrew-2889",
-              "eng": "[is] clean",
-              "punct": "､"
+              "cht": "潔淨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5975",
-              "eng": "enduring"
+              "cht": "存"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "the judgments"
+              "cht": "到永遠",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "的典章"
             },
             {
               "id": "hebrew-571",
-              "eng": "[are] true"
-            },
-            {
-              "id": "hebrew-6663",
-              "eng": "[and] righteous"
+              "cht": "真實",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3162",
-              "eng": "altogether",
-              "punct": "."
+              "cht": "全然"
+            },
+            {
+              "id": "hebrew-6663",
+              "cht": "公義─"
             }
           ]
         },
@@ -412,75 +398,78 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "hab.3.6",
-          "cunp": "他站立，量了大地， 觀看，趕散萬民。 永久的山崩裂； 長存的嶺塌陷； 他的作為與古時一樣。",
+          "nasb": "He stood and surveyed the earth; He looked and startled the nations. Yes, the perpetual mountains were shattered, The ancient hills collapsed. His ways are everlasting.",
           "words": [
             {
               "id": "hebrew-5975",
-              "eng": "He stood",
-              "punct": "､"
+              "cht": "他站立",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4058",
-              "eng": "and measured"
+              "cht": "量了"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
+              "cht": "大地"
+            },
+            {
+              "id": "",
+              "cht": "（或譯使地震動）",
+              "punct_cht": "：，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "He looked",
-              "punct": "､"
+              "cht": "觀看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5425",
-              "eng": "and startled"
+              "cht": "趕散"
             },
             {
               "id": "hebrew-1471",
-              "eng": "the nations",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6327",
-              "eng": "and were scattered",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2042",
-              "eng": "the mountains"
+              "cht": "萬民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5703",
-              "eng": "everlasting"
+              "cht": "永久"
             },
             {
-              "id": "hebrew-7817",
-              "eng": "bowed",
-              "punct": "."
+              "id": "hebrew-2042",
+              "cht": "的山"
+            },
+            {
+              "id": "hebrew-6327",
+              "cht": "崩裂",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "長存"
             },
             {
               "id": "hebrew-1389",
-              "eng": "The hills"
+              "cht": "的嶺"
             },
             {
-              "id": "hebrew-5769",
-              "eng": "perpetual"
+              "id": "hebrew-7817",
+              "cht": "塌陷",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1979",
-              "eng": "ways [are]"
+              "cht": "作為"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "與古時"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -490,45 +479,47 @@
             "hebrew-1952": 3.231394854468145
           },
           "verseKey": "pro.29.3",
-          "cunp": "愛慕智慧的，使父親喜樂； 與妓女結交的，卻浪費錢財。",
+          "nasb": "A man who loves wisdom makes his father glad, But he who keeps company with harlots wastes his wealth.",
           "words": [
             {
-              "id": "hebrew-376",
-              "eng": "Whoever"
-            },
-            {
               "id": "hebrew-157",
-              "eng": "loves"
+              "cht": "愛慕"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom"
+              "cht": "智慧"
             },
             {
-              "id": "hebrew-8055",
-              "eng": "makes rejoice"
+              "id": "hebrew-376",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1",
-              "eng": "his father",
-              "punct": "–"
+              "cht": "使父親"
             },
             {
-              "id": "hebrew-7462",
-              "eng": "but a companion"
+              "id": "hebrew-8055",
+              "cht": "喜樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2181",
-              "eng": "of harlots"
+              "cht": "與妓女"
+            },
+            {
+              "id": "hebrew-7462",
+              "cht": "結交的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6",
-              "eng": "wastes"
+              "cht": "卻浪費"
             },
             {
               "id": "hebrew-1952",
-              "eng": "[his] wealth",
-              "punct": "."
+              "cht": "錢財",
+              "punct_cht": "。"
             }
           ]
         },
@@ -538,37 +529,37 @@
             "hebrew-1952": 3.231394854468145
           },
           "verseKey": "pro.10.15",
-          "cunp": "富戶的財物是他的堅城； 窮人的貧乏是他的敗壞。",
+          "nasb": "The rich man’s wealth is his fortress, The ruin of the poor is their poverty.",
           "words": [
             {
-              "id": "hebrew-1952",
-              "eng": "Wealth [is]"
-            },
-            {
               "id": "hebrew-6223",
-              "eng": "of the rich man"
+              "cht": "富戶"
             },
             {
-              "id": "hebrew-7151",
-              "eng": "city",
-              "punct": "､"
+              "id": "hebrew-1952",
+              "cht": "的財物"
             },
             {
               "id": "hebrew-5797",
-              "eng": "his strong"
+              "cht": "是他的堅"
             },
             {
-              "id": "hebrew-4288",
-              "eng": "the destruction"
+              "id": "hebrew-7151",
+              "cht": "城",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1800",
-              "eng": "of the poor"
+              "cht": "窮人"
             },
             {
               "id": "hebrew-7389",
-              "eng": "[is] their poverty",
-              "punct": "."
+              "cht": "的貧乏"
+            },
+            {
+              "id": "hebrew-4288",
+              "cht": "是他的敗壞",
+              "punct_cht": "。"
             }
           ]
         }

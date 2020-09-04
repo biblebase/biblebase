@@ -3,21 +3,38 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6412": "You who have escaped",
-          "hebrew-2719": "the sword",
-          "hebrew-1980": "Get away",
-          "hebrew-408": "not",
-          "hebrew-5975": "do stand still",
-          "hebrew-2142": "Remember",
-          "hebrew-7350": "afar off",
-          "hebrew-853": "-",
-          "hebrew-3068": "Yahweh",
-          "hebrew-3389": "and Jerusalem",
-          "hebrew-5927": "let come",
-          "hebrew-5921": "to",
-          "hebrew-3824": "your mind",
-          "hebrew-6405": null,
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-6412": "You who have escaped",
+            "hebrew-2719": "the sword",
+            "hebrew-1980": "Get away",
+            "hebrew-408": "not",
+            "hebrew-5975": "do stand still",
+            "hebrew-2142": "Remember",
+            "hebrew-7350": "afar off",
+            "hebrew-853": "-",
+            "hebrew-3068": "Yahweh",
+            "hebrew-3389": "and Jerusalem",
+            "hebrew-5927": "let come",
+            "hebrew-5921": "to",
+            "hebrew-3824": "your mind",
+            "hebrew-6405": null,
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-2719": "刀劍",
+            "hebrew-1980": "的要快走",
+            "hebrew-408": "不要",
+            "hebrew-5975": "站住",
+            "hebrew-2142": "記念",
+            "hebrew-7350": "要在遠方",
+            "hebrew-853": "記念",
+            "hebrew-3068": "耶和華",
+            "hebrew-3389": "耶路撒冷",
+            "hebrew-5927": "追想",
+            "hebrew-3824": "心中",
+            "hebrew-6405": "你們躲避",
+            "hebrew-4480": "要在遠方"
+          }
         }
       },
       "translations": {
@@ -34,45 +51,42 @@
             "hebrew-6405": 10.248599871619378
           },
           "verseKey": "psa.32.7",
-          "cunp": "你是我藏身之處； 你必保佑我脫離苦難， 以得救的樂歌四面環繞我。（細拉）",
+          "nasb": "You are my hiding place; You preserve me from trouble; You surround me with songs of deliverance. Selah.",
           "words": [
             {
               "id": "hebrew-859",
-              "eng": "You [are]"
+              "cht": "你是"
             },
             {
               "id": "hebrew-5643",
-              "eng": "hiding place",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6862",
-              "eng": "from trouble",
-              "punct": "–"
+              "cht": "藏身之處",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5341",
-              "eng": "You shall preserve me"
+              "cht": "你必保佑我"
             },
             {
-              "id": "hebrew-7438",
-              "eng": "with songs"
+              "id": "hebrew-4480",
+              "cht": "脫離苦難",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6405",
-              "eng": "of deliverance"
+              "cht": "以得救"
+            },
+            {
+              "id": "hebrew-7438",
+              "cht": "的樂歌"
             },
             {
               "id": "hebrew-5437",
-              "eng": "You shall surround me"
+              "cht": "四面環繞我（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "細拉）"
             }
           ]
         },
@@ -82,46 +96,50 @@
             "hebrew-6405": 10.248599871619378
           },
           "verseKey": "psa.56.7",
-          "cunp": "他們豈能因罪孽逃脫嗎？ 神啊，求你在怒中使眾民墮落！",
+          "nasb": "Because of wickedness, cast them forth, In anger put down the peoples, O God!",
           "words": [
             {
+              "id": "hebrew-3926",
+              "cht": "他們豈能"
+            },
+            {
               "id": "hebrew-5921",
-              "eng": "By"
+              "cht": "因"
             },
             {
               "id": "hebrew-205",
-              "eng": "iniquity"
+              "cht": "罪孽"
             },
             {
               "id": "hebrew-6405",
-              "eng": "escape"
+              "cht": "逃脫"
             },
             {
-              "id": "hebrew-639",
-              "eng": "in anger"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the peoples",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "cast down"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": "hebrew-3926"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-639",
+              "cht": "求你在怒中"
             },
             {
-              "id": ""
+              "id": "hebrew-5971",
+              "cht": "使眾民"
+            },
+            {
+              "id": "hebrew-3381",
+              "cht": "墮落",
+              "punct_cht": "！"
             }
           ]
         },
@@ -131,131 +149,114 @@
             "hebrew-6412": 3.55737257852982
           },
           "verseKey": "jer.44.14",
-          "cunp": "甚至那進入埃及地寄居的，就是所剩下的猶大人，都不得逃脫，也不得存留歸回猶大地。他們心中甚想歸回居住之地；除了逃脫的以外，一個都不能歸回。」",
+          "nasb": "So there will be no refugees or survivors for the remnant of Judah who have entered the land of Egypt to reside there and then to return to the land of Judah, to which they are longing to return and live; for none will return except a few refugees.’ ”",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "So that none"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "shall"
-            },
-            {
-              "id": "hebrew-6412",
-              "eng": "escape"
-            },
-            {
-              "id": "hebrew-8300",
-              "eng": "or survive",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7611",
-              "eng": "of the remnant"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-935",
-              "eng": "who have gone"
-            },
-            {
-              "id": "hebrew-1481",
-              "eng": "to dwell"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "into the land"
+              "cht": "甚至那進"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "and lest they return to"
+              "cht": "入埃及"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-1481",
+              "cht": "寄居的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7611",
+              "cht": "就是所剩下的"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "to which"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "they"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "desire"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "a desire"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "to return"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "and dwell"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "猶大人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "none"
+              "cht": "都不"
             },
             {
-              "id": "hebrew-7725",
-              "eng": "shall return"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "except"
+              "id": "hebrew-1961",
+              "cht": "得"
             },
             {
               "id": "hebrew-6412",
-              "eng": "those who escape",
-              "punct": "."
+              "cht": "逃脫",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6405"
+              "id": "hebrew-8300",
+              "cht": "也不得存留"
             },
             {
-              "id": ""
+              "id": "hebrew-7725",
+              "cht": "歸回"
+            },
+            {
+              "id": "hebrew-3063",
+              "cht": "猶大"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-1992",
+              "cht": "他們"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "中甚想"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "歸回"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "居住"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "之地",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "除了"
+            },
+            {
+              "id": "hebrew-6405",
+              "cht": "逃脫"
+            },
+            {
+              "id": "",
+              "cht": "的以外",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "一個"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "都不能"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "歸回",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -266,143 +267,129 @@
             "hebrew-7350": 1.8962234764151933
           },
           "verseKey": "isa.66.19",
-          "cunp": "我要顯神蹟在他們中間。逃脫的，我要差到列國去，就是到他施、普勒、拉弓的路德和土巴、雅完，並素來沒有聽見我名聲、沒有看見我榮耀遼遠的海島；他們必將我的榮耀傳揚在列國中。",
+          "nasb": "I will set a sign among them and will send survivors from them to the nations: Tarshish, Put, Lud, Meshech, Tubal and Javan, to the distant coastlands that have neither heard My fame nor seen My glory. And they will declare My glory among the nations.",
           "words": [
             {
               "id": "hebrew-7760",
-              "eng": "And I will set"
+              "cht": "我要顯"
+            },
+            {
+              "id": "",
+              "cht": "神蹟（或譯",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-226",
-              "eng": "a sign"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "and I will send"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "like"
+              "cht": "記號）"
             },
             {
               "id": "hebrew-6412",
-              "eng": "those among them who escape"
+              "cht": "逃脫的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "我要差"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到"
             },
             {
               "id": "hebrew-1471",
-              "eng": "the nations",
-              "punct": "､"
+              "cht": "列國"
             },
             {
-              "id": "hebrew-8659",
-              "eng": "[to] Tarshish",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6322",
-              "eng": "and Pul",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3865",
-              "eng": "and Lud",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4900",
-              "eng": "who draw"
-            },
-            {
-              "id": "hebrew-7198",
-              "eng": "the bow",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8422",
-              "eng": "and Tubal",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3120",
-              "eng": "and Greece",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-339",
-              "eng": "[to] the coastlands"
-            },
-            {
-              "id": "hebrew-7350",
-              "eng": "afar off",
-              "punct": "､"
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "就是"
+            },
+            {
+              "id": "hebrew-8659",
+              "cht": "到他施、"
+            },
+            {
+              "id": "hebrew-6322",
+              "cht": "普勒、"
+            },
+            {
+              "id": "hebrew-4900",
+              "cht": "拉"
+            },
+            {
+              "id": "hebrew-7198",
+              "cht": "弓"
+            },
+            {
+              "id": "hebrew-3865",
+              "cht": "的路德"
+            },
+            {
+              "id": "hebrew-8422",
+              "cht": "和土巴、"
+            },
+            {
+              "id": "hebrew-3120",
+              "cht": "雅完",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "並素來沒有"
             },
             {
               "id": "hebrew-8085",
-              "eng": "have heard"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "聽見"
             },
             {
               "id": "hebrew-8088",
-              "eng": "My fame",
-              "punct": "､"
+              "cht": "我名聲、"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "seen"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "看見"
             },
             {
               "id": "hebrew-3519",
-              "eng": "My glory",
-              "punct": "–"
+              "cht": "我榮耀"
+            },
+            {
+              "id": "hebrew-7350",
+              "cht": "遼遠"
+            },
+            {
+              "id": "hebrew-339",
+              "cht": "的海島",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "他們必將"
+            },
+            {
+              "id": "hebrew-3519",
+              "cht": "我的榮耀"
             },
             {
               "id": "hebrew-5046",
-              "eng": "and they shall declare"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3519",
-              "eng": "My glory"
+              "cht": "傳揚"
             },
             {
               "id": "hebrew-1471",
-              "eng": "among the Gentiles",
-              "punct": "."
+              "cht": "在列國"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "中",
+              "punct_cht": "。"
             }
           ]
         },
@@ -413,97 +400,80 @@
             "hebrew-3824": 2.287933638133053
           },
           "verseKey": "deu.20.8",
-          "cunp": "官長又要對百姓宣告說：『誰懼怕膽怯，他可以回家去，恐怕他弟兄的心消化，和他一樣。』",
+          "nasb": "Then the officers shall speak further to the people and say, ‘Who is the man that is afraid and fainthearted? Let him depart and return to his house, so that he might not make his brothers’ hearts melt like his heart.’",
           "words": [
             {
-              "id": "hebrew-3254",
-              "eng": "And further"
-            },
-            {
               "id": "hebrew-7860",
-              "eng": "the officers"
+              "cht": "官長"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "shall speak"
+              "id": "hebrew-3254",
+              "cht": "又"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "要對"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "､"
+              "cht": "百姓"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "宣告"
             },
             {
               "id": "hebrew-559",
-              "eng": "and say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
-              "id": "hebrew-4310",
-              "eng": "who [is]"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
+              "id": "hebrew-834",
+              "cht": "誰"
             },
             {
               "id": "hebrew-3373",
-              "eng": "[who is] fearful"
-            },
-            {
-              "id": "hebrew-7390",
-              "eng": "and"
+              "cht": "懼怕"
             },
             {
               "id": "hebrew-3824",
-              "eng": "fainthearted"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "let him go"
+              "cht": "膽怯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "and return"
+              "cht": "他可以回"
             },
             {
               "id": "hebrew-1004",
-              "eng": "to his house",
-              "punct": "､"
+              "cht": "家"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "and lest"
-            },
-            {
-              "id": "hebrew-4549",
-              "eng": "faint"
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "the heart"
+              "cht": "恐怕"
             },
             {
               "id": "hebrew-251",
-              "eng": "of his brothers"
+              "cht": "他弟兄"
             },
             {
               "id": "hebrew-3824",
-              "eng": "like his heart",
-              "punct": "."
+              "cht": "的心"
             },
             {
-              "id": "hebrew-834"
+              "id": "hebrew-4549",
+              "cht": "消化",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-3824",
+              "cht": "和他一樣",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -515,125 +485,116 @@
             "hebrew-408": 0.7254375554916785
           },
           "verseKey": "2ki.9.15",
-          "cunp": "但約蘭王回到耶斯列，醫治與亞蘭王哈薛打仗所受的傷。耶戶說：「若合你們的意思，就不容人逃出城往耶斯列報信去。」",
+          "nasb": "but King Joram had returned to Jezreel to be healed of the wounds which the Arameans had inflicted on him when he fought with Hazael king of Aram. So Jehu said, “If this is your mind, then let no one escape or leave the city to go tell it in Jezreel.”",
           "words": [
             {
-              "id": "hebrew-7725",
-              "eng": "But had returned"
-            },
-            {
               "id": "hebrew-3088",
-              "eng": "Jehoram"
+              "cht": "但約蘭"
             },
             {
               "id": "hebrew-4428",
-              "eng": "King"
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "回"
+            },
+            {
+              "id": "hebrew-3157",
+              "cht": "到耶斯列",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7495",
-              "eng": "to recover"
-            },
-            {
-              "id": "hebrew-3157",
-              "eng": "to Jezreel"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-4347",
-              "eng": "the wounds"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "had inflicted on him"
-            },
-            {
-              "id": "hebrew-761",
-              "eng": "the Syrians"
-            },
-            {
-              "id": "hebrew-3898",
-              "eng": "when he fought"
+              "cht": "醫治"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-2371",
-              "eng": "Hazael"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "與"
             },
             {
               "id": "hebrew-758",
-              "eng": "of Syria"
+              "cht": "亞蘭"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
-              "id": "hebrew-3058",
-              "eng": "Jehu"
+              "id": "hebrew-2371",
+              "cht": "哈薛"
             },
             {
-              "id": "hebrew-518",
-              "eng": "if"
+              "id": "hebrew-3898",
+              "cht": "打仗"
             },
             {
-              "id": "hebrew-3426",
-              "eng": "it be"
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
-              "id": "hebrew-5315",
-              "eng": "you are so minded",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "let one leave"
-            },
-            {
-              "id": "hebrew-6412",
-              "eng": "[or] escape"
+              "id": "hebrew-5221",
+              "cht": "受"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from"
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-4347",
+              "cht": "傷",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3058",
+              "cht": "耶戶"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "若"
+            },
+            {
+              "id": "hebrew-3426",
+              "cht": "合"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "你們的意思",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "就不"
+            },
+            {
+              "id": "hebrew-6412",
+              "cht": "容人逃"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "出"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "to go"
-            },
-            {
-              "id": "hebrew-5046",
-              "eng": "and tell [it]"
+              "cht": "城"
             },
             {
               "id": "hebrew-3157",
-              "eng": "in Jezreel",
-              "punct": "."
+              "cht": "往耶斯列"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-5046",
+              "cht": "報信"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -643,57 +604,54 @@
             "hebrew-3824": 2.287933638133053
           },
           "verseKey": "psa.104.15",
-          "cunp": "又得酒能悅人心， 得油能潤人面， 得糧能養人心。",
+          "nasb": "And wine which makes man’s heart glad, So that he may make his face glisten with oil, And food which sustains man’s heart.",
           "words": [
             {
               "id": "hebrew-3196",
-              "eng": "and wine"
+              "cht": "又得酒"
             },
             {
               "id": "hebrew-8055",
-              "eng": "[that] makes glad"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "the heart"
+              "cht": "能悅"
             },
             {
               "id": "hebrew-582",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "得油"
             },
             {
               "id": "hebrew-6670",
-              "eng": "to make shine",
-              "punct": "､"
+              "cht": "能潤"
             },
             {
               "id": "hebrew-6440",
-              "eng": "[his] face"
-            },
-            {
-              "id": "hebrew-8081",
-              "eng": "Oil"
+              "cht": "人面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3899",
-              "eng": "and bread"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "heart"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "of man"
+              "cht": "得糧"
             },
             {
               "id": "hebrew-5582",
-              "eng": "[which] strengthens",
-              "punct": "."
+              "cht": "能養"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-582",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心",
+              "punct_cht": "。"
             }
           ]
         },
@@ -704,118 +662,117 @@
             "hebrew-2719": 0.9676992204438449
           },
           "verseKey": "jer.44.28",
-          "cunp": "脫離刀劍、從埃及地歸回猶大地的人數很少；那進入埃及地要在那裏寄居的，就是所剩下的猶大人，必知道是誰的話立得住，是我的話呢？是他們的話呢？",
+          "nasb": "Those who escape the sword will return out of the land of Egypt to the land of Judah few in number. Then all the remnant of Judah who have gone to the land of Egypt to reside there will know whose word will stand, Mine or theirs.",
           "words": [
             {
               "id": "hebrew-6412",
-              "eng": "And yet who escape"
+              "cht": "脫離"
             },
             {
               "id": "hebrew-2719",
-              "eng": "the sword"
+              "cht": "刀劍、"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從"
+            },
+            {
+              "id": "hebrew-4714",
+              "cht": "埃及"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
               "id": "hebrew-7725",
-              "eng": "shall return"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
-            },
-            {
-              "id": "hebrew-4714",
-              "eng": "of Egypt"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "to the land"
+              "cht": "歸回"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-4962",
-              "eng": "small"
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
               "id": "hebrew-4557",
-              "eng": "a number"
+              "cht": "的人數"
             },
             {
-              "id": "hebrew-3045",
-              "eng": "and shall know"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7611",
-              "eng": "the remnant"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
+              "id": "hebrew-4962",
+              "cht": "很少",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-935",
-              "eng": "who have gone"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "to the land"
+              "cht": "那進入"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt"
+              "cht": "埃及"
             },
             {
-              "id": "hebrew-1481",
-              "eng": "to dwell"
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "､"
+              "cht": "要在那裡"
             },
             {
-              "id": "hebrew-1697",
-              "eng": "the word"
+              "id": "hebrew-1481",
+              "cht": "寄居的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "就是所"
+            },
+            {
+              "id": "hebrew-7611",
+              "cht": "剩下的"
+            },
+            {
+              "id": "hebrew-3063",
+              "cht": "猶大人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "必知道"
             },
             {
               "id": "hebrew-4310",
-              "eng": "of whom"
+              "cht": "是誰"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話"
             },
             {
               "id": "hebrew-6965",
-              "eng": "will stand",
-              "punct": "､"
+              "cht": "立得住",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "Mine",
-              "punct": "､"
+              "cht": "是我的"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "or theirs",
-              "punct": "."
+              "id": "",
+              "cht": "話呢",
+              "punct_cht": "？"
             },
             {
-              "id": ""
+              "id": "hebrew-4480",
+              "cht": "是他們的"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "話呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -826,118 +783,90 @@
             "hebrew-2719": 0.9676992204438449
           },
           "verseKey": "jer.42.17",
-          "cunp": "凡定意要進入埃及在那裏寄居的必遭刀劍、饑荒、瘟疫而死，無一人存留，逃脫我所降與他們的災禍。』",
+          "nasb": "So all the men who set their mind to go to Egypt to reside there will die by the sword, by famine and by pestilence; and they will have no survivors or refugees from the calamity that I am going to bring on them.” ’ ”",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "So shall it be"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "with all"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the men"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
+              "id": "hebrew-582",
+              "cht": "凡"
             },
             {
               "id": "hebrew-7760",
-              "eng": "set"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "定"
             },
             {
               "id": "hebrew-6440",
-              "eng": "their faces"
+              "cht": "意"
             },
             {
               "id": "hebrew-935",
-              "eng": "to go"
+              "cht": "要進入"
             },
             {
               "id": "hebrew-4714",
-              "eng": "to Egypt"
-            },
-            {
-              "id": "hebrew-1481",
-              "eng": "to dwell"
+              "cht": "埃及"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "–"
+              "cht": "在那裡"
             },
             {
-              "id": "hebrew-4191",
-              "eng": "they shall die"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "by the sword",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7458",
-              "eng": "by famine",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1698",
-              "eng": "and by pestilence",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and none"
+              "id": "hebrew-1481",
+              "cht": "寄居的"
             },
             {
               "id": "hebrew-1961",
-              "eng": "shall"
+              "cht": "必"
+            },
+            {
+              "id": "hebrew-2719",
+              "cht": "遭刀劍、"
+            },
+            {
+              "id": "hebrew-7458",
+              "cht": "饑荒、"
+            },
+            {
+              "id": "hebrew-1698",
+              "cht": "瘟疫"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "而死",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "無"
             },
             {
               "id": "hebrew-8300",
-              "eng": "remain"
+              "cht": "存留",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6412",
-              "eng": "or escape"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "the disaster"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "id": "hebrew-4480",
+              "cht": "逃脫"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-935",
-              "eng": "will bring"
+              "cht": "降"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon them",
-              "punct": "."
+              "cht": "與他們"
             },
             {
-              "id": "hebrew-582"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-7451",
+              "cht": "的災禍",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -948,112 +877,113 @@
             "hebrew-2719": 0.9676992204438449
           },
           "verseKey": "amo.9.1",
-          "cunp": "我看見主站在祭壇旁邊； 他說：你要擊打柱頂，使門檻震動， 打碎柱頂，落在眾人頭上； 所剩下的人，我必用刀殺戮， 無一人能逃避，無一人能逃脫。",
+          "nasb": "I saw the Lord standing beside the altar, and He said, “Smite the capitals so that the thresholds will shake, And break them on the heads of them all! Then I will slay the rest of them with the sword; They will not have a fugitive who will flee, Or a refugee who will escape.",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "I saw"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我看見"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-5324",
-              "eng": "standing"
+              "cht": "站"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by"
+              "cht": "在"
             },
             {
               "id": "hebrew-4196",
-              "eng": "the altar",
-              "punct": "､"
+              "cht": "祭壇"
+            },
+            {
+              "id": "",
+              "cht": "旁邊",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-559",
-              "eng": "and He said",
-              "punct": "､"
+              "cht": "他說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5221",
-              "eng": "Strike"
+              "cht": "你要擊打"
             },
             {
               "id": "hebrew-3730",
-              "eng": "the doorposts"
-            },
-            {
-              "id": "hebrew-7493",
-              "eng": "that may shake",
-              "punct": "､"
+              "cht": "柱頂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5592",
-              "eng": "the thresholds"
+              "cht": "使門檻"
+            },
+            {
+              "id": "hebrew-7493",
+              "cht": "震動",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1214",
-              "eng": "and break them"
+              "cht": "打碎"
             },
             {
-              "id": "hebrew-7218",
-              "eng": "on the heads",
-              "punct": "､"
+              "id": "",
+              "cht": "柱頂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of them all"
+              "cht": "落在眾人"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "頭上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-319",
-              "eng": "and the last of them"
+              "cht": "所剩下的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2719",
-              "eng": "with the sword",
-              "punct": "–"
+              "cht": "我必用刀"
             },
             {
               "id": "hebrew-2026",
-              "eng": "I will slay"
+              "cht": "殺戮",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "無"
             },
             {
               "id": "hebrew-5127",
-              "eng": "He who flees"
+              "cht": "一人"
             },
             {
               "id": "hebrew-5127",
-              "eng": "shall get away",
-              "punct": "､"
+              "cht": "能逃避",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-4422",
-              "eng": "shall be delivered"
+              "cht": "無"
             },
             {
               "id": "hebrew-6412",
-              "eng": "he who escapes",
-              "punct": "."
+              "cht": "一人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4422",
+              "cht": "能逃脫",
+              "punct_cht": "。"
             }
           ]
         }

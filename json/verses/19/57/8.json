@@ -3,12 +3,21 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5782": "I will awaken",
-          "hebrew-3519": "my glory",
-          "hebrew-5035": "lute",
-          "hebrew-3658": "and harp",
-          "hebrew-7837": "the dawn",
-          "": null
+          "eng": {
+            "hebrew-5782": "I will awaken",
+            "hebrew-3519": "my glory",
+            "hebrew-5035": "lute",
+            "hebrew-3658": "and harp",
+            "hebrew-7837": "the dawn",
+            "": null
+          },
+          "cht": {
+            "hebrew-5782": "醒起",
+            "hebrew-3519": "原文是榮耀",
+            "hebrew-5035": "琴瑟",
+            "hebrew-3658": "琴瑟",
+            "hebrew-7837": "我自己要極早"
+          }
         }
       },
       "translations": {
@@ -26,33 +35,34 @@
             "hebrew-7837": 3.349908747650579
           },
           "verseKey": "psa.108.2",
-          "cunp": "琴瑟啊，你們當醒起！ 我自己要極早醒起！",
+          "nasb": "Awake, harp and lyre; I will awaken the dawn!",
           "words": [
             {
-              "id": "hebrew-5782",
-              "eng": "Awake",
-              "punct": "､"
+              "id": "hebrew-3658",
+              "cht": "琴"
             },
             {
               "id": "hebrew-5035",
-              "eng": "lute"
+              "cht": "瑟"
             },
             {
-              "id": "hebrew-3658",
-              "eng": "and harp",
-              "punct": "–"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5782",
-              "eng": "I will awaken"
+              "cht": "你們當醒起",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-7837",
-              "eng": "the dawn",
-              "punct": "."
+              "cht": "我自己要極早"
             },
             {
-              "id": ""
+              "id": "hebrew-5782",
+              "cht": "醒起",
+              "punct_cht": "！"
             }
           ]
         },
@@ -62,73 +72,72 @@
             "hebrew-5782": 2.082792210842197
           },
           "verseKey": "jdg.5.12",
-          "cunp": "底波拉啊，興起！興起！ 你當興起，興起，唱歌。 亞比挪菴的兒子巴拉啊，你當奮興， 擄掠你的敵人。",
+          "nasb": "“Awake, awake, Deborah; Awake, awake, sing a song! Arise, Barak, and take away your captives, O son of Abinoam.",
           "words": [
             {
-              "id": "hebrew-5782",
-              "eng": "Awake"
-            },
-            {
-              "id": "hebrew-5782",
-              "eng": "awake",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1683",
-              "eng": "Deborah",
-              "punct": "–"
+              "cht": "底波拉"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5782",
-              "eng": "Awake"
+              "cht": "興起",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5782",
-              "eng": "awake",
-              "punct": "､"
+              "cht": "興起",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-5782",
+              "cht": "你當興起",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5782",
+              "cht": "興起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1696",
-              "eng": "sing"
-            },
-            {
-              "id": "hebrew-7892",
-              "eng": "a song",
-              "punct": "!"
-            },
-            {
-              "id": "hebrew-6965",
-              "eng": "Arise",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1301",
-              "eng": "Barak",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7628",
-              "eng": "and lead away"
-            },
-            {
-              "id": "hebrew-7617",
-              "eng": "your captives",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "唱歌",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-42",
-              "eng": "of Abinoam",
-              "punct": "."
+              "cht": "亞比挪菴"
             },
             {
-              "id": ""
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
-              "id": ""
+              "id": "hebrew-1301",
+              "cht": "巴拉"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "你當奮興",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7617",
+              "cht": "擄掠"
+            },
+            {
+              "id": "hebrew-7628",
+              "cht": "你的敵人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -138,101 +147,88 @@
             "hebrew-7837": 3.349908747650579
           },
           "verseKey": "jos.6.15",
-          "cunp": "第七日清早，黎明的時候，他們起來，照樣繞城七次；惟獨這日把城繞了七次。",
+          "nasb": "Then on the seventh day they rose early at the dawning of the day and marched around the city in the same manner seven times; only on that day they marched around the city seven times.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "But it came to pass"
+              "id": "hebrew-7637",
+              "cht": "第七"
             },
             {
               "id": "hebrew-3117",
-              "eng": "on the day",
-              "punct": "､"
+              "cht": "日"
             },
             {
-              "id": "hebrew-7637",
-              "eng": "seventh"
+              "id": "",
+              "cht": "清早",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7837",
+              "cht": "黎明"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7925",
-              "eng": "that they rose early"
-            },
-            {
-              "id": "hebrew-7837",
-              "eng": "about the dawning",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7837",
-              "eng": "of the day"
-            },
-            {
-              "id": "hebrew-5437",
-              "eng": "and marched around"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "the city"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "in the manner"
+              "cht": "他們起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-7651",
-              "eng": "seven"
-            },
-            {
-              "id": "hebrew-6471",
-              "eng": "times",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7535",
-              "eng": "only"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "On day"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5437",
-              "eng": "they marched around"
+              "cht": "照樣"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "繞"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city"
+              "cht": "城"
             },
             {
               "id": "hebrew-7651",
-              "eng": "seven"
+              "cht": "七"
             },
             {
               "id": "hebrew-6471",
-              "eng": "times",
-              "punct": "."
+              "cht": "次",
+              "punct_cht": "；"
             },
             {
-              "id": ""
+              "id": "hebrew-7535",
+              "cht": "惟獨"
             },
             {
-              "id": "hebrew-5927"
+              "id": "hebrew-1931",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "把"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "城"
+            },
+            {
+              "id": "hebrew-5437",
+              "cht": "繞了"
+            },
+            {
+              "id": "hebrew-7651",
+              "cht": "七"
+            },
+            {
+              "id": "hebrew-6471",
+              "cht": "次",
+              "punct_cht": "。"
             }
           ]
         },
@@ -242,99 +238,102 @@
             "hebrew-5782": 2.082792210842197
           },
           "verseKey": "isa.51.9",
-          "cunp": "耶和華的膀臂啊，興起！興起！ 以能力為衣穿上， 像古時的年日、上古的世代興起一樣。 從前砍碎拉哈伯、 刺透大魚的，不是你嗎？",
+          "nasb": "Awake, awake, put on strength, O arm of the Lord; Awake as in the days of old, the generations of long ago. Was it not You who cut Rahab in pieces, Who pierced the dragon?",
           "words": [
             {
-              "id": "hebrew-5782",
-              "eng": "Awake"
-            },
-            {
-              "id": "hebrew-5782",
-              "eng": "awake",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3847",
-              "eng": "put on"
-            },
-            {
-              "id": "hebrew-5797",
-              "eng": "strength",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2220",
-              "eng": "arm"
+              "cht": "的膀臂"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "of Yahweh"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5782",
-              "eng": "Awake",
-              "punct": "､"
+              "cht": "興起",
+              "punct_cht": "！"
             },
             {
-              "id": "hebrew-3117",
-              "eng": "as in the days",
-              "punct": "､"
+              "id": "hebrew-5782",
+              "cht": "興起",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-5797",
+              "cht": "以能力"
+            },
+            {
+              "id": "hebrew-3847",
+              "cht": "為衣穿上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6924",
-              "eng": "ancient"
+              "cht": "像古時"
             },
             {
-              "id": "hebrew-1755",
-              "eng": "in the generations"
+              "id": "hebrew-3117",
+              "cht": "的年日、"
             },
             {
               "id": "hebrew-5769",
-              "eng": "of old",
-              "punct": "."
+              "cht": "上古"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "Not"
+              "id": "hebrew-1755",
+              "cht": "的世代"
             },
             {
-              "id": "hebrew-859",
-              "eng": "You"
+              "id": "hebrew-5782",
+              "cht": "興起"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "Are"
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2672",
-              "eng": "[the arm] that cut apart"
+              "cht": "從前砍碎"
             },
             {
               "id": "hebrew-7294",
-              "eng": "Rahab"
+              "cht": "拉哈伯、"
             },
             {
               "id": "hebrew-2490",
-              "eng": "[And] wounded"
+              "cht": "刺透"
             },
             {
               "id": "hebrew-8577",
-              "eng": "the serpent"
+              "cht": "大魚"
             },
             {
-              "id": "hebrew-3068"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "不"
             },
             {
-              "id": ""
+              "id": "hebrew-1931",
+              "cht": "是"
             },
             {
-              "id": ""
+              "id": "hebrew-859",
+              "cht": "你"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -344,112 +343,100 @@
             "hebrew-5035": 2.8268151859226394
           },
           "verseKey": "jer.13.12",
-          "cunp": "「所以你要對他們說：『耶和華－以色列的神如此說：各罈都要盛滿了酒。』他們必對你說：『我們豈不確知各罈都要盛滿了酒呢？』",
+          "nasb": "“Therefore you are to speak this word to them, ‘Thus says the Lord, the God of Israel, “Every jug is to be filled with wine.” ’ And when they say to you, ‘Do we not very well know that every jug is to be filled with wine?’",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "Therefore you shall speak"
-            },
-            {
               "id": "hebrew-413",
-              "eng": "to them"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "word",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "所以你要對他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
+              "cht": "耶和華─"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "every"
+              "id": "",
+              "cht": "的"
             },
             {
-              "id": "hebrew-5035",
-              "eng": "bottle"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": "hebrew-4390",
-              "eng": "shall be filled with"
-            },
-            {
-              "id": "hebrew-3196",
-              "eng": "wine",
-              "punct": "–"
+              "id": "hebrew-3541",
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "and they will say"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to you"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "do surely"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "we know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "各"
             },
             {
               "id": "hebrew-5035",
-              "eng": "bottle"
+              "cht": "罈"
             },
             {
               "id": "hebrew-4390",
-              "eng": "will be filled"
+              "cht": "都要盛滿了"
             },
             {
               "id": "hebrew-3196",
-              "eng": "with wine"
+              "cht": "酒",
+              "punct_cht": "。』"
             },
             {
-              "id": ""
+              "id": "hebrew-413",
+              "cht": "他們必對你"
             },
             {
-              "id": ""
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "我們豈不"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "確"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-5035",
+              "cht": "罈"
+            },
+            {
+              "id": "hebrew-4390",
+              "cht": "都要盛滿了"
+            },
+            {
+              "id": "hebrew-3196",
+              "cht": "酒"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？』"
             }
           ]
         },
@@ -460,79 +447,74 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "isa.5.12",
-          "cunp": "他們在筵席上 彈琴，鼓瑟，擊鼓，吹笛，飲酒， 卻不顧念耶和華的作為， 也不留心他手所做的。",
+          "nasb": "Their banquets are accompanied by lyre and harp, by tambourine and flute, and by wine; But they do not pay attention to the deeds of the Lord, Nor do they consider the work of His hands.",
           "words": [
             {
               "id": "hebrew-1961",
-              "eng": "And are"
-            },
-            {
-              "id": "hebrew-3658",
-              "eng": "the harp",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5035",
-              "eng": "and the strings",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8596",
-              "eng": "the tambourine",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2485",
-              "eng": "and flute",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3196",
-              "eng": "and wine",
-              "punct": "､"
+              "cht": "他們在"
             },
             {
               "id": "hebrew-4960",
-              "eng": "in their feasts",
-              "punct": "–"
+              "cht": "筵席"
+            },
+            {
+              "id": "hebrew-3658",
+              "cht": "上彈琴",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5035",
+              "cht": "鼓瑟",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8596",
+              "cht": "擊鼓",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2485",
+              "cht": "吹笛",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3196",
+              "cht": "飲酒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "卻不"
             },
             {
               "id": "hebrew-853",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-6467",
-              "eng": "the work"
+              "cht": "顧念"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-6467",
+              "cht": "的作為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5027",
-              "eng": "they do regard"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "and the operation"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "of His hands"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-7200",
-              "eng": "consider",
-              "punct": "."
+              "cht": "留心"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "他手"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "所做的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -543,40 +525,41 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "2ch.20.28",
-          "cunp": "他們彈琴、鼓瑟、吹號來到耶路撒冷，進了耶和華的殿。",
+          "nasb": "They came to Jerusalem with harps, lyres and trumpets to the house of the Lord.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "So they came"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "to Jerusalem"
-            },
-            {
               "id": "hebrew-5035",
-              "eng": "with stringed instruments"
+              "cht": "他們彈琴、"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and harps"
+              "cht": "鼓瑟、"
             },
             {
               "id": "hebrew-2689",
-              "eng": "and trumpets"
+              "cht": "吹號"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "來到"
+            },
+            {
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "進了"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "的殿",
+              "punct_cht": "。"
             }
           ]
         },
@@ -587,75 +570,71 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "1ch.15.28",
-          "cunp": "這樣，以色列眾人歡呼吹角、吹號、敲鈸、鼓瑟、彈琴，大發響聲，將耶和華的約櫃擡上來。",
+          "nasb": "Thus all Israel brought up the ark of the covenant of the Lord with shouting, and with sound of the horn, with trumpets, with loud-sounding cymbals, with harps and lyres.",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "Thus all"
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "brought up"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-727",
-              "eng": "the ark"
-            },
-            {
-              "id": "hebrew-1285",
-              "eng": "of the covenant"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-3605",
+              "cht": "眾人"
             },
             {
               "id": "hebrew-8643",
-              "eng": "with shouting",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "and with the sound"
+              "cht": "歡呼"
             },
             {
               "id": "hebrew-7782",
-              "eng": "of the horn",
-              "punct": "､"
+              "cht": "吹角、"
             },
             {
               "id": "hebrew-2689",
-              "eng": "and with trumpets",
-              "punct": "､"
+              "cht": "吹號、"
             },
             {
               "id": "hebrew-4700",
-              "eng": "and with cymbals",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "making music"
+              "cht": "敲鈸、"
             },
             {
               "id": "hebrew-5035",
-              "eng": "with stringed instruments"
+              "cht": "鼓瑟、"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and harps",
-              "punct": "."
+              "cht": "彈琴",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-8085",
+              "cht": "大發響聲",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "將"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1285",
+              "cht": "的約"
+            },
+            {
+              "id": "hebrew-727",
+              "cht": "櫃"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "抬上來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -666,104 +645,97 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "2ch.29.25",
-          "cunp": "王又派利未人在耶和華殿中敲鈸，鼓瑟，彈琴，乃照大衛和他先見迦得，並先知拿單所吩咐的，就是耶和華藉先知所吩咐的。",
+          "nasb": "He then stationed the Levites in the house of the Lord with cymbals, with harps and with lyres, according to the command of David and of Gad the king’s seer, and of Nathan the prophet; for the command was from the Lord through His prophets.",
           "words": [
             {
               "id": "hebrew-5975",
-              "eng": "And he stationed"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "王又派"
             },
             {
               "id": "hebrew-3881",
-              "eng": "the Levites"
+              "cht": "利未人"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "在耶和華"
             },
             {
               "id": "hebrew-1004",
-              "eng": "in the house"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "殿"
             },
             {
               "id": "hebrew-4700",
-              "eng": "with cymbals",
-              "punct": "､"
+              "cht": "中敲鈸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5035",
-              "eng": "with stringed instruments",
-              "punct": "､"
+              "cht": "鼓瑟",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and with harps",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4687",
-              "eng": "according to the commandment"
+              "cht": "彈琴",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1410",
-              "eng": "and of Gad"
-            },
-            {
-              "id": "hebrew-2374",
-              "eng": "seer",
-              "punct": "､"
+              "cht": "乃照大衛"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "和他"
+            },
+            {
+              "id": "hebrew-2374",
+              "cht": "先見"
+            },
+            {
+              "id": "hebrew-1410",
+              "cht": "迦得",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5030",
+              "cht": "並先知"
             },
             {
               "id": "hebrew-5416",
-              "eng": "and of Nathan"
-            },
-            {
-              "id": "hebrew-5030",
-              "eng": "the prophet",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "of"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "拿單"
             },
             {
               "id": "hebrew-4687",
-              "eng": "the thus [was] commandment"
+              "cht": "所吩咐"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "就是"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3027",
-              "eng": "by"
+              "cht": "藉"
             },
             {
               "id": "hebrew-5030",
-              "eng": "his prophets",
-              "punct": "."
+              "cht": "先知"
             },
             {
-              "id": ""
+              "id": "hebrew-4687",
+              "cht": "所吩咐"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -774,122 +746,105 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "1sa.10.5",
-          "cunp": "此後你到神的山，在那裏有非利士人的防兵。你到了城的時候，必遇見一班先知從邱壇下來，前面有鼓瑟的、擊鼓的、吹笛的、彈琴的，他們都受感說話。",
+          "nasb": "Afterward you will come to the hill of God where the Philistine garrison is; and it shall be as soon as you have come there to the city, that you will meet a group of prophets coming down from the high place with harp, tambourine, flute, and a lyre before them, and they will be prophesying.",
           "words": [
             {
-              "id": "hebrew-310",
-              "eng": "After"
+              "id": "hebrew-3651",
+              "cht": "此"
             },
             {
-              "id": "hebrew-3651",
-              "eng": "that"
+              "id": "hebrew-310",
+              "cht": "後"
             },
             {
               "id": "hebrew-935",
-              "eng": "you shall come"
-            },
-            {
-              "id": "hebrew-1389",
-              "eng": "to the hill"
+              "cht": "你到"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "､"
+              "cht": "神"
             },
             {
-              "id": "hebrew-834",
-              "eng": "where"
+              "id": "hebrew-1389",
+              "cht": "的山",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8033",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5333",
-              "eng": "the garrison [is]"
+              "cht": "在那裡"
             },
             {
               "id": "hebrew-6430",
-              "eng": "Philistines",
-              "punct": "–"
+              "cht": "有非利士人"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "and it will come to pass",
-              "punct": "､"
+              "id": "hebrew-5333",
+              "cht": "的防兵",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-935",
-              "eng": "when you have come"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
+              "cht": "你到了"
             },
             {
               "id": "hebrew-5892",
-              "eng": "to the city",
-              "punct": "､"
+              "cht": "城"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6293",
-              "eng": "that you will meet"
+              "cht": "必遇見"
             },
             {
               "id": "hebrew-2256",
-              "eng": "a group"
+              "cht": "一班"
             },
             {
               "id": "hebrew-5030",
-              "eng": "of prophets"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "coming down"
+              "cht": "先知"
             },
             {
               "id": "hebrew-1116",
-              "eng": "from the high place"
+              "cht": "從邱壇"
+            },
+            {
+              "id": "hebrew-3381",
+              "cht": "下來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6440",
-              "eng": "and before them"
+              "cht": "前面"
             },
             {
               "id": "hebrew-5035",
-              "eng": "with a stringed instrument",
-              "punct": "､"
+              "cht": "有鼓瑟的、"
             },
             {
               "id": "hebrew-8596",
-              "eng": "and a tambourine",
-              "punct": "､"
+              "cht": "擊鼓的、"
             },
             {
               "id": "hebrew-2485",
-              "eng": "and a flute",
-              "punct": "､"
+              "cht": "吹笛的、"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and a harp",
-              "punct": "､"
+              "cht": "彈琴的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1992",
-              "eng": "and they"
+              "cht": "他們"
             },
             {
               "id": "hebrew-5012",
-              "eng": "will be prophesying",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "都受感說話",
+              "punct_cht": "。"
             }
           ]
         }

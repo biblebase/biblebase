@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3976": "Scales [are]",
-          "hebrew-4820": "Dishonest",
-          "hebrew-8441": "an abomination to",
-          "hebrew-3068": "Yahweh",
-          "hebrew-68": "but a weight [is]",
-          "hebrew-8003": "just",
-          "hebrew-7522": "His delight"
+          "eng": {
+            "hebrew-3976": "Scales [are]",
+            "hebrew-4820": "Dishonest",
+            "hebrew-8441": "an abomination to",
+            "hebrew-3068": "Yahweh",
+            "hebrew-68": "but a weight [is]",
+            "hebrew-8003": "just",
+            "hebrew-7522": "His delight"
+          },
+          "cht": {
+            "hebrew-3976": "的天平",
+            "hebrew-4820": "詭詐",
+            "hebrew-8441": "所憎惡",
+            "hebrew-3068": "為耶和華",
+            "hebrew-68": "的法碼",
+            "hebrew-8003": "公平",
+            "hebrew-7522": "為他所喜悅"
+          }
         }
       },
       "translations": {
@@ -29,41 +40,37 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "pro.20.23",
-          "cunp": "兩樣的法碼為耶和華所憎惡； 詭詐的天平也為不善。",
+          "nasb": "Differing weights are an abomination to the Lord, And a false scale is not good.",
           "words": [
             {
-              "id": "hebrew-8441",
-              "eng": "An abomination to"
+              "id": "hebrew-68",
+              "cht": "兩樣的法碼"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
+              "cht": "為耶和華"
             },
             {
-              "id": "hebrew-68",
-              "eng": "Differing"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "and [Diverse] weights [are]"
-            },
-            {
-              "id": "hebrew-3976",
-              "eng": "and scales [are]"
+              "id": "hebrew-8441",
+              "cht": "所憎惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4820",
-              "eng": "dishonest"
+              "cht": "詭詐"
+            },
+            {
+              "id": "hebrew-3976",
+              "cht": "的天平"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "也為不"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good",
-              "punct": "."
+              "cht": "善",
+              "punct_cht": "。"
             }
           ]
         },
@@ -75,80 +82,76 @@
             "hebrew-8003": 3.125409454472294
           },
           "verseKey": "deu.25.15",
-          "cunp": "當用對準公平的法碼，公平的升斗。這樣，在耶和華－你神所賜你的地上，你的日子就可以長久。",
+          "nasb": "You shall have a full and just weight; you shall have a full and just measure, that your days may be prolonged in the land which the Lord your God gives you.",
           "words": [
             {
-              "id": "hebrew-68",
-              "eng": "A stone weight",
-              "punct": "､"
+              "id": "hebrew-1961",
+              "cht": "當用"
             },
             {
               "id": "hebrew-8003",
-              "eng": "full"
+              "cht": "對準"
             },
             {
               "id": "hebrew-6664",
-              "eng": "and just"
+              "cht": "公平"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "shall have"
+              "id": "hebrew-68",
+              "cht": "的法碼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6664",
+              "cht": "公平"
             },
             {
               "id": "hebrew-374",
-              "eng": "an ephah"
-            },
-            {
-              "id": "hebrew-8003",
-              "eng": "full"
-            },
-            {
-              "id": "hebrew-6664",
-              "eng": "and just"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "shall you have",
-              "punct": "–"
+              "cht": "的升斗",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4616",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-748",
-              "eng": "may be prolonged"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "your days"
+              "cht": "這樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "the land"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "cht": "在"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-5414",
-              "eng": "is giving"
+              "cht": "賜"
             },
             {
-              "id": ""
+              "id": "hebrew-127",
+              "cht": "的地上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "你的日子"
+            },
+            {
+              "id": "hebrew-748",
+              "cht": "就可以長久",
+              "punct_cht": "。"
             }
           ]
         },
@@ -160,35 +163,37 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "mic.6.11",
-          "cunp": "我若用不公道的天平和囊中詭詐的法碼， 豈可算為清潔呢？",
+          "nasb": "Can I justify wicked scales And a bag of deceptive weights?",
           "words": [
             {
-              "id": "hebrew-2135",
-              "eng": "shall I count pure"
+              "id": "hebrew-7562",
+              "cht": "我若用不公道"
             },
             {
               "id": "hebrew-3976",
-              "eng": "[those] with the scales",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7562",
-              "eng": "wicked"
+              "cht": "的天平"
             },
             {
               "id": "hebrew-3599",
-              "eng": "and with the bag"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "of weights"
+              "cht": "和囊中"
             },
             {
               "id": "hebrew-4820",
-              "eng": "deceitful"
+              "cht": "詭詐"
             },
             {
-              "id": ""
+              "id": "hebrew-68",
+              "cht": "的法碼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2135",
+              "cht": "豈可算為清潔"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -199,83 +204,87 @@
             "hebrew-4820": 2.407639909866712
           },
           "verseKey": "amo.8.5",
-          "cunp": "你們說：月朔幾時過去， 我們好賣糧； 安息日幾時過去， 我們好擺開麥子； 賣出用小升斗， 收銀用大戥子， 用詭詐的天平欺哄人，",
+          "nasb": "saying, “When will the new moon be over, So that we may sell grain, And the sabbath, that we may open the wheat market, To make the bushel smaller and the shekel bigger, And to cheat with dishonest scales,",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "Saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4970",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "will be past",
-              "punct": "､"
+              "cht": "你們說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2320",
-              "eng": "the New Moon"
+              "cht": "月朔"
+            },
+            {
+              "id": "hebrew-4970",
+              "cht": "幾時"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "過去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7666",
-              "eng": "that we may sell"
+              "cht": "我們好賣"
             },
             {
               "id": "hebrew-7668",
-              "eng": "grain"
+              "cht": "糧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7676",
-              "eng": "and the Sabbath",
-              "punct": "､"
+              "cht": "安息日"
+            },
+            {
+              "id": "",
+              "cht": "幾時過去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6605",
-              "eng": "that we may trade"
+              "cht": "我們好擺開"
             },
             {
               "id": "hebrew-1250",
-              "eng": "wheat",
-              "punct": "､"
+              "cht": "麥子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6994",
-              "eng": "Making small"
+              "cht": "賣出用小"
             },
             {
               "id": "hebrew-374",
-              "eng": "the ephah",
-              "punct": "､"
+              "cht": "升斗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1431",
-              "eng": "and large",
-              "punct": "､"
+              "cht": "收銀用大"
             },
             {
               "id": "hebrew-8255",
-              "eng": "the shekel"
-            },
-            {
-              "id": "hebrew-5791",
-              "eng": "and Falsifying"
-            },
-            {
-              "id": "hebrew-3976",
-              "eng": "the scales by"
+              "cht": "戥子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4820",
-              "eng": "deceit"
+              "cht": "用詭詐"
             },
             {
-              "id": ""
+              "id": "hebrew-3976",
+              "cht": "的天平"
             },
             {
-              "id": ""
+              "id": "hebrew-5791",
+              "cht": "欺哄"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             }
           ]
         },
@@ -286,34 +295,34 @@
             "hebrew-4820": 2.407639909866712
           },
           "verseKey": "hos.12.7",
-          "cunp": "以法蓮是商人， 手裏有詭詐的天平，愛行欺騙。",
+          "nasb": "A merchant, in whose hands are false balances, He loves to oppress.",
           "words": [
             {
               "id": "hebrew-3667",
-              "eng": "Canaan",
-              "punct": "､"
+              "cht": "以法蓮是商人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "in his hand",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3976",
-              "eng": "scales [are]"
+              "cht": "手裡"
             },
             {
               "id": "hebrew-4820",
-              "eng": "Deceitful"
+              "cht": "有詭詐"
             },
             {
-              "id": "hebrew-6231",
-              "eng": "to oppress"
+              "id": "hebrew-3976",
+              "cht": "的天平",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-157",
-              "eng": "He loves",
-              "punct": "."
+              "cht": "愛"
+            },
+            {
+              "id": "hebrew-6231",
+              "cht": "行欺騙",
+              "punct_cht": "。"
             }
           ]
         },
@@ -325,86 +334,82 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "lev.19.36",
-          "cunp": "要用公道天平、公道法碼、公道升斗、公道秤。我是耶和華－你們的神，曾把你們從埃及地領出來的。",
+          "nasb": "You shall have just balances, just weights, a just ephah, and a just hin; I am the Lord your God, who brought you out from the land of Egypt.",
           "words": [
             {
-              "id": "hebrew-3976",
-              "eng": "Scales"
+              "id": "hebrew-1961",
+              "cht": "要"
             },
             {
               "id": "hebrew-6664",
-              "eng": "honest",
-              "punct": "､"
+              "cht": "用公道"
+            },
+            {
+              "id": "hebrew-3976",
+              "cht": "天平、"
+            },
+            {
+              "id": "hebrew-6664",
+              "cht": "公道"
             },
             {
               "id": "hebrew-68",
-              "eng": "weights"
+              "cht": "法碼、"
             },
             {
               "id": "hebrew-6664",
-              "eng": "honest",
-              "punct": "､"
+              "cht": "公道"
             },
             {
               "id": "hebrew-374",
-              "eng": "an ephah"
+              "cht": "升斗、"
             },
             {
               "id": "hebrew-6664",
-              "eng": "honest",
-              "punct": "､"
+              "cht": "公道"
             },
             {
               "id": "hebrew-1969",
-              "eng": "and an hin"
-            },
-            {
-              "id": "hebrew-6664",
-              "eng": "honest"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "have"
+              "cht": "秤",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我是"
             },
             {
               "id": "hebrew-3068",
-              "eng": "[am] Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "brought you out"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "of the land"
+              "cht": "曾把你們"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "從埃及"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3318",
+              "cht": "領出來"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -416,42 +421,41 @@
             "hebrew-68": 1.0442645748168708
           },
           "verseKey": "pro.16.11",
-          "cunp": "公道的天平和秤都屬耶和華； 囊中一切法碼都為他所定。",
+          "nasb": "A just balance and scales belong to the Lord; All the weights of the bag are His concern.",
           "words": [
             {
-              "id": "hebrew-6425",
-              "eng": "Weights"
+              "id": "hebrew-4941",
+              "cht": "公道"
             },
             {
               "id": "hebrew-3976",
-              "eng": "and scales [are]"
+              "cht": "的天平"
             },
             {
-              "id": "hebrew-4941",
-              "eng": "Honest"
+              "id": "hebrew-6425",
+              "cht": "和秤"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "[are] His work",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "All"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "the weights in"
+              "cht": "都屬耶和華",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3599",
-              "eng": "the bag",
-              "punct": "."
+              "cht": "囊"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "中一切"
+            },
+            {
+              "id": "hebrew-68",
+              "cht": "法碼"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "都為他所定",
+              "punct_cht": "。"
             }
           ]
         },
@@ -462,45 +466,47 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "jer.9.6",
-          "cunp": "你的住處在詭詐的人中； 他們因行詭詐，不肯認識我。 這是耶和華說的。",
+          "nasb": "Your dwelling is in the midst of deceit; Through deceit they refuse to know Me,” declares the Lord.",
           "words": [
             {
               "id": "hebrew-3427",
-              "eng": "Your dwelling place [is]"
+              "cht": "你的住處"
+            },
+            {
+              "id": "hebrew-4820",
+              "cht": "在詭詐的人"
             },
             {
               "id": "hebrew-8432",
-              "eng": "in the midst"
+              "cht": "中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4820",
-              "eng": "of deceit",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4820",
-              "eng": "Through deceit"
+              "cht": "他們因行詭詐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3985",
-              "eng": "they refuse"
+              "cht": "不肯"
             },
             {
               "id": "hebrew-3045",
-              "eng": "to know"
+              "cht": "認識"
             },
             {
               "id": "hebrew-853",
-              "eng": "Me"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "我",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -512,63 +518,61 @@
             "hebrew-8003": 3.125409454472294
           },
           "verseKey": "deu.27.6",
-          "cunp": "要用沒有鑿過的石頭築耶和華－你神的壇，在壇上要將燔祭獻給耶和華－你的神。",
+          "nasb": "You shall build the altar of the Lord your God of uncut stones, and you shall offer on it burnt offerings to the Lord your God;",
           "words": [
             {
-              "id": "hebrew-68",
-              "eng": "With stones",
-              "punct": "､"
+              "id": "hebrew-8003",
+              "cht": "要用沒有鑿過"
             },
             {
-              "id": "hebrew-8003",
-              "eng": "whole"
+              "id": "hebrew-68",
+              "cht": "的石頭"
             },
             {
               "id": "hebrew-1129",
-              "eng": "You shall build"
+              "cht": "築"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-4196",
-              "eng": "the altar"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your God"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "and offer"
+              "cht": "的壇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on it"
+              "cht": "在壇上"
             },
             {
               "id": "hebrew-5930",
-              "eng": "burnt offerings"
+              "cht": "要將燔祭"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "獻"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh"
+              "cht": "給耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "–"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -580,123 +584,115 @@
             "hebrew-8003": 3.125409454472294
           },
           "verseKey": "jos.8.31",
-          "cunp": "是用沒有動過鐵器的整石頭築的，照着耶和華僕人摩西所吩咐以色列人的話，正如摩西律法書上所寫的。眾人在這壇上給耶和華奉獻燔祭和平安祭。",
+          "nasb": "just as Moses the servant of the Lord had commanded the sons of Israel, as it is written in the book of the law of Moses, an altar of uncut stones on which no man had wielded an iron tool; and they offered burnt offerings on it to the Lord, and sacrificed peace offerings.",
           "words": [
             {
               "id": "hebrew-834",
-              "eng": "as had"
-            },
-            {
-              "id": "hebrew-6680",
-              "eng": "commanded"
-            },
-            {
-              "id": "hebrew-4872",
-              "eng": "Moses"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "the servant"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3789",
-              "eng": "as it is written"
-            },
-            {
-              "id": "hebrew-5612",
-              "eng": "in the Book"
-            },
-            {
-              "id": "hebrew-8451",
-              "eng": "of the Law"
-            },
-            {
-              "id": "hebrew-4872",
-              "eng": "of Moses",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4196",
-              "eng": "an altar"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "of stones",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8003",
-              "eng": "whole"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "over which"
+              "cht": "是"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "用沒有"
             },
             {
               "id": "hebrew-5130",
-              "eng": "man has wielded"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "over"
+              "cht": "動過"
             },
             {
               "id": "hebrew-1270",
-              "eng": "an iron [tool]",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "and they offered"
+              "cht": "鐵器"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on it"
+              "cht": "的"
             },
             {
-              "id": "hebrew-5930",
-              "eng": "burnt offerings"
+              "id": "hebrew-8003",
+              "cht": "整"
+            },
+            {
+              "id": "hebrew-68",
+              "cht": "石頭"
+            },
+            {
+              "id": "",
+              "cht": "築的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5650",
+              "cht": "僕人"
+            },
+            {
+              "id": "hebrew-4872",
+              "cht": "摩西"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-6680",
+              "cht": "吩咐"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "",
+              "cht": "的話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4872",
+              "cht": "摩西"
+            },
+            {
+              "id": "hebrew-8451",
+              "cht": "律法"
+            },
+            {
+              "id": "hebrew-5612",
+              "cht": "書上"
+            },
+            {
+              "id": "hebrew-3789",
+              "cht": "所寫的",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "眾人在這壇上"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "給耶和華"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "奉獻"
+            },
+            {
+              "id": "hebrew-5930",
+              "cht": "燔祭"
             },
             {
               "id": "hebrew-2076",
-              "eng": "and sacrificed"
+              "cht": "和"
             },
             {
               "id": "hebrew-8002",
-              "eng": "peace offerings",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "平安祭",
+              "punct_cht": "。"
             }
           ]
         }

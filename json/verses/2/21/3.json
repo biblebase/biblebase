@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-518": "if",
-          "hebrew-1610": "by himself",
-          "hebrew-935": "he comes in",
-          "hebrew-3318": "then shall go out",
-          "hebrew-1167": "owner",
-          "hebrew-802": "his wife",
-          "hebrew-1931": "he",
-          "hebrew-5973": "with him"
+          "eng": {
+            "hebrew-518": "if",
+            "hebrew-1610": "by himself",
+            "hebrew-935": "he comes in",
+            "hebrew-3318": "then shall go out",
+            "hebrew-1167": "owner",
+            "hebrew-802": "his wife",
+            "hebrew-1931": "he",
+            "hebrew-5973": "with him"
+          },
+          "cht": {
+            "hebrew-518": "若",
+            "hebrew-1610": "就可以孤身",
+            "hebrew-935": "來",
+            "hebrew-3318": "出去",
+            "hebrew-1167": "有",
+            "hebrew-802": "他的妻",
+            "hebrew-1931": "他",
+            "hebrew-5973": "就可以同他"
+          }
         }
       },
       "translations": {
@@ -24,40 +36,37 @@
             "hebrew-1610": 14
           },
           "verseKey": "pro.9.3",
-          "cunp": "打發使女出去， 自己在城中至高處呼叫，",
+          "nasb": "She has sent out her maidens, she calls From the tops of the heights of the city:",
           "words": [
             {
               "id": "hebrew-7971",
-              "eng": "She has sent out"
+              "cht": "打發"
             },
             {
               "id": "hebrew-5291",
-              "eng": "her maidens",
-              "punct": "､"
+              "cht": "使女"
             },
             {
-              "id": "hebrew-7121",
-              "eng": "she cries out"
+              "id": "hebrew-7971",
+              "cht": "出去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-1610",
-              "eng": "the places"
-            },
-            {
-              "id": "hebrew-4791",
-              "eng": "highest"
+              "cht": "自己在"
             },
             {
               "id": "hebrew-7176",
-              "eng": "of the city",
-              "punct": "､"
+              "cht": "城中"
             },
             {
-              "id": "hebrew-7971"
+              "id": "hebrew-1610",
+              "cht": "至高處"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "呼叫",
+              "punct_cht": "，"
             }
           ]
         },
@@ -68,110 +77,84 @@
             "hebrew-1167": 2.2697830610106826
           },
           "verseKey": "jdg.9.20",
-          "cunp": "不然，願火從亞比米勒發出，燒滅示劍人和米羅眾人，又願火從示劍人和米羅人中出來，燒滅亞比米勒。」",
+          "nasb": "But if not, let fire come out from Abimelech and consume the men of Shechem and Beth-millo; and let fire come out from the men of Shechem and from Beth-millo, and consume Abimelech.”",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "But if"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "not",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "let come"
+              "cht": "不然",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-784",
-              "eng": "fire"
+              "cht": "願火"
             },
             {
-              "id": "hebrew-40",
-              "eng": "from Abimelech",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "And devour"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "the men"
-            },
-            {
-              "id": "hebrew-7927",
-              "eng": "of Shechem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
-            },
-            {
-              "id": "hebrew-4407",
-              "eng": "Beth Millo",
-              "punct": "–"
+              "id": "hebrew-4480",
+              "cht": "從亞比米勒"
             },
             {
               "id": "hebrew-3318",
-              "eng": "and let come"
-            },
-            {
-              "id": "hebrew-784",
-              "eng": "fire"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "from the men"
-            },
-            {
-              "id": "hebrew-7927",
-              "eng": "of Shechem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "and from"
-            },
-            {
-              "id": "hebrew-4407",
-              "eng": "Beth Millo",
-              "punct": "､"
+              "cht": "發出",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "and devour"
+              "cht": "燒滅"
+            },
+            {
+              "id": "hebrew-7927",
+              "cht": "示劍"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "人"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-1037",
+              "cht": "米羅"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "眾人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-784",
+              "cht": "又願火"
+            },
+            {
+              "id": "hebrew-7927",
+              "cht": "從示劍"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-4407",
+              "cht": "和米羅"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "中出來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "燒滅"
             },
             {
               "id": "hebrew-40",
-              "eng": "Abimelech",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-1037"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "亞比米勒",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -181,61 +164,61 @@
             "hebrew-1167": 2.2697830610106826
           },
           "verseKey": "jdg.9.23",
-          "cunp": "神使惡魔降在亞比米勒和示劍人中間，示劍人就以詭詐待亞比米勒。",
+          "nasb": "Then God sent an evil spirit between Abimelech and the men of Shechem; and the men of Shechem dealt treacherously with Abimelech,",
           "words": [
             {
-              "id": "hebrew-7971",
-              "eng": "And sent"
-            },
-            {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-7307",
-              "eng": "a spirit"
+              "id": "hebrew-7971",
+              "cht": "使"
             },
             {
               "id": "hebrew-7451",
-              "eng": "of ill will"
+              "cht": "惡"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "魔"
             },
             {
               "id": "hebrew-996",
-              "eng": "between"
+              "cht": "降在"
             },
             {
               "id": "hebrew-40",
-              "eng": "Abimelech"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "the men"
+              "cht": "亞比米勒"
             },
             {
               "id": "hebrew-7927",
-              "eng": "of Shechem",
-              "punct": "–"
+              "cht": "和示劍"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "中間",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7927",
+              "cht": "示劍"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "人"
             },
             {
               "id": "hebrew-898",
-              "eng": "and dealt treacherously"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "the men"
-            },
-            {
-              "id": "hebrew-7927",
-              "eng": "of Shechem"
+              "cht": "就以詭詐"
             },
             {
               "id": "hebrew-40",
-              "eng": "with Abimelech",
-              "punct": "､"
+              "cht": "待亞比米勒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -246,94 +229,82 @@
             "hebrew-802": 0.6811622264965705
           },
           "verseKey": "deu.22.22",
-          "cunp": "「若遇見人與有丈夫的婦人行淫，就要將姦夫淫婦一併治死。這樣，就把那惡從以色列中除掉。",
+          "nasb": "“If a man is found lying with a married woman, then both of them shall die, the man who lay with the woman, and the woman; thus you shall purge the evil from Israel.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "If"
+              "cht": "若"
             },
             {
               "id": "hebrew-4672",
-              "eng": "is found"
+              "cht": "遇見"
             },
             {
               "id": "hebrew-376",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-7901",
-              "eng": "lying"
+              "cht": "人"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman"
+              "cht": "與"
             },
             {
               "id": "hebrew-1166",
-              "eng": "married"
+              "cht": "有"
             },
             {
               "id": "hebrew-1167",
-              "eng": "to a husband",
-              "punct": "､"
+              "cht": "丈夫"
             },
             {
-              "id": "hebrew-4191",
-              "eng": "then shall die",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "both"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "of them"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
+              "id": "hebrew-802",
+              "cht": "的婦人"
             },
             {
               "id": "hebrew-7901",
-              "eng": "that lay"
+              "cht": "行淫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
+              "cht": "就要將姦"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "夫"
             },
             {
               "id": "hebrew-802",
-              "eng": "the woman",
-              "punct": "､"
+              "cht": "淫婦"
             },
             {
-              "id": "hebrew-802",
-              "eng": "and the woman",
-              "punct": "–"
+              "id": "hebrew-1571",
+              "cht": "一"
             },
             {
-              "id": "hebrew-1197",
-              "eng": "so you shall put away"
+              "id": "hebrew-8147",
+              "cht": "併"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "治死"
+            },
+            {
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "。，"
             },
             {
               "id": "hebrew-7451",
-              "eng": "the evil"
+              "cht": "就把那惡"
             },
             {
               "id": "hebrew-3478",
-              "eng": "from Israel",
-              "punct": "."
+              "cht": "從以色列"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-1197",
+              "cht": "中除掉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -345,100 +316,102 @@
             "hebrew-802": 0.6811622264965705
           },
           "verseKey": "exo.21.22",
-          "cunp": "「人若彼此爭鬥，傷害有孕的婦人，甚至墜胎，隨後卻無別害，那傷害她的，總要按婦人的丈夫所要的，照審判官所斷的，受罰。",
+          "nasb": "“If men struggle with each other and strike a woman with child so that she gives birth prematurely, yet there is no injury, he shall surely be fined as the woman’s husband may demand of him, and he shall pay as the judges decide.",
           "words": [
             {
+              "id": "hebrew-582",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "And if"
+              "cht": "若"
             },
             {
               "id": "hebrew-5327",
-              "eng": "fight",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "men"
+              "cht": "彼此爭鬥",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5062",
-              "eng": "and hurt"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman"
+              "cht": "傷害"
             },
             {
               "id": "hebrew-2030",
-              "eng": "pregnant",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "so that prematurely"
-            },
-            {
-              "id": "hebrew-3206",
-              "eng": "she gives birth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and yet no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "follows"
-            },
-            {
-              "id": "hebrew-611",
-              "eng": "harm",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6064",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-6064",
-              "eng": "he shall be punished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "accordingly as"
-            },
-            {
-              "id": "hebrew-7896",
-              "eng": "imposes"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on him"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "husband"
+              "cht": "有孕"
             },
             {
               "id": "hebrew-802",
-              "eng": "of the woman",
-              "punct": "､"
+              "cht": "的婦人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and he shall pay"
+              "id": "hebrew-3318",
+              "cht": "甚至墜"
+            },
+            {
+              "id": "hebrew-3206",
+              "cht": "胎",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "隨後卻"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "無"
+            },
+            {
+              "id": "hebrew-611",
+              "cht": "別害"
+            },
+            {
+              "id": "",
+              "cht": "那傷害她的",
+              "punct_cht": "，，"
+            },
+            {
+              "id": "hebrew-6064",
+              "cht": "總要"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "按婦人"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "的丈夫"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-7896",
+              "cht": "要"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6414",
-              "eng": "as the judges [determine]",
-              "punct": "."
+              "cht": "照審判官"
             },
             {
-              "id": ""
+              "id": "hebrew-5414",
+              "cht": "所斷"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6064",
+              "cht": "受罰",
+              "punct_cht": "。"
             }
           ]
         },
@@ -449,155 +422,140 @@
             "hebrew-3318": 0.6448696551882642
           },
           "verseKey": "ezk.46.9",
-          "cunp": "「在各節期，國內居民朝見耶和華的時候，從北門進入敬拜的，必由南門而出；從南門進入的，必由北門而出。不可從所入的門而出，必要直往前行，由對門而出。",
+          "nasb": "But when the people of the land come before the Lord at the appointed feasts, he who enters by way of the north gate to worship shall go out by way of the south gate. And he who enters by way of the south gate shall go out by way of the north gate. No one shall return by way of the gate by which he entered but shall go straight out.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "But when come"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the people"
+              "id": "hebrew-4150",
+              "cht": "在各節期",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land"
+              "cht": "國內"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "居民"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "朝"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "見"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-4150",
-              "eng": "on the appointed feast [days]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "whoever enters"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6828",
-              "eng": "north"
+              "cht": "從北"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "門"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "進入"
             },
             {
               "id": "hebrew-7812",
-              "eng": "to worship"
+              "cht": "敬拜"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "shall go out"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate",
-              "punct": "–"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5045",
-              "eng": "south"
+              "cht": "必由南"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "門"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "而出",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5045",
+              "cht": "從南"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "門"
             },
             {
               "id": "hebrew-935",
-              "eng": "and whoever enters"
+              "cht": "進入"
             },
             {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate"
-            },
-            {
-              "id": "hebrew-5045",
-              "eng": "south"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "shall go out"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of gate",
-              "punct": "."
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6828",
-              "eng": "The north"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "He shall return"
+              "cht": "必由北"
             },
             {
               "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "through which"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "he came",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-5226",
-              "eng": "through the opposite gate"
+              "cht": "門"
             },
             {
               "id": "hebrew-3318",
-              "eng": "shall go out",
-              "punct": "."
+              "cht": "而出",
+              "punct_cht": "。"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "不可"
             },
             {
-              "id": ""
+              "id": "hebrew-834",
+              "cht": "從所"
             },
             {
-              "id": ""
+              "id": "hebrew-935",
+              "cht": "入"
             },
             {
-              "id": "hebrew-8179"
+              "id": "hebrew-8179",
+              "cht": "的門"
             },
             {
-              "id": ""
+              "id": "hebrew-8179",
+              "cht": "而出",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "必要"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "直往前行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5226",
+              "cht": "由對門"
+            },
+            {
+              "id": "",
+              "cht": "而出",
+              "punct_cht": "。"
             }
           ]
         },
@@ -609,85 +567,81 @@
             "hebrew-802": 0.6811622264965705
           },
           "verseKey": "gen.20.3",
-          "cunp": "但夜間，神來，在夢中對亞比米勒說：「你是個死人哪！因為你取了那女人來；她原是別人的妻子。」",
+          "nasb": "But God came to Abimelech in a dream of the night, and said to him, “Behold, you are a dead man because of the woman whom you have taken, for she is married.”",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "But came"
+              "id": "hebrew-3915",
+              "cht": "但夜間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-40",
-              "eng": "Abimelech"
+              "id": "hebrew-935",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2472",
-              "eng": "in a dream"
+              "cht": "在夢中"
             },
             {
-              "id": "hebrew-3915",
-              "eng": "by night",
-              "punct": "､"
+              "id": "hebrew-413",
+              "cht": "對"
+            },
+            {
+              "id": "hebrew-40",
+              "cht": "亞比米勒"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4191",
-              "eng": "you are as good as dead",
-              "punct": "､"
+              "cht": "你是個死人"
+            },
+            {
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5921",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "of the woman"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "whom"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3947",
-              "eng": "you have taken",
-              "punct": "–"
+              "cht": "你取"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "了那"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "女人"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1931",
-              "eng": "for she [is]"
-            },
-            {
-              "id": "hebrew-1166",
-              "eng": "is married"
+              "cht": "她"
             },
             {
               "id": "hebrew-1167",
-              "eng": "to a man",
-              "punct": "."
+              "cht": "原是別人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-834"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1166",
+              "cht": "的妻子",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -699,149 +653,113 @@
             "hebrew-1167": 2.2697830610106826
           },
           "verseKey": "jdg.19.22",
-          "cunp": "他們心裏正歡暢的時候，城中的匪徒圍住房子，連連叩門，對房主老人說：「你把那進你家的人帶出來，我們要與他交合。」",
+          "nasb": "While they were celebrating, behold, the men of the city, certain worthless fellows, surrounded the house, pounding the door; and they spoke to the owner of the house, the old man, saying, “Bring out the man who came into your house that we may have relations with him.”",
           "words": [
             {
-              "id": "hebrew-1992",
-              "eng": "[As] they"
-            },
-            {
-              "id": "hebrew-3190",
-              "eng": "were enjoying"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "他們"
             },
             {
               "id": "hebrew-3820",
-              "eng": "themselves"
+              "cht": "心裡"
             },
             {
-              "id": "hebrew-2009",
-              "eng": "and suddenly",
-              "punct": "､"
+              "id": "hebrew-3190",
+              "cht": "正歡暢"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5892",
-              "eng": "of the city",
-              "punct": "､"
+              "cht": "城"
             },
             {
-              "id": "hebrew-376",
-              "eng": "certain"
+              "id": "hebrew-582",
+              "cht": "中的"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "men"
-            },
-            {
-              "id": "hebrew-1100",
-              "eng": "perverted",
-              "punct": "､"
+              "id": "hebrew-582",
+              "cht": "匪徒"
             },
             {
               "id": "hebrew-5437",
-              "eng": "surrounded"
+              "cht": "圍"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "住"
             },
             {
               "id": "hebrew-1004",
-              "eng": "the house",
-              "punct": "､"
+              "cht": "房子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1849",
-              "eng": "[and] beat"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "連連叩"
             },
             {
               "id": "hebrew-1817",
-              "eng": "the door",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and they spoke"
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
-              "id": "hebrew-376",
-              "eng": "the"
+              "id": "hebrew-1004",
+              "cht": "房"
             },
             {
               "id": "hebrew-1167",
-              "eng": "master"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house",
-              "punct": "､"
+              "cht": "主"
             },
             {
               "id": "hebrew-2205",
-              "eng": "the old man",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "bring out"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "老"
             },
             {
               "id": "hebrew-376",
-              "eng": "the man"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "你把"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "那"
             },
             {
               "id": "hebrew-935",
-              "eng": "came"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
+              "cht": "進"
             },
             {
               "id": "hebrew-1004",
-              "eng": "your house"
+              "cht": "你家"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "的人"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "帶出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "that we may know him",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-582"
-            },
-            {
-              "id": "hebrew-582"
+              "cht": "我們要與他交合",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -853,114 +771,88 @@
             "hebrew-1167": 2.2697830610106826
           },
           "verseKey": "jdg.19.23",
-          "cunp": "那房主出來對他們說：「弟兄們哪，不要這樣作惡；這人既然進了我的家，你們就不要行這醜事。",
+          "nasb": "Then the man, the owner of the house, went out to them and said to them, “No, my fellows, please do not act so wickedly; since this man has come into my house, do not commit this act of folly.",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "But went out"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to them"
-            },
-            {
               "id": "hebrew-376",
-              "eng": "the man",
-              "punct": "､"
+              "cht": "那"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "房"
             },
             {
               "id": "hebrew-1167",
-              "eng": "the master"
+              "cht": "主"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "of the house",
-              "punct": "､"
+              "id": "hebrew-3318",
+              "cht": "出來"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "對他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to them"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "No",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-251",
-              "eng": "my brothers",
-              "punct": "､"
+              "cht": "弟兄們"
+            },
+            {
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-7489",
-              "eng": "do act [so] wickedly",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "I beg you",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "seeing that"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "Seeing"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "has come"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "man"
+              "cht": "這樣作惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-413",
-              "eng": "into"
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "既然"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "進了"
             },
             {
               "id": "hebrew-1004",
-              "eng": "my house",
-              "punct": "､"
+              "cht": "我的家",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "do commit"
+              "cht": "你們就不要"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5039",
-              "eng": "outrage"
+              "cht": "行"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this",
-              "punct": "."
+              "cht": "這"
             },
             {
-              "id": ""
+              "id": "hebrew-5039",
+              "cht": "醜事",
+              "punct_cht": "。"
             }
           ]
         }

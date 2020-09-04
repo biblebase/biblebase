@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5753": "I am troubled",
-          "hebrew-7817": "I am bowed down",
-          "hebrew-5704": "even to",
-          "hebrew-3966": "greatly",
-          "hebrew-3605": "all",
-          "hebrew-3117": "the day long",
-          "hebrew-6937": "mourning",
-          "hebrew-1980": "I go"
+          "eng": {
+            "hebrew-5753": "I am troubled",
+            "hebrew-7817": "I am bowed down",
+            "hebrew-5704": "even to",
+            "hebrew-3966": "greatly",
+            "hebrew-3605": "all",
+            "hebrew-3117": "the day long",
+            "hebrew-6937": "mourning",
+            "hebrew-1980": "I go"
+          },
+          "cht": {
+            "hebrew-5753": "我疼痛",
+            "hebrew-7817": "拳曲",
+            "hebrew-5704": "大大",
+            "hebrew-3966": "大大",
+            "hebrew-3605": "終",
+            "hebrew-3117": "日",
+            "hebrew-6937": "哀痛",
+            "hebrew-1980": "哀痛"
+          }
         }
       },
       "translations": {
@@ -29,39 +41,40 @@
             "hebrew-1980": 0.4954178557167908
           },
           "verseKey": "psa.35.14",
-          "cunp": "我這樣行，好像他是我的朋友，我的弟兄； 我屈身悲哀，如同人為母親哀痛。",
+          "nasb": "I went about as though it were my friend or brother; I bowed down mourning, as one who sorrows for a mother.",
           "words": [
             {
+              "id": "hebrew-1980",
+              "cht": "我這樣行",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-7453",
-              "eng": "As though [he were] my friend"
+              "cht": "好像他是我的朋友",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-251",
-              "eng": "[or] brother",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "I paced about"
-            },
-            {
-              "id": "hebrew-57",
-              "eng": "as one mourning [for]"
-            },
-            {
-              "id": "hebrew-517",
-              "eng": "[his] mother",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6937",
-              "eng": "Heavily",
-              "punct": "､"
+              "cht": "弟兄",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7817",
-              "eng": "I bowed down",
-              "punct": "."
+              "cht": "我屈身"
+            },
+            {
+              "id": "hebrew-6937",
+              "cht": "悲哀",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-517",
+              "cht": "如同人為母親"
+            },
+            {
+              "id": "hebrew-57",
+              "cht": "哀痛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -71,140 +84,95 @@
             "hebrew-5753": 2.55020052759751
           },
           "verseKey": "2co.7.12",
-          "cunp": "我雖然從前寫信給你們，卻不是為那虧負人的，也不是為那受人虧負的，乃要在神面前把你們顧念我們的熱心表明出來。",
+          "nasb": "So although I wrote to you, it was not for the sake of the offender nor for the sake of the one offended, but that your earnestness on our behalf might be made known to you in the sight of God.",
           "words": [
             {
-              "id": "greek-686",
-              "eng": "So"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "even"
+              "id": "greek-1499",
+              "cht": "我雖然"
             },
             {
               "id": "greek-1125",
-              "eng": "I wrote"
+              "cht": "從前寫信"
             },
             {
               "id": "greek-5213",
-              "eng": "to you",
-              "punct": ","
+              "cht": "給你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "[it was] not"
+              "cht": "卻不是"
             },
             {
               "id": "greek-1752",
-              "eng": "for the sake of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "cht": "為"
             },
             {
               "id": "greek-91",
-              "eng": "having done wrong",
-              "punct": ","
+              "cht": "那虧負"
             },
             {
-              "id": "greek-235",
-              "eng": "rather"
+              "id": "",
+              "cht": "人的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3761",
-              "eng": "nor"
+              "cht": "也不是"
             },
             {
               "id": "greek-1752",
-              "eng": "for the sake of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "cht": "為"
             },
             {
               "id": "greek-91",
-              "eng": "having suffered wrong",
-              "punct": ","
+              "cht": "那受人虧負的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but rather"
+              "cht": "乃"
             },
             {
               "id": "greek-1752",
-              "eng": "for the sake of"
+              "cht": "要"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5319",
-              "eng": "being revealed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4710",
-              "eng": "earnestness"
-            },
-            {
-              "id": "greek-5216",
-              "eng": "of you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "which [is]"
-            },
-            {
-              "id": "greek-5228",
-              "eng": "for"
-            },
-            {
-              "id": "greek-2257",
-              "eng": "us"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "you"
-            },
-            {
-              "id": "greek-1799",
-              "eng": "before"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "在"
             },
             {
               "id": "greek-2316",
-              "eng": "God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": "greek-1499"
+              "id": "greek-1799",
+              "cht": "面前"
             },
             {
-              "id": ""
+              "id": "greek-5216",
+              "cht": "把你們"
             },
             {
-              "id": ""
+              "id": "greek-5228",
+              "cht": "顧念"
             },
             {
-              "id": "greek-5209"
+              "id": "greek-2257",
+              "cht": "我們的"
+            },
+            {
+              "id": "greek-4710",
+              "cht": "熱心"
+            },
+            {
+              "id": "greek-5319",
+              "cht": "表明"
+            },
+            {
+              "id": "greek-4314",
+              "cht": "出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -214,52 +182,37 @@
             "hebrew-5753": 2.55020052759751
           },
           "verseKey": "col.3.25",
-          "cunp": "那行不義的必受不義的報應；主並不偏待人。",
+          "nasb": "For he who does wrong will receive the consequences of the wrong which he has done, and that without partiality.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
               "id": "greek-91",
-              "eng": "doing wrong"
+              "cht": "那行不義的"
             },
             {
               "id": "greek-2865",
-              "eng": "will be repaid [for]"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "what"
+              "cht": "必受"
             },
             {
               "id": "greek-91",
-              "eng": "he has done wrong",
-              "punct": ","
+              "cht": "不義的"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "",
+              "cht": "報應",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2076",
-              "eng": "there is"
+              "cht": "主並"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "不"
             },
             {
               "id": "greek-4382",
-              "eng": "partiality",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "偏待人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -269,101 +222,63 @@
             "hebrew-5753": 2.55020052759751
           },
           "verseKey": "rev.22.11",
-          "cunp": "不義的，叫他仍舊不義；污穢的，叫他仍舊污穢；為義的，叫他仍舊為義；聖潔的，叫他仍舊聖潔。」",
+          "nasb": "Let the one who does wrong, still do wrong; and the one who is filthy, still be filthy; and let the one who is righteous, still practice righteousness; and the one who is holy, still keep himself holy.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-91",
-              "eng": "being unrighteous",
-              "punct": ","
-            },
-            {
-              "id": "greek-91",
-              "eng": "let him be unrighteous"
+              "cht": "不義的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2089",
-              "eng": "still",
-              "punct": ";"
+              "cht": "叫他仍舊"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "he who"
-            },
-            {
-              "id": "greek-4508",
-              "eng": "is filthy",
-              "punct": ","
+              "id": "greek-91",
+              "cht": "不義",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4510",
-              "eng": "let him be filthy"
+              "cht": "污穢的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2089",
-              "eng": "still",
-              "punct": ";"
+              "cht": "叫他仍舊"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "he who"
+              "id": "greek-4510",
+              "cht": "污穢",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1342",
-              "eng": "[is] righteous",
-              "punct": ","
-            },
-            {
-              "id": "greek-1343",
-              "eng": "righteousness"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "let him practice"
+              "cht": "為義的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2089",
-              "eng": "still",
-              "punct": ";"
+              "cht": "叫他仍舊"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "he who [is]"
+              "id": "greek-1344",
+              "cht": "為義",
+              "punct_cht": "；"
             },
             {
               "id": "greek-40",
-              "eng": "holy",
-              "punct": ","
-            },
-            {
-              "id": "greek-37",
-              "eng": "let him be holy"
+              "cht": "聖潔的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2089",
-              "eng": "still",
-              "punct": "."
+              "cht": "叫他仍舊"
             },
             {
-              "id": "greek-4510"
-            },
-            {
-              "id": "greek-1344"
+              "id": "greek-37",
+              "cht": "聖潔",
+              "punct_cht": "。"
             }
           ]
         },
@@ -373,125 +288,87 @@
             "hebrew-5753": 2.55020052759751
           },
           "verseKey": "rev.11.5",
-          "cunp": "若有人想要害他們，就有火從他們口中出來，燒滅仇敵。凡想要害他們的都必這樣被殺。",
+          "nasb": "And if anyone wants to harm them, fire flows out of their mouth and devours their enemies; so if anyone wants to harm them, he must be killed in this way.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "anyone"
+              "cht": "若"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "有人"
             },
             {
               "id": "greek-2309",
-              "eng": "should desire"
+              "cht": "想要"
             },
             {
               "id": "greek-91",
-              "eng": "to harm",
-              "punct": ","
+              "cht": "害"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4442",
-              "eng": "fire"
-            },
-            {
-              "id": "greek-1607",
-              "eng": "goes out"
+              "cht": "就有火"
             },
             {
               "id": "greek-1537",
-              "eng": "of"
+              "cht": "從"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "他們"
             },
             {
               "id": "greek-4750",
-              "eng": "mouth"
+              "cht": "口中"
             },
             {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1607",
+              "cht": "出來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2719",
-              "eng": "devours"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "燒滅"
             },
             {
               "id": "greek-2190",
-              "eng": "enemies"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "anyone"
+              "cht": "仇敵",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2309",
-              "eng": "should desire"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
+              "cht": "凡想要"
             },
             {
               "id": "greek-91",
-              "eng": "to harm",
-              "punct": ","
-            },
-            {
-              "id": "greek-3779",
-              "eng": "thus"
-            },
-            {
-              "id": "greek-1163",
-              "eng": "it is necessary"
+              "cht": "害"
             },
             {
               "id": "greek-846",
-              "eng": "for him"
+              "cht": "他們"
+            },
+            {
+              "id": "greek-1536",
+              "cht": "的"
+            },
+            {
+              "id": "greek-1163",
+              "cht": "都必"
+            },
+            {
+              "id": "greek-3779",
+              "cht": "這樣"
             },
             {
               "id": "greek-615",
-              "eng": "to be killed",
-              "punct": "."
-            },
-            {
-              "id": "greek-1536"
-            },
-            {
-              "id": "greek-1536"
+              "cht": "被殺",
+              "punct_cht": "。"
             }
           ]
         },
@@ -503,113 +380,111 @@
             "hebrew-6937": 4.0204442424896225
           },
           "verseKey": "ezk.31.15",
-          "cunp": "主耶和華如此說：「它下陰間的那日，我便使人悲哀。我為它遮蓋深淵，使江河凝結，大水停流；我也使黎巴嫩為它悽慘，田野的諸樹都因它發昏。",
+          "nasb": "‘Thus says the Lord God, “On the day when it went down to Sheol I caused lamentations; I closed the deep over it and held back its rivers. And its many waters were stopped up, and I made Lebanon mourn for it, and all the trees of the field wilted away on account of it.",
           "words": [
             {
+              "id": "hebrew-136",
+              "cht": "主"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "the Lord"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "GOD"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in the day when"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3381",
-              "eng": "it went down"
+              "cht": "它下"
             },
             {
               "id": "hebrew-7585",
-              "eng": "to hell"
+              "cht": "陰間"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "的那日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-56",
-              "eng": "I caused mourning",
-              "punct": "–"
+              "cht": "我便使人悲哀",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "我為它"
             },
             {
               "id": "hebrew-3680",
-              "eng": "I covered"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "because of it"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "遮蓋"
             },
             {
               "id": "hebrew-8415",
-              "eng": "the deep"
-            },
-            {
-              "id": "hebrew-4513",
-              "eng": "and I restrained"
+              "cht": "深淵",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5104",
-              "eng": "its rivers"
+              "cht": "使江河"
             },
             {
-              "id": "hebrew-3607",
-              "eng": "and were held back",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "the waters"
+              "id": "hebrew-4513",
+              "cht": "凝結",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "great"
+              "cht": "大"
             },
             {
-              "id": "hebrew-6937",
-              "eng": "and I caused to mourn"
+              "id": "hebrew-4325",
+              "cht": "水"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "for it"
+              "id": "hebrew-3607",
+              "cht": "停流",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3844",
-              "eng": "Lebanon"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "the trees"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "of the field"
+              "cht": "我也使黎巴嫩"
             },
             {
               "id": "hebrew-5921",
-              "eng": "because of it"
+              "cht": "為它"
+            },
+            {
+              "id": "hebrew-6937",
+              "cht": "悽慘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7704",
+              "cht": "田野"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "的諸"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "樹"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "都因它"
             },
             {
               "id": "hebrew-5969",
-              "eng": "wilted",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3069"
+              "cht": "發昏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -620,60 +495,62 @@
             "hebrew-1980": 0.4954178557167908
           },
           "verseKey": "psa.42.9",
-          "cunp": "我要對神－我的磐石說： 你為何忘記我呢？ 我為何因仇敵的欺壓時常哀痛呢？",
+          "nasb": "I will say to God my rock, “Why have You forgotten me? Why do I go mourning because of the oppression of the enemy?”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "I will say"
+              "id": "",
+              "cht": "我要對"
             },
             {
               "id": "hebrew-410",
-              "eng": "to God"
+              "cht": "神─"
             },
             {
               "id": "hebrew-5553",
-              "eng": "my Rock",
-              "punct": "､"
+              "cht": "我的磐石"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4100",
-              "eng": "why"
+              "cht": "你為何"
             },
             {
               "id": "hebrew-7911",
-              "eng": "have You forgotten me"
+              "cht": "忘記我"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-4100",
-              "eng": "why"
-            },
-            {
-              "id": "hebrew-6937",
-              "eng": "mourning"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "do I go"
-            },
-            {
-              "id": "hebrew-3906",
-              "eng": "because of the oppression"
+              "cht": "我為何"
             },
             {
               "id": "hebrew-341",
-              "eng": "of the enemy"
+              "cht": "因仇敵"
             },
             {
-              "id": ""
+              "id": "hebrew-3906",
+              "cht": "的欺壓"
             },
             {
-              "id": ""
+              "id": "hebrew-3212",
+              "cht": "時常"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-6937",
+              "cht": "哀痛"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -684,61 +561,66 @@
             "hebrew-1980": 0.4954178557167908
           },
           "verseKey": "psa.43.2",
-          "cunp": "因為你是賜我力量的神，為何丟棄我呢？ 我為何因仇敵的欺壓時常哀痛呢？",
+          "nasb": "For You are the God of my strength; why have You rejected me? Why do I go mourning because of the oppression of the enemy?",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "因為"
             },
             {
               "id": "hebrew-859",
-              "eng": "You [are]"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "the God"
+              "cht": "你是"
             },
             {
               "id": "hebrew-4581",
-              "eng": "of my strength",
-              "punct": "–"
+              "cht": "賜我力量"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4100",
-              "eng": "why"
+              "cht": "為何"
             },
             {
               "id": "hebrew-2186",
-              "eng": "do You cast me off"
+              "cht": "丟棄我"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-4100",
-              "eng": "why"
-            },
-            {
-              "id": "hebrew-6937",
-              "eng": "mourning"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "do I go"
-            },
-            {
-              "id": "hebrew-3906",
-              "eng": "because of the oppression"
+              "cht": "我為何"
             },
             {
               "id": "hebrew-341",
-              "eng": "of the enemy"
+              "cht": "因仇敵"
             },
             {
-              "id": ""
+              "id": "hebrew-3906",
+              "cht": "的欺壓"
             },
             {
-              "id": ""
+              "id": "hebrew-1980",
+              "cht": "時常"
             },
             {
-              "id": ""
+              "id": "hebrew-6937",
+              "cht": "哀痛"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -749,79 +631,59 @@
             "hebrew-1980": 0.4954178557167908
           },
           "verseKey": "1ki.18.45",
-          "cunp": "霎時間，天因風雲黑暗，降下大雨。亞哈就坐車往耶斯列去了。",
+          "nasb": "In a little while the sky grew black with clouds and wind, and there was a heavy shower. And Ahab rode and went to Jezreel.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it came to pass"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "in the meanwhile",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "and in"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "the meantime"
+              "cht": "霎時間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8064",
-              "eng": "that the sky"
-            },
-            {
-              "id": "hebrew-6937",
-              "eng": "became black"
-            },
-            {
-              "id": "hebrew-5645",
-              "eng": "with clouds"
+              "cht": "天"
             },
             {
               "id": "hebrew-7307",
-              "eng": "and wind",
-              "punct": "､"
+              "cht": "因風"
+            },
+            {
+              "id": "hebrew-5645",
+              "cht": "雲"
+            },
+            {
+              "id": "hebrew-6937",
+              "cht": "黑暗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and there was"
-            },
-            {
-              "id": "hebrew-1653",
-              "eng": "a rain",
-              "punct": "."
+              "cht": "降下"
             },
             {
               "id": "hebrew-1419",
-              "eng": "Heavy"
+              "cht": "大"
             },
             {
-              "id": "hebrew-7392",
-              "eng": "so rode away",
-              "punct": "､"
+              "id": "hebrew-1653",
+              "cht": "雨",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-256",
-              "eng": "Ahab"
+              "cht": "亞哈"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "and went"
+              "id": "hebrew-7392",
+              "cht": "就坐車"
             },
             {
               "id": "hebrew-3157",
-              "eng": "to Jezreel",
-              "punct": "."
+              "cht": "往耶斯列"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-3212",
+              "cht": "去了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -832,41 +694,41 @@
             "hebrew-1980": 0.4954178557167908
           },
           "verseKey": "job.30.28",
-          "cunp": "我沒有日光就哀哭行去； 我在會中站着求救。",
+          "nasb": "I go about mourning without comfort; I stand up in the assembly and cry out for help.",
           "words": [
             {
-              "id": "hebrew-6937",
-              "eng": "Mourning"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "I go about"
-            },
-            {
               "id": "hebrew-3808",
-              "eng": "but not"
+              "cht": "我沒有"
             },
             {
               "id": "hebrew-2535",
-              "eng": "in the sun",
-              "punct": "–"
+              "cht": "日光"
             },
             {
-              "id": "hebrew-6965",
-              "eng": "I stand up",
-              "punct": "､"
+              "id": "hebrew-6937",
+              "cht": "就哀哭"
+            },
+            {
+              "id": "hebrew-1980",
+              "cht": "行去"
+            },
+            {
+              "id": "",
+              "cht": "（或譯我面發黑並非因日曬）",
+              "punct_cht": "：；"
             },
             {
               "id": "hebrew-6951",
-              "eng": "in the assembly"
+              "cht": "我在會中"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "站著"
             },
             {
               "id": "hebrew-7768",
-              "eng": "[and] cry out for help",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "求救",
+              "punct_cht": "。"
             }
           ]
         }

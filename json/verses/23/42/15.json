@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2717": "I will lay waste",
-          "hebrew-2022": "the mountains",
-          "hebrew-1389": "and hills",
-          "hebrew-3605": "and all",
-          "hebrew-6212": "their vegetation",
-          "hebrew-3001": "I will dry up",
-          "hebrew-7760": "and I will make",
-          "hebrew-5104": "the rivers",
-          "hebrew-339": "coastlands",
-          "hebrew-98": "and the pools"
+          "eng": {
+            "hebrew-2717": "I will lay waste",
+            "hebrew-2022": "the mountains",
+            "hebrew-1389": "and hills",
+            "hebrew-3605": "and all",
+            "hebrew-6212": "their vegetation",
+            "hebrew-3001": "I will dry up",
+            "hebrew-7760": "and I will make",
+            "hebrew-5104": "the rivers",
+            "hebrew-339": "coastlands",
+            "hebrew-98": "and the pools"
+          },
+          "cht": {
+            "hebrew-2717": "變為荒場",
+            "hebrew-2022": "我要使大山",
+            "hebrew-1389": "小岡",
+            "hebrew-3605": "都",
+            "hebrew-6212": "使其上的花草",
+            "hebrew-3001": "都乾涸",
+            "hebrew-7760": "變為",
+            "hebrew-5104": "我要使江河",
+            "hebrew-339": "洲島",
+            "hebrew-98": "使水池"
+          }
         }
       },
       "translations": {
@@ -30,130 +44,118 @@
             "hebrew-6212": 2.943137453388001
           },
           "verseKey": "exo.10.15",
-          "cunp": "因為這蝗蟲遮滿地面，甚至地都黑暗了，又吃地上一切的菜蔬和冰雹所剩樹上的果子。埃及遍地，無論是樹木，是田間的菜蔬，連一點青的也沒有留下。",
+          "nasb": "For they covered the surface of the whole land, so that the land was darkened; and they ate every plant of the land and all the fruit of the trees that the hail had left. Thus nothing green was left on tree or plant of the field through all the land of Egypt.",
           "words": [
             {
               "id": "hebrew-3680",
-              "eng": "For they covered"
+              "cht": "因為這蝗蟲遮"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3605",
+              "cht": "滿"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
               "id": "hebrew-5869",
-              "eng": "the face"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "甚至地"
             },
             {
               "id": "hebrew-2821",
-              "eng": "so that was darkened"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "."
+              "cht": "都黑暗了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "And they ate"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "herb"
+              "cht": "又吃"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "地"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "上一切"
             },
             {
-              "id": "hebrew-6529",
-              "eng": "the fruit"
+              "id": "hebrew-6212",
+              "cht": "的菜蔬"
             },
             {
-              "id": "hebrew-6086",
-              "eng": "of the trees"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3498",
-              "eng": "had left"
+              "id": "hebrew-853",
+              "cht": "和"
             },
             {
               "id": "hebrew-1259",
-              "eng": "the hail",
-              "punct": "."
+              "cht": "冰雹"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "So not"
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-3498",
-              "eng": "there remained"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "anything"
-            },
-            {
-              "id": "hebrew-3418",
-              "eng": "green"
+              "cht": "剩"
             },
             {
               "id": "hebrew-6086",
-              "eng": "on the trees",
-              "punct": "､"
+              "cht": "樹上"
             },
             {
-              "id": "hebrew-6212",
-              "eng": "or on the plants"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "throughout all"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "id": "hebrew-6529",
+              "cht": "的果子",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "埃及"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "遍"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "無論是樹木",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7704",
+              "cht": "是田間"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "的菜蔬",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "連一點"
+            },
+            {
+              "id": "hebrew-3418",
+              "cht": "青的"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也沒有"
+            },
+            {
+              "id": "hebrew-3498",
+              "cht": "留下",
+              "punct_cht": "。"
             }
           ]
         },
@@ -164,71 +166,71 @@
             "hebrew-98": 5.492088685277254
           },
           "verseKey": "isa.41.18",
-          "cunp": "我要在淨光的高處開江河， 在谷中開泉源； 我要使沙漠變為水池， 使乾地變為湧泉。",
+          "nasb": "I will open rivers on the bare heights And springs in the midst of the valleys; I will make the wilderness a pool of water And the dry land fountains of water.",
           "words": [
             {
-              "id": "hebrew-6605",
-              "eng": "I will open"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "in"
+              "cht": "我要在"
             },
             {
               "id": "hebrew-8205",
-              "eng": "desolate heights",
-              "punct": "､"
+              "cht": "淨光的高處"
+            },
+            {
+              "id": "hebrew-6605",
+              "cht": "開"
             },
             {
               "id": "hebrew-5104",
-              "eng": "rivers"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "and in the midst"
+              "cht": "江河",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1237",
-              "eng": "of the valleys",
-              "punct": "–"
+              "cht": "在谷"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "中"
             },
             {
               "id": "hebrew-4599",
-              "eng": "fountains"
-            },
-            {
-              "id": "hebrew-7760",
-              "eng": "I will make"
+              "cht": "開泉源",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4057",
-              "eng": "the wilderness"
+              "cht": "我要使沙漠"
+            },
+            {
+              "id": "hebrew-7760",
+              "cht": "變為"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
             },
             {
               "id": "hebrew-98",
-              "eng": "a pool"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "of water",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "and the land"
+              "cht": "池",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6723",
-              "eng": "dry"
+              "cht": "使乾"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
               "id": "hebrew-4161",
-              "eng": "springs"
+              "cht": "變為湧"
             },
             {
               "id": "hebrew-4325",
-              "eng": "of water",
-              "punct": "."
+              "cht": "泉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -239,108 +241,99 @@
             "hebrew-98": 5.492088685277254
           },
           "verseKey": "exo.8.5",
-          "cunp": "耶和華曉諭摩西說：「你對亞倫說：『把你的杖伸在江、河、池以上，使青蛙到埃及地上來。』」",
+          "nasb": "Then the Lord said to Moses, “Say to Aaron, ‘Stretch out your hand with your staff over the rivers, over the streams and over the pools, and make frogs come up on the land of Egypt.’ ”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And spoke"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "曉諭"
             },
             {
               "id": "hebrew-4872",
-              "eng": "Moses",
-              "punct": "､"
+              "cht": "摩西"
             },
             {
               "id": "hebrew-559",
-              "eng": "Say"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "你對"
             },
             {
               "id": "hebrew-175",
-              "eng": "Aaron",
-              "punct": "､"
+              "cht": "亞倫"
             },
             {
-              "id": "hebrew-5186",
-              "eng": "Stretch out"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "把"
             },
             {
               "id": "hebrew-3027",
-              "eng": "your hand"
+              "cht": "你"
             },
             {
               "id": "hebrew-4294",
-              "eng": "with your rod"
+              "cht": "的杖"
+            },
+            {
+              "id": "hebrew-5186",
+              "cht": "伸"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over"
+              "cht": "在"
             },
             {
               "id": "hebrew-5104",
-              "eng": "the streams",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "over"
+              "cht": "江、"
             },
             {
               "id": "hebrew-2975",
-              "eng": "the rivers",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and over"
+              "cht": "河、"
             },
             {
               "id": "hebrew-98",
-              "eng": "the ponds",
-              "punct": "､"
+              "cht": "池"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "and cause to come up"
+              "id": "",
+              "cht": "以上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-6854",
-              "eng": "frogs"
+              "cht": "青蛙"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "到"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "埃及"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "上來",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -351,87 +344,72 @@
             "hebrew-3001": 2.0432824851624476
           },
           "verseKey": "jol.1.12",
-          "cunp": "葡萄樹枯乾； 無花果樹衰殘。 石榴樹、棕樹、蘋果樹， 連田野一切的樹木也都枯乾； 眾人的喜樂盡都消滅。",
+          "nasb": "The vine dries up And the fig tree fails; The pomegranate, the palm also, and the apple tree, All the trees of the field dry up. Indeed, rejoicing dries up From the sons of men.",
           "words": [
             {
               "id": "hebrew-1612",
-              "eng": "The vine"
+              "cht": "葡萄樹"
             },
             {
               "id": "hebrew-3001",
-              "eng": "has dried up",
-              "punct": "､"
+              "cht": "枯乾",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8384",
-              "eng": "and the fig tree"
+              "cht": "無花果樹"
             },
             {
               "id": "hebrew-535",
-              "eng": "has withered",
-              "punct": "–"
+              "cht": "衰殘",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7416",
-              "eng": "the pomegranate tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "also",
-              "punct": "､"
+              "cht": "石榴樹、"
             },
             {
               "id": "hebrew-8558",
-              "eng": "the palm tree"
+              "cht": "棕樹、"
             },
             {
               "id": "hebrew-8598",
-              "eng": "and the apple tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "the trees"
+              "cht": "蘋果樹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "連田野"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切的"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "樹木"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-3001",
-              "eng": "are withered",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-3001",
-              "eng": "has withered away"
-            },
-            {
-              "id": "hebrew-8342",
-              "eng": "joy"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from"
+              "cht": "都枯乾",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "眾人"
             },
             {
-              "id": "hebrew-120",
-              "eng": "of men",
-              "punct": "."
+              "id": "hebrew-8342",
+              "cht": "的喜樂"
+            },
+            {
+              "id": "hebrew-3001",
+              "cht": "盡都消滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -443,37 +421,37 @@
             "hebrew-5104": 1.5716747139902503
           },
           "verseKey": "job.14.11",
-          "cunp": "海中的水絕盡， 江河消散乾涸。",
+          "nasb": "As water evaporates from the sea, And a river becomes parched and dried up,",
           "words": [
             {
-              "id": "hebrew-235",
-              "eng": "Disappears"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "[As] water"
+              "id": "hebrew-3220",
+              "cht": "海"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from"
+              "cht": "中"
             },
             {
-              "id": "hebrew-3220",
-              "eng": "the sea",
-              "punct": "､"
+              "id": "hebrew-4325",
+              "cht": "的水"
+            },
+            {
+              "id": "hebrew-235",
+              "cht": "絕盡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5104",
-              "eng": "and a river"
+              "cht": "江河"
             },
             {
               "id": "hebrew-2717",
-              "eng": "becomes parched"
+              "cht": "消散"
             },
             {
               "id": "hebrew-3001",
-              "eng": "and dries up",
-              "punct": "–"
+              "cht": "乾涸",
+              "punct_cht": "。"
             }
           ]
         },
@@ -485,37 +463,33 @@
             "hebrew-5104": 1.5716747139902503
           },
           "verseKey": "isa.19.5",
-          "cunp": "海中的水必絕盡， 河也消沒乾涸。",
+          "nasb": "The waters from the sea will dry up, And the river will be parched and dry.",
           "words": [
             {
-              "id": "hebrew-3001",
-              "eng": "And will fail",
-              "punct": "."
+              "id": "hebrew-3220",
+              "cht": "海中的"
             },
             {
               "id": "hebrew-4325",
-              "eng": "The waters"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "from the sea",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5104",
-              "eng": "and the river"
-            },
-            {
-              "id": "hebrew-2717",
-              "eng": "will be wasted"
+              "cht": "水"
             },
             {
               "id": "hebrew-5405",
-              "eng": "and dried up",
-              "punct": "."
+              "cht": "必絕盡",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5104",
+              "cht": "河"
+            },
+            {
+              "id": "hebrew-2717",
+              "cht": "也消沒"
+            },
+            {
+              "id": "hebrew-3001",
+              "cht": "乾涸",
+              "punct_cht": "。"
             }
           ]
         },
@@ -525,69 +499,68 @@
             "hebrew-3001": 2.0432824851624476
           },
           "verseKey": "ezk.17.10",
-          "cunp": "葡萄樹雖然栽種，豈能發旺呢？一經東風，豈不全然枯乾嗎？必在生長的畦中枯乾了。」",
+          "nasb": "Behold, though it is planted, will it thrive? Will it not completely wither as soon as the east wind strikes it—wither on the beds where it grew?” ’ ”",
           "words": [
             {
-              "id": "hebrew-2009",
-              "eng": "And behold",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-8362",
-              "eng": "[it] [is] planted",
-              "punct": "､"
+              "cht": "葡萄樹雖然栽種",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6743",
-              "eng": "will it thrive"
+              "cht": "豈能發旺"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "will not"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5060",
-              "eng": "when touches"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "wind"
+              "cht": "一經"
             },
             {
               "id": "hebrew-6921",
-              "eng": "the east"
+              "cht": "東"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "風",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "豈不"
             },
             {
               "id": "hebrew-3001",
-              "eng": "it wither"
+              "cht": "全然"
             },
             {
               "id": "hebrew-3001",
-              "eng": "utterly",
-              "punct": "､"
+              "cht": "枯乾"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-6170",
-              "eng": "the garden terrace"
+              "cht": "必在"
             },
             {
               "id": "hebrew-6780",
-              "eng": "where it grew"
+              "cht": "生長"
+            },
+            {
+              "id": "hebrew-6170",
+              "cht": "的畦"
             },
             {
               "id": "hebrew-3001",
-              "eng": "it will wither",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "中枯乾了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -597,52 +570,46 @@
             "hebrew-339": 2.7912061306530696
           },
           "verseKey": "ezk.26.18",
-          "cunp": "如今在你這傾覆的日子， 海島都必戰兢； 海中的羣島見你歸於無有就都驚惶。」",
+          "nasb": "Now the coastlands will tremble On the day of your fall; Yes, the coastlands which are by the sea Will be terrified at your passing.’ ”",
           "words": [
             {
               "id": "hebrew-6258",
-              "eng": "Now"
-            },
-            {
-              "id": "hebrew-2729",
-              "eng": "tremble"
-            },
-            {
-              "id": "hebrew-339",
-              "eng": "the coastlands"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "on the day"
+              "cht": "如今"
             },
             {
               "id": "hebrew-4658",
-              "eng": "of your fall",
-              "punct": "–"
+              "cht": "在你這傾覆"
             },
             {
-              "id": "hebrew-926",
-              "eng": "and Yes are troubled"
+              "id": "hebrew-3117",
+              "cht": "的日子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-339",
-              "eng": "the coastlands"
+              "cht": "海島"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that [are]"
+              "id": "hebrew-2729",
+              "cht": "都必戰兢",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3220",
-              "eng": "by the sea"
+              "cht": "海"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "at your departure",
-              "punct": "."
+              "id": "hebrew-339",
+              "cht": "中的群島"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "見你歸於"
+            },
+            {
+              "id": "hebrew-926",
+              "cht": "無有就都驚惶",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -653,81 +620,74 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "ezk.6.6",
-          "cunp": "在你們一切的住處，城邑要變為荒場，邱壇必然淒涼，使你們的祭壇荒廢，將你們的偶像打碎。你們的日像被砍倒，你們的工作被毀滅。",
+          "nasb": "In all your dwellings, cities will become waste and the high places will be desolate, that your altars may become waste and desolate, your idols may be broken and brought to an end, your incense altars may be cut down, and your works may be blotted out.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "In all"
+              "cht": "在你們一切的"
             },
             {
               "id": "hebrew-4186",
-              "eng": "your dwelling places"
+              "cht": "住處",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the cities"
+              "cht": "城邑"
             },
             {
               "id": "hebrew-2717",
-              "eng": "shall be laid waste",
-              "punct": "､"
+              "cht": "要變為荒場",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1116",
-              "eng": "and the high places"
+              "cht": "邱壇"
             },
             {
               "id": "hebrew-3456",
-              "eng": "shall be desolate",
-              "punct": "–"
+              "cht": "必然淒涼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4616",
-              "eng": "so that"
-            },
-            {
-              "id": "hebrew-2717",
-              "eng": "may be laid waste"
-            },
-            {
-              "id": "hebrew-816",
-              "eng": "and made desolate",
-              "punct": "､"
+              "cht": "使"
             },
             {
               "id": "hebrew-4196",
-              "eng": "your altars"
+              "cht": "你們的祭壇"
             },
             {
-              "id": "hebrew-7665",
-              "eng": "and may be broken"
-            },
-            {
-              "id": "hebrew-7673",
-              "eng": "and made to cease",
-              "punct": "､"
+              "id": "hebrew-816",
+              "cht": "荒廢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1544",
-              "eng": "your idols"
+              "cht": "將你們的偶像"
             },
             {
-              "id": "hebrew-1438",
-              "eng": "and may be cut down",
-              "punct": "､"
+              "id": "hebrew-7665",
+              "cht": "打碎",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2553",
-              "eng": "your incense altars"
+              "cht": "你們的日像"
             },
             {
-              "id": "hebrew-4229",
-              "eng": "and may be abolished"
+              "id": "hebrew-1438",
+              "cht": "被砍倒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4639",
-              "eng": "your works",
-              "punct": "."
+              "cht": "你們的工作"
+            },
+            {
+              "id": "hebrew-4229",
+              "cht": "被毀滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -737,37 +697,33 @@
             "hebrew-98": 5.492088685277254
           },
           "verseKey": "psa.114.8",
-          "cunp": "他叫磐石變為水池， 叫堅石變為泉源。",
+          "nasb": "Who turned the rock into a pool of water, The flint into a fountain of water.",
           "words": [
             {
-              "id": "hebrew-2015",
-              "eng": "who turned"
+              "id": "hebrew-6697",
+              "cht": "他叫磐石"
             },
             {
-              "id": "hebrew-6697",
-              "eng": "the rock"
+              "id": "hebrew-2015",
+              "cht": "變為"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
             },
             {
               "id": "hebrew-98",
-              "eng": "[into] a pool"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "of water",
-              "punct": "､"
+              "cht": "池",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2496",
-              "eng": "the flint"
+              "cht": "叫堅石"
             },
             {
               "id": "hebrew-4599",
-              "eng": "into a fountain"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "of waters",
-              "punct": "."
+              "cht": "變為泉源",
+              "punct_cht": "。"
             }
           ]
         }

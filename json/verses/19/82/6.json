@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-589": "I",
-          "hebrew-559": "said",
-          "hebrew-430": "gods",
-          "hebrew-859": "You [are]",
-          "hebrew-1121": "and children",
-          "hebrew-5945": "of the Most High",
-          "hebrew-3605": "all of you [are]"
+          "eng": {
+            "hebrew-589": "I",
+            "hebrew-559": "said",
+            "hebrew-430": "gods",
+            "hebrew-859": "You [are]",
+            "hebrew-1121": "and children",
+            "hebrew-5945": "of the Most High",
+            "hebrew-3605": "all of you [are]"
+          },
+          "cht": {
+            "hebrew-589": "我",
+            "hebrew-559": "曾說",
+            "hebrew-430": "神",
+            "hebrew-859": "你們是",
+            "hebrew-1121": "的兒子",
+            "hebrew-5945": "至高者",
+            "hebrew-3605": "都是"
+          }
         }
       },
       "translations": {
@@ -27,62 +38,63 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "psa.97.9",
-          "cunp": "因為你－耶和華至高，超乎全地； 你被尊崇，遠超萬神之上。",
+          "nasb": "For You are the Lord Most High over all the earth; You are exalted far above all gods.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "因為"
             },
             {
               "id": "hebrew-859",
-              "eng": "You [are]",
-              "punct": "､"
+              "cht": "你─"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5945",
-              "eng": "most high"
+              "cht": "至高",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "above"
+              "cht": "超乎"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "全"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3966",
-              "eng": "far"
+              "cht": "地",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5927",
-              "eng": "You are exalted"
+              "cht": "你被尊崇",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3966",
+              "cht": "遠"
             },
             {
               "id": "hebrew-5921",
-              "eng": "above"
+              "cht": "超"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "萬"
             },
             {
               "id": "hebrew-430",
-              "eng": "gods",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "之上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -93,57 +105,58 @@
             "hebrew-5945": 2.3453296518890085
           },
           "verseKey": "deu.32.8",
-          "cunp": "至高者將地業賜給列邦，將世人分開， 就照以色列人的數目立定萬民的疆界。",
+          "nasb": "When the Most High gave the nations their inheritance, When He separated the sons of man, He set the boundaries of the peoples According to the number of the sons of Israel.",
           "words": [
             {
-              "id": "hebrew-5157",
-              "eng": "When divided their inheritance to"
+              "id": "hebrew-5945",
+              "cht": "至高者"
             },
             {
-              "id": "hebrew-5945",
-              "eng": "the Most High"
+              "id": "hebrew-5157",
+              "cht": "將地業賜"
             },
             {
               "id": "hebrew-1471",
-              "eng": "the nations"
-            },
-            {
-              "id": "hebrew-6504",
-              "eng": "when He separated"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "給列邦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-120",
-              "eng": "of Adam",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5324",
-              "eng": "He set"
-            },
-            {
-              "id": "hebrew-1367",
-              "eng": "the boundaries"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of the peoples"
-            },
-            {
-              "id": "hebrew-4557",
-              "eng": "According to the number"
+              "cht": "將世"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the sons"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-6504",
+              "cht": "分開",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of God",
-              "punct": "."
+              "cht": "就照以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-4557",
+              "cht": "的數目"
+            },
+            {
+              "id": "hebrew-5324",
+              "cht": "立定"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "萬民"
+            },
+            {
+              "id": "hebrew-1367",
+              "cht": "的疆界",
+              "punct_cht": "。"
             }
           ]
         },
@@ -154,88 +167,82 @@
             "hebrew-5945": 2.3453296518890085
           },
           "verseKey": "neh.3.25",
-          "cunp": "烏賽的兒子巴拉修造對着城牆的轉彎和王上宮凸出來的城樓，靠近護衛院的那一段。其次是巴錄的兒子毗大雅修造。（",
+          "nasb": "Palal the son of Uzai made repairs in front of the Angle and the tower projecting from the upper house of the king, which is by the court of the guard. After him Pedaiah the son of Parosh made repairs.",
           "words": [
             {
-              "id": "hebrew-6420",
-              "eng": "Palal [made repairs]"
+              "id": "hebrew-186",
+              "cht": "烏賽"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-186",
-              "eng": "of Uzai",
-              "punct": "､"
+              "id": "hebrew-6420",
+              "cht": "巴拉"
             },
             {
-              "id": "hebrew-5048",
-              "eng": "opposite"
+              "id": "hebrew-4480",
+              "cht": "修造對著"
             },
             {
               "id": "hebrew-4740",
-              "eng": "the buttress"
-            },
-            {
-              "id": "hebrew-4026",
-              "eng": "and on the tower"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "which projects"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "from house",
-              "punct": "､"
+              "cht": "城牆的轉彎"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "和王"
             },
             {
               "id": "hebrew-5945",
-              "eng": "upper"
+              "cht": "上"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that [was]"
+              "id": "hebrew-4480",
+              "cht": "宮"
             },
             {
-              "id": "hebrew-2691",
-              "eng": "by the court"
+              "id": "hebrew-3318",
+              "cht": "凸出來"
+            },
+            {
+              "id": "hebrew-4026",
+              "cht": "的城樓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4307",
-              "eng": "of the prison",
-              "punct": "."
+              "cht": "靠近護衛"
+            },
+            {
+              "id": "hebrew-2691",
+              "cht": "院"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的那一段",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-310",
-              "eng": "After him"
-            },
-            {
-              "id": "hebrew-6305",
-              "eng": "Pedaiah [made repairs]"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "其次"
             },
             {
               "id": "hebrew-6551",
-              "eng": "of Parosh",
-              "punct": "."
+              "cht": "是巴錄"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6305",
+              "cht": "毗大雅"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "修造",
+              "punct_cht": "。"
             }
           ]
         }

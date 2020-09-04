@@ -3,22 +3,40 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "the",
-          "greek-1063": "for",
-          "greek-3800": "wages",
-          "greek-266": "of sin",
-          "greek-2288": "[is] death",
-          "greek-1161": "but",
-          "greek-5486": "the gift",
-          "greek-2316": "of God",
-          "greek-2222": "life",
-          "greek-166": "eternal",
-          "greek-1722": "in",
-          "greek-5547": "Christ",
-          "greek-2424": "Jesus",
-          "greek-2962": "Lord",
-          "greek-2257": "of us",
-          "": null
+          "eng": {
+            "greek-3588": "the",
+            "greek-1063": "for",
+            "greek-3800": "wages",
+            "greek-266": "of sin",
+            "greek-2288": "[is] death",
+            "greek-1161": "but",
+            "greek-5486": "the gift",
+            "greek-2316": "of God",
+            "greek-2222": "life",
+            "greek-166": "eternal",
+            "greek-1722": "in",
+            "greek-5547": "Christ",
+            "greek-2424": "Jesus",
+            "greek-2962": "Lord",
+            "greek-2257": "of us",
+            "": null
+          },
+          "cht": {
+            "greek-1063": "因為",
+            "greek-3800": "的工價",
+            "greek-266": "罪",
+            "greek-2288": "乃是死",
+            "greek-1161": "惟有",
+            "greek-5486": "恩賜",
+            "greek-2316": "神的",
+            "greek-2222": "生",
+            "greek-166": "乃是永",
+            "greek-1722": "在",
+            "greek-5547": "基督",
+            "greek-2424": "耶穌",
+            "greek-2962": "主",
+            "greek-2257": "我們的"
+          }
         }
       },
       "translations": {
@@ -41,107 +59,83 @@
             "greek-2962": 0.5838232272237975
           },
           "verseKey": "rom.5.21",
-          "cunp": "就如罪作王叫人死；照樣，恩典也藉着義作王，叫人因我們的主耶穌基督得永生。",
+          "nasb": "so that, as sin reigned in death, even so grace would reign through righteousness to eternal life through Jesus Christ our Lord.",
           "words": [
             {
-              "id": "greek-2443",
-              "eng": "so that"
-            },
-            {
               "id": "greek-5618",
-              "eng": "just as"
-            },
-            {
-              "id": "greek-936",
-              "eng": "reigned"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "就如"
             },
             {
               "id": "greek-266",
-              "eng": "sin"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2288",
-              "eng": "death",
-              "punct": ","
-            },
-            {
-              "id": "greek-3779",
-              "eng": "so"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5485",
-              "eng": "grace"
+              "cht": "罪"
             },
             {
               "id": "greek-936",
-              "eng": "might reign"
+              "cht": "作王"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "叫"
+            },
+            {
+              "id": "greek-2288",
+              "cht": "人死",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-3779",
+              "cht": "照樣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5485",
+              "cht": "恩典"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
+              "cht": "也藉著"
             },
             {
               "id": "greek-1343",
-              "eng": "righteousness",
-              "punct": ","
+              "cht": "義"
+            },
+            {
+              "id": "greek-936",
+              "cht": "作王",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-2222",
-              "eng": "life"
-            },
-            {
-              "id": "greek-166",
-              "eng": "eternal",
-              "punct": ","
+              "cht": "叫"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-5547",
-              "eng": "Christ"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "人因"
             },
             {
               "id": "greek-2257",
-              "eng": "of us",
-              "punct": "."
+              "cht": "我們的"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "主"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-5547",
+              "cht": "基督"
+            },
+            {
+              "id": "greek-166",
+              "cht": "得永"
+            },
+            {
+              "id": "greek-2222",
+              "cht": "生",
+              "punct_cht": "。"
             }
           ]
         },
@@ -153,140 +147,100 @@
             "greek-2222": 1.5398479523608337
           },
           "verseKey": "1jn.5.16",
-          "cunp": "人若看見弟兄犯了不至於死的罪，就當為他祈求，神必將生命賜給他；有至於死的罪，我不說當為這罪祈求。",
+          "nasb": "If anyone sees his brother committing a sin not leading to death, he shall ask and God will for him give life to those who commit sin not leading to death. There is a sin leading to death; I do not say that he should make request for this.",
           "words": [
             {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
               "id": "greek-5100",
-              "eng": "anyone"
+              "cht": "人"
             },
             {
-              "id": "greek-3708",
-              "eng": "should see"
+              "id": "greek-1437",
+              "cht": "若"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1492",
+              "cht": "看見"
             },
             {
               "id": "greek-80",
-              "eng": "brother"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "弟兄"
             },
             {
               "id": "greek-264",
-              "eng": "sinning"
-            },
-            {
-              "id": "greek-266",
-              "eng": "a sin"
+              "cht": "犯了"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-4314",
-              "eng": "unto"
+              "cht": "至於"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": ","
+              "cht": "死"
+            },
+            {
+              "id": "greek-266",
+              "cht": "的罪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-154",
-              "eng": "he shall ask",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "He will give"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him"
+              "cht": "就當為他祈求",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2222",
-              "eng": "life",
-              "punct": ","
+              "cht": "神必將生命"
             },
             {
-              "id": "greek-3588",
-              "eng": "to those"
+              "id": "greek-1325",
+              "cht": "賜給"
             },
             {
               "id": "greek-264",
-              "eng": "sinning"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-2288",
-              "eng": "death",
-              "punct": "."
+              "cht": "他",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2076",
-              "eng": "There is"
-            },
-            {
-              "id": "greek-266",
-              "eng": "a sin"
+              "cht": "有"
             },
             {
               "id": "greek-4314",
-              "eng": "unto"
+              "cht": "至於"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": ";"
+              "cht": "死"
+            },
+            {
+              "id": "greek-266",
+              "cht": "的罪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-1565",
-              "eng": "that"
+              "cht": "我不"
             },
             {
               "id": "greek-3004",
-              "eng": "do I say"
+              "cht": "說"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
+              "id": "greek-4012",
+              "cht": "當為"
+            },
+            {
+              "id": "greek-1565",
+              "cht": "這罪"
             },
             {
               "id": "greek-2065",
-              "eng": "he should implore",
-              "punct": "."
-            },
-            {
-              "id": "greek-1492"
+              "cht": "祈求",
+              "punct_cht": "。"
             }
           ]
         },
@@ -296,116 +250,89 @@
             "greek-3800": 6.7856512265994295
           },
           "verseKey": "luk.3.14",
-          "cunp": "又有兵丁問他說：「我們當做甚麼呢？」約翰說：「不要以強暴待人，也不要訛詐人，自己有錢糧就當知足。」",
+          "nasb": "Some soldiers were questioning him, saying, “And what about us, what shall we do?” And he said to them, “Do not take money from anyone by force, or accuse anyone falsely, and be content with your wages.”",
           "words": [
             {
-              "id": "greek-1905",
-              "eng": "Were asking"
-            },
-            {
               "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "又有"
             },
             {
               "id": "greek-4754",
-              "eng": "those being soldiers",
-              "punct": ","
+              "cht": "兵丁"
             },
             {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-5101",
-              "eng": "What"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "shall do"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-2249",
-              "eng": "we",
-              "punct": "?"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "he said"
+              "id": "greek-1905",
+              "cht": "問"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "他"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-2249",
+              "cht": "我們"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "當作"
+            },
+            {
+              "id": "greek-5101",
+              "cht": "甚麼"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
+            },
+            {
+              "id": "greek-846",
+              "cht": "約翰"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3367",
-              "eng": "No one"
+              "cht": "不"
             },
             {
               "id": "greek-1286",
-              "eng": "extort"
+              "cht": "要以強暴"
+            },
+            {
+              "id": "",
+              "cht": "待人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3366",
-              "eng": "nor"
+              "cht": "也不要"
             },
             {
               "id": "greek-4811",
-              "eng": "accuse falsely",
-              "punct": ","
+              "cht": "訛詐"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-714",
-              "eng": "be content with"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3800",
-              "eng": "wages"
+              "cht": "自己有錢糧"
             },
             {
-              "id": "greek-4771",
-              "eng": "of you",
-              "punct": "."
-            },
-            {
-              "id": "greek-1161"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-4314"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-714",
+              "cht": "就當知足",
+              "punct_cht": "。"
             }
           ]
         },
@@ -415,128 +342,94 @@
             "greek-3800": 6.7856512265994295
           },
           "verseKey": "1co.9.7",
-          "cunp": "有誰當兵自備糧餉呢？有誰栽葡萄園不吃園裏的果子呢？有誰牧養牛羊不吃牛羊的奶呢？",
+          "nasb": "Who at any time serves as a soldier at his own expense? Who plants a vineyard and does not eat the fruit of it? Or who tends a flock and does not use the milk of the flock?",
           "words": [
             {
               "id": "greek-5101",
-              "eng": "Who"
+              "cht": "有誰"
             },
             {
               "id": "greek-4754",
-              "eng": "serves as a soldier"
+              "cht": "當兵"
             },
             {
               "id": "greek-2398",
-              "eng": "at his own"
+              "cht": "自"
             },
             {
               "id": "greek-3800",
-              "eng": "expense"
+              "cht": "備糧餉"
             },
             {
-              "id": "greek-4218",
-              "eng": "at any time",
-              "punct": "?"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-5101",
-              "eng": "Who"
+              "cht": "有誰"
             },
             {
               "id": "greek-5452",
-              "eng": "plants"
-            },
-            {
-              "id": "greek-290",
-              "eng": "a vineyard",
-              "punct": ","
+              "cht": "栽"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "葡萄園"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2590",
-              "eng": "fruit"
+              "id": "greek-3756",
+              "cht": "不"
             },
             {
               "id": "greek-846",
-              "eng": "of it"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2068",
-              "eng": "does eat",
-              "punct": "?"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "Or"
-            },
-            {
-              "id": "greek-5101",
-              "eng": "who"
-            },
-            {
-              "id": "greek-4165",
-              "eng": "shepherds"
-            },
-            {
-              "id": "greek-4167",
-              "eng": "a flock",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "吃"
             },
             {
               "id": "greek-1537",
-              "eng": "from"
+              "cht": "園裡"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2590",
+              "cht": "的果子"
             },
             {
-              "id": "greek-1051",
-              "eng": "milk"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-5101",
+              "cht": "有誰"
             },
             {
-              "id": "greek-4167",
-              "eng": "flock"
+              "id": "greek-4165",
+              "cht": "牧養"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "牛羊"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-2068",
-              "eng": "does drink",
-              "punct": "?"
+              "cht": "吃"
             },
             {
-              "id": ""
+              "id": "greek-4167",
+              "cht": "牛羊"
             },
             {
-              "id": ""
+              "id": "greek-1051",
+              "cht": "的奶"
             },
             {
-              "id": "greek-1537"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -546,45 +439,41 @@
             "greek-3800": 6.7856512265994295
           },
           "verseKey": "2co.11.8",
-          "cunp": "我虧負了別的教會，向他們取了工價來給你們效力。",
+          "nasb": "I robbed other churches by taking wages from them to serve you;",
           "words": [
             {
+              "id": "greek-4813",
+              "cht": "我虧負"
+            },
+            {
               "id": "greek-243",
-              "eng": "Other"
+              "cht": "了別的"
             },
             {
               "id": "greek-1577",
-              "eng": "churches"
-            },
-            {
-              "id": "greek-4813",
-              "eng": "I robbed",
-              "punct": ","
+              "cht": "教會",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "having received"
+              "cht": "向他們取了"
             },
             {
               "id": "greek-3800",
-              "eng": "support"
+              "cht": "工價"
             },
             {
               "id": "greek-4314",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "來給"
             },
             {
               "id": "greek-5216",
-              "eng": "toward you"
+              "cht": "你們"
             },
             {
               "id": "greek-1248",
-              "eng": "service",
-              "punct": "."
+              "cht": "效力",
+              "punct_cht": "。"
             }
           ]
         },
@@ -594,71 +483,73 @@
             "greek-3800": 6.7856512265994295
           },
           "verseKey": "hos.2.12",
-          "cunp": "我也必毀壞她的葡萄樹和無花果樹， 就是她說「這是我所愛的給我為賞賜」的。 我必使這些樹變為荒林， 為田野的走獸所吃。",
+          "nasb": "I will destroy her vines and fig trees, Of which she said, ‘These are my wages Which my lovers have given me.’ And I will make them a forest, And the beasts of the field will devour them.",
           "words": [
             {
               "id": "hebrew-8074",
-              "eng": "And I will destroy"
+              "cht": "我也必毀壞"
             },
             {
               "id": "hebrew-1612",
-              "eng": "her vines"
+              "cht": "她的葡萄樹"
             },
             {
               "id": "hebrew-8384",
-              "eng": "and her fig trees",
-              "punct": "､"
+              "cht": "和無花果樹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "of which"
+              "cht": "就是"
             },
             {
               "id": "hebrew-559",
-              "eng": "she has said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-866",
-              "eng": "my wages"
+              "cht": "她說",
+              "punct_cht": "「"
             },
             {
               "id": "hebrew-1992",
-              "eng": "Those [are]"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "have given"
+              "cht": "這是"
             },
             {
               "id": "hebrew-157",
-              "eng": "my lovers"
+              "cht": "我所愛的"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "給"
+            },
+            {
+              "id": "hebrew-866",
+              "cht": "為賞賜",
+              "punct_cht": "」"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7760",
-              "eng": "so I will make them"
+              "cht": "我必使"
             },
             {
               "id": "hebrew-3293",
-              "eng": "a forest",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "and shall eat them"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "the beasts"
+              "cht": "荒林",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "."
+              "cht": "為田野"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "的走獸"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "所吃",
+              "punct_cht": "。"
             }
           ]
         },
@@ -670,145 +561,100 @@
             "greek-166": 2.056183068949172
           },
           "verseKey": "jhn.5.24",
-          "cunp": "我實實在在地告訴你們，那聽我話、又信差我來者的，就有永生；不至於定罪，是已經出死入生了。",
+          "nasb": "“Truly, truly, I say to you, he who hears My word, and believes Him who sent Me, has eternal life, and does not come into judgment, but has passed out of death into life.",
           "words": [
             {
               "id": "greek-281",
-              "eng": "Truly",
-              "punct": ","
-            },
-            {
-              "id": "greek-281",
-              "eng": "truly"
+              "cht": "我實實在在的"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3056",
-              "eng": "word"
-            },
-            {
-              "id": "greek-3450",
-              "eng": "of Me"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-191",
-              "eng": "hearing",
-              "punct": ","
+              "cht": "那聽"
+            },
+            {
+              "id": "greek-3450",
+              "cht": "我"
+            },
+            {
+              "id": "greek-3056",
+              "cht": "話、"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "又"
             },
             {
               "id": "greek-4100",
-              "eng": "believing"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [One]"
+              "cht": "信"
             },
             {
               "id": "greek-3992",
-              "eng": "having sent"
+              "cht": "差"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": ","
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "來者的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2192",
-              "eng": "he has"
-            },
-            {
-              "id": "greek-2222",
-              "eng": "life"
+              "cht": "就有"
             },
             {
               "id": "greek-166",
-              "eng": "eternal"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-2920",
-              "eng": "judgment"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "comes",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3327",
-              "eng": "has passed"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2288",
-              "eng": "death"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "永"
             },
             {
               "id": "greek-2222",
-              "eng": "life",
-              "punct": "."
+              "cht": "生",
+              "punct_cht": "；"
             },
             {
-              "id": ""
+              "id": "greek-3756",
+              "cht": "不"
             },
             {
-              "id": "greek-2064"
+              "id": "greek-2064",
+              "cht": "至於"
             },
             {
-              "id": ""
+              "id": "greek-1519",
+              "cht": "定罪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3327",
+              "cht": "是已經出"
+            },
+            {
+              "id": "greek-2288",
+              "cht": "死"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "入"
+            },
+            {
+              "id": "greek-2222",
+              "cht": "生"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -823,77 +669,70 @@
             "greek-2962": 0.5838232272237975
           },
           "verseKey": "jud.1.21",
-          "cunp": "保守自己常在神的愛中，仰望我們主耶穌基督的憐憫，直到永生。",
+          "nasb": "keep yourselves in the love of God, waiting anxiously for the mercy of our Lord Jesus Christ to eternal life.",
           "words": [
             {
+              "id": "greek-5083",
+              "cht": "保守"
+            },
+            {
               "id": "greek-1438",
-              "eng": "yourselves"
+              "cht": "自己"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-26",
-              "eng": "[the] love"
+              "id": "",
+              "cht": "常在"
             },
             {
               "id": "greek-2316",
-              "eng": "of God"
+              "cht": "神的"
             },
             {
-              "id": "greek-5083",
-              "eng": "keep",
-              "punct": ","
+              "id": "greek-26",
+              "cht": "愛"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4327",
-              "eng": "awaiting"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1656",
-              "eng": "mercy"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "仰望"
             },
             {
               "id": "greek-2257",
-              "eng": "of us"
+              "cht": "我們"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "主"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": ","
+              "cht": "基督的"
+            },
+            {
+              "id": "greek-1656",
+              "cht": "憐憫",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-2222",
-              "eng": "life"
+              "cht": "直到"
             },
             {
               "id": "greek-166",
-              "eng": "eternal",
-              "punct": "."
+              "cht": "永"
             },
             {
-              "id": ""
+              "id": "greek-2222",
+              "cht": "生",
+              "punct_cht": "。"
             }
           ]
         },
@@ -905,68 +744,48 @@
             "greek-166": 2.056183068949172
           },
           "verseKey": "tit.1.2",
-          "cunp": "盼望那無謊言的神在萬古之先所應許的永生，",
+          "nasb": "in the hope of eternal life, which God, who cannot lie, promised long ages ago,",
           "words": [
             {
-              "id": "greek-1909",
-              "eng": "in"
-            },
-            {
               "id": "greek-1680",
-              "eng": "[the] hope"
-            },
-            {
-              "id": "greek-2222",
-              "eng": "of life"
+              "cht": "盼望"
             },
             {
               "id": "greek-166",
-              "eng": "eternal",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-1861",
-              "eng": "promised"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "那"
             },
             {
               "id": "greek-893",
-              "eng": "who cannot lie",
-              "punct": ","
+              "cht": "無謊言"
+            },
+            {
+              "id": "",
+              "cht": "的"
             },
             {
               "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
-            },
-            {
-              "id": "greek-4253",
-              "eng": "before"
+              "cht": "神"
             },
             {
               "id": "greek-5550",
-              "eng": "time"
+              "cht": "在萬古"
+            },
+            {
+              "id": "greek-4253",
+              "cht": "之先"
+            },
+            {
+              "id": "greek-1861",
+              "cht": "所應許"
             },
             {
               "id": "greek-166",
-              "eng": "eternal",
-              "punct": ";"
+              "cht": "的永"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-166"
-            },
-            {
-              "id": "greek-2222"
+              "id": "greek-2222",
+              "cht": "生",
+              "punct_cht": "，"
             }
           ]
         },
@@ -979,72 +798,61 @@
             "greek-2962": 0.5838232272237975
           },
           "verseKey": "1co.1.7",
-          "cunp": "以致你們在恩賜上沒有一樣不及人的，等候我們的主耶穌基督顯現。",
+          "nasb": "so that you are not lacking in any gift, awaiting eagerly the revelation of our Lord Jesus Christ,",
           "words": [
             {
               "id": "greek-5620",
-              "eng": "so as for"
+              "cht": "以致"
             },
             {
               "id": "greek-5209",
-              "eng": "you"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-5302",
-              "eng": "to be lacking"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3367",
-              "eng": "not one"
+              "cht": "你們"
             },
             {
               "id": "greek-5486",
-              "eng": "gift",
-              "punct": ","
+              "cht": "在恩賜"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "上"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-5302",
+              "cht": "一樣不及"
+            },
+            {
+              "id": "",
+              "cht": "人的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-553",
-              "eng": "eagerly awaiting"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-602",
-              "eng": "revelation"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "等候"
             },
             {
               "id": "greek-2257",
-              "eng": "of us"
+              "cht": "我們的"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "主"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": ","
+              "cht": "基督"
             },
             {
-              "id": ""
+              "id": "greek-602",
+              "cht": "顯現",
+              "punct_cht": "。"
             }
           ]
         }

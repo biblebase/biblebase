@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4853": "The burden",
-          "hebrew-5210": "of Nineveh",
-          "hebrew-5612": "The book",
-          "hebrew-2377": "of the vision",
-          "hebrew-5151": "of Nahum",
-          "hebrew-512": "the Elkoshite"
+          "eng": {
+            "hebrew-4853": "The burden",
+            "hebrew-5210": "of Nineveh",
+            "hebrew-5612": "The book",
+            "hebrew-2377": "of the vision",
+            "hebrew-5151": "of Nahum",
+            "hebrew-512": "the Elkoshite"
+          },
+          "cht": {
+            "hebrew-4853": "的默示",
+            "hebrew-5210": "論尼尼微",
+            "hebrew-5612": "所得的默示",
+            "hebrew-2377": "所得的默示",
+            "hebrew-5151": "那鴻",
+            "hebrew-512": "就是伊勒歌斯人"
+          }
         }
       },
       "translations": {
@@ -25,67 +35,52 @@
             "hebrew-5151": 10.248599871619378
           },
           "verseKey": "luk.3.25",
-          "cunp": "約瑟是瑪他提亞的兒子；瑪他提亞是亞摩斯的兒子；亞摩斯是拿鴻的兒子；拿鴻是以斯利的兒子；以斯利是拿該的兒子；",
+          "nasb": "the son of Mattathias, the son of Amos, the son of Nahum, the son of Hesli, the son of Naggai,",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-3161",
-              "eng": "of Mattathias",
-              "punct": ","
+              "cht": "約瑟是瑪他提亞"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-301",
-              "eng": "of Amos",
-              "punct": ","
+              "cht": "瑪他提亞是亞摩斯"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3486",
-              "eng": "of Nahum",
-              "punct": ","
+              "cht": "亞摩斯是拿鴻"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2069",
-              "eng": "of Esli",
-              "punct": ","
+              "cht": "拿鴻是以斯利"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3477",
-              "eng": "of Naggai",
-              "punct": ","
+              "cht": "以斯利是拿該"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -95,74 +90,71 @@
             "hebrew-5210": 3.6363404553480576
           },
           "verseKey": "jon.3.3",
-          "cunp": "約拿便照耶和華的話起來，往尼尼微去。這尼尼微是極大的城，有三日的路程。",
+          "nasb": "So Jonah arose and went to Nineveh according to the word of the Lord. Now Nineveh was an exceedingly great city, a three days’ walk.",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "So arose",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3124",
-              "eng": "Jonah"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "and went"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-5210",
-              "eng": "Nineveh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "according to the word"
+              "cht": "約拿"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "便照耶和華"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "起來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "往"
             },
             {
               "id": "hebrew-5210",
-              "eng": "Now Nineveh"
+              "cht": "尼尼微"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-5210",
+              "cht": "這尼尼微"
             },
             {
               "id": "hebrew-1961",
-              "eng": "was"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "city"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
+              "cht": "是"
             },
             {
               "id": "hebrew-430",
-              "eng": "an exceedingly"
+              "cht": "極"
             },
             {
-              "id": "hebrew-4109",
-              "eng": "a journey [in extent of]"
+              "id": "hebrew-1419",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "的城",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7969",
-              "eng": "three"
+              "cht": "有三"
             },
             {
               "id": "hebrew-3117",
-              "eng": "days",
-              "punct": "."
+              "cht": "日"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-4109",
+              "cht": "的路程",
+              "punct_cht": "。"
             }
           ]
         },
@@ -172,106 +164,104 @@
             "hebrew-4853": 2.169825398379878
           },
           "verseKey": "jer.23.38",
-          "cunp": "你們若說『耶和華的默示』，耶和華就如此說：『因你們說「耶和華的默示」這句話，我也打發人到你們那裏去，告訴你們不可說「耶和華的默示」。』",
+          "nasb": "For if you say, ‘The oracle of the Lord!’ surely thus says the Lord, ‘Because you said this word, “The oracle of the Lord!” I have also sent to you, saying, “You shall not say, ‘The oracle of the Lord!’ ” ’",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "but since"
-            },
-            {
-              "id": "hebrew-4853",
-              "eng": "the oracle"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
+              "cht": "你們若"
             },
             {
               "id": "hebrew-559",
-              "eng": "you say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "『"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-4853",
+              "cht": "的默示",
+              "punct_cht": "』，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3651",
-              "eng": "therefore"
+              "cht": "就"
             },
             {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-3282",
-              "eng": "because"
+              "cht": "因"
             },
             {
               "id": "hebrew-559",
-              "eng": "you say"
+              "cht": "你們說",
+              "punct_cht": "「"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-1697",
-              "eng": "word",
-              "punct": "､"
+              "id": "hebrew-4853",
+              "cht": "的默示",
+              "punct_cht": "」"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-4853",
-              "eng": "the oracle"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "id": "hebrew-1697",
+              "cht": "句話",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7971",
-              "eng": "and I have sent"
+              "cht": "我也打發"
             },
             {
               "id": "hebrew-413",
-              "eng": "to you"
+              "cht": "人到你們那裡"
+            },
+            {
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "告訴"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你們不可"
             },
             {
               "id": "hebrew-559",
-              "eng": "do say",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4853",
-              "eng": "the oracle"
+              "cht": "說",
+              "punct_cht": "「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-4853",
+              "cht": "的默示",
+              "punct_cht": "」。』"
             }
           ]
         },
@@ -281,94 +271,83 @@
             "hebrew-2377": 2.4756200969099407
           },
           "verseKey": "dan.8.2",
-          "cunp": "我見了異象的時候，我以為在以攔省書珊城中；我見異象又如在烏萊河邊。",
+          "nasb": "I looked in the vision, and while I was looking I was in the citadel of Susa, which is in the province of Elam; and I looked in the vision and I myself was beside the Ulai Canal.",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "And I saw"
+              "cht": "我見了"
             },
             {
               "id": "hebrew-2377",
-              "eng": "in the vision",
-              "punct": "–"
+              "cht": "異象"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "and it so happened",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "while I was looking",
-              "punct": "､"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-589",
-              "eng": "that I [was]"
+              "cht": "我"
             },
             {
-              "id": "hebrew-7800",
-              "eng": "in Shushan"
-            },
-            {
-              "id": "hebrew-1002",
-              "eng": "the citadel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which [is]"
+              "id": "hebrew-1961",
+              "cht": "以為"
             },
             {
               "id": "hebrew-5867",
-              "eng": "in Elam",
-              "punct": "–"
+              "cht": "在以攔"
             },
             {
-              "id": "hebrew-4082",
-              "eng": "the province"
+              "id": "hebrew-834",
+              "cht": "省"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "and I saw"
+              "id": "hebrew-7800",
+              "cht": "書珊"
             },
             {
-              "id": "hebrew-2377",
-              "eng": "in the vision",
-              "punct": "､"
+              "id": "",
+              "cht": "城（或譯",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-1002",
+              "cht": "宮"
+            },
+            {
+              "id": "",
+              "cht": "）中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-589",
-              "eng": "that I"
+              "cht": "我"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "was"
+              "id": "hebrew-7200",
+              "cht": "見"
+            },
+            {
+              "id": "hebrew-2377",
+              "cht": "異象"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by"
-            },
-            {
-              "id": "hebrew-180",
-              "eng": "the River"
+              "cht": "又如在"
             },
             {
               "id": "hebrew-195",
-              "eng": "Ulai",
-              "punct": "."
+              "cht": "烏萊"
             },
             {
-              "id": ""
+              "id": "hebrew-180",
+              "cht": "河"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "邊",
+              "punct_cht": "。"
             }
           ]
         },
@@ -378,54 +357,54 @@
             "hebrew-4853": 2.169825398379878
           },
           "verseKey": "1ch.15.22",
-          "cunp": "利未人的族長基拿尼雅是歌唱人的首領，又教訓人歌唱，因為他精通此事。",
+          "nasb": "Chenaniah, chief of the Levites, was in charge of the singing; he gave instruction in singing because he was skillful.",
           "words": [
             {
-              "id": "hebrew-3663",
-              "eng": "And Chenaniah",
-              "punct": "､"
+              "id": "hebrew-3881",
+              "cht": "利未人"
             },
             {
               "id": "hebrew-8269",
-              "eng": "leader"
+              "cht": "的族長"
             },
             {
-              "id": "hebrew-3881",
-              "eng": "of the Levites",
-              "punct": "､"
+              "id": "hebrew-3663",
+              "cht": "基拿尼雅"
             },
             {
               "id": "hebrew-4853",
-              "eng": "song",
-              "punct": "–"
+              "cht": "是歌唱人"
+            },
+            {
+              "id": "",
+              "cht": "的首領",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3256",
-              "eng": "was instructor"
+              "cht": "又教訓人"
             },
             {
               "id": "hebrew-4853",
-              "eng": "[in charge of] the music",
-              "punct": "､"
+              "cht": "歌唱",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-995",
-              "eng": "[was] skillful"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1931",
-              "eng": "he",
-              "punct": "."
+              "cht": "他"
             },
             {
-              "id": ""
+              "id": "hebrew-995",
+              "cht": "精通"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "此事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -435,102 +414,100 @@
             "hebrew-4853": 2.169825398379878
           },
           "verseKey": "jer.23.33",
-          "cunp": "「無論是百姓，是先知，是祭司，問你說：『耶和華有甚麼默示呢？』你就對他們說：『甚麼默示啊？耶和華說：我要撇棄你們。』",
+          "nasb": "“Now when this people or the prophet or a priest asks you saying, ‘What is the oracle of the Lord?’ then you shall say to them, ‘What oracle?’ The Lord declares, ‘I will abandon you.’",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "So when"
-            },
-            {
-              "id": "hebrew-7592",
-              "eng": "ask you"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "people",
-              "punct": "､"
+              "cht": "無論"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "是百姓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "hebrew-5030",
-              "eng": "the prophet",
-              "punct": "､"
+              "cht": "先知",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "hebrew-3548",
-              "eng": "the priest",
-              "punct": "､"
+              "cht": "祭司",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7592",
+              "cht": "問你"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "what [is]"
-            },
-            {
-              "id": "hebrew-4853",
-              "eng": "the oracle"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-559",
-              "eng": "then you shall say"
+              "id": "hebrew-4100",
+              "cht": "有甚麼"
+            },
+            {
+              "id": "hebrew-4853",
+              "cht": "默示"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？』"
             },
             {
               "id": "hebrew-413",
-              "eng": "to them"
+              "cht": "你就對他們"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-4100",
-              "eng": "what"
+              "cht": "甚麼"
             },
             {
               "id": "hebrew-4853",
-              "eng": "oracle"
+              "cht": "默示"
             },
             {
-              "id": "hebrew-5203",
-              "eng": "and even I will forsake"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-5002",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": ""
+              "id": "hebrew-5203",
+              "cht": "我要撇棄"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "你們",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -540,115 +517,75 @@
             "hebrew-4853": 2.169825398379878
           },
           "verseKey": "luk.11.46",
-          "cunp": "耶穌說：「你們律法師也有禍了！因為你們把難擔的擔子放在人身上，自己一個指頭卻不肯動。",
+          "nasb": "But He said, “Woe to you lawyers as well! For you weigh men down with burdens hard to bear, while you yourselves will not even touch the burdens with one of your fingers.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-2036",
-              "eng": "He said",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "Also"
+              "cht": "耶穌說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你們"
             },
             {
               "id": "greek-3544",
-              "eng": "lawyers",
-              "punct": ","
-            },
-            {
-              "id": "greek-3759",
-              "eng": "woe",
-              "punct": "!"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "For"
-            },
-            {
-              "id": "greek-5412",
-              "eng": "you burden"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-444",
-              "eng": "men"
-            },
-            {
-              "id": "greek-5413",
-              "eng": "[with] burdens"
-            },
-            {
-              "id": "greek-1419",
-              "eng": "heavy to bear",
-              "punct": ","
+              "cht": "律法師"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
-              "id": "greek-846",
-              "eng": "yourselves"
+              "id": "greek-3759",
+              "cht": "有禍了",
+              "punct_cht": "！"
             },
             {
-              "id": "greek-1520",
-              "eng": "with one"
+              "id": "greek-3754",
+              "cht": "因為"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1147",
-              "eng": "fingers"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "of you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4379",
-              "eng": "do touch"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1419",
+              "cht": "你們把難擔的"
             },
             {
               "id": "greek-5413",
-              "eng": "burdens",
-              "punct": "."
+              "cht": "擔子"
             },
             {
-              "id": ""
+              "id": "greek-5412",
+              "cht": "放在"
             },
             {
-              "id": "greek-5216"
+              "id": "greek-444",
+              "cht": "人"
+            },
+            {
+              "id": "",
+              "cht": "身上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5216",
+              "cht": "自己"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一個"
+            },
+            {
+              "id": "greek-1147",
+              "cht": "指頭"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "卻不"
+            },
+            {
+              "id": "greek-4379",
+              "cht": "肯動",
+              "punct_cht": "。"
             }
           ]
         },
@@ -658,89 +595,83 @@
             "hebrew-4853": 2.169825398379878
           },
           "verseKey": "jer.23.36",
-          "cunp": "『耶和華的默示』你們不可再提，各人所說的話必作自己的重擔，因為你們謬用永生神、萬軍之耶和華－我們神的言語。",
+          "nasb": "For you will no longer remember the oracle of the Lord, because every man’s own word will become the oracle, and you have perverted the words of the living God, the Lord of hosts, our God.",
           "words": [
             {
-              "id": "hebrew-4853",
-              "eng": "and the oracle"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-4853",
+              "cht": "的默示",
+              "punct_cht": "』"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-2142",
-              "eng": "you shall mention"
+              "cht": "你們不可"
             },
             {
               "id": "hebrew-5750",
-              "eng": "more",
-              "punct": "–"
+              "cht": "再"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4853",
-              "eng": "oracle",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "will be"
+              "id": "hebrew-2142",
+              "cht": "提",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-376",
-              "eng": "of every man"
+              "cht": "各人"
             },
             {
               "id": "hebrew-1697",
-              "eng": "his word"
+              "cht": "所說的話"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "必作"
+            },
+            {
+              "id": "hebrew-4853",
+              "cht": "自己的重擔"
+            },
+            {
+              "id": "",
+              "cht": "（重擔和默示原文同）",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2015",
-              "eng": "for you have perverted"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the words"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "､"
+              "cht": "因為你們謬用"
             },
             {
               "id": "hebrew-2416",
-              "eng": "of the living"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "hosts"
+              "cht": "永生"
             },
             {
               "id": "hebrew-430",
-              "eng": "our God",
-              "punct": "."
+              "cht": "神、"
             },
             {
-              "id": ""
+              "id": "hebrew-6635",
+              "cht": "萬軍"
             },
             {
-              "id": ""
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─我們"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的言語",
+              "punct_cht": "。"
             }
           ]
         },
@@ -750,79 +681,68 @@
             "hebrew-5612": 1.2463035947172354
           },
           "verseKey": "isa.29.12",
-          "cunp": "又將這書卷交給不識字的人，說：「請念吧！」他說：「我不識字。」",
+          "nasb": "Then the book will be given to the one who is illiterate, saying, “Please read this.” And he will say, “I cannot read.”",
           "words": [
             {
-              "id": "hebrew-5414",
-              "eng": "And is delivered"
+              "id": "hebrew-5612",
+              "cht": "又將這書卷"
             },
             {
-              "id": "hebrew-5612",
-              "eng": "the book"
+              "id": "hebrew-5414",
+              "cht": "交"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "one who"
+              "cht": "給"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "is illiterate",
-              "punct": "､"
+              "cht": "識"
             },
             {
               "id": "hebrew-5612",
-              "eng": "the book"
+              "cht": "字"
+            },
+            {
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "Read"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "–"
+              "cht": "請"
             },
             {
-              "id": "hebrew-2088",
-              "eng": "this",
-              "punct": "､"
+              "id": "hebrew-7121",
+              "cht": "念"
+            },
+            {
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！」"
             },
             {
               "id": "hebrew-559",
-              "eng": "and he says",
-              "punct": "､"
+              "cht": "他說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "I am literate"
-            },
-            {
-              "id": "hebrew-5612",
-              "eng": "the book",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "識字",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -832,173 +752,115 @@
             "hebrew-5612": 1.2463035947172354
           },
           "verseKey": "rev.20.12",
-          "cunp": "我又看見死了的人，無論大小，都站在寶座前。案卷展開了，並且另有一卷展開，就是生命冊。死了的人都憑着這些案卷所記載的，照他們所行的受審判。",
+          "nasb": "And I saw the dead, the great and the small, standing before the throne, and books were opened; and another book was opened, which is the book of life; and the dead were judged from the things which were written in the books, according to their deeds.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "我又"
             },
             {
               "id": "greek-1492",
-              "eng": "I saw"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "看見"
             },
             {
               "id": "greek-3498",
-              "eng": "dead",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "死了的人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3173",
-              "eng": "great"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "無論大"
             },
             {
               "id": "greek-3398",
-              "eng": "small",
-              "punct": ","
+              "cht": "小",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2476",
-              "eng": "standing"
+              "cht": "都站"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "在寶座"
             },
             {
               "id": "greek-1799",
-              "eng": "before"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2362",
-              "eng": "throne",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "前",
+              "punct_cht": "。"
             },
             {
               "id": "greek-975",
-              "eng": "books"
+              "cht": "案卷"
             },
             {
               "id": "greek-455",
-              "eng": "were opened",
-              "punct": "."
+              "cht": "展開了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "並且"
             },
             {
               "id": "greek-243",
-              "eng": "another"
+              "cht": "另有一"
             },
             {
               "id": "greek-975",
-              "eng": "book"
+              "cht": "卷"
             },
             {
               "id": "greek-455",
-              "eng": "was opened",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
+              "cht": "展開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "cht": "就是"
             },
             {
               "id": "greek-2222",
-              "eng": "of life",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2919",
-              "eng": "were judged"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "生命冊",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3498",
-              "eng": "dead"
+              "cht": "死了的人"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
-            },
-            {
-              "id": "greek-1125",
-              "eng": "having been written"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "都憑著"
             },
             {
               "id": "greek-975",
-              "eng": "books",
-              "punct": ","
+              "cht": "這些案卷"
+            },
+            {
+              "id": "greek-1125",
+              "cht": "所記載"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2596",
-              "eng": "according to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2041",
-              "eng": "deeds"
+              "cht": "照"
             },
             {
               "id": "greek-846",
-              "eng": "of them",
-              "punct": "."
+              "cht": "他們"
             },
             {
-              "id": "greek-2316"
+              "id": "greek-2041",
+              "cht": "所行的"
             },
             {
-              "id": ""
+              "id": "greek-2919",
+              "cht": "受審判",
+              "punct_cht": "。"
             }
           ]
         }

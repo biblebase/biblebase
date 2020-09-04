@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5315": "Our soul",
-          "hebrew-2442": "waits",
-          "hebrew-3068": "for Yahweh",
-          "hebrew-5828": "our help",
-          "hebrew-4043": "and our shield",
-          "hebrew-1931": "He [is]"
+          "eng": {
+            "hebrew-5315": "Our soul",
+            "hebrew-2442": "waits",
+            "hebrew-3068": "for Yahweh",
+            "hebrew-5828": "our help",
+            "hebrew-4043": "and our shield",
+            "hebrew-1931": "He [is]"
+          },
+          "cht": {
+            "hebrew-5315": "我們的心",
+            "hebrew-2442": "向來等候",
+            "hebrew-3068": "耶和華",
+            "hebrew-5828": "我們的幫助",
+            "hebrew-4043": "我們的盾牌",
+            "hebrew-1931": "他是"
+          }
         }
       },
       "translations": {
@@ -22,69 +32,73 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "isa.30.18",
-          "cunp": "耶和華必然等候，要施恩給你們； 必然興起，好憐憫你們。 因為耶和華是公平的神； 凡等候他的都是有福的！",
+          "nasb": "Therefore the Lord longs to be gracious to you, And therefore He waits on high to have compassion on you. For the Lord is a God of justice; How blessed are all those who long for Him.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3651",
-              "eng": "Therefore"
+              "cht": "必然"
             },
             {
               "id": "hebrew-2442",
-              "eng": "will wait",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "等候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2603",
-              "eng": "that He may be gracious to you"
+              "cht": "要施恩給你們",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3651",
-              "eng": "and therefore"
+              "cht": "必然"
             },
             {
               "id": "hebrew-7311",
-              "eng": "He will be exalted",
-              "punct": "､"
+              "cht": "興起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7355",
-              "eng": "that He may have mercy on you"
+              "cht": "好憐憫你們",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "a God"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "of justice",
-              "punct": "–"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh [is]"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-835",
-              "eng": "Blessed [are]"
+              "id": "hebrew-4941",
+              "cht": "是公平的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-2442",
-              "eng": "those who wait"
+              "cht": "等候"
             },
             {
-              "id": ""
+              "id": "hebrew-835",
+              "cht": "的都是有福"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "！"
             }
           ]
         },
@@ -95,54 +109,50 @@
             "hebrew-5828": 6.2511507603914795
           },
           "verseKey": "gen.2.18",
-          "cunp": "耶和華神說：「那人獨居不好，我要為他造一個配偶幫助他。」",
+          "nasb": "Then the Lord God said, “It is not good for the man to be alone; I will make him a helper suitable for him.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "､"
+              "cht": "神"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "[it is] good"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-1961",
-              "eng": "that should be"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man"
+              "cht": "那人"
             },
             {
               "id": "hebrew-905",
-              "eng": "alone",
-              "punct": "–"
+              "cht": "獨居"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "好",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "I will make"
+              "cht": "造"
             },
             {
               "id": "hebrew-5828",
-              "eng": "a helper"
+              "cht": "一個配偶"
             },
             {
               "id": "hebrew-5048",
-              "eng": "suitable",
-              "punct": "."
+              "cht": "幫助他",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -153,77 +163,68 @@
             "hebrew-5828": 6.2511507603914795
           },
           "verseKey": "deu.33.7",
-          "cunp": "為猶大祝福說： 求耶和華俯聽猶大的聲音， 引導他歸於本族； 他曾用手為自己爭戰， 你必幫助他攻擊敵人。",
+          "nasb": "And this regarding Judah; so he said, “Hear, O Lord, the voice of Judah, And bring him to his people. With his hands he contended for them, And may You be a help against his adversaries.”",
           "words": [
             {
-              "id": "hebrew-2063",
-              "eng": "And this"
-            },
-            {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "–"
+              "cht": "為猶大"
             },
             {
               "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "Hear",
-              "punct": "､"
+              "cht": "祝福說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "求耶和華"
             },
             {
-              "id": "hebrew-6963",
-              "eng": "the voice"
+              "id": "hebrew-8085",
+              "cht": "俯聽"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-413",
-              "eng": "and to"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "his people",
-              "punct": "."
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-935",
-              "eng": "Bring him"
+              "cht": "引導他"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "歸於"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "本族",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "his hands"
+              "cht": "他曾用手"
             },
             {
               "id": "hebrew-7227",
-              "eng": "let be sufficient"
-            },
-            {
-              "id": "hebrew-5828",
-              "eng": "and a help"
-            },
-            {
-              "id": "hebrew-6862",
-              "eng": "against his enemies"
+              "cht": "爭戰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "may You be",
-              "punct": "."
+              "cht": "你必"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5828",
+              "cht": "幫助"
+            },
+            {
+              "id": "hebrew-6862",
+              "cht": "他攻擊敵人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -233,68 +234,64 @@
             "hebrew-5828": 6.2511507603914795
           },
           "verseKey": "psa.89.19",
-          "cunp": "當時，你在異象中曉諭你的聖民，說： 我已把救助之力加在那有能者的身上； 我高舉那從民中所揀選的。",
+          "nasb": "Once You spoke in vision to Your godly ones, And said, “I have given help to one who is mighty; I have exalted one chosen from the people.",
           "words": [
             {
               "id": "hebrew-227",
-              "eng": "Then"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "You spoke"
+              "cht": "當時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2377",
-              "eng": "in a vision"
+              "cht": "你在異象中"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "曉諭"
             },
             {
               "id": "hebrew-2623",
-              "eng": "to Your saint",
-              "punct": "､"
+              "cht": "你的聖民",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7737",
-              "eng": "I have given"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5828",
-              "eng": "help"
+              "cht": "我已把救助"
+            },
+            {
+              "id": "hebrew-7737",
+              "cht": "之力加"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to"
+              "cht": "在"
             },
             {
               "id": "hebrew-1368",
-              "eng": "[one who is] mighty",
-              "punct": "–"
+              "cht": "那有能者"
+            },
+            {
+              "id": "",
+              "cht": "的身上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7311",
-              "eng": "I have exalted"
-            },
-            {
-              "id": "hebrew-970",
-              "eng": "[one] chosen"
+              "cht": "我高舉"
             },
             {
               "id": "hebrew-5971",
-              "eng": "from the people",
-              "punct": "."
+              "cht": "那從民中"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-977"
+              "id": "hebrew-977",
+              "cht": "所揀選的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -304,69 +301,63 @@
             "hebrew-5828": 6.2511507603914795
           },
           "verseKey": "isa.30.5",
-          "cunp": "他們必因那不利於他們的民蒙羞。 那民並非幫助，也非利益， 只作羞恥凌辱。",
+          "nasb": "Everyone will be ashamed because of a people who cannot profit them, Who are not for help or profit, but for shame and also for reproach.”",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All"
-            },
-            {
-              "id": "hebrew-887",
-              "eng": "they were ashamed"
+              "cht": "他們"
             },
             {
               "id": "hebrew-5921",
-              "eng": "of"
+              "cht": "必因"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "那不"
+            },
+            {
+              "id": "hebrew-3276",
+              "cht": "利"
             },
             {
               "id": "hebrew-5971",
-              "eng": "a people"
+              "cht": "的民"
+            },
+            {
+              "id": "hebrew-954",
+              "cht": "蒙羞",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3276",
-              "eng": "[who] could benefit"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "Or be"
+              "cht": "那民並非"
             },
             {
               "id": "hebrew-5828",
-              "eng": "help"
+              "cht": "幫助",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "or s"
+              "cht": "也非"
             },
             {
               "id": "hebrew-3276",
-              "eng": "benefit",
-              "punct": "､"
+              "cht": "利益",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "but"
+              "cht": "只"
             },
             {
               "id": "hebrew-1322",
-              "eng": "a shame",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and also"
+              "cht": "作羞恥"
             },
             {
               "id": "hebrew-2781",
-              "eng": "a reproach",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-954"
+              "cht": "凌辱",
+              "punct_cht": "。"
             }
           ]
         },
@@ -376,45 +367,46 @@
             "hebrew-5828": 6.2511507603914795
           },
           "verseKey": "dan.11.34",
-          "cunp": "他們仆倒的時候，稍得扶助，卻有許多人用諂媚的話親近他們。",
+          "nasb": "Now when they fall they will be granted a little help, and many will join with them in hypocrisy.",
           "words": [
             {
               "id": "hebrew-3782",
-              "eng": "Now when they fall",
-              "punct": "､"
+              "cht": "他們仆倒"
             },
             {
-              "id": "hebrew-5826",
-              "eng": "they shall be aided"
-            },
-            {
-              "id": "hebrew-5828",
-              "eng": "with a help",
-              "punct": "､"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4592",
-              "eng": "little"
+              "cht": "稍"
             },
             {
-              "id": "hebrew-3867",
-              "eng": "but shall join"
+              "id": "hebrew-5826",
+              "cht": "得"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "with them"
+              "id": "hebrew-5828",
+              "cht": "扶助",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "many"
+              "cht": "卻有許多"
             },
             {
               "id": "hebrew-2519",
-              "eng": "by intrigue",
-              "punct": "."
+              "cht": "人用諂媚的話"
             },
             {
-              "id": ""
+              "id": "hebrew-3867",
+              "cht": "親近"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -424,71 +416,69 @@
             "hebrew-5828": 6.2511507603914795
           },
           "verseKey": "gen.2.20",
-          "cunp": "那人便給一切牲畜和空中飛鳥、野地走獸都起了名；只是那人沒有遇見配偶幫助他。",
+          "nasb": "The man gave names to all the cattle, and to the birds of the sky, and to every beast of the field, but for Adam there was not found a helper suitable for him.",
           "words": [
             {
-              "id": "hebrew-7121",
-              "eng": "So gave"
-            },
-            {
               "id": "hebrew-120",
-              "eng": "Adam"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "names"
+              "cht": "那人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "to all"
+              "cht": "便給一切"
             },
             {
               "id": "hebrew-929",
-              "eng": "livestock",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5775",
-              "eng": "and to the birds"
+              "cht": "牲畜"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of the air",
-              "punct": "､"
+              "cht": "和空中"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "and to every"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "beast"
+              "id": "hebrew-5775",
+              "cht": "飛鳥、"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "–"
+              "cht": "野地"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "走獸"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "起了"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-120",
-              "eng": "but for Adam"
+              "cht": "只是那人"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-4672",
-              "eng": "was found"
+              "cht": "遇見"
             },
             {
               "id": "hebrew-5828",
-              "eng": "a helper"
+              "cht": "配偶"
             },
             {
               "id": "hebrew-5048",
-              "eng": "suitable",
-              "punct": "."
+              "cht": "幫助他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -498,99 +488,96 @@
             "hebrew-4043": 2.429628088078134
           },
           "verseKey": "2sa.1.21",
-          "cunp": "基利波山哪，願你那裏沒有雨露！ 願你田地無土產可作供物！ 因為英雄的盾牌在那裏被污丟棄； 掃羅的盾牌彷彿未曾抹油。",
+          "nasb": "O mountains of Gilboa, Let not dew or rain be on you, nor fields of offerings; For there the shield of the mighty was defiled, The shield of Saul, not anointed with oil.",
           "words": [
             {
-              "id": "hebrew-2022",
-              "eng": "Mountains"
-            },
-            {
               "id": "hebrew-1533",
-              "eng": "of Gilboa",
-              "punct": "､"
+              "cht": "基利波"
             },
             {
-              "id": "hebrew-408",
-              "eng": "no"
+              "id": "hebrew-2022",
+              "cht": "山"
             },
             {
-              "id": "hebrew-2919",
-              "eng": "[Let there be] dew",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-4306",
-              "eng": "rain",
-              "punct": "､"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon you"
+              "cht": "願你那裡"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-4306",
+              "cht": "雨"
+            },
+            {
+              "id": "hebrew-2919",
+              "cht": "露",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "願你"
             },
             {
               "id": "hebrew-7704",
-              "eng": "nor fields"
+              "cht": "田地"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "無"
             },
             {
               "id": "hebrew-8641",
-              "eng": "of offerings",
-              "punct": "–"
+              "cht": "土產可作供物",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-1602",
-              "eng": "is cast away",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4043",
-              "eng": "the shield"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1368",
-              "eng": "of the mighty"
+              "cht": "英雄"
             },
             {
               "id": "hebrew-4043",
-              "eng": "the shield"
+              "cht": "的盾牌"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "在那裡"
+            },
+            {
+              "id": "hebrew-1602",
+              "cht": "被污丟棄",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7586",
-              "eng": "of Saul",
-              "punct": "､"
+              "cht": "掃羅"
+            },
+            {
+              "id": "hebrew-4043",
+              "cht": "的盾牌"
             },
             {
               "id": "hebrew-1097",
-              "eng": "not"
+              "cht": "彷彿未曾"
             },
             {
               "id": "hebrew-4899",
-              "eng": "anointed"
+              "cht": "抹"
             },
             {
               "id": "hebrew-8081",
-              "eng": "with oil",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-5921"
-            },
-            {
-              "id": "hebrew-408"
+              "cht": "油",
+              "punct_cht": "。"
             }
           ]
         },
@@ -600,84 +587,78 @@
             "hebrew-4043": 2.429628088078134
           },
           "verseKey": "1ki.10.17",
-          "cunp": "又用錘出來的金子打成盾牌三百面，每面用金子三彌那，都放在黎巴嫩林宮裏。",
+          "nasb": "He made 300 shields of beaten gold, using three minas of gold on each shield, and the king put them in the house of the forest of Lebanon.",
           "words": [
             {
+              "id": "hebrew-7820",
+              "cht": "又用錘出來"
+            },
+            {
+              "id": "hebrew-2091",
+              "cht": "的金子"
+            },
+            {
+              "id": "hebrew-4043",
+              "cht": "打成盾牌"
+            },
+            {
               "id": "hebrew-7969",
-              "eng": "And [He made] three"
+              "cht": "三"
             },
             {
               "id": "hebrew-3967",
-              "eng": "hundred"
+              "cht": "百"
             },
             {
-              "id": "hebrew-4043",
-              "eng": "shields [of]"
-            },
-            {
-              "id": "hebrew-2091",
-              "eng": "gold",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7820",
-              "eng": "hammered"
-            },
-            {
-              "id": "hebrew-7969",
-              "eng": "three"
-            },
-            {
-              "id": "hebrew-4488",
-              "eng": "minas"
-            },
-            {
-              "id": "hebrew-2091",
-              "eng": "of gold"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "went"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "into"
-            },
-            {
-              "id": "hebrew-4043",
-              "eng": "shield",
-              "punct": "､"
+              "id": "",
+              "cht": "面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "每"
+            },
+            {
+              "id": "hebrew-4043",
+              "cht": "面"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "用"
+            },
+            {
+              "id": "hebrew-2091",
+              "cht": "金子"
+            },
+            {
+              "id": "hebrew-7969",
+              "cht": "三"
+            },
+            {
+              "id": "hebrew-4488",
+              "cht": "彌那",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "and put them"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "in the House"
-            },
-            {
-              "id": "hebrew-3293",
-              "eng": "of the Forest"
+              "cht": "都放"
             },
             {
               "id": "hebrew-3844",
-              "eng": "of Lebanon",
-              "punct": "."
+              "cht": "在黎巴嫩"
             },
             {
-              "id": ""
+              "id": "hebrew-3293",
+              "cht": "林"
             },
             {
-              "id": ""
+              "id": "hebrew-1004",
+              "cht": "宮"
+            },
+            {
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -687,87 +668,82 @@
             "hebrew-4043": 2.429628088078134
           },
           "verseKey": "2ch.9.16",
-          "cunp": "又用錘出來的金子打成盾牌三百面，每面用金子三百舍客勒，都放在黎巴嫩林宮裏。",
+          "nasb": "He made 300 shields of beaten gold, using three hundred shekels of gold on each shield, and the king put them in the house of the forest of Lebanon.",
           "words": [
             {
-              "id": "hebrew-7969",
-              "eng": "And three"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "hundred"
-            },
-            {
-              "id": "hebrew-4043",
-              "eng": "shields"
-            },
-            {
-              "id": "hebrew-2091",
-              "eng": "[He made] of gold",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-7820",
-              "eng": "hammered"
-            },
-            {
-              "id": "hebrew-7969",
-              "eng": "three"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "hundred"
+              "cht": "又用錘出來的"
             },
             {
               "id": "hebrew-2091",
-              "eng": "[shekels] of gold"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "went"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "into"
+              "cht": "金子"
             },
             {
               "id": "hebrew-4043",
-              "eng": "shield",
-              "punct": "."
+              "cht": "打成盾牌"
+            },
+            {
+              "id": "hebrew-7969",
+              "cht": "三"
+            },
+            {
+              "id": "hebrew-3967",
+              "cht": "百"
+            },
+            {
+              "id": "",
+              "cht": "面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "One"
+              "cht": "每"
+            },
+            {
+              "id": "hebrew-4043",
+              "cht": "面"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "用"
+            },
+            {
+              "id": "hebrew-2091",
+              "cht": "金子"
+            },
+            {
+              "id": "hebrew-7969",
+              "cht": "三"
+            },
+            {
+              "id": "hebrew-3967",
+              "cht": "百"
+            },
+            {
+              "id": "",
+              "cht": "舍客勒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "and put them"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "in the House"
-            },
-            {
-              "id": "hebrew-3293",
-              "eng": "of the Forest"
+              "cht": "都放"
             },
             {
               "id": "hebrew-3844",
-              "eng": "of Lebanon",
-              "punct": "."
+              "cht": "在黎巴嫩"
             },
             {
-              "id": ""
+              "id": "hebrew-3293",
+              "cht": "林"
             },
             {
-              "id": ""
+              "id": "hebrew-1004",
+              "cht": "宮"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         }

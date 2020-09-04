@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-990": "In the womb",
-          "hebrew-6117": "He took by the heel",
-          "hebrew-853": "-",
-          "hebrew-251": "his brother",
-          "hebrew-202": "and in his strength",
-          "hebrew-8280": "he struggled",
-          "hebrew-854": "with",
-          "hebrew-430": "God"
+          "eng": {
+            "hebrew-990": "In the womb",
+            "hebrew-6117": "He took by the heel",
+            "hebrew-853": "-",
+            "hebrew-251": "his brother",
+            "hebrew-202": "and in his strength",
+            "hebrew-8280": "he struggled",
+            "hebrew-854": "with",
+            "hebrew-430": "God"
+          },
+          "cht": {
+            "hebrew-990": "他在腹中",
+            "hebrew-6117": "的腳跟",
+            "hebrew-853": "抓住",
+            "hebrew-251": "哥哥",
+            "hebrew-202": "壯年的時候",
+            "hebrew-8280": "較力",
+            "hebrew-854": "與",
+            "hebrew-430": "神"
+          }
         }
       },
       "translations": {
@@ -27,79 +39,72 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "gen.32.28",
-          "cunp": "那人說：「你的名不要再叫雅各，要叫以色列；因為你與神與人較力，都得了勝。」",
+          "nasb": "He said, “Your name shall no longer be Jacob, but Israel; for you have striven with God and with men and have prevailed.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And He said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3290",
-              "eng": "Jacob"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "shall be called"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "anymore"
+              "cht": "那人說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-8034",
-              "eng": "Your name",
-              "punct": "､"
+              "cht": "你的名"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "-"
+              "id": "hebrew-3808",
+              "cht": "不要"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "再"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "叫"
+            },
+            {
+              "id": "hebrew-3290",
+              "cht": "雅各",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-518",
-              "eng": "but"
+              "cht": "要叫"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "–"
+              "cht": "以色列",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-8280",
-              "eng": "you have struggled"
+              "cht": "因為"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
+              "cht": "你與"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
               "id": "hebrew-5973",
-              "eng": "and with"
+              "cht": "與"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men",
-              "punct": "､"
+              "id": "hebrew-582",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-8280",
+              "cht": "較力",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3201",
-              "eng": "and have prevailed",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-582"
+              "cht": "都得了勝",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -109,44 +114,41 @@
             "hebrew-8280": 8.539323589735611
           },
           "verseKey": "heb.12.4",
-          "cunp": "你們與罪惡相爭，還沒有抵擋到流血的地步。",
+          "nasb": "You have not yet resisted to the point of shedding blood in your striving against sin;",
           "words": [
             {
-              "id": "greek-3768",
-              "eng": "Not yet"
-            },
-            {
-              "id": "greek-3360",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-129",
-              "eng": "blood"
-            },
-            {
-              "id": "greek-478",
-              "eng": "have you resisted",
-              "punct": ","
-            },
-            {
               "id": "greek-4314",
-              "eng": "against"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "你們與"
             },
             {
               "id": "greek-266",
-              "eng": "sin"
+              "cht": "罪惡"
             },
             {
               "id": "greek-464",
-              "eng": "struggling",
-              "punct": ","
+              "cht": "相爭",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-3768",
+              "cht": "還沒有"
+            },
+            {
+              "id": "greek-478",
+              "cht": "抵擋"
+            },
+            {
+              "id": "greek-3360",
+              "cht": "到"
+            },
+            {
+              "id": "greek-129",
+              "cht": "流血"
+            },
+            {
+              "id": "",
+              "cht": "的地步",
+              "punct_cht": "。"
             }
           ]
         },
@@ -157,142 +159,73 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "1co.6.13",
-          "cunp": "食物是為肚腹，肚腹是為食物；但神要叫這兩樣都廢壞。身子不是為淫亂，乃是為主；主也是為身子。",
+          "nasb": "Food is for the stomach and the stomach is for food, but God will do away with both of them. Yet the body is not for immorality, but for the Lord, and the Lord is for the body.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-1033",
-              "eng": "foods"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
+              "cht": "食物"
             },
             {
               "id": "greek-2836",
-              "eng": "belly"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "是為肚腹",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2836",
-              "eng": "belly"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "肚腹"
             },
             {
               "id": "greek-1033",
-              "eng": "for foods",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是為食物",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1161",
-              "eng": "but"
+              "cht": "但"
             },
             {
               "id": "greek-2316",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "greek-2532",
-              "eng": "both"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "these"
+              "id": "greek-5023",
+              "cht": "要叫這兩樣"
             },
             {
               "id": "greek-2673",
-              "eng": "will destroy",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "and"
+              "cht": "都廢壞",
+              "punct_cht": "。"
             },
             {
               "id": "greek-4983",
-              "eng": "the body [is]"
+              "cht": "身子"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "不"
             },
             {
               "id": "greek-4202",
-              "eng": "for sexual immorality",
-              "punct": ","
+              "cht": "是為淫亂",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
+              "cht": "乃"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "是為主",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
+              "cht": "主"
             },
             {
               "id": "greek-4983",
-              "eng": "body",
-              "punct": "."
-            },
-            {
-              "id": "greek-5026"
-            },
-            {
-              "id": "greek-5023"
+              "cht": "也是為身子",
+              "punct_cht": "。"
             }
           ]
         }

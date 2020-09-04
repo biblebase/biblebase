@@ -3,11 +3,19 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3254": "And once",
-          "hebrew-5750": "again",
-          "hebrew-6430": "the Philistines",
-          "hebrew-6584": "and made a raid",
-          "hebrew-6010": "on the valley"
+          "eng": {
+            "hebrew-3254": "And once",
+            "hebrew-5750": "again",
+            "hebrew-6430": "the Philistines",
+            "hebrew-6584": "and made a raid",
+            "hebrew-6010": "on the valley"
+          },
+          "cht": {
+            "hebrew-3254": "又",
+            "hebrew-6430": "非利士人",
+            "hebrew-6584": "布散",
+            "hebrew-6010": "在利乏音谷"
+          }
         }
       },
       "translations": {
@@ -24,28 +32,29 @@
             "hebrew-6010": 2.1248744020317227
           },
           "verseKey": "1ch.14.9",
-          "cunp": "非利士人來了，布散在利乏音谷。",
+          "nasb": "Now the Philistines had come and made a raid in the valley of Rephaim.",
           "words": [
             {
               "id": "hebrew-6430",
-              "eng": "And the Philistines"
+              "cht": "非利士人"
             },
             {
               "id": "hebrew-935",
-              "eng": "went"
+              "cht": "來了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6584",
-              "eng": "and made a raid"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "on the Valley"
+              "cht": "布散"
             },
             {
               "id": "hebrew-7497",
-              "eng": "of the Rephaites",
-              "punct": "."
+              "cht": "在利乏音"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷",
+              "punct_cht": "。"
             }
           ]
         },
@@ -58,37 +67,33 @@
             "hebrew-6010": 2.1248744020317227
           },
           "verseKey": "2sa.5.22",
-          "cunp": "非利士人又上來，布散在利乏音谷。",
+          "nasb": "Now the Philistines came up once again and spread themselves out in the valley of Rephaim.",
           "words": [
             {
-              "id": "hebrew-3254",
-              "eng": "And again",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "once"
-            },
-            {
               "id": "hebrew-6430",
-              "eng": "the Philistines"
+              "cht": "非利士人"
+            },
+            {
+              "id": "hebrew-3254",
+              "cht": "又"
             },
             {
               "id": "hebrew-5927",
-              "eng": "went up"
+              "cht": "上來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5203",
-              "eng": "and deployed themselves"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "in the Valley"
+              "cht": "布散"
             },
             {
               "id": "hebrew-7497",
-              "eng": "of the Rephaites",
-              "punct": "."
+              "cht": "在利乏音"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷",
+              "punct_cht": "。"
             }
           ]
         },
@@ -98,83 +103,79 @@
             "hebrew-6584": 2.57672001355142
           },
           "verseKey": "jdg.9.44",
-          "cunp": "亞比米勒和跟隨他的一隊向前闖去，站在城門口；那兩隊直闖到田間，擊殺了眾人。",
+          "nasb": "Then Abimelech and the company who was with him dashed forward and stood in the entrance of the city gate; the other two companies then dashed against all who were in the field and slew them.",
           "words": [
             {
               "id": "hebrew-40",
-              "eng": "And Abimelech",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "and the company"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that [was]"
+              "cht": "亞比米勒"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with him"
-            },
-            {
-              "id": "hebrew-6584",
-              "eng": "rushed forward",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "and stood"
-            },
-            {
-              "id": "hebrew-6607",
-              "eng": "at the entrance"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "of the city",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "and the [other] two"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "companies"
-            },
-            {
-              "id": "hebrew-6584",
-              "eng": "rushed"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "和跟隨他"
             },
             {
               "id": "hebrew-834",
-              "eng": "who [were]"
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "一隊"
+            },
+            {
+              "id": "hebrew-6584",
+              "cht": "向前闖去",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5975",
+              "cht": "站在"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "城"
+            },
+            {
+              "id": "hebrew-8179",
+              "cht": "門"
+            },
+            {
+              "id": "hebrew-6607",
+              "cht": "口",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-8147",
+              "cht": "那兩"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "隊"
+            },
+            {
+              "id": "hebrew-6584",
+              "cht": "直闖"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "到"
             },
             {
               "id": "hebrew-7704",
-              "eng": "in the fields",
-              "punct": "､"
+              "cht": "田間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5221",
-              "eng": "and killed them",
-              "punct": "."
+              "cht": "擊殺"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "了眾"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -186,76 +187,68 @@
             "hebrew-6430": 1.0966831786586086
           },
           "verseKey": "1sa.7.13",
-          "cunp": "從此，非利士人就被制伏，不敢再入以色列人的境內。撒母耳作士師的時候，耶和華的手攻擊非利士人。",
+          "nasb": "So the Philistines were subdued and they did not come anymore within the border of Israel. And the hand of the Lord was against the Philistines all the days of Samuel.",
           "words": [
             {
-              "id": "hebrew-3665",
-              "eng": "So were subdued",
-              "punct": "､"
+              "id": "",
+              "cht": "從此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6430",
-              "eng": "the Philistines"
+              "cht": "非利士人"
+            },
+            {
+              "id": "hebrew-3665",
+              "cht": "就被制伏",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "敢"
             },
             {
               "id": "hebrew-3254",
-              "eng": "again"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "anymore"
+              "cht": "再"
             },
             {
               "id": "hebrew-935",
-              "eng": "they did come"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "into the territory"
+              "cht": "入"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列人"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "And was"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "the hand"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-6430",
-              "eng": "against the Philistines"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the days"
+              "id": "hebrew-1366",
+              "cht": "的境內",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-8050",
-              "eng": "of Samuel",
-              "punct": "."
+              "cht": "撒母耳"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "作士師的時候",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5704"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "的手"
+            },
+            {
+              "id": "hebrew-6430",
+              "cht": "攻擊非利士人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -265,93 +258,83 @@
             "hebrew-6010": 2.1248744020317227
           },
           "verseKey": "gen.14.17",
-          "cunp": "亞伯蘭殺敗基大老瑪和與他同盟的王回來的時候，所多瑪王出來，在沙微谷迎接他；沙微谷就是王谷。",
+          "nasb": "Then after his return from the defeat of Chedorlaomer and the kings who were with him, the king of Sodom went out to meet him at the valley of Shaveh (that is, the King’s Valley).",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "And went out"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-5467",
-              "eng": "of Sodom"
-            },
-            {
-              "id": "hebrew-7125",
-              "eng": "to meet him"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "after"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "his return"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "from the defeat"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "亞伯蘭殺敗"
             },
             {
               "id": "hebrew-3540",
-              "eng": "Chedorlaomer",
-              "punct": "､"
+              "cht": "基大老瑪"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the kings",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who [were]"
+              "cht": "和"
             },
             {
               "id": "hebrew-854",
-              "eng": "with him"
+              "cht": "與他"
             },
             {
-              "id": "hebrew-413",
-              "eng": "at"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "the Valley"
-            },
-            {
-              "id": "hebrew-7740",
-              "eng": "of Shaveh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that [is]"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "Valley"
+              "id": "hebrew-834",
+              "cht": "同盟的"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the King's",
-              "punct": "."
+              "cht": "王"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7725",
+              "cht": "回來"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5467",
+              "cht": "所多瑪"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "出來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-7740",
+              "cht": "沙微"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷"
+            },
+            {
+              "id": "hebrew-7125",
+              "cht": "迎接他",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "沙微谷就是"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷",
+              "punct_cht": "。"
             }
           ]
         },
@@ -361,96 +344,96 @@
             "hebrew-6010": 2.1248744020317227
           },
           "verseKey": "jos.17.16",
-          "cunp": "約瑟的子孫說：「那山地容不下我們，並且住平原的迦南人，就是住伯‧善和屬伯‧善的鎮市，並住耶斯列平原的人，都有鐵車。」",
+          "nasb": "The sons of Joseph said, “The hill country is not enough for us, and all the Canaanites who live in the valley land have chariots of iron, both those who are in Beth-shean and its towns and those who are in the valley of Jezreel.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "But said",
-              "punct": "､"
+              "id": "hebrew-3130",
+              "cht": "約瑟"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "的子孫"
             },
             {
-              "id": "hebrew-3130",
-              "eng": "of Joseph"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "is enough"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2022",
-              "eng": "the mountain country"
+              "cht": "那山地"
             },
             {
-              "id": "hebrew-7393",
-              "eng": "and have chariots"
+              "id": "hebrew-4672",
+              "cht": "容"
             },
             {
-              "id": "hebrew-1270",
-              "eng": "of iron",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-3669",
-              "eng": "the Canaanite"
+              "id": "hebrew-3808",
+              "cht": "不"
             },
             {
               "id": "hebrew-3427",
-              "eng": "who dwell"
+              "cht": "並且住"
             },
             {
               "id": "hebrew-776",
-              "eng": "in the land"
+              "cht": "平原"
             },
             {
-              "id": "hebrew-6010",
-              "eng": "of the valley"
+              "id": "hebrew-3669",
+              "cht": "的迦南人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "[both those] who [are]"
+              "cht": "就是"
+            },
+            {
+              "id": "",
+              "cht": "住伯‧"
             },
             {
               "id": "hebrew-1052",
-              "eng": "Beth Shean"
+              "cht": "善"
+            },
+            {
+              "id": "",
+              "cht": "和屬伯‧"
             },
             {
               "id": "hebrew-1323",
-              "eng": "and its towns",
-              "punct": "､"
+              "cht": "善的鎮市",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "and [those] who [are]"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "of the Valley"
+              "cht": "並"
             },
             {
               "id": "hebrew-3157",
-              "eng": "of Jezreel",
-              "punct": "."
+              "cht": "住耶斯列"
             },
             {
-              "id": ""
+              "id": "hebrew-6010",
+              "cht": "平原"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-1270",
+              "cht": "有鐵"
+            },
+            {
+              "id": "hebrew-7393",
+              "cht": "車",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -460,50 +443,49 @@
             "hebrew-6010": 2.1248744020317227
           },
           "verseKey": "jol.3.14",
-          "cunp": "許多許多的人在斷定谷， 因為耶和華的日子臨近斷定谷。",
+          "nasb": "Multitudes, multitudes in the valley of decision! For the day of the Lord is near in the valley of decision.",
           "words": [
             {
               "id": "hebrew-1995",
-              "eng": "Multitudes",
-              "punct": "､"
+              "cht": "許多"
             },
             {
               "id": "hebrew-1995",
-              "eng": "multitudes"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "in the valley"
+              "cht": "許多的人"
             },
             {
               "id": "hebrew-2742",
-              "eng": "of decision",
-              "punct": "!"
+              "cht": "在斷定"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7138",
-              "eng": "[is] near"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-6010",
-              "eng": "in the valley"
+              "id": "hebrew-3117",
+              "cht": "的日子"
+            },
+            {
+              "id": "hebrew-7138",
+              "cht": "臨近"
             },
             {
               "id": "hebrew-2742",
-              "eng": "of decision",
-              "punct": "."
+              "cht": "斷定"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷",
+              "punct_cht": "。"
             }
           ]
         },
@@ -513,99 +495,87 @@
             "hebrew-6010": 2.1248744020317227
           },
           "verseKey": "2ch.20.26",
-          "cunp": "第四日眾人聚集在比拉迦谷，在那裏稱頌耶和華。因此那地方名叫比拉迦谷，直到今日。",
+          "nasb": "Then on the fourth day they assembled in the valley of Beracah, for there they blessed the Lord. Therefore they have named that place “The Valley of Beracah” until today.",
           "words": [
             {
-              "id": "hebrew-3117",
-              "eng": "And on the day"
+              "id": "hebrew-7243",
+              "cht": "第四"
             },
             {
-              "id": "hebrew-7243",
-              "eng": "fourth"
+              "id": "hebrew-3117",
+              "cht": "日"
             },
             {
               "id": "hebrew-6950",
-              "eng": "they assembled"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "in the Valley"
+              "cht": "眾人聚集"
             },
             {
               "id": "hebrew-1294",
-              "eng": "of Berachah",
-              "punct": "–"
+              "cht": "在比拉迦"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-6010",
+              "cht": "谷"
+            },
+            {
+              "id": "",
+              "cht": "【就是稱頌的意思】",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "they blessed"
+              "cht": "在那裡"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "稱頌"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "耶和華",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5921",
-              "eng": "Upon"
+              "cht": "因"
             },
             {
               "id": "hebrew-3651",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "was called",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "of place"
+              "cht": "此"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "那"
             },
             {
-              "id": "hebrew-6010",
-              "eng": "the Valley"
+              "id": "hebrew-853",
+              "cht": "地方"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "叫"
             },
             {
               "id": "hebrew-1294",
-              "eng": "of Berachah",
-              "punct": "､"
+              "cht": "比拉迦"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
+              "cht": "直到"
             },
             {
               "id": "hebrew-3117",
-              "eng": "this day",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "今日",
+              "punct_cht": "。"
             }
           ]
         },
@@ -616,144 +586,111 @@
             "hebrew-5750": 0.8328618768072236
           },
           "verseKey": "gen.8.21",
-          "cunp": "耶和華聞那馨香之氣，就心裏說：「我不再因人的緣故咒詛地（人從小時心裏懷着惡念），也不再按着我才行的滅各種的活物了。",
+          "nasb": "The Lord smelled the soothing aroma; and the Lord said to Himself, “I will never again curse the ground on account of man, for the intent of man’s heart is evil from his youth; and I will never again destroy every living thing, as I have done.",
           "words": [
             {
-              "id": "hebrew-7306",
-              "eng": "And smelled"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7381",
-              "eng": "aroma"
+              "cht": "聞"
             },
             {
               "id": "hebrew-5207",
-              "eng": "the soothing",
-              "punct": "–"
+              "cht": "那馨香"
+            },
+            {
+              "id": "hebrew-7381",
+              "cht": "之氣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "就心裡"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "His heart",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never"
+              "cht": "我不"
             },
             {
               "id": "hebrew-3254",
-              "eng": "again will I"
+              "cht": "再"
             },
             {
-              "id": "hebrew-7043",
-              "eng": "curse"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "any more"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "the ground"
+              "id": "hebrew-120",
+              "cht": "因人的"
             },
             {
               "id": "hebrew-5668",
-              "eng": "on account"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "although"
-            },
-            {
-              "id": "hebrew-3336",
-              "eng": "the imagination"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "in the heart"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "of man"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "[is] evil"
-            },
-            {
-              "id": "hebrew-5271",
-              "eng": "from his youth",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-3254",
-              "eng": "will I again"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "any more"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "destroy"
+              "cht": "緣故"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "咒詛"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "every"
+              "id": "hebrew-127",
+              "cht": "地（"
             },
             {
-              "id": "hebrew-2416",
-              "eng": "living thing",
-              "punct": "､"
+              "id": "hebrew-120",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從小時"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "心裡"
+            },
+            {
+              "id": "hebrew-7451",
+              "cht": "懷著惡"
+            },
+            {
+              "id": "hebrew-3336",
+              "cht": "念）",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-3254",
+              "cht": "再"
             },
             {
               "id": "hebrew-834",
-              "eng": "as"
+              "cht": "按著"
             },
             {
               "id": "hebrew-6213",
-              "eng": "I have done",
-              "punct": "."
+              "cht": "我才行"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5221",
+              "cht": "的滅"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "各種的"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "活物"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -764,62 +701,54 @@
             "hebrew-6584": 2.57672001355142
           },
           "verseKey": "1sa.23.27",
-          "cunp": "忽有使者來報告掃羅說：「非利士人犯境搶掠，請王快快回去！」",
+          "nasb": "But a messenger came to Saul, saying, “Hurry and come, for the Philistines have made a raid on the land.”",
           "words": [
             {
               "id": "hebrew-4397",
-              "eng": "But a messenger"
+              "cht": "忽有使者"
             },
             {
               "id": "hebrew-935",
-              "eng": "came"
+              "cht": "來"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "報告"
             },
             {
               "id": "hebrew-7586",
-              "eng": "Saul",
-              "punct": "､"
+              "cht": "掃羅"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4116",
-              "eng": "Hasten"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "and come",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-6584",
-              "eng": "have invaded"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6430",
-              "eng": "the Philistines"
+              "cht": "非利士人"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "犯"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "."
+              "cht": "境"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-6584",
+              "cht": "搶掠",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4116",
+              "cht": "請王快快"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "回去",
+              "punct_cht": "！」"
             }
           ]
         }

@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2803": "I am counted",
-          "hebrew-5973": "with",
-          "hebrew-3381": "those who go down to",
-          "hebrew-953": "the pit",
-          "hebrew-1961": "I am",
-          "hebrew-1397": "like a man",
-          "hebrew-369": "no",
-          "hebrew-353": "[who has] strength",
-          "": null
+          "eng": {
+            "hebrew-2803": "I am counted",
+            "hebrew-5973": "with",
+            "hebrew-3381": "those who go down to",
+            "hebrew-953": "the pit",
+            "hebrew-1961": "I am",
+            "hebrew-1397": "like a man",
+            "hebrew-369": "no",
+            "hebrew-353": "[who has] strength",
+            "": null
+          },
+          "cht": {
+            "hebrew-2803": "算",
+            "hebrew-5973": "的人同列",
+            "hebrew-3381": "和下",
+            "hebrew-953": "坑",
+            "hebrew-1961": "我",
+            "hebrew-1397": "的人一樣",
+            "hebrew-369": "如同無",
+            "hebrew-353": "力"
+          }
         }
       },
       "translations": {
@@ -25,126 +37,83 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "rev.9.2",
-          "cunp": "它開了無底坑，便有煙從坑裏往上冒，好像大火爐的煙；日頭和天空都因這煙昏暗了。",
+          "nasb": "He opened the bottomless pit, and smoke went up out of the pit, like the smoke of a great furnace; and the sun and the air were darkened by the smoke of the pit.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-455",
-              "eng": "he opened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "它開了"
             },
             {
               "id": "greek-12",
-              "eng": "Abyss",
-              "punct": ","
+              "cht": "無底"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "便有"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "煙"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑裡"
             },
             {
               "id": "greek-305",
-              "eng": "went up"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "smoke"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": ","
+              "cht": "往上冒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "like"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "[the] smoke"
-            },
-            {
-              "id": "greek-2575",
-              "eng": "of a furnace"
+              "cht": "好像"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": ","
+              "cht": "大"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4656",
-              "eng": "were darkened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2246",
-              "eng": "sun"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-109",
-              "eng": "air"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2575",
+              "cht": "火爐"
             },
             {
               "id": "greek-2586",
-              "eng": "smoke"
+              "cht": "的煙",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2246",
+              "cht": "日頭"
             },
             {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": "."
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
-              "id": "greek-4654"
+              "id": "greek-109",
+              "cht": "天空"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "都因"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "這煙"
+            },
+            {
+              "id": "greek-4654",
+              "cht": "昏暗了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -155,111 +124,92 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "ezk.26.20",
-          "cunp": "那時，我要叫你下入陰府，與古時的人一同在地的深處、久已荒涼之地居住，使你不再有居民。我也要在活人之地顯榮耀。",
+          "nasb": "then I will bring you down with those who go down to the pit, to the people of old, and I will make you dwell in the lower parts of the earth, like the ancient waste places, with those who go down to the pit, so that you will not be inhabited; but I will set glory in the land of the living.",
           "words": [
             {
-              "id": "hebrew-3381",
-              "eng": "Then I will bring you down"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "with"
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3381",
-              "eng": "those who descend"
+              "cht": "我要叫你下"
+            },
+            {
+              "id": "hebrew-3381",
+              "cht": "入"
             },
             {
               "id": "hebrew-953",
-              "eng": "into the Pit",
-              "punct": "､"
+              "cht": "陰府",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
+              "id": "hebrew-854",
+              "cht": "與"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "古時"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "of old",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "and I will make you dwell"
+              "cht": "的人"
             },
             {
               "id": "hebrew-776",
-              "eng": "in the earth",
-              "punct": "､"
+              "cht": "一同在地"
             },
             {
               "id": "hebrew-8482",
-              "eng": "the lowest part of"
-            },
-            {
-              "id": "hebrew-2723",
-              "eng": "in [places] desolate"
+              "cht": "的深處、"
             },
             {
               "id": "hebrew-5769",
-              "eng": "from antiquity",
-              "punct": "､"
+              "cht": "久"
             },
             {
-              "id": "hebrew-854",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "those who go down"
-            },
-            {
-              "id": "hebrew-953",
-              "eng": "to the Pit",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4616",
-              "eng": "so that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "never"
+              "id": "hebrew-2723",
+              "cht": "已荒涼"
             },
             {
               "id": "hebrew-3427",
-              "eng": "you may be inhabited",
-              "punct": "–"
+              "cht": "之地居住",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and I shall establish"
+              "id": "hebrew-4616",
+              "cht": "使"
             },
             {
-              "id": "hebrew-6643",
-              "eng": "glory"
+              "id": "hebrew-3808",
+              "cht": "你不"
             },
             {
-              "id": "hebrew-776",
-              "eng": "in the land"
+              "id": "hebrew-3427",
+              "cht": "再有居民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2416",
-              "eng": "of the living",
-              "punct": "–"
+              "cht": "我也要在活人"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "之地"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5414",
+              "cht": "顯"
             },
             {
-              "id": ""
+              "id": "hebrew-6643",
+              "cht": "榮耀"
+            },
+            {
+              "id": "",
+              "cht": "（我也……榮耀或譯在活人之地不再有榮耀）",
+              "punct_cht": "：。"
             }
           ]
         },
@@ -270,61 +220,54 @@
             "hebrew-369": 0.7414250898918989
           },
           "verseKey": "gen.37.29",
-          "cunp": "呂便回到坑邊，見約瑟不在坑裏，就撕裂衣服，",
+          "nasb": "Now Reuben returned to the pit, and behold, Joseph was not in the pit; so he tore his garments.",
           "words": [
             {
-              "id": "hebrew-7725",
-              "eng": "Then returned"
+              "id": "hebrew-7205",
+              "cht": "流便"
             },
             {
-              "id": "hebrew-7205",
-              "eng": "Reuben"
+              "id": "hebrew-7725",
+              "cht": "回"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到"
             },
             {
               "id": "hebrew-953",
-              "eng": "the pit",
-              "punct": "–"
+              "cht": "坑"
+            },
+            {
+              "id": "",
+              "cht": "邊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and indeed",
-              "punct": "､"
+              "cht": "見"
+            },
+            {
+              "id": "hebrew-313",
+              "cht": "約瑟"
             },
             {
               "id": "hebrew-369",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3130",
-              "eng": "Joseph [was]"
+              "cht": "不在"
             },
             {
               "id": "hebrew-953",
-              "eng": "in the pit",
-              "punct": "–"
+              "cht": "坑裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7167",
-              "eng": "and he tore"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "就撕裂"
             },
             {
               "id": "hebrew-899",
-              "eng": "his clothes",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-313"
+              "cht": "衣服",
+              "punct_cht": "，"
             }
           ]
         },
@@ -335,127 +278,115 @@
             "hebrew-369": 0.7414250898918989
           },
           "verseKey": "jer.38.6",
-          "cunp": "他們就拿住耶利米，下在哈米勒的兒子瑪基雅的牢獄裏；那牢獄在護衛兵的院中。他們用繩子將耶利米繫下去。牢獄裏沒有水，只有淤泥，耶利米就陷在淤泥中。",
+          "nasb": "Then they took Jeremiah and cast him into the cistern of Malchijah the king’s son, which was in the court of the guardhouse; and they let Jeremiah down with ropes. Now in the cistern there was no water but only mud, and Jeremiah sank into the mud.",
           "words": [
             {
               "id": "hebrew-3947",
-              "eng": "so they took"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "他們就拿住"
             },
             {
               "id": "hebrew-3414",
-              "eng": "Jeremiah",
-              "punct": "､"
+              "cht": "耶利米",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7993",
-              "eng": "and cast"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "him"
+              "cht": "下"
             },
             {
               "id": "hebrew-413",
-              "eng": "into"
+              "cht": "在"
             },
             {
-              "id": "hebrew-953",
-              "eng": "the dungeon"
-            },
-            {
-              "id": "hebrew-4441",
-              "eng": "of Malchiah"
+              "id": "hebrew-4428",
+              "cht": "哈米勒"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-4429",
-              "eng": "of the king",
-              "punct": "､"
+              "id": "",
+              "cht": "（或譯王的兒子）",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-834",
-              "eng": "that [was]"
-            },
-            {
-              "id": "hebrew-2691",
-              "eng": "in the court"
-            },
-            {
-              "id": "hebrew-4307",
-              "eng": "of the prison",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "and they let down"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3414",
-              "eng": "Jeremiah"
-            },
-            {
-              "id": "hebrew-2256",
-              "eng": "with ropes",
-              "punct": "."
+              "id": "hebrew-4441",
+              "cht": "瑪基雅"
             },
             {
               "id": "hebrew-953",
-              "eng": "And in the dungeon"
+              "cht": "的牢獄"
             },
             {
-              "id": "hebrew-369",
-              "eng": "[there was] no"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-4325",
-              "eng": "water",
-              "punct": "､"
+              "id": "hebrew-834",
+              "cht": "那牢獄"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4307",
+              "cht": "在護衛兵"
             },
             {
-              "id": "hebrew-518",
-              "eng": "but"
+              "id": "hebrew-2691",
+              "cht": "的院中",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-2916",
-              "eng": "mire",
-              "punct": "､"
+              "id": "hebrew-2256",
+              "cht": "他們用繩子"
             },
             {
-              "id": "hebrew-2883",
-              "eng": "so sank"
+              "id": "hebrew-853",
+              "cht": "將"
             },
             {
               "id": "hebrew-3414",
-              "eng": "Jeremiah"
+              "cht": "耶利米"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "繫下去",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-953",
+              "cht": "牢獄裡"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "只有"
             },
             {
               "id": "hebrew-2916",
-              "eng": "in the mire",
-              "punct": "."
+              "cht": "淤泥",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4428"
+              "id": "hebrew-3414",
+              "cht": "耶利米"
             },
             {
-              "id": ""
+              "id": "hebrew-2883",
+              "cht": "就陷"
             },
             {
-              "id": ""
+              "id": "hebrew-2916",
+              "cht": "在淤泥中",
+              "punct_cht": "。"
             }
           ]
         },
@@ -466,89 +397,86 @@
             "hebrew-1397": 2.139523323431707
           },
           "verseKey": "deu.22.5",
-          "cunp": "「婦女不可穿戴男子所穿戴的，男子也不可穿婦女的衣服，因為這樣行都是耶和華－你神所憎惡的。",
+          "nasb": "“A woman shall not wear man’s clothing, nor shall a man put on a woman’s clothing; for whoever does these things is an abomination to the Lord your God.",
           "words": [
             {
+              "id": "hebrew-802",
+              "cht": "婦女"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "Not"
+              "cht": "不"
             },
             {
               "id": "hebrew-1961",
-              "eng": "shall wear"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "anything that pertains to"
-            },
-            {
-              "id": "hebrew-1397",
-              "eng": "a man",
-              "punct": "､"
+              "cht": "可"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3847",
-              "eng": "shall put on"
+              "cht": "穿戴"
             },
             {
               "id": "hebrew-1397",
-              "eng": "a man"
+              "cht": "男子"
             },
             {
-              "id": "hebrew-8071",
-              "eng": "garment",
-              "punct": "–"
+              "id": "hebrew-3627",
+              "cht": "所穿戴的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1397",
+              "cht": "男子"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不可"
+            },
+            {
+              "id": "hebrew-3847",
+              "cht": "穿"
             },
             {
               "id": "hebrew-802",
-              "eng": "of a woman"
+              "cht": "婦女"
+            },
+            {
+              "id": "hebrew-8071",
+              "cht": "的衣服",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-8441",
-              "eng": "[are] an abomination to"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "All"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "who do"
+              "cht": "因為"
             },
             {
               "id": "hebrew-428",
-              "eng": "these",
-              "punct": "."
+              "cht": "這樣"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-6213",
+              "cht": "行"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "都是"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-8441",
+              "cht": "所憎惡的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -558,75 +486,66 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "exo.21.33",
-          "cunp": "「人若敞着井口，或挖井不遮蓋，有牛或驢掉在裏頭，",
+          "nasb": "“If a man opens a pit, or digs a pit and does not cover it over, and an ox or a donkey falls into it,",
           "words": [
             {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "And if"
+              "cht": "若"
             },
             {
               "id": "hebrew-6605",
-              "eng": "opens"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "敞著"
             },
             {
               "id": "hebrew-953",
-              "eng": "a pit",
-              "punct": "､"
+              "cht": "井口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "if"
+              "cht": "或"
             },
             {
               "id": "hebrew-3738",
-              "eng": "digs"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "挖"
             },
             {
               "id": "hebrew-953",
-              "eng": "a pit",
-              "punct": "､"
+              "cht": "井"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "不"
             },
             {
               "id": "hebrew-3680",
-              "eng": "does cover it",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "and falls"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "in it"
+              "cht": "遮蓋",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7794",
-              "eng": "an ox"
+              "cht": "有牛"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-2543",
-              "eng": "a donkey",
-              "punct": "､"
+              "cht": "驢"
+            },
+            {
+              "id": "hebrew-5307",
+              "cht": "掉"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "在裡頭",
+              "punct_cht": "，"
             }
           ]
         },
@@ -637,123 +556,116 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "ezk.32.24",
-          "cunp": "「以攔也在那裏，她的羣眾在她墳墓的四圍，都是被殺倒在刀下、未受割禮而下陰府的；他們曾在活人之地使人驚恐，並且與下坑的人一同擔當羞辱。",
+          "nasb": "“Elam is there and all her hordes around her grave; all of them slain, fallen by the sword, who went down uncircumcised to the lower parts of the earth, who instilled their terror in the land of the living and bore their disgrace with those who went down to the pit.",
           "words": [
             {
-              "id": "hebrew-8033",
-              "eng": "There [is]"
+              "id": "hebrew-5867",
+              "cht": "以攔"
             },
             {
-              "id": "hebrew-5867",
-              "eng": "Elam"
+              "id": "hebrew-8033",
+              "cht": "也在那裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "她的群"
             },
             {
               "id": "hebrew-1995",
-              "eng": "her multitude"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "all around"
+              "cht": "眾"
             },
             {
               "id": "hebrew-6900",
-              "eng": "her grave",
-              "punct": "､"
+              "cht": "在她墳墓"
+            },
+            {
+              "id": "hebrew-5439",
+              "cht": "的四圍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all of them"
+              "cht": "都是"
             },
             {
               "id": "hebrew-2491",
-              "eng": "slain",
-              "punct": "､"
+              "cht": "被殺"
             },
             {
               "id": "hebrew-5307",
-              "eng": "fallen"
+              "cht": "倒"
             },
             {
               "id": "hebrew-2719",
-              "eng": "by the sword",
-              "punct": "､"
+              "cht": "在刀"
             },
             {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "have gone down"
+              "id": "",
+              "cht": "下、"
             },
             {
               "id": "hebrew-6189",
-              "eng": "uncircumcised"
+              "cht": "未受割禮"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "而下"
             },
             {
               "id": "hebrew-8482",
-              "eng": "the lower parts"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "of who"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "caused"
-            },
-            {
-              "id": "hebrew-2851",
-              "eng": "their terror"
+              "cht": "陰"
             },
             {
               "id": "hebrew-776",
-              "eng": "in the land"
+              "cht": "府"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "他們"
             },
             {
               "id": "hebrew-2416",
-              "eng": "of the living",
-              "punct": "–"
+              "cht": "曾在活人"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "and they bear"
+              "id": "hebrew-776",
+              "cht": "之地"
             },
             {
-              "id": "hebrew-3639",
-              "eng": "their shame"
+              "id": "hebrew-5414",
+              "cht": "使"
+            },
+            {
+              "id": "hebrew-2851",
+              "cht": "人驚恐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
+              "cht": "並且與"
             },
             {
               "id": "hebrew-3381",
-              "eng": "those who go down"
+              "cht": "下"
             },
             {
               "id": "hebrew-953",
-              "eng": "to the Pit",
-              "punct": "."
+              "cht": "坑"
             },
             {
-              "id": ""
+              "id": "hebrew-5375",
+              "cht": "的人一同擔當"
             },
             {
-              "id": ""
+              "id": "hebrew-3639",
+              "cht": "羞辱",
+              "punct_cht": "。"
             }
           ]
         },
@@ -764,108 +676,106 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "ezk.32.30",
-          "cunp": "「在那裏有北方的眾王子和一切西頓人，都與被殺的人下去。他們雖然仗着勢力使人驚恐，還是蒙羞。他們未受割禮，和被刀殺的一同躺臥，與下坑的人一同擔當羞辱。",
+          "nasb": "“There also are the chiefs of the north, all of them, and all the Sidonians, who in spite of the terror resulting from their might, in shame went down with the slain. So they lay down uncircumcised with those slain by the sword and bore their disgrace with those who go down to the pit.",
           "words": [
             {
               "id": "hebrew-8033",
-              "eng": "There [are]"
-            },
-            {
-              "id": "hebrew-5257",
-              "eng": "the princes"
+              "cht": "在那裡"
             },
             {
               "id": "hebrew-6828",
-              "eng": "of the north",
-              "punct": "､"
+              "cht": "有北方"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all of them"
+              "cht": "的眾"
+            },
+            {
+              "id": "hebrew-5257",
+              "cht": "王子"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "和一切"
             },
             {
               "id": "hebrew-6722",
-              "eng": "Sidonian",
-              "punct": "､"
+              "cht": "西頓人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "have gone down"
+              "cht": "都"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
+              "cht": "與"
             },
             {
               "id": "hebrew-2491",
-              "eng": "the slain",
-              "punct": "–"
+              "cht": "被殺"
+            },
+            {
+              "id": "hebrew-3381",
+              "cht": "的人下去",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "他們雖然仗著勢力"
             },
             {
               "id": "hebrew-2851",
-              "eng": "at the terror which they caused"
-            },
-            {
-              "id": "hebrew-1369",
-              "eng": "by their might",
-              "punct": "–"
+              "cht": "使人驚恐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-954",
-              "eng": "in shame"
-            },
-            {
-              "id": "hebrew-7901",
-              "eng": "and they lie"
+              "cht": "還是蒙羞",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6189",
-              "eng": "uncircumcised"
+              "cht": "他們未受割禮",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-2491",
-              "eng": "[those] slain by"
+              "cht": "和"
             },
             {
               "id": "hebrew-2719",
-              "eng": "the sword",
-              "punct": "､"
+              "cht": "被刀"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "and bear"
+              "id": "hebrew-2491",
+              "cht": "殺"
             },
             {
-              "id": "hebrew-3639",
-              "eng": "their shame"
+              "id": "hebrew-7901",
+              "cht": "的一同躺臥",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
+              "cht": "與"
             },
             {
               "id": "hebrew-3381",
-              "eng": "those who go down to"
+              "cht": "下"
             },
             {
               "id": "hebrew-953",
-              "eng": "the Pit",
-              "punct": "."
+              "cht": "坑"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5375",
+              "cht": "的人一同擔當"
+            },
+            {
+              "id": "hebrew-3639",
+              "cht": "羞辱",
+              "punct_cht": "。"
             }
           ]
         },
@@ -875,81 +785,78 @@
             "hebrew-369": 0.7414250898918989
           },
           "verseKey": "hos.3.4",
-          "cunp": "以色列人也必多日獨居，無君王，無首領，無祭祀，無柱像，無以弗得，無家中的神像。",
+          "nasb": "For the sons of Israel will remain for many days without king or prince, without sacrifice or sacred pillar and without ephod or household idols.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "days"
-            },
-            {
-              "id": "hebrew-7227",
-              "eng": "many"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "shall abide"
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "人"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "id": "hebrew-7227",
+              "cht": "也必多"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "獨居",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "without"
+              "cht": "無"
             },
             {
               "id": "hebrew-4428",
-              "eng": "king",
-              "punct": "､"
+              "cht": "君王",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "or"
+              "cht": "無"
             },
             {
               "id": "hebrew-8269",
-              "eng": "prince",
-              "punct": "､"
+              "cht": "首領",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and without"
+              "cht": "無"
             },
             {
               "id": "hebrew-2077",
-              "eng": "sacrifice",
-              "punct": "､"
+              "cht": "祭祀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "or"
+              "cht": "無"
             },
             {
               "id": "hebrew-4676",
-              "eng": "sacred pillar",
-              "punct": "､"
+              "cht": "柱像",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and without"
+              "cht": "無"
             },
             {
               "id": "hebrew-646",
-              "eng": "ephod",
-              "punct": "､"
+              "cht": "以弗得",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8655",
-              "eng": "or teraphim",
-              "punct": "–"
+              "cht": "無家中的神像",
+              "punct_cht": "。"
             }
           ]
         },
@@ -959,139 +866,107 @@
             "hebrew-369": 0.7414250898918989
           },
           "verseKey": "jer.33.10",
-          "cunp": "耶和華如此說：「你們論這地方，說是荒廢無人民無牲畜之地，但在這荒涼無人民無牲畜的猶大城邑和耶路撒冷的街上，",
+          "nasb": "“Thus says the Lord, ‘Yet again there will be heard in this place, of which you say, “It is a waste, without man and without beast,” that is, in the cities of Judah and in the streets of Jerusalem that are desolate, without man and without inhabitant and without beast,",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "Again"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "there shall be heard"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "in place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "of which"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "你們"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "論"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "地方",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "say"
-            },
-            {
-              "id": "hebrew-2720",
-              "eng": "desolate"
+              "cht": "說"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it [is]"
+              "cht": "是"
             },
             {
-              "id": "hebrew-369",
-              "eng": "without"
+              "id": "hebrew-2720",
+              "cht": "荒廢"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
+              "cht": "人民"
             },
             {
               "id": "hebrew-369",
-              "eng": "and without"
+              "cht": "無"
             },
             {
               "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "､"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-5892",
-              "eng": "in the cities"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2351",
-              "eng": "and in the streets"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "of Jerusalem",
-              "punct": "､"
+              "id": "hebrew-834",
+              "cht": "之地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8074",
-              "eng": "that are desolate",
-              "punct": "､"
+              "cht": "但在這荒涼"
             },
             {
-              "id": "hebrew-369",
-              "eng": "without"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and without"
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-3427",
-              "eng": "inhabitant",
-              "punct": "､"
+              "cht": "人民"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and without"
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "､"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3063",
+              "cht": "的猶大"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5892",
+              "cht": "城邑"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3389",
+              "cht": "和耶路撒冷"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-2351",
+              "cht": "的街上",
+              "punct_cht": "，"
             }
           ]
         }

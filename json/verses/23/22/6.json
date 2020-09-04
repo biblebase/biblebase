@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5867": "And Elam",
-          "hebrew-5375": "bore",
-          "hebrew-827": "the quiver",
-          "hebrew-7393": "with chariots",
-          "hebrew-120": "of men",
-          "hebrew-6571": "[and] horsemen",
-          "hebrew-7024": "and Kir",
-          "hebrew-6168": "uncovered",
-          "hebrew-4043": "the shield"
+          "eng": {
+            "hebrew-5867": "And Elam",
+            "hebrew-5375": "bore",
+            "hebrew-827": "the quiver",
+            "hebrew-7393": "with chariots",
+            "hebrew-120": "of men",
+            "hebrew-6571": "[and] horsemen",
+            "hebrew-7024": "and Kir",
+            "hebrew-6168": "uncovered",
+            "hebrew-4043": "the shield"
+          },
+          "cht": {
+            "hebrew-5867": "以攔",
+            "hebrew-5375": "帶著",
+            "hebrew-827": "箭袋",
+            "hebrew-7393": "還有坐戰車",
+            "hebrew-120": "兵",
+            "hebrew-6571": "的和馬",
+            "hebrew-7024": "吉珥",
+            "hebrew-6168": "揭開",
+            "hebrew-4043": "盾牌"
+          }
         }
       },
       "translations": {
@@ -27,32 +40,33 @@
             "hebrew-827": 10.248599871619378
           },
           "verseKey": "job.39.23",
-          "cunp": "箭袋和發亮的槍， 並短槍在牠身上錚錚有聲。",
+          "nasb": "The quiver rattles against him, The flashing spear and javelin.",
           "words": [
             {
-              "id": "hebrew-5921",
-              "eng": "Against him"
-            },
-            {
-              "id": "hebrew-7439",
-              "eng": "rattles"
-            },
-            {
               "id": "hebrew-827",
-              "eng": "the quiver"
+              "cht": "箭袋"
             },
             {
               "id": "hebrew-3851",
-              "eng": "glittering"
+              "cht": "和發亮的"
             },
             {
               "id": "hebrew-2595",
-              "eng": "the spear"
+              "cht": "槍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3591",
-              "eng": "and javelin",
-              "punct": "."
+              "cht": "並短槍"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在牠身上"
+            },
+            {
+              "id": "hebrew-7439",
+              "cht": "錚錚有聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -62,68 +76,62 @@
             "hebrew-7024": 8.539323589735611
           },
           "verseKey": "isa.15.1",
-          "cunp": "論摩押的默示： 一夜之間，摩押的亞珥變為荒廢， 歸於無有； 一夜之間，摩押的基珥變為荒廢， 歸於無有。",
+          "nasb": "The oracle concerning Moab. Surely in a night Ar of Moab is devastated and ruined; Surely in a night Kir of Moab is devastated and ruined.",
           "words": [
             {
-              "id": "hebrew-4853",
-              "eng": "The burden against"
-            },
-            {
               "id": "hebrew-4124",
-              "eng": "Moab",
-              "punct": "."
+              "cht": "論摩押"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "Because"
+              "id": "hebrew-4853",
+              "cht": "的默示",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3915",
-              "eng": "in the night"
+              "cht": "一夜之間",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-7703",
-              "eng": "is laid waste",
-              "punct": "､"
+              "id": "hebrew-4124",
+              "cht": "摩押"
             },
             {
               "id": "hebrew-6144",
-              "eng": "Ar"
-            },
-            {
-              "id": "hebrew-4124",
-              "eng": "of Moab"
-            },
-            {
-              "id": "hebrew-1820",
-              "eng": "[And] destroyed",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-3915",
-              "eng": "in the night"
+              "cht": "的亞珥"
             },
             {
               "id": "hebrew-7703",
-              "eng": "is laid waste",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7024",
-              "eng": "Kir"
-            },
-            {
-              "id": "hebrew-4124",
-              "eng": "Kir of Moab"
+              "cht": "變為荒廢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1820",
-              "eng": "[And] destroyed",
-              "punct": "–"
+              "cht": "歸於無有",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3915",
+              "cht": "一夜之間",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4124",
+              "cht": "摩押"
+            },
+            {
+              "id": "hebrew-7024",
+              "cht": "的基珥"
+            },
+            {
+              "id": "hebrew-7703",
+              "cht": "變為荒廢",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1820",
+              "cht": "歸於無有",
+              "punct_cht": "。"
             }
           ]
         },
@@ -133,99 +141,93 @@
             "hebrew-7024": 8.539323589735611
           },
           "verseKey": "amo.9.7",
-          "cunp": "耶和華說：以色列人哪， 我豈不看你們如古實人嗎？ 我豈不是領以色列人出埃及地， 領非利士人出迦斐託， 領亞蘭人出吉珥嗎？",
+          "nasb": "“Are you not as the sons of Ethiopia to Me, O sons of Israel?” declares the Lord. “Have I not brought up Israel from the land of Egypt, And the Philistines from Caphtor and the Arameans from Kir?",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "[Are] not"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "like the sons"
-            },
-            {
-              "id": "hebrew-3569",
-              "eng": "of the Ethiopians"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "sons"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5002",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "Did not"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "豈不"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "看你們"
+            },
+            {
+              "id": "hebrew-3569",
+              "cht": "如古實"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "我豈不是"
             },
             {
               "id": "hebrew-5927",
-              "eng": "I bring up"
+              "cht": "領"
             },
             {
-              "id": "hebrew-776",
-              "eng": "from the land"
+              "id": "hebrew-3478",
+              "cht": "以色列人"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt"
+              "cht": "出埃及"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6430",
-              "eng": "and the Philistines"
+              "cht": "領非利士人"
             },
             {
               "id": "hebrew-3731",
-              "eng": "from Caphtor"
+              "cht": "出迦斐託",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-758",
-              "eng": "and the Syria"
+              "cht": "領亞蘭人"
             },
             {
               "id": "hebrew-7024",
-              "eng": "from Kir",
-              "punct": "."
+              "cht": "出吉珥"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -235,65 +237,61 @@
             "hebrew-6168": 4.1389193993584925
           },
           "verseKey": "psa.137.7",
-          "cunp": "耶路撒冷  遭難的日子， 以東人說：拆毀！拆毀！ 直拆到根基！ 耶和華啊，求你記念這仇！",
+          "nasb": "Remember, O Lord, against the sons of Edom The day of Jerusalem, Who said, “Raze it, raze it To its very foundation.”",
           "words": [
             {
-              "id": "hebrew-2142",
-              "eng": "Remember",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "against the sons"
-            },
-            {
-              "id": "hebrew-123",
-              "eng": "of Edom"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "遭難的日子",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3389",
-              "eng": "of Jerusalem",
-              "punct": "–"
+              "id": "hebrew-2142",
+              "cht": "以東"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
             },
             {
               "id": "hebrew-559",
-              "eng": "who said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6168",
-              "eng": "Raze [it]"
+              "cht": "拆毀",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-6168",
-              "eng": "raze [it]"
+              "cht": "拆毀",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5704",
-              "eng": "to"
+              "cht": "直"
             },
             {
               "id": "hebrew-3247",
-              "eng": "very foundation"
+              "cht": "根基",
+              "punct_cht": "！"
             },
             {
-              "id": ""
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-2142"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2142",
+              "cht": "求你記念"
             }
           ]
         },
@@ -303,107 +301,99 @@
             "hebrew-5867": 3.125409454472294
           },
           "verseKey": "jer.49.36",
-          "cunp": "我要使四風從天的四方颳來，臨到以攔人，將他們分散四方。這被趕散的人沒有一國不到的。」",
+          "nasb": "I will bring upon Elam the four winds From the four ends of heaven, And will scatter them to all these winds; And there will be no nation To which the outcasts of Elam will not go.",
           "words": [
             {
               "id": "hebrew-935",
-              "eng": "And I will bring"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "Against"
-            },
-            {
-              "id": "hebrew-5867",
-              "eng": "Elam"
+              "cht": "我要使"
             },
             {
               "id": "hebrew-702",
-              "eng": "the four"
+              "cht": "四"
             },
             {
               "id": "hebrew-7307",
-              "eng": "winds"
-            },
-            {
-              "id": "hebrew-702",
-              "eng": "from the four"
-            },
-            {
-              "id": "hebrew-7098",
-              "eng": "quarters"
+              "cht": "風"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of heaven",
-              "punct": "､"
+              "cht": "從天"
             },
             {
-              "id": "hebrew-2219",
-              "eng": "and scatter them"
+              "id": "hebrew-702",
+              "cht": "的四"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "toward all"
+              "id": "hebrew-7098",
+              "cht": "方"
             },
             {
-              "id": "hebrew-7307",
-              "eng": "winds",
-              "punct": "–"
+              "id": "",
+              "cht": "颳來",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-428",
-              "eng": "these"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there shall be"
-            },
-            {
-              "id": "hebrew-1471",
-              "eng": "nations"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "where"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "will go",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "There"
-            },
-            {
-              "id": "hebrew-5080",
-              "eng": "the outcasts"
+              "id": "hebrew-413",
+              "cht": "臨到"
             },
             {
               "id": "hebrew-5867",
-              "eng": "Elam",
-              "punct": "."
+              "cht": "以攔人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2219",
+              "cht": "將他們分散"
             },
             {
-              "id": ""
+              "id": "hebrew-428",
+              "cht": "四"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "方（"
             },
             {
-              "id": "hebrew-5769"
+              "id": "hebrew-7307",
+              "cht": "原文是風）",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-5080",
+              "cht": "被趕散的"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "沒"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
+            },
+            {
+              "id": "hebrew-1471",
+              "cht": "一國"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -413,98 +403,80 @@
             "hebrew-7393": 1.7546213822553325
           },
           "verseKey": "1ch.18.4",
-          "cunp": "奪了他的戰車一千，馬兵七千，步兵二萬，將拉戰車的馬砍斷蹄筋，但留下一百輛車的馬。",
+          "nasb": "David took from him 1,000 chariots and 7,000 horsemen and 20,000 foot soldiers, and David hamstrung all the chariot horses, but reserved enough of them for 100 chariots.",
           "words": [
             {
               "id": "hebrew-3920",
-              "eng": "And took"
-            },
-            {
-              "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "奪了"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from him"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "a thousand"
+              "cht": "他的"
             },
             {
               "id": "hebrew-7393",
-              "eng": "chariots",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7651",
-              "eng": "and seven"
+              "cht": "戰車"
             },
             {
               "id": "hebrew-505",
-              "eng": "thousand"
+              "cht": "一千",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6571",
-              "eng": "charioteers",
-              "punct": "､"
+              "cht": "馬兵"
             },
             {
-              "id": "hebrew-6242",
-              "eng": "and twenty"
+              "id": "hebrew-7651",
+              "cht": "七"
             },
             {
               "id": "hebrew-505",
-              "eng": "thousand"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "soldiers"
+              "cht": "千",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7273",
-              "eng": "foot soldiers",
-              "punct": "–"
+              "cht": "步"
             },
             {
-              "id": "hebrew-6131",
-              "eng": "and hamstrung"
+              "id": "hebrew-376",
+              "cht": "兵"
             },
             {
-              "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-6242",
+              "cht": "二萬",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "將"
             },
             {
               "id": "hebrew-7393",
-              "eng": "the chariot [horses]"
+              "cht": "拉戰車"
+            },
+            {
+              "id": "hebrew-6131",
+              "cht": "的馬砍斷蹄筋",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3498",
-              "eng": "and except that he spared enough for"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "of them"
+              "cht": "但留下"
             },
             {
               "id": "hebrew-3967",
-              "eng": "a hundred"
+              "cht": "一百"
             },
             {
               "id": "hebrew-7393",
-              "eng": "chariots",
-              "punct": "."
+              "cht": "輛車"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的馬",
+              "punct_cht": "。"
             }
           ]
         },
@@ -514,97 +486,92 @@
             "hebrew-7393": 1.7546213822553325
           },
           "verseKey": "1ki.10.26",
-          "cunp": "所羅門聚集戰車馬兵，有戰車一千四百輛，馬兵一萬二千名，安置在屯車的城邑和耶路撒冷，就是王那裏。",
+          "nasb": "Now Solomon gathered chariots and horsemen; and he had 1,400 chariots and 12,000 horsemen, and he stationed them in the chariot cities and with the king in Jerusalem.",
           "words": [
             {
-              "id": "hebrew-622",
-              "eng": "And gathered"
+              "id": "hebrew-8010",
+              "cht": "所羅門"
             },
             {
-              "id": "hebrew-8010",
-              "eng": "Solomon"
+              "id": "hebrew-622",
+              "cht": "聚集"
             },
             {
               "id": "hebrew-7393",
-              "eng": "chariots"
+              "cht": "戰車"
             },
             {
               "id": "hebrew-6571",
-              "eng": "and horsemen",
-              "punct": "–"
+              "cht": "馬兵",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and had"
+              "cht": "有"
+            },
+            {
+              "id": "hebrew-7393",
+              "cht": "戰車"
             },
             {
               "id": "hebrew-505",
-              "eng": "a thousand"
+              "cht": "一千"
             },
             {
               "id": "hebrew-702",
-              "eng": "and four"
+              "cht": "四"
             },
             {
               "id": "hebrew-3967",
-              "eng": "hundred"
+              "cht": "百"
             },
             {
-              "id": "hebrew-7393",
-              "eng": "chariots",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "and two"
-            },
-            {
-              "id": "hebrew-6240",
-              "eng": "[and] ten"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
+              "id": "",
+              "cht": "輛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6571",
-              "eng": "horsemen",
-              "punct": "､"
+              "cht": "馬兵"
+            },
+            {
+              "id": "hebrew-505",
+              "cht": "一萬二千"
+            },
+            {
+              "id": "",
+              "cht": "名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5148",
-              "eng": "and whom he stationed"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "in cities"
+              "cht": "安置"
             },
             {
               "id": "hebrew-7393",
-              "eng": "the chariot",
-              "punct": "､"
+              "cht": "在屯車"
             },
             {
-              "id": "hebrew-5973",
-              "eng": "and with"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "id": "hebrew-5892",
+              "cht": "的城邑"
             },
             {
               "id": "hebrew-3389",
-              "eng": "in Jerusalem",
-              "punct": "."
+              "cht": "和耶路撒冷",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-5973",
+              "cht": "就是"
             },
             {
-              "id": ""
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -614,62 +581,52 @@
             "hebrew-7393": 1.7546213822553325
           },
           "verseKey": "isa.21.7",
-          "cunp": "他看見軍隊， 就是騎馬的一對一對地來， 又看見驢隊，駱駝隊， 就要側耳細聽。",
+          "nasb": "When he sees riders, horsemen in pairs, A train of donkeys, a train of camels, Let him pay close attention, very close attention.”",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "And he saw"
+              "cht": "他看見"
             },
             {
               "id": "hebrew-7393",
-              "eng": "a chariot"
-            },
-            {
-              "id": "hebrew-6776",
-              "eng": "[with] a pair"
+              "cht": "軍隊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6571",
-              "eng": "of horsemen",
-              "punct": "､"
+              "cht": "就是騎馬的"
             },
             {
-              "id": "hebrew-7393",
-              "eng": "a chariot"
+              "id": "hebrew-6776",
+              "cht": "一對一對地"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2543",
-              "eng": "of donkeys",
-              "punct": "､"
+              "cht": "又看見驢"
             },
             {
               "id": "hebrew-7393",
-              "eng": "[and] a chariot"
+              "cht": "隊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1581",
-              "eng": "of camels",
-              "punct": "–"
+              "cht": "駱駝"
+            },
+            {
+              "id": "hebrew-7393",
+              "cht": "隊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7181",
-              "eng": "and he listened"
-            },
-            {
-              "id": "hebrew-7182",
-              "eng": "earnestly"
-            },
-            {
-              "id": "hebrew-7227",
-              "eng": "with great"
-            },
-            {
-              "id": "hebrew-7182",
-              "eng": "care",
-              "punct": "–"
-            },
-            {
-              "id": ""
+              "cht": "就要側耳細聽",
+              "punct_cht": "。"
             }
           ]
         },
@@ -679,97 +636,100 @@
             "hebrew-7393": 1.7546213822553325
           },
           "verseKey": "2ch.1.14",
-          "cunp": "所羅門聚集戰車馬兵，有戰車一千四百輛，馬兵一萬二千名，安置在屯車的城邑和耶路撒冷，就是王那裏。",
+          "nasb": "Solomon amassed chariots and horsemen. He had 1,400 chariots and 12,000 horsemen, and he stationed them in the chariot cities and with the king at Jerusalem.",
           "words": [
             {
-              "id": "hebrew-622",
-              "eng": "And gathered"
+              "id": "hebrew-8010",
+              "cht": "所羅門"
             },
             {
-              "id": "hebrew-8010",
-              "eng": "Solomon"
+              "id": "hebrew-622",
+              "cht": "聚集"
             },
             {
               "id": "hebrew-7393",
-              "eng": "chariots"
+              "cht": "戰車"
             },
             {
               "id": "hebrew-6571",
-              "eng": "and horsemen",
-              "punct": "."
+              "cht": "馬兵",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "And had"
+              "cht": "有"
+            },
+            {
+              "id": "hebrew-7393",
+              "cht": "戰車"
             },
             {
               "id": "hebrew-505",
-              "eng": "a thousand"
+              "cht": "一千"
             },
             {
               "id": "hebrew-702",
-              "eng": "and four"
+              "cht": "四"
             },
             {
               "id": "hebrew-3967",
-              "eng": "hundred"
+              "cht": "百"
             },
             {
-              "id": "hebrew-7393",
-              "eng": "chariots",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "and two"
-            },
-            {
-              "id": "hebrew-6240",
-              "eng": "[and] ten"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
+              "id": "",
+              "cht": "輛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6571",
-              "eng": "horsemen",
-              "punct": "､"
+              "cht": "馬兵"
+            },
+            {
+              "id": "hebrew-6240",
+              "cht": "一"
+            },
+            {
+              "id": "hebrew-8147",
+              "cht": "萬二"
+            },
+            {
+              "id": "hebrew-505",
+              "cht": "千"
+            },
+            {
+              "id": "",
+              "cht": "名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3240",
-              "eng": "and whom he stationed"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "in cities",
-              "punct": "､"
+              "cht": "安置"
             },
             {
               "id": "hebrew-7393",
-              "eng": "the chariot"
+              "cht": "在屯車"
             },
             {
-              "id": "hebrew-5973",
-              "eng": "and with"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "id": "hebrew-5892",
+              "cht": "的城邑"
             },
             {
               "id": "hebrew-3389",
-              "eng": "in Jerusalem",
-              "punct": "."
+              "cht": "和耶路撒冷",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-5973",
+              "cht": "就是"
             },
             {
-              "id": ""
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -780,67 +740,54 @@
             "hebrew-6168": 4.1389193993584925
           },
           "verseKey": "lev.20.19",
-          "cunp": "不可露姨母或是姑母的下體，這是露了骨肉之親的下體；二人必擔當自己的罪孽。",
+          "nasb": "You shall also not uncover the nakedness of your mother’s sister or of your father’s sister, for such a one has made naked his blood relative; they will bear their guilt.",
           "words": [
             {
-              "id": "hebrew-6172",
-              "eng": "And the nakedness"
-            },
-            {
-              "id": "hebrew-269",
-              "eng": "of sister"
-            },
-            {
-              "id": "hebrew-517",
-              "eng": "of your mother",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-269",
-              "eng": "nor sister",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "of your father"
-            },
-            {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-1540",
-              "eng": "You shall uncover",
-              "punct": "､"
+              "cht": "露"
+            },
+            {
+              "id": "hebrew-269",
+              "cht": "姨母"
+            },
+            {
+              "id": "hebrew-269",
+              "cht": "或是姑母"
+            },
+            {
+              "id": "hebrew-6172",
+              "cht": "的下體",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for that"
+              "cht": "這是"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "露了"
             },
             {
               "id": "hebrew-7607",
-              "eng": "his near of kin"
+              "cht": "骨肉之親"
             },
             {
-              "id": "hebrew-6168",
-              "eng": "would uncover",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "their guilt"
+              "id": "",
+              "cht": "的下體",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5375",
-              "eng": "they shall bear",
-              "punct": "."
+              "cht": "二人必擔當"
             },
             {
-              "id": ""
+              "id": "hebrew-5771",
+              "cht": "自己的罪孽",
+              "punct_cht": "。"
             }
           ]
         }

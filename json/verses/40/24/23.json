@@ -3,19 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-5119": "Then",
-          "greek-1437": "if",
-          "greek-5100": "anyone",
-          "greek-5213": "to you",
-          "greek-2036": "says",
-          "greek-2400": "Behold",
-          "greek-5602": "Here",
-          "greek-3588": "the",
-          "greek-5547": "Christ",
-          "greek-2228": "or",
-          "greek-3361": "not",
-          "greek-4100": "believe [it]",
-          "": null
+          "eng": {
+            "greek-5119": "Then",
+            "greek-1437": "if",
+            "greek-5100": "anyone",
+            "greek-5213": "to you",
+            "greek-2036": "says",
+            "greek-2400": "Behold",
+            "greek-5602": "Here",
+            "greek-3588": "the",
+            "greek-5547": "Christ",
+            "greek-2228": "or",
+            "greek-3361": "not",
+            "greek-4100": "believe [it]",
+            "": null
+          },
+          "cht": {
+            "greek-5119": "那時",
+            "greek-1437": "若",
+            "greek-5100": "有人",
+            "greek-5213": "對你們",
+            "greek-2036": "說",
+            "greek-5602": "基督在那裡",
+            "greek-5547": "基督",
+            "greek-2228": "或",
+            "greek-3361": "你們不要",
+            "greek-4100": "信"
+          }
         }
       },
       "translations": {
@@ -34,78 +48,65 @@
             "greek-4100": 1.0029918768541513
           },
           "verseKey": "mrk.13.21",
-          "cunp": "那時若有人對你們說：『看哪，基督在這裏』，或說：『基督在那裏』，你們不要信！",
+          "nasb": "And then if anyone says to you, ‘Behold, here is the Christ’; or, ‘Behold, He is there’; do not believe him;",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-5119",
-              "eng": "then"
+              "cht": "那時"
             },
             {
               "id": "greek-1437",
-              "eng": "if"
+              "cht": "若"
             },
             {
-              "id": "greek-5100",
-              "eng": "anyone"
+              "id": "greek-1437",
+              "cht": "有人"
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
+              "cht": "對你們"
             },
             {
               "id": "greek-2036",
-              "eng": "says",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-5602",
-              "eng": "here [is]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": "!"
+              "cht": "基督"
             },
             {
-              "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
+              "id": "greek-5602",
+              "cht": "在這裡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2228",
+              "cht": "或"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1563",
-              "eng": "there",
-              "punct": "!"
+              "cht": "基督在那裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "你們不"
             },
             {
               "id": "greek-4100",
-              "eng": "you shall believe [it]",
-              "punct": "."
-            },
-            {
-              "id": "greek-1437"
-            },
-            {
-              "id": "greek-2228"
-            },
-            {
-              "id": ""
+              "cht": "要信",
+              "punct_cht": "！"
             }
           ]
         },
@@ -115,112 +116,94 @@
             "greek-5602": 1.5004682799153544
           },
           "verseKey": "ezk.40.48",
-          "cunp": "於是他帶我到殿前的廊子，量廊子的牆柱。這面厚五肘，那面厚五肘。門兩旁，這邊三肘，那邊三肘。",
+          "nasb": "Then he brought me to the porch of the temple and measured each side pillar of the porch, five cubits on each side; and the width of the gate was three cubits on each side.",
           "words": [
             {
               "id": "hebrew-935",
-              "eng": "And he brought me"
+              "cht": "於是他帶我"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-197",
-              "eng": "the vestibule"
+              "cht": "到"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the temple",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4058",
-              "eng": "and measured"
-            },
-            {
-              "id": "hebrew-352",
-              "eng": "the doorposts of"
+              "cht": "殿"
             },
             {
               "id": "hebrew-197",
-              "eng": "the vestibule",
-              "punct": "､"
+              "cht": "前的廊子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "量"
+            },
+            {
+              "id": "hebrew-197",
+              "cht": "廊子"
+            },
+            {
+              "id": "hebrew-352",
+              "cht": "的牆柱",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "這面"
             },
             {
               "id": "hebrew-2568",
-              "eng": "five"
+              "cht": "厚五"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
-            },
-            {
-              "id": "hebrew-6311",
-              "eng": "on this side",
-              "punct": "､"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2568",
-              "eng": "and five"
+              "cht": "那面厚五"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
-            },
-            {
-              "id": "hebrew-6311",
-              "eng": "on that side",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7341",
-              "eng": "and the width"
+              "cht": "肘",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-8179",
-              "eng": "of the gateway"
+              "cht": "門"
             },
             {
-              "id": "hebrew-7969",
-              "eng": "[was] three"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubits"
+              "id": "",
+              "cht": "兩旁",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6311",
-              "eng": "on this side",
-              "punct": "､"
+              "cht": "這邊"
             },
             {
               "id": "hebrew-7969",
-              "eng": "and three"
+              "cht": "三"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6311",
-              "eng": "on that side",
-              "punct": "."
+              "cht": "那邊"
             },
             {
-              "id": "hebrew-413"
+              "id": "hebrew-7969",
+              "cht": "三"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -230,90 +213,73 @@
             "greek-5602": 1.5004682799153544
           },
           "verseKey": "ezk.40.10",
-          "cunp": "東門洞有衛房：這旁三間，那旁三間，都是一樣的尺寸；這邊的柱子和那邊的柱子，也是一樣的尺寸。",
+          "nasb": "The guardrooms of the gate toward the east numbered three on each side; the three of them had the same measurement. The side pillars also had the same measurement on each side.",
           "words": [
             {
-              "id": "hebrew-8372",
-              "eng": "And gate chambers"
+              "id": "hebrew-1870",
+              "cht": "東"
             },
             {
               "id": "hebrew-8179",
-              "eng": "in the gateway"
+              "cht": "門"
             },
             {
-              "id": "hebrew-1870",
-              "eng": "toward"
-            },
-            {
-              "id": "hebrew-6921",
-              "eng": "eastern"
-            },
-            {
-              "id": "hebrew-7969",
-              "eng": "[were] three"
+              "id": "hebrew-8372",
+              "cht": "洞有衛房",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6311",
-              "eng": "on one side",
-              "punct": "､"
+              "cht": "這旁"
             },
             {
               "id": "hebrew-7969",
-              "eng": "and three"
+              "cht": "三間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6311",
-              "eng": "on the other",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4060",
-              "eng": "size",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "One"
+              "cht": "那旁"
             },
             {
               "id": "hebrew-7969",
-              "eng": "the three [were]"
-            },
-            {
-              "id": "hebrew-4060",
-              "eng": "and size"
+              "cht": "三間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "of one"
+              "cht": "都是一"
+            },
+            {
+              "id": "hebrew-4060",
+              "cht": "樣的尺寸",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-6311",
+              "cht": "這邊"
             },
             {
               "id": "hebrew-352",
-              "eng": "were the gateposts"
+              "cht": "的柱子"
             },
             {
               "id": "hebrew-6311",
-              "eng": "on this side"
+              "cht": "和那邊的"
             },
             {
-              "id": "hebrew-6311",
-              "eng": "that side",
-              "punct": "."
+              "id": "",
+              "cht": "柱子",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-259",
+              "cht": "也是一"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-4060",
+              "cht": "樣的尺寸",
+              "punct_cht": "。"
             }
           ]
         },
@@ -323,69 +289,71 @@
             "greek-5602": 1.5004682799153544
           },
           "verseKey": "isa.22.16",
-          "cunp": "『你在這裏做甚麼呢？有甚麼人竟在這裏鑿墳墓，就是在高處為自己鑿墳墓，在磐石中為自己鑿出安身之所？",
+          "nasb": "‘What right do you have here, And whom do you have here, That you have hewn a tomb for yourself here, You who hew a tomb on the height, You who carve a resting place for yourself in the rock?",
           "words": [
             {
+              "id": "hebrew-6311",
+              "cht": "在這裡"
+            },
+            {
               "id": "hebrew-4100",
-              "eng": "what have"
+              "cht": "做甚麼"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-6311",
-              "eng": "here"
+              "cht": "有"
             },
             {
               "id": "hebrew-4310",
-              "eng": "and whom"
-            },
-            {
-              "id": "hebrew-6311",
-              "eng": "here",
-              "punct": "､"
+              "cht": "甚麼人"
             },
             {
               "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-2672",
-              "eng": "have hewn"
+              "cht": "竟"
             },
             {
               "id": "hebrew-6311",
-              "eng": "here",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6913",
-              "eng": "a sepulcher"
+              "cht": "在這裡"
             },
             {
               "id": "hebrew-2672",
-              "eng": "[As] he who hews himself"
-            },
-            {
-              "id": "hebrew-4791",
-              "eng": "on high",
-              "punct": "､"
+              "cht": "鑿"
             },
             {
               "id": "hebrew-6913",
-              "eng": "a sepulcher"
+              "cht": "墳墓",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2710",
-              "eng": "who carves"
+              "id": "hebrew-4791",
+              "cht": "就是在高處"
+            },
+            {
+              "id": "hebrew-2672",
+              "cht": "鑿"
+            },
+            {
+              "id": "hebrew-6913",
+              "cht": "墳墓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5553",
-              "eng": "in a rock"
+              "cht": "在磐石中"
+            },
+            {
+              "id": "hebrew-2710",
+              "cht": "鑿出"
             },
             {
               "id": "hebrew-4908",
-              "eng": "a tomb"
-            },
-            {
-              "id": ""
+              "cht": "安身之所",
+              "punct_cht": "？"
             }
           ]
         },
@@ -395,83 +363,72 @@
             "greek-5602": 1.5004682799153544
           },
           "verseKey": "ezk.40.12",
-          "cunp": "衛房前展出的境界：這邊一肘，那邊一肘；衛房這邊六肘，那邊六肘。",
+          "nasb": "There was a barrier wall one cubit wide in front of the guardrooms on each side; and the guardrooms were six cubits square on each side.",
           "words": [
             {
-              "id": "hebrew-1366",
-              "eng": "And [There] [was] a space"
+              "id": "hebrew-8372",
+              "cht": "衛房"
             },
             {
               "id": "hebrew-6440",
-              "eng": "in front"
-            },
-            {
-              "id": "hebrew-8372",
-              "eng": "of the gate chambers"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubit [on] [this] [side]"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "and cubit"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "cht": "前"
             },
             {
               "id": "hebrew-1366",
-              "eng": "-"
+              "cht": "展出的境界",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6311",
-              "eng": "on that side",
-              "punct": "–"
+              "cht": "這邊"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "那邊一"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8372",
-              "eng": "and the gate chambers [were]"
+              "cht": "衛房"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "這邊"
             },
             {
               "id": "hebrew-8337",
-              "eng": "six"
+              "cht": "六"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6311",
-              "eng": "on this side",
-              "punct": "､"
+              "cht": "那邊"
             },
             {
               "id": "hebrew-8337",
-              "eng": "and six"
+              "cht": "六"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
-            },
-            {
-              "id": "hebrew-6311",
-              "eng": "on that side",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "肘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -483,85 +440,74 @@
             "greek-4100": 1.0029918768541513
           },
           "verseKey": "mat.24.26",
-          "cunp": "若有人對你們說：『看哪，基督在曠野裏』，你們不要出去！或說：『看哪，基督在內屋中』，你們不要信！",
+          "nasb": "So if they say to you, ‘Behold, He is in the wilderness,’ do not go out, or, ‘Behold, He is in the inner rooms,’ do not believe them.",
           "words": [
             {
               "id": "greek-1437",
-              "eng": "If"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "they say"
+              "cht": "若"
             },
             {
               "id": "greek-5213",
-              "eng": "to you",
-              "punct": ","
+              "cht": "有人對你們"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2048",
-              "eng": "wilderness"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2076",
-              "eng": "He is",
-              "punct": ","
+              "cht": "基督"
             },
             {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1831",
-              "eng": "go forth",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2400",
-              "eng": "[or] ‘Behold",
-              "punct": ","
+              "id": "greek-2048",
+              "cht": "在曠野"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5009",
-              "eng": "inner rooms",
-              "punct": ","
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "你們不要"
+            },
+            {
+              "id": "greek-1831",
+              "cht": "出去"
+            },
+            {
+              "id": "",
+              "cht": "或說",
+              "punct_cht": "！："
+            },
+            {
+              "id": "greek-2400",
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5009",
+              "cht": "基督在內屋"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "你們不要"
             },
             {
               "id": "greek-4100",
-              "eng": "believe [it]",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "信",
+              "punct_cht": "！"
             }
           ]
         },
@@ -572,78 +518,65 @@
             "greek-5602": 1.5004682799153544
           },
           "verseKey": "luk.17.21",
-          "cunp": "人也不得說：『看哪，在這裏！看哪，在那裏！』因為神的國就在你們心裏。」",
+          "nasb": "nor will they say, ‘Look, here it is!’ or, ‘There it is!’ For behold, the kingdom of God is in your midst.”",
           "words": [
             {
               "id": "greek-3761",
-              "eng": "nor"
+              "cht": "人也不得"
             },
             {
               "id": "greek-2046",
-              "eng": "will they say",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2400",
-              "eng": "Behold"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5602",
-              "eng": "here",
-              "punct": ","
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
-            },
-            {
-              "id": "greek-1563",
-              "eng": "There",
-              "punct": "."
+              "cht": "在這裡",
+              "punct_cht": "！"
             },
             {
               "id": "greek-2400",
-              "eng": "Behold"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1063",
-              "eng": "for",
-              "punct": ","
+              "id": "greek-1563",
+              "cht": "在那裡",
+              "punct_cht": "！"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2400",
+              "cht": "因為"
             },
             {
               "id": "greek-2316",
-              "eng": "of God"
+              "cht": "神"
             },
             {
-              "id": "greek-1787",
-              "eng": "in the midst"
-            },
-            {
-              "id": "greek-5216",
-              "eng": "of you"
+              "id": "greek-932",
+              "cht": "的國"
             },
             {
               "id": "greek-2076",
-              "eng": "is",
-              "punct": "."
+              "cht": "就"
             },
             {
-              "id": "greek-2400"
+              "id": "greek-5216",
+              "cht": "在你們"
             },
             {
-              "id": ""
+              "id": "greek-1787",
+              "cht": "心裡"
+            },
+            {
+              "id": "",
+              "cht": "（心裡或作中間）",
+              "punct_cht": "：。"
             }
           ]
         },
@@ -654,62 +587,58 @@
             "greek-5602": 1.5004682799153544
           },
           "verseKey": "luk.17.23",
-          "cunp": "人將要對你們說：『看哪，在那裏！看哪，在這裏！』你們不要出去，也不要跟隨他們！",
+          "nasb": "They will say to you, ‘Look there! Look here!’ Do not go away, and do not run after them.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-5213",
+              "cht": "人將要對你們"
             },
             {
               "id": "greek-2046",
-              "eng": "they will say"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "to you",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2400",
-              "eng": "Behold"
-            },
-            {
-              "id": "greek-1563",
-              "eng": "there",
-              "punct": ","
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
-            },
-            {
-              "id": "greek-2400",
-              "eng": "Behold"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5602",
-              "eng": "here",
-              "punct": "."
+              "cht": "在那裡",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-2400",
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1563",
+              "cht": "在這裡",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3361",
-              "eng": "Not"
+              "cht": "你們不要"
             },
             {
               "id": "greek-565",
-              "eng": "go forth"
+              "cht": "出去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3366",
-              "eng": "nor"
+              "cht": "也不要"
             },
             {
               "id": "greek-1377",
-              "eng": "follow",
-              "punct": "."
+              "cht": "跟隨"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "他們",
+              "punct_cht": "！"
             }
           ]
         },
@@ -721,69 +650,49 @@
             "greek-5602": 1.5004682799153544
           },
           "verseKey": "luk.22.38",
-          "cunp": "他們說：「主啊，請看！這裏有兩把刀。」耶穌說：「夠了。」",
+          "nasb": "They said, “Lord, look, here are two swords.” And He said to them, “It is enough.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-2036",
-              "eng": "they said",
-              "punct": ","
+              "cht": "他們說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2962",
-              "eng": "Lord",
-              "punct": ","
+              "cht": "主啊",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2400",
-              "eng": "behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-3162",
-              "eng": "swords"
+              "cht": "請看",
+              "punct_cht": "！"
             },
             {
               "id": "greek-5602",
-              "eng": "here [are]"
+              "cht": "這裡"
             },
             {
               "id": "greek-1417",
-              "eng": "two",
-              "punct": "."
+              "cht": "有兩把"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "He said"
+              "id": "greek-3162",
+              "cht": "刀",
+              "punct_cht": "。"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2425",
-              "eng": "Enough"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "it is",
-              "punct": "."
+              "cht": "夠了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -795,82 +704,69 @@
             "greek-4100": 1.0029918768541513
           },
           "verseKey": "luk.22.67",
-          "cunp": "說：「你若是基督，就告訴我們。」耶穌說：「我若告訴你們，你們也不信；",
+          "nasb": "“If You are the Christ, tell us.” But He said to them, “If I tell you, you will not believe;",
           "words": [
             {
-              "id": "greek-1487",
-              "eng": "If"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4771",
-              "eng": "You"
+              "cht": "你"
+            },
+            {
+              "id": "greek-1487",
+              "cht": "若"
             },
             {
               "id": "greek-1488",
-              "eng": "are"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "是"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": ","
+              "cht": "基督",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2036",
-              "eng": "tell"
+              "cht": "就告訴"
             },
             {
               "id": "greek-2254",
-              "eng": "us",
-              "punct": "."
-            },
-            {
-              "id": "greek-2036",
-              "eng": "He said"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "cht": "我們",
+              "punct_cht": "。"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "you"
+              "cht": "耶穌"
             },
             {
               "id": "greek-2036",
-              "eng": "I should tell",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-3756",
-              "eng": "no"
+              "id": "greek-1437",
+              "cht": "我若"
             },
             {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "greek-2036",
+              "cht": "告訴"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "你們",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3364",
+              "cht": "你們也不"
             },
             {
               "id": "greek-4100",
-              "eng": "would you believe",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3004"
-            },
-            {
-              "id": "greek-3364"
+              "cht": "信",
+              "punct_cht": "；"
             }
           ]
         }

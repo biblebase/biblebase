@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8085": "then hear",
-          "hebrew-8064": "in heaven",
-          "hebrew-853": "and",
-          "hebrew-8605": "their prayer",
-          "hebrew-8467": "their supplication",
-          "hebrew-6213": "and maintain",
-          "hebrew-4941": "their cause"
+          "eng": {
+            "hebrew-8085": "then hear",
+            "hebrew-8064": "in heaven",
+            "hebrew-853": "and",
+            "hebrew-8605": "their prayer",
+            "hebrew-8467": "their supplication",
+            "hebrew-6213": "and maintain",
+            "hebrew-4941": "their cause"
+          },
+          "cht": {
+            "hebrew-8085": "垂聽",
+            "hebrew-8064": "求你在天上",
+            "hebrew-853": "他們的禱告",
+            "hebrew-8605": "他們的禱告",
+            "hebrew-8467": "祈求",
+            "hebrew-6213": "使他們得",
+            "hebrew-4941": "勝"
+          }
         }
       },
       "translations": {
@@ -28,124 +39,106 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "neh.9.6",
-          "cunp": "「你，惟獨你是耶和華！你造了天和天上的天，並天上的萬象，地和地上的萬物，海和海中所有的；這一切都是你所保存的。天軍也都敬拜你。",
+          "nasb": "You alone are the Lord. You have made the heavens, The heaven of heavens with all their host, The earth and all that is on it, The seas and all that is in them. You give life to all of them And the heavenly host bows down before You.",
           "words": [
             {
               "id": "hebrew-859",
-              "eng": "You"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "are",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-905",
-              "eng": "alone",
-              "punct": "–"
+              "cht": "惟獨你"
             },
             {
-              "id": "hebrew-853",
-              "eng": "You"
+              "id": "hebrew-1931",
+              "cht": "是"
             },
             {
-              "id": "hebrew-6213",
-              "eng": "have made"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "heaven",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "the heaven"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "of heavens",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "with their host",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "everything"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on it",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "the seas",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that is"
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-859",
-              "eng": "and You"
+              "cht": "你"
             },
             {
-              "id": "hebrew-2421",
-              "eng": "preserve"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "them all",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "and the host"
+              "id": "hebrew-6213",
+              "cht": "造了"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of heaven"
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "和天"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "上的天",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "並天上的萬"
+            },
+            {
+              "id": "hebrew-6635",
+              "cht": "象",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "和地上"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "萬物",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3220",
+              "cht": "海"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "所有的",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "這一切"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "都是你"
+            },
+            {
+              "id": "hebrew-2421",
+              "cht": "所保存的",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-8064",
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-6635",
+              "cht": "軍"
             },
             {
               "id": "hebrew-7812",
-              "eng": "worships",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-859"
+              "cht": "也都敬拜"
             }
           ]
         },
@@ -156,96 +149,78 @@
             "hebrew-8064": 0.7424012920136152
           },
           "verseKey": "1ki.8.30",
-          "cunp": "你僕人和你民以色列向此處祈禱的時候，求你在天上你的居所垂聽，垂聽而赦免。",
+          "nasb": "Listen to the supplication of Your servant and of Your people Israel, when they pray toward this place; hear in heaven Your dwelling place; hear and forgive.",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "And may You listen"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "unto"
-            },
-            {
-              "id": "hebrew-8467",
-              "eng": "the supplication"
-            },
-            {
               "id": "hebrew-5650",
-              "eng": "of Your servant",
-              "punct": "､"
+              "cht": "你僕人"
             },
             {
               "id": "hebrew-5971",
-              "eng": "and of Your people"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "､"
+              "cht": "和你民"
             },
             {
               "id": "hebrew-834",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-6419",
-              "eng": "they pray"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-413",
-              "eng": "toward"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "place",
-              "punct": "–"
+              "cht": "向"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "and You"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "hear"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "in"
+              "cht": "此"
             },
             {
               "id": "hebrew-4725",
-              "eng": "place",
-              "punct": "–"
+              "cht": "處"
             },
             {
-              "id": "hebrew-3427",
-              "eng": "Your dwelling"
+              "id": "hebrew-6419",
+              "cht": "祈禱"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "求你"
             },
             {
               "id": "hebrew-413",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "hebrew-8064",
-              "eng": "heaven"
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "上"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "你的居"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "垂聽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and when You hear",
-              "punct": "､"
+              "cht": "垂聽"
             },
             {
               "id": "hebrew-5545",
-              "eng": "and forgive",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "而赦免",
+              "punct_cht": "。"
             }
           ]
         },
@@ -256,100 +231,78 @@
             "hebrew-8064": 0.7424012920136152
           },
           "verseKey": "2ch.6.21",
-          "cunp": "你僕人和你民以色列向此處祈禱的時候，求你從天上你的居所垂聽，垂聽而赦免。",
+          "nasb": "Listen to the supplications of Your servant and of Your people Israel when they pray toward this place; hear from Your dwelling place, from heaven; hear and forgive.",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "And may You hear"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "unto"
-            },
-            {
-              "id": "hebrew-8469",
-              "eng": "the supplications"
-            },
-            {
               "id": "hebrew-5650",
-              "eng": "of Your servant",
-              "punct": "､"
+              "cht": "你僕人"
+            },
+            {
+              "id": "hebrew-5973",
+              "cht": "和"
             },
             {
               "id": "hebrew-5971",
-              "eng": "and of Your people"
+              "cht": "你民"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-6419",
-              "eng": "they pray"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-413",
-              "eng": "toward"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "place",
-              "punct": "–"
+              "cht": "向"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "and You"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "hear"
+              "cht": "此"
             },
             {
               "id": "hebrew-4725",
-              "eng": "place",
-              "punct": "､"
+              "cht": "處"
             },
             {
-              "id": "hebrew-3427",
-              "eng": "Your dwelling"
+              "id": "hebrew-6419",
+              "cht": "祈禱"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "求你"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from",
-              "punct": "､"
+              "cht": "從"
             },
             {
               "id": "hebrew-8064",
-              "eng": "heaven",
-              "punct": "–"
+              "cht": "天上"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "你的居"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "所"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and when You hear",
-              "punct": "､"
+              "cht": "垂聽",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "垂聽"
             },
             {
               "id": "hebrew-5545",
-              "eng": "and forgive",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5973"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "而赦免",
+              "punct_cht": "。"
             }
           ]
         }

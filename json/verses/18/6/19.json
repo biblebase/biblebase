@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5027": "Look",
-          "hebrew-734": "the caravans",
-          "hebrew-8485": "of Tema",
-          "hebrew-1979": "the travelers",
-          "hebrew-7614": "of Sheba",
-          "hebrew-6960": "hope",
-          "hebrew-3926": null
+          "eng": {
+            "hebrew-5027": "Look",
+            "hebrew-734": "the caravans",
+            "hebrew-8485": "of Tema",
+            "hebrew-1979": "the travelers",
+            "hebrew-7614": "of Sheba",
+            "hebrew-6960": "hope",
+            "hebrew-3926": null
+          },
+          "cht": {
+            "hebrew-5027": "瞻望",
+            "hebrew-734": "結伴的客旅",
+            "hebrew-8485": "提瑪",
+            "hebrew-1979": "同夥的人",
+            "hebrew-7614": "示巴",
+            "hebrew-6960": "等候",
+            "hebrew-3926": "等候"
+          }
         }
       },
       "translations": {
@@ -24,46 +35,48 @@
             "hebrew-1979": 7.502414237754052
           },
           "verseKey": "psa.68.24",
-          "cunp": "神啊，你是我的神，我的王； 人已經看見你行走，進入聖所。",
+          "nasb": "They have seen Your procession, O God, The procession of my God, my King, into the sanctuary.",
           "words": [
             {
-              "id": "hebrew-7200",
-              "eng": "they have seen"
-            },
-            {
-              "id": "hebrew-1979",
-              "eng": "Your procession",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "–"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1979",
-              "eng": "the procession"
+              "cht": "你是"
+            },
+            {
+              "id": "",
+              "cht": "我的"
             },
             {
               "id": "hebrew-410",
-              "eng": "of my God",
-              "punct": "､"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4428",
-              "eng": "my King",
-              "punct": "､"
+              "cht": "我的王",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "人已經看見"
+            },
+            {
+              "id": "hebrew-1979",
+              "cht": "你行走",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6944",
-              "eng": "into the sanctuary",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "進入聖所",
+              "punct_cht": "。"
             }
           ]
         },
@@ -73,75 +86,78 @@
             "hebrew-1979": 7.502414237754052
           },
           "verseKey": "hab.3.6",
-          "cunp": "他站立，量了大地， 觀看，趕散萬民。 永久的山崩裂； 長存的嶺塌陷； 他的作為與古時一樣。",
+          "nasb": "He stood and surveyed the earth; He looked and startled the nations. Yes, the perpetual mountains were shattered, The ancient hills collapsed. His ways are everlasting.",
           "words": [
             {
               "id": "hebrew-5975",
-              "eng": "He stood",
-              "punct": "､"
+              "cht": "他站立",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4058",
-              "eng": "and measured"
+              "cht": "量了"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
+              "cht": "大地"
+            },
+            {
+              "id": "",
+              "cht": "（或譯使地震動）",
+              "punct_cht": "：，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "He looked",
-              "punct": "､"
+              "cht": "觀看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5425",
-              "eng": "and startled"
+              "cht": "趕散"
             },
             {
               "id": "hebrew-1471",
-              "eng": "the nations",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6327",
-              "eng": "and were scattered",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2042",
-              "eng": "the mountains"
+              "cht": "萬民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5703",
-              "eng": "everlasting"
+              "cht": "永久"
             },
             {
-              "id": "hebrew-7817",
-              "eng": "bowed",
-              "punct": "."
+              "id": "hebrew-2042",
+              "cht": "的山"
+            },
+            {
+              "id": "hebrew-6327",
+              "cht": "崩裂",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "長存"
             },
             {
               "id": "hebrew-1389",
-              "eng": "The hills"
+              "cht": "的嶺"
             },
             {
-              "id": "hebrew-5769",
-              "eng": "perpetual"
+              "id": "hebrew-7817",
+              "cht": "塌陷",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1979",
-              "eng": "ways [are]"
+              "cht": "作為"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "與古時"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -151,40 +167,33 @@
             "hebrew-1979": 7.502414237754052
           },
           "verseKey": "pro.31.27",
-          "cunp": "她觀察家務， 並不吃閒飯。",
+          "nasb": "She looks well to the ways of her household, And does not eat the bread of idleness.",
           "words": [
             {
               "id": "hebrew-6822",
-              "eng": "She watches"
+              "cht": "她觀察"
             },
             {
               "id": "hebrew-1979",
-              "eng": "over the ways"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of her household",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3899",
-              "eng": "and the bread"
-            },
-            {
-              "id": "hebrew-6104",
-              "eng": "of idleness"
+              "cht": "家務",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "並不"
             },
             {
               "id": "hebrew-398",
-              "eng": "does eat",
-              "punct": "."
+              "cht": "吃"
             },
             {
-              "id": "hebrew-1979"
+              "id": "hebrew-6104",
+              "cht": "閒"
+            },
+            {
+              "id": "hebrew-3899",
+              "cht": "飯",
+              "punct_cht": "。"
             }
           ]
         },
@@ -194,54 +203,41 @@
             "hebrew-8485": 6.7856512265994295
           },
           "verseKey": "jer.25.23",
-          "cunp": "底但、提瑪、布斯，和一切剃周圍頭髮的；",
+          "nasb": "and Dedan, Tema, Buz and all who cut the corners of their hair;",
           "words": [
             {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
               "id": "hebrew-1719",
-              "eng": "Dedan",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "底但、"
             },
             {
               "id": "hebrew-8485",
-              "eng": "Tema",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "提瑪、"
             },
             {
               "id": "hebrew-938",
-              "eng": "Buz",
-              "punct": "､"
+              "cht": "布斯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all [who are] in"
+              "cht": "一切"
             },
             {
               "id": "hebrew-7112",
-              "eng": "farthest"
+              "cht": "剃"
             },
             {
               "id": "hebrew-6285",
-              "eng": "the corners",
-              "punct": "､"
+              "cht": "周圍"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "頭髮的",
+              "punct_cht": "；"
             }
           ]
         },
@@ -251,32 +247,27 @@
             "hebrew-8485": 6.7856512265994295
           },
           "verseKey": "1ch.1.30",
-          "cunp": "米施瑪、度瑪、瑪撒、哈達、提瑪、",
+          "nasb": "Mishma, Dumah, Massa, Hadad, Tema,",
           "words": [
             {
               "id": "hebrew-4927",
-              "eng": "Mishma",
-              "punct": "､"
+              "cht": "米施瑪、"
             },
             {
               "id": "hebrew-1746",
-              "eng": "and Dumah",
-              "punct": "､"
+              "cht": "度瑪、"
             },
             {
               "id": "hebrew-4854",
-              "eng": "Massa",
-              "punct": "､"
+              "cht": "瑪撒、"
             },
             {
               "id": "hebrew-2301",
-              "eng": "Hadad",
-              "punct": "､"
+              "cht": "哈達、"
             },
             {
               "id": "hebrew-8485",
-              "eng": "and Tema",
-              "punct": "､"
+              "cht": "提瑪、"
             }
           ]
         },
@@ -286,31 +277,28 @@
             "hebrew-8485": 6.7856512265994295
           },
           "verseKey": "gen.25.15",
-          "cunp": "哈大、提瑪、伊突、拿非施、基底瑪。",
+          "nasb": "Hadad and Tema, Jetur, Naphish and Kedemah.",
           "words": [
             {
               "id": "hebrew-2301",
-              "eng": "Hadad"
+              "cht": "哈大、"
             },
             {
               "id": "hebrew-8485",
-              "eng": "and Tema",
-              "punct": "､"
+              "cht": "提瑪、"
             },
             {
               "id": "hebrew-3195",
-              "eng": "Jetur",
-              "punct": "､"
+              "cht": "伊突、"
             },
             {
               "id": "hebrew-5305",
-              "eng": "Naphish",
-              "punct": "､"
+              "cht": "拿非施、"
             },
             {
               "id": "hebrew-6929",
-              "eng": "and Kedemah",
-              "punct": "."
+              "cht": "基底瑪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -320,52 +308,54 @@
             "hebrew-8485": 6.7856512265994295
           },
           "verseKey": "isa.21.14",
-          "cunp": "提瑪地的居民拿水來，送給口渴的， 拿餅來迎接逃避的。",
+          "nasb": "Bring water for the thirsty, O inhabitants of the land of Tema, Meet the fugitive with bread.",
           "words": [
             {
-              "id": "hebrew-7125",
-              "eng": "To"
-            },
-            {
-              "id": "hebrew-6771",
-              "eng": "him who is thirsty",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-857",
-              "eng": "bring"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "water"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "inhabitants"
+              "id": "hebrew-8485",
+              "cht": "提瑪"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land"
+              "cht": "地"
             },
             {
-              "id": "hebrew-8485",
-              "eng": "of Tema"
+              "id": "hebrew-3427",
+              "cht": "的居民"
+            },
+            {
+              "id": "hebrew-857",
+              "cht": "拿"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7125",
+              "cht": "送給"
+            },
+            {
+              "id": "hebrew-6771",
+              "cht": "口渴的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3899",
-              "eng": "with their bread"
+              "cht": "拿餅"
             },
             {
               "id": "hebrew-6923",
-              "eng": "they met"
+              "cht": "來迎接"
             },
             {
               "id": "hebrew-5074",
-              "eng": "him who fled",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "逃避的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -375,34 +365,34 @@
             "hebrew-6960": 2.287933638133053
           },
           "verseKey": "psa.130.5",
-          "cunp": "我等候耶和華，我的心等候； 我也仰望他的話。",
+          "nasb": "I wait for the Lord, my soul does wait, And in His word do I hope.",
           "words": [
             {
               "id": "hebrew-6960",
-              "eng": "I wait for"
+              "cht": "我等候"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6960",
-              "eng": "waits",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "my soul"
+              "cht": "我的心"
             },
             {
-              "id": "hebrew-1697",
-              "eng": "and in His word"
+              "id": "hebrew-6960",
+              "cht": "等候",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3176",
-              "eng": "I do hope",
-              "punct": "."
+              "cht": "我也仰望"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "他的話",
+              "punct_cht": "。"
             }
           ]
         },
@@ -412,51 +402,43 @@
             "hebrew-6960": 2.287933638133053
           },
           "verseKey": "psa.40.1",
-          "cunp": "我曾耐性等候耶和華； 他垂聽我的呼求。",
+          "nasb": "I waited patiently for the Lord; And He inclined to me and heard my cry.",
           "words": [
             {
-              "id": "hebrew-5329",
-              "eng": "To the Chief Musician",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "."
+              "cht": "大衛的"
             },
             {
               "id": "hebrew-4210",
-              "eng": "A Psalm"
+              "cht": "詩",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5329",
+              "cht": "交與伶長）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6960",
-              "eng": "patiently"
+              "cht": "我曾耐性"
             },
             {
               "id": "hebrew-6960",
-              "eng": "I waited for"
+              "cht": "等候"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5186",
-              "eng": "and He inclined"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to me"
+              "cht": "耶和華",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and heard"
+              "cht": "他垂聽"
             },
             {
               "id": "hebrew-7775",
-              "eng": "my cry",
-              "punct": "."
+              "cht": "我的呼求",
+              "punct_cht": "。"
             }
           ]
         },
@@ -466,73 +448,74 @@
             "hebrew-6960": 2.287933638133053
           },
           "verseKey": "isa.25.9",
-          "cunp": "到那日，人必說：「看哪，這是我們的神；我們素來等候他，他必拯救我們。這是耶和華，我們素來等候他，我們必因他的救恩歡喜快樂。」",
+          "nasb": "And it will be said in that day, “Behold, this is our God for whom we have waited that He might save us. This is the Lord for whom we have waited; Let us rejoice and be glad in His salvation.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And it will be said"
+              "id": "hebrew-1931",
+              "cht": "到那"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in day",
-              "punct": "､"
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-559",
+              "cht": "人必說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "這是"
+            },
+            {
+              "id": "",
+              "cht": "我們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "our God",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this [is]"
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6960",
-              "eng": "we have waited"
+              "cht": "我們素來等候"
             },
             {
               "id": "hebrew-3467",
-              "eng": "and He will save us"
+              "cht": "他必拯救我們",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [is]"
+              "cht": "這是"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6960",
-              "eng": "we have waited"
-            },
-            {
-              "id": "hebrew-1523",
-              "eng": "we will be glad"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "and rejoice"
+              "cht": "我們素來等候"
             },
             {
               "id": "hebrew-3444",
-              "eng": "in His salvation",
-              "punct": "."
+              "cht": "我們必因他的救恩"
             },
             {
-              "id": ""
+              "id": "hebrew-1523",
+              "cht": "歡喜"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-8055",
+              "cht": "快樂",
+              "punct_cht": "。"
             }
           ]
         }

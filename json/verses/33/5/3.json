@@ -3,18 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3651": "Therefore",
-          "hebrew-5414": "He shall give them up",
-          "hebrew-5704": "Until",
-          "hebrew-6256": "the time",
-          "hebrew-3205": "has given birth",
-          "hebrew-3499": "and the remnant",
-          "hebrew-251": "of His brothers",
-          "hebrew-7725": "shall return",
-          "hebrew-5921": "to",
-          "hebrew-1121": "the sons",
-          "hebrew-3478": "of Israel",
-          "": null
+          "eng": {
+            "hebrew-3651": "Therefore",
+            "hebrew-5414": "He shall give them up",
+            "hebrew-5704": "Until",
+            "hebrew-6256": "the time",
+            "hebrew-3205": "has given birth",
+            "hebrew-3499": "and the remnant",
+            "hebrew-251": "of His brothers",
+            "hebrew-7725": "shall return",
+            "hebrew-5921": "to",
+            "hebrew-1121": "the sons",
+            "hebrew-3478": "of Israel",
+            "": null
+          },
+          "cht": {
+            "hebrew-5414": "耶和華必將以色列人交付",
+            "hebrew-5704": "直等",
+            "hebrew-6256": "那時",
+            "hebrew-3205": "生下子來",
+            "hebrew-3499": "其餘",
+            "hebrew-251": "的弟兄",
+            "hebrew-7725": "必歸",
+            "hebrew-5921": "到",
+            "hebrew-1121": "人",
+            "hebrew-3478": "以色列"
+          }
         }
       },
       "translations": {
@@ -35,47 +49,47 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "ecc.3.2",
-          "cunp": "生有時，死有時； 栽種有時，拔出所栽種的也有時；",
+          "nasb": "A time to give birth and a time to die; A time to plant and a time to uproot what is planted.",
           "words": [
             {
-              "id": "hebrew-6256",
-              "eng": "a time"
-            },
-            {
               "id": "hebrew-3205",
-              "eng": "to be born",
-              "punct": "､"
+              "cht": "生"
             },
             {
               "id": "hebrew-6256",
-              "eng": "and a time"
+              "cht": "有時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "to die",
-              "punct": "–"
+              "cht": "死"
             },
             {
               "id": "hebrew-6256",
-              "eng": "a time"
+              "cht": "有時",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5193",
-              "eng": "to plant",
-              "punct": "､"
+              "cht": "栽種"
             },
             {
               "id": "hebrew-6256",
-              "eng": "and a time"
+              "cht": "有時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6131",
-              "eng": "to pluck"
+              "cht": "拔出"
             },
             {
               "id": "hebrew-5193",
-              "eng": "[what is] planted",
-              "punct": "–"
+              "cht": "所栽種的"
+            },
+            {
+              "id": "hebrew-6256",
+              "cht": "也有時",
+              "punct_cht": "；"
             }
           ]
         },
@@ -85,58 +99,61 @@
             "hebrew-3499": 1.5398479523608337
           },
           "verseKey": "jol.1.4",
-          "cunp": "剪蟲剩下的，蝗蟲來吃； 蝗蟲剩下的，蝻子來吃； 蝻子剩下的，螞蚱來吃。",
+          "nasb": "What the gnawing locust has left, the swarming locust has eaten; And what the swarming locust has left, the creeping locust has eaten; And what the creeping locust has left, the stripping locust has eaten.",
           "words": [
             {
-              "id": "hebrew-3499",
-              "eng": "What left"
-            },
-            {
               "id": "hebrew-1501",
-              "eng": "the chewing locust"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "has eaten",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-697",
-              "eng": "the swarming locust"
+              "cht": "剪蟲"
             },
             {
               "id": "hebrew-3499",
-              "eng": "and what left"
+              "cht": "剩下的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-697",
-              "eng": "the swarming locust"
+              "cht": "蝗蟲"
             },
             {
               "id": "hebrew-398",
-              "eng": "has eaten",
-              "punct": "–"
+              "cht": "來吃",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-3218",
-              "eng": "the crawling locust"
+              "id": "hebrew-697",
+              "cht": "蝗蟲"
             },
             {
               "id": "hebrew-3499",
-              "eng": "and what left"
+              "cht": "剩下的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3218",
-              "eng": "the crawling locust"
+              "cht": "蝻子"
             },
             {
               "id": "hebrew-398",
-              "eng": "has eaten"
+              "cht": "來吃",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3218",
+              "cht": "蝻子"
+            },
+            {
+              "id": "hebrew-3499",
+              "cht": "剩下的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2625",
-              "eng": "the consuming locust",
-              "punct": "."
+              "cht": "螞蚱"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "來吃",
+              "punct_cht": "。"
             }
           ]
         },
@@ -147,144 +164,123 @@
             "hebrew-1121": 0.3213801148138742
           },
           "verseKey": "dan.12.1",
-          "cunp": "「那時，保佑你本國之民的天使長米迦勒必站起來，並且有大艱難，從有國以來直到此時，沒有這樣的。你本國的民中，凡名錄在冊上的，必得拯救。",
+          "nasb": "“Now at that time Michael, the great prince who stands guard over the sons of your people, will arise. And there will be a time of distress such as never occurred since there was a nation until that time; and at that time your people, everyone who is found written in the book, will be rescued.",
           "words": [
             {
-              "id": "hebrew-6256",
-              "eng": "And at time"
-            },
-            {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "那"
             },
             {
-              "id": "hebrew-5975",
-              "eng": "shall stand up",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4317",
-              "eng": "Michael"
-            },
-            {
-              "id": "hebrew-8269",
-              "eng": "the prince"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "who stands [watch]"
+              "id": "hebrew-6256",
+              "cht": "時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over"
+              "cht": "保佑"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "你本國"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "之民"
             },
             {
-              "id": "hebrew-5971",
-              "eng": "of your people",
-              "punct": "､"
+              "id": "",
+              "cht": "的天使長（"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "原文是大"
+            },
+            {
+              "id": "hebrew-8269",
+              "cht": "君）"
+            },
+            {
+              "id": "hebrew-4317",
+              "cht": "米迦勒"
+            },
+            {
+              "id": "hebrew-5975",
+              "cht": "必站起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and there shall be"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "a time"
+              "cht": "並且有"
             },
             {
               "id": "hebrew-6869",
-              "eng": "of trouble",
-              "punct": "､"
+              "cht": "大艱難",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-834",
-              "eng": "Such as"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "never"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "was"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "since there was"
+              "id": "hebrew-4480",
+              "cht": "從有"
             },
             {
               "id": "hebrew-1471",
-              "eng": "a nation"
+              "cht": "國"
             },
             {
               "id": "hebrew-5704",
-              "eng": "[Even] to"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "time",
-              "punct": "–"
+              "cht": "以來直到"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "此"
             },
             {
               "id": "hebrew-6256",
-              "eng": "and at time"
+              "cht": "時",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-3808",
+              "cht": "沒"
             },
             {
-              "id": "hebrew-4422",
-              "eng": "shall be delivered",
-              "punct": "､"
+              "id": "hebrew-1961",
+              "cht": "有"
+            },
+            {
+              "id": "",
+              "cht": "這樣的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5971",
-              "eng": "your people"
+              "cht": "你本國的民"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every one"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "who is found"
+              "cht": "凡"
             },
             {
               "id": "hebrew-3789",
-              "eng": "written"
+              "cht": "名錄"
             },
             {
               "id": "hebrew-5612",
-              "eng": "in the book",
-              "punct": "."
+              "cht": "在冊"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "上的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4422",
+              "cht": "必得拯救",
+              "punct_cht": "。"
             }
           ]
         }

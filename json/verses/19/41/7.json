@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3162": "Together",
-          "hebrew-5921": "Against me",
-          "hebrew-3907": "whisper",
-          "hebrew-3605": "all",
-          "hebrew-8130": "who hate me",
-          "hebrew-2803": "they devise",
-          "hebrew-7451": "hurt"
+          "eng": {
+            "hebrew-3162": "Together",
+            "hebrew-5921": "Against me",
+            "hebrew-3907": "whisper",
+            "hebrew-3605": "all",
+            "hebrew-8130": "who hate me",
+            "hebrew-2803": "they devise",
+            "hebrew-7451": "hurt"
+          },
+          "cht": {
+            "hebrew-3162": "都",
+            "hebrew-5921": "我",
+            "hebrew-3907": "交頭接耳地議論",
+            "hebrew-3605": "一切",
+            "hebrew-8130": "恨我的",
+            "hebrew-2803": "他們設計",
+            "hebrew-7451": "要害"
+          }
         }
       },
       "translations": {
@@ -26,87 +37,73 @@
             "hebrew-3907": 8.539323589735611
           },
           "verseKey": "2sa.12.19",
-          "cunp": "大衛見臣僕彼此低聲說話，就知道孩子死了，問臣僕說：「孩子死了嗎？」他們說：「死了。」",
+          "nasb": "But when David saw that his servants were whispering together, David perceived that the child was dead; so David said to his servants, “Is the child dead?” And they said, “He is dead.”",
           "words": [
             {
-              "id": "hebrew-7200",
-              "eng": "And when saw"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-7200",
+              "cht": "見"
             },
             {
               "id": "hebrew-5650",
-              "eng": "his servants"
+              "cht": "臣僕"
             },
             {
               "id": "hebrew-3907",
-              "eng": "were whispering",
-              "punct": "､"
+              "cht": "彼此低聲說話",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "and perceived"
-            },
-            {
-              "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "was dead",
-              "punct": "–"
+              "cht": "就知道"
             },
             {
               "id": "hebrew-3206",
-              "eng": "the child"
+              "cht": "孩子"
             },
             {
-              "id": "hebrew-559",
-              "eng": "therefore said"
-            },
-            {
-              "id": "hebrew-1732",
-              "eng": "David"
+              "id": "hebrew-4191",
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "問"
             },
             {
               "id": "hebrew-5650",
-              "eng": "his servants",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "is dead"
-            },
-            {
-              "id": "hebrew-3206",
-              "eng": "the child"
+              "cht": "臣僕"
             },
             {
               "id": "hebrew-559",
-              "eng": "and they said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-3206",
+              "cht": "孩子"
             },
             {
               "id": "hebrew-4191",
-              "eng": "He is dead",
-              "punct": "."
+              "cht": "死了"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "他們說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "死了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -116,44 +113,37 @@
             "hebrew-3907": 8.539323589735611
           },
           "verseKey": "psa.58.5",
-          "cunp": "不聽行法術的聲音， 雖用極靈的咒語也是不聽。",
+          "nasb": "So that it does not hear the voice of charmers, Or a skillful caster of spells.",
           "words": [
             {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-8085",
-              "eng": "will heed"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "the voice"
+              "cht": "聽"
             },
             {
               "id": "hebrew-3907",
-              "eng": "of charmers",
-              "punct": "､"
+              "cht": "行法術"
             },
             {
-              "id": "hebrew-2266",
-              "eng": "caster"
-            },
-            {
-              "id": "hebrew-2267",
-              "eng": "Charming"
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2449",
-              "eng": "ever so skillfully",
-              "punct": "."
+              "cht": "雖用極靈的"
             },
             {
-              "id": ""
+              "id": "hebrew-2266",
+              "cht": "咒語"
+            },
+            {
+              "id": "",
+              "cht": "也是不聽",
+              "punct_cht": "。"
             }
           ]
         },
@@ -164,57 +154,56 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "pro.8.13",
-          "cunp": "敬畏耶和華在乎恨惡邪惡； 那驕傲、狂妄，並惡道， 以及乖謬的口，都為我所恨惡。",
+          "nasb": "The fear of the Lord is to hate evil; Pride and arrogance and the evil way And the perverted mouth, I hate.",
           "words": [
             {
               "id": "hebrew-3374",
-              "eng": "The fear"
+              "cht": "敬畏"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-8130",
-              "eng": "[is] to hate"
+              "cht": "在乎恨惡"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "–"
+              "cht": "邪惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1344",
-              "eng": "Pride",
-              "punct": "､"
+              "cht": "那驕傲、"
             },
             {
               "id": "hebrew-1347",
-              "eng": "and arrogance",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "and the way",
-              "punct": "､"
+              "cht": "狂妄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
+              "cht": "並惡"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "and the mouth",
-              "punct": "､"
+              "id": "hebrew-1870",
+              "cht": "道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8419",
-              "eng": "perverse"
+              "cht": "以及乖謬的"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8130",
-              "eng": "I hate",
-              "punct": "."
+              "cht": "都為我所恨惡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -227,87 +216,83 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "zec.8.17",
-          "cunp": "誰都不可心裏謀害鄰舍，也不可喜愛起假誓，因為這些事都為我所恨惡。這是耶和華說的。」",
+          "nasb": "Also let none of you devise evil in your heart against another, and do not love perjury; for all these are what I hate,’ declares the Lord.”",
           "words": [
             {
               "id": "hebrew-376",
-              "eng": "And none of you"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "evil"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "against your neighbor",
-              "punct": "–"
+              "cht": "誰"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2803",
-              "eng": "let think"
+              "cht": "都不可"
             },
             {
               "id": "hebrew-3824",
-              "eng": "in your heart"
-            },
-            {
-              "id": "hebrew-7621",
-              "eng": "and a oath",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8267",
-              "eng": "FALSE"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-157",
-              "eng": "do love"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "心"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "裡謀"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-7451",
+              "cht": "害"
+            },
+            {
+              "id": "hebrew-7453",
+              "cht": "鄰舍",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "也不可"
+            },
+            {
+              "id": "hebrew-157",
+              "cht": "喜愛"
+            },
+            {
+              "id": "hebrew-8267",
+              "cht": "起假"
+            },
+            {
+              "id": "hebrew-7621",
+              "cht": "誓",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-428",
-              "eng": "these [are things]"
+              "cht": "這些事"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "為"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
+              "cht": "我所"
             },
             {
               "id": "hebrew-8130",
-              "eng": "I hate",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "恨惡",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -318,106 +303,100 @@
             "hebrew-2803": 1.674865456431719
           },
           "verseKey": "exo.35.35",
-          "cunp": "耶和華使他們的心滿有智慧，能做各樣的工，無論是雕刻的工，巧匠的工，用藍色、紫色、朱紅色線，和細麻、繡花的工，並機匠的工，他們都能做，也能想出奇巧的工。",
+          "nasb": "He has filled them with skill to perform every work of an engraver and of a designer and of an embroiderer, in blue and in purple and in scarlet material, and in fine linen, and of a weaver, as performers of every work and makers of designs.",
           "words": [
             {
-              "id": "hebrew-4390",
-              "eng": "He has filled"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "with wisdom"
+              "cht": "耶和華使他們"
             },
             {
               "id": "hebrew-3820",
-              "eng": "of heart",
-              "punct": "､"
+              "cht": "的心"
+            },
+            {
+              "id": "hebrew-4390",
+              "cht": "滿有"
+            },
+            {
+              "id": "hebrew-2451",
+              "cht": "智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "to do work"
+              "cht": "能做"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of all manner"
+              "cht": "各樣"
             },
             {
               "id": "hebrew-4399",
-              "eng": "of",
-              "punct": "､"
+              "cht": "的工",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2796",
-              "eng": "the engraver",
-              "punct": "､"
+              "cht": "無論是雕刻的工",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2803",
-              "eng": "and the designer",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7551",
-              "eng": "and the tapestry maker",
-              "punct": "､"
+              "cht": "巧匠的工",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8504",
-              "eng": "in blue",
-              "punct": "､"
+              "cht": "用藍色、"
             },
             {
               "id": "hebrew-713",
-              "eng": "and purple",
-              "punct": "､"
+              "cht": "紫色、"
             },
             {
               "id": "hebrew-8438",
-              "eng": "in yarn"
+              "cht": "朱紅色"
             },
             {
-              "id": "hebrew-8144",
-              "eng": "scarlet",
-              "punct": "､"
+              "id": "",
+              "cht": "線",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8336",
-              "eng": "and fine linen",
-              "punct": "､"
+              "cht": "和細麻、"
+            },
+            {
+              "id": "hebrew-7551",
+              "cht": "繡花的工",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-707",
-              "eng": "and of the weaver",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "those who do"
+              "cht": "並機匠的工",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "他們都"
             },
             {
-              "id": "hebrew-4399",
-              "eng": "work",
-              "punct": "､"
+              "id": "hebrew-6213",
+              "cht": "能做",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2803",
-              "eng": "and those who design"
+              "cht": "也能想出"
             },
             {
               "id": "hebrew-4284",
-              "eng": "artistic works",
-              "punct": "."
+              "cht": "奇巧的"
             },
             {
-              "id": ""
+              "id": "hebrew-4399",
+              "cht": "工",
+              "punct_cht": "。"
             }
           ]
         },
@@ -429,74 +408,67 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "neh.6.2",
-          "cunp": "參巴拉和基善就打發人來見我，說：「請你來，我們在阿挪平原的一個村莊相會。」他們卻想害我。",
+          "nasb": "then Sanballat and Geshem sent a message to me, saying, “Come, let us meet together at Chephirim in the plain of Ono.” But they were planning to harm me.",
           "words": [
             {
-              "id": "hebrew-7971",
-              "eng": "That sent"
-            },
-            {
               "id": "hebrew-5571",
-              "eng": "Sanballat"
+              "cht": "參巴拉"
             },
             {
               "id": "hebrew-1654",
-              "eng": "and Geshem"
+              "cht": "和基善"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "就打發人"
             },
             {
               "id": "hebrew-413",
-              "eng": "to me"
+              "cht": "來見我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "come",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3259",
-              "eng": "and let us meet"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "together"
-            },
-            {
-              "id": "hebrew-3715",
-              "eng": "among the villages"
-            },
-            {
-              "id": "hebrew-1237",
-              "eng": "in the plain"
+              "id": "hebrew-3212",
+              "cht": "請你來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-207",
-              "eng": "of Ono",
-              "punct": "."
+              "cht": "我們在阿挪"
+            },
+            {
+              "id": "hebrew-1237",
+              "cht": "平原"
+            },
+            {
+              "id": "hebrew-3715",
+              "cht": "的一個村莊"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "相"
+            },
+            {
+              "id": "hebrew-3259",
+              "cht": "會",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-1992",
-              "eng": "But they"
+              "cht": "他們"
             },
             {
               "id": "hebrew-2803",
-              "eng": "thought"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "to do"
+              "cht": "卻想"
             },
             {
               "id": "hebrew-7451",
-              "eng": "harm",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "害"
             }
           ]
         },
@@ -507,90 +479,74 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "jhn.7.7",
-          "cunp": "世人不能恨你們，卻是恨我，因為我指證他們所做的事是惡的。",
+          "nasb": "The world cannot hate you, but it hates Me because I testify of it, that its deeds are evil.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-1410",
-              "eng": "is able"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-2889",
-              "eng": "world"
+              "cht": "世人"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "不能"
             },
             {
               "id": "greek-3404",
-              "eng": "to hate"
+              "cht": "恨"
             },
             {
               "id": "greek-5209",
-              "eng": "you",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1691",
-              "eng": "Me"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1161",
-              "eng": "however"
+              "cht": "卻是"
             },
             {
               "id": "greek-3404",
-              "eng": "it hates",
-              "punct": ","
+              "cht": "恨"
+            },
+            {
+              "id": "greek-1691",
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "because"
+              "cht": "因為"
             },
             {
               "id": "greek-1473",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "greek-3140",
-              "eng": "bear witness"
+              "cht": "指證"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們"
+            },
+            {
+              "id": "greek-846",
+              "cht": "所"
             },
             {
               "id": "greek-4012",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-846",
-              "eng": "it"
+              "cht": "做的"
             },
             {
               "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2041",
-              "eng": "works"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of it"
-            },
-            {
-              "id": "greek-4190",
-              "eng": "evil"
+              "cht": "事"
             },
             {
               "id": "greek-2076",
-              "eng": "are",
-              "punct": "."
+              "cht": "是"
+            },
+            {
+              "id": "greek-4190",
+              "cht": "惡的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -601,68 +557,63 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "isa.22.3",
-          "cunp": "你所有的官長一同逃跑， 都為弓箭手所捆綁。 你中間一切被找到的都一同被捆綁； 他們本是逃往遠方的。",
+          "nasb": "All your rulers have fled together, And have been captured without the bow; All of you who were found were taken captive together, Though they had fled far away.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "你所有的"
             },
             {
               "id": "hebrew-7101",
-              "eng": "your rulers"
+              "cht": "官長"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "一同"
             },
             {
               "id": "hebrew-5074",
-              "eng": "have fled"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "together",
-              "punct": "､"
+              "cht": "逃跑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7198",
-              "eng": "by the archers",
-              "punct": "–"
+              "cht": "都為弓箭手"
             },
             {
               "id": "hebrew-631",
-              "eng": "they are captured"
+              "cht": "所捆綁",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "你中間一切"
             },
             {
               "id": "hebrew-4672",
-              "eng": "who are found in you"
-            },
-            {
-              "id": "hebrew-631",
-              "eng": "are bound"
+              "cht": "被找到的"
             },
             {
               "id": "hebrew-3162",
-              "eng": "together",
-              "punct": "､"
+              "cht": "都一同"
             },
             {
-              "id": "hebrew-7350",
-              "eng": "from afar"
+              "id": "hebrew-631",
+              "cht": "被捆綁",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1272",
-              "eng": "they have fled",
-              "punct": "."
+              "cht": "他們本是逃往"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7350",
+              "cht": "遠方"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -674,88 +625,83 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "jer.36.3",
-          "cunp": "或者猶大家聽見我想要降與他們的一切災禍，各人就回頭，離開惡道，我好赦免他們的罪孽和罪惡。」",
+          "nasb": "Perhaps the house of Judah will hear all the calamity which I plan to bring on them, in order that every man will turn from his evil way; then I will forgive their iniquity and their sin.”",
           "words": [
             {
               "id": "hebrew-194",
-              "eng": "It may be that"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "will hear"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "或者"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah"
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-1004",
+              "cht": "家"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "the adversities"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "id": "hebrew-8085",
+              "cht": "聽見"
             },
             {
               "id": "hebrew-595",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-2803",
-              "eng": "purpose"
+              "cht": "想要"
             },
             {
               "id": "hebrew-6213",
-              "eng": "to bring"
+              "cht": "降"
             },
             {
-              "id": "hebrew-4616",
-              "eng": "that"
+              "id": "hebrew-834",
+              "cht": "的"
             },
             {
-              "id": "hebrew-7725",
-              "eng": "may turn"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "everyone"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "from his way",
-              "punct": "–"
+              "id": "hebrew-3605",
+              "cht": "一切"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
+              "cht": "災禍",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "各人"
+            },
+            {
+              "id": "hebrew-4616",
+              "cht": "就"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "回頭",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7451",
+              "cht": "離開惡"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5545",
-              "eng": "that I may forgive"
+              "cht": "我好赦免"
             },
             {
               "id": "hebrew-5771",
-              "eng": "their iniquity"
+              "cht": "他們的罪孽"
             },
             {
               "id": "hebrew-2403",
-              "eng": "and their sin",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "和罪惡",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -766,83 +712,77 @@
             "hebrew-2803": 1.674865456431719
           },
           "verseKey": "lam.2.8",
-          "cunp": "耶和華定意拆毀錫安的城牆； 他拉了準繩， 不將手收回，定要毀滅。 他使外郭和城牆都悲哀， 一同衰敗。",
+          "nasb": "The Lord determined to destroy The wall of the daughter of Zion. He has stretched out a line, He has not restrained His hand from destroying, And He has caused rampart and wall to lament; They have languished together.",
           "words": [
             {
-              "id": "hebrew-2803",
-              "eng": "Has purposed"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "hebrew-2803",
+              "cht": "定意"
             },
             {
               "id": "hebrew-7843",
-              "eng": "to destroy"
-            },
-            {
-              "id": "hebrew-2346",
-              "eng": "the wall"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "of the daughter"
+              "cht": "拆毀"
             },
             {
               "id": "hebrew-6726",
-              "eng": "of Zion",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5186",
-              "eng": "He has stretched out"
-            },
-            {
-              "id": "hebrew-6957",
-              "eng": "a line",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "He has withdrawn"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "His hand"
-            },
-            {
-              "id": "hebrew-1104",
-              "eng": "from destroying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-56",
-              "eng": "therefore He has caused to lament",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2426",
-              "eng": "the rampart"
+              "cht": "錫安"
             },
             {
               "id": "hebrew-2346",
-              "eng": "and wall"
+              "cht": "的城牆",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5186",
+              "cht": "他拉了"
+            },
+            {
+              "id": "hebrew-6957",
+              "cht": "準繩",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "將手"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "收回",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1104",
+              "cht": "定要毀滅",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2426",
+              "cht": "他使外郭"
+            },
+            {
+              "id": "hebrew-2346",
+              "cht": "和城牆"
+            },
+            {
+              "id": "hebrew-56",
+              "cht": "都悲哀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3162",
-              "eng": "together"
+              "cht": "一同"
             },
             {
               "id": "hebrew-535",
-              "eng": "they languished",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "衰敗",
+              "punct_cht": "。"
             }
           ]
         }

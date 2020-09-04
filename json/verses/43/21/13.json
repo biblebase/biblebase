@@ -3,17 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-2064": "Comes",
-          "greek-3588": "the",
-          "greek-2424": "Jesus",
-          "greek-2532": "and",
-          "greek-2983": "takes",
-          "greek-740": "bread",
-          "greek-1325": "gives [it]",
-          "greek-846": "to them",
-          "greek-3795": "fish",
-          "greek-3668": "likewise",
-          "greek-3767": null
+          "eng": {
+            "greek-2064": "Comes",
+            "greek-3588": "the",
+            "greek-2424": "Jesus",
+            "greek-2532": "and",
+            "greek-2983": "takes",
+            "greek-740": "bread",
+            "greek-1325": "gives [it]",
+            "greek-846": "to them",
+            "greek-3795": "fish",
+            "greek-3668": "likewise",
+            "greek-3767": null
+          },
+          "cht": {
+            "greek-2064": "來",
+            "greek-2424": "耶穌",
+            "greek-2532": "魚",
+            "greek-2983": "拿",
+            "greek-740": "餅",
+            "greek-1325": "給",
+            "greek-846": "他們",
+            "greek-3795": "魚",
+            "greek-3668": "魚",
+            "greek-3767": "就"
+          }
         }
       },
       "translations": {
@@ -33,87 +47,60 @@
             "greek-3668": 2.985487611968215
           },
           "verseKey": "jhn.6.11",
-          "cunp": "耶穌拿起餅來，祝謝了，就分給那坐着的人；分魚也是這樣，都隨着他們所要的。",
+          "nasb": "Jesus then took the loaves, and having given thanks, He distributed to those who were seated; likewise also of the fish as much as they wanted.",
           "words": [
             {
+              "id": "greek-2424",
+              "cht": "耶穌"
+            },
+            {
               "id": "greek-2983",
-              "eng": "Took"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "拿起"
             },
             {
               "id": "greek-740",
-              "eng": "loaves"
+              "cht": "餅"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2168",
-              "eng": "having given thanks",
-              "punct": ","
+              "cht": "祝謝了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1239",
-              "eng": "He distributed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to those"
+              "cht": "就分給"
             },
             {
               "id": "greek-345",
-              "eng": "reclining",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3668",
-              "eng": "likewise"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "那坐著的人",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "分"
             },
             {
               "id": "greek-3795",
-              "eng": "fish",
-              "punct": ","
+              "cht": "魚"
+            },
+            {
+              "id": "greek-3668",
+              "cht": "也是這樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3745",
-              "eng": "as much as"
+              "cht": "都隨著"
             },
             {
               "id": "greek-2309",
-              "eng": "they wished",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "他們所要的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -124,67 +111,55 @@
             "greek-3795": 6.7856512265994295
           },
           "verseKey": "jhn.21.9",
-          "cunp": "他們上了岸，就看見那裏有炭火，上面有魚，又有餅。",
+          "nasb": "So when they got out on the land, they *saw a charcoal fire already laid and fish placed on it, and bread.",
           "words": [
             {
-              "id": "greek-5613",
-              "eng": "When"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
               "id": "greek-576",
-              "eng": "they got out"
+              "cht": "他們上"
             },
             {
               "id": "greek-1519",
-              "eng": "onto"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "了"
             },
             {
               "id": "greek-1093",
-              "eng": "land",
-              "punct": ","
+              "cht": "岸",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3767",
+              "cht": "就"
             },
             {
               "id": "greek-991",
-              "eng": "they see"
+              "cht": "看見"
             },
             {
               "id": "greek-439",
-              "eng": "a fire of coals"
-            },
-            {
-              "id": "greek-2749",
-              "eng": "lying",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3795",
-              "eng": "fish"
+              "cht": "那裡有炭火",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1945",
-              "eng": "lying on [it]",
-              "punct": ","
+              "cht": "上面"
+            },
+            {
+              "id": "greek-2749",
+              "cht": "有"
+            },
+            {
+              "id": "greek-3795",
+              "cht": "魚",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "又"
             },
             {
               "id": "greek-740",
-              "eng": "bread",
-              "punct": "."
+              "cht": "有餅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -195,90 +170,74 @@
             "greek-3795": 6.7856512265994295
           },
           "verseKey": "jhn.6.9",
-          "cunp": "「在這裏有一個孩童，帶着五個大麥餅、兩條魚，只是分給這許多人還算甚麼呢？」",
+          "nasb": "“There is a lad here who has five barley loaves and two fish, but what are these for so many people?”",
           "words": [
             {
+              "id": "greek-5602",
+              "cht": "在這裡"
+            },
+            {
               "id": "greek-2076",
-              "eng": "Is"
+              "cht": "有"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一個"
             },
             {
               "id": "greek-3808",
-              "eng": "a little boy"
-            },
-            {
-              "id": "greek-5602",
-              "eng": "here",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "who"
+              "cht": "孩童",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2192",
-              "eng": "has"
+              "cht": "帶著"
             },
             {
               "id": "greek-4002",
-              "eng": "five"
-            },
-            {
-              "id": "greek-740",
-              "eng": "loaves"
+              "cht": "五個"
             },
             {
               "id": "greek-2916",
-              "eng": "barley"
+              "cht": "大麥"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-740",
+              "cht": "餅、"
             },
             {
               "id": "greek-1417",
-              "eng": "two"
+              "cht": "兩條"
             },
             {
               "id": "greek-3795",
-              "eng": "small fish",
-              "punct": ";"
+              "cht": "魚",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "these"
-            },
-            {
-              "id": "greek-5101",
-              "eng": "what"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "are"
+              "cht": "只是"
             },
             {
               "id": "greek-1519",
-              "eng": "for"
+              "cht": "分給"
             },
             {
               "id": "greek-5118",
-              "eng": "so many",
-              "punct": "?"
+              "cht": "這許多人"
             },
             {
-              "id": "greek-1520"
+              "id": "greek-2076",
+              "cht": "還算"
             },
             {
-              "id": "greek-2076"
+              "id": "greek-5101",
+              "cht": "甚麼"
             },
             {
-              "id": "greek-5023"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -289,56 +248,45 @@
             "greek-3795": 6.7856512265994295
           },
           "verseKey": "jhn.21.10",
-          "cunp": "耶穌對他們說：「把剛才打的魚拿幾條來。」",
+          "nasb": "Jesus *said to them, “Bring some of the fish which you have now caught.”",
           "words": [
             {
-              "id": "greek-3004",
-              "eng": "Says"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-846",
-              "eng": "to them"
+              "cht": "對他們"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
-            },
-            {
-              "id": "greek-5342",
-              "eng": "Bring"
-            },
-            {
-              "id": "greek-575",
-              "eng": "[some] of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3795",
-              "eng": "fish"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "that"
-            },
-            {
-              "id": "greek-4084",
-              "eng": "you have caught"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3568",
-              "eng": "now",
-              "punct": "."
+              "cht": "把剛才"
             },
             {
-              "id": ""
+              "id": "greek-4084",
+              "cht": "打"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "的"
+            },
+            {
+              "id": "greek-3795",
+              "cht": "魚"
+            },
+            {
+              "id": "greek-5342",
+              "cht": "拿"
+            },
+            {
+              "id": "",
+              "cht": "幾條來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -348,102 +296,72 @@
             "greek-2983": 1.1386919976601375
           },
           "verseKey": "jhn.13.20",
-          "cunp": "我實實在在地告訴你們，有人接待我所差遣的，就是接待我；接待我，就是接待那差遣我的。」",
+          "nasb": "Truly, truly, I say to you, he who receives whomever I send receives Me; and he who receives Me receives Him who sent Me.”",
           "words": [
             {
               "id": "greek-281",
-              "eng": "Truly",
-              "punct": ","
+              "cht": "我實實"
             },
             {
               "id": "greek-281",
-              "eng": "truly",
-              "punct": ","
+              "cht": "在在"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "的告訴"
             },
             {
-              "id": "greek-4771",
-              "eng": "to you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "id": "greek-3004",
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "receiving"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "any"
+              "cht": "有人接待"
             },
             {
               "id": "greek-3992",
-              "eng": "I shall send",
-              "punct": ","
+              "cht": "我所差遣"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2983",
+              "cht": "就是接待"
             },
             {
               "id": "greek-1691",
-              "eng": "Me"
+              "cht": "我",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2983",
-              "eng": "receives",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-3165",
-              "eng": "Me"
+              "cht": "接待"
             },
             {
               "id": "greek-2983",
-              "eng": "receiving",
-              "punct": ","
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "receives"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [One]"
+              "cht": "就是接待"
             },
             {
               "id": "greek-3992",
-              "eng": "having sent"
+              "cht": "那差遣"
             },
             {
-              "id": "greek-1473",
-              "eng": "Me",
-              "punct": "."
+              "id": "greek-3165",
+              "cht": "我"
             },
             {
-              "id": "greek-3004"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2983"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -456,110 +374,87 @@
             "greek-1325": 0.44594048131464864
           },
           "verseKey": "mat.26.26",
-          "cunp": "他們吃的時候，耶穌拿起餅來，祝福，就擘開，遞給門徒，說：「你們拿着吃，這是我的身體」；",
+          "nasb": "While they were eating, Jesus took some bread, and after a blessing, He broke it and gave it to the disciples, and said, “Take, eat; this is My body.”",
           "words": [
             {
-              "id": "greek-2068",
-              "eng": "[As] they were eating"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
               "id": "greek-846",
-              "eng": "of them",
-              "punct": ","
+              "cht": "他們"
             },
             {
-              "id": "greek-2983",
-              "eng": "having taken"
+              "id": "greek-2068",
+              "cht": "吃"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-740",
-              "eng": "bread",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2127",
-              "eng": "having blessed",
-              "punct": ","
-            },
-            {
-              "id": "greek-2806",
-              "eng": "broke [it]",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "having given"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-3101",
-              "eng": "disciples",
-              "punct": ","
-            },
-            {
-              "id": "greek-2036",
-              "eng": "He said",
-              "punct": ","
+              "cht": "耶穌"
             },
             {
               "id": "greek-2983",
-              "eng": "Take",
-              "punct": ","
+              "cht": "拿起"
+            },
+            {
+              "id": "greek-740",
+              "cht": "餅"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2127",
+              "cht": "祝福",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2806",
+              "cht": "就擘開",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1325",
+              "cht": "遞給"
+            },
+            {
+              "id": "greek-3101",
+              "cht": "門徒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-2983",
+              "cht": "你們拿著"
             },
             {
               "id": "greek-5315",
-              "eng": "eat",
-              "punct": ";"
+              "cht": "吃",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5124",
-              "eng": "this"
+              "cht": "這"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
+              "cht": "是"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me",
-              "punct": "."
+              "cht": "我的"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-4983",
+              "cht": "身體",
+              "punct_cht": "；"
             }
           ]
         },
@@ -570,93 +465,50 @@
             "greek-3668": 2.985487611968215
           },
           "verseKey": "mrk.4.16",
-          "cunp": "那撒在石頭地上的，就是人聽了道，立刻歡喜領受，",
+          "nasb": "In a similar way these are the ones on whom seed was sown on the rocky places, who, when they hear the word, immediately receive it with joy;",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "these"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "are"
-            },
-            {
               "id": "greek-3668",
-              "eng": "likewise"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4075",
-              "eng": "rocky places"
+              "cht": "那"
             },
             {
               "id": "greek-4687",
-              "eng": "sown",
-              "punct": ","
+              "cht": "撒在"
+            },
+            {
+              "id": "greek-4075",
+              "cht": "石頭地上"
+            },
+            {
+              "id": "greek-3778",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3739",
-              "eng": "who",
-              "punct": ","
-            },
-            {
-              "id": "greek-3752",
-              "eng": "when"
+              "cht": "就是人"
             },
             {
               "id": "greek-191",
-              "eng": "they hear"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "聽了"
             },
             {
               "id": "greek-3056",
-              "eng": "word",
-              "punct": ","
-            },
-            {
-              "id": "greek-2112",
-              "eng": "immediately"
+              "cht": "道",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3326",
-              "eng": "with"
+              "cht": "立刻"
             },
             {
               "id": "greek-5479",
-              "eng": "joy"
+              "cht": "歡喜"
             },
             {
               "id": "greek-2983",
-              "eng": "receive"
-            },
-            {
-              "id": "greek-846",
-              "eng": "it",
-              "punct": ","
-            },
-            {
-              "id": "greek-1526"
-            },
-            {
-              "id": "greek-2117"
+              "cht": "領受",
+              "punct_cht": "，"
             }
           ]
         },
@@ -668,99 +520,87 @@
             "greek-1325": 0.44594048131464864
           },
           "verseKey": "mrk.14.22",
-          "cunp": "他們吃的時候，耶穌拿起餅來，祝了福，就擘開，遞給他們，說：「你們拿着吃，這是我的身體」；",
+          "nasb": "While they were eating, He took some bread, and after a blessing He broke it, and gave it to them, and said, “Take it; this is My body.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-846",
+              "cht": "他們"
             },
             {
               "id": "greek-2068",
-              "eng": "they were eating"
+              "cht": "吃"
             },
             {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": ","
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-2983",
-              "eng": "having taken"
+              "cht": "拿起"
             },
             {
               "id": "greek-740",
-              "eng": "bread",
-              "punct": ","
+              "cht": "餅"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2127",
-              "eng": "having spoken a blessing",
-              "punct": ","
+              "cht": "祝了福",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2806",
-              "eng": "He broke",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "就擘開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1325",
-              "eng": "gave"
+              "cht": "遞給"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "他們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2036",
-              "eng": "said",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2983",
-              "eng": "Take",
-              "punct": ";"
+              "cht": "你們拿著"
+            },
+            {
+              "id": "greek-5315",
+              "cht": "吃",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5124",
-              "eng": "this"
+              "cht": "這"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
+              "cht": "是"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me",
-              "punct": "."
+              "cht": "我的"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-2424"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-5315"
+              "id": "greek-4983",
+              "cht": "身體",
+              "punct_cht": "；"
             }
           ]
         },
@@ -771,93 +611,55 @@
             "greek-3668": 2.985487611968215
           },
           "verseKey": "luk.10.37",
-          "cunp": "他說：「是憐憫他的。」耶穌說：「你去照樣行吧。」",
+          "nasb": "And he said, “The one who showed mercy toward him.” Then Jesus said to him, “Go and do the same.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-2036",
-              "eng": "he said",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The [one]"
+              "cht": "他說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4160",
-              "eng": "having shown"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1656",
-              "eng": "compassion"
-            },
-            {
-              "id": "greek-3326",
-              "eng": "toward"
+              "cht": "是憐憫"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": "."
+              "cht": "他"
             },
             {
-              "id": "greek-2036",
-              "eng": "Said"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
             },
             {
-              "id": "greek-4198",
-              "eng": "Go"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4771",
-              "eng": "you"
+              "cht": "你"
             },
             {
-              "id": "greek-4160",
-              "eng": "do"
+              "id": "greek-4198",
+              "cht": "去"
             },
             {
               "id": "greek-3668",
-              "eng": "likewise",
-              "punct": "."
+              "cht": "照樣"
             },
             {
-              "id": ""
+              "id": "greek-4160",
+              "cht": "行"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -868,169 +670,102 @@
             "greek-3668": 2.985487611968215
           },
           "verseKey": "jhn.5.19",
-          "cunp": "耶穌對他們說：「我實實在在地告訴你們，子憑着自己不能做甚麼，惟有看見父所做的，子才能做；父所做的事，子也照樣做。",
+          "nasb": "Therefore Jesus answered and was saying to them, “Truly, truly, I say to you, the Son can do nothing of Himself, unless it is something He sees the Father doing; for whatever the Father does, these things the Son also does in like manner.",
           "words": [
             {
-              "id": "greek-611",
-              "eng": "Answered"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "was saying"
+              "cht": "耶穌"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "對他們"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-281",
-              "eng": "Truly",
-              "punct": ","
-            },
-            {
-              "id": "greek-281",
-              "eng": "truly",
-              "punct": ","
+              "cht": "我實實在在"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "的告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "to you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1410",
-              "eng": "is able"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5207",
-              "eng": "Son"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "to do"
-            },
-            {
-              "id": "greek-575",
-              "eng": "of"
+              "cht": "子"
             },
             {
               "id": "greek-1438",
-              "eng": "Himself"
+              "cht": "憑著自己"
             },
             {
-              "id": "greek-3762",
-              "eng": "nothing",
-              "punct": ","
+              "id": "greek-3756",
+              "cht": "不能"
             },
             {
-              "id": "greek-1437",
-              "eng": "if"
+              "id": "greek-4160",
+              "cht": "做"
             },
             {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "",
+              "cht": "甚麼",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-5100",
-              "eng": "anything"
+              "id": "greek-3362",
+              "cht": "惟有"
             },
             {
               "id": "greek-991",
-              "eng": "He might see"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "看見"
             },
             {
               "id": "greek-3962",
-              "eng": "Father"
+              "cht": "父"
             },
             {
-              "id": "greek-4160",
-              "eng": "doing",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
+              "id": "greek-5100",
+              "cht": "所做的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1565",
-              "eng": "He"
+              "cht": "子"
             },
             {
               "id": "greek-4160",
-              "eng": "does",
-              "punct": ","
+              "cht": "才能做",
+              "punct_cht": "；"
             },
             {
               "id": "greek-5023",
-              "eng": "these things"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "父所做的事",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5207",
-              "eng": "Son"
+              "cht": "子"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-3668",
-              "eng": "likewise"
+              "cht": "照樣"
             },
             {
               "id": "greek-4160",
-              "eng": "does",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3362"
+              "cht": "做",
+              "punct_cht": "。"
             }
           ]
         }

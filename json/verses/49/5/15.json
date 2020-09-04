@@ -3,16 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-991": "Take heed",
-          "greek-3767": "therefore",
-          "greek-199": "carefully",
-          "greek-4459": "how",
-          "greek-4043": "you walk",
-          "greek-3361": "not",
-          "greek-5613": "as",
-          "greek-781": "unwise",
-          "greek-235": "but",
-          "greek-4680": "wise"
+          "eng": {
+            "greek-991": "Take heed",
+            "greek-3767": "therefore",
+            "greek-199": "carefully",
+            "greek-4459": "how",
+            "greek-4043": "you walk",
+            "greek-3361": "not",
+            "greek-5613": "as",
+            "greek-781": "unwise",
+            "greek-235": "but",
+            "greek-4680": "wise"
+          },
+          "cht": {
+            "greek-199": "你們要謹慎",
+            "greek-4043": "行事",
+            "greek-3361": "不要",
+            "greek-5613": "像",
+            "greek-781": "愚昧人",
+            "greek-235": "當",
+            "greek-4680": "智慧人"
+          }
         }
       },
       "translations": {
@@ -28,83 +39,63 @@
             "greek-991": 1.5502252173863187
           },
           "verseKey": "2co.4.18",
-          "cunp": "原來我們不是顧念所見的，乃是顧念所不見的；因為所見的是暫時的，所不見的是永遠的。",
+          "nasb": "while we look not at the things which are seen, but at the things which are not seen; for the things which are seen are temporal, but the things which are not seen are eternal.",
           "words": [
             {
+              "id": "greek-2257",
+              "cht": "原來我們"
+            },
+            {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "不是"
             },
             {
               "id": "greek-4648",
-              "eng": "are looking at"
-            },
-            {
-              "id": "greek-2257",
-              "eng": "we"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "cht": "顧念"
             },
             {
               "id": "greek-991",
-              "eng": "being seen",
-              "punct": ","
+              "cht": "所見的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "cht": "乃是"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "顧念所不"
             },
             {
               "id": "greek-991",
-              "eng": "being seen",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The things"
+              "cht": "見的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "greek-991",
-              "eng": "being seen [are]"
+              "cht": "所見的"
             },
             {
               "id": "greek-4340",
-              "eng": "temporary",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "是暫時的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "所不"
             },
             {
               "id": "greek-991",
-              "eng": "being seen"
+              "cht": "見的"
             },
             {
               "id": "greek-166",
-              "eng": "[are] eternal",
-              "punct": "."
+              "cht": "是永遠的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -115,115 +106,83 @@
             "greek-5613": 0.8328618768072236
           },
           "verseKey": "act.23.20",
-          "cunp": "他說：「猶太人已經約定，要求你明天帶下保羅到公會裏去，假作要詳細查問他的事。",
+          "nasb": "And he said, “The Jews have agreed to ask you to bring Paul down tomorrow to the Council, as though they were going to inquire somewhat more thoroughly about him.",
           "words": [
             {
               "id": "greek-2036",
-              "eng": "He said"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
+              "cht": "他說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2453",
-              "eng": "Jews"
+              "cht": "猶太人"
             },
             {
               "id": "greek-4934",
-              "eng": "have agreed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "已經約定",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2065",
-              "eng": "to ask"
+              "cht": "要求"
             },
             {
-              "id": "greek-4771",
-              "eng": "you"
-            },
-            {
-              "id": "greek-3704",
-              "eng": "that"
+              "id": "greek-4571",
+              "cht": "你"
             },
             {
               "id": "greek-839",
-              "eng": "tomorrow"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3972",
-              "eng": "Paul"
+              "cht": "明天"
             },
             {
               "id": "greek-2609",
-              "eng": "you might bring down"
+              "cht": "帶下"
+            },
+            {
+              "id": "greek-3972",
+              "cht": "保羅"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "到"
             },
             {
               "id": "greek-4892",
-              "eng": "Council",
-              "punct": ","
+              "cht": "公會"
+            },
+            {
+              "id": "",
+              "cht": "裡去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
+              "cht": "假作"
             },
             {
               "id": "greek-3195",
-              "eng": "being about"
+              "cht": "要"
             },
             {
-              "id": "greek-5100",
-              "eng": "something"
-            },
-            {
-              "id": "greek-199",
-              "eng": "more earnestly"
+              "id": "greek-197",
+              "cht": "詳細"
             },
             {
               "id": "greek-4441",
-              "eng": "to inquire"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "about"
+              "cht": "查問"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": "."
+              "cht": "他"
             },
             {
-              "id": "greek-4571"
+              "id": "greek-4012",
+              "cht": "的"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-197"
+              "id": "greek-5100",
+              "cht": "事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -234,160 +193,116 @@
             "greek-5613": 0.8328618768072236
           },
           "verseKey": "act.23.15",
-          "cunp": "現在你們和公會要知會千夫長，叫他帶下保羅到你們這裏來，假作要詳細察考他的事；我們已經預備好了，不等他來到跟前就殺他。」",
+          "nasb": "Now therefore, you and the Council notify the commander to bring him down to you, as though you were going to determine his case by a more thorough investigation; and we for our part are ready to slay him before he comes near the place.”",
           "words": [
             {
-              "id": "greek-3568",
-              "eng": "Now"
-            },
-            {
               "id": "greek-3767",
-              "eng": "therefore"
+              "cht": "現在"
             },
             {
               "id": "greek-5210",
-              "eng": "you",
-              "punct": ","
-            },
-            {
-              "id": "greek-1718",
-              "eng": "make a report"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-5506",
-              "eng": "commander"
+              "cht": "你們"
             },
             {
               "id": "greek-4862",
-              "eng": "along with"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-4892",
-              "eng": "Council",
-              "punct": ","
+              "cht": "公會"
+            },
+            {
+              "id": "greek-1718",
+              "cht": "要知會"
+            },
+            {
+              "id": "greek-5506",
+              "cht": "千夫長",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3704",
-              "eng": "so that"
+              "cht": "叫"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他"
             },
             {
               "id": "greek-2609",
-              "eng": "he might bring down"
+              "cht": "帶下"
             },
             {
-              "id": "greek-846",
-              "eng": "him"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
+              "id": "greek-4314",
+              "cht": "保羅到"
             },
             {
               "id": "greek-5209",
-              "eng": "you",
-              "punct": ","
+              "cht": "你們"
+            },
+            {
+              "id": "greek-839",
+              "cht": "這裡來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
+              "cht": "假作"
             },
             {
               "id": "greek-3195",
-              "eng": "being about"
+              "cht": "要"
             },
             {
-              "id": "greek-1231",
-              "eng": "to examine"
-            },
-            {
-              "id": "greek-199",
-              "eng": "more earnestly"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "id": "greek-197",
+              "cht": "詳細"
             },
             {
               "id": "greek-4012",
-              "eng": "about"
+              "cht": "察考"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": ";"
+              "cht": "他"
+            },
+            {
+              "id": "",
+              "cht": "的事",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2249",
-              "eng": "we"
+              "cht": "我們"
             },
             {
-              "id": "greek-1161",
-              "eng": "then",
-              "punct": ","
-            },
-            {
-              "id": "greek-4253",
-              "eng": "before"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1448",
-              "eng": "drawing near"
-            },
-            {
-              "id": "greek-846",
-              "eng": "his",
-              "punct": ","
+              "id": "greek-2070",
+              "cht": "已經"
             },
             {
               "id": "greek-2092",
-              "eng": "ready"
+              "cht": "預備好"
             },
             {
-              "id": "greek-1510",
-              "eng": "are"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-337",
-              "eng": "to kill"
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": "."
+              "cht": "不等他"
             },
             {
-              "id": "greek-4314"
+              "id": "greek-1448",
+              "cht": "來到跟前"
             },
             {
-              "id": "greek-839"
+              "id": "greek-337",
+              "cht": "就殺"
             },
             {
-              "id": "greek-197"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2070"
-            },
-            {
-              "id": ""
+              "id": "greek-846",
+              "cht": "他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -398,65 +313,58 @@
             "greek-5613": 0.8328618768072236
           },
           "verseKey": "1th.5.2",
-          "cunp": "因為你們自己明明曉得，主的日子來到，好像夜間的賊一樣。",
+          "nasb": "For you yourselves know full well that the day of the Lord will come just like a thief in the night.",
           "words": [
             {
-              "id": "greek-846",
-              "eng": "Yourselves"
+              "id": "greek-1063",
+              "cht": "因為"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-846",
+              "cht": "你們"
             },
             {
               "id": "greek-199",
-              "eng": "fully"
+              "cht": "自己明明"
             },
             {
               "id": "greek-1492",
-              "eng": "you know"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-2250",
-              "eng": "[the] day"
+              "cht": "曉得",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2962",
-              "eng": "of [the] Lord",
-              "punct": ","
+              "cht": "主"
             },
             {
-              "id": "greek-5613",
-              "eng": "as"
-            },
-            {
-              "id": "greek-2812",
-              "eng": "a thief"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3571",
-              "eng": "night",
-              "punct": ","
-            },
-            {
-              "id": "greek-3779",
-              "eng": "in this manner"
+              "id": "greek-2250",
+              "cht": "的日子"
             },
             {
               "id": "greek-2064",
-              "eng": "comes",
-              "punct": "."
+              "cht": "來到",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-5613",
+              "cht": "好像"
+            },
+            {
+              "id": "greek-3571",
+              "cht": "夜間"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "的"
+            },
+            {
+              "id": "greek-2812",
+              "cht": "賊"
+            },
+            {
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -469,95 +377,80 @@
             "greek-4680": 1.477441397784365
           },
           "verseKey": "1co.3.10",
-          "cunp": "我照神所給我的恩，好像一個聰明的工頭，立好了根基，有別人在上面建造；只是各人要謹慎怎樣在上面建造。",
+          "nasb": "According to the grace of God which was given to me, like a wise master builder I laid a foundation, and another is building on it. But each man must be careful how he builds on it.",
           "words": [
             {
               "id": "greek-2596",
-              "eng": "According to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5485",
-              "eng": "grace"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我照"
             },
             {
               "id": "greek-2316",
-              "eng": "of God"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "神"
             },
             {
               "id": "greek-1325",
-              "eng": "having been given"
+              "cht": "所給"
             },
             {
               "id": "greek-3427",
-              "eng": "to me",
-              "punct": ","
+              "cht": "我"
+            },
+            {
+              "id": "greek-5485",
+              "cht": "的恩",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
+              "cht": "好像"
             },
             {
               "id": "greek-4680",
-              "eng": "a wise"
+              "cht": "一個聰明"
             },
             {
               "id": "greek-753",
-              "eng": "master builder"
-            },
-            {
-              "id": "greek-2310",
-              "eng": "[the] foundation"
+              "cht": "的工頭",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5087",
-              "eng": "I have laid",
-              "punct": ";"
+              "cht": "立好了"
+            },
+            {
+              "id": "greek-2310",
+              "cht": "根基",
+              "punct_cht": "，"
             },
             {
               "id": "greek-243",
-              "eng": "another"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "有別"
             },
             {
               "id": "greek-2026",
-              "eng": "is building upon [it]",
-              "punct": "."
+              "cht": "人在上面建造",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1161",
+              "cht": "只是"
             },
             {
               "id": "greek-1538",
-              "eng": "Each one"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "各人"
             },
             {
               "id": "greek-991",
-              "eng": "let take heed"
+              "cht": "要謹慎"
             },
             {
               "id": "greek-4459",
-              "eng": "how"
+              "cht": "怎樣"
             },
             {
               "id": "greek-2026",
-              "eng": "he builds upon [it]",
-              "punct": "."
+              "cht": "在上面建造",
+              "punct_cht": "。"
             }
           ]
         },
@@ -568,144 +461,110 @@
             "greek-4043": 1.77048478170587
           },
           "verseKey": "1th.4.1",
-          "cunp": "弟兄們，我還有話說：我們靠着主耶穌求你們，勸你們，你們既然受了我們的教訓，知道該怎樣行可以討神的喜悅，就要照你們現在所行的更加勉勵。",
+          "nasb": "Finally then, brethren, we request and exhort you in the Lord Jesus, that as you received from us instruction as to how you ought to walk and please God (just as you actually do walk), that you excel still more.",
           "words": [
             {
-              "id": "greek-3063",
-              "eng": "Finally"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "then",
-              "punct": ","
-            },
-            {
               "id": "greek-80",
-              "eng": "brothers",
-              "punct": ","
+              "cht": "弟兄們",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2065",
-              "eng": "we implore"
+              "id": "greek-3063",
+              "cht": "我還有"
             },
             {
-              "id": "greek-5209",
-              "eng": "you"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3870",
-              "eng": "exhort"
+              "id": "",
+              "cht": "話說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "我們靠著"
             },
             {
               "id": "greek-2962",
-              "eng": "[the] Lord"
+              "cht": "主"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
-              "id": "greek-2443",
-              "eng": "that",
-              "punct": ","
-            },
-            {
-              "id": "greek-2531",
-              "eng": "just as"
-            },
-            {
-              "id": "greek-3880",
-              "eng": "you have received"
-            },
-            {
-              "id": "greek-3844",
-              "eng": "from"
-            },
-            {
-              "id": "greek-2257",
-              "eng": "us"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4459",
-              "eng": "in what manner"
-            },
-            {
-              "id": "greek-1163",
-              "eng": "it behooves"
+              "id": "greek-2065",
+              "cht": "求"
             },
             {
               "id": "greek-5209",
-              "eng": "you"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-4043",
-              "eng": "to walk"
+              "id": "greek-3870",
+              "cht": "勸"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-700",
-              "eng": "to please"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
+              "id": "greek-5209",
+              "cht": "你們"
             },
             {
               "id": "greek-2531",
-              "eng": "just as"
+              "cht": "既然"
+            },
+            {
+              "id": "greek-3880",
+              "cht": "受了"
+            },
+            {
+              "id": "greek-2257",
+              "cht": "我們的"
+            },
+            {
+              "id": "",
+              "cht": "教訓",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1163",
+              "cht": "知道該"
+            },
+            {
+              "id": "greek-4459",
+              "cht": "怎樣"
             },
             {
               "id": "greek-2532",
-              "eng": "even"
+              "cht": "行"
             },
             {
-              "id": "greek-4043",
-              "eng": "you walk [now]",
-              "punct": ","
+              "id": "greek-700",
+              "cht": "可以討"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "的喜悅",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "so"
-            },
-            {
-              "id": "greek-4052",
-              "eng": "you should abound"
+              "cht": "就"
             },
             {
               "id": "greek-3123",
-              "eng": "more",
-              "punct": "."
+              "cht": "要照你們現在所行的更加"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "勉勵",
+              "punct_cht": "。"
             }
           ]
         },
@@ -715,111 +574,76 @@
             "greek-199": 5.208574812158221
           },
           "verseKey": "act.18.26",
-          "cunp": "他在會堂裏放膽講道；百基拉、亞居拉聽見，就接他來，將神的道給他講解更加詳細。",
+          "nasb": "and he began to speak out boldly in the synagogue. But when Priscilla and Aquila heard him, they took him aside and explained to him the way of God more accurately.",
           "words": [
             {
               "id": "greek-3778",
-              "eng": "He"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "then"
-            },
-            {
-              "id": "greek-756",
-              "eng": "began"
-            },
-            {
-              "id": "greek-3955",
-              "eng": "to speak boldly"
+              "cht": "他"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-4864",
-              "eng": "synagogue",
-              "punct": "."
+              "cht": "會堂裡"
             },
             {
-              "id": "greek-191",
-              "eng": "Having heard"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him"
-            },
-            {
-              "id": "greek-4252",
-              "eng": "Priscilla"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3955",
+              "cht": "放膽講道",
+              "punct_cht": "；"
             },
             {
               "id": "greek-207",
-              "eng": "Aquila",
-              "punct": ","
+              "cht": "百基拉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4252",
+              "cht": "亞居拉"
+            },
+            {
+              "id": "greek-191",
+              "cht": "聽見",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4355",
-              "eng": "they took to [them]"
+              "cht": "就接"
             },
             {
               "id": "greek-846",
-              "eng": "him"
+              "cht": "他"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-199",
-              "eng": "more accurately"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him"
-            },
-            {
-              "id": "greek-1620",
-              "eng": "expounded"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3598",
-              "eng": "way"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
+              "id": "",
+              "cht": "將"
             },
             {
               "id": "greek-2316",
-              "eng": "God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "greek-3598",
+              "cht": "的道"
             },
             {
-              "id": ""
+              "id": "greek-846",
+              "cht": "給他"
             },
             {
-              "id": "greek-197"
+              "id": "greek-1620",
+              "cht": "講解"
+            },
+            {
+              "id": "greek-197",
+              "cht": "更加詳細",
+              "punct_cht": "。"
             }
           ]
         },
@@ -829,105 +653,75 @@
             "greek-199": 5.208574812158221
           },
           "verseKey": "act.24.22",
-          "cunp": "腓力斯本是詳細曉得這道，就支吾他們說：「且等千夫長呂西亞下來，我要審斷你們的事。」",
+          "nasb": "But Felix, having a more exact knowledge about the Way, put them off, saying, “When Lysias the commander comes down, I will decide your case.”",
           "words": [
             {
-              "id": "greek-306",
-              "eng": "Put off"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-5344",
-              "eng": "Felix",
-              "punct": ","
+              "cht": "腓力斯"
             },
             {
-              "id": "greek-199",
-              "eng": "more precisely"
+              "id": "greek-191",
+              "cht": "本是"
             },
             {
-              "id": "greek-1492",
-              "eng": "having knowledge of"
+              "id": "greek-197",
+              "cht": "詳細"
             },
             {
-              "id": "greek-3588",
-              "eng": "the things"
+              "id": "greek-5023",
+              "cht": "曉得"
             },
             {
               "id": "greek-4012",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "這"
             },
             {
               "id": "greek-3598",
-              "eng": "Way",
-              "punct": ","
+              "cht": "道",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-306",
+              "cht": "就支吾"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們"
             },
             {
               "id": "greek-2036",
-              "eng": "having said",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3752",
-              "eng": "When"
-            },
-            {
-              "id": "greek-3079",
-              "eng": "Lysias"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "且等"
             },
             {
               "id": "greek-5506",
-              "eng": "commander"
+              "cht": "千夫長"
+            },
+            {
+              "id": "greek-3079",
+              "cht": "呂西亞"
             },
             {
               "id": "greek-2597",
-              "eng": "might have come down",
-              "punct": ","
+              "cht": "下來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1231",
-              "eng": "I will examine"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
-            },
-            {
-              "id": "greek-2596",
-              "eng": "as to"
+              "cht": "我要審斷"
             },
             {
               "id": "greek-5209",
-              "eng": "you",
-              "punct": ","
+              "cht": "你們"
             },
             {
-              "id": "greek-191"
-            },
-            {
-              "id": "greek-197"
-            },
-            {
-              "id": "greek-5023"
+              "id": "greek-2596",
+              "cht": "的事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -937,58 +731,49 @@
             "greek-199": 5.208574812158221
           },
           "verseKey": "luk.1.3",
-          "cunp": "這些事我既從起頭都詳細考察了，就定意要按着次序寫給你，",
+          "nasb": "it seemed fitting for me as well, having investigated everything carefully from the beginning, to write it out for you in consecutive order, most excellent Theophilus;",
           "words": [
             {
-              "id": "greek-1380",
-              "eng": "it seemed good"
+              "id": "greek-3956",
+              "cht": "這些事"
             },
             {
               "id": "greek-2504",
-              "eng": "also to me",
-              "punct": ","
-            },
-            {
-              "id": "greek-3877",
-              "eng": "having been acquainted"
+              "cht": "我既"
             },
             {
               "id": "greek-509",
-              "eng": "from the first"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "with all things",
-              "punct": ","
+              "cht": "從起頭"
             },
             {
               "id": "greek-199",
-              "eng": "carefully"
+              "cht": "都詳細"
+            },
+            {
+              "id": "greek-3877",
+              "cht": "考察"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1380",
+              "cht": "就定意"
             },
             {
               "id": "greek-2517",
-              "eng": "with method"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "to you"
+              "cht": "要按著次序"
             },
             {
               "id": "greek-1125",
-              "eng": "to write",
-              "punct": ","
+              "cht": "寫"
             },
             {
-              "id": "greek-2903",
-              "eng": "most excellent"
-            },
-            {
-              "id": "greek-2321",
-              "eng": "Theophilus",
-              "punct": ","
-            },
-            {
-              "id": ""
+              "id": "greek-4671",
+              "cht": "給你",
+              "punct_cht": "，"
             }
           ]
         },
@@ -998,113 +783,79 @@
             "greek-199": 5.208574812158221
           },
           "verseKey": "act.18.25",
-          "cunp": "這人已經在主的道上受了教訓，心裏火熱，將耶穌的事詳細講論教訓人；只是他單曉得約翰的洗禮。",
+          "nasb": "This man had been instructed in the way of the Lord; and being fervent in spirit, he was speaking and teaching accurately the things concerning Jesus, being acquainted only with the baptism of John;",
           "words": [
             {
               "id": "greek-3778",
-              "eng": "He"
-            },
-            {
-              "id": "greek-2258",
-              "eng": "was"
-            },
-            {
-              "id": "greek-2727",
-              "eng": "instructed in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3598",
-              "eng": "way"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "這人"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord",
-              "punct": "."
+              "cht": "已經在主"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-3598",
+              "cht": "的道"
             },
             {
-              "id": "greek-2204",
-              "eng": "being fervent"
+              "id": "greek-2258",
+              "cht": "上受了"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2727",
+              "cht": "教訓",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4151",
-              "eng": "in spirit",
-              "punct": ","
+              "cht": "心裡"
             },
             {
-              "id": "greek-2980",
-              "eng": "he was speaking"
+              "id": "greek-2204",
+              "cht": "火熱",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1321",
-              "eng": "was teaching"
-            },
-            {
-              "id": "greek-199",
-              "eng": "earnestly"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "id": "greek-2962",
+              "cht": "將耶穌"
             },
             {
               "id": "greek-4012",
-              "eng": "concerning"
+              "cht": "的事"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-199",
+              "cht": "詳細"
             },
             {
-              "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "id": "greek-2980",
+              "cht": "講論"
             },
             {
-              "id": "greek-1987",
-              "eng": "knowing"
+              "id": "greek-1321",
+              "cht": "教訓"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3440",
-              "eng": "only"
+              "cht": "只是他單"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-908",
-              "eng": "baptism"
+              "id": "greek-1987",
+              "cht": "曉得"
             },
             {
               "id": "greek-2491",
-              "eng": "of John",
-              "punct": "."
+              "cht": "約翰"
             },
             {
-              "id": "greek-2962"
-            },
-            {
-              "id": ""
+              "id": "greek-908",
+              "cht": "的洗禮",
+              "punct_cht": "。"
             }
           ]
         }

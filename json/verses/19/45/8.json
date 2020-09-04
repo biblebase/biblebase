@@ -3,17 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4753": "With myrrh",
-          "hebrew-174": "and aloes",
-          "hebrew-7102": "[and] cassia",
-          "hebrew-3605": "all",
-          "hebrew-899": "Your garments are [scented]",
-          "hebrew-4480": "Out",
-          "hebrew-1964": "of the palaces",
-          "hebrew-8127": "ivory",
-          "hebrew-4482": "by which",
-          "hebrew-8055": "they have made You glad",
-          "": null
+          "eng": {
+            "hebrew-4753": "With myrrh",
+            "hebrew-174": "and aloes",
+            "hebrew-7102": "[and] cassia",
+            "hebrew-3605": "all",
+            "hebrew-899": "Your garments are [scented]",
+            "hebrew-4480": "Out",
+            "hebrew-1964": "of the palaces",
+            "hebrew-8127": "ivory",
+            "hebrew-4482": "by which",
+            "hebrew-8055": "they have made You glad",
+            "": null
+          },
+          "cht": {
+            "hebrew-4753": "有沒藥、",
+            "hebrew-174": "沉香、",
+            "hebrew-7102": "肉桂",
+            "hebrew-3605": "都",
+            "hebrew-899": "你的衣服",
+            "hebrew-1964": "宮",
+            "hebrew-8127": "象牙",
+            "hebrew-4482": "中有絲弦樂器",
+            "hebrew-8055": "的聲音使你歡喜"
+          }
         }
       },
       "translations": {
@@ -32,33 +45,33 @@
             "hebrew-4482": 14
           },
           "verseKey": "psa.150.4",
-          "cunp": "擊鼓跳舞讚美他！ 用絲弦的樂器和簫的聲音讚美他！",
+          "nasb": "Praise Him with timbrel and dancing; Praise Him with stringed instruments and pipe.",
           "words": [
             {
-              "id": "hebrew-1984",
-              "eng": "Praise Him"
-            },
-            {
               "id": "hebrew-8596",
-              "eng": "with the timbrel"
+              "cht": "擊鼓"
             },
             {
               "id": "hebrew-4234",
-              "eng": "and dance",
-              "punct": "–"
+              "cht": "跳舞"
             },
             {
               "id": "hebrew-1984",
-              "eng": "Praise Him"
+              "cht": "讚美他",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-4482",
-              "eng": "with stringed instruments"
+              "cht": "用絲弦的樂器"
             },
             {
               "id": "hebrew-5748",
-              "eng": "and flutes",
-              "punct": "."
+              "cht": "和簫"
+            },
+            {
+              "id": "hebrew-1984",
+              "cht": "的聲音讚美他",
+              "punct_cht": "！"
             }
           ]
         },
@@ -70,7 +83,7 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "num.14.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -80,30 +93,28 @@
             "hebrew-174": 6.7856512265994295
           },
           "verseKey": "pro.7.17",
-          "cunp": "我又用沒藥、沉香、桂皮 薰了我的榻。",
+          "nasb": "I have sprinkled my bed With myrrh, aloes and cinnamon.",
           "words": [
             {
-              "id": "hebrew-5130",
-              "eng": "I have perfumed"
-            },
-            {
-              "id": "hebrew-4904",
-              "eng": "my bed"
-            },
-            {
               "id": "hebrew-4753",
-              "eng": "with myrrh",
-              "punct": "､"
+              "cht": "我又用沒藥、"
             },
             {
               "id": "hebrew-174",
-              "eng": "aloes",
-              "punct": "､"
+              "cht": "沉香、"
             },
             {
               "id": "hebrew-7076",
-              "eng": "and cinnamon",
-              "punct": "."
+              "cht": "桂皮"
+            },
+            {
+              "id": "hebrew-5130",
+              "cht": "薰了"
+            },
+            {
+              "id": "hebrew-4904",
+              "cht": "我的榻",
+              "punct_cht": "。"
             }
           ]
         },
@@ -114,96 +125,78 @@
             "hebrew-174": 6.7856512265994295
           },
           "verseKey": "jhn.19.39",
-          "cunp": "又有尼哥德慕，就是先前夜裏去見耶穌的，帶着沒藥和沉香約有一百斤前來。",
+          "nasb": "Nicodemus, who had first come to Him by night, also came, bringing a mixture of myrrh and aloes, about a hundred pounds weight.",
           "words": [
             {
-              "id": "greek-2064",
-              "eng": "Came"
-            },
-            {
               "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "又有"
             },
             {
               "id": "greek-3530",
-              "eng": "Nicodemus",
-              "punct": ","
+              "cht": "尼哥底母",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "having come"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-3571",
-              "eng": "by night"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "at the"
+              "cht": "就是"
             },
             {
               "id": "greek-4412",
-              "eng": "first",
-              "punct": ","
+              "cht": "先前"
+            },
+            {
+              "id": "greek-3571",
+              "cht": "夜裡"
+            },
+            {
+              "id": "greek-2064",
+              "cht": "去"
+            },
+            {
+              "id": "greek-4314",
+              "cht": "見"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5342",
-              "eng": "bearing"
+              "cht": "帶著"
             },
             {
               "id": "greek-3395",
-              "eng": "a mixture"
-            },
-            {
-              "id": "greek-4666",
-              "eng": "of myrrh"
+              "cht": "沒藥"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-250",
-              "eng": "aloes",
-              "punct": ","
+              "cht": "沉香"
             },
             {
-              "id": "greek-5613",
-              "eng": "about"
-            },
-            {
-              "id": "greek-3046",
-              "eng": "litras"
+              "id": "greek-5616",
+              "cht": "約有"
             },
             {
               "id": "greek-1540",
-              "eng": "a hundred",
-              "punct": "."
+              "cht": "一百"
             },
             {
-              "id": "greek-2424"
+              "id": "greek-3046",
+              "cht": "斤"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-5616"
+              "id": "greek-2064",
+              "cht": "前來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -213,7 +206,7 @@
             "hebrew-4753": 4.414215456672498
           },
           "verseKey": "deu.5.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -222,54 +215,55 @@
             "hebrew-174": 6.7856512265994295
           },
           "verseKey": "num.24.6",
-          "cunp": "如接連的山谷， 如河旁的園子， 如耶和華所栽的沉香樹， 如水邊的香柏木。",
+          "nasb": "Like valleys that stretch out, Like gardens beside the river, Like aloes planted by the Lord, Like cedars beside the waters.",
           "words": [
             {
-              "id": "hebrew-5158",
-              "eng": "Like valleys"
-            },
-            {
               "id": "hebrew-5186",
-              "eng": "that stretch out",
-              "punct": "､"
+              "cht": "如接連"
             },
             {
-              "id": "hebrew-1593",
-              "eng": "Like gardens"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "by"
+              "id": "hebrew-5158",
+              "cht": "的山谷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5104",
-              "eng": "the river"
-            },
-            {
-              "id": "hebrew-174",
-              "eng": "Like aloes"
-            },
-            {
-              "id": "hebrew-5193",
-              "eng": "planted by",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-730",
-              "eng": "Like cedars"
+              "cht": "如河"
             },
             {
               "id": "hebrew-5921",
-              "eng": "beside"
+              "cht": "旁"
+            },
+            {
+              "id": "hebrew-1593",
+              "cht": "的園子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "如耶和華"
+            },
+            {
+              "id": "hebrew-5193",
+              "cht": "所栽"
+            },
+            {
+              "id": "hebrew-174",
+              "cht": "的沉香樹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters",
-              "punct": "."
+              "cht": "如水"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "邊"
+            },
+            {
+              "id": "hebrew-730",
+              "cht": "的香柏木",
+              "punct_cht": "。"
             }
           ]
         },
@@ -280,7 +274,7 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "lev.6.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -289,65 +283,60 @@
             "hebrew-1964": 1.5197472827802379
           },
           "verseKey": "jer.7.4",
-          "cunp": "你們不要倚靠虛謊的話，說：『這些是耶和華的殿，是耶和華的殿，是耶和華的殿！』",
+          "nasb": "Do not trust in deceptive words, saying, ‘This is the temple of the Lord, the temple of the Lord, the temple of the Lord.’",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-982",
-              "eng": "do trust"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "these words",
-              "punct": "､"
+              "cht": "倚靠"
             },
             {
               "id": "hebrew-8267",
-              "eng": "lying"
+              "cht": "虛謊"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1964",
-              "eng": "the temple"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1964",
-              "eng": "the temple"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1964",
-              "eng": "the temple"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-1992",
-              "eng": "[are] those",
-              "punct": "."
+              "cht": "這些是"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1964",
+              "cht": "的殿",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "是耶和華"
+            },
+            {
+              "id": "hebrew-1964",
+              "cht": "的殿",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "是耶和華"
+            },
+            {
+              "id": "hebrew-1964",
+              "cht": "的殿",
+              "punct_cht": "！』"
             }
           ]
         },
@@ -357,88 +346,88 @@
             "hebrew-4753": 4.414215456672498
           },
           "verseKey": "exo.30.23",
-          "cunp": "「你要取上品的香料，就是流質的沒藥五百舍客勒，香肉桂一半，就是二百五十舍客勒，菖蒲二百五十舍客勒，",
+          "nasb": "“Take also for yourself the finest of spices: of flowing myrrh five hundred shekels, and of fragrant cinnamon half as much, two hundred and fifty, and of fragrant cane two hundred and fifty,",
           "words": [
             {
               "id": "hebrew-859",
-              "eng": "and you"
+              "cht": "你"
             },
             {
               "id": "hebrew-3947",
-              "eng": "take"
-            },
-            {
-              "id": "hebrew-1314",
-              "eng": "spices"
+              "cht": "要取"
             },
             {
               "id": "hebrew-7218",
-              "eng": "quality",
-              "punct": ":"
+              "cht": "上品的"
             },
             {
-              "id": "hebrew-4753",
-              "eng": "myrrh"
+              "id": "hebrew-1314",
+              "cht": "香料",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1865",
-              "eng": "liquid"
+              "cht": "就是流質的"
+            },
+            {
+              "id": "hebrew-4753",
+              "cht": "沒藥"
             },
             {
               "id": "hebrew-2568",
-              "eng": "five"
+              "cht": "五"
             },
             {
               "id": "hebrew-3967",
-              "eng": "hundred [shekels]",
-              "punct": "–"
+              "cht": "百"
+            },
+            {
+              "id": "",
+              "cht": "舍客勒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1314",
+              "cht": "香"
             },
             {
               "id": "hebrew-7076",
-              "eng": "and cinnamon"
-            },
-            {
-              "id": "hebrew-1314",
-              "eng": "sweet-smelling"
+              "cht": "肉桂"
             },
             {
               "id": "hebrew-4276",
-              "eng": "half as much"
-            },
-            {
-              "id": "hebrew-2572",
-              "eng": "fifty"
+              "cht": "一半",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3967",
-              "eng": "and two hundred [shekels]",
-              "punct": "–"
+              "cht": "就是二百"
+            },
+            {
+              "id": "hebrew-2572",
+              "cht": "五十"
+            },
+            {
+              "id": "",
+              "cht": "舍客勒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7070",
-              "eng": "and cane"
-            },
-            {
-              "id": "hebrew-1314",
-              "eng": "sweet-smelling"
-            },
-            {
-              "id": "hebrew-2572",
-              "eng": "fifty"
+              "cht": "菖蒲"
             },
             {
               "id": "hebrew-3967",
-              "eng": "and two hundred [shekels]",
-              "punct": "."
+              "cht": "二百"
             },
             {
-              "id": ""
+              "id": "hebrew-2572",
+              "cht": "五十"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "舍客勒",
+              "punct_cht": "，"
             }
           ]
         },
@@ -448,7 +437,7 @@
             "hebrew-4753": 4.414215456672498
           },
           "verseKey": "gen.13.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         }
       ]

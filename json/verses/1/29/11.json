@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5401": "And kissed",
-          "hebrew-3290": "Jacob",
-          "hebrew-7354": "Rachel",
-          "hebrew-5375": "and lifted up",
-          "hebrew-853": "-",
-          "hebrew-6963": "his voice",
-          "hebrew-1058": "and wept"
+          "eng": {
+            "hebrew-5401": "And kissed",
+            "hebrew-3290": "Jacob",
+            "hebrew-7354": "Rachel",
+            "hebrew-5375": "and lifted up",
+            "hebrew-853": "-",
+            "hebrew-6963": "his voice",
+            "hebrew-1058": "and wept"
+          },
+          "cht": {
+            "hebrew-5401": "親嘴",
+            "hebrew-3290": "雅各",
+            "hebrew-7354": "與拉結",
+            "hebrew-5375": "就放",
+            "hebrew-853": "就放",
+            "hebrew-6963": "聲",
+            "hebrew-1058": "而哭"
+          }
         }
       },
       "translations": {
@@ -28,87 +39,76 @@
             "hebrew-7354": 2.452276740079168
           },
           "verseKey": "gen.30.1",
-          "cunp": "拉結見自己不給雅各生子，就嫉妒她姊姊，對雅各說：「你給我孩子，不然我就死了。」",
+          "nasb": "Now when Rachel saw that she bore Jacob no children, she became jealous of her sister; and she said to Jacob, “Give me children, or else I die.”",
           "words": [
             {
-              "id": "hebrew-7200",
-              "eng": "And when saw"
-            },
-            {
               "id": "hebrew-7354",
-              "eng": "Rachel"
+              "cht": "拉結"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-7200",
+              "cht": "見"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "自己不"
+            },
+            {
+              "id": "hebrew-3290",
+              "cht": "給雅各"
             },
             {
               "id": "hebrew-3205",
-              "eng": "she bore children"
+              "cht": "生"
             },
             {
-              "id": "hebrew-3290",
-              "eng": "Jacob",
-              "punct": "､"
+              "id": "",
+              "cht": "子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7065",
-              "eng": "then envied"
-            },
-            {
-              "id": "hebrew-7354",
-              "eng": "Rachel"
+              "cht": "就嫉妒"
             },
             {
               "id": "hebrew-269",
-              "eng": "her sister",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "cht": "她姊姊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-3290",
-              "eng": "Jacob",
-              "punct": "､"
+              "cht": "雅各"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3051",
-              "eng": "Give"
+              "cht": "你給"
             },
             {
               "id": "hebrew-1121",
-              "eng": "children",
-              "punct": "､"
+              "cht": "孩子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-518",
-              "eng": "and if"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "will die"
+              "cht": "不然"
             },
             {
               "id": "hebrew-595",
-              "eng": "I",
-              "punct": "."
+              "cht": "我"
             },
             {
-              "id": ""
+              "id": "hebrew-4191",
+              "cht": "就死了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -119,55 +119,50 @@
             "hebrew-7354": 2.452276740079168
           },
           "verseKey": "gen.29.18",
-          "cunp": "雅各愛拉結，就說：「我願為你小女兒拉結服事你七年。」",
+          "nasb": "Now Jacob loved Rachel, so he said, “I will serve you seven years for your younger daughter Rachel.”",
           "words": [
             {
-              "id": "hebrew-157",
-              "eng": "And loved"
-            },
-            {
               "id": "hebrew-3290",
-              "eng": "Jacob"
+              "cht": "雅各"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-157",
+              "cht": "愛"
             },
             {
               "id": "hebrew-7354",
-              "eng": "Rachel",
-              "punct": "–"
+              "cht": "拉結",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "so he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5647",
-              "eng": "I will serve you"
-            },
-            {
-              "id": "hebrew-7651",
-              "eng": "seven"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years"
-            },
-            {
-              "id": "hebrew-7354",
-              "eng": "for Rachel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "your daughter"
+              "cht": "就說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6996",
-              "eng": "younger",
-              "punct": "."
+              "cht": "我願為你小"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "女兒"
+            },
+            {
+              "id": "hebrew-7354",
+              "cht": "拉結"
+            },
+            {
+              "id": "hebrew-5647",
+              "cht": "服事你"
+            },
+            {
+              "id": "hebrew-7651",
+              "cht": "七"
+            },
+            {
+              "id": "hebrew-8141",
+              "cht": "年",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -178,61 +173,45 @@
             "hebrew-6963": 0.8636526616215596
           },
           "verseKey": "ezk.3.13",
-          "cunp": "我又聽見那活物翅膀相碰，與活物旁邊輪子旋轉震動轟轟的響聲。",
+          "nasb": "And I heard the sound of the wings of the living beings touching one another and the sound of the wheels beside them, even a great rumbling sound.",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "And [I] also [heard] the noise"
+              "id": "hebrew-2416",
+              "cht": "我又聽見那活物"
             },
             {
               "id": "hebrew-3671",
-              "eng": "of the wings"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "of the living creatures"
-            },
-            {
-              "id": "hebrew-5401",
-              "eng": "that touched"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "one"
+              "cht": "翅膀"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-269",
-              "eng": "another",
-              "punct": "､"
+              "cht": "相"
             },
             {
               "id": "hebrew-6963",
-              "eng": "and the noise"
-            },
-            {
-              "id": "hebrew-212",
-              "eng": "of the wheels"
+              "cht": "碰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5980",
-              "eng": "beside them"
+              "cht": "與活物旁邊"
             },
             {
               "id": "hebrew-6963",
-              "eng": "and a noise"
+              "cht": "輪子"
             },
             {
               "id": "hebrew-7494",
-              "eng": "thunderous"
+              "cht": "旋轉震動"
             },
             {
               "id": "hebrew-1419",
-              "eng": "great",
-              "punct": "."
+              "cht": "轟轟"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "的響聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -244,49 +223,49 @@
             "hebrew-1058": 1.455515691517328
           },
           "verseKey": "rut.1.14",
-          "cunp": "兩個兒婦又放聲而哭，俄珥巴與婆婆親嘴而別，只是路得捨不得拿俄米。",
+          "nasb": "And they lifted up their voices and wept again; and Orpah kissed her mother-in-law, but Ruth clung to her.",
           "words": [
             {
+              "id": "hebrew-5750",
+              "cht": "兩個兒婦又"
+            },
+            {
               "id": "hebrew-5375",
-              "eng": "And they lifted up"
+              "cht": "放"
             },
             {
               "id": "hebrew-6963",
-              "eng": "their voices",
-              "punct": "､"
+              "cht": "聲"
             },
             {
               "id": "hebrew-1058",
-              "eng": "and wept"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "again",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5401",
-              "eng": "and kissed"
+              "cht": "而哭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6204",
-              "eng": "Orpah"
+              "cht": "俄珥巴"
             },
             {
               "id": "hebrew-2545",
-              "eng": "her mother-in-law",
-              "punct": "–"
+              "cht": "與婆婆"
+            },
+            {
+              "id": "hebrew-5401",
+              "cht": "親嘴"
+            },
+            {
+              "id": "",
+              "cht": "而別",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7327",
-              "eng": "but Ruth"
+              "cht": "只是路得"
             },
             {
               "id": "hebrew-1692",
-              "eng": "clung"
-            },
-            {
-              "id": ""
+              "cht": "捨不得"
             }
           ]
         },
@@ -298,55 +277,54 @@
             "hebrew-1058": 1.455515691517328
           },
           "verseKey": "rut.1.9",
-          "cunp": "願耶和華使你們各在新夫家中得平安！」於是拿俄米與她們親嘴。她們就放聲而哭，",
+          "nasb": "May the Lord grant that you may find rest, each in the house of her husband.” Then she kissed them, and they lifted up their voices and wept.",
           "words": [
             {
-              "id": "hebrew-5414",
-              "eng": "Grant"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "願耶和華"
             },
             {
-              "id": "hebrew-4672",
-              "eng": "that may find"
-            },
-            {
-              "id": "hebrew-4496",
-              "eng": "rest",
-              "punct": "､"
+              "id": "hebrew-5414",
+              "cht": "使"
             },
             {
               "id": "hebrew-802",
-              "eng": "each"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "in the house"
+              "cht": "各"
             },
             {
               "id": "hebrew-376",
-              "eng": "of her husband",
-              "punct": "."
+              "cht": "在新夫"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家中"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "得"
+            },
+            {
+              "id": "hebrew-4496",
+              "cht": "平安",
+              "punct_cht": "！」"
             },
             {
               "id": "hebrew-5401",
-              "eng": "And she kissed"
+              "cht": "親嘴",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5375",
-              "eng": "and they lifted up"
+              "cht": "她們就放"
             },
             {
               "id": "hebrew-6963",
-              "eng": "their voices",
-              "punct": "､"
+              "cht": "聲"
             },
             {
               "id": "hebrew-1058",
-              "eng": "and wept",
-              "punct": "."
+              "cht": "而哭",
+              "punct_cht": "，"
             }
           ]
         },
@@ -356,73 +334,62 @@
             "hebrew-7354": 2.452276740079168
           },
           "verseKey": "gen.29.30",
-          "cunp": "雅各也與拉結同房，並且愛拉結勝似愛利亞，於是又服事了拉班七年。",
+          "nasb": "So Jacob went in to Rachel also, and indeed he loved Rachel more than Leah, and he served with Laban for another seven years.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "And [Jacob] went in"
-            },
-            {
               "id": "hebrew-1571",
-              "eng": "also"
+              "cht": "雅各也"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "與"
             },
             {
               "id": "hebrew-7354",
-              "eng": "Rachel",
-              "punct": "､"
+              "cht": "拉結"
             },
             {
-              "id": "hebrew-157",
-              "eng": "and he loved"
+              "id": "hebrew-935",
+              "cht": "同房",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "also"
+              "cht": "並且"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-157",
+              "cht": "愛"
             },
             {
               "id": "hebrew-7354",
-              "eng": "Rachel"
+              "cht": "拉結"
             },
             {
               "id": "hebrew-3812",
-              "eng": "more than Leah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5647",
-              "eng": "and he served"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "with Laban"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "still"
-            },
-            {
-              "id": "hebrew-7651",
-              "eng": "seven"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years"
+              "cht": "勝似愛利亞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-312",
-              "eng": "another",
-              "punct": "."
+              "cht": "於是又"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5647",
+              "cht": "服事"
+            },
+            {
+              "id": "hebrew-5973",
+              "cht": "了拉班"
+            },
+            {
+              "id": "hebrew-7651",
+              "cht": "七"
+            },
+            {
+              "id": "hebrew-8141",
+              "cht": "年",
+              "punct_cht": "。"
             }
           ]
         },
@@ -434,89 +401,76 @@
             "hebrew-1058": 1.455515691517328
           },
           "verseKey": "jer.31.15",
-          "cunp": "耶和華如此說： 在拉瑪聽見號咷痛哭的聲音， 是拉結哭她兒女，不肯受安慰， 因為他們都不在了。",
+          "nasb": "Thus says the Lord, “A voice is heard in Ramah, Lamentation and bitter weeping. Rachel is weeping for her children; She refuses to be comforted for her children, Because they are no more.”",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "a voice"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-7414",
-              "eng": "in Ramah",
-              "punct": "､"
+              "cht": "在拉瑪"
             },
             {
               "id": "hebrew-8085",
-              "eng": "was heard"
+              "cht": "聽見"
             },
             {
               "id": "hebrew-5092",
-              "eng": "Lamentation",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1065",
-              "eng": "weeping",
-              "punct": "–"
+              "cht": "號咷"
             },
             {
               "id": "hebrew-8563",
-              "eng": "[and] bitter"
+              "cht": "痛"
+            },
+            {
+              "id": "hebrew-1065",
+              "cht": "哭"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7354",
-              "eng": "Rachel"
+              "cht": "是拉結"
             },
             {
               "id": "hebrew-1058",
-              "eng": "weeping"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "for"
+              "cht": "哭"
             },
             {
               "id": "hebrew-1121",
-              "eng": "her children"
+              "cht": "她兒女",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3985",
-              "eng": "Refusing"
+              "cht": "不肯"
             },
             {
               "id": "hebrew-5162",
-              "eng": "to be comforted"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "her children",
-              "punct": "､"
+              "cht": "受安慰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "因為"
             },
             {
               "id": "hebrew-369",
-              "eng": "[they are] no [more]",
-              "punct": "."
+              "cht": "他們都不在了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -528,95 +482,83 @@
             "hebrew-1058": 1.455515691517328
           },
           "verseKey": "mat.2.18",
-          "cunp": "在拉瑪聽見號咷大哭的聲音， 是拉結哭她兒女， 不肯受安慰， 因為他們都不在了。",
+          "nasb": "“A voice was heard in Ramah, Weeping and great mourning, Rachel weeping for her children; And she refused to be comforted, Because they were no more.”",
           "words": [
             {
-              "id": "greek-5456",
-              "eng": "A voice"
-            },
-            {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-4471",
-              "eng": "Ramah"
+              "cht": "拉瑪"
             },
             {
               "id": "greek-191",
-              "eng": "was heard",
-              "punct": ","
+              "cht": "聽見"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "號"
             },
             {
               "id": "greek-2805",
-              "eng": "weeping"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3602",
-              "eng": "mourning"
+              "cht": "咷"
             },
             {
               "id": "greek-4183",
-              "eng": "great",
-              "punct": ","
+              "cht": "大"
+            },
+            {
+              "id": "greek-3602",
+              "cht": "哭"
+            },
+            {
+              "id": "greek-5456",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4478",
-              "eng": "Rachel"
+              "cht": "是拉結"
             },
             {
               "id": "greek-2799",
-              "eng": "weeping [for]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5043",
-              "eng": "children"
+              "cht": "哭"
             },
             {
               "id": "greek-846",
-              "eng": "of her",
-              "punct": ","
+              "cht": "她"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-5043",
+              "cht": "兒女",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-2309",
-              "eng": "would"
+              "cht": "肯"
             },
             {
               "id": "greek-3870",
-              "eng": "be comforted",
-              "punct": ","
+              "cht": "受安慰",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "because"
+              "cht": "因為"
             },
             {
               "id": "greek-3756",
-              "eng": "no more"
+              "cht": "他們都不"
             },
             {
               "id": "greek-1526",
-              "eng": "are they",
-              "punct": "."
-            },
-            {
-              "id": "greek-2355"
+              "cht": "在了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -627,135 +569,106 @@
             "hebrew-7354": 2.452276740079168
           },
           "verseKey": "gen.29.10",
-          "cunp": "雅各看見母舅拉班的女兒拉結和母舅拉班的羊羣，就上前把石頭轉離井口，飲他母舅拉班的羊羣。",
+          "nasb": "When Jacob saw Rachel the daughter of Laban his mother’s brother, and the sheep of Laban his mother’s brother, Jacob went up and rolled the stone from the mouth of the well and watered the flock of Laban his mother’s brother.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it came to pass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "when"
+              "id": "hebrew-3290",
+              "cht": "雅各"
             },
             {
               "id": "hebrew-7200",
-              "eng": "saw"
+              "cht": "看見"
             },
             {
-              "id": "hebrew-3290",
-              "eng": "Jacob"
+              "id": "hebrew-517",
+              "cht": "母"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-251",
+              "cht": "舅"
             },
             {
-              "id": "hebrew-7354",
-              "eng": "Rachel",
-              "punct": "､"
+              "id": "hebrew-3837",
+              "cht": "拉班"
             },
             {
               "id": "hebrew-1323",
-              "eng": "the daughter"
+              "cht": "的女兒"
             },
             {
-              "id": "hebrew-3837",
-              "eng": "of Laban",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "brother"
-            },
-            {
-              "id": "hebrew-517",
-              "eng": "of his mother",
-              "punct": "､"
+              "id": "hebrew-7354",
+              "cht": "拉結"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "the sheep"
-            },
-            {
-              "id": "hebrew-3837",
-              "eng": "of Laban",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "brother"
+              "cht": "和"
             },
             {
               "id": "hebrew-517",
-              "eng": "of his mother",
-              "punct": "､"
+              "cht": "母"
+            },
+            {
+              "id": "hebrew-251",
+              "cht": "舅"
+            },
+            {
+              "id": "hebrew-3837",
+              "cht": "拉班"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "的羊群",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5066",
-              "eng": "that went near"
-            },
-            {
-              "id": "hebrew-3290",
-              "eng": "Jacob"
-            },
-            {
-              "id": "hebrew-1556",
-              "eng": "and rolled"
+              "cht": "就上前"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "把"
             },
             {
               "id": "hebrew-68",
-              "eng": "the stone"
+              "cht": "石頭"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "from"
+              "id": "hebrew-1556",
+              "cht": "轉"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "mouth"
+              "id": "hebrew-4480",
+              "cht": "離"
             },
             {
               "id": "hebrew-875",
-              "eng": "of the well",
-              "punct": "､"
+              "cht": "井"
             },
             {
-              "id": "hebrew-8248",
-              "eng": "and watered"
+              "id": "hebrew-6310",
+              "cht": "口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "the flock"
-            },
-            {
-              "id": "hebrew-3837",
-              "eng": "of Laban",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "brother"
+              "cht": "飲"
             },
             {
               "id": "hebrew-517",
-              "eng": "of his mother",
-              "punct": "."
+              "cht": "他母"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-251",
+              "cht": "舅"
+            },
+            {
+              "id": "hebrew-3837",
+              "cht": "拉班"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "的羊群",
+              "punct_cht": "。"
             }
           ]
         },
@@ -765,75 +678,72 @@
             "hebrew-1058": 1.455515691517328
           },
           "verseKey": "jer.22.10",
-          "cunp": "不要為死人哭號； 不要為他悲傷， 卻要為離家出外的人大大哭號； 因為他不得再回來， 也不得再見他的本國。",
+          "nasb": "Do not weep for the dead or mourn for him, But weep continually for the one who goes away; For he will never return Or see his native land.",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-1058",
-              "eng": "Weep"
+              "cht": "不要"
             },
             {
               "id": "hebrew-4191",
-              "eng": "for the dead",
-              "punct": "､"
+              "cht": "為死人"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "哭號",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
+              "cht": "不要"
             },
             {
               "id": "hebrew-5110",
-              "eng": "bemoan"
-            },
-            {
-              "id": "hebrew-1058",
-              "eng": "Weep"
-            },
-            {
-              "id": "hebrew-1058",
-              "eng": "bitterly"
+              "cht": "悲傷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1980",
-              "eng": "for him who goes away",
-              "punct": "–"
+              "cht": "卻要為離家出外"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "的人大大"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "哭號",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "he shall return"
+              "cht": "他不得"
             },
             {
               "id": "hebrew-5750",
-              "eng": "more",
-              "punct": "､"
+              "cht": "再"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "回來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "nor see"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "country"
+              "cht": "也不得再見"
             },
             {
               "id": "hebrew-4138",
-              "eng": "his native",
-              "punct": "."
+              "cht": "他的本"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "國",
+              "punct_cht": "。"
             }
           ]
         }

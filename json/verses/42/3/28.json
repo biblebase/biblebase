@@ -3,13 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "-",
-          "greek-3197": "of Melchi",
-          "greek-78": "of Addi",
-          "greek-2973": "of Cosam",
-          "greek-1678": "of Elmadam",
-          "greek-2262": "of Er",
-          "": null
+          "eng": {
+            "greek-3588": "-",
+            "greek-3197": "of Melchi",
+            "greek-78": "of Addi",
+            "greek-2973": "of Cosam",
+            "greek-1678": "of Elmadam",
+            "greek-2262": "of Er",
+            "": null
+          },
+          "cht": {
+            "greek-3197": "麥基",
+            "greek-78": "是亞底",
+            "greek-2973": "亞底是哥桑",
+            "greek-1678": "哥桑是以摩當",
+            "greek-2262": "以摩當是珥"
+          }
         }
       },
       "translations": {
@@ -22,67 +31,52 @@
             "greek-3197": 10.248599871619378
           },
           "verseKey": "luk.3.24",
-          "cunp": "希里是瑪塔的兒子；瑪塔是利未的兒子；利未是麥基的兒子；麥基是雅拿的兒子；雅拿是約瑟的兒子；",
+          "nasb": "the son of Matthat, the son of Levi, the son of Melchi, the son of Jannai, the son of Joseph,",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-3158",
-              "eng": "of Matthat",
-              "punct": ","
+              "cht": "希里是瑪塔"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3017",
-              "eng": "of Levi",
-              "punct": ","
+              "cht": "瑪塔是利未"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3197",
-              "eng": "of Melchi",
-              "punct": ","
+              "cht": "利未是麥基"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2388",
-              "eng": "of Jannai",
-              "punct": ","
+              "cht": "麥基是雅拿"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2501",
-              "eng": "of Joseph",
-              "punct": ","
+              "cht": "雅拿是約瑟"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -92,45 +86,45 @@
             "greek-2262": 4.758842454566098
           },
           "verseKey": "num.26.19",
-          "cunp": "猶大的兒子是珥和俄南。這珥和俄南死在迦南地。",
+          "nasb": "The sons of Judah were Er and Onan, but Er and Onan died in the land of Canaan.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "The sons"
+              "id": "hebrew-3063",
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-3063",
-              "eng": "of Judah"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-6147",
-              "eng": "[were] Er"
+              "cht": "是珥"
             },
             {
               "id": "hebrew-209",
-              "eng": "and Onan",
-              "punct": "､"
+              "cht": "和俄南",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-6147",
+              "cht": "這珥"
+            },
+            {
+              "id": "hebrew-209",
+              "cht": "和俄南"
             },
             {
               "id": "hebrew-4191",
-              "eng": "and died"
-            },
-            {
-              "id": "hebrew-6147",
-              "eng": "Er"
-            },
-            {
-              "id": "hebrew-209",
-              "eng": "and Onan"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "in the land"
+              "cht": "死"
             },
             {
               "id": "hebrew-3667",
-              "eng": "of Canaan",
-              "punct": "."
+              "cht": "在迦南"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -140,81 +134,78 @@
             "greek-2262": 4.758842454566098
           },
           "verseKey": "gen.46.12",
-          "cunp": "猶大的兒子是珥、俄南、示拉、法勒斯、謝拉；惟有珥與俄南死在迦南地。法勒斯的兒子是希斯崙、哈母勒。",
+          "nasb": "The sons of Judah: Er and Onan and Shelah and Perez and Zerah (but Er and Onan died in the land of Canaan). And the sons of Perez were Hezron and Hamul.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
+              "id": "hebrew-3063",
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": ":"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-6147",
-              "eng": "Er",
-              "punct": "､"
+              "cht": "是珥、"
             },
             {
               "id": "hebrew-209",
-              "eng": "and Onan",
-              "punct": "､"
+              "cht": "俄南、"
             },
             {
               "id": "hebrew-7956",
-              "eng": "and Shelah",
-              "punct": "､"
+              "cht": "示拉、"
             },
             {
               "id": "hebrew-6557",
-              "eng": "and Perez",
-              "punct": "､"
+              "cht": "法勒斯、"
             },
             {
               "id": "hebrew-2226",
-              "eng": "and Zerah"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "but died"
+              "cht": "謝拉",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6147",
-              "eng": "Er"
+              "cht": "惟有珥"
             },
             {
               "id": "hebrew-209",
-              "eng": "and Onan"
+              "cht": "與俄南"
             },
             {
-              "id": "hebrew-776",
-              "eng": "in the land"
+              "id": "hebrew-4191",
+              "cht": "死"
             },
             {
               "id": "hebrew-3667",
-              "eng": "of Canaan"
+              "cht": "在迦南"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "And were"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6557",
-              "eng": "of Perez"
+              "cht": "法勒斯"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "是"
             },
             {
               "id": "hebrew-2696",
-              "eng": "Hezron"
+              "cht": "希斯倫、"
             },
             {
               "id": "hebrew-2538",
-              "eng": "and Hamul",
-              "punct": "."
+              "cht": "哈母勒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -224,99 +215,78 @@
             "greek-2262": 4.758842454566098
           },
           "verseKey": "1ch.2.3",
-          "cunp": "猶大的兒子是珥、俄南、示拉，這三人是迦南人書亞女兒所生的。猶大的長子珥在耶和華眼中看為惡，耶和華就使他死了。",
+          "nasb": "The sons of Judah were Er, Onan and Shelah; these three were born to him by Bath-shua the Canaanitess. And Er, Judah’s firstborn, was wicked in the sight of the Lord, so He put him to death.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "The sons"
+              "id": "hebrew-3063",
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "–"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-6147",
-              "eng": "[were] Er",
-              "punct": "､"
+              "cht": "是珥、"
             },
             {
               "id": "hebrew-209",
-              "eng": "and Onan",
-              "punct": "､"
+              "cht": "俄南、"
             },
             {
               "id": "hebrew-7956",
-              "eng": "and Shelah",
-              "punct": "–"
+              "cht": "示拉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7969",
-              "eng": "[These] three"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "were born"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "of the daughter"
-            },
-            {
-              "id": "hebrew-7774",
-              "eng": "by Bathshua"
+              "cht": "這三"
             },
             {
               "id": "hebrew-3669",
-              "eng": "the Canaanitess",
-              "punct": "."
+              "cht": "人是迦南人"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "And was"
+              "id": "hebrew-4480",
+              "cht": "書亞"
             },
             {
-              "id": "hebrew-6147",
-              "eng": "Er",
-              "punct": "､"
+              "id": "hebrew-1323",
+              "cht": "女兒"
             },
             {
-              "id": "hebrew-1060",
-              "eng": "the firstborn"
+              "id": "hebrew-3205",
+              "cht": "所生"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-7451",
-              "eng": "wicked"
+              "id": "hebrew-1060",
+              "cht": "的長子"
+            },
+            {
+              "id": "hebrew-6147",
+              "cht": "珥"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "在耶和華"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in the sight"
+              "cht": "眼中"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "of Yahweh"
+              "id": "hebrew-7451",
+              "cht": "看為惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "so He killed him",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-1340"
-            },
-            {
-              "id": "hebrew-7770"
-            },
-            {
-              "id": "hebrew-3068"
+              "cht": "耶和華就使他死了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -326,47 +296,45 @@
             "greek-2262": 4.758842454566098
           },
           "verseKey": "gen.38.7",
-          "cunp": "猶大的長子珥在耶和華眼中看為惡，耶和華就叫他死了。",
+          "nasb": "But Er, Judah’s firstborn, was evil in the sight of the Lord, so the Lord took his life.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "But was"
-            },
-            {
-              "id": "hebrew-6147",
-              "eng": "Er",
-              "punct": "､"
+              "id": "hebrew-3063",
+              "cht": "猶大"
             },
             {
               "id": "hebrew-1060",
-              "eng": "firstborn"
+              "cht": "的長子"
             },
             {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
+              "id": "hebrew-6147",
+              "cht": "珥"
             },
             {
-              "id": "hebrew-7451",
-              "eng": "wicked"
+              "id": "hebrew-3068",
+              "cht": "在耶和華"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in the sight"
+              "cht": "眼中"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "看為"
+            },
+            {
+              "id": "hebrew-7451",
+              "cht": "惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-4191",
-              "eng": "and killed him"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "就叫他死了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -376,78 +344,79 @@
             "greek-2262": 4.758842454566098
           },
           "verseKey": "1ch.4.21",
-          "cunp": "猶大的兒子是示拉；示拉的兒子是利迦之祖珥，瑪利沙之祖拉大，和屬亞實比族織細麻布的各家。",
+          "nasb": "The sons of Shelah the son of Judah were Er the father of Lecah and Laadah the father of Mareshah, and the families of the house of the linen workers at Beth-ashbea;",
           "words": [
             {
+              "id": "hebrew-3063",
+              "cht": "猶大"
+            },
+            {
               "id": "hebrew-1121",
-              "eng": "The sons"
+              "cht": "的兒子"
+            },
+            {
+              "id": "",
+              "cht": "是示拉",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7956",
-              "eng": "of Shelah"
+              "cht": "示拉"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah"
-            },
-            {
-              "id": "hebrew-6147",
-              "eng": "[were] Er"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "the father"
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-3922",
-              "eng": "of Lecah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3935",
-              "eng": "and Laadah"
+              "cht": "是利迦"
             },
             {
               "id": "hebrew-1",
-              "eng": "the father"
+              "cht": "之祖"
+            },
+            {
+              "id": "hebrew-6147",
+              "cht": "珥",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4762",
-              "eng": "of Mareshah",
-              "punct": "､"
+              "cht": "瑪利沙"
             },
             {
-              "id": "hebrew-4940",
-              "eng": "and the families"
+              "id": "hebrew-1",
+              "cht": "之祖"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "of the house"
-            },
-            {
-              "id": "hebrew-5656",
-              "eng": "of the workers"
-            },
-            {
-              "id": "hebrew-948",
-              "eng": "linen",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house"
+              "id": "hebrew-3935",
+              "cht": "拉大",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-791",
-              "eng": "of Ashbea",
-              "punct": "､"
+              "cht": "和屬亞實比"
             },
             {
-              "id": ""
+              "id": "hebrew-4940",
+              "cht": "族"
+            },
+            {
+              "id": "hebrew-5656",
+              "cht": "織"
+            },
+            {
+              "id": "hebrew-948",
+              "cht": "細麻布"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "各家",
+              "punct_cht": "。"
             }
           ]
         },
@@ -457,38 +426,37 @@
             "greek-2262": 4.758842454566098
           },
           "verseKey": "gen.38.3",
-          "cunp": "她就懷孕生了兒子，猶大給他起名叫珥。",
+          "nasb": "So she conceived and bore a son and he named him Er.",
           "words": [
             {
               "id": "hebrew-2029",
-              "eng": "So she conceived",
-              "punct": "､"
+              "cht": "她就懷孕"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and bore"
+              "cht": "生了"
             },
             {
               "id": "hebrew-1121",
-              "eng": "a son",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "and he called"
+              "cht": "兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "猶大給他起"
             },
             {
               "id": "hebrew-8034",
-              "eng": "his name"
+              "cht": "名"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "叫"
             },
             {
               "id": "hebrew-6147",
-              "eng": "Er",
-              "punct": "."
+              "cht": "珥",
+              "punct_cht": "。"
             }
           ]
         },
@@ -498,37 +466,37 @@
             "greek-2262": 4.758842454566098
           },
           "verseKey": "gen.38.6",
-          "cunp": "猶大為長子珥娶妻，名叫她瑪。",
+          "nasb": "Now Judah took a wife for Er his firstborn, and her name was Tamar.",
           "words": [
             {
-              "id": "hebrew-3947",
-              "eng": "And took"
-            },
-            {
               "id": "hebrew-3063",
-              "eng": "Judah"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a wife"
-            },
-            {
-              "id": "hebrew-6147",
-              "eng": "for Er"
+              "cht": "猶大"
             },
             {
               "id": "hebrew-1060",
-              "eng": "his firstborn",
-              "punct": "､"
+              "cht": "為長子"
+            },
+            {
+              "id": "hebrew-6147",
+              "cht": "珥"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "娶"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8034",
-              "eng": "and her name [was]"
+              "cht": "名"
             },
             {
               "id": "hebrew-8559",
-              "eng": "Tamar",
-              "punct": "."
+              "cht": "叫她瑪",
+              "punct_cht": "。"
             }
           ]
         }

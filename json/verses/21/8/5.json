@@ -3,17 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8104": "He who keeps",
-          "hebrew-4687": "his command",
-          "hebrew-3808": "nothing",
-          "hebrew-3045": "And discerns",
-          "hebrew-1697": "thing",
-          "hebrew-7451": "harmful",
-          "hebrew-6256": "and both time",
-          "hebrew-4941": "and judgment",
-          "hebrew-3820": "heart",
-          "hebrew-2450": "of a wise man",
-          "": null
+          "eng": {
+            "hebrew-8104": "He who keeps",
+            "hebrew-4687": "his command",
+            "hebrew-3808": "nothing",
+            "hebrew-3045": "And discerns",
+            "hebrew-1697": "thing",
+            "hebrew-7451": "harmful",
+            "hebrew-6256": "and both time",
+            "hebrew-4941": "and judgment",
+            "hebrew-3820": "heart",
+            "hebrew-2450": "of a wise man",
+            "": null
+          },
+          "cht": {
+            "hebrew-8104": "凡遵守",
+            "hebrew-4687": "命令",
+            "hebrew-3808": "必不",
+            "hebrew-3045": "能辨明",
+            "hebrew-1697": "禍患",
+            "hebrew-7451": "禍患",
+            "hebrew-6256": "時候",
+            "hebrew-4941": "原文是審判",
+            "hebrew-3820": "的心",
+            "hebrew-2450": "智慧人"
+          }
         }
       },
       "translations": {
@@ -35,43 +49,43 @@
             "hebrew-6256": 0.9940937387588636
           },
           "verseKey": "ecc.3.6",
-          "cunp": "尋找有時，失落有時； 保守有時，捨棄有時；",
+          "nasb": "A time to search and a time to give up as lost; A time to keep and a time to throw away.",
           "words": [
             {
-              "id": "hebrew-6256",
-              "eng": "a time"
-            },
-            {
               "id": "hebrew-1245",
-              "eng": "to gain",
-              "punct": "､"
+              "cht": "尋找"
             },
             {
               "id": "hebrew-6256",
-              "eng": "and a time"
+              "cht": "有時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6",
-              "eng": "to lose",
-              "punct": "–"
+              "cht": "失落"
             },
             {
               "id": "hebrew-6256",
-              "eng": "a time"
+              "cht": "有時",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8104",
-              "eng": "to keep",
-              "punct": "､"
+              "cht": "保守"
             },
             {
               "id": "hebrew-6256",
-              "eng": "and a time"
+              "cht": "有時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7993",
-              "eng": "to away",
-              "punct": "–"
+              "cht": "捨棄"
+            },
+            {
+              "id": "hebrew-6256",
+              "cht": "有時",
+              "punct_cht": "；"
             }
           ]
         },
@@ -84,132 +98,155 @@
             "hebrew-2450": 1.477441397784365
           },
           "verseKey": "est.1.13",
-          "cunp": "",
+          "nasb": "Then the king said to the wise men who understood the times—for it was the custom of the king so to speak before all who knew law and justice",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "在"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
-              "id": "hebrew-2450",
-              "eng": "to the wise men",
-              "punct": "､"
+              "id": "hebrew-7138",
+              "cht": "左右"
             },
             {
-              "id": "hebrew-3045",
-              "eng": "who knew"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "the times",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "this [was]"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "manner"
+              "id": "hebrew-7200",
+              "cht": "常見"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-6440",
-              "eng": "toward"
+              "cht": "面、"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-4438",
+              "cht": "國"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "中坐"
+            },
+            {
+              "id": "hebrew-7223",
+              "cht": "高位"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6539",
+              "cht": "有波斯"
+            },
+            {
+              "id": "hebrew-4074",
+              "cht": "和米底亞"
+            },
+            {
+              "id": "hebrew-7651",
+              "cht": "的七"
+            },
+            {
+              "id": "hebrew-8269",
+              "cht": "個大臣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3771",
+              "cht": "就是甲示拿、"
+            },
+            {
+              "id": "hebrew-8369",
+              "cht": "示達、"
+            },
+            {
+              "id": "hebrew-133",
+              "cht": "押瑪他、"
+            },
+            {
+              "id": "hebrew-8659",
+              "cht": "他施斯、"
+            },
+            {
+              "id": "hebrew-4825",
+              "cht": "米力、"
+            },
+            {
+              "id": "hebrew-4826",
+              "cht": "瑪西拿、"
+            },
+            {
+              "id": "hebrew-4462",
+              "cht": "米母干",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "who understood"
+              "cht": "都是達"
             },
             {
-              "id": "hebrew-1881",
-              "eng": "law"
+              "id": "hebrew-6256",
+              "cht": "時務"
+            },
+            {
+              "id": "hebrew-2450",
+              "cht": "的明哲人",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "按"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的常規",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "辦事必先"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "詢問"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知"
             },
             {
               "id": "hebrew-1779",
-              "eng": "and justice",
-              "punct": "–"
+              "cht": "例"
             },
             {
-              "id": ""
+              "id": "hebrew-1881",
+              "cht": "明法"
             },
             {
-              "id": "hebrew-413"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-7138"
-            },
-            {
-              "id": "hebrew-7200"
-            },
-            {
-              "id": "hebrew-4438"
-            },
-            {
-              "id": "hebrew-3427"
-            },
-            {
-              "id": "hebrew-7223"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-6539"
-            },
-            {
-              "id": "hebrew-4074"
-            },
-            {
-              "id": "hebrew-7651"
-            },
-            {
-              "id": "hebrew-8269"
-            },
-            {
-              "id": "hebrew-3771"
-            },
-            {
-              "id": "hebrew-8369"
-            },
-            {
-              "id": "hebrew-133"
-            },
-            {
-              "id": "hebrew-8659"
-            },
-            {
-              "id": "hebrew-4825"
-            },
-            {
-              "id": "hebrew-4826"
-            },
-            {
-              "id": "hebrew-4462"
-            },
-            {
-              "id": "hebrew-4428"
-            },
-            {
-              "id": "hebrew-6440"
-            },
-            {
-              "id": ""
+              "id": "hebrew-559",
+              "cht": "王問他們說",
+              "punct_cht": "："
             }
           ]
         },
@@ -220,155 +257,111 @@
             "hebrew-3820": 0.9299891508959751
           },
           "verseKey": "luk.6.45",
-          "cunp": "善人從他心裏所存的善就發出善來；惡人從他心裏所存的惡就發出惡來；因為心裏所充滿的，口裏就說出來。」",
+          "nasb": "The good man out of the good treasure of his heart brings forth what is good; and the evil man out of the evil treasure brings forth what is evil; for his mouth speaks from that which fills his heart.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-18",
-              "eng": "good"
+              "cht": "善"
             },
             {
               "id": "greek-444",
-              "eng": "man",
-              "punct": ","
+              "cht": "人"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-18",
-              "eng": "good"
-            },
-            {
-              "id": "greek-2344",
-              "eng": "treasure"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2588",
-              "eng": "heart"
+              "cht": "從"
             },
             {
               "id": "greek-846",
-              "eng": "of him"
+              "cht": "他"
             },
             {
-              "id": "greek-4393",
-              "eng": "brings forth"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "that which [is]"
+              "id": "greek-2588",
+              "cht": "心裡"
             },
             {
               "id": "greek-18",
-              "eng": "good",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4190",
-              "eng": "evil",
-              "punct": ","
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4190",
-              "eng": "evil",
-              "punct": ","
+              "cht": "所存的善"
             },
             {
               "id": "greek-4393",
-              "eng": "brings forth"
+              "cht": "就發出"
             },
             {
-              "id": "greek-3588",
-              "eng": "that which [is]"
+              "id": "greek-18",
+              "cht": "善"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4190",
-              "eng": "evil",
-              "punct": "."
+              "cht": "惡"
+            },
+            {
+              "id": "greek-444",
+              "cht": "人"
             },
             {
               "id": "greek-1537",
-              "eng": "Out of"
+              "cht": "從"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-846",
+              "cht": "他"
+            },
+            {
+              "id": "greek-2588",
+              "cht": "心裡"
+            },
+            {
+              "id": "greek-4190",
+              "cht": "所存的惡"
+            },
+            {
+              "id": "greek-4393",
+              "cht": "就發出"
+            },
+            {
+              "id": "greek-4190",
+              "cht": "惡"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "因為"
+            },
+            {
+              "id": "greek-2588",
+              "cht": "心裡"
             },
             {
               "id": "greek-4051",
-              "eng": "the abundance"
+              "cht": "所充滿"
             },
             {
-              "id": "greek-2588",
-              "eng": "of his heart",
-              "punct": ","
-            },
-            {
-              "id": "greek-2980",
-              "eng": "speaks"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4750",
-              "eng": "mouth"
+              "cht": "口裡"
             },
             {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "id": "greek-2980",
+              "cht": "就說"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-444"
-            },
-            {
-              "id": "greek-2344"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2588"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "出來",
+              "punct_cht": "。"
             }
           ]
         }

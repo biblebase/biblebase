@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2534": "The poison",
-          "hebrew-8577": "of serpents",
-          "hebrew-3196": "their wine [is]",
-          "hebrew-7219": "and the venom",
-          "hebrew-6620": "of cobras",
-          "hebrew-393": "cruel"
+          "eng": {
+            "hebrew-2534": "The poison",
+            "hebrew-8577": "of serpents",
+            "hebrew-3196": "their wine [is]",
+            "hebrew-7219": "and the venom",
+            "hebrew-6620": "of cobras",
+            "hebrew-393": "cruel"
+          },
+          "cht": {
+            "hebrew-2534": "的毒氣",
+            "hebrew-8577": "是大蛇",
+            "hebrew-3196": "他們的酒",
+            "hebrew-7219": "毒",
+            "hebrew-6620": "是虺蛇",
+            "hebrew-393": "殘害的惡"
+          }
         }
       },
       "translations": {
@@ -23,33 +33,33 @@
             "hebrew-6620": 6.2511507603914795
           },
           "verseKey": "job.20.16",
-          "cunp": "他必吸飲虺蛇的毒氣； 蝮蛇的舌頭也必殺他。",
+          "nasb": "He sucks the poison of cobras; The viper’s tongue slays him.",
           "words": [
             {
-              "id": "hebrew-7219",
-              "eng": "The poison"
+              "id": "hebrew-3243",
+              "cht": "他必吸飲"
             },
             {
               "id": "hebrew-6620",
-              "eng": "of cobras",
-              "punct": "–"
+              "cht": "虺蛇"
             },
             {
-              "id": "hebrew-3243",
-              "eng": "He will suck"
-            },
-            {
-              "id": "hebrew-2026",
-              "eng": "will slay him"
-            },
-            {
-              "id": "hebrew-3956",
-              "eng": "the tongue"
+              "id": "hebrew-7219",
+              "cht": "的毒氣",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-660",
-              "eng": "of viper",
-              "punct": "."
+              "cht": "蝮蛇"
+            },
+            {
+              "id": "hebrew-3956",
+              "cht": "的舌頭"
+            },
+            {
+              "id": "hebrew-2026",
+              "cht": "也必殺他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -60,40 +70,41 @@
             "hebrew-6620": 6.2511507603914795
           },
           "verseKey": "psa.91.13",
-          "cunp": "你要踹在獅子和虺蛇的身上， 踐踏少壯獅子和大蛇。",
+          "nasb": "You will tread upon the lion and cobra, The young lion and the serpent you will trample down.",
           "words": [
             {
+              "id": "hebrew-1869",
+              "cht": "你要踹"
+            },
+            {
               "id": "hebrew-5921",
-              "eng": "Upon"
+              "cht": "在"
             },
             {
               "id": "hebrew-7826",
-              "eng": "the lion"
+              "cht": "獅子"
             },
             {
               "id": "hebrew-6620",
-              "eng": "and the cobra",
-              "punct": "､"
+              "cht": "和虺蛇"
             },
             {
-              "id": "hebrew-1869",
-              "eng": "You shall tread"
+              "id": "",
+              "cht": "的身上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7429",
-              "eng": "you shall trample underfoot"
+              "cht": "踐踏"
             },
             {
               "id": "hebrew-3715",
-              "eng": "the young lion"
+              "cht": "少壯獅子"
             },
             {
               "id": "hebrew-8577",
-              "eng": "and the serpent",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "和大蛇",
+              "punct_cht": "。"
             }
           ]
         },
@@ -103,50 +114,49 @@
             "hebrew-393": 7.502414237754052
           },
           "verseKey": "job.41.10",
-          "cunp": "沒有那麼兇猛的人敢惹牠。 這樣，誰能在我面前站立得住呢？",
+          "nasb": "No one is so fierce that he dares to arouse him; Who then is he that can stand before Me?",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "No one"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-393",
-              "eng": "[is so] cruel"
+              "cht": "那麼凶猛"
             },
             {
               "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "的人敢"
             },
             {
               "id": "hebrew-5782",
-              "eng": "would dare stir him up",
-              "punct": "–"
+              "cht": "惹牠"
+            },
+            {
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "。，"
             },
             {
               "id": "hebrew-4310",
-              "eng": "then who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-1931",
-              "eng": "he"
+              "cht": "能"
             },
             {
               "id": "hebrew-6440",
-              "eng": "against Me"
+              "cht": "在我面前"
             },
             {
               "id": "hebrew-3320",
-              "eng": "is able to stand",
-              "punct": "."
+              "cht": "站立得住"
             },
             {
-              "id": "hebrew-5782"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -156,65 +166,58 @@
             "hebrew-393": 7.502414237754052
           },
           "verseKey": "lam.4.3",
-          "cunp": "野狗尚且把奶乳哺其子， 我民的婦人倒成為殘忍， 好像曠野的鴕鳥一般。",
+          "nasb": "Even jackals offer the breast, They nurse their young; But the daughter of my people has become cruel Like ostriches in the wilderness.",
           "words": [
             {
-              "id": "hebrew-1571",
-              "eng": "Even"
+              "id": "hebrew-8565",
+              "cht": "野狗"
             },
             {
-              "id": "hebrew-8568",
-              "eng": "the jackals"
+              "id": "hebrew-1571",
+              "cht": "尚且"
             },
             {
               "id": "hebrew-2502",
-              "eng": "present"
+              "cht": "把"
             },
             {
               "id": "hebrew-7699",
-              "eng": "their breasts",
-              "punct": "､"
+              "cht": "奶"
             },
             {
               "id": "hebrew-3243",
-              "eng": "to nurse"
+              "cht": "乳哺"
             },
             {
               "id": "hebrew-1482",
-              "eng": "their young",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
+              "cht": "其子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of my people"
+              "cht": "我民"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的婦人"
             },
             {
               "id": "hebrew-393",
-              "eng": "[But is] cruel",
-              "punct": "､"
+              "cht": "倒成為殘忍",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3283",
-              "eng": "ostriches"
-            },
-            {
-              "id": "hebrew-3283",
-              "eng": "Like ostriches"
+              "id": "hebrew-3588",
+              "cht": "好像"
             },
             {
               "id": "hebrew-4057",
-              "eng": "in the wilderness",
-              "punct": "."
+              "cht": "曠野"
             },
             {
-              "id": "hebrew-8565"
-            },
-            {
-              "id": "hebrew-3588"
+              "id": "hebrew-3283",
+              "cht": "的鴕鳥一般",
+              "punct_cht": "。"
             }
           ]
         },
@@ -224,31 +227,34 @@
             "hebrew-393": 7.502414237754052
           },
           "verseKey": "job.30.21",
-          "cunp": "你向我變心，待我殘忍， 又用大能追逼我，",
+          "nasb": "You have become cruel to me; With the might of Your hand You persecute me.",
           "words": [
             {
               "id": "hebrew-2015",
-              "eng": "[But] You have become"
+              "cht": "你向我變"
+            },
+            {
+              "id": "",
+              "cht": "心",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-393",
-              "eng": "cruel"
+              "cht": "殘忍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6108",
-              "eng": "with the strength"
+              "cht": "又用大"
             },
             {
               "id": "hebrew-3027",
-              "eng": "of Your hand"
+              "cht": "能"
             },
             {
               "id": "hebrew-7852",
-              "eng": "You oppose me",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "追逼我",
+              "punct_cht": "，"
             }
           ]
         },
@@ -258,57 +264,53 @@
             "hebrew-6620": 6.2511507603914795
           },
           "verseKey": "isa.11.8",
-          "cunp": "吃奶的孩子必玩耍在虺蛇的洞口； 斷奶的嬰兒必按手在毒蛇的穴上。",
+          "nasb": "The nursing child will play by the hole of the cobra, And the weaned child will put his hand on the viper’s den.",
           "words": [
             {
-              "id": "hebrew-8173",
-              "eng": "And shall play"
+              "id": "hebrew-3243",
+              "cht": "吃奶的"
             },
             {
-              "id": "hebrew-3243",
-              "eng": "the nursing child"
+              "id": "hebrew-8173",
+              "cht": "孩子必玩耍"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by"
-            },
-            {
-              "id": "hebrew-2356",
-              "eng": "the hole"
+              "cht": "在"
             },
             {
               "id": "hebrew-6620",
-              "eng": "of cobra",
-              "punct": "､"
+              "cht": "虺蛇"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "and in"
-            },
-            {
-              "id": "hebrew-3975",
-              "eng": "the den",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6848",
-              "eng": "Of viper"
+              "id": "hebrew-2352",
+              "cht": "的洞口",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1580",
-              "eng": "the weaned child"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "his hand"
+              "cht": "斷奶的"
             },
             {
               "id": "hebrew-1911",
-              "eng": "shall put",
-              "punct": "."
+              "cht": "嬰兒必按"
             },
             {
-              "id": "hebrew-2352"
+              "id": "hebrew-3027",
+              "cht": "手"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-6848",
+              "cht": "毒蛇"
+            },
+            {
+              "id": "hebrew-3975",
+              "cht": "的穴上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -318,45 +320,45 @@
             "hebrew-6620": 6.2511507603914795
           },
           "verseKey": "psa.58.4",
-          "cunp": "他們的毒氣好像蛇的毒氣； 他們好像塞耳的聾虺，",
+          "nasb": "They have venom like the venom of a serpent; Like a deaf cobra that stops up its ear,",
           "words": [
             {
               "id": "hebrew-2534",
-              "eng": "Poison [is]"
+              "cht": "毒氣"
             },
             {
               "id": "hebrew-1823",
-              "eng": "like"
-            },
-            {
-              "id": "hebrew-2534",
-              "eng": "the poison"
+              "cht": "好像"
             },
             {
               "id": "hebrew-5175",
-              "eng": "of a serpent",
-              "punct": "–"
+              "cht": "蛇"
+            },
+            {
+              "id": "hebrew-2534",
+              "cht": "的毒氣",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3644",
-              "eng": "[They are] like"
-            },
-            {
-              "id": "hebrew-6620",
-              "eng": "the cobra"
-            },
-            {
-              "id": "hebrew-2795",
-              "eng": "deaf"
+              "cht": "他們好像"
             },
             {
               "id": "hebrew-331",
-              "eng": "[that] stops"
+              "cht": "塞"
             },
             {
               "id": "hebrew-241",
-              "eng": "its ear",
-              "punct": "–"
+              "cht": "耳"
+            },
+            {
+              "id": "hebrew-2795",
+              "cht": "的聾"
+            },
+            {
+              "id": "hebrew-6620",
+              "cht": "虺",
+              "punct_cht": "，"
             }
           ]
         },
@@ -366,36 +368,37 @@
             "hebrew-6620": 6.2511507603914795
           },
           "verseKey": "job.20.14",
-          "cunp": "他的食物在肚裏卻要化為酸， 在他裏面成為虺蛇的惡毒。",
+          "nasb": "Yet his food in his stomach is changed To the venom of cobras within him.",
           "words": [
             {
               "id": "hebrew-3899",
-              "eng": "his food"
+              "cht": "他的食物"
             },
             {
               "id": "hebrew-4578",
-              "eng": "in his stomach"
+              "cht": "在肚裡"
             },
             {
               "id": "hebrew-2015",
-              "eng": "[Yet] turns sour",
-              "punct": "､"
+              "cht": "卻要化為"
             },
             {
-              "id": "hebrew-4846",
-              "eng": "venom"
-            },
-            {
-              "id": "hebrew-6620",
-              "eng": "it becomes cobra"
+              "id": "",
+              "cht": "酸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7130",
-              "eng": "within him",
-              "punct": "."
+              "cht": "在他裡面"
             },
             {
-              "id": ""
+              "id": "hebrew-6620",
+              "cht": "成為虺蛇"
+            },
+            {
+              "id": "hebrew-4846",
+              "cht": "的惡毒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -406,61 +409,54 @@
             "hebrew-7219": 4.269435133649948
           },
           "verseKey": "mat.27.34",
-          "cunp": "兵丁拿苦膽調和的酒給耶穌喝；他嘗了，就不肯喝。",
+          "nasb": "they gave Him wine to drink mixed with gall; and after tasting it, He was unwilling to drink.",
           "words": [
             {
-              "id": "greek-1325",
-              "eng": "they gave"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-4095",
-              "eng": "to drink"
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
               "id": "greek-3326",
-              "eng": "with"
+              "cht": "兵丁拿"
             },
             {
               "id": "greek-5521",
-              "eng": "gall"
+              "cht": "苦膽"
             },
             {
               "id": "greek-3396",
-              "eng": "mingled",
-              "punct": ";"
+              "cht": "調和"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3690",
+              "cht": "的酒"
             },
             {
-              "id": "greek-1089",
-              "eng": "having tasted",
-              "punct": ","
+              "id": "greek-1325",
+              "cht": "給"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2309",
-              "eng": "He was willing"
+              "id": "greek-846",
+              "cht": "耶穌"
             },
             {
               "id": "greek-4095",
-              "eng": "to drink [it]",
-              "punct": "."
+              "cht": "喝",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-3690"
+              "id": "greek-1089",
+              "cht": "他嘗了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "就不"
+            },
+            {
+              "id": "greek-2309",
+              "cht": "肯"
+            },
+            {
+              "id": "greek-4095",
+              "cht": "喝",
+              "punct_cht": "。"
             }
           ]
         },
@@ -470,148 +466,111 @@
             "hebrew-3196": 1.4068903824067434
           },
           "verseKey": "mrk.2.22",
-          "cunp": "也沒有人把新酒裝在舊皮袋裏，恐怕酒把皮袋裂開，酒和皮袋就都壞了；惟把新酒裝在新皮袋裏。」",
+          "nasb": "No one puts new wine into old wineskins; otherwise the wine will burst the skins, and the wine is lost and the skins as well; but one puts new wine into fresh wineskins.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "也"
             },
             {
               "id": "greek-3762",
-              "eng": "no one"
+              "cht": "沒有人"
+            },
+            {
+              "id": "greek-3501",
+              "cht": "把新"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
             },
             {
               "id": "greek-906",
-              "eng": "puts"
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-3501",
-              "eng": "new"
+              "cht": "裝"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins"
+              "cht": "在"
             },
             {
               "id": "greek-3820",
-              "eng": "old",
-              "punct": ";"
+              "cht": "舊"
             },
             {
-              "id": "greek-1487",
-              "eng": "if"
+              "id": "greek-779",
+              "cht": "皮袋"
             },
             {
-              "id": "greek-1161",
-              "eng": "now"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3361",
-              "eng": "not",
-              "punct": ","
+              "id": "greek-3588",
+              "cht": "恐怕"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "把皮袋"
             },
             {
               "id": "greek-4486",
-              "eng": "will burst"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "裂開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins",
-              "punct": ","
+              "cht": "酒"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
-            },
-            {
-              "id": "greek-622",
-              "eng": "will be destroyed",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-779",
-              "eng": "wineskins",
-              "punct": "."
+              "cht": "皮袋"
+            },
+            {
+              "id": "greek-1632",
+              "cht": "就都壞了",
+              "punct_cht": "；"
             },
             {
               "id": "greek-235",
-              "eng": "Instead",
-              "punct": ","
-            },
-            {
-              "id": "greek-3631",
-              "eng": "wine"
+              "cht": "惟"
             },
             {
               "id": "greek-3501",
-              "eng": "new"
+              "cht": "把新"
+            },
+            {
+              "id": "greek-3631",
+              "cht": "酒"
+            },
+            {
+              "id": "greek-992",
+              "cht": "裝"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-779",
-              "eng": "wineskins"
+              "cht": "在"
             },
             {
               "id": "greek-2537",
-              "eng": "new",
-              "punct": "."
+              "cht": "新"
             },
             {
-              "id": ""
+              "id": "greek-779",
+              "cht": "皮袋"
             },
             {
-              "id": "greek-1490"
-            },
-            {
-              "id": "greek-1632"
-            },
-            {
-              "id": "greek-3501"
-            },
-            {
-              "id": "greek-992"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         }

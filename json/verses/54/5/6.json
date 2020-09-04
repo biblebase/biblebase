@@ -3,11 +3,19 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "She",
-          "greek-1161": "however",
-          "greek-4684": "living in self-indulgence",
-          "greek-2198": "[while] living",
-          "greek-2348": "is dead"
+          "eng": {
+            "greek-3588": "She",
+            "greek-1161": "however",
+            "greek-4684": "living in self-indulgence",
+            "greek-2198": "[while] living",
+            "greek-2348": "is dead"
+          },
+          "cht": {
+            "greek-1161": "但",
+            "greek-4684": "那好宴樂",
+            "greek-2198": "的寡婦正活著",
+            "greek-2348": "的時候也是死的"
+          }
         }
       },
       "translations": {
@@ -20,62 +28,50 @@
             "greek-4684": 10.248599871619378
           },
           "verseKey": "jas.5.5",
-          "cunp": "你們在世上享美福，好宴樂，當宰殺的日子竟嬌養你們的心。",
+          "nasb": "You have lived luxuriously on the earth and led a life of wanton pleasure; you have fattened your hearts in a day of slaughter.",
           "words": [
             {
-              "id": "greek-5171",
-              "eng": "You lived in luxury"
+              "id": "greek-1093",
+              "cht": "你們在世"
             },
             {
               "id": "greek-1909",
-              "eng": "upon"
+              "cht": "上"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-5171",
+              "cht": "享美福",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4684",
-              "eng": "lived in self-indulgence",
-              "punct": "."
-            },
-            {
-              "id": "greek-5142",
-              "eng": "You have fattened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2588",
-              "eng": "hearts"
-            },
-            {
-              "id": "greek-5216",
-              "eng": "of you"
+              "cht": "好宴樂",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-2250",
-              "eng": "[the] day"
+              "cht": "當"
             },
             {
               "id": "greek-4967",
-              "eng": "of slaughter",
-              "punct": "."
+              "cht": "宰殺"
+            },
+            {
+              "id": "greek-2250",
+              "cht": "的日子"
+            },
+            {
+              "id": "greek-5142",
+              "cht": "竟嬌養"
+            },
+            {
+              "id": "greek-5216",
+              "cht": "你們的"
+            },
+            {
+              "id": "greek-2588",
+              "cht": "心",
+              "punct_cht": "。"
             }
           ]
         },
@@ -86,90 +82,76 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "act.25.19",
-          "cunp": "不過是有幾樣辯論，為他們自己敬鬼神的事，又為一個人名叫耶穌，是已經死了，保羅卻說他是活着的。",
+          "nasb": "but they simply had some points of disagreement with him about their own religion and about a dead man, Jesus, whom Paul asserted to be alive.",
           "words": [
             {
-              "id": "greek-2213",
-              "eng": "Questions"
-            },
-            {
               "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "certain"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2398",
-              "eng": "own"
-            },
-            {
-              "id": "greek-1175",
-              "eng": "religion"
+              "cht": "不過"
             },
             {
               "id": "greek-2192",
-              "eng": "they had"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "against"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "concerning"
+              "cht": "是有"
             },
             {
               "id": "greek-5100",
-              "eng": "a certain"
+              "cht": "幾樣"
+            },
+            {
+              "id": "greek-846",
+              "cht": "辯論",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4012",
+              "cht": "為他們"
+            },
+            {
+              "id": "greek-2398",
+              "cht": "自己"
+            },
+            {
+              "id": "greek-1175",
+              "cht": "敬鬼神的事",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "又"
+            },
+            {
+              "id": "greek-4012",
+              "cht": "為"
+            },
+            {
+              "id": "greek-5100",
+              "cht": "一個"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "人名叫耶穌",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2348",
-              "eng": "having been dead",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-5335",
-              "eng": "was affirming"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是已經死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3972",
-              "eng": "Paul"
+              "cht": "保羅"
+            },
+            {
+              "id": "greek-5335",
+              "cht": "卻說"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "他"
             },
             {
               "id": "greek-2198",
-              "eng": "to be alive",
-              "punct": "."
+              "cht": "是活著的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -179,100 +161,84 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "act.14.19",
-          "cunp": "但有些猶太人從安提阿和以哥念來，挑唆眾人，就用石頭打保羅，以為他是死了，便拖到城外。",
+          "nasb": "But Jews came from Antioch and Iconium, and having won over the crowds, they stoned Paul and dragged him out of the city, supposing him to be dead.",
           "words": [
             {
-              "id": "greek-1904",
-              "eng": "Came"
-            },
-            {
               "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-490",
-              "eng": "Antioch"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2430",
-              "eng": "Iconium"
+              "cht": "但"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews",
-              "punct": ","
+              "cht": "有些猶太人"
+            },
+            {
+              "id": "greek-575",
+              "cht": "從"
+            },
+            {
+              "id": "greek-490",
+              "cht": "安提阿"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
+            },
+            {
+              "id": "greek-2430",
+              "cht": "以哥念"
+            },
+            {
+              "id": "greek-1904",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3982",
-              "eng": "having persuaded"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "挑唆"
             },
             {
               "id": "greek-3793",
-              "eng": "crowds",
-              "punct": ","
+              "cht": "眾人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "就"
             },
             {
               "id": "greek-3034",
-              "eng": "having stoned"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "用石頭打"
             },
             {
               "id": "greek-3972",
-              "eng": "Paul",
-              "punct": ","
-            },
-            {
-              "id": "greek-4951",
-              "eng": "they dragged [him]"
-            },
-            {
-              "id": "greek-1854",
-              "eng": "outside"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4172",
-              "eng": "city",
-              "punct": ","
+              "cht": "保羅",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3543",
-              "eng": "supposing"
+              "cht": "以為"
             },
             {
               "id": "greek-846",
-              "eng": "him"
+              "cht": "他"
             },
             {
               "id": "greek-2348",
-              "eng": "to have died",
-              "punct": "."
+              "cht": "是死了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4951",
+              "cht": "便拖到"
+            },
+            {
+              "id": "greek-4172",
+              "cht": "城"
+            },
+            {
+              "id": "greek-1854",
+              "cht": "外",
+              "punct_cht": "。"
             }
           ]
         },
@@ -282,73 +248,62 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "jhn.19.33",
-          "cunp": "只是來到耶穌那裏，見他已經死了，就不打斷他的腿。",
+          "nasb": "but coming to Jesus, when they saw that He was already dead, they did not break His legs.",
           "words": [
             {
-              "id": "greek-1909",
-              "eng": "to"
-            },
-            {
               "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "只是"
             },
             {
               "id": "greek-2064",
-              "eng": "having come",
-              "punct": ","
+              "cht": "來"
             },
             {
-              "id": "greek-5613",
-              "eng": "when"
+              "id": "greek-1909",
+              "cht": "到"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌"
+            },
+            {
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1492",
-              "eng": "they saw"
+              "cht": "見"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他"
             },
             {
               "id": "greek-2235",
-              "eng": "already"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
+              "cht": "已經"
             },
             {
               "id": "greek-2348",
-              "eng": "having been dead",
-              "punct": ","
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "就不"
             },
             {
               "id": "greek-2608",
-              "eng": "they did break"
+              "cht": "打斷"
             },
             {
               "id": "greek-846",
-              "eng": "His"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "他的"
             },
             {
               "id": "greek-4628",
-              "eng": "legs",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "腿",
+              "punct_cht": "。"
             }
           ]
         },
@@ -358,77 +313,58 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "mrk.15.44",
-          "cunp": "彼拉多詫異耶穌已經死了，便叫百夫長來，問他耶穌死了久不久。",
+          "nasb": "Pilate wondered if He was dead by this time, and summoning the centurion, he questioned him as to whether He was already dead.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-4091",
-              "eng": "Pilate"
+              "cht": "彼拉多"
             },
             {
               "id": "greek-2296",
-              "eng": "wondered"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
+              "cht": "詫異"
             },
             {
               "id": "greek-2235",
-              "eng": "already"
+              "cht": "耶穌已經"
             },
             {
               "id": "greek-2348",
-              "eng": "He were dead",
-              "punct": "."
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "便"
             },
             {
               "id": "greek-4341",
-              "eng": "having called to [him]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "叫"
             },
             {
               "id": "greek-2760",
-              "eng": "centurion",
-              "punct": ","
+              "cht": "百夫長"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1905",
-              "eng": "he questioned"
+              "cht": "問"
             },
             {
               "id": "greek-846",
-              "eng": "him"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "whether"
-            },
-            {
-              "id": "greek-3819",
-              "eng": "already"
+              "cht": "他"
             },
             {
               "id": "greek-599",
-              "eng": "He had died",
-              "punct": "."
+              "cht": "耶穌死了"
             },
             {
-              "id": ""
+              "id": "greek-3819",
+              "cht": "久不久",
+              "punct_cht": "。"
             }
           ]
         },
@@ -438,100 +374,70 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "mat.2.20",
-          "cunp": "「起來！帶着小孩子和他母親往以色列地去，因為要害小孩子性命的人已經死了。」",
+          "nasb": "“Get up, take the Child and His mother, and go into the land of Israel; for those who sought the Child’s life are dead.”",
           "words": [
             {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
-            },
-            {
               "id": "greek-1453",
-              "eng": "Having arisen",
-              "punct": ","
+              "cht": "起來",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3880",
-              "eng": "take"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "帶著"
             },
             {
               "id": "greek-3813",
-              "eng": "Child"
+              "cht": "小孩子"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3384",
-              "eng": "mother"
+              "cht": "和"
             },
             {
               "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
+              "cht": "他"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4198",
-              "eng": "go"
+              "cht": "母親"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "[the] land"
+              "cht": "往"
             },
             {
               "id": "greek-2474",
-              "eng": "of Israel",
-              "punct": ";"
+              "cht": "以色列"
             },
             {
-              "id": "greek-2348",
-              "eng": "they have died"
+              "id": "greek-1093",
+              "cht": "地"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-4198",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3588",
-              "eng": "those"
+              "cht": "因為"
             },
             {
               "id": "greek-2212",
-              "eng": "seeking"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5590",
-              "eng": "life"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "要害"
             },
             {
               "id": "greek-3813",
-              "eng": "Child",
-              "punct": "."
+              "cht": "小孩子"
+            },
+            {
+              "id": "greek-5590",
+              "cht": "性命"
+            },
+            {
+              "id": "greek-2348",
+              "cht": "的人已經死了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -541,133 +447,92 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "luk.7.12",
-          "cunp": "將近城門，有一個死人被擡出來。這人是他母親獨生的兒子；他母親又是寡婦。有城裏的許多人同着寡婦送殯。",
+          "nasb": "Now as He approached the gate of the city, a dead man was being carried out, the only son of his mother, and she was a widow; and a sizeable crowd from the city was with her.",
           "words": [
             {
-              "id": "greek-5613",
-              "eng": "As"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
               "id": "greek-1448",
-              "eng": "He drew near"
+              "cht": "將近"
             },
             {
-              "id": "greek-3588",
-              "eng": "to the"
+              "id": "greek-4172",
+              "cht": "城"
             },
             {
               "id": "greek-4439",
-              "eng": "gate"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4172",
-              "eng": "town",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-2400",
-              "eng": "behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-1580",
-              "eng": "was being carried out"
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2348",
-              "eng": "[one] having died",
-              "punct": ","
+              "cht": "有一個死人"
             },
             {
-              "id": "greek-3439",
-              "eng": "only begotten"
+              "id": "greek-1580",
+              "cht": "被抬出來",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-5207",
-              "eng": "son"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-846",
+              "cht": "這人是他"
             },
             {
               "id": "greek-3384",
-              "eng": "mother"
+              "cht": "母親"
+            },
+            {
+              "id": "greek-3439",
+              "cht": "獨生的"
+            },
+            {
+              "id": "greek-5207",
+              "cht": "兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": ";"
+              "cht": "他"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-846",
-              "eng": "she"
+              "cht": "母親又"
             },
             {
               "id": "greek-2258",
-              "eng": "was"
+              "cht": "是"
             },
             {
               "id": "greek-5503",
-              "eng": "a widow",
-              "punct": "."
+              "cht": "寡婦",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3793",
-              "eng": "a crowd"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2258",
+              "cht": "有"
             },
             {
               "id": "greek-4172",
-              "eng": "town",
-              "punct": ","
+              "cht": "城"
             },
             {
               "id": "greek-2425",
-              "eng": "considerable",
-              "punct": ","
+              "cht": "裡的許多"
             },
             {
-              "id": "greek-1510",
-              "eng": "was"
+              "id": "greek-3793",
+              "cht": "人"
             },
             {
               "id": "greek-4862",
-              "eng": "with"
+              "cht": "同著"
             },
             {
               "id": "greek-846",
-              "eng": "her",
-              "punct": "."
+              "cht": "寡婦"
             },
             {
-              "id": "greek-2258"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "送殯",
+              "punct_cht": "。"
             }
           ]
         },
@@ -677,90 +542,68 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "luk.8.49",
-          "cunp": "還說話的時候，有人從管會堂的家裏來，說：「你的女兒死了，不要勞動夫子。」",
+          "nasb": "While He was still speaking, someone *came from the house of the synagogue official, saying, “Your daughter has died; do not trouble the Teacher anymore.”",
           "words": [
             {
               "id": "greek-2089",
-              "eng": "Still"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him"
+              "cht": "還"
             },
             {
               "id": "greek-2980",
-              "eng": "speaking",
-              "punct": ","
+              "cht": "說話"
             },
             {
-              "id": "greek-2064",
-              "eng": "comes"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5100",
-              "eng": "one"
+              "cht": "有人"
             },
             {
               "id": "greek-3844",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "從"
             },
             {
               "id": "greek-752",
-              "eng": "synagogue ruler",
-              "punct": ","
+              "cht": "管會堂的"
+            },
+            {
+              "id": "greek-2064",
+              "cht": "家裡來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "saying"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
-              "punct": ","
-            },
-            {
-              "id": "greek-2348",
-              "eng": "Has died"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2364",
-              "eng": "daughter"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4675",
-              "eng": "of You",
-              "punct": ";"
+              "cht": "你的"
             },
             {
-              "id": "greek-3371",
-              "eng": "no longer"
+              "id": "greek-2364",
+              "cht": "女兒"
+            },
+            {
+              "id": "greek-2348",
+              "cht": "死了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "不要"
             },
             {
               "id": "greek-4660",
-              "eng": "trouble"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "勞動"
             },
             {
               "id": "greek-1320",
-              "eng": "Teacher",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3361"
+              "cht": "夫子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -770,119 +613,81 @@
             "greek-2348": 5.208574812158221
           },
           "verseKey": "jhn.11.44",
-          "cunp": "那死人就出來了，手腳裹着布，臉上包着手巾。耶穌對他們說：「解開，叫他走！」",
+          "nasb": "The man who had died came forth, bound hand and foot with wrappings, and his face was wrapped around with a cloth. Jesus *said to them, “Unbind him, and let him go.”",
           "words": [
             {
-              "id": "greek-1831",
-              "eng": "Came forth"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "id": "greek-2532",
+              "cht": "那"
             },
             {
               "id": "greek-2348",
-              "eng": "having been dead",
-              "punct": ","
+              "cht": "死人"
             },
             {
-              "id": "greek-1210",
-              "eng": "being bound"
+              "id": "greek-1831",
+              "cht": "就出來"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "手"
             },
             {
               "id": "greek-4228",
-              "eng": "feet"
+              "cht": "腳"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5495",
-              "eng": "hands"
+              "id": "greek-1210",
+              "cht": "裹著"
             },
             {
               "id": "greek-2750",
-              "eng": "with linen strips",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "布",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3799",
-              "eng": "face"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
-            },
-            {
-              "id": "greek-4676",
-              "eng": "in a headcloth"
+              "cht": "臉"
             },
             {
               "id": "greek-4019",
-              "eng": "bound about",
-              "punct": "."
+              "cht": "上包著"
             },
             {
-              "id": "greek-3004",
-              "eng": "Says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4676",
+              "cht": "手巾",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
-            },
-            {
-              "id": "greek-3089",
-              "eng": "Unbind"
+              "cht": "耶穌"
             },
             {
               "id": "greek-846",
-              "eng": "him"
+              "cht": "對他們"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "解開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-863",
-              "eng": "allow"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him"
+              "cht": "叫他"
             },
             {
               "id": "greek-5217",
-              "eng": "to go",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "走",
+              "punct_cht": "！"
             }
           ]
         },
@@ -892,147 +697,122 @@
             "greek-2198": 0.8144124037227494
           },
           "verseKey": "gal.2.20",
-          "cunp": "我已經與基督同釘十字架，現在活着的不再是我，乃是基督在我裏面活着；並且我如今在肉身活着，是因信神的兒子而活；他是愛我，為我捨己。",
+          "nasb": "I have been crucified with Christ; and it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself up for me.",
           "words": [
             {
               "id": "greek-5547",
-              "eng": "Christ"
+              "cht": "我已經與基督"
             },
             {
               "id": "greek-4957",
-              "eng": "I have been crucified with",
-              "punct": ";"
+              "cht": "同釘十字架",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2198",
-              "eng": "I live"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now",
-              "punct": ","
+              "cht": "現在活著"
             },
             {
               "id": "greek-3765",
-              "eng": "no longer"
+              "cht": "的不再是"
             },
             {
               "id": "greek-1473",
-              "eng": "I",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "lives"
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-1698",
-              "eng": "me"
+              "cht": "乃是"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": ";"
+              "cht": "基督"
             },
             {
-              "id": "greek-3739",
-              "eng": "that which"
+              "id": "greek-1698",
+              "cht": "在我"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "裡面"
+            },
+            {
+              "id": "greek-2198",
+              "cht": "活著",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1161",
-              "eng": "then"
+              "cht": "並且"
             },
             {
               "id": "greek-3568",
-              "eng": "now"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "I live"
+              "cht": "我如今"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "through"
-            },
-            {
-              "id": "greek-4102",
-              "eng": "faith"
+              "cht": "肉身"
             },
             {
               "id": "greek-2198",
-              "eng": "I live",
-              "punct": ","
+              "cht": "活著",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "that"
+              "id": "greek-1722",
+              "cht": "是因"
             },
             {
-              "id": "greek-3588",
-              "eng": "from the"
-            },
-            {
-              "id": "greek-5207",
-              "eng": "Son"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4102",
+              "cht": "信"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": ","
+              "cht": "神"
+            },
+            {
+              "id": "greek-5207",
+              "cht": "的兒子"
+            },
+            {
+              "id": "greek-2198",
+              "cht": "而活",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3588",
-              "eng": "the [One]"
+              "cht": "他"
             },
             {
               "id": "greek-25",
-              "eng": "having loved"
+              "cht": "是愛"
             },
             {
               "id": "greek-3165",
-              "eng": "me"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3860",
-              "eng": "having given up"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "Himself"
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5228",
-              "eng": "for"
+              "cht": "為"
             },
             {
               "id": "greek-1700",
-              "eng": "me",
-              "punct": "."
+              "cht": "我"
+            },
+            {
+              "id": "greek-3860",
+              "cht": "捨"
+            },
+            {
+              "id": "greek-1438",
+              "cht": "己",
+              "punct_cht": "。"
             }
           ]
         }

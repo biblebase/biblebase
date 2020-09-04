@@ -3,19 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-2532": "And",
-          "greek-2064": "having come",
-          "greek-1520": "one",
-          "greek-5503": "widow",
-          "greek-4434": "poor",
-          "greek-906": "cast [in]",
-          "greek-3016": "lepta",
-          "greek-1417": "two",
-          "greek-3739": "which",
-          "greek-1510": "is",
-          "greek-2835": "a kodrantes",
-          "greek-3391": null,
-          "greek-3603": null
+          "eng": {
+            "greek-2532": "And",
+            "greek-2064": "having come",
+            "greek-1520": "one",
+            "greek-5503": "widow",
+            "greek-4434": "poor",
+            "greek-906": "cast [in]",
+            "greek-3016": "lepta",
+            "greek-1417": "two",
+            "greek-3739": "which",
+            "greek-1510": "is",
+            "greek-2835": "a kodrantes",
+            "greek-3391": null,
+            "greek-3603": null
+          },
+          "cht": {
+            "greek-2064": "來",
+            "greek-5503": "寡婦",
+            "greek-4434": "窮",
+            "greek-906": "往裡投了",
+            "greek-3016": "小錢",
+            "greek-1417": "兩個",
+            "greek-2835": "一個大錢",
+            "greek-3391": "有一個",
+            "greek-3603": "就是"
+          }
         }
       },
       "translations": {
@@ -35,47 +48,40 @@
             "greek-1417": 1.5296912428681375
           },
           "verseKey": "luk.21.2",
-          "cunp": "又見一個窮寡婦投了兩個小錢，",
+          "nasb": "And He saw a poor widow putting in two small copper coins.",
           "words": [
             {
-              "id": "greek-1492",
-              "eng": "He saw"
+              "id": "greek-2532",
+              "cht": "又"
             },
             {
-              "id": "greek-1161",
-              "eng": "then"
+              "id": "greek-1492",
+              "cht": "見"
             },
             {
               "id": "greek-5100",
-              "eng": "a certain"
-            },
-            {
-              "id": "greek-5503",
-              "eng": "widow"
+              "cht": "一個"
             },
             {
               "id": "greek-3998",
-              "eng": "poor"
+              "cht": "窮"
+            },
+            {
+              "id": "greek-5503",
+              "cht": "寡婦"
             },
             {
               "id": "greek-906",
-              "eng": "casting"
-            },
-            {
-              "id": "greek-1563",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3016",
-              "eng": "lepta"
+              "cht": "投了"
             },
             {
               "id": "greek-1417",
-              "eng": "two",
-              "punct": "."
+              "cht": "兩個"
             },
             {
-              "id": "greek-2532"
+              "id": "greek-3016",
+              "cht": "小錢",
+              "punct_cht": "，"
             }
           ]
         },
@@ -85,65 +91,50 @@
             "greek-2835": 10.248599871619378
           },
           "verseKey": "mat.5.26",
-          "cunp": "我實在告訴你，若有一文錢沒有還清，你斷不能從那裏出來。」",
+          "nasb": "Truly I say to you, you will not come out of there until you have paid up the last cent.",
           "words": [
             {
               "id": "greek-281",
-              "eng": "Truly"
+              "cht": "我實在"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "告訴"
             },
             {
               "id": "greek-4671",
-              "eng": "to you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "no"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1831",
-              "eng": "shall you come out"
-            },
-            {
-              "id": "greek-1564",
-              "eng": "from there",
-              "punct": ","
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2193",
-              "eng": "until"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-591",
-              "eng": "you should pay"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "若有"
             },
             {
               "id": "greek-2078",
-              "eng": "last"
+              "cht": "一文"
             },
             {
               "id": "greek-2835",
-              "eng": "kodranten",
-              "punct": "!"
+              "cht": "錢"
             },
             {
-              "id": "greek-3364"
+              "id": "greek-591",
+              "cht": "沒有還清",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3364",
+              "cht": "你斷不能"
+            },
+            {
+              "id": "greek-1564",
+              "cht": "從那裡"
+            },
+            {
+              "id": "greek-1831",
+              "cht": "出來",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -153,63 +144,42 @@
             "greek-3016": 8.539323589735611
           },
           "verseKey": "luk.12.59",
-          "cunp": "我告訴你，若有半文錢沒有還清，你斷不能從那裏出來。」",
+          "nasb": "I say to you, you will not get out of there until you have paid the very last cent.”",
           "words": [
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "我告訴"
             },
             {
               "id": "greek-4671",
-              "eng": "to you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "no"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1831",
-              "eng": "shall you come out"
-            },
-            {
-              "id": "greek-1564",
-              "eng": "from there"
-            },
-            {
-              "id": "greek-2193",
-              "eng": "until"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "even"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2078",
-              "eng": "last"
+              "cht": "若有半文錢"
             },
             {
-              "id": "greek-3016",
-              "eng": "lepton"
+              "id": "greek-2193",
+              "cht": "沒有"
             },
             {
               "id": "greek-591",
-              "eng": "you shall have paid",
-              "punct": "."
+              "cht": "還清",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3739"
+              "id": "greek-3364",
+              "cht": "你斷不能"
             },
             {
-              "id": "greek-3364"
+              "id": "greek-1564",
+              "cht": "從那裡"
+            },
+            {
+              "id": "greek-1831",
+              "cht": "出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -221,116 +191,84 @@
             "greek-906": 1.231031588567471
           },
           "verseKey": "mrk.12.43",
-          "cunp": "耶穌叫門徒來，說：「我實在告訴你們，這窮寡婦投入庫裏的，比眾人所投的更多。",
+          "nasb": "Calling His disciples to Him, He said to them, “Truly I say to you, this poor widow put in more than all the contributors to the treasury;",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-846",
+              "cht": "耶穌"
             },
             {
               "id": "greek-4341",
-              "eng": "having called to [Him]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "叫"
             },
             {
               "id": "greek-3101",
-              "eng": "disciples"
+              "cht": "門徒"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-2036",
-              "eng": "He says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-281",
-              "eng": "Truly"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-281",
+              "cht": "我實在"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5503",
-              "eng": "widow"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3778",
-              "eng": "this"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "這"
             },
             {
               "id": "greek-4434",
-              "eng": "poor",
-              "punct": ","
+              "cht": "窮"
             },
             {
-              "id": "greek-4119",
-              "eng": "more"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "than all"
+              "id": "greek-5503",
+              "cht": "寡婦"
             },
             {
               "id": "greek-906",
-              "eng": "has cast [in]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of those"
-            },
-            {
-              "id": "greek-906",
-              "eng": "casting"
+              "cht": "投"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "入"
             },
             {
               "id": "greek-1049",
-              "eng": "treasury",
-              "punct": "."
+              "cht": "庫"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "裡的",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3004"
+              "id": "greek-3956",
+              "cht": "比眾人"
             },
             {
-              "id": ""
+              "id": "greek-906",
+              "cht": "所投的"
+            },
+            {
+              "id": "greek-4119",
+              "cht": "更多",
+              "punct_cht": "。"
             }
           ]
         },
@@ -341,181 +279,115 @@
             "greek-1417": 1.5296912428681375
           },
           "verseKey": "mat.18.8",
-          "cunp": "倘若你一隻手，或是一隻腳，叫你跌倒，就砍下來丟掉。你缺一隻手，或是一隻腳，進入永生，強如有兩手兩腳被丟在永火裏。",
+          "nasb": "“If your hand or your foot causes you to stumble, cut it off and throw it from you; it is better for you to enter life crippled or lame, than to have two hands or two feet and be cast into the eternal fire.",
           "words": [
             {
               "id": "greek-1487",
-              "eng": "If"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5495",
-              "eng": "hand"
+              "cht": "倘若"
             },
             {
               "id": "greek-4675",
-              "eng": "of you"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4228",
-              "eng": "foot"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "of you"
-            },
-            {
-              "id": "greek-4624",
-              "eng": "causes to sin"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "you",
-              "punct": ","
-            },
-            {
-              "id": "greek-1581",
-              "eng": "cut off"
-            },
-            {
-              "id": "greek-846",
-              "eng": "it"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-906",
-              "eng": "cast [it]"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "you",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2570",
-              "eng": "better"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "for you"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "it is"
-            },
-            {
-              "id": "greek-1525",
-              "eng": "to enter"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2222",
-              "eng": "life"
-            },
-            {
-              "id": "greek-2948",
-              "eng": "crippled"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
-            },
-            {
-              "id": "greek-5560",
-              "eng": "lame",
-              "punct": ","
-            },
-            {
-              "id": "greek-2228",
-              "eng": "than"
-            },
-            {
-              "id": "greek-1417",
-              "eng": "two"
+              "cht": "你"
             },
             {
               "id": "greek-5495",
-              "eng": "hands"
+              "cht": "一隻手",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2228",
-              "eng": "or"
-            },
-            {
-              "id": "greek-1417",
-              "eng": "two"
+              "id": "greek-4675",
+              "cht": "或是"
             },
             {
               "id": "greek-4228",
-              "eng": "feet"
+              "cht": "一隻腳",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4624",
+              "cht": "叫你跌倒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "就砍下"
+            },
+            {
+              "id": "greek-1581",
+              "cht": "來"
+            },
+            {
+              "id": "greek-4675",
+              "cht": "丟掉",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-4671",
+              "cht": "你"
+            },
+            {
+              "id": "greek-2948",
+              "cht": "缺一隻手",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2228",
+              "cht": "或是"
+            },
+            {
+              "id": "greek-5560",
+              "cht": "一隻腳",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1525",
+              "cht": "進入"
+            },
+            {
+              "id": "greek-2222",
+              "cht": "永生",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2570",
+              "cht": "強如"
             },
             {
               "id": "greek-2192",
-              "eng": "having",
-              "punct": ","
+              "cht": "有"
+            },
+            {
+              "id": "greek-1417",
+              "cht": "兩"
+            },
+            {
+              "id": "greek-2228",
+              "cht": "手"
+            },
+            {
+              "id": "greek-1417",
+              "cht": "兩"
+            },
+            {
+              "id": "greek-4228",
+              "cht": "腳"
             },
             {
               "id": "greek-906",
-              "eng": "to be cast"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4442",
-              "eng": "fire"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "被丟"
             },
             {
               "id": "greek-166",
-              "eng": "eternal",
-              "punct": "."
+              "cht": "在永"
             },
             {
-              "id": "greek-4675"
+              "id": "greek-4442",
+              "cht": "火"
             },
             {
-              "id": "greek-4571"
-            },
-            {
-              "id": "greek-4675"
+              "id": "greek-1519",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -526,75 +398,46 @@
             "greek-1417": 1.5296912428681375
           },
           "verseKey": "mrk.10.8",
-          "cunp": "既然如此，夫妻不再是兩個人，乃是一體的了。",
+          "nasb": "and the two shall become one flesh; so they are no longer two, but one flesh.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1526",
-              "eng": "will be"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1417",
-              "eng": "two"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "for"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "flesh"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one",
-              "punct": "."
-            },
-            {
               "id": "greek-5620",
-              "eng": "Therefore"
+              "cht": "既然如此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3765",
-              "eng": "no longer"
+              "cht": "夫妻不再"
             },
             {
-              "id": "greek-1510",
-              "eng": "they are"
+              "id": "greek-1526",
+              "cht": "是"
             },
             {
               "id": "greek-1417",
-              "eng": "two",
-              "punct": ","
+              "cht": "兩個"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
+              "cht": "乃"
             },
             {
-              "id": "greek-1520",
-              "eng": "one"
+              "id": "greek-3391",
+              "cht": "是一"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh",
-              "punct": "."
+              "cht": "體"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-3391"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -605,130 +448,103 @@
             "greek-1417": 1.5296912428681375
           },
           "verseKey": "luk.10.1",
-          "cunp": "這事以後，主又設立七十個人，差遣他們兩個兩個地在他前面，往自己所要到的各城各地方去，",
+          "nasb": "Now after this the Lord appointed seventy others, and sent them in pairs ahead of Him to every city and place where He Himself was going to come.",
           "words": [
             {
-              "id": "greek-3326",
-              "eng": "After"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
               "id": "greek-5023",
-              "eng": "these things",
-              "punct": ","
+              "cht": "這事"
             },
             {
-              "id": "greek-322",
-              "eng": "appointed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3326",
+              "cht": "以後",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "主"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "又"
             },
             {
               "id": "greek-2087",
-              "eng": "others"
+              "cht": "設立"
             },
             {
               "id": "greek-1440",
-              "eng": "seventy"
+              "cht": "七十"
             },
             {
-              "id": "greek-1417",
-              "eng": "two"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "個人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-649",
-              "eng": "sent"
+              "cht": "差遣"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "他們"
             },
             {
               "id": "greek-303",
-              "eng": "in"
+              "cht": "兩個"
             },
             {
               "id": "greek-1417",
-              "eng": "two [by]"
+              "cht": "兩個"
             },
             {
-              "id": "greek-1417",
-              "eng": "two"
+              "id": "greek-846",
+              "cht": "的在他"
             },
             {
               "id": "greek-4253",
-              "eng": "before"
+              "cht": "前"
             },
             {
               "id": "greek-4383",
-              "eng": "[the] face"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Himself"
+              "cht": "面",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "every"
-            },
-            {
-              "id": "greek-4172",
-              "eng": "city"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5117",
-              "eng": "place"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "where"
-            },
-            {
-              "id": "greek-3195",
-              "eng": "was about"
+              "cht": "往"
             },
             {
               "id": "greek-846",
-              "eng": "He Himself"
+              "cht": "自己"
+            },
+            {
+              "id": "greek-3195",
+              "cht": "所要"
             },
             {
               "id": "greek-2064",
-              "eng": "to go",
-              "punct": "."
+              "cht": "到"
             },
             {
-              "id": ""
+              "id": "greek-3757",
+              "cht": "的"
             },
             {
-              "id": "greek-3757"
+              "id": "greek-3956",
+              "cht": "各"
             },
             {
-              "id": ""
+              "id": "greek-4172",
+              "cht": "城"
+            },
+            {
+              "id": "greek-5117",
+              "cht": "各地方"
+            },
+            {
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             }
           ]
         },
@@ -740,66 +556,54 @@
             "greek-906": 1.231031588567471
           },
           "verseKey": "luk.21.3",
-          "cunp": "就說：「我實在告訴你們，這窮寡婦所投的比眾人還多；",
+          "nasb": "And He said, “Truly I say to you, this poor widow put in more than all of them;",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "就"
             },
             {
               "id": "greek-2036",
-              "eng": "He said",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-230",
-              "eng": "Truly"
+              "cht": "我實在"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5503",
-              "eng": "widow"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3778",
-              "eng": "this"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "這"
             },
             {
               "id": "greek-4434",
-              "eng": "poor",
-              "punct": ","
+              "cht": "窮"
             },
             {
-              "id": "greek-4119",
-              "eng": "more"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "than all"
+              "id": "greek-5503",
+              "cht": "寡婦"
             },
             {
               "id": "greek-906",
-              "eng": "has cast in",
-              "punct": ";"
+              "cht": "所投"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "的比眾人"
+            },
+            {
+              "id": "greek-4119",
+              "cht": "還多",
+              "punct_cht": "；"
             }
           ]
         },
@@ -809,97 +613,69 @@
             "greek-1417": 1.5296912428681375
           },
           "verseKey": "mat.25.22",
-          "cunp": "那領二千的也來，說：『主啊，你交給我二千銀子。請看，我又賺了二千。』",
+          "nasb": "“Also the one who had received the two talents came up and said, ‘Master, you entrusted two talents to me. See, I have gained two more talents.’",
           "words": [
             {
-              "id": "greek-4334",
-              "eng": "Having come"
+              "id": "greek-2983",
+              "cht": "那領"
             },
             {
-              "id": "greek-1161",
-              "eng": "then"
+              "id": "greek-1417",
+              "cht": "二千"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "的也"
             },
             {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-1417",
-              "eng": "two"
-            },
-            {
-              "id": "greek-5007",
-              "eng": "talents",
-              "punct": ","
+              "id": "greek-4334",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2036",
-              "eng": "he said",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2962",
-              "eng": "Master",
-              "punct": ","
-            },
-            {
-              "id": "greek-1417",
-              "eng": "two"
-            },
-            {
-              "id": "greek-5007",
-              "eng": "talents"
-            },
-            {
-              "id": "greek-3427",
-              "eng": "to me"
+              "cht": "主啊",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3860",
-              "eng": "you did deliver",
-              "punct": "."
+              "cht": "你交給"
             },
             {
-              "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-243",
-              "eng": "more"
+              "id": "greek-3427",
+              "cht": "我"
             },
             {
               "id": "greek-1417",
-              "eng": "two"
+              "cht": "二千銀子",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-5007",
-              "eng": "talents"
+              "id": "greek-2396",
+              "cht": "請看",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "我"
+            },
+            {
+              "id": "greek-243",
+              "cht": "又"
             },
             {
               "id": "greek-2770",
-              "eng": "have I gained",
-              "punct": "."
+              "cht": "賺了"
             },
             {
-              "id": "greek-2983"
-            },
-            {
-              "id": "greek-2396"
-            },
-            {
-              "id": "greek-1909"
-            },
-            {
-              "id": "greek-846"
+              "id": "greek-5007",
+              "cht": "二千",
+              "punct_cht": "。"
             }
           ]
         },
@@ -910,102 +686,79 @@
             "greek-1417": 1.5296912428681375
           },
           "verseKey": "mat.18.16",
-          "cunp": "他若不聽，你就另外帶一兩個人同去，要憑兩三個人的口作見證，句句都可定準。",
+          "nasb": "But if he does not listen to you, take one or two more with you, so that by the mouth of two or three witnesses every fact may be confirmed.",
           "words": [
             {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "greek-3362",
+              "cht": "他若不"
             },
             {
               "id": "greek-191",
-              "eng": "he will hear",
-              "punct": ","
-            },
-            {
-              "id": "greek-3880",
-              "eng": "take"
-            },
-            {
-              "id": "greek-3326",
-              "eng": "with"
+              "cht": "聽",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4675",
-              "eng": "you"
+              "cht": "你"
             },
             {
               "id": "greek-2089",
-              "eng": "more",
-              "punct": ","
+              "cht": "就另外"
+            },
+            {
+              "id": "greek-3880",
+              "cht": "帶"
             },
             {
               "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
+              "cht": "一"
             },
             {
               "id": "greek-1417",
-              "eng": "two",
-              "punct": ","
+              "cht": "兩個"
+            },
+            {
+              "id": "greek-3326",
+              "cht": "人同"
+            },
+            {
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
+              "cht": "要"
             },
             {
               "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-4750",
-              "eng": "[the] testimony"
+              "cht": "憑"
             },
             {
               "id": "greek-1417",
-              "eng": "of two"
-            },
-            {
-              "id": "greek-3144",
-              "eng": "witnesses"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
+              "cht": "兩"
             },
             {
               "id": "greek-5140",
-              "eng": "of three",
-              "punct": ","
+              "cht": "三"
             },
             {
-              "id": "greek-2476",
-              "eng": "may be strengthened"
+              "id": "greek-4750",
+              "cht": "個人的口"
+            },
+            {
+              "id": "greek-3144",
+              "cht": "作見證",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "every"
+              "cht": "句句"
             },
             {
-              "id": "greek-4487",
-              "eng": "word",
-              "punct": "."
-            },
-            {
-              "id": "greek-3362"
-            },
-            {
-              "id": ""
+              "id": "greek-2476",
+              "cht": "都可定準",
+              "punct_cht": "。"
             }
           ]
         }

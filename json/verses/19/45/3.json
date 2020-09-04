@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2296": "Gird",
-          "hebrew-2719": "Your sword",
-          "hebrew-5921": "upon",
-          "hebrew-3409": "[Your] thigh",
-          "hebrew-1368": "Mighty one",
-          "hebrew-1935": "with Your glory",
-          "hebrew-1926": "and Your majesty",
-          "": null
+          "eng": {
+            "hebrew-2296": "Gird",
+            "hebrew-2719": "Your sword",
+            "hebrew-5921": "upon",
+            "hebrew-3409": "[Your] thigh",
+            "hebrew-1368": "Mighty one",
+            "hebrew-1935": "with Your glory",
+            "hebrew-1926": "and Your majesty",
+            "": null
+          },
+          "cht": {
+            "hebrew-2296": "佩",
+            "hebrew-2719": "刀",
+            "hebrew-5921": "願你腰間",
+            "hebrew-3409": "願你腰間",
+            "hebrew-1368": "大能者",
+            "hebrew-1935": "大有榮耀",
+            "hebrew-1926": "和威嚴"
+          }
         }
       },
       "translations": {
@@ -26,120 +37,105 @@
             "hebrew-2296": 2.452276740079168
           },
           "verseKey": "1sa.25.13",
-          "cunp": "大衛向跟隨他的人說：「你們各人都要帶上刀！」眾人就都帶上刀，大衛也帶上刀。跟隨大衛上去的約有四百人，留下二百人看守器具。",
+          "nasb": "David said to his men, “Each of you gird on his sword.” So each man girded on his sword. And David also girded on his sword, and about four hundred men went up behind David while two hundred stayed with the baggage.",
           "words": [
             {
+              "id": "hebrew-1732",
+              "cht": "大衛"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "向跟隨他的人"
+            },
+            {
               "id": "hebrew-559",
-              "eng": "And said"
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "你們各人"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "都要帶上"
+            },
+            {
+              "id": "hebrew-2719",
+              "cht": "刀",
+              "punct_cht": "！」"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "眾人"
+            },
+            {
+              "id": "hebrew-2296",
+              "cht": "就都帶上"
+            },
+            {
+              "id": "hebrew-2719",
+              "cht": "刀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "to his men",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2296",
-              "eng": "gird on"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "every man"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "his sword",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2296",
-              "eng": "So girded on"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "every man"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "his sword",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2296",
-              "eng": "and girded on"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-1571",
-              "eng": "also"
+              "cht": "也"
             },
             {
-              "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-2296",
+              "cht": "帶上"
             },
             {
               "id": "hebrew-2719",
-              "eng": "his sword",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "and went"
+              "cht": "刀",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-310",
-              "eng": "with"
+              "cht": "跟隨"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "上去"
             },
             {
               "id": "hebrew-702",
-              "eng": "about four"
+              "cht": "的約有四"
             },
             {
               "id": "hebrew-3967",
-              "eng": "hundred"
+              "cht": "百"
             },
             {
               "id": "hebrew-376",
-              "eng": "men",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "and two hundred"
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3427",
-              "eng": "stayed"
+              "cht": "留下"
+            },
+            {
+              "id": "hebrew-3967",
+              "cht": "二百"
             },
             {
               "id": "hebrew-5921",
-              "eng": "with"
+              "cht": "人看守"
             },
             {
               "id": "hebrew-3627",
-              "eng": "the supplies",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-582"
+              "cht": "器具",
+              "punct_cht": "。"
             }
           ]
         },
@@ -149,92 +145,67 @@
             "hebrew-2296": 2.452276740079168
           },
           "verseKey": "lev.8.7",
-          "cunp": "給亞倫穿上內袍，束上腰帶，穿上外袍，又加上以弗得，用其上巧工織的帶子把以弗得繫在他身上，",
+          "nasb": "He put the tunic on him and girded him with the sash, and clothed him with the robe and put the ephod on him; and he girded him with the artistic band of the ephod, with which he tied it to him.",
           "words": [
             {
-              "id": "hebrew-5414",
-              "eng": "And he put"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "on him"
+              "cht": "給亞倫"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-5414",
+              "cht": "穿上"
             },
             {
               "id": "hebrew-3801",
-              "eng": "the tunic",
-              "punct": "､"
+              "cht": "內袍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2296",
-              "eng": "and girded"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "him"
+              "cht": "束上"
             },
             {
               "id": "hebrew-73",
-              "eng": "with the sash",
-              "punct": "､"
+              "cht": "腰帶",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3847",
-              "eng": "and clothed"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "him"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "with"
+              "cht": "穿上"
             },
             {
               "id": "hebrew-4598",
-              "eng": "the robe",
-              "punct": "､"
+              "cht": "外袍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "and put"
+              "cht": "又加"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on him"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "上"
             },
             {
               "id": "hebrew-646",
-              "eng": "the ephod",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2296",
-              "eng": "and he girded"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "him"
+              "cht": "以弗得",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2805",
-              "eng": "with the intricately woven band"
+              "cht": "用其上巧工織的帶子"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "把"
             },
             {
               "id": "hebrew-646",
-              "eng": "of the ephod",
-              "punct": "､"
+              "cht": "以弗得"
             },
             {
               "id": "hebrew-640",
-              "eng": "and tied [the ephod]"
+              "cht": "繫"
             }
           ]
         },
@@ -245,110 +216,102 @@
             "hebrew-2719": 0.9676992204438449
           },
           "verseKey": "2sa.20.8",
-          "cunp": "他們到了基遍的大磐石那裏，亞瑪撒來迎接他們。那時約押穿着戰衣，腰束佩刀的帶子，刀在鞘內；約押前行，刀從鞘內掉出來。",
+          "nasb": "When they were at the large stone which is in Gibeon, Amasa came to meet them. Now Joab was dressed in his military attire, and over it was a belt with a sword in its sheath fastened at his waist; and as he went forward, it fell out.",
           "words": [
             {
               "id": "hebrew-1992",
-              "eng": "[when] they [were]"
+              "cht": "他們"
             },
             {
               "id": "hebrew-5973",
-              "eng": "at"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "the stone"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "large"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which [is]"
+              "cht": "到了"
             },
             {
               "id": "hebrew-1391",
-              "eng": "in Gibeon",
-              "punct": "､"
+              "cht": "基遍"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-68",
+              "cht": "磐石"
+            },
+            {
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6021",
-              "eng": "and Amasa"
+              "cht": "亞瑪撒"
             },
             {
               "id": "hebrew-935",
-              "eng": "came"
+              "cht": "來"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before them"
+              "cht": "迎接他們",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3097",
-              "eng": "now Joab"
+              "cht": "那時約押"
             },
             {
-              "id": "hebrew-2296",
-              "eng": "was dressed"
-            },
-            {
-              "id": "hebrew-4055",
-              "eng": "in battle armor"
+              "id": "hebrew-5921",
+              "cht": "穿著"
             },
             {
               "id": "hebrew-3830",
-              "eng": "that he had put on"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on it"
-            },
-            {
-              "id": "hebrew-2290",
-              "eng": "was a belt"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "[with] a sword"
-            },
-            {
-              "id": "hebrew-6775",
-              "eng": "fastened"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "at"
+              "cht": "戰衣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4975",
-              "eng": "his hips"
+              "cht": "腰"
+            },
+            {
+              "id": "hebrew-2296",
+              "cht": "束"
+            },
+            {
+              "id": "hebrew-2289",
+              "cht": "佩刀的帶子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6775",
+              "cht": "刀"
             },
             {
               "id": "hebrew-8593",
-              "eng": "in its sheath"
+              "cht": "在鞘"
+            },
+            {
+              "id": "",
+              "cht": "內",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1931",
-              "eng": "and as he"
+              "cht": "約押"
             },
             {
               "id": "hebrew-3318",
-              "eng": "was going forward"
+              "cht": "前行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5307",
-              "eng": "and it fell out",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-2289"
-            },
-            {
-              "id": ""
+              "cht": "刀從鞘內掉出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -359,69 +322,62 @@
             "hebrew-2719": 0.9676992204438449
           },
           "verseKey": "jdg.3.16",
-          "cunp": "以笏打了一把兩刃的劍，長一肘，帶在右腿上衣服裏面。",
+          "nasb": "Ehud made himself a sword which had two edges, a cubit in length, and he bound it on his right thigh under his cloak.",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And made"
-            },
-            {
               "id": "hebrew-164",
-              "eng": "Ehud"
+              "cht": "以笏"
             },
             {
-              "id": "hebrew-2719",
-              "eng": "a dagger"
+              "id": "hebrew-6213",
+              "cht": "打了"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "一把兩"
             },
             {
               "id": "hebrew-6366",
-              "eng": "edges",
-              "punct": "､"
+              "cht": "刃"
             },
             {
-              "id": "hebrew-1574",
-              "eng": "and a cubit"
+              "id": "hebrew-2719",
+              "cht": "的劍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-753",
-              "eng": "in length",
-              "punct": "–"
+              "cht": "長"
+            },
+            {
+              "id": "hebrew-1574",
+              "cht": "一肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2296",
-              "eng": "and fastened"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "it"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "under"
-            },
-            {
-              "id": "hebrew-4055",
-              "eng": "under his clothes"
+              "cht": "帶"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-3409",
-              "eng": "thigh"
+              "cht": "在"
             },
             {
               "id": "hebrew-3225",
-              "eng": "his right",
-              "punct": "."
+              "cht": "右"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3409",
+              "cht": "腿"
+            },
+            {
+              "id": "hebrew-4055",
+              "cht": "衣服"
+            },
+            {
+              "id": "hebrew-8478",
+              "cht": "裡面",
+              "punct_cht": "。"
             }
           ]
         }

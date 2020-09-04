@@ -3,14 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-1722": "By",
-          "greek-3588": "the",
-          "greek-5281": "patient endurance",
-          "greek-5216": null,
-          "greek-2932": "you will gain",
-          "greek-5590": "souls",
-          "greek-4771": "of you",
-          "": null
+          "eng": {
+            "greek-1722": "By",
+            "greek-3588": "the",
+            "greek-5281": "patient endurance",
+            "greek-5216": null,
+            "greek-2932": "you will gain",
+            "greek-5590": "souls",
+            "greek-4771": "of you",
+            "": null
+          },
+          "cht": {
+            "greek-1722": "常存",
+            "greek-5281": "忍耐",
+            "greek-5216": "就必保全",
+            "greek-2932": "就必保全",
+            "greek-5590": "靈魂"
+          }
         }
       },
       "translations": {},
@@ -21,82 +30,49 @@
             "greek-5281": 2.943137453388001
           },
           "verseKey": "2pe.1.6",
-          "cunp": "有了知識，又要加上節制；有了節制，又要加上忍耐；有了忍耐，又要加上虔敬；",
+          "nasb": "and in your knowledge, self-control, and in your self-control, perseverance, and in your perseverance, godliness,",
           "words": [
             {
-              "id": "greek-1722",
-              "eng": "into"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-1108",
-              "eng": "knowledge"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1466",
-              "eng": "self-control",
-              "punct": ","
+              "cht": "有了知識",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "into"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "又要加上"
             },
             {
               "id": "greek-1466",
-              "eng": "self-control"
+              "cht": "節制",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5281",
-              "eng": "endurance",
-              "punct": ","
+              "id": "greek-1466",
+              "cht": "有了節制",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "into"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "又要加上"
             },
             {
               "id": "greek-5281",
-              "eng": "endurance"
+              "cht": "忍耐",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5281",
+              "cht": "有了忍耐",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "又要加上"
             },
             {
               "id": "greek-2150",
-              "eng": "godliness",
-              "punct": ","
+              "cht": "虔敬",
+              "punct_cht": "；"
             }
           ]
         },
@@ -106,42 +82,37 @@
             "greek-2932": 5.832220266167411
           },
           "verseKey": "luk.18.12",
-          "cunp": "我一個禮拜禁食兩次，凡我所得的都捐上十分之一。』",
+          "nasb": "I fast twice a week; I pay tithes of all that I get.’",
           "words": [
             {
+              "id": "greek-4521",
+              "cht": "我一個禮拜"
+            },
+            {
               "id": "greek-3522",
-              "eng": "I fast"
+              "cht": "禁食"
             },
             {
               "id": "greek-1364",
-              "eng": "twice"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "in the"
-            },
-            {
-              "id": "greek-4521",
-              "eng": "week",
-              "punct": ";"
-            },
-            {
-              "id": "greek-586",
-              "eng": "I tithe"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all things",
-              "punct": ","
+              "cht": "兩次",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3745",
-              "eng": "as many as"
+              "cht": "凡"
             },
             {
               "id": "greek-2932",
-              "eng": "I gain",
-              "punct": "."
+              "cht": "我所得的"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "都"
+            },
+            {
+              "id": "greek-586",
+              "cht": "捐上十分之一",
+              "punct_cht": "。"
             }
           ]
         },
@@ -151,57 +122,40 @@
             "greek-2932": 5.832220266167411
           },
           "verseKey": "mat.10.9",
-          "cunp": "腰袋裏不要帶金銀銅錢；",
+          "nasb": "Do not acquire gold, or silver, or copper for your money belts,",
           "words": [
             {
-              "id": "greek-3361",
-              "eng": "Neither"
-            },
-            {
-              "id": "greek-2932",
-              "eng": "take along"
-            },
-            {
-              "id": "greek-5557",
-              "eng": "gold",
-              "punct": ","
-            },
-            {
-              "id": "greek-3366",
-              "eng": "nor"
-            },
-            {
-              "id": "greek-696",
-              "eng": "silver",
-              "punct": ","
-            },
-            {
-              "id": "greek-3366",
-              "eng": "nor"
-            },
-            {
-              "id": "greek-5475",
-              "eng": "copper"
+              "id": "greek-2223",
+              "cht": "腰袋"
             },
             {
               "id": "greek-1519",
-              "eng": "in"
+              "cht": "裡"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3361",
+              "cht": "不要"
             },
             {
-              "id": "greek-2223",
-              "eng": "belts"
+              "id": "greek-2932",
+              "cht": "帶"
             },
             {
-              "id": "greek-4771",
-              "eng": "of you",
-              "punct": ","
+              "id": "greek-5557",
+              "cht": "金"
             },
             {
-              "id": ""
+              "id": "greek-3366",
+              "cht": "銀"
+            },
+            {
+              "id": "greek-5475",
+              "cht": "銅"
+            },
+            {
+              "id": "",
+              "cht": "錢",
+              "punct_cht": "。"
             }
           ]
         },
@@ -211,90 +165,59 @@
             "greek-2932": 5.832220266167411
           },
           "verseKey": "act.22.28",
-          "cunp": "千夫長說：「我用許多銀子才入了羅馬的民籍。」保羅說：「我生來就是。」",
+          "nasb": "The commander answered, “I acquired this citizenship with a large sum of money.” And Paul said, “But I was actually born a citizen.”",
           "words": [
             {
-              "id": "greek-611",
-              "eng": "Answered"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-5506",
-              "eng": "commander",
-              "punct": ","
+              "cht": "千夫長"
+            },
+            {
+              "id": "greek-611",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1473",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "greek-4183",
-              "eng": "with a great"
+              "cht": "用許多"
             },
             {
               "id": "greek-2774",
-              "eng": "sum"
+              "cht": "銀子"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5026",
+              "cht": "才入了"
             },
             {
               "id": "greek-4174",
-              "eng": "citizenship"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this"
-            },
-            {
-              "id": "greek-2932",
-              "eng": "bought",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "But"
+              "cht": "羅馬的民籍",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3972",
-              "eng": "Paul"
+              "cht": "保羅"
             },
             {
               "id": "greek-5346",
-              "eng": "was saying",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1473",
-              "eng": "I"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "even"
+              "cht": "我"
             },
             {
               "id": "greek-1080",
-              "eng": "was born [so]",
-              "punct": "."
+              "cht": "生來"
             },
             {
-              "id": "greek-5026"
+              "id": "greek-2532",
+              "cht": "就是",
+              "punct_cht": "。"
             }
           ]
         },
@@ -304,52 +227,40 @@
             "greek-2932": 5.832220266167411
           },
           "verseKey": "1th.4.4",
-          "cunp": "要你們各人曉得怎樣用聖潔、尊貴守着自己的身體，",
+          "nasb": "that each of you know how to possess his own vessel in sanctification and honor,",
           "words": [
             {
-              "id": "greek-1492",
-              "eng": "to know"
+              "id": "greek-5216",
+              "cht": "要你們"
             },
             {
               "id": "greek-1538",
-              "eng": "each"
+              "cht": "各人"
             },
             {
-              "id": "greek-5216",
-              "eng": "of you [how]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "of himself"
-            },
-            {
-              "id": "greek-4632",
-              "eng": "vessel"
-            },
-            {
-              "id": "greek-2932",
-              "eng": "to control"
+              "id": "greek-1492",
+              "cht": "曉得"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "怎樣用"
             },
             {
               "id": "greek-38",
-              "eng": "holiness"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "聖潔、"
             },
             {
               "id": "greek-5092",
-              "eng": "honor",
-              "punct": ","
+              "cht": "尊貴"
+            },
+            {
+              "id": "greek-2932",
+              "cht": "守著"
+            },
+            {
+              "id": "greek-4632",
+              "cht": "自己的身體",
+              "punct_cht": "。"
             }
           ]
         },
@@ -359,108 +270,74 @@
             "greek-2932": 5.832220266167411
           },
           "verseKey": "act.8.20",
-          "cunp": "彼得說：「你的銀子和你一同滅亡吧！因你想神的恩賜是可以用錢買的。",
+          "nasb": "But Peter said to him, “May your silver perish with you, because you thought you could obtain the gift of God with money!",
           "words": [
             {
-              "id": "greek-4074",
-              "eng": "Peter"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "id": "greek-4314",
+              "cht": "彼得"
             },
             {
               "id": "greek-2036",
-              "eng": "said"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
-              "id": "greek-694",
-              "eng": "silver"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4675",
-              "eng": "of you",
-              "punct": ","
+              "cht": "你"
+            },
+            {
+              "id": "greek-694",
+              "cht": "的銀子"
             },
             {
               "id": "greek-4862",
-              "eng": "with"
+              "cht": "和"
             },
             {
               "id": "greek-4671",
-              "eng": "you"
+              "cht": "你"
             },
             {
-              "id": "greek-1510",
-              "eng": "may it be"
+              "id": "greek-1498",
+              "cht": "一同滅亡"
             },
             {
-              "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-684",
-              "eng": "destruction",
-              "punct": ","
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3754",
-              "eng": "because"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1431",
-              "eng": "gift"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "of God"
+              "cht": "因"
             },
             {
               "id": "greek-3543",
-              "eng": "you thought"
+              "cht": "你想"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "greek-1431",
+              "cht": "的恩賜"
             },
             {
               "id": "greek-1223",
-              "eng": "by"
+              "cht": "是可以用"
             },
             {
               "id": "greek-5536",
-              "eng": "money"
+              "cht": "錢"
             },
             {
               "id": "greek-2932",
-              "eng": "to be obtained",
-              "punct": "!"
+              "cht": "買"
             },
             {
-              "id": "greek-1498"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -470,91 +347,59 @@
             "greek-2932": 5.832220266167411
           },
           "verseKey": "act.1.18",
-          "cunp": "這人用他作惡的工價買了一塊田，以後身子仆倒，肚腹崩裂，腸子都流出來。",
+          "nasb": "(Now this man acquired a field with the price of his wickedness, and falling headlong, he burst open in the middle and all his intestines gushed out.",
           "words": [
             {
               "id": "greek-3778",
-              "eng": "This [man]"
-            },
-            {
-              "id": "greek-3303",
-              "eng": "indeed"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "then"
-            },
-            {
-              "id": "greek-2932",
-              "eng": "acquired"
-            },
-            {
-              "id": "greek-5564",
-              "eng": "a field"
+              "cht": "這人"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3408",
-              "eng": "[the] reward"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "用"
             },
             {
               "id": "greek-93",
-              "eng": "of unrighteousness",
-              "punct": ","
+              "cht": "他作惡的"
+            },
+            {
+              "id": "greek-3408",
+              "cht": "工價"
+            },
+            {
+              "id": "greek-2932",
+              "cht": "買了"
+            },
+            {
+              "id": "greek-5564",
+              "cht": "一塊田",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "以後"
             },
             {
               "id": "greek-4248",
-              "eng": "headlong"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "having fallen",
-              "punct": ","
+              "cht": "身子仆倒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2997",
-              "eng": "he burst open"
-            },
-            {
-              "id": "greek-3319",
-              "eng": "in [the] middle",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1632",
-              "eng": "gushed out"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "肚腹崩裂",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4698",
-              "eng": "intestines"
+              "cht": "腸子"
             },
             {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "id": "greek-3956",
+              "cht": "都"
+            },
+            {
+              "id": "greek-1632",
+              "cht": "流出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -564,99 +409,74 @@
             "greek-5590": 1.7392070394734038
           },
           "verseKey": "1jn.3.16",
-          "cunp": "主為我們捨命，我們從此就知道何為愛；我們也當為弟兄捨命。",
+          "nasb": "We know love by this, that He laid down His life for us; and we ought to lay down our lives for the brethren.",
           "words": [
             {
-              "id": "greek-1722",
-              "eng": "By"
-            },
-            {
-              "id": "greek-5129",
-              "eng": "this"
-            },
-            {
-              "id": "greek-1097",
-              "eng": "we have known"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-26",
-              "eng": "love",
-              "punct": ","
-            },
-            {
-              "id": "greek-3754",
-              "eng": "because"
-            },
-            {
               "id": "greek-1565",
-              "eng": "He"
+              "cht": "主"
             },
             {
               "id": "greek-5228",
-              "eng": "for"
+              "cht": "為"
             },
             {
               "id": "greek-2257",
-              "eng": "us"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5590",
-              "eng": "life"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him"
+              "cht": "我們"
             },
             {
               "id": "greek-5087",
-              "eng": "laid down",
-              "punct": ";"
+              "cht": "捨"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-5590",
+              "cht": "命",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "我們從"
+            },
+            {
+              "id": "greek-5129",
+              "cht": "此"
+            },
+            {
+              "id": "greek-1097",
+              "cht": "就知道"
+            },
+            {
+              "id": "greek-26",
+              "cht": "何為愛",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2249",
-              "eng": "we"
+              "cht": "我們"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-3784",
-              "eng": "ought"
+              "cht": "當"
             },
             {
               "id": "greek-5228",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "[our]"
+              "cht": "為"
             },
             {
               "id": "greek-80",
-              "eng": "brothers",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "[our]"
-            },
-            {
-              "id": "greek-5590",
-              "eng": "lives"
+              "cht": "弟兄"
             },
             {
               "id": "greek-5087",
-              "eng": "to lay down",
-              "punct": "."
+              "cht": "捨"
+            },
+            {
+              "id": "greek-5590",
+              "cht": "命",
+              "punct_cht": "。"
             }
           ]
         },
@@ -666,105 +486,83 @@
             "greek-5590": 1.7392070394734038
           },
           "verseKey": "jhn.12.25",
-          "cunp": "愛惜自己生命的，就失喪生命；在這世上恨惡自己生命的，就要保守生命到永生。",
+          "nasb": "He who loves his life loses it, and he who hates his life in this world will keep it to life eternal.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-5368",
-              "eng": "loving"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5590",
-              "eng": "life"
+              "cht": "愛惜"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
+              "cht": "自己"
+            },
+            {
+              "id": "greek-5590",
+              "cht": "生命"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-622",
-              "eng": "loses"
+              "cht": "就失喪"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-3404",
-              "eng": "hating"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5590",
-              "eng": "life"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "生命",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2889",
-              "eng": "world"
+              "cht": "在"
             },
             {
               "id": "greek-5129",
-              "eng": "this",
-              "punct": ","
+              "cht": "這"
             },
             {
-              "id": "greek-1519",
-              "eng": "to"
+              "id": "greek-2889",
+              "cht": "世上"
             },
             {
-              "id": "greek-2222",
-              "eng": "life"
-            },
-            {
-              "id": "greek-166",
-              "eng": "eternal"
-            },
-            {
-              "id": "greek-5442",
-              "eng": "will keep"
+              "id": "greek-3404",
+              "cht": "恨惡"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": "."
+              "cht": "自己"
             },
             {
-              "id": ""
+              "id": "greek-5590",
+              "cht": "生命"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5442",
+              "cht": "就要保守"
+            },
+            {
+              "id": "greek-846",
+              "cht": "生命"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "到"
+            },
+            {
+              "id": "greek-166",
+              "cht": "永"
+            },
+            {
+              "id": "greek-2222",
+              "cht": "生",
+              "punct_cht": "。"
             }
           ]
         },
@@ -774,105 +572,76 @@
             "greek-5590": 1.7392070394734038
           },
           "verseKey": "luk.9.24",
-          "cunp": "因為，凡要救自己生命的，必喪掉生命；凡為我喪掉生命的，必救了生命。",
+          "nasb": "For whoever wishes to save his life will lose it, but whoever loses his life for My sake, he is the one who will save it.",
           "words": [
             {
-              "id": "greek-3739",
-              "eng": "Whoever"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
               "id": "greek-302",
-              "eng": "-"
+              "cht": "凡"
             },
             {
               "id": "greek-2309",
-              "eng": "might desire"
+              "cht": "要"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "救"
             },
             {
               "id": "greek-5590",
-              "eng": "life"
+              "cht": "自己生命"
             },
             {
-              "id": "greek-846",
-              "eng": "of him"
-            },
-            {
-              "id": "greek-4982",
-              "eng": "to save",
-              "punct": ","
+              "id": "",
+              "cht": "（生命或作靈魂下同）的",
+              "punct_cht": "：；，"
             },
             {
               "id": "greek-622",
-              "eng": "will lose"
+              "cht": "必喪掉"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whoever"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "生命",
+              "punct_cht": "；"
             },
             {
               "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-622",
-              "eng": "might lose"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5590",
-              "eng": "life"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "凡"
             },
             {
               "id": "greek-1752",
-              "eng": "on account of"
+              "cht": "為"
             },
             {
               "id": "greek-1700",
-              "eng": "me",
-              "punct": ","
+              "cht": "我"
             },
             {
-              "id": "greek-3778",
-              "eng": "he"
+              "id": "greek-622",
+              "cht": "喪掉"
+            },
+            {
+              "id": "greek-5590",
+              "cht": "生命"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4982",
-              "eng": "will save"
+              "cht": "必救了"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "生命",
+              "punct_cht": "。"
             }
           ]
         }

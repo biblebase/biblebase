@@ -3,15 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7251": "Square",
-          "hebrew-1961": "it",
-          "hebrew-3717": "when doubled",
-          "hebrew-6213": "they made",
-          "hebrew-853": "-",
-          "hebrew-2833": "the breastplate",
-          "hebrew-2239": "and a span",
-          "hebrew-753": "its length",
-          "hebrew-7341": "its width"
+          "eng": {
+            "hebrew-7251": "Square",
+            "hebrew-1961": "it",
+            "hebrew-3717": "when doubled",
+            "hebrew-6213": "they made",
+            "hebrew-853": "-",
+            "hebrew-2833": "the breastplate",
+            "hebrew-2239": "and a span",
+            "hebrew-753": "its length",
+            "hebrew-7341": "its width"
+          },
+          "cht": {
+            "hebrew-7251": "四方的",
+            "hebrew-1961": "是",
+            "hebrew-3717": "這兩層",
+            "hebrew-2833": "胸牌",
+            "hebrew-2239": "一虎口",
+            "hebrew-753": "長",
+            "hebrew-7341": "寬"
+          }
         }
       },
       "translations": {
@@ -29,37 +40,39 @@
             "hebrew-2239": 5.832220266167411
           },
           "verseKey": "exo.28.16",
-          "cunp": "這胸牌要四方的，疊為兩層，長一虎口，寬一虎口。",
+          "nasb": "It shall be square and folded double, a span in length and a span in width.",
           "words": [
             {
-              "id": "hebrew-7251",
-              "eng": "Into a square"
+              "id": "hebrew-1961",
+              "cht": "這胸牌要"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "it shall be"
+              "id": "hebrew-7251",
+              "cht": "四方的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3717",
-              "eng": "doubled",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2239",
-              "eng": "a span [shall be]"
+              "cht": "疊為兩層",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-753",
-              "eng": "its length"
+              "cht": "長"
             },
             {
               "id": "hebrew-2239",
-              "eng": "and a span [shall be]"
+              "cht": "一虎口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7341",
-              "eng": "its width",
-              "punct": "."
+              "cht": "寬"
+            },
+            {
+              "id": "hebrew-2239",
+              "cht": "一虎口",
+              "punct_cht": "。"
             }
           ]
         },
@@ -73,80 +86,76 @@
             "hebrew-7341": 2.0432824851624476
           },
           "verseKey": "exo.27.1",
-          "cunp": "「你要用皂莢木做壇。這壇要四方的，長五肘，寬五肘，高三肘。",
+          "nasb": "“And you shall make the altar of acacia wood, five cubits long and five cubits wide; the altar shall be square, and its height shall be three cubits.",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And You shall make"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4196",
-              "eng": "an altar"
+              "id": "hebrew-7848",
+              "cht": "你要用皂莢"
             },
             {
               "id": "hebrew-6086",
-              "eng": "of wood",
-              "punct": "､"
+              "cht": "木"
             },
             {
-              "id": "hebrew-7848",
-              "eng": "acacia"
-            },
-            {
-              "id": "hebrew-2568",
-              "eng": "five"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubits"
-            },
-            {
-              "id": "hebrew-753",
-              "eng": "long",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2568",
-              "eng": "and five"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubits"
-            },
-            {
-              "id": "hebrew-7341",
-              "eng": "wide",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7251",
-              "eng": "square"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "shall be"
+              "id": "hebrew-6213",
+              "cht": "做"
             },
             {
               "id": "hebrew-4196",
-              "eng": "the altar",
-              "punct": "､"
+              "cht": "壇",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-7969",
-              "eng": "and three"
+              "id": "hebrew-4196",
+              "cht": "這壇"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "要"
+            },
+            {
+              "id": "hebrew-7251",
+              "cht": "四方的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-753",
+              "cht": "長"
+            },
+            {
+              "id": "hebrew-2568",
+              "cht": "五"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7341",
+              "cht": "寬"
+            },
+            {
+              "id": "hebrew-2568",
+              "cht": "五"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6967",
-              "eng": "its height [shall be]",
-              "punct": "."
+              "cht": "高"
+            },
+            {
+              "id": "hebrew-7969",
+              "cht": "三"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -158,64 +167,60 @@
             "hebrew-7341": 2.0432824851624476
           },
           "verseKey": "ezk.40.47",
-          "cunp": "他又量內院，長一百肘，寬一百肘，是見方的。祭壇在殿前。",
+          "nasb": "He measured the court, a perfect square, a hundred cubits long and a hundred cubits wide; and the altar was in front of the temple.",
           "words": [
             {
               "id": "hebrew-4058",
-              "eng": "And he measured"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "他又量"
             },
             {
               "id": "hebrew-2691",
-              "eng": "the court",
-              "punct": "､"
+              "cht": "內院",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-753",
-              "eng": "long",
-              "punct": "､"
+              "cht": "長"
             },
             {
               "id": "hebrew-3967",
-              "eng": "a hundred"
+              "cht": "一百"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7341",
-              "eng": "and wide",
-              "punct": "､"
+              "cht": "寬"
             },
             {
               "id": "hebrew-3967",
-              "eng": "a hundred"
+              "cht": "一百"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7251",
-              "eng": "foursquare",
-              "punct": "–"
+              "cht": "是見方的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4196",
-              "eng": "and the altar [was]"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "in front"
+              "cht": "祭壇"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the temple",
-              "punct": "."
+              "cht": "在殿"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "前",
+              "punct_cht": "。"
             }
           ]
         },
@@ -227,60 +232,58 @@
             "hebrew-7341": 2.0432824851624476
           },
           "verseKey": "ezk.43.16",
-          "cunp": "供臺長十二肘，寬十二肘，四面見方。",
+          "nasb": "Now the altar hearth shall be twelve cubits long by twelve wide, square in its four sides.",
           "words": [
             {
               "id": "hebrew-741",
-              "eng": "The altar [hearth] [is]"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "供臺"
             },
             {
               "id": "hebrew-6240",
-              "eng": "[and] ten [cubits]"
-            },
-            {
-              "id": "hebrew-753",
-              "eng": "long",
-              "punct": "､"
+              "cht": "長"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "十二"
             },
             {
-              "id": "hebrew-6240",
-              "eng": "[and] ten"
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7341",
-              "eng": "wide",
-              "punct": "､"
+              "cht": "寬"
             },
             {
-              "id": "hebrew-7251",
-              "eng": "square"
+              "id": "hebrew-6240",
+              "cht": "十"
             },
             {
-              "id": "hebrew-413",
-              "eng": "at"
+              "id": "hebrew-8147",
+              "cht": "二"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-702",
-              "eng": "four"
+              "cht": "四"
             },
             {
               "id": "hebrew-7253",
-              "eng": "its corners",
-              "punct": "."
+              "cht": "面"
             },
             {
-              "id": ""
+              "id": "hebrew-413",
+              "cht": "見"
             },
             {
-              "id": ""
+              "id": "hebrew-7251",
+              "cht": "方",
+              "punct_cht": "。"
             }
           ]
         },
@@ -291,99 +294,80 @@
             "hebrew-7341": 2.0432824851624476
           },
           "verseKey": "ezk.48.13",
-          "cunp": "利未人所得的地要長二萬五千肘，寬一萬肘，與祭司的地界相等，都長二萬五千肘，寬一萬肘。",
+          "nasb": "Alongside the border of the priests the Levites shall have 25,000 cubits in length and 10,000 in width. The whole length shall be 25,000 cubits and the width 10,000.",
           "words": [
             {
               "id": "hebrew-3881",
-              "eng": "And the Levites [shall] [have] [an] [area]"
+              "cht": "利未人"
             },
             {
-              "id": "hebrew-5980",
-              "eng": "Opposite"
+              "id": "hebrew-753",
+              "cht": "所得的地要長"
             },
             {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "id": "hebrew-6242",
+              "cht": "二萬五千"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7341",
+              "cht": "寬"
+            },
+            {
+              "id": "hebrew-6235",
+              "cht": "一萬"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3548",
-              "eng": "of the priests"
+              "cht": "與祭司"
             },
             {
-              "id": "hebrew-2568",
-              "eng": "five"
+              "id": "hebrew-1366",
+              "cht": "的地界"
             },
             {
-              "id": "hebrew-6242",
-              "eng": "and twenty"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand [cubits]"
-            },
-            {
-              "id": "hebrew-753",
-              "eng": "in length",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7341",
-              "eng": "and in width",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "Ten"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
+              "id": "hebrew-5980",
+              "cht": "相等",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "entire"
+              "cht": "都"
             },
             {
               "id": "hebrew-753",
-              "eng": "its length [shall] [be]"
-            },
-            {
-              "id": "hebrew-2568",
-              "eng": "five"
-            },
-            {
-              "id": "hebrew-6242",
-              "eng": "and twenty"
+              "cht": "長"
             },
             {
               "id": "hebrew-505",
-              "eng": "thousand",
-              "punct": "､"
+              "cht": "二萬五千"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7341",
-              "eng": "and its width"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
+              "cht": "寬"
             },
             {
               "id": "hebrew-505",
-              "eng": "thousand",
-              "punct": "."
+              "cht": "一萬"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -394,95 +378,93 @@
             "hebrew-7341": 2.0432824851624476
           },
           "verseKey": "ezk.43.13",
-          "cunp": "以下量祭壇，是以肘為度（這肘是一肘零一掌）。底座高一肘，邊寬一肘，四圍起邊高一掌，這是壇的座。",
+          "nasb": "“And these are the measurements of the altar by cubits (the cubit being a cubit and a handbreadth): the base shall be a cubit and the width a cubit, and its border on its edge round about one span; and this shall be the height of the base of the altar.",
           "words": [
             {
               "id": "hebrew-428",
-              "eng": "And these [are]"
+              "cht": "以下"
             },
             {
               "id": "hebrew-4060",
-              "eng": "the measurements"
+              "cht": "量"
             },
             {
               "id": "hebrew-4196",
-              "eng": "of the altar"
+              "cht": "祭壇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-520",
-              "eng": "in cubits",
-              "punct": "–"
+              "cht": "是以肘"
+            },
+            {
+              "id": "",
+              "cht": "為度（"
             },
             {
               "id": "hebrew-520",
-              "eng": "the [cubit] [is]"
+              "cht": "這肘"
             },
             {
               "id": "hebrew-520",
-              "eng": "one cubit"
+              "cht": "是一肘"
             },
             {
               "id": "hebrew-2948",
-              "eng": "and a handbreadth",
-              "punct": "–"
+              "cht": "零一掌）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2436",
-              "eng": "and the base"
+              "cht": "底座"
             },
             {
               "id": "hebrew-520",
-              "eng": "one cubit [high]"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "and one cubit",
-              "punct": "､"
+              "cht": "高一肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7341",
-              "eng": "wide"
+              "cht": "邊寬"
             },
             {
-              "id": "hebrew-1366",
-              "eng": "and with a rim"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "by"
-            },
-            {
-              "id": "hebrew-8193",
-              "eng": "its edge"
+              "id": "hebrew-520",
+              "cht": "一肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5439",
-              "eng": "all around"
+              "cht": "四圍"
             },
             {
-              "id": "hebrew-2239",
-              "eng": "of span",
-              "punct": "–"
+              "id": "hebrew-413",
+              "cht": "起"
+            },
+            {
+              "id": "hebrew-1366",
+              "cht": "邊"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "高一"
+            },
+            {
+              "id": "hebrew-2239",
+              "cht": "掌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "and this [is]"
-            },
-            {
-              "id": "hebrew-1354",
-              "eng": "the height"
+              "cht": "這"
             },
             {
               "id": "hebrew-4196",
-              "eng": "of the altar",
-              "punct": "."
+              "cht": "是壇"
             },
             {
-              "id": ""
+              "id": "hebrew-1354",
+              "cht": "的座",
+              "punct_cht": "。"
             }
           ]
         },
@@ -494,133 +476,109 @@
             "hebrew-7341": 2.0432824851624476
           },
           "verseKey": "ezk.48.10",
-          "cunp": "這聖供地要歸與祭司，北長二萬五千肘，西寬一萬肘，東寬一萬肘，南長二萬五千肘。耶和華的聖地當在其中。",
+          "nasb": "The holy allotment shall be for these, namely for the priests, toward the north 25,000 cubits in length, toward the west 10,000 in width, toward the east 10,000 in width, and toward the south 25,000 in length; and the sanctuary of the Lord shall be in its midst.",
           "words": [
             {
               "id": "hebrew-428",
-              "eng": "And to these",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "shall belong"
-            },
-            {
-              "id": "hebrew-8641",
-              "eng": "district",
-              "punct": "–"
+              "cht": "這"
             },
             {
               "id": "hebrew-6944",
-              "eng": "the holy"
+              "cht": "聖"
             },
             {
-              "id": "hebrew-3548",
-              "eng": "to the priests",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6828",
-              "eng": "on the north"
-            },
-            {
-              "id": "hebrew-2568",
-              "eng": "five"
-            },
-            {
-              "id": "hebrew-6242",
-              "eng": "and twenty"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand [cubits] [in] [length]"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "and on the west"
-            },
-            {
-              "id": "hebrew-7341",
-              "eng": "in width",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
-            },
-            {
-              "id": "hebrew-6921",
-              "eng": "and on the east"
-            },
-            {
-              "id": "hebrew-7341",
-              "eng": "in width",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
-            },
-            {
-              "id": "hebrew-5045",
-              "eng": "and on the south"
-            },
-            {
-              "id": "hebrew-753",
-              "eng": "in length",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2568",
-              "eng": "five"
-            },
-            {
-              "id": "hebrew-6242",
-              "eng": "and twenty"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
+              "id": "hebrew-8641",
+              "cht": "供地"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and shall be"
+              "cht": "要歸"
+            },
+            {
+              "id": "hebrew-3548",
+              "cht": "與祭司",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6828",
+              "cht": "北"
+            },
+            {
+              "id": "hebrew-505",
+              "cht": "長二萬五千"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3220",
+              "cht": "西"
+            },
+            {
+              "id": "hebrew-7341",
+              "cht": "寬"
+            },
+            {
+              "id": "hebrew-6235",
+              "cht": "一萬"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6921",
+              "cht": "東"
+            },
+            {
+              "id": "hebrew-7341",
+              "cht": "寬"
+            },
+            {
+              "id": "hebrew-6235",
+              "cht": "一萬"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5045",
+              "cht": "南"
+            },
+            {
+              "id": "hebrew-753",
+              "cht": "長"
+            },
+            {
+              "id": "hebrew-6242",
+              "cht": "二萬五千"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-4720",
-              "eng": "the sanctuary"
+              "cht": "的聖地"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "of Yahweh"
+              "id": "hebrew-1961",
+              "cht": "當"
             },
             {
               "id": "hebrew-8432",
-              "eng": "in the center",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
+              "cht": "在其中",
+              "punct_cht": "。"
             }
           ]
         },
@@ -630,78 +588,68 @@
             "hebrew-3717": 6.7856512265994295
           },
           "verseKey": "exo.26.9",
-          "cunp": "要把五幅幔子連成一幅，又把六幅幔子連成一幅，這第六幅幔子要在罩棚的前面摺上去。",
+          "nasb": "You shall join five curtains by themselves and the other six curtains by themselves, and you shall double over the sixth curtain at the front of the tent.",
           "words": [
             {
-              "id": "hebrew-2266",
-              "eng": "And you shall couple"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "要把"
             },
             {
               "id": "hebrew-2568",
-              "eng": "five"
+              "cht": "五幅"
             },
             {
               "id": "hebrew-3407",
-              "eng": "curtains"
+              "cht": "幔子"
             },
             {
-              "id": "hebrew-905",
-              "eng": "by themselves",
-              "punct": "､"
+              "id": "hebrew-2266",
+              "cht": "連成"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "又把"
             },
             {
               "id": "hebrew-8337",
-              "eng": "six"
+              "cht": "六幅"
             },
             {
               "id": "hebrew-3407",
-              "eng": "curtains"
-            },
-            {
-              "id": "hebrew-905",
-              "eng": "by themselves",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3717",
-              "eng": "and you shall double over"
+              "cht": "幔子"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3407",
-              "eng": "the curtain"
+              "cht": "這"
             },
             {
               "id": "hebrew-8345",
-              "eng": "sixth"
+              "cht": "第六幅"
+            },
+            {
+              "id": "hebrew-3407",
+              "cht": "幔子"
             },
             {
               "id": "hebrew-413",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4136",
-              "eng": "at"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the forefront"
+              "cht": "要在"
             },
             {
               "id": "hebrew-168",
-              "eng": "of the tent",
-              "punct": "."
+              "cht": "罩棚"
+            },
+            {
+              "id": "hebrew-4136",
+              "cht": "的前"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "面"
+            },
+            {
+              "id": "hebrew-3717",
+              "cht": "摺上去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -711,97 +659,90 @@
             "hebrew-3717": 6.7856512265994295
           },
           "verseKey": "ezk.21.14",
-          "cunp": "「人子啊，你要拍掌預言。我－耶和華要使這刀，就是致死傷的刀，一連三次加倍刺人，進入他們的內屋，使大人受死傷的就是這刀。",
+          "nasb": "“You therefore, son of man, prophesy and clap your hands together; and let the sword be doubled the third time, the sword for the slain. It is the sword for the great one slain, which surrounds them,",
           "words": [
             {
-              "id": "hebrew-859",
-              "eng": "And therefore You"
+              "id": "hebrew-120",
+              "cht": "人"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "子"
             },
             {
-              "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5012",
-              "eng": "prophesy",
-              "punct": "､"
+              "id": "hebrew-859",
+              "cht": "你"
             },
             {
               "id": "hebrew-5221",
-              "eng": "and strike",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3709",
-              "eng": "-"
+              "cht": "要拍"
             },
             {
               "id": "hebrew-413",
-              "eng": "together"
+              "cht": "掌"
             },
             {
-              "id": "hebrew-3709",
-              "eng": "[your] hands [together]"
+              "id": "hebrew-5012",
+              "cht": "預言"
             },
             {
-              "id": "hebrew-3717",
-              "eng": "and let do double [damage]"
+              "id": "",
+              "cht": "我─",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2719",
-              "eng": "the sword"
+              "cht": "耶和華要使這刀",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2491",
+              "cht": "就是致死傷的"
+            },
+            {
+              "id": "hebrew-2719",
+              "cht": "刀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7992",
-              "eng": "the third [time]",
-              "punct": "､"
+              "cht": "一連三次"
             },
             {
-              "id": "hebrew-2719",
-              "eng": "the sword"
+              "id": "hebrew-3717",
+              "cht": "加倍"
             },
             {
-              "id": "hebrew-2491",
-              "eng": "[that] slays",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "It [is]"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "the sword"
-            },
-            {
-              "id": "hebrew-2491",
-              "eng": "that slays",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "the great [men]"
+              "id": "",
+              "cht": "刺人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2314",
-              "eng": "that enters private chambers"
+              "cht": "進入他們的內屋",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-1419",
+              "cht": "使大人"
             },
             {
-              "id": ""
+              "id": "hebrew-2491",
+              "cht": "受死傷"
             },
             {
-              "id": ""
+              "id": "hebrew-1931",
+              "cht": "的就是"
             },
             {
-              "id": "hebrew-2491"
+              "id": "hebrew-2719",
+              "cht": "這刀",
+              "punct_cht": "。"
             }
           ]
         },
@@ -812,65 +753,53 @@
             "hebrew-2833": 3.0298663446363143
           },
           "verseKey": "exo.28.23",
-          "cunp": "在胸牌上也要做兩個金環，安在胸牌的兩頭。",
+          "nasb": "You shall make on the breastpiece two rings of gold, and shall put the two rings on the two ends of the breastpiece.",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And you shall make"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "for"
+              "cht": "在"
             },
             {
               "id": "hebrew-2833",
-              "eng": "the breastplate"
+              "cht": "胸牌"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "上也要做"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
-            },
-            {
-              "id": "hebrew-2885",
-              "eng": "rings"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-2091",
-              "eng": "of gold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "and put"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "金"
             },
             {
               "id": "hebrew-2885",
-              "eng": "the rings"
+              "cht": "環",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "安"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "two"
-            },
-            {
-              "id": "hebrew-7098",
-              "eng": "the ends"
+              "cht": "在"
             },
             {
               "id": "hebrew-2833",
-              "eng": "of the breastplate",
-              "punct": "."
+              "cht": "胸牌"
+            },
+            {
+              "id": "hebrew-8147",
+              "cht": "的兩"
+            },
+            {
+              "id": "hebrew-7098",
+              "cht": "頭",
+              "punct_cht": "。"
             }
           ]
         }

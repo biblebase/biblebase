@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-176": "or",
-          "hebrew-376": "a man",
-          "hebrew-834": "by whom",
-          "hebrew-5060": "touches",
-          "hebrew-3605": "whatever",
-          "hebrew-8318": "creeping thing",
-          "hebrew-2930": "would become unclean",
-          "hebrew-120": "any person",
-          "hebrew-2932": "his uncleanness may be"
+          "eng": {
+            "hebrew-176": "or",
+            "hebrew-376": "a man",
+            "hebrew-834": "by whom",
+            "hebrew-5060": "touches",
+            "hebrew-3605": "whatever",
+            "hebrew-8318": "creeping thing",
+            "hebrew-2930": "would become unclean",
+            "hebrew-120": "any person",
+            "hebrew-2932": "his uncleanness may be"
+          },
+          "cht": {
+            "hebrew-176": "或是",
+            "hebrew-376": "或是",
+            "hebrew-834": "摸那",
+            "hebrew-5060": "摸",
+            "hebrew-3605": "不拘那人有甚麼",
+            "hebrew-8318": "爬物",
+            "hebrew-2930": "不潔淨",
+            "hebrew-120": "的人（",
+            "hebrew-2932": "不潔淨）"
+          }
         }
       },
       "translations": {
@@ -30,66 +43,63 @@
             "hebrew-2932": 4.576110205744392
           },
           "verseKey": "lev.5.3",
-          "cunp": "或是他摸了別人的污穢，無論是染了甚麼污穢，他卻不知道，一知道了就有了罪。",
+          "nasb": "Or if he touches human uncleanness, of whatever sort his uncleanness may be with which he becomes unclean, and it is hidden from him, and then he comes to know it, he will be guilty.",
           "words": [
             {
               "id": "hebrew-176",
-              "eng": "Or"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "if"
+              "cht": "或是"
             },
             {
               "id": "hebrew-5060",
-              "eng": "he touches"
-            },
-            {
-              "id": "hebrew-2932",
-              "eng": "uncleanness"
+              "cht": "他摸了"
             },
             {
               "id": "hebrew-120",
-              "eng": "human",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "whatever"
+              "cht": "別人"
             },
             {
               "id": "hebrew-2932",
-              "eng": "uncleanness"
+              "cht": "的污穢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "無論是"
             },
             {
               "id": "hebrew-2930",
-              "eng": "a man may be defiled"
+              "cht": "染了"
             },
             {
-              "id": "hebrew-5956",
-              "eng": "and he is unaware"
+              "id": "hebrew-3605",
+              "cht": "甚麼"
+            },
+            {
+              "id": "hebrew-2932",
+              "cht": "污穢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "of it",
-              "punct": "､"
+              "cht": "他卻不"
+            },
+            {
+              "id": "hebrew-5956",
+              "cht": "知道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "and when he"
+              "cht": "一"
             },
             {
               "id": "hebrew-3045",
-              "eng": "realizes [it]"
+              "cht": "知道了"
             },
             {
               "id": "hebrew-816",
-              "eng": "then he shall be guilty",
-              "punct": "."
+              "cht": "就有了罪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -102,53 +112,54 @@
             "hebrew-2930": 1.5052141097470302
           },
           "verseKey": "lev.11.31",
-          "cunp": "這些爬物都是與你們不潔淨的。在牠死了以後，凡摸了的，必不潔淨到晚上。",
+          "nasb": "These are to you the unclean among all the swarming things; whoever touches them when they are dead becomes unclean until evening.",
           "words": [
             {
               "id": "hebrew-428",
-              "eng": "These"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "[are] unclean"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "among all"
+              "cht": "這些"
             },
             {
               "id": "hebrew-8318",
-              "eng": "that creep",
-              "punct": "–"
+              "cht": "爬物"
             },
             {
               "id": "hebrew-3605",
-              "eng": "Whoever"
+              "cht": "都是"
             },
             {
-              "id": "hebrew-5060",
-              "eng": "touches"
+              "id": "hebrew-2931",
+              "cht": "不潔淨的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4194",
-              "eng": "when they are dead",
-              "punct": "､"
+              "cht": "在牠死了"
+            },
+            {
+              "id": "",
+              "cht": "以後",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "凡"
+            },
+            {
+              "id": "hebrew-5060",
+              "cht": "摸了"
             },
             {
               "id": "hebrew-2930",
-              "eng": "shall be unclean"
+              "cht": "必不潔淨"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
+              "cht": "到"
             },
             {
               "id": "hebrew-6153",
-              "eng": "evening",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "晚上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -161,121 +172,113 @@
             "hebrew-2932": 4.576110205744392
           },
           "verseKey": "lev.7.21",
-          "cunp": "有人摸了甚麼不潔淨的物，或是人的不潔淨，或是不潔淨的牲畜，或是不潔可憎之物，吃了獻與耶和華平安祭的肉，這人必從民中剪除。」",
+          "nasb": "When anyone touches anything unclean, whether human uncleanness, or an unclean animal, or any unclean detestable thing, and eats of the flesh of the sacrifice of peace offerings which belong to the Lord, that person shall be cut off from his people.’ ”",
           "words": [
             {
               "id": "hebrew-5315",
-              "eng": "Moreover the person"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "-"
+              "cht": "有人"
             },
             {
               "id": "hebrew-5060",
-              "eng": "who touches"
+              "cht": "摸了"
             },
             {
               "id": "hebrew-3605",
-              "eng": "any"
+              "cht": "甚麼"
             },
             {
               "id": "hebrew-2931",
-              "eng": "unclean thing",
-              "punct": "､"
+              "cht": "不潔淨"
             },
             {
-              "id": "hebrew-2932",
-              "eng": "[such [as] uncleanness"
+              "id": "",
+              "cht": "的物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-120",
-              "eng": "human",
-              "punct": "､"
+              "cht": "或是人"
+            },
+            {
+              "id": "hebrew-2932",
+              "cht": "的不潔淨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或是"
+            },
+            {
+              "id": "hebrew-2931",
+              "cht": "不潔淨"
             },
             {
               "id": "hebrew-929",
-              "eng": "[an] animal"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean",
-              "punct": "､"
+              "cht": "的牲畜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-3605",
-              "eng": "any"
-            },
-            {
-              "id": "hebrew-8263",
-              "eng": "abominable"
+              "cht": "是"
             },
             {
               "id": "hebrew-2931",
-              "eng": "unclean thing",
-              "punct": "､"
+              "cht": "不潔"
+            },
+            {
+              "id": "hebrew-8263",
+              "cht": "可憎"
+            },
+            {
+              "id": "",
+              "cht": "之物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "and who eats"
-            },
-            {
-              "id": "hebrew-1320",
-              "eng": "the flesh"
-            },
-            {
-              "id": "hebrew-2077",
-              "eng": "of the sacrifice"
-            },
-            {
-              "id": "hebrew-8002",
-              "eng": "of the peace offering"
+              "cht": "吃了"
             },
             {
               "id": "hebrew-834",
-              "eng": "that [belongs]"
+              "cht": "獻"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
+              "cht": "與耶和華"
             },
             {
-              "id": "hebrew-3772",
-              "eng": "and shall be cut off"
+              "id": "hebrew-8002",
+              "cht": "平安"
             },
             {
-              "id": "hebrew-5315",
-              "eng": "person"
+              "id": "hebrew-2077",
+              "cht": "祭"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的肉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "人"
             },
             {
               "id": "hebrew-5971",
-              "eng": "from his people",
-              "punct": "."
+              "cht": "必從民中"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-3772",
+              "cht": "剪除",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -287,82 +290,84 @@
             "hebrew-2932": 4.576110205744392
           },
           "verseKey": "ezk.36.17",
-          "cunp": "「人子啊，以色列家住在本地的時候，在行動作為上玷污那地。他們的行為在我面前，好像正在經期的婦人那樣污穢。",
+          "nasb": "“Son of man, when the house of Israel was living in their own land, they defiled it by their ways and their deeds; their way before Me was like the uncleanness of a woman in her impurity.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "Son"
-            },
-            {
               "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "id": "hebrew-1121",
+              "cht": "子"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家"
             },
             {
               "id": "hebrew-3427",
-              "eng": "when dwelt"
+              "cht": "住"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "hebrew-127",
-              "eng": "their own land",
-              "punct": "､"
+              "cht": "本地"
             },
             {
-              "id": "hebrew-2930",
-              "eng": "and they defiled"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "it"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1870",
-              "eng": "by their own ways"
+              "cht": "在行動"
             },
             {
               "id": "hebrew-5949",
-              "eng": "and deeds",
-              "punct": "–"
+              "cht": "作為"
             },
             {
-              "id": "hebrew-2932",
-              "eng": "like the uncleanness"
+              "id": "hebrew-2930",
+              "cht": "上玷污"
             },
             {
-              "id": "hebrew-5079",
-              "eng": "of a [woman] in her [customary] impurity",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "Was"
+              "id": "hebrew-853",
+              "cht": "那地",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1870",
-              "eng": "their way"
+              "cht": "他們的行為"
             },
             {
               "id": "hebrew-6440",
-              "eng": "to Me",
-              "punct": "."
+              "cht": "在我面前",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-1961",
+              "cht": "好像正在"
             },
             {
-              "id": ""
+              "id": "hebrew-5079",
+              "cht": "經期"
+            },
+            {
+              "id": "hebrew-2932",
+              "cht": "的婦人那樣污穢",
+              "punct_cht": "。"
             }
           ]
         },
@@ -374,49 +379,49 @@
             "hebrew-2930": 1.5052141097470302
           },
           "verseKey": "num.19.22",
-          "cunp": "不潔淨人所摸的一切物就不潔淨；摸了這物的人必不潔淨到晚上。」",
+          "nasb": "Furthermore, anything that the unclean person touches shall be unclean; and the person who touches it shall be unclean until evening.’ ”",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "And"
+              "id": "hebrew-2931",
+              "cht": "不潔淨人"
             },
             {
               "id": "hebrew-834",
-              "eng": "whatever"
+              "cht": "所"
             },
             {
               "id": "hebrew-5060",
-              "eng": "touches"
+              "cht": "摸"
             },
             {
-              "id": "hebrew-2931",
-              "eng": "the unclean [person]"
+              "id": "hebrew-3605",
+              "cht": "的一切物"
             },
             {
               "id": "hebrew-2930",
-              "eng": "shall be unclean",
-              "punct": "–"
+              "cht": "就不潔淨",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5060",
+              "cht": "摸了"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and the person"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "who touches [it]"
+              "cht": "這物的人"
             },
             {
               "id": "hebrew-2930",
-              "eng": "shall be unclean"
+              "cht": "必不潔淨"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
+              "cht": "到"
             },
             {
               "id": "hebrew-6153",
-              "eng": "evening",
-              "punct": "."
+              "cht": "晚上",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -428,48 +433,50 @@
             "hebrew-2930": 1.5052141097470302
           },
           "verseKey": "lev.11.43",
-          "cunp": "你們不可因甚麼爬物使自己成為可憎的，也不可因這些使自己不潔淨，以致染了污穢。",
+          "nasb": "Do not render yourselves detestable through any of the swarming things that swarm; and you shall not make yourselves unclean with them so that you become unclean.",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-8262",
-              "eng": "You shall make abominable"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "yourselves"
+              "cht": "你們不可"
             },
             {
               "id": "hebrew-3605",
-              "eng": "with any"
-            },
-            {
-              "id": "hebrew-8318",
-              "eng": "creeping thing"
+              "cht": "因甚麼"
             },
             {
               "id": "hebrew-8317",
-              "eng": "that creeps",
-              "punct": "､"
+              "cht": "爬"
+            },
+            {
+              "id": "hebrew-8318",
+              "cht": "物"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "使"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "自己"
+            },
+            {
+              "id": "hebrew-8262",
+              "cht": "成為可憎的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-2930",
-              "eng": "shall you make yourselves unclean"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-2933",
-              "eng": "and lest you be defiled"
+              "cht": "使自己不潔淨",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2930",
+              "cht": "以致染了污穢",
+              "punct_cht": "。"
             }
           ]
         },
@@ -481,91 +488,79 @@
             "hebrew-2930": 1.5052141097470302
           },
           "verseKey": "lev.11.44",
-          "cunp": "我是耶和華－你們的神；所以你們要成為聖潔，因為我是聖潔的。你們也不可在地上的爬物污穢自己。",
+          "nasb": "For I am the Lord your God. Consecrate yourselves therefore, and be holy, for I am holy. And you shall not make yourselves unclean with any of the swarming things that swarm on the earth.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-3068",
-              "eng": "[am] Yahweh"
+              "cht": "是耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6942",
-              "eng": "Therefore You shall consecrate yourselves",
-              "punct": "–"
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and you shall be"
+              "cht": "所以你們要"
             },
             {
-              "id": "hebrew-6918",
-              "eng": "holy",
-              "punct": "､"
+              "id": "hebrew-6942",
+              "cht": "成為聖潔",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-6918",
-              "eng": "[am] holy"
+              "cht": "因為"
             },
             {
               "id": "hebrew-589",
-              "eng": "I",
-              "punct": "."
+              "cht": "我是"
+            },
+            {
+              "id": "hebrew-6918",
+              "cht": "聖潔的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3808",
-              "eng": "And neither"
-            },
-            {
-              "id": "hebrew-2930",
-              "eng": "shall you defile"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "yourselves"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "with any"
-            },
-            {
-              "id": "hebrew-8318",
-              "eng": "creeping thing"
-            },
-            {
-              "id": "hebrew-7430",
-              "eng": "that creeps"
+              "cht": "你們也不可"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "."
+              "cht": "地上"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-7430",
+              "cht": "爬"
+            },
+            {
+              "id": "hebrew-8318",
+              "cht": "物"
+            },
+            {
+              "id": "hebrew-2930",
+              "cht": "污穢"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "自己",
+              "punct_cht": "。"
             }
           ]
         },
@@ -577,77 +572,76 @@
             "hebrew-120": 0.8170628239250021
           },
           "verseKey": "gen.7.21",
-          "cunp": "凡在地上有血肉的動物，就是飛鳥、牲畜、走獸，和爬在地上的昆蟲，以及所有的人，都死了。",
+          "nasb": "All flesh that moved on the earth perished, birds and cattle and beasts and every swarming thing that swarms upon the earth, and all mankind;",
           "words": [
             {
-              "id": "hebrew-1478",
-              "eng": "And died"
+              "id": "hebrew-3605",
+              "cht": "凡"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地上"
             },
             {
               "id": "hebrew-1320",
-              "eng": "flesh"
+              "cht": "有血肉的"
             },
             {
               "id": "hebrew-7430",
-              "eng": "that moved"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "動物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5775",
-              "eng": "birds",
-              "punct": "､"
+              "cht": "就是飛鳥、"
             },
             {
               "id": "hebrew-929",
-              "eng": "and livestock",
-              "punct": "､"
+              "cht": "牲畜、"
             },
             {
               "id": "hebrew-2416",
-              "eng": "and beasts",
-              "punct": "､"
+              "cht": "走獸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and every"
-            },
-            {
-              "id": "hebrew-8318",
-              "eng": "creeping thing"
+              "cht": "和"
             },
             {
               "id": "hebrew-8317",
-              "eng": "that creeps"
+              "cht": "爬"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "地上的"
+            },
+            {
+              "id": "hebrew-8318",
+              "cht": "昆蟲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and every"
+              "cht": "以及所有的"
             },
             {
               "id": "hebrew-120",
-              "eng": "man",
-              "punct": "."
+              "cht": "人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1478",
+              "cht": "都死了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -659,109 +653,106 @@
             "hebrew-8318": 4.1389193993584925
           },
           "verseKey": "lev.5.2",
-          "cunp": "或是有人摸了不潔的物，無論是不潔的死獸，是不潔的死畜，是不潔的死蟲，他卻不知道，因此成了不潔，就有了罪。",
+          "nasb": "Or if a person touches any unclean thing, whether a carcass of an unclean beast or the carcass of unclean cattle or a carcass of unclean swarming things, though it is hidden from him and he is unclean, then he will be guilty.",
           "words": [
             {
               "id": "hebrew-176",
-              "eng": "Or"
+              "cht": "或是"
             },
             {
               "id": "hebrew-5315",
-              "eng": "a person"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "touches"
+              "cht": "有人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "any"
+              "cht": "摸了"
+            },
+            {
+              "id": "hebrew-2931",
+              "cht": "不潔"
             },
             {
               "id": "hebrew-1697",
-              "eng": "thing"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean",
-              "punct": "､"
+              "cht": "的物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "whether"
+              "cht": "無論是"
+            },
+            {
+              "id": "hebrew-2931",
+              "cht": "不潔"
             },
             {
               "id": "hebrew-5038",
-              "eng": "[it is] the carcass"
+              "cht": "的死"
             },
             {
               "id": "hebrew-2416",
-              "eng": "of an beast"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean",
-              "punct": "､"
+              "cht": "獸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-2931",
+              "cht": "不潔"
             },
             {
               "id": "hebrew-5038",
-              "eng": "the carcass"
+              "cht": "的死"
             },
             {
               "id": "hebrew-929",
-              "eng": "of livestock"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean",
-              "punct": "､"
+              "cht": "畜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-2931",
+              "cht": "不潔"
             },
             {
               "id": "hebrew-5038",
-              "eng": "the carcass"
+              "cht": "的死"
             },
             {
               "id": "hebrew-8318",
-              "eng": "of creeping things"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5956",
-              "eng": "and he is unaware"
+              "cht": "蟲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "of it"
+              "cht": "他卻不"
+            },
+            {
+              "id": "hebrew-5956",
+              "cht": "知道",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "因此"
             },
             {
               "id": "hebrew-1931",
-              "eng": "and he [shall be]"
+              "cht": "成了"
             },
             {
               "id": "hebrew-2931",
-              "eng": "unclean",
-              "punct": "､"
+              "cht": "不潔",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-816",
-              "eng": "and guilty",
-              "punct": "."
+              "cht": "就有了罪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -772,95 +763,88 @@
             "hebrew-2932": 4.576110205744392
           },
           "verseKey": "jdg.13.14",
-          "cunp": "葡萄樹所結的都不可吃，清酒濃酒都不可喝，一切不潔之物也不可吃。凡我所吩咐的，她都當遵守。」",
+          "nasb": "She should not eat anything that comes from the vine nor drink wine or strong drink, nor eat any unclean thing; let her observe all that I commanded.”",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "Anything"
+              "id": "hebrew-4480",
+              "cht": "葡萄樹"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
+              "cht": "所"
             },
             {
               "id": "hebrew-3318",
-              "eng": "comes"
+              "cht": "結"
             },
             {
-              "id": "hebrew-1612",
-              "eng": "from the vine",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3196",
-              "eng": "wine"
+              "id": "hebrew-4480",
+              "cht": "的都"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-398",
-              "eng": "she may eat"
+              "cht": "吃",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3196",
-              "eng": "and wine"
+              "cht": "清酒"
             },
             {
               "id": "hebrew-7941",
-              "eng": "nor may she drink",
-              "punct": "､"
+              "cht": "濃酒"
             },
             {
               "id": "hebrew-408",
-              "eng": "or"
+              "cht": "都不可"
             },
             {
               "id": "hebrew-8354",
-              "eng": "[similar] drink"
+              "cht": "喝",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and anything"
+              "cht": "一切"
             },
             {
               "id": "hebrew-2932",
-              "eng": "unclean"
+              "cht": "不潔之物"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-398",
-              "eng": "eat"
+              "cht": "吃",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
+              "cht": "我所"
             },
             {
               "id": "hebrew-6680",
-              "eng": "I commanded her"
+              "cht": "吩咐"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8104",
-              "eng": "let her observe",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "cht": "她都當遵守",
+              "punct_cht": "。」"
             }
           ]
         }

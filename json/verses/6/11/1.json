@@ -3,18 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1961": "And it came to pass",
-          "hebrew-8085": "when heard [these things]",
-          "hebrew-2985": "Jabin",
-          "hebrew-4428": "the king",
-          "hebrew-2674": "of Hazor",
-          "hebrew-7971": "that he sent",
-          "hebrew-413": "and to",
-          "hebrew-3103": "Jobab",
-          "hebrew-4068": "of Madon",
-          "hebrew-8110": "of Shimron",
-          "hebrew-407": "of Achshaph",
-          "": null
+          "eng": {
+            "hebrew-1961": "And it came to pass",
+            "hebrew-8085": "when heard [these things]",
+            "hebrew-2985": "Jabin",
+            "hebrew-4428": "the king",
+            "hebrew-2674": "of Hazor",
+            "hebrew-7971": "that he sent",
+            "hebrew-413": "and to",
+            "hebrew-3103": "Jobab",
+            "hebrew-4068": "of Madon",
+            "hebrew-8110": "of Shimron",
+            "hebrew-407": "of Achshaph",
+            "": null
+          },
+          "cht": {
+            "hebrew-8085": "聽見",
+            "hebrew-2985": "耶賓",
+            "hebrew-4428": "王",
+            "hebrew-2674": "夏瑣",
+            "hebrew-7971": "就打發",
+            "hebrew-413": "人去見",
+            "hebrew-3103": "約巴、",
+            "hebrew-4068": "瑪頓",
+            "hebrew-8110": "伸崙",
+            "hebrew-407": "押煞"
+          }
         }
       },
       "translations": {
@@ -31,35 +45,33 @@
             "hebrew-4068": 10.248599871619378
           },
           "verseKey": "jos.12.19",
-          "cunp": "一個是瑪頓王，一個是夏瑣王，",
+          "nasb": "the king of Madon, one; the king of Hazor, one;",
           "words": [
             {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "id": "hebrew-259",
+              "cht": "一個"
             },
             {
               "id": "hebrew-4068",
-              "eng": "of Madon",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one",
-              "punct": "–"
+              "cht": "是瑪頓"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-2674",
-              "eng": "of Hazor",
-              "punct": "､"
+              "cht": "王",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "one",
-              "punct": "–"
+              "cht": "一個"
+            },
+            {
+              "id": "hebrew-2674",
+              "cht": "是夏瑣"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王",
+              "punct_cht": "，"
             }
           ]
         },
@@ -70,84 +82,66 @@
             "hebrew-4428": 0.4103064360103035
           },
           "verseKey": "jdg.4.24",
-          "cunp": "從此以色列人的手越發有力，勝了迦南王耶賓，直到將他滅絕了。",
+          "nasb": "The hand of the sons of Israel pressed heavier and heavier upon Jabin the king of Canaan, until they had destroyed Jabin the king of Canaan.",
           "words": [
             {
-              "id": "hebrew-1980",
-              "eng": "And grew stronger",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "the hand"
+              "id": "hebrew-3478",
+              "cht": "從此以色列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the sons"
+              "cht": "人"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "id": "hebrew-3027",
+              "cht": "的手"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "越發"
             },
             {
               "id": "hebrew-1980",
-              "eng": "heavier"
-            },
-            {
-              "id": "hebrew-7186",
-              "eng": "and stronger"
+              "cht": "有力",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against"
-            },
-            {
-              "id": "hebrew-2985",
-              "eng": "Jabin"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "勝了"
             },
             {
               "id": "hebrew-3667",
-              "eng": "of Canaan",
-              "punct": "､"
+              "cht": "迦南"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-2985",
+              "cht": "耶賓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3772",
-              "eng": "they had destroyed"
+              "cht": "直到"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "將"
             },
             {
               "id": "hebrew-2985",
-              "eng": "Jabin"
+              "cht": "他"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "id": "hebrew-3772",
+              "cht": "滅絕"
             },
             {
-              "id": "hebrew-3667",
-              "eng": "of Canaan",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -159,85 +153,82 @@
             "hebrew-2674": 3.812899939371762
           },
           "verseKey": "jdg.4.17",
-          "cunp": "只有西西拉步行逃跑，到了基尼人希百之妻雅億的帳棚，因為夏瑣王耶賓與基尼人希百家和好。",
+          "nasb": "Now Sisera fled away on foot to the tent of Jael the wife of Heber the Kenite, for there was peace between Jabin the king of Hazor and the house of Heber the Kenite.",
           "words": [
             {
               "id": "hebrew-5516",
-              "eng": "And However Sisera"
-            },
-            {
-              "id": "hebrew-5127",
-              "eng": "had fled away"
+              "cht": "只有西西拉"
             },
             {
               "id": "hebrew-7272",
-              "eng": "on foot"
+              "cht": "步行"
+            },
+            {
+              "id": "hebrew-5127",
+              "cht": "逃跑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到了"
             },
             {
-              "id": "hebrew-168",
-              "eng": "the tent"
+              "id": "hebrew-7017",
+              "cht": "基尼人"
             },
             {
-              "id": "hebrew-3278",
-              "eng": "of Jael"
+              "id": "hebrew-2268",
+              "cht": "希百"
             },
             {
               "id": "hebrew-802",
-              "eng": "the wife"
+              "cht": "之妻"
             },
             {
-              "id": "hebrew-2268",
-              "eng": "of Heber"
+              "id": "hebrew-3278",
+              "cht": "雅億"
             },
             {
-              "id": "hebrew-7017",
-              "eng": "the Kenite",
-              "punct": "､"
+              "id": "hebrew-168",
+              "cht": "的帳棚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7965",
-              "eng": "[there was] peace"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-2985",
-              "eng": "Jabin"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "因為"
             },
             {
               "id": "hebrew-2674",
-              "eng": "of Hazor"
+              "cht": "夏瑣"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-2985",
+              "cht": "耶賓"
             },
             {
               "id": "hebrew-996",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
-            },
-            {
-              "id": "hebrew-2268",
-              "eng": "of Heber"
+              "cht": "與"
             },
             {
               "id": "hebrew-7017",
-              "eng": "the Kenite",
-              "punct": "."
+              "cht": "基尼人"
+            },
+            {
+              "id": "hebrew-2268",
+              "cht": "希百"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-7965",
+              "cht": "和好",
+              "punct_cht": "。"
             }
           ]
         },
@@ -249,75 +240,74 @@
             "hebrew-2674": 3.812899939371762
           },
           "verseKey": "jdg.4.2",
-          "cunp": "耶和華就把他們付與在夏瑣作王的迦南王耶賓手中；他的將軍是西西拉，住在外邦人的夏羅設。",
+          "nasb": "And the Lord sold them into the hand of Jabin king of Canaan, who reigned in Hazor; and the commander of his army was Sisera, who lived in Harosheth-hagoyim.",
           "words": [
             {
-              "id": "hebrew-4376",
-              "eng": "So sold them"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3027",
-              "eng": "into the hand"
-            },
-            {
-              "id": "hebrew-2985",
-              "eng": "of Jabin"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
-            },
-            {
-              "id": "hebrew-3667",
-              "eng": "of Canaan",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "reigned"
+              "id": "hebrew-4376",
+              "cht": "就把他們付與"
             },
             {
               "id": "hebrew-2674",
-              "eng": "in Hazor",
-              "punct": "–"
+              "cht": "在夏瑣"
+            },
+            {
+              "id": "hebrew-4427",
+              "cht": "作王"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-3667",
+              "cht": "迦南"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-2985",
+              "cht": "耶賓"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "手中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8269",
-              "eng": "and the commander"
+              "cht": "他的將"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of his army"
-            },
-            {
-              "id": "hebrew-5516",
-              "eng": "[was] Sisera",
-              "punct": "､"
+              "cht": "軍"
             },
             {
               "id": "hebrew-1931",
-              "eng": "and he"
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-5516",
+              "cht": "西西拉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3427",
-              "eng": "dwelt"
-            },
-            {
-              "id": "hebrew-2800",
-              "eng": "in Harosheth Hagoyim"
+              "cht": "住在"
             },
             {
               "id": "hebrew-1471",
-              "eng": "of the Gentiles",
-              "punct": "."
+              "cht": "外邦人"
+            },
+            {
+              "id": "hebrew-2800",
+              "cht": "的夏羅設",
+              "punct_cht": "。"
             }
           ]
         },
@@ -328,38 +318,37 @@
             "hebrew-407": 8.539323589735611
           },
           "verseKey": "jos.12.20",
-          "cunp": "一個是伸崙‧米崙王，一個是押煞王，",
+          "nasb": "the king of Shimron-meron, one; the king of Achshaph, one;",
           "words": [
             {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "id": "hebrew-259",
+              "cht": "一個"
+            },
+            {
+              "id": "",
+              "cht": "是伸崙‧"
             },
             {
               "id": "hebrew-8112",
-              "eng": "Shimron Meron",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one",
-              "punct": "–"
+              "cht": "米崙"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-407",
-              "eng": "of Achshaph",
-              "punct": "､"
+              "cht": "王",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "one",
-              "punct": "–"
+              "cht": "一個"
             },
             {
-              "id": ""
+              "id": "hebrew-407",
+              "cht": "是押煞"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王",
+              "punct_cht": "，"
             }
           ]
         },
@@ -370,35 +359,31 @@
             "hebrew-407": 8.539323589735611
           },
           "verseKey": "jos.19.25",
-          "cunp": "他們的境界是黑甲、哈利、比田、押煞、",
+          "nasb": "Their territory was Helkath and Hali and Beten and Achshaph,",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And included"
+              "id": "hebrew-1366",
+              "cht": "他們的境界"
             },
             {
-              "id": "hebrew-1366",
-              "eng": "their territory"
+              "id": "hebrew-1961",
+              "cht": "是"
             },
             {
               "id": "hebrew-2520",
-              "eng": "Helkath",
-              "punct": "､"
+              "cht": "黑甲、"
             },
             {
               "id": "hebrew-2482",
-              "eng": "and Hali",
-              "punct": "､"
+              "cht": "哈利、"
             },
             {
               "id": "hebrew-991",
-              "eng": "and Beten",
-              "punct": "､"
+              "cht": "比田、"
             },
             {
               "id": "hebrew-407",
-              "eng": "and Achshaph",
-              "punct": "､"
+              "cht": "押煞、"
             }
           ]
         },
@@ -408,90 +393,75 @@
             "hebrew-2674": 3.812899939371762
           },
           "verseKey": "jos.11.10",
-          "cunp": "當時，約書亞轉回奪了夏瑣，用刀擊殺夏瑣王。（素來夏瑣在這諸國中是為首的。）",
+          "nasb": "Then Joshua turned back at that time, and captured Hazor and struck its king with the sword; for Hazor formerly was the head of all these kingdoms.",
           "words": [
             {
-              "id": "hebrew-7725",
-              "eng": "And turned back",
-              "punct": "､"
+              "id": "hebrew-6256",
+              "cht": "當時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3091",
-              "eng": "Joshua"
+              "cht": "約書亞"
             },
             {
-              "id": "hebrew-6256",
-              "eng": "at time"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-7725",
+              "cht": "轉回"
             },
             {
               "id": "hebrew-3920",
-              "eng": "and took"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "奪了"
             },
             {
               "id": "hebrew-2674",
-              "eng": "Hazor",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "its king"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "struck"
+              "cht": "夏瑣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2719",
-              "eng": "with the sword",
-              "punct": "–"
+              "cht": "用刀"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-5221",
+              "cht": "擊殺"
             },
             {
-              "id": "hebrew-2674",
-              "eng": "Hazor"
+              "id": "hebrew-4428",
+              "cht": "夏瑣王（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6440",
-              "eng": "formerly"
+              "cht": "素來"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "was"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the head"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-4467",
-              "eng": "kingdoms"
+              "id": "hebrew-2674",
+              "cht": "夏瑣"
             },
             {
               "id": "hebrew-428",
-              "eng": "these",
-              "punct": "."
+              "cht": "在這"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "諸"
+            },
+            {
+              "id": "hebrew-4467",
+              "cht": "國"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "中是"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "為首"
+            },
+            {
+              "id": "",
+              "cht": "的）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -501,49 +471,46 @@
             "hebrew-8110": 6.7856512265994295
           },
           "verseKey": "jos.19.15",
-          "cunp": "還有加他、拿哈拉、伸崙、以大拉、伯利恆，共十二座城，還有屬城的村莊。",
+          "nasb": "Included also were Kattah and Nahalal and Shimron and Idalah and Bethlehem; twelve cities with their villages.",
           "words": [
             {
               "id": "hebrew-7005",
-              "eng": "And Included were Kattath",
-              "punct": "､"
+              "cht": "還有加他、"
             },
             {
               "id": "hebrew-5096",
-              "eng": "and Nahalal",
-              "punct": "､"
+              "cht": "拿哈拉、"
             },
             {
               "id": "hebrew-8110",
-              "eng": "and Shimron",
-              "punct": "､"
+              "cht": "伸崙、"
             },
             {
               "id": "hebrew-3030",
-              "eng": "and Idalah",
-              "punct": "､"
+              "cht": "以大拉、"
             },
             {
               "id": "hebrew-1035",
-              "eng": "Bethlehem",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "cities"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "伯利恆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6240",
-              "eng": "[and] ten"
+              "cht": "共十"
+            },
+            {
+              "id": "hebrew-8147",
+              "cht": "二"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "座城",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2691",
-              "eng": "and with their villages",
-              "punct": "."
+              "cht": "還有屬城的村莊",
+              "punct_cht": "。"
             }
           ]
         },
@@ -553,41 +520,43 @@
             "hebrew-8110": 6.7856512265994295
           },
           "verseKey": "num.26.24",
-          "cunp": "屬雅述的，有雅述族；屬伸崙的，有伸崙族。",
+          "nasb": "of Jashub, the family of the Jashubites; of Shimron, the family of the Shimronites.",
           "words": [
             {
               "id": "hebrew-3437",
-              "eng": "of Jashub",
-              "punct": "､"
+              "cht": "屬雅述"
             },
             {
-              "id": "hebrew-4940",
-              "eng": "the family"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3432",
-              "eng": "of the Jashubites",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8110",
-              "eng": "of Shimron",
-              "punct": "､"
+              "cht": "有雅述"
             },
             {
               "id": "hebrew-4940",
-              "eng": "the family"
+              "cht": "族",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-8110",
+              "cht": "屬伸崙"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8117",
-              "eng": "of the Shimronites",
-              "punct": "."
+              "cht": "有伸崙"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4940",
+              "cht": "族",
+              "punct_cht": "。"
             }
           ]
         },
@@ -597,46 +566,45 @@
             "hebrew-8110": 6.7856512265994295
           },
           "verseKey": "1ch.7.1",
-          "cunp": "以薩迦的兒子是陀拉、普瓦、雅述、伸崙，共四人。",
+          "nasb": "Now the sons of Issachar were four: Tola, Puah, Jashub and Shimron.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
+              "id": "hebrew-3485",
+              "cht": "以薩迦"
             },
             {
-              "id": "hebrew-3485",
-              "eng": "of Issachar"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-8439",
-              "eng": "[were] Tola",
-              "punct": "､"
+              "cht": "是陀拉、"
             },
             {
               "id": "hebrew-6312",
-              "eng": "and Puah",
-              "punct": "､"
+              "cht": "普瓦、"
             },
             {
               "id": "hebrew-3437",
-              "eng": "Jashub",
-              "punct": "､"
+              "cht": "雅述"
+            },
+            {
+              "id": "",
+              "cht": "【創四六13是約伯】、"
             },
             {
               "id": "hebrew-8110",
-              "eng": "and Shimron",
-              "punct": "､"
+              "cht": "伸崙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-702",
-              "eng": "four [in all]",
-              "punct": "."
+              "cht": "共四"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "人",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,11 +3,20 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4812": "Meraioth",
-          "hebrew-3205": "begat",
-          "hebrew-853": "-",
-          "hebrew-568": "and Amariah",
-          "hebrew-285": "Ahitub"
+          "eng": {
+            "hebrew-4812": "Meraioth",
+            "hebrew-3205": "begat",
+            "hebrew-853": "-",
+            "hebrew-568": "and Amariah",
+            "hebrew-285": "Ahitub"
+          },
+          "cht": {
+            "hebrew-4812": "米拉約",
+            "hebrew-3205": "生",
+            "hebrew-853": "生",
+            "hebrew-568": "亞瑪利雅",
+            "hebrew-285": "亞希突"
+          }
         }
       },
       "translations": {
@@ -22,34 +31,34 @@
             "hebrew-285": 4.1389193993584925
           },
           "verseKey": "1ch.6.52",
-          "cunp": "西拉希雅的兒子是米拉約；米拉約的兒子是亞瑪利雅；亞瑪利雅的兒子是亞希突；",
+          "nasb": "Meraioth his son, Amariah his son, Ahitub his son,",
           "words": [
             {
+              "id": "hebrew-1121",
+              "cht": "西拉希雅的兒子"
+            },
+            {
               "id": "hebrew-4812",
-              "eng": "Meraioth"
+              "cht": "是米拉約",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1121",
-              "eng": "his son",
-              "punct": "､"
+              "cht": "米拉約的兒子"
             },
             {
               "id": "hebrew-568",
-              "eng": "Amariah"
+              "cht": "是亞瑪利雅",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1121",
-              "eng": "his son",
-              "punct": "､"
+              "cht": "亞瑪利雅的兒子"
             },
             {
               "id": "hebrew-285",
-              "eng": "Ahitub"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "his son",
-              "punct": "､"
+              "cht": "是亞希突",
+              "punct_cht": "；"
             }
           ]
         },
@@ -61,41 +70,33 @@
             "hebrew-285": 4.1389193993584925
           },
           "verseKey": "1ch.6.11",
-          "cunp": "亞撒利雅生亞瑪利雅；亞瑪利雅生亞希突；",
+          "nasb": "and Azariah became the father of Amariah, and Amariah became the father of Ahitub,",
           "words": [
             {
-              "id": "hebrew-3205",
-              "eng": "And he begat"
-            },
-            {
               "id": "hebrew-5838",
-              "eng": "Azariah"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-568",
-              "eng": "Amariah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-568",
-              "eng": "and Amariah"
+              "cht": "亞撒利雅"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
+              "cht": "生"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-568",
+              "cht": "亞瑪利雅",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-568",
+              "cht": "亞瑪利雅"
+            },
+            {
+              "id": "hebrew-3205",
+              "cht": "生"
             },
             {
               "id": "hebrew-285",
-              "eng": "Ahitub",
-              "punct": "､"
+              "cht": "亞希突",
+              "punct_cht": "；"
             }
           ]
         },
@@ -106,69 +107,68 @@
             "hebrew-285": 4.1389193993584925
           },
           "verseKey": "1ch.9.11",
-          "cunp": "還有管理神殿希勒家的兒子亞薩利雅。希勒家是米書蘭的兒子；米書蘭是撒督的兒子；撒督是米拉約的兒子；米拉約是亞希突的兒子。",
+          "nasb": "and Azariah the son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, the chief officer of the house of God;",
           "words": [
             {
-              "id": "hebrew-5838",
-              "eng": "and Azariah"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-2518",
-              "eng": "of Hilkiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-4918",
-              "eng": "of Meshullam",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-6659",
-              "eng": "of Zadok",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-4812",
-              "eng": "of Meraioth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-285",
-              "eng": "of Ahitub",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-5057",
-              "eng": "the officer over"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "還有管理"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "–"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "殿"
+            },
+            {
+              "id": "hebrew-2518",
+              "cht": "希勒家"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-5838",
+              "cht": "亞薩利雅",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-4918",
+              "cht": "希勒家是米書蘭"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-6659",
+              "cht": "米書蘭是撒督"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4812",
+              "cht": "撒督是米拉約"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-285",
+              "cht": "米拉約是亞希突"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -179,69 +179,69 @@
             "hebrew-285": 4.1389193993584925
           },
           "verseKey": "neh.11.11",
-          "cunp": "還有管理神殿的西萊雅。西萊雅是希勒家的兒子；希勒家是米書蘭的兒子；米書蘭是撒督的兒子；撒督是米拉約的兒子；米拉約是亞希突的兒子。",
+          "nasb": "Seraiah the son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, the leader of the house of God,",
           "words": [
             {
-              "id": "hebrew-8304",
-              "eng": "Seraiah"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-2518",
-              "eng": "of Hilkiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-4918",
-              "eng": "of Meshullam",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-6659",
-              "eng": "of Zadok",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-4812",
-              "eng": "of Meraioth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-285",
-              "eng": "of Ahitub",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-5057",
-              "eng": "[was] the leader"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house"
+              "cht": "還有管理"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "."
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "殿"
+            },
+            {
+              "id": "hebrew-8304",
+              "cht": "的西萊雅",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2518",
+              "cht": "西萊雅是希勒家"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4918",
+              "cht": "希勒家是米書蘭"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-6659",
+              "cht": "米書蘭是撒督"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4812",
+              "cht": "撒督是米拉約"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-285",
+              "cht": "米拉約是亞希突"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -252,34 +252,34 @@
             "hebrew-568": 4.0204442424896225
           },
           "verseKey": "ezr.7.3",
-          "cunp": "亞希突是亞瑪利雅的兒子，亞瑪利雅是亞撒利雅的兒子，亞撒利雅是米拉約的兒子，",
+          "nasb": "son of Amariah, son of Azariah, son of Meraioth,",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
               "id": "hebrew-568",
-              "eng": "of Amariah",
-              "punct": "､"
+              "cht": "亞希突是亞瑪利雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5838",
-              "eng": "of Azariah",
-              "punct": "､"
+              "cht": "亞瑪利雅是亞撒利雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4812",
-              "eng": "of Meraioth",
-              "punct": "､"
+              "cht": "亞撒利雅是米拉約"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "，"
             }
           ]
         },
@@ -290,41 +290,33 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "1ch.6.6",
-          "cunp": "烏西生西拉希雅；西拉希雅生米拉約；",
+          "nasb": "and Uzzi became the father of Zerahiah, and Zerahiah became the father of Meraioth,",
           "words": [
             {
               "id": "hebrew-5813",
-              "eng": "and Uzzi"
+              "cht": "烏西"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-2228",
-              "eng": "Zerahiah",
-              "punct": "､"
+              "cht": "西拉希雅",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2228",
-              "eng": "and Zerahiah"
+              "cht": "西拉希雅"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-4812",
-              "eng": "Meraioth",
-              "punct": "､"
+              "cht": "米拉約",
+              "punct_cht": "；"
             }
           ]
         },
@@ -335,41 +327,33 @@
             "hebrew-285": 4.1389193993584925
           },
           "verseKey": "1ch.6.12",
-          "cunp": "亞希突生撒督；撒督生沙龍；",
+          "nasb": "and Ahitub became the father of Zadok, and Zadok became the father of Shallum,",
           "words": [
             {
               "id": "hebrew-285",
-              "eng": "and Ahitub"
+              "cht": "亞希突"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-6659",
-              "eng": "Zadok",
-              "punct": "､"
+              "cht": "撒督",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6659",
-              "eng": "and Zadok"
+              "cht": "撒督"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-7967",
-              "eng": "Shallum",
-              "punct": "､"
+              "cht": "沙龍",
+              "punct_cht": "；"
             }
           ]
         },
@@ -380,41 +364,33 @@
             "hebrew-285": 4.1389193993584925
           },
           "verseKey": "1ch.6.8",
-          "cunp": "亞希突生撒督；撒督生亞希瑪斯；",
+          "nasb": "and Ahitub became the father of Zadok, and Zadok became the father of Ahimaaz,",
           "words": [
             {
               "id": "hebrew-285",
-              "eng": "and Ahitub"
+              "cht": "亞希突"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-6659",
-              "eng": "Zadok",
-              "punct": "､"
+              "cht": "撒督",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6659",
-              "eng": "and Zadok"
+              "cht": "撒督"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-290",
-              "eng": "Ahimaaz",
-              "punct": "､"
+              "cht": "亞希瑪斯",
+              "punct_cht": "；"
             }
           ]
         },
@@ -424,27 +400,25 @@
             "hebrew-4812": 5.832220266167411
           },
           "verseKey": "neh.12.15",
-          "cunp": "哈琳族有押拿；米拉約族有希勒愷；",
+          "nasb": "of Harim, Adna; of Meraioth, Helkai;",
           "words": [
             {
               "id": "hebrew-2766",
-              "eng": "of Harim",
-              "punct": "､"
+              "cht": "哈琳"
             },
             {
               "id": "hebrew-5733",
-              "eng": "Adna",
-              "punct": "–"
+              "cht": "族有押拿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4812",
-              "eng": "of Meraioth",
-              "punct": "､"
+              "cht": "米拉約"
             },
             {
               "id": "hebrew-2517",
-              "eng": "Helkai",
-              "punct": "–"
+              "cht": "族有希勒愷",
+              "punct_cht": "；"
             }
           ]
         },
@@ -454,95 +428,91 @@
             "hebrew-285": 4.1389193993584925
           },
           "verseKey": "1sa.14.3",
-          "cunp": "在那裏有亞希突的兒子亞希亞，穿着以弗得。（亞希突是以迦博的哥哥，非尼哈的兒子，以利的孫子。以利從前在示羅作耶和華的祭司。）約拿單去了，百姓卻不知道。",
+          "nasb": "and Ahijah, the son of Ahitub, Ichabod’s brother, the son of Phinehas, the son of Eli, the priest of the Lord at Shiloh, was wearing an ephod. And the people did not know that Jonathan had gone.",
           "words": [
             {
-              "id": "hebrew-281",
-              "eng": "and Ahijah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
               "id": "hebrew-285",
-              "eng": "of Ahitub",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "brother",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-350",
-              "eng": "of Ichabod"
+              "cht": "在那裡有亞希突"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-6372",
-              "eng": "of Phinehas",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-5941",
-              "eng": "of Eli",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3548",
-              "eng": "priest"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-7887",
-              "eng": "in Shiloh",
-              "punct": "､"
+              "id": "hebrew-281",
+              "cht": "亞希亞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5375",
-              "eng": "was wearing"
+              "cht": "穿著"
             },
             {
               "id": "hebrew-646",
-              "eng": "an ephod",
-              "punct": "."
+              "cht": "以弗得（",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-5971",
-              "eng": "But the people"
+              "id": "hebrew-350",
+              "cht": "亞希突是以迦博"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "id": "hebrew-251",
+              "cht": "的哥哥",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3045",
-              "eng": "did know"
+              "id": "hebrew-6372",
+              "cht": "非尼哈"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "had gone"
+              "id": "hebrew-5941",
+              "cht": "以利"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的孫子",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-7887",
+              "cht": "以利從前在示羅"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "作耶和華"
+            },
+            {
+              "id": "hebrew-3548",
+              "cht": "的祭司）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3129",
-              "eng": "Jonathan",
-              "punct": "."
+              "cht": "約拿單"
+            },
+            {
+              "id": "hebrew-1980",
+              "cht": "去了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "百姓"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "卻不"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知道",
+              "punct_cht": "。"
             }
           ]
         }

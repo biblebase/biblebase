@@ -3,11 +3,20 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1961": "And had",
-          "hebrew-7658": "seven",
-          "hebrew-1121": "sons",
-          "hebrew-7969": "and three",
-          "hebrew-1323": "daughters"
+          "eng": {
+            "hebrew-1961": "And had",
+            "hebrew-7658": "seven",
+            "hebrew-1121": "sons",
+            "hebrew-7969": "and three",
+            "hebrew-1323": "daughters"
+          },
+          "cht": {
+            "hebrew-1961": "也有",
+            "hebrew-7658": "七個",
+            "hebrew-1121": "兒子",
+            "hebrew-7969": "三個",
+            "hebrew-1323": "女兒"
+          }
         }
       },
       "translations": {
@@ -22,144 +31,102 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.1.20",
-          "cunp": "論到你所看見、在我右手中的七星和七個金燈臺的奧祕，那七星就是七個教會的使者，七燈臺就是七個教會。」",
+          "nasb": "As for the mystery of the seven stars which you saw in My right hand, and the seven golden lampstands: the seven stars are the angels of the seven churches, and the seven lampstands are the seven churches.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3466",
-              "eng": "mystery"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-792",
-              "eng": "stars",
-              "punct": ","
-            },
-            {
               "id": "greek-3739",
-              "eng": "which"
+              "cht": "論到你所"
             },
             {
               "id": "greek-1492",
-              "eng": "you saw"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1188",
-              "eng": "right hand"
+              "cht": "看見、"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me",
-              "punct": ","
+              "cht": "在我"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1188",
+              "cht": "右手"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-3087",
-              "eng": "lampstands"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5552",
-              "eng": "golden",
-              "punct": ":"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
+              "id": "greek-1909",
+              "cht": "中"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "的七"
             },
             {
               "id": "greek-792",
-              "eng": "stars"
-            },
-            {
-              "id": "greek-32",
-              "eng": "[the] angels"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-1577",
-              "eng": "churches"
-            },
-            {
-              "id": "greek-1526",
-              "eng": "are",
-              "punct": ","
+              "cht": "星"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2033",
+              "cht": "七個"
+            },
+            {
+              "id": "greek-5552",
+              "cht": "金"
             },
             {
               "id": "greek-3087",
-              "eng": "lampstands"
+              "cht": "燈臺"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
+              "id": "greek-3466",
+              "cht": "的奧祕",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2033",
-              "eng": "[the] seven"
+              "cht": "那七"
             },
             {
-              "id": "greek-1577",
-              "eng": "churches"
+              "id": "greek-792",
+              "cht": "星"
             },
             {
               "id": "greek-1526",
-              "eng": "are",
-              "punct": "."
+              "cht": "就是"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "七個"
+            },
+            {
+              "id": "greek-1577",
+              "cht": "教會"
+            },
+            {
+              "id": "greek-32",
+              "cht": "的使者",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "七"
+            },
+            {
+              "id": "greek-3087",
+              "cht": "燈臺"
+            },
+            {
+              "id": "greek-1526",
+              "cht": "就是"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "七個"
+            },
+            {
+              "id": "greek-1577",
+              "cht": "教會",
+              "punct_cht": "。"
             }
           ]
         },
@@ -169,173 +136,125 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.5.6",
-          "cunp": "我又看見寶座與四活物，並長老之中有羔羊站立，像是被殺過的，有七角七眼，就是神的七靈，奉差遣往普天下去的。",
+          "nasb": "And I saw between the throne (with the four living creatures) and the elders a Lamb standing, as if slain, having seven horns and seven eyes, which are the seven Spirits of God, sent out into all the earth.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "我又"
             },
             {
-              "id": "greek-3708",
-              "eng": "I saw"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3319",
-              "eng": "[the] midst"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2400",
+              "cht": "看見"
             },
             {
               "id": "greek-2362",
-              "eng": "throne"
+              "cht": "寶座"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "與"
             },
             {
               "id": "greek-5064",
-              "eng": "four"
+              "cht": "四"
             },
             {
               "id": "greek-2226",
-              "eng": "living creatures",
-              "punct": ","
+              "cht": "活物",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3319",
-              "eng": "[the] midst"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "並"
             },
             {
               "id": "greek-4245",
-              "eng": "elders",
-              "punct": ","
+              "cht": "長老"
+            },
+            {
+              "id": "greek-3319",
+              "cht": "之中"
             },
             {
               "id": "greek-721",
-              "eng": "a Lamb"
+              "cht": "有羔羊"
             },
             {
               "id": "greek-2476",
-              "eng": "standing"
+              "cht": "站立",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
+              "cht": "像是"
             },
             {
               "id": "greek-4969",
-              "eng": "having been slain",
-              "punct": ","
+              "cht": "被殺過的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2192",
-              "eng": "having"
+              "cht": "有"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "七"
             },
             {
               "id": "greek-2768",
-              "eng": "horns"
+              "cht": "角"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "七"
             },
             {
               "id": "greek-3788",
-              "eng": "eyes"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven",
-              "punct": ","
+              "cht": "眼",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3739",
-              "eng": "which"
+              "cht": "就"
             },
             {
               "id": "greek-1526",
-              "eng": "are"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirits"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": ","
+              "cht": "神"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "的七"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "靈",
+              "punct_cht": "，"
             },
             {
               "id": "greek-649",
-              "eng": "having been sent out"
+              "cht": "奉差遣"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
+              "cht": "往"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "普"
             },
             {
               "id": "greek-1093",
-              "eng": "earth",
-              "punct": "."
+              "cht": "天下"
             },
             {
-              "id": "greek-1492"
-            },
-            {
-              "id": "greek-2400"
-            },
-            {
-              "id": "greek-2532"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "去的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -345,161 +264,101 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.21.9",
-          "cunp": "拿着七個金碗、盛滿末後七災的七位天使中，有一位來對我說：「你到這裏來，我要將新婦，就是羔羊的妻，指給你看。」",
+          "nasb": "Then one of the seven angels who had the seven bowls full of the seven last plagues came and spoke with me, saying, “Come here, I will show you the bride, the wife of the Lamb.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "came"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-32",
-              "eng": "angels",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "拿著"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "七個"
             },
             {
               "id": "greek-5357",
-              "eng": "bowls"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "金碗、"
             },
             {
               "id": "greek-1073",
-              "eng": "being full"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-4127",
-              "eng": "plagues"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "盛滿"
             },
             {
               "id": "greek-2078",
-              "eng": "last",
-              "punct": ","
+              "cht": "末後"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2033",
+              "cht": "七"
             },
             {
-              "id": "greek-2980",
-              "eng": "spoke"
+              "id": "greek-4127",
+              "cht": "災"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "的七位"
+            },
+            {
+              "id": "greek-32",
+              "cht": "天使"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "有一位"
+            },
+            {
+              "id": "greek-2064",
+              "cht": "來"
             },
             {
               "id": "greek-3326",
-              "eng": "with"
+              "cht": "對"
             },
             {
-              "id": "greek-1473",
-              "eng": "me",
-              "punct": ","
+              "id": "greek-1700",
+              "cht": "我"
             },
             {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "id": "greek-2980",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1204",
-              "eng": "Come here",
-              "punct": ","
-            },
-            {
-              "id": "greek-1166",
-              "eng": "I will show"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你到這裡來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3565",
-              "eng": "bride",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1135",
-              "eng": "wife"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "我要將新婦",
+              "punct_cht": "，"
             },
             {
               "id": "greek-721",
-              "eng": "Lamb",
-              "punct": "."
+              "cht": "就是羔羊的"
             },
             {
-              "id": ""
+              "id": "greek-1135",
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-4314"
+              "id": "greek-1166",
+              "cht": "指"
             },
             {
-              "id": "greek-3165"
+              "id": "greek-4671",
+              "cht": "給你"
             },
             {
-              "id": "greek-1700"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "看",
+              "punct_cht": "。"
             }
           ]
         },
@@ -509,86 +368,81 @@
             "hebrew-1323": 0.9509435473370262
           },
           "verseKey": "gen.36.2",
-          "cunp": "以掃娶迦南的女子為妻，就是赫人以倫的女兒亞大和希未人祭便的孫女、亞拿的女兒阿何利巴瑪，",
+          "nasb": "Esau took his wives from the daughters of Canaan: Adah the daughter of Elon the Hittite, and Oholibamah the daughter of Anah and the granddaughter of Zibeon the Hivite;",
           "words": [
             {
               "id": "hebrew-6215",
-              "eng": "Esau"
+              "cht": "以掃"
             },
             {
               "id": "hebrew-3947",
-              "eng": "took"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "his wives"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "from the daughters"
+              "cht": "娶"
             },
             {
               "id": "hebrew-3667",
-              "eng": "of Canaan",
-              "punct": ":"
+              "cht": "迦南"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的女子"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "為"
             },
             {
-              "id": "hebrew-5711",
-              "eng": "Adah"
+              "id": "hebrew-802",
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-356",
-              "eng": "of Elon"
+              "id": "hebrew-853",
+              "cht": "就是"
             },
             {
               "id": "hebrew-2850",
-              "eng": "the Hittite",
-              "punct": "､"
+              "cht": "赫人"
+            },
+            {
+              "id": "hebrew-356",
+              "cht": "以倫"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的女兒"
+            },
+            {
+              "id": "hebrew-5711",
+              "cht": "亞大"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-173",
-              "eng": "Aholibamah"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-6034",
-              "eng": "of Anah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-6649",
-              "eng": "of Zibeon"
+              "cht": "和"
             },
             {
               "id": "hebrew-2340",
-              "eng": "the Hivite",
-              "punct": "–"
+              "cht": "希未人"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6649",
+              "cht": "祭便"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的孫女、"
+            },
+            {
+              "id": "hebrew-6034",
+              "cht": "亞拿"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的女兒"
+            },
+            {
+              "id": "hebrew-173",
+              "cht": "阿何利巴瑪",
+              "punct_cht": "，"
             }
           ]
         },
@@ -598,146 +452,95 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.17.1",
-          "cunp": "拿着七碗的七位天使中，有一位前來對我說：「你到這裏來，我將坐在眾水上的大淫婦所要受的刑罰指給你看。",
+          "nasb": "Then one of the seven angels who had the seven bowls came and spoke with me, saying, “Come here, I will show you the judgment of the great harlot who sits on many waters,",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "came"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-32",
-              "eng": "angels"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "拿著"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "七"
             },
             {
               "id": "greek-5357",
-              "eng": "bowls",
-              "punct": ","
+              "cht": "碗"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "的七位"
+            },
+            {
+              "id": "greek-32",
+              "cht": "天使"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "有一位"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "前來"
+            },
+            {
+              "id": "greek-3427",
+              "cht": "對我"
             },
             {
               "id": "greek-2980",
-              "eng": "spoke"
-            },
-            {
-              "id": "greek-3326",
-              "eng": "with"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "me",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1204",
-              "eng": "Come here",
-              "punct": ","
-            },
-            {
-              "id": "greek-1166",
-              "eng": "I will show"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2917",
-              "eng": "punishment"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4204",
-              "eng": "prostitute"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3173",
-              "eng": "great",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "cht": "你到這裡來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2521",
-              "eng": "sitting"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-5204",
-              "eng": "waters"
+              "cht": "我將坐"
             },
             {
               "id": "greek-4183",
-              "eng": "many",
-              "punct": ","
+              "cht": "在眾"
             },
             {
-              "id": "greek-1700"
+              "id": "greek-5204",
+              "cht": "水"
             },
             {
-              "id": "greek-3427"
+              "id": "greek-1909",
+              "cht": "上"
             },
             {
-              "id": ""
+              "id": "greek-3173",
+              "cht": "的大"
+            },
+            {
+              "id": "greek-4204",
+              "cht": "淫婦"
+            },
+            {
+              "id": "greek-2917",
+              "cht": "所要受的刑罰"
+            },
+            {
+              "id": "greek-1166",
+              "cht": "指給"
+            },
+            {
+              "id": "greek-4671",
+              "cht": "你"
+            },
+            {
+              "id": "",
+              "cht": "看",
+              "punct_cht": "。"
             }
           ]
         },
@@ -747,112 +550,82 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.4.5",
-          "cunp": "有閃電、聲音、雷轟從寶座中發出；又有七盞火燈在寶座前點着；這七燈就是神的七靈。",
+          "nasb": "Out from the throne come flashes of lightning and sounds and peals of thunder. And there were seven lamps of fire burning before the throne, which are the seven Spirits of God;",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2362",
-              "eng": "throne"
-            },
-            {
-              "id": "greek-1607",
-              "eng": "come"
-            },
-            {
               "id": "greek-796",
-              "eng": "flashes of lightning",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "有閃電、"
             },
             {
               "id": "greek-5456",
-              "eng": "voices",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "聲音、"
             },
             {
               "id": "greek-1027",
-              "eng": "thunderings",
-              "punct": "."
+              "cht": "雷轟"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "[there were] seven"
-            },
-            {
-              "id": "greek-2985",
-              "eng": "lamps"
-            },
-            {
-              "id": "greek-4442",
-              "eng": "of fire"
-            },
-            {
-              "id": "greek-2545",
-              "eng": "burning"
-            },
-            {
-              "id": "greek-1799",
-              "eng": "before"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1537",
+              "cht": "從"
             },
             {
               "id": "greek-2362",
-              "eng": "throne",
-              "punct": ","
+              "cht": "寶座"
             },
             {
-              "id": "greek-3739",
-              "eng": "which"
+              "id": "greek-1607",
+              "cht": "中發出",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-1526",
-              "eng": "are"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2532",
+              "cht": "又有"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "七盞"
             },
             {
-              "id": "greek-4151",
-              "eng": "Spirits"
+              "id": "greek-4442",
+              "cht": "火"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2985",
+              "cht": "燈"
+            },
+            {
+              "id": "greek-2362",
+              "cht": "在寶座"
+            },
+            {
+              "id": "greek-1799",
+              "cht": "前"
+            },
+            {
+              "id": "greek-2545",
+              "cht": "點著",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "這"
+            },
+            {
+              "id": "greek-1526",
+              "cht": "七燈就是"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": "."
+              "cht": "神"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "的七"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "靈",
+              "punct_cht": "。"
             }
           ]
         },
@@ -862,84 +635,59 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "mrk.8.20",
-          "cunp": "「又擘開那七個餅分給四千人，你們收拾的零碎裝滿了多少筐子呢？」他們說：「七個。」",
+          "nasb": "“When I broke the seven for the four thousand, how many large baskets full of broken pieces did you pick up?” And they *said to Him, “Seven.”",
           "words": [
             {
-              "id": "greek-3753",
-              "eng": "When"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1161",
+              "cht": "又"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "擘開那七個"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "餅分給"
             },
             {
               "id": "greek-5070",
-              "eng": "four thousand",
-              "punct": ","
-            },
-            {
-              "id": "greek-4214",
-              "eng": "of how many"
-            },
-            {
-              "id": "greek-4711",
-              "eng": "baskets"
-            },
-            {
-              "id": "greek-4138",
-              "eng": "[the] fillings"
-            },
-            {
-              "id": "greek-2801",
-              "eng": "of fragments"
+              "cht": "四千人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-142",
-              "eng": "took you up",
-              "punct": "?"
+              "cht": "你們收拾"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2801",
+              "cht": "的零碎"
             },
             {
-              "id": "greek-3004",
-              "eng": "said"
+              "id": "greek-4138",
+              "cht": "裝滿了"
             },
             {
-              "id": "greek-846",
-              "eng": "they",
-              "punct": ","
+              "id": "greek-4214",
+              "cht": "多少"
+            },
+            {
+              "id": "greek-4711",
+              "cht": "筐子"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "他們說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2033",
-              "eng": "Seven",
-              "punct": "."
-            },
-            {
-              "id": "greek-1161"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2036"
+              "cht": "七個",
+              "punct_cht": "。"
             }
           ]
         },
@@ -949,138 +697,78 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.1.4",
-          "cunp": "約翰寫信給亞細亞的七個教會。但願從那昔在、今在、以後永在的神，和他寶座前的七靈，",
+          "nasb": "John to the seven churches that are in Asia: Grace to you and peace, from Him who is and who was and who is to come, and from the seven Spirits who are before His throne,",
           "words": [
             {
               "id": "greek-2491",
-              "eng": "John",
-              "punct": ","
+              "cht": "約翰"
             },
             {
               "id": "greek-3588",
-              "eng": "To the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-1577",
-              "eng": "churches"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "寫信給"
             },
             {
               "id": "greek-773",
-              "eng": "Asia",
-              "punct": ":"
-            },
-            {
-              "id": "greek-5485",
-              "eng": "Grace"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1515",
-              "eng": "peace"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-2258",
-              "eng": "being"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "who"
-            },
-            {
-              "id": "greek-5607",
-              "eng": "was"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "who"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "is coming",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "亞細亞"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "的七"
             },
             {
-              "id": "greek-4151",
-              "eng": "Spirits"
+              "id": "greek-1577",
+              "cht": "個教會",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-3739",
-              "eng": "-"
+              "id": "greek-575",
+              "cht": "但願從"
             },
             {
-              "id": "greek-1799",
-              "eng": "before"
+              "id": "greek-2258",
+              "cht": "那昔在、"
+            },
+            {
+              "id": "greek-5607",
+              "cht": "今在、"
+            },
+            {
+              "id": "greek-2064",
+              "cht": "以後永在"
+            },
+            {
+              "id": "",
+              "cht": "的"
             },
             {
               "id": "greek-3588",
-              "eng": "the"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2362",
-              "eng": "throne"
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
               "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
+              "cht": "他"
             },
             {
-              "id": ""
+              "id": "greek-2362",
+              "cht": "寶座"
+            },
+            {
+              "id": "greek-1799",
+              "cht": "前"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "的七"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "靈",
+              "punct_cht": "，"
             }
           ]
         },
@@ -1090,86 +778,57 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.17.9",
-          "cunp": "智慧的心在此可以思想。那七頭就是女人所坐的七座山，",
+          "nasb": "Here is the mind which has wisdom. The seven heads are seven mountains on which the woman sits,",
           "words": [
             {
-              "id": "greek-5602",
-              "eng": "Here [is]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-4678",
+              "cht": "智慧"
             },
             {
               "id": "greek-3563",
-              "eng": "mind"
+              "cht": "的心"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5602",
+              "cht": "在此"
             },
             {
-              "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-4678",
-              "eng": "wisdom",
-              "punct": ":"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
+              "id": "",
+              "cht": "可以思想",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "那七"
             },
             {
               "id": "greek-2776",
-              "eng": "heads",
-              "punct": ","
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-3735",
-              "eng": "mountains"
+              "cht": "頭"
             },
             {
               "id": "greek-1526",
-              "eng": "are",
-              "punct": ","
-            },
-            {
-              "id": "greek-3699",
-              "eng": "where"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "就是"
             },
             {
               "id": "greek-1135",
-              "eng": "woman"
+              "cht": "女人"
             },
             {
               "id": "greek-2521",
-              "eng": "sits"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
+              "cht": "所坐"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": "."
+              "cht": "的"
             },
             {
-              "id": ""
+              "id": "greek-2033",
+              "cht": "七座"
+            },
+            {
+              "id": "greek-3735",
+              "cht": "山",
+              "punct_cht": "，"
             }
           ]
         },
@@ -1179,63 +838,40 @@
             "hebrew-7658": 1.857387560803582
           },
           "verseKey": "rev.8.6",
-          "cunp": "拿着七枝號的七位天使就預備要吹。",
+          "nasb": "And the seven angels who had the seven trumpets prepared themselves to sound them.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-32",
-              "eng": "angels"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "拿著"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "七枝"
             },
             {
               "id": "greek-4536",
-              "eng": "trumpets"
+              "cht": "號"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "的七位"
+            },
+            {
+              "id": "greek-32",
+              "cht": "天使"
             },
             {
               "id": "greek-2090",
-              "eng": "prepared"
-            },
-            {
-              "id": "greek-848",
-              "eng": "themselves"
+              "cht": "就預備"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
+              "cht": "要"
             },
             {
               "id": "greek-4537",
-              "eng": "they might sound the trumpets",
-              "punct": "."
-            },
-            {
-              "id": "greek-1438"
+              "cht": "吹",
+              "punct_cht": "。"
             }
           ]
         }

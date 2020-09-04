@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "Because",
-          "hebrew-3808": "not",
-          "hebrew-3045": "he knows",
-          "hebrew-7961": "quietness",
-          "hebrew-990": "in his heart",
-          "hebrew-2530": "anything he desires",
-          "hebrew-4422": "He will save"
+          "eng": {
+            "hebrew-3588": "Because",
+            "hebrew-3808": "not",
+            "hebrew-3045": "he knows",
+            "hebrew-7961": "quietness",
+            "hebrew-990": "in his heart",
+            "hebrew-2530": "anything he desires",
+            "hebrew-4422": "He will save"
+          },
+          "cht": {
+            "hebrew-3588": "他因",
+            "hebrew-3808": "連一樣也不能",
+            "hebrew-3045": "而無",
+            "hebrew-7961": "厭",
+            "hebrew-990": "貪",
+            "hebrew-2530": "所喜悅的",
+            "hebrew-4422": "保守"
+          }
         }
       },
       "translations": {
@@ -24,74 +35,70 @@
             "hebrew-2530": 3.4146839202627715
           },
           "verseKey": "exo.20.17",
-          "cunp": "「不可貪戀人的房屋；也不可貪戀人的妻子、僕婢、牛驢，並他一切所有的。」",
+          "nasb": "“You shall not covet your neighbor’s house; you shall not covet your neighbor’s wife or his male servant or his female servant or his ox or his donkey or anything that belongs to your neighbor.”",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-2530",
-              "eng": "You shall covet"
+              "cht": "貪戀"
+            },
+            {
+              "id": "hebrew-7453",
+              "cht": "人"
             },
             {
               "id": "hebrew-1004",
-              "eng": "house"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "of your neighbor",
-              "punct": "–"
+              "cht": "的房屋",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-2530",
-              "eng": "you shall covet"
+              "cht": "貪戀"
+            },
+            {
+              "id": "hebrew-7453",
+              "cht": "人"
             },
             {
               "id": "hebrew-802",
-              "eng": "wife",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "of your neighbor"
+              "cht": "的妻子、"
             },
             {
               "id": "hebrew-5650",
-              "eng": "nor his manservant",
-              "punct": "､"
+              "cht": "僕"
             },
             {
               "id": "hebrew-519",
-              "eng": "nor his maidservant",
-              "punct": "､"
+              "cht": "婢、"
             },
             {
               "id": "hebrew-7794",
-              "eng": "nor his ox",
-              "punct": "､"
+              "cht": "牛"
             },
             {
               "id": "hebrew-2543",
-              "eng": "nor his donkey",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "nor anything"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "驢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7453",
-              "eng": "[is] your neighbor",
-              "punct": "."
+              "cht": "並他"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所有的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -101,44 +108,44 @@
             "hebrew-7961": 5.492088685277254
           },
           "verseKey": "job.16.12",
-          "cunp": "我素來安逸，他折斷我， 掐住我的頸項，把我摔碎， 又立我為他的箭靶子。",
+          "nasb": "I was at ease, but He shattered me, And He has grasped me by the neck and shaken me to pieces; He has also set me up as His target.",
           "words": [
             {
-              "id": "hebrew-7961",
-              "eng": "At ease",
-              "punct": "､"
+              "id": "hebrew-1961",
+              "cht": "我素來"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "I was"
+              "id": "hebrew-7961",
+              "cht": "安逸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6565",
-              "eng": "but He has shattered me",
-              "punct": "–"
+              "cht": "他折斷我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-270",
-              "eng": "and He has taken [me]"
+              "cht": "掐住"
             },
             {
               "id": "hebrew-6203",
-              "eng": "by my neck",
-              "punct": "､"
+              "cht": "我的頸項",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6327",
-              "eng": "and shaken me to pieces",
-              "punct": "､"
+              "cht": "把我摔碎",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6965",
-              "eng": "and He has set me up"
+              "cht": "又立我"
             },
             {
               "id": "hebrew-4307",
-              "eng": "target",
-              "punct": "."
+              "cht": "箭靶子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -148,100 +155,87 @@
             "hebrew-7961": 5.492088685277254
           },
           "verseKey": "ezk.23.42",
-          "cunp": "在那裏有羣眾安逸歡樂的聲音，並有粗俗的人和酒徒從曠野同來，把鐲子戴在二婦的手上，把華冠戴在她們的頭上。",
+          "nasb": "The sound of a carefree multitude was with her; and drunkards were brought from the wilderness with men of the common sort. And they put bracelets on the hands of the women and beautiful crowns on their heads.",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "And the sound"
-            },
-            {
               "id": "hebrew-1995",
-              "eng": "of a multitude"
+              "cht": "有群眾"
             },
             {
               "id": "hebrew-7961",
-              "eng": "carefree"
+              "cht": "安逸"
             },
             {
-              "id": "hebrew-413",
-              "eng": "and with"
+              "id": "hebrew-6963",
+              "cht": "歡樂的聲音",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men"
+              "id": "hebrew-582",
+              "cht": "並有"
             },
             {
-              "id": "hebrew-7230",
-              "eng": "of many"
+              "id": "hebrew-4480",
+              "cht": "粗俗的"
             },
             {
               "id": "hebrew-120",
-              "eng": "people"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "[were] brought"
+              "cht": "人"
             },
             {
               "id": "hebrew-5433",
-              "eng": "Sabeans"
+              "cht": "和酒徒"
             },
             {
-              "id": "hebrew-4057",
-              "eng": "from the wilderness",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "從曠野"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and who put"
+              "id": "hebrew-935",
+              "cht": "同來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6781",
-              "eng": "bracelets"
+              "cht": "把鐲子"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "戴"
             },
             {
               "id": "hebrew-413",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-3027",
-              "eng": "their wrists",
-              "punct": "､"
+              "cht": "二婦的手"
             },
             {
-              "id": "hebrew-5850",
-              "eng": "and crowns"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8597",
-              "eng": "beautiful"
+              "cht": "把華"
+            },
+            {
+              "id": "hebrew-5850",
+              "cht": "冠"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "戴在"
             },
             {
               "id": "hebrew-7218",
-              "eng": "their heads",
-              "punct": "."
+              "cht": "她們的頭"
             },
             {
-              "id": "hebrew-582"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-5436"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -251,37 +245,33 @@
             "hebrew-7961": 5.492088685277254
           },
           "verseKey": "job.21.23",
-          "cunp": "有人至死身體強壯， 盡得平靖安逸；",
+          "nasb": "One dies in his full strength, Being wholly at ease and satisfied;",
           "words": [
             {
               "id": "hebrew-2088",
-              "eng": "This [on]"
+              "cht": "有人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "dies"
+              "cht": "至死"
             },
             {
               "id": "hebrew-6106",
-              "eng": "in strength",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8537",
-              "eng": "his full"
+              "cht": "身體強壯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "[Being] wholly"
+              "cht": "盡"
             },
             {
               "id": "hebrew-7946",
-              "eng": "at ease"
+              "cht": "得平靖"
             },
             {
               "id": "hebrew-7961",
-              "eng": "and secure",
-              "punct": "."
+              "cht": "安逸",
+              "punct_cht": "；"
             }
           ]
         },
@@ -291,82 +281,79 @@
             "hebrew-7961": 5.492088685277254
           },
           "verseKey": "jer.49.31",
-          "cunp": "耶和華說： 迦勒底人哪，起來！ 上安逸無慮的居民那裏去； 他們是無門無閂、獨自居住的。",
+          "nasb": "Arise, go up against a nation which is at ease, Which lives securely,” declares the Lord. “It has no gates or bars; They dwell alone.",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "Arise",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "go up"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1471",
-              "eng": "the nation",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7961",
-              "eng": "wealthy"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "that dwells"
-            },
-            {
-              "id": "hebrew-983",
-              "eng": "securely",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "說"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "",
+              "cht": "迦勒底人哪",
+              "punct_cht": "：，"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "起來",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "上"
+            },
+            {
+              "id": "hebrew-983",
+              "cht": "安逸"
+            },
+            {
+              "id": "hebrew-7961",
+              "cht": "無慮"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "的居"
+            },
+            {
+              "id": "hebrew-1471",
+              "cht": "民"
+            },
+            {
+              "id": "",
+              "cht": "那裡去",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "neither"
+              "cht": "無"
             },
             {
               "id": "hebrew-1817",
-              "eng": "which has gates"
+              "cht": "門"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "無"
             },
             {
               "id": "hebrew-1280",
-              "eng": "bars",
-              "punct": "､"
+              "cht": "閂、"
             },
             {
               "id": "hebrew-910",
-              "eng": "alone"
+              "cht": "獨自"
             },
             {
               "id": "hebrew-7931",
-              "eng": "Dwelling",
-              "punct": "."
+              "cht": "居住"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -376,39 +363,39 @@
             "hebrew-7961": 5.492088685277254
           },
           "verseKey": "psa.73.12",
-          "cunp": "看哪，這就是惡人； 他們既是常享安逸，財寶便加增。",
+          "nasb": "Behold, these are the wicked; And always at ease, they have increased in wealth.",
           "words": [
             {
               "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-428",
-              "eng": "these [are]"
+              "cht": "這就是"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the ungodly",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7961",
-              "eng": "and who are at ease"
+              "cht": "惡人",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5769",
-              "eng": "always",
-              "punct": "–"
+              "cht": "他們既是常"
             },
             {
-              "id": "hebrew-7685",
-              "eng": "they increase"
+              "id": "hebrew-7961",
+              "cht": "享安逸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2428",
-              "eng": "in riches",
-              "punct": "."
+              "cht": "財寶"
+            },
+            {
+              "id": "hebrew-7685",
+              "cht": "便加增",
+              "punct_cht": "。"
             }
           ]
         },
@@ -418,75 +405,58 @@
             "hebrew-7961": 5.492088685277254
           },
           "verseKey": "1ch.4.40",
-          "cunp": "尋得肥美的草場地，又寬闊又平靜。從前住那裏的是含族的人。",
+          "nasb": "They found rich and good pasture, and the land was broad and quiet and peaceful; for those who lived there formerly were Hamites.",
           "words": [
             {
               "id": "hebrew-4672",
-              "eng": "And they found"
-            },
-            {
-              "id": "hebrew-4829",
-              "eng": "pasture"
+              "cht": "尋得"
             },
             {
               "id": "hebrew-8082",
-              "eng": "rich"
+              "cht": "肥"
             },
             {
               "id": "hebrew-2896",
-              "eng": "and good",
-              "punct": "､"
+              "cht": "美"
+            },
+            {
+              "id": "hebrew-4829",
+              "cht": "的草場"
             },
             {
               "id": "hebrew-776",
-              "eng": "and the land"
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-7342",
-              "eng": "wide"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "[was] broad",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8252",
-              "eng": "and quiet",
-              "punct": "､"
+              "id": "hebrew-776",
+              "cht": "又寬闊"
             },
             {
               "id": "hebrew-7961",
-              "eng": "and peaceful",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "of"
-            },
-            {
-              "id": "hebrew-2526",
-              "eng": "some Hamites"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "lived"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
+              "cht": "又平靜",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6440",
-              "eng": "formerly",
-              "punct": "."
+              "cht": "從前"
             },
             {
-              "id": "hebrew-776"
+              "id": "hebrew-3427",
+              "cht": "住"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "那裡"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的是"
+            },
+            {
+              "id": "hebrew-2526",
+              "cht": "含族的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -496,88 +466,92 @@
             "hebrew-7961": 5.492088685277254
           },
           "verseKey": "zec.7.7",
-          "cunp": "當耶路撒冷和四圍的城邑有居民，正興盛，南地高原有人居住的時候，耶和華藉從前的先知所宣告的話，你們不當聽嗎？』」",
+          "nasb": "Are not these the words which the Lord proclaimed by the former prophets, when Jerusalem was inhabited and prosperous along with its cities around it, and the Negev and the foothills were inhabited?’ ”",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "[Should not"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the [you have obeyed] words"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "proclaimed"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "through"
-            },
-            {
-              "id": "hebrew-5030",
-              "eng": "the prophets",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7223",
-              "eng": "former"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "when were"
-            },
-            {
               "id": "hebrew-3389",
-              "eng": "Jerusalem"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "inhabited"
-            },
-            {
-              "id": "hebrew-7961",
-              "eng": "and prosperous",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "and the cities"
+              "cht": "當耶路撒冷"
             },
             {
               "id": "hebrew-5439",
-              "eng": "around it"
+              "cht": "和四圍"
             },
             {
-              "id": "hebrew-5045",
-              "eng": "and the Negev"
+              "id": "hebrew-5892",
+              "cht": "的城邑"
             },
             {
-              "id": "hebrew-8219",
-              "eng": "and the Lowland"
+              "id": "hebrew-1961",
+              "cht": "有"
             },
             {
               "id": "hebrew-3427",
-              "eng": "were inhabited",
-              "punct": "."
+              "cht": "居民",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-7961",
+              "cht": "正興盛",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-5045",
+              "cht": "南地"
+            },
+            {
+              "id": "hebrew-8219",
+              "cht": "高原"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "有人居住"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "藉"
+            },
+            {
+              "id": "hebrew-7223",
+              "cht": "從前"
+            },
+            {
+              "id": "hebrew-5030",
+              "cht": "的先知"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "宣告"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "你們不"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "當聽"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？』」"
             }
           ]
         },
@@ -587,130 +561,114 @@
             "hebrew-4422": 1.829883804343517
           },
           "verseKey": "1sa.27.1",
-          "cunp": "大衛心裏說：「必有一日我死在掃羅手裏，不如逃奔非利士地去。掃羅見我不在以色列的境內，就必絕望，不再尋索我；這樣我可以脫離他的手。」",
+          "nasb": "Then David said to himself, “Now I will perish one day by the hand of Saul. There is nothing better for me than to escape into the land of the Philistines. Saul then will despair of searching for me anymore in all the territory of Israel, and I will escape from his hand.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "in"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-3820",
-              "eng": "his heart",
-              "punct": "､"
+              "cht": "心裡"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6258",
-              "eng": "now"
-            },
-            {
-              "id": "hebrew-5595",
-              "eng": "I shall perish"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day"
+              "cht": "必有"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "一"
             },
             {
-              "id": "hebrew-3027",
-              "eng": "by the hand"
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-5595",
+              "cht": "我死"
             },
             {
               "id": "hebrew-7586",
-              "eng": "of Saul",
-              "punct": "."
+              "cht": "在掃羅"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "手裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "[There is] nothing"
+              "cht": "不"
             },
             {
               "id": "hebrew-2896",
-              "eng": "better"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "than"
-            },
-            {
-              "id": "hebrew-4422",
-              "eng": "speedily"
-            },
-            {
-              "id": "hebrew-4422",
-              "eng": "that I should escape"
+              "cht": "如"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "逃奔"
             },
             {
               "id": "hebrew-6430",
-              "eng": "of the Philistines",
-              "punct": "–"
+              "cht": "非利士"
             },
             {
-              "id": "hebrew-2976",
-              "eng": "and will despair"
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
-              "id": "hebrew-4480",
-              "eng": "of me"
+              "id": "",
+              "cht": "去",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7586",
-              "eng": "Saul"
+              "cht": "掃羅"
             },
             {
-              "id": "hebrew-1245",
-              "eng": "to seek me"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "anymore"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "in any"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "part"
+              "id": "hebrew-4480",
+              "cht": "見我不在"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-1366",
+              "cht": "境內",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2976",
+              "cht": "就必絕望",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "不再"
+            },
+            {
+              "id": "hebrew-1245",
+              "cht": "尋索我",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4422",
-              "eng": "so I shall escape"
+              "cht": "這樣我可以脫離"
             },
             {
               "id": "hebrew-3027",
-              "eng": "out of his hand",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "他的手",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -720,142 +678,73 @@
             "hebrew-990": 2.234830709167281
           },
           "verseKey": "1co.6.13",
-          "cunp": "食物是為肚腹，肚腹是為食物；但神要叫這兩樣都廢壞。身子不是為淫亂，乃是為主；主也是為身子。",
+          "nasb": "Food is for the stomach and the stomach is for food, but God will do away with both of them. Yet the body is not for immorality, but for the Lord, and the Lord is for the body.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-1033",
-              "eng": "foods"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
+              "cht": "食物"
             },
             {
               "id": "greek-2836",
-              "eng": "belly"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "是為肚腹",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2836",
-              "eng": "belly"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "肚腹"
             },
             {
               "id": "greek-1033",
-              "eng": "for foods",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是為食物",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1161",
-              "eng": "but"
+              "cht": "但"
             },
             {
               "id": "greek-2316",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "greek-2532",
-              "eng": "both"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "these"
+              "id": "greek-5023",
+              "cht": "要叫這兩樣"
             },
             {
               "id": "greek-2673",
-              "eng": "will destroy",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "and"
+              "cht": "都廢壞",
+              "punct_cht": "。"
             },
             {
               "id": "greek-4983",
-              "eng": "the body [is]"
+              "cht": "身子"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "不"
             },
             {
               "id": "greek-4202",
-              "eng": "for sexual immorality",
-              "punct": ","
+              "cht": "是為淫亂",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
+              "cht": "乃"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "是為主",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
+              "cht": "主"
             },
             {
               "id": "greek-4983",
-              "eng": "body",
-              "punct": "."
-            },
-            {
-              "id": "greek-5026"
-            },
-            {
-              "id": "greek-5023"
+              "cht": "也是為身子",
+              "punct_cht": "。"
             }
           ]
         }

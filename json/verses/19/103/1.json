@@ -3,16 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1732": "Of David",
-          "hebrew-1288": "Bless",
-          "hebrew-5315": "my soul",
-          "hebrew-853": "-",
-          "hebrew-3068": "Yahweh",
-          "hebrew-3605": "and all [bless]",
-          "hebrew-7130": "that is within me",
-          "hebrew-8034": "name",
-          "hebrew-6944": "His holy",
-          "": null
+          "eng": {
+            "hebrew-1732": "Of David",
+            "hebrew-1288": "Bless",
+            "hebrew-5315": "my soul",
+            "hebrew-853": "-",
+            "hebrew-3068": "Yahweh",
+            "hebrew-3605": "and all [bless]",
+            "hebrew-7130": "that is within me",
+            "hebrew-8034": "name",
+            "hebrew-6944": "His holy",
+            "": null
+          },
+          "cht": {
+            "hebrew-1732": "大衛的",
+            "hebrew-1288": "你要稱頌",
+            "hebrew-5315": "我的心",
+            "hebrew-853": "也要稱頌",
+            "hebrew-3068": "耶和華",
+            "hebrew-3605": "凡",
+            "hebrew-7130": "在我裡面",
+            "hebrew-8034": "名",
+            "hebrew-6944": "他的聖"
+          }
         }
       },
       "translations": {
@@ -30,66 +43,63 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -101,72 +111,57 @@
             "hebrew-7130": 1.857387560803582
           },
           "verseKey": "lev.23.30",
-          "cunp": "凡這日做甚麼工的，我必將他從民中除滅。",
+          "nasb": "As for any person who does any work on this same day, that person I will destroy from among his people.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "And any"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "person"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "does"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "any"
-            },
-            {
-              "id": "hebrew-4399",
-              "eng": "work"
-            },
-            {
-              "id": "hebrew-6106",
-              "eng": "on same"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day"
+              "cht": "凡"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this",
-              "punct": "､"
+              "cht": "這"
             },
             {
-              "id": "hebrew-6",
-              "eng": "and I will destroy"
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "甚麼"
+            },
+            {
+              "id": "hebrew-4399",
+              "cht": "工"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我必將"
             },
             {
               "id": "hebrew-5315",
-              "eng": "person"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "from among"
+              "cht": "他"
             },
             {
               "id": "hebrew-5971",
-              "eng": "his people",
-              "punct": "."
+              "cht": "從民"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7130",
+              "cht": "中"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "除滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -178,93 +173,67 @@
             "hebrew-7130": 1.857387560803582
           },
           "verseKey": "num.15.30",
-          "cunp": "但那擅敢行事的，無論是本地人是寄居的，他褻瀆了耶和華，必從民中剪除。",
+          "nasb": "But the person who does anything defiantly, whether he is native or an alien, that one is blaspheming the Lord; and that person shall be cut off from among his people.",
           "words": [
             {
               "id": "hebrew-5315",
-              "eng": "but the person"
+              "cht": "但"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "does"
+              "cht": "那"
             },
             {
               "id": "hebrew-3027",
-              "eng": "presumptuously",
-              "punct": "､"
+              "cht": "擅敢"
             },
             {
-              "id": "hebrew-7411",
-              "eng": "beguile"
+              "id": "hebrew-6213",
+              "cht": "行事的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "whether"
+              "cht": "無論"
             },
             {
               "id": "hebrew-249",
-              "eng": "[he is] native-born",
-              "punct": "､"
+              "cht": "是本地人"
             },
             {
               "id": "hebrew-4480",
-              "eng": "or a"
+              "cht": "是"
             },
             {
               "id": "hebrew-1616",
-              "eng": "stranger",
-              "punct": "､"
+              "cht": "寄居的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "他"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "褻瀆了"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that [one]"
-            },
-            {
-              "id": "hebrew-1442",
-              "eng": "brings reproach on"
-            },
-            {
-              "id": "hebrew-3772",
-              "eng": "and he shall be cut off"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "person"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "from among"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5971",
-              "eng": "his people",
-              "punct": "."
+              "cht": "必從民"
             },
             {
-              "id": "hebrew-7311"
+              "id": "hebrew-7130",
+              "cht": "中"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-3772",
+              "cht": "剪除",
+              "punct_cht": "。"
             }
           ]
         }

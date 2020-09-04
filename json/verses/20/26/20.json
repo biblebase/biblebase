@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-657": "where [there is] no",
-          "hebrew-6086": "wood",
-          "hebrew-3518": "goes out",
-          "hebrew-784": "the fire",
-          "hebrew-369": "and where [there is] no",
-          "hebrew-5372": "talebearer",
-          "hebrew-8367": "ceases",
-          "hebrew-4066": "strife"
+          "eng": {
+            "hebrew-657": "where [there is] no",
+            "hebrew-6086": "wood",
+            "hebrew-3518": "goes out",
+            "hebrew-784": "the fire",
+            "hebrew-369": "and where [there is] no",
+            "hebrew-5372": "talebearer",
+            "hebrew-8367": "ceases",
+            "hebrew-4066": "strife"
+          },
+          "cht": {
+            "hebrew-657": "缺了",
+            "hebrew-6086": "柴",
+            "hebrew-3518": "就必熄滅",
+            "hebrew-784": "火",
+            "hebrew-369": "無人",
+            "hebrew-5372": "傳舌",
+            "hebrew-8367": "便止息",
+            "hebrew-4066": "爭競"
+          }
         }
       },
       "translations": {
@@ -27,40 +39,42 @@
             "hebrew-4066": 3.9122447917377814
           },
           "verseKey": "pro.16.28",
-          "cunp": "乖僻人播散紛爭； 傳舌的，離間密友。",
+          "nasb": "A perverse man spreads strife, And a slanderer separates intimate friends.",
           "words": [
             {
-              "id": "hebrew-376",
-              "eng": "A man"
+              "id": "hebrew-8419",
+              "cht": "乖僻"
             },
             {
-              "id": "hebrew-8419",
-              "eng": "perverse"
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-7971",
-              "eng": "sows"
+              "cht": "播散"
             },
             {
               "id": "hebrew-4066",
-              "eng": "strife",
-              "punct": "､"
+              "cht": "紛爭",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5372",
-              "eng": "and a whisperer"
+              "cht": "傳"
+            },
+            {
+              "id": "",
+              "cht": "舌的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6504",
-              "eng": "separates"
+              "cht": "離間"
             },
             {
               "id": "hebrew-441",
-              "eng": "the [best] of friends",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "密友",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,37 +84,34 @@
             "hebrew-5372": 7.502414237754052
           },
           "verseKey": "pro.26.22",
-          "cunp": "傳舌人的言語，如同美食， 深入人的心腹。",
+          "nasb": "The words of a whisperer are like dainty morsels, And they go down into the innermost parts of the body.",
           "words": [
             {
-              "id": "hebrew-1697",
-              "eng": "The words"
+              "id": "hebrew-5372",
+              "cht": "傳舌人"
             },
             {
-              "id": "hebrew-5372",
-              "eng": "of a talebearer"
+              "id": "hebrew-1697",
+              "cht": "的言語",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3859",
-              "eng": "[are] like tasty trifles",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "and they"
+              "cht": "如同美食",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3381",
-              "eng": "go down"
+              "cht": "深入"
             },
             {
               "id": "hebrew-2315",
-              "eng": "into the inmost"
+              "cht": "人的心"
             },
             {
               "id": "hebrew-990",
-              "eng": "body",
-              "punct": "."
+              "cht": "腹",
+              "punct_cht": "。"
             }
           ]
         },
@@ -110,37 +121,33 @@
             "hebrew-5372": 7.502414237754052
           },
           "verseKey": "pro.18.8",
-          "cunp": "傳舌人的言語如同美食， 深入人的心腹。",
+          "nasb": "The words of a whisperer are like dainty morsels, And they go down into the innermost parts of the body.",
           "words": [
             {
-              "id": "hebrew-1697",
-              "eng": "The words"
+              "id": "hebrew-5372",
+              "cht": "傳舌人"
             },
             {
-              "id": "hebrew-5372",
-              "eng": "of a talebearer"
+              "id": "hebrew-1697",
+              "cht": "的言語"
             },
             {
               "id": "hebrew-3859",
-              "eng": "[are] like tasty trifles",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "and they"
+              "cht": "如同美食",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3381",
-              "eng": "go down"
+              "cht": "深入"
             },
             {
               "id": "hebrew-2315",
-              "eng": "into the"
+              "cht": "人的心"
             },
             {
               "id": "hebrew-990",
-              "eng": "inmost body",
-              "punct": "."
+              "cht": "腹",
+              "punct_cht": "。"
             }
           ]
         },
@@ -152,135 +159,127 @@
             "hebrew-784": 0.8984411814410173
           },
           "verseKey": "ezk.20.47",
-          "cunp": "對南方的樹林說，要聽耶和華的話。主耶和華如此說：我必使火在你中間着起，燒滅你中間的一切青樹和枯樹，猛烈的火焰必不熄滅。從南到北，人的臉面都被燒焦。",
+          "nasb": "and say to the forest of the Negev, ‘Hear the word of the Lord: thus says the Lord God, “Behold, I am about to kindle a fire in you, and it will consume every green tree in you, as well as every dry tree; the blazing flame will not be quenched and the whole surface from south to north will be burned by it.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And say"
+              "id": "hebrew-5045",
+              "cht": "對南方"
             },
             {
               "id": "hebrew-3293",
-              "eng": "to the forest"
-            },
-            {
-              "id": "hebrew-5045",
-              "eng": "of the Negev",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "Hear"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the word"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "的樹林"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "要聽"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-2005",
-              "eng": "behold"
+              "id": "hebrew-3541",
+              "cht": "如此"
             },
             {
-              "id": "hebrew-3341",
-              "eng": "I will kindle"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-2009",
+              "cht": "我"
             },
             {
               "id": "hebrew-784",
-              "eng": "a fire"
+              "cht": "必使火"
+            },
+            {
+              "id": "hebrew-3341",
+              "cht": "著起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "and it shall devour"
+              "cht": "燒滅"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "tree"
+              "cht": "的一切"
             },
             {
               "id": "hebrew-3892",
-              "eng": "green"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and every"
+              "cht": "青"
             },
             {
               "id": "hebrew-6086",
-              "eng": "tree",
-              "punct": "–"
+              "cht": "樹"
             },
             {
               "id": "hebrew-3002",
-              "eng": "dry"
+              "cht": "和枯"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3518",
-              "eng": "shall be quenched",
-              "punct": "､"
+              "id": "hebrew-6086",
+              "cht": "樹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3852",
-              "eng": "the flame"
+              "cht": "猛烈"
             },
             {
               "id": "hebrew-7957",
-              "eng": "blazing"
+              "cht": "的火焰"
             },
             {
-              "id": "hebrew-6866",
-              "eng": "and shall be scorched"
+              "id": "hebrew-3808",
+              "cht": "必不"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-3518",
+              "cht": "熄滅",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-6440",
-              "eng": "faces"
-            },
-            {
-              "id": "hebrew-5045",
-              "eng": "from the south"
+              "id": "hebrew-4480",
+              "cht": "從南"
             },
             {
               "id": "hebrew-6828",
-              "eng": "to the north",
-              "punct": "."
+              "cht": "到北",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2009"
+              "id": "hebrew-6440",
+              "cht": "人的臉面"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-6866",
+              "cht": "被燒焦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -291,72 +290,58 @@
             "hebrew-369": 0.7414250898918989
           },
           "verseKey": "2ki.14.26",
-          "cunp": "因為耶和華看見以色列人甚是艱苦，無論困住的、自由的都沒有了，也無人幫助以色列人。",
+          "nasb": "For the Lord saw the affliction of Israel, which was very bitter; for there was neither bond nor free, nor was there any helper for Israel.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "saw"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6040",
-              "eng": "[that] the affliction"
+              "id": "hebrew-7200",
+              "cht": "看見"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4784",
-              "eng": "[was] bitter",
-              "punct": "–"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-3966",
-              "eng": "very"
+              "cht": "人甚是"
+            },
+            {
+              "id": "hebrew-4784",
+              "cht": "艱苦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-657",
-              "eng": "and whether"
-            },
-            {
-              "id": "hebrew-6113",
-              "eng": "bond",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-657",
-              "eng": "or"
+              "cht": "無論困住的、"
             },
             {
               "id": "hebrew-5800",
-              "eng": "free",
-              "punct": "､"
+              "cht": "自由的"
+            },
+            {
+              "id": "hebrew-657",
+              "cht": "都沒有了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and there was no"
+              "cht": "也無人"
             },
             {
               "id": "hebrew-5826",
-              "eng": "helper"
+              "cht": "幫助"
             },
             {
               "id": "hebrew-3478",
-              "eng": "for Israel",
-              "punct": "."
+              "cht": "以色列人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -366,99 +351,81 @@
             "hebrew-8367": 5.832220266167411
           },
           "verseKey": "mat.8.26",
-          "cunp": "耶穌說：「你們這小信的人哪，為甚麼膽怯呢？」於是起來，斥責風和海，風和海就大大地平靜了。",
+          "nasb": "He *said to them, “Why are you afraid, you men of little faith?” Then He got up and rebuked the winds and the sea, and it became perfectly calm.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-3004",
-              "eng": "He says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-5101",
-              "eng": "Why"
-            },
-            {
-              "id": "greek-1169",
-              "eng": "fearful"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "greek-2075",
-              "eng": "are you",
-              "punct": ","
+              "cht": "你們"
             },
             {
               "id": "greek-3640",
-              "eng": "O [you] of little faith",
-              "punct": "?"
+              "cht": "這小信的"
+            },
+            {
+              "id": "",
+              "cht": "人哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5101",
+              "cht": "為甚麼"
+            },
+            {
+              "id": "greek-1169",
+              "cht": "膽怯"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
             },
             {
               "id": "greek-5119",
-              "eng": "Then",
-              "punct": ","
+              "cht": "於是"
             },
             {
               "id": "greek-1453",
-              "eng": "having arisen",
-              "punct": ","
+              "cht": "起來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2008",
-              "eng": "He rebuked"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "斥責"
             },
             {
               "id": "greek-417",
-              "eng": "winds"
+              "cht": "風"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-2281",
-              "eng": "sea",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "海",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1096",
-              "eng": "there was"
-            },
-            {
-              "id": "greek-1055",
-              "eng": "a calm"
+              "cht": "風和海就"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": "."
+              "cht": "大大地"
             },
             {
-              "id": "greek-2424"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-1055",
+              "cht": "平靜了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -468,91 +435,62 @@
             "hebrew-8367": 5.832220266167411
           },
           "verseKey": "mrk.4.39",
-          "cunp": "耶穌醒了，斥責風，向海說：「住了吧！靜了吧！」風就止住，大大地平靜了。",
+          "nasb": "And He got up and rebuked the wind and said to the sea, “Hush, be still.” And the wind died down and it became perfectly calm.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-1326",
-              "eng": "having been awoken"
+              "cht": "醒了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2008",
-              "eng": "He rebuked"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "斥責"
             },
             {
               "id": "greek-417",
-              "eng": "wind"
+              "cht": "風",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3588",
+              "cht": "向海"
             },
             {
               "id": "greek-2036",
-              "eng": "said"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-2281",
-              "eng": "sea",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4623",
-              "eng": "Silence",
-              "punct": ","
+              "cht": "住了吧",
+              "punct_cht": "！"
             },
             {
               "id": "greek-5392",
-              "eng": "be still",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2869",
-              "eng": "abated"
+              "cht": "靜了吧",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3588",
-              "eng": "the"
+              "cht": "風"
             },
             {
-              "id": "greek-417",
-              "eng": "wind",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "there was"
-            },
-            {
-              "id": "greek-1055",
-              "eng": "a calm"
+              "id": "greek-2869",
+              "cht": "就止住",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": "."
+              "cht": "大大的"
             },
             {
-              "id": "greek-2424"
+              "id": "greek-1055",
+              "cht": "平靜了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -562,122 +500,80 @@
             "hebrew-8367": 5.832220266167411
           },
           "verseKey": "luk.8.24",
-          "cunp": "門徒來叫醒了他，說：「夫子！夫子！我們喪命啦！」耶穌醒了，斥責那狂風大浪；風浪就止住，平靜了。",
+          "nasb": "They came to Jesus and woke Him up, saying, “Master, Master, we are perishing!” And He got up and rebuked the wind and the surging waves, and they stopped, and it became calm.",
           "words": [
             {
               "id": "greek-4334",
-              "eng": "Having come to [Him]"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then",
-              "punct": ","
+              "cht": "門徒來"
             },
             {
               "id": "greek-1326",
-              "eng": "they awoke"
+              "cht": "叫醒"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
+              "cht": "了他",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1988",
-              "eng": "Master",
-              "punct": ","
+              "cht": "夫子",
+              "punct_cht": "！"
             },
             {
               "id": "greek-1988",
-              "eng": "Master",
-              "punct": ","
+              "cht": "夫子",
+              "punct_cht": "！"
             },
             {
               "id": "greek-622",
-              "eng": "we are perishing",
-              "punct": "!"
+              "cht": "我們喪命"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "啦",
+              "punct_cht": "！"
             },
             {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1326",
-              "eng": "having arisen",
-              "punct": ","
+              "id": "greek-1453",
+              "cht": "耶穌醒了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2008",
-              "eng": "He rebuked"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-417",
-              "eng": "wind"
+              "cht": "斥責"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2830",
-              "eng": "raging"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "那狂風"
             },
             {
               "id": "greek-5204",
-              "eng": "water",
-              "punct": ","
+              "cht": "大浪",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "風浪就"
             },
             {
               "id": "greek-3973",
-              "eng": "they ceased",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "there was"
+              "cht": "止住",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1055",
-              "eng": "a calm",
-              "punct": "."
+              "cht": "平靜"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-1453"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -687,37 +583,34 @@
             "hebrew-8367": 5.832220266167411
           },
           "verseKey": "psa.107.30",
-          "cunp": "風息浪靜，他們便歡喜； 他就引他們到所願去的海口。",
+          "nasb": "Then they were glad because they were quiet, So He guided them to their desired haven.",
           "words": [
             {
-              "id": "hebrew-8055",
-              "eng": "And they are glad"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
               "id": "hebrew-8367",
-              "eng": "they are quiet",
-              "punct": "–"
+              "cht": "風息浪靜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8055",
+              "cht": "他們便歡喜",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5148",
-              "eng": "so He guides them"
+              "cht": "他就引他們"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4231",
-              "eng": "haven"
+              "cht": "到"
             },
             {
               "id": "hebrew-2656",
-              "eng": "their desired",
-              "punct": "."
+              "cht": "所願去"
+            },
+            {
+              "id": "hebrew-4231",
+              "cht": "的海口",
+              "punct_cht": "。"
             }
           ]
         },
@@ -727,88 +620,76 @@
             "hebrew-8367": 5.832220266167411
           },
           "verseKey": "jon.1.12",
-          "cunp": "他對他們說：「你們將我擡起來，拋在海中，海就平靜了；我知道你們遭這大風是因我的緣故。」",
+          "nasb": "He said to them, “Pick me up and throw me into the sea. Then the sea will become calm for you, for I know that on account of me this great storm has come upon you.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And he said"
+              "id": "hebrew-413",
+              "cht": "他對他們"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to them"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-5375",
-              "eng": "Pick me up",
-              "punct": "､"
+              "cht": "你們將我抬起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2904",
-              "eng": "and throw me"
+              "cht": "拋"
             },
             {
               "id": "hebrew-413",
-              "eng": "into"
+              "cht": "在"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the sea",
-              "punct": "–"
+              "cht": "海"
             },
             {
-              "id": "hebrew-8367",
-              "eng": "then will become calm"
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the sea"
+              "cht": "海"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "for you"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "know"
+              "id": "hebrew-4480",
+              "cht": "就平靜了",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-7945",
-              "eng": "because of me"
-            },
-            {
-              "id": "hebrew-5591",
-              "eng": "tempest [is]"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "知道"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on",
-              "punct": "."
+              "cht": "你們遭"
             },
             {
-              "id": ""
+              "id": "hebrew-2088",
+              "cht": "這"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1419",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-5591",
+              "cht": "風"
+            },
+            {
+              "id": "hebrew-7945",
+              "cht": "是因我的緣故",
+              "punct_cht": "。」"
             }
           ]
         }

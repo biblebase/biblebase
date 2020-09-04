@@ -3,18 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7200": "And when He saw",
-          "hebrew-3588": "that",
-          "hebrew-3808": "not",
-          "hebrew-3201": "He did prevail",
-          "hebrew-5060": "then He touched",
-          "hebrew-3709": "the socket",
-          "hebrew-3409": "of the hip",
-          "hebrew-3363": "and was out of joint",
-          "hebrew-3290": "of Jacob",
-          "hebrew-79": "as He wrestled",
-          "hebrew-5973": "with him",
-          "": null
+          "eng": {
+            "hebrew-7200": "And when He saw",
+            "hebrew-3588": "that",
+            "hebrew-3808": "not",
+            "hebrew-3201": "He did prevail",
+            "hebrew-5060": "then He touched",
+            "hebrew-3709": "the socket",
+            "hebrew-3409": "of the hip",
+            "hebrew-3363": "and was out of joint",
+            "hebrew-3290": "of Jacob",
+            "hebrew-79": "as He wrestled",
+            "hebrew-5973": "with him",
+            "": null
+          },
+          "cht": {
+            "hebrew-7200": "那人見",
+            "hebrew-3588": "那人見",
+            "hebrew-3808": "不",
+            "hebrew-3201": "自己勝",
+            "hebrew-5060": "摸了",
+            "hebrew-3709": "窩",
+            "hebrew-3409": "的大腿",
+            "hebrew-3363": "的時候就扭",
+            "hebrew-3290": "雅各",
+            "hebrew-79": "摔跤",
+            "hebrew-5973": "正在"
+          }
         }
       },
       "translations": {
@@ -31,48 +46,42 @@
             "hebrew-79": 14
           },
           "verseKey": "gen.32.24",
-          "cunp": "只剩下雅各一人。有一個人來和他摔跤，直到黎明。",
+          "nasb": "Then Jacob was left alone, and a man wrestled with him until daybreak.",
           "words": [
             {
               "id": "hebrew-3498",
-              "eng": "And was left"
+              "cht": "只剩下"
             },
             {
               "id": "hebrew-3290",
-              "eng": "Jacob"
+              "cht": "雅各"
             },
             {
               "id": "hebrew-905",
-              "eng": "alone",
-              "punct": "–"
+              "cht": "一人",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-79",
-              "eng": "and wrestled"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "a man"
+              "id": "hebrew-376",
+              "cht": "有一個人"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with him"
+              "cht": "來和他"
+            },
+            {
+              "id": "hebrew-79",
+              "cht": "摔跤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
+              "cht": "直到"
             },
             {
               "id": "hebrew-5927",
-              "eng": "the breaking"
-            },
-            {
-              "id": "hebrew-7837",
-              "eng": "of day",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-376"
+              "cht": "黎明",
+              "punct_cht": "。"
             }
           ]
         },
@@ -82,62 +91,64 @@
             "hebrew-3363": 6.2511507603914795
           },
           "verseKey": "jer.6.8",
-          "cunp": "耶路撒冷啊，你當受教， 免得我心與你生疏， 免得我使你荒涼， 成為無人居住之地。",
+          "nasb": "Be warned, O Jerusalem, Or I shall be alienated from you, And make you a desolation, A land not inhabited.”",
           "words": [
             {
-              "id": "hebrew-3256",
-              "eng": "Be instructed",
-              "punct": "､"
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷"
             },
             {
-              "id": "hebrew-3389",
-              "eng": "Jerusalem",
-              "punct": "､"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3256",
+              "cht": "你當受教",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6435",
-              "eng": "lest"
-            },
-            {
-              "id": "hebrew-3363",
-              "eng": "depart"
+              "cht": "免得"
             },
             {
               "id": "hebrew-5315",
-              "eng": "My soul"
+              "cht": "我心"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from you"
+              "cht": "與你"
+            },
+            {
+              "id": "hebrew-3363",
+              "cht": "生疏",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6435",
-              "eng": "lest"
+              "cht": "免得"
             },
             {
               "id": "hebrew-7760",
-              "eng": "I make you"
+              "cht": "我使你"
             },
             {
               "id": "hebrew-8077",
-              "eng": "desolate",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "a land"
+              "cht": "荒涼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "成為無人"
             },
             {
               "id": "hebrew-3427",
-              "eng": "inhabited",
-              "punct": "."
+              "cht": "居住"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "之地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -147,93 +158,74 @@
             "hebrew-3363": 6.2511507603914795
           },
           "verseKey": "num.25.4",
-          "cunp": "耶和華吩咐摩西說：「將百姓中所有的族長在我面前對着日頭懸掛，使我向以色列人所發的怒氣可以消了。」",
+          "nasb": "The Lord said to Moses, “Take all the leaders of the people and execute them in broad daylight before the Lord, so that the fierce anger of the Lord may turn away from Israel.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "吩咐"
             },
             {
               "id": "hebrew-4872",
-              "eng": "Moses",
-              "punct": "､"
+              "cht": "摩西"
             },
             {
-              "id": "hebrew-3947",
-              "eng": "take"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the leaders"
+              "cht": "將"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of the people",
-              "punct": "､"
+              "cht": "百姓"
             },
             {
-              "id": "hebrew-3363",
-              "eng": "and hang"
+              "id": "hebrew-3605",
+              "cht": "中所有的"
             },
             {
-              "id": "hebrew-853",
-              "eng": "the offenders"
+              "id": "hebrew-7218",
+              "cht": "族長"
             },
             {
               "id": "hebrew-3068",
-              "eng": "before Yahweh"
+              "cht": "在我"
             },
             {
               "id": "hebrew-5048",
-              "eng": "out in"
+              "cht": "面前對著"
             },
             {
               "id": "hebrew-8121",
-              "eng": "the sun",
-              "punct": "､"
+              "cht": "日頭"
             },
             {
-              "id": "hebrew-7725",
-              "eng": "that may turn away"
-            },
-            {
-              "id": "hebrew-2740",
-              "eng": "fierce"
-            },
-            {
-              "id": "hebrew-639",
-              "eng": "the anger"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-853",
+              "cht": "懸掛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3478",
-              "eng": "from Israel",
-              "punct": "."
+              "cht": "使我向以色列人"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2740",
+              "cht": "所發的怒氣"
             },
             {
-              "id": ""
+              "id": "hebrew-7725",
+              "cht": "可以消"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -243,74 +235,64 @@
             "hebrew-3363": 6.2511507603914795
           },
           "verseKey": "ezk.23.18",
-          "cunp": "這樣，她顯露淫行，又顯露下體；我心就與她生疏，像先前與她姊姊生疏一樣。",
+          "nasb": "She uncovered her harlotries and uncovered her nakedness; then I became disgusted with her, as I had become disgusted with her sister.",
           "words": [
             {
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-1540",
-              "eng": "And she revealed"
+              "cht": "她顯露"
             },
             {
               "id": "hebrew-8457",
-              "eng": "her harlotry",
-              "punct": "､"
+              "cht": "淫行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1540",
-              "eng": "and uncovered"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "又顯露"
             },
             {
               "id": "hebrew-6172",
-              "eng": "her nakedness",
-              "punct": "–"
+              "cht": "下體",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "我心"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "就與她"
             },
             {
               "id": "hebrew-3363",
-              "eng": "and alienated"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "Myself"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "from her"
+              "cht": "生疏",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "as"
-            },
-            {
-              "id": "hebrew-5361",
-              "eng": "I had alienated"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "Myself"
+              "cht": "像"
             },
             {
               "id": "hebrew-5921",
-              "eng": "from"
+              "cht": "先前與"
             },
             {
               "id": "hebrew-269",
-              "eng": "her sister",
-              "punct": "."
+              "cht": "她姊姊"
             },
             {
-              "id": ""
+              "id": "hebrew-5361",
+              "cht": "生疏"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -320,67 +302,57 @@
             "hebrew-3363": 6.2511507603914795
           },
           "verseKey": "2sa.21.13",
-          "cunp": "大衛將掃羅和他兒子約拿單的骸骨從那裏搬了來，又收殮被懸掛七人的骸骨，",
+          "nasb": "He brought up the bones of Saul and the bones of Jonathan his son from there, and they gathered the bones of those who had been hanged.",
           "words": [
             {
-              "id": "hebrew-5927",
-              "eng": "So he brought up"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "from there"
+              "id": "hebrew-1732",
+              "cht": "大衛"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "將"
             },
             {
               "id": "hebrew-6106",
-              "eng": "the bones"
-            },
-            {
-              "id": "hebrew-7586",
-              "eng": "of Saul"
+              "cht": "掃羅"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-6106",
-              "eng": "the bones"
-            },
-            {
-              "id": "hebrew-3083",
-              "eng": "of Jonathan"
+              "cht": "和"
             },
             {
               "id": "hebrew-1121",
-              "eng": "his son",
-              "punct": "–"
+              "cht": "他兒子"
             },
             {
-              "id": "hebrew-622",
-              "eng": "and they gathered"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3083",
+              "cht": "約拿單"
             },
             {
               "id": "hebrew-6106",
-              "eng": "the bones"
+              "cht": "的骸骨"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從那裡"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "搬了來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "又收殮"
             },
             {
               "id": "hebrew-3363",
-              "eng": "of those who had been hanged",
-              "punct": "."
+              "cht": "被懸掛"
             },
             {
-              "id": "hebrew-1732"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-6106",
+              "cht": "七人的骸骨",
+              "punct_cht": "，"
             }
           ]
         },
@@ -390,65 +362,63 @@
             "hebrew-3363": 6.2511507603914795
           },
           "verseKey": "ezk.23.17",
-          "cunp": "巴比倫人就來登她愛情的牀，與她行淫玷污她。她被玷污，隨後心裏與他們生疏。",
+          "nasb": "The Babylonians came to her to the bed of love and defiled her with their harlotry. And when she had been defiled by them, she became disgusted with them.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "And came"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to her"
+              "id": "hebrew-894",
+              "cht": "巴比倫"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the Babylonians"
+              "cht": "人"
             },
             {
-              "id": "hebrew-894",
-              "eng": "Babylon"
+              "id": "hebrew-935",
+              "cht": "就來"
             },
             {
-              "id": "hebrew-4904",
-              "eng": "into the bed"
+              "id": "hebrew-413",
+              "cht": "登"
             },
             {
               "id": "hebrew-1730",
-              "eng": "of love",
-              "punct": "､"
+              "cht": "她愛情"
             },
             {
-              "id": "hebrew-2930",
-              "eng": "and they defiled"
+              "id": "hebrew-4904",
+              "cht": "的床",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "her"
+              "cht": "與她"
             },
             {
               "id": "hebrew-8457",
-              "eng": "with their immorality",
-              "punct": "､"
+              "cht": "行淫"
             },
             {
               "id": "hebrew-2930",
-              "eng": "so she was defiled"
+              "cht": "玷污她",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-3363",
-              "eng": "and alienated"
+              "id": "hebrew-2930",
+              "cht": "她被玷污",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "herself"
+              "cht": "隨後心裡"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "from them",
-              "punct": "."
+              "id": "hebrew-4480",
+              "cht": "與他們"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3363",
+              "cht": "生疏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -458,128 +428,116 @@
             "hebrew-5060": 1.3562638049053959
           },
           "verseKey": "1ki.6.27",
-          "cunp": "他將兩個基路伯安在內殿裏；基路伯的翅膀是張開的，這基路伯的一個翅膀挨着這邊的牆，那基路伯的一個翅膀挨着那邊的牆，裏邊的兩個翅膀在殿中間彼此相接；",
+          "nasb": "He placed the cherubim in the midst of the inner house, and the wings of the cherubim were spread out, so that the wing of the one was touching the one wall, and the wing of the other cherub was touching the other wall. So their wings were touching each other in the center of the house.",
           "words": [
             {
-              "id": "hebrew-5414",
-              "eng": "And he set"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "他將"
             },
             {
               "id": "hebrew-3742",
-              "eng": "the cherubim"
+              "cht": "兩個基路伯"
             },
             {
-              "id": "hebrew-8432",
-              "eng": "inside"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the room",
-              "punct": "､"
+              "id": "hebrew-5414",
+              "cht": "安"
             },
             {
               "id": "hebrew-6442",
-              "eng": "inner"
-            },
-            {
-              "id": "hebrew-6566",
-              "eng": "and they stretched out"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3671",
-              "eng": "the wings"
-            },
-            {
-              "id": "hebrew-3742",
-              "eng": "of the cherubim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "so that touched"
-            },
-            {
-              "id": "hebrew-3671",
-              "eng": "the wing"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "of the one"
-            },
-            {
-              "id": "hebrew-7023",
-              "eng": "[one] wall",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3671",
-              "eng": "and the wing"
-            },
-            {
-              "id": "hebrew-3742",
-              "eng": "of the cherub"
-            },
-            {
-              "id": "hebrew-8145",
-              "eng": "second"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "touched"
-            },
-            {
-              "id": "hebrew-7023",
-              "eng": "the wall",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8145",
-              "eng": "second"
-            },
-            {
-              "id": "hebrew-3671",
-              "eng": "and their wings"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "the middle"
+              "cht": "在內"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of the room",
-              "punct": "."
+              "cht": "殿"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "裡",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3742",
+              "cht": "基路伯"
+            },
+            {
+              "id": "hebrew-3671",
+              "cht": "的翅膀"
+            },
+            {
+              "id": "hebrew-6566",
+              "cht": "是張開"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-3671",
+              "cht": "基路伯的一個翅膀"
             },
             {
               "id": "hebrew-5060",
-              "eng": "Touched"
+              "cht": "挨"
+            },
+            {
+              "id": "hebrew-7023",
+              "cht": "著這邊的牆",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8145",
+              "cht": "那"
+            },
+            {
+              "id": "hebrew-3742",
+              "cht": "基路伯"
             },
             {
               "id": "hebrew-3671",
-              "eng": "one"
+              "cht": "的一個翅膀"
+            },
+            {
+              "id": "hebrew-5060",
+              "cht": "挨"
+            },
+            {
+              "id": "hebrew-8145",
+              "cht": "著那邊"
+            },
+            {
+              "id": "hebrew-7023",
+              "cht": "的牆",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3671",
+              "cht": "裡邊的兩個翅膀"
             },
             {
               "id": "hebrew-413",
-              "eng": "in"
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "殿"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "中間"
             },
             {
               "id": "hebrew-3671",
-              "eng": "each other",
-              "punct": "."
+              "cht": "彼此"
             },
             {
-              "id": ""
+              "id": "hebrew-5060",
+              "cht": "相接",
+              "punct_cht": "；"
             }
           ]
         }

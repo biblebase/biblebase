@@ -3,12 +3,21 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5221": "And he who kills",
-          "hebrew-5315": "animal",
-          "hebrew-929": "of an animal",
-          "hebrew-7999": "shall make it good",
-          "hebrew-8478": "for",
-          "": null
+          "eng": {
+            "hebrew-5221": "And he who kills",
+            "hebrew-5315": "animal",
+            "hebrew-929": "of an animal",
+            "hebrew-7999": "shall make it good",
+            "hebrew-8478": "for",
+            "": null
+          },
+          "cht": {
+            "hebrew-5221": "打死",
+            "hebrew-5315": "命",
+            "hebrew-929": "牲畜",
+            "hebrew-7999": "必賠上",
+            "hebrew-8478": "償"
+          }
         }
       },
       "translations": {
@@ -23,66 +32,63 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -92,125 +98,83 @@
             "hebrew-929": 1.262203421354749
           },
           "verseKey": "rev.13.15",
-          "cunp": "又有權柄賜給牠，叫獸像有生氣，並且能說話，又叫所有不拜獸像的人都被殺害。",
+          "nasb": "And it was given to him to give breath to the image of the beast, so that the image of the beast would even speak and cause as many as do not worship the image of the beast to be killed.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "又有"
             },
             {
               "id": "greek-1325",
-              "eng": "there was given"
+              "cht": "權柄"
             },
             {
               "id": "greek-846",
-              "eng": "to it"
+              "cht": "賜給牠",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2342",
+              "cht": "叫獸"
+            },
+            {
+              "id": "greek-1504",
+              "cht": "像"
             },
             {
               "id": "greek-1325",
-              "eng": "to give"
+              "cht": "有"
             },
             {
               "id": "greek-4151",
-              "eng": "breath"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-1504",
-              "eng": "image"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2342",
-              "eng": "beast",
-              "punct": ","
-            },
-            {
-              "id": "greek-2443",
-              "eng": "so that"
+              "cht": "生氣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "並且"
             },
             {
               "id": "greek-2980",
-              "eng": "should speak"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1504",
-              "eng": "image"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2342",
-              "eng": "beast",
-              "punct": ","
+              "cht": "能說話",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "又"
             },
             {
               "id": "greek-4160",
-              "eng": "should cause"
+              "cht": "叫"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3745",
-              "eng": "as many as"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
+              "id": "greek-302",
+              "cht": "所有"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-4352",
-              "eng": "would worship"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1504",
-              "eng": "image"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "拜"
             },
             {
               "id": "greek-2342",
-              "eng": "beast"
+              "cht": "獸"
+            },
+            {
+              "id": "greek-1504",
+              "cht": "像"
+            },
+            {
+              "id": "greek-2443",
+              "cht": "的人"
             },
             {
               "id": "greek-615",
-              "eng": "would be killed",
-              "punct": "."
-            },
-            {
-              "id": "greek-302"
+              "cht": "都被殺害",
+              "punct_cht": "。"
             }
           ]
         },
@@ -220,119 +184,92 @@
             "hebrew-929": 1.262203421354749
           },
           "verseKey": "rev.13.4",
-          "cunp": "又拜那龍－因為牠將自己的權柄給了獸，也拜獸，說：「誰能比這獸，誰能與牠交戰呢？」",
+          "nasb": "they worshiped the dragon because he gave his authority to the beast; and they worshiped the beast, saying, “Who is like the beast, and who is able to wage war with him?”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "又"
             },
             {
               "id": "greek-4352",
-              "eng": "they worshiped"
+              "cht": "拜"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3739",
+              "cht": "那"
             },
             {
               "id": "greek-1404",
-              "eng": "dragon",
-              "punct": ","
-            },
-            {
-              "id": "greek-3754",
-              "eng": "who"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "had given"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "龍─"
             },
             {
               "id": "greek-1849",
-              "eng": "authority"
+              "cht": "因為牠將自己的權柄"
             },
             {
-              "id": "greek-3588",
-              "eng": "to the"
+              "id": "greek-1325",
+              "cht": "給了"
             },
             {
               "id": "greek-2342",
-              "eng": "beast",
-              "punct": ";"
+              "cht": "獸",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
               "id": "greek-4352",
-              "eng": "they worshiped"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "拜"
             },
             {
               "id": "greek-2342",
-              "eng": "beast",
-              "punct": ","
+              "cht": "獸",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5101",
-              "eng": "Who"
+              "cht": "誰"
             },
             {
               "id": "greek-3664",
-              "eng": "[is] like"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "能比"
             },
             {
               "id": "greek-2342",
-              "eng": "beast",
-              "punct": "?"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
+              "cht": "這獸",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5101",
-              "eng": "who"
+              "cht": "誰"
             },
             {
               "id": "greek-1410",
-              "eng": "is able"
-            },
-            {
-              "id": "greek-4170",
-              "eng": "to make war"
+              "cht": "能"
             },
             {
               "id": "greek-3326",
-              "eng": "against"
+              "cht": "與"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": "?"
+              "cht": "牠"
             },
             {
-              "id": "greek-3739"
+              "id": "greek-4170",
+              "cht": "交戰"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         }

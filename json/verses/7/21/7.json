@@ -3,18 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4100": "What",
-          "hebrew-6213": "shall we do",
-          "hebrew-3498": "who remain",
-          "hebrew-802": "as wives",
-          "hebrew-587": "since we",
-          "hebrew-7650": "have sworn",
-          "hebrew-3068": "by Yahweh",
-          "hebrew-1115": "that we will not",
-          "hebrew-5414": "give",
-          "hebrew-1323": "our daughters",
-          "": null,
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-4100": "What",
+            "hebrew-6213": "shall we do",
+            "hebrew-3498": "who remain",
+            "hebrew-802": "as wives",
+            "hebrew-587": "since we",
+            "hebrew-7650": "have sworn",
+            "hebrew-3068": "by Yahweh",
+            "hebrew-1115": "that we will not",
+            "hebrew-5414": "give",
+            "hebrew-1323": "our daughters",
+            "": null,
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-4100": "現在我們當怎樣",
+            "hebrew-6213": "辦理、",
+            "hebrew-3498": "剩下",
+            "hebrew-802": "的人有妻",
+            "hebrew-587": "我們",
+            "hebrew-7650": "面前起誓",
+            "hebrew-3068": "既在耶和華",
+            "hebrew-1115": "必不",
+            "hebrew-5414": "給",
+            "hebrew-1323": "將我們的女兒",
+            "hebrew-4480": "將我們的女兒"
+          }
         }
       },
       "translations": {
@@ -34,111 +49,84 @@
             "hebrew-5414": 0.44594048131464864
           },
           "verseKey": "num.5.21",
-          "cunp": "（祭司叫婦人發咒起誓），願耶和華叫你大腿消瘦，肚腹發脹，使你在你民中被人咒詛，成了誓語；",
+          "nasb": "(then the priest shall have the woman swear with the oath of the curse, and the priest shall say to the woman), “the Lord make you a curse and an oath among your people by the Lord’s making your thigh waste away and your abdomen swell;",
           "words": [
             {
+              "id": "hebrew-3548",
+              "cht": "祭司"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "叫"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "婦人"
+            },
+            {
               "id": "hebrew-7650",
-              "eng": "then shall put"
-            },
-            {
-              "id": "hebrew-3548",
-              "eng": "the priest"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "the woman"
+              "cht": "發咒"
             },
             {
               "id": "hebrew-7621",
-              "eng": "under the curse"
-            },
-            {
-              "id": "hebrew-423",
-              "eng": "of the oath",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and shall say"
-            },
-            {
-              "id": "hebrew-3548",
-              "eng": "the priest"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "to the woman",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "make"
+              "cht": "起誓）",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-423",
-              "eng": "an oath"
-            },
-            {
-              "id": "hebrew-7621",
-              "eng": "and a curse"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "your people",
-              "punct": "､"
+              "cht": "願耶和華"
             },
             {
               "id": "hebrew-5414",
-              "eng": "when makes"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "叫"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "你"
             },
             {
               "id": "hebrew-3409",
-              "eng": "your thigh"
+              "cht": "大腿"
             },
             {
               "id": "hebrew-5307",
-              "eng": "to rot",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "消瘦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-990",
-              "eng": "your belly"
+              "cht": "肚腹"
             },
             {
-              "id": "hebrew-6638",
-              "eng": "to swell",
-              "punct": "."
+              "id": "hebrew-6639",
+              "cht": "發脹",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6639"
+              "id": "hebrew-5414",
+              "cht": "使"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "你"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "在你民"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "中"
+            },
+            {
+              "id": "hebrew-423",
+              "cht": "被人咒詛",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7621",
+              "cht": "成了誓語",
+              "punct_cht": "；"
             }
           ]
         },
@@ -149,127 +137,117 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "2ch.31.10",
-          "cunp": "撒督家的大祭司亞撒利雅回答說：「自從民將供物送到耶和華殿以來，我們不但吃飽，且剩下的甚多；因為耶和華賜福給他的民，所剩下的才這樣豐盛。」",
+          "nasb": "Azariah the chief priest of the house of Zadok said to him, “Since the contributions began to be brought into the house of the Lord, we have had enough to eat with plenty left over, for the Lord has blessed His people, and this great quantity is left over.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And answered"
+              "id": "hebrew-6659",
+              "cht": "撒督"
             },
             {
-              "id": "hebrew-413",
-              "eng": "him"
-            },
-            {
-              "id": "hebrew-5838",
-              "eng": "Azariah"
-            },
-            {
-              "id": "hebrew-3548",
-              "eng": "the priest"
+              "id": "hebrew-1004",
+              "cht": "家"
             },
             {
               "id": "hebrew-7218",
-              "eng": "chief"
+              "cht": "的大"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "from the house"
+              "id": "hebrew-3548",
+              "cht": "祭司"
             },
             {
-              "id": "hebrew-6659",
-              "eng": "of Zadok"
+              "id": "hebrew-5838",
+              "cht": "亞撒利雅"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
+              "cht": "回答"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2490",
-              "eng": "Since [the people] began"
+              "cht": "自從"
             },
             {
               "id": "hebrew-8641",
-              "eng": "the offerings"
+              "cht": "民將供物"
             },
             {
               "id": "hebrew-935",
-              "eng": "to bring"
+              "cht": "送到"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1004",
-              "eng": "into the house"
+              "cht": "殿"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "id": "",
+              "cht": "以來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "to eat",
-              "punct": "､"
+              "cht": "我們不但吃"
             },
             {
               "id": "hebrew-7646",
-              "eng": "and we have had enough"
+              "cht": "飽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3498",
-              "eng": "and have left"
+              "cht": "且剩下"
             },
             {
               "id": "hebrew-5704",
-              "eng": "-"
+              "cht": "的"
             },
             {
               "id": "hebrew-7230",
-              "eng": "plenty",
-              "punct": "–"
+              "cht": "甚多",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1288",
-              "eng": "has blessed"
+              "cht": "賜福"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "給"
             },
             {
               "id": "hebrew-5971",
-              "eng": "His people",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3498",
-              "eng": "and what is left [is]"
+              "cht": "他的民",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1995",
-              "eng": "great abundance"
+              "cht": "所剩下的"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this",
-              "punct": "."
+              "cht": "才這樣"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1995",
+              "cht": "豐盛",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -281,163 +259,143 @@
             "hebrew-5414": 0.44594048131464864
           },
           "verseKey": "jos.5.6",
-          "cunp": "以色列人在曠野走了四十年，等到國民，就是出埃及的兵丁，都消滅了，因為他們沒有聽從耶和華的話。耶和華曾向他們起誓，必不容他們看見耶和華向他們列祖起誓、應許賜給我們的地，就是流奶與蜜之地。",
+          "nasb": "For the sons of Israel walked forty years in the wilderness, until all the nation, that is, the men of war who came out of Egypt, perished because they did not listen to the voice of the Lord, to whom the Lord had sworn that He would not let them see the land which the Lord had sworn to their fathers to give us, a land flowing with milk and honey.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-705",
-              "eng": "forty"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "walked"
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "人"
             },
             {
               "id": "hebrew-4057",
-              "eng": "in the wilderness",
-              "punct": "､"
+              "cht": "在曠野"
+            },
+            {
+              "id": "hebrew-1980",
+              "cht": "走了"
+            },
+            {
+              "id": "hebrew-705",
+              "cht": "四十"
+            },
+            {
+              "id": "hebrew-8141",
+              "cht": "年",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "till"
-            },
-            {
-              "id": "hebrew-8552",
-              "eng": "were consumed",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "等到"
             },
             {
               "id": "hebrew-1471",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "[who were] men"
-            },
-            {
-              "id": "hebrew-4421",
-              "eng": "of war",
-              "punct": "､"
+              "cht": "國民",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3318",
-              "eng": "who came out"
+              "cht": "就是出"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt"
+              "cht": "埃及"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "的兵丁",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-8552",
+              "cht": "消滅了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "because"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "他們沒有"
             },
             {
               "id": "hebrew-8085",
-              "eng": "they did obey"
+              "cht": "聽從"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-6963",
-              "eng": "the voice"
+              "cht": "的話",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "to whom"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-7650",
-              "eng": "swore"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "起誓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1115",
-              "eng": "that not"
+              "cht": "必不容"
             },
             {
               "id": "hebrew-7200",
-              "eng": "He would show them"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-7650",
-              "eng": "had sworn"
+              "cht": "他們看見"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1",
-              "eng": "to their fathers"
+              "cht": "向他們列祖"
+            },
+            {
+              "id": "hebrew-7650",
+              "cht": "起誓、"
             },
             {
               "id": "hebrew-5414",
-              "eng": "that He would give"
+              "cht": "應許賜"
             },
             {
               "id": "hebrew-776",
-              "eng": "a land"
+              "cht": "的地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "就是"
             },
             {
               "id": "hebrew-2100",
-              "eng": "flowing"
+              "cht": "流"
             },
             {
               "id": "hebrew-2461",
-              "eng": "with milk"
+              "cht": "奶"
             },
             {
               "id": "hebrew-1706",
-              "eng": "and honey",
-              "punct": "."
+              "cht": "與蜜"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-582"
+              "id": "hebrew-776",
+              "cht": "之地",
+              "punct_cht": "。"
             }
           ]
         }

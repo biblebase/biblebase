@@ -3,12 +3,21 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2009": "Indeed",
-          "hebrew-7368": "far off",
-          "hebrew-5074": "would I wander",
-          "hebrew-3885": "[And] remain",
-          "hebrew-4057": "in the wilderness",
-          "hebrew-5542": "Selah"
+          "eng": {
+            "hebrew-2009": "Indeed",
+            "hebrew-7368": "far off",
+            "hebrew-5074": "would I wander",
+            "hebrew-3885": "[And] remain",
+            "hebrew-4057": "in the wilderness",
+            "hebrew-5542": "Selah"
+          },
+          "cht": {
+            "hebrew-7368": "我必遠",
+            "hebrew-5074": "遊",
+            "hebrew-3885": "宿",
+            "hebrew-4057": "在曠野（",
+            "hebrew-5542": "細拉）"
+          }
         }
       },
       "translations": {
@@ -23,44 +32,37 @@
             "hebrew-5074": 3.288933040646453
           },
           "verseKey": "pro.27.8",
-          "cunp": "人離本處飄流， 好像雀鳥離窩遊飛。",
+          "nasb": "Like a bird that wanders from her nest, So is a man who wanders from his home.",
           "words": [
             {
-              "id": "hebrew-6833",
-              "eng": "Like a bird"
-            },
-            {
-              "id": "hebrew-5074",
-              "eng": "that wanders"
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-7064",
-              "eng": "its nest",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "So"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "[Is] a man"
+              "cht": "離本處"
             },
             {
               "id": "hebrew-5074",
-              "eng": "who wanders"
+              "cht": "飄流",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4725",
-              "eng": "from his place",
-              "punct": "."
+              "id": "hebrew-6833",
+              "cht": "好像雀鳥"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "離"
+            },
+            {
+              "id": "hebrew-7064",
+              "cht": "窩"
+            },
+            {
+              "id": "hebrew-5074",
+              "cht": "遊飛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -71,83 +73,80 @@
             "hebrew-4057": 1.0766536100339261
           },
           "verseKey": "exo.8.28",
-          "cunp": "法老說：「我容你們去，在曠野祭祀耶和華－你們的神；只是不要走得很遠。求你們為我祈禱。」",
+          "nasb": "Pharaoh said, “I will let you go, that you may sacrifice to the Lord your God in the wilderness; only you shall not go very far away. Make supplication for me.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said",
-              "punct": "､"
+              "id": "hebrew-6547",
+              "cht": "法老"
             },
             {
-              "id": "hebrew-6547",
-              "eng": "Pharaoh"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-595",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "will let go"
+              "cht": "我"
             },
             {
               "id": "hebrew-853",
-              "eng": "you",
-              "punct": "､"
+              "cht": "容你們"
             },
             {
-              "id": "hebrew-2076",
-              "eng": "that you may sacrifice"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "to Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your God"
+              "id": "hebrew-7971",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4057",
-              "eng": "in the wilderness",
-              "punct": "–"
+              "cht": "在曠野"
+            },
+            {
+              "id": "hebrew-2076",
+              "cht": "祭祀"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7535",
-              "eng": "only"
-            },
-            {
-              "id": "hebrew-7368",
-              "eng": "very",
-              "punct": "､"
+              "cht": "只是"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不要"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "走"
             },
             {
               "id": "hebrew-7368",
-              "eng": "you shall far away",
-              "punct": "."
+              "cht": "得很"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "Go"
-            },
-            {
-              "id": "hebrew-6279",
-              "eng": "Intercede"
+              "id": "hebrew-7368",
+              "cht": "遠",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1157",
-              "eng": "for me",
-              "punct": "."
+              "cht": "求你們為我"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
+              "id": "hebrew-6279",
+              "cht": "祈禱",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -158,115 +157,109 @@
             "hebrew-4057": 1.0766536100339261
           },
           "verseKey": "jer.9.10",
-          "cunp": "我要為山嶺哭泣悲哀， 為曠野的草場揚聲哀號； 因為都已乾焦，甚至無人經過。 人也聽不見牲畜鳴叫， 空中的飛鳥和地上的野獸都已逃去。",
+          "nasb": "“For the mountains I will take up a weeping and wailing, And for the pastures of the wilderness a dirge, Because they are laid waste so that no one passes through, And the lowing of the cattle is not heard; Both the birds of the sky and the beasts have fled; they are gone.",
           "words": [
             {
               "id": "hebrew-5921",
-              "eng": "For"
+              "cht": "我要為"
             },
             {
               "id": "hebrew-2022",
-              "eng": "the mountains"
+              "cht": "山嶺"
             },
             {
               "id": "hebrew-5375",
-              "eng": "I will take up"
+              "cht": "哭"
             },
             {
               "id": "hebrew-1065",
-              "eng": "a weeping"
+              "cht": "泣"
             },
             {
               "id": "hebrew-5092",
-              "eng": "and wailing",
-              "punct": "､"
+              "cht": "悲哀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and for"
-            },
-            {
-              "id": "hebrew-4999",
-              "eng": "the dwelling places"
+              "cht": "為"
             },
             {
               "id": "hebrew-4057",
-              "eng": "of the wilderness"
+              "cht": "曠野"
+            },
+            {
+              "id": "hebrew-4999",
+              "cht": "的草場"
             },
             {
               "id": "hebrew-7015",
-              "eng": "a lamentation",
-              "punct": "､"
+              "cht": "揚聲哀號",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3341",
-              "eng": "they are burned up",
-              "punct": "､"
+              "cht": "都已乾焦",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1097",
-              "eng": "so that no one"
+              "id": "hebrew-4480",
+              "cht": "甚至無"
             },
             {
               "id": "hebrew-376",
-              "eng": "one"
+              "cht": "人"
             },
             {
               "id": "hebrew-5674",
-              "eng": "can pass through"
+              "cht": "經過",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "人也聽不"
             },
             {
               "id": "hebrew-8085",
-              "eng": "can [men] hear"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "the voice"
+              "cht": "見"
             },
             {
               "id": "hebrew-4735",
-              "eng": "of the cattle",
-              "punct": "–"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-5775",
-              "eng": "from the birds"
+              "id": "hebrew-6963",
+              "cht": "鳴叫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of the heavens"
+              "cht": "空中"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的飛鳥"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and to"
+              "cht": "和"
             },
             {
               "id": "hebrew-929",
-              "eng": "the beasts"
+              "cht": "地上的野獸"
             },
             {
               "id": "hebrew-5074",
-              "eng": "have fled",
-              "punct": "–"
+              "cht": "都已逃"
             },
             {
               "id": "hebrew-1980",
-              "eng": "they are gone",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -276,41 +269,37 @@
             "hebrew-7368": 2.154502723353603
           },
           "verseKey": "psa.103.12",
-          "cunp": "東離西有多遠， 他叫我們的過犯離我們也有多遠！",
+          "nasb": "As far as the east is from the west, So far has He removed our transgressions from us.",
           "words": [
             {
-              "id": "hebrew-7368",
-              "eng": "As far as"
-            },
-            {
               "id": "hebrew-4217",
-              "eng": "the east is"
-            },
-            {
-              "id": "hebrew-4628",
-              "eng": "from the west",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7368",
-              "eng": "[So] far has He removed"
+              "cht": "東"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from us",
-              "punct": "､"
+              "cht": "離西"
+            },
+            {
+              "id": "hebrew-7368",
+              "cht": "有多遠",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "他叫"
             },
             {
               "id": "hebrew-6588",
-              "eng": "our transgressions",
-              "punct": "."
+              "cht": "我們的過犯"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "離我們"
+            },
+            {
+              "id": "hebrew-7368",
+              "cht": "也有多遠",
+              "punct_cht": "！"
             }
           ]
         },
@@ -320,72 +309,66 @@
             "hebrew-3885": 1.8210031994102585
           },
           "verseKey": "jdg.19.15",
-          "cunp": "他們進入基比亞要在那裏住宿，就坐在城裏的街上，因為無人接他們進家住宿。",
+          "nasb": "They turned aside there in order to enter and lodge in Gibeah. When they entered, they sat down in the open square of the city, for no one took them into his house to spend the night.",
           "words": [
             {
               "id": "hebrew-5493",
-              "eng": "And they turned aside"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "､"
+              "cht": "他們"
             },
             {
               "id": "hebrew-935",
-              "eng": "to go in"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "to lodge"
+              "cht": "進入"
             },
             {
               "id": "hebrew-1390",
-              "eng": "in Gibeah",
-              "punct": "."
+              "cht": "基比亞"
             },
             {
-              "id": "hebrew-935",
-              "eng": "And when he went in",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "and he sat down"
-            },
-            {
-              "id": "hebrew-7339",
-              "eng": "in the open square"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "of the city",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "for no"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-622",
-              "eng": "would take"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "into [his] house"
+              "id": "hebrew-8033",
+              "cht": "要在那裡"
             },
             {
               "id": "hebrew-3885",
-              "eng": "to spend the night",
-              "punct": "."
+              "cht": "住宿",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "就坐"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "在城"
+            },
+            {
+              "id": "hebrew-7339",
+              "cht": "裡的街上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "因為無"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-622",
+              "cht": "接"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "他們"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "進家"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "住宿",
+              "punct_cht": "。"
             }
           ]
         },
@@ -395,144 +378,122 @@
             "hebrew-3885": 1.8210031994102585
           },
           "verseKey": "jdg.19.9",
-          "cunp": "那人同他的妾和僕人起來要走，他岳父，就是女子的父親，對他說：「看哪，日頭偏西了，請你再住一夜；天快晚了，可以在這裏住宿，暢快你的心。明天早早起行回家去。」",
+          "nasb": "When the man arose to go along with his concubine and servant, his father-in-law, the girl’s father, said to him, “Behold now, the day has drawn to a close; please spend the night. Lo, the day is coming to an end; spend the night here that your heart may be merry. Then tomorrow you may arise early for your journey so that you may go home.”",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "And when stood"
-            },
-            {
               "id": "hebrew-376",
-              "eng": "the man"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "to depart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "he",
-              "punct": "､"
+              "cht": "那人"
             },
             {
               "id": "hebrew-6370",
-              "eng": "and his concubine",
-              "punct": "､"
+              "cht": "同他的妾"
             },
             {
               "id": "hebrew-5288",
-              "eng": "and his servant",
-              "punct": "､"
+              "cht": "和僕人"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "hebrew-6965",
+              "cht": "起來"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "要走",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2859",
-              "eng": "his father-in-law",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "father",
-              "punct": "､"
+              "cht": "他岳父",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5291",
-              "eng": "of the young woman"
+              "cht": "就是女子"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "的父親",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2009",
-              "eng": "Look",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "now"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7503",
-              "eng": "is drawing"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "日頭偏"
             },
             {
               "id": "hebrew-6150",
-              "eng": "toward evening",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "spend the night",
-              "punct": "–"
+              "cht": "西了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "See",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2583",
-              "eng": "is coming to an end",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "請"
             },
             {
               "id": "hebrew-3885",
-              "eng": "lodge"
+              "cht": "你再住"
+            },
+            {
+              "id": "",
+              "cht": "一夜",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-2583",
+              "cht": "快晚了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6311",
-              "eng": "here",
-              "punct": "､"
+              "cht": "可以在這裡"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "住宿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3190",
-              "eng": "that may be merry",
-              "punct": "–"
+              "cht": "暢快"
             },
             {
               "id": "hebrew-3824",
-              "eng": "your heart"
-            },
-            {
-              "id": "hebrew-7925",
-              "eng": "and go early"
+              "cht": "你的心",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4279",
-              "eng": "Tomorrow"
+              "cht": "明天"
+            },
+            {
+              "id": "hebrew-7925",
+              "cht": "早早起"
             },
             {
               "id": "hebrew-1870",
-              "eng": "your way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "so that you may get"
+              "cht": "行"
             },
             {
               "id": "hebrew-168",
-              "eng": "home",
-              "punct": "."
+              "cht": "回家"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1980",
+              "cht": "去",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -542,104 +503,83 @@
             "hebrew-3885": 1.8210031994102585
           },
           "verseKey": "gen.19.2",
-          "cunp": "說：「我主啊，請你們到僕人家裏洗洗腳，住一夜，清早起來再走。」他們說：「不！我們要在街上過夜。」",
+          "nasb": "And he said, “Now behold, my lords, please turn aside into your servant’s house, and spend the night, and wash your feet; then you may rise early and go on your way.” They said however, “No, but we shall spend the night in the square.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "Here"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "now",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-113",
-              "eng": "my lords",
-              "punct": "､"
+              "cht": "我主"
             },
             {
-              "id": "hebrew-5493",
-              "eng": "turn in",
-              "punct": "､"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "､"
+              "cht": "請"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "house",
-              "punct": "､"
+              "cht": "你們到"
             },
             {
               "id": "hebrew-5650",
-              "eng": "of your servant",
-              "punct": "､"
+              "cht": "僕人"
             },
             {
-              "id": "hebrew-3885",
-              "eng": "and spend the night",
-              "punct": "､"
+              "id": "hebrew-1004",
+              "cht": "家"
             },
             {
               "id": "hebrew-7364",
-              "eng": "and wash"
+              "cht": "裡洗洗"
             },
             {
               "id": "hebrew-7272",
-              "eng": "your feet",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7925",
-              "eng": "Then you may rise early",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "and go"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "on your way",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "And they said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "No",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7339",
-              "eng": "in the open square"
+              "cht": "腳",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3885",
-              "eng": "we will spend the night",
-              "punct": "."
+              "cht": "住一夜",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-7925",
+              "cht": "清早起來"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "再走",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "他們說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "我們要"
+            },
+            {
+              "id": "hebrew-7339",
+              "cht": "在街上"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "過夜",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -649,105 +589,95 @@
             "hebrew-3885": 1.8210031994102585
           },
           "verseKey": "rut.1.16",
-          "cunp": "路得說：「不要催我回去不跟隨你。你往哪裏去，我也往那裏去；你在哪裏住宿，我也在那裏住宿；你的國就是我的國，你的神就是我的神。",
+          "nasb": "But Ruth said, “Do not urge me to leave you or turn back from following you; for where you go, I will go, and where you lodge, I will lodge. Your people shall be my people, and your God, my God.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "But said",
-              "punct": "､"
+              "id": "hebrew-7327",
+              "cht": "路得"
             },
             {
-              "id": "hebrew-7327",
-              "eng": "Ruth"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-6293",
-              "eng": "Entreat"
+              "cht": "催"
             },
             {
               "id": "hebrew-5800",
-              "eng": "to leave you"
+              "cht": "我"
             },
             {
               "id": "hebrew-7725",
-              "eng": "[Or [to] turn back"
+              "cht": "回去"
             },
             {
-              "id": "hebrew-310",
-              "eng": "from following after you"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4480",
+              "cht": "不跟隨你",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-413",
-              "eng": "there"
+              "cht": "你往"
             },
             {
               "id": "hebrew-834",
-              "eng": "wherever"
+              "cht": "哪裡"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "you go",
-              "punct": "､"
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "I will go",
-              "punct": "–"
+              "id": "hebrew-3212",
+              "cht": "我也往那裡去",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-834",
-              "eng": "and wherever"
+              "cht": "你在哪裡"
             },
             {
               "id": "hebrew-3885",
-              "eng": "you lodge",
-              "punct": "､"
+              "cht": "住宿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3885",
-              "eng": "I will lodge",
-              "punct": "."
+              "cht": "我也在那裡住宿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5971",
-              "eng": "Your people"
+              "cht": "你的國"
             },
             {
               "id": "hebrew-5971",
-              "eng": "[shall be] my people",
-              "punct": "､"
+              "cht": "就是我的國"
+            },
+            {
+              "id": "",
+              "cht": "你的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "and your God"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "就是我的"
             },
             {
               "id": "hebrew-430",
-              "eng": "my God",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -757,85 +687,75 @@
             "hebrew-3885": 1.8210031994102585
           },
           "verseKey": "num.14.27",
-          "cunp": "「這惡會眾向我發怨言，我忍耐他們要到幾時呢？以色列人向我所發的怨言，我都聽見了。",
+          "nasb": "“How long shall I bear with this evil congregation who are grumbling against Me? I have heard the complaints of the sons of Israel, which they are making against Me.",
           "words": [
             {
-              "id": "hebrew-5704",
-              "eng": "how"
-            },
-            {
-              "id": "hebrew-4970",
-              "eng": "long"
-            },
-            {
-              "id": "hebrew-5712",
-              "eng": "congregation",
-              "punct": "､"
+              "id": "hebrew-2063",
+              "cht": "這"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "[shall I bear with] this"
+              "cht": "惡"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "they"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "complain"
+              "cht": "會眾"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against Me"
+              "cht": "向我"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3885",
+              "cht": "發怨言",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8519",
-              "eng": "the complaints"
+              "id": "hebrew-5704",
+              "cht": "我忍耐他們要到"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "id": "hebrew-4970",
+              "cht": "幾時"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "they"
-            },
-            {
-              "id": "hebrew-3885",
-              "eng": "make"
+              "id": "hebrew-1121",
+              "cht": "人"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against Me"
+              "cht": "向我"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3885",
+              "cht": "發"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-8519",
+              "cht": "怨言",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8085",
-              "eng": "I have heard",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "我都聽見了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -845,68 +765,63 @@
             "hebrew-5074": 3.288933040646453
           },
           "verseKey": "isa.22.3",
-          "cunp": "你所有的官長一同逃跑， 都為弓箭手所捆綁。 你中間一切被找到的都一同被捆綁； 他們本是逃往遠方的。",
+          "nasb": "All your rulers have fled together, And have been captured without the bow; All of you who were found were taken captive together, Though they had fled far away.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "你所有的"
             },
             {
               "id": "hebrew-7101",
-              "eng": "your rulers"
+              "cht": "官長"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "一同"
             },
             {
               "id": "hebrew-5074",
-              "eng": "have fled"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "together",
-              "punct": "､"
+              "cht": "逃跑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7198",
-              "eng": "by the archers",
-              "punct": "–"
+              "cht": "都為弓箭手"
             },
             {
               "id": "hebrew-631",
-              "eng": "they are captured"
+              "cht": "所捆綁",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "你中間一切"
             },
             {
               "id": "hebrew-4672",
-              "eng": "who are found in you"
-            },
-            {
-              "id": "hebrew-631",
-              "eng": "are bound"
+              "cht": "被找到的"
             },
             {
               "id": "hebrew-3162",
-              "eng": "together",
-              "punct": "､"
+              "cht": "都一同"
             },
             {
-              "id": "hebrew-7350",
-              "eng": "from afar"
+              "id": "hebrew-631",
+              "cht": "被捆綁",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1272",
-              "eng": "they have fled",
-              "punct": "."
+              "cht": "他們本是逃往"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7350",
+              "cht": "遠方"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         }

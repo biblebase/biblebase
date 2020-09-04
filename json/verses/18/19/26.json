@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-310": "And after",
-          "hebrew-5785": "my skin",
-          "hebrew-5362": "is destroyed",
-          "hebrew-2063": "this [I know]",
-          "hebrew-1320": "that in my flesh",
-          "hebrew-2372": "I shall see",
-          "hebrew-433": "God",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-310": "And after",
+            "hebrew-5785": "my skin",
+            "hebrew-5362": "is destroyed",
+            "hebrew-2063": "this [I know]",
+            "hebrew-1320": "that in my flesh",
+            "hebrew-2372": "I shall see",
+            "hebrew-433": "God",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-310": "之後",
+            "hebrew-5785": "皮肉",
+            "hebrew-5362": "滅絕",
+            "hebrew-2063": "我這",
+            "hebrew-1320": "我必在肉體",
+            "hebrew-2372": "之外得見",
+            "hebrew-433": "神",
+            "hebrew-4480": "我必在肉體"
+          }
         }
       },
       "translations": {
@@ -27,40 +39,41 @@
             "hebrew-433": 2.2520884255970035
           },
           "verseKey": "job.19.6",
-          "cunp": "就該知道是神傾覆我， 用網羅圍繞我。",
+          "nasb": "Know then that God has wronged me And has closed His net around me.",
           "words": [
             {
-              "id": "hebrew-3045",
-              "eng": "Know"
+              "id": "hebrew-645",
+              "cht": "就該"
             },
             {
-              "id": "hebrew-645",
-              "eng": "then"
+              "id": "hebrew-3045",
+              "cht": "知道"
             },
             {
               "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "是"
             },
             {
               "id": "hebrew-433",
-              "eng": "God"
+              "cht": "神"
             },
             {
               "id": "hebrew-5791",
-              "eng": "has wronged me"
+              "cht": "傾覆我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4686",
-              "eng": "and with His net"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "me"
+              "cht": "用網羅"
             },
             {
               "id": "hebrew-5362",
-              "eng": "has surrounded",
-              "punct": "."
+              "cht": "圍繞"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "我",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,130 +83,95 @@
             "hebrew-1320": 1.042799396354061
           },
           "verseKey": "rev.19.18",
-          "cunp": "可以吃君王與將軍的肉，壯士與馬和騎馬者的肉，並一切自主的為奴的，以及大小人民的肉。」",
+          "nasb": "so that you may eat the flesh of kings and the flesh of commanders and the flesh of mighty men and the flesh of horses and of those who sit on them and the flesh of all men, both free men and slaves, and small and great.”",
           "words": [
             {
               "id": "greek-2443",
-              "eng": "so that"
+              "cht": "可以"
             },
             {
               "id": "greek-5315",
-              "eng": "you may eat"
+              "cht": "吃"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
-            },
-            {
-              "id": "greek-935",
-              "eng": "of kings",
-              "punct": ","
+              "cht": "君王"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "與"
             },
             {
               "id": "greek-5506",
-              "eng": "of commanders",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "將軍"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
-            },
-            {
-              "id": "greek-2478",
-              "eng": "of mighty [men]",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "的肉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "壯士"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "與"
             },
             {
               "id": "greek-2462",
-              "eng": "of horses"
+              "cht": "馬"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of those"
+              "cht": "和"
             },
             {
               "id": "greek-2521",
-              "eng": "sitting"
+              "cht": "騎"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "馬"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "者的肉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
             },
             {
               "id": "greek-3956",
-              "eng": "of all",
-              "punct": ","
-            },
-            {
-              "id": "greek-1658",
-              "eng": "free"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "both"
+              "cht": "一切"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "自主的"
             },
             {
               "id": "greek-1401",
-              "eng": "slaves",
-              "punct": ","
+              "cht": "為奴的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "以及"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "大"
             },
             {
               "id": "greek-3398",
-              "eng": "small"
+              "cht": "小"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3173",
-              "eng": "great",
-              "punct": "."
+              "id": "greek-4561",
+              "cht": "人民的肉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -203,71 +181,73 @@
             "hebrew-2372": 2.429628088078134
           },
           "verseKey": "isa.30.10",
-          "cunp": "他們對先見說：不要望見不吉利的事， 對先知說：不要向我們講正直的話； 要向我們說柔和的話， 言虛幻的事。",
+          "nasb": "Who say to the seers, “You must not see visions”; And to the prophets, “You must not prophesy to us what is right, Speak to us pleasant words, Prophesy illusions.",
           "words": [
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "他們"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "對先見"
             },
             {
               "id": "hebrew-559",
-              "eng": "say"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "to the seers",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3808",
-              "eng": "not",
-              "punct": "–"
+              "cht": "不要"
             },
             {
               "id": "hebrew-7200",
-              "eng": "do see"
+              "cht": "望見"
+            },
+            {
+              "id": "",
+              "cht": "不吉利的事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2374",
-              "eng": "and to the prophets",
-              "punct": "､"
+              "cht": "對先知"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-2372",
-              "eng": "do prophesy"
+              "cht": "講"
             },
             {
               "id": "hebrew-5229",
-              "eng": "right things",
-              "punct": "､"
+              "cht": "正直的話",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1696",
-              "eng": "speak"
+              "cht": "說"
             },
             {
               "id": "hebrew-2513",
-              "eng": "flattering things",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4123",
-              "eng": "prophesy"
+              "cht": "柔和的話",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2372",
-              "eng": "deceits",
-              "punct": "."
+              "cht": "言"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4123",
+              "cht": "虛幻的事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -277,66 +257,63 @@
             "hebrew-2372": 2.429628088078134
           },
           "verseKey": "lam.2.14",
-          "cunp": "你的先知為你見虛假和愚昧的異象， 並沒有顯露你的罪孽， 使你被擄的歸回； 卻為你見虛假的默示 和使你被趕出本境的緣故。",
+          "nasb": "Your prophets have seen for you False and foolish visions; And they have not exposed your iniquity So as to restore you from captivity, But they have seen for you false and misleading oracles.",
           "words": [
             {
               "id": "hebrew-5030",
-              "eng": "Your prophets"
+              "cht": "你的先知"
             },
             {
               "id": "hebrew-2372",
-              "eng": "have seen"
+              "cht": "見"
             },
             {
               "id": "hebrew-7723",
-              "eng": "FALSE"
+              "cht": "虛假"
             },
             {
               "id": "hebrew-8602",
-              "eng": "and deceptive visions"
+              "cht": "和愚昧的異象",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "並沒有"
             },
             {
               "id": "hebrew-1540",
-              "eng": "they have uncovered"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "顯露"
             },
             {
               "id": "hebrew-5771",
-              "eng": "your iniquity",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "to bring back"
+              "cht": "你的罪孽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7622",
-              "eng": "your captives",
-              "punct": "–"
+              "cht": "使你被擄的"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "歸回",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2372",
-              "eng": "but have envisioned"
-            },
-            {
-              "id": "hebrew-4864",
-              "eng": "prophecies"
+              "cht": "見"
             },
             {
               "id": "hebrew-7723",
-              "eng": "FALSE"
+              "cht": "虛假的"
+            },
+            {
+              "id": "hebrew-4864",
+              "cht": "默示"
             },
             {
               "id": "hebrew-4065",
-              "eng": "and delusions",
-              "punct": "."
+              "cht": "和使你被趕出本境的緣故",
+              "punct_cht": "。"
             }
           ]
         },
@@ -346,7 +323,7 @@
             "hebrew-2372": 2.429628088078134
           },
           "verseKey": "jos.13.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -355,82 +332,73 @@
             "hebrew-433": 2.2520884255970035
           },
           "verseKey": "dan.11.38",
-          "cunp": "他倒要敬拜保障的神，用金、銀、寶石和可愛之物敬奉他列祖所不認識的神。",
+          "nasb": "But instead he will honor a god of fortresses, a god whom his fathers did not know; he will honor him with gold, silver, costly stones and treasures.",
           "words": [
             {
-              "id": "hebrew-433",
-              "eng": "But a god"
+              "id": "hebrew-5921",
+              "cht": "他倒要"
+            },
+            {
+              "id": "hebrew-3513",
+              "cht": "敬拜"
             },
             {
               "id": "hebrew-4581",
-              "eng": "of fortresses",
-              "punct": "､"
+              "cht": "保障"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-3653",
-              "eng": "their place"
-            },
-            {
-              "id": "hebrew-3513",
-              "eng": "he shall honor"
+              "id": "",
+              "cht": "的"
             },
             {
               "id": "hebrew-433",
-              "eng": "and a god"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "did know"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "his fathers"
-            },
-            {
-              "id": "hebrew-3513",
-              "eng": "he shall honor"
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2091",
-              "eng": "with gold",
-              "punct": "､"
+              "cht": "用金、"
             },
             {
               "id": "hebrew-3701",
-              "eng": "and silver",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "and with stones",
-              "punct": "､"
+              "cht": "銀、"
             },
             {
               "id": "hebrew-3368",
-              "eng": "precious"
+              "cht": "寶"
             },
             {
-              "id": "hebrew-2530",
-              "eng": "and pleasant things",
-              "punct": "."
+              "id": "hebrew-68",
+              "cht": "石"
             },
             {
-              "id": ""
+              "id": "hebrew-2532",
+              "cht": "和可愛之物"
             },
             {
-              "id": "hebrew-2532"
+              "id": "hebrew-3513",
+              "cht": "敬奉"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "他列祖"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "認識"
+            },
+            {
+              "id": "hebrew-433",
+              "cht": "的神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -440,96 +408,72 @@
             "hebrew-1320": 1.042799396354061
           },
           "verseKey": "1co.15.39",
-          "cunp": "凡肉體各有不同：人是一樣，獸又是一樣，鳥又是一樣，魚又是一樣。",
+          "nasb": "All flesh is not the same flesh, but there is one flesh of men, and another flesh of beasts, and another flesh of birds, and another of fish.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh [is]"
+              "cht": "肉體"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3756",
+              "cht": "各有不"
             },
             {
               "id": "greek-846",
-              "eng": "same"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "flesh",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-243",
-              "eng": "one"
-            },
-            {
-              "id": "greek-3303",
-              "eng": "indeed"
+              "cht": "同",
+              "punct_cht": "："
             },
             {
               "id": "greek-444",
-              "eng": "of men",
-              "punct": ","
-            },
-            {
-              "id": "greek-243",
-              "eng": "another"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
+              "cht": "人"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh"
+              "cht": "是一樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2934",
-              "eng": "of beasts",
-              "punct": ","
-            },
-            {
-              "id": "greek-243",
-              "eng": "another"
+              "cht": "獸"
             },
             {
               "id": "greek-1161",
-              "eng": "now"
+              "cht": "又"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh"
+              "cht": "是一樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4421",
-              "eng": "of birds",
-              "punct": ","
-            },
-            {
-              "id": "greek-243",
-              "eng": "another"
+              "cht": "鳥"
             },
             {
               "id": "greek-1161",
-              "eng": "now"
+              "cht": "又"
+            },
+            {
+              "id": "greek-243",
+              "cht": "是一樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2486",
-              "eng": "of fish",
-              "punct": "."
+              "cht": "魚"
+            },
+            {
+              "id": "greek-1161",
+              "cht": "又"
+            },
+            {
+              "id": "greek-243",
+              "cht": "是一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -539,34 +483,37 @@
             "hebrew-5362": 3.483676583494497
           },
           "verseKey": "lam.3.5",
-          "cunp": "他築壘攻擊我， 用苦楚和艱難圍困我。",
+          "nasb": "He has besieged and encompassed me with bitterness and hardship.",
           "words": [
             {
               "id": "hebrew-1129",
-              "eng": "He has besieged"
+              "cht": "他築壘"
             },
             {
               "id": "hebrew-5921",
-              "eng": "me"
+              "cht": "攻擊我"
             },
             {
-              "id": "hebrew-5362",
-              "eng": "and surrounded [me]"
+              "id": "",
+              "cht": "用苦楚（",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7219",
-              "eng": "with bitterness"
+              "cht": "原文是苦膽）"
             },
             {
               "id": "hebrew-8513",
-              "eng": "and woe",
-              "punct": "."
+              "cht": "和艱難"
             },
             {
-              "id": ""
+              "id": "hebrew-5362",
+              "cht": "圍困"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "我",
+              "punct_cht": "。"
             }
           ]
         },
@@ -576,147 +523,92 @@
             "hebrew-5362": 3.483676583494497
           },
           "verseKey": "luk.9.12",
-          "cunp": "日頭快要平西，十二個門徒來對他說：「請叫眾人散開，他們好往四面鄉村裏去借宿找吃的，因為我們這裏是野地。」",
+          "nasb": "Now the day was ending, and the twelve came and said to Him, “Send the crowd away, that they may go into the surrounding villages and countryside and find lodging and get something to eat; for here we are in a desolate place.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-2250",
-              "eng": "the day"
+              "cht": "日頭"
             },
             {
               "id": "greek-756",
-              "eng": "began"
+              "cht": "快要"
             },
             {
               "id": "greek-2827",
-              "eng": "to decline",
-              "punct": ";"
-            },
-            {
-              "id": "greek-4334",
-              "eng": "having come"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "平西",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1427",
-              "eng": "Twelve"
+              "cht": "十二個門徒"
             },
             {
-              "id": "greek-2036",
-              "eng": "said"
+              "id": "greek-4334",
+              "cht": "來"
             },
             {
               "id": "greek-846",
-              "eng": "to Him",
-              "punct": ","
+              "cht": "對他"
             },
             {
-              "id": "greek-630",
-              "eng": "Dismiss"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3793",
-              "eng": "crowd",
-              "punct": ","
+              "cht": "請叫眾人"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-4198",
-              "eng": "having gone"
+              "id": "greek-630",
+              "cht": "散開",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2945",
-              "eng": "surrounding"
-            },
-            {
-              "id": "greek-2968",
-              "eng": "villages"
+              "cht": "他們好往"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "四面"
             },
             {
               "id": "greek-68",
-              "eng": "countryside"
-            },
-            {
-              "id": "greek-2647",
-              "eng": "they might lodge",
-              "punct": ","
+              "cht": "鄉村"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "裡去借宿"
             },
             {
               "id": "greek-2147",
-              "eng": "might find"
+              "cht": "找"
             },
             {
               "id": "greek-1979",
-              "eng": "provisions",
-              "punct": ";"
+              "cht": "吃的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "greek-5602",
-              "eng": "here"
+              "cht": "我們這裡"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "是"
             },
             {
               "id": "greek-2048",
-              "eng": "a desolate"
+              "cht": "野"
             },
             {
               "id": "greek-5117",
-              "eng": "place"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "we are",
-              "punct": "."
-            },
-            {
-              "id": "greek-565"
-            },
-            {
-              "id": "greek-2070"
+              "cht": "地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -726,104 +618,50 @@
             "hebrew-5362": 3.483676583494497
           },
           "verseKey": "rom.15.19",
-          "cunp": "甚至我從耶路撒冷，直轉到以利哩古，到處傳了基督的福音。",
+          "nasb": "in the power of signs and wonders, in the power of the Spirit; so that from Jerusalem and round about as far as Illyricum I have fully preached the gospel of Christ.",
           "words": [
             {
-              "id": "greek-1722",
-              "eng": "in [the]"
-            },
-            {
-              "id": "greek-1411",
-              "eng": "power"
-            },
-            {
-              "id": "greek-4592",
-              "eng": "of signs"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5059",
-              "eng": "wonders",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in [the]"
-            },
-            {
-              "id": "greek-1411",
-              "eng": "power"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "of [the] Spirit"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "of God",
-              "punct": ";"
-            },
-            {
               "id": "greek-5620",
-              "eng": "so as"
+              "cht": "甚至"
             },
             {
               "id": "greek-3165",
-              "eng": "for me"
+              "cht": "我"
             },
             {
               "id": "greek-575",
-              "eng": "from"
+              "cht": "從"
             },
             {
               "id": "greek-2419",
-              "eng": "Jerusalem",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "耶路撒冷",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2945",
-              "eng": "around"
+              "cht": "直轉"
             },
             {
               "id": "greek-3360",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "到"
             },
             {
               "id": "greek-2437",
-              "eng": "Illyricum",
-              "punct": ","
+              "cht": "以利哩古",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4137",
-              "eng": "to have fully proclaimed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2098",
-              "eng": "gospel"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "到處傳了"
             },
             {
               "id": "greek-5547",
-              "eng": "of Christ",
-              "punct": ","
+              "cht": "基督的"
+            },
+            {
+              "id": "greek-2098",
+              "cht": "福音",
+              "punct_cht": "。"
             }
           ]
         }

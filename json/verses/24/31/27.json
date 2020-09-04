@@ -3,19 +3,35 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2009": "Behold",
-          "hebrew-3117": "the days",
-          "hebrew-935": "are coming",
-          "hebrew-5002": "says",
-          "hebrew-3068": "Yahweh",
-          "hebrew-2232": "that I will sow",
-          "hebrew-853": "and",
-          "hebrew-1004": "the house",
-          "hebrew-3478": "of Israel",
-          "hebrew-3063": "of Judah",
-          "hebrew-2233": "and the seed",
-          "hebrew-120": "of man",
-          "hebrew-929": "of beast"
+          "eng": {
+            "hebrew-2009": "Behold",
+            "hebrew-3117": "the days",
+            "hebrew-935": "are coming",
+            "hebrew-5002": "says",
+            "hebrew-3068": "Yahweh",
+            "hebrew-2232": "that I will sow",
+            "hebrew-853": "and",
+            "hebrew-1004": "the house",
+            "hebrew-3478": "of Israel",
+            "hebrew-3063": "of Judah",
+            "hebrew-2233": "and the seed",
+            "hebrew-120": "of man",
+            "hebrew-929": "of beast"
+          },
+          "cht": {
+            "hebrew-3117": "日子",
+            "hebrew-935": "將到",
+            "hebrew-5002": "說",
+            "hebrew-3068": "耶和華",
+            "hebrew-2232": "播種",
+            "hebrew-853": "和",
+            "hebrew-1004": "家",
+            "hebrew-3478": "以色列",
+            "hebrew-3063": "猶大",
+            "hebrew-2233": "的種",
+            "hebrew-120": "我要把人",
+            "hebrew-929": "和牲畜"
+          }
         }
       },
       "translations": {
@@ -36,110 +52,94 @@
             "hebrew-2233": 1.4729710624028098
           },
           "verseKey": "gen.1.29",
-          "cunp": "神說：「看哪，我將遍地上一切結種子的菜蔬和一切樹上所結有核的果子全賜給你們作食物。",
+          "nasb": "Then God said, “Behold, I have given you every plant yielding seed that is on the surface of all the earth, and every tree which has fruit yielding seed; it shall be food for you;",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": "hebrew-430",
-              "eng": "God",
-              "punct": "､"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "I have given"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "herb"
-            },
-            {
-              "id": "hebrew-2232",
-              "eng": "[that] yields"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "seed",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "which [is]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "我將"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "遍"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "地"
             },
             {
-              "id": "hebrew-853",
-              "eng": "and"
+              "id": "hebrew-6440",
+              "cht": "上"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-6529",
-              "eng": "[is] the fruit"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "of a tree"
+              "cht": "一切"
             },
             {
               "id": "hebrew-2232",
-              "eng": "yielding"
+              "cht": "結"
             },
             {
               "id": "hebrew-2233",
-              "eng": "seed",
-              "punct": "–"
+              "cht": "種子"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "的菜蔬"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "樹"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-2232",
+              "cht": "結"
+            },
+            {
+              "id": "hebrew-2233",
+              "cht": "有核"
+            },
+            {
+              "id": "hebrew-6529",
+              "cht": "的果子"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "全賜"
             },
             {
               "id": "hebrew-1961",
-              "eng": "it shall be"
+              "cht": "作"
             },
             {
               "id": "hebrew-402",
-              "eng": "for food",
-              "punct": "."
+              "cht": "食物",
+              "punct_cht": "。"
             }
           ]
         },
@@ -149,133 +149,76 @@
             "hebrew-2232": 1.724220685783718
           },
           "verseKey": "luk.8.5",
-          "cunp": "「有一個撒種的出去撒種。撒的時候，有落在路旁的，被人踐踏，天上的飛鳥又來吃盡了。",
+          "nasb": "“The sower went out to sow his seed; and as he sowed, some fell beside the road, and it was trampled under foot and the birds of the air ate it up.",
           "words": [
             {
+              "id": "greek-4687",
+              "cht": "有一個撒種的"
+            },
+            {
               "id": "greek-1831",
-              "eng": "Went out"
+              "cht": "出去"
             },
             {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-4687",
-              "eng": "sowing"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4687",
-              "eng": "to sow"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "撒"
             },
             {
               "id": "greek-4703",
-              "eng": "seed"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "種",
+              "punct_cht": "。"
             },
             {
               "id": "greek-4687",
-              "eng": "sowing"
+              "cht": "撒"
             },
             {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3739",
-              "eng": "some"
-            },
-            {
-              "id": "greek-3303",
-              "eng": "indeed"
+              "cht": "有"
             },
             {
               "id": "greek-4098",
-              "eng": "fell"
-            },
-            {
-              "id": "greek-3844",
-              "eng": "along"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "落在"
             },
             {
               "id": "greek-3598",
-              "eng": "road",
-              "punct": ","
+              "cht": "路"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3844",
+              "cht": "旁"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2662",
-              "eng": "it was trampled upon",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4071",
-              "eng": "birds"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "被人踐踏",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3772",
-              "eng": "air"
+              "cht": "天上的"
+            },
+            {
+              "id": "greek-4071",
+              "cht": "飛鳥"
             },
             {
               "id": "greek-2719",
-              "eng": "devoured"
+              "cht": "又來吃盡"
             },
             {
-              "id": "greek-846",
-              "eng": "it",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -288,139 +231,107 @@
             "hebrew-929": 1.262203421354749
           },
           "verseKey": "jer.33.10",
-          "cunp": "耶和華如此說：「你們論這地方，說是荒廢無人民無牲畜之地，但在這荒涼無人民無牲畜的猶大城邑和耶路撒冷的街上，",
+          "nasb": "“Thus says the Lord, ‘Yet again there will be heard in this place, of which you say, “It is a waste, without man and without beast,” that is, in the cities of Judah and in the streets of Jerusalem that are desolate, without man and without inhabitant and without beast,",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "Again"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "there shall be heard"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "in place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "of which"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "你們"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "論"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "地方",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "say"
-            },
-            {
-              "id": "hebrew-2720",
-              "eng": "desolate"
+              "cht": "說"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it [is]"
+              "cht": "是"
             },
             {
-              "id": "hebrew-369",
-              "eng": "without"
+              "id": "hebrew-2720",
+              "cht": "荒廢"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
+              "cht": "人民"
             },
             {
               "id": "hebrew-369",
-              "eng": "and without"
+              "cht": "無"
             },
             {
               "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "､"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-5892",
-              "eng": "in the cities"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2351",
-              "eng": "and in the streets"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "of Jerusalem",
-              "punct": "､"
+              "id": "hebrew-834",
+              "cht": "之地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8074",
-              "eng": "that are desolate",
-              "punct": "､"
+              "cht": "但在這荒涼"
             },
             {
-              "id": "hebrew-369",
-              "eng": "without"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and without"
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-3427",
-              "eng": "inhabitant",
-              "punct": "､"
+              "cht": "人民"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and without"
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "､"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3063",
+              "cht": "的猶大"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5892",
+              "cht": "城邑"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3389",
+              "cht": "和耶路撒冷"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-2351",
+              "cht": "的街上",
+              "punct_cht": "，"
             }
           ]
         },
@@ -431,62 +342,61 @@
             "hebrew-2233": 1.4729710624028098
           },
           "verseKey": "deu.22.9",
-          "cunp": "「不可把兩樣種子種在你的葡萄園裏，免得你撒種所結的和葡萄園的果子都要充公。",
+          "nasb": "“You shall not sow your vineyard with two kinds of seed, or all the produce of the seed which you have sown and the increase of the vineyard will become defiled.",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-2232",
-              "eng": "You shall sow"
-            },
-            {
-              "id": "hebrew-3754",
-              "eng": "your vineyard with"
+              "cht": "不可"
             },
             {
               "id": "hebrew-3610",
-              "eng": "different kinds of seed",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6435",
-              "eng": "lest"
-            },
-            {
-              "id": "hebrew-6942",
-              "eng": "be defiled",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4395",
-              "eng": "The yield"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "of the seed"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "cht": "把兩樣種子"
             },
             {
               "id": "hebrew-2232",
-              "eng": "you have sown",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8393",
-              "eng": "and the fruit"
+              "cht": "種"
             },
             {
               "id": "hebrew-3754",
-              "eng": "of your vineyard",
-              "punct": "､"
+              "cht": "在你的葡萄園"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6435",
+              "cht": "免得"
+            },
+            {
+              "id": "hebrew-2232",
+              "cht": "你撒"
+            },
+            {
+              "id": "hebrew-2233",
+              "cht": "種"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-4395",
+              "cht": "結的"
+            },
+            {
+              "id": "hebrew-3754",
+              "cht": "和葡萄園"
+            },
+            {
+              "id": "hebrew-8393",
+              "cht": "的果子"
+            },
+            {
+              "id": "hebrew-6942",
+              "cht": "都要充公",
+              "punct_cht": "。"
             }
           ]
         },
@@ -498,106 +408,94 @@
             "hebrew-929": 1.262203421354749
           },
           "verseKey": "num.18.15",
-          "cunp": "他們所有奉給耶和華的，連人帶牲畜，凡頭生的，都要歸給你；只是人頭生的，總要贖出來；不潔淨牲畜頭生的，也要贖出來。",
+          "nasb": "Every first issue of the womb of all flesh, whether man or animal, which they offer to the Lord, shall be yours; nevertheless the firstborn of man you shall surely redeem, and the firstborn of unclean animals you shall redeem.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "Everything"
-            },
-            {
-              "id": "hebrew-6363",
-              "eng": "that first opens"
-            },
-            {
-              "id": "hebrew-7358",
-              "eng": "the womb"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-1320",
-              "eng": "flesh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "cht": "他們所有"
             },
             {
               "id": "hebrew-7126",
-              "eng": "they bring"
+              "cht": "奉"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
+              "cht": "給耶和華"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-120",
-              "eng": "whether man"
+              "cht": "連人"
             },
             {
               "id": "hebrew-929",
-              "eng": "or beast",
-              "punct": "､"
+              "cht": "帶牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "凡"
+            },
+            {
+              "id": "hebrew-6363",
+              "cht": "頭"
+            },
+            {
+              "id": "hebrew-7358",
+              "cht": "生"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "shall be"
+              "cht": "都要歸"
             },
             {
               "id": "hebrew-389",
-              "eng": "nevertheless"
-            },
-            {
-              "id": "hebrew-6299",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-6299",
-              "eng": "you shall redeem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1060",
-              "eng": "the firstborn"
+              "cht": "只是"
             },
             {
               "id": "hebrew-120",
-              "eng": "of man"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "人"
             },
             {
               "id": "hebrew-1060",
-              "eng": "the firstborn"
-            },
-            {
-              "id": "hebrew-929",
-              "eng": "of animals"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean"
+              "cht": "頭生的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6299",
-              "eng": "you shall redeem",
-              "punct": "."
+              "cht": "總要"
             },
             {
-              "id": ""
+              "id": "hebrew-6299",
+              "cht": "贖出來",
+              "punct_cht": "；"
             },
             {
-              "id": ""
+              "id": "hebrew-2931",
+              "cht": "不潔淨"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "牲畜"
+            },
+            {
+              "id": "hebrew-1060",
+              "cht": "頭生的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6299",
+              "cht": "也要贖出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -607,140 +505,93 @@
             "hebrew-2233": 1.4729710624028098
           },
           "verseKey": "gal.3.16",
-          "cunp": "所應許的原是向亞伯拉罕和他子孫說的。神並不是說「眾子孫」，指着許多人，乃是說「你那一個子孫」，指着一個人，就是基督。",
+          "nasb": "Now the promises were spoken to Abraham and to his seed. He does not say, “And to seeds,” as referring to many, but rather to one, “And to your seed,” that is, Christ.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
+              "id": "greek-1860",
+              "cht": "所應許的"
             },
             {
               "id": "greek-11",
-              "eng": "to Abraham"
-            },
-            {
-              "id": "greek-2046",
-              "eng": "were spoken"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1860",
-              "eng": "promises",
-              "punct": ","
+              "cht": "原是向亞伯拉罕"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-4690",
-              "eng": "seed"
+              "cht": "和"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "cht": "他"
+            },
+            {
+              "id": "greek-4690",
+              "cht": "子孫"
+            },
+            {
+              "id": "greek-4483",
+              "cht": "說"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
             },
             {
               "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "it does say",
-              "punct": ","
+              "cht": "並不是"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "說"
             },
             {
               "id": "greek-4690",
-              "eng": "to seeds",
-              "punct": ","
+              "cht": "眾子孫",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "of"
+              "cht": "指著"
             },
             {
               "id": "greek-4183",
-              "eng": "many",
-              "punct": ";"
+              "cht": "許多人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "as"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "of"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "One",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-4690",
-              "eng": "seed"
+              "cht": "乃是"
             },
             {
               "id": "greek-4675",
-              "eng": "of you",
-              "punct": ","
+              "cht": "說你"
             },
             {
-              "id": "greek-3739",
-              "eng": "who"
+              "id": "greek-4690",
+              "cht": "那一個子孫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "指著"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一個人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
+              "cht": "就是"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": "."
-            },
-            {
-              "id": "greek-4483"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2316"
+              "cht": "基督",
+              "punct_cht": "。"
             }
           ]
         },
@@ -751,109 +602,103 @@
             "hebrew-929": 1.262203421354749
           },
           "verseKey": "ecc.3.19",
-          "cunp": "因為世人遭遇的，獸也遭遇，所遭遇的都是一樣：這個怎樣死，那個也怎樣死，氣息都是一樣。人不能強於獸，都是虛空。",
+          "nasb": "For the fate of the sons of men and the fate of beasts is the same. As one dies so dies the other; indeed, they all have the same breath and there is no advantage for man over beast, for all is vanity.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-4745",
-              "eng": "what happens to"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "因為"
             },
             {
               "id": "hebrew-120",
-              "eng": "of men"
+              "cht": "世人"
             },
             {
               "id": "hebrew-4745",
-              "eng": "and happens to"
+              "cht": "遭遇的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-929",
-              "eng": "animals",
-              "punct": "–"
+              "cht": "獸"
             },
             {
               "id": "hebrew-4745",
-              "eng": "and befalls"
+              "cht": "也遭遇",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4745",
+              "cht": "所遭遇的"
             },
             {
               "id": "hebrew-259",
-              "eng": "one [thing]"
-            },
-            {
-              "id": "hebrew-4194",
-              "eng": "as dies",
-              "punct": "､"
+              "cht": "都是一樣",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [one]"
+              "cht": "這個"
+            },
+            {
+              "id": "hebrew-4194",
+              "cht": "怎樣死",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "那個"
             },
             {
               "id": "hebrew-3651",
-              "eng": "so"
+              "cht": "也怎樣"
             },
             {
               "id": "hebrew-4194",
-              "eng": "dies"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this [one]",
-              "punct": "–"
+              "cht": "死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7307",
-              "eng": "and breath",
-              "punct": "–"
+              "cht": "氣息"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "surely they all have"
-            },
-            {
-              "id": "hebrew-4195",
-              "eng": "and advantage"
+              "cht": "是一樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "over"
-            },
-            {
-              "id": "hebrew-929",
-              "eng": "animals",
-              "punct": "､"
+              "cht": "人"
             },
             {
               "id": "hebrew-369",
-              "eng": "has no"
+              "cht": "不能"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4195",
+              "cht": "強"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "於"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "獸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
             },
             {
               "id": "hebrew-1892",
-              "eng": "[is] vanity",
-              "punct": "."
+              "cht": "是虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -865,94 +710,80 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "hag.2.23",
-          "cunp": "萬軍之耶和華說：我僕人撒拉鐵的兒子所羅巴伯啊，到那日，我必以你為印，因我揀選了你。這是萬軍之耶和華說的。」",
+          "nasb": "‘On that day,’ declares the Lord of hosts, ‘I will take you, Zerubbabel, son of Shealtiel, My servant,’ declares the Lord, ‘and I will make you like a signet ring, for I have chosen you,’ ” declares the Lord of hosts.",
           "words": [
             {
-              "id": "hebrew-3117",
-              "eng": "In day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-6635",
+              "cht": "萬軍"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "之耶和華"
             },
             {
-              "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "I will take you"
-            },
-            {
-              "id": "hebrew-2216",
-              "eng": "Zerubbabel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-7597",
-              "eng": "of Shealtiel",
-              "punct": "､"
+              "id": "hebrew-5002",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5650",
-              "eng": "My servant",
-              "punct": "､"
+              "cht": "我僕人"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-7597",
+              "cht": "撒拉鐵"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-2216",
+              "cht": "所羅巴伯"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "到那"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7760",
-              "eng": "and will make you"
+              "cht": "我必以你"
             },
             {
               "id": "hebrew-2368",
-              "eng": "like a signet [ring]",
-              "punct": "–"
+              "cht": "為印",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因"
             },
             {
               "id": "hebrew-977",
-              "eng": "I have chosen"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "我揀選了"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "."
+              "cht": "這是萬軍"
             },
             {
-              "id": ""
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -965,101 +796,88 @@
             "hebrew-929": 1.262203421354749
           },
           "verseKey": "zep.1.3",
-          "cunp": "我必除滅人和牲畜， 與空中的鳥、海裏的魚， 以及絆腳石和惡人； 我必將人從地上剪除。 這是耶和華說的。",
+          "nasb": "“I will remove man and beast; I will remove the birds of the sky And the fish of the sea, And the ruins along with the wicked; And I will cut off man from the face of the earth,” declares the Lord.",
           "words": [
             {
-              "id": "hebrew-622",
-              "eng": "I will consume"
+              "id": "hebrew-5486",
+              "cht": "我必除滅"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
+              "cht": "人"
             },
             {
               "id": "hebrew-929",
-              "eng": "and beast",
-              "punct": "–"
+              "cht": "和牲畜",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-622",
-              "eng": "I will consume"
-            },
-            {
-              "id": "hebrew-5775",
-              "eng": "the birds"
+              "id": "hebrew-5486",
+              "cht": "與"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of the heavens",
-              "punct": "､"
+              "cht": "空中"
             },
             {
-              "id": "hebrew-1709",
-              "eng": "and the fish"
+              "id": "hebrew-5775",
+              "cht": "的鳥、"
             },
             {
               "id": "hebrew-3220",
-              "eng": "of the sea",
-              "punct": "､"
+              "cht": "海裡"
+            },
+            {
+              "id": "hebrew-1709",
+              "cht": "的魚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4384",
-              "eng": "and the stumbling blocks"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "the along with wicked",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3772",
-              "eng": "and I will cut off"
+              "cht": "以及絆腳石"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-7563",
+              "cht": "惡人",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "我必將"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
+              "cht": "人"
             },
             {
               "id": "hebrew-5921",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "從"
             },
             {
               "id": "hebrew-127",
-              "eng": "of the land",
-              "punct": "､"
+              "cht": "地"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-6440",
+              "cht": "上"
+            },
+            {
+              "id": "hebrew-3772",
+              "cht": "剪除",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
             },
             {
-              "id": "hebrew-5486"
-            },
-            {
-              "id": "hebrew-5486"
-            },
-            {
-              "id": "hebrew-853"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -1075,79 +893,62 @@
             "hebrew-3063": 0.6807919066057074
           },
           "verseKey": "jer.33.14",
-          "cunp": "耶和華說：「日子將到，我應許以色列家和猶大家的恩言必然成就。",
+          "nasb": "‘Behold, days are coming,’ declares the Lord, ‘when I will fulfill the good word which I have spoken concerning the house of Israel and the house of Judah.",
           "words": [
             {
-              "id": "hebrew-2009",
-              "eng": "Behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the days"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "are coming",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-3117",
+              "cht": "日子"
             },
             {
-              "id": "hebrew-6965",
-              "eng": "that I will perform"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "that thing"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "good"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "id": "hebrew-935",
+              "cht": "將到",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1696",
-              "eng": "I have promised"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "我應許"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and to"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "和"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "."
+              "cht": "猶大"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "的恩"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "言"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "必然成就",
+              "punct_cht": "。"
             }
           ]
         }

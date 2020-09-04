@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7200": "I beheld",
-          "hebrew-2022": "the mountains",
-          "hebrew-2009": "and indeed",
-          "hebrew-7493": "they trembled",
-          "hebrew-3605": "and all",
-          "hebrew-1389": "the hills",
-          "hebrew-7043": "moved back and forth"
+          "eng": {
+            "hebrew-7200": "I beheld",
+            "hebrew-2022": "the mountains",
+            "hebrew-2009": "and indeed",
+            "hebrew-7493": "they trembled",
+            "hebrew-3605": "and all",
+            "hebrew-1389": "the hills",
+            "hebrew-7043": "moved back and forth"
+          },
+          "cht": {
+            "hebrew-7200": "我觀看",
+            "hebrew-2022": "大山",
+            "hebrew-2009": "不料",
+            "hebrew-7493": "盡都震動",
+            "hebrew-3605": "也都",
+            "hebrew-1389": "小山",
+            "hebrew-7043": "搖來搖去"
+          }
         }
       },
       "translations": {
@@ -29,60 +40,59 @@
             "hebrew-1389": 2.082792210842197
           },
           "verseKey": "nam.1.5",
-          "cunp": "大山因他震動； 小山也都消化。 大地在他面前突起； 世界和住在其間的也都如此。",
+          "nasb": "Mountains quake because of Him And the hills dissolve; Indeed the earth is upheaved by His presence, The world and all the inhabitants in it.",
           "words": [
             {
               "id": "hebrew-2022",
-              "eng": "The mountains"
-            },
-            {
-              "id": "hebrew-7493",
-              "eng": "quake"
+              "cht": "大山"
             },
             {
               "id": "hebrew-4480",
-              "eng": "before Him"
+              "cht": "因他"
+            },
+            {
+              "id": "hebrew-7493",
+              "cht": "震動",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1389",
-              "eng": "and the hills"
+              "cht": "小山"
             },
             {
               "id": "hebrew-4127",
-              "eng": "melt",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "and heaves"
+              "cht": "也都消化",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "大地"
             },
             {
               "id": "hebrew-6440",
-              "eng": "at His presence",
-              "punct": "､"
+              "cht": "在他面前"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "突起",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8398",
-              "eng": "and Yes the world",
-              "punct": "､"
+              "cht": "世界"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "和"
             },
             {
               "id": "hebrew-3427",
-              "eng": "who dwell"
+              "cht": "住"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "也都如此",
+              "punct_cht": "。"
             }
           ]
         },
@@ -92,79 +102,59 @@
             "hebrew-7493": 2.55020052759751
           },
           "verseKey": "heb.12.27",
-          "cunp": "這再一次的話，是指明被震動的，就是受造之物都要挪去，使那不被震動的常存。",
+          "nasb": "This expression, “Yet once more,” denotes the removing of those things which can be shaken, as of created things, so that those things which cannot be shaken may remain.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "This"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now",
-              "punct": ","
-            },
-            {
               "id": "greek-2089",
-              "eng": "Yet"
+              "cht": "這再"
             },
             {
               "id": "greek-530",
-              "eng": "once [more]",
-              "punct": ","
+              "cht": "一次"
+            },
+            {
+              "id": "",
+              "cht": "的話",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1213",
-              "eng": "signifies"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the [things]"
+              "cht": "是指明"
             },
             {
               "id": "greek-4531",
-              "eng": "being shaken"
-            },
-            {
-              "id": "greek-3331",
-              "eng": "removing",
-              "punct": ","
+              "cht": "被震動的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
+              "cht": "就是"
             },
             {
               "id": "greek-4160",
-              "eng": "having been created",
-              "punct": ","
+              "cht": "受造"
+            },
+            {
+              "id": "greek-3331",
+              "cht": "之物都要挪去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-3306",
-              "eng": "should remain"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "cht": "使"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "那不"
             },
             {
               "id": "greek-4531",
-              "eng": "being shaken",
-              "punct": "."
+              "cht": "被震動"
             },
             {
-              "id": ""
+              "id": "greek-3306",
+              "cht": "的常存",
+              "punct_cht": "。"
             }
           ]
         },
@@ -176,149 +166,131 @@
             "hebrew-1389": 2.082792210842197
           },
           "verseKey": "ezk.6.13",
-          "cunp": "他們被殺的人倒在他們祭壇四圍的偶像中，就是各高岡、各山頂、各青翠樹下、各茂密的橡樹下，乃是他們獻馨香的祭牲給一切偶像的地方。那時，他們就知道我是耶和華。",
+          "nasb": "Then you will know that I am the Lord, when their slain are among their idols around their altars, on every high hill, on all the tops of the mountains, under every green tree and under every leafy oak—the places where they offered soothing aroma to all their idols.",
           "words": [
             {
-              "id": "hebrew-3045",
-              "eng": "Then you shall know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "I [am]"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-2491",
+              "cht": "他們被殺的人"
             },
             {
               "id": "hebrew-1961",
-              "eng": "when are"
-            },
-            {
-              "id": "hebrew-2491",
-              "eng": "their slain"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-1544",
-              "eng": "their idols"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "all around"
+              "cht": "倒"
             },
             {
               "id": "hebrew-4196",
-              "eng": "their altars",
-              "punct": "､"
+              "cht": "在他們祭壇"
             },
             {
-              "id": "hebrew-413",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-1389",
-              "eng": "hill",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7311",
-              "eng": "high"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "on all"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the tops"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the mountaintops",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "and under"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7488",
-              "eng": "green"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "and under"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-424",
-              "eng": "terebinth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5687",
-              "eng": "thick"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "the place"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "wherever"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "they offered"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-7381",
-              "eng": "incense"
-            },
-            {
-              "id": "hebrew-5207",
-              "eng": "sweet"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "to all"
+              "id": "hebrew-5439",
+              "cht": "四圍"
             },
             {
               "id": "hebrew-1544",
-              "eng": "their idols",
-              "punct": "."
+              "cht": "的偶像"
             },
             {
-              "id": ""
+              "id": "hebrew-8432",
+              "cht": "中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "就是"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-7311",
+              "cht": "高"
+            },
+            {
+              "id": "hebrew-1389",
+              "cht": "岡、"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "山頂、"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-7488",
+              "cht": "青翠"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "樹"
+            },
+            {
+              "id": "hebrew-8478",
+              "cht": "下、"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-5687",
+              "cht": "茂密的"
+            },
+            {
+              "id": "hebrew-424",
+              "cht": "橡樹"
+            },
+            {
+              "id": "hebrew-8478",
+              "cht": "下",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "乃是"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "他們獻"
+            },
+            {
+              "id": "hebrew-7381",
+              "cht": "馨香"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "的祭牲給一切"
+            },
+            {
+              "id": "hebrew-1544",
+              "cht": "偶像"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "的地方"
+            },
+            {
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "。，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "他們就知道"
+            },
+            {
+              "id": "hebrew-589",
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "是耶和華",
+              "punct_cht": "。"
             }
           ]
         },
@@ -330,127 +302,106 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "ezk.38.20",
-          "cunp": "甚至海中的魚、天空的鳥、田野的獸，並地上的一切昆蟲，和其上的眾人，因見我的面就都震動；山嶺必崩裂，陡巖必塌陷，牆垣都必坍倒。」",
+          "nasb": "The fish of the sea, the birds of the heavens, the beasts of the field, all the creeping things that creep on the earth, and all the men who are on the face of the earth will shake at My presence; the mountains also will be thrown down, the steep pathways will collapse and every wall will fall to the ground.",
           "words": [
             {
-              "id": "hebrew-7493",
-              "eng": "so that shall shake"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "at My presence"
+              "id": "hebrew-3220",
+              "cht": "甚至海中"
             },
             {
               "id": "hebrew-1709",
-              "eng": "the fish"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "of the sea",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5775",
-              "eng": "and the birds"
+              "cht": "的魚、"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of the heavens",
-              "punct": "､"
+              "cht": "天空"
             },
             {
-              "id": "hebrew-2416",
-              "eng": "and the beasts"
+              "id": "hebrew-5775",
+              "cht": "的鳥、"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "田野"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "的獸",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-127",
+              "cht": "並地"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "上"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "的一切"
             },
             {
               "id": "hebrew-7431",
-              "eng": "creeping things"
-            },
-            {
-              "id": "hebrew-7430",
-              "eng": "that creep"
+              "cht": "昆蟲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "men"
+              "cht": "和其上"
             },
             {
               "id": "hebrew-834",
-              "eng": "who [are]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "of the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2040",
-              "eng": "and shall be thrown down",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the mountains"
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "and shall fall",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4095",
-              "eng": "the steep places"
+              "cht": "的"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and every"
+              "cht": "眾"
             },
             {
-              "id": "hebrew-2346",
-              "eng": "wall"
+              "id": "hebrew-120",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-776",
-              "eng": "to the ground"
+              "id": "hebrew-4480",
+              "cht": "因見我的面"
+            },
+            {
+              "id": "hebrew-7493",
+              "cht": "就都震動",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山嶺"
+            },
+            {
+              "id": "hebrew-2040",
+              "cht": "必崩裂",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4095",
+              "cht": "陡巖"
             },
             {
               "id": "hebrew-5307",
-              "eng": "shall fall",
-              "punct": "."
+              "cht": "必塌陷",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2346",
+              "cht": "牆垣"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "必坍倒",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -460,78 +411,67 @@
             "hebrew-7043": 2.069349839395605
           },
           "verseKey": "lev.20.9",
-          "cunp": "凡咒罵父母的，總要治死他；他咒罵了父母，他的罪要歸到他身上。",
+          "nasb": "‘If there is anyone who curses his father or his mother, he shall surely be put to death; he has cursed his father or his mother, his bloodguiltiness is upon him.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
+              "id": "hebrew-376",
+              "cht": "凡"
             },
             {
-              "id": "hebrew-376",
-              "eng": "every"
+              "id": "hebrew-7043",
+              "cht": "咒罵"
             },
             {
-              "id": "hebrew-376",
-              "eng": "one"
+              "id": "hebrew-1",
+              "cht": "父"
+            },
+            {
+              "id": "hebrew-517",
+              "cht": "母"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-7043",
-              "eng": "curses"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "his father"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-517",
-              "eng": "his mother"
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "surely"
+              "cht": "總要"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall be put to death",
-              "punct": "–"
+              "cht": "治死"
             },
             {
-              "id": "hebrew-1",
-              "eng": "his father"
-            },
-            {
-              "id": "hebrew-517",
-              "eng": "or his mother"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7043",
-              "eng": "He has cursed",
-              "punct": "–"
+              "cht": "他咒罵了"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "父"
+            },
+            {
+              "id": "hebrew-517",
+              "cht": "母"
+            },
+            {
+              "id": "",
+              "cht": "他的罪（",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1818",
-              "eng": "His blood [shall be]"
+              "cht": "罪原文是血"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "本章同）",
+              "punct_cht": "；"
             }
           ]
         },
@@ -541,95 +481,88 @@
             "hebrew-7043": 2.069349839395605
           },
           "verseKey": "ecc.10.20",
-          "cunp": "你不可咒詛君王， 也不可心懷此念； 在你臥房也不可咒詛富戶。 因為空中的鳥必傳揚這聲音， 有翅膀的也必述說這事。",
+          "nasb": "Furthermore, in your bedchamber do not curse a king, and in your sleeping rooms do not curse a rich man, for a bird of the heavens will carry the sound and the winged creature will make the matter known.",
           "words": [
             {
-              "id": "hebrew-1571",
-              "eng": "Even"
+              "id": "hebrew-408",
+              "cht": "你不可"
             },
             {
-              "id": "hebrew-4093",
-              "eng": "in your thought",
-              "punct": "–"
+              "id": "hebrew-7043",
+              "cht": "咒詛"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king",
-              "punct": "､"
+              "cht": "君王",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-408",
-              "eng": "not"
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
-              "id": "hebrew-7043",
-              "eng": "do curse"
+              "id": "hebrew-4093",
+              "cht": "不可心懷此念",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2315",
-              "eng": "and even in"
-            },
-            {
-              "id": "hebrew-4904",
-              "eng": "your bedroom",
-              "punct": "–"
+              "cht": "在你臥房"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-7043",
-              "eng": "do curse"
+              "cht": "咒詛"
             },
             {
               "id": "hebrew-6223",
-              "eng": "the rich"
+              "cht": "富戶",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5775",
-              "eng": "a bird"
+              "cht": "因為"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of the air"
+              "cht": "空中"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "may carry"
+              "id": "hebrew-5775",
+              "cht": "的鳥"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "必傳揚"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "這"
             },
             {
               "id": "hebrew-6963",
-              "eng": "your voice",
-              "punct": "､"
+              "cht": "聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1167",
-              "eng": "and"
+              "cht": "有"
             },
             {
               "id": "hebrew-3671",
-              "eng": "a [bird] in flight"
+              "cht": "翅膀"
             },
             {
               "id": "hebrew-5046",
-              "eng": "may tell"
+              "cht": "的也必述說"
             },
             {
               "id": "hebrew-1697",
-              "eng": "the matter",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "這事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -639,92 +572,89 @@
             "hebrew-7043": 2.069349839395605
           },
           "verseKey": "2sa.16.10",
-          "cunp": "王說：「洗魯雅的兒子，我與你們有何關涉呢？他咒罵是因耶和華吩咐他說：『你要咒罵大衛。』如此，誰敢說你為甚麼這樣行呢？」",
+          "nasb": "But the king said, “What have I to do with you, O sons of Zeruiah? If he curses, and if the Lord has told him, ‘Curse David,’ then who shall say, ‘Why have you done so?’ ”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "But said",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
-              "id": "hebrew-4100",
-              "eng": "what"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "you sons"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6870",
-              "eng": "of Zeruiah"
+              "cht": "洗魯雅"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "if"
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "有何"
+            },
+            {
+              "id": "",
+              "cht": "關涉呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-7043",
-              "eng": "he curses",
-              "punct": "､"
+              "cht": "他咒罵"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "是因"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-559",
-              "eng": "has said"
-            },
-            {
-              "id": "hebrew-7043",
-              "eng": "Curse"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "你要咒罵"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David",
-              "punct": "."
+              "cht": "大衛"
+            },
+            {
+              "id": "",
+              "cht": "如此",
+              "punct_cht": "。』，"
             },
             {
               "id": "hebrew-4310",
-              "eng": "And who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-559",
-              "eng": "then shall say",
-              "punct": "､"
+              "cht": "敢說"
             },
             {
               "id": "hebrew-4069",
-              "eng": "why"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "have you done"
+              "cht": "你為甚麼"
             },
             {
               "id": "hebrew-3651",
-              "eng": "so"
+              "cht": "這樣"
             },
             {
-              "id": ""
+              "id": "hebrew-6213",
+              "cht": "行"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
             }
           ]
         },
@@ -736,81 +666,76 @@
             "hebrew-1389": 2.082792210842197
           },
           "verseKey": "isa.2.2",
-          "cunp": "末後的日子，耶和華殿的山必堅立， 超乎諸山，高舉過於萬嶺； 萬民都要流歸這山。",
+          "nasb": "Now it will come about that In the last days The mountain of the house of the Lord Will be established as the chief of the mountains, And will be raised above the hills; And all the nations will stream to it.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it shall come to pass"
-            },
-            {
               "id": "hebrew-319",
-              "eng": "in latter"
+              "cht": "末後的"
             },
             {
               "id": "hebrew-3117",
-              "eng": "the days",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3559",
-              "eng": "established"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "shall be"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "[That] the mountain"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of house"
+              "cht": "日子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-7218",
-              "eng": "on the top"
+              "id": "hebrew-1004",
+              "cht": "殿"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the mountains",
-              "punct": "､"
+              "cht": "的山"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "必"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "堅立",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "超乎"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "諸山",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5375",
-              "eng": "and shall be exalted"
+              "cht": "高舉"
             },
             {
               "id": "hebrew-1389",
-              "eng": "above the hills",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5102",
-              "eng": "and shall flow"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to it"
+              "cht": "過於萬嶺",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "萬"
             },
             {
               "id": "hebrew-1471",
-              "eng": "nations",
-              "punct": "."
+              "cht": "民"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5102",
+              "cht": "都要流"
             },
             {
-              "id": ""
+              "id": "hebrew-413",
+              "cht": "歸"
+            },
+            {
+              "id": "",
+              "cht": "這山",
+              "punct_cht": "。"
             }
           ]
         },
@@ -822,86 +747,79 @@
             "hebrew-1389": 2.082792210842197
           },
           "verseKey": "ezk.34.6",
-          "cunp": "我的羊在諸山間、在各高岡上流離，在全地上分散，無人去尋，無人去找。",
+          "nasb": "My flock wandered through all the mountains and on every high hill; My flock was scattered over all the surface of the earth, and there was no one to search or seek for them.” ’ ”",
           "words": [
             {
-              "id": "hebrew-7686",
-              "eng": "Wandered"
-            },
-            {
               "id": "hebrew-6629",
-              "eng": "My sheep"
+              "cht": "我的羊"
             },
             {
               "id": "hebrew-3605",
-              "eng": "through all"
+              "cht": "在諸"
             },
             {
               "id": "hebrew-2022",
-              "eng": "the mountains",
-              "punct": "､"
+              "cht": "山"
+            },
+            {
+              "id": "",
+              "cht": "間、"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and on"
+              "cht": "在"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-1389",
-              "eng": "hill",
-              "punct": "–"
+              "cht": "各"
             },
             {
               "id": "hebrew-7311",
-              "eng": "high"
+              "cht": "高"
+            },
+            {
+              "id": "hebrew-1389",
+              "cht": "岡"
+            },
+            {
+              "id": "hebrew-7686",
+              "cht": "上流離",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and yes over"
+              "cht": "在"
             },
             {
               "id": "hebrew-3605",
-              "eng": "whole"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "全"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "､"
+              "cht": "地"
             },
             {
               "id": "hebrew-6327",
-              "eng": "was scattered"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "My flock"
+              "cht": "上分散",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and no one"
+              "cht": "無人"
             },
             {
               "id": "hebrew-1875",
-              "eng": "was seeking"
+              "cht": "去尋",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "or"
+              "cht": "無人"
             },
             {
               "id": "hebrew-1245",
-              "eng": "searching [for] [them]",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "去找",
+              "punct_cht": "。"
             }
           ]
         },
@@ -912,78 +830,68 @@
             "hebrew-1389": 2.082792210842197
           },
           "verseKey": "mic.4.1",
-          "cunp": "末後的日子， 耶和華殿的山必堅立， 超乎諸山，高舉過於萬嶺； 萬民都要流歸這山。",
+          "nasb": "And it will come about in the last days That the mountain of the house of the Lord Will be established as the chief of the mountains. It will be raised above the hills, And the peoples will stream to it.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it shall come to pass",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-319",
-              "eng": "in latter"
+              "cht": "末後"
             },
             {
               "id": "hebrew-3117",
-              "eng": "the days"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "[That] shall be"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the mountain"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house"
+              "cht": "的日子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3559",
-              "eng": "established"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "on the top"
+              "id": "hebrew-1004",
+              "cht": "殿"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the mountains",
-              "punct": "､"
+              "cht": "的山"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "必"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "堅立",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "超乎"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "諸山",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5375",
-              "eng": "and shall be exalted"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "高舉"
             },
             {
               "id": "hebrew-1389",
-              "eng": "above the hills",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5102",
-              "eng": "and shall flow"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "to it"
+              "cht": "過於萬嶺",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5971",
-              "eng": "peoples",
-              "punct": "."
+              "cht": "萬民"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5102",
+              "cht": "都要流"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "歸這山",
+              "punct_cht": "。"
             }
           ]
         }

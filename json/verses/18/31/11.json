@@ -3,11 +3,20 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "For",
-          "hebrew-1931": "Yes it [would be]",
-          "hebrew-2154": "wickedness",
-          "hebrew-5771": "iniquity [deserving of]",
-          "hebrew-6414": "judgment"
+          "eng": {
+            "hebrew-3588": "For",
+            "hebrew-1931": "Yes it [would be]",
+            "hebrew-2154": "wickedness",
+            "hebrew-5771": "iniquity [deserving of]",
+            "hebrew-6414": "judgment"
+          },
+          "cht": {
+            "hebrew-3588": "因為",
+            "hebrew-1931": "這是",
+            "hebrew-2154": "大罪",
+            "hebrew-5771": "當罰的罪孽",
+            "hebrew-6414": "是審判官"
+          }
         }
       },
       "translations": {},
@@ -18,33 +27,29 @@
             "hebrew-6414": 8.539323589735611
           },
           "verseKey": "deu.32.31",
-          "cunp": "據我們的仇敵自己斷定， 他們的磐石不如我們的磐石。",
+          "nasb": "Indeed their rock is not like our Rock, Even our enemies themselves judge this.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-6697",
-              "eng": "like our Rock"
-            },
-            {
-              "id": "hebrew-6697",
-              "eng": "their rock [is]",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-341",
-              "eng": "and Even our enemies themselves"
+              "cht": "據我們的仇敵"
             },
             {
               "id": "hebrew-6414",
-              "eng": "[being] judges",
-              "punct": "."
+              "cht": "自己斷定",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6697",
+              "cht": "他們的磐石"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-6697",
+              "cht": "如我們的磐石",
+              "punct_cht": "。"
             }
           ]
         },
@@ -54,100 +59,102 @@
             "hebrew-6414": 8.539323589735611
           },
           "verseKey": "exo.21.22",
-          "cunp": "「人若彼此爭鬥，傷害有孕的婦人，甚至墜胎，隨後卻無別害，那傷害她的，總要按婦人的丈夫所要的，照審判官所斷的，受罰。",
+          "nasb": "“If men struggle with each other and strike a woman with child so that she gives birth prematurely, yet there is no injury, he shall surely be fined as the woman’s husband may demand of him, and he shall pay as the judges decide.",
           "words": [
             {
+              "id": "hebrew-582",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "And if"
+              "cht": "若"
             },
             {
               "id": "hebrew-5327",
-              "eng": "fight",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "men"
+              "cht": "彼此爭鬥",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5062",
-              "eng": "and hurt"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman"
+              "cht": "傷害"
             },
             {
               "id": "hebrew-2030",
-              "eng": "pregnant",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "so that prematurely"
-            },
-            {
-              "id": "hebrew-3206",
-              "eng": "she gives birth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and yet no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "follows"
-            },
-            {
-              "id": "hebrew-611",
-              "eng": "harm",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6064",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-6064",
-              "eng": "he shall be punished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "accordingly as"
-            },
-            {
-              "id": "hebrew-7896",
-              "eng": "imposes"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on him"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "husband"
+              "cht": "有孕"
             },
             {
               "id": "hebrew-802",
-              "eng": "of the woman",
-              "punct": "､"
+              "cht": "的婦人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and he shall pay"
+              "id": "hebrew-3318",
+              "cht": "甚至墜"
+            },
+            {
+              "id": "hebrew-3206",
+              "cht": "胎",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "隨後卻"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "無"
+            },
+            {
+              "id": "hebrew-611",
+              "cht": "別害"
+            },
+            {
+              "id": "",
+              "cht": "那傷害她的",
+              "punct_cht": "，，"
+            },
+            {
+              "id": "hebrew-6064",
+              "cht": "總要"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "按婦人"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "的丈夫"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-7896",
+              "cht": "要"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6414",
-              "eng": "as the judges [determine]",
-              "punct": "."
+              "cht": "照審判官"
             },
             {
-              "id": ""
+              "id": "hebrew-5414",
+              "cht": "所斷"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6064",
+              "cht": "受罰",
+              "punct_cht": "。"
             }
           ]
         },
@@ -157,79 +164,72 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "lev.20.14",
-          "cunp": "人若娶妻，並娶其母，便是大惡，要把這三人用火焚燒，使你們中間免去大惡。",
+          "nasb": "If there is a man who marries a woman and her mother, it is immorality; both he and they shall be burned with fire, so that there will be no immorality in your midst.",
           "words": [
             {
               "id": "hebrew-376",
-              "eng": "And a man"
+              "cht": "人"
             },
             {
               "id": "hebrew-834",
-              "eng": "if"
+              "cht": "若"
             },
             {
               "id": "hebrew-3947",
-              "eng": "marries"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "娶"
             },
             {
               "id": "hebrew-802",
-              "eng": "a woman"
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "並娶"
             },
             {
               "id": "hebrew-517",
-              "eng": "her mother",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2154",
-              "eng": "[is] wickedness"
+              "cht": "其母",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-784",
-              "eng": "with fire"
-            },
-            {
-              "id": "hebrew-8313",
-              "eng": "they shall be burned"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "he"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and they",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "that no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there may be"
+              "cht": "便是"
             },
             {
               "id": "hebrew-2154",
-              "eng": "wickedness"
+              "cht": "大惡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "要把這三人"
+            },
+            {
+              "id": "hebrew-784",
+              "cht": "用火"
+            },
+            {
+              "id": "hebrew-8313",
+              "cht": "焚燒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "使"
             },
             {
               "id": "hebrew-8432",
-              "eng": "among you",
-              "punct": "."
+              "cht": "你們中間"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "免去"
+            },
+            {
+              "id": "hebrew-2154",
+              "cht": "大惡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -239,54 +239,51 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "lev.19.29",
-          "cunp": "「不可辱沒你的女兒，使她為娼妓，恐怕地上的人專向淫亂，地就滿了大惡。",
+          "nasb": "‘Do not profane your daughter by making her a harlot, so that the land will not fall to harlotry and the land become full of lewdness.",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-2490",
-              "eng": "do prostitute"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "辱沒"
             },
             {
               "id": "hebrew-1323",
-              "eng": "your daughter"
+              "cht": "你的女兒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2181",
-              "eng": "to cause her to be a harlot",
-              "punct": "–"
+              "cht": "使她為娼妓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and lest"
+              "cht": "恐怕"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地上"
             },
             {
               "id": "hebrew-2181",
-              "eng": "fall into harlotry"
+              "cht": "的人專向淫亂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "､"
+              "cht": "地"
             },
             {
               "id": "hebrew-4390",
-              "eng": "and become full"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "of the land"
+              "cht": "就滿了"
             },
             {
               "id": "hebrew-2154",
-              "eng": "wickedness",
-              "punct": "."
+              "cht": "大惡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -296,40 +293,37 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "pro.21.27",
-          "cunp": "惡人的祭物是可憎的； 何況他存惡意來獻呢？",
+          "nasb": "The sacrifice of the wicked is an abomination, How much more when he brings it with evil intent!",
           "words": [
             {
-              "id": "hebrew-2077",
-              "eng": "The sacrifice"
+              "id": "hebrew-7563",
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-7563",
-              "eng": "of the wicked"
+              "id": "hebrew-2077",
+              "cht": "的祭物"
             },
             {
               "id": "hebrew-8441",
-              "eng": "[is] an abomination",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "how much more"
+              "cht": "是可憎的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "how much more",
-              "punct": "､"
+              "cht": "何況"
             },
             {
               "id": "hebrew-2154",
-              "eng": "with wicked intent"
+              "cht": "他存惡意"
             },
             {
               "id": "hebrew-935",
-              "eng": "[when] he brings it"
+              "cht": "來獻"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -339,85 +333,61 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "ezk.22.11",
-          "cunp": "這人與鄰舍的妻行可憎的事；那人貪淫玷污兒婦；還有玷辱同父之姊妹的。",
+          "nasb": "One has committed abomination with his neighbor’s wife and another has lewdly defiled his daughter-in-law. And another in you has humbled his sister, his father’s daughter.",
           "words": [
             {
               "id": "hebrew-376",
-              "eng": "And one"
+              "cht": "這人"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "wife",
-              "punct": "–"
+              "cht": "與"
             },
             {
               "id": "hebrew-7453",
-              "eng": "of his neighbor"
+              "cht": "鄰舍"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "的妻"
             },
             {
               "id": "hebrew-6213",
-              "eng": "commits"
+              "cht": "行"
             },
             {
               "id": "hebrew-8441",
-              "eng": "abomination"
+              "cht": "可憎的事",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-376",
-              "eng": "and another"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3618",
-              "eng": "his daughter-in-law",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2930",
-              "eng": "defiles"
+              "cht": "那人"
             },
             {
               "id": "hebrew-2154",
-              "eng": "lewdly"
+              "cht": "貪淫"
             },
             {
-              "id": "hebrew-376",
-              "eng": "and another"
+              "id": "hebrew-2930",
+              "cht": "玷污"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-269",
-              "eng": "his sister",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "daughter",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "Of his father"
+              "id": "hebrew-3618",
+              "cht": "兒婦",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6031",
-              "eng": "violates"
+              "cht": "還有玷辱"
             },
             {
-              "id": "hebrew-854"
+              "id": "hebrew-1",
+              "cht": "同父"
             },
             {
-              "id": "hebrew-854"
+              "id": "hebrew-269",
+              "cht": "之姊妹"
             }
           ]
         },
@@ -427,33 +397,33 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "pro.24.9",
-          "cunp": "愚妄人的思念乃是罪惡； 褻慢者為人所憎惡。",
+          "nasb": "The devising of folly is sin, And the scoffer is an abomination to men.",
           "words": [
             {
-              "id": "hebrew-2154",
-              "eng": "The devising"
+              "id": "hebrew-200",
+              "cht": "愚妄人"
             },
             {
-              "id": "hebrew-200",
-              "eng": "of foolishness"
+              "id": "hebrew-2154",
+              "cht": "的思念"
             },
             {
               "id": "hebrew-2403",
-              "eng": "[is] sin",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8441",
-              "eng": "and an abomination"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "to men"
+              "cht": "乃是罪惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3887",
-              "eng": "the scoffer [is]",
-              "punct": "."
+              "cht": "褻慢者"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "為人"
+            },
+            {
+              "id": "hebrew-8441",
+              "cht": "所憎惡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -463,58 +433,51 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "ezk.23.21",
-          "cunp": "這樣，你就想起你幼年的淫行。那時，埃及人擁抱你的懷，撫摸你的乳。」",
+          "nasb": "Thus you longed for the lewdness of your youth, when the Egyptians handled your bosom because of the breasts of your youth.",
           "words": [
             {
-              "id": "hebrew-6485",
-              "eng": "Thus you called to remembrance"
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-6485",
+              "cht": "你就想起"
+            },
+            {
+              "id": "hebrew-5271",
+              "cht": "你幼年"
             },
             {
               "id": "hebrew-2154",
-              "eng": "the lewdness"
+              "cht": "的淫行"
+            },
+            {
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "。，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "埃及人"
             },
             {
               "id": "hebrew-5271",
-              "eng": "of your youth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "when pressed"
-            },
-            {
-              "id": "hebrew-4714",
-              "eng": "Egypt"
-            },
-            {
-              "id": "hebrew-1717",
-              "eng": "your bosom"
-            },
-            {
-              "id": "hebrew-4616",
-              "eng": "because"
+              "cht": "擁抱你"
             },
             {
               "id": "hebrew-7699",
-              "eng": "of breasts"
+              "cht": "的懷",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5271",
-              "eng": "your youthful",
-              "punct": "."
+              "id": "hebrew-6213",
+              "cht": "撫摸"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-1717",
+              "cht": "你的乳",
+              "punct_cht": "。"
             }
           ]
         },
@@ -524,86 +487,90 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "jer.13.27",
-          "cunp": "你那些可憎惡之事－ 就是在田野的山上行姦淫， 發嘶聲，做淫亂的事－ 我都看見了。 耶路撒冷啊，你有禍了！ 你不肯潔淨，還要到幾時呢？",
+          "nasb": "As for your adulteries and your lustful neighings, The lewdness of your prostitution On the hills in the field, I have seen your abominations. Woe to you, O Jerusalem! How long will you remain unclean?”",
           "words": [
             {
-              "id": "hebrew-5004",
-              "eng": "Your adulteries",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4684",
-              "eng": "and your [lustful] neighings",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2154",
-              "eng": "the lewdness"
-            },
-            {
-              "id": "hebrew-2184",
-              "eng": "of your harlotry",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-1389",
-              "eng": "the hills"
+              "id": "hebrew-8251",
+              "cht": "你那些可憎惡之事─"
             },
             {
               "id": "hebrew-7704",
-              "eng": "in the fields",
-              "punct": "."
+              "cht": "就是在田野"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-1389",
+              "cht": "山"
+            },
+            {
+              "id": "hebrew-5004",
+              "cht": "上行姦淫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4684",
+              "cht": "發嘶聲",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2184",
+              "cht": "做淫亂"
+            },
+            {
+              "id": "hebrew-2154",
+              "cht": "的事─"
             },
             {
               "id": "hebrew-7200",
-              "eng": "I have seen"
+              "cht": "我都看見"
             },
             {
-              "id": "hebrew-8251",
-              "eng": "Your abominations"
-            },
-            {
-              "id": "hebrew-188",
-              "eng": "Woe"
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3389",
-              "eng": "Jerusalem",
-              "punct": "!"
+              "cht": "耶路撒冷"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-188",
+              "cht": "有禍了",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你不肯"
             },
             {
               "id": "hebrew-2891",
-              "eng": "will you be made clean"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-4970",
-              "eng": "how"
+              "cht": "潔淨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5750",
-              "eng": "still",
-              "punct": "."
+              "cht": "還"
             },
             {
-              "id": ""
+              "id": "hebrew-310",
+              "cht": "要到"
             },
             {
-              "id": ""
+              "id": "hebrew-4970",
+              "cht": "幾時"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -613,122 +580,109 @@
             "hebrew-2154": 3.483676583494497
           },
           "verseKey": "ezk.16.43",
-          "cunp": "因你不追念你幼年的日子，在這一切的事上向我發烈怒，所以我必照你所行的報應在你頭上，你就不再貪淫，行那一切可憎的事。這是主耶和華說的。」",
+          "nasb": "Because you have not remembered the days of your youth but have enraged Me by all these things, behold, I in turn will bring your conduct down on your own head,” declares the Lord God, “so that you will not commit this lewdness on top of all your other abominations.",
           "words": [
             {
-              "id": "hebrew-3282",
-              "eng": "Because"
-            },
-            {
               "id": "hebrew-834",
-              "eng": "that"
+              "cht": "因"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2142",
-              "eng": "you did remember"
+              "cht": "你不"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the days"
+              "cht": "追念"
             },
             {
               "id": "hebrew-5271",
-              "eng": "of your youth",
-              "punct": "､"
+              "cht": "你幼年"
             },
             {
-              "id": "hebrew-7264",
-              "eng": "but agitated"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "with all"
+              "id": "hebrew-3117",
+              "cht": "的日子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-428",
-              "eng": "these [things]"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and also"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-1887",
-              "eng": "surely",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "your deeds"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "on [your own] head",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "will recompense"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "you shall commit"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-2154",
-              "eng": "lewdness"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "in addition to"
+              "cht": "在這"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "一切的"
+            },
+            {
+              "id": "hebrew-7264",
+              "cht": "發烈怒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-589",
+              "cht": "所以我"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "必"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "照你所行的"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "報應"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "在你頭"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "你就不"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "再貪"
+            },
+            {
+              "id": "hebrew-2154",
+              "cht": "淫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "行"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "那一切"
             },
             {
               "id": "hebrew-8441",
-              "eng": "your abominations",
-              "punct": "."
+              "cht": "可憎的事",
+              "punct_cht": "。"
             },
             {
-              "id": ""
+              "id": "hebrew-136",
+              "cht": "這是主"
             },
             {
-              "id": ""
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         }

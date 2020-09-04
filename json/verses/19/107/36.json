@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3427": "And He makes dwell",
-          "hebrew-8033": "there",
-          "hebrew-7457": "the hungry",
-          "hebrew-3559": "that they may establish",
-          "hebrew-5892": "a city",
-          "hebrew-4186": "for a dwelling place"
+          "eng": {
+            "hebrew-3427": "And He makes dwell",
+            "hebrew-8033": "there",
+            "hebrew-7457": "the hungry",
+            "hebrew-3559": "that they may establish",
+            "hebrew-5892": "a city",
+            "hebrew-4186": "for a dwelling place"
+          },
+          "cht": {
+            "hebrew-3427": "的人住",
+            "hebrew-8033": "在那裡",
+            "hebrew-7457": "他使飢餓",
+            "hebrew-3559": "好建造",
+            "hebrew-5892": "的城邑",
+            "hebrew-4186": "可住"
+          }
         }
       },
       "translations": {
@@ -26,36 +36,37 @@
             "hebrew-3559": 1.1908278425234098
           },
           "verseKey": "job.18.12",
-          "cunp": "他的力量必因飢餓衰敗； 禍患要在他旁邊等候。",
+          "nasb": "His strength is famished, And calamity is ready at his side.",
           "words": [
             {
+              "id": "hebrew-202",
+              "cht": "他的力量"
+            },
+            {
               "id": "hebrew-1961",
-              "eng": "His"
+              "cht": "必"
             },
             {
               "id": "hebrew-7457",
-              "eng": "starved",
-              "punct": "､"
+              "cht": "因飢餓"
             },
             {
-              "id": "hebrew-202",
-              "eng": "His strength"
+              "id": "",
+              "cht": "衰敗",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-343",
-              "eng": "and destruction"
-            },
-            {
-              "id": "hebrew-3559",
-              "eng": "[is] ready"
+              "cht": "禍患"
             },
             {
               "id": "hebrew-6763",
-              "eng": "at his side",
-              "punct": "."
+              "cht": "要在他旁邊"
             },
             {
-              "id": ""
+              "id": "hebrew-3559",
+              "cht": "等候",
+              "punct_cht": "。"
             }
           ]
         },
@@ -66,145 +77,121 @@
             "hebrew-5892": 0.5914215478951839
           },
           "verseKey": "2ki.7.12",
-          "cunp": "王夜間起來，對臣僕說：「我告訴你們亞蘭人向我們如何行。他們知道我們飢餓，所以離營，埋伏在田野，說：『以色列人出城的時候，我們就活捉他們，得以進城。』」",
+          "nasb": "Then the king arose in the night and said to his servants, “I will now tell you what the Arameans have done to us. They know that we are hungry; therefore they have gone from the camp to hide themselves in the field, saying, ‘When they come out of the city, we will capture them alive and get into the city.’ ”",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "So arose"
-            },
-            {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-3915",
-              "eng": "in the night",
-              "punct": "､"
+              "cht": "夜間"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "hebrew-6965",
+              "cht": "起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-5650",
-              "eng": "his servants",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5046",
-              "eng": "let me tell"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "now"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "what"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "have done"
-            },
-            {
-              "id": "hebrew-758",
-              "eng": "Syria"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "they know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-7457",
-              "eng": "hungry",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-587",
-              "eng": "we [are]"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "therefore they have gone"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "out"
-            },
-            {
-              "id": "hebrew-4264",
-              "eng": "of the camp"
-            },
-            {
-              "id": "hebrew-2247",
-              "eng": "to hide themselves"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "in the field",
-              "punct": "､"
+              "cht": "臣僕"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "id": "hebrew-5046",
+              "cht": "我告訴"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "they come out"
+              "id": "hebrew-853",
+              "cht": "你們"
+            },
+            {
+              "id": "hebrew-758",
+              "cht": "亞蘭人"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "如何"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "行",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "他們知道"
+            },
+            {
+              "id": "hebrew-857",
+              "cht": "我們"
+            },
+            {
+              "id": "hebrew-7457",
+              "cht": "飢餓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "of"
+              "cht": "所以離"
+            },
+            {
+              "id": "hebrew-4264",
+              "cht": "營",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2247",
+              "cht": "埋伏"
+            },
+            {
+              "id": "hebrew-7704",
+              "cht": "在田野",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "以色列人出"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city",
-              "punct": "､"
+              "cht": "城"
             },
             {
-              "id": "hebrew-8610",
-              "eng": "and we shall catch them"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2416",
-              "eng": "alive",
-              "punct": "､"
+              "cht": "我們就活"
+            },
+            {
+              "id": "hebrew-8610",
+              "cht": "捉他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "and into"
+              "cht": "得以進"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "get",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-857"
-            },
-            {
-              "id": ""
+              "cht": "城",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -214,93 +201,80 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "2sa.17.29",
-          "cunp": "蜂蜜、奶油、綿羊、奶餅，供給大衛和跟隨他的人吃；他們說：「民在曠野，必飢渴困乏了。」",
+          "nasb": "honey, curds, sheep, and cheese of the herd, for David and for the people who were with him, to eat; for they said, “The people are hungry and weary and thirsty in the wilderness.”",
           "words": [
             {
               "id": "hebrew-1706",
-              "eng": "And honey",
-              "punct": "､"
+              "cht": "蜂蜜、"
             },
             {
               "id": "hebrew-2529",
-              "eng": "and curds",
-              "punct": "､"
+              "cht": "奶油、"
             },
             {
               "id": "hebrew-6629",
-              "eng": "and sheep",
-              "punct": "､"
+              "cht": "綿羊、"
             },
             {
               "id": "hebrew-8194",
-              "eng": "and cheese"
+              "cht": "奶"
             },
             {
               "id": "hebrew-1241",
-              "eng": "of the herd",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5066",
-              "eng": "approach"
+              "cht": "餅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1732",
-              "eng": "for David",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "and the people"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who [were]"
+              "cht": "供給大衛"
             },
             {
               "id": "hebrew-854",
-              "eng": "with him"
+              "cht": "和跟隨他"
             },
             {
-              "id": "hebrew-398",
-              "eng": "to eat",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "they said",
-              "punct": "､"
+              "id": "hebrew-834",
+              "cht": "的"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people"
+              "cht": "人"
             },
             {
-              "id": "hebrew-7457",
-              "eng": "are hungry",
-              "punct": "､"
+              "id": "hebrew-398",
+              "cht": "吃",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-5889",
-              "eng": "and weary",
-              "punct": "､"
+              "id": "hebrew-559",
+              "cht": "他們說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-6771",
-              "eng": "and thirsty",
-              "punct": "､"
+              "id": "hebrew-5971",
+              "cht": "民"
             },
             {
               "id": "hebrew-4057",
-              "eng": "in the wilderness",
-              "punct": "."
+              "cht": "在曠野",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-7457",
+              "cht": "必飢"
+            },
+            {
+              "id": "hebrew-6771",
+              "cht": "渴"
+            },
+            {
+              "id": "hebrew-5889",
+              "cht": "困乏"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -310,79 +284,75 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "isa.58.7",
-          "cunp": "不是要把你的餅分給飢餓的人， 將飄流的窮人接到你家中， 見赤身的給他衣服遮體， 顧恤自己的骨肉而不掩藏嗎？",
+          "nasb": "Is it not to divide your bread with the hungry And bring the homeless poor into the house; When you see the naked, to cover him; And not to hide yourself from your own flesh?",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "[is it] not"
-            },
-            {
-              "id": "hebrew-6536",
-              "eng": "to share"
-            },
-            {
-              "id": "hebrew-7457",
-              "eng": "with the hungry",
-              "punct": "､"
+              "cht": "不是"
             },
             {
               "id": "hebrew-3899",
-              "eng": "your bread"
+              "cht": "要把你的餅"
             },
             {
-              "id": "hebrew-6041",
-              "eng": "and the poor"
+              "id": "hebrew-6536",
+              "cht": "分"
+            },
+            {
+              "id": "hebrew-7457",
+              "cht": "給飢餓的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4788",
-              "eng": "who are cast out"
+              "cht": "將飄流"
+            },
+            {
+              "id": "hebrew-6041",
+              "cht": "的窮人"
             },
             {
               "id": "hebrew-935",
-              "eng": "that you bring"
+              "cht": "接到"
             },
             {
               "id": "hebrew-1004",
-              "eng": "to your house"
+              "cht": "你家"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "you see"
+              "cht": "見"
             },
             {
               "id": "hebrew-6174",
-              "eng": "the naked",
-              "punct": "､"
+              "cht": "赤身"
             },
             {
               "id": "hebrew-3680",
-              "eng": "that you cover him"
+              "cht": "的給他衣服遮體",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1320",
-              "eng": "and from your own flesh"
+              "cht": "顧恤自己的骨肉"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "而不"
             },
             {
               "id": "hebrew-5956",
-              "eng": "hide yourself",
-              "punct": "."
+              "cht": "掩藏"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -392,63 +362,52 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "isa.8.21",
-          "cunp": "他們必經過這地，受艱難，受飢餓；飢餓的時候，心中焦躁，咒罵自己的君王和自己的神。",
+          "nasb": "They will pass through the land hard-pressed and famished, and it will turn out that when they are hungry, they will be enraged and curse their king and their God as they face upward.",
           "words": [
             {
               "id": "hebrew-5674",
-              "eng": "And they will pass through"
+              "cht": "他們必經過"
             },
             {
               "id": "hebrew-7185",
-              "eng": "hard pressed"
+              "cht": "受艱難",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7457",
-              "eng": "and hungry"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and it shall happen",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "cht": "受飢餓",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7456",
-              "eng": "they are hungry",
-              "punct": "､"
+              "cht": "飢餓"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7107",
-              "eng": "that they will be enraged",
-              "punct": "､"
+              "cht": "心中焦躁",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7043",
-              "eng": "and curse"
+              "cht": "咒罵"
             },
             {
               "id": "hebrew-4428",
-              "eng": "their king"
+              "cht": "自己的君王"
+            },
+            {
+              "id": "",
+              "cht": "和自己的"
             },
             {
               "id": "hebrew-430",
-              "eng": "and their God",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6437",
-              "eng": "and look"
-            },
-            {
-              "id": "hebrew-4605",
-              "eng": "upward",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -458,88 +417,66 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "mrk.8.3",
-          "cunp": "我若打發他們餓着回家，就必在路上困乏，因為其中有從遠處來的。」",
+          "nasb": "If I send them away hungry to their homes, they will faint on the way; and some of them have come from a great distance.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-1437",
-              "eng": "if"
+              "cht": "我若"
             },
             {
               "id": "greek-630",
-              "eng": "I shall send away"
+              "cht": "打發"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "他們"
             },
             {
               "id": "greek-3523",
-              "eng": "hungry"
+              "cht": "餓著"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
+              "cht": "回"
             },
             {
               "id": "greek-3624",
-              "eng": "[the] homes"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": ","
-            },
-            {
-              "id": "greek-1590",
-              "eng": "they will faint"
+              "cht": "家",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "就必在"
             },
             {
               "id": "greek-3598",
-              "eng": "way",
-              "punct": "."
+              "cht": "路上"
             },
             {
-              "id": "greek-2532",
-              "eng": "For"
+              "id": "greek-1590",
+              "cht": "困乏",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1063",
+              "cht": "因為"
             },
             {
               "id": "greek-5100",
-              "eng": "some"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
+              "cht": "其中"
             },
             {
               "id": "greek-3113",
-              "eng": "afar"
+              "cht": "有從遠處"
             },
             {
               "id": "greek-2240",
-              "eng": "are come",
-              "punct": "."
+              "cht": "來"
             },
             {
-              "id": "greek-1063"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -549,68 +486,71 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "1sa.2.5",
-          "cunp": "素來飽足的，反作用人求食； 飢餓的，再不飢餓。 不生育的，生了七個兒子； 多有兒女的，反倒衰微。",
+          "nasb": "Those who were full hire themselves out for bread, But those who were hungry cease to hunger. Even the barren gives birth to seven, But she who has many children languishes.",
           "words": [
             {
               "id": "hebrew-7649",
-              "eng": "[Those who were] full"
-            },
-            {
-              "id": "hebrew-3899",
-              "eng": "for bread",
-              "punct": "–"
+              "cht": "素來飽足的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7936",
-              "eng": "have hired themselves out"
+              "cht": "反作用人"
+            },
+            {
+              "id": "hebrew-3899",
+              "cht": "求食",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7457",
-              "eng": "and the hungry"
+              "cht": "飢餓的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2308",
-              "eng": "have ceased [to hunger]",
-              "punct": "–"
+              "cht": "再不"
             },
             {
-              "id": "hebrew-5704",
-              "eng": "Even"
+              "id": "",
+              "cht": "飢餓",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6135",
-              "eng": "the barren"
+              "cht": "不生育的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "has borne"
+              "cht": "生了"
             },
             {
               "id": "hebrew-7651",
-              "eng": "seven",
-              "punct": "–"
+              "cht": "七個"
+            },
+            {
+              "id": "",
+              "cht": "兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7227",
-              "eng": "and she who has many"
+              "cht": "多"
             },
             {
               "id": "hebrew-1121",
-              "eng": "children"
+              "cht": "有兒女"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-535",
-              "eng": "has become feeble",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "反倒衰微",
+              "punct_cht": "。"
             }
           ]
         },
@@ -620,165 +560,126 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "mat.15.32",
-          "cunp": "耶穌叫門徒來，說：「我憐憫這眾人；因為他們同我在這裏已經三天，也沒有吃的了。我不願意叫他們餓着回去，恐怕在路上困乏。」",
+          "nasb": "And Jesus called His disciples to Him, and said, “I feel compassion for the people, because they have remained with Me now three days and have nothing to eat; and I do not want to send them away hungry, for they might faint on the way.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
             },
             {
               "id": "greek-4341",
-              "eng": "having called to [him]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "叫"
             },
             {
               "id": "greek-3101",
-              "eng": "disciples"
+              "cht": "門徒"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2036",
-              "eng": "said",
-              "punct": ","
-            },
-            {
-              "id": "greek-4697",
-              "eng": "I am moved with compassion"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1909",
-              "eng": "toward"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "我憐憫"
             },
             {
               "id": "greek-3793",
-              "eng": "crowd",
-              "punct": ","
+              "cht": "這眾人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "because"
-            },
-            {
-              "id": "greek-2235",
-              "eng": "already"
-            },
-            {
-              "id": "greek-2250",
-              "eng": "days"
-            },
-            {
-              "id": "greek-5140",
-              "eng": "three"
-            },
-            {
-              "id": "greek-4357",
-              "eng": "they continue"
+              "cht": "因為"
             },
             {
               "id": "greek-3427",
-              "eng": "with Me",
-              "punct": ","
+              "cht": "他們同我"
+            },
+            {
+              "id": "greek-4357",
+              "cht": "在"
+            },
+            {
+              "id": "greek-2235",
+              "cht": "這裡已經"
+            },
+            {
+              "id": "greek-5140",
+              "cht": "三"
+            },
+            {
+              "id": "greek-2250",
+              "cht": "天",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
               "id": "greek-3756",
-              "eng": "nothing"
+              "cht": "沒"
             },
             {
               "id": "greek-2192",
-              "eng": "have"
-            },
-            {
-              "id": "greek-5101",
-              "eng": "that"
+              "cht": "有"
             },
             {
               "id": "greek-5315",
-              "eng": "they might eat",
-              "punct": ";"
+              "cht": "吃"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-5101",
+              "cht": "的"
             },
             {
-              "id": "greek-630",
-              "eng": "to send away"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
-            },
-            {
-              "id": "greek-3523",
-              "eng": "hungry",
-              "punct": ","
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "我不"
             },
             {
               "id": "greek-2309",
-              "eng": "I am willing",
-              "punct": ","
+              "cht": "願意"
             },
             {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "greek-846",
+              "cht": "叫他們"
             },
             {
-              "id": "greek-4219",
-              "eng": "lest"
+              "id": "greek-3523",
+              "cht": "餓著"
             },
             {
-              "id": "greek-1590",
-              "eng": "they faint"
+              "id": "greek-630",
+              "cht": "回去",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3379",
+              "cht": "恐怕"
             },
             {
               "id": "greek-1722",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-3598",
-              "eng": "way",
-              "punct": "."
+              "cht": "路上"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3379"
+              "id": "greek-1590",
+              "cht": "困乏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -788,46 +689,46 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "psa.146.7",
-          "cunp": "他為受屈的伸冤， 賜食物與飢餓的。 耶和華釋放被囚的；",
+          "nasb": "Who executes justice for the oppressed; Who gives food to the hungry. The Lord sets the prisoners free.",
           "words": [
             {
+              "id": "hebrew-6231",
+              "cht": "他為受屈的"
+            },
+            {
               "id": "hebrew-6213",
-              "eng": "who executes"
+              "cht": "伸"
             },
             {
               "id": "hebrew-4941",
-              "eng": "justice"
-            },
-            {
-              "id": "hebrew-6231",
-              "eng": "for the oppressed",
-              "punct": "–"
+              "cht": "冤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "who gives"
+              "cht": "賜"
             },
             {
               "id": "hebrew-3899",
-              "eng": "food"
+              "cht": "食物"
             },
             {
               "id": "hebrew-7457",
-              "eng": "to the hungry",
-              "punct": "."
+              "cht": "與飢餓的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5425",
-              "eng": "gives freedom to"
+              "cht": "釋放"
             },
             {
               "id": "hebrew-631",
-              "eng": "the prisoners",
-              "punct": "–"
+              "cht": "被囚的",
+              "punct_cht": "；"
             }
           ]
         },
@@ -837,55 +738,55 @@
             "hebrew-7457": 3.812899939371762
           },
           "verseKey": "isa.58.10",
-          "cunp": "你心若向飢餓的人發憐憫， 使困苦的人得滿足， 你的光就必在黑暗中發現； 你的幽暗必變如正午。",
+          "nasb": "And if you give yourself to the hungry And satisfy the desire of the afflicted, Then your light will rise in darkness And your gloom will become like midday.",
           "words": [
             {
-              "id": "hebrew-6329",
-              "eng": "and [If] you extend"
+              "id": "hebrew-5315",
+              "cht": "你心"
             },
             {
               "id": "hebrew-7457",
-              "eng": "to the hungry",
-              "punct": "､"
+              "cht": "若向飢餓的人"
             },
             {
-              "id": "hebrew-5315",
-              "eng": "your soul"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "and the soul",
-              "punct": "–"
+              "id": "hebrew-6329",
+              "cht": "發憐憫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6031",
-              "eng": "afflicted"
+              "cht": "使困苦的"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "人"
             },
             {
               "id": "hebrew-7646",
-              "eng": "satisfy"
-            },
-            {
-              "id": "hebrew-2224",
-              "eng": "and shall dawn"
-            },
-            {
-              "id": "hebrew-2822",
-              "eng": "in the darkness",
-              "punct": "､"
+              "cht": "得滿足",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-216",
-              "eng": "your light"
+              "cht": "你的光"
+            },
+            {
+              "id": "hebrew-2822",
+              "cht": "就必在黑暗中"
+            },
+            {
+              "id": "hebrew-2224",
+              "cht": "發現",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-653",
-              "eng": "and your darkness shall [be]"
+              "cht": "你的幽暗"
             },
             {
               "id": "hebrew-6672",
-              "eng": "as the noonday",
-              "punct": "."
+              "cht": "必變如正午",
+              "punct_cht": "。"
             }
           ]
         }

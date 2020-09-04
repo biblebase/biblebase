@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6923": "Went before",
-          "hebrew-7891": "the singers",
-          "hebrew-310": "[followed] after",
-          "hebrew-5059": "the players on instruments",
-          "hebrew-8432": "Among [them were]",
-          "hebrew-5959": "the maidens",
-          "hebrew-8608": "playing timbrels"
+          "eng": {
+            "hebrew-6923": "Went before",
+            "hebrew-7891": "the singers",
+            "hebrew-310": "[followed] after",
+            "hebrew-5059": "the players on instruments",
+            "hebrew-8432": "Among [them were]",
+            "hebrew-5959": "the maidens",
+            "hebrew-8608": "playing timbrels"
+          },
+          "cht": {
+            "hebrew-6923": "行在前",
+            "hebrew-7891": "歌唱的",
+            "hebrew-310": "隨在後",
+            "hebrew-5059": "作樂的",
+            "hebrew-8432": "中間",
+            "hebrew-5959": "童女",
+            "hebrew-8608": "都在擊鼓的"
+          }
         }
       },
       "translations": {
@@ -25,60 +36,58 @@
             "hebrew-5059": 4.0204442424896225
           },
           "verseKey": "2ki.3.15",
-          "cunp": "現在你們給我找一個彈琴的來。」彈琴的時候，耶和華的靈就降在以利沙身上。",
+          "nasb": "But now bring me a minstrel.” And it came about, when the minstrel played, that the hand of the Lord came upon him.",
           "words": [
             {
               "id": "hebrew-6258",
-              "eng": "But now"
+              "cht": "現在"
             },
             {
               "id": "hebrew-3947",
-              "eng": "bring"
+              "cht": "找"
             },
             {
               "id": "hebrew-5059",
-              "eng": "a musician",
-              "punct": "."
+              "cht": "一個彈琴的"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "And it came to pass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5059",
-              "eng": "when played"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-5059",
-              "eng": "the musician",
-              "punct": "､"
+              "cht": "彈"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "that came"
+              "id": "hebrew-5059",
+              "cht": "琴"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "upon him"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "the hand"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的靈【"
             },
             {
-              "id": ""
+              "id": "hebrew-3027",
+              "cht": "原文作手】"
             },
             {
-              "id": ""
+              "id": "hebrew-1961",
+              "cht": "就降"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在以利沙身上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -88,51 +97,48 @@
             "hebrew-8608": 10.248599871619378
           },
           "verseKey": "nam.2.7",
-          "cunp": "王后蒙羞，被人擄去； 宮女搥胸，哀鳴如鴿。 此乃命定之事。",
+          "nasb": "It is fixed: She is stripped, she is carried away, And her handmaids are moaning like the sound of doves, Beating on their breasts.",
           "words": [
             {
-              "id": "hebrew-5324",
-              "eng": "And it is decreed"
-            },
-            {
               "id": "hebrew-1540",
-              "eng": "she shall be led away captive",
-              "punct": "､"
+              "cht": "王后蒙羞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5927",
-              "eng": "she shall be brought up",
-              "punct": "､"
+              "cht": "被人擄去",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-519",
-              "eng": "and her maidservants"
-            },
-            {
-              "id": "hebrew-5090",
-              "eng": "shall lead [her]"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "as with the voice"
-            },
-            {
-              "id": "hebrew-3123",
-              "eng": "of doves",
-              "punct": "､"
+              "cht": "宮女"
             },
             {
               "id": "hebrew-8608",
-              "eng": "Beating"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "搥"
             },
             {
               "id": "hebrew-3824",
-              "eng": "their breasts",
-              "punct": "."
+              "cht": "胸",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5090",
+              "cht": "哀鳴"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "如"
+            },
+            {
+              "id": "hebrew-3123",
+              "cht": "鴿",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-5324",
+              "cht": "此乃命定之事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -142,97 +148,100 @@
             "hebrew-5059": 4.0204442424896225
           },
           "verseKey": "1sa.16.16",
-          "cunp": "我們的主可以吩咐面前的臣僕，找一個善於彈琴的來，等神那裏來的惡魔臨到你身上的時候，使他用手彈琴，你就好了。」",
+          "nasb": "Let our lord now command your servants who are before you. Let them seek a man who is a skillful player on the harp; and it shall come about when the evil spirit from God is on you, that he shall play the harp with his hand, and you will be well.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "Command"
+              "id": "hebrew-113",
+              "cht": "我們的主"
             },
             {
               "id": "hebrew-4994",
-              "eng": "let now"
+              "cht": "可以"
             },
             {
-              "id": "hebrew-113",
-              "eng": "our master"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "your servants [who are]",
-              "punct": "､"
+              "id": "hebrew-559",
+              "cht": "吩咐"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before you"
+              "cht": "面前的"
+            },
+            {
+              "id": "hebrew-5650",
+              "cht": "臣僕",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1245",
-              "eng": "to seek out"
+              "cht": "找"
             },
             {
               "id": "hebrew-376",
-              "eng": "a man",
-              "punct": "､"
+              "cht": "一個"
             },
             {
               "id": "hebrew-3045",
-              "eng": "skillful"
+              "cht": "善於"
             },
             {
               "id": "hebrew-5059",
-              "eng": "[who is] a player"
+              "cht": "彈"
             },
             {
               "id": "hebrew-3658",
-              "eng": "on the harp",
-              "punct": "–"
+              "cht": "琴"
+            },
+            {
+              "id": "",
+              "cht": "的來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and it shall be",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "is upon you"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "the spirit"
+              "cht": "等"
             },
             {
               "id": "hebrew-430",
-              "eng": "from God"
+              "cht": "神"
             },
             {
               "id": "hebrew-7451",
-              "eng": "distressing"
+              "cht": "那裡來的惡"
             },
             {
-              "id": "hebrew-5059",
-              "eng": "that he shall play it"
+              "id": "hebrew-7307",
+              "cht": "魔"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "臨"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "到你身上"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "with his hand",
-              "punct": "､"
+              "cht": "使他用手"
+            },
+            {
+              "id": "hebrew-5059",
+              "cht": "彈"
+            },
+            {
+              "id": "",
+              "cht": "琴",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2895",
-              "eng": "and [will be] well"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "就好了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -243,33 +252,34 @@
             "hebrew-5059": 4.0204442424896225
           },
           "verseKey": "psa.33.3",
-          "cunp": "應當向他唱新歌， 彈得巧妙，聲音洪亮。",
+          "nasb": "Sing to Him a new song; Play skillfully with a shout of joy.",
           "words": [
             {
               "id": "hebrew-7891",
-              "eng": "Sing"
-            },
-            {
-              "id": "hebrew-7892",
-              "eng": "a song",
-              "punct": "–"
+              "cht": "唱"
             },
             {
               "id": "hebrew-2319",
-              "eng": "new"
+              "cht": "新"
             },
             {
-              "id": "hebrew-3190",
-              "eng": "skillfully"
+              "id": "hebrew-7892",
+              "cht": "歌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5059",
-              "eng": "Play"
+              "cht": "彈得"
+            },
+            {
+              "id": "hebrew-3190",
+              "cht": "巧妙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8643",
-              "eng": "with a shout of [joy]",
-              "punct": "."
+              "cht": "聲音洪亮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -279,7 +289,7 @@
             "hebrew-5959": 5.832220266167411
           },
           "verseKey": "gen.3.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -288,59 +298,50 @@
             "hebrew-5959": 5.832220266167411
           },
           "verseKey": "exo.2.8",
-          "cunp": "法老的女兒說：「可以。」童女就去叫了孩子的母親來。",
+          "nasb": "Pharaoh’s daughter said to her, “Go ahead.” So the girl went and called the child’s mother.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "hebrew-6547",
+              "cht": "法老"
             },
             {
               "id": "hebrew-1323",
-              "eng": "daughter"
+              "cht": "的女兒"
             },
             {
-              "id": "hebrew-6547",
-              "eng": "of Pharaoh",
-              "punct": "､"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "go",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "So went"
+              "id": "hebrew-3212",
+              "cht": "可以",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-5959",
-              "eng": "the maiden"
+              "cht": "童女"
             },
             {
-              "id": "hebrew-7121",
-              "eng": "and called"
+              "id": "hebrew-3212",
+              "cht": "就去"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-517",
-              "eng": "the mother"
+              "cht": "叫了"
             },
             {
               "id": "hebrew-3206",
-              "eng": "of the child",
-              "punct": "."
+              "cht": "孩子"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-517",
+              "cht": "的母親"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -350,66 +351,63 @@
             "hebrew-5959": 5.832220266167411
           },
           "verseKey": "isa.7.14",
-          "cunp": "因此，主自己要給你們一個兆頭，必有童女懷孕生子，給他起名叫以馬內利。",
+          "nasb": "Therefore the Lord Himself will give you a sign: Behold, a virgin will be with child and bear a son, and she will call His name Immanuel.",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "Therefore"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "will give"
+              "cht": "因此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-1931",
-              "eng": "He"
+              "cht": "自己"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "要給"
             },
             {
               "id": "hebrew-226",
-              "eng": "a sign",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "一個兆頭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5959",
-              "eng": "the virgin"
+              "cht": "必有童女"
             },
             {
               "id": "hebrew-2030",
-              "eng": "shall become pregnant"
+              "cht": "懷孕"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and bear"
+              "cht": "生"
             },
             {
               "id": "hebrew-1121",
-              "eng": "a Son",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "and shall call"
+              "cht": "子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8034",
-              "eng": "His name"
+              "cht": "給他起名"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "叫"
             },
             {
               "id": "hebrew-6005",
-              "eng": "Immanuel",
-              "punct": "."
+              "cht": "以馬內利"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "（就是神與我們同在的意思）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -419,91 +417,74 @@
             "hebrew-5959": 5.832220266167411
           },
           "verseKey": "gen.24.43",
-          "cunp": "我如今站在井旁，對哪一個出來打水的女子說：請你把你瓶裏的水給我一點喝；",
+          "nasb": "behold, I am standing by the spring, and may it be that the maiden who comes out to draw, and to whom I say, “Please let me drink a little water from your jar”;",
           "words": [
             {
-              "id": "hebrew-2009",
-              "eng": "Behold",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-595",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-5324",
-              "eng": "stand"
+              "cht": "如今站"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by"
+              "cht": "在"
             },
             {
               "id": "hebrew-5869",
-              "eng": "the well"
+              "cht": "井"
             },
             {
-              "id": "hebrew-4325",
-              "eng": "of water",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and it shall come to pass that [when]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5959",
-              "eng": "the virgin"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "comes out"
-            },
-            {
-              "id": "hebrew-7579",
-              "eng": "to draw [water]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and I say"
+              "id": "",
+              "cht": "旁",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to her"
+              "cht": "對"
             },
             {
-              "id": "hebrew-8248",
-              "eng": "give me to drink",
-              "punct": "､"
+              "id": "hebrew-3318",
+              "cht": "那一個出來"
+            },
+            {
+              "id": "hebrew-7579",
+              "cht": "打"
+            },
+            {
+              "id": "hebrew-5959",
+              "cht": "水的女子"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "､"
+              "cht": "請"
             },
             {
-              "id": "hebrew-4592",
-              "eng": "a little"
+              "id": "hebrew-4480",
+              "cht": "你把你瓶"
             },
             {
               "id": "hebrew-4325",
-              "eng": "water"
+              "cht": "裡的水"
             },
             {
-              "id": "hebrew-3537",
-              "eng": "from your jar",
-              "punct": "."
+              "id": "hebrew-8248",
+              "cht": "給"
             },
             {
-              "id": ""
+              "id": "hebrew-4592",
+              "cht": "我一點"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-8248"
+              "id": "hebrew-8248",
+              "cht": "喝",
+              "punct_cht": "；"
             }
           ]
         },
@@ -513,67 +494,67 @@
             "hebrew-5959": 5.832220266167411
           },
           "verseKey": "pro.30.19",
-          "cunp": "就是鷹在空中飛的道； 蛇在磐石上爬的道； 船在海中行的道； 男與女交合的道。",
+          "nasb": "The way of an eagle in the sky, The way of a serpent on a rock, The way of a ship in the middle of the sea, And the way of a man with a maid.",
           "words": [
             {
-              "id": "hebrew-1870",
-              "eng": "The way"
-            },
-            {
               "id": "hebrew-5404",
-              "eng": "of an eagle"
+              "cht": "就是鷹"
             },
             {
               "id": "hebrew-8064",
-              "eng": "in the air",
-              "punct": "–"
+              "cht": "在空中"
             },
             {
               "id": "hebrew-1870",
-              "eng": "the way"
+              "cht": "飛的道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5175",
-              "eng": "of a serpent"
+              "cht": "蛇"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-6697",
-              "eng": "a rock",
-              "punct": "–"
+              "cht": "磐石"
             },
             {
               "id": "hebrew-1870",
-              "eng": "the way"
+              "cht": "上爬的道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-591",
-              "eng": "of a ship"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "in the midst"
+              "cht": "船"
             },
             {
               "id": "hebrew-3220",
-              "eng": "of the sea",
-              "punct": "–"
+              "cht": "在海"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "中"
             },
             {
               "id": "hebrew-1870",
-              "eng": "and the way"
+              "cht": "行的道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1397",
-              "eng": "of a man"
+              "cht": "男"
             },
             {
               "id": "hebrew-5959",
-              "eng": "with a virgin",
-              "punct": "."
+              "cht": "與女"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "交合的道",
+              "punct_cht": "。"
             }
           ]
         },
@@ -583,7 +564,7 @@
             "hebrew-5959": 5.832220266167411
           },
           "verseKey": "jos.8.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         }
       ]

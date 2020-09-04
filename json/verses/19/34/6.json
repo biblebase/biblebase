@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2088": "This",
-          "hebrew-6041": "poor man",
-          "hebrew-7121": "cried out",
-          "hebrew-3068": "and Yahweh",
-          "hebrew-8085": "heard [him]",
-          "hebrew-3605": "and out of all",
-          "hebrew-6869": "his troubles",
-          "hebrew-3467": "saved him",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-2088": "This",
+            "hebrew-6041": "poor man",
+            "hebrew-7121": "cried out",
+            "hebrew-3068": "and Yahweh",
+            "hebrew-8085": "heard [him]",
+            "hebrew-3605": "and out of all",
+            "hebrew-6869": "his troubles",
+            "hebrew-3467": "saved him",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-2088": "我這",
+            "hebrew-6041": "困苦人",
+            "hebrew-7121": "呼求",
+            "hebrew-3068": "耶和華",
+            "hebrew-8085": "便垂聽",
+            "hebrew-3605": "脫離一切",
+            "hebrew-6869": "患難",
+            "hebrew-3467": "救我",
+            "hebrew-4480": "脫離一切"
+          }
         }
       },
       "translations": {
@@ -30,110 +43,97 @@
             "hebrew-6869": 1.9941688091090077
           },
           "verseKey": "gen.42.21",
-          "cunp": "他們彼此說：「我們在兄弟身上實在有罪。他哀求我們的時候，我們見他心裏的愁苦，卻不肯聽，所以這場苦難臨到我們身上。」",
+          "nasb": "Then they said to one another, “Truly we are guilty concerning our brother, because we saw the distress of his soul when he pleaded with us, yet we would not listen; therefore this distress has come upon us.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And they said"
-            },
-            {
               "id": "hebrew-376",
-              "eng": "one"
+              "cht": "他們彼此"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "another",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-61",
-              "eng": "truly"
-            },
-            {
-              "id": "hebrew-818",
-              "eng": "guilty"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-587",
-              "eng": "we [are]"
+              "cht": "我們"
             },
             {
               "id": "hebrew-5921",
-              "eng": "concerning"
+              "cht": "在"
             },
             {
               "id": "hebrew-251",
-              "eng": "our brother",
-              "punct": "､"
+              "cht": "兄弟"
+            },
+            {
+              "id": "hebrew-61",
+              "cht": "身上實在"
+            },
+            {
+              "id": "hebrew-818",
+              "cht": "有罪",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-834",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "we saw"
-            },
-            {
-              "id": "hebrew-6869",
-              "eng": "the anguish"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "of his soul",
-              "punct": "､"
+              "cht": "他"
             },
             {
               "id": "hebrew-2603",
-              "eng": "when he pleaded"
+              "cht": "哀求"
             },
             {
               "id": "hebrew-413",
-              "eng": "with us"
+              "cht": "我們"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "and not"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8085",
-              "eng": "we did listen",
-              "punct": "–"
+              "id": "hebrew-7200",
+              "cht": "我們見"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "has come"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "upon us"
+              "id": "hebrew-5315",
+              "cht": "他心裡"
             },
             {
               "id": "hebrew-6869",
-              "eng": "distress"
+              "cht": "的愁苦",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2063",
-              "eng": "this",
-              "punct": "."
+              "id": "hebrew-3808",
+              "cht": "卻不肯"
             },
             {
-              "id": ""
+              "id": "hebrew-8085",
+              "cht": "聽",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2088"
+              "id": "hebrew-5921",
+              "cht": "所以"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "這場"
+            },
+            {
+              "id": "hebrew-6869",
+              "cht": "苦難"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "臨到"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "我們身上",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -145,72 +145,67 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "psa.35.10",
-          "cunp": "我的骨頭都要說： 耶和華啊，誰能像你 救護困苦人脫離那比他強壯的， 救護困苦窮乏人脫離那搶奪他的？",
+          "nasb": "All my bones will say, “Lord, who is like You, Who delivers the afflicted from him who is too strong for him, And the afflicted and the needy from him who robs him?”",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "All"
+              "id": "hebrew-6106",
+              "cht": "我的骨頭"
             },
             {
-              "id": "hebrew-6106",
-              "eng": "my bones"
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-559",
-              "eng": "shall say",
-              "punct": "､"
+              "cht": "要說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who [is]"
+              "cht": "誰"
             },
             {
               "id": "hebrew-3644",
-              "eng": "like You",
-              "punct": "､"
+              "cht": "能像你"
             },
             {
               "id": "hebrew-5337",
-              "eng": "Delivering"
+              "cht": "救護"
             },
             {
               "id": "hebrew-6041",
-              "eng": "the poor"
-            },
-            {
-              "id": "hebrew-2389",
-              "eng": "from him who is stronger"
+              "cht": "困苦人"
             },
             {
               "id": "hebrew-4480",
-              "eng": "than he"
+              "cht": "脫離那比他"
+            },
+            {
+              "id": "hebrew-2389",
+              "cht": "強壯的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6041",
-              "eng": "and Yes the poor"
+              "cht": "救護困苦"
             },
             {
               "id": "hebrew-34",
-              "eng": "and the needy"
+              "cht": "窮乏人"
             },
             {
               "id": "hebrew-1497",
-              "eng": "from him who plunders him",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "脫離那搶奪他的",
+              "punct_cht": "？"
             }
           ]
         },
@@ -223,60 +218,52 @@
             "hebrew-6869": 1.9941688091090077
           },
           "verseKey": "jon.2.2",
-          "cunp": "說： 我遭遇患難求告耶和華， 你就應允我； 從陰間的深處呼求， 你就俯聽我的聲音。",
+          "nasb": "and he said, “I called out of my distress to the Lord, And He answered me. I cried for help from the depth of Sheol; You heard my voice.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And he said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "遭遇患難"
             },
             {
               "id": "hebrew-7121",
-              "eng": "I cried out"
-            },
-            {
-              "id": "hebrew-6869",
-              "eng": "because of affliction"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
+              "cht": "求告"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6030",
-              "eng": "and He answered me"
-            },
-            {
-              "id": "hebrew-990",
-              "eng": "Out of the belly"
+              "cht": "你就應允我",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7585",
-              "eng": "of Sheol"
+              "cht": "從陰間"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的深處"
             },
             {
               "id": "hebrew-7768",
-              "eng": "I cried"
+              "cht": "呼求",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8085",
-              "eng": "[And] You heard"
+              "cht": "你就俯聽"
             },
             {
               "id": "hebrew-6963",
-              "eng": "my voice",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "我的聲音",
+              "punct_cht": "。"
             }
           ]
         }

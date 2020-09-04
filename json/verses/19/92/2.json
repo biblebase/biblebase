@@ -3,17 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5046": "to declare",
-          "hebrew-1242": "in the morning",
-          "hebrew-2617": "Your lovingkindness",
-          "hebrew-530": "and Your faithfulness",
-          "hebrew-3915": "every night",
-          "hebrew-5921": null,
-          "hebrew-6218": null,
-          "hebrew-5035": null,
-          "hebrew-3658": null,
-          "hebrew-1902": null,
-          "hebrew-2896": null
+          "eng": {
+            "hebrew-5046": "to declare",
+            "hebrew-1242": "in the morning",
+            "hebrew-2617": "Your lovingkindness",
+            "hebrew-530": "and Your faithfulness",
+            "hebrew-3915": "every night",
+            "hebrew-5921": null,
+            "hebrew-6218": null,
+            "hebrew-5035": null,
+            "hebrew-3658": null,
+            "hebrew-1902": null,
+            "hebrew-2896": null
+          },
+          "cht": {
+            "hebrew-5046": "傳揚",
+            "hebrew-1242": "早晨",
+            "hebrew-2617": "你的慈愛",
+            "hebrew-530": "傳揚你的信實",
+            "hebrew-3915": "每夜",
+            "hebrew-5921": "彈",
+            "hebrew-6218": "十弦",
+            "hebrew-5035": "瑟",
+            "hebrew-3658": "用琴",
+            "hebrew-1902": "幽雅的聲音",
+            "hebrew-2896": "這本為美事"
+          }
         }
       },
       "translations": {
@@ -34,41 +49,11 @@
             "hebrew-1902": 8.539323589735611
           },
           "verseKey": "psa.92.3",
-          "cunp": "",
+          "nasb": "With the ten-stringed lute and with the harp, With resounding music upon the lyre.",
           "words": [
             {
-              "id": "hebrew-5921",
-              "eng": "On"
-            },
-            {
-              "id": "hebrew-6218",
-              "eng": "an [instrument] of ten [strings]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and on"
-            },
-            {
-              "id": "hebrew-5035",
-              "eng": "the lute",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-1902",
-              "eng": "harmonious sound"
-            },
-            {
-              "id": "hebrew-3658",
-              "eng": "On the harp",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "併入上節"
             }
           ]
         },
@@ -80,32 +65,32 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "psa.33.2",
-          "cunp": "你們應當彈琴稱謝耶和華， 用十弦瑟歌頌他。",
+          "nasb": "Give thanks to the Lord with the lyre; Sing praises to Him with a harp of ten strings.",
           "words": [
             {
+              "id": "hebrew-3658",
+              "cht": "你們應當彈琴"
+            },
+            {
               "id": "hebrew-3034",
-              "eng": "Praise"
+              "cht": "稱謝"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-3658",
-              "eng": "with the harp",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5035",
-              "eng": "with an instrument"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6218",
-              "eng": "of ten [strings]"
+              "cht": "用十弦"
+            },
+            {
+              "id": "hebrew-5035",
+              "cht": "瑟"
             },
             {
               "id": "hebrew-2167",
-              "eng": "Make melody"
+              "cht": "歌頌"
             }
           ]
         },
@@ -115,56 +100,54 @@
             "hebrew-1902": 8.539323589735611
           },
           "verseKey": "psa.19.14",
-          "cunp": "耶和華－我的磐石，我的救贖主啊， 願我口中的言語、心裏的意念在你面前蒙悅納。",
+          "nasb": "Let the words of my mouth and the meditation of my heart Be acceptable in Your sight, O Lord, my rock and my Redeemer.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "Let"
-            },
-            {
-              "id": "hebrew-7522",
-              "eng": "Be acceptable"
-            },
-            {
-              "id": "hebrew-561",
-              "eng": "the words"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "of my mouth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1902",
-              "eng": "and the meditation"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "of my heart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "in Your sight",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華─"
             },
             {
               "id": "hebrew-6697",
-              "eng": "my strength",
-              "punct": "､"
+              "cht": "我的磐石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1350",
-              "eng": "and my Redeemer",
-              "punct": "."
+              "cht": "我的救贖主"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "願"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "我口中"
+            },
+            {
+              "id": "hebrew-561",
+              "cht": "的言語、"
+            },
+            {
+              "id": "hebrew-3820",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-1902",
+              "cht": "裡的意念"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "在你面前"
+            },
+            {
+              "id": "hebrew-7522",
+              "cht": "蒙悅納",
+              "punct_cht": "。"
             }
           ]
         },
@@ -174,57 +157,54 @@
             "hebrew-1902": 8.539323589735611
           },
           "verseKey": "psa.9.16",
-          "cunp": "耶和華已將自己顯明了，他已施行審判； 惡人被自己手所做的纏住了 。（細拉）",
+          "nasb": "The Lord has made Himself known; He has executed judgment. In the work of his own hands the wicked is snared. Higgaion Selah.",
           "words": [
             {
-              "id": "hebrew-3045",
-              "eng": "Is known"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-4941",
-              "eng": "[by] the judgment"
+              "id": "hebrew-3045",
+              "cht": "已將自己顯明"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "He executes",
-              "punct": "–"
+              "cht": "他已施行"
             },
             {
-              "id": "hebrew-6467",
-              "eng": "in the work"
-            },
-            {
-              "id": "hebrew-3709",
-              "eng": "of his own hands",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5367",
-              "eng": "Is snared"
+              "id": "hebrew-4941",
+              "cht": "審判",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-1902",
-              "eng": "Meditation",
-              "punct": "."
+              "id": "hebrew-3709",
+              "cht": "被自己手"
+            },
+            {
+              "id": "hebrew-6467",
+              "cht": "所做的"
+            },
+            {
+              "id": "hebrew-5367",
+              "cht": "纏住了"
+            },
+            {
+              "id": "",
+              "cht": "（或譯他叫惡人被自己手所做的累住了）（",
+              "punct_cht": "：。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "細拉）"
             }
           ]
         },
@@ -235,39 +215,42 @@
             "hebrew-5035": 2.8268151859226394
           },
           "verseKey": "psa.144.9",
-          "cunp": "神啊，我要向你唱新歌， 用十弦瑟向你歌頌。",
+          "nasb": "I will sing a new song to You, O God; Upon a harp of ten strings I will sing praises to You,",
           "words": [
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "–"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7891",
-              "eng": "a song"
+              "cht": "唱"
             },
             {
               "id": "hebrew-2319",
-              "eng": "new"
+              "cht": "新"
             },
             {
               "id": "hebrew-7892",
-              "eng": "I will sing"
-            },
-            {
-              "id": "hebrew-5035",
-              "eng": "On a harp"
+              "cht": "歌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6218",
-              "eng": "of ten [strings]"
+              "cht": "用十弦"
+            },
+            {
+              "id": "hebrew-5035",
+              "cht": "瑟"
             },
             {
               "id": "hebrew-2167",
-              "eng": "I will sing praises"
-            },
-            {
-              "id": ""
+              "cht": "歌頌",
+              "punct_cht": "。"
             }
           ]
         },
@@ -277,112 +260,100 @@
             "hebrew-5035": 2.8268151859226394
           },
           "verseKey": "jer.13.12",
-          "cunp": "「所以你要對他們說：『耶和華－以色列的神如此說：各罈都要盛滿了酒。』他們必對你說：『我們豈不確知各罈都要盛滿了酒呢？』",
+          "nasb": "“Therefore you are to speak this word to them, ‘Thus says the Lord, the God of Israel, “Every jug is to be filled with wine.” ’ And when they say to you, ‘Do we not very well know that every jug is to be filled with wine?’",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "Therefore you shall speak"
-            },
-            {
               "id": "hebrew-413",
-              "eng": "to them"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "word",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "所以你要對他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
+              "cht": "耶和華─"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "every"
+              "id": "",
+              "cht": "的"
             },
             {
-              "id": "hebrew-5035",
-              "eng": "bottle"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": "hebrew-4390",
-              "eng": "shall be filled with"
-            },
-            {
-              "id": "hebrew-3196",
-              "eng": "wine",
-              "punct": "–"
+              "id": "hebrew-3541",
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "and they will say"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to you"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "do surely"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "we know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "各"
             },
             {
               "id": "hebrew-5035",
-              "eng": "bottle"
+              "cht": "罈"
             },
             {
               "id": "hebrew-4390",
-              "eng": "will be filled"
+              "cht": "都要盛滿了"
             },
             {
               "id": "hebrew-3196",
-              "eng": "with wine"
+              "cht": "酒",
+              "punct_cht": "。』"
             },
             {
-              "id": ""
+              "id": "hebrew-413",
+              "cht": "他們必對你"
             },
             {
-              "id": ""
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "我們豈不"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "確"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-5035",
+              "cht": "罈"
+            },
+            {
+              "id": "hebrew-4390",
+              "cht": "都要盛滿了"
+            },
+            {
+              "id": "hebrew-3196",
+              "cht": "酒"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？』"
             }
           ]
         },
@@ -393,73 +364,70 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "2sa.6.5",
-          "cunp": "大衛和以色列的全家在耶和華面前，用松木製造的各樣樂器和琴、瑟、鼓、鈸、鑼，作樂跳舞。",
+          "nasb": "Meanwhile, David and all the house of Israel were celebrating before the Lord with all kinds of instruments made of fir wood, and with lyres, harps, tambourines, castanets and cymbals.",
           "words": [
             {
               "id": "hebrew-1732",
-              "eng": "And David"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
-            },
-            {
-              "id": "hebrew-7832",
-              "eng": "played [music]"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "和以色列"
             },
             {
               "id": "hebrew-3605",
-              "eng": "on all kinds"
+              "cht": "的全"
             },
             {
-              "id": "hebrew-6086",
-              "eng": "of [instruments of] wood",
-              "punct": "､"
+              "id": "hebrew-1004",
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "在耶和華"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "面前",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1265",
-              "eng": "fir"
+              "cht": "用松"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "木"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "製造的各樣"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and on harps",
-              "punct": "､"
+              "cht": "樂器和琴、"
             },
             {
               "id": "hebrew-5035",
-              "eng": "and on stringed instruments",
-              "punct": "､"
+              "cht": "瑟、"
             },
             {
               "id": "hebrew-8596",
-              "eng": "and on tambourines",
-              "punct": "､"
+              "cht": "鼓、"
             },
             {
               "id": "hebrew-4517",
-              "eng": "and on sistrums",
-              "punct": "､"
+              "cht": "鈸、"
             },
             {
               "id": "hebrew-6767",
-              "eng": "and on cymbals",
-              "punct": "."
+              "cht": "鑼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7832",
+              "cht": "作樂跳舞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -470,104 +438,97 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "2ch.29.25",
-          "cunp": "王又派利未人在耶和華殿中敲鈸，鼓瑟，彈琴，乃照大衛和他先見迦得，並先知拿單所吩咐的，就是耶和華藉先知所吩咐的。",
+          "nasb": "He then stationed the Levites in the house of the Lord with cymbals, with harps and with lyres, according to the command of David and of Gad the king’s seer, and of Nathan the prophet; for the command was from the Lord through His prophets.",
           "words": [
             {
               "id": "hebrew-5975",
-              "eng": "And he stationed"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "王又派"
             },
             {
               "id": "hebrew-3881",
-              "eng": "the Levites"
+              "cht": "利未人"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "在耶和華"
             },
             {
               "id": "hebrew-1004",
-              "eng": "in the house"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "殿"
             },
             {
               "id": "hebrew-4700",
-              "eng": "with cymbals",
-              "punct": "､"
+              "cht": "中敲鈸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5035",
-              "eng": "with stringed instruments",
-              "punct": "､"
+              "cht": "鼓瑟",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and with harps",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4687",
-              "eng": "according to the commandment"
+              "cht": "彈琴",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1410",
-              "eng": "and of Gad"
-            },
-            {
-              "id": "hebrew-2374",
-              "eng": "seer",
-              "punct": "､"
+              "cht": "乃照大衛"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "和他"
+            },
+            {
+              "id": "hebrew-2374",
+              "cht": "先見"
+            },
+            {
+              "id": "hebrew-1410",
+              "cht": "迦得",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5030",
+              "cht": "並先知"
             },
             {
               "id": "hebrew-5416",
-              "eng": "and of Nathan"
-            },
-            {
-              "id": "hebrew-5030",
-              "eng": "the prophet",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "of"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "拿單"
             },
             {
               "id": "hebrew-4687",
-              "eng": "the thus [was] commandment"
+              "cht": "所吩咐"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "就是"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3027",
-              "eng": "by"
+              "cht": "藉"
             },
             {
               "id": "hebrew-5030",
-              "eng": "his prophets",
-              "punct": "."
+              "cht": "先知"
             },
             {
-              "id": ""
+              "id": "hebrew-4687",
+              "cht": "所吩咐"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -578,40 +539,41 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "2ch.20.28",
-          "cunp": "他們彈琴、鼓瑟、吹號來到耶路撒冷，進了耶和華的殿。",
+          "nasb": "They came to Jerusalem with harps, lyres and trumpets to the house of the Lord.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "So they came"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "to Jerusalem"
-            },
-            {
               "id": "hebrew-5035",
-              "eng": "with stringed instruments"
+              "cht": "他們彈琴、"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and harps"
+              "cht": "鼓瑟、"
             },
             {
               "id": "hebrew-2689",
-              "eng": "and trumpets"
+              "cht": "吹號"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "來到"
+            },
+            {
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "進了"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "的殿",
+              "punct_cht": "。"
             }
           ]
         },
@@ -622,99 +584,82 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "1ch.25.1",
-          "cunp": "大衛和眾首領分派亞薩、希幔，並耶杜頓的子孫彈琴、鼓瑟、敲鈸、唱歌。他們供職的人數記在下面：",
+          "nasb": "Moreover, David and the commanders of the army set apart for the service some of the sons of Asaph and of Heman and of Jeduthun, who were to prophesy with lyres, harps and cymbals; and the number of those who performed their service was:",
           "words": [
             {
-              "id": "hebrew-914",
-              "eng": "Moreover separated"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-8269",
-              "eng": "and the captains"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of the army"
+              "cht": "和眾首"
             },
             {
-              "id": "hebrew-5656",
-              "eng": "for service"
+              "id": "hebrew-8269",
+              "cht": "領"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "[some] of the sons"
+              "id": "hebrew-914",
+              "cht": "分派"
             },
             {
               "id": "hebrew-623",
-              "eng": "of Asaph",
-              "punct": "､"
+              "cht": "亞薩、"
             },
             {
               "id": "hebrew-1968",
-              "eng": "and of Heman",
-              "punct": "､"
+              "cht": "希幔",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3038",
-              "eng": "and of Jeduthun",
-              "punct": "､"
+              "cht": "並耶杜頓"
             },
             {
-              "id": "hebrew-5030",
-              "eng": "who [should] prophesy"
+              "id": "hebrew-1121",
+              "cht": "的子孫"
             },
             {
               "id": "hebrew-3658",
-              "eng": "with harps",
-              "punct": "､"
+              "cht": "彈琴、"
             },
             {
               "id": "hebrew-5035",
-              "eng": "stringed instruments",
-              "punct": "､"
+              "cht": "鼓瑟、"
             },
             {
               "id": "hebrew-4700",
-              "eng": "and cymbals",
-              "punct": "–"
+              "cht": "敲鈸"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "and was",
-              "punct": "–"
+              "id": "",
+              "cht": "、唱歌【"
             },
             {
-              "id": "hebrew-4557",
-              "eng": "the number"
+              "id": "hebrew-5012",
+              "cht": "原文作說預言"
             },
             {
-              "id": "hebrew-376",
-              "eng": "of men"
+              "id": "",
+              "cht": "本章同】",
+              "punct_cht": "；。"
             },
             {
               "id": "hebrew-4399",
-              "eng": "the skilled"
+              "cht": "他們供職"
             },
             {
-              "id": "hebrew-5656",
-              "eng": "[performing their] service",
-              "punct": "."
+              "id": "hebrew-582",
+              "cht": "的人"
             },
             {
-              "id": ""
+              "id": "hebrew-4557",
+              "cht": "數"
             },
             {
-              "id": "hebrew-5012"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-582"
+              "id": "hebrew-1961",
+              "cht": "記在下面",
+              "punct_cht": "："
             }
           ]
         }

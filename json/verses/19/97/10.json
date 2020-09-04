@@ -3,18 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-157": "You who love",
-          "hebrew-3068": "Yahweh",
-          "hebrew-8130": "hate",
-          "hebrew-7451": "evil",
-          "hebrew-8104": "He preserves",
-          "hebrew-5315": "the souls",
-          "hebrew-2623": "of His saints",
-          "hebrew-3027": "out of the hand",
-          "hebrew-7563": "of the wicked",
-          "hebrew-5337": "He delivers them",
-          "": null,
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-157": "You who love",
+            "hebrew-3068": "Yahweh",
+            "hebrew-8130": "hate",
+            "hebrew-7451": "evil",
+            "hebrew-8104": "He preserves",
+            "hebrew-5315": "the souls",
+            "hebrew-2623": "of His saints",
+            "hebrew-3027": "out of the hand",
+            "hebrew-7563": "of the wicked",
+            "hebrew-5337": "He delivers them",
+            "": null,
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-157": "你們愛",
+            "hebrew-3068": "耶和華",
+            "hebrew-8130": "都當恨惡",
+            "hebrew-7451": "罪惡",
+            "hebrew-8104": "他保護",
+            "hebrew-5315": "的性命",
+            "hebrew-2623": "聖民",
+            "hebrew-3027": "的手",
+            "hebrew-7563": "脫離惡人",
+            "hebrew-5337": "搭救他們",
+            "hebrew-4480": "的手"
+          }
         }
       },
       "translations": {
@@ -33,84 +48,84 @@
             "hebrew-8130": 1.577188309568953
           },
           "verseKey": "deu.21.15",
-          "cunp": "「人若有二妻，一為所愛，一為所惡，所愛的、所惡的都給他生了兒子，但長子是所惡之妻生的。",
+          "nasb": "“If a man has two wives, the one loved and the other unloved, and both the loved and the unloved have borne him sons, if the firstborn son belongs to the unloved,",
           "words": [
             {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "If"
+              "cht": "若"
             },
             {
               "id": "hebrew-1961",
-              "eng": "has"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "有"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "二"
             },
             {
               "id": "hebrew-802",
-              "eng": "wives",
-              "punct": "､"
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "一"
             },
             {
               "id": "hebrew-157",
-              "eng": "loved",
-              "punct": "､"
+              "cht": "為所愛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "and one"
+              "cht": "一"
             },
             {
               "id": "hebrew-8130",
-              "eng": "unloved",
-              "punct": "､"
+              "cht": "為所惡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-157",
+              "cht": "所愛的、"
+            },
+            {
+              "id": "hebrew-8130",
+              "cht": "所惡的"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and they have borne"
+              "cht": "生了"
             },
             {
               "id": "hebrew-1121",
-              "eng": "children",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-157",
-              "eng": "[both] the loved"
-            },
-            {
-              "id": "hebrew-8130",
-              "eng": "and the unloved",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and [if] is"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1060",
-              "eng": "firstborn"
+              "cht": "但長"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "子"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "是"
             },
             {
               "id": "hebrew-8146",
-              "eng": "of her who is unloved",
-              "punct": "､"
+              "cht": "所惡"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "之妻生的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -121,140 +136,108 @@
             "hebrew-8104": 0.8581351593327187
           },
           "verseKey": "jhn.14.21",
-          "cunp": "有了我的命令又遵守的，這人就是愛我的；愛我的必蒙我父愛他，我也要愛他，並且要向他顯現。」",
+          "nasb": "He who has My commandments and keeps them is the one who loves Me; and he who loves Me will be loved by My Father, and I will love him and will disclose Myself to him.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1785",
-              "eng": "commandments"
+              "cht": "有"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me"
+              "cht": "了我的"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "命令"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5083",
-              "eng": "keeping"
+              "cht": "又"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "遵守"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1565",
-              "eng": "he"
+              "cht": "這人"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
+              "cht": "就是"
             },
             {
               "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
+              "cht": "我的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": ","
-            },
-            {
-              "id": "greek-25",
-              "eng": "will be loved"
+              "cht": "我的"
             },
             {
               "id": "greek-5259",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father"
+              "cht": "必蒙"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me",
-              "punct": ";"
+              "cht": "我"
             },
             {
-              "id": "greek-2504",
-              "eng": "and I"
+              "id": "greek-3962",
+              "cht": "父"
             },
             {
               "id": "greek-25",
-              "eng": "will love"
+              "cht": "愛"
             },
             {
-              "id": "greek-846",
-              "eng": "him"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3450",
+              "cht": "我"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
-              "id": "greek-1718",
-              "eng": "will show"
+              "id": "greek-25",
+              "cht": "要愛"
             },
             {
               "id": "greek-846",
-              "eng": "to him"
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並且"
+            },
+            {
+              "id": "greek-846",
+              "cht": "要向他"
             },
             {
               "id": "greek-1683",
-              "eng": "Myself",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3450"
-            },
-            {
-              "id": "greek-2532"
+              "cht": "顯現",
+              "punct_cht": "。"
             }
           ]
         },
@@ -265,110 +248,98 @@
             "hebrew-2623": 4.576110205744392
           },
           "verseKey": "jer.3.12",
-          "cunp": "你去向北方宣告說： 耶和華說：背道的以色列啊，回來吧！ 我必不怒目看你們； 因為我是慈愛的， 我必不永遠存怒。 這是耶和華說的。",
+          "nasb": "Go and proclaim these words toward the north and say, ‘Return, faithless Israel,’ declares the Lord; ‘I will not look upon you in anger. For I am gracious,’ declares the Lord; ‘I will not be angry forever.",
           "words": [
             {
               "id": "hebrew-1980",
-              "eng": "Go"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "and proclaim"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "words"
-            },
-            {
-              "id": "hebrew-428",
-              "eng": "these"
+              "cht": "你去"
             },
             {
               "id": "hebrew-6828",
-              "eng": "toward the north",
-              "punct": "､"
+              "cht": "向北方"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "宣告"
             },
             {
               "id": "hebrew-559",
-              "eng": "and say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-7725",
-              "eng": "Return",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4878",
-              "eng": "backsliding"
+              "cht": "背道的"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
+              "id": "hebrew-7725",
+              "cht": "回來吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "I will cause to fall"
+              "cht": "我必不"
             },
             {
               "id": "hebrew-6440",
-              "eng": "My anger"
+              "cht": "怒目"
+            },
+            {
+              "id": "hebrew-5307",
+              "cht": "看"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2623",
-              "eng": "merciful",
-              "punct": "､"
+              "cht": "因為"
             },
             {
               "id": "hebrew-589",
-              "eng": "I [am]"
+              "cht": "我"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-2623",
+              "cht": "是慈愛的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5201",
-              "eng": "I will remain angry"
+              "cht": "我必不"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "."
+              "cht": "永遠"
             },
             {
-              "id": ""
+              "id": "hebrew-5201",
+              "cht": "存怒",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "這是耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -379,47 +350,46 @@
             "hebrew-2623": 4.576110205744392
           },
           "verseKey": "psa.4.3",
-          "cunp": "你們要知道，耶和華已經分別虔誠人歸他自己； 我求告耶和華，他必聽我。",
+          "nasb": "But know that the Lord has set apart the godly man for Himself; The Lord hears when I call to Him.",
           "words": [
             {
               "id": "hebrew-3045",
-              "eng": "but know"
+              "cht": "你們要知道",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-6395",
-              "eng": "has set apart"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "已經分別"
             },
             {
               "id": "hebrew-2623",
-              "eng": "him who is godly"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "will hear"
+              "cht": "虔誠人"
             },
             {
               "id": "hebrew-7121",
-              "eng": "when I call"
+              "cht": "我求告"
             },
             {
               "id": "hebrew-413",
-              "eng": "to Him",
-              "punct": "."
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3068",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "必聽"
+            },
+            {
+              "id": "",
+              "cht": "我",
+              "punct_cht": "。"
             }
           ]
         },
@@ -430,158 +400,125 @@
             "hebrew-8130": 1.577188309568953
           },
           "verseKey": "1jn.4.20",
-          "cunp": "人若說「我愛神」，卻恨他的弟兄，就是說謊話的；不愛他所看見的弟兄，就不能愛沒有看見的神。",
+          "nasb": "If someone says, “I love God,” and hates his brother, he is a liar; for the one who does not love his brother whom he has seen, cannot love God whom he has not seen.",
           "words": [
             {
-              "id": "greek-1437",
-              "eng": "If"
+              "id": "greek-5100",
+              "cht": "人"
             },
             {
-              "id": "greek-5100",
-              "eng": "anyone"
+              "id": "greek-1437",
+              "cht": "若"
             },
             {
               "id": "greek-2036",
-              "eng": "should say"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
-              "punct": ","
+              "cht": "說"
             },
             {
               "id": "greek-25",
-              "eng": "I love"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我愛"
             },
             {
               "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brother"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "卻"
             },
             {
               "id": "greek-3404",
-              "eng": "should hate",
-              "punct": ","
-            },
-            {
-              "id": "greek-5583",
-              "eng": "a liar"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "he is",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-25",
-              "eng": "loving"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brother"
+              "cht": "恨"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
+              "cht": "他的"
             },
             {
-              "id": "greek-3739",
-              "eng": "whom"
+              "id": "greek-80",
+              "cht": "弟兄",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3708",
-              "eng": "he has seen",
-              "punct": ","
+              "id": "greek-2076",
+              "cht": "就是"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5583",
+              "cht": "說謊話的",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3708",
-              "eng": "he has seen",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1410",
-              "eng": "is he able"
+              "id": "greek-3361",
+              "cht": "不"
             },
             {
               "id": "greek-25",
-              "eng": "to love",
-              "punct": "."
+              "cht": "愛"
             },
             {
-              "id": ""
+              "id": "greek-846",
+              "cht": "他"
             },
             {
-              "id": ""
+              "id": "greek-3739",
+              "cht": "所"
             },
             {
-              "id": "greek-4459"
+              "id": "greek-3708",
+              "cht": "看見"
             },
             {
-              "id": ""
+              "id": "greek-80",
+              "cht": "的弟兄"
             },
             {
-              "id": "greek-2316"
+              "id": "",
+              "cht": "就不能愛沒有看見的",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "（有古卷作",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-4459",
+              "cht": "怎"
+            },
+            {
+              "id": "greek-1410",
+              "cht": "能"
+            },
+            {
+              "id": "greek-25",
+              "cht": "愛"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-3708",
+              "cht": "看見"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "呢）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -593,57 +530,56 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "pro.8.13",
-          "cunp": "敬畏耶和華在乎恨惡邪惡； 那驕傲、狂妄，並惡道， 以及乖謬的口，都為我所恨惡。",
+          "nasb": "The fear of the Lord is to hate evil; Pride and arrogance and the evil way And the perverted mouth, I hate.",
           "words": [
             {
               "id": "hebrew-3374",
-              "eng": "The fear"
+              "cht": "敬畏"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-8130",
-              "eng": "[is] to hate"
+              "cht": "在乎恨惡"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "–"
+              "cht": "邪惡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1344",
-              "eng": "Pride",
-              "punct": "､"
+              "cht": "那驕傲、"
             },
             {
               "id": "hebrew-1347",
-              "eng": "and arrogance",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "and the way",
-              "punct": "､"
+              "cht": "狂妄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
+              "cht": "並惡"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "and the mouth",
-              "punct": "､"
+              "id": "hebrew-1870",
+              "cht": "道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8419",
-              "eng": "perverse"
+              "cht": "以及乖謬的"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8130",
-              "eng": "I hate",
-              "punct": "."
+              "cht": "都為我所恨惡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -654,79 +590,70 @@
             "hebrew-2623": 4.576110205744392
           },
           "verseKey": "psa.12.1",
-          "cunp": "耶和華啊，求你幫助，因虔誠人斷絕了； 世人中間的忠信人沒有了。",
+          "nasb": "Help, Lord, for the godly man ceases to be, For the faithful disappear from among the sons of men.",
           "words": [
             {
-              "id": "hebrew-5329",
-              "eng": "To the Chief Musician"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "On"
-            },
-            {
-              "id": "hebrew-8067",
-              "eng": "an eight-stringed harp",
-              "punct": "､"
+              "id": "hebrew-1732",
+              "cht": "大衛的"
             },
             {
               "id": "hebrew-4210",
-              "eng": "a Psalm"
+              "cht": "詩",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "."
+              "id": "hebrew-5329",
+              "cht": "交與伶長",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-3467",
-              "eng": "Help",
-              "punct": "､"
+              "id": "hebrew-5921",
+              "cht": "調用"
+            },
+            {
+              "id": "hebrew-8067",
+              "cht": "第八）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3467",
+              "cht": "求你幫助",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-1584",
-              "eng": "ceases",
-              "punct": "–"
+              "cht": "因"
             },
             {
               "id": "hebrew-2623",
-              "eng": "the godly man"
+              "cht": "虔誠人"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-6461",
-              "eng": "disappear"
-            },
-            {
-              "id": "hebrew-539",
-              "eng": "the faithful"
+              "id": "hebrew-1584",
+              "cht": "斷絕了",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1121",
-              "eng": "from among the sons"
+              "cht": "世人中間的"
             },
             {
-              "id": "hebrew-120",
-              "eng": "of men",
-              "punct": "."
+              "id": "hebrew-539",
+              "cht": "忠信人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-6461",
+              "cht": "沒有了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -737,37 +664,38 @@
             "hebrew-2623": 4.576110205744392
           },
           "verseKey": "psa.145.17",
-          "cunp": "耶和華在他一切所行的，無不公義； 在他一切所做的都有慈愛。",
+          "nasb": "The Lord is righteous in all His ways And kind in all His deeds.",
           "words": [
             {
-              "id": "hebrew-6662",
-              "eng": "Righteous"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh [is]"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3605",
-              "eng": "in all"
+              "cht": "在他一切"
             },
             {
               "id": "hebrew-1870",
-              "eng": "His ways",
-              "punct": "､"
+              "cht": "所行的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2623",
-              "eng": "and Merciful"
+              "id": "hebrew-6662",
+              "cht": "無不公義",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "in all"
+              "cht": "在他一切"
             },
             {
               "id": "hebrew-4639",
-              "eng": "His works",
-              "punct": "."
+              "cht": "所做的"
+            },
+            {
+              "id": "hebrew-2623",
+              "cht": "都有慈愛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -778,46 +706,46 @@
             "hebrew-2623": 4.576110205744392
           },
           "verseKey": "psa.149.1",
-          "cunp": "你們要讚美耶和華！ 向耶和華唱新歌， 在聖民的會中讚美他！",
+          "nasb": "Praise the Lord! Sing to the Lord a new song, And His praise in the congregation of the godly ones.",
           "words": [
             {
               "id": "hebrew-1984",
-              "eng": "Praise"
+              "cht": "你們要讚美"
             },
             {
               "id": "hebrew-3050",
-              "eng": "YAH",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7891",
-              "eng": "Sing"
+              "cht": "耶和華",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh"
+              "cht": "向耶和華"
             },
             {
-              "id": "hebrew-7892",
-              "eng": "a song",
-              "punct": "､"
+              "id": "hebrew-7891",
+              "cht": "唱"
             },
             {
               "id": "hebrew-2319",
-              "eng": "new"
+              "cht": "新"
             },
             {
-              "id": "hebrew-8416",
-              "eng": "[And] His praise"
-            },
-            {
-              "id": "hebrew-6951",
-              "eng": "in the assembly"
+              "id": "hebrew-7892",
+              "cht": "歌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2623",
-              "eng": "of saints",
-              "punct": "."
+              "cht": "在聖民"
+            },
+            {
+              "id": "hebrew-6951",
+              "cht": "的會中"
+            },
+            {
+              "id": "hebrew-8416",
+              "cht": "讚美他",
+              "punct_cht": "！"
             }
           ]
         },
@@ -827,71 +755,64 @@
             "hebrew-2623": 4.576110205744392
           },
           "verseKey": "mic.7.2",
-          "cunp": "地上虔誠人滅盡； 世間沒有正直人； 各人埋伏，要殺人流血， 都用網羅獵取弟兄。",
+          "nasb": "The godly person has perished from the land, And there is no upright person among men. All of them lie in wait for bloodshed; Each of them hunts the other with a net.",
           "words": [
             {
-              "id": "hebrew-6",
-              "eng": "Has perished"
+              "id": "hebrew-776",
+              "cht": "地上"
             },
             {
               "id": "hebrew-2623",
-              "eng": "the godly [man]"
+              "cht": "虔誠人"
             },
             {
-              "id": "hebrew-4480",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3477",
-              "eng": "and upright"
+              "id": "hebrew-6",
+              "cht": "滅盡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-120",
-              "eng": "among men",
-              "punct": "."
+              "cht": "世間"
             },
             {
               "id": "hebrew-369",
-              "eng": "[there is] no one"
+              "cht": "沒有"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "they all"
-            },
-            {
-              "id": "hebrew-1818",
-              "eng": "for blood",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-693",
-              "eng": "lie in wait"
+              "id": "hebrew-3477",
+              "cht": "正直人",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-376",
-              "eng": "every man"
+              "cht": "各人"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-693",
+              "cht": "埋伏",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-251",
-              "eng": "his brother"
+              "id": "hebrew-1818",
+              "cht": "要殺人流血",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6679",
-              "eng": "hunts"
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-2764",
-              "eng": "with a net",
-              "punct": "."
+              "cht": "用網羅"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "獵取"
+            },
+            {
+              "id": "hebrew-251",
+              "cht": "弟兄",
+              "punct_cht": "。"
             }
           ]
         }

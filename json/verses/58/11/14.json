@@ -3,14 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "Those",
-          "greek-1063": "for",
-          "greek-5108": "such things",
-          "greek-3004": "saying",
-          "greek-1718": "make manifest",
-          "greek-3754": "that [their]",
-          "greek-3968": "own country",
-          "greek-1934": "they are seeking"
+          "eng": {
+            "greek-3588": "Those",
+            "greek-1063": "for",
+            "greek-5108": "such things",
+            "greek-3004": "saying",
+            "greek-1718": "make manifest",
+            "greek-3754": "that [their]",
+            "greek-3968": "own country",
+            "greek-1934": "they are seeking"
+          },
+          "cht": {
+            "greek-5108": "這樣話",
+            "greek-3004": "說",
+            "greek-1718": "的人是表明",
+            "greek-3754": "的人是表明",
+            "greek-3968": "一個家鄉",
+            "greek-1934": "自己要找"
+          }
         }
       },
       "translations": {
@@ -23,65 +33,50 @@
             "greek-1934": 4.414215456672498
           },
           "verseKey": "php.4.17",
-          "cunp": "我並不求甚麼餽送，所求的就是你們的果子漸漸增多，歸在你們的帳上。",
+          "nasb": "Not that I seek the gift itself, but I seek for the profit which increases to your account.",
           "words": [
             {
               "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
+              "cht": "我並不"
             },
             {
               "id": "greek-1934",
-              "eng": "I seek after"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "求"
             },
             {
               "id": "greek-1390",
-              "eng": "gift",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
+              "cht": "甚麼餽送",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1934",
-              "eng": "I seek after"
+              "cht": "所求的"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-235",
+              "cht": "就是"
             },
             {
               "id": "greek-2590",
-              "eng": "fruit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "你們的果子"
             },
             {
               "id": "greek-4121",
-              "eng": "abounding"
+              "cht": "漸漸增多",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3056",
-              "eng": "[the] account"
+              "cht": "歸在"
             },
             {
               "id": "greek-5216",
-              "eng": "of you",
-              "punct": "."
+              "cht": "你們的"
+            },
+            {
+              "id": "greek-3056",
+              "cht": "帳上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -92,71 +87,58 @@
             "greek-3968": 5.492088685277254
           },
           "verseKey": "luk.4.24",
-          "cunp": "又說：「我實在告訴你們，沒有先知在自己家鄉被人悅納的。",
+          "nasb": "And He said, “Truly I say to you, no prophet is welcome in his hometown.",
           "words": [
             {
-              "id": "greek-2036",
-              "eng": "He said"
+              "id": "greek-1161",
+              "cht": "又"
             },
             {
-              "id": "greek-1161",
-              "eng": "then",
-              "punct": ","
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-281",
-              "eng": "Truly"
+              "cht": "我實在"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3762",
-              "eng": "no"
+              "cht": "沒有"
             },
             {
               "id": "greek-4396",
-              "eng": "prophet"
-            },
-            {
-              "id": "greek-1184",
-              "eng": "acceptable"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
+              "cht": "先知"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3968",
-              "eng": "hometown"
+              "cht": "在"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "cht": "自己"
             },
             {
-              "id": "greek-2076"
+              "id": "greek-3968",
+              "cht": "家鄉"
             },
             {
-              "id": ""
+              "id": "greek-1184",
+              "cht": "被人悅納"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -167,114 +149,92 @@
             "greek-3968": 5.492088685277254
           },
           "verseKey": "mat.13.54",
-          "cunp": "來到自己的家鄉，在會堂裏教訓人，甚至他們都希奇，說：「這人從哪裏有這等智慧和異能呢？",
+          "nasb": "He came to His hometown and began teaching them in their synagogue, so that they were astonished, and said, “Where did this man get this wisdom and these miraculous powers?",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-2064",
-              "eng": "having come"
+              "cht": "來"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
+              "cht": "到"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "自己的"
             },
             {
               "id": "greek-3968",
-              "eng": "region"
+              "cht": "家鄉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "His [own]",
-              "punct": ","
-            },
-            {
-              "id": "greek-1321",
-              "eng": "He was teaching"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-4864",
-              "eng": "synagogue"
+              "cht": "會堂"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "裡"
+            },
+            {
+              "id": "greek-1321",
+              "cht": "教訓"
             },
             {
               "id": "greek-846",
-              "eng": "of them",
-              "punct": ","
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5620",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-1605",
-              "eng": "are astonished"
+              "cht": "甚至"
             },
             {
               "id": "greek-846",
-              "eng": "they"
+              "cht": "他們"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1605",
+              "cht": "都希奇",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "are saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-4159",
-              "eng": "From where"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5129",
-              "eng": "to this [man]"
+              "cht": "這人"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4678",
-              "eng": "wisdom"
+              "id": "greek-4159",
+              "cht": "從那裡"
             },
             {
               "id": "greek-3778",
-              "eng": "this"
+              "cht": "有這等"
+            },
+            {
+              "id": "greek-4678",
+              "cht": "智慧"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-1411",
-              "eng": "miraculous powers",
-              "punct": "?"
+              "cht": "異能"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -284,116 +244,89 @@
             "greek-3968": 5.492088685277254
           },
           "verseKey": "mat.13.57",
-          "cunp": "他們就厭棄他。耶穌對他們說：「大凡先知，除了本地本家之外，沒有不被人尊敬的。」",
+          "nasb": "And they took offense at Him. But Jesus said to them, “A prophet is not without honor except in his hometown and in his own household.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "他們就"
+            },
+            {
+              "id": "",
+              "cht": "厭棄他（厭棄他",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-1722",
+              "cht": "原文是因"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他"
             },
             {
               "id": "greek-4624",
-              "eng": "they were offended"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "at"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "But"
+              "cht": "跌倒）",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-846",
+              "cht": "對他們"
             },
             {
               "id": "greek-2036",
-              "eng": "said"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "is"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4396",
-              "eng": "a prophet"
-            },
-            {
-              "id": "greek-820",
-              "eng": "without Honor",
-              "punct": ","
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
+              "cht": "大凡先知",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3968",
-              "eng": "hometown",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3614",
-              "eng": "household"
+              "cht": "除了"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "cht": "本"
             },
             {
-              "id": ""
+              "id": "greek-1722",
+              "cht": "地"
             },
             {
-              "id": "greek-846"
+              "id": "greek-846",
+              "cht": "本"
             },
             {
-              "id": "greek-1508"
+              "id": "greek-3614",
+              "cht": "家"
             },
             {
-              "id": ""
+              "id": "greek-1508",
+              "cht": "之外",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "沒"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "有"
+            },
+            {
+              "id": "greek-820",
+              "cht": "不被人尊敬"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -403,128 +336,67 @@
             "greek-3968": 5.492088685277254
           },
           "verseKey": "mrk.6.4",
-          "cunp": "耶穌對他們說：「大凡先知，除了本地、親屬、本家之外，沒有不被人尊敬的。」",
+          "nasb": "Jesus said to them, “A prophet is not without honor except in his hometown and among his own relatives and in his own household.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2424",
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-846",
+              "cht": "對他們"
             },
             {
               "id": "greek-3004",
-              "eng": "said"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4396",
-              "eng": "a prophet"
-            },
-            {
-              "id": "greek-820",
-              "eng": "without honor",
-              "punct": ","
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
+              "cht": "大凡先知",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "除了"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "本"
             },
             {
               "id": "greek-3968",
-              "eng": "hometown"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "among"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "地、"
             },
             {
               "id": "greek-4773",
-              "eng": "relatives"
+              "cht": "親屬、"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "本"
             },
             {
               "id": "greek-3614",
-              "eng": "household"
+              "cht": "家"
             },
             {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "id": "",
+              "cht": "之外",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1508"
+              "id": "greek-3756",
+              "cht": "沒有"
             },
             {
-              "id": ""
+              "id": "greek-820",
+              "cht": "不被人尊敬"
             },
             {
-              "id": "greek-2076"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -534,64 +406,57 @@
             "greek-3968": 5.492088685277254
           },
           "verseKey": "jhn.4.44",
-          "cunp": "因為耶穌自己作過見證說：「先知在本地是沒有人尊敬的。」",
+          "nasb": "For Jesus Himself testified that a prophet has no honor in his own country.",
           "words": [
             {
-              "id": "greek-846",
-              "eng": "Himself"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-846",
+              "cht": "自己"
             },
             {
               "id": "greek-3140",
-              "eng": "testified"
+              "cht": "作過見證"
             },
             {
-              "id": "greek-3754",
-              "eng": "that"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "greek-4396",
-              "eng": "a prophet"
+              "cht": "先知"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-2398",
-              "eng": "own"
+              "cht": "本"
             },
             {
               "id": "greek-3968",
-              "eng": "hometown",
-              "punct": ","
-            },
-            {
-              "id": "greek-5092",
-              "eng": "honor"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
+              "cht": "地"
             },
             {
               "id": "greek-2192",
-              "eng": "has",
-              "punct": "."
+              "cht": "是"
             },
             {
-              "id": ""
+              "id": "greek-3756",
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-5092",
+              "cht": "人尊敬的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -601,128 +466,109 @@
             "greek-3968": 5.492088685277254
           },
           "verseKey": "luk.4.23",
-          "cunp": "耶穌對他們說：「你們必引這俗語向我說：『醫生，你醫治自己吧！我們聽見你在迦百農所行的事，也當行在你自己家鄉裏』」；",
+          "nasb": "And He said to them, “No doubt you will quote this proverb to Me, ‘Physician, heal yourself! Whatever we heard was done at Capernaum, do here in your hometown as well.’ ”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "He said"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-4314",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "他們"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3843",
-              "eng": "Surely"
-            },
-            {
-              "id": "greek-2046",
-              "eng": "you will say"
-            },
-            {
-              "id": "greek-3427",
-              "eng": "to Me"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3850",
-              "eng": "proverb"
+              "cht": "你們必"
             },
             {
               "id": "greek-5026",
-              "eng": "this",
-              "punct": ","
+              "cht": "引這"
+            },
+            {
+              "id": "greek-3850",
+              "cht": "俗語"
+            },
+            {
+              "id": "greek-3427",
+              "cht": "向"
+            },
+            {
+              "id": "greek-2046",
+              "cht": "我說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2395",
-              "eng": "Physician"
+              "cht": "醫生",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2323",
-              "eng": "heal"
+              "cht": "你醫治"
             },
             {
               "id": "greek-4572",
-              "eng": "yourself",
-              "punct": "!"
+              "cht": "自己"
             },
             {
-              "id": "greek-3745",
-              "eng": "Whatsoever"
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！"
             },
             {
               "id": "greek-191",
-              "eng": "we have heard"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "has been done"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2584",
-              "eng": "Capernaum",
-              "punct": ","
-            },
-            {
-              "id": "greek-4160",
-              "eng": "do"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-5602",
-              "eng": "here"
+              "cht": "我們聽見"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "你在"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2584",
+              "cht": "迦百農"
             },
             {
-              "id": "greek-3968",
-              "eng": "hometown"
+              "id": "greek-1096",
+              "cht": "所行"
+            },
+            {
+              "id": "greek-3745",
+              "cht": "的事",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
+            },
+            {
+              "id": "greek-5602",
+              "cht": "當行"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
             },
             {
               "id": "greek-4675",
-              "eng": "of You",
-              "punct": "."
+              "cht": "你"
             },
             {
-              "id": "greek-2424"
+              "id": "greek-3968",
+              "cht": "自己家鄉"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-1722"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "；"
             }
           ]
         },
@@ -732,69 +578,50 @@
             "greek-3968": 5.492088685277254
           },
           "verseKey": "mrk.6.1",
-          "cunp": "耶穌離開那裏，來到自己的家鄉；門徒也跟從他。",
+          "nasb": "Jesus went out from there and *came into His hometown; and His disciples *followed Him.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-1831",
-              "eng": "He went out"
+              "cht": "耶穌離開"
             },
             {
               "id": "greek-1564",
-              "eng": "from there"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2064",
-              "eng": "came"
+              "cht": "來"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
+              "cht": "到"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "自己的"
             },
             {
               "id": "greek-3968",
-              "eng": "hometown"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-190",
-              "eng": "follow"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "家鄉",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3101",
-              "eng": "disciples"
+              "cht": "門徒"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
+            },
+            {
+              "id": "greek-190",
+              "cht": "跟從"
             },
             {
               "id": "greek-846",
-              "eng": "of Him",
-              "punct": "."
+              "cht": "他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -805,103 +632,75 @@
             "greek-1718": 4.967387449270056
           },
           "verseKey": "jhn.14.22",
-          "cunp": "猶大（不是加略人猶大）問耶穌說：「主啊，為甚麼要向我們顯現，不向世人顯現呢？」",
+          "nasb": "Judas (not Iscariot) *said to Him, “Lord, what then has happened that You are going to disclose Yourself to us and not to the world?”",
           "words": [
             {
-              "id": "greek-3004",
-              "eng": "Says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to Him"
-            },
-            {
               "id": "greek-2455",
-              "eng": "Judas",
-              "punct": ","
+              "cht": "猶大（"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "不"
             },
             {
               "id": "greek-2469",
-              "eng": "Iscariot",
-              "punct": ","
+              "cht": "是加略人"
+            },
+            {
+              "id": "",
+              "cht": "猶大）"
+            },
+            {
+              "id": "greek-846",
+              "cht": "問耶穌"
+            },
+            {
+              "id": "greek-2455",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2962",
-              "eng": "Lord",
-              "punct": ","
+              "cht": "主"
             },
             {
-              "id": "greek-2532",
-              "eng": "then"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5101",
-              "eng": "what"
+              "cht": "為甚麼"
             },
             {
               "id": "greek-1096",
-              "eng": "has occurred"
+              "cht": "要"
             },
             {
               "id": "greek-3754",
-              "eng": "that"
+              "cht": "向"
             },
             {
-              "id": "greek-1473",
-              "eng": "to us"
-            },
-            {
-              "id": "greek-3195",
-              "eng": "You are about"
+              "id": "greek-2254",
+              "cht": "我們"
             },
             {
               "id": "greek-1718",
-              "eng": "to manifest"
-            },
-            {
-              "id": "greek-4572",
-              "eng": "Yourself",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "顯現",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3780",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "不"
             },
             {
               "id": "greek-2889",
-              "eng": "world",
-              "punct": "?"
+              "cht": "向世"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-2455"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2254"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "人顯現呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -911,106 +710,78 @@
             "greek-1718": 4.967387449270056
           },
           "verseKey": "heb.9.24",
-          "cunp": "因為基督並不是進了人手所造的聖所（這不過是真聖所的影像），乃是進了天堂，如今為我們顯在神面前；",
+          "nasb": "For Christ did not enter a holy place made with hands, a mere copy of the true one, but into heaven itself, now to appear in the presence of God for us;",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-5499",
-              "eng": "made by hands"
-            },
-            {
-              "id": "greek-1525",
-              "eng": "has entered"
-            },
-            {
-              "id": "greek-40",
-              "eng": "holy places"
+              "cht": "因為"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": ","
+              "cht": "基督"
             },
             {
-              "id": "greek-499",
-              "eng": "copies"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-228",
-              "eng": "true [ones]",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
+              "id": "greek-3756",
+              "cht": "並不"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
+              "cht": "是進了"
             },
             {
-              "id": "greek-846",
-              "eng": "itself"
+              "id": "greek-5499",
+              "cht": "人手"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-39",
+              "cht": "所造的聖所（"
+            },
+            {
+              "id": "greek-228",
+              "cht": "這不過是真"
+            },
+            {
+              "id": "greek-499",
+              "cht": "聖所的影像）",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-235",
+              "cht": "乃"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "是進了"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven",
-              "punct": ","
+              "cht": "天堂",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3568",
-              "eng": "now"
-            },
-            {
-              "id": "greek-1718",
-              "eng": "to appear"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "in the"
-            },
-            {
-              "id": "greek-4383",
-              "eng": "presence"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "of God"
+              "cht": "如今"
             },
             {
               "id": "greek-5228",
-              "eng": "for"
+              "cht": "為"
             },
             {
               "id": "greek-2257",
-              "eng": "us",
-              "punct": ","
+              "cht": "我們"
             },
             {
-              "id": "greek-39"
+              "id": "greek-1718",
+              "cht": "顯在"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "greek-4383",
+              "cht": "面前",
+              "punct_cht": "；"
             }
           ]
         }

@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4523": "To him who is afflicted",
-          "hebrew-7453": "by his friend",
-          "hebrew-2617": "kindness [should be shown]",
-          "hebrew-3374": "and Even though the fear",
-          "hebrew-7706": "of the Almighty",
-          "hebrew-5800": "he forsakes",
-          "hebrew-430": null,
-          "": null,
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-4523": "To him who is afflicted",
+            "hebrew-7453": "by his friend",
+            "hebrew-2617": "kindness [should be shown]",
+            "hebrew-3374": "and Even though the fear",
+            "hebrew-7706": "of the Almighty",
+            "hebrew-5800": "he forsakes",
+            "hebrew-430": null,
+            "": null,
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-4523": "那將要灰心、",
+            "hebrew-7453": "他的朋友",
+            "hebrew-2617": "當以慈愛",
+            "hebrew-3374": "不敬畏",
+            "hebrew-7706": "全能者、",
+            "hebrew-5800": "離棄",
+            "hebrew-430": "神",
+            "hebrew-4480": "他的朋友"
+          }
         }
       },
       "translations": {
@@ -29,47 +41,47 @@
             "hebrew-3374": 2.9026639737222575
           },
           "verseKey": "pro.16.6",
-          "cunp": "因憐憫誠實，罪孽得贖； 敬畏耶和華的，遠離惡事。",
+          "nasb": "By lovingkindness and truth iniquity is atoned for, And by the fear of the Lord one keeps away from evil.",
           "words": [
             {
               "id": "hebrew-2617",
-              "eng": "In mercy"
+              "cht": "因憐憫"
             },
             {
               "id": "hebrew-571",
-              "eng": "and truth"
-            },
-            {
-              "id": "hebrew-3722",
-              "eng": "Atonement is provided for",
-              "punct": "–"
+              "cht": "誠實",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5771",
-              "eng": "iniquity"
+              "cht": "罪孽"
+            },
+            {
+              "id": "hebrew-3722",
+              "cht": "得贖",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3374",
-              "eng": "and by the fear"
+              "cht": "敬畏"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5493",
-              "eng": "[one] departs"
+              "cht": "遠離"
             },
             {
               "id": "hebrew-7451",
-              "eng": "from evil",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "惡事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -79,63 +91,62 @@
             "hebrew-5800": 1.4346050211703696
           },
           "verseKey": "exo.23.5",
-          "cunp": "若看見恨你人的驢壓臥在重馱之下，不可走開，務要和驢主一同擡開重馱。",
+          "nasb": "If you see the donkey of one who hates you lying helpless under its load, you shall refrain from leaving it to him, you shall surely release it with him.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "If"
+              "cht": "若"
             },
             {
               "id": "hebrew-7200",
-              "eng": "you see"
-            },
-            {
-              "id": "hebrew-2543",
-              "eng": "the donkey"
+              "cht": "看見"
             },
             {
               "id": "hebrew-8130",
-              "eng": "of one who hates you"
+              "cht": "恨你人的"
+            },
+            {
+              "id": "hebrew-2543",
+              "cht": "驢"
             },
             {
               "id": "hebrew-7257",
-              "eng": "lying"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "under"
+              "cht": "壓臥"
             },
             {
               "id": "hebrew-4853",
-              "eng": "its burden",
-              "punct": "､"
+              "cht": "在重馱"
+            },
+            {
+              "id": "hebrew-8478",
+              "cht": "之下",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2308",
-              "eng": "and you would refrain"
+              "cht": "不可"
             },
             {
               "id": "hebrew-5800",
-              "eng": "from helping"
+              "cht": "走開",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5800",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-5800",
-              "eng": "you shall help him"
+              "cht": "務要"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with it",
-              "punct": "."
+              "cht": "和驢主一同"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5800",
+              "cht": "抬開"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "重馱",
+              "punct_cht": "。"
             }
           ]
         },
@@ -146,64 +157,66 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "2sa.23.3",
-          "cunp": "以色列的神、 以色列的磐石曉諭我說： 那以公義治理人民的， 敬畏神執掌權柄，",
+          "nasb": "The God of Israel said, The Rock of Israel spoke to me, ‘He who rules over men righteously, Who rules in the fear of God,",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "Said",
-              "punct": "､"
+              "id": "hebrew-3478",
+              "cht": "以色列"
+            },
+            {
+              "id": "",
+              "cht": "的"
             },
             {
               "id": "hebrew-430",
-              "eng": "the God"
+              "cht": "神、"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "spoke"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-6697",
-              "eng": "the Rock"
+              "cht": "的磐石"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "id": "hebrew-1696",
+              "cht": "曉諭"
             },
             {
-              "id": "hebrew-4910",
-              "eng": "He who rules"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "over men"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6662",
-              "eng": "[must be] just",
-              "punct": "､"
+              "cht": "那以公義"
             },
             {
               "id": "hebrew-4910",
-              "eng": "Ruling"
+              "cht": "治理"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "人民"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3374",
-              "eng": "in the fear"
+              "cht": "敬畏"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4910",
+              "cht": "執掌權柄",
+              "punct_cht": "，"
             }
           ]
         }

@@ -3,17 +3,31 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3034": "I will praise You",
-          "hebrew-5921": "upon",
-          "hebrew-3588": "for",
-          "hebrew-3372": "I am fearfully",
-          "hebrew-6395": "[and] wonderfully made",
-          "hebrew-6381": "Marvelous [are]",
-          "hebrew-4639": "Your works",
-          "hebrew-5315": "and [that] my soul",
-          "hebrew-3045": "knows",
-          "hebrew-3966": "very well",
-          "": null
+          "eng": {
+            "hebrew-3034": "I will praise You",
+            "hebrew-5921": "upon",
+            "hebrew-3588": "for",
+            "hebrew-3372": "I am fearfully",
+            "hebrew-6395": "[and] wonderfully made",
+            "hebrew-6381": "Marvelous [are]",
+            "hebrew-4639": "Your works",
+            "hebrew-5315": "and [that] my soul",
+            "hebrew-3045": "knows",
+            "hebrew-3966": "very well",
+            "": null
+          },
+          "cht": {
+            "hebrew-3034": "我要稱謝你",
+            "hebrew-5921": "因",
+            "hebrew-3588": "因",
+            "hebrew-3372": "奇妙可畏",
+            "hebrew-6395": "我受造",
+            "hebrew-6381": "奇妙",
+            "hebrew-4639": "你的作為",
+            "hebrew-5315": "這是我心",
+            "hebrew-3045": "知道",
+            "hebrew-3966": "深"
+          }
         }
       },
       "translations": {
@@ -32,97 +46,83 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "exo.8.22",
-          "cunp": "當那日，我必分別我百姓所住的歌珊地，使那裏沒有成羣的蒼蠅，好叫你知道我是天下的耶和華。",
+          "nasb": "But on that day I will set apart the land of Goshen, where My people are living, so that no swarms of flies will be there, in order that you may know that I, the Lord, am in the midst of the land.",
           "words": [
             {
-              "id": "hebrew-6395",
-              "eng": "and I will set apart"
+              "id": "hebrew-1931",
+              "cht": "當那"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in day"
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
-            },
-            {
-              "id": "hebrew-1657",
-              "eng": "of Goshen",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "id": "hebrew-6395",
+              "cht": "我必分別"
             },
             {
               "id": "hebrew-5971",
-              "eng": "My people"
+              "cht": "我百姓"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-5975",
-              "eng": "dwell",
-              "punct": "､"
+              "cht": "住"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in"
+              "cht": "的"
             },
             {
-              "id": "hebrew-1115",
-              "eng": "that not"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "shall be"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-6157",
-              "eng": "swarms [of flies]",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4616",
-              "eng": "in order that"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "you may know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "[am] in the midst"
+              "id": "hebrew-1657",
+              "cht": "歌珊"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "."
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "使那裡"
+            },
+            {
+              "id": "hebrew-1115",
+              "cht": "沒"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
+            },
+            {
+              "id": "hebrew-6157",
+              "cht": "成群的蒼蠅",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4616",
+              "cht": "好叫"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "你知道"
+            },
+            {
+              "id": "hebrew-589",
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-7130",
+              "cht": "是天下"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "的耶和華",
+              "punct_cht": "。"
             }
           ]
         },
@@ -133,106 +133,93 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "exo.33.16",
-          "cunp": "人在何事上得以知道我和你的百姓在你眼前蒙恩呢？豈不是因你與我們同去、使我和你的百姓與地上的萬民有分別嗎？」",
+          "nasb": "For how then can it be known that I have found favor in Your sight, I and Your people? Is it not by Your going with us, so that we, I and Your people, may be distinguished from all the other people who are upon the face of the earth?”",
           "words": [
             {
               "id": "hebrew-4100",
-              "eng": "For by what [then]"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "will it be known"
+              "cht": "人在何事上"
             },
             {
               "id": "hebrew-645",
-              "eng": "here"
+              "cht": "得以"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-3045",
+              "cht": "知道"
             },
             {
-              "id": "hebrew-4672",
-              "eng": "have found"
+              "id": "hebrew-589",
+              "cht": "我"
             },
             {
-              "id": "hebrew-2580",
-              "eng": "grace"
+              "id": "hebrew-5971",
+              "cht": "和你的百姓"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in Your sight",
-              "punct": "､"
+              "cht": "在你眼前"
             },
             {
-              "id": "hebrew-589",
-              "eng": "I"
+              "id": "hebrew-4672",
+              "cht": "蒙"
             },
             {
-              "id": "hebrew-5971",
-              "eng": "and Your people"
+              "id": "hebrew-2580",
+              "cht": "恩"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3808",
-              "eng": "except"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "You go"
+              "cht": "豈不是"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with us",
-              "punct": "､"
+              "cht": "因你與我們"
             },
             {
-              "id": "hebrew-6395",
-              "eng": "so we shall be separate"
+              "id": "hebrew-3212",
+              "cht": "同去、"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "使我"
             },
             {
               "id": "hebrew-5971",
-              "eng": "and Your people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "from all"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who [are]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "和你的百姓"
             },
             {
               "id": "hebrew-127",
-              "eng": "of the earth"
+              "cht": "與地"
             },
             {
-              "id": ""
+              "id": "hebrew-5921",
+              "cht": "上"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-834",
+              "cht": "的"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3605",
+              "cht": "萬"
             },
             {
-              "id": ""
+              "id": "hebrew-5971",
+              "cht": "民"
+            },
+            {
+              "id": "hebrew-6395",
+              "cht": "有分別"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？」"
             }
           ]
         },
@@ -243,47 +230,46 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "psa.4.3",
-          "cunp": "你們要知道，耶和華已經分別虔誠人歸他自己； 我求告耶和華，他必聽我。",
+          "nasb": "But know that the Lord has set apart the godly man for Himself; The Lord hears when I call to Him.",
           "words": [
             {
               "id": "hebrew-3045",
-              "eng": "but know"
+              "cht": "你們要知道",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-6395",
-              "eng": "has set apart"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "已經分別"
             },
             {
               "id": "hebrew-2623",
-              "eng": "him who is godly"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "will hear"
+              "cht": "虔誠人"
             },
             {
               "id": "hebrew-7121",
-              "eng": "when I call"
+              "cht": "我求告"
             },
             {
               "id": "hebrew-413",
-              "eng": "to Him",
-              "punct": "."
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3068",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "必聽"
+            },
+            {
+              "id": "",
+              "cht": "我",
+              "punct_cht": "。"
             }
           ]
         },
@@ -293,38 +279,37 @@
             "hebrew-6395": 5.832220266167411
           },
           "verseKey": "psa.17.7",
-          "cunp": "求你顯出你奇妙的慈愛來； 你是那用右手拯救投靠你的脫離起來攻擊他們的人。",
+          "nasb": "Wondrously show Your lovingkindness, O Savior of those who take refuge at Your right hand From those who rise up against them.",
           "words": [
             {
               "id": "hebrew-6395",
-              "eng": "Show marvelous"
+              "cht": "求你顯出你奇妙的"
             },
             {
               "id": "hebrew-2617",
-              "eng": "Your lovingkindness"
+              "cht": "慈愛"
             },
             {
-              "id": "hebrew-3467",
-              "eng": "You"
-            },
-            {
-              "id": "hebrew-2620",
-              "eng": "who save those who trust [in You]"
-            },
-            {
-              "id": "hebrew-6965",
-              "eng": "from those who rise up [against them]"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3225",
-              "eng": "by Your right hand",
-              "punct": "."
+              "cht": "你是那用右手"
             },
             {
-              "id": ""
+              "id": "hebrew-3467",
+              "cht": "拯救"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2620",
+              "cht": "投靠"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "你的脫離起來攻擊他們的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -334,95 +319,87 @@
             "hebrew-6395": 5.832220266167411
           },
           "verseKey": "exo.11.7",
-          "cunp": "至於以色列中，無論是人是牲畜，連狗也不敢向他們搖舌，好叫你們知道耶和華是將埃及人和以色列人分別出來。』",
+          "nasb": "But against any of the sons of Israel a dog will not even bark, whether against man or beast, that you may understand how the Lord makes a distinction between Egypt and Israel.’",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "But against any"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "至於"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2782",
-              "eng": "shall move"
-            },
-            {
-              "id": "hebrew-3611",
-              "eng": "a dog"
-            },
-            {
-              "id": "hebrew-3956",
-              "eng": "its tongue",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "against man"
+              "id": "hebrew-4480",
+              "cht": "無論是人"
             },
             {
               "id": "hebrew-5704",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "､"
+              "cht": "牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3611",
+              "cht": "連狗"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-2782",
+              "cht": "敢向他們搖"
+            },
+            {
+              "id": "hebrew-3956",
+              "cht": "舌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4616",
-              "eng": "that"
+              "cht": "好叫"
             },
             {
               "id": "hebrew-3045",
-              "eng": "you may know"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-6395",
-              "eng": "does make a difference"
+              "cht": "你們知道"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-996",
-              "eng": "between"
+              "cht": "是將"
             },
             {
               "id": "hebrew-4714",
-              "eng": "Egypt"
+              "cht": "埃及人"
             },
             {
               "id": "hebrew-996",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "."
+              "cht": "以色列人"
             },
             {
-              "id": ""
+              "id": "hebrew-6395",
+              "cht": "分別"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "出來",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -432,68 +409,62 @@
             "hebrew-6395": 5.832220266167411
           },
           "verseKey": "exo.9.4",
-          "cunp": "耶和華要分別以色列的牲畜和埃及的牲畜，凡屬以色列人的，一樣都不死。』」",
+          "nasb": "But the Lord will make a distinction between the livestock of Israel and the livestock of Egypt, so that nothing will die of all that belongs to the sons of Israel.” ’ ”",
           "words": [
             {
-              "id": "hebrew-6395",
-              "eng": "And will make a difference"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-4735",
-              "eng": "the livestock"
+              "id": "hebrew-6395",
+              "cht": "要分別"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "and"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-4735",
-              "eng": "the livestock"
+              "cht": "的牲畜"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "和"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "､"
+              "cht": "埃及"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "so nothing"
+              "id": "hebrew-4735",
+              "cht": "的牲畜",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4191",
-              "eng": "shall die"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "[that] belongs to the sons"
+              "id": "hebrew-4480",
+              "cht": "凡"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "屬以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1697",
-              "eng": "-",
-              "punct": "."
+              "cht": "一樣"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3808",
+              "cht": "都不"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "死",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -503,81 +474,72 @@
             "hebrew-6381": 2.407639909866712
           },
           "verseKey": "isa.29.14",
-          "cunp": "所以，我在這百姓中要行奇妙的事， 就是奇妙又奇妙的事。 他們智慧人的智慧必然消滅， 聰明人的聰明必然隱藏。",
+          "nasb": "Therefore behold, I will once again deal marvelously with this people, wondrously marvelous; And the wisdom of their wise men will perish, And the discernment of their discerning men will be concealed.”",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "Therefore",
-              "punct": "､"
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2005",
-              "eng": "behold I"
+              "id": "hebrew-2009",
+              "cht": "我"
             },
             {
-              "id": "hebrew-3254",
-              "eng": "will again"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "do a marvelous work"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "Among people",
-              "punct": "､"
+              "id": "hebrew-853",
+              "cht": "在"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-6381",
-              "eng": "a marvelous work"
+              "id": "hebrew-5971",
+              "cht": "百姓"
+            },
+            {
+              "id": "hebrew-3254",
+              "cht": "中要行"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "奇妙的事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6382",
-              "eng": "and a wonder",
-              "punct": "–"
+              "cht": "就是奇妙"
             },
             {
-              "id": "hebrew-6",
-              "eng": "for shall perish",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "the wisdom"
+              "id": "hebrew-6381",
+              "cht": "又奇妙的事",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of their wise [men]"
+              "cht": "他們智慧人"
             },
             {
-              "id": "hebrew-998",
-              "eng": "and the understanding"
+              "id": "hebrew-2451",
+              "cht": "的智慧"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "必然消滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "of their prudent [men]"
+              "cht": "聰明人"
+            },
+            {
+              "id": "hebrew-998",
+              "cht": "的聰明"
             },
             {
               "id": "hebrew-5641",
-              "eng": "shall be hidden",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2009"
-            },
-            {
-              "id": "hebrew-853"
-            },
-            {
-              "id": "hebrew-1931"
+              "cht": "必然隱藏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -587,91 +549,80 @@
             "hebrew-6381": 2.407639909866712
           },
           "verseKey": "zec.8.6",
-          "cunp": "萬軍之耶和華如此說：到那日，這事在餘剩的民眼中看為希奇，在我眼中也看為希奇嗎？這是萬軍之耶和華說的。",
+          "nasb": "Thus says the Lord of hosts, ‘If it is too difficult in the sight of the remnant of this people in those days, will it also be too difficult in My sight?’ declares the Lord of hosts.",
           "words": [
             {
+              "id": "hebrew-6635",
+              "cht": "萬軍"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "it is marvelous"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "in the eyes"
-            },
-            {
-              "id": "hebrew-7611",
-              "eng": "of the remnant"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of people"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in days",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1992",
-              "eng": "those"
+              "cht": "到那"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7611",
+              "cht": "這事在餘剩的"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in My eyes"
+              "cht": "眼"
             },
             {
               "id": "hebrew-6381",
-              "eng": "will it be marvelous"
+              "cht": "中看為希奇",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-5869",
+              "cht": "在我眼"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
+              "id": "hebrew-1571",
+              "cht": "中也"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "看為希奇"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "."
+              "cht": "這是萬軍"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -681,66 +632,63 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -751,62 +699,50 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "lev.27.2",
-          "cunp": "「你曉諭以色列人說：人還特許的願，被許的人要按你所估的價值歸給耶和華。",
+          "nasb": "“Speak to the sons of Israel and say to them, ‘When a man makes a difficult vow, he shall be valued according to your valuation of persons belonging to the Lord.",
           "words": [
             {
               "id": "hebrew-1696",
-              "eng": "speak"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "你曉諭"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
             },
             {
               "id": "hebrew-559",
-              "eng": "and say"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to them",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-376",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "cht": "人"
             },
             {
               "id": "hebrew-6381",
-              "eng": "consecrates"
+              "cht": "還特許"
             },
             {
               "id": "hebrew-5088",
-              "eng": "by a vow"
-            },
-            {
-              "id": "hebrew-6187",
-              "eng": "according to your valuation"
+              "cht": "的願",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "certain persons"
+              "cht": "被許的人"
+            },
+            {
+              "id": "hebrew-6187",
+              "cht": "要按你所估的價值"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
+              "cht": "歸給耶和華",
+              "punct_cht": "。"
             }
           ]
         }

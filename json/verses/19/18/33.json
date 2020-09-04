@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7737": "He makes",
-          "hebrew-7272": "my feet",
-          "hebrew-355": "like the [feet] of deer",
-          "hebrew-5921": "and on",
-          "hebrew-1116": "my high places",
-          "hebrew-5975": "sets me",
-          "": null
+          "eng": {
+            "hebrew-7737": "He makes",
+            "hebrew-7272": "my feet",
+            "hebrew-355": "like the [feet] of deer",
+            "hebrew-5921": "and on",
+            "hebrew-1116": "my high places",
+            "hebrew-5975": "sets me",
+            "": null
+          },
+          "cht": {
+            "hebrew-7737": "他使",
+            "hebrew-7272": "我的腳",
+            "hebrew-355": "快如母鹿",
+            "hebrew-5921": "又使我在",
+            "hebrew-1116": "高處",
+            "hebrew-5975": "安穩"
+          }
         }
       },
       "translations": {
@@ -26,38 +36,41 @@
             "hebrew-355": 5.492088685277254
           },
           "verseKey": "2sa.22.34",
-          "cunp": "他使我的腳快如母鹿的蹄， 又使我在高處安穩。",
+          "nasb": "He makes my feet like hinds’ feet, And sets me on my high places.",
           "words": [
             {
               "id": "hebrew-7737",
-              "eng": "He makes"
+              "cht": "他使"
             },
             {
               "id": "hebrew-7272",
-              "eng": "my feet"
+              "cht": "我的腳"
+            },
+            {
+              "id": "hebrew-7737",
+              "cht": "快"
             },
             {
               "id": "hebrew-355",
-              "eng": "like the [feet] of deer"
+              "cht": "如母鹿"
+            },
+            {
+              "id": "",
+              "cht": "的蹄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and on"
+              "cht": "又使我在"
             },
             {
               "id": "hebrew-1116",
-              "eng": "my high places"
+              "cht": "高處"
             },
             {
               "id": "hebrew-5975",
-              "eng": "sets me",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7737"
-            },
-            {
-              "id": ""
+              "cht": "安穩",
+              "punct_cht": "。"
             }
           ]
         },
@@ -67,104 +80,87 @@
             "hebrew-7737": 3.349908747650579
           },
           "verseKey": "2co.10.12",
-          "cunp": "因為我們不敢將自己和那自薦的人同列相比。他們用自己度量自己，用自己比較自己，乃是不通達的。",
+          "nasb": "For we are not bold to class or compare ourselves with some of those who commend themselves; but when they measure themselves by themselves and compare themselves with themselves, they are without understanding.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
+              "id": "greek-1063",
+              "cht": "因為"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-3756",
+              "cht": "我們不"
             },
             {
               "id": "greek-5111",
-              "eng": "dare we"
-            },
-            {
-              "id": "greek-1469",
-              "eng": "to classify"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
-            },
-            {
-              "id": "greek-4793",
-              "eng": "to compare"
+              "cht": "敢"
             },
             {
               "id": "greek-1438",
-              "eng": "ourselves [with]"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "some"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "將自己"
             },
             {
               "id": "greek-1438",
-              "eng": "themselves"
+              "cht": "和那自"
             },
             {
               "id": "greek-4921",
-              "eng": "commending",
-              "punct": ";"
+              "cht": "薦"
             },
             {
-              "id": "greek-235",
-              "eng": "but"
+              "id": "greek-5100",
+              "cht": "的人"
             },
             {
-              "id": "greek-846",
-              "eng": "these"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "by"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "themselves",
-              "punct": ","
-            },
-            {
-              "id": "greek-1438",
-              "eng": "themselves"
-            },
-            {
-              "id": "greek-3354",
-              "eng": "measuring",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2228",
+              "cht": "同列"
             },
             {
               "id": "greek-4793",
-              "eng": "comparing"
+              "cht": "相比",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "用"
             },
             {
               "id": "greek-1438",
-              "eng": "themselves"
+              "cht": "自己"
+            },
+            {
+              "id": "greek-3354",
+              "cht": "度量"
             },
             {
               "id": "greek-1438",
-              "eng": "with themselves",
-              "punct": ","
+              "cht": "自己",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1438",
+              "cht": "用自己"
+            },
+            {
+              "id": "greek-4793",
+              "cht": "比較"
+            },
+            {
+              "id": "greek-1438",
+              "cht": "自己",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "乃是不"
             },
             {
               "id": "greek-4920",
-              "eng": "understand",
-              "punct": "."
+              "cht": "通達的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -174,7 +170,7 @@
             "hebrew-355": 5.492088685277254
           },
           "verseKey": "exo.7.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -183,57 +179,60 @@
             "hebrew-355": 5.492088685277254
           },
           "verseKey": "hab.3.19",
-          "cunp": "主耶和華是我的力量； 他使我的腳快如母鹿的蹄， 又使我穩行在高處。 這歌交與伶長，用絲弦的樂器。",
+          "nasb": "The Lord God is my strength, And He has made my feet like hinds’ feet, And makes me walk on my high places. For the choir director, on my stringed instruments.",
           "words": [
             {
-              "id": "hebrew-3069",
-              "eng": "GOD"
+              "id": "hebrew-136",
+              "cht": "主"
             },
             {
-              "id": "hebrew-136",
-              "eng": "the Lord is"
+              "id": "hebrew-3069",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2428",
-              "eng": "my strength",
-              "punct": "､"
+              "cht": "是我的力量",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7760",
-              "eng": "and He will make"
+              "cht": "他使"
             },
             {
               "id": "hebrew-7272",
-              "eng": "my feet"
+              "cht": "我的腳"
             },
             {
               "id": "hebrew-355",
-              "eng": "like deer's [feet]"
+              "cht": "快如母鹿"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "and on"
-            },
-            {
-              "id": "hebrew-1116",
-              "eng": "my high hills",
-              "punct": "."
+              "id": "",
+              "cht": "的蹄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1869",
-              "eng": "He will make me walk"
+              "cht": "又使我穩行"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-1116",
+              "cht": "高處",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5329",
-              "eng": "to the Chief Musician"
+              "cht": "這歌交與伶長",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5058",
-              "eng": "with my stringed instruments",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "用絲弦的樂器",
+              "punct_cht": "。"
             }
           ]
         },
@@ -243,7 +242,7 @@
             "hebrew-355": 5.492088685277254
           },
           "verseKey": "lev.5.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -252,53 +251,55 @@
             "hebrew-355": 5.492088685277254
           },
           "verseKey": "psa.29.9",
-          "cunp": "耶和華的聲音驚動母鹿落胎， 樹木也脫落淨光。 凡在他殿中的，都稱說他的榮耀。",
+          "nasb": "The voice of the Lord makes the deer to calve And strips the forests bare; And in His temple everything says, “Glory!”",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "The voice"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-2342",
-              "eng": "makes give birth",
-              "punct": "､"
+              "id": "hebrew-6963",
+              "cht": "的聲音"
             },
             {
               "id": "hebrew-355",
-              "eng": "the deer"
+              "cht": "驚動母鹿"
             },
             {
-              "id": "hebrew-2834",
-              "eng": "and strips bare"
+              "id": "hebrew-2342",
+              "cht": "落胎",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3295",
-              "eng": "the forests",
-              "punct": "–"
+              "cht": "樹木"
+            },
+            {
+              "id": "hebrew-2834",
+              "cht": "也脫落淨光",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1964",
-              "eng": "and in His temple"
+              "cht": "凡在他殿中"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "everyone"
+              "cht": "都"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "稱說"
             },
             {
               "id": "hebrew-3519",
-              "eng": "Glory",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "他的榮耀",
+              "punct_cht": "。"
             }
           ]
         },
@@ -308,33 +309,33 @@
             "hebrew-355": 5.492088685277254
           },
           "verseKey": "gen.49.21",
-          "cunp": "拿弗他利是被釋放的母鹿； 他出嘉美的言語。",
+          "nasb": "“Naphtali is a doe let loose, He gives beautiful words.",
           "words": [
             {
               "id": "hebrew-5321",
-              "eng": "Naphtali [is]"
-            },
-            {
-              "id": "hebrew-355",
-              "eng": "a deer"
+              "cht": "拿弗他利"
             },
             {
               "id": "hebrew-7971",
-              "eng": "set free",
-              "punct": "–"
+              "cht": "是被釋放"
+            },
+            {
+              "id": "hebrew-355",
+              "cht": "的母鹿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5414",
-              "eng": "that bears"
-            },
-            {
-              "id": "hebrew-561",
-              "eng": "fawns"
+              "cht": "他出"
             },
             {
               "id": "hebrew-8233",
-              "eng": "beautiful",
-              "punct": "."
+              "cht": "嘉美"
+            },
+            {
+              "id": "hebrew-561",
+              "cht": "的言語",
+              "punct_cht": "。"
             }
           ]
         },
@@ -344,49 +345,55 @@
             "hebrew-355": 5.492088685277254
           },
           "verseKey": "job.39.1",
-          "cunp": "山巖間的野山羊幾時生產，你知道嗎？ 母鹿下犢之期，你能察定嗎？",
+          "nasb": "“Do you know the time the mountain goats give birth? Do you observe the calving of the deer?",
           "words": [
             {
-              "id": "hebrew-3045",
-              "eng": "Do you know"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "the time when"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "bear young"
+              "id": "hebrew-5553",
+              "cht": "山巖間"
             },
             {
               "id": "hebrew-3277",
-              "eng": "the wild mountain goats"
+              "cht": "的野山羊"
             },
             {
-              "id": "hebrew-5553",
-              "eng": "of the rock"
+              "id": "hebrew-6256",
+              "cht": "幾時"
             },
             {
-              "id": "hebrew-2342",
-              "eng": "when gives birth"
+              "id": "hebrew-3205",
+              "cht": "生產",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "你知道"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-355",
-              "eng": "the deer"
+              "cht": "母鹿"
+            },
+            {
+              "id": "hebrew-2342",
+              "cht": "下犢"
+            },
+            {
+              "id": "",
+              "cht": "之期",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8104",
-              "eng": "[Or] can you mark",
-              "punct": "."
+              "cht": "你能察定"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -396,29 +403,29 @@
             "hebrew-7737": 3.349908747650579
           },
           "verseKey": "psa.119.30",
-          "cunp": "我揀選了忠信的道， 將你的典章擺在我面前。",
+          "nasb": "I have chosen the faithful way; I have placed Your ordinances before me.",
           "words": [
             {
-              "id": "hebrew-1870",
-              "eng": "The way"
+              "id": "hebrew-977",
+              "cht": "我揀選了"
             },
             {
               "id": "hebrew-530",
-              "eng": "of truth"
+              "cht": "忠信"
             },
             {
-              "id": "hebrew-977",
-              "eng": "I have chosen",
-              "punct": "–"
+              "id": "hebrew-1870",
+              "cht": "的道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4941",
-              "eng": "Your judgments"
+              "cht": "將你的典章"
             },
             {
               "id": "hebrew-7737",
-              "eng": "I have laid [before me]",
-              "punct": "."
+              "cht": "擺在我面前",
+              "punct_cht": "。"
             }
           ]
         },
@@ -428,126 +435,120 @@
             "hebrew-7737": 3.349908747650579
           },
           "verseKey": "est.3.8",
-          "cunp": "哈曼對亞哈隨魯王說：「有一種民散居在王國各省的民中；他們的律例與萬民的律例不同，也不守王的律例，所以容留他們與王無益。",
+          "nasb": "Then Haman said to King Ahasuerus, “There is a certain people scattered and dispersed among the peoples in all the provinces of your kingdom; their laws are different from those of all other people and they do not observe the king’s laws, so it is not in the king’s interest to let them remain.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-2001",
-              "eng": "Haman"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "to king"
+              "cht": "哈曼"
             },
             {
               "id": "hebrew-325",
-              "eng": "Ahasuerus",
-              "punct": "､"
+              "cht": "對亞哈隨魯"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3426",
-              "eng": "there is"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "people"
+              "cht": "有"
             },
             {
               "id": "hebrew-259",
-              "eng": "a"
+              "cht": "一種"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
             },
             {
               "id": "hebrew-6340",
-              "eng": "scattered"
+              "cht": "散"
             },
             {
               "id": "hebrew-6504",
-              "eng": "and dispersed"
+              "cht": "居"
             },
             {
               "id": "hebrew-996",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "in all"
-            },
-            {
-              "id": "hebrew-4082",
-              "eng": "the provinces"
+              "cht": "在"
             },
             {
               "id": "hebrew-4438",
-              "eng": "of your kingdom",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1881",
-              "eng": "and their laws"
-            },
-            {
-              "id": "hebrew-8138",
-              "eng": "[are] different"
+              "cht": "王國"
             },
             {
               "id": "hebrew-3605",
-              "eng": "from all"
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-4082",
+              "cht": "省"
             },
             {
               "id": "hebrew-5971",
-              "eng": "[other] people",
-              "punct": "–"
+              "cht": "的民"
             },
             {
-              "id": "hebrew-853",
-              "eng": "and"
+              "id": "",
+              "cht": "中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1881",
-              "eng": "laws",
-              "punct": "､"
+              "cht": "他們的律例"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "of the king"
+              "id": "hebrew-3605",
+              "cht": "與萬"
             },
             {
-              "id": "hebrew-369",
-              "eng": "[they are] not"
+              "id": "hebrew-5971",
+              "cht": "民"
             },
             {
-              "id": "hebrew-6213",
-              "eng": "keeping"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "therefore for the King"
+              "id": "hebrew-8138",
+              "cht": "的律例不同",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "it [is] not"
+              "cht": "也不"
             },
             {
-              "id": "hebrew-7737",
-              "eng": "fitting"
+              "id": "hebrew-853",
+              "cht": "守"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王的"
+            },
+            {
+              "id": "hebrew-1881",
+              "cht": "律例",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3240",
-              "eng": "to let them remain",
-              "punct": "."
+              "cht": "所以容留他們"
             },
             {
-              "id": ""
+              "id": "hebrew-4428",
+              "cht": "與王"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-369",
+              "cht": "無"
+            },
+            {
+              "id": "hebrew-7737",
+              "cht": "益",
+              "punct_cht": "。"
             }
           ]
         }

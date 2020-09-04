@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5800": "I have forsaken",
-          "hebrew-853": "-",
-          "hebrew-1004": "My house",
-          "hebrew-5203": "I have left",
-          "hebrew-5159": "My heritage",
-          "hebrew-5414": "I have given",
-          "hebrew-3033": "the dearly beloved",
-          "hebrew-5315": "of My soul",
-          "hebrew-3709": "into the hand",
-          "hebrew-341": "of her enemies"
+          "eng": {
+            "hebrew-5800": "I have forsaken",
+            "hebrew-853": "-",
+            "hebrew-1004": "My house",
+            "hebrew-5203": "I have left",
+            "hebrew-5159": "My heritage",
+            "hebrew-5414": "I have given",
+            "hebrew-3033": "the dearly beloved",
+            "hebrew-5315": "of My soul",
+            "hebrew-3709": "into the hand",
+            "hebrew-341": "of her enemies"
+          },
+          "cht": {
+            "hebrew-5800": "我離了",
+            "hebrew-853": "將",
+            "hebrew-1004": "我的殿宇",
+            "hebrew-5203": "撇棄",
+            "hebrew-5159": "我的產業",
+            "hebrew-5414": "交",
+            "hebrew-3033": "裡所親愛的",
+            "hebrew-5315": "我心",
+            "hebrew-3709": "手中",
+            "hebrew-341": "在他仇敵的"
+          }
         }
       },
       "translations": {
@@ -29,66 +43,63 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -99,41 +110,41 @@
             "hebrew-5203": 2.985487611968215
           },
           "verseKey": "psa.94.14",
-          "cunp": "因為耶和華必不丟棄他的百姓， 也不離棄他的產業。",
+          "nasb": "For the Lord will not abandon His people, Nor will He forsake His inheritance.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5203",
-              "eng": "will cast off"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "His people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5159",
-              "eng": "and His inheritance"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "必不"
+            },
+            {
+              "id": "hebrew-5203",
+              "cht": "丟棄"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "他的百姓",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
             },
             {
               "id": "hebrew-5800",
-              "eng": "will He forsake",
-              "punct": "."
+              "cht": "離棄"
+            },
+            {
+              "id": "hebrew-5159",
+              "cht": "他的產業",
+              "punct_cht": "。"
             }
           ]
         },
@@ -144,80 +155,72 @@
             "hebrew-5203": 2.985487611968215
           },
           "verseKey": "isa.32.14",
-          "cunp": "因為宮殿必被撇下， 多民的城必被離棄； 山岡望樓永為洞穴， 作野驢所喜樂的， 為羊羣的草場。",
+          "nasb": "Because the palace has been abandoned, the populated city forsaken. Hill and watch-tower have become caves forever, A delight for wild donkeys, a pasture for flocks;",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "Because"
+              "cht": "因為"
             },
             {
               "id": "hebrew-759",
-              "eng": "the palaces"
+              "cht": "宮殿"
             },
             {
               "id": "hebrew-5203",
-              "eng": "will be forsaken",
-              "punct": "–"
+              "cht": "必被撇下",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1995",
-              "eng": "bustling"
+              "cht": "多民的"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city"
+              "cht": "城"
             },
             {
               "id": "hebrew-5800",
-              "eng": "will be deserted",
-              "punct": "–"
+              "cht": "必被離棄",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6076",
-              "eng": "the forts"
-            },
-            {
-              "id": "hebrew-975",
-              "eng": "and towers"
+              "cht": "山岡"
             },
             {
               "id": "hebrew-1961",
-              "eng": "will become"
-            },
-            {
-              "id": "hebrew-1157",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4631",
-              "eng": "lairs"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "for"
+              "cht": "望樓"
             },
             {
               "id": "hebrew-5769",
-              "eng": "ever",
-              "punct": "､"
+              "cht": "永"
             },
             {
-              "id": "hebrew-4885",
-              "eng": "a joy"
+              "id": "hebrew-1157",
+              "cht": "為"
+            },
+            {
+              "id": "hebrew-4631",
+              "cht": "洞穴",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6501",
-              "eng": "of wild donkeys",
-              "punct": "､"
+              "cht": "作野驢"
             },
             {
-              "id": "hebrew-4829",
-              "eng": "a pasture"
+              "id": "hebrew-4885",
+              "cht": "所喜樂的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5739",
-              "eng": "of flocks",
-              "punct": "–"
+              "cht": "為羊群"
+            },
+            {
+              "id": "hebrew-4829",
+              "cht": "的草場",
+              "punct_cht": "。"
             }
           ]
         }

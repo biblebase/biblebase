@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-926": "Hastens",
-          "hebrew-1952": "after riches",
-          "hebrew-376": "a man",
-          "hebrew-7451": "evil",
-          "hebrew-5869": "with an eye",
-          "hebrew-3808": "and not",
-          "hebrew-3045": "does consider",
-          "hebrew-3588": "that",
-          "hebrew-2639": "poverty",
-          "hebrew-935": "will come upon him"
+          "eng": {
+            "hebrew-926": "Hastens",
+            "hebrew-1952": "after riches",
+            "hebrew-376": "a man",
+            "hebrew-7451": "evil",
+            "hebrew-5869": "with an eye",
+            "hebrew-3808": "and not",
+            "hebrew-3045": "does consider",
+            "hebrew-3588": "that",
+            "hebrew-2639": "poverty",
+            "hebrew-935": "will come upon him"
+          },
+          "cht": {
+            "hebrew-926": "想要急速",
+            "hebrew-1952": "發財",
+            "hebrew-376": "人",
+            "hebrew-7451": "有惡",
+            "hebrew-5869": "眼",
+            "hebrew-3808": "卻不",
+            "hebrew-3045": "知",
+            "hebrew-3588": "知",
+            "hebrew-2639": "窮乏",
+            "hebrew-935": "必臨到他身"
+          }
         }
       },
       "translations": {
@@ -30,44 +44,47 @@
             "hebrew-2639": 10.248599871619378
           },
           "verseKey": "job.30.3",
-          "cunp": "他們因窮乏飢餓，身體枯瘦， 在荒廢淒涼的幽暗中齦乾燥之地，",
+          "nasb": "From want and famine they are gaunt Who gnaw the dry ground by night in waste and desolation,",
           "words": [
             {
               "id": "hebrew-2639",
-              "eng": "from want"
+              "cht": "他們因窮乏"
             },
             {
               "id": "hebrew-3720",
-              "eng": "and famine"
+              "cht": "飢餓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1565",
-              "eng": "[They are] emaciated",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6207",
-              "eng": "Fleeing"
-            },
-            {
-              "id": "hebrew-6723",
-              "eng": "to the wilderness"
-            },
-            {
-              "id": "hebrew-570",
-              "eng": "late"
+              "cht": "身體枯瘦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7722",
-              "eng": "desolate"
+              "cht": "在荒廢"
             },
             {
               "id": "hebrew-4875",
-              "eng": "and waste",
-              "punct": "."
+              "cht": "淒涼"
             },
             {
-              "id": ""
+              "id": "hebrew-570",
+              "cht": "的幽暗"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6207",
+              "cht": "齦"
+            },
+            {
+              "id": "hebrew-6723",
+              "cht": "乾燥之地",
+              "punct_cht": "，"
             }
           ]
         },
@@ -79,61 +96,58 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "jdg.20.41",
-          "cunp": "以色列人又轉身回來，便雅憫人就甚驚惶，因為看見災禍臨到自己了。",
+          "nasb": "Then the men of Israel turned, and the men of Benjamin were terrified; for they saw that disaster was close to them.",
           "words": [
             {
-              "id": "hebrew-376",
-              "eng": "And when the men"
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-2015",
-              "eng": "turned back",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-926",
-              "eng": "and panicked",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the men"
+              "cht": "又轉身回來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1144",
-              "eng": "of Benjamin"
+              "cht": "便雅憫"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-926",
+              "cht": "就甚驚惶",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-7200",
-              "eng": "they saw"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "had come"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon them"
+              "cht": "看見"
             },
             {
               "id": "hebrew-7451",
-              "eng": "disaster",
-              "punct": "."
+              "cht": "災禍"
             },
             {
-              "id": ""
+              "id": "hebrew-5060",
+              "cht": "臨"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "到自己"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -144,68 +158,54 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "ecc.8.3",
-          "cunp": "不要急躁離開王的面前，不要固執行惡，因為他凡事都隨自己的心意而行。",
+          "nasb": "Do not be in a hurry to leave him. Do not join in an evil matter, for he will do whatever he pleases.”",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-926",
-              "eng": "do be hasty"
+              "cht": "急躁"
             },
             {
-              "id": "hebrew-6440",
-              "eng": "from his presence",
-              "punct": "–"
+              "id": "hebrew-3212",
+              "cht": "離開"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "to go"
+              "id": "hebrew-4480",
+              "cht": "王的面前",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-5975",
-              "eng": "do take your stand"
+              "cht": "固執"
             },
             {
               "id": "hebrew-1697",
-              "eng": "for an thing",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "evil"
+              "cht": "行惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "因為"
             },
             {
               "id": "hebrew-834",
-              "eng": "whatever"
+              "cht": "他凡事"
             },
             {
               "id": "hebrew-2654",
-              "eng": "pleases him"
+              "cht": "都隨自己的心意"
             },
             {
               "id": "hebrew-6213",
-              "eng": "he does",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "而行",
+              "punct_cht": "。"
             }
           ]
         },
@@ -216,87 +216,81 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "ezk.7.27",
-          "cunp": "君要悲哀，王要披淒涼為衣，國民的手都發顫。我必照他們的行為待他們，按他們應得的審判他們，他們就知道我是耶和華。」",
+          "nasb": "The king will mourn, the prince will be clothed with horror, and the hands of the people of the land will tremble. According to their conduct I will deal with them, and by their judgments I will judge them. And they will know that I am the Lord.’ ”",
           "words": [
             {
-              "id": "hebrew-4428",
-              "eng": "The king"
+              "id": "hebrew-5387",
+              "cht": "君"
             },
             {
               "id": "hebrew-56",
-              "eng": "will mourn",
-              "punct": "､"
+              "cht": "要悲哀",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5387",
-              "eng": "and the prince"
-            },
-            {
-              "id": "hebrew-3847",
-              "eng": "will be clothed with"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-8077",
-              "eng": "desolation",
-              "punct": "､"
+              "cht": "要披淒涼"
             },
             {
-              "id": "hebrew-3027",
-              "eng": "and the hands"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of the people"
+              "id": "hebrew-3847",
+              "cht": "為衣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "common"
+              "cht": "國"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "的手"
             },
             {
               "id": "hebrew-926",
-              "eng": "will tremble",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "According to their way",
-              "punct": "､"
+              "cht": "都發顫",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6213",
-              "eng": "I will do"
+              "cht": "我必照"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "他們的行為"
             },
             {
               "id": "hebrew-853",
-              "eng": "to them"
+              "cht": "待他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4941",
-              "eng": "and according to what they deserve"
+              "cht": "按他們應得的"
             },
             {
               "id": "hebrew-8199",
-              "eng": "I will judge them"
+              "cht": "審判他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "and they shall know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "他們就知道"
             },
             {
               "id": "hebrew-589",
-              "eng": "I [am]"
+              "cht": "我"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "是耶和華",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -307,45 +301,47 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "pro.29.3",
-          "cunp": "愛慕智慧的，使父親喜樂； 與妓女結交的，卻浪費錢財。",
+          "nasb": "A man who loves wisdom makes his father glad, But he who keeps company with harlots wastes his wealth.",
           "words": [
             {
-              "id": "hebrew-376",
-              "eng": "Whoever"
-            },
-            {
               "id": "hebrew-157",
-              "eng": "loves"
+              "cht": "愛慕"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom"
+              "cht": "智慧"
             },
             {
-              "id": "hebrew-8055",
-              "eng": "makes rejoice"
+              "id": "hebrew-376",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1",
-              "eng": "his father",
-              "punct": "–"
+              "cht": "使父親"
             },
             {
-              "id": "hebrew-7462",
-              "eng": "but a companion"
+              "id": "hebrew-8055",
+              "cht": "喜樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2181",
-              "eng": "of harlots"
+              "cht": "與妓女"
+            },
+            {
+              "id": "hebrew-7462",
+              "cht": "結交的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6",
-              "eng": "wastes"
+              "cht": "卻浪費"
             },
             {
               "id": "hebrew-1952",
-              "eng": "[his] wealth",
-              "punct": "."
+              "cht": "錢財",
+              "punct_cht": "。"
             }
           ]
         },
@@ -356,7 +352,7 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "rut.7.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -366,69 +362,65 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "isa.13.8",
-          "cunp": "他們必驚惶悲痛； 愁苦必將他們抓住。 他們疼痛，好像產難的婦人一樣， 彼此驚奇相看，臉如火焰。",
+          "nasb": "They will be terrified, Pains and anguish will take hold of them; They will writhe like a woman in labor, They will look at one another in astonishment, Their faces aflame.",
           "words": [
             {
               "id": "hebrew-926",
-              "eng": "And they will be afraid",
-              "punct": "､"
+              "cht": "他們必驚惶"
             },
             {
               "id": "hebrew-6735",
-              "eng": "Pangs"
+              "cht": "悲痛",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2256",
-              "eng": "and sorrows"
+              "cht": "愁苦"
             },
             {
               "id": "hebrew-270",
-              "eng": "will take hold of [them]"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "as a woman in childbirth",
-              "punct": "､"
+              "cht": "必將他們抓住",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2342",
-              "eng": "they will be in pain"
+              "cht": "他們疼痛",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-376",
-              "eng": "one"
+              "id": "hebrew-3205",
+              "cht": "好像產難的婦人"
+            },
+            {
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "at"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "another",
-              "punct": "–"
+              "cht": "彼此"
             },
             {
               "id": "hebrew-8539",
-              "eng": "they will be amazed"
+              "cht": "驚奇"
+            },
+            {
+              "id": "",
+              "cht": "相看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6440",
-              "eng": "their faces"
+              "cht": "臉"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "如"
             },
             {
               "id": "hebrew-3851",
-              "eng": "[like] flames"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "their faces [will be]",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "火焰",
+              "punct_cht": "。"
             }
           ]
         },
@@ -439,49 +431,42 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "jer.51.32",
-          "cunp": "渡口被佔據了， 葦塘被火燒了， 兵丁也驚慌了。",
+          "nasb": "The fords also have been seized, And they have burned the marshes with fire, And the men of war are terrified.",
           "words": [
             {
               "id": "hebrew-4569",
-              "eng": "and the passages"
+              "cht": "渡口"
             },
             {
               "id": "hebrew-8610",
-              "eng": "are blocked",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "被佔據了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-98",
-              "eng": "the reeds"
-            },
-            {
-              "id": "hebrew-8313",
-              "eng": "they have burned"
+              "cht": "葦塘"
             },
             {
               "id": "hebrew-784",
-              "eng": "with fire",
-              "punct": "､"
+              "cht": "被火"
             },
             {
-              "id": "hebrew-376",
-              "eng": "and men"
+              "id": "hebrew-8313",
+              "cht": "燒了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4421",
-              "eng": "of the war"
+              "cht": "兵"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "丁"
             },
             {
               "id": "hebrew-926",
-              "eng": "are terrified",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-582"
+              "cht": "也驚慌了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -492,72 +477,69 @@
             "hebrew-935": 0.38492111663893813
           },
           "verseKey": "est.6.14",
-          "cunp": "他們還與哈曼說話的時候，王的太監來催哈曼快去赴以斯帖所預備的筵席。",
+          "nasb": "While they were still talking with him, the king’s eunuchs arrived and hastily brought Haman to the banquet which Esther had prepared.",
           "words": [
             {
               "id": "hebrew-5750",
-              "eng": "While"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "they [were] still talking"
+              "cht": "他們還"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with him"
+              "cht": "與"
             },
             {
-              "id": "hebrew-5631",
-              "eng": "and eunuchs",
-              "punct": "､"
+              "id": "hebrew-1696",
+              "cht": "哈曼說話"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-5631",
+              "cht": "的太監"
             },
             {
               "id": "hebrew-5060",
-              "eng": "came"
-            },
-            {
-              "id": "hebrew-926",
-              "eng": "and hastened"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "to bring"
+              "cht": "來"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "催"
             },
             {
               "id": "hebrew-2001",
-              "eng": "Haman"
+              "cht": "哈曼"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "快去"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4960",
-              "eng": "the banquet"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "had prepared"
+              "cht": "赴"
             },
             {
               "id": "hebrew-635",
-              "eng": "Esther",
-              "punct": "."
+              "cht": "以斯帖"
             },
             {
-              "id": ""
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "預備"
+            },
+            {
+              "id": "hebrew-4960",
+              "cht": "的筵席",
+              "punct_cht": "。"
             }
           ]
         },
@@ -568,41 +550,43 @@
             "hebrew-935": 0.38492111663893813
           },
           "verseKey": "job.4.5",
-          "cunp": "但現在禍患臨到你，你就昏迷， 挨近你，你便驚惶。",
+          "nasb": "But now it has come to you, and you are impatient; It touches you, and you are dismayed.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "But"
+              "cht": "但"
             },
             {
               "id": "hebrew-6258",
-              "eng": "now"
+              "cht": "現在"
             },
             {
               "id": "hebrew-935",
-              "eng": "it comes"
+              "cht": "禍患臨"
             },
             {
               "id": "hebrew-413",
-              "eng": "upon you"
+              "cht": "到你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3811",
-              "eng": "and you are weary",
-              "punct": "–"
+              "cht": "你就昏迷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5060",
-              "eng": "it touches"
+              "cht": "挨"
             },
             {
               "id": "hebrew-5704",
-              "eng": "you"
+              "cht": "近你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-926",
-              "eng": "and you are troubled",
-              "punct": "."
+              "cht": "你便驚惶",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8085": "Hear",
-          "hebrew-1121": "[my] children",
-          "hebrew-4148": "the instruction",
-          "hebrew-1": "of a father",
-          "hebrew-7181": "and give attention",
-          "hebrew-3045": "to know",
-          "hebrew-998": "understanding"
+          "eng": {
+            "hebrew-8085": "Hear",
+            "hebrew-1121": "[my] children",
+            "hebrew-4148": "the instruction",
+            "hebrew-1": "of a father",
+            "hebrew-7181": "and give attention",
+            "hebrew-3045": "to know",
+            "hebrew-998": "understanding"
+          },
+          "cht": {
+            "hebrew-8085": "要聽",
+            "hebrew-1121": "眾子啊",
+            "hebrew-4148": "的教訓",
+            "hebrew-1": "父親",
+            "hebrew-7181": "留心",
+            "hebrew-3045": "得知",
+            "hebrew-998": "聰明"
+          }
         }
       },
       "translations": {
@@ -28,33 +39,33 @@
             "hebrew-998": 2.9026639737222575
           },
           "verseKey": "pro.1.2",
-          "cunp": "要使人曉得智慧和訓誨， 分辨通達的言語，",
+          "nasb": "To know wisdom and instruction, To discern the sayings of understanding,",
           "words": [
             {
               "id": "hebrew-3045",
-              "eng": "to know"
+              "cht": "要使人曉得"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom"
+              "cht": "智慧"
             },
             {
               "id": "hebrew-4148",
-              "eng": "and instruction",
-              "punct": "–"
+              "cht": "和訓誨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "to perceive"
-            },
-            {
-              "id": "hebrew-561",
-              "eng": "the words"
+              "cht": "分辨"
             },
             {
               "id": "hebrew-998",
-              "eng": "of understanding",
-              "punct": "–"
+              "cht": "通達"
+            },
+            {
+              "id": "hebrew-561",
+              "cht": "的言語",
+              "punct_cht": "，"
             }
           ]
         },
@@ -64,49 +75,51 @@
             "hebrew-7181": 2.757003134390137
           },
           "verseKey": "jer.6.17",
-          "cunp": "我設立守望的人照管你們， 說：要聽角聲。 他們卻說：我們不聽。",
+          "nasb": "And I set watchmen over you, saying, ‘Listen to the sound of the trumpet!’ But they said, ‘We will not listen.’",
           "words": [
             {
               "id": "hebrew-6965",
-              "eng": "And I set"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "over you"
+              "cht": "我設立"
             },
             {
               "id": "hebrew-6822",
-              "eng": "watchmen"
+              "cht": "守望的人"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "照管你們"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "，："
             },
             {
               "id": "hebrew-7181",
-              "eng": "[saying] Listen"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "to the sound"
+              "cht": "要聽"
             },
             {
               "id": "hebrew-7782",
-              "eng": "of the trumpet",
-              "punct": "."
+              "cht": "角"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "聲",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-559",
-              "eng": "But they said",
-              "punct": "､"
+              "cht": "他們卻說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我們不"
             },
             {
               "id": "hebrew-7181",
-              "eng": "we will listen",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "聽",
+              "punct_cht": "。"
             }
           ]
         },
@@ -117,40 +130,38 @@
             "hebrew-998": 2.9026639737222575
           },
           "verseKey": "pro.23.23",
-          "cunp": "你當買真理； 就是智慧、訓誨，和聰明也都不可賣。",
+          "nasb": "Buy truth, and do not sell it, Get wisdom and instruction and understanding.",
           "words": [
             {
-              "id": "hebrew-571",
-              "eng": "The truth",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-7069",
-              "eng": "Buy"
+              "cht": "你當買"
             },
             {
-              "id": "hebrew-408",
-              "eng": "and not",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4376",
-              "eng": "do sell [it]"
+              "id": "hebrew-571",
+              "cht": "真理",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2451",
-              "eng": "[Also] wisdom",
-              "punct": "､"
+              "cht": "就是智慧、"
             },
             {
               "id": "hebrew-4148",
-              "eng": "and instruction",
-              "punct": "､"
+              "cht": "訓誨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-998",
-              "eng": "and understanding",
-              "punct": "."
+              "cht": "和聰明"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "也都不可"
+            },
+            {
+              "id": "hebrew-4376",
+              "cht": "賣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -162,116 +173,65 @@
             "hebrew-998": 2.9026639737222575
           },
           "verseKey": "1ch.12.33",
-          "cunp": "西布倫支派，能上陣用各樣兵器打仗、行伍整齊、不生二心的有五萬人。",
+          "nasb": "Of Zebulun, there were 50,000 who went out in the army, who could draw up in battle formation with all kinds of weapons of war and helped David with an undivided heart.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "And of the sons"
+              "id": "hebrew-4480",
+              "cht": "西布倫"
             },
             {
-              "id": "hebrew-3485",
-              "eng": "of Issachar",
-              "punct": "､"
+              "id": "",
+              "cht": "支派",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3045",
-              "eng": "that had"
+              "id": "hebrew-3318",
+              "cht": "能上"
             },
             {
-              "id": "hebrew-998",
-              "eng": "who had understanding"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "of the times",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "to know"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "what"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "ought to do",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "Israel"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "their chiefs were"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "two hundred",
-              "punct": "–"
+              "id": "hebrew-6635",
+              "cht": "陣"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "用各樣"
             },
             {
-              "id": "hebrew-251",
-              "eng": "their brothers were"
+              "id": "hebrew-4421",
+              "cht": "兵"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "their command",
-              "punct": "."
+              "id": "hebrew-3627",
+              "cht": "器"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4421",
+              "cht": "打仗、"
             },
             {
-              "id": "hebrew-2074"
+              "id": "hebrew-5737",
+              "cht": "行伍整齊、"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "不"
             },
             {
-              "id": "hebrew-3318"
+              "id": "hebrew-3820",
+              "cht": "生"
             },
             {
-              "id": "hebrew-6635"
+              "id": "hebrew-3820",
+              "cht": "二心"
             },
             {
-              "id": "hebrew-6186"
+              "id": "hebrew-2572",
+              "cht": "的有五萬"
             },
             {
-              "id": "hebrew-4421"
-            },
-            {
-              "id": "hebrew-3627"
-            },
-            {
-              "id": "hebrew-4421"
-            },
-            {
-              "id": "hebrew-5737"
-            },
-            {
-              "id": "hebrew-3808"
-            },
-            {
-              "id": "hebrew-3820"
-            },
-            {
-              "id": "hebrew-3820"
-            },
-            {
-              "id": "hebrew-2572"
-            },
-            {
-              "id": "hebrew-505"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -283,124 +243,105 @@
             "hebrew-998": 2.9026639737222575
           },
           "verseKey": "2ch.2.12",
-          "cunp": "又說：「創造天地的耶和華－以色列的神是應當稱頌的！他賜給大衛王一個有智慧的兒子，使他有謀略聰明，可以為耶和華建造殿宇，又為自己的國建造宮室。",
+          "nasb": "Then Huram continued, “Blessed be the Lord, the God of Israel, who has made heaven and earth, who has given King David a wise son, endowed with discretion and understanding, who will build a house for the Lord and a royal palace for himself.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
-              "id": "hebrew-2361",
-              "eng": "Hiram"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "Blessed [be]"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
+              "cht": "又說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6213",
-              "eng": "made"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "創造"
             },
             {
               "id": "hebrew-8064",
-              "eng": "heaven"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "天"
             },
             {
               "id": "hebrew-776",
-              "eng": "earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "He has given"
-            },
-            {
-              "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "King"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "a son",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2450",
-              "eng": "wise"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "endowed"
-            },
-            {
-              "id": "hebrew-7922",
-              "eng": "with prudence"
-            },
-            {
-              "id": "hebrew-998",
-              "eng": "and understanding",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-1129",
-              "eng": "will build"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "a temple"
+              "cht": "地"
             },
             {
               "id": "hebrew-3068",
-              "eng": "for Yahweh",
-              "punct": "､"
+              "cht": "的耶和華─"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "以色列"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-1288",
+              "cht": "是應當稱頌的",
+              "punct_cht": "！"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "賜"
+            },
+            {
+              "id": "hebrew-1732",
+              "cht": "給大衛"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-2450",
+              "cht": "一個有智慧的"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "兒子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "使他有謀"
+            },
+            {
+              "id": "hebrew-7922",
+              "cht": "略"
+            },
+            {
+              "id": "hebrew-998",
+              "cht": "聰明",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "可以為耶和華"
+            },
+            {
+              "id": "hebrew-1129",
+              "cht": "建造"
             },
             {
               "id": "hebrew-1004",
-              "eng": "and a house"
+              "cht": "殿宇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4438",
-              "eng": "royal for himself",
-              "punct": "."
+              "cht": "又為自己的國"
             },
             {
-              "id": ""
+              "id": "hebrew-1004",
+              "cht": "建造宮室",
+              "punct_cht": "。"
             }
           ]
         },
@@ -411,35 +352,33 @@
             "hebrew-7181": 2.757003134390137
           },
           "verseKey": "isa.28.23",
-          "cunp": "你們當側耳聽我的聲音， 留心聽我的言語。",
+          "nasb": "Give ear and hear my voice, Listen and hear my words.",
           "words": [
             {
               "id": "hebrew-238",
-              "eng": "Give ear",
-              "punct": "､"
+              "cht": "你們當側耳"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and hear"
+              "cht": "聽"
             },
             {
               "id": "hebrew-6963",
-              "eng": "my voice",
-              "punct": "–"
+              "cht": "我的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7181",
-              "eng": "Listen",
-              "punct": "､"
+              "cht": "留心"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and hear"
+              "cht": "聽"
             },
             {
               "id": "hebrew-565",
-              "eng": "my speech",
-              "punct": "."
+              "cht": "我的言語",
+              "punct_cht": "。"
             }
           ]
         },
@@ -450,68 +389,65 @@
             "hebrew-7181": 2.757003134390137
           },
           "verseKey": "jer.23.18",
-          "cunp": "有誰站在耶和華的會中 得以聽見並會悟他的話呢？ 有誰留心聽他的話呢？",
+          "nasb": "But who has stood in the council of the Lord, That he should see and hear His word? Who has given heed to His word and listened?",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "有"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-5975",
-              "eng": "has stood"
-            },
-            {
-              "id": "hebrew-5475",
-              "eng": "in the counsel"
+              "cht": "站"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "在耶和華"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "and has perceived"
+              "id": "hebrew-5475",
+              "cht": "的會中"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and heard"
+              "cht": "得以聽見"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "並會悟"
             },
             {
               "id": "hebrew-1697",
-              "eng": "His word"
+              "cht": "他的話"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
+              "cht": "有誰"
             },
             {
               "id": "hebrew-7181",
-              "eng": "has marked"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "His word",
-              "punct": "､"
+              "cht": "留心"
             },
             {
               "id": "hebrew-8085",
-              "eng": "and heard [it]",
-              "punct": "."
+              "cht": "聽"
             },
             {
-              "id": ""
+              "id": "hebrew-1697",
+              "cht": "他的話"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -522,66 +458,65 @@
             "hebrew-7181": 2.757003134390137
           },
           "verseKey": "isa.34.1",
-          "cunp": "列國啊，要近前來聽！ 眾民哪，要側耳而聽！ 地和其上所充滿的， 世界和其中一切所出的都應當聽！",
+          "nasb": "Draw near, O nations, to hear; and listen, O peoples! Let the earth and all it contains hear, and the world and all that springs from it.",
           "words": [
             {
-              "id": "hebrew-7126",
-              "eng": "Come near",
-              "punct": "､"
+              "id": "hebrew-1471",
+              "cht": "列國"
             },
             {
-              "id": "hebrew-1471",
-              "eng": "you nations",
-              "punct": "､"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7126",
+              "cht": "要近前來"
             },
             {
               "id": "hebrew-8085",
-              "eng": "to hear",
-              "punct": "–"
+              "cht": "聽",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3816",
-              "eng": "and you people",
-              "punct": "!"
+              "cht": "眾民"
+            },
+            {
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7181",
-              "eng": "heed",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "let hear",
-              "punct": "､"
+              "cht": "要側耳而聽",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地"
             },
             {
               "id": "hebrew-4393",
-              "eng": "and all that is in it",
-              "punct": "–"
+              "cht": "和其上所充滿的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8398",
-              "eng": "the world",
-              "punct": "､"
+              "cht": "世界"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all [things]"
+              "cht": "和其中一切"
             },
             {
               "id": "hebrew-6631",
-              "eng": "that come forth from it",
-              "punct": "."
+              "cht": "所出的"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-8085",
+              "cht": "都應當聽",
+              "punct_cht": "！"
             }
           ]
         },
@@ -592,85 +527,76 @@
             "hebrew-7181": 2.757003134390137
           },
           "verseKey": "1sa.15.22",
-          "cunp": "撒母耳說： 耶和華喜悅燔祭和平安祭， 豈如喜悅人聽從他的話呢？ 聽命勝於獻祭； 順從勝於公羊的脂油。",
+          "nasb": "Samuel said, “Has the Lord as much delight in burnt offerings and sacrifices As in obeying the voice of the Lord? Behold, to obey is better than sacrifice, And to heed than the fat of rams.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said",
-              "punct": "､"
+              "id": "hebrew-8050",
+              "cht": "撒母耳"
             },
             {
-              "id": "hebrew-8050",
-              "eng": "Samuel"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2656",
-              "eng": "Has [as great] delight"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "喜悅"
             },
             {
               "id": "hebrew-5930",
-              "eng": "in burnt offerings"
+              "cht": "燔祭"
             },
             {
               "id": "hebrew-2077",
-              "eng": "and sacrifices",
-              "punct": "､"
+              "cht": "和平安祭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8085",
-              "eng": "as in obeying"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "the voice"
+              "cht": "豈如喜悅人聽從"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "他"
             },
             {
-              "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "id": "hebrew-6963",
+              "cht": "的話"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-8085",
-              "eng": "to obey"
-            },
-            {
-              "id": "hebrew-2077",
-              "eng": "than sacrifice",
-              "punct": "､"
+              "cht": "聽命"
             },
             {
               "id": "hebrew-2896",
-              "eng": "is better"
+              "cht": "勝"
+            },
+            {
+              "id": "hebrew-2077",
+              "cht": "於獻祭",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7181",
-              "eng": "[And] to heed"
-            },
-            {
-              "id": "hebrew-2459",
-              "eng": "than the fat"
+              "cht": "順從"
             },
             {
               "id": "hebrew-352",
-              "eng": "of rams",
-              "punct": "."
+              "cht": "勝於公羊"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-2459",
+              "cht": "的脂油",
+              "punct_cht": "。"
             }
           ]
         },
@@ -681,112 +607,96 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "deu.11.2",
-          "cunp": "你們今日當知道，我本不是和你們的兒女說話；因為他們不知道，也沒有看見耶和華－你們神的管教、威嚴、大能的手，和伸出來的膀臂，",
+          "nasb": "Know this day that I am not speaking with your sons who have not known and who have not seen the discipline of the Lord your God—His greatness, His mighty hand and His outstretched arm,",
           "words": [
             {
-              "id": "hebrew-3045",
-              "eng": "Know"
-            },
-            {
               "id": "hebrew-3117",
-              "eng": "today",
-              "punct": "–"
+              "cht": "你們今日"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-3045",
+              "cht": "當知道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "[I do] not [speak]"
+              "cht": "我本不是"
             },
             {
-              "id": "hebrew-854",
-              "eng": "with"
+              "id": "hebrew-853",
+              "cht": "和"
             },
             {
               "id": "hebrew-1121",
-              "eng": "your children"
+              "cht": "你們的兒女"
+            },
+            {
+              "id": "",
+              "cht": "說話",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
+              "cht": "因為他們"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "have known",
-              "punct": "､"
+              "cht": "知道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "and who"
+              "cht": "也"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-7200",
-              "eng": "have seen"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4148",
-              "eng": "the chastening"
+              "cht": "看見"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "､"
+              "cht": "神"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-4148",
+              "cht": "的管教、"
             },
             {
               "id": "hebrew-1433",
-              "eng": "His greatness",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "and hand",
-              "punct": "､"
+              "cht": "威嚴、"
             },
             {
               "id": "hebrew-2389",
-              "eng": "His mighty"
+              "cht": "大能"
             },
             {
-              "id": "hebrew-2220",
-              "eng": "and arm",
-              "punct": "､"
+              "id": "hebrew-3027",
+              "cht": "的手",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5186",
-              "eng": "His outstretched",
-              "punct": "."
+              "cht": "和伸出來"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-2220",
+              "cht": "的膀臂",
+              "punct_cht": "，"
             }
           ]
         }

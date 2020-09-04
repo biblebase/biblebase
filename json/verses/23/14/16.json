@@ -3,17 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7200": "Those who see",
-          "hebrew-413": "at you",
-          "hebrew-7688": "will gaze",
-          "hebrew-995": "[And] consider you [saying]",
-          "hebrew-2088": "[Is] this",
-          "hebrew-376": "the man",
-          "hebrew-7264": "who made tremble",
-          "hebrew-776": "the earth",
-          "hebrew-7493": "who shook",
-          "hebrew-4467": "kingdoms",
-          "": null
+          "eng": {
+            "hebrew-7200": "Those who see",
+            "hebrew-413": "at you",
+            "hebrew-7688": "will gaze",
+            "hebrew-995": "[And] consider you [saying]",
+            "hebrew-2088": "[Is] this",
+            "hebrew-376": "the man",
+            "hebrew-7264": "who made tremble",
+            "hebrew-776": "the earth",
+            "hebrew-7493": "who shook",
+            "hebrew-4467": "kingdoms",
+            "": null
+          },
+          "cht": {
+            "hebrew-7200": "凡看見你的",
+            "hebrew-413": "看你",
+            "hebrew-7688": "都要定睛",
+            "hebrew-995": "留意",
+            "hebrew-7264": "戰抖",
+            "hebrew-776": "使大地",
+            "hebrew-7493": "震動",
+            "hebrew-4467": "使列國"
+          }
         }
       },
       "translations": {
@@ -32,39 +44,32 @@
             "hebrew-7688": 8.539323589735611
           },
           "verseKey": "psa.33.14",
-          "cunp": "從他的居所往外察看地上一切的居民－",
+          "nasb": "From His dwelling place He looks out On all the inhabitants of the earth,",
           "words": [
             {
-              "id": "hebrew-4349",
-              "eng": "From the place"
-            },
-            {
               "id": "hebrew-3427",
-              "eng": "of His dwelling"
+              "cht": "從他的居"
             },
             {
-              "id": "hebrew-7688",
-              "eng": "He looks"
+              "id": "hebrew-4349",
+              "cht": "所"
             },
             {
               "id": "hebrew-413",
-              "eng": "On"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "the inhabitants"
+              "cht": "往外察看"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "."
+              "cht": "地上"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3605",
+              "cht": "一切的"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "居民",
+              "punct_cht": "。"
             }
           ]
         },
@@ -74,7 +79,7 @@
             "hebrew-7688": 8.539323589735611
           },
           "verseKey": "exo.9.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -83,79 +88,59 @@
             "hebrew-7493": 2.55020052759751
           },
           "verseKey": "heb.12.27",
-          "cunp": "這再一次的話，是指明被震動的，就是受造之物都要挪去，使那不被震動的常存。",
+          "nasb": "This expression, “Yet once more,” denotes the removing of those things which can be shaken, as of created things, so that those things which cannot be shaken may remain.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "This"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now",
-              "punct": ","
-            },
-            {
               "id": "greek-2089",
-              "eng": "Yet"
+              "cht": "這再"
             },
             {
               "id": "greek-530",
-              "eng": "once [more]",
-              "punct": ","
+              "cht": "一次"
+            },
+            {
+              "id": "",
+              "cht": "的話",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1213",
-              "eng": "signifies"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the [things]"
+              "cht": "是指明"
             },
             {
               "id": "greek-4531",
-              "eng": "being shaken"
-            },
-            {
-              "id": "greek-3331",
-              "eng": "removing",
-              "punct": ","
+              "cht": "被震動的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
+              "cht": "就是"
             },
             {
               "id": "greek-4160",
-              "eng": "having been created",
-              "punct": ","
+              "cht": "受造"
+            },
+            {
+              "id": "greek-3331",
+              "cht": "之物都要挪去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-3306",
-              "eng": "should remain"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "cht": "使"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "那不"
             },
             {
               "id": "greek-4531",
-              "eng": "being shaken",
-              "punct": "."
+              "cht": "被震動"
             },
             {
-              "id": ""
+              "id": "greek-3306",
+              "cht": "的常存",
+              "punct_cht": "。"
             }
           ]
         },
@@ -165,195 +150,117 @@
             "hebrew-4467": 1.132916672375108
           },
           "verseKey": "jhn.18.36",
-          "cunp": "耶穌回答說：「我的國不屬這世界；我的國若屬這世界，我的臣僕必要爭戰，使我不至於被交給猶太人。只是我的國不屬這世界。」",
+          "nasb": "Jesus answered, “My kingdom is not of this world. If My kingdom were of this world, then My servants would be fighting so that I would not be handed over to the Jews; but as it is, My kingdom is not of this realm.”",
           "words": [
             {
-              "id": "greek-611",
-              "eng": "Answered"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
             },
             {
-              "id": "greek-3588",
-              "eng": "The"
+              "id": "greek-611",
+              "cht": "回答"
             },
             {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1699",
-              "eng": "My"
+              "cht": "我的"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "greek-932",
+              "cht": "國"
             },
             {
-              "id": "greek-1510",
-              "eng": "is"
+              "id": "greek-2076",
+              "cht": "不"
             },
             {
               "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2889",
-              "eng": "world"
+              "cht": "屬"
             },
             {
               "id": "greek-5127",
-              "eng": "this",
-              "punct": ";"
+              "cht": "這"
+            },
+            {
+              "id": "greek-2889",
+              "cht": "世界",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1699",
+              "cht": "我的"
+            },
+            {
+              "id": "greek-932",
+              "cht": "國"
             },
             {
               "id": "greek-1487",
-              "eng": "if"
+              "cht": "若"
             },
             {
               "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2889",
-              "eng": "world"
+              "cht": "屬"
             },
             {
               "id": "greek-5127",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "greek-1510",
-              "eng": "were"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2889",
+              "cht": "世界",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1699",
-              "eng": "My",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我的"
             },
             {
               "id": "greek-5257",
-              "eng": "attendants"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1699",
-              "eng": "My"
+              "cht": "臣僕"
             },
             {
               "id": "greek-75",
-              "eng": "would fight"
+              "cht": "必要爭戰",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "greek-3363",
+              "cht": "使我不至於"
             },
             {
               "id": "greek-3860",
-              "eng": "I might be betrayed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "被交給"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews",
-              "punct": "."
-            },
-            {
-              "id": "greek-3568",
-              "eng": "Now"
+              "cht": "猶太人",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "只是"
             },
             {
               "id": "greek-1699",
-              "eng": "My"
+              "cht": "我的"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "greek-932",
+              "cht": "國"
             },
             {
-              "id": "greek-1510",
-              "eng": "is"
+              "id": "greek-2076",
+              "cht": "不"
             },
             {
               "id": "greek-1782",
-              "eng": "from here",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2076"
-            },
-            {
-              "id": "greek-2258"
-            },
-            {
-              "id": "greek-3363"
-            },
-            {
-              "id": "greek-2076"
+              "cht": "屬這世界",
+              "punct_cht": "。"
             }
           ]
         },
@@ -364,60 +271,59 @@
             "hebrew-4467": 1.132916672375108
           },
           "verseKey": "isa.19.2",
-          "cunp": "我必激動埃及人攻擊埃及人－ 弟兄攻擊弟兄， 鄰舍攻擊鄰舍； 這城攻擊那城， 這國攻擊那國。",
+          "nasb": "“So I will incite Egyptians against Egyptians; And they will each fight against his brother and each against his neighbor, City against city and kingdom against kingdom.",
           "words": [
             {
               "id": "hebrew-5526",
-              "eng": "And I will set"
+              "cht": "我必激動"
             },
             {
               "id": "hebrew-4714",
-              "eng": "Egypt"
+              "cht": "埃及人"
             },
             {
               "id": "hebrew-4714",
-              "eng": "against Egypt",
-              "punct": "–"
+              "cht": "攻擊埃及人─"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "弟兄"
             },
             {
               "id": "hebrew-3898",
-              "eng": "and will fight"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "Everyone"
+              "cht": "攻擊"
             },
             {
               "id": "hebrew-251",
-              "eng": "against his brother",
-              "punct": "､"
+              "cht": "弟兄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-376",
-              "eng": "and everyone"
+              "cht": "鄰舍"
             },
             {
               "id": "hebrew-7453",
-              "eng": "against his neighbor",
-              "punct": "–"
+              "cht": "攻擊鄰舍",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5892",
-              "eng": "City"
+              "cht": "這城"
             },
             {
               "id": "hebrew-5892",
-              "eng": "against city",
-              "punct": "､"
+              "cht": "攻擊那城",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4467",
-              "eng": "kingdom"
+              "cht": "這國"
             },
             {
               "id": "hebrew-4467",
-              "eng": "against kingdom",
-              "punct": "."
+              "cht": "攻擊那國",
+              "punct_cht": "。"
             }
           ]
         },
@@ -428,39 +334,39 @@
             "hebrew-7493": 2.55020052759751
           },
           "verseKey": "jer.4.24",
-          "cunp": "我觀看大山，不料，盡都震動， 小山也都搖來搖去。",
+          "nasb": "I looked on the mountains, and behold, they were quaking, And all the hills moved to and fro.",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "I beheld"
+              "cht": "我觀看"
             },
             {
               "id": "hebrew-2022",
-              "eng": "the mountains",
-              "punct": "､"
+              "cht": "大山",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and indeed",
-              "punct": "､"
+              "cht": "不料",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7493",
-              "eng": "they trembled",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "盡都震動",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1389",
-              "eng": "the hills"
+              "cht": "小山"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "也都"
             },
             {
               "id": "hebrew-7043",
-              "eng": "moved back and forth",
-              "punct": "."
+              "cht": "搖來搖去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -471,112 +377,113 @@
             "hebrew-7493": 2.55020052759751
           },
           "verseKey": "amo.9.1",
-          "cunp": "我看見主站在祭壇旁邊； 他說：你要擊打柱頂，使門檻震動， 打碎柱頂，落在眾人頭上； 所剩下的人，我必用刀殺戮， 無一人能逃避，無一人能逃脫。",
+          "nasb": "I saw the Lord standing beside the altar, and He said, “Smite the capitals so that the thresholds will shake, And break them on the heads of them all! Then I will slay the rest of them with the sword; They will not have a fugitive who will flee, Or a refugee who will escape.",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "I saw"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我看見"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-5324",
-              "eng": "standing"
+              "cht": "站"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by"
+              "cht": "在"
             },
             {
               "id": "hebrew-4196",
-              "eng": "the altar",
-              "punct": "､"
+              "cht": "祭壇"
+            },
+            {
+              "id": "",
+              "cht": "旁邊",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-559",
-              "eng": "and He said",
-              "punct": "､"
+              "cht": "他說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5221",
-              "eng": "Strike"
+              "cht": "你要擊打"
             },
             {
               "id": "hebrew-3730",
-              "eng": "the doorposts"
-            },
-            {
-              "id": "hebrew-7493",
-              "eng": "that may shake",
-              "punct": "､"
+              "cht": "柱頂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5592",
-              "eng": "the thresholds"
+              "cht": "使門檻"
+            },
+            {
+              "id": "hebrew-7493",
+              "cht": "震動",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1214",
-              "eng": "and break them"
+              "cht": "打碎"
             },
             {
-              "id": "hebrew-7218",
-              "eng": "on the heads",
-              "punct": "､"
+              "id": "",
+              "cht": "柱頂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of them all"
+              "cht": "落在眾人"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "頭上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-319",
-              "eng": "and the last of them"
+              "cht": "所剩下的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2719",
-              "eng": "with the sword",
-              "punct": "–"
+              "cht": "我必用刀"
             },
             {
               "id": "hebrew-2026",
-              "eng": "I will slay"
+              "cht": "殺戮",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "無"
             },
             {
               "id": "hebrew-5127",
-              "eng": "He who flees"
+              "cht": "一人"
             },
             {
               "id": "hebrew-5127",
-              "eng": "shall get away",
-              "punct": "､"
+              "cht": "能逃避",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-4422",
-              "eng": "shall be delivered"
+              "cht": "無"
             },
             {
               "id": "hebrew-6412",
-              "eng": "he who escapes",
-              "punct": "."
+              "cht": "一人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4422",
+              "cht": "能逃脫",
+              "punct_cht": "。"
             }
           ]
         }

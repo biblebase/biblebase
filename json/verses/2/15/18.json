@@ -3,10 +3,18 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3068": "Yahweh",
-          "hebrew-4427": "shall reign",
-          "hebrew-5769": "forever",
-          "hebrew-5703": "and ever"
+          "eng": {
+            "hebrew-3068": "Yahweh",
+            "hebrew-4427": "shall reign",
+            "hebrew-5769": "forever",
+            "hebrew-5703": "and ever"
+          },
+          "cht": {
+            "hebrew-3068": "耶和華",
+            "hebrew-4427": "必作王",
+            "hebrew-5769": "直到永永遠遠",
+            "hebrew-5703": "直到永永遠遠"
+          }
         }
       },
       "translations": {
@@ -21,58 +29,60 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "isa.45.17",
-          "cunp": "惟有以色列必蒙耶和華的拯救， 得永遠的救恩。 你們必不蒙羞，也不抱愧， 直到永世無盡。",
+          "nasb": "Israel has been saved by the Lord With an everlasting salvation; You will not be put to shame or humiliated To all eternity.",
           "words": [
             {
               "id": "hebrew-3478",
-              "eng": "[But] Israel"
-            },
-            {
-              "id": "hebrew-3467",
-              "eng": "shall be saved"
+              "cht": "惟有以色列"
             },
             {
               "id": "hebrew-3068",
-              "eng": "by Yahweh"
+              "cht": "必蒙耶和華"
+            },
+            {
+              "id": "hebrew-3467",
+              "cht": "的拯救",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "得永遠"
             },
             {
               "id": "hebrew-8668",
-              "eng": "salvation",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "with an everlasting"
+              "cht": "的救恩",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你們必不"
             },
             {
               "id": "hebrew-954",
-              "eng": "You shall be ashamed"
+              "cht": "蒙羞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "or"
+              "cht": "也不"
             },
             {
               "id": "hebrew-3637",
-              "eng": "disgraced"
+              "cht": "抱愧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "to",
-              "punct": "."
+              "cht": "直到"
             },
             {
               "id": "hebrew-5769",
-              "eng": "Forever"
+              "cht": "永世"
             },
             {
               "id": "hebrew-5703",
-              "eng": "and ever",
-              "punct": "."
+              "cht": "無盡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -83,75 +93,78 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "hab.3.6",
-          "cunp": "他站立，量了大地， 觀看，趕散萬民。 永久的山崩裂； 長存的嶺塌陷； 他的作為與古時一樣。",
+          "nasb": "He stood and surveyed the earth; He looked and startled the nations. Yes, the perpetual mountains were shattered, The ancient hills collapsed. His ways are everlasting.",
           "words": [
             {
               "id": "hebrew-5975",
-              "eng": "He stood",
-              "punct": "､"
+              "cht": "他站立",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4058",
-              "eng": "and measured"
+              "cht": "量了"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
+              "cht": "大地"
+            },
+            {
+              "id": "",
+              "cht": "（或譯使地震動）",
+              "punct_cht": "：，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "He looked",
-              "punct": "､"
+              "cht": "觀看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5425",
-              "eng": "and startled"
+              "cht": "趕散"
             },
             {
               "id": "hebrew-1471",
-              "eng": "the nations",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6327",
-              "eng": "and were scattered",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2042",
-              "eng": "the mountains"
+              "cht": "萬民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5703",
-              "eng": "everlasting"
+              "cht": "永久"
             },
             {
-              "id": "hebrew-7817",
-              "eng": "bowed",
-              "punct": "."
+              "id": "hebrew-2042",
+              "cht": "的山"
+            },
+            {
+              "id": "hebrew-6327",
+              "cht": "崩裂",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "長存"
             },
             {
               "id": "hebrew-1389",
-              "eng": "The hills"
+              "cht": "的嶺"
             },
             {
-              "id": "hebrew-5769",
-              "eng": "perpetual"
+              "id": "hebrew-7817",
+              "cht": "塌陷",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1979",
-              "eng": "ways [are]"
+              "cht": "作為"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "與古時"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -163,45 +176,41 @@
             "hebrew-5703": 2.57672001355142
           },
           "verseKey": "isa.26.4",
-          "cunp": "你們當倚靠耶和華直到永遠， 因為耶和華是永久的磐石。",
+          "nasb": "Trust in the Lord forever, For in God the Lord, we have an everlasting Rock.",
           "words": [
             {
               "id": "hebrew-982",
-              "eng": "Trust"
+              "cht": "你們當倚靠"
             },
             {
               "id": "hebrew-3068",
-              "eng": "in Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5704",
-              "eng": "even to"
+              "cht": "直到"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "､"
+              "cht": "永遠",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3050",
-              "eng": "in YAH"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-6697",
-              "eng": "[is] strength"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting",
-              "punct": "."
+              "cht": "是永久的"
+            },
+            {
+              "id": "hebrew-6697",
+              "cht": "磐石",
+              "punct_cht": "。"
             }
           ]
         }

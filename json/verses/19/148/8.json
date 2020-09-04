@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-784": "Fire",
-          "hebrew-1259": "and hail",
-          "hebrew-7950": "snow",
-          "hebrew-7008": "and clouds",
-          "hebrew-7307": "wind",
-          "hebrew-5591": "Stormy",
-          "hebrew-6213": "fulfilling",
-          "hebrew-1697": "His word"
+          "eng": {
+            "hebrew-784": "Fire",
+            "hebrew-1259": "and hail",
+            "hebrew-7950": "snow",
+            "hebrew-7008": "and clouds",
+            "hebrew-7307": "wind",
+            "hebrew-5591": "Stormy",
+            "hebrew-6213": "fulfilling",
+            "hebrew-1697": "His word"
+          },
+          "cht": {
+            "hebrew-784": "火",
+            "hebrew-1259": "與冰雹",
+            "hebrew-7950": "雪",
+            "hebrew-7008": "和霧氣",
+            "hebrew-7307": "風",
+            "hebrew-5591": "的狂",
+            "hebrew-6213": "成就",
+            "hebrew-1697": "他命"
+          }
         }
       },
       "translations": {
@@ -28,83 +40,71 @@
             "hebrew-7008": 7.502414237754052
           },
           "verseKey": "gen.19.28",
-          "cunp": "向所多瑪和蛾摩拉與平原的全地觀看，不料，那地方煙氣上騰，如同燒窰一般。",
+          "nasb": "and he looked down toward Sodom and Gomorrah, and toward all the land of the valley, and he saw, and behold, the smoke of the land ascended like the smoke of a furnace.",
           "words": [
             {
-              "id": "hebrew-8259",
-              "eng": "And he looked"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "toward"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face of"
+              "cht": "向"
             },
             {
               "id": "hebrew-5467",
-              "eng": "Sodom"
+              "cht": "所多瑪"
             },
             {
               "id": "hebrew-6017",
-              "eng": "and Gomorrah",
-              "punct": "､"
+              "cht": "和蛾摩拉"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and toward"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "與"
             },
             {
               "id": "hebrew-3603",
-              "eng": "of the plain",
-              "punct": "､"
+              "cht": "平原"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "and he saw",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "and behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "went up"
-            },
-            {
-              "id": "hebrew-7008",
-              "eng": "smoke"
+              "id": "hebrew-3605",
+              "cht": "的全"
             },
             {
               "id": "hebrew-776",
-              "eng": "from the land"
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-8259",
+              "cht": "觀"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "看",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2009",
+              "cht": "不料",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "那地方"
             },
             {
               "id": "hebrew-7008",
-              "eng": "like the smoke"
+              "cht": "煙氣"
             },
             {
-              "id": "hebrew-3536",
-              "eng": "of a furnace",
-              "punct": "."
+              "id": "hebrew-5927",
+              "cht": "上騰",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-7008",
+              "cht": "燒窯"
+            },
+            {
+              "id": "",
+              "cht": "一般",
+              "punct_cht": "。"
             }
           ]
         },
@@ -114,37 +114,33 @@
             "hebrew-7008": 7.502414237754052
           },
           "verseKey": "psa.119.83",
-          "cunp": "我好像煙薰的皮袋， 卻不忘記你的律例。",
+          "nasb": "Though I have become like a wineskin in the smoke, I do not forget Your statutes.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
               "id": "hebrew-1961",
-              "eng": "I have become"
-            },
-            {
-              "id": "hebrew-4997",
-              "eng": "like a wineskin"
+              "cht": "我"
             },
             {
               "id": "hebrew-7008",
-              "eng": "in smoke",
-              "punct": "–"
+              "cht": "好像煙薰"
             },
             {
-              "id": "hebrew-2706",
-              "eng": "Your statutes"
+              "id": "hebrew-4997",
+              "cht": "的皮袋",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "卻不"
             },
             {
               "id": "hebrew-7911",
-              "eng": "[Yet] I do forget",
-              "punct": "."
+              "cht": "忘記"
+            },
+            {
+              "id": "hebrew-2706",
+              "cht": "你的律例",
+              "punct_cht": "。"
             }
           ]
         },
@@ -154,58 +150,60 @@
             "hebrew-5591": 3.4146839202627715
           },
           "verseKey": "jer.23.19",
-          "cunp": "看哪！耶和華的忿怒 好像暴風，已經發出； 是暴烈的旋風， 必轉到惡人的頭上。",
+          "nasb": "Behold, the storm of the Lord has gone forth in wrath, Even a whirling tempest; It will swirl down on the head of the wicked.",
           "words": [
             {
               "id": "hebrew-2009",
-              "eng": "Behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5591",
-              "eng": "a whirlwind"
+              "cht": "看哪",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2534",
-              "eng": "in fury",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "has gone forth"
+              "cht": "的忿怒"
             },
             {
               "id": "hebrew-5591",
-              "eng": "and a whirlwind",
-              "punct": "–"
+              "cht": "好像暴風",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "已經發出",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2342",
-              "eng": "violent"
+              "cht": "是暴烈"
+            },
+            {
+              "id": "hebrew-5591",
+              "cht": "的旋風",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2342",
+              "cht": "必轉"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the head"
+              "cht": "到"
             },
             {
               "id": "hebrew-7563",
-              "eng": "of the wicked"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-2342",
-              "eng": "it will fall violently",
-              "punct": "."
+              "id": "hebrew-7218",
+              "cht": "的頭"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -215,58 +213,59 @@
             "hebrew-5591": 3.4146839202627715
           },
           "verseKey": "jer.30.23",
-          "cunp": "看哪，耶和華的忿怒 好像暴風已經發出； 是掃滅的暴風， 必轉到惡人的頭上。",
+          "nasb": "Behold, the tempest of the Lord! Wrath has gone forth, A sweeping tempest; It will burst on the head of the wicked.",
           "words": [
             {
               "id": "hebrew-2009",
-              "eng": "Behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5591",
-              "eng": "the whirlwind"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2534",
-              "eng": "with fury",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "Goes forth"
+              "cht": "的忿怒"
             },
             {
               "id": "hebrew-5591",
-              "eng": "a whirlwind",
-              "punct": "–"
+              "cht": "好像暴風"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "已經發出",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1641",
-              "eng": "continuing"
+              "cht": "是掃滅"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the head"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "of the wicked"
+              "id": "hebrew-5591",
+              "cht": "的暴風",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2342",
-              "eng": "it will fall violently",
-              "punct": "."
+              "cht": "必轉"
             },
             {
-              "id": ""
+              "id": "hebrew-5921",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-7563",
+              "cht": "惡人"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "的頭"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -277,93 +276,91 @@
             "hebrew-1259": 2.9026639737222575
           },
           "verseKey": "exo.9.23",
-          "cunp": "摩西向天伸杖，耶和華就打雷下雹，有火閃到地上；耶和華下雹在埃及地上。",
+          "nasb": "Moses stretched out his staff toward the sky, and the Lord sent thunder and hail, and fire ran down to the earth. And the Lord rained hail on the land of Egypt.",
           "words": [
             {
-              "id": "hebrew-5186",
-              "eng": "And stretched out"
-            },
-            {
               "id": "hebrew-4872",
-              "eng": "Moses"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4294",
-              "eng": "his rod"
+              "cht": "摩西"
             },
             {
               "id": "hebrew-5921",
-              "eng": "toward"
+              "cht": "向"
             },
             {
               "id": "hebrew-8064",
-              "eng": "heaven",
-              "punct": "､"
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-5186",
+              "cht": "伸"
+            },
+            {
+              "id": "hebrew-4294",
+              "cht": "杖",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "and Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5414",
-              "eng": "sent"
+              "cht": "就打"
             },
             {
               "id": "hebrew-6963",
-              "eng": "thunder"
+              "cht": "雷"
             },
             {
               "id": "hebrew-1259",
-              "eng": "and hail",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "and darted"
+              "cht": "下雹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-784",
-              "eng": "fire"
+              "cht": "有火"
+            },
+            {
+              "id": "hebrew-1980",
+              "cht": "閃"
             },
             {
               "id": "hebrew-776",
-              "eng": "to the ground",
-              "punct": "–"
+              "cht": "到地"
             },
             {
-              "id": "hebrew-4305",
-              "eng": "and rained"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-4305",
+              "cht": "下"
             },
             {
               "id": "hebrew-1259",
-              "eng": "hail"
+              "cht": "雹"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "在"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "埃及"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -374,95 +371,84 @@
             "hebrew-1259": 2.9026639737222575
           },
           "verseKey": "exo.9.24",
-          "cunp": "那時，雹與火攙雜，甚是厲害，自從埃及成國以來，遍地沒有這樣的。",
+          "nasb": "So there was hail, and fire flashing continually in the midst of the hail, very severe, such as had not been in all the land of Egypt since it became a nation.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "So there was"
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1259",
-              "eng": "hail",
-              "punct": "､"
+              "cht": "雹"
             },
             {
               "id": "hebrew-784",
-              "eng": "and"
+              "cht": "與火"
             },
             {
               "id": "hebrew-3947",
-              "eng": "fire"
+              "cht": "攙"
             },
             {
               "id": "hebrew-8432",
-              "eng": "with mingled"
-            },
-            {
-              "id": "hebrew-1259",
-              "eng": "the hail",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3515",
-              "eng": "heavy"
+              "cht": "雜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3966",
-              "eng": "so very",
-              "punct": "､"
+              "cht": "甚是"
             },
             {
-              "id": "hebrew-834",
-              "eng": "such as"
+              "id": "hebrew-3515",
+              "cht": "利害",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "none"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "that there was"
-            },
-            {
-              "id": "hebrew-3644",
-              "eng": "like it"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "in all"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "id": "hebrew-4480",
+              "cht": "自從"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt"
-            },
-            {
-              "id": "hebrew-227",
-              "eng": "from the time"
+              "cht": "埃及"
             },
             {
               "id": "hebrew-1961",
-              "eng": "it became"
+              "cht": "成"
             },
             {
               "id": "hebrew-1471",
-              "eng": "a nation",
-              "punct": "."
+              "cht": "國"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "以來",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3605",
+              "cht": "遍"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "沒"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
+            },
+            {
+              "id": "hebrew-3644",
+              "cht": "這樣"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -473,40 +459,41 @@
             "hebrew-7950": 3.55737257852982
           },
           "verseKey": "job.38.22",
-          "cunp": "你曾進入雪庫， 或見過雹倉嗎？",
+          "nasb": "Have you entered the storehouses of the snow, Or have you seen the storehouses of the hail,",
           "words": [
             {
               "id": "hebrew-935",
-              "eng": "have you entered"
+              "cht": "你曾進"
             },
             {
               "id": "hebrew-413",
-              "eng": "into"
-            },
-            {
-              "id": "hebrew-214",
-              "eng": "the treasury"
+              "cht": "入"
             },
             {
               "id": "hebrew-7950",
-              "eng": "of snow"
+              "cht": "雪"
             },
             {
               "id": "hebrew-214",
-              "eng": "Or the treasury"
-            },
-            {
-              "id": "hebrew-1259",
-              "eng": "of hail",
-              "punct": "､"
+              "cht": "庫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "have you seen",
-              "punct": "."
+              "cht": "或見過"
             },
             {
-              "id": ""
+              "id": "hebrew-1259",
+              "cht": "雹"
+            },
+            {
+              "id": "hebrew-214",
+              "cht": "倉"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -518,89 +505,80 @@
             "hebrew-5591": 3.4146839202627715
           },
           "verseKey": "ezk.1.4",
-          "cunp": "我觀看，見狂風從北方颳來，隨着有一朵包括閃爍火的大雲，周圍有光輝；從其中的火內發出好像光耀的精金；",
+          "nasb": "As I looked, behold, a storm wind was coming from the north, a great cloud with fire flashing forth continually and a bright light around it, and in its midst something like glowing metal in the midst of the fire.",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "And I looked",
-              "punct": "､"
+              "cht": "我觀看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and behold",
-              "punct": "､"
+              "cht": "見"
             },
             {
               "id": "hebrew-7307",
-              "eng": "wind"
-            },
-            {
-              "id": "hebrew-5591",
-              "eng": "a whirlwind"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "was coming"
+              "cht": "狂風"
             },
             {
               "id": "hebrew-4480",
-              "eng": "out"
+              "cht": "從"
             },
             {
               "id": "hebrew-6828",
-              "eng": "of the north",
-              "punct": "､"
+              "cht": "北方"
             },
             {
-              "id": "hebrew-6051",
-              "eng": "a cloud",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
-            },
-            {
-              "id": "hebrew-784",
-              "eng": "and with [raging] fire"
+              "id": "hebrew-935",
+              "cht": "颳來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3947",
-              "eng": "engulfing itself",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5051",
-              "eng": "and brightness [was]"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "all around"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "and radiating out of its midst"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "like the color"
-            },
-            {
-              "id": "hebrew-2830",
-              "eng": "of amber",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "out of the midst"
+              "cht": "隨著有一朵包括閃爍"
             },
             {
               "id": "hebrew-784",
-              "eng": "of the fire",
-              "punct": "."
+              "cht": "火"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1419",
+              "cht": "的大"
+            },
+            {
+              "id": "hebrew-6051",
+              "cht": "雲",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5439",
+              "cht": "周圍"
+            },
+            {
+              "id": "hebrew-5051",
+              "cht": "有光輝",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從其中"
+            },
+            {
+              "id": "hebrew-784",
+              "cht": "的火"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "內"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "發出好像光耀"
+            },
+            {
+              "id": "hebrew-2830",
+              "cht": "的精金",
+              "punct_cht": "；"
             }
           ]
         },
@@ -610,106 +588,83 @@
             "hebrew-1259": 2.9026639737222575
           },
           "verseKey": "exo.9.25",
-          "cunp": "在埃及遍地，雹擊打了田間所有的人和牲畜，並一切的菜蔬，又打壞田間一切的樹木。",
+          "nasb": "The hail struck all that was in the field through all the land of Egypt, both man and beast; the hail also struck every plant of the field and shattered every tree of the field.",
           "words": [
             {
-              "id": "hebrew-5221",
-              "eng": "And struck"
-            },
-            {
-              "id": "hebrew-1259",
-              "eng": "the hail"
+              "id": "hebrew-4714",
+              "cht": "在埃及"
             },
             {
               "id": "hebrew-3605",
-              "eng": "throughout the whole"
+              "cht": "遍"
             },
             {
               "id": "hebrew-776",
-              "eng": "land"
-            },
-            {
-              "id": "hebrew-4714",
-              "eng": "of Egypt"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "[was] in the field",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "from man"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "and to"
-            },
-            {
-              "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "herb"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "of the field"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "struck"
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1259",
-              "eng": "the hail",
-              "punct": "､"
+              "cht": "雹"
+            },
+            {
+              "id": "hebrew-5221",
+              "cht": "擊打"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "了"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "田間"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "所有"
             },
             {
-              "id": "hebrew-6086",
-              "eng": "tree"
+              "id": "hebrew-4480",
+              "cht": "的人"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "並"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切的"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field"
+              "cht": "菜蔬",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-7665",
-              "eng": "broke",
-              "punct": "."
+              "id": "hebrew-853",
+              "cht": "又打壞"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7704",
+              "cht": "田"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "間一切"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "的樹木",
+              "punct_cht": "。"
             }
           ]
         },
@@ -719,138 +674,95 @@
             "hebrew-1259": 2.9026639737222575
           },
           "verseKey": "rev.16.21",
-          "cunp": "又有大雹子從天落在人身上，每一個約重一他連得。為這雹子的災極大，人就褻瀆神。",
+          "nasb": "And huge hailstones, about one hundred pounds each, *came down from heaven upon men; and men blasphemed God because of the plague of the hail, because its plague *was extremely severe.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-5464",
-              "eng": "a hail"
+              "cht": "又有"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": ","
+              "cht": "大"
             },
             {
-              "id": "greek-5613",
-              "eng": "about"
-            },
-            {
-              "id": "greek-5006",
-              "eng": "a talent weight",
-              "punct": ","
-            },
-            {
-              "id": "greek-2597",
-              "eng": "comes down"
+              "id": "greek-5464",
+              "cht": "雹子"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven"
+              "cht": "天"
+            },
+            {
+              "id": "greek-2597",
+              "cht": "落"
+            },
+            {
+              "id": "greek-444",
+              "cht": "在人"
             },
             {
               "id": "greek-1909",
-              "eng": "upon"
+              "cht": "身上",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5613",
+              "cht": "每一個約"
             },
             {
-              "id": "greek-444",
-              "eng": "men",
-              "punct": "."
+              "id": "greek-5006",
+              "cht": "重一他連得"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-987",
-              "eng": "blasphemed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-444",
-              "eng": "men"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God"
+              "id": "",
+              "cht": "（一他連得約有九十斤）",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1537",
-              "eng": "on account of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4127",
-              "eng": "plague"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-5464",
-              "eng": "hail",
-              "punct": ","
-            },
-            {
-              "id": "greek-3754",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3173",
-              "eng": "severe"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4127",
-              "eng": "plague"
+              "cht": "為"
             },
             {
               "id": "greek-846",
-              "eng": "of it"
+              "cht": "這"
+            },
+            {
+              "id": "greek-5464",
+              "cht": "雹子"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "的災"
             },
             {
               "id": "greek-4970",
-              "eng": "exceedingly",
-              "punct": "."
+              "cht": "極"
             },
             {
-              "id": ""
+              "id": "greek-3173",
+              "cht": "大",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2076"
+              "id": "greek-444",
+              "cht": "人"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "就"
+            },
+            {
+              "id": "greek-987",
+              "cht": "褻瀆"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         }

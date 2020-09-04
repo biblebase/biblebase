@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1980": "And when they went",
-          "hebrew-1471": "another",
-          "hebrew-413": "to",
-          "hebrew-4467": "and from [one] kingdom",
-          "hebrew-5971": "people",
-          "hebrew-312": "another",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-1980": "And when they went",
+            "hebrew-1471": "another",
+            "hebrew-413": "to",
+            "hebrew-4467": "and from [one] kingdom",
+            "hebrew-5971": "people",
+            "hebrew-312": "another",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-1980": "游",
+            "hebrew-1471": "那邦",
+            "hebrew-413": "行到",
+            "hebrew-4467": "從這國",
+            "hebrew-5971": "國",
+            "hebrew-312": "那",
+            "hebrew-4480": "從這國"
+          }
         }
       },
       "translations": {
@@ -29,48 +40,41 @@
             "hebrew-312": 1.1386919976601375
           },
           "verseKey": "psa.105.13",
-          "cunp": "他們從這邦遊到那邦， 從這國行到那國。",
+          "nasb": "And they wandered about from nation to nation, From one kingdom to another people.",
           "words": [
             {
+              "id": "hebrew-4480",
+              "cht": "他們從這邦"
+            },
+            {
               "id": "hebrew-1980",
-              "eng": "And when they went"
-            },
-            {
-              "id": "hebrew-1471",
-              "eng": "from one nation"
+              "cht": "遊"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到"
             },
             {
               "id": "hebrew-1471",
-              "eng": "another",
-              "punct": "､"
+              "cht": "那邦",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4467",
-              "eng": "from [one] kingdom"
+              "id": "hebrew-4480",
+              "cht": "從這國"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "people",
-              "punct": "–"
+              "cht": "行到"
             },
             {
               "id": "hebrew-312",
-              "eng": "another",
-              "punct": "."
+              "cht": "那"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5971",
+              "cht": "國",
+              "punct_cht": "。"
             }
           ]
         },
@@ -81,119 +85,109 @@
             "hebrew-4467": 1.132916672375108
           },
           "verseKey": "1ki.18.10",
-          "cunp": "我指着永生耶和華－你的神起誓，無論哪一邦哪一國，我主都打發人去找你。若說你沒有在那裏，就必使那邦那國的人起誓說，實在是找不着你。",
+          "nasb": "As the Lord your God lives, there is no nation or kingdom where my master has not sent to search for you; and when they said, ‘He is not here,’ he made the kingdom or nation swear that they could not find you.",
           "words": [
             {
               "id": "hebrew-2416",
-              "eng": "[As] lives",
-              "punct": "､"
+              "cht": "我指著永生"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "起誓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-518",
-              "eng": "no"
+              "cht": "無論"
             },
             {
               "id": "hebrew-3426",
-              "eng": "there is"
+              "cht": "哪"
             },
             {
               "id": "hebrew-1471",
-              "eng": "nation"
+              "cht": "一邦"
             },
             {
               "id": "hebrew-4467",
-              "eng": "or kingdom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "where"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "has sent [someone]"
+              "cht": "哪一國",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-113",
-              "eng": "my master"
+              "cht": "我主"
             },
             {
-              "id": "hebrew-8033",
-              "eng": "there"
+              "id": "hebrew-7971",
+              "cht": "都打發"
             },
             {
               "id": "hebrew-1245",
-              "eng": "to hunt for you"
+              "cht": "人去找你",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-559",
-              "eng": "and when they said",
-              "punct": "､"
+              "cht": "若說"
             },
             {
               "id": "hebrew-369",
-              "eng": "[He is] not [here]"
+              "cht": "你沒有"
             },
             {
-              "id": "hebrew-7650",
-              "eng": "and he took an oath"
+              "id": "",
+              "cht": "在那裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "from"
+              "cht": "就必使"
             },
             {
               "id": "hebrew-4467",
-              "eng": "the kingdom"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "or"
+              "cht": "那邦"
             },
             {
               "id": "hebrew-1471",
-              "eng": "nation",
-              "punct": "､"
+              "cht": "那國"
+            },
+            {
+              "id": "hebrew-7650",
+              "cht": "的人起誓"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "實在"
             },
             {
               "id": "hebrew-4672",
-              "eng": "they could find you",
-              "punct": "."
+              "cht": "是找"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "不著"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -203,195 +197,117 @@
             "hebrew-4467": 1.132916672375108
           },
           "verseKey": "jhn.18.36",
-          "cunp": "耶穌回答說：「我的國不屬這世界；我的國若屬這世界，我的臣僕必要爭戰，使我不至於被交給猶太人。只是我的國不屬這世界。」",
+          "nasb": "Jesus answered, “My kingdom is not of this world. If My kingdom were of this world, then My servants would be fighting so that I would not be handed over to the Jews; but as it is, My kingdom is not of this realm.”",
           "words": [
             {
-              "id": "greek-611",
-              "eng": "Answered"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
             },
             {
-              "id": "greek-3588",
-              "eng": "The"
+              "id": "greek-611",
+              "cht": "回答"
             },
             {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1699",
-              "eng": "My"
+              "cht": "我的"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "greek-932",
+              "cht": "國"
             },
             {
-              "id": "greek-1510",
-              "eng": "is"
+              "id": "greek-2076",
+              "cht": "不"
             },
             {
               "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2889",
-              "eng": "world"
+              "cht": "屬"
             },
             {
               "id": "greek-5127",
-              "eng": "this",
-              "punct": ";"
+              "cht": "這"
+            },
+            {
+              "id": "greek-2889",
+              "cht": "世界",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1699",
+              "cht": "我的"
+            },
+            {
+              "id": "greek-932",
+              "cht": "國"
             },
             {
               "id": "greek-1487",
-              "eng": "if"
+              "cht": "若"
             },
             {
               "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2889",
-              "eng": "world"
+              "cht": "屬"
             },
             {
               "id": "greek-5127",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "greek-1510",
-              "eng": "were"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2889",
+              "cht": "世界",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1699",
-              "eng": "My",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我的"
             },
             {
               "id": "greek-5257",
-              "eng": "attendants"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1699",
-              "eng": "My"
+              "cht": "臣僕"
             },
             {
               "id": "greek-75",
-              "eng": "would fight"
+              "cht": "必要爭戰",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "greek-3363",
+              "cht": "使我不至於"
             },
             {
               "id": "greek-3860",
-              "eng": "I might be betrayed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "被交給"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews",
-              "punct": "."
-            },
-            {
-              "id": "greek-3568",
-              "eng": "Now"
+              "cht": "猶太人",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "只是"
             },
             {
               "id": "greek-1699",
-              "eng": "My"
+              "cht": "我的"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "greek-932",
+              "cht": "國"
             },
             {
-              "id": "greek-1510",
-              "eng": "is"
+              "id": "greek-2076",
+              "cht": "不"
             },
             {
               "id": "greek-1782",
-              "eng": "from here",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2076"
-            },
-            {
-              "id": "greek-2258"
-            },
-            {
-              "id": "greek-3363"
-            },
-            {
-              "id": "greek-2076"
+              "cht": "屬這世界",
+              "punct_cht": "。"
             }
           ]
         }

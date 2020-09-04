@@ -3,19 +3,34 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-2532": "and",
-          "greek-3588": "the",
-          "greek-4757": "soldiers",
-          "greek-4120": "having twisted together",
-          "greek-4735": "a crown",
-          "greek-1537": "of",
-          "greek-173": "thorns",
-          "greek-2007": "put [it] on",
-          "greek-846": "Him",
-          "greek-2776": "head",
-          "greek-2440": "a robe",
-          "greek-4210": "purple",
-          "greek-4016": "cast around"
+          "eng": {
+            "greek-2532": "and",
+            "greek-3588": "the",
+            "greek-4757": "soldiers",
+            "greek-4120": "having twisted together",
+            "greek-4735": "a crown",
+            "greek-1537": "of",
+            "greek-173": "thorns",
+            "greek-2007": "put [it] on",
+            "greek-846": "Him",
+            "greek-2776": "head",
+            "greek-2440": "a robe",
+            "greek-4210": "purple",
+            "greek-4016": "cast around"
+          },
+          "cht": {
+            "greek-4757": "兵丁",
+            "greek-4120": "編作",
+            "greek-4735": "冠冕",
+            "greek-1537": "用",
+            "greek-173": "荊棘",
+            "greek-2007": "戴在",
+            "greek-846": "給他",
+            "greek-2776": "頭上",
+            "greek-2440": "袍",
+            "greek-4210": "紫",
+            "greek-4016": "穿上"
+          }
         }
       },
       "translations": {
@@ -37,129 +52,103 @@
             "greek-2776": 0.8758717567156162
           },
           "verseKey": "mat.27.29",
-          "cunp": "用荊棘編做冠冕，戴在他頭上，拿一根葦子放在他右手裏，跪在他面前，戲弄他，說：「恭喜，猶太人的王啊！」",
+          "nasb": "And after twisting together a crown of thorns, they put it on His head, and a reed in His right hand; and they knelt down before Him and mocked Him, saying, “Hail, King of the Jews!”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-4120",
-              "eng": "having twisted together"
-            },
-            {
-              "id": "greek-4735",
-              "eng": "a crown"
-            },
-            {
               "id": "greek-1537",
-              "eng": "of"
+              "cht": "用"
             },
             {
               "id": "greek-173",
-              "eng": "thorns",
-              "punct": ","
+              "cht": "荊棘"
+            },
+            {
+              "id": "greek-4120",
+              "cht": "編做"
+            },
+            {
+              "id": "greek-4735",
+              "cht": "冠冕",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2007",
-              "eng": "they put [it]"
+              "cht": "戴"
             },
             {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "在他"
             },
             {
               "id": "greek-2776",
-              "eng": "head"
+              "cht": "頭"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1909",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2563",
-              "eng": "a reed"
+              "cht": "拿一根葦子"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "放在他"
             },
             {
               "id": "greek-1188",
-              "eng": "right hand"
+              "cht": "右手"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1909",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1120",
-              "eng": "having bowed the knees"
+              "cht": "跪"
+            },
+            {
+              "id": "greek-846",
+              "cht": "在他"
             },
             {
               "id": "greek-1715",
-              "eng": "before"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
+              "cht": "面前",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1702",
-              "eng": "they mocked"
+              "cht": "戲弄"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5463",
-              "eng": "Hail",
-              "punct": ","
-            },
-            {
-              "id": "greek-935",
-              "eng": "King"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "恭喜",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews",
-              "punct": "!"
+              "cht": "猶太人"
             },
             {
-              "id": "greek-1909"
+              "id": "greek-935",
+              "cht": "的王"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "！"
             }
           ]
         },
@@ -171,90 +160,56 @@
             "greek-4210": 7.502414237754052
           },
           "verseKey": "jhn.19.5",
-          "cunp": "耶穌出來，戴着荊棘冠冕，穿着紫袍。彼拉多對他們說：「你們看這個人！」",
+          "nasb": "Jesus then came out, wearing the crown of thorns and the purple robe. Pilate *said to them, “Behold, the Man!”",
           "words": [
             {
-              "id": "greek-1831",
-              "eng": "Went forth"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
-              "id": "greek-1854",
-              "eng": "outside",
-              "punct": ","
+              "id": "greek-1831",
+              "cht": "出來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5409",
-              "eng": "wearing"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "戴著"
             },
             {
               "id": "greek-174",
-              "eng": "thorny"
+              "cht": "荊棘"
             },
             {
               "id": "greek-4735",
-              "eng": "crown"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "冠冕",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4210",
-              "eng": "purple"
+              "cht": "穿著紫"
             },
             {
               "id": "greek-2440",
-              "eng": "robe",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "he says"
+              "cht": "袍",
+              "punct_cht": "。"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "彼拉多對他們"
             },
             {
-              "id": "greek-2400",
-              "eng": "Behold"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2396",
+              "cht": "你們看"
             },
             {
               "id": "greek-444",
-              "eng": "man",
-              "punct": "!"
-            },
-            {
-              "id": "greek-2396"
+              "cht": "這個人",
+              "punct_cht": "！"
             }
           ]
         },
@@ -265,53 +220,45 @@
             "greek-4735": 2.632541948095861
           },
           "verseKey": "mrk.15.17",
-          "cunp": "他們給他穿上紫袍，又用荊棘編做冠冕給他戴上，",
+          "nasb": "They *dressed Him up in purple, and after twisting a crown of thorns, they put it on Him;",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1737",
-              "eng": "they put on"
-            },
-            {
               "id": "greek-846",
-              "eng": "Him"
+              "cht": "他們給他"
+            },
+            {
+              "id": "greek-1746",
+              "cht": "穿上"
             },
             {
               "id": "greek-4209",
-              "eng": "purple",
-              "punct": ","
+              "cht": "紫袍",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4060",
-              "eng": "placed on"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-4120",
-              "eng": "having twisted together"
+              "cht": "又"
             },
             {
               "id": "greek-174",
-              "eng": "of thorns"
+              "cht": "用荊棘"
+            },
+            {
+              "id": "greek-4120",
+              "cht": "編作"
             },
             {
               "id": "greek-4735",
-              "eng": "a crown",
-              "punct": ","
+              "cht": "冠冕"
             },
             {
-              "id": "greek-1746"
+              "id": "greek-846",
+              "cht": "給他"
+            },
+            {
+              "id": "greek-4060",
+              "cht": "戴上",
+              "punct_cht": "，"
             }
           ]
         },
@@ -322,114 +269,85 @@
             "greek-4016": 1.635991837075917
           },
           "verseKey": "rev.18.16",
-          "cunp": "哀哉！哀哉！這大城啊， 素常穿着細麻、 紫色、朱紅色的衣服， 又用金子、寶石，和珍珠為妝飾。",
+          "nasb": "saying, ‘Woe, woe, the great city, she who was clothed in fine linen and purple and scarlet, and adorned with gold and precious stones and pearls;",
           "words": [
             {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ":"
+              "id": "greek-3759",
+              "cht": "哀哉",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3759",
-              "eng": "Woe",
-              "punct": ","
-            },
-            {
-              "id": "greek-3759",
-              "eng": "woe",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4172",
-              "eng": "city"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "哀哉",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": ","
+              "cht": "這大"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4172",
+              "cht": "城"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4016",
-              "eng": "having been clothed with"
+              "cht": "素常穿著"
             },
             {
               "id": "greek-1039",
-              "eng": "fine linen"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "細麻、"
             },
             {
               "id": "greek-4210",
-              "eng": "purple"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "紫色、"
             },
             {
               "id": "greek-2847",
-              "eng": "scarlet",
-              "punct": ","
+              "cht": "朱紅色"
+            },
+            {
+              "id": "",
+              "cht": "的衣服",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5558",
-              "eng": "having been adorned"
+              "cht": "又"
             },
             {
               "id": "greek-1722",
-              "eng": "with"
+              "cht": "用"
             },
             {
-              "id": "greek-5553",
-              "eng": "gold"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3037",
-              "eng": "stone"
+              "id": "greek-5557",
+              "cht": "金子、"
             },
             {
               "id": "greek-5093",
-              "eng": "precious"
+              "cht": "寶"
+            },
+            {
+              "id": "greek-3037",
+              "cht": "石",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-3135",
-              "eng": "pearl",
-              "punct": "!"
+              "cht": "珍珠"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-5557"
+              "id": "greek-5558",
+              "cht": "為妝飾",
+              "punct_cht": "。"
             }
           ]
         },
@@ -440,150 +358,100 @@
             "greek-4016": 1.635991837075917
           },
           "verseKey": "rev.17.4",
-          "cunp": "那女人穿着紫色和朱紅色的衣服，用金子、寶石、珍珠為妝飾；手拿金杯，杯中盛滿了可憎之物，就是她淫亂的污穢。",
+          "nasb": "The woman was clothed in purple and scarlet, and adorned with gold and precious stones and pearls, having in her hand a gold cup full of abominations and of the unclean things of her immorality,",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-1135",
-              "eng": "woman"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "was"
+              "cht": "那女人"
             },
             {
               "id": "greek-4016",
-              "eng": "clothed in"
+              "cht": "穿著"
             },
             {
-              "id": "greek-4210",
-              "eng": "purple"
+              "id": "greek-4209",
+              "cht": "紫色"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "greek-2847",
-              "eng": "scarlet",
-              "punct": ","
+              "cht": "朱紅色"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "的衣服",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-5558",
-              "eng": "adorned"
-            },
-            {
-              "id": "greek-5553",
-              "eng": "with gold"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3037",
-              "eng": "stone"
+              "id": "greek-5557",
+              "cht": "用金子、"
             },
             {
               "id": "greek-5093",
-              "eng": "precious"
+              "cht": "寶"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3037",
+              "cht": "石、"
             },
             {
               "id": "greek-3135",
-              "eng": "pearls",
-              "punct": ","
+              "cht": "珍珠"
             },
             {
-              "id": "greek-2192",
-              "eng": "holding"
-            },
-            {
-              "id": "greek-4221",
-              "eng": "a cup"
-            },
-            {
-              "id": "greek-5552",
-              "eng": "golden"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5558",
+              "cht": "為妝飾",
+              "punct_cht": "；"
             },
             {
               "id": "greek-5495",
-              "eng": "hand"
+              "cht": "手"
             },
             {
-              "id": "greek-846",
-              "eng": "of her",
-              "punct": ","
+              "id": "greek-2192",
+              "cht": "拿"
+            },
+            {
+              "id": "greek-5552",
+              "cht": "金"
+            },
+            {
+              "id": "greek-4221",
+              "cht": "杯",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "杯中"
             },
             {
               "id": "greek-1073",
-              "eng": "being full"
+              "cht": "盛滿了"
             },
             {
               "id": "greek-946",
-              "eng": "of abominations"
+              "cht": "可憎之物",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-169",
-              "eng": "impurity"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4202",
-              "eng": "sexual immorality"
+              "cht": "就是"
             },
             {
               "id": "greek-846",
-              "eng": "of her",
-              "punct": "."
+              "cht": "她"
             },
             {
-              "id": "greek-2258"
+              "id": "greek-4202",
+              "cht": "淫亂的"
             },
             {
-              "id": "greek-4209"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-5557"
-            },
-            {
-              "id": "greek-168"
+              "id": "greek-168",
+              "cht": "污穢",
+              "punct_cht": "。"
             }
           ]
         },
@@ -594,151 +462,101 @@
             "greek-2440": 1.35968727979993
           },
           "verseKey": "jhn.19.23",
-          "cunp": "兵丁既然將耶穌釘在十字架上，就拿他的衣服分為四分，每兵一分；又拿他的裏衣，這件裏衣原來沒有縫兒，是上下一片織成的。",
+          "nasb": "Then the soldiers, when they had crucified Jesus, took His outer garments and made four parts, a part to every soldier and also the tunic; now the tunic was seamless, woven in one piece.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
+              "id": "greek-4757",
+              "cht": "兵丁"
             },
             {
               "id": "greek-3767",
-              "eng": "then"
-            },
-            {
-              "id": "greek-4757",
-              "eng": "soldiers",
-              "punct": ","
-            },
-            {
-              "id": "greek-3753",
-              "eng": "when"
-            },
-            {
-              "id": "greek-4717",
-              "eng": "they crucified"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "既然"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "將耶穌"
+            },
+            {
+              "id": "greek-4717",
+              "cht": "釘在十字架"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "took"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2440",
-              "eng": "garments"
+              "cht": "就拿"
             },
             {
               "id": "greek-846",
-              "eng": "of Him"
+              "cht": "他的"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2440",
+              "cht": "衣服"
             },
             {
               "id": "greek-4160",
-              "eng": "made"
+              "cht": "分為"
             },
             {
               "id": "greek-5064",
-              "eng": "four"
+              "cht": "四"
             },
             {
               "id": "greek-3313",
-              "eng": "parts",
-              "punct": ","
+              "cht": "分",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1538",
-              "eng": "to each"
+              "cht": "每"
             },
             {
               "id": "greek-4757",
-              "eng": "soldier"
+              "cht": "兵"
             },
             {
               "id": "greek-3313",
-              "eng": "a part",
-              "punct": ","
+              "cht": "一分",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2532",
-              "eng": "and also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "又"
             },
             {
               "id": "greek-5509",
-              "eng": "tunic",
-              "punct": "."
+              "cht": "拿他的裡衣",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1510",
-              "eng": "Was"
+              "id": "greek-5509",
+              "cht": "這件裡衣"
             },
             {
               "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5509",
-              "eng": "tunic"
+              "cht": "原來"
             },
             {
               "id": "greek-729",
-              "eng": "seamless",
-              "punct": ","
+              "cht": "沒有縫兒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1537",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-509",
-              "eng": "top"
+              "cht": "是上下一片"
             },
             {
               "id": "greek-5307",
-              "eng": "woven"
+              "cht": "織成"
             },
             {
-              "id": "greek-1223",
-              "eng": "throughout"
-            },
-            {
-              "id": "greek-3650",
-              "eng": "all",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2258"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -748,94 +566,87 @@
             "greek-4120": 7.502414237754052
           },
           "verseKey": "isa.27.1",
-          "cunp": "到那日，耶和華必用他剛硬有力的大刀刑罰鱷魚－就是那快行的蛇，刑罰鱷魚－就是那曲行的蛇，並殺海中的大魚。",
+          "nasb": "In that day the Lord will punish Leviathan the fleeing serpent, With His fierce and great and mighty sword, Even Leviathan the twisted serpent; And He will kill the dragon who lives in the sea.",
           "words": [
             {
-              "id": "hebrew-3117",
-              "eng": "In day"
-            },
-            {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "到那"
             },
             {
-              "id": "hebrew-6485",
-              "eng": "will punish"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "with His sword"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-7186",
-              "eng": "severe"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "and great"
+              "cht": "必用他剛硬"
             },
             {
               "id": "hebrew-2389",
-              "eng": "and mighty"
+              "cht": "有力"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "的大"
+            },
+            {
+              "id": "hebrew-2719",
+              "cht": "刀"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "刑罰"
             },
             {
               "id": "hebrew-3882",
-              "eng": "Leviathan"
-            },
-            {
-              "id": "hebrew-5175",
-              "eng": "the serpent",
-              "punct": "､"
+              "cht": "鱷魚─"
             },
             {
               "id": "hebrew-1281",
-              "eng": "fleeing"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-3882",
-              "eng": "Leviathan"
+              "cht": "就是那快行的"
             },
             {
               "id": "hebrew-5175",
-              "eng": "serpent",
-              "punct": "–"
+              "cht": "蛇",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "刑罰"
+            },
+            {
+              "id": "hebrew-3882",
+              "cht": "鱷魚─"
             },
             {
               "id": "hebrew-6129",
-              "eng": "that twisted"
+              "cht": "就是那曲行的"
+            },
+            {
+              "id": "hebrew-5175",
+              "cht": "蛇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2026",
-              "eng": "and He will slay"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8577",
-              "eng": "the reptile"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that [is]"
+              "cht": "並殺"
             },
             {
               "id": "hebrew-3220",
-              "eng": "in the sea",
-              "punct": "."
+              "cht": "海中"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-8577",
+              "cht": "大魚",
+              "punct_cht": "。"
             }
           ]
         },
@@ -848,120 +659,83 @@
             "greek-4016": 1.635991837075917
           },
           "verseKey": "rev.4.4",
-          "cunp": "寶座的周圍又有二十四個座位；其上坐着二十四位長老，身穿白衣，頭上戴着金冠冕。",
+          "nasb": "Around the throne were twenty-four thrones; and upon the thrones I saw twenty-four elders sitting, clothed in white garments, and golden crowns on their heads.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2362",
+              "cht": "寶座"
             },
             {
               "id": "greek-2943",
-              "eng": "around"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2362",
-              "eng": "throne",
-              "punct": ","
-            },
-            {
-              "id": "greek-2362",
-              "eng": "thrones"
-            },
-            {
-              "id": "greek-1501",
-              "eng": "[were] twenty"
-            },
-            {
-              "id": "greek-5064",
-              "eng": "four",
-              "punct": ";"
+              "cht": "的周圍"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2362",
-              "eng": "thrones"
-            },
-            {
-              "id": "greek-1501",
-              "eng": "twenty"
+              "cht": "又有二十"
             },
             {
               "id": "greek-5064",
-              "eng": "four"
+              "cht": "四"
             },
             {
-              "id": "greek-4245",
-              "eng": "elders"
+              "id": "greek-2362",
+              "cht": "個座位",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "其上"
             },
             {
               "id": "greek-2521",
-              "eng": "sitting",
-              "punct": ","
-            },
-            {
-              "id": "greek-4016",
-              "eng": "having been clothed"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-2440",
-              "eng": "garments"
-            },
-            {
-              "id": "greek-3022",
-              "eng": "white",
-              "punct": ";"
+              "cht": "坐著"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "二十"
             },
             {
-              "id": "greek-1909",
-              "eng": "on"
+              "id": "greek-5064",
+              "cht": "四"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-4245",
+              "cht": "位長老",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "身穿"
+            },
+            {
+              "id": "greek-3022",
+              "cht": "白"
+            },
+            {
+              "id": "greek-2440",
+              "cht": "衣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2776",
-              "eng": "heads"
+              "cht": "頭"
             },
             {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": ","
+              "id": "greek-1909",
+              "cht": "上"
             },
             {
-              "id": "greek-4735",
-              "eng": "crowns"
+              "id": "greek-2192",
+              "cht": "戴著"
             },
             {
               "id": "greek-5552",
-              "eng": "golden",
-              "punct": "."
+              "cht": "金"
             },
             {
-              "id": "greek-2192"
+              "id": "greek-4735",
+              "cht": "冠冕",
+              "punct_cht": "。"
             }
           ]
         },
@@ -971,71 +745,50 @@
             "greek-173": 3.231394854468145
           },
           "verseKey": "luk.8.7",
-          "cunp": "有落在荊棘裏的，荊棘一同生長，把它擠住了。",
+          "nasb": "Other seed fell among the thorns; and the thorns grew up with it and choked it out.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-2087",
-              "eng": "other"
+              "cht": "有"
             },
             {
               "id": "greek-4098",
-              "eng": "fell"
+              "cht": "落"
+            },
+            {
+              "id": "greek-173",
+              "cht": "在荊棘"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "裡"
             },
             {
-              "id": "greek-3319",
-              "eng": "[the] midst"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-173",
-              "eng": "thorns",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "荊棘"
             },
             {
               "id": "greek-4855",
-              "eng": "having sprung up with [it]",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-173",
-              "eng": "thorns"
-            },
-            {
-              "id": "greek-638",
-              "eng": "choked"
+              "cht": "一同生長",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": "."
+              "cht": "把它"
             },
             {
-              "id": ""
+              "id": "greek-638",
+              "cht": "擠住"
             },
             {
-              "id": "greek-1970"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -1045,88 +798,63 @@
             "greek-173": 3.231394854468145
           },
           "verseKey": "mrk.4.7",
-          "cunp": "有落在荊棘裏的，荊棘長起來，把它 擠住了，就不結實；",
+          "nasb": "Other seed fell among the thorns, and the thorns came up and choked it, and it yielded no crop.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-243",
-              "eng": "other"
+              "cht": "有"
             },
             {
               "id": "greek-4098",
-              "eng": "fell"
+              "cht": "落"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "在荊棘"
             },
             {
               "id": "greek-1519",
-              "eng": "among"
+              "cht": "裡"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-173",
-              "eng": "thorns",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "荊棘"
             },
             {
               "id": "greek-305",
-              "eng": "grew up"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-173",
-              "eng": "thorns",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4846",
-              "eng": "choked"
+              "cht": "長起來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": ","
+              "cht": "把它"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4846",
+              "cht": "擠"
             },
             {
-              "id": "greek-2590",
-              "eng": "fruit"
+              "id": "",
+              "cht": "住了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "no"
+              "cht": "就不"
             },
             {
               "id": "greek-1325",
-              "eng": "it yielded",
-              "punct": "."
+              "cht": "結"
             },
             {
-              "id": "greek-5027"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-2590",
+              "cht": "實",
+              "punct_cht": "；"
             }
           ]
         }

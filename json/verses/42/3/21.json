@@ -3,19 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-1096": "It came to pass",
-          "greek-1161": "now",
-          "greek-1722": "in",
-          "greek-3588": "the",
-          "greek-907": "having been baptized",
-          "greek-537": "all",
-          "greek-2992": "people",
-          "greek-2532": "and",
-          "greek-2424": "Jesus",
-          "greek-4336": "having prayed",
-          "greek-455": "was opened",
-          "greek-3772": "heaven",
-          "": null
+          "eng": {
+            "greek-1096": "It came to pass",
+            "greek-1161": "now",
+            "greek-1722": "in",
+            "greek-3588": "the",
+            "greek-907": "having been baptized",
+            "greek-537": "all",
+            "greek-2992": "people",
+            "greek-2532": "and",
+            "greek-2424": "Jesus",
+            "greek-4336": "having prayed",
+            "greek-455": "was opened",
+            "greek-3772": "heaven",
+            "": null
+          },
+          "cht": {
+            "greek-1722": "都受了洗",
+            "greek-907": "受了洗",
+            "greek-537": "眾",
+            "greek-2992": "百姓",
+            "greek-2532": "也",
+            "greek-2424": "耶穌",
+            "greek-4336": "正禱告",
+            "greek-455": "就開",
+            "greek-3772": "天"
+          }
         }
       },
       "translations": {
@@ -34,128 +47,96 @@
             "greek-3772": 0.7424012920136152
           },
           "verseKey": "mat.3.16",
-          "cunp": "耶穌受了洗，隨即從水裏上來。天忽然為他開了，他就看見神的靈彷彿鴿子降下，落在他身上。",
+          "nasb": "After being baptized, Jesus came up immediately from the water; and behold, the heavens were opened, and he saw the Spirit of God descending as a dove and lighting on Him,",
           "words": [
             {
-              "id": "greek-907",
-              "eng": "Having been baptized"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-907",
+              "cht": "受了洗",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2117",
-              "eng": "immediately"
-            },
-            {
-              "id": "greek-305",
-              "eng": "went up"
+              "cht": "隨即"
             },
             {
               "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "從"
             },
             {
               "id": "greek-5204",
-              "eng": "water",
-              "punct": ";"
+              "cht": "水"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2400",
-              "eng": "behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-455",
-              "eng": "were opened"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-305",
+              "cht": "裡上來",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3772",
-              "eng": "heavens",
-              "punct": ","
+              "cht": "天"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "he saw"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God"
-            },
-            {
-              "id": "greek-2597",
-              "eng": "descending"
-            },
-            {
-              "id": "greek-5616",
-              "eng": "as"
-            },
-            {
-              "id": "greek-4058",
-              "eng": "a dove",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "alighting"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "upon"
+              "id": "greek-2400",
+              "cht": "忽然"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
+              "cht": "為他"
             },
             {
-              "id": ""
+              "id": "greek-455",
+              "cht": "開了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "他就"
+            },
+            {
+              "id": "greek-1492",
+              "cht": "看見"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "的靈"
+            },
+            {
+              "id": "greek-5616",
+              "cht": "彷彿"
+            },
+            {
+              "id": "greek-4058",
+              "cht": "鴿子"
+            },
+            {
+              "id": "greek-2597",
+              "cht": "降下",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2064",
+              "cht": "落"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "在"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他"
+            },
+            {
+              "id": "",
+              "cht": "身上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -166,106 +147,70 @@
             "greek-2424": 0.6476856215615396
           },
           "verseKey": "mrk.10.39",
-          "cunp": "他們說：「我們能。」耶穌說：「我所喝的杯，你們也要喝；我所受的洗，你們也要受；",
+          "nasb": "They said to Him, “We are able.” And Jesus said to them, “The cup that I drink you shall drink; and you shall be baptized with the baptism with which I am baptized.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "they said"
-            },
-            {
               "id": "greek-846",
-              "eng": "to Him",
-              "punct": ","
+              "cht": "他們說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1410",
-              "eng": "We are able",
-              "punct": "."
-            },
-            {
-              "id": "greek-3739",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
+              "cht": "我們能",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
               "id": "greek-2036",
-              "eng": "said"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "id": "greek-1473",
+              "cht": "我"
             },
             {
-              "id": "greek-3588",
-              "eng": "The"
+              "id": "greek-3739",
+              "cht": "所"
+            },
+            {
+              "id": "greek-4095",
+              "cht": "喝的"
             },
             {
               "id": "greek-4221",
-              "eng": "cup"
+              "cht": "杯",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3739",
-              "eng": "which"
+              "id": "greek-4095",
+              "cht": "你們也要喝",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1473",
-              "eng": "I"
+              "cht": "我"
             },
             {
-              "id": "greek-4095",
-              "eng": "drink",
-              "punct": ","
+              "id": "greek-3739",
+              "cht": "所"
             },
             {
-              "id": "greek-4095",
-              "eng": "you will drink",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-907",
+              "cht": "受的"
             },
             {
               "id": "greek-908",
-              "eng": "baptism"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "I"
+              "cht": "洗",
+              "punct_cht": "，"
             },
             {
               "id": "greek-907",
-              "eng": "am baptized",
-              "punct": ","
-            },
-            {
-              "id": "greek-907",
-              "eng": "you will be baptized [with]",
-              "punct": ";"
+              "cht": "你們也要受",
+              "punct_cht": "；"
             }
           ]
         },
@@ -276,110 +221,85 @@
             "greek-2424": 0.6476856215615396
           },
           "verseKey": "mrk.10.38",
-          "cunp": "耶穌說：「你們不知道所求的是甚麼。我所喝的杯，你們能喝嗎？我所受的洗，你們能受嗎？」",
+          "nasb": "But Jesus said to them, “You do not know what you are asking. Are you able to drink the cup that I drink, or to be baptized with the baptism with which I am baptized?”",
           "words": [
             {
-              "id": "greek-3739",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
               "id": "greek-2036",
-              "eng": "said"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3756",
-              "eng": "Not"
+              "cht": "你們不"
             },
             {
               "id": "greek-1492",
-              "eng": "you know"
-            },
-            {
-              "id": "greek-5101",
-              "eng": "what"
+              "cht": "知道"
             },
             {
               "id": "greek-154",
-              "eng": "you ask",
-              "punct": "."
+              "cht": "所求的"
             },
             {
-              "id": "greek-1410",
-              "eng": "Are you able"
+              "id": "greek-5101",
+              "cht": "是甚麼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1473",
+              "cht": "我"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "所"
             },
             {
               "id": "greek-4095",
-              "eng": "to drink"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "喝"
             },
             {
               "id": "greek-4221",
-              "eng": "cup"
+              "cht": "的杯",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "I"
+              "id": "greek-1410",
+              "cht": "你們能"
             },
             {
               "id": "greek-4095",
-              "eng": "drink",
-              "punct": ","
+              "cht": "喝"
             },
             {
-              "id": "greek-2228",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-908",
-              "eng": "baptism"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
+              "id": "",
+              "cht": "麼",
+              "punct_cht": "？"
             },
             {
               "id": "greek-1473",
-              "eng": "I"
+              "cht": "我"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "所"
             },
             {
               "id": "greek-907",
-              "eng": "am baptized",
-              "punct": ","
+              "cht": "受的洗",
+              "punct_cht": "，"
             },
             {
               "id": "greek-907",
-              "eng": "to be baptized [with]",
-              "punct": "?"
+              "cht": "你們能受"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "麼",
+              "punct_cht": "？"
             }
           ]
         }
