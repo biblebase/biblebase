@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-56": "Fails",
-          "hebrew-8492": "the new wine",
-          "hebrew-535": "languishes",
-          "hebrew-1612": "the vine",
-          "hebrew-584": "sigh",
-          "hebrew-3605": "All",
-          "hebrew-8056": "merryhearted",
-          "hebrew-3820": "the merry-hearted"
+          "eng": {
+            "hebrew-56": "Fails",
+            "hebrew-8492": "the new wine",
+            "hebrew-535": "languishes",
+            "hebrew-1612": "the vine",
+            "hebrew-584": "sigh",
+            "hebrew-3605": "All",
+            "hebrew-8056": "merryhearted",
+            "hebrew-3820": "the merry-hearted"
+          },
+          "cht": {
+            "hebrew-56": "悲哀",
+            "hebrew-8492": "新酒",
+            "hebrew-535": "衰殘",
+            "hebrew-1612": "葡萄樹",
+            "hebrew-584": "歎息",
+            "hebrew-3605": "俱都",
+            "hebrew-8056": "歡樂的",
+            "hebrew-3820": "心中"
+          }
         }
       },
       "translations": {
@@ -28,51 +40,50 @@
             "hebrew-535": 4.414215456672498
           },
           "verseKey": "isa.24.4",
-          "cunp": "地上悲哀衰殘， 世界敗落衰殘； 地上居高位的人也敗落了。",
+          "nasb": "The earth mourns and withers, the world fades and withers, the exalted of the people of the earth fade away.",
           "words": [
             {
-              "id": "hebrew-56",
-              "eng": "Mourns"
-            },
-            {
-              "id": "hebrew-5034",
-              "eng": "[and] fades away",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地上"
             },
             {
-              "id": "hebrew-535",
-              "eng": "languishes"
+              "id": "hebrew-56",
+              "cht": "悲哀"
             },
             {
               "id": "hebrew-5034",
-              "eng": "[and] fades away",
-              "punct": "､"
+              "cht": "衰殘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8398",
-              "eng": "the world"
+              "cht": "世界"
             },
             {
               "id": "hebrew-535",
-              "eng": "languish",
-              "punct": "."
+              "cht": "敗落"
             },
             {
-              "id": "hebrew-4791",
-              "eng": "The haughty"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "people"
+              "id": "hebrew-5034",
+              "cht": "衰殘",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "."
+              "cht": "地上"
+            },
+            {
+              "id": "hebrew-4791",
+              "cht": "居高位的"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-535",
+              "cht": "也敗落了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -82,49 +93,51 @@
             "hebrew-584": 4.414215456672498
           },
           "verseKey": "ezk.21.6",
-          "cunp": "人子啊，你要歎息，在他們眼前彎着腰，苦苦地歎息。",
+          "nasb": "As for you, son of man, groan with breaking heart and bitter grief, groan in their sight.",
           "words": [
             {
-              "id": "hebrew-859",
-              "eng": "And therefore you"
+              "id": "hebrew-120",
+              "cht": "人"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "子"
             },
             {
-              "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-584",
-              "eng": "Sigh"
-            },
-            {
-              "id": "hebrew-7670",
-              "eng": "with breaking"
-            },
-            {
-              "id": "hebrew-4975",
-              "eng": "a heart",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4814",
-              "eng": "and with bitterness"
+              "id": "hebrew-859",
+              "cht": "你"
             },
             {
               "id": "hebrew-584",
-              "eng": "sigh"
+              "cht": "要歎息",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "before their eyes",
-              "punct": "."
+              "cht": "在他們眼前"
             },
             {
-              "id": ""
+              "id": "hebrew-7670",
+              "cht": "彎著"
+            },
+            {
+              "id": "hebrew-4975",
+              "cht": "腰",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4814",
+              "cht": "苦苦地"
+            },
+            {
+              "id": "hebrew-584",
+              "cht": "歎息",
+              "punct_cht": "。"
             }
           ]
         },
@@ -136,75 +149,71 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "hos.4.3",
-          "cunp": "因此，這地悲哀， 其上的民、田野的獸、 空中的鳥必都衰微， 海中的魚也必消滅。",
+          "nasb": "Therefore the land mourns, And everyone who lives in it languishes Along with the beasts of the field and the birds of the sky, And also the fish of the sea disappear.",
           "words": [
             {
-              "id": "hebrew-5921",
-              "eng": "Upon"
-            },
-            {
               "id": "hebrew-3651",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-56",
-              "eng": "will mourn",
-              "punct": "､"
+              "cht": "因此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "這地"
             },
             {
-              "id": "hebrew-535",
-              "eng": "and will waste away",
-              "punct": "､"
+              "id": "hebrew-56",
+              "cht": "悲哀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "everyone"
+              "cht": "的"
             },
             {
               "id": "hebrew-3427",
-              "eng": "who dwells"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "with the beasts"
+              "cht": "民、"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "田野"
             },
             {
-              "id": "hebrew-5775",
-              "eng": "and the birds"
+              "id": "hebrew-2416",
+              "cht": "的獸、"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of the air",
-              "punct": "–"
+              "cht": "空中"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "and Even"
+              "id": "hebrew-5775",
+              "cht": "的鳥"
             },
             {
-              "id": "hebrew-1709",
-              "eng": "the fish"
+              "id": "hebrew-3605",
+              "cht": "必都"
+            },
+            {
+              "id": "hebrew-535",
+              "cht": "衰微",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3220",
-              "eng": "of the sea"
+              "cht": "海"
+            },
+            {
+              "id": "hebrew-1709",
+              "cht": "中的魚"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-622",
-              "eng": "will be taken away",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3605"
+              "cht": "必消滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -216,62 +225,58 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "isa.19.8",
-          "cunp": "打魚的必哀哭。 在尼羅河一切釣魚的必悲傷； 在水上撒網的必都衰弱。",
+          "nasb": "And the fishermen will lament, And all those who cast a line into the Nile will mourn, And those who spread nets on the waters will pine away.",
           "words": [
             {
-              "id": "hebrew-578",
-              "eng": "And will mourn",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1771",
-              "eng": "the fishermen"
+              "cht": "打魚的"
             },
             {
-              "id": "hebrew-56",
-              "eng": "and will lament",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7993",
-              "eng": "those who cast"
+              "id": "hebrew-578",
+              "cht": "必哀哭",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2975",
-              "eng": "into the Nile"
+              "cht": "在尼羅河"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
             },
             {
               "id": "hebrew-2443",
-              "eng": "hooks"
+              "cht": "釣魚的"
             },
             {
-              "id": "hebrew-6566",
-              "eng": "and who spread"
-            },
-            {
-              "id": "hebrew-4365",
-              "eng": "nets"
+              "id": "hebrew-56",
+              "cht": "必悲傷",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters"
+              "cht": "水"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "上"
+            },
+            {
+              "id": "hebrew-6566",
+              "cht": "撒"
+            },
+            {
+              "id": "hebrew-4365",
+              "cht": "網"
             },
             {
               "id": "hebrew-535",
-              "eng": "they will languish",
-              "punct": "."
+              "cht": "的必都衰弱",
+              "punct_cht": "。"
             }
           ]
         },
@@ -283,87 +288,72 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "jol.1.12",
-          "cunp": "葡萄樹枯乾； 無花果樹衰殘。 石榴樹、棕樹、蘋果樹， 連田野一切的樹木也都枯乾； 眾人的喜樂盡都消滅。",
+          "nasb": "The vine dries up And the fig tree fails; The pomegranate, the palm also, and the apple tree, All the trees of the field dry up. Indeed, rejoicing dries up From the sons of men.",
           "words": [
             {
               "id": "hebrew-1612",
-              "eng": "The vine"
+              "cht": "葡萄樹"
             },
             {
               "id": "hebrew-3001",
-              "eng": "has dried up",
-              "punct": "､"
+              "cht": "枯乾",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8384",
-              "eng": "and the fig tree"
+              "cht": "無花果樹"
             },
             {
               "id": "hebrew-535",
-              "eng": "has withered",
-              "punct": "–"
+              "cht": "衰殘",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7416",
-              "eng": "the pomegranate tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "also",
-              "punct": "､"
+              "cht": "石榴樹、"
             },
             {
               "id": "hebrew-8558",
-              "eng": "the palm tree"
+              "cht": "棕樹、"
             },
             {
               "id": "hebrew-8598",
-              "eng": "and the apple tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "the trees"
+              "cht": "蘋果樹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "連田野"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切的"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "樹木"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-3001",
-              "eng": "are withered",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-3001",
-              "eng": "has withered away"
-            },
-            {
-              "id": "hebrew-8342",
-              "eng": "joy"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from"
+              "cht": "都枯乾",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "眾人"
             },
             {
-              "id": "hebrew-120",
-              "eng": "of men",
-              "punct": "."
+              "id": "hebrew-8342",
+              "cht": "的喜樂"
+            },
+            {
+              "id": "hebrew-3001",
+              "cht": "盡都消滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -374,83 +364,77 @@
             "hebrew-535": 4.414215456672498
           },
           "verseKey": "lam.2.8",
-          "cunp": "耶和華定意拆毀錫安的城牆； 他拉了準繩， 不將手收回，定要毀滅。 他使外郭和城牆都悲哀， 一同衰敗。",
+          "nasb": "The Lord determined to destroy The wall of the daughter of Zion. He has stretched out a line, He has not restrained His hand from destroying, And He has caused rampart and wall to lament; They have languished together.",
           "words": [
             {
-              "id": "hebrew-2803",
-              "eng": "Has purposed"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "hebrew-2803",
+              "cht": "定意"
             },
             {
               "id": "hebrew-7843",
-              "eng": "to destroy"
-            },
-            {
-              "id": "hebrew-2346",
-              "eng": "the wall"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "of the daughter"
+              "cht": "拆毀"
             },
             {
               "id": "hebrew-6726",
-              "eng": "of Zion",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5186",
-              "eng": "He has stretched out"
-            },
-            {
-              "id": "hebrew-6957",
-              "eng": "a line",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "He has withdrawn"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "His hand"
-            },
-            {
-              "id": "hebrew-1104",
-              "eng": "from destroying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-56",
-              "eng": "therefore He has caused to lament",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2426",
-              "eng": "the rampart"
+              "cht": "錫安"
             },
             {
               "id": "hebrew-2346",
-              "eng": "and wall"
+              "cht": "的城牆",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5186",
+              "cht": "他拉了"
+            },
+            {
+              "id": "hebrew-6957",
+              "cht": "準繩",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "將手"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "收回",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1104",
+              "cht": "定要毀滅",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2426",
+              "cht": "他使外郭"
+            },
+            {
+              "id": "hebrew-2346",
+              "cht": "和城牆"
+            },
+            {
+              "id": "hebrew-56",
+              "cht": "都悲哀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3162",
-              "eng": "together"
+              "cht": "一同"
             },
             {
               "id": "hebrew-535",
-              "eng": "they languished",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "衰敗",
+              "punct_cht": "。"
             }
           ]
         },
@@ -461,59 +445,59 @@
             "hebrew-535": 4.414215456672498
           },
           "verseKey": "isa.33.9",
-          "cunp": "地上悲哀衰殘； 黎巴嫩羞愧枯乾； 沙崙像曠野； 巴珊和迦密的樹林凋殘。",
+          "nasb": "The land mourns and pines away, Lebanon is shamed and withers; Sharon is like a desert plain, And Bashan and Carmel lose their foliage.",
           "words": [
             {
+              "id": "hebrew-776",
+              "cht": "地上"
+            },
+            {
               "id": "hebrew-56",
-              "eng": "Mourns"
+              "cht": "悲哀"
             },
             {
               "id": "hebrew-535",
-              "eng": "[and] languishes",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth"
-            },
-            {
-              "id": "hebrew-2659",
-              "eng": "is shamed"
+              "cht": "衰殘",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3844",
-              "eng": "Lebanon"
+              "cht": "黎巴嫩"
+            },
+            {
+              "id": "hebrew-2659",
+              "cht": "羞愧"
             },
             {
               "id": "hebrew-7060",
-              "eng": "[and] shriveled",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "is"
+              "cht": "枯乾",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8289",
-              "eng": "Sharon"
+              "cht": "沙崙"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "像"
             },
             {
               "id": "hebrew-6160",
-              "eng": "like a wilderness",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5287",
-              "eng": "and shake off [their fruits]"
+              "cht": "曠野",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1316",
-              "eng": "Bashan"
+              "cht": "巴珊"
             },
             {
               "id": "hebrew-3760",
-              "eng": "and Carmel",
-              "punct": "."
+              "cht": "和迦密"
+            },
+            {
+              "id": "hebrew-5287",
+              "cht": "的樹林凋殘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -524,50 +508,51 @@
             "hebrew-535": 4.414215456672498
           },
           "verseKey": "jer.14.2",
-          "cunp": "猶大悲哀，城門衰敗。 眾人披上黑衣坐在地上； 耶路撒冷的哀聲上達。",
+          "nasb": "“Judah mourns And her gates languish; They sit on the ground in mourning, And the cry of Jerusalem has ascended.",
           "words": [
             {
-              "id": "hebrew-56",
-              "eng": "Mourns",
-              "punct": "､"
+              "id": "hebrew-3063",
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-3063",
-              "eng": "Judah"
+              "id": "hebrew-56",
+              "cht": "悲哀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8179",
-              "eng": "and her gates"
+              "cht": "城門"
             },
             {
               "id": "hebrew-535",
-              "eng": "languish",
-              "punct": "–"
+              "cht": "衰敗",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6937",
-              "eng": "they mourn"
+              "cht": "眾人披上黑"
             },
             {
               "id": "hebrew-776",
-              "eng": "for the land",
-              "punct": "–"
+              "cht": "衣坐在地"
             },
             {
-              "id": "hebrew-6682",
-              "eng": "and the cry"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3389",
-              "eng": "of Jerusalem"
+              "cht": "耶路撒冷"
+            },
+            {
+              "id": "hebrew-6682",
+              "cht": "的哀聲"
             },
             {
               "id": "hebrew-5927",
-              "eng": "has gone up",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "上達",
+              "punct_cht": "。"
             }
           ]
         },
@@ -578,89 +563,88 @@
             "hebrew-1612": 2.325684742684198
           },
           "verseKey": "isa.16.8",
-          "cunp": "因為希實本的田地 和西比瑪的葡萄樹都衰殘了。 列國的君主折斷其上美好的枝子； 這枝子長到雅謝延到曠野， 嫩枝向外探出，直探過鹽海。",
+          "nasb": "For the fields of Heshbon have withered, the vines of Sibmah as well; The lords of the nations have trampled down its choice clusters Which reached as far as Jazer and wandered to the deserts; Its tendrils spread themselves out and passed over the sea.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-7709",
-              "eng": "the fields"
+              "cht": "因為"
             },
             {
               "id": "hebrew-2809",
-              "eng": "of Heshbon"
+              "cht": "希實本"
             },
             {
-              "id": "hebrew-535",
-              "eng": "languish",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1612",
-              "eng": "[And] the vine"
+              "id": "hebrew-7709",
+              "cht": "的田地"
             },
             {
               "id": "hebrew-7643",
-              "eng": "of Sibmah",
-              "punct": "–"
+              "cht": "和西比瑪"
             },
             {
-              "id": "hebrew-1167",
-              "eng": "the lords"
+              "id": "hebrew-1612",
+              "cht": "的葡萄樹"
+            },
+            {
+              "id": "hebrew-535",
+              "cht": "都衰殘了",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1471",
-              "eng": "of the nations"
+              "cht": "列國"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "的君主"
             },
             {
               "id": "hebrew-1986",
-              "eng": "have broken down"
+              "cht": "折斷"
             },
             {
               "id": "hebrew-8291",
-              "eng": "its choice plants"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-3270",
-              "eng": "Jazer",
-              "punct": "､"
+              "cht": "其上美好的枝子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5060",
-              "eng": "which have reached"
+              "cht": "這枝子長"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-3270",
+              "cht": "雅謝"
             },
             {
               "id": "hebrew-8582",
-              "eng": "and wandered"
+              "cht": "延到"
             },
             {
               "id": "hebrew-4057",
-              "eng": "through the wilderness",
-              "punct": "–"
+              "cht": "曠野",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7976",
-              "eng": "Her branches"
+              "cht": "嫩枝"
             },
             {
               "id": "hebrew-5203",
-              "eng": "are stretched out",
-              "punct": "､"
+              "cht": "向外探出",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5674",
-              "eng": "they are gone over"
+              "cht": "直探過"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the sea",
-              "punct": "."
+              "cht": "鹽海",
+              "punct_cht": "。"
             }
           ]
         },
@@ -672,153 +656,127 @@
             "hebrew-3820": 0.9299891508959751
           },
           "verseKey": "ezk.21.7",
-          "cunp": "他們問你說：『為何歎息呢？』你就說：『因為有風聲、災禍要來。人心都必消化，手都發軟，精神衰敗，膝弱如水。看哪，這災禍臨近，必然成就。這是主耶和華說的。』」",
+          "nasb": "And when they say to you, ‘Why do you groan?’ you shall say, ‘Because of the news that is coming; and every heart will melt, all hands will be feeble, every spirit will faint and all knees will be weak as water. Behold, it comes and it will happen,’ declares the Lord God.”",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it shall be",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "id": "hebrew-413",
+              "cht": "他們問你"
             },
             {
               "id": "hebrew-559",
-              "eng": "they say"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to you"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-5921",
-              "eng": "why"
+              "cht": "為"
             },
             {
               "id": "hebrew-4100",
-              "eng": "how long"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "you"
+              "cht": "何"
             },
             {
               "id": "hebrew-584",
-              "eng": "are sighing"
+              "cht": "歎息"
+            },
+            {
+              "id": "",
+              "cht": "呢﹖",
+              "punct_cht": "』"
             },
             {
               "id": "hebrew-559",
-              "eng": "that you shall answer",
-              "punct": "､"
+              "cht": "你就說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-413",
-              "eng": "because"
+              "cht": "因為"
             },
             {
               "id": "hebrew-8052",
-              "eng": "of the news",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "cht": "有風聲、"
             },
             {
               "id": "hebrew-935",
-              "eng": "it comes",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4549",
-              "eng": "and will melt",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "災禍要來",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3820",
-              "eng": "heart"
-            },
-            {
-              "id": "hebrew-7503",
-              "eng": "and will be feeble",
-              "punct": "､"
+              "cht": "人心"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-4549",
+              "cht": "必消化",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "hands"
-            },
-            {
-              "id": "hebrew-3543",
-              "eng": "and will faint",
-              "punct": "､"
+              "cht": "手"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-7503",
+              "cht": "發軟",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7307",
-              "eng": "spirit"
+              "cht": "精神"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "and all"
+              "id": "hebrew-3543",
+              "cht": "衰敗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1290",
-              "eng": "knees"
+              "cht": "膝"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "will be weak"
+              "id": "hebrew-3212",
+              "cht": "弱"
             },
             {
               "id": "hebrew-4325",
-              "eng": "[as] water",
-              "punct": "."
+              "cht": "如水",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2009",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-935",
-              "eng": "it is coming",
-              "punct": "､"
+              "cht": "這災禍臨近",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and shall be brought to pass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "必然成就",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "這是主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。』」"
             }
           ]
         }

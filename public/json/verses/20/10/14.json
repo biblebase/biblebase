@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2450": "Wise [people]",
-          "hebrew-6845": "store up",
-          "hebrew-1847": "knowledge",
-          "hebrew-6310": "but the mouth",
-          "hebrew-191": "of the fool",
-          "hebrew-4288": "destruction",
-          "hebrew-7138": "[is] near"
+          "eng": {
+            "hebrew-2450": "Wise [people]",
+            "hebrew-6845": "store up",
+            "hebrew-1847": "knowledge",
+            "hebrew-6310": "but the mouth",
+            "hebrew-191": "of the fool",
+            "hebrew-4288": "destruction",
+            "hebrew-7138": "[is] near"
+          },
+          "cht": {
+            "hebrew-2450": "智慧人",
+            "hebrew-6845": "積存",
+            "hebrew-1847": "知識",
+            "hebrew-6310": "的口",
+            "hebrew-191": "愚妄人",
+            "hebrew-4288": "敗壞",
+            "hebrew-7138": "速致"
+          }
         }
       },
       "translations": {
@@ -26,40 +37,42 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "pro.14.3",
-          "cunp": "愚妄人口中驕傲，如杖責打己身； 智慧人的嘴必保守自己。",
+          "nasb": "In the mouth of the foolish is a rod for his back, But the lips of the wise will protect them.",
           "words": [
             {
-              "id": "hebrew-6310",
-              "eng": "In the mouth"
-            },
-            {
               "id": "hebrew-191",
-              "eng": "of a fool"
+              "cht": "愚妄人"
             },
             {
-              "id": "hebrew-2415",
-              "eng": "[is] a rod"
+              "id": "hebrew-6310",
+              "cht": "口"
             },
             {
               "id": "hebrew-1346",
-              "eng": "of pride",
-              "punct": "､"
+              "cht": "中驕傲",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8193",
-              "eng": "but the lips"
+              "id": "hebrew-2415",
+              "cht": "如杖"
+            },
+            {
+              "id": "",
+              "cht": "責打己身",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-8193",
+              "cht": "的嘴"
             },
             {
               "id": "hebrew-8104",
-              "eng": "will preserve them",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必保守自己",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,33 +83,33 @@
             "hebrew-4288": 4.758842454566098
           },
           "verseKey": "pro.18.7",
-          "cunp": "愚昧人的口自取敗壞； 他的嘴是他生命的網羅。",
+          "nasb": "A fool’s mouth is his ruin, And his lips are the snare of his soul.",
           "words": [
             {
-              "id": "hebrew-6310",
-              "eng": "Mouth [is]"
+              "id": "hebrew-3684",
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-3684",
-              "eng": "of a fool"
+              "id": "hebrew-6310",
+              "cht": "的口"
             },
             {
               "id": "hebrew-4288",
-              "eng": "destruction",
-              "punct": "､"
+              "cht": "敗壞",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8193",
-              "eng": "and his lips [are]"
-            },
-            {
-              "id": "hebrew-4170",
-              "eng": "the snare"
+              "cht": "他的嘴"
             },
             {
               "id": "hebrew-5315",
-              "eng": "of his soul",
-              "punct": "."
+              "cht": "是他生命"
+            },
+            {
+              "id": "hebrew-4170",
+              "cht": "的網羅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -107,42 +120,41 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "pro.1.7",
-          "cunp": "敬畏耶和華是知識的開端； 愚妄人藐視智慧和訓誨。",
+          "nasb": "The fear of the Lord is the beginning of knowledge; Fools despise wisdom and instruction.",
           "words": [
             {
               "id": "hebrew-3374",
-              "eng": "The fear"
+              "cht": "敬畏"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-7225",
-              "eng": "[is] the beginning"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1847",
-              "eng": "of knowledge",
-              "punct": "–"
+              "cht": "是知識"
             },
             {
-              "id": "hebrew-2451",
-              "eng": "wisdom"
-            },
-            {
-              "id": "hebrew-4148",
-              "eng": "and instruction",
-              "punct": "."
+              "id": "hebrew-7225",
+              "cht": "的開端",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-191",
-              "eng": "Fools"
+              "cht": "愚妄人"
             },
             {
               "id": "hebrew-936",
-              "eng": "[But] despise",
-              "punct": "."
+              "cht": "藐視"
+            },
+            {
+              "id": "hebrew-2451",
+              "cht": "智慧"
+            },
+            {
+              "id": "hebrew-4148",
+              "cht": "和訓誨",
+              "punct_cht": "。"
             }
           ]
         },
@@ -153,41 +165,41 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "pro.18.15",
-          "cunp": "聰明人的心得知識； 智慧人的耳求知識。",
+          "nasb": "The mind of the prudent acquires knowledge, And the ear of the wise seeks knowledge.",
           "words": [
             {
-              "id": "hebrew-3820",
-              "eng": "the heart"
+              "id": "hebrew-995",
+              "cht": "聰明人"
             },
             {
-              "id": "hebrew-995",
-              "eng": "of the prudent"
+              "id": "hebrew-3820",
+              "cht": "的心"
             },
             {
               "id": "hebrew-7069",
-              "eng": "acquires"
+              "cht": "得"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-241",
-              "eng": "and the ear"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-241",
+              "cht": "的耳"
             },
             {
               "id": "hebrew-1245",
-              "eng": "seeks"
+              "cht": "求"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "."
+              "cht": "知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -198,50 +210,50 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "pro.29.9",
-          "cunp": "智慧人與愚妄人相爭， 或怒或笑，總不能使他止息。",
+          "nasb": "When a wise man has a controversy with a foolish man, The foolish man either rages or laughs, and there is no rest.",
           "words": [
             {
-              "id": "hebrew-376",
-              "eng": "[If] a man"
-            },
-            {
               "id": "hebrew-2450",
-              "eng": "wise"
+              "cht": "智慧"
             },
             {
-              "id": "hebrew-8199",
-              "eng": "contends"
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man",
-              "punct": "､"
+              "cht": "與"
             },
             {
               "id": "hebrew-191",
-              "eng": "foolish"
+              "cht": "愚妄"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-8199",
+              "cht": "相爭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7264",
-              "eng": "and Whether [the fool] rages"
+              "cht": "或怒"
             },
             {
               "id": "hebrew-7832",
-              "eng": "or laughs",
-              "punct": "､"
+              "cht": "或笑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "and [there is] no"
+              "cht": "總不能"
             },
             {
               "id": "hebrew-5183",
-              "eng": "peace",
-              "punct": "."
+              "cht": "使他止息",
+              "punct_cht": "。"
             }
           ]
         },
@@ -252,44 +264,46 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "pro.11.29",
-          "cunp": "擾害己家的，必承受清風； 愚昧人必作慧心人的僕人。",
+          "nasb": "He who troubles his own house will inherit wind, And the foolish will be servant to the wisehearted.",
           "words": [
             {
               "id": "hebrew-5916",
-              "eng": "He who troubles"
+              "cht": "擾害"
             },
             {
               "id": "hebrew-1004",
-              "eng": "his own house"
+              "cht": "己家"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5157",
-              "eng": "will inherit"
+              "cht": "必承受"
             },
             {
               "id": "hebrew-7307",
-              "eng": "the wind",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "and servant"
+              "cht": "清風",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-191",
-              "eng": "the fool [will be]"
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-2450",
-              "eng": "to the wise"
+              "cht": "必作慧"
             },
             {
               "id": "hebrew-3820",
-              "eng": "of heart",
-              "punct": "."
+              "cht": "心"
             },
             {
-              "id": ""
+              "id": "hebrew-5650",
+              "cht": "人的僕人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -300,43 +314,41 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "pro.17.28",
-          "cunp": "愚昧人若靜默不言也可算為智慧； 閉口不說也可算為聰明。",
+          "nasb": "Even a fool, when he keeps silent, is considered wise; When he closes his lips, he is considered prudent.",
           "words": [
             {
-              "id": "hebrew-1571",
-              "eng": "Even"
-            },
-            {
               "id": "hebrew-191",
-              "eng": "a fool",
-              "punct": "､"
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-2790",
-              "eng": "when he holds his peace",
-              "punct": "､"
+              "cht": "若靜默不言"
             },
             {
-              "id": "hebrew-2450",
-              "eng": "wise",
-              "punct": "–"
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-2803",
-              "eng": "is counted"
+              "cht": "可算為"
+            },
+            {
+              "id": "hebrew-2450",
+              "cht": "智慧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-331",
-              "eng": "[when] he shuts"
+              "cht": "閉"
             },
             {
               "id": "hebrew-8193",
-              "eng": "his lips"
+              "cht": "口"
             },
             {
               "id": "hebrew-995",
-              "eng": "[he is considered] perceptive",
-              "punct": "."
+              "cht": "不說也可算為聰明",
+              "punct_cht": "。"
             }
           ]
         },
@@ -347,37 +359,38 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "pro.12.15",
-          "cunp": "愚妄人所行的，在自己眼中看為正直； 惟智慧人肯聽人的勸教。",
+          "nasb": "The way of a fool is right in his own eyes, But a wise man is he who listens to counsel.",
           "words": [
             {
-              "id": "hebrew-1870",
-              "eng": "The way"
-            },
-            {
               "id": "hebrew-191",
-              "eng": "of a fool"
+              "cht": "愚妄人"
             },
             {
-              "id": "hebrew-3477",
-              "eng": "[is] right"
+              "id": "hebrew-1870",
+              "cht": "所行的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in his own eyes",
-              "punct": "､"
+              "cht": "在自己眼中"
             },
             {
-              "id": "hebrew-8085",
-              "eng": "but he who heeds"
-            },
-            {
-              "id": "hebrew-6098",
-              "eng": "counsel"
+              "id": "hebrew-3477",
+              "cht": "看為正直",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2450",
-              "eng": "[is] wise",
-              "punct": "."
+              "cht": "惟智慧人"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "肯聽"
+            },
+            {
+              "id": "hebrew-6098",
+              "cht": "人的勸教",
+              "punct_cht": "。"
             }
           ]
         },
@@ -388,37 +401,39 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "pro.10.8",
-          "cunp": "心中智慧的，必受命令； 口裏愚妄的，必致傾倒。",
+          "nasb": "The wise of heart will receive commands, But a babbling fool will be ruined.",
           "words": [
             {
-              "id": "hebrew-2450",
-              "eng": "The wise"
+              "id": "hebrew-3820",
+              "cht": "心中"
             },
             {
-              "id": "hebrew-3820",
-              "eng": "in heart"
+              "id": "hebrew-2450",
+              "cht": "智慧的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3947",
-              "eng": "will receive"
+              "cht": "必受"
             },
             {
               "id": "hebrew-4687",
-              "eng": "commands",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-191",
-              "eng": "but a fool"
+              "cht": "命令",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8193",
-              "eng": "prating"
+              "cht": "口裡"
+            },
+            {
+              "id": "hebrew-191",
+              "cht": "愚妄的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3832",
-              "eng": "will fall",
-              "punct": "."
+              "cht": "必致傾倒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -429,87 +444,77 @@
             "hebrew-191": 3.288933040646453
           },
           "verseKey": "jer.4.22",
-          "cunp": "耶和華說：我的百姓愚頑，不認識我； 他們是愚昧無知的兒女， 有智慧行惡，沒有知識行善。",
+          "nasb": "“For My people are foolish, They know Me not; They are stupid children And have no understanding. They are shrewd to do evil, But to do good they do not know.”",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-191",
-              "eng": "[are] foolish",
-              "punct": "､"
+              "id": "",
+              "cht": "耶和華說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5971",
-              "eng": "My people"
+              "cht": "我的百姓"
+            },
+            {
+              "id": "hebrew-191",
+              "cht": "愚頑",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "認識"
             },
             {
               "id": "hebrew-853",
-              "eng": "Me"
+              "cht": "我",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "they have known"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "children",
-              "punct": "､"
+              "id": "hebrew-1992",
+              "cht": "他們是"
             },
             {
               "id": "hebrew-5530",
-              "eng": "silly"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "they [are]"
+              "cht": "愚昧"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and no"
+              "cht": "無"
             },
             {
               "id": "hebrew-995",
-              "eng": "have understanding",
-              "punct": "–"
+              "cht": "知"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "they"
+              "id": "hebrew-1121",
+              "cht": "的兒女",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2450",
-              "eng": "wise"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "they [are]"
+              "cht": "有智慧"
             },
             {
               "id": "hebrew-7489",
-              "eng": "to do evil",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3190",
-              "eng": "but to do good"
+              "cht": "行惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-3045",
-              "eng": "they have knowledge",
-              "punct": "."
+              "cht": "知識"
             },
             {
-              "id": ""
+              "id": "hebrew-3190",
+              "cht": "行善",
+              "punct_cht": "。"
             }
           ]
         }

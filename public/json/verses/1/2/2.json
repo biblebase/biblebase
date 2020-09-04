@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3615": "And ended",
-          "hebrew-430": "God",
-          "hebrew-3117": "on the day",
-          "hebrew-7637": "seventh",
-          "hebrew-4399": "His work",
-          "hebrew-834": "which",
-          "hebrew-6213": "He had done",
-          "hebrew-7673": "and He rested",
-          "hebrew-3605": "from all",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-3615": "And ended",
+            "hebrew-430": "God",
+            "hebrew-3117": "on the day",
+            "hebrew-7637": "seventh",
+            "hebrew-4399": "His work",
+            "hebrew-834": "which",
+            "hebrew-6213": "He had done",
+            "hebrew-7673": "and He rested",
+            "hebrew-3605": "from all",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-3615": "已經完畢",
+            "hebrew-430": "神",
+            "hebrew-3117": "日",
+            "hebrew-7637": "就在第七",
+            "hebrew-4399": "的工",
+            "hebrew-834": "歇了他一切",
+            "hebrew-6213": "歇了他一切",
+            "hebrew-7673": "安息了",
+            "hebrew-3605": "歇了他一切",
+            "hebrew-4480": "歇了他一切"
+          }
         }
       },
       "translations": {
@@ -31,46 +45,46 @@
             "hebrew-7673": 1.9063487630112834
           },
           "verseKey": "exo.34.21",
-          "cunp": "「你六日要做工，第七日要安息，雖在耕種收割的時候也要安息。",
+          "nasb": "“You shall work six days, but on the seventh day you shall rest; even during plowing time and harvest you shall rest.",
           "words": [
             {
               "id": "hebrew-8337",
-              "eng": "Six"
+              "cht": "你六"
             },
             {
               "id": "hebrew-3117",
-              "eng": "days"
+              "cht": "日"
             },
             {
               "id": "hebrew-5647",
-              "eng": "you shall work",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "but on the day"
+              "cht": "要做工",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7637",
-              "eng": "seventh"
+              "cht": "第七"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
             },
             {
               "id": "hebrew-7673",
-              "eng": "you shall rest",
-              "punct": "–"
+              "cht": "要安息",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2758",
-              "eng": "in plowing time"
+              "cht": "雖在耕種"
             },
             {
               "id": "hebrew-7105",
-              "eng": "and in harvest"
+              "cht": "收割"
             },
             {
               "id": "hebrew-7673",
-              "eng": "you shall rest",
-              "punct": "."
+              "cht": "的時候也要安息",
+              "punct_cht": "。"
             }
           ]
         },
@@ -82,57 +96,55 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "lev.26.35",
-          "cunp": "地多時為荒場，就要多時歇息；地這樣歇息，是你們住在其上的安息年所不能得的。",
+          "nasb": "All the days of its desolation it will observe the rest which it did not observe on your sabbaths, while you were living on it.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "地多"
             },
             {
               "id": "hebrew-3117",
-              "eng": "as long as"
+              "cht": "時"
             },
             {
               "id": "hebrew-8074",
-              "eng": "[it] lies desolate"
+              "cht": "為荒場",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7673",
-              "eng": "it shall rest"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-",
-              "punct": "､"
+              "cht": "就要多時歇息",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-834",
-              "eng": "for"
+              "cht": "地這樣"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7673",
-              "eng": "the time it did rest"
-            },
-            {
-              "id": "hebrew-7676",
-              "eng": "on your sabbaths",
-              "punct": "､"
+              "id": "",
+              "cht": "歇息",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3427",
-              "eng": "when you dwelt"
+              "cht": "是你們住"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in it",
-              "punct": "."
+              "cht": "在其上"
             },
             {
-              "id": ""
+              "id": "hebrew-7676",
+              "cht": "的安息年"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "所不能"
+            },
+            {
+              "id": "hebrew-7673",
+              "cht": "得的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -143,147 +155,138 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "2ch.31.1",
-          "cunp": "這事既都完畢，在那裏的以色列眾人就到猶大的城邑，打碎柱像，砍斷木偶，又在猶大、便雅憫、以法蓮、瑪拿西遍地將邱壇和祭壇拆毀淨盡。於是以色列眾人各回各城，各歸各地。",
+          "nasb": "Now when all this was finished, all Israel who were present went out to the cities of Judah, broke the pillars in pieces, cut down the Asherim and pulled down the high places and the altars throughout all Judah and Benjamin, as well as in Ephraim and Manasseh, until they had destroyed them all. Then all the sons of Israel returned to their cities, each to his possession.",
           "words": [
             {
-              "id": "hebrew-3615",
-              "eng": "And when was finished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
               "id": "hebrew-2063",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "went out"
+              "cht": "這事"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "既都"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "Israel"
+              "id": "hebrew-3615",
+              "cht": "完畢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4672",
-              "eng": "who were present"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "to the cities"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7665",
-              "eng": "and broke in pieces"
-            },
-            {
-              "id": "hebrew-4676",
-              "eng": "the sacred pillars",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1438",
-              "eng": "and cut down"
-            },
-            {
-              "id": "hebrew-842",
-              "eng": "the wooden images",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5422",
-              "eng": "and threw down"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1116",
-              "eng": "the high places"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-4196",
-              "eng": "the altars"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "from all"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "Judah"
-            },
-            {
-              "id": "hebrew-1144",
-              "eng": "and Benjamin",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-669",
-              "eng": "and Ephraim"
-            },
-            {
-              "id": "hebrew-4519",
-              "eng": "and Manasseh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "until"
-            },
-            {
-              "id": "hebrew-3615",
-              "eng": "that they had utterly destroyed them all"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "and returned",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "在那裡的"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-376",
-              "eng": "every man"
+              "id": "hebrew-3605",
+              "cht": "眾人"
             },
             {
-              "id": "hebrew-272",
-              "eng": "to his possession",
-              "punct": "､"
+              "id": "hebrew-3318",
+              "cht": "就到"
+            },
+            {
+              "id": "hebrew-3063",
+              "cht": "猶大"
             },
             {
               "id": "hebrew-5892",
-              "eng": "to their own cities",
-              "punct": "."
+              "cht": "的城邑",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7665",
+              "cht": "打碎"
+            },
+            {
+              "id": "hebrew-4676",
+              "cht": "柱像",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1438",
+              "cht": "砍斷"
+            },
+            {
+              "id": "hebrew-842",
+              "cht": "木偶",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3063",
+              "cht": "又在猶大、"
+            },
+            {
+              "id": "hebrew-1144",
+              "cht": "便雅憫、"
+            },
+            {
+              "id": "hebrew-669",
+              "cht": "以法蓮、"
+            },
+            {
+              "id": "hebrew-4519",
+              "cht": "瑪拿西"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "遍"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "地將"
+            },
+            {
+              "id": "hebrew-1116",
+              "cht": "邱壇"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-4196",
+              "cht": "祭壇"
+            },
+            {
+              "id": "hebrew-5422",
+              "cht": "拆毀"
+            },
+            {
+              "id": "hebrew-3615",
+              "cht": "淨盡",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "於是以色列"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "眾"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "回"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "各城",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-272",
+              "cht": "各歸各地",
+              "punct_cht": "。"
             }
           ]
         }

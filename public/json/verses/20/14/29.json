@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-750": "[He who is] slow",
-          "hebrew-639": "to wrath",
-          "hebrew-7227": "great",
-          "hebrew-8394": "has understanding",
-          "hebrew-7116": "but [he who is] impulsive",
-          "hebrew-7307": "of spirit",
-          "hebrew-7311": "exalts",
-          "hebrew-200": "folly",
-          "": null
+          "eng": {
+            "hebrew-750": "[He who is] slow",
+            "hebrew-639": "to wrath",
+            "hebrew-7227": "great",
+            "hebrew-8394": "has understanding",
+            "hebrew-7116": "but [he who is] impulsive",
+            "hebrew-7307": "of spirit",
+            "hebrew-7311": "exalts",
+            "hebrew-200": "folly",
+            "": null
+          },
+          "cht": {
+            "hebrew-750": "不輕易",
+            "hebrew-639": "發怒",
+            "hebrew-7227": "大",
+            "hebrew-8394": "有聰明",
+            "hebrew-7116": "暴躁",
+            "hebrew-7307": "性情",
+            "hebrew-7311": "大顯",
+            "hebrew-200": "愚妄"
+          }
         }
       },
       "translations": {
@@ -31,40 +43,43 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.14.17",
-          "cunp": "輕易發怒的，行事愚妄； 設立詭計的，被人恨惡。",
+          "nasb": "A quick-tempered man acts foolishly, And a man of evil devices is hated.",
           "words": [
             {
               "id": "hebrew-7116",
-              "eng": "-"
+              "cht": "輕易"
             },
             {
               "id": "hebrew-639",
-              "eng": "A quick-tempered [man]"
+              "cht": "發怒"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "does"
+              "cht": "行事"
             },
             {
               "id": "hebrew-200",
-              "eng": "foolishness",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "and a man"
+              "cht": "愚妄",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4209",
-              "eng": "of wicked intentions"
+              "cht": "設立詭計"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8130",
-              "eng": "is hated",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "被人恨惡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -74,91 +89,75 @@
             "hebrew-750": 3.812899939371762
           },
           "verseKey": "jas.1.19",
-          "cunp": "我親愛的弟兄們，這是你們所知道的。但你們各人要快快地聽，慢慢地說，慢慢地動怒，",
+          "nasb": "This you know, my beloved brethren. But everyone must be quick to hear, slow to speak and slow to anger;",
           "words": [
             {
-              "id": "greek-1492",
-              "eng": "Know [this]",
-              "punct": ","
-            },
-            {
-              "id": "greek-80",
-              "eng": "brothers"
-            },
-            {
               "id": "greek-3450",
-              "eng": "my"
+              "cht": "我"
             },
             {
               "id": "greek-27",
-              "eng": "beloved",
-              "punct": "."
+              "cht": "親愛的"
             },
             {
-              "id": "greek-2077",
-              "eng": "Let be"
+              "id": "greek-80",
+              "cht": "弟兄們"
             },
             {
-              "id": "greek-1161",
-              "eng": "however"
+              "id": "",
+              "cht": "這是你們所知道的",
+              "punct_cht": "，，"
             },
             {
               "id": "greek-3956",
-              "eng": "every"
+              "cht": "但你們各"
             },
             {
               "id": "greek-444",
-              "eng": "man"
+              "cht": "人"
+            },
+            {
+              "id": "greek-2077",
+              "cht": "要"
             },
             {
               "id": "greek-5036",
-              "eng": "swift"
+              "cht": "快快"
             },
             {
               "id": "greek-1519",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "的"
             },
             {
               "id": "greek-191",
-              "eng": "to hear",
-              "punct": ","
+              "cht": "聽",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1021",
-              "eng": "slow"
+              "cht": "慢慢"
             },
             {
               "id": "greek-1519",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "的"
             },
             {
               "id": "greek-2980",
-              "eng": "to speak",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1021",
-              "eng": "slow"
+              "cht": "慢慢"
             },
             {
               "id": "greek-1519",
-              "eng": "unto"
+              "cht": "的"
             },
             {
               "id": "greek-3709",
-              "eng": "anger",
-              "punct": ";"
-            },
-            {
-              "id": ""
+              "cht": "動怒",
+              "punct_cht": "，"
             }
           ]
         },
@@ -168,36 +167,33 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.14.24",
-          "cunp": "智慧人的財為自己的冠冕； 愚妄人的愚昧終是愚昧。",
+          "nasb": "The crown of the wise is their riches, But the folly of fools is foolishness.",
           "words": [
             {
               "id": "hebrew-5850",
-              "eng": "The crown"
-            },
-            {
-              "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-6239",
-              "eng": "is their riches",
-              "punct": "､"
+              "cht": "的財"
             },
             {
-              "id": "hebrew-200",
-              "eng": "[But] the foolishness"
+              "id": "hebrew-5850",
+              "cht": "為自己的冠冕",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚妄人"
             },
             {
               "id": "hebrew-200",
-              "eng": "[is] folly",
-              "punct": "."
+              "cht": "的愚昧"
             },
             {
-              "id": "hebrew-5850"
+              "id": "hebrew-200",
+              "cht": "終是愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -207,76 +203,77 @@
             "hebrew-7116": 6.7856512265994295
           },
           "verseKey": "isa.37.27",
-          "cunp": "所以其中的居民力量甚小， 驚惶羞愧。 他們像野草，像青菜， 如房頂上的草， 又如田間未長成的禾稼。",
+          "nasb": "Therefore their inhabitants were short of strength, They were dismayed and put to shame; They were as the vegetation of the field and as the green herb, As grass on the housetops is scorched before it is grown up.",
           "words": [
             {
               "id": "hebrew-3427",
-              "eng": "Therefore their inhabitants [had]"
-            },
-            {
-              "id": "hebrew-7116",
-              "eng": "little"
+              "cht": "所以其中的居民"
             },
             {
               "id": "hebrew-3027",
-              "eng": "power",
-              "punct": "､"
+              "cht": "力量"
+            },
+            {
+              "id": "hebrew-7116",
+              "cht": "甚小",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2865",
-              "eng": "they were dismayed"
+              "cht": "驚惶"
             },
             {
               "id": "hebrew-954",
-              "eng": "and confounded",
-              "punct": "–"
+              "cht": "羞愧",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1961",
-              "eng": "they were"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "[as] the grass"
+              "cht": "他們"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "像野"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3419",
-              "eng": "and the green"
+              "cht": "像青"
             },
             {
               "id": "hebrew-1877",
-              "eng": "herb",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2682",
-              "eng": "[As] the grass on"
+              "cht": "菜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1406",
-              "eng": "the housetops",
-              "punct": "､"
+              "cht": "如房頂上"
+            },
+            {
+              "id": "hebrew-2682",
+              "cht": "的草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7709",
-              "eng": "and [grain] blighted"
+              "cht": "又如田間"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "未"
             },
             {
               "id": "hebrew-7054",
-              "eng": "it is grown",
-              "punct": "."
+              "cht": "長成"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的禾稼",
+              "punct_cht": "。"
             }
           ]
         },
@@ -286,40 +283,38 @@
             "hebrew-7116": 6.7856512265994295
           },
           "verseKey": "job.14.1",
-          "cunp": "人為婦人所生， 日子短少，多有患難；",
+          "nasb": "“Man, who is born of woman, Is short-lived and full of turmoil.",
           "words": [
             {
               "id": "hebrew-120",
-              "eng": "Man"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "[who is] born"
+              "cht": "人"
             },
             {
               "id": "hebrew-802",
-              "eng": "of woman"
+              "cht": "為婦人"
             },
             {
-              "id": "hebrew-7116",
-              "eng": "is of few"
+              "id": "hebrew-3205",
+              "cht": "所生",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3117",
-              "eng": "days",
-              "punct": "､"
+              "cht": "日子"
             },
             {
-              "id": "hebrew-7646",
-              "eng": "and full"
+              "id": "hebrew-7116",
+              "cht": "短少",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7649",
+              "cht": "多有"
             },
             {
               "id": "hebrew-7267",
-              "eng": "of trouble",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7649"
+              "cht": "患難",
+              "punct_cht": "；"
             }
           ]
         },
@@ -329,73 +324,73 @@
             "hebrew-7116": 6.7856512265994295
           },
           "verseKey": "2ki.19.26",
-          "cunp": "所以其中的居民力量甚小， 驚惶羞愧。 他們像野草，像青菜， 如房頂上的草， 又如未長成而枯乾的禾稼。",
+          "nasb": "Therefore their inhabitants were short of strength, They were dismayed and put to shame; They were as the vegetation of the field and as the green herb, As grass on the housetops is scorched before it is grown up.",
           "words": [
             {
               "id": "hebrew-3427",
-              "eng": "Therefore their inhabitants had"
-            },
-            {
-              "id": "hebrew-7116",
-              "eng": "little"
+              "cht": "所以其中的居民"
             },
             {
               "id": "hebrew-3027",
-              "eng": "power",
-              "punct": "､"
+              "cht": "力量"
+            },
+            {
+              "id": "hebrew-7116",
+              "cht": "甚小",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2865",
-              "eng": "they were dismayed"
+              "cht": "驚惶"
             },
             {
               "id": "hebrew-954",
-              "eng": "and confounded",
-              "punct": "–"
+              "cht": "羞愧",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1961",
-              "eng": "they were"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "[as] the grass"
+              "cht": "他們"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "像野"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3419",
-              "eng": "and the green"
+              "cht": "像青"
             },
             {
               "id": "hebrew-1877",
-              "eng": "herb",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2682",
-              "eng": "[As] the grass on"
+              "cht": "菜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1406",
-              "eng": "the housetops",
-              "punct": "､"
+              "cht": "如房頂上"
             },
             {
-              "id": "hebrew-7711",
-              "eng": "and [grain] blighted"
+              "id": "hebrew-2682",
+              "cht": "的草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "又如未長成"
+            },
+            {
+              "id": "hebrew-7711",
+              "cht": "而枯乾的"
             },
             {
               "id": "hebrew-7054",
-              "eng": "it is grown",
-              "punct": "."
+              "cht": "禾稼",
+              "punct_cht": "。"
             }
           ]
         },
@@ -406,44 +401,41 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.15.21",
-          "cunp": "無知的人以愚妄為樂； 聰明的人按正直而行。",
+          "nasb": "Folly is joy to him who lacks sense, But a man of understanding walks straight.",
           "words": [
             {
-              "id": "hebrew-200",
-              "eng": "Folly [is]"
-            },
-            {
-              "id": "hebrew-8057",
-              "eng": "joy"
-            },
-            {
               "id": "hebrew-2638",
-              "eng": "[to [him who is] lacking"
+              "cht": "無"
             },
             {
               "id": "hebrew-3820",
-              "eng": "discernment",
-              "punct": "､"
+              "cht": "知"
             },
             {
-              "id": "hebrew-376",
-              "eng": "but a man"
+              "id": "hebrew-200",
+              "cht": "的人以愚妄"
+            },
+            {
+              "id": "hebrew-8057",
+              "cht": "為樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8394",
-              "eng": "of understanding"
+              "cht": "聰明"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "的人"
             },
             {
               "id": "hebrew-3474",
-              "eng": "uprightly"
+              "cht": "按正直"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "walks",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3212"
+              "id": "hebrew-3212",
+              "cht": "而行",
+              "punct_cht": "。"
             }
           ]
         },
@@ -455,94 +447,94 @@
             "hebrew-7227": 0.682650024003308
           },
           "verseKey": "num.14.18",
-          "cunp": "『耶和華不輕易發怒，並有豐盛的慈愛，赦免罪孽和過犯；萬不以有罪的為無罪，必追討他的罪，自父及子，直到三、四代。』",
+          "nasb": "‘The Lord is slow to anger and abundant in lovingkindness, forgiving iniquity and transgression; but He will by no means clear the guilty, visiting the iniquity of the fathers on the children to the third and the fourth generations.’",
           "words": [
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-750",
-              "eng": "is slow"
+              "cht": "不輕易"
             },
             {
               "id": "hebrew-639",
-              "eng": "anger",
-              "punct": "､"
+              "cht": "發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "and abundant in"
+              "cht": "並有豐盛"
             },
             {
               "id": "hebrew-2617",
-              "eng": "mercy",
-              "punct": "､"
+              "cht": "的慈愛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5375",
-              "eng": "forgiving"
+              "cht": "赦免"
             },
             {
               "id": "hebrew-5771",
-              "eng": "iniquity"
+              "cht": "罪孽"
             },
             {
               "id": "hebrew-6588",
-              "eng": "and transgression",
-              "punct": "､"
+              "cht": "和過犯",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5352",
-              "eng": "but by means"
+              "cht": "萬"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "不"
             },
             {
               "id": "hebrew-5352",
-              "eng": "He clears [the guilty]"
+              "cht": "以有罪的為無罪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6485",
-              "eng": "visiting"
+              "cht": "必追討"
             },
             {
               "id": "hebrew-5771",
-              "eng": "the iniquity"
+              "cht": "他的罪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the fathers"
+              "cht": "自父"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "及"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to"
+              "cht": "直到"
             },
             {
               "id": "hebrew-8029",
-              "eng": "the third"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and"
+              "cht": "三、"
             },
             {
               "id": "hebrew-7256",
-              "eng": "fourth [generation]",
-              "punct": "."
+              "cht": "四"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "代",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -554,79 +546,73 @@
             "hebrew-7227": 0.682650024003308
           },
           "verseKey": "exo.34.6",
-          "cunp": "耶和華在他面前宣告說：「耶和華，耶和華，是有憐憫有恩典的神，不輕易發怒，並有豐盛的慈愛和誠實，",
+          "nasb": "Then the Lord passed by in front of him and proclaimed, “The Lord, the Lord God, compassionate and gracious, slow to anger, and abounding in lovingkindness and truth;",
           "words": [
             {
               "id": "hebrew-5674",
-              "eng": "And passed"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5921",
-              "eng": "before"
+              "cht": "在"
             },
             {
               "id": "hebrew-6440",
-              "eng": "him"
+              "cht": "他面前"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and proclaimed",
-              "punct": "､"
+              "cht": "宣告"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "God",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7349",
-              "eng": "merciful"
+              "cht": "是有憐憫"
             },
             {
               "id": "hebrew-2587",
-              "eng": "and gracious",
-              "punct": "､"
+              "cht": "有恩典"
             },
             {
-              "id": "hebrew-750",
-              "eng": "slow"
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-639",
-              "eng": "to anger",
-              "punct": "､"
+              "cht": "不輕易發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "and abounding"
+              "cht": "並有豐盛"
             },
             {
               "id": "hebrew-2617",
-              "eng": "in goodness"
+              "cht": "的慈愛"
             },
             {
               "id": "hebrew-571",
-              "eng": "and truth",
-              "punct": "､"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "和誠實",
+              "punct_cht": "，"
             }
           ]
         },
@@ -638,59 +624,59 @@
             "hebrew-7227": 0.682650024003308
           },
           "verseKey": "psa.86.15",
-          "cunp": "主啊，你是有憐憫有恩典的神， 不輕易發怒，並有豐盛的慈愛和誠實。",
+          "nasb": "But You, O Lord, are a God merciful and gracious, Slow to anger and abundant in lovingkindness and truth.",
           "words": [
             {
-              "id": "hebrew-859",
-              "eng": "But You [are]",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-136",
-              "eng": "Lord",
-              "punct": "､"
+              "cht": "主"
             },
             {
-              "id": "hebrew-410",
-              "eng": "a God"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你是"
             },
             {
               "id": "hebrew-7349",
-              "eng": "compassionate",
-              "punct": "､"
+              "cht": "有憐憫"
             },
             {
               "id": "hebrew-2587",
-              "eng": "and gracious",
-              "punct": "､"
+              "cht": "有恩典"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-750",
-              "eng": "slow"
+              "cht": "不輕易"
             },
             {
               "id": "hebrew-639",
-              "eng": "to anger",
-              "punct": "､"
+              "cht": "發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "and abundant in"
+              "cht": "並有豐盛的"
             },
             {
               "id": "hebrew-2617",
-              "eng": "mercy"
+              "cht": "慈愛"
             },
             {
               "id": "hebrew-571",
-              "eng": "and truth",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "和誠實",
+              "punct_cht": "。"
             }
           ]
         }

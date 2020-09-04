@@ -3,17 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5999": "The labor",
-          "hebrew-3684": "of fools",
-          "hebrew-3021": "wearies them",
-          "hebrew-834": "for",
-          "hebrew-3808": "not",
-          "hebrew-3045": "they do even know how",
-          "hebrew-1980": "to go",
-          "hebrew-413": "to",
-          "hebrew-5892": "the city",
-          "hebrew-3212": null,
-          "": null
+          "eng": {
+            "hebrew-5999": "The labor",
+            "hebrew-3684": "of fools",
+            "hebrew-3021": "wearies them",
+            "hebrew-834": "for",
+            "hebrew-3808": "not",
+            "hebrew-3045": "they do even know how",
+            "hebrew-1980": "to go",
+            "hebrew-413": "to",
+            "hebrew-5892": "the city",
+            "hebrew-3212": null,
+            "": null
+          },
+          "cht": {
+            "hebrew-5999": "他的勞碌",
+            "hebrew-3684": "凡愚昧人",
+            "hebrew-3021": "使自己困乏",
+            "hebrew-834": "因為",
+            "hebrew-3808": "他也不",
+            "hebrew-3045": "知道",
+            "hebrew-413": "連進",
+            "hebrew-5892": "城",
+            "hebrew-3212": "連進"
+          }
         }
       },
       "translations": {
@@ -29,100 +42,107 @@
             "hebrew-3021": 3.4146839202627715
           },
           "verseKey": "mal.2.17",
-          "cunp": "你們用言語煩瑣耶和華，你們還說：「我們在何事上煩瑣他呢？」因為你們說：「凡行惡的，耶和華眼看為善，並且他喜悅他們」；或說：「公義的神在哪裏呢？」",
+          "nasb": "You have wearied the Lord with your words. Yet you say, “How have we wearied Him?” In that you say, “Everyone who does evil is good in the sight of the Lord, and He delights in them,” or, “Where is the God of justice?”",
           "words": [
             {
+              "id": "hebrew-1697",
+              "cht": "你們用言語"
+            },
+            {
               "id": "hebrew-3021",
-              "eng": "You have wearied"
+              "cht": "煩瑣"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "with your words",
-              "punct": "."
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "And yet you say",
-              "punct": "､"
+              "cht": "你們還說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4100",
-              "eng": "in what [way]"
+              "cht": "我們在何事上"
             },
             {
               "id": "hebrew-3021",
-              "eng": "have we wearied [Him]"
+              "cht": "煩瑣"
+            },
+            {
+              "id": "",
+              "cht": "他呢",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-559",
-              "eng": "in that you say",
-              "punct": "､"
+              "cht": "因為你們說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3605",
-              "eng": "Everyone"
+              "cht": "凡"
             },
             {
               "id": "hebrew-6213",
-              "eng": "who does"
+              "cht": "行"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
+              "cht": "惡"
             },
             {
-              "id": "hebrew-2896",
-              "eng": "[Is] good"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "in the sight"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "眼"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "看為善",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "He"
+              "cht": "並且他"
             },
             {
               "id": "hebrew-2654",
-              "eng": "delights"
+              "cht": "喜悅"
             },
             {
               "id": "hebrew-176",
-              "eng": "Or",
-              "punct": "､"
+              "cht": "或"
             },
             {
-              "id": "hebrew-346",
-              "eng": "where"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "[is] the God"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4941",
-              "eng": "of justice"
+              "cht": "公義"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的"
             },
             {
-              "id": ""
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-346",
+              "cht": "在哪裡呢",
+              "punct_cht": "？」"
             }
           ]
         },
@@ -133,84 +153,83 @@
             "hebrew-5892": 0.5914215478951839
           },
           "verseKey": "jos.24.13",
-          "cunp": "我賜給你們地土，非你們所修治的；我賜給你們城邑，非你們所建造的。你們就住在其中，又得吃非你們所栽種的葡萄園、橄欖園的果子。』",
+          "nasb": "I gave you a land on which you had not labored, and cities which you had not built, and you have lived in them; you are eating of vineyards and olive groves which you did not plant.’",
           "words": [
             {
               "id": "hebrew-5414",
-              "eng": "And I have given"
+              "cht": "我賜"
             },
             {
               "id": "hebrew-776",
-              "eng": "a land"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "for which"
+              "cht": "地土",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "非"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "你們所"
             },
             {
               "id": "hebrew-3021",
-              "eng": "you did labor",
-              "punct": "､"
+              "cht": "修治"
             },
             {
               "id": "hebrew-5892",
-              "eng": "and cities"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "cht": "我賜給你們城邑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not",
-              "punct": "､"
+              "cht": "非"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "你們所"
             },
             {
               "id": "hebrew-1129",
-              "eng": "you did build"
+              "cht": "建造"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3427",
-              "eng": "and you dwell"
-            },
-            {
-              "id": "hebrew-3754",
-              "eng": "of the vineyards"
-            },
-            {
-              "id": "hebrew-2132",
-              "eng": "and olive groves"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5193",
-              "eng": "you did plant"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "you"
+              "cht": "你們就住"
             },
             {
               "id": "hebrew-398",
-              "eng": "eat",
-              "punct": "."
+              "cht": "又得吃"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "非"
             },
             {
-              "id": ""
+              "id": "hebrew-834",
+              "cht": "你們所"
+            },
+            {
+              "id": "hebrew-5193",
+              "cht": "栽種"
+            },
+            {
+              "id": "hebrew-3754",
+              "cht": "的葡萄園、"
+            },
+            {
+              "id": "hebrew-2132",
+              "cht": "橄欖園"
+            },
+            {
+              "id": "",
+              "cht": "的果子",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -221,97 +240,102 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "isa.40.28",
-          "cunp": "你豈不曾知道嗎？ 你豈不曾聽見嗎？ 永在的神耶和華，創造地極的主， 並不疲乏，也不困倦； 他的智慧無法測度。",
+          "nasb": "Do you not know? Have you not heard? The Everlasting God, the Lord, the Creator of the ends of the earth Does not become weary or tired. His understanding is inscrutable.",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Have not"
+              "cht": "你豈不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "you known"
+              "cht": "曾知道"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-518",
-              "eng": "lo"
+              "cht": "你豈"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-8085",
-              "eng": "have you heard",
-              "punct": "､"
+              "cht": "曾聽見"
             },
             {
-              "id": "hebrew-430",
-              "eng": "the God",
-              "punct": "､"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "永在"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1254",
-              "eng": "the Creator"
-            },
-            {
-              "id": "hebrew-7098",
-              "eng": "of the ends"
+              "cht": "創造"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "､"
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-7098",
+              "cht": "極"
+            },
+            {
+              "id": "",
+              "cht": "的主",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "neither",
-              "punct": "､"
+              "cht": "並不"
             },
             {
               "id": "hebrew-3286",
-              "eng": "faints"
+              "cht": "疲乏",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-3021",
-              "eng": "is weary"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2714",
-              "eng": "is unsearchable"
+              "cht": "困倦",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8394",
-              "eng": "His understanding",
-              "punct": "."
+              "cht": "他的智慧"
             },
             {
-              "id": ""
+              "id": "hebrew-369",
+              "cht": "無法"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-2714",
+              "cht": "測度",
+              "punct_cht": "。"
             }
           ]
         },
@@ -322,68 +346,63 @@
             "hebrew-1980": 0.4954178557167908
           },
           "verseKey": "isa.40.31",
-          "cunp": "但那等候耶和華的必重新得力。 他們必如鷹展翅上騰； 他們奔跑卻不困倦， 行走卻不疲乏。",
+          "nasb": "Yet those who wait for the Lord Will gain new strength; They will mount up with wings like eagles, They will run and not get tired, They will walk and not become weary.",
           "words": [
             {
               "id": "hebrew-6960",
-              "eng": "but those who wait on"
+              "cht": "但那等候"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2498",
-              "eng": "shall renew"
+              "cht": "的必從新得"
             },
             {
               "id": "hebrew-3581",
-              "eng": "[their] strength",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "they shall mount up"
-            },
-            {
-              "id": "hebrew-83",
-              "eng": "with wings"
+              "cht": "力",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5404",
-              "eng": "like eagles",
-              "punct": "–"
+              "cht": "他們必如鷹"
+            },
+            {
+              "id": "hebrew-83",
+              "cht": "展翅"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "上騰",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7323",
-              "eng": "they shall run",
-              "punct": "､"
+              "cht": "他們奔跑"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "卻不"
             },
             {
               "id": "hebrew-3021",
-              "eng": "be weary",
-              "punct": "–"
+              "cht": "困倦",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "they shall walk",
-              "punct": "､"
+              "id": "hebrew-3212",
+              "cht": "行走"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "卻不"
             },
             {
               "id": "hebrew-3286",
-              "eng": "faint",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "疲乏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -393,98 +412,80 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "2co.11.16",
-          "cunp": "我再說，人不可把我看作愚妄的。縱然如此，也要把我當作愚妄人接納，叫我可以略略自誇。",
+          "nasb": "Again I say, let no one think me foolish; but if you do, receive me even as foolish, so that I also may boast a little.",
           "words": [
             {
               "id": "greek-3825",
-              "eng": "Again"
+              "cht": "我再"
             },
             {
               "id": "greek-3004",
-              "eng": "I say",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5100",
+              "cht": "人"
             },
             {
               "id": "greek-3361",
-              "eng": "no"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "one"
+              "cht": "不可"
             },
             {
               "id": "greek-3165",
-              "eng": "me"
+              "cht": "把我"
             },
             {
               "id": "greek-1380",
-              "eng": "should think"
-            },
-            {
-              "id": "greek-878",
-              "eng": "a fool"
+              "cht": "看"
             },
             {
               "id": "greek-1511",
-              "eng": "to be",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-1490",
-              "eng": "otherwise"
-            },
-            {
-              "id": "greek-2579",
-              "eng": "even"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "as"
+              "cht": "作"
             },
             {
               "id": "greek-878",
-              "eng": "a fool"
+              "cht": "愚妄的",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-1209",
-              "eng": "receive"
+              "id": "greek-2579",
+              "cht": "縱然如此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3165",
-              "eng": "me",
-              "punct": ","
+              "cht": "也要把我"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "當作"
+            },
+            {
+              "id": "greek-878",
+              "cht": "愚妄人"
+            },
+            {
+              "id": "greek-1209",
+              "cht": "接納",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
+              "cht": "叫"
             },
             {
               "id": "greek-2504",
-              "eng": "I also"
-            },
-            {
-              "id": "greek-3398",
-              "eng": "little"
+              "cht": "我"
             },
             {
               "id": "greek-5100",
-              "eng": "a"
+              "cht": "可以略略"
             },
             {
               "id": "greek-2744",
-              "eng": "may boast",
-              "punct": "."
-            },
-            {
-              "id": "greek-3397"
+              "cht": "自誇",
+              "punct_cht": "。"
             }
           ]
         },
@@ -494,84 +495,84 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "ecc.2.16",
-          "cunp": "智慧人和愚昧人一樣，永遠無人記念，因為日後都被忘記；可歎智慧人死亡，與愚昧人無異。",
+          "nasb": "For there is no lasting remembrance of the wise man as with the fool, inasmuch as in the coming days all will be forgotten. And how the wise man and the fool alike die!",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "[there is] no"
-            },
-            {
-              "id": "hebrew-2146",
-              "eng": "remembrance"
-            },
-            {
               "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-5973",
-              "eng": "more than"
+              "cht": "和"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of the fool"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-7945",
+              "cht": "一樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "–"
+              "cht": "永遠"
             },
             {
-              "id": "hebrew-3528",
-              "eng": "Since that now [is]"
+              "id": "hebrew-369",
+              "cht": "無人"
+            },
+            {
+              "id": "hebrew-2146",
+              "cht": "記念",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in the days"
+              "cht": "日"
             },
             {
               "id": "hebrew-935",
-              "eng": "to come"
+              "cht": "後"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
             },
             {
               "id": "hebrew-7911",
-              "eng": "will be forgotten",
-              "punct": "."
+              "cht": "被忘記",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-349",
-              "eng": "And how"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "does die"
+              "cht": "可歎"
             },
             {
               "id": "hebrew-2450",
-              "eng": "a wise [man]"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "死亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5973",
-              "eng": "as"
+              "cht": "與"
             },
             {
               "id": "hebrew-3684",
-              "eng": "the fool",
-              "punct": "."
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-7945"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "無異",
+              "punct_cht": "。"
             }
           ]
         },
@@ -582,33 +583,33 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "psa.73.16",
-          "cunp": "我思索怎能明白這事， 眼看實係為難，",
+          "nasb": "When I pondered to understand this, It was troublesome in my sight",
           "words": [
             {
               "id": "hebrew-2803",
-              "eng": "And when I thought [how]"
+              "cht": "我思索"
             },
             {
               "id": "hebrew-3045",
-              "eng": "to understand"
+              "cht": "怎能明白"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5999",
-              "eng": "too painful"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "it [was]"
+              "cht": "這事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "for me",
-              "punct": "."
+              "cht": "眼看"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "實係"
+            },
+            {
+              "id": "hebrew-5999",
+              "cht": "為難",
+              "punct_cht": "，"
             }
           ]
         },
@@ -618,130 +619,117 @@
             "hebrew-3021": 3.4146839202627715
           },
           "verseKey": "jos.7.3",
-          "cunp": "他們回到約書亞那裏，對他說：「眾民不必都上去，只要二三千人上去就能攻取艾城；不必勞累眾民都去，因為那裏的人少。」",
+          "nasb": "They returned to Joshua and said to him, “Do not let all the people go up; only about two or three thousand men need go up to Ai; do not make all the people toil up there, for they are few.”",
           "words": [
             {
               "id": "hebrew-7725",
-              "eng": "And they returned"
+              "cht": "他們回"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到"
             },
             {
               "id": "hebrew-3091",
-              "eng": "Joshua",
-              "punct": "､"
+              "cht": "約書亞"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him"
+              "cht": "對他"
             },
             {
-              "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "do let go up",
-              "punct": "–"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "眾"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people"
+              "cht": "民"
             },
             {
-              "id": "hebrew-505",
-              "eng": "but about two thousand"
+              "id": "hebrew-408",
+              "cht": "不必"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men"
+              "id": "hebrew-5927",
+              "cht": "都上去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "只要二"
             },
             {
               "id": "hebrew-7969",
-              "eng": "three"
+              "cht": "三"
             },
             {
               "id": "hebrew-505",
-              "eng": "thousand"
+              "cht": "千"
             },
             {
               "id": "hebrew-376",
-              "eng": "men"
+              "cht": "人"
             },
             {
               "id": "hebrew-5927",
-              "eng": "let go up"
+              "cht": "上去"
             },
             {
               "id": "hebrew-5221",
-              "eng": "and attack"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "就能攻取"
             },
             {
               "id": "hebrew-5857",
-              "eng": "Ai",
-              "punct": "–"
+              "cht": "艾"
+            },
+            {
+              "id": "",
+              "cht": "城",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不必"
             },
             {
               "id": "hebrew-3021",
-              "eng": "do weary"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "勞累"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "眾"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people"
+              "cht": "民"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "都去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4592",
-              "eng": "few"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1992",
-              "eng": "they [are]",
-              "punct": "."
+              "cht": "那裡的人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4592",
+              "cht": "少",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -751,68 +739,68 @@
             "hebrew-3021": 3.4146839202627715
           },
           "verseKey": "isa.65.23",
-          "cunp": "他們必不徒然勞碌， 所生產的，也不遭災害， 因為都是蒙耶和華賜福的後裔； 他們的子孫也是如此。",
+          "nasb": "They will not labor in vain, Or bear children for calamity; For they are the offspring of those blessed by the Lord, And their descendants with them.",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-3021",
-              "eng": "they shall labor"
+              "cht": "他們必不"
             },
             {
               "id": "hebrew-7385",
-              "eng": "in vain",
-              "punct": "､"
+              "cht": "徒然"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "nor"
+              "id": "hebrew-3021",
+              "cht": "勞碌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "bring forth children"
+              "cht": "所生產"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
             },
             {
               "id": "hebrew-928",
-              "eng": "for trouble",
-              "punct": "–"
+              "cht": "遭災害",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "the descendants"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "of the blessed"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "of Yahweh"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1992",
-              "eng": "they [shall be]"
+              "cht": "都是"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "蒙耶和華"
+            },
+            {
+              "id": "hebrew-1288",
+              "cht": "賜福"
+            },
+            {
+              "id": "hebrew-2233",
+              "cht": "的後裔",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6631",
-              "eng": "and their offspring"
+              "cht": "他們的子孫"
             },
             {
               "id": "hebrew-854",
-              "eng": "with them",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
+              "cht": "也是如此",
+              "punct_cht": "。"
             }
           ]
         },
@@ -822,33 +810,33 @@
             "hebrew-3021": 3.4146839202627715
           },
           "verseKey": "isa.40.30",
-          "cunp": "就是少年人也要疲乏困倦； 強壯的也必全然跌倒。",
+          "nasb": "Though youths grow weary and tired, And vigorous young men stumble badly,",
           "words": [
             {
-              "id": "hebrew-3286",
-              "eng": "And Even shall faint"
+              "id": "hebrew-5288",
+              "cht": "就是少年人"
             },
             {
-              "id": "hebrew-5288",
-              "eng": "the youths"
+              "id": "hebrew-3286",
+              "cht": "也要疲乏"
             },
             {
               "id": "hebrew-3021",
-              "eng": "and be weary",
-              "punct": "､"
+              "cht": "困倦",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-970",
-              "eng": "and the young men"
+              "cht": "強壯的"
             },
             {
               "id": "hebrew-3782",
-              "eng": "utterly"
+              "cht": "也必全然"
             },
             {
               "id": "hebrew-3782",
-              "eng": "shall fall",
-              "punct": "､"
+              "cht": "跌倒",
+              "punct_cht": "。"
             }
           ]
         }

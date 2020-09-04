@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3034": "I will praise You",
-          "hebrew-136": "Lord",
-          "hebrew-430": "my God",
-          "hebrew-3605": "with all",
-          "hebrew-3824": "my heart",
-          "hebrew-3513": "and I will glorify",
-          "hebrew-8034": "Your name",
-          "hebrew-5769": "forevermore",
-          "": null
+          "eng": {
+            "hebrew-3034": "I will praise You",
+            "hebrew-136": "Lord",
+            "hebrew-430": "my God",
+            "hebrew-3605": "with all",
+            "hebrew-3824": "my heart",
+            "hebrew-3513": "and I will glorify",
+            "hebrew-8034": "Your name",
+            "hebrew-5769": "forevermore",
+            "": null
+          },
+          "cht": {
+            "hebrew-3034": "稱讚你",
+            "hebrew-136": "主",
+            "hebrew-430": "神",
+            "hebrew-3605": "我要一",
+            "hebrew-3824": "心",
+            "hebrew-3513": "我要榮耀",
+            "hebrew-8034": "你的名",
+            "hebrew-5769": "直到永遠"
+          }
         }
       },
       "translations": {
@@ -31,156 +43,88 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "rom.14.6",
-          "cunp": "守日的人是為主守的。吃的人是為主吃的，因他感謝神；不吃的人是為主不吃的，也感謝神。",
+          "nasb": "He who observes the day, observes it for the Lord, and he who eats, does so for the Lord, for he gives thanks to God; and he who eats not, for the Lord he does not eat, and gives thanks to God.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-5426",
-              "eng": "regarding"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "守"
             },
             {
               "id": "greek-2250",
-              "eng": "day",
-              "punct": ","
+              "cht": "日"
             },
             {
               "id": "greek-2962",
-              "eng": "to [the] Lord"
+              "cht": "的人是為主"
             },
             {
               "id": "greek-5426",
-              "eng": "regards [it]",
-              "punct": ";"
+              "cht": "守"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-5426",
-              "eng": "observing"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2250",
-              "eng": "day",
-              "punct": ","
-            },
-            {
-              "id": "greek-2962",
-              "eng": "to the Lord"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-5426",
-              "eng": "does observe",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2068",
-              "eng": "eating",
-              "punct": ","
+              "cht": "吃的人"
             },
             {
               "id": "greek-2962",
-              "eng": "to [the] Lord"
+              "cht": "是為主"
             },
             {
               "id": "greek-2068",
-              "eng": "eats",
-              "punct": ","
-            },
-            {
-              "id": "greek-2168",
-              "eng": "he gives thanks"
+              "cht": "吃的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "to God",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2068",
-              "eng": "eating",
-              "punct": ","
-            },
-            {
-              "id": "greek-2962",
-              "eng": "to [the] Lord"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-2068",
-              "eng": "he eats",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "因"
             },
             {
               "id": "greek-2168",
-              "eng": "he gives thanks"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "他感謝"
             },
             {
               "id": "greek-2316",
-              "eng": "to God",
-              "punct": "."
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
-              "id": ""
+              "id": "greek-3361",
+              "cht": "不"
+            },
+            {
+              "id": "greek-2068",
+              "cht": "吃的人"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "是為主"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "不"
+            },
+            {
+              "id": "greek-2068",
+              "cht": "吃的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
+            },
+            {
+              "id": "greek-2168",
+              "cht": "感謝"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -190,97 +134,80 @@
             "hebrew-3824": 2.287933638133053
           },
           "verseKey": "deu.20.8",
-          "cunp": "官長又要對百姓宣告說：『誰懼怕膽怯，他可以回家去，恐怕他弟兄的心消化，和他一樣。』",
+          "nasb": "Then the officers shall speak further to the people and say, ‘Who is the man that is afraid and fainthearted? Let him depart and return to his house, so that he might not make his brothers’ hearts melt like his heart.’",
           "words": [
             {
-              "id": "hebrew-3254",
-              "eng": "And further"
-            },
-            {
               "id": "hebrew-7860",
-              "eng": "the officers"
+              "cht": "官長"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "shall speak"
+              "id": "hebrew-3254",
+              "cht": "又"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "要對"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "､"
+              "cht": "百姓"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "宣告"
             },
             {
               "id": "hebrew-559",
-              "eng": "and say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
-              "id": "hebrew-4310",
-              "eng": "who [is]"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
+              "id": "hebrew-834",
+              "cht": "誰"
             },
             {
               "id": "hebrew-3373",
-              "eng": "[who is] fearful"
-            },
-            {
-              "id": "hebrew-7390",
-              "eng": "and"
+              "cht": "懼怕"
             },
             {
               "id": "hebrew-3824",
-              "eng": "fainthearted"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "let him go"
+              "cht": "膽怯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "and return"
+              "cht": "他可以回"
             },
             {
               "id": "hebrew-1004",
-              "eng": "to his house",
-              "punct": "､"
+              "cht": "家"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "and lest"
-            },
-            {
-              "id": "hebrew-4549",
-              "eng": "faint"
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "the heart"
+              "cht": "恐怕"
             },
             {
               "id": "hebrew-251",
-              "eng": "of his brothers"
+              "cht": "他弟兄"
             },
             {
               "id": "hebrew-3824",
-              "eng": "like his heart",
-              "punct": "."
+              "cht": "的心"
             },
             {
-              "id": "hebrew-834"
+              "id": "hebrew-4549",
+              "cht": "消化",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-3824",
+              "cht": "和他一樣",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -290,57 +217,54 @@
             "hebrew-3824": 2.287933638133053
           },
           "verseKey": "psa.104.15",
-          "cunp": "又得酒能悅人心， 得油能潤人面， 得糧能養人心。",
+          "nasb": "And wine which makes man’s heart glad, So that he may make his face glisten with oil, And food which sustains man’s heart.",
           "words": [
             {
               "id": "hebrew-3196",
-              "eng": "and wine"
+              "cht": "又得酒"
             },
             {
               "id": "hebrew-8055",
-              "eng": "[that] makes glad"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "the heart"
+              "cht": "能悅"
             },
             {
               "id": "hebrew-582",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "得油"
             },
             {
               "id": "hebrew-6670",
-              "eng": "to make shine",
-              "punct": "､"
+              "cht": "能潤"
             },
             {
               "id": "hebrew-6440",
-              "eng": "[his] face"
-            },
-            {
-              "id": "hebrew-8081",
-              "eng": "Oil"
+              "cht": "人面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3899",
-              "eng": "and bread"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "heart"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "of man"
+              "cht": "得糧"
             },
             {
               "id": "hebrew-5582",
-              "eng": "[which] strengthens",
-              "punct": "."
+              "cht": "能養"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-582",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心",
+              "punct_cht": "。"
             }
           ]
         },
@@ -352,50 +276,51 @@
             "hebrew-3824": 2.287933638133053
           },
           "verseKey": "psa.111.1",
-          "cunp": "你們要讚美耶和華！ 我要在正直人的大會中，並公會中， 一心稱謝耶和華。",
+          "nasb": "Praise the Lord! I will give thanks to the Lord with all my heart, In the company of the upright and in the assembly.",
           "words": [
             {
               "id": "hebrew-1984",
-              "eng": "Praise"
+              "cht": "你們要讚美"
             },
             {
               "id": "hebrew-3050",
-              "eng": "YAH",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3034",
-              "eng": "I will praise"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "with whole"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "[my] heart",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5475",
-              "eng": "in the assembly"
+              "cht": "耶和華",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3477",
-              "eng": "of the upright",
-              "punct": "､"
+              "cht": "我要在正直人"
+            },
+            {
+              "id": "hebrew-5475",
+              "cht": "的大會中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5712",
-              "eng": "and [in] the congregation",
-              "punct": "."
+              "cht": "並公會"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-3034",
+              "cht": "稱謝"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "。"
             }
           ]
         },
@@ -406,68 +331,70 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "psa.75.1",
-          "cunp": "神啊，我們稱謝你，我們稱謝你！ 因為你的名相近，人都述說你奇妙的作為。",
+          "nasb": "We give thanks to You, O God, we give thanks, For Your name is near; Men declare Your wondrous works.",
           "words": [
             {
-              "id": "hebrew-5329",
-              "eng": "To the Chief Musician",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-516",
-              "eng": "do Not Destroy",
-              "punct": "､"
+              "id": "hebrew-623",
+              "cht": "亞薩的"
             },
             {
               "id": "hebrew-4210",
-              "eng": "a Psalm"
-            },
-            {
-              "id": "hebrew-623",
-              "eng": "of Asaph",
-              "punct": "."
+              "cht": "詩"
             },
             {
               "id": "hebrew-7892",
-              "eng": "A Song"
+              "cht": "歌",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3034",
-              "eng": "we give thanks",
-              "punct": "､"
+              "id": "hebrew-5329",
+              "cht": "交與伶長",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-516",
+              "cht": "調用休要毀壞）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "､"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3034",
-              "eng": "we give thanks",
-              "punct": "–"
+              "cht": "我們稱謝"
             },
             {
-              "id": "hebrew-7138",
-              "eng": "for is near"
+              "id": "hebrew-3034",
+              "cht": "我們稱謝"
+            },
+            {
+              "id": "",
+              "cht": "你",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-8034",
-              "eng": "Your name"
+              "cht": "因為你的名"
+            },
+            {
+              "id": "hebrew-7138",
+              "cht": "相近",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5608",
-              "eng": "declare [that]"
+              "cht": "人都述說"
             },
             {
               "id": "hebrew-6381",
-              "eng": "Your wondrous works",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "你奇妙的作為",
+              "punct_cht": "。"
             }
           ]
         },
@@ -479,83 +406,82 @@
             "hebrew-5769": 0.9076353225721897
           },
           "verseKey": "1ch.29.18",
-          "cunp": "耶和華－我們列祖亞伯拉罕、以撒、以色列的神啊，求你使你的民常存這樣的心思意念，堅定他們的心歸向你，",
+          "nasb": "O Lord, the God of Abraham, Isaac and Israel, our fathers, preserve this forever in the intentions of the heart of Your people, and direct their heart to You;",
           "words": [
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
-            },
-            {
-              "id": "hebrew-85",
-              "eng": "of Abraham",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3327",
-              "eng": "Isaac",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "and Israel",
-              "punct": "､"
+              "cht": "耶和華─"
             },
             {
               "id": "hebrew-1",
-              "eng": "our fathers",
-              "punct": "､"
+              "cht": "我們列祖"
             },
             {
-              "id": "hebrew-8104",
-              "eng": "keep"
+              "id": "hebrew-85",
+              "cht": "亞伯拉罕、"
             },
             {
-              "id": "hebrew-2063",
-              "eng": "this"
+              "id": "hebrew-3327",
+              "cht": "以撒、"
             },
             {
-              "id": "hebrew-5769",
-              "eng": "forever"
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-3336",
-              "eng": "in the intent"
+              "id": "",
+              "cht": "的"
             },
             {
-              "id": "hebrew-4284",
-              "eng": "of the thoughts"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": "hebrew-3824",
-              "eng": "of the heart"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of Your people",
-              "punct": "､"
+              "cht": "求你使你的民"
             },
             {
-              "id": "hebrew-3559",
-              "eng": "and fix"
+              "id": "hebrew-5769",
+              "cht": "常"
+            },
+            {
+              "id": "hebrew-8104",
+              "cht": "存"
+            },
+            {
+              "id": "hebrew-2063",
+              "cht": "這樣的"
             },
             {
               "id": "hebrew-3824",
-              "eng": "their heart"
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-4284",
+              "cht": "思"
+            },
+            {
+              "id": "hebrew-3336",
+              "cht": "意念",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "堅定"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "他們的心"
             },
             {
               "id": "hebrew-413",
-              "eng": "toward You",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "歸向你",
+              "punct_cht": "，"
             }
           ]
         },
@@ -567,33 +493,33 @@
             "hebrew-5769": 0.9076353225721897
           },
           "verseKey": "psa.136.2",
-          "cunp": "你們要稱謝萬神之神， 因他的慈愛永遠長存。",
+          "nasb": "Give thanks to the God of gods, For His lovingkindness is everlasting.",
           "words": [
             {
               "id": "hebrew-3034",
-              "eng": "Oh give thanks"
+              "cht": "你們要稱謝"
             },
             {
               "id": "hebrew-430",
-              "eng": "to the God"
+              "cht": "萬神"
             },
             {
               "id": "hebrew-430",
-              "eng": "of gods",
-              "punct": "､"
+              "cht": "之神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "ever"
+              "cht": "因"
             },
             {
               "id": "hebrew-2617",
-              "eng": "His mercy [endures]",
-              "punct": "."
+              "cht": "他的慈愛"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "永遠長存",
+              "punct_cht": "。"
             }
           ]
         },
@@ -605,138 +531,136 @@
             "hebrew-3824": 2.287933638133053
           },
           "verseKey": "1ch.28.9",
-          "cunp": "「我兒所羅門哪，你當認識耶和華－你父的神，誠心樂意地事奉他；因為他鑒察眾人的心，知道一切心思意念。你若尋求他，他必使你尋見；你若離棄他，他必永遠丟棄你。",
+          "nasb": "“As for you, my son Solomon, know the God of your father, and serve Him with a whole heart and a willing mind; for the Lord searches all hearts, and understands every intent of the thoughts. If you seek Him, He will let you find Him; but if you forsake Him, He will reject you forever.",
           "words": [
             {
-              "id": "hebrew-859",
-              "eng": "And as for you",
-              "punct": "､"
+              "id": "hebrew-1121",
+              "cht": "我兒"
             },
             {
               "id": "hebrew-8010",
-              "eng": "Solomon"
+              "cht": "所羅門"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "my son",
-              "punct": "､"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你"
             },
             {
               "id": "hebrew-3045",
-              "eng": "know"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "the God"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "of your father",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5647",
-              "eng": "and serve Him"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "with a heart"
-            },
-            {
-              "id": "hebrew-8003",
-              "eng": "loyal"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "and with a mind",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2655",
-              "eng": "willing"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "hearts",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1875",
-              "eng": "searches"
+              "cht": "當認識"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華─"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "and all"
+              "id": "hebrew-1",
+              "cht": "你父"
             },
             {
-              "id": "hebrew-3336",
-              "eng": "the intent"
+              "id": "",
+              "cht": "的"
             },
             {
-              "id": "hebrew-4284",
-              "eng": "of the thoughts",
-              "punct": "."
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-995",
-              "eng": "Understands"
+              "id": "hebrew-8003",
+              "cht": "誠"
             },
             {
-              "id": "hebrew-518",
-              "eng": "if"
+              "id": "hebrew-3820",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-2655",
+              "cht": "樂"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "意"
+            },
+            {
+              "id": "hebrew-5647",
+              "cht": "地事奉他",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "他"
             },
             {
               "id": "hebrew-1875",
-              "eng": "you seek Him"
+              "cht": "鑒察"
             },
             {
-              "id": "hebrew-4672",
-              "eng": "He will be found"
+              "id": "hebrew-3605",
+              "cht": "眾人"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "的心",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-995",
+              "cht": "知道"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-3336",
+              "cht": "心思"
+            },
+            {
+              "id": "hebrew-3336",
+              "cht": "意念",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-518",
-              "eng": "but if"
+              "cht": "你若"
+            },
+            {
+              "id": "hebrew-1875",
+              "cht": "尋求他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "尋見",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "你若"
             },
             {
               "id": "hebrew-5800",
-              "eng": "you forsake Him"
-            },
-            {
-              "id": "hebrew-2186",
-              "eng": "He will cast you off"
+              "cht": "離棄他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "."
+              "cht": "他必永遠"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
-            },
-            {
-              "id": "hebrew-3336"
+              "id": "hebrew-2186",
+              "cht": "丟棄你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -749,46 +673,45 @@
             "hebrew-5769": 0.9076353225721897
           },
           "verseKey": "psa.44.8",
-          "cunp": "我們終日因神誇耀， 還要永遠稱謝你的名。（細拉）",
+          "nasb": "In God we have boasted all day long, And we will give thanks to Your name forever. Selah.",
           "words": [
             {
-              "id": "hebrew-430",
-              "eng": "In God"
-            },
-            {
-              "id": "hebrew-1984",
-              "eng": "we boast"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "我們終"
             },
             {
               "id": "hebrew-3117",
-              "eng": "day long"
+              "cht": "日"
             },
             {
-              "id": "hebrew-8034",
-              "eng": "and Your name"
+              "id": "",
+              "cht": "因"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-876",
+              "cht": "誇耀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever"
+              "cht": "還要永遠"
             },
             {
               "id": "hebrew-3034",
-              "eng": "praise"
+              "cht": "稱謝"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "你的名（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-876"
+              "cht": "細拉）"
             }
           ]
         },
@@ -799,131 +722,50 @@
             "hebrew-3824": 2.287933638133053
           },
           "verseKey": "1ch.12.39",
-          "cunp": "他們在那裏三日，與大衛一同吃喝，因為他們的族弟兄給他們預備了。",
+          "nasb": "They were there with David three days, eating and drinking, for their kinsmen had prepared for them.",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "All"
+              "id": "hebrew-8033",
+              "cht": "他們在那裡"
             },
             {
-              "id": "hebrew-428",
-              "eng": "these"
+              "id": "hebrew-7969",
+              "cht": "三"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4421",
-              "eng": "of war",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6186",
-              "eng": "who could keep"
-            },
-            {
-              "id": "hebrew-4634",
-              "eng": "ranks",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8003",
-              "eng": "with a heart"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "loyal"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "came"
-            },
-            {
-              "id": "hebrew-2275",
-              "eng": "to Hebron",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "to make king"
+              "id": "hebrew-5973",
+              "cht": "與"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "over"
+              "id": "hebrew-398",
+              "cht": "一同吃"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-8354",
+              "cht": "喝",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "–"
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "and"
+              "id": "hebrew-251",
+              "cht": "他們的族弟兄"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7611",
-              "eng": "the rest"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "[were] of mind"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "to make king"
-            },
-            {
-              "id": "hebrew-1732",
-              "eng": "David",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-8033"
-            },
-            {
-              "id": "hebrew-7969"
-            },
-            {
-              "id": "hebrew-3117"
-            },
-            {
-              "id": "hebrew-5973"
-            },
-            {
-              "id": "hebrew-398"
-            },
-            {
-              "id": "hebrew-8354"
-            },
-            {
-              "id": "hebrew-3588"
-            },
-            {
-              "id": "hebrew-251"
-            },
-            {
-              "id": "hebrew-3559"
+              "id": "hebrew-3559",
+              "cht": "預備了",
+              "punct_cht": "。"
             }
           ]
         }

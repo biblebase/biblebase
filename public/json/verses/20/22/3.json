@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6175": "A prudent [man]",
-          "hebrew-7200": "foresees",
-          "hebrew-7451": "evil",
-          "hebrew-5641": null,
-          "hebrew-6612": "but the simple",
-          "hebrew-5674": "pass on",
-          "hebrew-6064": "and are punished"
+          "eng": {
+            "hebrew-6175": "A prudent [man]",
+            "hebrew-7200": "foresees",
+            "hebrew-7451": "evil",
+            "hebrew-5641": null,
+            "hebrew-6612": "but the simple",
+            "hebrew-5674": "pass on",
+            "hebrew-6064": "and are punished"
+          },
+          "cht": {
+            "hebrew-6175": "通達",
+            "hebrew-7200": "人見",
+            "hebrew-7451": "禍",
+            "hebrew-5641": "藏躲",
+            "hebrew-6612": "愚蒙人",
+            "hebrew-5674": "前往",
+            "hebrew-6064": "受害"
+          }
         }
       },
       "translations": {
@@ -32,39 +43,37 @@
             "hebrew-6064": 4.758842454566098
           },
           "verseKey": "pro.27.12",
-          "cunp": "通達人見禍藏躲； 愚蒙人前往受害。",
+          "nasb": "A prudent man sees evil and hides himself, The naive proceed and pay the penalty.",
           "words": [
             {
               "id": "hebrew-6175",
-              "eng": "A prudent [man]"
+              "cht": "通達人"
             },
             {
               "id": "hebrew-7200",
-              "eng": "foresees"
+              "cht": "見"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "､"
+              "cht": "禍"
             },
             {
               "id": "hebrew-5641",
-              "eng": "[and] hides himself",
-              "punct": "–"
+              "cht": "藏躲",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6612",
-              "eng": "the simple"
+              "cht": "愚蒙人"
             },
             {
               "id": "hebrew-5674",
-              "eng": "pass on",
-              "punct": "､"
+              "cht": "前往"
             },
             {
               "id": "hebrew-6064",
-              "eng": "[and] are punished",
-              "punct": "."
+              "cht": "受害",
+              "punct_cht": "。"
             }
           ]
         },
@@ -74,100 +83,102 @@
             "hebrew-6064": 4.758842454566098
           },
           "verseKey": "exo.21.22",
-          "cunp": "「人若彼此爭鬥，傷害有孕的婦人，甚至墜胎，隨後卻無別害，那傷害她的，總要按婦人的丈夫所要的，照審判官所斷的，受罰。",
+          "nasb": "“If men struggle with each other and strike a woman with child so that she gives birth prematurely, yet there is no injury, he shall surely be fined as the woman’s husband may demand of him, and he shall pay as the judges decide.",
           "words": [
             {
+              "id": "hebrew-582",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "And if"
+              "cht": "若"
             },
             {
               "id": "hebrew-5327",
-              "eng": "fight",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "men"
+              "cht": "彼此爭鬥",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5062",
-              "eng": "and hurt"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman"
+              "cht": "傷害"
             },
             {
               "id": "hebrew-2030",
-              "eng": "pregnant",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "so that prematurely"
-            },
-            {
-              "id": "hebrew-3206",
-              "eng": "she gives birth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and yet no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "follows"
-            },
-            {
-              "id": "hebrew-611",
-              "eng": "harm",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6064",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-6064",
-              "eng": "he shall be punished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "accordingly as"
-            },
-            {
-              "id": "hebrew-7896",
-              "eng": "imposes"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on him"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "husband"
+              "cht": "有孕"
             },
             {
               "id": "hebrew-802",
-              "eng": "of the woman",
-              "punct": "､"
+              "cht": "的婦人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and he shall pay"
+              "id": "hebrew-3318",
+              "cht": "甚至墜"
+            },
+            {
+              "id": "hebrew-3206",
+              "cht": "胎",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "隨後卻"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "無"
+            },
+            {
+              "id": "hebrew-611",
+              "cht": "別害"
+            },
+            {
+              "id": "",
+              "cht": "那傷害她的",
+              "punct_cht": "，，"
+            },
+            {
+              "id": "hebrew-6064",
+              "cht": "總要"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "按婦人"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "的丈夫"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-7896",
+              "cht": "要"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6414",
-              "eng": "as the judges [determine]",
-              "punct": "."
+              "cht": "照審判官"
             },
             {
-              "id": ""
+              "id": "hebrew-5414",
+              "cht": "所斷"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6064",
+              "cht": "受罰",
+              "punct_cht": "。"
             }
           ]
         },
@@ -178,43 +189,43 @@
             "hebrew-6064": 4.758842454566098
           },
           "verseKey": "pro.21.11",
-          "cunp": "褻慢的人受刑罰，愚蒙的人就得智慧； 智慧人受訓誨，便得知識。",
+          "nasb": "When the scoffer is punished, the naive becomes wise; But when the wise is instructed, he receives knowledge.",
           "words": [
             {
-              "id": "hebrew-6064",
-              "eng": "When is punished",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3887",
-              "eng": "the scoffer"
+              "cht": "褻慢的人"
             },
             {
-              "id": "hebrew-2449",
-              "eng": "is made wise",
-              "punct": "–"
+              "id": "hebrew-6064",
+              "cht": "受刑罰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6612",
-              "eng": "the simple"
+              "cht": "愚蒙的人"
             },
             {
-              "id": "hebrew-7919",
-              "eng": "but when is instructed",
-              "punct": "､"
+              "id": "hebrew-2449",
+              "cht": "就得智慧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2450",
-              "eng": "the wise"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-7919",
+              "cht": "受訓誨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3947",
-              "eng": "he receives"
+              "cht": "便得"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "."
+              "cht": "知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -225,37 +236,37 @@
             "hebrew-6612": 3.7212505791847406
           },
           "verseKey": "pro.14.15",
-          "cunp": "愚蒙人是話都信； 通達人步步謹慎。",
+          "nasb": "The naive believes everything, But the sensible man considers his steps.",
           "words": [
             {
               "id": "hebrew-6612",
-              "eng": "The simple"
-            },
-            {
-              "id": "hebrew-539",
-              "eng": "believes"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
+              "cht": "愚蒙人"
             },
             {
               "id": "hebrew-1697",
-              "eng": "word",
-              "punct": "–"
+              "cht": "是話"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-539",
+              "cht": "信",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6175",
-              "eng": "but the prudent"
-            },
-            {
-              "id": "hebrew-995",
-              "eng": "well"
+              "cht": "通達人"
             },
             {
               "id": "hebrew-838",
-              "eng": "considers his steps",
-              "punct": "."
+              "cht": "步步"
+            },
+            {
+              "id": "hebrew-995",
+              "cht": "謹慎",
+              "punct_cht": "。"
             }
           ]
         },
@@ -266,33 +277,33 @@
             "hebrew-6612": 3.7212505791847406
           },
           "verseKey": "pro.14.18",
-          "cunp": "愚蒙人得愚昧為產業； 通達人得知識為冠冕。",
+          "nasb": "The naive inherit foolishness, But the sensible are crowned with knowledge.",
           "words": [
             {
-              "id": "hebrew-5157",
-              "eng": "Inherit"
-            },
-            {
               "id": "hebrew-6612",
-              "eng": "the simple"
+              "cht": "愚蒙人"
             },
             {
               "id": "hebrew-200",
-              "eng": "folly",
-              "punct": "､"
+              "cht": "得愚昧"
+            },
+            {
+              "id": "hebrew-5157",
+              "cht": "為產業",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6175",
-              "eng": "but the prudent"
-            },
-            {
-              "id": "hebrew-3803",
-              "eng": "are crowned"
+              "cht": "通達人"
             },
             {
               "id": "hebrew-1847",
-              "eng": "with knowledge",
-              "punct": "."
+              "cht": "得知識"
+            },
+            {
+              "id": "hebrew-3803",
+              "cht": "為冠冕",
+              "punct_cht": "。"
             }
           ]
         },
@@ -302,63 +313,64 @@
             "hebrew-6612": 3.7212505791847406
           },
           "verseKey": "pro.1.22",
-          "cunp": "說：你們愚昧人喜愛愚昧， 褻慢人喜歡褻慢， 愚頑人恨惡知識，要到幾時呢？",
+          "nasb": "“How long, O naive ones, will you love being simple-minded? And scoffers delight themselves in scoffing And fools hate knowledge?",
           "words": [
             {
-              "id": "hebrew-5704",
-              "eng": "How"
-            },
-            {
-              "id": "hebrew-4970",
-              "eng": "long"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6612",
-              "eng": "you simple ones",
-              "punct": "､"
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-157",
-              "eng": "will you love"
+              "cht": "喜愛"
             },
             {
               "id": "hebrew-6612",
-              "eng": "simplicity"
+              "cht": "愚昧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3887",
-              "eng": "for scorners"
-            },
-            {
-              "id": "hebrew-3944",
-              "eng": "scorning",
-              "punct": "､"
+              "cht": "褻慢人"
             },
             {
               "id": "hebrew-2530",
-              "eng": "delight"
+              "cht": "喜歡"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "in their"
+              "id": "hebrew-3944",
+              "cht": "褻慢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3684",
-              "eng": "and fools"
+              "cht": "愚頑人"
             },
             {
               "id": "hebrew-8130",
-              "eng": "hate"
+              "cht": "恨惡"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge"
+              "cht": "知識",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-5704",
+              "cht": "要到"
             },
             {
-              "id": ""
+              "id": "hebrew-4970",
+              "cht": "幾時"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -369,99 +381,100 @@
             "hebrew-6064": 4.758842454566098
           },
           "verseKey": "deu.22.19",
-          "cunp": "並要罰他一百舍客勒銀子，給女子的父親，因為他將醜名加在以色列的一個處女身上。女子仍作他的妻，終身不可休她。",
+          "nasb": "and they shall fine him a hundred shekels of silver and give it to the girl’s father, because he publicly defamed a virgin of Israel. And she shall remain his wife; he cannot divorce her all his days.",
           "words": [
             {
               "id": "hebrew-6064",
-              "eng": "And they shall fine"
+              "cht": "並要罰"
             },
             {
               "id": "hebrew-853",
-              "eng": "him"
+              "cht": "他"
             },
             {
               "id": "hebrew-3967",
-              "eng": "a hundred [shekels]"
+              "cht": "一百"
             },
             {
               "id": "hebrew-3701",
-              "eng": "of silver",
-              "punct": "､"
+              "cht": "舍客勒銀子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "and give [them]"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "to the father"
+              "cht": "給"
             },
             {
               "id": "hebrew-5291",
-              "eng": "of the young woman",
-              "punct": "､"
+              "cht": "女子"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "的父親",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "he has brought"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "a name"
+              "cht": "因為"
             },
             {
               "id": "hebrew-7451",
-              "eng": "bad"
+              "cht": "他將醜"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "加"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-1330",
-              "eng": "a virgin"
+              "cht": "在"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1330",
+              "cht": "的一個處女"
+            },
+            {
+              "id": "",
+              "cht": "身上",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1961",
-              "eng": "she shall be"
+              "cht": "女子仍作"
             },
             {
               "id": "hebrew-802",
-              "eng": "wife",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3201",
-              "eng": "he may"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "divorce her"
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "終"
             },
             {
               "id": "hebrew-3117",
-              "eng": "his days",
-              "punct": "."
+              "cht": "身"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-3201",
+              "cht": "可"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "休她",
+              "punct_cht": "。"
             }
           ]
         },
@@ -471,108 +484,88 @@
             "hebrew-6064": 4.758842454566098
           },
           "verseKey": "act.26.11",
-          "cunp": "在各會堂，我屢次用刑強逼他們說褻瀆的話，又分外惱恨他們，甚至追逼他們，直到外邦的城邑。」",
+          "nasb": "And as I punished them often in all the synagogues, I tried to force them to blaspheme; and being furiously enraged at them, I kept pursuing them even to foreign cities.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-2596",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "各"
             },
             {
               "id": "greek-4864",
-              "eng": "synagogues",
-              "punct": ","
+              "cht": "會堂",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4178",
-              "eng": "often"
+              "cht": "我屢次"
             },
             {
               "id": "greek-5097",
-              "eng": "punishing"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "用刑"
             },
             {
               "id": "greek-315",
-              "eng": "I was compelling [them]"
-            },
-            {
-              "id": "greek-987",
-              "eng": "to blaspheme",
-              "punct": "."
-            },
-            {
-              "id": "greek-4057",
-              "eng": "Exceedingly"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "then"
-            },
-            {
-              "id": "greek-1693",
-              "eng": "being furious"
+              "cht": "強逼"
             },
             {
               "id": "greek-846",
-              "eng": "against them",
-              "punct": ","
+              "cht": "他們"
             },
             {
-              "id": "greek-1377",
-              "eng": "I kept persecuting [them]"
+              "id": "greek-987",
+              "cht": "說褻瀆"
             },
             {
-              "id": "greek-2193",
-              "eng": "as far as"
+              "id": "",
+              "cht": "的話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5037",
+              "cht": "又"
+            },
+            {
+              "id": "greek-4057",
+              "cht": "分外"
+            },
+            {
+              "id": "greek-1693",
+              "cht": "惱恨"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "even"
+              "cht": "甚至"
+            },
+            {
+              "id": "greek-1377",
+              "cht": "追逼"
+            },
+            {
+              "id": "",
+              "cht": "他們",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2193",
+              "cht": "直到"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1854",
-              "eng": "foreign"
+              "cht": "外邦"
             },
             {
               "id": "greek-4172",
-              "eng": "cities",
-              "punct": ","
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-1519"
-            },
-            {
-              "id": "greek-2193"
+              "cht": "的城邑",
+              "punct_cht": "。"
             }
           ]
         },
@@ -582,107 +575,103 @@
             "hebrew-6175": 4.758842454566098
           },
           "verseKey": "gen.3.1",
-          "cunp": "耶和華神所造的，惟有蛇比田野一切的活物更狡猾。蛇對女人說：「神豈是真說不許你們吃園中所有樹上的果子嗎？」",
+          "nasb": "Now the serpent was more crafty than any beast of the field which the Lord God had made. And he said to the woman, “Indeed, has God said, ‘You shall not eat from any tree of the garden’?”",
           "words": [
             {
-              "id": "hebrew-5175",
-              "eng": "Now the serpent"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "was"
-            },
-            {
-              "id": "hebrew-6175",
-              "eng": "more cunning"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "than any"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "beast"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "of the field"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "所"
             },
             {
               "id": "hebrew-6213",
-              "eng": "had made"
+              "cht": "造的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "hebrew-1961",
+              "cht": "惟有"
             },
             {
-              "id": "hebrew-430",
-              "eng": "God",
-              "punct": "."
+              "id": "hebrew-5175",
+              "cht": "蛇"
             },
             {
-              "id": "hebrew-559",
-              "eng": "And he said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "the woman",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "indeed"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "Has said"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "you shall eat"
+              "id": "hebrew-7704",
+              "cht": "比田野"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of every"
+              "cht": "一切的"
             },
             {
-              "id": "hebrew-6086",
-              "eng": "tree"
+              "id": "hebrew-2416",
+              "cht": "活物"
+            },
+            {
+              "id": "hebrew-6175",
+              "cht": "更狡猾",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "蛇對"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "女人"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-637",
+              "cht": "豈是"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "真"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不許"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "你們吃"
             },
             {
               "id": "hebrew-1588",
-              "eng": "of the garden"
+              "cht": "園中"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3605",
+              "cht": "所有"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6086",
+              "cht": "樹上"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的果子嗎",
+              "punct_cht": "？」"
             }
           ]
         },
@@ -692,40 +681,41 @@
             "hebrew-6175": 4.758842454566098
           },
           "verseKey": "pro.14.8",
-          "cunp": "通達人的智慧在乎明白己道； 愚昧人的愚妄乃是詭詐。",
+          "nasb": "The wisdom of the sensible is to understand his way, But the foolishness of fools is deceit.",
           "words": [
             {
-              "id": "hebrew-2451",
-              "eng": "The wisdom"
+              "id": "hebrew-6175",
+              "cht": "通達人"
             },
             {
-              "id": "hebrew-6175",
-              "eng": "of the prudent"
+              "id": "hebrew-2451",
+              "cht": "的智慧"
             },
             {
               "id": "hebrew-995",
-              "eng": "[is] to understand"
+              "cht": "在乎明白"
             },
             {
               "id": "hebrew-1870",
-              "eng": "his way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-200",
-              "eng": "but the folly"
+              "cht": "己道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-200",
+              "cht": "的愚妄"
             },
             {
               "id": "hebrew-4820",
-              "eng": "[is] deceit",
-              "punct": "."
+              "cht": "乃是詭詐"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "（或譯自歎）",
+              "punct_cht": "：。"
             }
           ]
         }

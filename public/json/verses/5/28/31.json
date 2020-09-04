@@ -3,21 +3,40 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7794": "Your ox",
-          "hebrew-2873": "[shall be] slaughtered",
-          "hebrew-5869": "before your eyes",
-          "hebrew-3808": "and not",
-          "hebrew-398": "you shall eat",
-          "hebrew-4480": null,
-          "hebrew-2543": "your donkey",
-          "hebrew-1497": "[shall be] violently taken away",
-          "hebrew-6440": "from before you",
-          "hebrew-7725": "shall be restored",
-          "hebrew-6629": "your sheep",
-          "hebrew-5414": "[shall be] given",
-          "hebrew-341": "to your enemies",
-          "hebrew-369": "and shall have no one",
-          "hebrew-3467": "to rescue [them]"
+          "eng": {
+            "hebrew-7794": "Your ox",
+            "hebrew-2873": "[shall be] slaughtered",
+            "hebrew-5869": "before your eyes",
+            "hebrew-3808": "and not",
+            "hebrew-398": "you shall eat",
+            "hebrew-4480": null,
+            "hebrew-2543": "your donkey",
+            "hebrew-1497": "[shall be] violently taken away",
+            "hebrew-6440": "from before you",
+            "hebrew-7725": "shall be restored",
+            "hebrew-6629": "your sheep",
+            "hebrew-5414": "[shall be] given",
+            "hebrew-341": "to your enemies",
+            "hebrew-369": "and shall have no one",
+            "hebrew-3467": "to rescue [them]"
+          },
+          "cht": {
+            "hebrew-7794": "你的牛",
+            "hebrew-2873": "宰了",
+            "hebrew-5869": "在你眼前",
+            "hebrew-3808": "不得",
+            "hebrew-398": "吃",
+            "hebrew-4480": "在你眼前",
+            "hebrew-2543": "你的驢",
+            "hebrew-1497": "被搶奪",
+            "hebrew-6440": "在你眼前",
+            "hebrew-7725": "歸還",
+            "hebrew-6629": "你的羊",
+            "hebrew-5414": "歸了",
+            "hebrew-341": "仇敵",
+            "hebrew-369": "無人",
+            "hebrew-3467": "搭救"
+          }
         }
       },
       "translations": {
@@ -40,88 +59,75 @@
             "hebrew-398": 0.6957342510495794
           },
           "verseKey": "exo.21.28",
-          "cunp": "「牛若觸死男人或是女人，總要用石頭打死那牛，卻不可吃牠的肉；牛的主人可算無罪。",
+          "nasb": "“If an ox gores a man or a woman to death, the ox shall surely be stoned and its flesh shall not be eaten; but the owner of the ox shall go unpunished.",
           "words": [
             {
+              "id": "hebrew-7794",
+              "cht": "牛"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "And if"
+              "cht": "若"
             },
             {
               "id": "hebrew-5055",
-              "eng": "gores"
-            },
-            {
-              "id": "hebrew-7794",
-              "eng": "an ox"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman",
-              "punct": "､"
+              "cht": "觸"
             },
             {
               "id": "hebrew-4191",
-              "eng": "and to death",
-              "punct": "､"
+              "cht": "死"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "男人"
+            },
+            {
+              "id": "hebrew-176",
+              "cht": "或是"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "女人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5619",
-              "eng": "surely"
+              "cht": "總要"
             },
             {
               "id": "hebrew-5619",
-              "eng": "then shall be stoned"
+              "cht": "用石頭打死"
             },
             {
               "id": "hebrew-7794",
-              "eng": "the ox",
-              "punct": "､"
+              "cht": "那牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "shall be eaten"
+              "cht": "卻不可"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "吃"
             },
             {
               "id": "hebrew-1320",
-              "eng": "its flesh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "but the owner"
+              "cht": "牠的肉",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7794",
-              "eng": "of the ox"
+              "cht": "牛"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "的主人"
             },
             {
               "id": "hebrew-5355",
-              "eng": "[shall be] acquitted",
-              "punct": "."
+              "cht": "可算無罪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -132,119 +138,109 @@
             "hebrew-7725": 0.6390520471202523
           },
           "verseKey": "lev.6.4",
-          "cunp": "他既犯了罪，有了過犯，就要歸還他所搶奪的，或是因欺壓所得的，或是人交付他的，或是人遺失他所撿的物，",
+          "nasb": "then it shall be, when he sins and becomes guilty, that he shall restore what he took by robbery or what he got by extortion, or the deposit which was entrusted to him or the lost thing which he found,",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "then it shall be",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "他既"
             },
             {
               "id": "hebrew-2398",
-              "eng": "he has sinned"
+              "cht": "犯了罪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有了"
             },
             {
               "id": "hebrew-816",
-              "eng": "and is guilty",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "that he shall restore"
+              "cht": "過犯",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1497",
-              "eng": "took"
+              "cht": "就要歸還"
             },
             {
               "id": "hebrew-834",
-              "eng": "what"
+              "cht": "他所"
             },
             {
               "id": "hebrew-1497",
-              "eng": "he has stolen",
-              "punct": "､"
+              "cht": "搶奪"
+            },
+            {
+              "id": "hebrew-1500",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6233",
-              "eng": "the thing"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "cht": "是"
             },
             {
               "id": "hebrew-6231",
-              "eng": "he has extorted",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6487",
-              "eng": "-"
+              "cht": "因欺壓"
             },
             {
               "id": "hebrew-834",
-              "eng": "what"
+              "cht": "所"
             },
             {
-              "id": "hebrew-6487",
-              "eng": "for safekeeping"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "was delivered to him",
-              "punct": "､"
+              "id": "hebrew-6233",
+              "cht": "得的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-9",
-              "eng": "the lost thing"
+              "cht": "是"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-6485",
+              "cht": "交付"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-6487",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-176",
+              "cht": "或"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "人遺失他所"
             },
             {
               "id": "hebrew-4672",
-              "eng": "he found",
-              "punct": "–"
+              "cht": "撿"
             },
             {
-              "id": "hebrew-1500"
-            },
-            {
-              "id": "hebrew-6485"
+              "id": "hebrew-9",
+              "cht": "的物",
+              "punct_cht": "，"
             }
           ]
         },
@@ -254,89 +250,76 @@
             "hebrew-7794": 2.1248744020317227
           },
           "verseKey": "exo.21.35",
-          "cunp": "「這人的牛若傷了那人的牛，以至於死，他們要賣了活牛，平分價值，也要平分死牛。",
+          "nasb": "“If one man’s ox hurts another’s so that it dies, then they shall sell the live ox and divide its price equally; and also they shall divide the dead ox.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "And if"
-            },
-            {
-              "id": "hebrew-5062",
-              "eng": "hurts"
+              "id": "hebrew-376",
+              "cht": "這人"
             },
             {
               "id": "hebrew-7794",
-              "eng": "ox"
+              "cht": "的牛"
             },
             {
-              "id": "hebrew-376",
-              "eng": "of one man"
+              "id": "hebrew-3588",
+              "cht": "若"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "傷了"
             },
             {
               "id": "hebrew-7794",
-              "eng": "-"
+              "cht": "那人的"
             },
             {
               "id": "hebrew-7453",
-              "eng": "of another"
+              "cht": "牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "so that it dies",
-              "punct": "–"
+              "cht": "以至於死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4376",
-              "eng": "then they shall sell"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7794",
-              "eng": "the ox"
+              "cht": "他們要賣了"
             },
             {
               "id": "hebrew-2416",
-              "eng": "live"
+              "cht": "活"
+            },
+            {
+              "id": "hebrew-7794",
+              "cht": "牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2673",
-              "eng": "and divide"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "平分"
             },
             {
               "id": "hebrew-3701",
-              "eng": "the money from it",
-              "punct": "､"
+              "cht": "價值",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "and also"
+              "cht": "也要"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "平分"
             },
             {
               "id": "hebrew-4191",
-              "eng": "the dead [ox]"
+              "cht": "死"
             },
             {
-              "id": "hebrew-2673",
-              "eng": "they shall divide",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "牛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -346,84 +329,74 @@
             "hebrew-7794": 2.1248744020317227
           },
           "verseKey": "exo.21.36",
-          "cunp": "人若知道這牛素來是觸人的，主人竟不把牛拴着，他必要以牛還牛，死牛要歸自己。」",
+          "nasb": "Or if it is known that the ox was previously in the habit of goring, yet its owner has not confined it, he shall surely pay ox for ox, and the dead animal shall become his.",
           "words": [
             {
               "id": "hebrew-176",
-              "eng": "Or"
+              "cht": "人若"
             },
             {
               "id": "hebrew-3045",
-              "eng": "if it was known"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "cht": "知道"
             },
             {
               "id": "hebrew-7794",
-              "eng": "the ox"
+              "cht": "這牛"
             },
             {
-              "id": "hebrew-5056",
-              "eng": "tended to thrust"
+              "id": "hebrew-4480",
+              "cht": "素來"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "是"
             },
             {
-              "id": "hebrew-8543",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-8032",
-              "eng": "time past"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-8104",
-              "eng": "has kept it confined"
+              "id": "hebrew-5056",
+              "cht": "觸人的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1167",
-              "eng": "its owner",
-              "punct": "､"
+              "cht": "主人"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "竟不"
+            },
+            {
+              "id": "hebrew-8104",
+              "cht": "把牛拴著",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7999",
-              "eng": "surely"
+              "cht": "他必要"
             },
             {
               "id": "hebrew-7999",
-              "eng": "he shall pay"
+              "cht": "以"
             },
             {
               "id": "hebrew-7794",
-              "eng": "ox"
+              "cht": "牛"
             },
             {
               "id": "hebrew-8478",
-              "eng": "for"
+              "cht": "還"
             },
             {
               "id": "hebrew-7794",
-              "eng": "ox",
-              "punct": "–"
+              "cht": "牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "and the dead animal"
+              "cht": "死"
             },
             {
               "id": "hebrew-1961",
-              "eng": "shall be"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "牛要"
             }
           ]
         },
@@ -434,81 +407,87 @@
             "hebrew-6629": 1.2649175171645017
           },
           "verseKey": "jer.25.34",
-          "cunp": "牧人哪，你們當哀號，呼喊； 羣眾的頭目啊，你們要滾在灰中； 因為你們被殺戮分散的日子足足來到。 你們要跌碎，好像美器打碎一樣。",
+          "nasb": "Wail, you shepherds, and cry; And wallow in ashes, you masters of the flock; For the days of your slaughter and your dispersions have come, And you will fall like a choice vessel.",
           "words": [
             {
-              "id": "hebrew-3213",
-              "eng": "Wail",
-              "punct": "､"
+              "id": "hebrew-7462",
+              "cht": "牧人"
             },
             {
-              "id": "hebrew-7462",
-              "eng": "shepherds",
-              "punct": "､"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3213",
+              "cht": "你們當哀號",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2199",
-              "eng": "and cry",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6428",
-              "eng": "and Roll about [in the ashes]"
-            },
-            {
-              "id": "hebrew-117",
-              "eng": "You shepherds"
+              "cht": "呼喊",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6629",
-              "eng": "of the flock",
-              "punct": "–"
+              "cht": "群眾"
+            },
+            {
+              "id": "hebrew-117",
+              "cht": "的頭目"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6428",
+              "cht": "你們要滾"
+            },
+            {
+              "id": "",
+              "cht": "在灰中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4390",
-              "eng": "are fulfilled",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the days"
+              "cht": "因為"
             },
             {
               "id": "hebrew-2873",
-              "eng": "of your slaughter"
+              "cht": "你們被殺戮"
             },
             {
               "id": "hebrew-8600",
-              "eng": "and your dispersions"
+              "cht": "分散"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "的日子"
+            },
+            {
+              "id": "hebrew-4390",
+              "cht": "足足來到",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5307",
-              "eng": "and You shall fall"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "like a vessel"
+              "cht": "你們要跌碎",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2532",
-              "eng": "precious",
-              "punct": "."
+              "cht": "好像美"
             },
             {
-              "id": ""
+              "id": "hebrew-3627",
+              "cht": "器"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "打碎一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -519,100 +498,93 @@
             "hebrew-398": 0.6957342510495794
           },
           "verseKey": "gen.43.16",
-          "cunp": "約瑟見便雅憫和他們同來，就對家宰說：「將這些人領到屋裏。要宰殺牲畜，預備筵席，因為晌午這些人同我吃飯。」",
+          "nasb": "When Joseph saw Benjamin with them, he said to his house steward, “Bring the men into the house, and slay an animal and make ready; for the men are to dine with me at noon.”",
           "words": [
             {
-              "id": "hebrew-7200",
-              "eng": "And when saw"
-            },
-            {
               "id": "hebrew-3130",
-              "eng": "Joseph"
+              "cht": "約瑟"
             },
             {
-              "id": "hebrew-854",
-              "eng": "with them"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-7200",
+              "cht": "見"
             },
             {
               "id": "hebrew-1144",
-              "eng": "Benjamin",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "then he said"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "to the steward"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "of"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "his house",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "take"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "[these] men"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "to my home",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2873",
-              "eng": "and slaughter"
-            },
-            {
-              "id": "hebrew-2874",
-              "eng": "animal",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3559",
-              "eng": "and make ready",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "便雅憫"
             },
             {
               "id": "hebrew-854",
-              "eng": "with me"
+              "cht": "和他們"
             },
             {
-              "id": "hebrew-398",
-              "eng": "will dine"
+              "id": "",
+              "cht": "同來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "就對"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "宰"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "將"
             },
             {
               "id": "hebrew-582",
-              "eng": "[these] men"
+              "cht": "這些人"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "領"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "到屋裡",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2874",
+              "cht": "要宰殺牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "預備筵席",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-6672",
-              "eng": "at noon",
-              "punct": "."
+              "cht": "晌午"
             },
             {
-              "id": ""
+              "id": "hebrew-582",
+              "cht": "這些人"
+            },
+            {
+              "id": "hebrew-854",
+              "cht": "同我"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "吃飯",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -623,86 +595,84 @@
             "hebrew-6629": 1.2649175171645017
           },
           "verseKey": "exo.22.1",
-          "cunp": "「人若偷牛或羊，無論是宰了，是賣了，他就要以五牛賠一牛，四羊賠一羊。",
+          "nasb": "“If a man steals an ox or a sheep and slaughters it or sells it, he shall pay five oxen for the ox and four sheep for the sheep.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "If"
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "若"
             },
             {
               "id": "hebrew-1589",
-              "eng": "steals"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "偷"
             },
             {
               "id": "hebrew-7794",
-              "eng": "an ox"
+              "cht": "牛"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-7716",
-              "eng": "a sheep",
-              "punct": "､"
+              "cht": "羊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-176",
+              "cht": "無論"
             },
             {
               "id": "hebrew-2873",
-              "eng": "and slaughters it"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
+              "cht": "是宰了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4376",
-              "eng": "sells it",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2568",
-              "eng": "five"
-            },
-            {
-              "id": "hebrew-1241",
-              "eng": "oxen"
+              "cht": "是賣了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7999",
-              "eng": "he shall restore"
+              "cht": "他就要以"
+            },
+            {
+              "id": "hebrew-2568",
+              "cht": "五"
+            },
+            {
+              "id": "hebrew-1241",
+              "cht": "牛"
             },
             {
               "id": "hebrew-8478",
-              "eng": "for"
+              "cht": "賠"
             },
             {
               "id": "hebrew-7794",
-              "eng": "an ox",
-              "punct": "､"
+              "cht": "一牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-702",
-              "eng": "and four"
+              "cht": "四"
             },
             {
               "id": "hebrew-6629",
-              "eng": "sheep"
+              "cht": "羊"
             },
             {
               "id": "hebrew-8478",
-              "eng": "for"
+              "cht": "賠"
             },
             {
               "id": "hebrew-7716",
-              "eng": "a sheep",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-518"
+              "cht": "一羊",
+              "punct_cht": "。"
             }
           ]
         },
@@ -713,93 +683,64 @@
             "hebrew-5414": 0.44594048131464864
           },
           "verseKey": "1sa.25.11",
-          "cunp": "我豈可將飲食和為我剪羊毛人所宰的肉給我不知道從哪裏來的人呢？」",
+          "nasb": "Shall I then take my bread and my water and my meat that I have slaughtered for my shearers, and give it to men whose origin I do not know?”",
           "words": [
             {
               "id": "hebrew-3947",
-              "eng": "Then shall I take"
+              "cht": "我豈可將"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "飲"
             },
             {
               "id": "hebrew-3899",
-              "eng": "my bread",
-              "punct": "､"
+              "cht": "食"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "my water",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-2878",
-              "eng": "my meat"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-2873",
-              "eng": "I have killed"
+              "cht": "和"
             },
             {
               "id": "hebrew-1494",
-              "eng": "for my shearers",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "and give [it]"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "to men",
-              "punct": "､"
+              "cht": "為我剪羊毛人"
             },
             {
               "id": "hebrew-834",
-              "eng": "when"
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-2873",
+              "cht": "宰"
+            },
+            {
+              "id": "hebrew-2878",
+              "cht": "的肉"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "給"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "I do know"
-            },
-            {
-              "id": "hebrew-335",
-              "eng": "from where"
+              "cht": "知道"
             },
             {
               "id": "hebrew-2088",
-              "eng": "he"
+              "cht": "從哪裡"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "they [are]",
-              "punct": "."
+              "id": "hebrew-582",
+              "cht": "來的人"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-582"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
             }
           ]
         },
@@ -811,62 +752,58 @@
             "hebrew-6629": 1.2649175171645017
           },
           "verseKey": "gen.32.5",
-          "cunp": "我有牛、驢、羊羣、僕婢，現在打發人來報告我主，為要在你眼前蒙恩。』」",
+          "nasb": "I have oxen and donkeys and flocks and male and female servants; and I have sent to tell my lord, that I may find favor in your sight.” ’ ”",
           "words": [
             {
               "id": "hebrew-1961",
-              "eng": "And have"
+              "cht": "有"
             },
             {
               "id": "hebrew-7794",
-              "eng": "oxen",
-              "punct": "､"
+              "cht": "牛、"
             },
             {
               "id": "hebrew-2543",
-              "eng": "and donkeys",
-              "punct": "､"
+              "cht": "驢、"
             },
             {
               "id": "hebrew-6629",
-              "eng": "flocks",
-              "punct": "､"
+              "cht": "羊群、"
             },
             {
               "id": "hebrew-5650",
-              "eng": "and menservants",
-              "punct": "､"
+              "cht": "僕"
             },
             {
               "id": "hebrew-8198",
-              "eng": "and maidservants",
-              "punct": "–"
+              "cht": "婢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7971",
-              "eng": "and I have sent"
+              "cht": "現在打發"
             },
             {
               "id": "hebrew-5046",
-              "eng": "to tell"
+              "cht": "人來報告"
             },
             {
               "id": "hebrew-113",
-              "eng": "my lord",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "that I may find"
-            },
-            {
-              "id": "hebrew-2580",
-              "eng": "favor"
+              "cht": "我主",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in your sight",
-              "punct": "."
+              "cht": "為要在你眼前"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "蒙"
+            },
+            {
+              "id": "hebrew-2580",
+              "cht": "恩",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -879,99 +816,100 @@
             "hebrew-369": 0.7414250898918989
           },
           "verseKey": "exo.22.10",
-          "cunp": "「人若將驢，或牛，或羊，或別的牲畜，交付鄰舍看守，牲畜或死，或受傷，或被趕去，無人看見，",
+          "nasb": "“If a man gives his neighbor a donkey, an ox, a sheep, or any animal to keep for him, and it dies or is hurt or is driven away while no one is looking,",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "If"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "delivers"
-            },
-            {
               "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "人"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "his neighbor"
+              "id": "hebrew-3588",
+              "cht": "若"
             },
             {
               "id": "hebrew-2543",
-              "eng": "a donkey",
-              "punct": "､"
+              "cht": "將驢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-7794",
-              "eng": "an ox",
-              "punct": "､"
+              "cht": "牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-7716",
-              "eng": "a sheep",
-              "punct": "､"
+              "cht": "羊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-176",
+              "cht": "或"
             },
             {
               "id": "hebrew-3605",
-              "eng": "or any"
+              "cht": "別的"
             },
             {
               "id": "hebrew-929",
-              "eng": "animal",
-              "punct": "､"
+              "cht": "牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "交"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "付"
+            },
+            {
+              "id": "hebrew-7453",
+              "cht": "鄰舍"
             },
             {
               "id": "hebrew-8104",
-              "eng": "to keep",
-              "punct": "–"
+              "cht": "看守",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "and it dies",
-              "punct": "､"
+              "cht": "牲畜或死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-7665",
-              "eng": "is hurt",
-              "punct": "､"
+              "cht": "受傷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-7617",
-              "eng": "driven away",
-              "punct": "､"
+              "cht": "被趕去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "no one"
+              "cht": "無人"
             },
             {
               "id": "hebrew-7200",
-              "eng": "seeing [it]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-176"
+              "cht": "看見",
+              "punct_cht": "，"
             }
           ]
         }

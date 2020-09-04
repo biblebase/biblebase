@@ -3,11 +3,20 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1366": "border",
-          "hebrew-3220": "western",
-          "hebrew-1961": "shall be",
-          "hebrew-1419": "Great",
-          "hebrew-2088": "this"
+          "eng": {
+            "hebrew-1366": "border",
+            "hebrew-3220": "western",
+            "hebrew-1961": "shall be",
+            "hebrew-1419": "Great",
+            "hebrew-2088": "this"
+          },
+          "cht": {
+            "hebrew-1366": "界",
+            "hebrew-3220": "西",
+            "hebrew-1961": "就是",
+            "hebrew-1419": "要以大",
+            "hebrew-2088": "這"
+          }
         }
       },
       "translations": {
@@ -23,62 +32,58 @@
             "hebrew-1419": 0.7054729883913766
           },
           "verseKey": "jon.1.4",
-          "cunp": "然而耶和華使海中起大風，海就狂風大作，甚至船幾乎破壞。",
+          "nasb": "The Lord hurled a great wind on the sea and there was a great storm on the sea so that the ship was about to break up.",
           "words": [
             {
               "id": "hebrew-3068",
-              "eng": "But Yahweh"
-            },
-            {
-              "id": "hebrew-2904",
-              "eng": "sent out"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "a wind"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
+              "cht": "然而耶和華"
             },
             {
               "id": "hebrew-413",
-              "eng": "on"
+              "cht": "使"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the sea",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and there was"
-            },
-            {
-              "id": "hebrew-5591",
-              "eng": "a tempest"
+              "cht": "海中"
             },
             {
               "id": "hebrew-1419",
-              "eng": "mighty"
+              "cht": "起大"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "風",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3220",
-              "eng": "on the sea",
-              "punct": "､"
+              "cht": "海"
+            },
+            {
+              "id": "hebrew-5591",
+              "cht": "就狂風"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "作",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-591",
-              "eng": "so that the ship"
+              "cht": "甚至船"
             },
             {
               "id": "hebrew-2803",
-              "eng": "was about"
+              "cht": "幾乎"
             },
             {
               "id": "hebrew-7665",
-              "eng": "to be broken up",
-              "punct": "."
+              "cht": "破壞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -89,64 +94,62 @@
             "hebrew-1419": 0.7054729883913766
           },
           "verseKey": "ezk.47.20",
-          "cunp": "「西界就是大海，從南界直到哈馬口對面之地。這是西界。",
+          "nasb": "“The west side shall be the Great Sea, from the south border to a point opposite Lebo-hamath. This is the west side.",
           "words": [
             {
+              "id": "hebrew-3220",
+              "cht": "西"
+            },
+            {
               "id": "hebrew-6285",
-              "eng": "And the side [shall] [be]"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "west"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "the Sea"
+              "cht": "界"
             },
             {
               "id": "hebrew-1419",
-              "eng": "Great"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "from the [southern] boundary",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "until"
-            },
-            {
-              "id": "hebrew-5227",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "to a point opposite one comes"
-            },
-            {
-              "id": "hebrew-2574",
-              "eng": "Hamath",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "This [is]"
-            },
-            {
-              "id": "hebrew-6285",
-              "eng": "the side"
+              "cht": "就是大"
             },
             {
               "id": "hebrew-3220",
-              "eng": "west",
-              "punct": "."
+              "cht": "海",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1366",
+              "cht": "從南界"
             },
             {
-              "id": ""
+              "id": "hebrew-5704",
+              "cht": "直到"
+            },
+            {
+              "id": "hebrew-2574",
+              "cht": "哈馬"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "口"
+            },
+            {
+              "id": "hebrew-5227",
+              "cht": "對面"
+            },
+            {
+              "id": "",
+              "cht": "之地",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2063",
+              "cht": "這是"
+            },
+            {
+              "id": "hebrew-3220",
+              "cht": "西"
+            },
+            {
+              "id": "hebrew-6285",
+              "cht": "界",
+              "punct_cht": "。"
             }
           ]
         },
@@ -156,90 +159,74 @@
             "hebrew-3220": 0.9220138243177167
           },
           "verseKey": "jos.12.3",
-          "cunp": "與約旦河東邊的亞拉巴，直到基尼烈海，又到亞拉巴的海，就是鹽海，通伯‧耶西末的路，以及南方，直到毗斯迦的山根。",
+          "nasb": "and the Arabah as far as the Sea of Chinneroth toward the east, and as far as the sea of the Arabah, even the Salt Sea, eastward toward Beth-jeshimoth, and on the south, at the foot of the slopes of Pisgah;",
           "words": [
             {
+              "id": "hebrew-4217",
+              "cht": "與約旦河東邊"
+            },
+            {
               "id": "hebrew-6160",
-              "eng": "and the [Jordan] plain"
+              "cht": "的亞拉巴",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "the Sea"
+              "cht": "直到"
             },
             {
               "id": "hebrew-3672",
-              "eng": "of Chinnereth"
-            },
-            {
-              "id": "hebrew-4217",
-              "eng": "eastern",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "and as far as"
+              "cht": "基尼烈"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the Sea"
+              "cht": "海",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6160",
-              "eng": "of the Arabah",
-              "punct": "､"
+              "cht": "又到亞拉巴"
             },
             {
               "id": "hebrew-3220",
-              "eng": "Sea"
+              "cht": "的海",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4417",
-              "eng": "the Salt"
+              "cht": "就是鹽"
             },
             {
-              "id": "hebrew-4217",
-              "eng": "on the east",
-              "punct": "､"
+              "id": "hebrew-3220",
+              "cht": "海",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1870",
-              "eng": "the road"
+              "id": "",
+              "cht": "通伯‧"
             },
             {
               "id": "hebrew-1020",
-              "eng": "Beth Jeshimoth",
-              "punct": "–"
+              "cht": "耶西末"
             },
             {
-              "id": "hebrew-8486",
-              "eng": "and southward",
-              "punct": "､"
+              "id": "hebrew-1870",
+              "cht": "的路",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "以及南方",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-798",
+              "cht": "直到毘斯迦"
             },
             {
               "id": "hebrew-8478",
-              "eng": "below"
-            },
-            {
-              "id": "hebrew-794",
-              "eng": "the slopes"
-            },
-            {
-              "id": "hebrew-6449",
-              "eng": "of Pisgah",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-798"
+              "cht": "的山根",
+              "punct_cht": "。"
             }
           ]
         }

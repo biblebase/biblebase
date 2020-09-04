@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2734": "and will become hot",
-          "hebrew-639": "My wrath",
-          "hebrew-2026": "and I will kill",
-          "hebrew-853": "you",
-          "hebrew-2719": "with the sword",
-          "hebrew-1961": "and shall be",
-          "hebrew-802": "your wives",
-          "hebrew-490": "widows",
-          "hebrew-1121": "and your children",
-          "hebrew-3490": "fatherless"
+          "eng": {
+            "hebrew-2734": "and will become hot",
+            "hebrew-639": "My wrath",
+            "hebrew-2026": "and I will kill",
+            "hebrew-853": "you",
+            "hebrew-2719": "with the sword",
+            "hebrew-1961": "and shall be",
+            "hebrew-802": "your wives",
+            "hebrew-490": "widows",
+            "hebrew-1121": "and your children",
+            "hebrew-3490": "fatherless"
+          },
+          "cht": {
+            "hebrew-2734": "並要發",
+            "hebrew-639": "烈怒",
+            "hebrew-2026": "殺",
+            "hebrew-853": "你們",
+            "hebrew-2719": "用刀",
+            "hebrew-1961": "為",
+            "hebrew-802": "使你們的妻子",
+            "hebrew-490": "寡婦",
+            "hebrew-1121": "兒女",
+            "hebrew-3490": "為孤兒"
+          }
         }
       },
       "translations": {
@@ -32,29 +46,29 @@
             "hebrew-3490": 2.6924581556670724
           },
           "verseKey": "psa.94.6",
-          "cunp": "他們殺死寡婦和寄居的， 又殺害孤兒。",
+          "nasb": "They slay the widow and the stranger And murder the orphans.",
           "words": [
             {
+              "id": "hebrew-2026",
+              "cht": "他們殺死"
+            },
+            {
               "id": "hebrew-490",
-              "eng": "The widow"
+              "cht": "寡婦"
             },
             {
               "id": "hebrew-1616",
-              "eng": "and the stranger",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2026",
-              "eng": "they slay"
-            },
-            {
-              "id": "hebrew-3490",
-              "eng": "and the fatherless"
+              "cht": "和寄居的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7523",
-              "eng": "murder",
-              "punct": "."
+              "cht": "又殺害"
+            },
+            {
+              "id": "hebrew-3490",
+              "cht": "孤兒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -67,100 +81,89 @@
             "hebrew-490": 2.018244426368927
           },
           "verseKey": "jer.18.21",
-          "cunp": "故此，願你將他們的兒女交與饑荒和刀劍； 願他們的妻無子，且作寡婦； 又願他們的男人被死亡所滅， 他們的少年人在陣上被刀擊殺。",
+          "nasb": "Therefore, give their children over to famine And deliver them up to the power of the sword; And let their wives become childless and widowed. Let their men also be smitten to death, Their young men struck down by the sword in battle.",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "Therefore"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "deliver up"
+              "cht": "故此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "願你將"
             },
             {
               "id": "hebrew-1121",
-              "eng": "their children"
+              "cht": "他們的兒女"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "交"
             },
             {
               "id": "hebrew-7458",
-              "eng": "to the famine",
-              "punct": "､"
+              "cht": "與饑荒"
             },
             {
               "id": "hebrew-5064",
-              "eng": "and pour out their [blood]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "by"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "the force"
+              "cht": "和"
             },
             {
               "id": "hebrew-2719",
-              "eng": "of the sword",
-              "punct": "–"
+              "cht": "刀劍",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and let [become]"
+              "cht": "願"
             },
             {
               "id": "hebrew-802",
-              "eng": "their wives"
+              "cht": "他們的妻"
             },
             {
               "id": "hebrew-7909",
-              "eng": "bereaved of their children",
-              "punct": "､"
+              "cht": "無子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-490",
-              "eng": "and widows",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "and their men"
+              "cht": "且作寡婦",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1961",
-              "eng": "let be"
+              "cht": "又願"
             },
             {
-              "id": "hebrew-2026",
-              "eng": "put to"
+              "id": "hebrew-582",
+              "cht": "他們的男人"
             },
             {
               "id": "hebrew-4194",
-              "eng": "death",
-              "punct": "–"
+              "cht": "被死亡"
+            },
+            {
+              "id": "hebrew-2026",
+              "cht": "所滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-970",
-              "eng": "their young men"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "[be] slain by"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "the sword"
+              "cht": "他們的少年人"
             },
             {
               "id": "hebrew-4421",
-              "eng": "in battle",
-              "punct": "."
+              "cht": "在陣上"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-2719",
+              "cht": "被刀"
+            },
+            {
+              "id": "hebrew-5221",
+              "cht": "擊殺",
+              "punct_cht": "。"
             }
           ]
         },
@@ -172,83 +175,70 @@
             "hebrew-1121": 0.3213801148138742
           },
           "verseKey": "job.32.2",
-          "cunp": "那時有布西人蘭族巴拉迦的兒子以利戶向約伯發怒；因約伯自以為義，不以神為義。",
+          "nasb": "But the anger of Elihu the son of Barachel the Buzite, of the family of Ram burned; against Job his anger burned because he justified himself before God.",
           "words": [
             {
-              "id": "hebrew-2734",
-              "eng": "And was aroused"
-            },
-            {
-              "id": "hebrew-639",
-              "eng": "the wrath"
-            },
-            {
-              "id": "hebrew-453",
-              "eng": "of Elihu"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-1292",
-              "eng": "of Barachel"
-            },
-            {
               "id": "hebrew-940",
-              "eng": "the Buzite",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4940",
-              "eng": "of the family"
+              "cht": "那時有布西人"
             },
             {
               "id": "hebrew-7410",
-              "eng": "of Ram",
-              "punct": "–"
+              "cht": "蘭"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "族"
+            },
+            {
+              "id": "hebrew-1292",
+              "cht": "巴拉迦"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-453",
+              "cht": "以利戶"
             },
             {
               "id": "hebrew-347",
-              "eng": "against Job"
+              "cht": "向約伯"
             },
             {
               "id": "hebrew-2734",
-              "eng": "was aroused",
-              "punct": "､"
+              "cht": "發"
             },
             {
               "id": "hebrew-639",
-              "eng": "his wrath"
+              "cht": "怒",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5921",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-6663",
-              "eng": "he justified"
+              "cht": "因"
             },
             {
               "id": "hebrew-5315",
-              "eng": "himself"
+              "cht": "約伯自"
+            },
+            {
+              "id": "hebrew-6663",
+              "cht": "以為義"
+            },
+            {
+              "id": "",
+              "cht": "不以",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "rather than God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "為義",
+              "punct_cht": "。"
             }
           ]
         },
@@ -260,85 +250,62 @@
             "hebrew-490": 2.018244426368927
           },
           "verseKey": "ezk.44.22",
-          "cunp": "不可娶寡婦和被休的婦人為妻，只可娶以色列後裔中的處女，或是祭司遺留的寡婦。",
+          "nasb": "And they shall not marry a widow or a divorced woman but shall take virgins from the offspring of the house of Israel, or a widow who is the widow of a priest.",
           "words": [
             {
+              "id": "hebrew-3808",
+              "cht": "不可"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "娶"
+            },
+            {
               "id": "hebrew-490",
-              "eng": "And a widow",
-              "punct": "､"
+              "cht": "寡婦"
             },
             {
               "id": "hebrew-1644",
-              "eng": "or a divorced woman",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "they shall take"
+              "cht": "和被休"
             },
             {
               "id": "hebrew-802",
-              "eng": "as wife"
+              "cht": "的婦人為妻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-1330",
-              "eng": "virgins"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "of the descendants"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "or the widow"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "is"
-            },
-            {
-              "id": "hebrew-490",
-              "eng": "a widow"
-            },
-            {
-              "id": "hebrew-3548",
-              "eng": "of a priest"
+              "cht": "只可"
             },
             {
               "id": "hebrew-3947",
-              "eng": "take",
-              "punct": "."
+              "cht": "娶"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1004",
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "後裔"
+            },
+            {
+              "id": "hebrew-1330",
+              "cht": "中的處女",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "或是"
+            },
+            {
+              "id": "hebrew-3548",
+              "cht": "祭司"
+            },
+            {
+              "id": "hebrew-490",
+              "cht": "遺留的寡婦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -350,103 +317,97 @@
             "hebrew-1121": 0.3213801148138742
           },
           "verseKey": "jos.7.1",
-          "cunp": "以色列人在當滅的物上犯了罪；因為猶大支派中，謝拉的曾孫，撒底的孫子，迦米的兒子亞干取了當滅的物；耶和華的怒氣就向以色列人發作。",
+          "nasb": "But the sons of Israel acted unfaithfully in regard to the things under the ban, for Achan, the son of Carmi, the son of Zabdi, the son of Zerah, from the tribe of Judah, took some of the things under the ban, therefore the anger of the Lord burned against the sons of Israel.",
           "words": [
             {
-              "id": "hebrew-4603",
-              "eng": "But committed"
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "人"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
+              "id": "hebrew-2764",
+              "cht": "在當滅的物上"
+            },
+            {
+              "id": "hebrew-4603",
+              "cht": "犯了"
             },
             {
               "id": "hebrew-4604",
-              "eng": "a trespass"
-            },
-            {
-              "id": "hebrew-2764",
-              "eng": "regarding the accursed things",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "for took"
-            },
-            {
-              "id": "hebrew-5912",
-              "eng": "Achan",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-3756",
-              "eng": "of Carmi",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-2067",
-              "eng": "of Zabdi",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-2226",
-              "eng": "of Zerah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4294",
-              "eng": "of the tribe"
+              "cht": "罪",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
+              "cht": "因為猶大"
             },
             {
-              "id": "hebrew-4480",
-              "eng": "of"
+              "id": "hebrew-4294",
+              "cht": "支派中",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2764",
-              "eng": "the accursed things",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2734",
-              "eng": "so burned"
-            },
-            {
-              "id": "hebrew-639",
-              "eng": "the anger"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-2226",
+              "cht": "謝拉"
             },
             {
               "id": "hebrew-1121",
-              "eng": "against the sons"
+              "cht": "的曾孫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2067",
+              "cht": "撒底"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的孫子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3756",
+              "cht": "迦米"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-5912",
+              "cht": "亞干"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "取了"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "當滅的物",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-639",
+              "cht": "的怒氣"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-2734",
+              "cht": "發作",
+              "punct_cht": "。"
             }
           ]
         },
@@ -458,29 +419,29 @@
             "hebrew-3490": 2.6924581556670724
           },
           "verseKey": "psa.109.9",
-          "cunp": "願他的兒女為孤兒， 他的妻子為寡婦！",
+          "nasb": "Let his children be fatherless And his wife a widow.",
           "words": [
             {
               "id": "hebrew-1961",
-              "eng": "Let be"
+              "cht": "願"
             },
             {
               "id": "hebrew-1121",
-              "eng": "his children"
+              "cht": "他的兒女"
             },
             {
               "id": "hebrew-3490",
-              "eng": "fatherless",
-              "punct": "､"
+              "cht": "為孤兒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-802",
-              "eng": "and his wife"
+              "cht": "他的妻子"
             },
             {
               "id": "hebrew-490",
-              "eng": "a widow",
-              "punct": "."
+              "cht": "為寡婦",
+              "punct_cht": "！"
             }
           ]
         },
@@ -492,55 +453,51 @@
             "hebrew-3490": 2.6924581556670724
           },
           "verseKey": "deu.24.21",
-          "cunp": "你摘葡萄園的葡萄，所剩下的，不可再摘；要留給寄居的與孤兒寡婦。",
+          "nasb": "“When you gather the grapes of your vineyard, you shall not go over it again; it shall be for the alien, for the orphan, and for the widow.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "When"
-            },
-            {
               "id": "hebrew-1219",
-              "eng": "you gather the grapes"
+              "cht": "你摘"
             },
             {
               "id": "hebrew-3754",
-              "eng": "of your vineyard",
-              "punct": "､"
+              "cht": "葡萄園"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5953",
-              "eng": "you shall glean [it]"
+              "id": "",
+              "cht": "的葡萄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-310",
-              "eng": "afterward",
-              "punct": "–"
+              "cht": "所剩下的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1616",
-              "eng": "for the stranger",
-              "punct": "､"
+              "id": "hebrew-3808",
+              "cht": "不可"
             },
             {
-              "id": "hebrew-3490",
-              "eng": "the fatherless",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-490",
-              "eng": "and the widow"
+              "id": "hebrew-5953",
+              "cht": "再摘",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1961",
-              "eng": "it shall be",
-              "punct": "."
+              "cht": "要留"
             },
             {
-              "id": ""
+              "id": "hebrew-1616",
+              "cht": "給寄居的"
+            },
+            {
+              "id": "hebrew-3490",
+              "cht": "與孤兒"
+            },
+            {
+              "id": "hebrew-490",
+              "cht": "寡婦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -552,67 +509,63 @@
             "hebrew-3490": 2.6924581556670724
           },
           "verseKey": "isa.10.2",
-          "cunp": "為要屈枉窮乏人， 奪去我民中困苦人的理， 以寡婦當作擄物， 以孤兒當作掠物。",
+          "nasb": "So as to deprive the needy of justice And rob the poor of My people of their rights, So that widows may be their spoil And that they may plunder the orphans.",
           "words": [
             {
               "id": "hebrew-5186",
-              "eng": "to rob"
+              "cht": "為要屈"
             },
             {
               "id": "hebrew-1779",
-              "eng": "of justice",
-              "punct": "､"
+              "cht": "枉"
             },
             {
               "id": "hebrew-1800",
-              "eng": "the poor"
+              "cht": "窮乏人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1497",
-              "eng": "and to take"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "what is right from"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "the poor"
+              "cht": "奪去"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of My people",
-              "punct": "､"
+              "cht": "我民中"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "that may be"
+              "id": "hebrew-6041",
+              "cht": "困苦人"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "的理",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-490",
-              "eng": "widows"
+              "cht": "以寡婦"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "當作"
             },
             {
               "id": "hebrew-7998",
-              "eng": "their prey",
-              "punct": "､"
+              "cht": "擄物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and [that]"
+              "cht": "以"
             },
             {
               "id": "hebrew-3490",
-              "eng": "the fatherless",
-              "punct": "!"
+              "cht": "孤兒"
             },
             {
               "id": "hebrew-962",
-              "eng": "they may rob",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "當作掠物",
+              "punct_cht": "。"
             }
           ]
         },
@@ -624,100 +577,93 @@
             "hebrew-3490": 2.6924581556670724
           },
           "verseKey": "deu.24.19",
-          "cunp": "「你在田間收割莊稼，若忘下一捆，不可回去再取，要留給寄居的與孤兒寡婦。這樣，耶和華－你神必在你手裏所辦的一切事上賜福與你。",
+          "nasb": "“When you reap your harvest in your field and have forgotten a sheaf in the field, you shall not go back to get it; it shall be for the alien, for the orphan, and for the widow, in order that the Lord your God may bless you in all the work of your hands.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "When"
+              "id": "hebrew-7704",
+              "cht": "你在田間"
             },
             {
               "id": "hebrew-7114",
-              "eng": "you reap"
+              "cht": "收割"
             },
             {
               "id": "hebrew-7105",
-              "eng": "your harvest"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "in your field",
-              "punct": "､"
+              "cht": "莊稼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7911",
-              "eng": "and forget"
-            },
-            {
-              "id": "hebrew-6016",
-              "eng": "a sheaf"
+              "cht": "若忘下"
             },
             {
               "id": "hebrew-7704",
-              "eng": "in the field",
-              "punct": "､"
+              "cht": "一捆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-7725",
-              "eng": "you shall go back"
+              "cht": "回去"
             },
             {
               "id": "hebrew-3947",
-              "eng": "to get it"
-            },
-            {
-              "id": "hebrew-1616",
-              "eng": "for the stranger",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3490",
-              "eng": "the fatherless",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-490",
-              "eng": "and the widow",
-              "punct": "､"
+              "cht": "再取",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "it shall be"
+              "cht": "要留"
+            },
+            {
+              "id": "hebrew-1616",
+              "cht": "給寄居的"
+            },
+            {
+              "id": "hebrew-3490",
+              "cht": "與孤兒"
+            },
+            {
+              "id": "hebrew-490",
+              "cht": "寡婦",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4616",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "may bless you"
+              "cht": "這樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "in all"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "the work"
+              "cht": "神"
             },
             {
               "id": "hebrew-3027",
-              "eng": "of your hands",
-              "punct": "."
+              "cht": "必在你手裡"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "所辦的一切"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "事上"
+            },
+            {
+              "id": "hebrew-1288",
+              "cht": "賜福與你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -729,34 +675,29 @@
             "hebrew-3490": 2.6924581556670724
           },
           "verseKey": "lam.5.3",
-          "cunp": "我們是無父的孤兒； 我們的母親好像寡婦。",
+          "nasb": "We have become orphans without a father, Our mothers are like widows.",
           "words": [
             {
-              "id": "hebrew-3490",
-              "eng": "Orphans"
-            },
-            {
               "id": "hebrew-1961",
-              "eng": "we have become"
+              "cht": "我們是"
             },
             {
               "id": "hebrew-369",
-              "eng": "and",
-              "punct": "､"
+              "cht": "無父的"
             },
             {
-              "id": "hebrew-1",
-              "eng": "waifs",
-              "punct": "､"
+              "id": "hebrew-3490",
+              "cht": "孤兒",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-517",
-              "eng": "Our mothers [are]"
+              "cht": "我們的母親"
             },
             {
               "id": "hebrew-490",
-              "eng": "like widows",
-              "punct": "."
+              "cht": "好像寡婦",
+              "punct_cht": "。"
             }
           ]
         }

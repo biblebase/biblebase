@@ -3,20 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "-",
-          "greek-1161": "But",
-          "greek-2424": "Jesus",
-          "greek-3004": "said",
-          "greek-846": "to him",
-          "greek-190": "Follow",
-          "greek-3427": "Me",
-          "greek-2532": "and",
-          "greek-863": "leave",
-          "greek-3498": "dead",
-          "greek-2290": "to bury",
-          "greek-1438": "their own",
-          "greek-2036": null,
-          "": null
+          "eng": {
+            "greek-3588": "-",
+            "greek-1161": "But",
+            "greek-2424": "Jesus",
+            "greek-3004": "said",
+            "greek-846": "to him",
+            "greek-190": "Follow",
+            "greek-3427": "Me",
+            "greek-2532": "and",
+            "greek-863": "leave",
+            "greek-3498": "dead",
+            "greek-2290": "to bury",
+            "greek-1438": "their own",
+            "greek-2036": null,
+            "": null
+          },
+          "cht": {
+            "greek-2424": "耶穌",
+            "greek-846": "耶穌",
+            "greek-190": "你跟從",
+            "greek-3427": "我",
+            "greek-863": "任憑",
+            "greek-3498": "死人",
+            "greek-2290": "埋葬",
+            "greek-1438": "他們的",
+            "greek-2036": "說"
+          }
         }
       },
       "translations": {
@@ -35,90 +48,62 @@
             "greek-2036": 0.6033165378864083
           },
           "verseKey": "luk.9.60",
-          "cunp": "耶穌說：「任憑死人埋葬他們的死人，你只管去傳揚神國的道。」",
+          "nasb": "But He said to him, “Allow the dead to bury their own dead; but as for you, go and proclaim everywhere the kingdom of God.”",
           "words": [
             {
+              "id": "greek-2424",
+              "cht": "耶穌"
+            },
+            {
               "id": "greek-2036",
-              "eng": "He said"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-863",
-              "eng": "Leave"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "任憑"
             },
             {
               "id": "greek-3498",
-              "eng": "dead"
+              "cht": "死人"
             },
             {
               "id": "greek-2290",
-              "eng": "to bury"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "埋葬"
             },
             {
               "id": "greek-1438",
-              "eng": "their own"
+              "cht": "他們的"
             },
             {
               "id": "greek-3498",
-              "eng": "dead",
-              "punct": ";"
+              "cht": "死人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4771",
-              "eng": "you"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however",
-              "punct": ","
+              "cht": "你"
             },
             {
               "id": "greek-565",
-              "eng": "having gone forth",
-              "punct": ","
+              "cht": "只管去"
             },
             {
               "id": "greek-1229",
-              "eng": "declare"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "傳揚"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": "greek-2424"
+              "id": "greek-932",
+              "cht": "國"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的道",
+              "punct_cht": "。"
             }
           ]
         },
@@ -128,82 +113,70 @@
             "greek-2290": 1.6550610094271732
           },
           "verseKey": "gen.49.31",
-          "cunp": "他們在那裏葬了亞伯拉罕和他妻子撒拉，又在那裏葬了以撒和他的妻子利百加；我也在那裏葬了利亞。",
+          "nasb": "There they buried Abraham and his wife Sarah, there they buried Isaac and his wife Rebekah, and there I buried Leah—",
           "words": [
             {
               "id": "hebrew-8033",
-              "eng": "There"
+              "cht": "他們在那裡"
             },
             {
               "id": "hebrew-6912",
-              "eng": "they buried"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "葬了"
             },
             {
               "id": "hebrew-85",
-              "eng": "Abraham"
+              "cht": "亞伯拉罕"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "他妻"
             },
             {
               "id": "hebrew-8283",
-              "eng": "Sarah"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "his wife",
-              "punct": "–"
+              "cht": "撒拉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-6912",
-              "eng": "they buried"
+              "cht": "又在那裡"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "葬了"
             },
             {
               "id": "hebrew-3327",
-              "eng": "Isaac"
+              "cht": "以撒"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-7259",
-              "eng": "Rebekah"
+              "cht": "和"
             },
             {
               "id": "hebrew-802",
-              "eng": "his wife",
-              "punct": "–"
+              "cht": "他的妻子"
+            },
+            {
+              "id": "hebrew-7259",
+              "cht": "利百加",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8033",
-              "eng": "and there"
+              "cht": "我也在那裡"
             },
             {
               "id": "hebrew-6912",
-              "eng": "I buried"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "葬了"
             },
             {
               "id": "hebrew-3812",
-              "eng": "Leah",
-              "punct": "."
+              "cht": "利亞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -215,105 +188,93 @@
             "greek-190": 1.848072082178492
           },
           "verseKey": "mat.9.9",
-          "cunp": "耶穌從那裏往前走，看見一個人名叫馬太，坐在稅關上，就對他說：「你跟從我來。」他就起來跟從了耶穌。",
+          "nasb": "As Jesus went on from there, He saw a man called Matthew, sitting in the tax collector’s booth; and He *said to him, “Follow Me!” And he got up and followed Him.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3855",
-              "eng": "passing on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
               "id": "greek-1564",
-              "eng": "from there",
-              "punct": ","
+              "cht": "從那裡"
+            },
+            {
+              "id": "greek-3855",
+              "cht": "往前走",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1492",
-              "eng": "He saw"
+              "cht": "看見"
             },
             {
               "id": "greek-444",
-              "eng": "a man"
+              "cht": "一個人"
             },
             {
-              "id": "greek-2521",
-              "eng": "sitting"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "at"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5058",
-              "eng": "tax booth",
-              "punct": ","
+              "id": "greek-3004",
+              "cht": "名叫"
             },
             {
               "id": "greek-3156",
-              "eng": "Matthew"
+              "cht": "馬太",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3004",
-              "eng": "named",
-              "punct": "."
+              "id": "greek-2521",
+              "cht": "坐"
+            },
+            {
+              "id": "greek-5058",
+              "cht": "在稅關"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "He says"
+              "cht": "就"
             },
             {
               "id": "greek-846",
-              "eng": "to him",
-              "punct": ","
+              "cht": "對他"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-190",
-              "eng": "Follow"
+              "cht": "你跟從"
             },
             {
               "id": "greek-3427",
-              "eng": "Me",
-              "punct": "."
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "他就"
             },
             {
               "id": "greek-450",
-              "eng": "having arisen",
-              "punct": ","
+              "cht": "起來"
             },
             {
               "id": "greek-190",
-              "eng": "he followed"
+              "cht": "跟從了"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "耶穌",
+              "punct_cht": "。"
             }
           ]
         },
@@ -325,88 +286,76 @@
             "greek-2036": 0.6033165378864083
           },
           "verseKey": "luk.9.59",
-          "cunp": "又對一個人說：「跟從我來！」那人說：「主，容我先回去埋葬我的父親。」",
+          "nasb": "And He said to another, “Follow Me.” But he said, “Lord, permit me first to go and bury my father.”",
           "words": [
             {
-              "id": "greek-2036",
-              "eng": "He said"
-            },
-            {
               "id": "greek-1161",
-              "eng": "then"
+              "cht": "又"
             },
             {
               "id": "greek-4314",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "greek-2087",
-              "eng": "another",
-              "punct": ","
-            },
-            {
-              "id": "greek-190",
-              "eng": "Follow"
-            },
-            {
-              "id": "greek-3427",
-              "eng": "Me",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "But"
+              "cht": "一個人"
             },
             {
               "id": "greek-2036",
-              "eng": "he said",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-2962",
-              "eng": "Lord"
-            },
-            {
-              "id": "greek-2010",
-              "eng": "allow"
+              "id": "greek-190",
+              "cht": "跟從"
             },
             {
               "id": "greek-3427",
-              "eng": "me"
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "那人說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-2962",
+              "cht": "主",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2010",
+              "cht": "容"
+            },
+            {
+              "id": "greek-3427",
+              "cht": "我"
             },
             {
               "id": "greek-4412",
-              "eng": "first",
-              "punct": ","
+              "cht": "先"
             },
             {
               "id": "greek-565",
-              "eng": "having gone away",
-              "punct": ","
+              "cht": "回去"
             },
             {
               "id": "greek-2290",
-              "eng": "to bury"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "father"
+              "cht": "埋葬"
             },
             {
               "id": "greek-3450",
-              "eng": "of me",
-              "punct": "."
+              "cht": "我的"
             },
             {
-              "id": ""
+              "id": "greek-3962",
+              "cht": "父親",
+              "punct_cht": "。"
             }
           ]
         },
@@ -418,106 +367,105 @@
             "greek-190": 1.848072082178492
           },
           "verseKey": "jhn.13.36",
-          "cunp": "西門‧彼得問耶穌說：「主往哪裏去？」耶穌回答說：「我所去的地方，你現在不能跟我去，後來卻要跟我去。」",
+          "nasb": "Simon Peter *said to Him, “Lord, where are You going?” Jesus answered, “Where I go, you cannot follow Me now; but you will follow later.”",
           "words": [
             {
-              "id": "greek-3004",
-              "eng": "Says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to Him"
-            },
-            {
               "id": "greek-4613",
-              "eng": "Simon"
+              "cht": "西門"
             },
             {
               "id": "greek-4074",
-              "eng": "Peter",
-              "punct": ","
-            },
-            {
-              "id": "greek-2962",
-              "eng": "Lord",
-              "punct": ","
-            },
-            {
-              "id": "greek-4226",
-              "eng": "where"
-            },
-            {
-              "id": "greek-5217",
-              "eng": "go You",
-              "punct": "?"
-            },
-            {
-              "id": "greek-611",
-              "eng": "Answered"
+              "cht": "彼得"
             },
             {
               "id": "greek-846",
-              "eng": "him"
+              "cht": "問耶穌"
             },
             {
-              "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-3699",
-              "eng": "Where"
+              "id": "greek-2962",
+              "cht": "主"
+            },
+            {
+              "id": "greek-4226",
+              "cht": "往那裡"
             },
             {
               "id": "greek-5217",
-              "eng": "I go",
-              "punct": ","
+              "cht": "去",
+              "punct_cht": "？"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
-              "id": "greek-1410",
-              "eng": "you are able"
+              "id": "greek-611",
+              "cht": "回答"
             },
             {
-              "id": "greek-3427",
-              "eng": "Me"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-5217",
+              "cht": "我所去"
+            },
+            {
+              "id": "greek-3699",
+              "cht": "的地方",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3568",
-              "eng": "now"
+              "cht": "你現在"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "不"
+            },
+            {
+              "id": "greek-1410",
+              "cht": "能"
             },
             {
               "id": "greek-190",
-              "eng": "to follow",
-              "punct": ";"
+              "cht": "跟"
             },
             {
-              "id": "greek-190",
-              "eng": "you will follow"
+              "id": "greek-3427",
+              "cht": "我"
             },
             {
-              "id": "greek-1161",
-              "eng": "however"
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5305",
-              "eng": "afterward",
-              "punct": "."
+              "cht": "後來"
             },
             {
-              "id": ""
+              "id": "greek-1161",
+              "cht": "卻"
             },
             {
-              "id": ""
+              "id": "greek-190",
+              "cht": "要跟"
             },
             {
-              "id": "greek-3427"
+              "id": "greek-3427",
+              "cht": "我"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -528,147 +476,120 @@
             "greek-3498": 1.524693141760513
           },
           "verseKey": "rom.8.11",
-          "cunp": "然而，叫耶穌從死裏復活者的靈若住在你們心裏，那叫基督耶穌從死裏復活的，也必藉着住在你們心裏的聖靈，使你們必死的身體又活過來。",
+          "nasb": "But if the Spirit of Him who raised Jesus from the dead dwells in you, He who raised Christ Jesus from the dead will also give life to your mortal bodies through His Spirit who dwells in you.",
           "words": [
             {
-              "id": "greek-1487",
-              "eng": "If"
-            },
-            {
               "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the [One]"
-            },
-            {
-              "id": "greek-1453",
-              "eng": "having raised up"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "然而",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "叫耶穌"
             },
             {
               "id": "greek-1537",
-              "eng": "out from"
+              "cht": "從"
             },
             {
               "id": "greek-3498",
-              "eng": "[the] dead"
+              "cht": "死裡"
+            },
+            {
+              "id": "greek-1453",
+              "cht": "復活"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "者的靈"
+            },
+            {
+              "id": "greek-1487",
+              "cht": "若"
             },
             {
               "id": "greek-3611",
-              "eng": "dwells"
+              "cht": "住"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-5213",
-              "eng": "you",
-              "punct": ","
+              "cht": "你們"
             },
             {
-              "id": "greek-3588",
-              "eng": "the [One]"
-            },
-            {
-              "id": "greek-1453",
-              "eng": "having raised up"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out from"
-            },
-            {
-              "id": "greek-3498",
-              "eng": "[the] dead"
+              "id": "",
+              "cht": "心裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ"
+              "cht": "那叫基督"
             },
             {
-              "id": "greek-2424",
-              "eng": "Jesus"
+              "id": "greek-1537",
+              "cht": "耶穌從"
             },
             {
-              "id": "greek-2227",
-              "eng": "will give life"
+              "id": "greek-3498",
+              "cht": "死裡"
+            },
+            {
+              "id": "greek-1453",
+              "cht": "復活"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-2349",
-              "eng": "mortal"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "bodies"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "of you",
-              "punct": ","
+              "cht": "也"
             },
             {
               "id": "greek-1223",
-              "eng": "on account of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "必藉著"
             },
             {
               "id": "greek-1774",
-              "eng": "dwelling"
-            },
-            {
-              "id": "greek-846",
-              "eng": "His"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit"
+              "cht": "住"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "你們"
+            },
+            {
+              "id": "greek-846",
+              "cht": "心裡的"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "聖靈",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5216",
-              "eng": "you",
-              "punct": "."
+              "cht": "使你們"
             },
             {
-              "id": ""
+              "id": "greek-2349",
+              "cht": "必死的"
             },
             {
-              "id": ""
+              "id": "greek-4983",
+              "cht": "身體"
             },
             {
-              "id": "greek-1774"
+              "id": "greek-2227",
+              "cht": "又活過來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -679,102 +600,85 @@
             "greek-190": 1.848072082178492
           },
           "verseKey": "mrk.2.14",
-          "cunp": "耶穌經過的時候，看見亞勒腓的兒子利未坐在稅關上，就對他說：「你跟從我來。」他就起來，跟從了耶穌。",
+          "nasb": "As He passed by, He saw Levi the son of Alphaeus sitting in the tax booth, and He *said to him, “Follow Me!” And he got up and followed Him.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-3855",
+              "cht": "耶穌經過"
             },
             {
-              "id": "greek-3855",
-              "eng": "passing on",
-              "punct": ","
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1492",
-              "eng": "He saw"
-            },
-            {
-              "id": "greek-3018",
-              "eng": "Levi"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [son]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "看見"
             },
             {
               "id": "greek-256",
-              "eng": "of Alphaeus"
+              "cht": "亞勒腓的"
+            },
+            {
+              "id": "greek-3017",
+              "cht": "兒子利未"
             },
             {
               "id": "greek-2521",
-              "eng": "sitting"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "at"
+              "cht": "坐"
             },
             {
               "id": "greek-3588",
-              "eng": "the"
+              "cht": "在稅關"
             },
             {
-              "id": "greek-5058",
-              "eng": "tax booth",
-              "punct": ","
+              "id": "greek-1909",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "就"
+            },
+            {
+              "id": "greek-846",
+              "cht": "對他"
             },
             {
               "id": "greek-3004",
-              "eng": "He says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-190",
-              "eng": "Follow"
+              "cht": "你跟從"
             },
             {
               "id": "greek-3427",
-              "eng": "Me",
-              "punct": "."
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "他就"
             },
             {
               "id": "greek-450",
-              "eng": "having arisen",
-              "punct": ","
+              "cht": "起來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-190",
-              "eng": "he followed"
+              "cht": "跟從了"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3017"
-            },
-            {
-              "id": ""
+              "cht": "耶穌",
+              "punct_cht": "。"
             }
           ]
         },
@@ -786,159 +690,103 @@
             "greek-3498": 1.524693141760513
           },
           "verseKey": "rev.14.13",
-          "cunp": "我聽見從天上有聲音說：「你要寫下：從今以後，在主裏面而死的人有福了！」聖靈說：「是的，他們息了自己的勞苦，做工的果效也隨着他們。」",
+          "nasb": "And I heard a voice from heaven, saying, “Write, ‘Blessed are the dead who die in the Lord from now on!’ ” “Yes,” says the Spirit, “so that they may rest from their labors, for their deeds follow with them.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-3427",
+              "cht": "我"
             },
             {
               "id": "greek-191",
-              "eng": "I heard"
-            },
-            {
-              "id": "greek-5456",
-              "eng": "a voice"
+              "cht": "聽見"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven",
-              "punct": ","
+              "cht": "天上"
+            },
+            {
+              "id": "greek-5456",
+              "cht": "有聲音"
             },
             {
               "id": "greek-3004",
-              "eng": "saying"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1125",
-              "eng": "Write",
-              "punct": ","
+              "cht": "你要寫下",
+              "punct_cht": "："
             },
             {
-              "id": "greek-3107",
-              "eng": "Blessed [are]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3498",
-              "eng": "dead"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
+              "id": "greek-534",
+              "cht": "從今以後",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2962",
-              "eng": "the Lord"
+              "cht": "在主"
             },
             {
-              "id": "greek-599",
-              "eng": "dying"
+              "id": "greek-1722",
+              "cht": "裡面"
             },
             {
-              "id": "greek-575",
-              "eng": "from"
+              "id": "greek-3498",
+              "cht": "而死"
             },
             {
-              "id": "greek-737",
-              "eng": "now on",
-              "punct": "."
-            },
-            {
-              "id": "greek-3483",
-              "eng": "Yes",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "says"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3107",
+              "cht": "的人有福了",
+              "punct_cht": "！"
             },
             {
               "id": "greek-4151",
-              "eng": "Spirit",
-              "punct": ","
+              "cht": "聖靈"
             },
             {
-              "id": "greek-2443",
-              "eng": "so that"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-3483",
+              "cht": "是的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-373",
-              "eng": "they will rest"
+              "cht": "他們息了"
             },
             {
-              "id": "greek-1537",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "自己的"
             },
             {
               "id": "greek-2873",
-              "eng": "labors"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
+              "cht": "勞苦",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2041",
-              "eng": "the works"
+              "cht": "作工的果效"
             },
             {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-190",
-              "eng": "follow"
+              "id": "greek-1161",
+              "cht": "也"
             },
             {
               "id": "greek-3326",
-              "eng": "with"
+              "cht": "隨著"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": "."
-            },
-            {
-              "id": "greek-3427"
-            },
-            {
-              "id": "greek-534"
-            },
-            {
-              "id": "greek-1161"
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -949,100 +797,80 @@
             "greek-2290": 1.6550610094271732
           },
           "verseKey": "1ki.13.31",
-          "cunp": "安葬之後，老先知對他兒子們說：「我死了，你們要葬我在神人的墳墓裏，使我的屍骨靠近他的屍骨，",
+          "nasb": "After he had buried him, he spoke to his sons, saying, “When I die, bury me in the grave in which the man of God is buried; lay my bones beside his bones.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "so it was",
-              "punct": "､"
+              "id": "hebrew-853",
+              "cht": "安葬"
             },
             {
               "id": "hebrew-310",
-              "eng": "after"
-            },
-            {
-              "id": "hebrew-6912",
-              "eng": "he had buried"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "him"
+              "cht": "之後",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "that he spoke"
+              "cht": "老先知"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-1121",
-              "eng": "his sons",
-              "punct": "､"
+              "cht": "他兒子們"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4191",
-              "eng": "when I am dead",
-              "punct": "､"
+              "cht": "我死了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6912",
-              "eng": "then bury"
+              "cht": "你們要葬"
             },
             {
               "id": "hebrew-853",
-              "eng": "me"
-            },
-            {
-              "id": "hebrew-6913",
-              "eng": "in the tomb"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "where"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
+              "cht": "我"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God"
+              "cht": "在神"
             },
             {
               "id": "hebrew-6912",
-              "eng": "[is] buried",
-              "punct": "–"
+              "cht": "人"
             },
             {
-              "id": "hebrew-681",
-              "eng": "beside"
+              "id": "hebrew-6913",
+              "cht": "的墳墓"
             },
             {
-              "id": "hebrew-6106",
-              "eng": "his bones"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3240",
-              "eng": "lay"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-6106",
-              "eng": "my bones",
-              "punct": "."
+              "cht": "我的屍骨"
             },
             {
-              "id": ""
+              "id": "hebrew-681",
+              "cht": "靠近"
+            },
+            {
+              "id": "hebrew-6106",
+              "cht": "他的屍骨",
+              "punct_cht": "，"
             }
           ]
         },
@@ -1053,135 +881,122 @@
             "greek-2290": 1.6550610094271732
           },
           "verseKey": "jer.19.11",
-          "cunp": "對他們說：『萬軍之耶和華如此說：我要照樣打碎這民和這城，正如人打碎窰匠的瓦器，以致不能再囫圇。並且人要在陀斐特葬埋屍首，甚至無處可葬。",
+          "nasb": "and say to them, ‘Thus says the Lord of hosts, “Just so will I break this people and this city, even as one breaks a potter’s vessel, which cannot again be repaired; and they will bury in Topheth because there is no other place for burial.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And say"
-            },
-            {
               "id": "hebrew-413",
-              "eng": "to them"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "對他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "–"
+              "cht": "萬軍"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3602",
-              "eng": "Even so"
+              "cht": "我要照樣"
             },
             {
               "id": "hebrew-7665",
-              "eng": "I will break"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "people"
+              "cht": "打碎"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "city",
-              "punct": "､"
+              "cht": "和"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "城",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "as"
+              "cht": "正如"
             },
             {
               "id": "hebrew-7665",
-              "eng": "[one] breaks"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "a vessel",
-              "punct": "､"
+              "cht": "人打碎"
             },
             {
               "id": "hebrew-3335",
-              "eng": "of potter"
+              "cht": "窯匠的"
+            },
+            {
+              "id": "hebrew-3627",
+              "cht": "瓦器",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "cannot"
+              "cht": "以致"
             },
             {
               "id": "hebrew-3201",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7495",
-              "eng": "be made whole"
+              "cht": "不能"
             },
             {
               "id": "hebrew-5750",
-              "eng": "again",
-              "punct": "–"
+              "cht": "再"
+            },
+            {
+              "id": "hebrew-7495",
+              "cht": "囫圇",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-8612",
-              "eng": "and in Tophet",
-              "punct": "､"
+              "cht": "並且人要在陀斐特"
             },
             {
               "id": "hebrew-6912",
-              "eng": "they shall bury [them]"
+              "cht": "葬埋"
+            },
+            {
+              "id": "",
+              "cht": "屍首",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "till [there is] no"
+              "cht": "甚至無"
             },
             {
               "id": "hebrew-4725",
-              "eng": "place"
+              "cht": "處"
             },
             {
               "id": "hebrew-6912",
-              "eng": "to bury",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "可葬",
+              "punct_cht": "。"
             }
           ]
         }

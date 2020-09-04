@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3355": "And Joktan",
-          "hebrew-3205": "begat",
-          "hebrew-853": "and",
-          "hebrew-486": "Almodad",
-          "hebrew-8026": "Sheleph",
-          "hebrew-2700": "Hazarmaveth",
-          "hebrew-3392": "Jerah"
+          "eng": {
+            "hebrew-3355": "And Joktan",
+            "hebrew-3205": "begat",
+            "hebrew-853": "and",
+            "hebrew-486": "Almodad",
+            "hebrew-8026": "Sheleph",
+            "hebrew-2700": "Hazarmaveth",
+            "hebrew-3392": "Jerah"
+          },
+          "cht": {
+            "hebrew-3355": "約坍",
+            "hebrew-3205": "生",
+            "hebrew-853": "生",
+            "hebrew-486": "亞摩答、",
+            "hebrew-8026": "沙列、",
+            "hebrew-2700": "哈薩瑪非、",
+            "hebrew-3392": "耶拉、"
+          }
         }
       },
       "translations": {
@@ -27,51 +38,31 @@
             "hebrew-3392": 10.248599871619378
           },
           "verseKey": "gen.10.26",
-          "cunp": "約坍生亞摩答、沙列、哈薩瑪非、耶拉、",
+          "nasb": "Joktan became the father of Almodad and Sheleph and Hazarmaveth and Jerah",
           "words": [
             {
               "id": "hebrew-3355",
-              "eng": "And Joktan"
+              "cht": "約坍"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-486",
-              "eng": "Almodad",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "亞摩答、"
             },
             {
               "id": "hebrew-8026",
-              "eng": "Sheleph",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "沙列、"
             },
             {
               "id": "hebrew-2700",
-              "eng": "Hazarmaveth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "哈薩瑪非、"
             },
             {
               "id": "hebrew-3392",
-              "eng": "Jerah",
-              "punct": "､"
+              "cht": "耶拉、"
             }
           ]
         },
@@ -82,73 +73,75 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "1ch.1.19",
-          "cunp": "希伯生了兩個兒子：一個名叫法勒，因為那時人就分地居住；法勒的兄弟名叫約坍。",
+          "nasb": "Two sons were born to Eber, the name of the one was Peleg, for in his days the earth was divided, and his brother’s name was Joktan.",
           "words": [
             {
               "id": "hebrew-5677",
-              "eng": "And to Eber"
+              "cht": "希伯"
             },
             {
               "id": "hebrew-3205",
-              "eng": "were born"
+              "cht": "生了"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "兒子",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-259",
-              "eng": "of one"
-            },
-            {
-              "id": "hebrew-6389",
-              "eng": "[was] Peleg",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in his days"
-            },
-            {
-              "id": "hebrew-6385",
-              "eng": "was divided",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "一個"
             },
             {
               "id": "hebrew-8034",
-              "eng": "and name"
+              "cht": "名"
+            },
+            {
+              "id": "hebrew-6389",
+              "cht": "叫法勒"
+            },
+            {
+              "id": "",
+              "cht": "【就是分的意思】",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "那時"
+            },
+            {
+              "id": "hebrew-6385",
+              "cht": "人就分"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "",
+              "cht": "居住",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-251",
-              "eng": "of his brother"
+              "cht": "法勒的兄弟"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
             },
             {
               "id": "hebrew-3355",
-              "eng": "[was] Joktan",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "叫約坍",
+              "punct_cht": "。"
             }
           ]
         },
@@ -159,73 +152,71 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "gen.10.25",
-          "cunp": "希伯生了兩個兒子，一個名叫法勒，因為那時人就分地居住；法勒的兄弟名叫約坍。",
+          "nasb": "Two sons were born to Eber; the name of the one was Peleg, for in his days the earth was divided; and his brother’s name was Joktan.",
           "words": [
             {
               "id": "hebrew-5677",
-              "eng": "And to Eber"
+              "cht": "希伯"
             },
             {
               "id": "hebrew-3205",
-              "eng": "were born"
+              "cht": "生了"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons",
-              "punct": ":"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "of one [was]"
-            },
-            {
-              "id": "hebrew-6389",
-              "eng": "Peleg",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in his days"
-            },
-            {
-              "id": "hebrew-6385",
-              "eng": "was divided"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
+              "cht": "一個"
             },
             {
               "id": "hebrew-8034",
-              "eng": "and the name"
+              "cht": "名"
+            },
+            {
+              "id": "",
+              "cht": "叫法勒〔法勒就是分的意思〕",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "那時"
+            },
+            {
+              "id": "hebrew-6385",
+              "cht": "人就分"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "",
+              "cht": "居住",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-251",
-              "eng": "of his brother"
+              "cht": "法勒的兄弟"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
             },
             {
               "id": "hebrew-3355",
-              "eng": "[was] Joktan",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "叫約坍",
+              "punct_cht": "。"
             }
           ]
         },
@@ -235,51 +226,37 @@
             "hebrew-3355": 6.2511507603914795
           },
           "verseKey": "gen.10.29",
-          "cunp": "阿斐、哈腓拉、約巴，這都是約坍的兒子。",
+          "nasb": "and Ophir and Havilah and Jobab; all these were the sons of Joktan.",
           "words": [
             {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
               "id": "hebrew-211",
-              "eng": "Ophir",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "阿斐、"
             },
             {
               "id": "hebrew-2341",
-              "eng": "Havilah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "哈腓拉、"
             },
             {
               "id": "hebrew-3103",
-              "eng": "Jobab",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "約巴",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-428",
-              "eng": "these [were]"
+              "cht": "這"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-3355",
-              "eng": "of Joktan",
-              "punct": "."
+              "cht": "是約坍"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -289,51 +266,37 @@
             "hebrew-3355": 6.2511507603914795
           },
           "verseKey": "1ch.1.23",
-          "cunp": "阿斐、哈腓拉、約巴。這都是約坍的兒子。",
+          "nasb": "Ophir, Havilah and Jobab; all these were the sons of Joktan.",
           "words": [
             {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
               "id": "hebrew-211",
-              "eng": "Ophir",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "阿斐、"
             },
             {
               "id": "hebrew-2341",
-              "eng": "Havilah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "哈腓拉、"
             },
             {
               "id": "hebrew-3103",
-              "eng": "Jobab",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "約巴",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-428",
-              "eng": "these [were]"
+              "cht": "這"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "id": "hebrew-3605",
+              "cht": "都是"
             },
             {
               "id": "hebrew-3355",
-              "eng": "of Joktan",
-              "punct": "."
+              "cht": "約坍"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -343,75 +306,59 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "gen.4.18",
-          "cunp": "以諾生以拿；以拿生米戶雅利；米戶雅利生瑪土撒利；瑪土撒利生拉麥。",
+          "nasb": "Now to Enoch was born Irad, and Irad became the father of Mehujael, and Mehujael became the father of Methushael, and Methushael became the father of Lamech.",
           "words": [
             {
-              "id": "hebrew-3205",
-              "eng": "And was born"
-            },
-            {
               "id": "hebrew-2585",
-              "eng": "to Enoch"
+              "cht": "以諾"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3205",
+              "cht": "生"
             },
             {
               "id": "hebrew-5897",
-              "eng": "Irad",
-              "punct": "､"
+              "cht": "以拿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5897",
-              "eng": "and Irad"
+              "cht": "以拿"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-4232",
-              "eng": "Mehujael",
-              "punct": "､"
+              "cht": "米戶雅利",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4232",
-              "eng": "and Mehujael"
+              "cht": "米戶雅利"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-4967",
-              "eng": "Methushael",
-              "punct": "､"
+              "cht": "瑪土撒利",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4967",
-              "eng": "and Methushael"
+              "cht": "瑪土撒利"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-3929",
-              "eng": "Lamech",
-              "punct": "."
+              "cht": "拉麥",
+              "punct_cht": "。"
             }
           ]
         }

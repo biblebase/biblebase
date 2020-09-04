@@ -3,15 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-2078": "Last",
-          "greek-1161": "then",
-          "greek-3956": "of all",
-          "greek-5619": "as",
-          "greek-3588": "the",
-          "greek-1626": "untimely birth",
-          "greek-3708": "He appeared",
-          "greek-2504": "also to me",
-          "": null
+          "eng": {
+            "greek-2078": "Last",
+            "greek-1161": "then",
+            "greek-3956": "of all",
+            "greek-5619": "as",
+            "greek-3588": "the",
+            "greek-1626": "untimely birth",
+            "greek-3708": "He appeared",
+            "greek-2504": "also to me",
+            "": null
+          },
+          "cht": {
+            "greek-2078": "末了",
+            "greek-3956": "末了",
+            "greek-5619": "我如同",
+            "greek-1626": "未到產期",
+            "greek-3708": "顯給我看",
+            "greek-2504": "也"
+          }
         }
       },
       "translations": {
@@ -25,62 +35,47 @@
             "greek-2078": 1.724220685783718
           },
           "verseKey": "luk.13.30",
-          "cunp": "只是有在後的，將要在前；有在前的，將要在後。」",
+          "nasb": "And behold, some are last who will be first and some are first who will be last.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2400",
-              "eng": "behold",
-              "punct": ","
+              "cht": "只是"
             },
             {
               "id": "greek-1526",
-              "eng": "there are"
+              "cht": "有"
             },
             {
               "id": "greek-2078",
-              "eng": "last"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "who"
+              "cht": "在後的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2071",
-              "eng": "will be"
+              "cht": "將要"
             },
             {
               "id": "greek-4413",
-              "eng": "first",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "在前",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1526",
-              "eng": "there are"
+              "cht": "有"
             },
             {
               "id": "greek-4413",
-              "eng": "first"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "who"
+              "cht": "在前的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2071",
-              "eng": "will be"
+              "cht": "將要"
             },
             {
               "id": "greek-2078",
-              "eng": "last",
-              "punct": "."
+              "cht": "在後",
+              "punct_cht": "。"
             }
           ]
         },
@@ -90,67 +85,43 @@
             "greek-2078": 1.724220685783718
           },
           "verseKey": "ecc.1.11",
-          "cunp": "已過的世代，無人記念； 將來的世代，後來的人也不記念。",
+          "nasb": "There is no remembrance of earlier things; And also of the later things which will occur, There will be for them no remembrance Among those who will come later still.",
           "words": [
             {
+              "id": "hebrew-7223",
+              "cht": "已過的世代",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-369",
-              "eng": "[There is] no"
+              "cht": "無人"
             },
             {
               "id": "hebrew-2146",
-              "eng": "remembrance"
+              "cht": "記念",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-7223",
-              "eng": "of former [things]"
+              "id": "hebrew-7945",
+              "cht": "將來的世代",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7945",
+              "cht": "後來的人"
             },
             {
               "id": "hebrew-1571",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-314",
-              "eng": "of the later",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "That will there be"
+              "cht": "也"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "are to come"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "of [things]"
+              "cht": "不"
             },
             {
               "id": "hebrew-2146",
-              "eng": "any remembrance"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "by"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "[those] who will come"
-            },
-            {
-              "id": "hebrew-314",
-              "eng": "after",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7945"
-            },
-            {
-              "id": "hebrew-7945"
+              "cht": "記念",
+              "punct_cht": "。"
             }
           ]
         },
@@ -160,47 +131,48 @@
             "greek-2078": 1.724220685783718
           },
           "verseKey": "mat.19.30",
-          "cunp": "然而，有許多在前的，將要在後；在後的，將要在前。」",
+          "nasb": "But many who are first will be last; and the last, first.",
           "words": [
             {
-              "id": "greek-4183",
-              "eng": "Many"
+              "id": "greek-1161",
+              "cht": "然而",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1161",
-              "eng": "however"
+              "id": "greek-4183",
+              "cht": "有許多"
+            },
+            {
+              "id": "greek-4413",
+              "cht": "在前"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2071",
-              "eng": "will be"
-            },
-            {
-              "id": "greek-4413",
-              "eng": "first"
+              "cht": "將要"
             },
             {
               "id": "greek-2078",
-              "eng": "last",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "在後",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2078",
-              "eng": "last"
+              "cht": "在後"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4413",
-              "eng": "first",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "將要在前",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6588": "By the transgression",
-          "hebrew-8193": "of [his] lips",
-          "hebrew-4170": "is ensnared",
-          "hebrew-7451": "the wicked",
-          "hebrew-3318": "but will come",
-          "hebrew-6869": "through trouble",
-          "hebrew-6662": "the righteous",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-6588": "By the transgression",
+            "hebrew-8193": "of [his] lips",
+            "hebrew-4170": "is ensnared",
+            "hebrew-7451": "the wicked",
+            "hebrew-3318": "but will come",
+            "hebrew-6869": "through trouble",
+            "hebrew-6662": "the righteous",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-6588": "的過錯",
+            "hebrew-8193": "嘴中",
+            "hebrew-4170": "是自己的網羅",
+            "hebrew-7451": "惡人",
+            "hebrew-3318": "必脫離",
+            "hebrew-6869": "患難",
+            "hebrew-6662": "但義人",
+            "hebrew-4480": "患難"
+          }
         }
       },
       "translations": {
@@ -30,40 +42,38 @@
             "hebrew-6662": 1.0984070729221034
           },
           "verseKey": "pro.29.6",
-          "cunp": "惡人犯罪，自陷網羅； 惟獨義人歡呼喜樂。",
+          "nasb": "By transgression an evil man is ensnared, But the righteous sings and rejoices.",
           "words": [
             {
-              "id": "hebrew-6588",
-              "eng": "By transgression"
+              "id": "hebrew-7451",
+              "cht": "惡"
             },
             {
               "id": "hebrew-376",
-              "eng": "an man"
+              "cht": "人"
             },
             {
-              "id": "hebrew-7451",
-              "eng": "evil"
+              "id": "hebrew-6588",
+              "cht": "犯罪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4170",
-              "eng": "is snared",
-              "punct": "､"
+              "cht": "自陷網羅",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6662",
-              "eng": "but the righteous"
+              "cht": "惟獨義人"
             },
             {
               "id": "hebrew-7442",
-              "eng": "sings"
+              "cht": "歡呼"
             },
             {
-              "id": "hebrew-8055",
-              "eng": "and rejoices",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-8056"
+              "id": "hebrew-8056",
+              "cht": "喜樂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -74,110 +84,101 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "gen.50.17",
-          "cunp": "『你們要對約瑟這樣說：從前你哥哥們惡待你，求你饒恕他們的過犯和罪惡。』如今求你饒恕你父親神之僕人的過犯。」他們對約瑟說這話，約瑟就哭了。",
+          "nasb": "‘Thus you shall say to Joseph, “Please forgive, I beg you, the transgression of your brothers and their sin, for they did you wrong.” ’ And now, please forgive the transgression of the servants of the God of your father.” And Joseph wept when they spoke to him.",
           "words": [
             {
+              "id": "hebrew-3130",
+              "cht": "你們要對約瑟"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "這樣"
             },
             {
               "id": "hebrew-559",
-              "eng": "you shall say"
-            },
-            {
-              "id": "hebrew-3130",
-              "eng": "to Joseph",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-577",
-              "eng": "I beg you"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "forgive",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6588",
-              "eng": "the trespass"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-251",
-              "eng": "of your brothers",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2403",
-              "eng": "and their sin",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "從前你哥哥們"
             },
             {
               "id": "hebrew-7451",
-              "eng": "the evil"
+              "cht": "惡"
             },
             {
               "id": "hebrew-1580",
-              "eng": "they did to you",
-              "punct": "."
+              "cht": "待你",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6258",
-              "eng": "Now",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "forgive",
-              "punct": "､"
+              "id": "hebrew-577",
+              "cht": "求"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "､"
+              "cht": "你"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "饒恕"
             },
             {
               "id": "hebrew-6588",
-              "eng": "the trespass"
+              "cht": "他們的過犯"
             },
             {
-              "id": "hebrew-5650",
-              "eng": "of the servants"
+              "id": "hebrew-2403",
+              "cht": "和罪惡",
+              "punct_cht": "。』"
             },
             {
-              "id": "hebrew-430",
-              "eng": "of the God"
+              "id": "hebrew-6258",
+              "cht": "如今"
+            },
+            {
+              "id": "hebrew-4994",
+              "cht": "求你"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "饒恕"
             },
             {
               "id": "hebrew-1",
-              "eng": "of your father",
-              "punct": "."
+              "cht": "你父親"
             },
             {
-              "id": "hebrew-1058",
-              "eng": "And wept"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": "hebrew-3130",
-              "eng": "Joseph"
+              "id": "hebrew-5650",
+              "cht": "之僕人"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "when they spoke"
+              "id": "hebrew-6588",
+              "cht": "的過犯",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him",
-              "punct": "."
+              "cht": "他們對約瑟"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "說這話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3130",
+              "cht": "約瑟"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "就哭了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -187,83 +188,89 @@
             "hebrew-6588": 2.407639909866712
           },
           "verseKey": "mic.1.5",
-          "cunp": "這都因雅各的罪過， 以色列家的罪惡。 雅各的罪過在哪裏呢？ 豈不是在撒馬利亞嗎？ 猶大的邱壇在哪裏呢？ 豈不是在耶路撒冷嗎？",
+          "nasb": "All this is for the rebellion of Jacob And for the sins of the house of Israel. What is the rebellion of Jacob? Is it not Samaria? What is the high place of Judah? Is it not Jerusalem?",
           "words": [
             {
-              "id": "hebrew-6588",
-              "eng": "For the transgression"
-            },
-            {
-              "id": "hebrew-3290",
-              "eng": "of Jacob"
+              "id": "hebrew-2063",
+              "cht": "這"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "this [is]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2403",
-              "eng": "and for the sins"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4310",
-              "eng": "Who [is]"
-            },
-            {
-              "id": "hebrew-6588",
-              "eng": "the transgression"
+              "cht": "都"
             },
             {
               "id": "hebrew-3290",
-              "eng": "of Jacob"
+              "cht": "因雅各"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "is [it] not"
+              "id": "hebrew-6588",
+              "cht": "的罪過",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8111",
-              "eng": "Samaria"
+              "id": "hebrew-3478",
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-2403",
+              "cht": "的罪惡",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3290",
+              "cht": "雅各"
+            },
+            {
+              "id": "hebrew-6588",
+              "cht": "的罪過"
             },
             {
               "id": "hebrew-4310",
-              "eng": "and who [are]"
-            },
-            {
-              "id": "hebrew-1116",
-              "eng": "the high places"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah"
+              "cht": "在哪裡呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3808",
-              "eng": "Are [they] not"
+              "cht": "豈不是"
+            },
+            {
+              "id": "hebrew-8111",
+              "cht": "在撒馬利亞"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-3063",
+              "cht": "猶大"
+            },
+            {
+              "id": "hebrew-1116",
+              "cht": "的邱壇"
+            },
+            {
+              "id": "hebrew-4310",
+              "cht": "在哪裡呢",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "豈不是"
             },
             {
               "id": "hebrew-3389",
-              "eng": "Jerusalem"
+              "cht": "在耶路撒冷"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -273,110 +280,97 @@
             "hebrew-6869": 1.9941688091090077
           },
           "verseKey": "gen.42.21",
-          "cunp": "他們彼此說：「我們在兄弟身上實在有罪。他哀求我們的時候，我們見他心裏的愁苦，卻不肯聽，所以這場苦難臨到我們身上。」",
+          "nasb": "Then they said to one another, “Truly we are guilty concerning our brother, because we saw the distress of his soul when he pleaded with us, yet we would not listen; therefore this distress has come upon us.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And they said"
-            },
-            {
               "id": "hebrew-376",
-              "eng": "one"
+              "cht": "他們彼此"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "another",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-61",
-              "eng": "truly"
-            },
-            {
-              "id": "hebrew-818",
-              "eng": "guilty"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-587",
-              "eng": "we [are]"
+              "cht": "我們"
             },
             {
               "id": "hebrew-5921",
-              "eng": "concerning"
+              "cht": "在"
             },
             {
               "id": "hebrew-251",
-              "eng": "our brother",
-              "punct": "､"
+              "cht": "兄弟"
+            },
+            {
+              "id": "hebrew-61",
+              "cht": "身上實在"
+            },
+            {
+              "id": "hebrew-818",
+              "cht": "有罪",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-834",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "we saw"
-            },
-            {
-              "id": "hebrew-6869",
-              "eng": "the anguish"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "of his soul",
-              "punct": "､"
+              "cht": "他"
             },
             {
               "id": "hebrew-2603",
-              "eng": "when he pleaded"
+              "cht": "哀求"
             },
             {
               "id": "hebrew-413",
-              "eng": "with us"
+              "cht": "我們"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "and not"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8085",
-              "eng": "we did listen",
-              "punct": "–"
+              "id": "hebrew-7200",
+              "cht": "我們見"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "has come"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "upon us"
+              "id": "hebrew-5315",
+              "cht": "他心裡"
             },
             {
               "id": "hebrew-6869",
-              "eng": "distress"
+              "cht": "的愁苦",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2063",
-              "eng": "this",
-              "punct": "."
+              "id": "hebrew-3808",
+              "cht": "卻不肯"
             },
             {
-              "id": ""
+              "id": "hebrew-8085",
+              "cht": "聽",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2088"
+              "id": "hebrew-5921",
+              "cht": "所以"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "這場"
+            },
+            {
+              "id": "hebrew-6869",
+              "cht": "苦難"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "臨到"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "我們身上",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -387,46 +381,47 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "psa.64.5",
-          "cunp": "他們彼此勉勵設下惡計； 他們商量暗設網羅， 說：誰能看見？",
+          "nasb": "They hold fast to themselves an evil purpose; They talk of laying snares secretly; They say, “Who can see them?”",
           "words": [
             {
               "id": "hebrew-2388",
-              "eng": "They encourage"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "[in] an matter",
-              "punct": "–"
+              "cht": "彼此勉勵"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil"
+              "cht": "設下惡"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "計",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5608",
-              "eng": "they talk secretly"
+              "cht": "他們商量"
             },
             {
               "id": "hebrew-2934",
-              "eng": "of laying"
+              "cht": "暗設"
             },
             {
               "id": "hebrew-4170",
-              "eng": "snares",
-              "punct": "–"
+              "cht": "網羅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "they say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
+              "cht": "誰能"
             },
             {
               "id": "hebrew-7200",
-              "eng": "will see"
+              "cht": "看見",
+              "punct_cht": "？"
             }
           ]
         },
@@ -437,84 +432,76 @@
             "hebrew-6662": 1.0984070729221034
           },
           "verseKey": "amo.2.6",
-          "cunp": "耶和華如此說： 以色列人三番四次地犯罪， 我必不免去他們的刑罰； 因他們為銀子賣了義人， 為一雙鞋賣了窮人。",
+          "nasb": "Thus says the Lord, “For three transgressions of Israel and for four I will not revoke its punishment, Because they sell the righteous for money And the needy for a pair of sandals.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7969",
-              "eng": "three"
-            },
-            {
-              "id": "hebrew-6588",
-              "eng": "transgressions"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列人"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "for"
+              "id": "hebrew-7969",
+              "cht": "三番"
             },
             {
               "id": "hebrew-702",
-              "eng": "four",
-              "punct": "､"
+              "cht": "四次"
+            },
+            {
+              "id": "hebrew-6588",
+              "cht": "地犯罪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我必不"
             },
             {
               "id": "hebrew-7725",
-              "eng": "I will turn away its [punishment]"
+              "cht": "免去他們的刑罰",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5921",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-4376",
-              "eng": "they sell"
+              "cht": "因"
             },
             {
               "id": "hebrew-3701",
-              "eng": "for silver",
-              "punct": "､"
+              "cht": "他們為銀子"
+            },
+            {
+              "id": "hebrew-4376",
+              "cht": "賣了"
             },
             {
               "id": "hebrew-6662",
-              "eng": "the righteous"
-            },
-            {
-              "id": "hebrew-34",
-              "eng": "and the poor"
+              "cht": "義人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5668",
-              "eng": "for"
+              "cht": "為"
             },
             {
               "id": "hebrew-5275",
-              "eng": "a pair of sandals",
-              "punct": "–"
+              "cht": "一雙鞋"
+            },
+            {
+              "id": "hebrew-34",
+              "cht": "賣了窮人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -525,38 +512,38 @@
             "hebrew-6662": 1.0984070729221034
           },
           "verseKey": "pro.29.16",
-          "cunp": "惡人加多，過犯也加多， 義人必看見他們跌倒。",
+          "nasb": "When the wicked increase, transgression increases; But the righteous will see their fall.",
           "words": [
             {
-              "id": "hebrew-7235",
-              "eng": "When are multiplied",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-7235",
-              "eng": "increases",
-              "punct": "–"
+              "cht": "加多",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6588",
-              "eng": "transgression"
+              "cht": "過犯"
+            },
+            {
+              "id": "hebrew-7235",
+              "cht": "也加多",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6662",
-              "eng": "but the righteous"
-            },
-            {
-              "id": "hebrew-4658",
-              "eng": "their fall"
+              "cht": "義人"
             },
             {
               "id": "hebrew-7200",
-              "eng": "will see",
-              "punct": "."
+              "cht": "必看見"
+            },
+            {
+              "id": "hebrew-4658",
+              "cht": "他們跌倒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -567,124 +554,124 @@
             "hebrew-6869": 1.9941688091090077
           },
           "verseKey": "deu.31.17",
-          "cunp": "那時，我的怒氣必向他們發作；我也必離棄他們，掩面不顧他們，以致他們被吞滅，並有許多的禍患災難臨到他們。那日他們必說：『這些禍患臨到我們，豈不是因我們的神不在我們中間嗎？』",
+          "nasb": "Then My anger will be kindled against them in that day, and I will forsake them and hide My face from them, and they will be consumed, and many evils and troubles will come upon them; so that they will say in that day, ‘Is it not because our God is not among us that these evils have come upon us?’",
           "words": [
             {
-              "id": "hebrew-2734",
-              "eng": "And shall be aroused"
+              "id": "hebrew-1931",
+              "cht": "那"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-639",
-              "eng": "My anger"
+              "cht": "我的怒氣"
             },
             {
-              "id": "hebrew-3117",
-              "eng": "in day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-2734",
+              "cht": "發作",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5800",
-              "eng": "and I will forsake them"
+              "cht": "我也必離棄他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5641",
-              "eng": "and I will hide"
+              "cht": "掩"
             },
             {
               "id": "hebrew-6440",
-              "eng": "My face"
+              "cht": "面"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "from them"
+              "id": "hebrew-4480",
+              "cht": "不顧他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "and they shall be"
+              "cht": "以致他們"
             },
             {
               "id": "hebrew-398",
-              "eng": "devoured",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "and shall befall them"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "evils"
+              "cht": "被吞滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "many"
-            },
-            {
-              "id": "hebrew-6869",
-              "eng": "and troubles"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "so that they will say"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "have not"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "our God [is]"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "among us"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "come upon"
+              "cht": "並有許多"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evils"
+              "cht": "的禍患"
+            },
+            {
+              "id": "hebrew-6869",
+              "cht": "災難"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "臨到他們",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "那"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "他們必說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-428",
-              "eng": "these",
-              "punct": "."
+              "cht": "這些"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7451",
+              "cht": "禍患"
             },
             {
-              "id": ""
+              "id": "hebrew-4672",
+              "cht": "臨到我們",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "豈不是"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因"
+            },
+            {
+              "id": "",
+              "cht": "我們的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-7130",
+              "cht": "在我們中間"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？』"
             }
           ]
         },
@@ -694,87 +681,75 @@
             "hebrew-6662": 1.0984070729221034
           },
           "verseKey": "mat.10.41",
-          "cunp": "人因為先知的名接待先知，必得先知所得的賞賜；人因為義人的名接待義人，必得義人所得的賞賜。",
+          "nasb": "He who receives a prophet in the name of a prophet shall receive a prophet’s reward; and he who receives a righteous man in the name of a righteous man shall receive a righteous man’s reward.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
-              "id": "greek-1209",
-              "eng": "receiving"
+              "id": "greek-1519",
+              "cht": "人因為"
             },
             {
               "id": "greek-4396",
-              "eng": "a prophet"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "in [the]"
+              "cht": "先知"
             },
             {
               "id": "greek-3686",
-              "eng": "name"
-            },
-            {
-              "id": "greek-4396",
-              "eng": "of a prophet",
-              "punct": ","
-            },
-            {
-              "id": "greek-3408",
-              "eng": "[the] reward"
-            },
-            {
-              "id": "greek-4396",
-              "eng": "of a prophet"
-            },
-            {
-              "id": "greek-2983",
-              "eng": "will receive",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "cht": "的名"
             },
             {
               "id": "greek-1209",
-              "eng": "receiving"
+              "cht": "接待"
             },
             {
-              "id": "greek-1342",
-              "eng": "a righteous [man]"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "in [the]"
-            },
-            {
-              "id": "greek-3686",
-              "eng": "name"
-            },
-            {
-              "id": "greek-1342",
-              "eng": "of a righteous [man]",
-              "punct": ","
-            },
-            {
-              "id": "greek-3408",
-              "eng": "the reward"
-            },
-            {
-              "id": "greek-1342",
-              "eng": "of a righteous [man]"
+              "id": "greek-4396",
+              "cht": "先知",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "will receive",
-              "punct": "."
+              "cht": "必得"
+            },
+            {
+              "id": "greek-4396",
+              "cht": "先知"
+            },
+            {
+              "id": "greek-3408",
+              "cht": "所得的賞賜",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "人因為"
+            },
+            {
+              "id": "greek-1342",
+              "cht": "義人"
+            },
+            {
+              "id": "greek-3686",
+              "cht": "的名"
+            },
+            {
+              "id": "greek-2983",
+              "cht": "接待"
+            },
+            {
+              "id": "greek-1342",
+              "cht": "義人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1209",
+              "cht": "必得"
+            },
+            {
+              "id": "greek-1342",
+              "cht": "義人"
+            },
+            {
+              "id": "greek-3408",
+              "cht": "所得的賞賜",
+              "punct_cht": "。"
             }
           ]
         },
@@ -784,39 +759,36 @@
             "hebrew-4170": 3.1769789830261015
           },
           "verseKey": "psa.141.9",
-          "cunp": "求你保護我脫離惡人為我設的網羅 和作孽之人的圈套！",
+          "nasb": "Keep me from the jaws of the trap which they have set for me, And from the snares of those who do iniquity.",
           "words": [
             {
               "id": "hebrew-8104",
-              "eng": "Keep me"
+              "cht": "求你保護我"
             },
             {
               "id": "hebrew-3027",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-6341",
-              "eng": "the snares"
+              "cht": "脫離"
             },
             {
               "id": "hebrew-3369",
-              "eng": "they have laid"
+              "cht": "設"
             },
             {
-              "id": "hebrew-4170",
-              "eng": "and from the traps"
+              "id": "hebrew-6341",
+              "cht": "的網羅"
             },
             {
               "id": "hebrew-6466",
-              "eng": "of the workers"
+              "cht": "和作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity",
-              "punct": "."
+              "cht": "孽"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4170",
+              "cht": "之人的圈套",
+              "punct_cht": "！"
             }
           ]
         }

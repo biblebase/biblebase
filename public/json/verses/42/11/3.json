@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "-",
-          "greek-740": "bread",
-          "greek-2257": "of us",
-          "greek-1967": "daily",
-          "greek-1325": "give",
-          "greek-2254": "us",
-          "greek-2596": "each",
-          "greek-2250": "day"
+          "eng": {
+            "greek-3588": "-",
+            "greek-740": "bread",
+            "greek-2257": "of us",
+            "greek-1967": "daily",
+            "greek-1325": "give",
+            "greek-2254": "us",
+            "greek-2596": "each",
+            "greek-2250": "day"
+          },
+          "cht": {
+            "greek-740": "飲食",
+            "greek-2257": "我們",
+            "greek-1967": "日用的",
+            "greek-1325": "賜給",
+            "greek-2254": "我們",
+            "greek-2596": "天",
+            "greek-2250": "天"
+          }
         }
       },
       "translations": {
@@ -27,40 +38,33 @@
             "greek-1325": 0.44594048131464864
           },
           "verseKey": "mat.6.11",
-          "cunp": "我們日用的飲食，今日賜給我們。",
+          "nasb": "Give us this day our daily bread.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
-              "id": "greek-740",
-              "eng": "bread"
-            },
-            {
               "id": "greek-2257",
-              "eng": "of us"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我們"
             },
             {
               "id": "greek-1967",
-              "eng": "daily"
+              "cht": "日用的"
             },
             {
-              "id": "greek-1325",
-              "eng": "grant"
-            },
-            {
-              "id": "greek-2254",
-              "eng": "us"
+              "id": "greek-740",
+              "cht": "飲食",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4594",
-              "eng": "today",
-              "punct": "."
+              "cht": "今日"
+            },
+            {
+              "id": "greek-1325",
+              "cht": "賜給"
+            },
+            {
+              "id": "greek-2254",
+              "cht": "我們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -71,171 +75,104 @@
             "greek-1325": 0.44594048131464864
           },
           "verseKey": "jhn.6.51",
-          "cunp": "我是從天上降下來生命的糧；人若吃這糧，就必永遠活着。我所要賜的糧就是我的肉，為世人之生命所賜的。」",
+          "nasb": "I am the living bread that came down out of heaven; if anyone eats of this bread, he will live forever; and the bread also which I will give for the life of the world is My flesh.”",
           "words": [
             {
               "id": "greek-1473",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "greek-1510",
-              "eng": "am"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-740",
-              "eng": "bread"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "living",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是"
             },
             {
               "id": "greek-1537",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven"
+              "cht": "天上"
             },
             {
               "id": "greek-2597",
-              "eng": "having come down",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "anyone"
-            },
-            {
-              "id": "greek-5315",
-              "eng": "shall have eaten"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-5127",
-              "eng": "this"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-740",
-              "eng": "bread",
-              "punct": ","
+              "cht": "降下來"
             },
             {
               "id": "greek-2198",
-              "eng": "he will live"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-165",
-              "eng": "age",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "生命"
             },
             {
               "id": "greek-740",
-              "eng": "bread"
+              "cht": "的糧",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-1161",
-              "eng": "also"
+              "id": "greek-5100",
+              "cht": "人"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "若"
+            },
+            {
+              "id": "greek-5315",
+              "cht": "吃"
+            },
+            {
+              "id": "greek-5127",
+              "cht": "這"
+            },
+            {
+              "id": "greek-740",
+              "cht": "糧",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "就必永遠"
+            },
+            {
+              "id": "greek-2198",
+              "cht": "活著",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-1473",
+              "cht": "我"
             },
             {
               "id": "greek-3739",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "I"
+              "cht": "所"
             },
             {
               "id": "greek-1325",
-              "eng": "will give",
-              "punct": ","
+              "cht": "要賜"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-740",
+              "cht": "的糧"
             },
             {
-              "id": "greek-4561",
-              "eng": "flesh"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "of Me"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
+              "id": "",
+              "cht": "就是我的肉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5228",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "為"
             },
             {
               "id": "greek-2889",
-              "eng": "world"
+              "cht": "世人"
             },
             {
               "id": "greek-2222",
-              "eng": "life",
-              "punct": "."
+              "cht": "之生命"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "所賜的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -247,102 +184,91 @@
             "greek-2250": 0.4096566896991143
           },
           "verseKey": "exo.16.29",
-          "cunp": "你們看！耶和華既將安息日賜給你們，所以第六天他賜給你們兩天的食物，第七天各人要住在自己的地方，不許甚麼人出去。」",
+          "nasb": "See, the Lord has given you the sabbath; therefore He gives you bread for two days on the sixth day. Remain every man in his place; let no man go out of his place on the seventh day.”",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "See"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "你們看",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "has given"
+              "id": "hebrew-3588",
+              "cht": "既"
             },
             {
               "id": "hebrew-7676",
-              "eng": "the Sabbath",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "He"
+              "cht": "將安息日"
             },
             {
               "id": "hebrew-5414",
-              "eng": "gives"
+              "cht": "賜"
             },
             {
-              "id": "hebrew-3117",
-              "eng": "on the day"
+              "id": "hebrew-3651",
+              "cht": "所以"
             },
             {
               "id": "hebrew-8345",
-              "eng": "sixth"
+              "cht": "第六"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "賜"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "兩天"
             },
             {
               "id": "hebrew-3899",
-              "eng": "bread for"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "two days",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "Let remain"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "every man"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "in his place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "let go out"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "of his place"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "on the day"
+              "cht": "的食物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7637",
-              "eng": "seventh",
-              "punct": "."
+              "cht": "第七"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3117",
+              "cht": "天"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "各人"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "要住"
+            },
+            {
+              "id": "hebrew-8478",
+              "cht": "在自己的地方",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "不許"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "甚麼人"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "出去",
+              "punct_cht": "。」"
             }
           ]
         }

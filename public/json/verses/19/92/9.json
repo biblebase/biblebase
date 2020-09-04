@@ -3,16 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "for",
-          "hebrew-2009": "behold",
-          "hebrew-341": "Your enemies",
-          "hebrew-3068": "Yahweh",
-          "hebrew-6": "shall perish",
-          "hebrew-6504": "shall be scattered",
-          "hebrew-3605": "All",
-          "hebrew-6466": "the workers",
-          "hebrew-205": "of iniquity",
-          "": null
+          "eng": {
+            "hebrew-3588": "for",
+            "hebrew-2009": "behold",
+            "hebrew-341": "Your enemies",
+            "hebrew-3068": "Yahweh",
+            "hebrew-6": "shall perish",
+            "hebrew-6504": "shall be scattered",
+            "hebrew-3605": "All",
+            "hebrew-6466": "the workers",
+            "hebrew-205": "of iniquity",
+            "": null
+          },
+          "cht": {
+            "hebrew-341": "你的仇敵",
+            "hebrew-3068": "耶和華",
+            "hebrew-6": "都要滅亡",
+            "hebrew-6504": "的也要離散",
+            "hebrew-3605": "一切",
+            "hebrew-6466": "作",
+            "hebrew-205": "孽"
+          }
         }
       },
       "translations": {
@@ -30,57 +41,53 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "psa.101.8",
-          "cunp": "我每日早晨要滅絕國中所有的惡人， 好把一切作孽的從耶和華的城裏剪除。",
+          "nasb": "Every morning I will destroy all the wicked of the land, So as to cut off from the city of the Lord all those who do iniquity.",
           "words": [
             {
               "id": "hebrew-1242",
-              "eng": "Early"
+              "cht": "我每日早晨"
             },
             {
               "id": "hebrew-6789",
-              "eng": "I will destroy"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "要滅絕"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3772",
-              "eng": "that I may cut off"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "from the city"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "國"
             },
             {
               "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "中所有的"
+            },
+            {
+              "id": "hebrew-7563",
+              "cht": "惡人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "好把一切"
             },
             {
               "id": "hebrew-6466",
-              "eng": "doers"
+              "cht": "作"
             },
             {
               "id": "hebrew-205",
-              "eng": "the evildoers",
-              "punct": "."
+              "cht": "孽"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3068",
+              "cht": "的從耶和華"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的城裡"
+            },
+            {
+              "id": "hebrew-3772",
+              "cht": "剪除",
+              "punct_cht": "。"
             }
           ]
         },
@@ -93,63 +100,67 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "psa.14.4",
-          "cunp": "作孽的都沒有知識嗎？ 他們吞吃我的百姓，如同吃飯一樣， 並不求告耶和華。",
+          "nasb": "Do all the workers of wickedness not know, Who eat up my people as they eat bread, And do not call upon the Lord?",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "Have no"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "knowledge"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
               "id": "hebrew-6466",
-              "eng": "the workers"
+              "cht": "作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity"
+              "cht": "孽"
             },
             {
-              "id": "hebrew-398",
-              "eng": "who eat up"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "my people"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "[as] they eat"
-            },
-            {
-              "id": "hebrew-3899",
-              "eng": "bread",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "on Yahweh"
+              "id": "hebrew-3605",
+              "cht": "的都"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知識"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "他們吞吃"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "我的百姓",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "如同吃"
+            },
+            {
+              "id": "hebrew-3899",
+              "cht": "飯"
+            },
+            {
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "並不"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and do call",
-              "punct": "."
+              "cht": "求告"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "。"
             }
           ]
         },
@@ -162,55 +173,58 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "psa.6.8",
-          "cunp": "你們一切作孽的人，離開我吧！ 因為耶和華聽了我哀哭的聲音。",
+          "nasb": "Depart from me, all you who do iniquity, For the Lord has heard the voice of my weeping.",
           "words": [
             {
-              "id": "hebrew-5493",
-              "eng": "Depart"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from me"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "你們一切"
             },
             {
               "id": "hebrew-6466",
-              "eng": "you workers"
+              "cht": "作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity",
-              "punct": "–"
+              "cht": "孽"
+            },
+            {
+              "id": "hebrew-6466",
+              "cht": "的人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5493",
+              "cht": "離開"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "has heard"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-6963",
-              "eng": "the voice"
+              "id": "hebrew-8085",
+              "cht": "聽了"
             },
             {
               "id": "hebrew-1065",
-              "eng": "of my weeping",
-              "punct": "."
+              "cht": "我哀哭"
             },
             {
-              "id": "hebrew-6466"
-            },
-            {
-              "id": ""
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "。"
             }
           ]
         },
@@ -222,36 +236,37 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "psa.94.4",
-          "cunp": "他們絮絮叨叨說傲慢的話； 一切作孽的人都自己誇張。",
+          "nasb": "They pour forth words, they speak arrogantly; All who do wickedness vaunt themselves.",
           "words": [
             {
               "id": "hebrew-5042",
-              "eng": "they utter speech"
+              "cht": "他們絮絮叨叨"
             },
             {
               "id": "hebrew-1696",
-              "eng": "[and] speak"
+              "cht": "說"
             },
             {
               "id": "hebrew-6277",
-              "eng": "insolent things"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "boast in themselves"
+              "cht": "傲慢的話",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "一切"
             },
             {
               "id": "hebrew-6466",
-              "eng": "the workers"
+              "cht": "作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity",
-              "punct": "."
+              "cht": "孽"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "的人都自己誇張",
+              "punct_cht": "。"
             }
           ]
         },
@@ -263,57 +278,59 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "psa.92.7",
-          "cunp": "惡人茂盛如草， 一切作孽之人發旺的時候， 正是他們要滅亡， 直到永遠。",
+          "nasb": "That when the wicked sprouted up like grass And all who did iniquity flourished, It was only that they might be destroyed forevermore.",
           "words": [
             {
-              "id": "hebrew-6524",
-              "eng": "When spring up"
+              "id": "hebrew-7563",
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-7563",
-              "eng": "the wicked"
+              "id": "hebrew-6524",
+              "cht": "茂盛"
             },
             {
               "id": "hebrew-3644",
-              "eng": "like"
+              "cht": "如"
             },
             {
               "id": "hebrew-6212",
-              "eng": "grass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6692",
-              "eng": "and when flourish",
-              "punct": "–"
+              "cht": "草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "一切"
             },
             {
               "id": "hebrew-6466",
-              "eng": "the workers"
+              "cht": "作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity"
+              "cht": "孽"
+            },
+            {
+              "id": "hebrew-6692",
+              "cht": "之人發旺"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8045",
-              "eng": "[it is] that they may be destroyed"
-            },
-            {
-              "id": "hebrew-5703",
-              "eng": "forever"
+              "cht": "正是他們要滅亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "forever",
-              "punct": "."
+              "cht": "直到"
             },
             {
-              "id": ""
+              "id": "hebrew-5703",
+              "cht": "永遠",
+              "punct_cht": "。"
             }
           ]
         },
@@ -325,51 +342,50 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "psa.5.5",
-          "cunp": "狂傲人不能站在你眼前； 凡作孽的，都是你所恨惡的。",
+          "nasb": "The boastful shall not stand before Your eyes; You hate all who do iniquity.",
           "words": [
             {
+              "id": "hebrew-1984",
+              "cht": "狂傲人"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "Not"
+              "cht": "不能"
             },
             {
               "id": "hebrew-3320",
-              "eng": "shall stand"
-            },
-            {
-              "id": "hebrew-1984",
-              "eng": "the boastful"
-            },
-            {
-              "id": "hebrew-2962",
-              "eng": "in"
+              "cht": "站"
             },
             {
               "id": "hebrew-5869",
-              "eng": "Your sight",
-              "punct": "–"
+              "cht": "在你眼"
             },
             {
-              "id": "hebrew-8130",
-              "eng": "You hate"
+              "id": "hebrew-5048",
+              "cht": "前",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-6466",
-              "eng": "workers"
+              "cht": "作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity",
-              "punct": "."
+              "cht": "孽"
             },
             {
-              "id": "hebrew-5048"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-8130",
+              "cht": "都是你所恨惡的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -381,62 +397,62 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "psa.125.5",
-          "cunp": "至於那偏行彎曲道路的人， 耶和華必使他和作惡的人一同出去受刑。 願平安歸於以色列！",
+          "nasb": "But as for those who turn aside to their crooked ways, The Lord will lead them away with the doers of iniquity. Peace be upon Israel.",
           "words": [
             {
               "id": "hebrew-5186",
-              "eng": "And as for such as turn aside"
+              "cht": "至於那偏行"
             },
             {
               "id": "hebrew-6128",
-              "eng": "to their crooked ways",
-              "punct": "､"
+              "cht": "彎曲道路"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "shall lead them away"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
+              "cht": "必使他和"
             },
             {
               "id": "hebrew-6466",
-              "eng": "the workers"
+              "cht": "作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity",
-              "punct": "."
+              "cht": "惡"
+            },
+            {
+              "id": "hebrew-854",
+              "cht": "的人一同"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "出去"
+            },
+            {
+              "id": "",
+              "cht": "受刑",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7965",
-              "eng": "Peace [be]"
+              "cht": "願平安"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
+              "cht": "歸於"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-854"
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
+              "cht": "以色列",
+              "punct_cht": "！"
             }
           ]
         },
@@ -448,37 +464,37 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "pro.10.29",
-          "cunp": "耶和華的道是正直人的保障， 卻成了作孽人的敗壞。",
+          "nasb": "The way of the Lord is a stronghold to the upright, But ruin to the workers of iniquity.",
           "words": [
             {
-              "id": "hebrew-4581",
-              "eng": "[is] strength"
-            },
-            {
-              "id": "hebrew-8537",
-              "eng": "for the upright",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1870",
-              "eng": "the way"
+              "cht": "的道"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-8537",
+              "cht": "是正直人"
             },
             {
-              "id": "hebrew-4288",
-              "eng": "but destruction [will come]"
+              "id": "hebrew-4581",
+              "cht": "的保障",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6466",
-              "eng": "to the workers"
+              "cht": "卻成了作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity",
-              "punct": "."
+              "cht": "孽"
+            },
+            {
+              "id": "hebrew-4288",
+              "cht": "人的敗壞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -489,40 +505,37 @@
             "hebrew-6504": 3.288933040646453
           },
           "verseKey": "job.4.11",
-          "cunp": "老獅子因絕食而死； 母獅之子也都離散。",
+          "nasb": "The lion perishes for lack of prey, And the whelps of the lioness are scattered.",
           "words": [
             {
               "id": "hebrew-3918",
-              "eng": "The old lion"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "perishes"
+              "cht": "老獅子"
             },
             {
               "id": "hebrew-1097",
-              "eng": "for lack"
+              "cht": "因絕"
             },
             {
               "id": "hebrew-2964",
-              "eng": "of prey",
-              "punct": "､"
+              "cht": "食"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "and the cubs"
+              "id": "hebrew-6",
+              "cht": "而死",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3833",
-              "eng": "of the lioness"
+              "cht": "母獅"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "之子"
             },
             {
               "id": "hebrew-6504",
-              "eng": "are scattered",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "也都離散",
+              "punct_cht": "。"
             }
           ]
         },
@@ -533,42 +546,42 @@
             "hebrew-205": 2.0060902499323663
           },
           "verseKey": "pro.11.7",
-          "cunp": "惡人一死，他的指望必滅絕； 罪人的盼望也必滅沒。",
+          "nasb": "When a wicked man dies, his expectation will perish, And the hope of strong men perishes.",
           "words": [
             {
-              "id": "hebrew-4194",
-              "eng": "When dies",
-              "punct": "､"
+              "id": "hebrew-7563",
+              "cht": "惡"
             },
             {
               "id": "hebrew-120",
-              "eng": "a man"
+              "cht": "人"
             },
             {
-              "id": "hebrew-7563",
-              "eng": "wicked"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "will perish",
-              "punct": "､"
+              "id": "hebrew-4194",
+              "cht": "一死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8615",
-              "eng": "[his] expectation"
-            },
-            {
-              "id": "hebrew-8431",
-              "eng": "and the hope in"
-            },
-            {
-              "id": "hebrew-205",
-              "eng": "strength"
+              "cht": "他的指望"
             },
             {
               "id": "hebrew-6",
-              "eng": "perishes",
-              "punct": "."
+              "cht": "必滅絕",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-205",
+              "cht": "罪人"
+            },
+            {
+              "id": "hebrew-8431",
+              "cht": "的盼望"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "也必滅沒",
+              "punct_cht": "。"
             }
           ]
         }

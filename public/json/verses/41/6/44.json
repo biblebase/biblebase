@@ -3,14 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-2532": "And",
-          "greek-2258": "were",
-          "greek-3588": "the",
-          "greek-5315": "having eaten of",
-          "greek-740": "loaves",
-          "greek-4000": "five thousand",
-          "greek-435": "men",
-          "greek-5616": null
+          "eng": {
+            "greek-2532": "And",
+            "greek-2258": "were",
+            "greek-3588": "the",
+            "greek-5315": "having eaten of",
+            "greek-740": "loaves",
+            "greek-4000": "five thousand",
+            "greek-435": "men",
+            "greek-5616": null
+          },
+          "cht": {
+            "greek-2258": "有",
+            "greek-5315": "吃",
+            "greek-740": "餅",
+            "greek-4000": "五千",
+            "greek-435": "的男人",
+            "greek-5616": "共"
+          }
         }
       },
       "translations": {
@@ -26,82 +36,64 @@
             "greek-5616": 3.55737257852982
           },
           "verseKey": "luk.9.14",
-          "cunp": "那時，人數約有五千。耶穌對門徒說：「叫他們一排一排地坐下，每排大約五十個人。」",
+          "nasb": "(For there were about five thousand men.) And He said to His disciples, “Have them sit down to eat in groups of about fifty each.”",
           "words": [
             {
-              "id": "greek-2258",
-              "eng": "They were"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "那時",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5616",
-              "eng": "about"
+              "cht": "人數約"
+            },
+            {
+              "id": "greek-2258",
+              "cht": "有"
             },
             {
               "id": "greek-435",
-              "eng": "men"
+              "cht": "五千",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-4000",
-              "eng": "five thousand",
-              "punct": "."
-            },
-            {
-              "id": "greek-2036",
-              "eng": "He said"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "耶穌對"
             },
             {
               "id": "greek-3101",
-              "eng": "disciples"
+              "cht": "門徒"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
+              "cht": "叫他們"
             },
             {
               "id": "greek-2625",
-              "eng": "Make sit down"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2828",
-              "eng": "groups"
-            },
-            {
-              "id": "greek-5616",
-              "eng": "of about"
+              "cht": "一排一排的坐下",
+              "punct_cht": "，"
             },
             {
               "id": "greek-303",
-              "eng": "in"
+              "cht": "每"
+            },
+            {
+              "id": "greek-2828",
+              "cht": "排"
             },
             {
               "id": "greek-4004",
-              "eng": "fifty",
-              "punct": "."
+              "cht": "大約五十"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "個人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -113,53 +105,42 @@
             "greek-5616": 3.55737257852982
           },
           "verseKey": "mat.14.21",
-          "cunp": "吃的人，除了婦女孩子，約有五千。",
+          "nasb": "There were about five thousand men who ate, besides women and children.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "Those"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
               "id": "greek-2068",
-              "eng": "eating"
-            },
-            {
-              "id": "greek-2258",
-              "eng": "were"
+              "cht": "吃的"
             },
             {
               "id": "greek-435",
-              "eng": "men"
-            },
-            {
-              "id": "greek-5616",
-              "eng": "about"
-            },
-            {
-              "id": "greek-4000",
-              "eng": "five thousand",
-              "punct": ","
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5565",
-              "eng": "besides"
-            },
-            {
-              "id": "greek-1135",
-              "eng": "women"
+              "cht": "除了"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "婦女"
             },
             {
               "id": "greek-3813",
-              "eng": "children",
-              "punct": "."
+              "cht": "孩子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5616",
+              "cht": "約"
+            },
+            {
+              "id": "greek-2258",
+              "cht": "有"
+            },
+            {
+              "id": "greek-4000",
+              "cht": "五千",
+              "punct_cht": "。"
             }
           ]
         },
@@ -170,103 +151,72 @@
             "greek-435": 1.2463035947172354
           },
           "verseKey": "jhn.6.10",
-          "cunp": "耶穌說：「你們叫眾人坐下。」原來那地方的草多，眾人就坐下，數目約有五千。",
+          "nasb": "Jesus said, “Have the people sit down.” Now there was much grass in the place. So the men sat down, in number about five thousand.",
           "words": [
             {
-              "id": "greek-2036",
-              "eng": "Said"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4160",
-              "eng": "Make"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你們叫"
             },
             {
               "id": "greek-444",
-              "eng": "men"
+              "cht": "眾人"
             },
             {
               "id": "greek-377",
-              "eng": "to recline",
-              "punct": "."
-            },
-            {
-              "id": "greek-2258",
-              "eng": "There was"
+              "cht": "坐下",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1161",
-              "eng": "now"
+              "cht": "原來"
             },
             {
-              "id": "greek-5528",
-              "eng": "grass"
-            },
-            {
-              "id": "greek-4183",
-              "eng": "much"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2258",
+              "cht": "那"
             },
             {
               "id": "greek-5117",
-              "eng": "place",
-              "punct": "."
+              "cht": "地方"
             },
             {
-              "id": "greek-377",
-              "eng": "Reclined"
+              "id": "greek-5528",
+              "cht": "的草"
             },
             {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-4183",
+              "cht": "多",
+              "punct_cht": "，"
             },
             {
               "id": "greek-435",
-              "eng": "men",
-              "punct": ","
+              "cht": "眾人"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-377",
+              "cht": "就坐下",
+              "punct_cht": "，"
             },
             {
               "id": "greek-706",
-              "eng": "number"
+              "cht": "數目"
             },
             {
-              "id": "greek-5613",
-              "eng": "about"
+              "id": "greek-5616",
+              "cht": "約有"
             },
             {
               "id": "greek-4000",
-              "eng": "five thousand",
-              "punct": "."
-            },
-            {
-              "id": "greek-5616"
+              "cht": "五千",
+              "punct_cht": "。"
             }
           ]
         },
@@ -277,78 +227,67 @@
             "greek-4000": 6.2511507603914795
           },
           "verseKey": "mrk.8.19",
-          "cunp": "我擘開那五個餅分給五千人，你們收拾的零碎裝滿了多少籃子呢？」他們說：「十二個。」",
+          "nasb": "when I broke the five loaves for the five thousand, how many baskets full of broken pieces you picked up?” They *said to Him, “Twelve.”",
           "words": [
             {
-              "id": "greek-3753",
-              "eng": "When"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2806",
+              "cht": "我擘開"
             },
             {
               "id": "greek-4002",
-              "eng": "five"
+              "cht": "那五個"
             },
             {
               "id": "greek-740",
-              "eng": "loaves"
-            },
-            {
-              "id": "greek-2806",
-              "eng": "I broke"
+              "cht": "餅"
             },
             {
               "id": "greek-1519",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "分給"
             },
             {
               "id": "greek-4000",
-              "eng": "five thousand",
-              "punct": ","
-            },
-            {
-              "id": "greek-4214",
-              "eng": "how many"
-            },
-            {
-              "id": "greek-2894",
-              "eng": "hand-baskets"
-            },
-            {
-              "id": "greek-2801",
-              "eng": "of fragments"
-            },
-            {
-              "id": "greek-4134",
-              "eng": "full"
+              "cht": "五千人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-142",
-              "eng": "took you up",
-              "punct": "?"
+              "cht": "你們收拾的"
             },
             {
-              "id": "greek-3004",
-              "eng": "They say"
+              "id": "greek-2801",
+              "cht": "零碎"
+            },
+            {
+              "id": "greek-4134",
+              "cht": "裝滿了"
+            },
+            {
+              "id": "greek-4214",
+              "cht": "多少"
+            },
+            {
+              "id": "greek-2894",
+              "cht": "籃子"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-846",
-              "eng": "to Him",
-              "punct": ","
+              "cht": "他們"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1427",
-              "eng": "Twelve",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "十二個",
+              "punct_cht": "。"
             }
           ]
         },
@@ -359,71 +298,65 @@
             "greek-4000": 6.2511507603914795
           },
           "verseKey": "mat.16.9",
-          "cunp": "你們還不明白嗎？不記得那五個餅分給五千人、又收拾了多少籃子的零碎嗎？",
+          "nasb": "Do you not yet understand or remember the five loaves of the five thousand, and how many baskets full you picked up?",
           "words": [
             {
               "id": "greek-3768",
-              "eng": "Not yet"
+              "cht": "你們還不"
             },
             {
               "id": "greek-3539",
-              "eng": "do you understand",
-              "punct": ","
+              "cht": "明白"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "greek-3761",
-              "eng": "nor"
+              "cht": "不"
             },
             {
               "id": "greek-3421",
-              "eng": "remember"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "記得"
             },
             {
               "id": "greek-4002",
-              "eng": "five"
+              "cht": "那五個"
             },
             {
               "id": "greek-740",
-              "eng": "loaves"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
+              "cht": "餅"
             },
             {
               "id": "greek-4000",
-              "eng": "five thousand",
-              "punct": ","
+              "cht": "分給五千"
+            },
+            {
+              "id": "",
+              "cht": "人、"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4214",
-              "eng": "how many"
-            },
-            {
-              "id": "greek-2894",
-              "eng": "hand-baskets"
+              "cht": "又"
             },
             {
               "id": "greek-2983",
-              "eng": "you gathered",
-              "punct": "?"
+              "cht": "收拾了"
             },
             {
-              "id": ""
+              "id": "greek-4214",
+              "cht": "多少"
             },
             {
-              "id": ""
+              "id": "greek-2894",
+              "cht": "籃子"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的零碎嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -433,130 +366,90 @@
             "greek-435": 1.2463035947172354
           },
           "verseKey": "rom.7.3",
-          "cunp": "所以丈夫活着，她若歸於別人，便叫淫婦；丈夫若死了，她就脫離了丈夫的律法，雖然歸於別人，也不是淫婦。",
+          "nasb": "So then, if while her husband is living she is joined to another man, she shall be called an adulteress; but if her husband dies, she is free from the law, so that she is not an adulteress though she is joined to another man.",
           "words": [
             {
               "id": "greek-686",
-              "eng": "Then"
+              "cht": "所以"
             },
             {
-              "id": "greek-3767",
-              "eng": "therefore",
-              "punct": ","
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-2198",
-              "eng": "being alive"
+              "cht": "活著",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1096",
+              "cht": "她若歸於"
             },
             {
               "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
-            },
-            {
-              "id": "greek-3428",
-              "eng": "an adulteress"
+              "cht": "別人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5537",
-              "eng": "she will be called"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "she is"
-            },
-            {
-              "id": "greek-435",
-              "eng": "to man"
-            },
-            {
-              "id": "greek-2087",
-              "eng": "another",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-599",
-              "eng": "should die"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
-            },
-            {
-              "id": "greek-1658",
-              "eng": "free"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "she is"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "[so as for]"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1511",
-              "eng": "to be"
-            },
-            {
-              "id": "greek-846",
-              "eng": "her"
+              "cht": "便叫"
             },
             {
               "id": "greek-3428",
-              "eng": "an adulteress",
-              "punct": ","
-            },
-            {
-              "id": "greek-1096",
-              "eng": "having been"
+              "cht": "淫婦",
+              "punct_cht": "；"
             },
             {
               "id": "greek-435",
-              "eng": "to man"
+              "cht": "丈夫"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "若"
+            },
+            {
+              "id": "greek-599",
+              "cht": "死了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "她就"
+            },
+            {
+              "id": "greek-1658",
+              "cht": "脫離了"
+            },
+            {
+              "id": "greek-575",
+              "cht": "丈夫的"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1096",
+              "cht": "雖然歸於"
             },
             {
               "id": "greek-2087",
-              "eng": "another",
-              "punct": "."
+              "cht": "別人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "也不"
+            },
+            {
+              "id": "greek-1511",
+              "cht": "是"
+            },
+            {
+              "id": "greek-3428",
+              "cht": "淫婦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -567,39 +460,28 @@
             "greek-5616": 3.55737257852982
           },
           "verseKey": "act.19.7",
-          "cunp": "一共約有十二個人。",
+          "nasb": "There were in all about twelve men.",
           "words": [
             {
-              "id": "greek-2258",
-              "eng": "There were"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-3956",
-              "eng": "in all"
-            },
-            {
-              "id": "greek-435",
-              "eng": "men"
+              "cht": "一共"
             },
             {
               "id": "greek-5616",
-              "eng": "about"
+              "cht": "約"
             },
             {
-              "id": "greek-1427",
-              "eng": "twelve",
-              "punct": "."
+              "id": "greek-2258",
+              "cht": "有"
             },
             {
-              "id": "greek-1177"
+              "id": "greek-1177",
+              "cht": "十二個"
+            },
+            {
+              "id": "greek-435",
+              "cht": "人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -609,91 +491,64 @@
             "greek-435": 1.2463035947172354
           },
           "verseKey": "rom.7.2",
-          "cunp": "就如女人有了丈夫，丈夫還活着，就被律法約束；丈夫若死了，就脫離了丈夫的律法。",
+          "nasb": "For the married woman is bound by law to her husband while he is living; but if her husband dies, she is released from the law concerning the husband.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-5220",
-              "eng": "married"
+              "cht": "就如"
             },
             {
               "id": "greek-1135",
-              "eng": "woman",
-              "punct": ","
+              "cht": "女人"
             },
             {
-              "id": "greek-3588",
-              "eng": "to the"
+              "id": "greek-5220",
+              "cht": "有了丈夫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-2198",
-              "eng": "living"
+              "cht": "還活著",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-435",
-              "eng": "husband"
+              "id": "greek-3551",
+              "cht": "就被律法"
             },
             {
               "id": "greek-1210",
-              "eng": "is bound"
+              "cht": "約束",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3551",
-              "eng": "by law",
-              "punct": ";"
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "若"
             },
             {
               "id": "greek-599",
-              "eng": "should die"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2673",
-              "eng": "she is cleared"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "就脫離了"
             },
             {
               "id": "greek-435",
-              "eng": "husband",
-              "punct": "."
+              "cht": "丈夫的"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法",
+              "punct_cht": "。"
             }
           ]
         },
@@ -704,171 +559,104 @@
             "greek-740": 1.0134825791257593
           },
           "verseKey": "jhn.6.51",
-          "cunp": "我是從天上降下來生命的糧；人若吃這糧，就必永遠活着。我所要賜的糧就是我的肉，為世人之生命所賜的。」",
+          "nasb": "I am the living bread that came down out of heaven; if anyone eats of this bread, he will live forever; and the bread also which I will give for the life of the world is My flesh.”",
           "words": [
             {
               "id": "greek-1473",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "greek-1510",
-              "eng": "am"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-740",
-              "eng": "bread"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "living",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是"
             },
             {
               "id": "greek-1537",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "從"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven"
+              "cht": "天上"
             },
             {
               "id": "greek-2597",
-              "eng": "having come down",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "anyone"
-            },
-            {
-              "id": "greek-5315",
-              "eng": "shall have eaten"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-5127",
-              "eng": "this"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-740",
-              "eng": "bread",
-              "punct": ","
+              "cht": "降下來"
             },
             {
               "id": "greek-2198",
-              "eng": "he will live"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-165",
-              "eng": "age",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "生命"
             },
             {
               "id": "greek-740",
-              "eng": "bread"
+              "cht": "的糧",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-1161",
-              "eng": "also"
+              "id": "greek-5100",
+              "cht": "人"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "若"
+            },
+            {
+              "id": "greek-5315",
+              "cht": "吃"
+            },
+            {
+              "id": "greek-5127",
+              "cht": "這"
+            },
+            {
+              "id": "greek-740",
+              "cht": "糧",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "就必永遠"
+            },
+            {
+              "id": "greek-2198",
+              "cht": "活著",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-1473",
+              "cht": "我"
             },
             {
               "id": "greek-3739",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "I"
+              "cht": "所"
             },
             {
               "id": "greek-1325",
-              "eng": "will give",
-              "punct": ","
+              "cht": "要賜"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-740",
+              "cht": "的糧"
             },
             {
-              "id": "greek-4561",
-              "eng": "flesh"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "of Me"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
+              "id": "",
+              "cht": "就是我的肉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5228",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "為"
             },
             {
               "id": "greek-2889",
-              "eng": "world"
+              "cht": "世人"
             },
             {
               "id": "greek-2222",
-              "eng": "life",
-              "punct": "."
+              "cht": "之生命"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "所賜的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -878,125 +666,103 @@
             "greek-5616": 3.55737257852982
           },
           "verseKey": "rom.6.13",
-          "cunp": "也不要將你們的肢體獻給罪作不義的器具；倒要像從死裏復活的人，將自己獻給神，並將肢體作義的器具獻給神。",
+          "nasb": "and do not go on presenting the members of your body to sin as instruments of unrighteousness; but present yourselves to God as those alive from the dead, and your members as instruments of righteousness to God.",
           "words": [
             {
               "id": "greek-3366",
-              "eng": "Neither"
-            },
-            {
-              "id": "greek-3936",
-              "eng": "yield"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3196",
-              "eng": "members"
+              "cht": "也不要"
             },
             {
               "id": "greek-5216",
-              "eng": "of you"
+              "cht": "將你們的"
             },
             {
-              "id": "greek-3696",
-              "eng": "[as] instruments"
+              "id": "greek-3196",
+              "cht": "肢體"
             },
             {
-              "id": "greek-93",
-              "eng": "of unrighteousness"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3936",
+              "cht": "獻給"
             },
             {
               "id": "greek-266",
-              "eng": "to sin",
-              "punct": ","
+              "cht": "罪"
             },
             {
-              "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3936",
-              "eng": "yield"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "yourselves"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "to God",
-              "punct": ","
-            },
-            {
-              "id": "greek-5616",
-              "eng": "as"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out from"
-            },
-            {
-              "id": "greek-3498",
-              "eng": "[the] dead"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "living",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3196",
-              "eng": "members"
-            },
-            {
-              "id": "greek-5216",
-              "eng": "of you",
-              "punct": ","
+              "id": "greek-93",
+              "cht": "作不義的"
             },
             {
               "id": "greek-3696",
-              "eng": "[as] instruments"
+              "cht": "器具",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-1343",
-              "eng": "of righteousness"
+              "id": "greek-235",
+              "cht": "倒要"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5613",
+              "cht": "像"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-3498",
+              "cht": "死裡"
+            },
+            {
+              "id": "greek-2198",
+              "cht": "復活"
+            },
+            {
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1438",
+              "cht": "將自己"
+            },
+            {
+              "id": "greek-3936",
+              "cht": "獻給"
             },
             {
               "id": "greek-2316",
-              "eng": "to God",
-              "punct": "."
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-5613"
+              "id": "greek-2532",
+              "cht": "並"
             },
             {
-              "id": ""
+              "id": "greek-5216",
+              "cht": "將"
             },
             {
-              "id": ""
+              "id": "greek-3196",
+              "cht": "肢體"
+            },
+            {
+              "id": "greek-1343",
+              "cht": "作義的"
+            },
+            {
+              "id": "greek-3696",
+              "cht": "器具"
+            },
+            {
+              "id": "",
+              "cht": "獻給"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         }

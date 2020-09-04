@@ -3,21 +3,39 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1571": "Indeed",
-          "hebrew-853": "from",
-          "hebrew-2088": "this [one]",
-          "hebrew-3318": "you will go forth",
-          "hebrew-3027": "and with your hands",
-          "hebrew-5921": "on",
-          "hebrew-7218": "your head",
-          "hebrew-3588": "for",
-          "hebrew-3988": "has rejected",
-          "hebrew-3068": "Yahweh",
-          "hebrew-4009": "your trusted allies",
-          "hebrew-3808": "and not",
-          "hebrew-6743": "you will prosper",
-          "hebrew-4480": null,
-          "hebrew-854": null
+          "eng": {
+            "hebrew-1571": "Indeed",
+            "hebrew-853": "from",
+            "hebrew-2088": "this [one]",
+            "hebrew-3318": "you will go forth",
+            "hebrew-3027": "and with your hands",
+            "hebrew-5921": "on",
+            "hebrew-7218": "your head",
+            "hebrew-3588": "for",
+            "hebrew-3988": "has rejected",
+            "hebrew-3068": "Yahweh",
+            "hebrew-4009": "your trusted allies",
+            "hebrew-3808": "and not",
+            "hebrew-6743": "you will prosper",
+            "hebrew-4480": null,
+            "hebrew-854": null
+          },
+          "cht": {
+            "hebrew-1571": "你也必",
+            "hebrew-2088": "你也必",
+            "hebrew-3318": "從埃及出來",
+            "hebrew-3027": "兩手",
+            "hebrew-5921": "抱",
+            "hebrew-7218": "頭",
+            "hebrew-3588": "因為",
+            "hebrew-3988": "已經棄絕",
+            "hebrew-3068": "耶和華",
+            "hebrew-4009": "你所倚靠的",
+            "hebrew-3808": "你必不",
+            "hebrew-6743": "得順利",
+            "hebrew-4480": "你也必",
+            "hebrew-854": "你也必"
+          }
         }
       },
       "translations": {
@@ -34,92 +52,93 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "1sa.8.7",
-          "cunp": "耶和華對撒母耳說：「百姓向你說的一切話，你只管依從；因為他們不是厭棄你，乃是厭棄我，不要我作他們的王。",
+          "nasb": "The Lord said to Samuel, “Listen to the voice of the people in regard to all that they say to you, for they have not rejected you, but they have rejected Me from being king over them.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-8050",
-              "eng": "Samuel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "Heed"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "the voice"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of the people"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "in all"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "撒母耳"
             },
             {
               "id": "hebrew-559",
-              "eng": "they say"
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "百姓"
             },
             {
               "id": "hebrew-413",
-              "eng": "to you"
+              "cht": "向你"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "你只管依從",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "you"
+              "cht": "他們不是"
             },
             {
               "id": "hebrew-3988",
-              "eng": "they have rejected"
+              "cht": "厭棄"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "Me"
+              "cht": "乃是"
             },
             {
               "id": "hebrew-3988",
-              "eng": "they have rejected"
+              "cht": "厭棄"
             },
             {
-              "id": "hebrew-4427",
-              "eng": "that I should not reign"
+              "id": "hebrew-853",
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over them",
-              "punct": "."
+              "cht": "不要我作他們"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4427",
+              "cht": "的王",
+              "punct_cht": "。"
             }
           ]
         },
@@ -130,31 +149,32 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "jer.6.30",
-          "cunp": "人必稱他們為被棄的銀渣， 因為耶和華已經棄掉他們。",
+          "nasb": "They call them rejected silver, Because the Lord has rejected them.",
           "words": [
             {
-              "id": "hebrew-3701",
-              "eng": "Silver"
+              "id": "hebrew-7121",
+              "cht": "人必稱"
             },
             {
               "id": "hebrew-3988",
-              "eng": "rejected"
+              "cht": "為被棄的"
             },
             {
-              "id": "hebrew-7121",
-              "eng": "[People] will call"
+              "id": "hebrew-3701",
+              "cht": "銀渣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-3988",
-              "eng": "has rejected"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3988",
+              "cht": "已經棄掉"
             }
           ]
         },
@@ -165,115 +185,100 @@
             "hebrew-6743": 2.1248744020317227
           },
           "verseKey": "jer.22.30",
-          "cunp": "耶和華如此說： 要寫明這人算為無子， 是平生不得亨通的； 因為他後裔中再無一人得亨通， 能坐在大衛的寶座上治理猶大。",
+          "nasb": "Thus says the Lord, ‘Write this man down childless, A man who will not prosper in his days; For no man of his descendants will prosper Sitting on the throne of David Or ruling again in Judah.’ ”",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3789",
-              "eng": "Write down"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "man"
+              "cht": "要寫明"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-6185",
-              "eng": "as childless",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1397",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-6743",
-              "eng": "[who] shall prosper"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in his days",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "none"
-            },
-            {
-              "id": "hebrew-6743",
-              "eng": "shall prosper",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "of his"
+              "cht": "這"
             },
             {
               "id": "hebrew-376",
-              "eng": "descendants"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-6185",
+              "cht": "算為無子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "是平生"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不得"
+            },
+            {
+              "id": "hebrew-6743",
+              "cht": "亨通"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "他後裔中"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "再無"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "一人"
+            },
+            {
+              "id": "hebrew-6743",
+              "cht": "得亨通",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3427",
-              "eng": "Sitting"
+              "cht": "能坐"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-3678",
-              "eng": "the throne"
+              "cht": "在"
             },
             {
               "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "､"
+              "cht": "大衛"
+            },
+            {
+              "id": "hebrew-3678",
+              "cht": "的寶座"
             },
             {
               "id": "hebrew-4910",
-              "eng": "and ruling"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "anymore"
+              "cht": "上治理"
             },
             {
               "id": "hebrew-3063",
-              "eng": "in Judah",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "猶大",
+              "punct_cht": "。"
             }
           ]
         }

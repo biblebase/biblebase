@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3068": "Yahweh",
-          "hebrew-6491": "opens [the eyes of]",
-          "hebrew-5787": "the blind",
-          "hebrew-2210": "raises",
-          "hebrew-3721": "those who are bowed down",
-          "hebrew-157": "loves",
-          "hebrew-6662": "the righteous",
-          "": null
+          "eng": {
+            "hebrew-3068": "Yahweh",
+            "hebrew-6491": "opens [the eyes of]",
+            "hebrew-5787": "the blind",
+            "hebrew-2210": "raises",
+            "hebrew-3721": "those who are bowed down",
+            "hebrew-157": "loves",
+            "hebrew-6662": "the righteous",
+            "": null
+          },
+          "cht": {
+            "hebrew-3068": "耶和華",
+            "hebrew-6491": "開了",
+            "hebrew-5787": "瞎子",
+            "hebrew-2210": "扶起",
+            "hebrew-3721": "被壓下",
+            "hebrew-157": "喜愛",
+            "hebrew-6662": "義人"
+          }
         }
       },
       "translations": {
@@ -28,37 +39,39 @@
             "hebrew-3721": 6.7856512265994295
           },
           "verseKey": "psa.145.14",
-          "cunp": "凡跌倒的，耶和華將他們扶持； 凡被壓下的，將他們扶起。",
+          "nasb": "The Lord sustains all who fall And raises up all who are bowed down.",
           "words": [
             {
-              "id": "hebrew-5564",
-              "eng": "Upholds"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-5307",
-              "eng": "who fall",
-              "punct": "､"
+              "cht": "跌倒的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2210",
-              "eng": "and raises up"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5564",
+              "cht": "將他們扶持",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-3721",
-              "eng": "[who are] bowed down",
-              "punct": "."
+              "cht": "被壓下的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2210",
+              "cht": "將他們扶起",
+              "punct_cht": "。"
             }
           ]
         },
@@ -68,74 +81,67 @@
             "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "mat.15.14",
-          "cunp": "任憑他們吧！他們是瞎眼領路的；若是瞎子領瞎子，兩個人都要掉在坑裏。」",
+          "nasb": "Let them alone; they are blind guides of the blind. And if a blind man guides a blind man, both will fall into a pit.”",
           "words": [
             {
               "id": "greek-863",
-              "eng": "Leave"
+              "cht": "任憑"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": "!"
+              "cht": "他們"
             },
             {
-              "id": "greek-5185",
-              "eng": "Blind"
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！"
             },
             {
               "id": "greek-1526",
-              "eng": "they are"
-            },
-            {
-              "id": "greek-3595",
-              "eng": "guides"
+              "cht": "他們是"
             },
             {
               "id": "greek-5185",
-              "eng": "of the blind",
-              "punct": "."
+              "cht": "瞎眼"
             },
             {
               "id": "greek-5185",
-              "eng": "Blind"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-5185",
-              "eng": "blind"
+              "cht": "領路的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1437",
-              "eng": "if"
+              "cht": "若是"
+            },
+            {
+              "id": "greek-5185",
+              "cht": "瞎子"
             },
             {
               "id": "greek-3594",
-              "eng": "they lead",
-              "punct": ","
+              "cht": "領"
+            },
+            {
+              "id": "greek-5185",
+              "cht": "瞎子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-297",
-              "eng": "both"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-999",
-              "eng": "a pit"
+              "cht": "兩個人"
             },
             {
               "id": "greek-4098",
-              "eng": "will fall",
-              "punct": "."
+              "cht": "都要掉"
             },
             {
-              "id": ""
+              "id": "greek-999",
+              "cht": "在坑"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -146,112 +152,97 @@
             "hebrew-6491": 3.6363404553480576
           },
           "verseKey": "2ki.6.17",
-          "cunp": "以利沙禱告說：「耶和華啊，求你開這少年人的眼目，使他能看見。」耶和華開他的眼目，他就看見滿山有火車火馬圍繞以利沙。",
+          "nasb": "Then Elisha prayed and said, “O Lord, I pray, open his eyes that he may see.” And the Lord opened the servant’s eyes and he saw; and behold, the mountain was full of horses and chariots of fire all around Elisha.",
           "words": [
             {
-              "id": "hebrew-6419",
-              "eng": "And prayed",
-              "punct": "､"
+              "id": "hebrew-477",
+              "cht": "以利沙"
             },
             {
-              "id": "hebrew-477",
-              "eng": "Elisha"
+              "id": "hebrew-6419",
+              "cht": "禱告"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-6491",
-              "eng": "open"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4994",
-              "eng": "I pray",
-              "punct": "､"
+              "cht": "求"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "his eyes",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "that he may see",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6491",
-              "eng": "And opened"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "the eyes"
+              "cht": "你開"
             },
             {
               "id": "hebrew-5288",
-              "eng": "of the young man",
-              "punct": "–"
+              "cht": "這少年人"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "的眼目",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "and he saw",
-              "punct": "–"
+              "cht": "使他能看見",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "開"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "他的眼目",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the mountain [was]"
+              "cht": "他就看見"
             },
             {
               "id": "hebrew-4390",
-              "eng": "full"
+              "cht": "滿"
             },
             {
-              "id": "hebrew-5483",
-              "eng": "of horses"
-            },
-            {
-              "id": "hebrew-7393",
-              "eng": "and chariots"
+              "id": "hebrew-2022",
+              "cht": "山"
             },
             {
               "id": "hebrew-784",
-              "eng": "of fire"
+              "cht": "有火"
+            },
+            {
+              "id": "hebrew-7393",
+              "cht": "車"
+            },
+            {
+              "id": "hebrew-5483",
+              "cht": "火馬"
             },
             {
               "id": "hebrew-5439",
-              "eng": "all around"
+              "cht": "圍繞"
             },
             {
               "id": "hebrew-477",
-              "eng": "Elisha",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "以利沙",
+              "punct_cht": "。"
             }
           ]
         },
@@ -262,98 +253,88 @@
             "hebrew-6491": 3.6363404553480576
           },
           "verseKey": "2ki.6.20",
-          "cunp": "他們進了撒馬利亞，以利沙禱告說：「耶和華啊，求你開這些人的眼目，使他們能看見。」耶和華開他們的眼目，他們就看見了，不料，是在撒馬利亞的城中。",
+          "nasb": "When they had come into Samaria, Elisha said, “O Lord, open the eyes of these men, that they may see.” So the Lord opened their eyes and they saw; and behold, they were in the midst of Samaria.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "So it was",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-935",
-              "eng": "when they had come"
+              "cht": "他們進了"
             },
             {
               "id": "hebrew-8111",
-              "eng": "to Samaria",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "that said",
-              "punct": "､"
+              "cht": "撒馬利亞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-477",
-              "eng": "Elisha"
+              "cht": "以利沙"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "禱告"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-6491",
-              "eng": "open"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "the eyes"
+              "cht": "求你開"
             },
             {
               "id": "hebrew-428",
-              "eng": "of these [men]"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "that they may see",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6491",
-              "eng": "And opened"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "這些"
             },
             {
               "id": "hebrew-5869",
-              "eng": "their eyes",
-              "punct": "､"
+              "cht": "人的眼目",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "and they saw",
-              "punct": "–"
+              "cht": "使他們能看見",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-6491",
+              "cht": "開"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "他們的眼目",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "他們就看見了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and there [they were]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "inside"
+              "cht": "不料",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8111",
-              "eng": "Samaria",
-              "punct": "."
+              "cht": "是在撒馬利亞"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-8432",
+              "cht": "的城中",
+              "punct_cht": "。"
             }
           ]
         },
@@ -364,56 +345,55 @@
             "hebrew-3721": 6.7856512265994295
           },
           "verseKey": "mic.6.6",
-          "cunp": "我朝見耶和華， 在至高神面前跪拜，當獻上甚麼呢？ 豈可獻一歲的牛犢為燔祭嗎？",
+          "nasb": "With what shall I come to the Lord And bow myself before the God on high? Shall I come to Him with burnt offerings, With yearling calves?",
           "words": [
             {
-              "id": "hebrew-4100",
-              "eng": "With what"
-            },
-            {
               "id": "hebrew-6923",
-              "eng": "shall I come before"
+              "cht": "我朝見"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3721",
-              "eng": "[And] bow myself"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "before the God"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4791",
-              "eng": "High"
+              "cht": "至高"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-3721",
+              "cht": "面前跪拜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "當獻上甚麼呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-6923",
-              "eng": "shall I come before Him"
-            },
-            {
-              "id": "hebrew-5930",
-              "eng": "with burnt offerings",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5695",
-              "eng": "with calves"
+              "cht": "豈可獻"
             },
             {
               "id": "hebrew-1121",
-              "eng": "old"
+              "cht": "一歲"
             },
             {
-              "id": "hebrew-8141",
-              "eng": "a year"
+              "id": "hebrew-5695",
+              "cht": "的牛犢"
             },
             {
-              "id": ""
+              "id": "hebrew-5930",
+              "cht": "為燔祭"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -424,98 +404,103 @@
             "hebrew-3721": 6.7856512265994295
           },
           "verseKey": "isa.58.5",
-          "cunp": "這樣禁食豈是我所揀選、 使人刻苦己心的日子嗎？ 豈是叫人垂頭像葦子， 用麻布和爐灰鋪在他以下嗎？ 你這可稱為禁食、為耶和華所悅納的日子嗎？",
+          "nasb": "Is it a fast like this which I choose, a day for a man to humble himself? Is it for bowing one’s head like a reed And for spreading out sackcloth and ashes as a bed? Will you call this a fast, even an acceptable day to the Lord?",
           "words": [
             {
               "id": "hebrew-2088",
-              "eng": "Like this"
+              "cht": "這樣"
+            },
+            {
+              "id": "hebrew-6685",
+              "cht": "禁食"
             },
             {
               "id": "hebrew-1961",
-              "eng": "is it"
-            },
-            {
-              "id": "hebrew-6685",
-              "eng": "a fast"
+              "cht": "豈是"
             },
             {
               "id": "hebrew-977",
-              "eng": "that I have chosen"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "a day"
-            },
-            {
-              "id": "hebrew-6031",
-              "eng": "to afflict"
+              "cht": "我所揀選、"
             },
             {
               "id": "hebrew-120",
-              "eng": "for a man"
+              "cht": "使人"
+            },
+            {
+              "id": "hebrew-6031",
+              "cht": "刻苦"
             },
             {
               "id": "hebrew-5315",
-              "eng": "his soul"
-            },
-            {
-              "id": "hebrew-3721",
-              "eng": "[is it] to bow down"
-            },
-            {
-              "id": "hebrew-100",
-              "eng": "like a bulrush",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "his head"
-            },
-            {
-              "id": "hebrew-8242",
-              "eng": "and sackcloth"
-            },
-            {
-              "id": "hebrew-665",
-              "eng": "and ashes"
-            },
-            {
-              "id": "hebrew-3331",
-              "eng": "to spread out"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "would this"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "you call"
-            },
-            {
-              "id": "hebrew-6685",
-              "eng": "a fast",
-              "punct": "､"
+              "cht": "己心"
             },
             {
               "id": "hebrew-3117",
-              "eng": "and day"
+              "cht": "的日子"
             },
             {
-              "id": "hebrew-7522",
-              "eng": "an acceptable"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-3721",
+              "cht": "豈是叫人垂"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "頭"
+            },
+            {
+              "id": "hebrew-100",
+              "cht": "像葦子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8242",
+              "cht": "用麻布"
+            },
+            {
+              "id": "hebrew-665",
+              "cht": "和爐灰"
+            },
+            {
+              "id": "hebrew-3331",
+              "cht": "鋪"
+            },
+            {
+              "id": "",
+              "cht": "在他以下嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "你這"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "可稱為"
+            },
+            {
+              "id": "hebrew-6685",
+              "cht": "禁食、"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh"
+              "cht": "為耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-7522",
+              "cht": "所悅納"
             },
             {
-              "id": ""
+              "id": "hebrew-3117",
+              "cht": "的日子"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -525,54 +510,55 @@
             "hebrew-3721": 6.7856512265994295
           },
           "verseKey": "psa.57.6",
-          "cunp": "他們為我的腳設下網羅，壓制我的心； 他們在我面前挖了坑，自己反掉在其中。（細拉）",
+          "nasb": "They have prepared a net for my steps; My soul is bowed down; They dug a pit before me; They themselves have fallen into the midst of it. Selah.",
           "words": [
             {
-              "id": "hebrew-7568",
-              "eng": "A net"
+              "id": "hebrew-6471",
+              "cht": "他們為我的腳"
             },
             {
               "id": "hebrew-3559",
-              "eng": "they have prepared"
+              "cht": "設下"
             },
             {
-              "id": "hebrew-6471",
-              "eng": "for my steps",
-              "punct": "–"
+              "id": "hebrew-7568",
+              "cht": "網羅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3721",
-              "eng": "is bowed down",
-              "punct": "–"
+              "cht": "壓制"
             },
             {
               "id": "hebrew-5315",
-              "eng": "My soul"
-            },
-            {
-              "id": "hebrew-3738",
-              "eng": "they have dug"
+              "cht": "我的心",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before me"
+              "cht": "他們在我面前"
+            },
+            {
+              "id": "hebrew-3738",
+              "cht": "挖了"
             },
             {
               "id": "hebrew-7882",
-              "eng": "a pit"
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5307",
-              "eng": "they [themselves] have fallen"
+              "cht": "自己反掉"
             },
             {
               "id": "hebrew-8432",
-              "eng": "Into the midst of it"
+              "cht": "在其中（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
+              "cht": "細拉）"
             }
           ]
         },
@@ -583,75 +569,75 @@
             "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "isa.42.19",
-          "cunp": "誰比我的僕人眼瞎呢？ 誰比我差遣的使者耳聾呢？ 誰瞎眼像那與我和好的？ 誰瞎眼像耶和華的僕人呢？",
+          "nasb": "Who is blind but My servant, Or so deaf as My messenger whom I send? Who is so blind as he that is at peace with Me, Or so blind as the servant of the Lord?",
           "words": [
             {
               "id": "hebrew-4310",
-              "eng": "Who [is]"
-            },
-            {
-              "id": "hebrew-5787",
-              "eng": "blind",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "誰"
             },
             {
               "id": "hebrew-518",
-              "eng": "but"
+              "cht": "比"
             },
             {
               "id": "hebrew-5650",
-              "eng": "My servant"
+              "cht": "我的僕人"
             },
             {
-              "id": "hebrew-2795",
-              "eng": "Or deaf",
-              "punct": "､"
+              "id": "hebrew-5787",
+              "cht": "眼瞎"
             },
             {
-              "id": "hebrew-4397",
-              "eng": "as My messenger"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-7971",
-              "eng": "[whom] I send"
+              "cht": "誰比我差遣"
+            },
+            {
+              "id": "hebrew-4397",
+              "cht": "的使者"
+            },
+            {
+              "id": "hebrew-2795",
+              "cht": "耳聾"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who [is]"
+              "cht": "誰"
             },
             {
               "id": "hebrew-5787",
-              "eng": "blind"
+              "cht": "瞎眼"
             },
             {
               "id": "hebrew-7999",
-              "eng": "as [he who is] perfect",
-              "punct": "､"
+              "cht": "像那與我和好的",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5787",
-              "eng": "and blind"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "as the servant"
+              "cht": "誰瞎眼"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "像耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-5650",
+              "cht": "的僕人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -662,37 +648,38 @@
             "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "isa.35.5",
-          "cunp": "那時，瞎子的眼必睜開； 聾子的耳必開通。",
+          "nasb": "Then the eyes of the blind will be opened And the ears of the deaf will be unstopped.",
           "words": [
             {
               "id": "hebrew-227",
-              "eng": "Then"
-            },
-            {
-              "id": "hebrew-6491",
-              "eng": "shall be opened",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "the eyes"
+              "cht": "那時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5787",
-              "eng": "of the blind"
+              "cht": "瞎子"
             },
             {
-              "id": "hebrew-241",
-              "eng": "and the ears"
+              "id": "hebrew-5869",
+              "cht": "的眼"
+            },
+            {
+              "id": "hebrew-6491",
+              "cht": "必睜開",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2795",
-              "eng": "of the deaf"
+              "cht": "聾子"
+            },
+            {
+              "id": "hebrew-241",
+              "cht": "的耳"
             },
             {
               "id": "hebrew-6605",
-              "eng": "shall be unstopped",
-              "punct": "."
+              "cht": "必開通",
+              "punct_cht": "。"
             }
           ]
         },
@@ -703,57 +690,50 @@
             "hebrew-5787": 1.9941688091090077
           },
           "verseKey": "isa.42.7",
-          "cunp": "開瞎子的眼， 領被囚的出牢獄， 領坐黑暗的出監牢。",
+          "nasb": "To open blind eyes, To bring out prisoners from the dungeon And those who dwell in darkness from the prison.",
           "words": [
             {
               "id": "hebrew-6491",
-              "eng": "to open"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "eyes",
-              "punct": "､"
+              "cht": "開"
             },
             {
               "id": "hebrew-5787",
-              "eng": "blind"
+              "cht": "瞎子"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "的眼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3318",
-              "eng": "to bring out"
-            },
-            {
-              "id": "hebrew-4525",
-              "eng": "from the prison",
-              "punct": "､"
+              "cht": "領"
             },
             {
               "id": "hebrew-616",
-              "eng": "prisoners"
+              "cht": "被囚的"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "from the house",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3608",
-              "eng": "Prison"
+              "id": "hebrew-4480",
+              "cht": "出牢獄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3427",
-              "eng": "Those who sit"
+              "cht": "領坐"
             },
             {
               "id": "hebrew-2822",
-              "eng": "in darkness",
-              "punct": "."
+              "cht": "黑暗"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3608",
+              "cht": "的出監"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "牢",
+              "punct_cht": "。"
             }
           ]
         }

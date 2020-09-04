@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4124": "Moab [is]",
-          "hebrew-5518": "my wash pot",
-          "hebrew-7366": "My washpot",
-          "hebrew-5921": "Over",
-          "hebrew-123": "Edom",
-          "hebrew-7993": "I will cast",
-          "hebrew-5275": "My shoe",
-          "hebrew-6429": "Philistia",
-          "hebrew-7321": "I will triumph"
+          "eng": {
+            "hebrew-4124": "Moab [is]",
+            "hebrew-5518": "my wash pot",
+            "hebrew-7366": "My washpot",
+            "hebrew-5921": "Over",
+            "hebrew-123": "Edom",
+            "hebrew-7993": "I will cast",
+            "hebrew-5275": "My shoe",
+            "hebrew-6429": "Philistia",
+            "hebrew-7321": "I will triumph"
+          },
+          "cht": {
+            "hebrew-4124": "摩押",
+            "hebrew-5518": "盆",
+            "hebrew-7366": "是我的沐浴",
+            "hebrew-5921": "我必因勝",
+            "hebrew-123": "以東",
+            "hebrew-7993": "拋",
+            "hebrew-5275": "鞋",
+            "hebrew-6429": "非利士",
+            "hebrew-7321": "呼喊"
+          }
         }
       },
       "translations": {
@@ -29,57 +42,55 @@
             "hebrew-7321": 2.5245408616397373
           },
           "verseKey": "psa.60.8",
-          "cunp": "摩押是我的沐浴盆； 我要向以東拋鞋。 非利士啊，你還能因我歡呼嗎？",
+          "nasb": "Moab is My washbowl; Over Edom I shall throw My shoe; Shout loud, O Philistia, because of Me!”",
           "words": [
             {
               "id": "hebrew-4124",
-              "eng": "Moab [is]"
-            },
-            {
-              "id": "hebrew-5518",
-              "eng": "my wash pot"
+              "cht": "摩押"
             },
             {
               "id": "hebrew-7366",
-              "eng": "My washpot",
-              "punct": "–"
+              "cht": "是我的沐浴"
+            },
+            {
+              "id": "hebrew-5518",
+              "cht": "盆",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5921",
-              "eng": "Over"
+              "cht": "我要向"
             },
             {
               "id": "hebrew-123",
-              "eng": "Edom"
+              "cht": "以東"
             },
             {
               "id": "hebrew-7993",
-              "eng": "I will cast"
+              "cht": "拋"
             },
             {
               "id": "hebrew-5275",
-              "eng": "My shoe",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "because of Me"
+              "cht": "鞋",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6429",
-              "eng": "Philistia",
-              "punct": "､"
+              "cht": "非利士"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7321",
-              "eng": "shout in triumph",
-              "punct": "."
+              "cht": "你還能因我歡呼"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -89,101 +100,85 @@
             "hebrew-7321": 2.5245408616397373
           },
           "verseKey": "jos.6.10",
-          "cunp": "約書亞吩咐百姓說：「你們不可呼喊，不可出聲，連一句話也不可出你們的口，等到我吩咐你們呼喊的日子，那時才可以呼喊。」",
+          "nasb": "But Joshua commanded the people, saying, “You shall not shout nor let your voice be heard nor let a word proceed out of your mouth, until the day I tell you, ‘Shout!’ Then you shall shout!”",
           "words": [
             {
+              "id": "hebrew-3091",
+              "cht": "約書亞"
+            },
+            {
               "id": "hebrew-853",
-              "eng": "Now"
+              "cht": "吩咐"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6680",
-              "eng": "had commanded"
-            },
-            {
-              "id": "hebrew-3091",
-              "eng": "Joshua"
+              "cht": "百姓"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你們不可"
             },
             {
               "id": "hebrew-7321",
-              "eng": "You shall shout",
-              "punct": "､"
+              "cht": "呼喊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "or"
+              "cht": "不可"
             },
             {
               "id": "hebrew-8085",
-              "eng": "make any noise"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "your voice",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "shall proceed out"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "of your mouth",
-              "punct": "､"
+              "cht": "出聲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1697",
-              "eng": "a word"
+              "cht": "連一句話"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不可"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "出"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "你們的口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day"
+              "cht": "等到"
             },
             {
               "id": "hebrew-559",
-              "eng": "I say"
+              "cht": "我吩咐"
             },
             {
               "id": "hebrew-413",
-              "eng": "to you"
+              "cht": "你們"
             },
             {
               "id": "hebrew-7321",
-              "eng": "Shout",
-              "punct": "–"
+              "cht": "呼喊"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "的日子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7321",
-              "eng": "and you shall shout",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "那時才可以呼喊",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -194,120 +189,101 @@
             "hebrew-123": 1.762495576511834
           },
           "verseKey": "jdg.11.18",
-          "cunp": "他們又經過曠野，繞着以東和摩押地，從摩押地的東邊過來，在亞嫩河邊安營，並沒有入摩押的境內，因為亞嫩河是摩押的邊界。",
+          "nasb": "Then they went through the wilderness and around the land of Edom and the land of Moab, and came to the east side of the land of Moab, and they camped beyond the Arnon; but they did not enter the territory of Moab, for the Arnon was the border of Moab.",
           "words": [
             {
-              "id": "hebrew-1980",
-              "eng": "And they went along"
+              "id": "hebrew-3212",
+              "cht": "他們又經過"
             },
             {
               "id": "hebrew-4057",
-              "eng": "through the wilderness",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5437",
-              "eng": "and bypassed"
+              "cht": "曠野",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "繞著"
             },
             {
               "id": "hebrew-123",
-              "eng": "of Edom",
-              "punct": "､"
+              "cht": "以東"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "和"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "､"
+              "cht": "摩押"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4124",
+              "cht": "從摩押"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的東邊"
             },
             {
               "id": "hebrew-935",
-              "eng": "and came"
+              "cht": "過來",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4217",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-8121",
-              "eng": "the east side"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "of the land"
-            },
-            {
-              "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2583",
-              "eng": "and encamped"
+              "id": "hebrew-769",
+              "cht": "在亞嫩河"
             },
             {
               "id": "hebrew-5676",
-              "eng": "on the other side"
+              "cht": "邊"
             },
             {
-              "id": "hebrew-769",
-              "eng": "of the Arnon",
-              "punct": "､"
+              "id": "hebrew-2583",
+              "cht": "安營",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "but not"
+              "cht": "並沒有"
             },
             {
               "id": "hebrew-935",
-              "eng": "they did enter"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "cht": "入"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "､"
+              "cht": "摩押"
+            },
+            {
+              "id": "hebrew-1366",
+              "cht": "的境內",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-769",
-              "eng": "the Arnon [was]"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "cht": "亞嫩河"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "."
+              "cht": "是摩押"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-1366",
+              "cht": "的邊界",
+              "punct_cht": "。"
             }
           ]
         },
@@ -317,54 +293,46 @@
             "hebrew-5518": 2.943137453388001
           },
           "verseKey": "ecc.7.6",
-          "cunp": "愚昧人的笑聲， 好像鍋下燒荊棘的爆聲； 這也是虛空。",
+          "nasb": "For as the crackling of thorn bushes under a pot, So is the laughter of the fool; And this too is futility.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "like the crackling"
-            },
-            {
-              "id": "hebrew-5518",
-              "eng": "of thorns"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "under"
-            },
-            {
-              "id": "hebrew-5518",
-              "eng": "a pot",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "so"
+              "id": "hebrew-3684",
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-7814",
-              "eng": "[is] the laughter"
+              "cht": "的笑聲",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3684",
-              "eng": "of the fool",
-              "punct": "–"
+              "id": "hebrew-5518",
+              "cht": "好像鍋"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "and also"
+              "id": "hebrew-8478",
+              "cht": "下"
+            },
+            {
+              "id": "hebrew-5518",
+              "cht": "燒荊棘"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "的爆聲",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [is]"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-1892",
-              "eng": "vanity",
-              "punct": "."
+              "cht": "是虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -374,86 +342,86 @@
             "hebrew-5518": 2.943137453388001
           },
           "verseKey": "2ki.4.41",
-          "cunp": "以利沙說：「拿點麵來」，就把麵撒在鍋中，說：「倒出來，給眾人吃吧！」鍋中就沒有毒了。",
+          "nasb": "But he said, “Now bring meal.” He threw it into the pot and said, “Pour it out for the people that they may eat.” Then there was no harm in the pot.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "So he said",
-              "punct": "､"
+              "cht": "以利沙說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3947",
-              "eng": "and bring"
+              "cht": "拿"
             },
             {
               "id": "hebrew-7058",
-              "eng": "some flour",
-              "punct": "."
+              "cht": "點麵"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "」，"
             },
             {
               "id": "hebrew-7993",
-              "eng": "And he put [it]"
+              "cht": "就把麵撒"
             },
             {
               "id": "hebrew-413",
-              "eng": "into"
+              "cht": "在"
             },
             {
               "id": "hebrew-5518",
-              "eng": "the pot",
-              "punct": "–"
+              "cht": "鍋"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3332",
-              "eng": "Serve [it]"
+              "cht": "倒出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5971",
-              "eng": "to the people",
-              "punct": "､"
+              "cht": "給眾人"
             },
             {
               "id": "hebrew-398",
-              "eng": "that they may eat",
-              "punct": "."
+              "cht": "吃"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "And nothing"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there was"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "harm"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "harmful"
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！」"
             },
             {
               "id": "hebrew-5518",
-              "eng": "in the pot",
-              "punct": "."
+              "cht": "鍋"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "中就沒"
             },
             {
-              "id": ""
+              "id": "hebrew-1961",
+              "cht": "有"
             },
             {
-              "id": ""
+              "id": "hebrew-1697",
+              "cht": "毒"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -463,84 +431,83 @@
             "hebrew-6429": 5.492088685277254
           },
           "verseKey": "isa.14.29",
-          "cunp": "非利士全地啊， 不要因擊打你的杖折斷就喜樂。 因為從蛇的根必生出毒蛇； 牠所生的是火焰的飛龍。",
+          "nasb": "“Do not rejoice, O Philistia, all of you, Because the rod that struck you is broken; For from the serpent’s root a viper will come out, And its fruit will be a flying serpent.",
           "words": [
             {
-              "id": "hebrew-408",
-              "eng": "Do not"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "rejoice"
-            },
-            {
               "id": "hebrew-6429",
-              "eng": "Philistia",
-              "punct": "､"
+              "cht": "非利士"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all you"
+              "cht": "全地"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "不要"
             },
             {
               "id": "hebrew-3588",
-              "eng": "of because"
-            },
-            {
-              "id": "hebrew-7665",
-              "eng": "is broken",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7626",
-              "eng": "the rod"
+              "cht": "因"
             },
             {
               "id": "hebrew-5221",
-              "eng": "that struck you"
+              "cht": "擊打"
+            },
+            {
+              "id": "hebrew-7626",
+              "cht": "你的杖"
+            },
+            {
+              "id": "hebrew-7665",
+              "cht": "折斷"
+            },
+            {
+              "id": "hebrew-8055",
+              "cht": "就喜樂",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-8328",
-              "eng": "out of the roots"
+              "cht": "因為"
             },
             {
               "id": "hebrew-5175",
-              "eng": "of serpent"
+              "cht": "從蛇"
+            },
+            {
+              "id": "hebrew-8328",
+              "cht": "的根"
             },
             {
               "id": "hebrew-3318",
-              "eng": "will come forth"
+              "cht": "必生出"
             },
             {
               "id": "hebrew-6848",
-              "eng": "a viper",
-              "punct": "､"
+              "cht": "毒蛇",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6529",
-              "eng": "and its offspring [will be]"
+              "cht": "牠所生的"
             },
             {
               "id": "hebrew-8314",
-              "eng": "a fiery serpent"
+              "cht": "是火焰的"
             },
             {
               "id": "hebrew-5774",
-              "eng": "flying",
-              "punct": "."
+              "cht": "飛"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-8314"
+              "id": "hebrew-8314",
+              "cht": "龍",
+              "punct_cht": "。"
             }
           ]
         },
@@ -550,65 +517,68 @@
             "hebrew-6429": 5.492088685277254
           },
           "verseKey": "psa.87.4",
-          "cunp": "我要提起拉哈伯和巴比倫人， 是在認識我之中的； 看哪，非利士和泰爾並古實人， 個個生在那裏。",
+          "nasb": "“I shall mention Rahab and Babylon among those who know Me; Behold, Philistia and Tyre with Ethiopia: ‘This one was born there.’ ”",
           "words": [
             {
               "id": "hebrew-2142",
-              "eng": "I will make mention"
+              "cht": "我要提起"
             },
             {
               "id": "hebrew-7294",
-              "eng": "of Rahab"
+              "cht": "拉哈伯"
             },
             {
               "id": "hebrew-894",
-              "eng": "and Babylon"
+              "cht": "和巴比倫"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "to those who know Me"
+              "cht": "是在認識我之中的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2009",
-              "eng": "behold"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6429",
-              "eng": "Philistia",
-              "punct": "､"
+              "cht": "非利士"
             },
             {
               "id": "hebrew-6865",
-              "eng": "and Tyre",
-              "punct": "､"
+              "cht": "和推羅"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
+              "cht": "並"
             },
             {
               "id": "hebrew-3568",
-              "eng": "Ethiopia",
-              "punct": "–"
+              "cht": "古實"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [one]"
+              "cht": "個個"
             },
             {
               "id": "hebrew-3205",
-              "eng": "was born"
+              "cht": "生"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "在那裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -618,77 +588,75 @@
             "hebrew-6429": 5.492088685277254
           },
           "verseKey": "isa.14.31",
-          "cunp": "門哪，應當哀號！ 城啊，應當呼喊！ 非利士全地啊，你都消化了！ 因為有煙從北方出來， 他行伍中並無亂隊的。",
+          "nasb": "Wail, O gate; cry, O city; Melt away, O Philistia, all of you; For smoke comes from the north, And there is no straggler in his ranks.",
           "words": [
             {
-              "id": "hebrew-3213",
-              "eng": "Wail",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-8179",
-              "eng": "gate",
-              "punct": "–"
+              "cht": "門哪",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2199",
-              "eng": "Cry",
-              "punct": "､"
+              "id": "hebrew-3213",
+              "cht": "應當哀號",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5892",
-              "eng": "city",
-              "punct": "–"
+              "cht": "城啊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4127",
-              "eng": "[are] dissolved",
-              "punct": "–"
+              "id": "hebrew-2199",
+              "cht": "應當呼喊",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-6429",
-              "eng": "Philistia",
-              "punct": "､"
+              "cht": "非利士"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all you"
+              "cht": "全地"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4127",
+              "cht": "你都消化了",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-6828",
-              "eng": "from the north"
+              "cht": "因為"
             },
             {
               "id": "hebrew-6227",
-              "eng": "smoke",
-              "punct": "､"
+              "cht": "有煙"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從北方"
             },
             {
               "id": "hebrew-935",
-              "eng": "will come"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and no one [will be]"
-            },
-            {
-              "id": "hebrew-909",
-              "eng": "alone"
+              "cht": "出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4151",
-              "eng": "in his appointed times",
-              "punct": "."
+              "cht": "他行伍中"
             },
             {
-              "id": ""
+              "id": "hebrew-369",
+              "cht": "並無"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-909",
+              "cht": "亂隊的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -698,39 +666,37 @@
             "hebrew-6429": 5.492088685277254
           },
           "verseKey": "psa.83.7",
-          "cunp": "迦巴勒、亞捫， 和亞瑪力、非利士並泰爾的居民。",
+          "nasb": "Gebal and Ammon and Amalek, Philistia with the inhabitants of Tyre;",
           "words": [
             {
               "id": "hebrew-1381",
-              "eng": "Gebal",
-              "punct": "､"
+              "cht": "迦巴勒、"
             },
             {
               "id": "hebrew-5983",
-              "eng": "and Ammon",
-              "punct": "､"
+              "cht": "亞捫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6002",
-              "eng": "and Amalek",
-              "punct": "–"
+              "cht": "和亞瑪力、"
             },
             {
               "id": "hebrew-6429",
-              "eng": "Philistia"
+              "cht": "非利士"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "the inhabitants"
+              "cht": "並"
             },
             {
               "id": "hebrew-6865",
-              "eng": "of Tyre",
-              "punct": "–"
+              "cht": "推羅"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "的居民",
+              "punct_cht": "。"
             }
           ]
         },
@@ -740,41 +706,37 @@
             "hebrew-6429": 5.492088685277254
           },
           "verseKey": "exo.15.14",
-          "cunp": "外邦人聽見就發顫； 疼痛抓住非利士的居民。",
+          "nasb": "The peoples have heard, they tremble; Anguish has gripped the inhabitants of Philistia.",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "Will hear"
+              "id": "hebrew-5971",
+              "cht": "外邦人"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "–"
+              "cht": "聽見"
             },
             {
               "id": "hebrew-7264",
-              "eng": "[and] be afraid",
-              "punct": "–"
+              "cht": "就發顫",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2427",
-              "eng": "Sorrow"
+              "cht": "疼痛"
             },
             {
               "id": "hebrew-270",
-              "eng": "will take hold"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "of the inhabitants"
+              "cht": "抓住"
             },
             {
               "id": "hebrew-6429",
-              "eng": "of Philistia",
-              "punct": "."
+              "cht": "非利士"
             },
             {
-              "id": "hebrew-5971"
+              "id": "hebrew-3427",
+              "cht": "的居民",
+              "punct_cht": "。"
             }
           ]
         }

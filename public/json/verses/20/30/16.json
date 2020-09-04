@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7585": "the grave",
-          "hebrew-6115": "and the barren",
-          "hebrew-7356": "womb",
-          "hebrew-776": "the earth",
-          "hebrew-3808": "never",
-          "hebrew-7646": "[that] is satisfied",
-          "hebrew-4325": "with water",
-          "hebrew-784": "and the fire",
-          "hebrew-559": "says",
-          "hebrew-1952": "Enough"
+          "eng": {
+            "hebrew-7585": "the grave",
+            "hebrew-6115": "and the barren",
+            "hebrew-7356": "womb",
+            "hebrew-776": "the earth",
+            "hebrew-3808": "never",
+            "hebrew-7646": "[that] is satisfied",
+            "hebrew-4325": "with water",
+            "hebrew-784": "and the fire",
+            "hebrew-559": "says",
+            "hebrew-1952": "Enough"
+          },
+          "cht": {
+            "hebrew-7585": "就是陰間",
+            "hebrew-6115": "和石胎",
+            "hebrew-7356": "和石胎",
+            "hebrew-776": "的地",
+            "hebrew-3808": "並火",
+            "hebrew-7646": "浸",
+            "hebrew-4325": "水",
+            "hebrew-784": "並火",
+            "hebrew-559": "並火",
+            "hebrew-1952": "足"
+          }
         }
       },
       "translations": {
@@ -30,33 +44,29 @@
             "hebrew-6115": 8.539323589735611
           },
           "verseKey": "psa.107.39",
-          "cunp": "他們又因暴虐、患難、愁苦， 就減少且卑下。",
+          "nasb": "When they are diminished and bowed down Through oppression, misery and sorrow,",
           "words": [
             {
-              "id": "hebrew-4591",
-              "eng": "And when they are diminished"
-            },
-            {
-              "id": "hebrew-7817",
-              "eng": "and brought low"
-            },
-            {
               "id": "hebrew-6115",
-              "eng": "Through oppression",
-              "punct": "､"
+              "cht": "他們又因暴虐、"
             },
             {
               "id": "hebrew-7451",
-              "eng": "affliction",
-              "punct": "､"
+              "cht": "患難、"
             },
             {
               "id": "hebrew-3015",
-              "eng": "and sorrow",
-              "punct": "."
+              "cht": "愁苦",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4591",
+              "cht": "就減少"
+            },
+            {
+              "id": "hebrew-7817",
+              "cht": "且卑下",
+              "punct_cht": "。"
             }
           ]
         },
@@ -66,83 +76,68 @@
             "hebrew-6115": 8.539323589735611
           },
           "verseKey": "isa.53.8",
-          "cunp": "因受欺壓和審判，他被奪去， 至於他同世的人，誰想他受鞭打、 從活人之地被剪除， 是因我百姓的罪過呢？",
+          "nasb": "By oppression and judgment He was taken away; And as for His generation, who considered That He was cut off out of the land of the living For the transgression of my people, to whom the stroke was due?",
           "words": [
             {
               "id": "hebrew-6115",
-              "eng": "From prison"
+              "cht": "因受欺壓"
             },
             {
-              "id": "hebrew-4941",
-              "eng": "and from judgment",
-              "punct": "–"
+              "id": "hebrew-4480",
+              "cht": "和審判",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3947",
-              "eng": "He was taken"
+              "cht": "他被奪去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "至於"
             },
             {
               "id": "hebrew-1755",
-              "eng": "His generation"
+              "cht": "他同世的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-7878",
-              "eng": "will declare"
+              "cht": "誰"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-1504",
-              "eng": "He was cut off"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "from the land"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "of the living",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6588",
-              "eng": "for the transgressions"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of My people"
+              "cht": "想"
             },
             {
               "id": "hebrew-5061",
-              "eng": "was stricken"
+              "cht": "受鞭打、"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2416",
+              "cht": "從活人"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "之地"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1504",
+              "cht": "被剪除",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5971",
+              "cht": "是因我百姓"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "的罪過"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -153,44 +148,37 @@
             "hebrew-7646": 1.7392070394734038
           },
           "verseKey": "pro.27.20",
-          "cunp": "陰間和滅亡永不滿足； 人的眼目也是如此。",
+          "nasb": "Sheol and Abaddon are never satisfied, Nor are the eyes of man ever satisfied.",
           "words": [
             {
               "id": "hebrew-7585",
-              "eng": "Hell"
+              "cht": "陰間"
             },
             {
               "id": "hebrew-10",
-              "eng": "and Destruction"
+              "cht": "和滅亡"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never"
+              "cht": "永不"
             },
             {
               "id": "hebrew-7646",
-              "eng": "are full",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "so the eyes"
+              "cht": "滿足",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-120",
-              "eng": "of man"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "的眼目"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never"
-            },
-            {
-              "id": "hebrew-7646",
-              "eng": "are satisfied",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-11"
+              "cht": "也是如此",
+              "punct_cht": "。"
             }
           ]
         },
@@ -202,68 +190,64 @@
             "hebrew-1952": 3.231394854468145
           },
           "verseKey": "pro.30.15",
-          "cunp": "螞蟥有兩個女兒， 常說：給呀，給呀！ 有三樣不知足的， 連不說「夠的」共有四樣：",
+          "nasb": "The leech has two daughters, “Give,” “Give.” There are three things that will not be satisfied, Four that will not say, “Enough”:",
           "words": [
             {
               "id": "hebrew-5936",
-              "eng": "The leech has"
+              "cht": "螞蟥有"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-1323",
-              "eng": "daughters",
-              "punct": "､"
+              "cht": "女兒"
+            },
+            {
+              "id": "",
+              "cht": "常說",
+              "punct_cht": "，："
             },
             {
               "id": "hebrew-3051",
-              "eng": "Give",
-              "punct": "､"
+              "cht": "給呀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3051",
-              "eng": "[and] Give",
-              "punct": "."
+              "cht": "給呀",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-7969",
-              "eng": "Three [things]"
-            },
-            {
-              "id": "hebrew-2007",
-              "eng": "are"
+              "cht": "有三樣"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never"
+              "cht": "不"
             },
             {
               "id": "hebrew-7646",
-              "eng": "satisfied",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-702",
-              "eng": "four"
+              "cht": "知足的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never",
-              "punct": "､"
+              "cht": "連不"
             },
             {
               "id": "hebrew-559",
-              "eng": "say"
+              "cht": "說"
             },
             {
               "id": "hebrew-1952",
-              "eng": "Enough",
-              "punct": "–"
+              "cht": "夠的"
             },
             {
-              "id": ""
+              "id": "hebrew-702",
+              "cht": "共有四樣",
+              "punct_cht": "："
             }
           ]
         },
@@ -273,63 +257,60 @@
             "hebrew-7585": 2.306560367072849
           },
           "verseKey": "psa.49.14",
-          "cunp": "他們如同羊羣派定下陰間； 死亡必作他們的牧者。 到了早晨，正直人必管轄他們； 他們的美容必被陰間所滅，以致無處可存。",
+          "nasb": "As sheep they are appointed for Sheol; Death shall be their shepherd; And the upright shall rule over them in the morning, And their form shall be for Sheol to consume So that they have no habitation.",
           "words": [
             {
               "id": "hebrew-6629",
-              "eng": "Like sheep"
-            },
-            {
-              "id": "hebrew-7585",
-              "eng": "in the grave",
-              "punct": "–"
+              "cht": "他們如同羊群"
             },
             {
               "id": "hebrew-8371",
-              "eng": "they are laid"
-            },
-            {
-              "id": "hebrew-4194",
-              "eng": "Death"
-            },
-            {
-              "id": "hebrew-7462",
-              "eng": "shall feed on them"
-            },
-            {
-              "id": "hebrew-7287",
-              "eng": "and shall have dominion"
-            },
-            {
-              "id": "hebrew-3477",
-              "eng": "the upright"
-            },
-            {
-              "id": "hebrew-1242",
-              "eng": "in the morning",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6736",
-              "eng": "and their beauty"
-            },
-            {
-              "id": "hebrew-1086",
-              "eng": "shall be consumed"
+              "cht": "派定"
             },
             {
               "id": "hebrew-7585",
-              "eng": "in the grave"
+              "cht": "下陰間",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4194",
+              "cht": "死亡"
+            },
+            {
+              "id": "hebrew-7462",
+              "cht": "必作他們的牧者",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-1242",
+              "cht": "到了早晨",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3477",
+              "cht": "正直人"
+            },
+            {
+              "id": "hebrew-7287",
+              "cht": "必管轄"
+            },
+            {
+              "id": "hebrew-6736",
+              "cht": "他們的美容"
+            },
+            {
+              "id": "hebrew-7585",
+              "cht": "必被陰間"
+            },
+            {
+              "id": "hebrew-1086",
+              "cht": "所滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2073",
-              "eng": "far from dwelling"
-            },
-            {
-              "id": "hebrew-6697"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "以致無處可存",
+              "punct_cht": "。"
             }
           ]
         },
@@ -339,87 +320,82 @@
             "hebrew-7585": 2.306560367072849
           },
           "verseKey": "hos.13.14",
-          "cunp": "我必救贖他們脫離陰間， 救贖他們脫離死亡。 死亡啊，你的災害在哪裏呢？ 陰間哪，你的毀滅在哪裏呢？ 在我眼前絕無後悔之事。",
+          "nasb": "Shall I ransom them from the power of Sheol? Shall I redeem them from death? O Death, where are your thorns? O Sheol, where is your sting? Compassion will be hidden from My sight.",
           "words": [
             {
-              "id": "hebrew-3027",
-              "eng": "From the power"
+              "id": "hebrew-6299",
+              "cht": "我必救贖他們"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "脫離"
             },
             {
               "id": "hebrew-7585",
-              "eng": "of Sheol",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6299",
-              "eng": "I will ransom them"
-            },
-            {
-              "id": "hebrew-4194",
-              "eng": "from death"
+              "cht": "陰間",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1350",
-              "eng": "I will redeem them"
-            },
-            {
-              "id": "hebrew-165",
-              "eng": "I will be"
-            },
-            {
-              "id": "hebrew-1698",
-              "eng": "your plagues",
-              "punct": "–"
+              "cht": "救贖他們"
             },
             {
               "id": "hebrew-4194",
-              "eng": "Death",
-              "punct": "､"
+              "cht": "脫離死亡",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-4194",
+              "cht": "死亡"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1698",
+              "cht": "你的災害"
             },
             {
               "id": "hebrew-165",
-              "eng": "I will be"
-            },
-            {
-              "id": "hebrew-6987",
-              "eng": "your destruction",
-              "punct": "–"
+              "cht": "在哪裡呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-7585",
-              "eng": "Grave",
-              "punct": "､"
+              "cht": "陰間"
             },
             {
-              "id": "hebrew-5164",
-              "eng": "Pity"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5641",
-              "eng": "is hidden"
+              "id": "hebrew-6987",
+              "cht": "你的毀滅"
+            },
+            {
+              "id": "hebrew-165",
+              "cht": "在哪裡呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5869",
-              "eng": "from My eyes",
-              "punct": "."
+              "cht": "在我眼前"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5641",
+              "cht": "絕無"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5164",
+              "cht": "後悔"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "之事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -430,97 +406,88 @@
             "hebrew-784": 0.8984411814410173
           },
           "verseKey": "num.31.23",
-          "cunp": "凡能見火的，你們要叫它經火就為潔淨，然而還要用除污穢的水潔淨它；凡不能見火的，你們要叫它過水。",
+          "nasb": "everything that can stand the fire, you shall pass through the fire, and it shall be clean, but it shall be purified with water for impurity. But whatever cannot stand the fire you shall pass through the water.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "thing"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "凡"
             },
             {
               "id": "hebrew-935",
-              "eng": "can endure"
+              "cht": "能見"
             },
             {
               "id": "hebrew-784",
-              "eng": "fire",
-              "punct": "､"
+              "cht": "火"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5674",
-              "eng": "you shall put"
+              "cht": "你們要叫它經"
             },
             {
               "id": "hebrew-784",
-              "eng": "through the fire",
-              "punct": "､"
+              "cht": "火"
             },
             {
               "id": "hebrew-2891",
-              "eng": "and it shall be clean",
-              "punct": "､"
+              "cht": "就為潔淨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-389",
-              "eng": "indeed"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "with the water"
+              "cht": "然而"
             },
             {
               "id": "hebrew-5079",
-              "eng": "of purification",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2398",
-              "eng": "it shall be purified"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "but all"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "cannot"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "endure"
-            },
-            {
-              "id": "hebrew-784",
-              "eng": "fire"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "you shall put"
+              "cht": "還要用除污穢的"
             },
             {
               "id": "hebrew-4325",
-              "eng": "through water",
-              "punct": "."
+              "cht": "水"
             },
             {
-              "id": ""
+              "id": "hebrew-2398",
+              "cht": "潔淨"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "它",
+              "punct_cht": "；"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "凡"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不能"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "見"
+            },
+            {
+              "id": "hebrew-784",
+              "cht": "火"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "你們要叫它過"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水",
+              "punct_cht": "。"
             }
           ]
         },
@@ -531,37 +498,37 @@
             "hebrew-7646": 1.7392070394734038
           },
           "verseKey": "psa.88.3",
-          "cunp": "因為我心裏滿了患難； 我的性命臨近陰間。",
+          "nasb": "For my soul has had enough troubles, And my life has drawn near to Sheol.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7646",
-              "eng": "is full"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "of troubles",
-              "punct": "–"
+              "cht": "因為"
             },
             {
               "id": "hebrew-5315",
-              "eng": "my soul"
+              "cht": "我心"
+            },
+            {
+              "id": "hebrew-7646",
+              "cht": "裡滿了"
+            },
+            {
+              "id": "hebrew-7451",
+              "cht": "患難",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2416",
-              "eng": "and my life"
-            },
-            {
-              "id": "hebrew-7585",
-              "eng": "to the grave"
+              "cht": "我的性命"
             },
             {
               "id": "hebrew-5060",
-              "eng": "draws near",
-              "punct": "."
+              "cht": "臨近"
+            },
+            {
+              "id": "hebrew-7585",
+              "cht": "陰間",
+              "punct_cht": "。"
             }
           ]
         },
@@ -572,114 +539,103 @@
             "hebrew-7646": 1.7392070394734038
           },
           "verseKey": "hab.2.5",
-          "cunp": "迦勒底人因酒詭詐，狂傲， 不住在家中， 擴充心欲，好像陰間。 他如死不能知足， 聚集萬國，堆積萬民都歸自己。",
+          "nasb": "Furthermore, wine betrays the haughty man, So that he does not stay at home. He enlarges his appetite like Sheol, And he is like death, never satisfied. He also gathers to himself all nations And collects to himself all peoples.",
           "words": [
             {
-              "id": "hebrew-637",
-              "eng": "And indeed"
+              "id": "hebrew-1397",
+              "cht": "迦勒底人"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "因"
             },
             {
               "id": "hebrew-3196",
-              "eng": "by wine",
-              "punct": "､"
+              "cht": "酒"
             },
             {
               "id": "hebrew-898",
-              "eng": "he transgresses"
-            },
-            {
-              "id": "hebrew-1397",
-              "eng": "[He is] a man",
-              "punct": "､"
+              "cht": "詭詐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3093",
-              "eng": "proud"
+              "cht": "狂傲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "不"
             },
             {
               "id": "hebrew-5115",
-              "eng": "he does stay at home",
-              "punct": "､"
+              "cht": "住在家"
             },
             {
-              "id": "hebrew-834",
-              "eng": "because"
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7337",
-              "eng": "he enlarges"
-            },
-            {
-              "id": "hebrew-7585",
-              "eng": "as hell",
-              "punct": "､"
+              "cht": "擴充"
             },
             {
               "id": "hebrew-5315",
-              "eng": "his desire"
+              "cht": "心欲",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7585",
+              "cht": "好像陰間",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1931",
-              "eng": "and he [is]"
+              "cht": "他"
             },
             {
               "id": "hebrew-4194",
-              "eng": "like death",
-              "punct": "､"
+              "cht": "如死"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and cannot"
+              "cht": "不能"
             },
             {
               "id": "hebrew-7646",
-              "eng": "be satisfied",
-              "punct": "､"
+              "cht": "知足",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-622",
-              "eng": "and He gathers"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to himself"
+              "cht": "聚集"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "萬"
             },
             {
-              "id": "hebrew-1471",
-              "eng": "nations",
-              "punct": "､"
+              "id": "hebrew-413",
+              "cht": "國",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6908",
-              "eng": "and heaps up"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "for himself"
+              "cht": "堆積"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "萬"
             },
             {
               "id": "hebrew-5971",
-              "eng": "peoples",
-              "punct": "."
+              "cht": "民"
             },
             {
-              "id": ""
+              "id": "hebrew-413",
+              "cht": "都歸自己",
+              "punct_cht": "。"
             }
           ]
         },
@@ -690,70 +646,54 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "zec.7.9",
-          "cunp": "「萬軍之耶和華曾對你們的列祖如此說：『要按至理判斷，各人以慈愛憐憫弟兄。",
+          "nasb": "“Thus has the Lord of hosts said, ‘Dispense true justice and practice kindness and compassion each to his brother;",
           "words": [
             {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "id": "hebrew-6635",
+              "cht": "萬軍"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "之耶和華"
             },
             {
-              "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "､"
+              "id": "hebrew-3541",
+              "cht": "曾對你們的列祖如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "justice",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-571",
-              "eng": "TRUE"
+              "cht": "要按至"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "理"
             },
             {
               "id": "hebrew-8199",
-              "eng": "Execute"
-            },
-            {
-              "id": "hebrew-2617",
-              "eng": "and mercy"
-            },
-            {
-              "id": "hebrew-7356",
-              "eng": "and compassion"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "Show"
+              "cht": "判斷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-376",
-              "eng": "Everyone"
+              "cht": "各人"
             },
             {
-              "id": "hebrew-854",
-              "eng": "to"
+              "id": "hebrew-2617",
+              "cht": "以慈愛"
+            },
+            {
+              "id": "hebrew-7356",
+              "cht": "憐憫"
             },
             {
               "id": "hebrew-251",
-              "eng": "his brother",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-853"
+              "cht": "弟兄",
+              "punct_cht": "。"
             }
           ]
         }

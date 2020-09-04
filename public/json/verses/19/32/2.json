@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-835": "Blessed [is]",
-          "hebrew-120": "the man",
-          "hebrew-3808": "not",
-          "hebrew-2803": "does impute",
-          "hebrew-3068": "Yahweh",
-          "hebrew-5771": "iniquity",
-          "hebrew-369": "and [there is] no",
-          "hebrew-7307": "in whose spirit",
-          "hebrew-7423": "deceit"
+          "eng": {
+            "hebrew-835": "Blessed [is]",
+            "hebrew-120": "the man",
+            "hebrew-3808": "not",
+            "hebrew-2803": "does impute",
+            "hebrew-3068": "Yahweh",
+            "hebrew-5771": "iniquity",
+            "hebrew-369": "and [there is] no",
+            "hebrew-7307": "in whose spirit",
+            "hebrew-7423": "deceit"
+          },
+          "cht": {
+            "hebrew-835": "是有福的",
+            "hebrew-120": "這人",
+            "hebrew-3808": "不",
+            "hebrew-2803": "算為",
+            "hebrew-3068": "耶和華",
+            "hebrew-5771": "有罪的",
+            "hebrew-369": "沒有",
+            "hebrew-7307": "凡心裡",
+            "hebrew-7423": "詭詐、"
+          }
         }
       },
       "translations": {
@@ -27,38 +40,34 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.52.2",
-          "cunp": "你的舌頭邪惡詭詐， 好像剃頭刀，快利傷人。",
+          "nasb": "Your tongue devises destruction, Like a sharp razor, O worker of deceit.",
           "words": [
             {
+              "id": "hebrew-3956",
+              "cht": "你的舌頭"
+            },
+            {
               "id": "hebrew-1942",
-              "eng": "Destruction",
-              "punct": "–"
+              "cht": "邪惡"
             },
             {
               "id": "hebrew-2803",
-              "eng": "devises"
-            },
-            {
-              "id": "hebrew-3956",
-              "eng": "Your tongue"
+              "cht": "詭詐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8593",
-              "eng": "Like a razor",
-              "punct": "､"
+              "cht": "好像剃頭刀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3913",
-              "eng": "sharp"
+              "cht": "快利"
             },
             {
               "id": "hebrew-6213",
-              "eng": "working"
-            },
-            {
-              "id": "hebrew-7423",
-              "eng": "deceitfully",
-              "punct": "."
+              "cht": "傷人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,139 +79,107 @@
             "hebrew-369": 0.7414250898918989
           },
           "verseKey": "jer.33.10",
-          "cunp": "耶和華如此說：「你們論這地方，說是荒廢無人民無牲畜之地，但在這荒涼無人民無牲畜的猶大城邑和耶路撒冷的街上，",
+          "nasb": "“Thus says the Lord, ‘Yet again there will be heard in this place, of which you say, “It is a waste, without man and without beast,” that is, in the cities of Judah and in the streets of Jerusalem that are desolate, without man and without inhabitant and without beast,",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "Again"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "there shall be heard"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "in place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "of which"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "你們"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "論"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "地方",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "say"
-            },
-            {
-              "id": "hebrew-2720",
-              "eng": "desolate"
+              "cht": "說"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it [is]"
+              "cht": "是"
             },
             {
-              "id": "hebrew-369",
-              "eng": "without"
+              "id": "hebrew-2720",
+              "cht": "荒廢"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
+              "cht": "人民"
             },
             {
               "id": "hebrew-369",
-              "eng": "and without"
+              "cht": "無"
             },
             {
               "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "､"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-5892",
-              "eng": "in the cities"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2351",
-              "eng": "and in the streets"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "of Jerusalem",
-              "punct": "､"
+              "id": "hebrew-834",
+              "cht": "之地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8074",
-              "eng": "that are desolate",
-              "punct": "､"
+              "cht": "但在這荒涼"
             },
             {
-              "id": "hebrew-369",
-              "eng": "without"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and without"
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-3427",
-              "eng": "inhabitant",
-              "punct": "､"
+              "cht": "人民"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and without"
+              "id": "hebrew-4480",
+              "cht": "無"
             },
             {
               "id": "hebrew-929",
-              "eng": "beast",
-              "punct": "､"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3063",
+              "cht": "的猶大"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5892",
+              "cht": "城邑"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3389",
+              "cht": "和耶路撒冷"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-2351",
+              "cht": "的街上",
+              "punct_cht": "，"
             }
           ]
         },
@@ -213,41 +190,41 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "pro.12.27",
-          "cunp": "懶惰的人不烤打獵所得的； 殷勤的人卻得寶貴的財物。",
+          "nasb": "A lazy man does not roast his prey, But the precious possession of a man is diligence.",
           "words": [
             {
+              "id": "hebrew-7423",
+              "cht": "懶惰的人"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "Not"
+              "cht": "不"
             },
             {
               "id": "hebrew-2760",
-              "eng": "does roast"
-            },
-            {
-              "id": "hebrew-7423",
-              "eng": "the lazy [man]"
+              "cht": "烤"
             },
             {
               "id": "hebrew-6718",
-              "eng": "what he [took] in hunting",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1952",
-              "eng": "but possession"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man's"
-            },
-            {
-              "id": "hebrew-3368",
-              "eng": "precious"
+              "cht": "打獵所得的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2742",
-              "eng": "diligence [is]",
-              "punct": "."
+              "cht": "殷勤"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "的人"
+            },
+            {
+              "id": "hebrew-3368",
+              "cht": "卻得寶貴"
+            },
+            {
+              "id": "hebrew-1952",
+              "cht": "的財物",
+              "punct_cht": "。"
             }
           ]
         },
@@ -259,87 +236,85 @@
             "hebrew-7307": 0.7409385372102525
           },
           "verseKey": "ecc.8.8",
-          "cunp": "無人有權力掌管生命，將生命留住；也無人有權力掌管死期；這場爭戰，無人能免；邪惡也不能救那好行邪惡的人。",
+          "nasb": "No man has authority to restrain the wind with the wind, or authority over the day of death; and there is no discharge in the time of war, and evil will not deliver those who practice it.",
           "words": [
             {
               "id": "hebrew-369",
-              "eng": "No"
+              "cht": "無"
             },
             {
               "id": "hebrew-120",
-              "eng": "one"
+              "cht": "人"
             },
             {
               "id": "hebrew-7989",
-              "eng": "has power"
+              "cht": "有權力掌管"
             },
             {
               "id": "hebrew-7307",
-              "eng": "over the spirit"
+              "cht": "生命",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "將"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "生命"
             },
             {
               "id": "hebrew-3607",
-              "eng": "to retain"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "the spirit",
-              "punct": "–"
+              "cht": "留住",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-369",
-              "eng": "and no one"
+              "cht": "也無人"
             },
             {
               "id": "hebrew-7983",
-              "eng": "has power"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in the day"
+              "cht": "有權力掌管"
             },
             {
               "id": "hebrew-4194",
-              "eng": "of death",
-              "punct": "–"
+              "cht": "死"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and [There is] no"
-            },
-            {
-              "id": "hebrew-4917",
-              "eng": "release"
+              "id": "hebrew-3117",
+              "cht": "期",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4421",
-              "eng": "from that war",
-              "punct": "–"
+              "cht": "這場爭戰",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "and not"
+              "id": "hebrew-369",
+              "cht": "無人"
             },
             {
-              "id": "hebrew-4422",
-              "eng": "will deliver"
+              "id": "hebrew-4917",
+              "cht": "能免",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7562",
-              "eng": "wickedness"
+              "cht": "邪惡"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3808",
+              "cht": "也不能"
+            },
+            {
+              "id": "hebrew-4422",
+              "cht": "救"
             },
             {
               "id": "hebrew-1167",
-              "eng": "those who are given to it",
-              "punct": "."
+              "cht": "那好行邪惡的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -350,54 +325,55 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "jer.48.10",
-          "cunp": "懶惰為耶和華行事的，必受咒詛；禁止刀劍不經血的，必受咒詛。）",
+          "nasb": "Cursed be the one who does the Lord’s work negligently, And cursed be the one who restrains his sword from blood.",
           "words": [
             {
-              "id": "hebrew-779",
-              "eng": "Cursed [is]"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "he who does"
-            },
-            {
-              "id": "hebrew-4399",
-              "eng": "the work"
+              "id": "hebrew-7423",
+              "cht": "懶惰"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "為耶和華"
             },
             {
-              "id": "hebrew-7423",
-              "eng": "deceitfully",
-              "punct": "､"
+              "id": "hebrew-6213",
+              "cht": "行"
+            },
+            {
+              "id": "hebrew-4399",
+              "cht": "事"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-779",
-              "eng": "and cursed [is]"
+              "cht": "必受咒詛",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4513",
-              "eng": "he who keeps back"
+              "cht": "禁止"
             },
             {
               "id": "hebrew-2719",
-              "eng": "his sword"
+              "cht": "刀劍"
             },
             {
               "id": "hebrew-1818",
-              "eng": "from blood",
-              "punct": "."
+              "cht": "不經血"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-779",
+              "cht": "必受咒詛）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -408,48 +384,41 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.120.2",
-          "cunp": "耶和華啊，求你救我脫離說謊的嘴唇和詭詐的舌頭！",
+          "nasb": "Deliver my soul, O Lord, from lying lips, From a deceitful tongue.",
           "words": [
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5337",
-              "eng": "Deliver"
+              "cht": "求你救"
             },
             {
               "id": "hebrew-5315",
-              "eng": "my soul",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8193",
-              "eng": "from lips",
-              "punct": "､"
+              "cht": "我"
             },
             {
               "id": "hebrew-8267",
-              "eng": "lying"
+              "cht": "脫離說謊"
             },
             {
-              "id": "hebrew-3956",
-              "eng": "[And] from a tongue"
+              "id": "hebrew-4480",
+              "cht": "的嘴唇"
             },
             {
               "id": "hebrew-7423",
-              "eng": "deceitful",
-              "punct": "."
+              "cht": "和詭詐"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "的舌頭",
+              "punct_cht": "！"
             }
           ]
         },
@@ -461,128 +430,120 @@
             "hebrew-7307": 0.7409385372102525
           },
           "verseKey": "ezk.37.9",
-          "cunp": "主對我說：「人子啊，你要發預言，向風發預言，說主耶和華如此說：氣息啊，要從四方而來，吹在這些被殺的人身上，使他們活了。」",
+          "nasb": "Then He said to me, “Prophesy to the breath, prophesy, son of man, and say to the breath, ‘Thus says the Lord God, “Come from the four winds, O breath, and breathe on these slain, that they come to life.” ’ ”",
           "words": [
             {
+              "id": "hebrew-413",
+              "cht": "主對我"
+            },
+            {
               "id": "hebrew-559",
-              "eng": "And He said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to me"
-            },
-            {
-              "id": "hebrew-5012",
-              "eng": "Prophesy"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "the breath",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5012",
-              "eng": "prophesy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and say"
+              "id": "hebrew-1121",
+              "cht": "子"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5012",
+              "cht": "你要發預言",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "向"
             },
             {
               "id": "hebrew-7307",
-              "eng": "the breath",
-              "punct": "､"
+              "cht": "風"
             },
             {
-              "id": "hebrew-3541",
-              "eng": "thus"
+              "id": "hebrew-5012",
+              "cht": "發預言",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-559",
-              "eng": "says"
+              "id": "hebrew-413",
+              "cht": "說"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "GOD"
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "氣息"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-702",
-              "eng": "from four"
+              "cht": "要從四"
+            },
+            {
+              "id": "",
+              "cht": "方（"
             },
             {
               "id": "hebrew-7307",
-              "eng": "the winds",
-              "punct": "､"
+              "cht": "原文是風）"
             },
             {
               "id": "hebrew-935",
-              "eng": "come"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "breath",
-              "punct": "､"
+              "cht": "而來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5301",
-              "eng": "and breathe"
-            },
-            {
-              "id": "hebrew-2026",
-              "eng": "on slain",
-              "punct": "､"
+              "cht": "吹"
             },
             {
               "id": "hebrew-428",
-              "eng": "these"
+              "cht": "在這些"
+            },
+            {
+              "id": "hebrew-2026",
+              "cht": "被殺的人"
+            },
+            {
+              "id": "",
+              "cht": "身上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2421",
-              "eng": "that they may live",
-              "punct": "."
+              "cht": "使他們活"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3069"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -592,34 +553,36 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.78.57",
-          "cunp": "反倒退後，行詭詐，像他們的祖宗一樣； 他們改變，如同翻背的弓。",
+          "nasb": "But turned back and acted treacherously like their fathers; They turned aside like a treacherous bow.",
           "words": [
             {
               "id": "hebrew-5472",
-              "eng": "But turned back",
-              "punct": "､"
+              "cht": "反倒退後",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-898",
-              "eng": "and acted unfaithfully"
+              "cht": "行詭詐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1",
-              "eng": "like their fathers",
-              "punct": "–"
+              "cht": "像他們的祖宗一樣",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2015",
-              "eng": "they were turned aside"
-            },
-            {
-              "id": "hebrew-7198",
-              "eng": "like a bow"
+              "cht": "他們改變",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7423",
-              "eng": "deceitful",
-              "punct": "."
+              "cht": "如同翻背的"
+            },
+            {
+              "id": "hebrew-7198",
+              "cht": "弓",
+              "punct_cht": "。"
             }
           ]
         },
@@ -629,40 +592,46 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.120.3",
-          "cunp": "詭詐的舌頭啊，要給你甚麼呢？ 要拿甚麼加給你呢？",
+          "nasb": "What shall be given to you, and what more shall be done to you, You deceitful tongue?",
           "words": [
             {
-              "id": "hebrew-4100",
-              "eng": "What"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "shall be given"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "Or what"
-            },
-            {
-              "id": "hebrew-3254",
-              "eng": "shall be done"
+              "id": "hebrew-7423",
+              "cht": "詭詐"
             },
             {
               "id": "hebrew-3956",
-              "eng": "tongue"
+              "cht": "的舌頭"
             },
             {
-              "id": "hebrew-7423",
-              "eng": "You false"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-5414",
+              "cht": "要給"
             },
             {
-              "id": ""
+              "id": "hebrew-4100",
+              "cht": "甚麼"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "要拿甚麼"
+            },
+            {
+              "id": "hebrew-3254",
+              "cht": "加"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -672,63 +641,67 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.101.7",
-          "cunp": "行詭詐的，必不得住在我家裏； 說謊話的，必不得立在我眼前。",
+          "nasb": "He who practices deceit shall not dwell within my house; He who speaks falsehood shall not maintain his position before me.",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "shall dwell"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "within"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "my house",
-              "punct": "–"
-            },
-            {
               "id": "hebrew-6213",
-              "eng": "He who works"
+              "cht": "行"
             },
             {
               "id": "hebrew-7423",
-              "eng": "deceit"
+              "cht": "詭詐"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "He who tells"
-            },
-            {
-              "id": "hebrew-8267",
-              "eng": "lies"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "必不"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "得住"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "在我家"
+            },
+            {
+              "id": "hebrew-7130",
+              "cht": "裡",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "說"
+            },
+            {
+              "id": "hebrew-8267",
+              "cht": "謊話"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "必不"
             },
             {
               "id": "hebrew-3559",
-              "eng": "shall continue"
-            },
-            {
-              "id": "hebrew-5048",
-              "eng": "in"
+              "cht": "得立"
             },
             {
               "id": "hebrew-5869",
-              "eng": "my presence",
-              "punct": "."
+              "cht": "在我眼"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-5048",
+              "cht": "前",
+              "punct_cht": "。"
             }
           ]
         }

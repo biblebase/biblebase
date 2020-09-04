@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3808": "Not",
-          "hebrew-7227": "Great men",
-          "hebrew-2449": "are [always] wise",
-          "hebrew-2205": "nor the aged",
-          "hebrew-995": "do [always] understand",
-          "hebrew-4941": "justice"
+          "eng": {
+            "hebrew-3808": "Not",
+            "hebrew-7227": "Great men",
+            "hebrew-2449": "are [always] wise",
+            "hebrew-2205": "nor the aged",
+            "hebrew-995": "do [always] understand",
+            "hebrew-4941": "justice"
+          },
+          "cht": {
+            "hebrew-3808": "不",
+            "hebrew-7227": "尊貴的",
+            "hebrew-2449": "都有智慧",
+            "hebrew-2205": "壽高的",
+            "hebrew-995": "不都能明白",
+            "hebrew-4941": "公平"
+          }
         }
       },
       "translations": {
@@ -24,34 +34,35 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "pro.9.12",
-          "cunp": "你若有智慧，是與自己有益； 你若褻慢，就必獨自擔當。",
+          "nasb": "If you are wise, you are wise for yourself, And if you scoff, you alone will bear it.",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "If"
+              "cht": "你若"
             },
             {
               "id": "hebrew-2449",
-              "eng": "you are wise",
-              "punct": "､"
+              "cht": "有智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2449",
-              "eng": "you are wise"
+              "cht": "有益",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3887",
-              "eng": "and [if] you scoff",
-              "punct": "､"
+              "cht": "你若褻慢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-905",
-              "eng": "you alone"
+              "cht": "就必獨自"
             },
             {
               "id": "hebrew-5375",
-              "eng": "will bear [it]",
-              "punct": "."
+              "cht": "擔當",
+              "punct_cht": "。"
             }
           ]
         },
@@ -62,34 +73,34 @@
             "hebrew-995": 1.3494993415382406
           },
           "verseKey": "deu.32.29",
-          "cunp": "惟願他們有智慧， 能明白這事，肯思念他們的結局。",
+          "nasb": "Would that they were wise, that they understood this, That they would discern their future!",
           "words": [
             {
               "id": "hebrew-3863",
-              "eng": "Oh that"
+              "cht": "惟願"
             },
             {
               "id": "hebrew-2449",
-              "eng": "they were wise",
-              "punct": "､"
+              "cht": "他們有智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7919",
-              "eng": "[that] they understood"
+              "cht": "能明白"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this",
-              "punct": "､"
+              "cht": "這事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "[That] they would consider"
+              "cht": "肯思念"
             },
             {
               "id": "hebrew-319",
-              "eng": "their latter end",
-              "punct": "!"
+              "cht": "他們的結局",
+              "punct_cht": "。"
             }
           ]
         },
@@ -100,61 +111,60 @@
             "hebrew-995": 1.3494993415382406
           },
           "verseKey": "dan.12.10",
-          "cunp": "必有許多人使自己清淨潔白，且被熬煉；但惡人仍必行惡，一切惡人都不明白，惟獨智慧人能明白。",
+          "nasb": "Many will be purged, purified and refined, but the wicked will act wickedly; and none of the wicked will understand, but those who have insight will understand.",
           "words": [
             {
+              "id": "hebrew-7227",
+              "cht": "必有許多"
+            },
+            {
               "id": "hebrew-1305",
-              "eng": "Shall be purified",
-              "punct": "､"
+              "cht": "人使自己清淨"
             },
             {
               "id": "hebrew-3835",
-              "eng": "and made white",
-              "punct": "､"
+              "cht": "潔白",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6884",
-              "eng": "and refined",
-              "punct": "–"
+              "cht": "且被熬煉",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-7227",
-              "eng": "Many"
+              "id": "hebrew-7563",
+              "cht": "但惡人"
             },
             {
               "id": "hebrew-7561",
-              "eng": "but shall do wickedly",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "the wicked"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and none"
-            },
-            {
-              "id": "hebrew-995",
-              "eng": "shall understand",
-              "punct": "–"
+              "cht": "仍必行惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "一切"
             },
             {
               "id": "hebrew-7563",
-              "eng": "of the wicked"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-7919",
-              "eng": "but the wise"
+              "id": "hebrew-3808",
+              "cht": "都不"
             },
             {
               "id": "hebrew-995",
-              "eng": "shall understand",
-              "punct": "."
+              "cht": "明白",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7919",
+              "cht": "惟獨智慧人"
+            },
+            {
+              "id": "hebrew-995",
+              "cht": "能明白",
+              "punct_cht": "。"
             }
           ]
         },
@@ -164,41 +174,35 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "pro.27.11",
-          "cunp": "我兒，你要作智慧人，好叫我的心歡喜， 使我可以回答那譏誚我的人。",
+          "nasb": "Be wise, my son, and make my heart glad, That I may reply to him who reproaches me.",
           "words": [
             {
-              "id": "hebrew-2449",
-              "eng": "Be wise",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1121",
-              "eng": "My son",
-              "punct": "､"
+              "cht": "我兒",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8056",
-              "eng": "and make glad"
+              "id": "hebrew-2449",
+              "cht": "你要作智慧人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "my heart"
+              "cht": "好叫我的心"
+            },
+            {
+              "id": "hebrew-8055",
+              "cht": "歡喜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "that I may answer"
+              "cht": "使我可以回答"
             },
             {
               "id": "hebrew-2778",
-              "eng": "him who reproaches me"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "act",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-8055"
+              "cht": "那譏誚我的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -208,45 +212,47 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "pro.20.1",
-          "cunp": "酒能使人褻慢，濃酒使人喧嚷； 凡因酒錯誤的，就無智慧。",
+          "nasb": "Wine is a mocker, strong drink a brawler, And whoever is intoxicated by it is not wise.",
           "words": [
             {
-              "id": "hebrew-3887",
-              "eng": "A mocker",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3196",
-              "eng": "Wine [is]"
+              "cht": "酒"
             },
             {
-              "id": "hebrew-1993",
-              "eng": "[is] a brawler",
-              "punct": "､"
+              "id": "hebrew-3887",
+              "cht": "能使人褻慢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7941",
-              "eng": "Strong drink"
+              "cht": "濃酒"
+            },
+            {
+              "id": "hebrew-1993",
+              "cht": "使人喧嚷",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and whoever"
+              "cht": "凡"
             },
             {
               "id": "hebrew-7686",
-              "eng": "is led astray"
+              "cht": "錯誤"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "就無"
             },
             {
               "id": "hebrew-2449",
-              "eng": "is wise",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "智慧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -256,89 +262,85 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "ecc.2.15",
-          "cunp": "我就心裏說：「愚昧人所遇見的，我也必遇見，我為何更有智慧呢？」我心裏說，這也是虛空。",
+          "nasb": "Then I said to myself, “As is the fate of the fool, it will also befall me. Why then have I been extremely wise?” So I said to myself, “This too is vanity.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "So said"
-            },
-            {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-3820",
-              "eng": "in my heart",
-              "punct": "､"
+              "cht": "就心裡"
             },
             {
-              "id": "hebrew-4745",
-              "eng": "as it happens to"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3684",
-              "eng": "the fool",
-              "punct": "､"
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-4745",
+              "cht": "所遇見的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-589",
-              "eng": "me"
+              "cht": "我"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-7136",
-              "eng": "it happens to"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "and why"
-            },
-            {
-              "id": "hebrew-2449",
-              "eng": "was wise"
+              "cht": "必遇見",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
-              "id": "hebrew-227",
-              "eng": "then"
+              "id": "hebrew-4100",
+              "cht": "為何"
             },
             {
               "id": "hebrew-3148",
-              "eng": "more"
+              "cht": "更有"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "and I said"
+              "id": "hebrew-2449",
+              "cht": "智慧"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-3820",
-              "eng": "in my heart",
-              "punct": "､"
+              "cht": "我心裡"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-1696",
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也是"
             },
             {
               "id": "hebrew-1892",
-              "eng": "[is] vanity",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-7945"
+              "cht": "虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -348,79 +350,72 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "ecc.2.19",
-          "cunp": "那人是智慧是愚昧，誰能知道？他竟要管理我勞碌所得的，就是我在日光之下用智慧所得的。這也是虛空。",
+          "nasb": "And who knows whether he will be a wise man or a fool? Yet he will have control over all the fruit of my labor for which I have labored by acting wisely under the sun. This too is vanity.",
           "words": [
             {
-              "id": "hebrew-4310",
-              "eng": "And who"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "knows"
+              "id": "hebrew-1961",
+              "cht": "那人是"
             },
             {
               "id": "hebrew-2450",
-              "eng": "whether wise"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "he will be"
+              "cht": "智慧"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "hebrew-5530",
-              "eng": "a fool"
+              "cht": "愚昧",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4310",
+              "cht": "誰"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "能知道",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-7980",
-              "eng": "and yet he will rule"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "over all"
-            },
-            {
-              "id": "hebrew-5999",
-              "eng": "my labor"
+              "cht": "他竟要管理"
             },
             {
               "id": "hebrew-5998",
-              "eng": "in which toiled I"
+              "cht": "我勞碌"
             },
             {
-              "id": "hebrew-2449",
-              "eng": "and in which I have shown myself wise"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "under"
+              "id": "hebrew-5999",
+              "cht": "所得的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8121",
-              "eng": "the sun",
-              "punct": "."
+              "cht": "就是我在日光"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "Also"
+              "id": "hebrew-8478",
+              "cht": "之下"
+            },
+            {
+              "id": "hebrew-2449",
+              "cht": "用智慧所得的",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-1892",
-              "eng": "[is] vanity",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7945"
-            },
-            {
-              "id": "hebrew-7945"
+              "cht": "是虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -430,47 +425,47 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "ecc.7.23",
-          "cunp": "我曾用智慧試驗這一切事；我說，要得智慧，智慧卻離我遠。",
+          "nasb": "I tested all this with wisdom, and I said, “I will be wise,” but it was far from me.",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "All"
-            },
-            {
-              "id": "hebrew-2090",
-              "eng": "this"
+              "id": "hebrew-2451",
+              "cht": "我曾用智慧"
             },
             {
               "id": "hebrew-5254",
-              "eng": "I have proved"
+              "cht": "試驗"
             },
             {
-              "id": "hebrew-2451",
-              "eng": "by wisdom",
-              "punct": "､"
+              "id": "hebrew-2090",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切事",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-559",
-              "eng": "I said",
-              "punct": "､"
+              "cht": "我說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2449",
-              "eng": "I will be wise",
-              "punct": "–"
+              "cht": "要得智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "but it [was]"
-            },
-            {
-              "id": "hebrew-7350",
-              "eng": "far"
+              "cht": "智慧卻"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from me",
-              "punct": "."
+              "cht": "離我"
+            },
+            {
+              "id": "hebrew-7350",
+              "cht": "遠",
+              "punct_cht": "。"
             }
           ]
         },
@@ -480,48 +475,46 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "ecc.7.16",
-          "cunp": "不要行義過分，也不要過於自逞智慧，何必自取敗亡呢？",
+          "nasb": "Do not be excessively righteous and do not be overly wise. Why should you ruin yourself?",
           "words": [
             {
-              "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
               "id": "hebrew-1961",
-              "eng": "do be"
+              "cht": "不要"
             },
             {
               "id": "hebrew-6662",
-              "eng": "righteous"
+              "cht": "行義"
             },
             {
               "id": "hebrew-7235",
-              "eng": "overly",
-              "punct": "–"
+              "cht": "過分",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-2449",
-              "eng": "be wise"
+              "cht": "也不要"
             },
             {
               "id": "hebrew-3148",
-              "eng": "overly",
-              "punct": "–"
+              "cht": "過於"
+            },
+            {
+              "id": "hebrew-2449",
+              "cht": "自逞智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4100",
-              "eng": "why"
+              "cht": "何必"
             },
             {
               "id": "hebrew-8074",
-              "eng": "should you destroy yourself"
+              "cht": "自取敗亡"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -531,51 +524,51 @@
             "hebrew-2449": 3.288933040646453
           },
           "verseKey": "psa.19.7",
-          "cunp": "耶和華的律法全備，能甦醒人心； 耶和華的法度確定，能使愚人有智慧。",
+          "nasb": "The law of the Lord is perfect, restoring the soul; The testimony of the Lord is sure, making wise the simple.",
           "words": [
             {
-              "id": "hebrew-8451",
-              "eng": "The law"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "id": "hebrew-8451",
+              "cht": "的律法"
             },
             {
               "id": "hebrew-8549",
-              "eng": "[is] perfect",
-              "punct": "､"
+              "cht": "全備",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "converting"
+              "cht": "能甦醒"
             },
             {
               "id": "hebrew-5315",
-              "eng": "the soul",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5715",
-              "eng": "the testimony"
+              "cht": "人心",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5715",
+              "cht": "的法度"
             },
             {
               "id": "hebrew-539",
-              "eng": "[is] sure",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2449",
-              "eng": "making wise"
+              "cht": "確定",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6612",
-              "eng": "the simple",
-              "punct": "."
+              "cht": "能使愚人"
+            },
+            {
+              "id": "hebrew-2449",
+              "cht": "有智慧",
+              "punct_cht": "。"
             }
           ]
         }

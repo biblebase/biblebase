@@ -3,18 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-2532": "and",
-          "greek-3825": "again",
-          "greek-4336": "he prayed",
-          "greek-3588": "the",
-          "greek-3772": "heaven",
-          "greek-5205": "rain",
-          "greek-1325": "gave",
-          "greek-1093": "earth",
-          "greek-985": "produced",
-          "greek-2590": "fruit",
-          "greek-846": "of it",
-          "": null
+          "eng": {
+            "greek-2532": "and",
+            "greek-3825": "again",
+            "greek-4336": "he prayed",
+            "greek-3588": "the",
+            "greek-3772": "heaven",
+            "greek-5205": "rain",
+            "greek-1325": "gave",
+            "greek-1093": "earth",
+            "greek-985": "produced",
+            "greek-2590": "fruit",
+            "greek-846": "of it",
+            "": null
+          },
+          "cht": {
+            "greek-2532": "也",
+            "greek-3825": "他又",
+            "greek-4336": "禱告",
+            "greek-3772": "天",
+            "greek-5205": "雨",
+            "greek-1325": "降下",
+            "greek-1093": "地",
+            "greek-985": "生出",
+            "greek-2590": "土產",
+            "greek-846": "生出"
+          }
         }
       },
       "translations": {
@@ -34,61 +48,41 @@
             "greek-2590": 1.4911194484118344
           },
           "verseKey": "mat.13.26",
-          "cunp": "到長苗吐穗的時候，稗子也顯出來。",
+          "nasb": "But when the wheat sprouted and bore grain, then the tares became evident also.",
           "words": [
             {
-              "id": "greek-3753",
-              "eng": "When"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
               "id": "greek-985",
-              "eng": "sprouted"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "到長"
             },
             {
               "id": "greek-5528",
-              "eng": "plants"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2590",
-              "eng": "fruit"
+              "cht": "苗"
             },
             {
               "id": "greek-4160",
-              "eng": "produced",
-              "punct": ","
+              "cht": "吐"
             },
             {
-              "id": "greek-5119",
-              "eng": "then"
+              "id": "greek-2590",
+              "cht": "穗"
             },
             {
-              "id": "greek-5316",
-              "eng": "appeared"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3753",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2215",
-              "eng": "weeds",
-              "punct": "."
+              "cht": "稗子"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
+            },
+            {
+              "id": "greek-5316",
+              "cht": "顯出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -98,84 +92,59 @@
             "greek-985": 7.502414237754052
           },
           "verseKey": "mrk.4.27",
-          "cunp": "黑夜睡覺，白日起來，這種就發芽漸長，那人卻不曉得如何這樣。",
+          "nasb": "and he goes to bed at night and gets up by day, and the seed sprouts and grows—how, he himself does not know.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3751",
+              "cht": "黑夜"
             },
             {
               "id": "greek-2518",
-              "eng": "should sleep"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1453",
-              "eng": "rise"
-            },
-            {
-              "id": "greek-3571",
-              "eng": "night"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "睡覺",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2250",
-              "eng": "day",
-              "punct": ","
+              "cht": "白日"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1453",
+              "cht": "起來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4703",
-              "eng": "seed"
+              "cht": "這種"
             },
             {
               "id": "greek-985",
-              "eng": "should sprout"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "就發芽"
             },
             {
               "id": "greek-3373",
-              "eng": "grow",
-              "punct": ";"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "how"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "knows"
+              "cht": "漸長",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "he",
-              "punct": "."
+              "cht": "那人"
             },
             {
-              "id": "greek-3751"
+              "id": "greek-3756",
+              "cht": "卻不"
             },
             {
-              "id": ""
+              "id": "greek-1492",
+              "cht": "曉得"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "如何"
+            },
+            {
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -185,132 +154,95 @@
             "greek-985": 7.502414237754052
           },
           "verseKey": "heb.9.4",
-          "cunp": "有金香爐，有包金的約櫃，櫃裏有盛嗎哪的金罐和亞倫發過芽的杖，並兩塊約版；",
+          "nasb": "having a golden altar of incense and the ark of the covenant covered on all sides with gold, in which was a golden jar holding the manna, and Aaron’s rod which budded, and the tables of the covenant;",
           "words": [
             {
-              "id": "greek-5552",
-              "eng": "[the] golden"
+              "id": "greek-2192",
+              "cht": "有"
             },
             {
-              "id": "greek-2192",
-              "eng": "having"
+              "id": "greek-5552",
+              "cht": "金"
             },
             {
               "id": "greek-2369",
-              "eng": "altar of incense",
-              "punct": ","
+              "cht": "香爐"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2787",
-              "eng": "ark"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1242",
-              "eng": "covenant",
-              "punct": ","
+              "id": "",
+              "cht": "（或作壇）",
+              "punct_cht": "：，"
             },
             {
               "id": "greek-4028",
-              "eng": "having been covered around"
-            },
-            {
-              "id": "greek-3840",
-              "eng": "in every part"
+              "cht": "有包"
             },
             {
               "id": "greek-5553",
-              "eng": "with gold",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-4713",
-              "eng": "[was the] jar"
-            },
-            {
-              "id": "greek-5552",
-              "eng": "golden"
-            },
-            {
-              "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3131",
-              "eng": "manna",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4464",
-              "eng": "staff"
-            },
-            {
-              "id": "greek-2",
-              "eng": "of Aaron"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-985",
-              "eng": "having budded",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4109",
-              "eng": "tablets"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "金"
             },
             {
               "id": "greek-1242",
-              "eng": "covenant",
-              "punct": "."
+              "cht": "的約"
             },
             {
-              "id": ""
+              "id": "greek-2787",
+              "cht": "櫃",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "櫃"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "裡"
+            },
+            {
+              "id": "greek-2192",
+              "cht": "有"
+            },
+            {
+              "id": "greek-3131",
+              "cht": "盛嗎哪"
+            },
+            {
+              "id": "greek-5552",
+              "cht": "的金"
+            },
+            {
+              "id": "greek-4713",
+              "cht": "罐"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "和"
+            },
+            {
+              "id": "greek-2",
+              "cht": "亞倫"
+            },
+            {
+              "id": "greek-985",
+              "cht": "發過芽"
+            },
+            {
+              "id": "greek-4464",
+              "cht": "的杖",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
+            },
+            {
+              "id": "greek-1242",
+              "cht": "兩塊約"
+            },
+            {
+              "id": "greek-4109",
+              "cht": "版",
+              "punct_cht": "；"
             }
           ]
         },
@@ -321,74 +253,63 @@
             "greek-1325": 0.44594048131464864
           },
           "verseKey": "zec.10.1",
-          "cunp": "當春雨的時候， 你們要向發閃電的耶和華求雨。 他必為眾人降下甘霖， 使田園生長菜蔬。",
+          "nasb": "Ask rain from the Lord at the time of the spring rain— The Lord who makes the storm clouds; And He will give them showers of rain, vegetation in the field to each man.",
           "words": [
             {
-              "id": "hebrew-7592",
-              "eng": "Ask"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-4306",
-              "eng": "for rain"
+              "id": "hebrew-4456",
+              "cht": "當春雨"
             },
             {
               "id": "hebrew-6256",
-              "eng": "in the time"
-            },
-            {
-              "id": "hebrew-4456",
-              "eng": "of the latter rain",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "will make"
+              "cht": "你們要向發"
             },
             {
               "id": "hebrew-2385",
-              "eng": "flashing clouds",
-              "punct": "､"
+              "cht": "閃電"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的耶和華"
+            },
+            {
+              "id": "hebrew-7592",
+              "cht": "求"
             },
             {
               "id": "hebrew-4306",
-              "eng": "and rain",
-              "punct": "､"
+              "cht": "雨",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-1653",
-              "eng": "showers"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "of He will give"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "them"
+              "id": "hebrew-3068",
+              "cht": "他"
             },
             {
               "id": "hebrew-376",
-              "eng": "for everyone"
+              "cht": "必為眾人"
             },
             {
-              "id": "hebrew-6212",
-              "eng": "Grass"
+              "id": "hebrew-5414",
+              "cht": "降下"
+            },
+            {
+              "id": "hebrew-1653",
+              "cht": "甘霖",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7704",
-              "eng": "in the field",
-              "punct": "."
+              "cht": "使田園"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6212",
+              "cht": "生長菜蔬",
+              "punct_cht": "。"
             }
           ]
         },
@@ -398,54 +319,46 @@
             "greek-5205": 2.57672001355142
           },
           "verseKey": "job.37.6",
-          "cunp": "他對雪說：要降在地上； 對大雨和暴雨也是這樣說。",
+          "nasb": "For to the snow He says, ‘Fall on the earth,’ And to the downpour and the rain, ‘Be strong.’",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
               "id": "hebrew-7950",
-              "eng": "to the snow",
-              "punct": "､"
+              "cht": "他對雪"
             },
             {
               "id": "hebrew-559",
-              "eng": "He says"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1933",
-              "eng": "Fall"
+              "cht": "要降在"
             },
             {
               "id": "hebrew-776",
-              "eng": "[on] the earth",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1653",
-              "eng": "and Likewise to the rain",
-              "punct": "､"
+              "cht": "地上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4306",
-              "eng": "gentle"
+              "cht": "對大"
             },
             {
               "id": "hebrew-1653",
-              "eng": "and the rain"
+              "cht": "雨"
             },
             {
               "id": "hebrew-4306",
-              "eng": "of heavy"
+              "cht": "和暴"
             },
             {
-              "id": "hebrew-5797",
-              "eng": "His strength",
-              "punct": "."
+              "id": "hebrew-1653",
+              "cht": "雨"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "也是這樣說",
+              "punct_cht": "。"
             }
           ]
         },
@@ -456,75 +369,72 @@
             "greek-2590": 1.4911194484118344
           },
           "verseKey": "deu.28.11",
-          "cunp": "你在耶和華向你列祖起誓應許賜你的地上，他必使你身所生的，牲畜所下的，地所產的，都綽綽有餘。",
+          "nasb": "The Lord will make you abound in prosperity, in the offspring of your body and in the offspring of your beast and in the produce of your ground, in the land which the Lord swore to your fathers to give you.",
           "words": [
             {
-              "id": "hebrew-3498",
-              "eng": "And will grant you plenty"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "of goods",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6529",
-              "eng": "in the fruit"
-            },
-            {
-              "id": "hebrew-990",
-              "eng": "of your womb",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6529",
-              "eng": "and in the increase"
-            },
-            {
-              "id": "hebrew-929",
-              "eng": "of your livestock",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6529",
-              "eng": "and in the produce"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "of your ground",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "in"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "the land"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "of which"
-            },
-            {
-              "id": "hebrew-7650",
-              "eng": "swore"
+              "cht": "你在"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1",
-              "eng": "to your fathers"
+              "cht": "向你列祖"
+            },
+            {
+              "id": "hebrew-7650",
+              "cht": "起誓"
             },
             {
               "id": "hebrew-5414",
-              "eng": "to give"
+              "cht": "應許賜"
+            },
+            {
+              "id": "hebrew-127",
+              "cht": "的地上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-3498",
+              "cht": "必使你"
+            },
+            {
+              "id": "hebrew-990",
+              "cht": "身"
+            },
+            {
+              "id": "hebrew-6529",
+              "cht": "所生的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "牲畜"
+            },
+            {
+              "id": "hebrew-6529",
+              "cht": "所下的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-127",
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-6529",
+              "cht": "所產的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "都綽綽有餘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -536,146 +446,104 @@
             "greek-1093": 1.1216435015206594
           },
           "verseKey": "mat.16.19",
-          "cunp": "我要把天國的鑰匙給你，凡你在地上所捆綁的，在天上也要捆綁；凡你在地上所釋放的，在天上也要釋放。」",
+          "nasb": "I will give you the keys of the kingdom of heaven; and whatever you bind on earth shall have been bound in heaven, and whatever you loose on earth shall have been loosed in heaven.”",
           "words": [
             {
-              "id": "greek-1325",
-              "eng": "I will give"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "keys"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-3772",
+              "cht": "我要把天"
             },
             {
               "id": "greek-932",
-              "eng": "kingdom"
+              "cht": "國"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2807",
+              "cht": "的鑰匙"
             },
             {
-              "id": "greek-3772",
-              "eng": "heavens",
-              "punct": ";"
+              "id": "greek-1325",
+              "cht": "給"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1210",
-              "eng": "you might bind"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-2071",
-              "eng": "will be"
-            },
-            {
-              "id": "greek-1210",
-              "eng": "bound"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3772",
-              "eng": "heavens",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4671",
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3089",
-              "eng": "you might loose"
+              "cht": "凡"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你在"
             },
             {
               "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
+              "cht": "地上"
             },
             {
-              "id": "greek-2071",
-              "eng": "will be"
+              "id": "greek-1210",
+              "cht": "所捆綁"
             },
             {
-              "id": "greek-3089",
-              "eng": "loosed"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-3772",
-              "eng": "heavens",
-              "punct": "."
+              "cht": "天上"
             },
             {
-              "id": ""
+              "id": "greek-2071",
+              "cht": "也要"
             },
             {
-              "id": ""
+              "id": "greek-1210",
+              "cht": "捆綁",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "凡"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "你在"
+            },
+            {
+              "id": "greek-1093",
+              "cht": "地上"
+            },
+            {
+              "id": "greek-3089",
+              "cht": "所釋放"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-3772",
+              "cht": "天上"
+            },
+            {
+              "id": "greek-2071",
+              "cht": "也要"
+            },
+            {
+              "id": "greek-3089",
+              "cht": "釋放",
+              "punct_cht": "。"
             }
           ]
         },
@@ -687,88 +555,76 @@
             "greek-5205": 2.57672001355142
           },
           "verseKey": "1ki.8.35",
-          "cunp": "「你的民因得罪你，你懲罰他們，使天閉塞不下雨；他們若向此處禱告，承認你的名，離開他們的罪，",
+          "nasb": "“When the heavens are shut up and there is no rain, because they have sinned against You, and they pray toward this place and confess Your name and turn from their sin when You afflict them,",
           "words": [
             {
-              "id": "hebrew-6113",
-              "eng": "When are shut up",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "the heavens"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there is"
-            },
-            {
-              "id": "hebrew-4306",
-              "eng": "rain",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "你的民因"
             },
             {
               "id": "hebrew-2398",
-              "eng": "they have sinned"
-            },
-            {
-              "id": "hebrew-6419",
-              "eng": "and when they pray"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "toward"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3034",
-              "eng": "and confess"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "Your name",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2403",
-              "eng": "and from their sin",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "turn"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "得罪"
             },
             {
               "id": "hebrew-6031",
-              "eng": "You afflict them",
-              "punct": "."
+              "cht": "你懲罰他們",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-8064",
+              "cht": "使天"
+            },
+            {
+              "id": "hebrew-6113",
+              "cht": "閉塞"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "下"
+            },
+            {
+              "id": "hebrew-4306",
+              "cht": "雨",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "他們若向"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "此"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "處"
+            },
+            {
+              "id": "hebrew-6419",
+              "cht": "禱告",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3034",
+              "cht": "承認"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "你的名",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "離開"
+            },
+            {
+              "id": "hebrew-2403",
+              "cht": "他們的罪",
+              "punct_cht": "，"
             }
           ]
         },
@@ -780,88 +636,76 @@
             "greek-5205": 2.57672001355142
           },
           "verseKey": "2ch.6.26",
-          "cunp": "「你的民因得罪你，你懲罰他們，使天閉塞不下雨，他們若向此處禱告，承認你的名，離開他們的罪，",
+          "nasb": "“When the heavens are shut up and there is no rain because they have sinned against You, and they pray toward this place and confess Your name, and turn from their sin when You afflict them;",
           "words": [
             {
-              "id": "hebrew-6113",
-              "eng": "When are shut up",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8064",
-              "eng": "the heavens"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "there is"
-            },
-            {
-              "id": "hebrew-4306",
-              "eng": "rain",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "你的民因"
             },
             {
               "id": "hebrew-2398",
-              "eng": "they have sinned"
-            },
-            {
-              "id": "hebrew-6419",
-              "eng": "and when they pray"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "toward"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "place",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3034",
-              "eng": "and confess"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "Your name",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2403",
-              "eng": "from their sin",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "and turn"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "得罪"
             },
             {
               "id": "hebrew-6031",
-              "eng": "You afflict them",
-              "punct": "."
+              "cht": "你懲罰他們",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-8064",
+              "cht": "使天"
+            },
+            {
+              "id": "hebrew-6113",
+              "cht": "閉塞"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "下"
+            },
+            {
+              "id": "hebrew-4306",
+              "cht": "雨",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "他們若向"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "此"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "處"
+            },
+            {
+              "id": "hebrew-6419",
+              "cht": "禱告",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3034",
+              "cht": "承認"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "你的名",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "離開"
+            },
+            {
+              "id": "hebrew-2403",
+              "cht": "他們的罪",
+              "punct_cht": "，"
             }
           ]
         },
@@ -872,74 +716,62 @@
             "greek-2590": 1.4911194484118344
           },
           "verseKey": "luk.6.43",
-          "cunp": "「因為，沒有好樹結壞果子，也沒有壞樹結好果子。",
+          "nasb": "For there is no good tree which produces bad fruit, nor, on the other hand, a bad tree which produces good fruit.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "No"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1510",
-              "eng": "there is"
-            },
-            {
-              "id": "greek-1186",
-              "eng": "tree"
+              "id": "greek-3756",
+              "cht": "沒有"
             },
             {
               "id": "greek-2570",
-              "eng": "good",
-              "punct": ","
+              "cht": "好"
             },
             {
-              "id": "greek-4160",
-              "eng": "producing"
+              "id": "greek-1186",
+              "cht": "樹"
             },
             {
-              "id": "greek-2590",
-              "eng": "fruit"
+              "id": "greek-2076",
+              "cht": "結"
             },
             {
               "id": "greek-4550",
-              "eng": "bad",
-              "punct": ";"
+              "cht": "壞"
+            },
+            {
+              "id": "greek-2590",
+              "cht": "果子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3761",
-              "eng": "nor"
-            },
-            {
-              "id": "greek-3825",
-              "eng": "again"
-            },
-            {
-              "id": "greek-1186",
-              "eng": "a tree"
+              "cht": "也沒有"
             },
             {
               "id": "greek-4550",
-              "eng": "bad",
-              "punct": ","
+              "cht": "壞"
+            },
+            {
+              "id": "greek-1186",
+              "cht": "樹"
             },
             {
               "id": "greek-4160",
-              "eng": "producing"
-            },
-            {
-              "id": "greek-2590",
-              "eng": "fruit"
+              "cht": "結"
             },
             {
               "id": "greek-2570",
-              "eng": "good",
-              "punct": "."
+              "cht": "好"
             },
             {
-              "id": "greek-2076"
+              "id": "greek-2590",
+              "cht": "果子",
+              "punct_cht": "。"
             }
           ]
         }

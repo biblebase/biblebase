@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5099": "The roaring",
-          "hebrew-3715": "of [is] like a lion",
-          "hebrew-367": "the fear",
-          "hebrew-4428": "of a king",
-          "hebrew-5674": "[Whoever] provokes him to anger",
-          "hebrew-2398": "sins",
-          "hebrew-5315": "[against] his own life",
-          "": null
+          "eng": {
+            "hebrew-5099": "The roaring",
+            "hebrew-3715": "of [is] like a lion",
+            "hebrew-367": "the fear",
+            "hebrew-4428": "of a king",
+            "hebrew-5674": "[Whoever] provokes him to anger",
+            "hebrew-2398": "sins",
+            "hebrew-5315": "[against] his own life",
+            "": null
+          },
+          "cht": {
+            "hebrew-5099": "吼叫",
+            "hebrew-3715": "如同獅子",
+            "hebrew-367": "的威嚇",
+            "hebrew-4428": "王",
+            "hebrew-5674": "惹動他怒",
+            "hebrew-2398": "是自害",
+            "hebrew-5315": "己命"
+          }
         }
       },
       "translations": {
@@ -26,41 +37,41 @@
             "hebrew-4428": 0.4103064360103035
           },
           "verseKey": "pro.19.12",
-          "cunp": "王的忿怒好像獅子吼叫； 他的恩典卻如草上的甘露。",
+          "nasb": "The king’s wrath is like the roaring of a lion, But his favor is like dew on the grass.",
           "words": [
             {
-              "id": "hebrew-5099",
-              "eng": "The roaring"
-            },
-            {
-              "id": "hebrew-3715",
-              "eng": "of like a lion",
-              "punct": "–"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-2197",
-              "eng": "wrath [is]"
+              "cht": "的忿怒"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "of the king"
+              "id": "hebrew-3715",
+              "cht": "好像獅子"
             },
             {
-              "id": "hebrew-2919",
-              "eng": "but like dew"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "the grass"
+              "id": "hebrew-5099",
+              "cht": "吼叫",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7522",
-              "eng": "his favor [is]",
-              "punct": "."
+              "cht": "他的恩典"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "卻如草"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "上"
+            },
+            {
+              "id": "hebrew-2919",
+              "cht": "的甘露",
+              "punct_cht": "。"
             }
           ]
         },
@@ -71,66 +82,63 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -140,72 +148,59 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "deu.32.25",
-          "cunp": "外頭有刀劍，內室有驚恐， 使人喪亡，使少男、童女、 吃奶的、白髮的，盡都滅絕。",
+          "nasb": "Outside the sword will bereave, And inside terror— Both young man and virgin, The nursling with the man of gray hair.",
           "words": [
             {
-              "id": "hebrew-2351",
-              "eng": "Outside",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7921",
-              "eng": "shall destroy"
+              "id": "hebrew-4480",
+              "cht": "外頭"
             },
             {
               "id": "hebrew-2719",
-              "eng": "the sword"
+              "cht": "有刀劍",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2315",
-              "eng": "and within",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "內室"
             },
             {
               "id": "hebrew-367",
-              "eng": "[There shall be] terror"
+              "cht": "有驚恐",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7921",
+              "cht": "使人喪亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "for"
+              "cht": "使"
             },
             {
               "id": "hebrew-970",
-              "eng": "the young man"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and"
+              "cht": "少男、"
             },
             {
               "id": "hebrew-1330",
-              "eng": "virgin",
-              "punct": "､"
+              "cht": "童女、"
             },
             {
               "id": "hebrew-3243",
-              "eng": "the nursing child"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
+              "cht": "吃奶的、"
             },
             {
               "id": "hebrew-7872",
-              "eng": "of gray hairs",
-              "punct": "."
+              "cht": "白髮"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-376",
+              "cht": "的"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "盡都滅絕",
+              "punct_cht": "，。"
             }
           ]
         },
@@ -215,64 +210,67 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "isa.33.18",
-          "cunp": "你的心必思想那驚嚇的事， 自問說：記數目的在哪裏呢？ 平貢銀的在哪裏呢？ 數戍樓的在哪裏呢？",
+          "nasb": "Your heart will meditate on terror: “Where is he who counts? Where is he who weighs? Where is he who counts the towers?”",
           "words": [
             {
               "id": "hebrew-3820",
-              "eng": "Your heart"
+              "cht": "你的心"
             },
             {
               "id": "hebrew-1897",
-              "eng": "will meditate on"
+              "cht": "必思想"
             },
             {
               "id": "hebrew-367",
-              "eng": "terror",
-              "punct": "."
+              "cht": "那驚嚇的事"
             },
             {
-              "id": "hebrew-346",
-              "eng": "Where [is]"
+              "id": "",
+              "cht": "自問說",
+              "punct_cht": "，："
             },
             {
               "id": "hebrew-5608",
-              "eng": "the scribe"
+              "cht": "記數目的"
             },
             {
               "id": "hebrew-346",
-              "eng": "where [is]"
+              "cht": "在哪裡"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-8254",
-              "eng": "he who weighs"
+              "cht": "平貢銀的"
             },
             {
               "id": "hebrew-346",
-              "eng": "where [is]"
+              "cht": "在哪裡"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5608",
-              "eng": "he who counts"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "數"
             },
             {
               "id": "hebrew-4026",
-              "eng": "the towers"
+              "cht": "戍樓"
             },
             {
-              "id": ""
+              "id": "hebrew-346",
+              "cht": "的在哪裡"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -282,78 +280,66 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "ezr.3.3",
-          "cunp": "他們在原有的根基上築壇，因懼怕鄰國的民，又在其上向耶和華早晚獻燔祭，",
+          "nasb": "So they set up the altar on its foundation, for they were terrified because of the peoples of the lands; and they offered burnt offerings on it to the Lord, burnt offerings morning and evening.",
           "words": [
             {
-              "id": "hebrew-3559",
-              "eng": "And they set"
-            },
-            {
-              "id": "hebrew-4196",
-              "eng": "the altar"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "他們在"
             },
             {
               "id": "hebrew-4350",
-              "eng": "its bases",
-              "punct": "–"
+              "cht": "原有的根基"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "上築"
+            },
+            {
+              "id": "hebrew-4196",
+              "cht": "壇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "Though"
+              "cht": "因"
             },
             {
               "id": "hebrew-367",
-              "eng": "fear [had come]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon them"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "because of the people"
+              "cht": "懼怕"
             },
             {
               "id": "hebrew-776",
-              "eng": "of those countries",
-              "punct": "–"
+              "cht": "鄰國"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "and they offered"
+              "id": "hebrew-5971",
+              "cht": "的民",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on it"
-            },
-            {
-              "id": "hebrew-5930",
-              "eng": "burnt offerings"
+              "cht": "又在其上"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5930",
-              "eng": "[both] burnt offerings"
+              "cht": "向耶和華"
             },
             {
               "id": "hebrew-1242",
-              "eng": "the morning"
+              "cht": "早"
             },
             {
               "id": "hebrew-6153",
-              "eng": "and evening",
-              "punct": "."
+              "cht": "晚"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5927",
+              "cht": "獻"
+            },
+            {
+              "id": "hebrew-5930",
+              "cht": "燔祭",
+              "punct_cht": "，"
             }
           ]
         },
@@ -363,36 +349,37 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "job.41.14",
-          "cunp": "誰能開牠的腮頰？ 牠牙齒四圍是可畏的。",
+          "nasb": "Who can open the doors of his face? Around his teeth there is terror.",
           "words": [
             {
-              "id": "hebrew-1817",
-              "eng": "The doors"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "of his face"
-            },
-            {
               "id": "hebrew-4310",
-              "eng": "who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-6605",
-              "eng": "can open"
+              "cht": "能開"
             },
             {
-              "id": "hebrew-5439",
-              "eng": "all around"
+              "id": "hebrew-6440",
+              "cht": "牠的腮"
+            },
+            {
+              "id": "hebrew-1817",
+              "cht": "頰",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-8127",
-              "eng": "his teeth"
+              "cht": "牠牙齒"
+            },
+            {
+              "id": "hebrew-5439",
+              "cht": "四圍"
             },
             {
               "id": "hebrew-367",
-              "eng": "[is] terror",
-              "punct": "."
+              "cht": "是可畏的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -402,36 +389,37 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "psa.55.4",
-          "cunp": "我心在我裏面甚是疼痛； 死的驚惶臨到我身。",
+          "nasb": "My heart is in anguish within me, And the terrors of death have fallen upon me.",
           "words": [
             {
               "id": "hebrew-3820",
-              "eng": "My heart"
-            },
-            {
-              "id": "hebrew-2342",
-              "eng": "is severely pained"
+              "cht": "我心"
             },
             {
               "id": "hebrew-7130",
-              "eng": "within me"
+              "cht": "在我裡面"
             },
             {
-              "id": "hebrew-367",
-              "eng": "and the terrors"
+              "id": "hebrew-2342",
+              "cht": "甚是疼痛",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4194",
-              "eng": "of death"
+              "cht": "死"
+            },
+            {
+              "id": "hebrew-367",
+              "cht": "的驚惶"
             },
             {
               "id": "hebrew-5307",
-              "eng": "have fallen"
+              "cht": "臨"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon me",
-              "punct": "."
+              "cht": "到我身",
+              "punct_cht": "。"
             }
           ]
         },
@@ -441,69 +429,58 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "gen.15.12",
-          "cunp": "日頭正落的時候，亞伯蘭沉沉地睡了；忽然有驚人的大黑暗落在他身上。",
+          "nasb": "Now when the sun was going down, a deep sleep fell upon Abram; and behold, terror and great darkness fell upon him.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And when"
-            },
-            {
               "id": "hebrew-8121",
-              "eng": "the sun"
+              "cht": "日頭"
             },
             {
               "id": "hebrew-935",
-              "eng": "was going [down]",
-              "punct": "､"
+              "cht": "正落"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5307",
+              "cht": "亞伯蘭"
             },
             {
               "id": "hebrew-8639",
-              "eng": "then a deep sleep"
+              "cht": "沉沉地睡"
             },
             {
-              "id": "hebrew-5307",
-              "eng": "fell"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-87",
-              "eng": "Abram",
-              "punct": "–"
+              "id": "",
+              "cht": "了",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and behold",
-              "punct": "､"
+              "cht": "忽然"
             },
             {
               "id": "hebrew-367",
-              "eng": "terror"
-            },
-            {
-              "id": "hebrew-2825",
-              "eng": "and darkness"
+              "cht": "有驚人"
             },
             {
               "id": "hebrew-1419",
-              "eng": "great"
+              "cht": "的大"
+            },
+            {
+              "id": "hebrew-2825",
+              "cht": "黑暗"
             },
             {
               "id": "hebrew-5307",
-              "eng": "fell"
+              "cht": "落"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon him",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "在他身上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -513,49 +490,43 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "job.20.25",
-          "cunp": "他把箭一抽，就從他身上出來； 發光的箭頭從他膽中出來， 有驚惶臨在他身上。",
+          "nasb": "It is drawn forth and comes out of his back, Even the glittering point from his gall. Terrors come upon him,",
           "words": [
             {
               "id": "hebrew-8025",
-              "eng": "It is drawn",
-              "punct": "､"
+              "cht": "他把箭一抽",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "就從他身上"
             },
             {
               "id": "hebrew-3318",
-              "eng": "and comes out"
-            },
-            {
-              "id": "hebrew-1465",
-              "eng": "of the body",
-              "punct": "–"
+              "cht": "出來",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1300",
-              "eng": "and Yes the glittering [point]"
+              "cht": "發光的箭頭"
             },
             {
-              "id": "hebrew-4846",
-              "eng": "out of his gall",
-              "punct": "–"
+              "id": "hebrew-4480",
+              "cht": "從他膽中"
             },
             {
               "id": "hebrew-1980",
-              "eng": "comes]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon him"
+              "cht": "出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-367",
-              "eng": "Terrors [come]",
-              "punct": "."
+              "cht": "有驚惶"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5921",
+              "cht": "臨在他身上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -565,31 +536,33 @@
             "hebrew-367": 4.967387449270056
           },
           "verseKey": "job.39.20",
-          "cunp": "是你叫牠跳躍像蝗蟲嗎？ 牠噴氣之威使人驚惶。",
+          "nasb": "Do you make him leap like the locust? His majestic snorting is terrible.",
           "words": [
             {
               "id": "hebrew-7493",
-              "eng": "can you frighten him"
+              "cht": "是你叫牠跳躍"
             },
             {
               "id": "hebrew-697",
-              "eng": "like a locust"
+              "cht": "像蝗蟲"
             },
             {
-              "id": "hebrew-1935",
-              "eng": "majestic"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5170",
-              "eng": "His snorting"
+              "cht": "牠噴氣"
+            },
+            {
+              "id": "hebrew-1935",
+              "cht": "之威"
             },
             {
               "id": "hebrew-367",
-              "eng": "[strikes] terror",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "使人驚惶",
+              "punct_cht": "。"
             }
           ]
         }

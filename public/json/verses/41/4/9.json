@@ -3,13 +3,21 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-2532": "And",
-          "greek-3004": "He was saying",
-          "greek-3739": "He who",
-          "greek-2192": "has",
-          "greek-3775": "ears",
-          "greek-191": "let him hear",
-          "": null
+          "eng": {
+            "greek-2532": "And",
+            "greek-3004": "He was saying",
+            "greek-3739": "He who",
+            "greek-2192": "has",
+            "greek-3775": "ears",
+            "greek-191": "let him hear",
+            "": null
+          },
+          "cht": {
+            "greek-3004": "又說",
+            "greek-2192": "有",
+            "greek-3775": "耳",
+            "greek-191": "就應當聽"
+          }
         }
       },
       "translations": {
@@ -25,158 +33,95 @@
             "greek-191": 0.5216855633148915
           },
           "verseKey": "mat.13.15",
-          "cunp": "因為這百姓油蒙了心， 耳朵發沉， 眼睛閉着， 恐怕眼睛看見， 耳朵聽見， 心裏明白，回轉過來， 我就醫治他們。",
+          "nasb": "For the heart of this people has become dull, With their ears they scarcely hear, And they have closed their eyes, Otherwise they would see with their eyes, Hear with their ears, And understand with their heart and return, And I would heal them.’",
           "words": [
             {
-              "id": "greek-3975",
-              "eng": "Has grown dull"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2588",
-              "eng": "heart"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2992",
-              "eng": "people"
+              "cht": "因為"
             },
             {
               "id": "greek-5127",
-              "eng": "this",
-              "punct": ","
+              "cht": "這"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2992",
+              "cht": "百姓"
             },
             {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-3775",
-              "eng": "ears"
-            },
-            {
-              "id": "greek-917",
-              "eng": "barely"
-            },
-            {
-              "id": "greek-191",
-              "eng": "they have heard",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3788",
-              "eng": "eyes"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-2576",
-              "eng": "they have closed",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4219",
-              "eng": "lest"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "they should see"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-3788",
-              "eng": "eyes",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-3775",
-              "eng": "ears"
-            },
-            {
-              "id": "greek-191",
-              "eng": "they should hear",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
+              "id": "greek-3975",
+              "cht": "油蒙了"
             },
             {
               "id": "greek-2588",
-              "eng": "heart"
+              "cht": "心",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3775",
+              "cht": "耳朵"
+            },
+            {
+              "id": "greek-191",
+              "cht": "發沉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3788",
+              "cht": "眼睛"
+            },
+            {
+              "id": "greek-2576",
+              "cht": "閉著",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3379",
+              "cht": "恐怕"
+            },
+            {
+              "id": "greek-3788",
+              "cht": "眼睛"
+            },
+            {
+              "id": "greek-1492",
+              "cht": "看見",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3775",
+              "cht": "耳朵"
+            },
+            {
+              "id": "greek-191",
+              "cht": "聽見",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2588",
+              "cht": "心裡"
             },
             {
               "id": "greek-4920",
-              "eng": "they should understand",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "明白",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1994",
-              "eng": "should return",
-              "punct": ","
+              "cht": "回轉過來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "我就"
             },
             {
               "id": "greek-2390",
-              "eng": "I will heal"
+              "cht": "醫治"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": "."
-            },
-            {
-              "id": "greek-3379"
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -187,161 +132,99 @@
             "greek-191": 0.5216855633148915
           },
           "verseKey": "act.28.27",
-          "cunp": "因為這百姓油蒙了心， 耳朵發沉， 眼睛閉着； 恐怕眼睛看見， 耳朵聽見， 心裏明白，回轉過來， 我就醫治他們。",
+          "nasb": "For the heart of this people has become dull, And with their ears they scarcely hear, And they have closed their eyes; Otherwise they might see with their eyes, And hear with their ears, And understand with their heart and return, And I would heal them.” ’",
           "words": [
             {
-              "id": "greek-3975",
-              "eng": "Has grown dull"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2588",
-              "eng": "heart"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2992",
-              "eng": "people"
+              "cht": "因為"
             },
             {
               "id": "greek-5127",
-              "eng": "this",
-              "punct": ","
+              "cht": "這"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2992",
+              "cht": "百姓"
             },
             {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-3775",
-              "eng": "ears"
-            },
-            {
-              "id": "greek-917",
-              "eng": "barely"
-            },
-            {
-              "id": "greek-191",
-              "eng": "they hear",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3788",
-              "eng": "eyes"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-2576",
-              "eng": "they have closed",
-              "punct": ","
-            },
-            {
-              "id": "greek-3361",
-              "eng": "lest"
-            },
-            {
-              "id": "greek-4219",
-              "eng": "ever"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "they should see"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-3788",
-              "eng": "eyes",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-3775",
-              "eng": "ears"
-            },
-            {
-              "id": "greek-191",
-              "eng": "they should hear",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
+              "id": "greek-3975",
+              "cht": "油蒙了"
             },
             {
               "id": "greek-2588",
-              "eng": "heart"
+              "cht": "心",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3775",
+              "cht": "耳朵"
+            },
+            {
+              "id": "greek-191",
+              "cht": "發"
+            },
+            {
+              "id": "greek-917",
+              "cht": "沉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3788",
+              "cht": "眼睛"
+            },
+            {
+              "id": "greek-2576",
+              "cht": "閉著",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-3379",
+              "cht": "恐怕"
+            },
+            {
+              "id": "greek-3788",
+              "cht": "眼睛"
+            },
+            {
+              "id": "greek-1492",
+              "cht": "看見",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3775",
+              "cht": "耳朵"
+            },
+            {
+              "id": "greek-191",
+              "cht": "聽見",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2588",
+              "cht": "心"
             },
             {
               "id": "greek-4920",
-              "eng": "they should understand",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "裡明白",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1994",
-              "eng": "should turn",
-              "punct": ","
+              "cht": "回轉"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "過來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2390",
-              "eng": "I will heal"
+              "cht": "我就醫治"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": "."
-            },
-            {
-              "id": "greek-3379"
-            },
-            {
-              "id": ""
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -354,110 +237,90 @@
             "greek-191": 0.5216855633148915
           },
           "verseKey": "luk.8.8",
-          "cunp": "又有落在好土裏的，生長起來，結實百倍。」耶穌說了這些話，就大聲說：「有耳可聽的，就應當聽！」",
+          "nasb": "Other seed fell into the good soil, and grew up, and produced a crop a hundred times as great.” As He said these things, He would call out, “He who has ears to hear, let him hear.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "又"
             },
             {
               "id": "greek-2087",
-              "eng": "other"
+              "cht": "有"
             },
             {
               "id": "greek-4098",
-              "eng": "fell"
+              "cht": "落"
             },
             {
-              "id": "greek-1519",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "soil"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1909",
+              "cht": "在"
             },
             {
               "id": "greek-18",
-              "eng": "good",
-              "punct": ","
+              "cht": "好"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1093",
+              "cht": "土"
+            },
+            {
+              "id": "",
+              "cht": "裡的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5453",
-              "eng": "having sprung up",
-              "punct": ","
+              "cht": "生長起來",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-4160",
-              "eng": "it produced"
+              "id": "greek-5453",
+              "cht": "結"
             },
             {
               "id": "greek-2590",
-              "eng": "fruit"
+              "cht": "實"
             },
             {
               "id": "greek-1542",
-              "eng": "a hundredfold",
-              "punct": "."
-            },
-            {
-              "id": "greek-5023",
-              "eng": "These things"
+              "cht": "百倍",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "cht": "耶穌說"
+            },
+            {
+              "id": "greek-5023",
+              "cht": "了這些話",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5455",
-              "eng": "He was calling out",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The [one]"
+              "cht": "就大聲說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2192",
-              "eng": "having"
+              "cht": "有"
             },
             {
               "id": "greek-3775",
-              "eng": "ears"
+              "cht": "耳"
             },
             {
               "id": "greek-191",
-              "eng": "to hear",
-              "punct": ","
+              "cht": "可聽"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-191",
-              "eng": "let him hear",
-              "punct": "."
-            },
-            {
-              "id": "greek-1909"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-5453"
-            },
-            {
-              "id": ""
+              "cht": "就應當聽",
+              "punct_cht": "！"
             }
           ]
         }

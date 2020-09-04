@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-120": "A man",
-          "hebrew-6175": "prudent",
-          "hebrew-3680": "conceals",
-          "hebrew-1847": "knowledge",
-          "hebrew-3820": "but the heart",
-          "hebrew-3684": "of fools",
-          "hebrew-7121": "proclaims",
-          "hebrew-200": "foolishness"
+          "eng": {
+            "hebrew-120": "A man",
+            "hebrew-6175": "prudent",
+            "hebrew-3680": "conceals",
+            "hebrew-1847": "knowledge",
+            "hebrew-3820": "but the heart",
+            "hebrew-3684": "of fools",
+            "hebrew-7121": "proclaims",
+            "hebrew-200": "foolishness"
+          },
+          "cht": {
+            "hebrew-120": "人",
+            "hebrew-6175": "通達",
+            "hebrew-3680": "隱藏",
+            "hebrew-1847": "知識",
+            "hebrew-3820": "的心",
+            "hebrew-3684": "愚昧人",
+            "hebrew-7121": "彰顯",
+            "hebrew-200": "愚昧"
+          }
         }
       },
       "translations": {
@@ -31,37 +43,37 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.13.16",
-          "cunp": "凡通達人都憑知識行事； 愚昧人張揚自己的愚昧。",
+          "nasb": "Every prudent man acts with knowledge, But a fool displays folly.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "Every"
+              "cht": "凡"
             },
             {
               "id": "hebrew-6175",
-              "eng": "prudent [man]"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "acts"
+              "cht": "通達人"
             },
             {
               "id": "hebrew-1847",
-              "eng": "with knowledge",
-              "punct": "､"
+              "cht": "都憑知識"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "行事",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "but a fool"
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-6566",
-              "eng": "lays open"
+              "cht": "張揚"
             },
             {
               "id": "hebrew-200",
-              "eng": "[his] folly",
-              "punct": "."
+              "cht": "自己的愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -73,40 +85,41 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.14.8",
-          "cunp": "通達人的智慧在乎明白己道； 愚昧人的愚妄乃是詭詐。",
+          "nasb": "The wisdom of the sensible is to understand his way, But the foolishness of fools is deceit.",
           "words": [
             {
-              "id": "hebrew-2451",
-              "eng": "The wisdom"
+              "id": "hebrew-6175",
+              "cht": "通達人"
             },
             {
-              "id": "hebrew-6175",
-              "eng": "of the prudent"
+              "id": "hebrew-2451",
+              "cht": "的智慧"
             },
             {
               "id": "hebrew-995",
-              "eng": "[is] to understand"
+              "cht": "在乎明白"
             },
             {
               "id": "hebrew-1870",
-              "eng": "his way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-200",
-              "eng": "but the folly"
+              "cht": "己道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-200",
+              "cht": "的愚妄"
             },
             {
               "id": "hebrew-4820",
-              "eng": "[is] deceit",
-              "punct": "."
+              "cht": "乃是詭詐"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "（或譯自歎）",
+              "punct_cht": "：。"
             }
           ]
         },
@@ -118,33 +131,33 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.14.18",
-          "cunp": "愚蒙人得愚昧為產業； 通達人得知識為冠冕。",
+          "nasb": "The naive inherit foolishness, But the sensible are crowned with knowledge.",
           "words": [
             {
-              "id": "hebrew-5157",
-              "eng": "Inherit"
-            },
-            {
               "id": "hebrew-6612",
-              "eng": "the simple"
+              "cht": "愚蒙人"
             },
             {
               "id": "hebrew-200",
-              "eng": "folly",
-              "punct": "､"
+              "cht": "得愚昧"
+            },
+            {
+              "id": "hebrew-5157",
+              "cht": "為產業",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6175",
-              "eng": "but the prudent"
-            },
-            {
-              "id": "hebrew-3803",
-              "eng": "are crowned"
+              "cht": "通達人"
             },
             {
               "id": "hebrew-1847",
-              "eng": "with knowledge",
-              "punct": "."
+              "cht": "得知識"
+            },
+            {
+              "id": "hebrew-3803",
+              "cht": "為冠冕",
+              "punct_cht": "。"
             }
           ]
         },
@@ -155,36 +168,33 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.14.24",
-          "cunp": "智慧人的財為自己的冠冕； 愚妄人的愚昧終是愚昧。",
+          "nasb": "The crown of the wise is their riches, But the folly of fools is foolishness.",
           "words": [
             {
               "id": "hebrew-5850",
-              "eng": "The crown"
-            },
-            {
-              "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-6239",
-              "eng": "is their riches",
-              "punct": "､"
+              "cht": "的財"
             },
             {
-              "id": "hebrew-200",
-              "eng": "[But] the foolishness"
+              "id": "hebrew-5850",
+              "cht": "為自己的冠冕",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚妄人"
             },
             {
               "id": "hebrew-200",
-              "eng": "[is] folly",
-              "punct": "."
+              "cht": "的愚昧"
             },
             {
-              "id": "hebrew-5850"
+              "id": "hebrew-200",
+              "cht": "終是愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -197,44 +207,41 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.15.14",
-          "cunp": "聰明人心求知識； 愚昧人口吃愚昧。",
+          "nasb": "The mind of the intelligent seeks knowledge, But the mouth of fools feeds on folly.",
           "words": [
             {
-              "id": "hebrew-3820",
-              "eng": "The heart"
+              "id": "hebrew-995",
+              "cht": "聰明人"
             },
             {
-              "id": "hebrew-995",
-              "eng": "of him who has understanding"
+              "id": "hebrew-3820",
+              "cht": "心"
             },
             {
               "id": "hebrew-1245",
-              "eng": "seeks"
+              "cht": "求"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "but the mouth of"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "口"
             },
             {
               "id": "hebrew-7462",
-              "eng": "feeds on"
+              "cht": "吃"
             },
             {
               "id": "hebrew-200",
-              "eng": "foolishness",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6310"
+              "cht": "愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -246,41 +253,41 @@
             "hebrew-200": 3.483676583494497
           },
           "verseKey": "pro.15.2",
-          "cunp": "智慧人的舌善發知識； 愚昧人的口吐出愚昧。",
+          "nasb": "The tongue of the wise makes knowledge acceptable, But the mouth of fools spouts folly.",
           "words": [
             {
-              "id": "hebrew-3956",
-              "eng": "The tongue"
+              "id": "hebrew-2450",
+              "cht": "智慧人"
             },
             {
-              "id": "hebrew-2450",
-              "eng": "of the wise"
+              "id": "hebrew-3956",
+              "cht": "的舌"
             },
             {
               "id": "hebrew-3190",
-              "eng": "uses rightly",
-              "punct": "–"
+              "cht": "善發"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "but the mouth"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "的口"
             },
             {
               "id": "hebrew-5042",
-              "eng": "pours forth"
+              "cht": "吐出"
             },
             {
               "id": "hebrew-200",
-              "eng": "foolishness",
-              "punct": "."
+              "cht": "愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -291,37 +298,37 @@
             "hebrew-3680": 1.577188309568953
           },
           "verseKey": "pro.12.16",
-          "cunp": "愚妄人的惱怒立時顯露； 通達人能忍辱藏羞。",
+          "nasb": "A fool’s anger is known at once, But a prudent man conceals dishonor.",
           "words": [
             {
               "id": "hebrew-191",
-              "eng": "Of a fool"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "at once"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "is known",
-              "punct": "–"
+              "cht": "愚妄人"
             },
             {
               "id": "hebrew-3708",
-              "eng": "wrath"
+              "cht": "的惱怒"
             },
             {
-              "id": "hebrew-3680",
-              "eng": "but covers"
+              "id": "hebrew-3117",
+              "cht": "立時"
             },
             {
-              "id": "hebrew-7036",
-              "eng": "shame"
+              "id": "hebrew-3045",
+              "cht": "顯露",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6175",
-              "eng": "a prudent [man]",
-              "punct": "."
+              "cht": "通達人"
+            },
+            {
+              "id": "hebrew-3680",
+              "cht": "能忍辱藏"
+            },
+            {
+              "id": "hebrew-7036",
+              "cht": "羞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -331,37 +338,37 @@
             "hebrew-6175": 4.758842454566098
           },
           "verseKey": "job.5.12",
-          "cunp": "破壞狡猾人的計謀， 使他們所謀的不得成就。",
+          "nasb": "He frustrates the plotting of the shrewd, So that their hands cannot attain success.",
           "words": [
             {
               "id": "hebrew-6565",
-              "eng": "He frustrates"
-            },
-            {
-              "id": "hebrew-4284",
-              "eng": "the devices"
+              "cht": "破壞"
             },
             {
               "id": "hebrew-6175",
-              "eng": "of the crafty",
-              "punct": "､"
+              "cht": "狡猾人"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "so that cannot"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "carry out"
+              "id": "hebrew-4284",
+              "cht": "的計謀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "their hands"
+              "cht": "使他們"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "所謀的"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不得"
             },
             {
               "id": "hebrew-8454",
-              "eng": "their plans",
-              "punct": "."
+              "cht": "成就",
+              "punct_cht": "。"
             }
           ]
         },
@@ -371,42 +378,37 @@
             "hebrew-6175": 4.758842454566098
           },
           "verseKey": "pro.22.3",
-          "cunp": "通達人見禍藏躲； 愚蒙人前往受害。",
+          "nasb": "The prudent sees the evil and hides himself, But the naive go on, and are punished for it.",
           "words": [
             {
               "id": "hebrew-6175",
-              "eng": "A prudent [man]"
+              "cht": "通達"
             },
             {
               "id": "hebrew-7200",
-              "eng": "foresees"
+              "cht": "人見"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "､"
+              "cht": "禍"
             },
             {
               "id": "hebrew-5641",
-              "eng": "and hides himself",
-              "punct": "–"
+              "cht": "藏躲",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6612",
-              "eng": "but the simple"
+              "cht": "愚蒙人"
             },
             {
               "id": "hebrew-5674",
-              "eng": "pass on",
-              "punct": "､"
+              "cht": "前往"
             },
             {
               "id": "hebrew-6064",
-              "eng": "and are punished",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5641"
+              "cht": "受害",
+              "punct_cht": "。"
             }
           ]
         },
@@ -416,39 +418,37 @@
             "hebrew-6175": 4.758842454566098
           },
           "verseKey": "pro.27.12",
-          "cunp": "通達人見禍藏躲； 愚蒙人前往受害。",
+          "nasb": "A prudent man sees evil and hides himself, The naive proceed and pay the penalty.",
           "words": [
             {
               "id": "hebrew-6175",
-              "eng": "A prudent [man]"
+              "cht": "通達人"
             },
             {
               "id": "hebrew-7200",
-              "eng": "foresees"
+              "cht": "見"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "､"
+              "cht": "禍"
             },
             {
               "id": "hebrew-5641",
-              "eng": "[and] hides himself",
-              "punct": "–"
+              "cht": "藏躲",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6612",
-              "eng": "the simple"
+              "cht": "愚蒙人"
             },
             {
               "id": "hebrew-5674",
-              "eng": "pass on",
-              "punct": "､"
+              "cht": "前往"
             },
             {
               "id": "hebrew-6064",
-              "eng": "[and] are punished",
-              "punct": "."
+              "cht": "受害",
+              "punct_cht": "。"
             }
           ]
         }

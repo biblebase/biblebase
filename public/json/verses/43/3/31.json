@@ -3,18 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "-",
-          "greek-509": "from above",
-          "greek-2064": "coming",
-          "greek-1883": "above",
-          "greek-3956": "all",
-          "greek-2076": "is",
-          "greek-5607": "being",
-          "greek-1537": "from",
-          "greek-1093": "earth",
-          "greek-2532": "and",
-          "greek-2980": "speaks",
-          "greek-3772": "heaven"
+          "eng": {
+            "greek-3588": "-",
+            "greek-509": "from above",
+            "greek-2064": "coming",
+            "greek-1883": "above",
+            "greek-3956": "all",
+            "greek-2076": "is",
+            "greek-5607": "being",
+            "greek-1537": "from",
+            "greek-1093": "earth",
+            "greek-2532": "and",
+            "greek-2980": "speaks",
+            "greek-3772": "heaven"
+          },
+          "cht": {
+            "greek-509": "從天上",
+            "greek-2064": "來的",
+            "greek-1883": "之上",
+            "greek-3956": "萬有",
+            "greek-2076": "是在",
+            "greek-5607": "從",
+            "greek-1537": "從",
+            "greek-1093": "地",
+            "greek-2980": "他所說的",
+            "greek-3772": "天上"
+          }
         }
       },
       "translations": {
@@ -32,146 +46,104 @@
             "greek-3772": 0.7424012920136152
           },
           "verseKey": "mat.16.19",
-          "cunp": "我要把天國的鑰匙給你，凡你在地上所捆綁的，在天上也要捆綁；凡你在地上所釋放的，在天上也要釋放。」",
+          "nasb": "I will give you the keys of the kingdom of heaven; and whatever you bind on earth shall have been bound in heaven, and whatever you loose on earth shall have been loosed in heaven.”",
           "words": [
             {
-              "id": "greek-1325",
-              "eng": "I will give"
-            },
-            {
-              "id": "greek-4671",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2807",
-              "eng": "keys"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-3772",
+              "cht": "我要把天"
             },
             {
               "id": "greek-932",
-              "eng": "kingdom"
+              "cht": "國"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2807",
+              "cht": "的鑰匙"
             },
             {
-              "id": "greek-3772",
-              "eng": "heavens",
-              "punct": ";"
+              "id": "greek-1325",
+              "cht": "給"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1210",
-              "eng": "you might bind"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-2071",
-              "eng": "will be"
-            },
-            {
-              "id": "greek-1210",
-              "eng": "bound"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3772",
-              "eng": "heavens",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4671",
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-3089",
-              "eng": "you might loose"
+              "cht": "凡"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "你在"
             },
             {
               "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
+              "cht": "地上"
             },
             {
-              "id": "greek-2071",
-              "eng": "will be"
+              "id": "greek-1210",
+              "cht": "所捆綁"
             },
             {
-              "id": "greek-3089",
-              "eng": "loosed"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-3772",
-              "eng": "heavens",
-              "punct": "."
+              "cht": "天上"
             },
             {
-              "id": ""
+              "id": "greek-2071",
+              "cht": "也要"
             },
             {
-              "id": ""
+              "id": "greek-1210",
+              "cht": "捆綁",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "凡"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "你在"
+            },
+            {
+              "id": "greek-1093",
+              "cht": "地上"
+            },
+            {
+              "id": "greek-3089",
+              "cht": "所釋放"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-3772",
+              "cht": "天上"
+            },
+            {
+              "id": "greek-2071",
+              "cht": "也要"
+            },
+            {
+              "id": "greek-3089",
+              "cht": "釋放",
+              "punct_cht": "。"
             }
           ]
         },
@@ -183,226 +155,108 @@
             "greek-3772": 0.7424012920136152
           },
           "verseKey": "rev.5.13",
-          "cunp": "我又聽見在天上、地上、地底下、滄海裏，和天地間一切所有被造之物，都說： 但願頌讚、尊貴、榮耀、權勢 都歸給坐寶座的和羔羊， 直到永永遠遠！",
+          "nasb": "And every created thing which is in heaven and on the earth and under the earth and on the sea, and all things in them, I heard saying, “To Him who sits on the throne, and to the Lamb, be blessing and honor and glory and dominion forever and ever.”",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "every"
-            },
-            {
-              "id": "greek-2938",
-              "eng": "creature"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3772",
-              "eng": "heaven",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5270",
-              "eng": "under"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2281",
-              "eng": "sea"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "everything",
-              "punct": ","
+              "cht": "我又"
             },
             {
               "id": "greek-191",
-              "eng": "I heard"
+              "cht": "聽見"
             },
             {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ":"
+              "id": "greek-3772",
+              "cht": "在天"
             },
             {
-              "id": "greek-3588",
-              "eng": "To the [One]"
+              "id": "greek-1722",
+              "cht": "上、"
             },
             {
-              "id": "greek-2521",
-              "eng": "sitting"
+              "id": "greek-1093",
+              "cht": "地"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "上、"
+            },
+            {
+              "id": "greek-1093",
+              "cht": "地"
+            },
+            {
+              "id": "greek-5270",
+              "cht": "底下、"
+            },
+            {
+              "id": "greek-2281",
+              "cht": "滄海"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2362",
-              "eng": "throne",
-              "punct": ","
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "和"
             },
             {
-              "id": "greek-3588",
-              "eng": "to the"
+              "id": "greek-1722",
+              "cht": "天地間一切所有"
             },
             {
-              "id": "greek-721",
-              "eng": "Lamb",
-              "punct": ","
+              "id": "greek-2938",
+              "cht": "被造之物",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3004",
+              "cht": "都說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2129",
-              "eng": "blessing"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "但願頌讚、"
             },
             {
               "id": "greek-5092",
-              "eng": "honor"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "尊貴、"
             },
             {
               "id": "greek-1391",
-              "eng": "glory"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "榮耀、"
             },
             {
               "id": "greek-2904",
-              "eng": "might"
+              "cht": "權勢"
+            },
+            {
+              "id": "greek-2521",
+              "cht": "都歸給坐"
+            },
+            {
+              "id": "greek-2362",
+              "cht": "寶座"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "的和"
+            },
+            {
+              "id": "greek-721",
+              "cht": "羔羊",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "直到"
             },
             {
               "id": "greek-165",
-              "eng": "ages"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-165",
-              "eng": "ages",
-              "punct": "."
-            },
-            {
-              "id": "greek-2076"
-            },
-            {
-              "id": "greek-1722"
+              "cht": "永永遠遠",
+              "punct_cht": "！"
             }
           ]
         },
@@ -413,147 +267,108 @@
             "greek-1093": 1.1216435015206594
           },
           "verseKey": "rev.7.1",
-          "cunp": "此後，我看見四位天使站在地的四角，執掌地上四方的風，叫風不吹在地上、海上，和樹上。",
+          "nasb": "After this I saw four angels standing at the four corners of the earth, holding back the four winds of the earth, so that no wind would blow on the earth or on the sea or on any tree.",
           "words": [
             {
-              "id": "greek-3326",
-              "eng": "After"
+              "id": "greek-5023",
+              "cht": "此"
             },
             {
-              "id": "greek-5023",
-              "eng": "these things"
+              "id": "greek-3326",
+              "cht": "後",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1492",
-              "eng": "I saw"
+              "cht": "我看見"
             },
             {
               "id": "greek-5064",
-              "eng": "four"
+              "cht": "四位"
             },
             {
               "id": "greek-32",
-              "eng": "angels"
+              "cht": "天使"
             },
             {
               "id": "greek-2476",
-              "eng": "standing"
+              "cht": "站"
             },
             {
               "id": "greek-1909",
-              "eng": "upon"
+              "cht": "在"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1093",
+              "cht": "地"
             },
             {
               "id": "greek-5064",
-              "eng": "four"
+              "cht": "的四"
             },
             {
               "id": "greek-1137",
-              "eng": "corners"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
+              "cht": "角",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2902",
-              "eng": "holding"
+              "cht": "執掌"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1093",
+              "cht": "地上"
             },
             {
               "id": "greek-5064",
-              "eng": "four"
+              "cht": "四方的"
             },
             {
               "id": "greek-417",
-              "eng": "winds"
+              "cht": "風",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-417",
+              "cht": "叫風"
             },
             {
-              "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-2443",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "no"
+              "id": "greek-3363",
+              "cht": "不"
             },
             {
               "id": "greek-4154",
-              "eng": "would blow"
-            },
-            {
-              "id": "greek-417",
-              "eng": "wind"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "吹"
             },
             {
               "id": "greek-1093",
-              "eng": "earth",
-              "punct": ","
-            },
-            {
-              "id": "greek-3383",
-              "eng": "nor"
+              "cht": "在地"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "上、"
             },
             {
               "id": "greek-2281",
-              "eng": "sea",
-              "punct": ","
-            },
-            {
-              "id": "greek-3383",
-              "eng": "nor"
+              "cht": "海"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "any"
+              "cht": "和"
             },
             {
               "id": "greek-1186",
-              "eng": "tree",
-              "punct": "."
+              "cht": "樹"
             },
             {
-              "id": "greek-3363"
+              "id": "greek-1909",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,16 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2063": "Like this",
-          "hebrew-6213": "he made",
-          "hebrew-853": "-",
-          "hebrew-6235": "ten",
-          "hebrew-4350": "the carts",
-          "hebrew-4165": "of mold",
-          "hebrew-259": "One",
-          "hebrew-4060": "measure",
-          "hebrew-7095": "[and] shape",
-          "hebrew-3605": "all of them were"
+          "eng": {
+            "hebrew-2063": "Like this",
+            "hebrew-6213": "he made",
+            "hebrew-853": "-",
+            "hebrew-6235": "ten",
+            "hebrew-4350": "the carts",
+            "hebrew-4165": "of mold",
+            "hebrew-259": "One",
+            "hebrew-4060": "measure",
+            "hebrew-7095": "[and] shape",
+            "hebrew-3605": "all of them were"
+          },
+          "cht": {
+            "hebrew-2063": "這樣",
+            "hebrew-6235": "十個",
+            "hebrew-4350": "盆座",
+            "hebrew-4165": "鑄法、",
+            "hebrew-259": "相同",
+            "hebrew-4060": "尺寸、",
+            "hebrew-7095": "樣式",
+            "hebrew-3605": "都是"
+          }
         }
       },
       "translations": {
@@ -27,50 +39,45 @@
             "hebrew-7095": 8.539323589735611
           },
           "verseKey": "1ki.6.25",
-          "cunp": "那一個基路伯的兩個翅膀也是十肘，兩個基路伯的尺寸、形像都是一樣。",
+          "nasb": "The other cherub was ten cubits; both the cherubim were of the same measure and the same form.",
           "words": [
             {
+              "id": "hebrew-8145",
+              "cht": "那一個"
+            },
+            {
+              "id": "hebrew-3742",
+              "cht": "基路伯"
+            },
+            {
               "id": "hebrew-6235",
-              "eng": "And ten"
+              "cht": "的兩個翅膀也是十"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3742",
-              "eng": "the cherub"
-            },
-            {
-              "id": "hebrew-8145",
-              "eng": "the second [was]"
-            },
-            {
-              "id": "hebrew-4060",
-              "eng": "of size"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-7095",
-              "eng": "and shape",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "One"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8147",
-              "eng": "the two"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-3742",
-              "eng": "cherubim [were]",
-              "punct": "."
+              "cht": "基路伯"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "的尺寸、"
+            },
+            {
+              "id": "hebrew-7095",
+              "cht": "形像"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "都是一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -81,103 +88,72 @@
             "hebrew-4165": 8.539323589735611
           },
           "verseKey": "1ki.7.23",
-          "cunp": "他又鑄一個銅海，樣式是圓的，高五肘，徑十肘，圍三十肘。",
+          "nasb": "Now he made the sea of cast metal ten cubits from brim to brim, circular in form, and its height was five cubits, and thirty cubits in circumference.",
           "words": [
             {
               "id": "hebrew-6213",
-              "eng": "And he made"
+              "cht": "他又"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3332",
+              "cht": "鑄"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the Sea",
-              "punct": "､"
+              "cht": "一個銅海",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4165",
-              "eng": "of cast bronze"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubits"
-            },
-            {
-              "id": "hebrew-8193",
-              "eng": "from one brim"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-8145",
-              "eng": "the other"
+              "id": "hebrew-5439",
+              "cht": "樣式是"
             },
             {
               "id": "hebrew-5696",
-              "eng": "[it was] round"
+              "cht": "圓"
             },
             {
-              "id": "hebrew-5439",
-              "eng": "completely",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2568",
-              "eng": "and five"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubits",
-              "punct": "､"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6967",
-              "eng": "Its height [was]"
+              "cht": "高"
             },
             {
-              "id": "hebrew-6961",
-              "eng": "and a line of"
-            },
-            {
-              "id": "hebrew-7970",
-              "eng": "thirty"
+              "id": "hebrew-2568",
+              "cht": "五"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8193",
+              "cht": "徑"
+            },
+            {
+              "id": "hebrew-6235",
+              "cht": "十"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5437",
-              "eng": "measured"
+              "cht": "圍"
             },
             {
-              "id": "hebrew-853",
-              "eng": "its"
+              "id": "hebrew-7970",
+              "cht": "三十"
             },
             {
-              "id": "hebrew-5439",
-              "eng": "circumference",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3332"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-8193"
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -187,31 +163,11 @@
             "hebrew-4165": 8.539323589735611
           },
           "verseKey": "job.38.38",
-          "cunp": "",
+          "nasb": "When the dust hardens into a mass And the clods stick together?",
           "words": [
             {
-              "id": "hebrew-3332",
-              "eng": "When hardens"
-            },
-            {
-              "id": "hebrew-6083",
-              "eng": "the dust"
-            },
-            {
-              "id": "hebrew-4165",
-              "eng": "in clumps",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7263",
-              "eng": "and the clods"
-            },
-            {
-              "id": "hebrew-1692",
-              "eng": "cling together"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "併入上一節"
             }
           ]
         },
@@ -221,68 +177,67 @@
             "hebrew-7095": 8.539323589735611
           },
           "verseKey": "jon.2.6",
-          "cunp": "我下到山根， 地的門將我永遠關住。 耶和華－我的神啊， 你卻將我的性命從坑中救出來。",
+          "nasb": "I descended to the roots of the mountains. The earth with its bars was around me forever, But You have brought up my life from the pit, O Lord my God.",
           "words": [
             {
-              "id": "hebrew-7095",
-              "eng": "To the moorings"
+              "id": "hebrew-3381",
+              "cht": "我下到"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the mountains",
-              "punct": "–"
+              "cht": "山"
             },
             {
-              "id": "hebrew-3381",
-              "eng": "I went down"
+              "id": "hebrew-7095",
+              "cht": "根",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth [closed]"
+              "cht": "地"
             },
             {
               "id": "hebrew-1280",
-              "eng": "with its bars"
-            },
-            {
-              "id": "hebrew-1157",
-              "eng": "behind me"
+              "cht": "的門"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "､"
+              "cht": "將我永遠"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "and yet You have brought up"
-            },
-            {
-              "id": "hebrew-7845",
-              "eng": "from the pit",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "my life"
+              "id": "hebrew-1157",
+              "cht": "關住",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─我的"
             },
             {
               "id": "hebrew-430",
-              "eng": "my God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-2416",
+              "cht": "你卻將我的性命"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "從坑中"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "救出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -293,41 +248,28 @@
             "hebrew-4350": 3.4146839202627715
           },
           "verseKey": "2ch.4.14",
-          "cunp": "盆座和其上的盆，",
+          "nasb": "He also made the stands and he made the basins on the stands,",
           "words": [
             {
-              "id": "hebrew-853",
-              "eng": "And also"
-            },
-            {
               "id": "hebrew-4350",
-              "eng": "carts",
-              "punct": "､"
+              "cht": "盆座"
             },
             {
               "id": "hebrew-6213",
-              "eng": "he made"
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-4350",
+              "cht": "其"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "上的"
             },
             {
               "id": "hebrew-3595",
-              "eng": "the lavers"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "made"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-4350",
-              "eng": "the carts",
-              "punct": "–"
+              "cht": "盆",
+              "punct_cht": "，"
             }
           ]
         },
@@ -338,74 +280,71 @@
             "hebrew-4350": 3.4146839202627715
           },
           "verseKey": "1ki.7.27",
-          "cunp": "他用銅製造十個盆座，每座長四肘，寬四肘，高三肘。",
+          "nasb": "Then he made the ten stands of bronze; the length of each stand was four cubits and its width four cubits and its height three cubits.",
           "words": [
             {
+              "id": "hebrew-5178",
+              "cht": "他用銅"
+            },
+            {
               "id": "hebrew-6213",
-              "eng": "And He made"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4350",
-              "eng": "carts"
+              "cht": "製造"
             },
             {
               "id": "hebrew-6235",
-              "eng": "of ten"
-            },
-            {
-              "id": "hebrew-5178",
-              "eng": "bronze",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-702",
-              "eng": "four"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "cubits [was]"
-            },
-            {
-              "id": "hebrew-753",
-              "eng": "the length"
+              "cht": "十個"
             },
             {
               "id": "hebrew-4350",
-              "eng": "of cart",
-              "punct": "､"
+              "cht": "盆座",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "每"
+            },
+            {
+              "id": "hebrew-4350",
+              "cht": "座"
+            },
+            {
+              "id": "hebrew-753",
+              "cht": "長"
             },
             {
               "id": "hebrew-702",
-              "eng": "and four"
+              "cht": "四"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7341",
-              "eng": "its width"
+              "cht": "寬"
             },
             {
-              "id": "hebrew-7969",
-              "eng": "and three"
+              "id": "hebrew-702",
+              "cht": "四"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6967",
-              "eng": "its height",
-              "punct": "."
+              "cht": "高"
+            },
+            {
+              "id": "hebrew-7969",
+              "cht": "三"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -416,95 +355,88 @@
             "hebrew-4350": 3.4146839202627715
           },
           "verseKey": "1ki.7.38",
-          "cunp": "又用銅製造十個盆，每盆可容四十罷特。盆徑四肘，在那十座上，每座安設一盆。",
+          "nasb": "He made ten basins of bronze, one basin held forty baths; each basin was four cubits, and on each of the ten stands was one basin.",
           "words": [
             {
+              "id": "hebrew-5178",
+              "cht": "又用銅"
+            },
+            {
               "id": "hebrew-6213",
-              "eng": "And he made"
+              "cht": "製造"
             },
             {
               "id": "hebrew-6235",
-              "eng": "ten"
+              "cht": "十個"
             },
             {
               "id": "hebrew-3595",
-              "eng": "lavers"
+              "cht": "盆",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5178",
-              "eng": "of bronze",
-              "punct": "､"
+              "id": "hebrew-259",
+              "cht": "每"
             },
             {
-              "id": "hebrew-705",
-              "eng": "forty"
-            },
-            {
-              "id": "hebrew-1324",
-              "eng": "baths",
-              "punct": "–"
+              "id": "hebrew-3595",
+              "cht": "盆"
             },
             {
               "id": "hebrew-3557",
-              "eng": "contained"
+              "cht": "可容"
+            },
+            {
+              "id": "hebrew-705",
+              "cht": "四十"
+            },
+            {
+              "id": "hebrew-1324",
+              "cht": "罷特",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3595",
-              "eng": "laver"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "cht": "盆"
             },
             {
               "id": "hebrew-702",
-              "eng": "four"
+              "cht": "徑四"
             },
             {
               "id": "hebrew-520",
-              "eng": "cubits",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3595",
-              "eng": "laver [was]"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-3595",
-              "eng": "laver [was]",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "A"
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "On"
-            },
-            {
-              "id": "hebrew-4350",
-              "eng": "cart"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "cht": "在"
             },
             {
               "id": "hebrew-6235",
-              "eng": "of [each of] ten"
+              "cht": "那十"
             },
             {
               "id": "hebrew-4350",
-              "eng": "the carts",
-              "punct": "."
+              "cht": "座"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "每"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "座安設一"
+            },
+            {
+              "id": "hebrew-3595",
+              "cht": "盆",
+              "punct_cht": "。"
             }
           ]
         },
@@ -514,67 +446,63 @@
             "hebrew-4350": 3.4146839202627715
           },
           "verseKey": "1ki.7.35",
-          "cunp": "座上有圓架，高半肘；座上有撐子和心子，是與座一同鑄的。",
+          "nasb": "On the top of the stand there was a circular form half a cubit high, and on the top of the stand its stays and its borders were part of it.",
           "words": [
             {
-              "id": "hebrew-7218",
-              "eng": "And On the top"
-            },
-            {
               "id": "hebrew-4350",
-              "eng": "of the cart"
+              "cht": "座"
             },
             {
-              "id": "hebrew-2677",
-              "eng": "half"
-            },
-            {
-              "id": "hebrew-520",
-              "eng": "a cubit"
-            },
-            {
-              "id": "hebrew-6967",
-              "eng": "at the height",
-              "punct": "､"
+              "id": "hebrew-7218",
+              "cht": "上"
             },
             {
               "id": "hebrew-5696",
-              "eng": "of [it was] round"
+              "cht": "有圓"
             },
             {
-              "id": "hebrew-5439",
-              "eng": "perfectly"
+              "id": "",
+              "cht": "架",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "and on"
+              "id": "hebrew-6967",
+              "cht": "高"
             },
             {
-              "id": "hebrew-7218",
-              "eng": "the top"
+              "id": "hebrew-2677",
+              "cht": "半"
+            },
+            {
+              "id": "hebrew-520",
+              "cht": "肘",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4350",
-              "eng": "of the cart"
+              "cht": "座"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "上"
             },
             {
               "id": "hebrew-3027",
-              "eng": "its flanges"
+              "cht": "有撐子"
             },
             {
               "id": "hebrew-4526",
-              "eng": "and its panels [were]"
+              "cht": "和心子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "of the same casting",
-              "punct": "."
+              "cht": "是與座"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一同鑄的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -584,52 +512,53 @@
             "hebrew-4350": 3.4146839202627715
           },
           "verseKey": "1ki.7.34",
-          "cunp": "每座四角上都有盆架，是與座一同鑄成的。",
+          "nasb": "Now there were four supports at the four corners of each stand; its supports were part of the stand itself.",
           "words": [
             {
-              "id": "hebrew-702",
-              "eng": "And four"
+              "id": "hebrew-259",
+              "cht": "每"
             },
             {
               "id": "hebrew-3802",
-              "eng": "[there were] supports"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "at"
+              "cht": "座"
             },
             {
               "id": "hebrew-702",
-              "eng": "the four"
+              "cht": "四"
             },
             {
               "id": "hebrew-6438",
-              "eng": "corners"
+              "cht": "角"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "上"
+            },
+            {
+              "id": "hebrew-702",
+              "cht": "都有"
             },
             {
               "id": "hebrew-4350",
-              "eng": "of cart",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "part"
-            },
-            {
-              "id": "hebrew-4350",
-              "eng": "of the cart itself"
+              "cht": "盆"
             },
             {
               "id": "hebrew-3802",
-              "eng": "its supports [were]",
-              "punct": "."
+              "cht": "架",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-4480",
+              "cht": "是與"
+            },
+            {
+              "id": "hebrew-4350",
+              "cht": "座"
+            },
+            {
+              "id": "",
+              "cht": "一同鑄成的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -639,41 +568,36 @@
             "hebrew-4350": 3.4146839202627715
           },
           "verseKey": "1ki.7.43",
-          "cunp": "十個座和其上的十個盆；",
+          "nasb": "and the ten stands with the ten basins on the stands;",
           "words": [
             {
-              "id": "hebrew-853",
-              "eng": "and"
+              "id": "hebrew-6235",
+              "cht": "十個"
             },
             {
               "id": "hebrew-4350",
-              "eng": "the carts",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
+              "cht": "座"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "和"
             },
             {
-              "id": "hebrew-3595",
-              "eng": "lavers"
-            },
-            {
-              "id": "hebrew-6235",
-              "eng": "ten"
+              "id": "hebrew-4350",
+              "cht": "其"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "上"
             },
             {
-              "id": "hebrew-4350",
-              "eng": "the carts",
-              "punct": "–"
+              "id": "hebrew-6235",
+              "cht": "的十個"
+            },
+            {
+              "id": "hebrew-3595",
+              "cht": "盆",
+              "punct_cht": "；"
             }
           ]
         }

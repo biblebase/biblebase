@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2421": "And lived",
-          "hebrew-8286": "Serug",
-          "hebrew-310": "after",
-          "hebrew-3205": "and he begat",
-          "hebrew-853": "-",
-          "hebrew-5152": "Nahor",
-          "hebrew-3967": "two hundred",
-          "hebrew-8141": "years",
-          "hebrew-1121": "sons",
-          "hebrew-1323": "and daughters"
+          "eng": {
+            "hebrew-2421": "And lived",
+            "hebrew-8286": "Serug",
+            "hebrew-310": "after",
+            "hebrew-3205": "and he begat",
+            "hebrew-853": "-",
+            "hebrew-5152": "Nahor",
+            "hebrew-3967": "two hundred",
+            "hebrew-8141": "years",
+            "hebrew-1121": "sons",
+            "hebrew-1323": "and daughters"
+          },
+          "cht": {
+            "hebrew-2421": "又活了",
+            "hebrew-8286": "西鹿",
+            "hebrew-310": "之後",
+            "hebrew-3205": "並且生",
+            "hebrew-853": "生",
+            "hebrew-5152": "拿鶴",
+            "hebrew-3967": "二百",
+            "hebrew-8141": "年",
+            "hebrew-1121": "兒",
+            "hebrew-1323": "養女"
+          }
         }
       },
       "translations": {
@@ -34,37 +48,33 @@
             "hebrew-8141": 0.6600280714117809
           },
           "verseKey": "gen.11.22",
-          "cunp": "西鹿活到三十歲，生了拿鶴。",
+          "nasb": "Serug lived thirty years, and became the father of Nahor;",
           "words": [
             {
-              "id": "hebrew-2421",
-              "eng": "And lived"
+              "id": "hebrew-8286",
+              "cht": "西鹿"
             },
             {
-              "id": "hebrew-8286",
-              "eng": "Serug"
+              "id": "hebrew-2421",
+              "cht": "活"
             },
             {
               "id": "hebrew-7970",
-              "eng": "thirty"
+              "cht": "到三十"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "､"
+              "cht": "歲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and he begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生了"
             },
             {
               "id": "hebrew-5152",
-              "eng": "Nahor",
-              "punct": "."
+              "cht": "拿鶴",
+              "punct_cht": "。"
             }
           ]
         },
@@ -75,22 +85,22 @@
             "hebrew-5152": 3.7212505791847406
           },
           "verseKey": "1ch.1.26",
-          "cunp": "拉吳生西鹿；西鹿生拿鶴；拿鶴生他拉；",
+          "nasb": "Serug, Nahor, Terah,",
           "words": [
             {
               "id": "hebrew-8286",
-              "eng": "Serug",
-              "punct": "､"
+              "cht": "拉吳生西鹿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5152",
-              "eng": "Nahor",
-              "punct": "､"
+              "cht": "西鹿生拿鶴",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8646",
-              "eng": "Terah",
-              "punct": "､"
+              "cht": "拿鶴生他拉",
+              "punct_cht": "；"
             }
           ]
         },
@@ -104,61 +114,53 @@
             "hebrew-1323": 0.9509435473370262
           },
           "verseKey": "gen.11.21",
-          "cunp": "拉吳生西鹿之後又活了二百零七年，並且生兒養女。",
+          "nasb": "and Reu lived two hundred and seven years after he became the father of Serug, and he had other sons and daughters.",
           "words": [
             {
-              "id": "hebrew-2421",
-              "eng": "And lived"
-            },
-            {
               "id": "hebrew-7466",
-              "eng": "Reu"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "after"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "he begat"
+              "cht": "拉吳"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-8286",
-              "eng": "Serug"
+              "cht": "西鹿"
+            },
+            {
+              "id": "hebrew-310",
+              "cht": "之後"
+            },
+            {
+              "id": "hebrew-2421",
+              "cht": "又活了"
+            },
+            {
+              "id": "hebrew-8141",
+              "cht": "二百"
             },
             {
               "id": "hebrew-7651",
-              "eng": "seven"
+              "cht": "零七"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "and two hundred"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "､"
+              "cht": "年",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and he begat"
+              "cht": "並且生"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons"
+              "cht": "兒"
             },
             {
               "id": "hebrew-1323",
-              "eng": "and daughters",
-              "punct": "."
+              "cht": "養女",
+              "punct_cht": "。"
             }
           ]
         },
@@ -169,89 +171,84 @@
             "hebrew-1323": 0.9509435473370262
           },
           "verseKey": "gen.11.29",
-          "cunp": "亞伯蘭、拿鶴各娶了妻：亞伯蘭的妻子名叫撒萊；拿鶴的妻子名叫密迦，是哈蘭的女兒；哈蘭是密迦和亦迦的父親。",
+          "nasb": "Abram and Nahor took wives for themselves. The name of Abram’s wife was Sarai; and the name of Nahor’s wife was Milcah, the daughter of Haran, the father of Milcah and Iscah.",
           "words": [
             {
-              "id": "hebrew-3947",
-              "eng": "And took"
-            },
-            {
               "id": "hebrew-87",
-              "eng": "Abram"
+              "cht": "亞伯蘭、"
             },
             {
               "id": "hebrew-5152",
-              "eng": "and Nahor"
+              "cht": "拿鶴"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "娶了"
             },
             {
               "id": "hebrew-802",
-              "eng": "wives",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "[of] the wife"
+              "cht": "妻",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-87",
-              "eng": "of Abram"
+              "cht": "亞伯蘭"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "的妻子"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
             },
             {
               "id": "hebrew-8297",
-              "eng": "[was] Sarai",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "and the name"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "[of] the wife",
-              "punct": "､"
+              "cht": "叫撒萊",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5152",
-              "eng": "of Nahor"
+              "cht": "拿鶴"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "的妻子"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
             },
             {
               "id": "hebrew-4435",
-              "eng": "[was] Milcah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
+              "cht": "叫密迦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2039",
-              "eng": "of Haran",
-              "punct": "､"
+              "cht": "是哈蘭"
             },
             {
-              "id": "hebrew-1",
-              "eng": "the father"
+              "id": "hebrew-1323",
+              "cht": "的女兒",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-2039",
+              "cht": "哈蘭"
             },
             {
               "id": "hebrew-4435",
-              "eng": "of Milcah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "and the father"
+              "cht": "是密迦"
             },
             {
               "id": "hebrew-3252",
-              "eng": "of Iscah",
-              "punct": "."
+              "cht": "和亦迦"
             },
             {
-              "id": "hebrew-2039"
+              "id": "hebrew-1",
+              "cht": "的父親",
+              "punct_cht": "。"
             }
           ]
         },
@@ -263,41 +260,37 @@
             "hebrew-8141": 0.6600280714117809
           },
           "verseKey": "gen.11.20",
-          "cunp": "拉吳活到三十二歲，生了西鹿。",
+          "nasb": "Reu lived thirty-two years, and became the father of Serug;",
           "words": [
             {
-              "id": "hebrew-2421",
-              "eng": "And lived"
-            },
-            {
               "id": "hebrew-7466",
-              "eng": "Reu"
+              "cht": "拉吳"
             },
             {
-              "id": "hebrew-8147",
-              "eng": "two"
+              "id": "hebrew-2421",
+              "cht": "活"
             },
             {
               "id": "hebrew-7970",
-              "eng": "and thirty"
+              "cht": "到三十"
+            },
+            {
+              "id": "hebrew-8147",
+              "cht": "二"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "､"
+              "cht": "歲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and he begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生了"
             },
             {
               "id": "hebrew-8286",
-              "eng": "Serug",
-              "punct": "."
+              "cht": "西鹿",
+              "punct_cht": "。"
             }
           ]
         },
@@ -311,65 +304,53 @@
             "hebrew-1323": 0.9509435473370262
           },
           "verseKey": "gen.11.25",
-          "cunp": "拿鶴生他拉之後又活了一百一十九年，並且生兒養女。",
+          "nasb": "and Nahor lived one hundred and nineteen years after he became the father of Terah, and he had other sons and daughters.",
           "words": [
             {
-              "id": "hebrew-2421",
-              "eng": "And lived"
-            },
-            {
               "id": "hebrew-5152",
-              "eng": "Nahor"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "after"
+              "cht": "拿鶴"
             },
             {
               "id": "hebrew-3205",
-              "eng": "he begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-8646",
-              "eng": "Terah"
+              "cht": "他拉"
             },
             {
-              "id": "hebrew-8672",
-              "eng": "nine"
+              "id": "hebrew-310",
+              "cht": "之後"
             },
             {
-              "id": "hebrew-6240",
-              "eng": "[and] ten"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years"
+              "id": "hebrew-2421",
+              "cht": "又活了"
             },
             {
               "id": "hebrew-3967",
-              "eng": "and a hundred"
+              "cht": "一百"
+            },
+            {
+              "id": "hebrew-6240",
+              "cht": "一十九"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "､"
+              "cht": "年",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and he begat"
+              "cht": "並且生"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons"
+              "cht": "兒"
             },
             {
               "id": "hebrew-1323",
-              "eng": "and daughters",
-              "punct": "."
+              "cht": "養女",
+              "punct_cht": "。"
             }
           ]
         },
@@ -382,104 +363,101 @@
             "hebrew-1323": 0.9509435473370262
           },
           "verseKey": "gen.24.47",
-          "cunp": "我問她說：『你是誰的女兒？』她說：『我是密迦與拿鶴之子彼土利的女兒。』我就把環子戴在她鼻子上，把鐲子戴在她兩手上。",
+          "nasb": "Then I asked her, and said, ‘Whose daughter are you?’ And she said, ‘The daughter of Bethuel, Nahor’s son, whom Milcah bore to him’; and I put the ring on her nose, and the bracelets on her wrists.",
           "words": [
             {
               "id": "hebrew-7592",
-              "eng": "And I asked"
+              "cht": "我問"
             },
             {
               "id": "hebrew-853",
-              "eng": "her"
+              "cht": "她"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-4310",
-              "eng": "of whom"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-859",
-              "eng": "[are] you"
+              "cht": "你"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and she said",
-              "punct": "､"
+              "id": "hebrew-4310",
+              "cht": "是誰"
             },
             {
               "id": "hebrew-1323",
-              "eng": "the daughter"
+              "cht": "的女兒",
+              "punct_cht": "？』"
             },
             {
-              "id": "hebrew-1328",
-              "eng": "of Bethuel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-5152",
-              "eng": "of Nahor",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "whom"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "bore"
+              "id": "hebrew-559",
+              "cht": "她說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-4435",
-              "eng": "Milcah",
-              "punct": "."
+              "cht": "我是密迦"
             },
             {
-              "id": "hebrew-7760",
-              "eng": "So I put"
+              "id": "hebrew-5152",
+              "cht": "與拿鶴"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "之"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "子"
+            },
+            {
+              "id": "hebrew-1328",
+              "cht": "彼土利"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的女兒",
+              "punct_cht": "。』"
             },
             {
               "id": "hebrew-5141",
-              "eng": "the ring"
+              "cht": "我就把環子"
+            },
+            {
+              "id": "hebrew-7760",
+              "cht": "戴"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-639",
-              "eng": "her nose",
-              "punct": "､"
+              "cht": "她鼻子"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6781",
-              "eng": "and the bracelets"
+              "cht": "把鐲子"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "戴在"
             },
             {
               "id": "hebrew-3027",
-              "eng": "her wrists",
-              "punct": "."
+              "cht": "她兩手"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -489,67 +467,52 @@
             "hebrew-8286": 6.2511507603914795
           },
           "verseKey": "luk.3.35",
-          "cunp": "拿鶴是西鹿的兒子；西鹿是拉吳的兒子；拉吳是法勒的兒子；法勒是希伯的兒子；希伯是沙拉的兒子；",
+          "nasb": "the son of Serug, the son of Reu, the son of Peleg, the son of Heber, the son of Shelah,",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-4562",
-              "eng": "of Serug",
-              "punct": ","
+              "cht": "拿鶴是西鹿"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4466",
-              "eng": "of Reu",
-              "punct": ","
+              "cht": "西鹿是拉吳"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-5317",
-              "eng": "of Peleg",
-              "punct": ","
+              "cht": "拉吳是法勒"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1443",
-              "eng": "of Heber",
-              "punct": ","
+              "cht": "法勒是希伯"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4527",
-              "eng": "of Shelah",
-              "punct": ","
+              "cht": "希伯是沙拉"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的兒子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -562,51 +525,41 @@
             "hebrew-1323": 0.9509435473370262
           },
           "verseKey": "gen.24.24",
-          "cunp": "女子說：「我是密迦與拿鶴之子彼土利的女兒」；",
+          "nasb": "She said to him, “I am the daughter of Bethuel, the son of Milcah, whom she bore to Nahor.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "so she said"
-            },
-            {
               "id": "hebrew-413",
-              "eng": "to him",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-1328",
-              "eng": "of Bethuel"
+              "cht": "女子說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-595",
-              "eng": "I [am]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "我是"
             },
             {
               "id": "hebrew-4435",
-              "eng": "of Milcah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "whom"
+              "cht": "密迦"
             },
             {
               "id": "hebrew-3205",
-              "eng": "she bore"
+              "cht": "與"
             },
             {
               "id": "hebrew-5152",
-              "eng": "to Nahor",
-              "punct": "."
+              "cht": "拿鶴之"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "子"
+            },
+            {
+              "id": "hebrew-1328",
+              "cht": "彼土利"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的女兒",
+              "punct_cht": "；」"
             }
           ]
         },
@@ -617,57 +570,40 @@
             "hebrew-5152": 3.7212505791847406
           },
           "verseKey": "gen.22.23",
-          "cunp": "這八個人都是密迦給亞伯拉罕的兄弟拿鶴生的。",
+          "nasb": "Bethuel became the father of Rebekah; these eight Milcah bore to Nahor, Abraham’s brother.",
           "words": [
             {
-              "id": "hebrew-1328",
-              "eng": "And Bethuel"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7259",
-              "eng": "Rebekah",
-              "punct": "–"
+              "id": "hebrew-428",
+              "cht": "這"
             },
             {
               "id": "hebrew-8083",
-              "eng": "eight"
-            },
-            {
-              "id": "hebrew-428",
-              "eng": "these"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "bore"
+              "cht": "八"
             },
             {
               "id": "hebrew-4435",
-              "eng": "Milcah"
-            },
-            {
-              "id": "hebrew-5152",
-              "eng": "to Nahor",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "brother"
+              "cht": "個人都是密迦"
             },
             {
               "id": "hebrew-85",
-              "eng": "Abraham's",
-              "punct": "."
+              "cht": "給亞伯拉罕"
             },
             {
-              "id": ""
+              "id": "hebrew-251",
+              "cht": "的兄弟"
+            },
+            {
+              "id": "hebrew-5152",
+              "cht": "拿鶴"
+            },
+            {
+              "id": "hebrew-3205",
+              "cht": "生"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         }

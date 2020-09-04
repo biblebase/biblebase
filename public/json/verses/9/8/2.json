@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1961": "And was",
-          "hebrew-8034": "and the name",
-          "hebrew-1121": "of son",
-          "hebrew-1060": "his firstborn",
-          "hebrew-3100": "Joel",
-          "hebrew-4932": "of his second",
-          "hebrew-29": "Abijah",
-          "hebrew-8199": "[they were] judges",
-          "hebrew-884": "Beersheba"
+          "eng": {
+            "hebrew-1961": "And was",
+            "hebrew-8034": "and the name",
+            "hebrew-1121": "of son",
+            "hebrew-1060": "his firstborn",
+            "hebrew-3100": "Joel",
+            "hebrew-4932": "of his second",
+            "hebrew-29": "Abijah",
+            "hebrew-8199": "[they were] judges",
+            "hebrew-884": "Beersheba"
+          },
+          "cht": {
+            "hebrew-1961": "叫",
+            "hebrew-8034": "名",
+            "hebrew-1121": "子",
+            "hebrew-1060": "長",
+            "hebrew-3100": "約珥",
+            "hebrew-4932": "次子",
+            "hebrew-29": "叫亞比亞",
+            "hebrew-8199": "作士師",
+            "hebrew-884": "他們在別是巴"
+          }
         }
       },
       "translations": {
@@ -32,53 +45,49 @@
             "hebrew-4932": 2.0060902499323663
           },
           "verseKey": "neh.11.9",
-          "cunp": "細基利的兒子約珥是他們的長官。哈西努亞的兒子猶大是耶路撒冷的副官。",
+          "nasb": "Joel the son of Zichri was their overseer, and Judah the son of Hassenuah was second in command of the city.",
           "words": [
             {
-              "id": "hebrew-3100",
-              "eng": "And Joel"
+              "id": "hebrew-2147",
+              "cht": "細基利"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-2147",
-              "eng": "of Zichri"
+              "id": "hebrew-3100",
+              "cht": "約珥"
             },
             {
               "id": "hebrew-6496",
-              "eng": "was their overseer"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "[was] their overseer",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3063",
-              "eng": "and Judah"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "是他們的長官",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5574",
-              "eng": "of Senuah"
+              "cht": "哈西努亞"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3063",
+              "cht": "猶大"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over"
+              "cht": "是"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city"
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-4932",
-              "eng": "[was] second",
-              "punct": "."
+              "cht": "的副官",
+              "punct_cht": "。"
             }
           ]
         },
@@ -88,70 +97,46 @@
             "hebrew-29": 3.125409454472294
           },
           "verseKey": "mat.1.7",
-          "cunp": "所羅門生羅波安；羅波安生亞比雅；亞比雅生亞撒；",
+          "nasb": "Solomon was the father of Rehoboam, Rehoboam the father of Abijah, and Abijah the father of Asa.",
           "words": [
             {
               "id": "greek-4672",
-              "eng": "Solomon"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "cht": "所羅門"
             },
             {
               "id": "greek-1080",
-              "eng": "begat"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "greek-4497",
-              "eng": "Rehoboam",
-              "punct": ","
+              "cht": "羅波安",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4497",
-              "eng": "Rehoboam"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "cht": "羅波安"
             },
             {
               "id": "greek-1080",
-              "eng": "begat"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "greek-7",
-              "eng": "Abijah",
-              "punct": ","
+              "cht": "亞比雅",
+              "punct_cht": "；"
             },
             {
               "id": "greek-7",
-              "eng": "Abijah"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
+              "cht": "亞比雅"
             },
             {
               "id": "greek-1080",
-              "eng": "begat"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "greek-760",
-              "eng": "Asa",
-              "punct": "."
+              "cht": "亞撒",
+              "punct_cht": "；"
             }
           ]
         },
@@ -162,135 +147,118 @@
             "hebrew-3100": 3.6363404553480576
           },
           "verseKey": "2ch.29.12",
-          "cunp": "於是，利未人哥轄的子孫、亞瑪賽的兒子瑪哈，亞撒利雅的兒子約珥；米拉利的子孫、亞伯底的兒子基士，耶哈利勒的兒子亞撒利雅；革順的子孫、薪瑪的兒子約亞，約亞的兒子伊甸；",
+          "nasb": "Then the Levites arose: Mahath, the son of Amasai and Joel the son of Azariah, from the sons of the Kohathites; and from the sons of Merari, Kish the son of Abdi and Azariah the son of Jehallelel; and from the Gershonites, Joah the son of Zimmah and Eden the son of Joah;",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "And arose",
-              "punct": "､"
+              "id": "",
+              "cht": "於是",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3881",
-              "eng": "the Levites"
-            },
-            {
-              "id": "hebrew-4287",
-              "eng": "Mahath"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-6022",
-              "eng": "of Amasai",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3100",
-              "eng": "and Joel"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-5838",
-              "eng": "of Azariah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "of"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "利未人"
             },
             {
               "id": "hebrew-6956",
-              "eng": "of the Kohathites",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "and"
+              "cht": "哥轄"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the sons"
+              "cht": "的子孫、"
             },
             {
-              "id": "hebrew-4847",
-              "eng": "of Merari",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7027",
-              "eng": "Kish"
+              "id": "hebrew-6022",
+              "cht": "亞瑪賽"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-5660",
-              "eng": "of Abdi",
-              "punct": "､"
+              "id": "hebrew-4287",
+              "cht": "瑪哈",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5838",
-              "eng": "and Azariah"
+              "cht": "亞撒利雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3100",
+              "cht": "約珥",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4847",
+              "cht": "米拉利"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的子孫、"
+            },
+            {
+              "id": "hebrew-5660",
+              "cht": "亞伯底"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-7027",
+              "cht": "基士",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3094",
-              "eng": "of Jehallelel",
-              "punct": "–"
+              "cht": "耶哈利勒"
             },
             {
-              "id": "hebrew-4480",
-              "eng": "and"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-5838",
+              "cht": "亞撒利雅",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1649",
-              "eng": "of the Gershonite",
-              "punct": "–"
+              "cht": "革順"
             },
             {
-              "id": "hebrew-3098",
-              "eng": "Joah"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "id": "",
+              "cht": "的子孫、"
             },
             {
               "id": "hebrew-2155",
-              "eng": "of Zimmah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5731",
-              "eng": "and Eden"
+              "cht": "薪瑪"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-3098",
-              "eng": "of Joah",
-              "punct": "–"
+              "cht": "約亞",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3098",
+              "cht": "約亞"
             },
             {
-              "id": ""
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-5731",
+              "cht": "伊甸",
+              "punct_cht": "；"
             }
           ]
         },
@@ -300,64 +268,62 @@
             "hebrew-884": 2.9026639737222575
           },
           "verseKey": "gen.22.19",
-          "cunp": "於是亞伯拉罕回到他僕人那裏，他們一同起身往別是巴去，亞伯拉罕就住在別是巴。",
+          "nasb": "So Abraham returned to his young men, and they arose and went together to Beersheba; and Abraham lived at Beersheba.",
           "words": [
             {
-              "id": "hebrew-7725",
-              "eng": "So returned"
+              "id": "hebrew-85",
+              "cht": "於是亞伯拉罕"
             },
             {
-              "id": "hebrew-85",
-              "eng": "Abraham"
+              "id": "hebrew-7725",
+              "cht": "回"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到"
             },
             {
               "id": "hebrew-5288",
-              "eng": "his servants",
-              "punct": "､"
+              "cht": "他僕人"
             },
             {
-              "id": "hebrew-6965",
-              "eng": "and they rose"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "and went"
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3162",
-              "eng": "together"
+              "cht": "他們一同"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "起身"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "往"
             },
             {
               "id": "hebrew-884",
-              "eng": "Beersheba",
-              "punct": "–"
+              "cht": "別是巴"
             },
             {
-              "id": "hebrew-3427",
-              "eng": "And dwelt"
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-85",
-              "eng": "Abraham"
+              "cht": "亞伯拉罕"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "就住"
             },
             {
               "id": "hebrew-884",
-              "eng": "Beersheba",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "在別是巴",
+              "punct_cht": "。"
             }
           ]
         },
@@ -368,39 +334,38 @@
             "hebrew-4932": 2.0060902499323663
           },
           "verseKey": "1ch.5.12",
-          "cunp": "他們中間有作族長的約珥，有作副族長的沙番，還有雅乃和住在巴珊的沙法。",
+          "nasb": "Joel was the chief and Shapham the second, then Janai and Shaphat in Bashan.",
           "words": [
             {
-              "id": "hebrew-3100",
-              "eng": "Joel [was]"
-            },
-            {
               "id": "hebrew-7218",
-              "eng": "the chief",
-              "punct": "､"
+              "cht": "他們中間有作族長"
             },
             {
-              "id": "hebrew-8223",
-              "eng": "and Shapham"
+              "id": "hebrew-3100",
+              "cht": "的約珥",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4932",
-              "eng": "the next",
-              "punct": "､"
+              "cht": "有作副"
+            },
+            {
+              "id": "hebrew-8223",
+              "cht": "族長的沙番",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3285",
-              "eng": "then Jaanai",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8202",
-              "eng": "and Shaphat"
+              "cht": "還有雅乃"
             },
             {
               "id": "hebrew-1316",
-              "eng": "in Bashan",
-              "punct": "."
+              "cht": "和住在巴珊"
+            },
+            {
+              "id": "hebrew-8202",
+              "cht": "的沙法",
+              "punct_cht": "。"
             }
           ]
         },
@@ -411,84 +376,77 @@
             "hebrew-3100": 3.6363404553480576
           },
           "verseKey": "1ch.15.17",
-          "cunp": "於是利未人派約珥的兒子希幔和他弟兄中比利家的兒子亞薩，並他們族弟兄米拉利子孫裏古沙雅的兒子以探。",
+          "nasb": "So the Levites appointed Heman the son of Joel, and from his relatives, Asaph the son of Berechiah; and from the sons of Merari their relatives, Ethan the son of Kushaiah,",
           "words": [
             {
-              "id": "hebrew-5975",
-              "eng": "So appointed"
-            },
-            {
               "id": "hebrew-3881",
-              "eng": "the Levites"
+              "cht": "於是利未人"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1968",
-              "eng": "Heman"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "id": "hebrew-5975",
+              "cht": "派"
             },
             {
               "id": "hebrew-3100",
-              "eng": "of Joel",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "of his brothers",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-623",
-              "eng": "Asaph"
+              "cht": "約珥"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-1968",
+              "cht": "希幔"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-251",
+              "cht": "他弟兄"
             },
             {
               "id": "hebrew-1296",
-              "eng": "of Berechiah",
-              "punct": "–"
+              "cht": "中比利家"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-623",
+              "cht": "亞薩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
-            },
-            {
-              "id": "hebrew-4847",
-              "eng": "of Merari"
+              "cht": "並"
             },
             {
               "id": "hebrew-251",
-              "eng": "their brothers",
-              "punct": "､"
+              "cht": "他們族弟兄"
             },
             {
-              "id": "hebrew-387",
-              "eng": "Ethan"
+              "id": "hebrew-4847",
+              "cht": "米拉利"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "子孫"
             },
             {
               "id": "hebrew-6984",
-              "eng": "of Kushaiah",
-              "punct": "–"
+              "cht": "裡古沙雅"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-387",
+              "cht": "以探",
+              "punct_cht": "。"
             }
           ]
         },
@@ -499,43 +457,39 @@
             "hebrew-3100": 3.6363404553480576
           },
           "verseKey": "1ch.6.36",
-          "cunp": "亞瑪賽是以利加拿的兒子；以利加拿是約珥的兒子；約珥是亞撒利雅的兒子；亞撒利雅是西番雅的兒子；",
+          "nasb": "the son of Elkanah, the son of Joel, the son of Azariah, the son of Zephaniah,",
           "words": [
             {
               "id": "hebrew-1121",
-              "eng": "the son"
-            },
-            {
-              "id": "hebrew-511",
-              "eng": "of Elkanah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "亞瑪賽是以利加拿的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3100",
-              "eng": "of Joel",
-              "punct": "､"
+              "cht": "以利加拿是約珥"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5838",
-              "eng": "of Azariah",
-              "punct": "､"
+              "cht": "約珥是亞撒利雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6846",
-              "eng": "of Zephaniah",
-              "punct": "､"
+              "cht": "亞撒利雅是西番雅"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -546,55 +500,53 @@
             "hebrew-3100": 3.6363404553480576
           },
           "verseKey": "1ch.27.20",
-          "cunp": "管以法蓮人的是阿撒細雅的兒子何細亞；管瑪拿西半支派的是毗大雅的兒子約珥；",
+          "nasb": "for the sons of Ephraim, Hoshea the son of Azaziah; for the half-tribe of Manasseh, Joel the son of Pedaiah;",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "[over] the sons"
-            },
-            {
               "id": "hebrew-669",
-              "eng": "of Ephraim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1954",
-              "eng": "Hoshea"
+              "cht": "管以法蓮"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "人"
             },
             {
               "id": "hebrew-5812",
-              "eng": "of Azaziah",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2677",
-              "eng": "[over] the"
-            },
-            {
-              "id": "hebrew-7626",
-              "eng": "half-tribe"
-            },
-            {
-              "id": "hebrew-4519",
-              "eng": "of Manasseh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3100",
-              "eng": "Joel"
+              "cht": "的是阿撒細雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-1954",
+              "cht": "何細亞",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4519",
+              "cht": "管瑪拿西"
+            },
+            {
+              "id": "hebrew-2677",
+              "cht": "半"
+            },
+            {
+              "id": "hebrew-7626",
+              "cht": "支派"
             },
             {
               "id": "hebrew-6305",
-              "eng": "of Pedaiah",
-              "punct": "–"
+              "cht": "的是毗大雅"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3100",
+              "cht": "約珥",
+              "punct_cht": "；"
             }
           ]
         },
@@ -605,67 +557,67 @@
             "hebrew-3100": 3.6363404553480576
           },
           "verseKey": "1ch.5.8",
-          "cunp": "比拉是亞撒的兒子；亞撒是示瑪的兒子；示瑪是約珥的兒子；約珥所住的地方是從亞羅珥直到尼波和巴力‧免，",
+          "nasb": "and Bela the son of Azaz, the son of Shema, the son of Joel, who lived in Aroer, even to Nebo and Baal-meon.",
           "words": [
             {
               "id": "hebrew-1106",
-              "eng": "and Bela"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "比拉"
             },
             {
               "id": "hebrew-5811",
-              "eng": "of Azaz",
-              "punct": "､"
+              "cht": "是亞撒"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8087",
-              "eng": "of Shema",
-              "punct": "､"
+              "cht": "亞撒是示瑪"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3100",
-              "eng": "of Joel",
-              "punct": "､"
+              "cht": "示瑪是約珥"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1931",
-              "eng": "he"
+              "cht": "約珥"
             },
             {
               "id": "hebrew-3427",
-              "eng": "dwelt"
+              "cht": "所住"
             },
             {
               "id": "hebrew-6177",
-              "eng": "in Aroer",
-              "punct": "､"
+              "cht": "的地方是從亞羅珥"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and as far as"
+              "cht": "直到"
             },
             {
               "id": "hebrew-5015",
-              "eng": "Nebo"
+              "cht": "尼波"
+            },
+            {
+              "id": "",
+              "cht": "和巴力‧"
             },
             {
               "id": "hebrew-1186",
-              "eng": "Baal Meon",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "免",
+              "punct_cht": "，"
             }
           ]
         },
@@ -676,43 +628,42 @@
             "hebrew-3100": 3.6363404553480576
           },
           "verseKey": "1ch.4.35",
-          "cunp": "約珥、約示比的兒子耶戶；約示比是西萊雅的兒子；西萊雅是亞薛的兒子。",
+          "nasb": "and Joel and Jehu the son of Joshibiah, the son of Seraiah, the son of Asiel,",
           "words": [
             {
               "id": "hebrew-3100",
-              "eng": "and Joel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3058",
-              "eng": "and Jehu"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "約珥、"
             },
             {
               "id": "hebrew-3143",
-              "eng": "of Joshibiah",
-              "punct": "､"
+              "cht": "約示比"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3058",
+              "cht": "耶戶",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8304",
-              "eng": "of Seraiah",
-              "punct": "､"
+              "cht": "約示比是西萊雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6221",
-              "eng": "of Asiel",
-              "punct": "､"
+              "cht": "西萊雅是亞薛"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "。"
             }
           ]
         }

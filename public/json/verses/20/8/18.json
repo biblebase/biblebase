@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6239": "Riches",
-          "hebrew-3519": "and honor [are]",
-          "hebrew-854": "with me",
-          "hebrew-1952": "riches",
-          "hebrew-6276": "Enduring",
-          "hebrew-6666": "and righteousness",
-          "": null
+          "eng": {
+            "hebrew-6239": "Riches",
+            "hebrew-3519": "and honor [are]",
+            "hebrew-854": "with me",
+            "hebrew-1952": "riches",
+            "hebrew-6276": "Enduring",
+            "hebrew-6666": "and righteousness",
+            "": null
+          },
+          "cht": {
+            "hebrew-6239": "豐富",
+            "hebrew-3519": "尊榮",
+            "hebrew-854": "在我",
+            "hebrew-1952": "財",
+            "hebrew-6276": "恆久的",
+            "hebrew-6666": "並公義"
+          }
         }
       },
       "translations": {
@@ -26,33 +36,34 @@
             "hebrew-1952": 3.231394854468145
           },
           "verseKey": "psa.112.3",
-          "cunp": "他家中有貨物，有錢財； 他的公義存到永遠。",
+          "nasb": "Wealth and riches are in his house, And his righteousness endures forever.",
           "words": [
             {
+              "id": "hebrew-1004",
+              "cht": "他家中"
+            },
+            {
               "id": "hebrew-1952",
-              "eng": "Wealth"
+              "cht": "有貨物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6239",
-              "eng": "and riches [will be]"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "in his house",
-              "punct": "､"
+              "cht": "有錢財",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6666",
-              "eng": "and his righteousness"
+              "cht": "他的公義"
             },
             {
               "id": "hebrew-5975",
-              "eng": "endures"
+              "cht": "存"
             },
             {
               "id": "hebrew-5703",
-              "eng": "forever",
-              "punct": "."
+              "cht": "到永遠",
+              "punct_cht": "。"
             }
           ]
         },
@@ -62,86 +73,64 @@
             "hebrew-6239": 2.3862803027790513
           },
           "verseKey": "rom.11.12",
-          "cunp": "若他們的過失為天下的富足，他們的缺乏為外邦人的富足，何況他們的豐滿呢？",
+          "nasb": "Now if their transgression is riches for the world and their failure is riches for the Gentiles, how much more will their fulfillment be!",
           "words": [
             {
               "id": "greek-1487",
-              "eng": "If"
+              "cht": "若"
             },
             {
-              "id": "greek-1161",
-              "eng": "however",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "他們"
             },
             {
               "id": "greek-3900",
-              "eng": "trespass"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
-            },
-            {
-              "id": "greek-4149",
-              "eng": "[is] riches"
+              "cht": "的過失",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2889",
-              "eng": "of [the] world",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2275",
-              "eng": "failure"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of them"
+              "cht": "為天下"
             },
             {
               "id": "greek-4149",
-              "eng": "[is the] riches"
-            },
-            {
-              "id": "greek-1484",
-              "eng": "of [the] Gentiles",
-              "punct": ","
-            },
-            {
-              "id": "greek-4214",
-              "eng": "how much"
-            },
-            {
-              "id": "greek-3123",
-              "eng": "more"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4138",
-              "eng": "fullness"
+              "cht": "的富足",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "of them",
-              "punct": "!"
+              "cht": "他們的"
             },
             {
-              "id": ""
+              "id": "greek-2275",
+              "cht": "缺乏",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1484",
+              "cht": "為外邦人的"
+            },
+            {
+              "id": "greek-4149",
+              "cht": "富足",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-4214",
+              "cht": "何況"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他們的"
+            },
+            {
+              "id": "greek-4138",
+              "cht": "豐滿"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -152,72 +141,60 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "rom.9.23",
-          "cunp": "又要將他豐盛的榮耀彰顯在那蒙憐憫、早預備得榮耀的器皿上。",
+          "nasb": "And He did so to make known the riches of His glory upon vessels of mercy, which He prepared beforehand for glory,",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "又"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1107",
-              "eng": "He might make known"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4149",
-              "eng": "riches"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1391",
-              "eng": "glory"
+              "cht": "要"
             },
             {
               "id": "greek-846",
-              "eng": "of Him"
+              "cht": "將他"
             },
             {
-              "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-4632",
-              "eng": "[the] vessels"
-            },
-            {
-              "id": "greek-1656",
-              "eng": "of mercy",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-4282",
-              "eng": "He prepared beforehand"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "for"
+              "id": "greek-4149",
+              "cht": "豐盛的"
             },
             {
               "id": "greek-1391",
-              "eng": "glory",
-              "punct": ","
+              "cht": "榮耀"
             },
             {
-              "id": ""
+              "id": "greek-1107",
+              "cht": "彰顯"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "在"
+            },
+            {
+              "id": "greek-1656",
+              "cht": "那蒙憐憫"
+            },
+            {
+              "id": "greek-4282",
+              "cht": "早預備"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "得"
+            },
+            {
+              "id": "greek-1391",
+              "cht": "榮耀"
+            },
+            {
+              "id": "greek-4632",
+              "cht": "的器皿"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -228,110 +205,78 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "col.1.27",
-          "cunp": "神願意叫他們知道，這奧祕在外邦人中有何等豐盛的榮耀，就是基督在你們心裏成了有榮耀的盼望。",
+          "nasb": "to whom God willed to make known what is the riches of the glory of this mystery among the Gentiles, which is Christ in you, the hope of glory.",
           "words": [
             {
-              "id": "greek-3739",
-              "eng": "to whom"
+              "id": "greek-2316",
+              "cht": "神"
             },
             {
               "id": "greek-2309",
-              "eng": "has willed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God"
-            },
-            {
-              "id": "greek-1107",
-              "eng": "to make known"
-            },
-            {
-              "id": "greek-5101",
-              "eng": "what [is]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4149",
-              "eng": "riches"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1391",
-              "eng": "glory"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-3466",
-              "eng": "mystery"
-            },
-            {
-              "id": "greek-5127",
-              "eng": "this"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "among"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1484",
-              "eng": "Gentiles",
-              "punct": ","
+              "cht": "願意"
             },
             {
               "id": "greek-3739",
-              "eng": "which"
+              "cht": "叫他們"
             },
             {
-              "id": "greek-2076",
-              "eng": "is"
+              "id": "greek-1107",
+              "cht": "知道",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-5547",
-              "eng": "Christ"
+              "id": "greek-5127",
+              "cht": "這"
+            },
+            {
+              "id": "greek-3466",
+              "cht": "奧祕"
+            },
+            {
+              "id": "greek-1484",
+              "cht": "在外邦人"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "中"
             },
             {
-              "id": "greek-5213",
-              "eng": "you",
-              "punct": ","
+              "id": "greek-5101",
+              "cht": "有何等"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1680",
-              "eng": "hope"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4149",
+              "cht": "豐盛的"
             },
             {
               "id": "greek-1391",
-              "eng": "of glory",
-              "punct": ","
+              "cht": "榮耀",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "就是"
+            },
+            {
+              "id": "greek-5547",
+              "cht": "基督"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "你們"
+            },
+            {
+              "id": "greek-1391",
+              "cht": "心裡成了有榮耀的"
+            },
+            {
+              "id": "greek-1680",
+              "cht": "盼望",
+              "punct_cht": "。"
             }
           ]
         },
@@ -341,79 +286,67 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "1co.15.41",
-          "cunp": "日有日的榮光，月有月的榮光，星有星的榮光；這星和那星的榮光也有分別。",
+          "nasb": "There is one glory of the sun, and another glory of the moon, and another glory of the stars; for star differs from star in glory.",
           "words": [
             {
-              "id": "greek-243",
-              "eng": "One [is]"
-            },
-            {
-              "id": "greek-1391",
-              "eng": "[the] glory"
-            },
-            {
               "id": "greek-2246",
-              "eng": "of [the] sun",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "日"
             },
             {
               "id": "greek-243",
-              "eng": "another"
+              "cht": "有日的"
             },
             {
               "id": "greek-1391",
-              "eng": "[the] glory"
+              "cht": "榮光",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4582",
-              "eng": "of [the] moon",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "月"
             },
             {
               "id": "greek-243",
-              "eng": "another"
+              "cht": "有月的"
             },
             {
               "id": "greek-1391",
-              "eng": "[the] glory"
+              "cht": "榮光",
+              "punct_cht": "，"
             },
             {
               "id": "greek-792",
-              "eng": "of [the] stars",
-              "punct": ";"
+              "cht": "星"
+            },
+            {
+              "id": "greek-243",
+              "cht": "有星的"
+            },
+            {
+              "id": "greek-1391",
+              "cht": "榮光",
+              "punct_cht": "。"
             },
             {
               "id": "greek-792",
-              "eng": "star"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
+              "cht": "這星"
             },
             {
               "id": "greek-792",
-              "eng": "from star"
-            },
-            {
-              "id": "greek-1308",
-              "eng": "differs"
+              "cht": "和那星"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "的"
             },
             {
               "id": "greek-1391",
-              "eng": "glory",
-              "punct": "."
+              "cht": "榮光"
+            },
+            {
+              "id": "greek-1308",
+              "cht": "也有分別",
+              "punct_cht": "。"
             }
           ]
         },
@@ -424,86 +357,75 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "2ch.32.27",
-          "cunp": "希西家大有尊榮資財，建造府庫，收藏金銀、寶石、香料、盾牌，和各樣的寶器，",
+          "nasb": "Now Hezekiah had immense riches and honor; and he made for himself treasuries for silver, gold, precious stones, spices, shields and all kinds of valuable articles,",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And had"
-            },
-            {
-              "id": "hebrew-2396",
-              "eng": "Hezekiah"
-            },
-            {
-              "id": "hebrew-6239",
-              "eng": "riches"
-            },
-            {
-              "id": "hebrew-3519",
-              "eng": "and honor",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7235",
-              "eng": "great"
+              "id": "hebrew-3169",
+              "cht": "希西家"
             },
             {
               "id": "hebrew-3966",
-              "eng": "very"
+              "cht": "大"
             },
             {
-              "id": "hebrew-214",
-              "eng": "and treasuries"
+              "id": "hebrew-7235",
+              "cht": "有"
+            },
+            {
+              "id": "hebrew-3519",
+              "cht": "尊榮"
+            },
+            {
+              "id": "hebrew-6239",
+              "cht": "資財",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "he made"
+              "cht": "建造"
             },
             {
-              "id": "hebrew-3701",
-              "eng": "for silver",
-              "punct": "､"
+              "id": "hebrew-214",
+              "cht": "府庫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2091",
-              "eng": "for gold",
-              "punct": "､"
+              "cht": "收藏金"
             },
             {
-              "id": "hebrew-68",
-              "eng": "for stones",
-              "punct": "､"
+              "id": "hebrew-3701",
+              "cht": "銀、"
             },
             {
               "id": "hebrew-3368",
-              "eng": "precious"
+              "cht": "寶"
+            },
+            {
+              "id": "hebrew-68",
+              "cht": "石、"
             },
             {
               "id": "hebrew-1314",
-              "eng": "for spices",
-              "punct": "､"
+              "cht": "香料、"
             },
             {
               "id": "hebrew-4043",
-              "eng": "for shields",
-              "punct": "､"
+              "cht": "盾牌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "for all kinds"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "of items",
-              "punct": "–"
+              "cht": "和各樣的"
             },
             {
               "id": "hebrew-2532",
-              "eng": "desirable",
-              "punct": "."
+              "cht": "寶"
             },
             {
-              "id": "hebrew-3169"
+              "id": "hebrew-3627",
+              "cht": "器",
+              "punct_cht": "，"
             }
           ]
         },
@@ -514,86 +436,83 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "2ch.1.12",
-          "cunp": "我必賜你智慧聰明，也必賜你資財、豐富、尊榮。在你以前的列王都沒有這樣，在你以後也必沒有這樣的。」",
+          "nasb": "wisdom and knowledge have been granted to you. And I will give you riches and wealth and honor, such as none of the kings who were before you has possessed nor those who will come after you.”",
           "words": [
             {
+              "id": "hebrew-5414",
+              "cht": "我必賜"
+            },
+            {
               "id": "hebrew-2451",
-              "eng": "Wisdom"
+              "cht": "智慧"
             },
             {
               "id": "hebrew-4093",
-              "eng": "and knowledge"
+              "cht": "聰明",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5414",
-              "eng": "[are] granted"
+              "cht": "也必賜"
             },
             {
               "id": "hebrew-6239",
-              "eng": "and riches",
-              "punct": "､"
+              "cht": "資財、"
             },
             {
               "id": "hebrew-5233",
-              "eng": "and wealth",
-              "punct": "､"
+              "cht": "豐富、"
             },
             {
               "id": "hebrew-3519",
-              "eng": "and honor",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "I will give"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "such as"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "none"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "have had"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "such as"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "of the kings"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "尊榮",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6440",
-              "eng": "who [were] before you"
+              "cht": "在你以前"
             },
             {
-              "id": "hebrew-310",
-              "eng": "and any after you"
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "列王"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "都沒"
             },
             {
               "id": "hebrew-1961",
-              "eng": "shall have"
+              "cht": "有"
             },
             {
               "id": "hebrew-3651",
-              "eng": "the like",
-              "punct": "."
+              "cht": "這樣",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-310",
+              "cht": "在你以後"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "也必"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "這樣"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -604,89 +523,62 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "eph.3.16",
-          "cunp": "求他按着他豐盛的榮耀，藉着他的靈，叫你們心裏的力量剛強起來，",
+          "nasb": "that He would grant you, according to the riches of His glory, to be strengthened with power through His Spirit in the inner man,",
           "words": [
             {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "He might give"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "you"
-            },
-            {
               "id": "greek-2596",
-              "eng": "according to"
+              "cht": "求他按著"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "他"
             },
             {
               "id": "greek-4149",
-              "eng": "riches"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "豐盛的"
             },
             {
               "id": "greek-1391",
-              "eng": "glory"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-1411",
-              "eng": "with power",
-              "punct": ","
-            },
-            {
-              "id": "greek-2901",
-              "eng": "to be strengthened"
+              "cht": "榮耀",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1223",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit"
+              "cht": "藉著"
             },
             {
               "id": "greek-846",
-              "eng": "of Him"
+              "cht": "他的"
             },
             {
-              "id": "greek-1519",
-              "eng": "in"
+              "id": "greek-4151",
+              "cht": "靈",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2443",
+              "cht": "叫"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "你們"
             },
             {
               "id": "greek-2080",
-              "eng": "inner"
+              "cht": "心裡"
             },
             {
-              "id": "greek-444",
-              "eng": "man",
-              "punct": ","
+              "id": "greek-1411",
+              "cht": "的力量"
             },
             {
-              "id": ""
+              "id": "greek-2901",
+              "cht": "剛強"
+            },
+            {
+              "id": "",
+              "cht": "起來",
+              "punct_cht": "，"
             }
           ]
         },
@@ -697,77 +589,62 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "php.4.19",
-          "cunp": "我的神必照他榮耀的豐富，在基督耶穌裏，使你們一切所需用的都充足。",
+          "nasb": "And my God will supply all your needs according to His riches in glory in Christ Jesus.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
+              "id": "greek-3450",
+              "cht": "我的"
             },
             {
               "id": "greek-2316",
-              "eng": "[the] God"
-            },
-            {
-              "id": "greek-3450",
-              "eng": "of me"
-            },
-            {
-              "id": "greek-4137",
-              "eng": "will fill up"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-5532",
-              "eng": "[the] needs"
-            },
-            {
-              "id": "greek-5216",
-              "eng": "of you",
-              "punct": ","
+              "cht": "神"
             },
             {
               "id": "greek-2596",
-              "eng": "according to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4149",
-              "eng": "riches"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him"
+              "cht": "必照"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "他"
             },
             {
               "id": "greek-1391",
-              "eng": "glory"
+              "cht": "榮耀的"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
+              "id": "greek-4149",
+              "cht": "豐富",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ"
+              "cht": "在基督"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": "."
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "裡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5216",
+              "cht": "使你們"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "一切"
+            },
+            {
+              "id": "greek-5532",
+              "cht": "所需用的"
+            },
+            {
+              "id": "greek-4137",
+              "cht": "都充足",
+              "punct_cht": "。"
             }
           ]
         },
@@ -778,33 +655,33 @@
             "hebrew-3519": 1.0670704860244526
           },
           "verseKey": "pro.3.16",
-          "cunp": "她右手有長壽， 左手有富貴。",
+          "nasb": "Long life is in her right hand; In her left hand are riches and honor.",
           "words": [
             {
+              "id": "hebrew-3225",
+              "cht": "她右手"
+            },
+            {
               "id": "hebrew-753",
-              "eng": "Length"
+              "cht": "有長"
             },
             {
               "id": "hebrew-3117",
-              "eng": "of days"
-            },
-            {
-              "id": "hebrew-3225",
-              "eng": "[is] in her right hand",
-              "punct": "–"
+              "cht": "壽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8040",
-              "eng": "in her left hand"
+              "cht": "左手"
             },
             {
               "id": "hebrew-6239",
-              "eng": "riches"
+              "cht": "有富"
             },
             {
               "id": "hebrew-3519",
-              "eng": "and honor",
-              "punct": "."
+              "cht": "貴",
+              "punct_cht": "。"
             }
           ]
         }

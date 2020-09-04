@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5310": "and I will break in pieces",
-          "hebrew-376": "man",
-          "hebrew-802": "and woman",
-          "hebrew-2205": "old",
-          "hebrew-5288": "and young",
-          "hebrew-970": "the young man",
-          "hebrew-1330": "and the maiden"
+          "eng": {
+            "hebrew-5310": "and I will break in pieces",
+            "hebrew-376": "man",
+            "hebrew-802": "and woman",
+            "hebrew-2205": "old",
+            "hebrew-5288": "and young",
+            "hebrew-970": "the young man",
+            "hebrew-1330": "and the maiden"
+          },
+          "cht": {
+            "hebrew-5310": "打碎",
+            "hebrew-376": "男人",
+            "hebrew-802": "和女人",
+            "hebrew-2205": "老年人",
+            "hebrew-5288": "和少年人",
+            "hebrew-970": "壯丁",
+            "hebrew-1330": "和處女"
+          }
         }
       },
       "translations": {
@@ -26,46 +37,46 @@
             "hebrew-5310": 3.7212505791847406
           },
           "verseKey": "jer.51.23",
-          "cunp": "用你打碎牧人和他的羣畜； 用你打碎農夫和他一對牛； 用你打碎省長和副省長。",
+          "nasb": "And with you I shatter the shepherd and his flock, And with you I shatter the farmer and his team, And with you I shatter governors and prefects.",
           "words": [
             {
               "id": "hebrew-5310",
-              "eng": "and I will break in pieces"
+              "cht": "打碎"
             },
             {
               "id": "hebrew-7462",
-              "eng": "the shepherd"
+              "cht": "牧人"
             },
             {
               "id": "hebrew-5739",
-              "eng": "and his flock",
-              "punct": "–"
+              "cht": "和他的群畜",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5310",
-              "eng": "and I will break in pieces"
+              "cht": "打碎"
             },
             {
               "id": "hebrew-406",
-              "eng": "the plowman"
+              "cht": "農夫"
             },
             {
               "id": "hebrew-6776",
-              "eng": "and his yoke of [oxen]",
-              "punct": "–"
+              "cht": "和他一對牛",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5310",
-              "eng": "and I will break in pieces"
+              "cht": "打碎"
             },
             {
               "id": "hebrew-6346",
-              "eng": "governors"
+              "cht": "省長"
             },
             {
               "id": "hebrew-5461",
-              "eng": "and rulers",
-              "punct": "."
+              "cht": "和副省長",
+              "punct_cht": "。"
             }
           ]
         },
@@ -79,112 +90,93 @@
             "hebrew-1330": 2.2015553563646506
           },
           "verseKey": "ezk.9.6",
-          "cunp": "要將年老的、年少的，並處女、嬰孩，和婦女，從聖所起全都殺盡，只是凡有記號的人不要挨近他。」於是他們從殿前的長老殺起。",
+          "nasb": "Utterly slay old men, young men, maidens, little children, and women, but do not touch any man on whom is the mark; and you shall start from My sanctuary.” So they started with the elders who were before the temple.",
           "words": [
             {
               "id": "hebrew-2205",
-              "eng": "Old"
+              "cht": "要將年老的、"
             },
             {
               "id": "hebrew-970",
-              "eng": "[and] young men",
-              "punct": "､"
+              "cht": "年少的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1330",
-              "eng": "and maidens",
-              "punct": "､"
+              "cht": "並處女、"
             },
             {
               "id": "hebrew-2945",
-              "eng": "and little children",
-              "punct": "､"
+              "cht": "嬰孩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-802",
-              "eng": "and women",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2026",
-              "eng": "slay"
-            },
-            {
-              "id": "hebrew-4889",
-              "eng": "Utterly"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "anyone"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "on whom [is]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-8420",
-              "eng": "the mark",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5066",
-              "eng": "do come near"
+              "cht": "和婦女",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4720",
-              "eng": "and at My sanctuary",
-              "punct": "."
+              "cht": "從聖所"
             },
             {
               "id": "hebrew-2490",
-              "eng": "Begin"
+              "cht": "起"
             },
             {
-              "id": "hebrew-2490",
-              "eng": "so they began"
+              "id": "hebrew-2026",
+              "cht": "全都殺"
+            },
+            {
+              "id": "hebrew-4889",
+              "cht": "盡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "只是凡"
+            },
+            {
+              "id": "hebrew-8420",
+              "cht": "有記號"
             },
             {
               "id": "hebrew-376",
-              "eng": "with"
+              "cht": "的人"
             },
             {
-              "id": "hebrew-2205",
-              "eng": "the elders"
+              "id": "hebrew-408",
+              "cht": "不要"
             },
             {
-              "id": "hebrew-834",
-              "eng": "who [were]"
+              "id": "hebrew-5066",
+              "cht": "挨近"
             },
             {
-              "id": "hebrew-6440",
-              "eng": "before"
+              "id": "hebrew-5921",
+              "cht": "他",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-1004",
-              "eng": "the temple",
-              "punct": "."
+              "cht": "於是他們從殿"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6440",
+              "cht": "前"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-582",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-2205",
+              "cht": "長老"
+            },
+            {
+              "id": "hebrew-2490",
+              "cht": "殺起",
+              "punct_cht": "。"
             }
           ]
         },
@@ -194,33 +186,33 @@
             "hebrew-5310": 3.7212505791847406
           },
           "verseKey": "jer.51.21",
-          "cunp": "用你打碎馬和騎馬的； 用你打碎戰車和坐在其上的；",
+          "nasb": "With you I shatter the horse and his rider, And with you I shatter the chariot and its rider,",
           "words": [
             {
               "id": "hebrew-5310",
-              "eng": "and I will break in pieces"
+              "cht": "打碎"
             },
             {
               "id": "hebrew-5483",
-              "eng": "the horse"
+              "cht": "馬"
             },
             {
               "id": "hebrew-7392",
-              "eng": "and its rider",
-              "punct": "–"
+              "cht": "和騎馬的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5310",
-              "eng": "and I will break in pieces"
+              "cht": "打碎"
             },
             {
               "id": "hebrew-7393",
-              "eng": "the chariot"
+              "cht": "戰車"
             },
             {
               "id": "hebrew-7392",
-              "eng": "and its rider",
-              "punct": "–"
+              "cht": "和坐在其上的",
+              "punct_cht": "；"
             }
           ]
         },
@@ -233,44 +225,42 @@
             "hebrew-1330": 2.2015553563646506
           },
           "verseKey": "psa.148.12",
-          "cunp": "少年人和處女， 老年人和孩童， 都當讚美耶和華！",
+          "nasb": "Both young men and virgins; Old men and children.",
           "words": [
             {
               "id": "hebrew-970",
-              "eng": "young men",
-              "punct": "､"
+              "cht": "少年人"
             },
             {
               "id": "hebrew-1571",
-              "eng": "and both"
+              "cht": "和"
             },
             {
               "id": "hebrew-1330",
-              "eng": "maidens",
-              "punct": "–"
+              "cht": "處女",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2205",
-              "eng": "Old men",
-              "punct": "､"
+              "cht": "老年人"
             },
             {
               "id": "hebrew-5973",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-5288",
-              "eng": "children",
-              "punct": "."
+              "cht": "孩童",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1984"
+              "id": "hebrew-1984",
+              "cht": "都當讚美"
             },
             {
-              "id": "hebrew-853"
-            },
-            {
-              "id": "hebrew-3068"
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "！"
             }
           ]
         },
@@ -282,69 +272,70 @@
             "hebrew-1330": 2.2015553563646506
           },
           "verseKey": "jer.31.13",
-          "cunp": "那時，處女必歡樂跳舞； 年少的、年老的，也必一同歡樂； 因為我要使他們的悲哀變為歡喜， 並要安慰他們，使他們的愁煩轉為快樂。",
+          "nasb": "Then the virgin will rejoice in the dance, And the young men and the old, together, For I will turn their mourning into joy And will comfort them and give them joy for their sorrow.",
           "words": [
             {
               "id": "hebrew-227",
-              "eng": "Then"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "shall rejoice"
+              "cht": "那時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1330",
-              "eng": "the virgin"
-            },
-            {
-              "id": "hebrew-4234",
-              "eng": "in the dance",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-970",
-              "eng": "and the young men"
-            },
-            {
-              "id": "hebrew-2205",
-              "eng": "and the old"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "together",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2015",
-              "eng": "for I will turn"
-            },
-            {
-              "id": "hebrew-60",
-              "eng": "their mourning"
-            },
-            {
-              "id": "hebrew-8342",
-              "eng": "to joy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5162",
-              "eng": "and will comfort them"
+              "cht": "處女"
             },
             {
               "id": "hebrew-8055",
-              "eng": "and make them rejoice"
+              "cht": "必歡樂"
+            },
+            {
+              "id": "hebrew-4234",
+              "cht": "跳舞",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-970",
+              "cht": "年少的、"
+            },
+            {
+              "id": "hebrew-2205",
+              "cht": "年老的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "也必一同"
+            },
+            {
+              "id": "",
+              "cht": "歡樂",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-60",
+              "cht": "因為我要使他們的悲哀"
+            },
+            {
+              "id": "hebrew-2015",
+              "cht": "變為"
+            },
+            {
+              "id": "hebrew-8342",
+              "cht": "歡喜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5162",
+              "cht": "並要安慰他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3015",
-              "eng": "rather than sorrow",
-              "punct": "."
+              "cht": "使他們的愁煩"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-8055",
+              "cht": "轉為快樂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -356,102 +347,100 @@
             "hebrew-1330": 2.2015553563646506
           },
           "verseKey": "2ch.36.17",
-          "cunp": "所以，耶和華使迦勒底人的王來攻擊他們，在他們聖殿裏用刀殺了他們的壯丁，不憐恤他們的少男處女、老人白叟。耶和華將他們都交在迦勒底王手裏。",
+          "nasb": "Therefore He brought up against them the king of the Chaldeans who slew their young men with the sword in the house of their sanctuary, and had no compassion on young man or virgin, old man or infirm; He gave them all into his hand.",
           "words": [
             {
-              "id": "hebrew-5927",
-              "eng": "Therefore He brought"
+              "id": "",
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "against them"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "使"
             },
             {
               "id": "hebrew-3778",
-              "eng": "the Chaldeans",
-              "punct": "､"
+              "cht": "迦勒底人"
             },
             {
-              "id": "hebrew-2026",
-              "eng": "and who killed"
+              "id": "hebrew-4428",
+              "cht": "的王"
             },
             {
-              "id": "hebrew-970",
-              "eng": "their young men"
-            },
-            {
-              "id": "hebrew-2719",
-              "eng": "with the sword"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "in the house"
-            },
-            {
-              "id": "hebrew-4720",
-              "eng": "of their sanctuary",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-2550",
-              "eng": "had compassion"
+              "id": "hebrew-5927",
+              "cht": "來"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "攻擊他們",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4720",
+              "cht": "在他們聖"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "殿"
+            },
+            {
+              "id": "hebrew-2719",
+              "cht": "裡用刀"
+            },
+            {
+              "id": "hebrew-2026",
+              "cht": "殺了"
             },
             {
               "id": "hebrew-970",
-              "eng": "young man"
+              "cht": "他們的壯丁",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-2550",
+              "cht": "憐恤"
+            },
+            {
+              "id": "hebrew-970",
+              "cht": "他們的少男"
             },
             {
               "id": "hebrew-1330",
-              "eng": "or virgin",
-              "punct": "､"
+              "cht": "處女、"
             },
             {
               "id": "hebrew-2205",
-              "eng": "on the aged",
-              "punct": "､"
+              "cht": "老人"
             },
             {
               "id": "hebrew-3486",
-              "eng": "or the weak",
-              "punct": "–"
+              "cht": "白叟",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "將他們都"
             },
             {
               "id": "hebrew-5414",
-              "eng": "He gave [them]"
+              "cht": "交"
             },
             {
               "id": "hebrew-3027",
-              "eng": "into his hand",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
-            },
-            {
-              "id": "hebrew-3068"
+              "cht": "在迦勒底王手裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -462,109 +451,83 @@
             "hebrew-970": 2.4756200969099407
           },
           "verseKey": "2ch.13.3",
-          "cunp": "有一次亞比雅率領挑選的兵四十萬擺陣，都是勇敢的戰士；耶羅波安也挑選大能的勇士八十萬，對亞比雅擺陣。",
+          "nasb": "Abijah began the battle with an army of valiant warriors, 400,000 chosen men, while Jeroboam drew up in battle formation against him with 800,000 chosen men who were valiant warriors.",
           "words": [
             {
-              "id": "hebrew-631",
-              "eng": "And set in order"
-            },
-            {
               "id": "hebrew-29",
-              "eng": "Abijah"
+              "cht": "有一次亞比雅"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4421",
-              "eng": "the battle"
-            },
-            {
-              "id": "hebrew-2428",
-              "eng": "with an army"
-            },
-            {
-              "id": "hebrew-1368",
-              "eng": "of valiant"
-            },
-            {
-              "id": "hebrew-4421",
-              "eng": "warriors",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-702",
-              "eng": "four"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "hundred"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
+              "id": "hebrew-977",
+              "cht": "率領挑選的"
             },
             {
               "id": "hebrew-376",
-              "eng": "men",
-              "punct": "､"
+              "cht": "兵"
             },
             {
-              "id": "hebrew-970",
-              "eng": "choice"
+              "id": "hebrew-3967",
+              "cht": "四十萬"
+            },
+            {
+              "id": "hebrew-631",
+              "cht": "擺"
+            },
+            {
+              "id": "hebrew-4421",
+              "cht": "陣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2428",
+              "cht": "都是勇敢的"
+            },
+            {
+              "id": "hebrew-4421",
+              "cht": "戰"
+            },
+            {
+              "id": "hebrew-1368",
+              "cht": "士",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3379",
-              "eng": "and Jeroboam"
+              "cht": "耶羅波安"
             },
             {
-              "id": "hebrew-6186",
-              "eng": "drew up in formation"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "against him"
-            },
-            {
-              "id": "hebrew-4421",
-              "eng": "battle"
-            },
-            {
-              "id": "hebrew-8083",
-              "eng": "with eight"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "hundred"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "thousand"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "men",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-970",
-              "eng": "choice"
-            },
-            {
-              "id": "hebrew-1368",
-              "eng": "mighty men"
+              "id": "hebrew-977",
+              "cht": "也挑選"
             },
             {
               "id": "hebrew-2428",
-              "eng": "of valor",
-              "punct": "."
+              "cht": "大能的"
             },
             {
-              "id": "hebrew-977"
+              "id": "hebrew-1368",
+              "cht": "勇"
             },
             {
-              "id": "hebrew-977"
+              "id": "hebrew-376",
+              "cht": "士"
+            },
+            {
+              "id": "hebrew-505",
+              "cht": "八十萬",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5973",
+              "cht": "對"
+            },
+            {
+              "id": "hebrew-6186",
+              "cht": "亞比雅擺"
+            },
+            {
+              "id": "hebrew-4421",
+              "cht": "陣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -576,72 +539,59 @@
             "hebrew-1330": 2.2015553563646506
           },
           "verseKey": "deu.32.25",
-          "cunp": "外頭有刀劍，內室有驚恐， 使人喪亡，使少男、童女、 吃奶的、白髮的，盡都滅絕。",
+          "nasb": "Outside the sword will bereave, And inside terror— Both young man and virgin, The nursling with the man of gray hair.",
           "words": [
             {
-              "id": "hebrew-2351",
-              "eng": "Outside",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7921",
-              "eng": "shall destroy"
+              "id": "hebrew-4480",
+              "cht": "外頭"
             },
             {
               "id": "hebrew-2719",
-              "eng": "the sword"
+              "cht": "有刀劍",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2315",
-              "eng": "and within",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "內室"
             },
             {
               "id": "hebrew-367",
-              "eng": "[There shall be] terror"
+              "cht": "有驚恐",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7921",
+              "cht": "使人喪亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "for"
+              "cht": "使"
             },
             {
               "id": "hebrew-970",
-              "eng": "the young man"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and"
+              "cht": "少男、"
             },
             {
               "id": "hebrew-1330",
-              "eng": "virgin",
-              "punct": "､"
+              "cht": "童女、"
             },
             {
               "id": "hebrew-3243",
-              "eng": "the nursing child"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the man"
+              "cht": "吃奶的、"
             },
             {
               "id": "hebrew-7872",
-              "eng": "of gray hairs",
-              "punct": "."
+              "cht": "白髮"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-376",
+              "cht": "的"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "盡都滅絕",
+              "punct_cht": "，。"
             }
           ]
         },
@@ -654,111 +604,104 @@
             "hebrew-970": 2.4756200969099407
           },
           "verseKey": "jer.6.11",
-          "cunp": "因此我被耶和華的忿怒充滿，難以含忍。 我要傾在街中的孩童和聚會的少年人身上， 連夫帶妻， 並年老的與日子滿足的都必被擒拿。",
+          "nasb": "But I am full of the wrath of the Lord; I am weary with holding it in. “Pour it out on the children in the street And on the gathering of young men together; For both husband and wife shall be taken, The aged and the very old.",
           "words": [
             {
-              "id": "hebrew-854",
-              "eng": "Therefore"
-            },
-            {
-              "id": "hebrew-2534",
-              "eng": "the fury"
+              "id": "hebrew-853",
+              "cht": "因此我被"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-4392",
-              "eng": "I am full"
-            },
-            {
-              "id": "hebrew-3811",
-              "eng": "of I am weary"
-            },
-            {
-              "id": "hebrew-3557",
-              "eng": "of holding [it] in"
-            },
-            {
-              "id": "hebrew-8210",
-              "eng": "I will pour it out"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-5768",
-              "eng": "the sons"
-            },
-            {
-              "id": "hebrew-2351",
-              "eng": "outside",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and on"
-            },
-            {
-              "id": "hebrew-5475",
-              "eng": "the assembly"
-            },
-            {
-              "id": "hebrew-970",
-              "eng": "of young men"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "together",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "even"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the husband"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "the wife"
-            },
-            {
-              "id": "hebrew-3920",
-              "eng": "shall be taken",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2205",
-              "eng": "the aged"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "with"
+              "id": "hebrew-2534",
+              "cht": "的忿怒"
             },
             {
               "id": "hebrew-4390",
-              "eng": "[him who is] full"
+              "cht": "充滿",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3811",
+              "cht": "難以"
+            },
+            {
+              "id": "hebrew-3557",
+              "cht": "含忍",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-8210",
+              "cht": "我要傾"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-2351",
+              "cht": "街中"
+            },
+            {
+              "id": "hebrew-5768",
+              "cht": "的孩童"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-5475",
+              "cht": "聚會"
+            },
+            {
+              "id": "hebrew-970",
+              "cht": "的少年人"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "身上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "連"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "夫"
+            },
+            {
+              "id": "hebrew-5973",
+              "cht": "帶"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "妻",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2205",
+              "cht": "並年老的"
+            },
+            {
+              "id": "hebrew-5973",
+              "cht": "與"
             },
             {
               "id": "hebrew-3117",
-              "eng": "of days",
-              "punct": "."
+              "cht": "日子"
             },
             {
-              "id": "hebrew-853"
+              "id": "hebrew-4392",
+              "cht": "滿足的"
+            },
+            {
+              "id": "hebrew-3920",
+              "cht": "都必被擒拿",
+              "punct_cht": "。"
             }
           ]
         },
@@ -769,57 +712,55 @@
             "hebrew-1330": 2.2015553563646506
           },
           "verseKey": "zec.9.17",
-          "cunp": "他的恩慈何等大！ 他的榮美何其盛！ 五穀健壯少男； 新酒培養處女。",
+          "nasb": "For what comeliness and beauty will be theirs! Grain will make the young men flourish, and new wine the virgins.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "how"
-            },
-            {
               "id": "hebrew-2898",
-              "eng": "[great] is its goodness",
-              "punct": "､"
+              "cht": "他的恩慈"
             },
             {
               "id": "hebrew-4100",
-              "eng": "and how"
+              "cht": "何等"
+            },
+            {
+              "id": "",
+              "cht": "大",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3308",
-              "eng": "[great] its beauty",
-              "punct": "!"
+              "cht": "他的榮美"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "何其"
+            },
+            {
+              "id": "",
+              "cht": "盛",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-1715",
-              "eng": "Grain"
-            },
-            {
-              "id": "hebrew-970",
-              "eng": "the young men"
-            },
-            {
-              "id": "hebrew-8492",
-              "eng": "and new wine"
+              "cht": "五穀"
             },
             {
               "id": "hebrew-5107",
-              "eng": "shall make thrive",
-              "punct": "､"
+              "cht": "健壯"
+            },
+            {
+              "id": "hebrew-970",
+              "cht": "少男",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-8492",
+              "cht": "新酒"
             },
             {
               "id": "hebrew-1330",
-              "eng": "the young women",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "培養處女",
+              "punct_cht": "。"
             }
           ]
         }

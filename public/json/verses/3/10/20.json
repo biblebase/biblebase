@@ -3,11 +3,19 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8085": "so when heard [that]",
-          "hebrew-4872": "Moses",
-          "hebrew-3190": "and he was content",
-          "hebrew-5869": "in his sight",
-          "": null
+          "eng": {
+            "hebrew-8085": "so when heard [that]",
+            "hebrew-4872": "Moses",
+            "hebrew-3190": "and he was content",
+            "hebrew-5869": "in his sight",
+            "": null
+          },
+          "cht": {
+            "hebrew-8085": "聽見",
+            "hebrew-4872": "摩西",
+            "hebrew-3190": "美",
+            "hebrew-5869": "便以為"
+          }
         }
       },
       "translations": {
@@ -22,69 +30,59 @@
             "hebrew-3190": 1.7168817978039155
           },
           "verseKey": "gen.32.12",
-          "cunp": "你曾說：『我必定厚待你，使你的後裔如同海邊的沙，多得不可勝數。』」",
+          "nasb": "For You said, ‘I will surely prosper you and make your descendants as the sand of the sea, which is too great to be numbered.’ ”",
           "words": [
             {
               "id": "hebrew-859",
-              "eng": "For You"
+              "cht": "你"
             },
             {
               "id": "hebrew-559",
-              "eng": "said",
-              "punct": "､"
+              "cht": "曾說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-3190",
-              "eng": "surely"
+              "cht": "我必定"
             },
             {
               "id": "hebrew-3190",
-              "eng": "I will treat well"
+              "cht": "厚待"
             },
             {
               "id": "hebrew-5973",
-              "eng": "you"
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7760",
-              "eng": "and make"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-2233",
-              "eng": "your descendants"
-            },
-            {
-              "id": "hebrew-2344",
-              "eng": "like the sand"
+              "cht": "你的後裔"
             },
             {
               "id": "hebrew-3220",
-              "eng": "of the sea",
-              "punct": "､"
+              "cht": "如同海"
             },
             {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "cannot"
-            },
-            {
-              "id": "hebrew-5608",
-              "eng": "be numbered"
+              "id": "hebrew-2344",
+              "cht": "邊的沙",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7230",
-              "eng": "for multitude",
-              "punct": "."
+              "cht": "多得"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-5608",
+              "cht": "可勝數",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -94,73 +92,57 @@
             "hebrew-3190": 1.7168817978039155
           },
           "verseKey": "jer.7.5",
-          "cunp": "「你們若實在改正行動作為，在人和鄰舍中間誠然施行公平，",
+          "nasb": "For if you truly amend your ways and your deeds, if you truly practice justice between a man and his neighbor,",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
               "id": "hebrew-518",
-              "eng": "if"
+              "cht": "你們若"
             },
             {
               "id": "hebrew-3190",
-              "eng": "thoroughly"
+              "cht": "實在"
             },
             {
               "id": "hebrew-3190",
-              "eng": "you amend"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "改正"
             },
             {
               "id": "hebrew-1870",
-              "eng": "your ways"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "行動"
             },
             {
               "id": "hebrew-4611",
-              "eng": "your doings",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "thoroughly"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "you execute"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "judgment"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
+              "cht": "作為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "在人"
             },
             {
               "id": "hebrew-996",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-7453",
-              "eng": "his neighbor",
-              "punct": "–"
+              "cht": "鄰舍"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "中間"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "誠然"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "施行"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "公平",
+              "punct_cht": "，"
             }
           ]
         },
@@ -170,66 +152,68 @@
             "hebrew-3190": 1.7168817978039155
           },
           "verseKey": "jon.4.9",
-          "cunp": "神對約拿說：「你因這棵蓖麻發怒合乎理嗎？」他說：「我發怒以至於死，都合乎理！」",
+          "nasb": "Then God said to Jonah, “Do you have good reason to be angry about the plant?” And he said, “I have good reason to be angry, even to death.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-3124",
-              "eng": "Jonah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3190",
-              "eng": "[is it] right"
-            },
-            {
-              "id": "hebrew-2734",
-              "eng": "to be angry"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "about"
-            },
-            {
-              "id": "hebrew-7021",
-              "eng": "the plant"
+              "cht": "約拿"
             },
             {
               "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-3190",
-              "eng": "[it is] right"
+              "id": "hebrew-5921",
+              "cht": "因"
+            },
+            {
+              "id": "hebrew-7021",
+              "cht": "這棵蓖麻"
             },
             {
               "id": "hebrew-2734",
-              "eng": "to be angry",
-              "punct": "､"
+              "cht": "發怒"
+            },
+            {
+              "id": "hebrew-3190",
+              "cht": "合乎理"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "他說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-2734",
+              "cht": "發怒"
             },
             {
               "id": "hebrew-5704",
-              "eng": "even to"
+              "cht": "以至"
             },
             {
               "id": "hebrew-4194",
-              "eng": "death",
-              "punct": "."
+              "cht": "於死",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3190",
+              "cht": "都合乎理",
+              "punct_cht": "！」"
             }
           ]
         }

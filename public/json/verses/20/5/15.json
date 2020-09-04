@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8354": "Drink",
-          "hebrew-4325": "water",
-          "hebrew-953": "from your own cistern",
-          "hebrew-5140": "and running water",
-          "hebrew-8432": "from",
-          "hebrew-875": "your own well",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-8354": "Drink",
+            "hebrew-4325": "water",
+            "hebrew-953": "from your own cistern",
+            "hebrew-5140": "and running water",
+            "hebrew-8432": "from",
+            "hebrew-875": "your own well",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-8354": "你要喝",
+            "hebrew-4325": "的水",
+            "hebrew-953": "自己池中",
+            "hebrew-5140": "的活水",
+            "hebrew-8432": "裡",
+            "hebrew-875": "飲自己井",
+            "hebrew-4480": "裡"
+          }
         }
       },
       "translations": {
@@ -28,7 +39,7 @@
             "hebrew-875": 2.030639120319357
           },
           "verseKey": "num.15.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -37,126 +48,83 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "rev.9.2",
-          "cunp": "它開了無底坑，便有煙從坑裏往上冒，好像大火爐的煙；日頭和天空都因這煙昏暗了。",
+          "nasb": "He opened the bottomless pit, and smoke went up out of the pit, like the smoke of a great furnace; and the sun and the air were darkened by the smoke of the pit.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-455",
-              "eng": "he opened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "它開了"
             },
             {
               "id": "greek-12",
-              "eng": "Abyss",
-              "punct": ","
+              "cht": "無底"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "便有"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "煙"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑裡"
             },
             {
               "id": "greek-305",
-              "eng": "went up"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "smoke"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": ","
+              "cht": "往上冒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "like"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "[the] smoke"
-            },
-            {
-              "id": "greek-2575",
-              "eng": "of a furnace"
+              "cht": "好像"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": ","
+              "cht": "大"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4656",
-              "eng": "were darkened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2246",
-              "eng": "sun"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-109",
-              "eng": "air"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2575",
+              "cht": "火爐"
             },
             {
               "id": "greek-2586",
-              "eng": "smoke"
+              "cht": "的煙",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2246",
+              "cht": "日頭"
             },
             {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": "."
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
-              "id": "greek-4654"
+              "id": "greek-109",
+              "cht": "天空"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "都因"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "這煙"
+            },
+            {
+              "id": "greek-4654",
+              "cht": "昏暗了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -166,106 +134,95 @@
             "hebrew-875": 2.030639120319357
           },
           "verseKey": "gen.29.2",
-          "cunp": "看見田間有一口井，有三羣羊臥在井旁；因為人飲羊羣都是用那井裏的水。井口上的石頭是大的。",
+          "nasb": "He looked, and saw a well in the field, and behold, three flocks of sheep were lying there beside it, for from that well they watered the flocks. Now the stone on the mouth of the well was large.",
           "words": [
             {
-              "id": "hebrew-7200",
-              "eng": "And he looked",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-2009",
-              "eng": "and saw"
-            },
-            {
-              "id": "hebrew-875",
-              "eng": "a well"
+              "cht": "看見"
             },
             {
               "id": "hebrew-7704",
-              "eng": "in the field",
-              "punct": "､"
+              "cht": "田間"
             },
             {
-              "id": "hebrew-2009",
-              "eng": "and behold"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there [were]"
+              "id": "hebrew-875",
+              "cht": "有一口井",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7969",
-              "eng": "three"
+              "cht": "有三"
             },
             {
               "id": "hebrew-5739",
-              "eng": "flocks"
+              "cht": "群"
             },
             {
               "id": "hebrew-6629",
-              "eng": "of sheep"
+              "cht": "羊"
             },
             {
               "id": "hebrew-7257",
-              "eng": "lying"
+              "cht": "臥"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by it",
-              "punct": "､"
+              "cht": "在井旁",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "out"
-            },
-            {
-              "id": "hebrew-875",
-              "eng": "of well"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "因為"
             },
             {
               "id": "hebrew-8248",
-              "eng": "they watered"
+              "cht": "人飲"
             },
             {
               "id": "hebrew-5739",
-              "eng": "the flocks",
-              "punct": "."
+              "cht": "羊群"
             },
             {
-              "id": "hebrew-68",
-              "eng": "And a stone [was]"
+              "id": "hebrew-4480",
+              "cht": "都是用"
             },
             {
-              "id": "hebrew-1419",
-              "eng": "large"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "the mouth"
+              "id": "hebrew-1931",
+              "cht": "那"
             },
             {
               "id": "hebrew-875",
-              "eng": "of the well",
-              "punct": "."
+              "cht": "井"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "裡的水",
+              "punct_cht": "。"
             },
             {
-              "id": ""
+              "id": "hebrew-875",
+              "cht": "井"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "口"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "上"
+            },
+            {
+              "id": "hebrew-68",
+              "cht": "的石頭"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "是大"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -278,164 +235,146 @@
             "hebrew-8432": 1.0161610005300594
           },
           "verseKey": "ezk.31.14",
-          "cunp": "好使水旁的諸樹不因高大而自尊，也不將樹尖插入雲中，並且那些得水滋潤、有勢力的，也不得高大自立。因為它們在世人中，和下坑的人都被交與死亡，到陰府去了。」",
+          "nasb": "so that all the trees by the waters may not be exalted in their stature, nor set their top among the clouds, nor their well-watered mighty ones stand erect in their height. For they have all been given over to death, to the earth beneath, among the sons of men, with those who go down to the pit.”",
           "words": [
             {
               "id": "hebrew-4616",
-              "eng": "So"
+              "cht": "好使"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-1361",
-              "eng": "may ever again exalt themselves"
-            },
-            {
-              "id": "hebrew-6967",
-              "eng": "for their height",
-              "punct": "､"
+              "id": "hebrew-4325",
+              "cht": "水"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "旁的諸"
             },
             {
               "id": "hebrew-6086",
-              "eng": "trees"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "by the waters"
+              "cht": "樹"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and nor"
+              "cht": "不"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "set"
+              "id": "hebrew-6967",
+              "cht": "因高大"
+            },
+            {
+              "id": "hebrew-1361",
+              "cht": "而自尊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "將"
             },
             {
               "id": "hebrew-6788",
-              "eng": "their tops"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-5688",
-              "eng": "the thick boughs",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "that no"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "to reach up to them"
-            },
-            {
-              "id": "hebrew-352",
-              "eng": "terebinth tree"
-            },
-            {
-              "id": "hebrew-1363",
-              "eng": "may ever be high [enough]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-8354",
-              "eng": "which drinks"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "water",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "they all"
+              "cht": "樹尖"
             },
             {
               "id": "hebrew-5414",
-              "eng": "have been delivered"
+              "cht": "插"
             },
             {
-              "id": "hebrew-4194",
-              "eng": "to death",
-              "punct": "､"
+              "id": "hebrew-996",
+              "cht": "入"
+            },
+            {
+              "id": "hebrew-5688",
+              "cht": "雲中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "並且那些"
+            },
+            {
+              "id": "hebrew-8354",
+              "cht": "得"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
+            },
+            {
+              "id": "",
+              "cht": "滋潤、"
+            },
+            {
+              "id": "hebrew-352",
+              "cht": "有勢力的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-1363",
+              "cht": "得高大"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "自立",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8482",
-              "eng": "the depths"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "of Among"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-120",
-              "eng": "of men",
-              "punct": "､"
+              "cht": "它們在世人"
+            },
+            {
+              "id": "hebrew-8432",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "with"
+              "cht": "和"
             },
             {
               "id": "hebrew-3381",
-              "eng": "who go down"
+              "cht": "下"
             },
             {
               "id": "hebrew-953",
-              "eng": "to the Pit",
-              "punct": "."
+              "cht": "坑"
             },
             {
-              "id": ""
+              "id": "hebrew-3605",
+              "cht": "的人都"
             },
             {
-              "id": "hebrew-413"
+              "id": "hebrew-5414",
+              "cht": "被交"
             },
             {
-              "id": ""
+              "id": "hebrew-4194",
+              "cht": "與死亡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "陰府"
+            },
+            {
+              "id": "",
+              "cht": "去了",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -446,59 +385,56 @@
             "hebrew-5140": 4.1389193993584925
           },
           "verseKey": "isa.48.21",
-          "cunp": "耶和華引導他們經過沙漠。 他們並不乾渴； 他為他們使水從磐石而流， 分裂磐石，水就湧出。",
+          "nasb": "They did not thirst when He led them through the deserts. He made the water flow out of the rock for them; He split the rock and the water gushed forth.",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "And not"
-            },
-            {
-              "id": "hebrew-6770",
-              "eng": "they did thirst"
+              "id": "hebrew-3212",
+              "cht": "耶和華引導他們"
             },
             {
               "id": "hebrew-2723",
-              "eng": "through the deserts",
-              "punct": "."
+              "cht": "經過沙漠",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "When He led them"
+              "id": "hebrew-3808",
+              "cht": "他們並不"
+            },
+            {
+              "id": "hebrew-6770",
+              "cht": "乾渴",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters"
+              "cht": "使水"
             },
             {
-              "id": "hebrew-6697",
-              "eng": "from the rock"
+              "id": "hebrew-4480",
+              "cht": "從磐石"
             },
             {
               "id": "hebrew-5140",
-              "eng": "He caused to flow"
+              "cht": "而流",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1234",
-              "eng": "and He split"
+              "cht": "分裂"
             },
             {
               "id": "hebrew-6697",
-              "eng": "the rock"
-            },
-            {
-              "id": "hebrew-2100",
-              "eng": "and gushed out"
+              "cht": "磐石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters",
-              "punct": "."
+              "cht": "水"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-2100",
+              "cht": "就湧出",
+              "punct_cht": "。"
             }
           ]
         },
@@ -509,63 +445,59 @@
             "hebrew-5140": 4.1389193993584925
           },
           "verseKey": "num.24.7",
-          "cunp": "水要從他的桶裏流出； 種子要撒在多水之處。 他的王必超過亞甲； 他的國必要振興。",
+          "nasb": "Water will flow from his buckets, And his seed will be by many waters, And his king shall be higher than Agag, And his kingdom shall be exalted.",
           "words": [
             {
-              "id": "hebrew-5140",
-              "eng": "He shall pour"
-            },
-            {
               "id": "hebrew-4325",
-              "eng": "water"
+              "cht": "水"
             },
             {
-              "id": "hebrew-1805",
-              "eng": "from his buckets",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "要從他的桶裡"
+            },
+            {
+              "id": "hebrew-5140",
+              "cht": "流出",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2233",
-              "eng": "and his seed [shall be]"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "in waters",
-              "punct": "､"
+              "cht": "種子"
             },
             {
               "id": "hebrew-7227",
-              "eng": "many"
+              "cht": "要撒在多"
             },
             {
-              "id": "hebrew-7311",
-              "eng": "and shall be higher"
+              "id": "hebrew-4325",
+              "cht": "水"
             },
             {
-              "id": "hebrew-90",
-              "eng": "than Agag"
+              "id": "",
+              "cht": "之處",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4428",
-              "eng": "His king"
+              "cht": "他的王"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "and shall be exalted"
+              "id": "hebrew-7311",
+              "cht": "必超"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "過亞甲",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4438",
-              "eng": "his kingdom",
-              "punct": "."
+              "cht": "他的國"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5375",
+              "cht": "必要振興",
+              "punct_cht": "。"
             }
           ]
         },
@@ -575,99 +507,84 @@
             "hebrew-8354": 1.1071595021700873
           },
           "verseKey": "jer.49.12",
-          "cunp": "耶和華如此說：「原不該喝那杯的一定要喝。你能盡免刑罰嗎？你必不能免，一定要喝！」",
+          "nasb": "For thus says the Lord, “Behold, those who were not sentenced to drink the cup will certainly drink it, and are you the one who will be completely acquitted? You will not be acquitted, but you will certainly drink it.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-834",
-              "eng": "those whose"
+              "cht": "原"
             },
             {
               "id": "hebrew-369",
-              "eng": "[was] not"
+              "cht": "不"
             },
             {
               "id": "hebrew-4941",
-              "eng": "judgment"
+              "cht": "該"
             },
             {
               "id": "hebrew-8354",
-              "eng": "to drink"
+              "cht": "喝"
             },
             {
               "id": "hebrew-3563",
-              "eng": "of the cup"
+              "cht": "那杯"
             },
             {
               "id": "hebrew-8354",
-              "eng": "assuredly"
+              "cht": "的一定要"
             },
             {
               "id": "hebrew-8354",
-              "eng": "have drunk",
-              "punct": "–"
+              "cht": "喝",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-859",
-              "eng": "and you"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "are"
+              "cht": "你"
             },
             {
               "id": "hebrew-5352",
-              "eng": "altogether"
+              "cht": "能盡"
             },
             {
               "id": "hebrew-5352",
-              "eng": "the one who will go unpunished"
+              "cht": "免刑罰"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你必不能"
             },
             {
               "id": "hebrew-5352",
-              "eng": "You shall go unpunished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "but"
+              "cht": "免",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8354",
-              "eng": "surely"
+              "cht": "一定要"
             },
             {
               "id": "hebrew-8354",
-              "eng": "you shall drink [of it]",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "喝",
+              "punct_cht": "！」"
             }
           ]
         },
@@ -678,61 +595,61 @@
             "hebrew-5140": 4.1389193993584925
           },
           "verseKey": "jer.18.14",
-          "cunp": "黎巴嫩的雪從田野的磐石上豈能斷絕呢？ 從遠處流下的涼水豈能乾涸呢？",
+          "nasb": "Does the snow of Lebanon forsake the rock of the open country? Or is the cold flowing water from a foreign land ever snatched away?",
           "words": [
             {
-              "id": "hebrew-5800",
-              "eng": "Will [a man] leave"
-            },
-            {
-              "id": "hebrew-6697",
-              "eng": "[Which comes] from the rock"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "of the field"
+              "id": "hebrew-3844",
+              "cht": "黎巴嫩"
             },
             {
               "id": "hebrew-7950",
-              "eng": "the snow [water]"
+              "cht": "的雪"
             },
             {
-              "id": "hebrew-3844",
-              "eng": "of Lebanon"
+              "id": "hebrew-7704",
+              "cht": "從田野"
             },
             {
-              "id": "hebrew-518",
-              "eng": "Or"
+              "id": "hebrew-6697",
+              "cht": "的磐石"
             },
             {
-              "id": "hebrew-5428",
-              "eng": "will be forsaken"
+              "id": "hebrew-5800",
+              "cht": "上豈能斷絕"
             },
             {
-              "id": "hebrew-4325",
-              "eng": "the waters"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-2114",
-              "eng": "for strange [waters]"
-            },
-            {
-              "id": "hebrew-7119",
-              "eng": "cold"
+              "cht": "從遠處"
             },
             {
               "id": "hebrew-5140",
-              "eng": "flowing",
-              "punct": "."
+              "cht": "流"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7119",
+              "cht": "下的涼"
             },
             {
-              "id": ""
+              "id": "hebrew-4325",
+              "cht": "水"
             },
             {
-              "id": ""
+              "id": "hebrew-518",
+              "cht": "豈能"
+            },
+            {
+              "id": "hebrew-5428",
+              "cht": "乾涸"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -743,38 +660,39 @@
             "hebrew-5140": 4.1389193993584925
           },
           "verseKey": "psa.147.18",
-          "cunp": "他一出令，這些就都消化； 他使風颳起，水便流動。",
+          "nasb": "He sends forth His word and melts them; He causes His wind to blow and the waters to flow.",
           "words": [
             {
               "id": "hebrew-7971",
-              "eng": "He sends out"
+              "cht": "他一出"
             },
             {
               "id": "hebrew-1697",
-              "eng": "His word",
-              "punct": "､"
+              "cht": "令",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4529",
-              "eng": "and melts them"
-            },
-            {
-              "id": "hebrew-5380",
-              "eng": "He causes to blow",
-              "punct": "､"
+              "cht": "這些就都消化",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7307",
-              "eng": "His wind"
+              "cht": "他使風"
             },
             {
-              "id": "hebrew-5140",
-              "eng": "[and] flow"
+              "id": "hebrew-5380",
+              "cht": "颳起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4325",
-              "eng": "the waters",
-              "punct": "."
+              "cht": "水"
+            },
+            {
+              "id": "hebrew-5140",
+              "cht": "便流動",
+              "punct_cht": "。"
             }
           ]
         },
@@ -785,53 +703,54 @@
             "hebrew-5140": 4.1389193993584925
           },
           "verseKey": "jer.9.18",
-          "cunp": "叫她們速速為我們舉哀， 使我們眼淚汪汪， 使我們的眼皮湧出水來。",
+          "nasb": "Let them make haste and take up a wailing for us, That our eyes may shed tears And our eyelids flow with water.",
           "words": [
             {
               "id": "hebrew-4116",
-              "eng": "and let them make haste",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5375",
-              "eng": "and take up"
+              "cht": "叫她們速速"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for us"
+              "cht": "為我們"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "舉"
             },
             {
               "id": "hebrew-5092",
-              "eng": "a wailing"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "that may run"
+              "cht": "哀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "our eyes"
+              "cht": "使我們眼"
             },
             {
               "id": "hebrew-1832",
-              "eng": "with tears",
-              "punct": "､"
+              "cht": "淚"
+            },
+            {
+              "id": "hebrew-3381",
+              "cht": "汪汪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6079",
-              "eng": "and our eyelids"
+              "cht": "使我們的眼皮"
             },
             {
               "id": "hebrew-5140",
-              "eng": "gush"
+              "cht": "湧出"
             },
             {
               "id": "hebrew-4325",
-              "eng": "with water",
-              "punct": "."
+              "cht": "水"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             }
           ]
         }

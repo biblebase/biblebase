@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1811": "Melts",
-          "hebrew-5315": "My soul",
-          "hebrew-8424": "from heaviness",
-          "hebrew-6965": "Strengthen me",
-          "hebrew-1697": "according to Your word",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-1811": "Melts",
+            "hebrew-5315": "My soul",
+            "hebrew-8424": "from heaviness",
+            "hebrew-6965": "Strengthen me",
+            "hebrew-1697": "according to Your word",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-1811": "而消化",
+            "hebrew-5315": "我的心",
+            "hebrew-8424": "因愁苦",
+            "hebrew-6965": "使我堅立",
+            "hebrew-1697": "求你照你的話",
+            "hebrew-4480": "因愁苦"
+          }
         }
       },
       "translations": {
@@ -21,37 +31,39 @@
             "hebrew-1811": 8.539323589735611
           },
           "verseKey": "ecc.10.18",
-          "cunp": "因人懶惰，房頂塌下； 因人手懶，房屋滴漏。",
+          "nasb": "Through indolence the rafters sag, and through slackness the house leaks.",
           "words": [
             {
               "id": "hebrew-6103",
-              "eng": "because of laziness"
-            },
-            {
-              "id": "hebrew-4355",
-              "eng": "decays",
-              "punct": "–"
+              "cht": "因人懶惰",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4746",
-              "eng": "the building"
+              "cht": "房頂"
             },
             {
-              "id": "hebrew-8220",
-              "eng": "and through idleness"
+              "id": "hebrew-4355",
+              "cht": "塌下",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "of hands"
+              "cht": "因人手"
             },
             {
-              "id": "hebrew-1811",
-              "eng": "leaks"
+              "id": "hebrew-8220",
+              "cht": "懶",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1004",
-              "eng": "the house",
-              "punct": "."
+              "cht": "房屋"
+            },
+            {
+              "id": "hebrew-1811",
+              "cht": "滴漏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -61,32 +73,33 @@
             "hebrew-1811": 8.539323589735611
           },
           "verseKey": "job.16.20",
-          "cunp": "我的朋友譏誚我， 我卻向神眼淚汪汪。",
+          "nasb": "My friends are my scoffers; My eye weeps to God.",
           "words": [
             {
-              "id": "hebrew-3887",
-              "eng": "Scorn me"
+              "id": "hebrew-7453",
+              "cht": "我的朋友"
             },
             {
-              "id": "hebrew-7453",
-              "eng": "My friends"
+              "id": "hebrew-3887",
+              "cht": "譏誚我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "我卻向"
             },
             {
               "id": "hebrew-433",
-              "eng": "God"
-            },
-            {
-              "id": "hebrew-1811",
-              "eng": "pour out [tears]"
+              "cht": "神"
             },
             {
               "id": "hebrew-5869",
-              "eng": "My eyes",
-              "punct": "."
+              "cht": "眼"
+            },
+            {
+              "id": "hebrew-1811",
+              "cht": "淚汪汪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -96,40 +109,42 @@
             "hebrew-8424": 7.502414237754052
           },
           "verseKey": "pro.14.13",
-          "cunp": "人在喜笑中，心也憂愁； 快樂至極就生愁苦。",
+          "nasb": "Even in laughter the heart may be in pain, And the end of joy may be grief.",
           "words": [
             {
-              "id": "hebrew-1571",
-              "eng": "Even"
-            },
-            {
               "id": "hebrew-7814",
-              "eng": "in laughter"
+              "cht": "人在喜笑"
             },
             {
-              "id": "hebrew-3510",
-              "eng": "may sorrow",
-              "punct": "–"
+              "id": "",
+              "cht": "中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "the heart"
+              "cht": "心"
             },
             {
-              "id": "hebrew-319",
-              "eng": "and the end"
+              "id": "hebrew-1571",
+              "cht": "也"
+            },
+            {
+              "id": "hebrew-3510",
+              "cht": "憂愁",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8057",
-              "eng": "of mirth"
+              "cht": "快樂"
+            },
+            {
+              "id": "hebrew-319",
+              "cht": "至極"
             },
             {
               "id": "hebrew-8424",
-              "eng": "[may be] grief",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "就生愁苦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -139,50 +154,50 @@
             "hebrew-8424": 7.502414237754052
           },
           "verseKey": "pro.10.1",
-          "cunp": "所羅門的箴言： 智慧之子使父親歡樂； 愚昧之子叫母親擔憂。",
+          "nasb": "The proverbs of Solomon. A wise son makes a father glad, But a foolish son is a grief to his mother.",
           "words": [
             {
-              "id": "hebrew-4912",
-              "eng": "The Proverbs"
-            },
-            {
               "id": "hebrew-8010",
-              "eng": "of Solomon",
-              "punct": "."
+              "cht": "所羅門"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "A son"
+              "id": "hebrew-4912",
+              "cht": "的箴言",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2450",
-              "eng": "wise"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "makes glad"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "a father",
-              "punct": "–"
+              "cht": "智慧"
             },
             {
               "id": "hebrew-1121",
-              "eng": "but a son [is]"
+              "cht": "之子"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "使父親"
+            },
+            {
+              "id": "hebrew-8055",
+              "cht": "歡樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "foolish"
+              "cht": "愚昧"
             },
             {
-              "id": "hebrew-8424",
-              "eng": "the grief"
+              "id": "hebrew-1121",
+              "cht": "之子"
             },
             {
               "id": "hebrew-517",
-              "eng": "of his mother",
-              "punct": "."
+              "cht": "叫母親"
+            },
+            {
+              "id": "hebrew-8424",
+              "cht": "擔憂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -192,40 +207,42 @@
             "hebrew-8424": 7.502414237754052
           },
           "verseKey": "pro.17.21",
-          "cunp": "生愚昧子的，必自愁苦； 愚頑人的父毫無喜樂。",
+          "nasb": "He who sires a fool does so to his sorrow, And the father of a fool has no joy.",
           "words": [
             {
               "id": "hebrew-3205",
-              "eng": "He who begets"
+              "cht": "生"
             },
             {
               "id": "hebrew-3684",
-              "eng": "a scoffer"
+              "cht": "愚昧"
+            },
+            {
+              "id": "",
+              "cht": "子的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8424",
-              "eng": "[does so] to sorrow",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "has joy"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "the father"
+              "cht": "愁苦",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5036",
-              "eng": "of a fool",
-              "punct": "."
+              "cht": "愚頑人"
             },
             {
-              "id": ""
+              "id": "hebrew-1",
+              "cht": "的父"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "毫無"
+            },
+            {
+              "id": "hebrew-8055",
+              "cht": "喜樂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -235,66 +252,63 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -304,120 +318,114 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.13.18",
-          "cunp": "說主耶和華如此說：『這些婦女有禍了！她們為眾人的膀臂縫靠枕，給高矮之人做下垂的頭巾，為要獵取人的性命。難道你們要獵取我百姓的性命，為利己將人救活嗎？",
+          "nasb": "and say, ‘Thus says the Lord God, “Woe to the women who sew magic bands on all wrists and make veils for the heads of persons of every stature to hunt down lives! Will you hunt down the lives of My people, but preserve the lives of others for yourselves?",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And say",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-1945",
-              "eng": "Woe"
-            },
-            {
-              "id": "hebrew-8609",
-              "eng": "to the [women] who sew"
-            },
-            {
-              "id": "hebrew-3704",
-              "eng": "[magic] charms"
+              "cht": "這些婦女有禍了",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "她們為"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "眾人"
             },
             {
               "id": "hebrew-679",
-              "eng": "wrists"
+              "cht": "的膀"
             },
             {
               "id": "hebrew-3027",
-              "eng": "their sleeves",
-              "punct": "､"
+              "cht": "臂"
             },
             {
-              "id": "hebrew-6213",
-              "eng": "and make"
+              "id": "hebrew-8609",
+              "cht": "縫"
             },
             {
-              "id": "hebrew-4555",
-              "eng": "veils"
+              "id": "hebrew-3704",
+              "cht": "靠枕",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the heads of [people]"
+              "cht": "給"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of every"
+              "cht": "高矮之人"
             },
             {
-              "id": "hebrew-6967",
-              "eng": "height"
+              "id": "hebrew-6213",
+              "cht": "做"
             },
             {
-              "id": "hebrew-6679",
-              "eng": "to hunt"
+              "id": "hebrew-7218",
+              "cht": "下垂的頭"
             },
             {
-              "id": "hebrew-5315",
-              "eng": "souls",
-              "punct": "!"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the souls"
+              "id": "hebrew-4555",
+              "cht": "巾",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6679",
-              "eng": "will you hunt"
+              "cht": "為要獵取"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "人的性命",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-6679",
+              "cht": "難道你們要獵取"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of My people",
-              "punct": "､"
+              "cht": "我百姓"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and"
+              "cht": "的性命",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "將人"
             },
             {
               "id": "hebrew-2421",
-              "eng": "yourselves"
+              "cht": "救活"
             },
             {
-              "id": "hebrew-2421",
-              "eng": "keep alive",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -427,139 +435,121 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.13.20",
-          "cunp": "所以主耶和華如此說：「看哪，我與你們的靠枕反對，就是你們用以獵取人、使人的性命如鳥飛的。我要將靠枕從你們的膀臂上扯去，釋放你們獵取如鳥飛的人。",
+          "nasb": "Therefore, thus says the Lord God, “Behold, I am against your magic bands by which you hunt lives there as birds and I will tear them from your arms; and I will let them go, even those lives whom you hunt as birds.",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "therefore"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "cht": "所以"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-2005",
-              "eng": "behold I [am]"
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-2009",
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "against"
+              "cht": "我與"
             },
             {
               "id": "hebrew-3704",
-              "eng": "your [magic] charms",
-              "punct": "､"
+              "cht": "你們的靠枕"
+            },
+            {
+              "id": "",
+              "cht": "反對",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "by which"
+              "cht": "就是"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-6679",
-              "eng": "hunt"
+              "cht": "你們"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
-            },
-            {
-              "id": "hebrew-6524",
-              "eng": "like birds",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7167",
-              "eng": "and I will tear"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-2220",
-              "eng": "your arms",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "and let go"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the souls"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "you"
+              "cht": "用以"
             },
             {
               "id": "hebrew-6679",
-              "eng": "hunt"
+              "cht": "獵取"
+            },
+            {
+              "id": "",
+              "cht": "人、"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-5315",
-              "eng": "the souls"
+              "cht": "人的性命"
             },
             {
               "id": "hebrew-6524",
-              "eng": "like birds",
-              "punct": "."
+              "cht": "如鳥飛"
             },
             {
-              "id": "hebrew-2009"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             },
             {
-              "id": ""
+              "id": "hebrew-853",
+              "cht": "我要將靠枕"
             },
             {
-              "id": ""
+              "id": "hebrew-4480",
+              "cht": "從"
             },
             {
-              "id": ""
+              "id": "hebrew-2220",
+              "cht": "你們的膀臂"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7167",
+              "cht": "上扯去",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "釋放"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你們"
+            },
+            {
+              "id": "hebrew-6679",
+              "cht": "獵取"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "如鳥飛"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -569,113 +559,95 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "2sa.19.5",
-          "cunp": "約押進去見王，說：「你今日使你一切僕人臉面慚愧了！他們今日救了你的性命和你兒女妻妾的性命，",
+          "nasb": "Then Joab came into the house to the king and said, “Today you have covered with shame the faces of all your servants, who today have saved your life and the lives of your sons and daughters, the lives of your wives, and the lives of your concubines,",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "and came"
-            },
-            {
               "id": "hebrew-3097",
-              "eng": "Joab"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king",
-              "punct": "､"
+              "cht": "約押"
             },
             {
               "id": "hebrew-1004",
-              "eng": "into the house"
+              "cht": "進去"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "見"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3001",
-              "eng": "you have disgraced"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3117",
-              "eng": "Today"
+              "cht": "你今日"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the faces"
+              "cht": "使"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "你一切"
             },
             {
               "id": "hebrew-5650",
-              "eng": "your servants",
-              "punct": "､"
+              "cht": "僕人"
             },
             {
-              "id": "hebrew-4422",
-              "eng": "who have saved"
+              "id": "hebrew-6440",
+              "cht": "臉面"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3001",
+              "cht": "慚愧"
             },
             {
-              "id": "hebrew-5315",
-              "eng": "your life",
-              "punct": "､"
+              "id": "",
+              "cht": "了",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3117",
-              "eng": "today"
+              "cht": "他們今日"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "救了"
             },
             {
               "id": "hebrew-5315",
-              "eng": "the lives"
+              "cht": "你的性命"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "和"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of your sons"
+              "cht": "你兒"
             },
             {
               "id": "hebrew-1323",
-              "eng": "and daughters",
-              "punct": "､"
+              "cht": "女"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and the lives"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "of your wives",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "and the lives"
+              "cht": "妻"
             },
             {
               "id": "hebrew-6370",
-              "eng": "of your concubines",
-              "punct": "–"
+              "cht": "妾"
             },
             {
-              "id": ""
+              "id": "hebrew-5315",
+              "cht": "的性命",
+              "punct_cht": "，"
             }
           ]
         },
@@ -685,43 +657,42 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "lev.24.18",
-          "cunp": "打死牲畜的，必賠上牲畜，以命償命。",
+          "nasb": "The one who takes the life of an animal shall make it good, life for life.",
           "words": [
             {
               "id": "hebrew-5221",
-              "eng": "And he who kills"
+              "cht": "打死"
             },
             {
               "id": "hebrew-5315",
-              "eng": "the life"
+              "cht": "牲畜"
             },
             {
-              "id": "hebrew-929",
-              "eng": "of an animal"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7999",
-              "eng": "shall make it good",
-              "punct": "–"
+              "cht": "必賠上"
+            },
+            {
+              "id": "",
+              "cht": "牲畜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "animal"
+              "cht": "以命"
             },
             {
               "id": "hebrew-8478",
-              "eng": "for"
+              "cht": "償"
             },
             {
               "id": "hebrew-5315",
-              "eng": "animal",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "命",
+              "punct_cht": "。"
             }
           ]
         }

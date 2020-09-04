@@ -3,12 +3,21 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-413": "and to",
-          "hebrew-3068": "Yahweh",
-          "hebrew-7121": "I cried out",
-          "hebrew-136": "Yahweh",
-          "hebrew-2603": "I made supplication",
-          "": null
+          "eng": {
+            "hebrew-413": "and to",
+            "hebrew-3068": "Yahweh",
+            "hebrew-7121": "I cried out",
+            "hebrew-136": "Yahweh",
+            "hebrew-2603": "I made supplication",
+            "": null
+          },
+          "cht": {
+            "hebrew-413": "我向",
+            "hebrew-3068": "耶和華",
+            "hebrew-7121": "我曾求告",
+            "hebrew-136": "耶和華",
+            "hebrew-2603": "懇求"
+          }
         }
       },
       "translations": {
@@ -24,94 +33,85 @@
             "hebrew-2603": 2.6924581556670724
           },
           "verseKey": "exo.33.19",
-          "cunp": "耶和華說：「我要顯我一切的恩慈，在你面前經過，宣告我的名。我要恩待誰就恩待誰；要憐憫誰就憐憫誰」；",
+          "nasb": "And He said, “I Myself will make all My goodness pass before you, and will proclaim the name of the Lord before you; and I will be gracious to whom I will be gracious, and will show compassion on whom I will show compassion.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And He said",
-              "punct": "､"
+              "cht": "耶和華說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "will make pass"
+              "cht": "我"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "要顯我一切"
             },
             {
               "id": "hebrew-2898",
-              "eng": "My goodness"
+              "cht": "的恩慈",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "before"
+              "cht": "在"
             },
             {
               "id": "hebrew-6440",
-              "eng": "you",
-              "punct": "､"
+              "cht": "你面前"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "經過",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and I will proclaim"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "宣告"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "我"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before you",
-              "punct": "､"
+              "cht": "的名",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2603",
-              "eng": "and I will be gracious"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我要恩待"
             },
             {
               "id": "hebrew-834",
-              "eng": "to whom"
+              "cht": "誰"
             },
             {
               "id": "hebrew-2603",
-              "eng": "I will be gracious",
-              "punct": "､"
+              "cht": "就恩待"
             },
             {
-              "id": "hebrew-7355",
-              "eng": "and I will have compassion"
+              "id": "",
+              "cht": "誰",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "要憐憫"
             },
             {
               "id": "hebrew-834",
-              "eng": "on whom"
+              "cht": "誰"
             },
             {
               "id": "hebrew-7355",
-              "eng": "I will have compassion",
-              "punct": "."
+              "cht": "就憐憫"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "誰",
+              "punct_cht": "」；"
             }
           ]
         },
@@ -122,37 +122,37 @@
             "hebrew-2603": 2.6924581556670724
           },
           "verseKey": "job.19.16",
-          "cunp": "我呼喚僕人， 雖用口求他，他還是不回答。",
+          "nasb": "I call to my servant, but he does not answer; I have to implore him with my mouth.",
           "words": [
             {
-              "id": "hebrew-5650",
-              "eng": "My servant",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-7121",
-              "eng": "I call"
+              "cht": "我呼喚"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "but no"
-            },
-            {
-              "id": "hebrew-6030",
-              "eng": "he gives answer",
-              "punct": "–"
+              "id": "hebrew-5650",
+              "cht": "僕人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1119",
-              "eng": "with"
+              "cht": "雖用"
             },
             {
               "id": "hebrew-6310",
-              "eng": "my mouth"
+              "cht": "口"
             },
             {
               "id": "hebrew-2603",
-              "eng": "I beg"
+              "cht": "求"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "他還是不"
+            },
+            {
+              "id": "hebrew-6030",
+              "cht": "回答",
+              "punct_cht": "。"
             }
           ]
         },
@@ -163,63 +163,55 @@
             "hebrew-2603": 2.6924581556670724
           },
           "verseKey": "psa.142.1",
-          "cunp": "我發聲哀告耶和華， 發聲懇求耶和華。",
+          "nasb": "I cry aloud with my voice to the Lord; I make supplication with my voice to the Lord.",
           "words": [
             {
-              "id": "hebrew-4905",
-              "eng": "A Contemplation"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "of David",
-              "punct": "–"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-1961",
-              "eng": "when he was"
+              "cht": "在"
             },
             {
               "id": "hebrew-4631",
-              "eng": "in the cave",
-              "punct": "."
+              "cht": "洞裡"
+            },
+            {
+              "id": "hebrew-4905",
+              "cht": "作的訓誨詩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8605",
-              "eng": "A Prayer"
+              "cht": "乃是祈禱）",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6963",
-              "eng": "with my voice",
-              "punct": "–"
+              "cht": "我發聲"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "哀告"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-2199",
-              "eng": "I cry out"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6963",
-              "eng": "with my voice"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "發聲"
             },
             {
               "id": "hebrew-2603",
-              "eng": "I make my supplication",
-              "punct": "."
+              "cht": "懇求"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "。"
             }
           ]
         },
@@ -230,107 +222,86 @@
             "hebrew-2603": 2.6924581556670724
           },
           "verseKey": "1ki.8.59",
-          "cunp": "我在耶和華面前祈求的這些話，願耶和華－我們的神晝夜垂念，每日為他僕人與他民以色列伸冤，",
+          "nasb": "And may these words of mine, with which I have made supplication before the Lord, be near to the Lord our God day and night, that He may maintain the cause of His servant and the cause of His people Israel, as each day requires,",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And may"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "words of mine",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-428",
-              "eng": "these"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "with which"
-            },
-            {
-              "id": "hebrew-2603",
-              "eng": "I have made supplication"
+              "id": "hebrew-3068",
+              "cht": "我在耶和華"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "面前"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-2603",
+              "cht": "祈求"
             },
             {
-              "id": "hebrew-7126",
-              "eng": "be near"
+              "id": "hebrew-834",
+              "cht": "的"
             },
             {
-              "id": "hebrew-413",
-              "eng": "unto"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "our God"
-            },
-            {
-              "id": "hebrew-3119",
-              "eng": "day"
-            },
-            {
-              "id": "hebrew-3915",
-              "eng": "and night",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "that He may maintain"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "the cause"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "of His servant",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "and the cause"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of His people"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "Israel"
+              "id": "hebrew-428",
+              "cht": "這些"
             },
             {
               "id": "hebrew-1697",
-              "eng": "matter"
+              "cht": "話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "願"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─我們的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-3119",
+              "cht": "晝"
+            },
+            {
+              "id": "hebrew-3915",
+              "cht": "夜"
+            },
+            {
+              "id": "hebrew-7138",
+              "cht": "垂念",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3117",
-              "eng": "day",
-              "punct": "､"
+              "cht": "每日"
             },
             {
-              "id": "hebrew-3117",
-              "eng": "day",
-              "punct": "–"
+              "id": "hebrew-4941",
+              "cht": "為他僕人"
             },
             {
-              "id": ""
+              "id": "hebrew-5971",
+              "cht": "與他民"
             },
             {
-              "id": "hebrew-7138"
+              "id": "hebrew-3478",
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "伸"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "冤",
+              "punct_cht": "，"
             }
           ]
         }

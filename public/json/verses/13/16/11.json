@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1875": "Seek",
-          "hebrew-3068": "Yahweh",
-          "hebrew-5797": "and His strength",
-          "hebrew-1245": "Seek",
-          "hebrew-6440": "His face",
-          "hebrew-8548": "evermore"
+          "eng": {
+            "hebrew-1875": "Seek",
+            "hebrew-3068": "Yahweh",
+            "hebrew-5797": "and His strength",
+            "hebrew-1245": "Seek",
+            "hebrew-6440": "His face",
+            "hebrew-8548": "evermore"
+          },
+          "cht": {
+            "hebrew-1875": "要尋求",
+            "hebrew-3068": "耶和華",
+            "hebrew-5797": "與他的能力",
+            "hebrew-1245": "尋求",
+            "hebrew-6440": "他的面",
+            "hebrew-8548": "時常"
+          }
         }
       },
       "translations": {
@@ -25,34 +35,33 @@
             "hebrew-8548": 1.7316616259976423
           },
           "verseKey": "psa.105.4",
-          "cunp": "要尋求耶和華與他的能力， 時常尋求他的面。",
+          "nasb": "Seek the Lord and His strength; Seek His face continually.",
           "words": [
             {
               "id": "hebrew-1875",
-              "eng": "Seek"
+              "cht": "要尋求"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5797",
-              "eng": "and His strength",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1245",
-              "eng": "Seek"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "His face"
+              "cht": "與他的能力",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8548",
-              "eng": "evermore",
-              "punct": "."
+              "cht": "時常"
+            },
+            {
+              "id": "hebrew-1245",
+              "cht": "尋求"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "他的面",
+              "punct_cht": "。"
             }
           ]
         },
@@ -62,80 +71,72 @@
             "hebrew-6440": 0.5513483837424372
           },
           "verseKey": "ezk.10.14",
-          "cunp": "基路伯各有四臉：第一是基路伯的臉，第二是人的臉，第三是獅子的臉，第四是鷹的臉。",
+          "nasb": "And each one had four faces. The first face was the face of a cherub, the second face was the face of a man, the third the face of a lion, and the fourth the face of an eagle.",
           "words": [
             {
+              "id": "hebrew-259",
+              "cht": "基路伯各"
+            },
+            {
               "id": "hebrew-702",
-              "eng": "and four"
+              "cht": "有四"
             },
             {
               "id": "hebrew-6440",
-              "eng": "faces",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "Had [Each]_2 one"
+              "cht": "臉",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6440",
-              "eng": "face [was]"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "the first"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "第一"
             },
             {
               "id": "hebrew-3742",
-              "eng": "of a cherub",
-              "punct": "､"
+              "cht": "是基路伯"
             },
             {
               "id": "hebrew-6440",
-              "eng": "and face"
+              "cht": "的臉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8145",
-              "eng": "the second"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "第二"
             },
             {
               "id": "hebrew-120",
-              "eng": "of a man",
-              "punct": "､"
+              "cht": "是人"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "的臉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7992",
-              "eng": "and the third"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "第三"
             },
             {
               "id": "hebrew-738",
-              "eng": "of a lion",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7243",
-              "eng": "and the fourth"
+              "cht": "是獅子"
             },
             {
               "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "的臉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7243",
+              "cht": "第四"
             },
             {
               "id": "hebrew-5404",
-              "eng": "of an eagle",
-              "punct": "."
+              "cht": "是鷹"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "的臉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -147,77 +148,78 @@
             "hebrew-8548": 1.7316616259976423
           },
           "verseKey": "deu.11.12",
-          "cunp": "是耶和華－你神所眷顧的；從歲首到年終，耶和華－你神的眼目時常看顧那地。",
+          "nasb": "a land for which the Lord your God cares; the eyes of the Lord your God are always on it, from the beginning even to the end of the year.",
           "words": [
             {
-              "id": "hebrew-776",
-              "eng": "A land"
+              "id": "hebrew-3068",
+              "cht": "是耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-834",
-              "eng": "for which"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your God"
+              "cht": "所"
             },
             {
               "id": "hebrew-1875",
-              "eng": "cares"
+              "cht": "眷顧"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8548",
-              "eng": "[are] always"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "the eyes of"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your God"
-            },
-            {
-              "id": "hebrew-7225",
-              "eng": "from the beginning"
+              "cht": "的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8141",
-              "eng": "of the year"
+              "cht": "從歲"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "首"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and to"
-            },
-            {
-              "id": "hebrew-319",
-              "eng": "the very end"
+              "cht": "到"
             },
             {
               "id": "hebrew-8141",
-              "eng": "of the year",
-              "punct": "."
+              "cht": "年"
             },
             {
-              "id": ""
+              "id": "hebrew-319",
+              "cht": "終",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "─你"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "的眼目"
+            },
+            {
+              "id": "hebrew-8548",
+              "cht": "時常"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "那地",
+              "punct_cht": "。"
             }
           ]
         }

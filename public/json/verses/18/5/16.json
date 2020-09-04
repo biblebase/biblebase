@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1961": "So have",
-          "hebrew-1800": "the poor",
-          "hebrew-8615": "hope",
-          "hebrew-5766": "and injustice",
-          "hebrew-7092": "shuts",
-          "hebrew-6310": "her mouth",
-          "": null
+          "eng": {
+            "hebrew-1961": "So have",
+            "hebrew-1800": "the poor",
+            "hebrew-8615": "hope",
+            "hebrew-5766": "and injustice",
+            "hebrew-7092": "shuts",
+            "hebrew-6310": "her mouth",
+            "": null
+          },
+          "cht": {
+            "hebrew-1961": "有",
+            "hebrew-1800": "貧寒的人",
+            "hebrew-8615": "指望",
+            "hebrew-5766": "罪孽之輩",
+            "hebrew-7092": "無言",
+            "hebrew-6310": "必塞口"
+          }
         }
       },
       "translations": {
@@ -22,53 +32,54 @@
             "hebrew-1800": 2.4756200969099407
           },
           "verseKey": "pro.22.22",
-          "cunp": "貧窮人，你不可因他貧窮就搶奪他的物， 也不可在城門口欺壓困苦人；",
+          "nasb": "Do not rob the poor because he is poor, Or crush the afflicted at the gate;",
           "words": [
             {
-              "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-1497",
-              "eng": "do rob"
-            },
-            {
               "id": "hebrew-1800",
-              "eng": "the poor",
-              "punct": "､"
+              "cht": "貧窮人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "你不可"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-1800",
-              "eng": "and poor",
-              "punct": "､"
+              "cht": "因"
             },
             {
               "id": "hebrew-1931",
-              "eng": "he [is]"
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-1800",
+              "cht": "貧窮"
+            },
+            {
+              "id": "hebrew-1497",
+              "cht": "就搶奪"
+            },
+            {
+              "id": "",
+              "cht": "他的物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-1792",
-              "eng": "oppress"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "the afflicted"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-8179",
-              "eng": "at the gate",
-              "punct": "–"
+              "cht": "在城門口"
             },
             {
-              "id": ""
+              "id": "hebrew-1792",
+              "cht": "欺壓"
+            },
+            {
+              "id": "hebrew-6041",
+              "cht": "困苦人",
+              "punct_cht": "；"
             }
           ]
         },
@@ -79,71 +90,64 @@
             "hebrew-5766": 2.407639909866712
           },
           "verseKey": "lev.19.15",
-          "cunp": "「你們施行審判，不可行不義；不可偏護窮人，也不可重看有勢力的人，只要按着公義審判你的鄰舍。",
+          "nasb": "‘You shall do no injustice in judgment; you shall not be partial to the poor nor defer to the great, but you are to judge your neighbor fairly.",
           "words": [
             {
+              "id": "hebrew-4941",
+              "cht": "你們施行審判",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "No"
+              "cht": "不可"
             },
             {
               "id": "hebrew-6213",
-              "eng": "You shall do"
+              "cht": "行"
             },
             {
               "id": "hebrew-5766",
-              "eng": "injustice"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "in judgment",
-              "punct": "–"
+              "cht": "不義",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-5375",
-              "eng": "You shall be partial to"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the person"
+              "cht": "偏護"
             },
             {
               "id": "hebrew-1800",
-              "eng": "poor",
-              "punct": "､"
+              "cht": "窮人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-1921",
-              "eng": "honor"
+              "cht": "重看"
             },
             {
               "id": "hebrew-6440",
-              "eng": "the person"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "of the mighty",
-              "punct": "､"
+              "cht": "有勢力的人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6664",
-              "eng": "in righteousness"
+              "cht": "只要按著公義"
             },
             {
               "id": "hebrew-8199",
-              "eng": "you shall judge"
+              "cht": "審判"
             },
             {
               "id": "hebrew-5997",
-              "eng": "your neighbor",
-              "punct": "."
+              "cht": "你的鄰舍",
+              "punct_cht": "。"
             }
           ]
         },
@@ -154,95 +158,78 @@
             "hebrew-8615": 3.483676583494497
           },
           "verseKey": "rut.1.12",
-          "cunp": "我女兒們哪，回去吧！我年紀老邁，不能再有丈夫；即或說，我還有指望，今夜有丈夫可以生子，",
+          "nasb": "Return, my daughters! Go, for I am too old to have a husband. If I said I have hope, if I should even have a husband tonight and also bear sons,",
           "words": [
             {
-              "id": "hebrew-7725",
-              "eng": "Turn back",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1323",
-              "eng": "my daughters",
-              "punct": "､"
+              "cht": "我女兒們"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "go"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-7725",
+              "cht": "回"
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "去吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-2204",
-              "eng": "I am too old"
+              "cht": "我年紀老邁",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "to have"
+              "id": "hebrew-4480",
+              "cht": "不能再有"
             },
             {
               "id": "hebrew-376",
-              "eng": "a husband",
-              "punct": "."
+              "cht": "丈夫",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "If"
+              "cht": "即或"
             },
             {
               "id": "hebrew-559",
-              "eng": "I should say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3426",
-              "eng": "have"
+              "cht": "還有"
             },
             {
               "id": "hebrew-8615",
-              "eng": "hope",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "also"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "[if] I should have"
+              "cht": "指望",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3915",
-              "eng": "tonight",
-              "punct": "､"
+              "cht": "今夜"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
             },
             {
               "id": "hebrew-376",
-              "eng": "a husband"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and also"
+              "cht": "丈夫"
             },
             {
               "id": "hebrew-3205",
-              "eng": "should bear"
+              "cht": "可以生"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons",
-              "punct": "–"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "子",
+              "punct_cht": "，"
             }
           ]
         }

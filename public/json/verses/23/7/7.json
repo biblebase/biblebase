@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3541": "thus",
-          "hebrew-559": "says",
-          "hebrew-136": "the Lord",
-          "hebrew-3069": "GOD",
-          "hebrew-3808": "nor",
-          "hebrew-6965": "it shall stand",
-          "hebrew-1961": "shall it come to pass"
+          "eng": {
+            "hebrew-3541": "thus",
+            "hebrew-559": "says",
+            "hebrew-136": "the Lord",
+            "hebrew-3069": "GOD",
+            "hebrew-3808": "nor",
+            "hebrew-6965": "it shall stand",
+            "hebrew-1961": "shall it come to pass"
+          },
+          "cht": {
+            "hebrew-3541": "如此",
+            "hebrew-559": "說",
+            "hebrew-136": "所以主",
+            "hebrew-3069": "耶和華",
+            "hebrew-3808": "也不得",
+            "hebrew-6965": "這所謀的必立",
+            "hebrew-1961": "成就"
+          }
         }
       },
       "translations": {
@@ -27,133 +38,104 @@
             "hebrew-3069": 0.7828762618194047
           },
           "verseKey": "ezk.25.3",
-          "cunp": "說：你們當聽主耶和華的話。主耶和華如此說：我的聖所被褻瀆，以色列地變荒涼，猶大家被擄掠；那時，你便因這些事說：『阿哈！』",
+          "nasb": "and say to the sons of Ammon, ‘Hear the word of the Lord God! Thus says the Lord God, “Because you said, ‘Aha!’ against My sanctuary when it was profaned, and against the land of Israel when it was made desolate, and against the house of Judah when they went into exile,",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And Say"
-            },
-            {
               "id": "hebrew-1121",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-5983",
-              "eng": "the Ammonites"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-8085",
-              "eng": "Hear"
+              "cht": "你們當聽"
+            },
+            {
+              "id": "hebrew-136",
+              "cht": "主"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-1697",
-              "eng": "the word"
+              "cht": "的話",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-136",
-              "eng": "of the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3282",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "you said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1889",
-              "eng": "Aha",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "against"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4720",
-              "eng": "My sanctuary",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "cht": "我的聖所"
             },
             {
               "id": "hebrew-2490",
-              "eng": "it was profaned",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "and against"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "the land"
+              "cht": "被褻瀆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "when"
+              "id": "hebrew-127",
+              "cht": "地"
             },
             {
               "id": "hebrew-8074",
-              "eng": "it was desolate",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "and against"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "變荒涼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
+              "cht": "猶大"
             },
             {
               "id": "hebrew-3588",
-              "eng": "when"
+              "cht": "家"
             },
             {
               "id": "hebrew-1980",
-              "eng": "they went"
+              "cht": "被"
             },
             {
               "id": "hebrew-1473",
-              "eng": "into captivity",
-              "punct": "–"
+              "cht": "擄掠",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "那時",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "你便因"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "這些事說",
+              "punct_cht": "：『"
+            },
+            {
+              "id": "hebrew-1889",
+              "cht": "阿哈",
+              "punct_cht": "！』"
             }
           ]
         },
@@ -166,87 +148,84 @@
             "hebrew-3069": 0.7828762618194047
           },
           "verseKey": "ezk.12.28",
-          "cunp": "所以你要對他們說：『主耶和華如此說：我的話沒有一句再躭延的，我所說的必定成就。這是主耶和華說的。』」",
+          "nasb": "Therefore say to them, ‘Thus says the Lord God, “None of My words will be delayed any longer. Whatever word I speak will be performed,” ’ ” declares the Lord God.",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "Therefore"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "say"
+              "cht": "所以"
             },
             {
               "id": "hebrew-413",
-              "eng": "to them"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "你要對他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "我的話"
             },
             {
               "id": "hebrew-3808",
-              "eng": "none"
-            },
-            {
-              "id": "hebrew-4900",
-              "eng": "will be postponed"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "any more",
-              "punct": "､"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all manner"
+              "cht": "一句"
             },
             {
-              "id": "hebrew-1697",
-              "eng": "of My words"
+              "id": "hebrew-5750",
+              "cht": "再"
+            },
+            {
+              "id": "hebrew-4900",
+              "cht": "耽延的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "我所"
             },
             {
               "id": "hebrew-1696",
-              "eng": "I speak"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the word"
+              "cht": "說的"
             },
             {
               "id": "hebrew-6213",
-              "eng": "but will be done",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "必定成就",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "這是主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "."
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -259,108 +238,101 @@
             "hebrew-3069": 0.7828762618194047
           },
           "verseKey": "ezk.6.3",
-          "cunp": "說：以色列的眾山哪，要聽主耶和華的話。主耶和華對大山、小岡、水溝、山谷如此說：我必使刀劍臨到你們，也必毀滅你們的邱壇。",
+          "nasb": "and say, ‘Mountains of Israel, listen to the word of the Lord God! Thus says the Lord God to the mountains, the hills, the ravines and the valleys: “Behold, I Myself am going to bring a sword on you, and I will destroy your high places.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And say",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "mountains"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "hear"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the word"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "of the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-2022",
-              "eng": "to the mountains",
-              "punct": "､"
+              "cht": "的眾山"
+            },
+            {
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "要聽"
+            },
+            {
+              "id": "hebrew-136",
+              "cht": "主"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-136",
+              "cht": "主"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "對大山、"
             },
             {
               "id": "hebrew-1389",
-              "eng": "and to the hills",
-              "punct": "､"
+              "cht": "小岡、"
             },
             {
               "id": "hebrew-650",
-              "eng": "to the ravines",
-              "punct": "､"
+              "cht": "水溝、"
             },
             {
               "id": "hebrew-1516",
-              "eng": "and to the valleys",
-              "punct": "–"
+              "cht": "山谷"
             },
             {
-              "id": "hebrew-2009",
-              "eng": "indeed I",
-              "punct": "､"
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-589",
-              "eng": "[even] I",
-              "punct": "､"
+              "cht": "我"
             },
             {
               "id": "hebrew-935",
-              "eng": "will bring"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "against you"
+              "cht": "必使"
             },
             {
               "id": "hebrew-2719",
-              "eng": "a sword"
+              "cht": "刀劍"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "臨到你們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6",
-              "eng": "and I will destroy"
+              "cht": "也必毀滅"
             },
             {
               "id": "hebrew-1116",
-              "eng": "your high places",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "你們的邱壇",
+              "punct_cht": "。"
             }
           ]
         }

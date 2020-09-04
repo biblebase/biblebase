@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3045": "that I may make you know",
-          "hebrew-7189": "the certainty",
-          "hebrew-561": "words",
-          "hebrew-571": "of truth",
-          "hebrew-7725": "that you may answer",
-          "hebrew-7971": "to those who send to you",
-          "": null
+          "eng": {
+            "hebrew-3045": "that I may make you know",
+            "hebrew-7189": "the certainty",
+            "hebrew-561": "words",
+            "hebrew-571": "of truth",
+            "hebrew-7725": "that you may answer",
+            "hebrew-7971": "to those who send to you",
+            "": null
+          },
+          "cht": {
+            "hebrew-3045": "要使你知道",
+            "hebrew-7189": "的實理",
+            "hebrew-561": "言",
+            "hebrew-571": "你好將真",
+            "hebrew-7725": "回覆",
+            "hebrew-7971": "那打發你來的"
+          }
         }
       },
       "translations": {
@@ -25,40 +35,37 @@
             "hebrew-7189": 10.248599871619378
           },
           "verseKey": "psa.60.4",
-          "cunp": "你把旌旗賜給敬畏你的人， 可以為真理揚起來。（細拉）",
+          "nasb": "You have given a banner to those who fear You, That it may be displayed because of the truth. Selah.",
           "words": [
             {
+              "id": "hebrew-5251",
+              "cht": "你把旌旗"
+            },
+            {
               "id": "hebrew-5414",
-              "eng": "You have given"
+              "cht": "賜"
             },
             {
               "id": "hebrew-3373",
-              "eng": "to those who fear You"
+              "cht": "給敬畏你的人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5251",
-              "eng": "a banner"
-            },
-            {
-              "id": "hebrew-5127",
-              "eng": "that it may be displayed"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "because"
+              "id": "hebrew-4480",
+              "cht": "可以為"
             },
             {
               "id": "hebrew-7189",
-              "eng": "of the truth",
-              "punct": "."
+              "cht": "真理"
+            },
+            {
+              "id": "hebrew-5127",
+              "cht": "揚起來（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "細拉）"
             }
           ]
         },
@@ -69,101 +76,79 @@
             "hebrew-571": 1.241145261516795
           },
           "verseKey": "1jn.2.21",
-          "cunp": "我寫信給你們，不是因你們不知道真理，正是因你們知道，並且知道沒有虛謊是從真理出來的。",
+          "nasb": "I have not written to you because you do not know the truth, but because you do know it, and because no lie is of the truth.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
               "id": "greek-1125",
-              "eng": "I have written"
+              "cht": "我寫"
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "because"
+              "cht": "信給你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
+            },
+            {
+              "id": "greek-3754",
+              "cht": "是因"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "你們不"
             },
             {
               "id": "greek-1492",
-              "eng": "you know"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "知道"
             },
             {
               "id": "greek-225",
-              "eng": "truth",
-              "punct": ","
+              "cht": "真理",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
+              "cht": "正是"
             },
             {
               "id": "greek-3754",
-              "eng": "because"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "you know"
+              "cht": "因"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": ","
+              "cht": "你們知道",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "because"
+              "cht": "並且"
             },
             {
               "id": "greek-3956",
-              "eng": "any"
+              "cht": "知道沒"
             },
             {
               "id": "greek-5579",
-              "eng": "lie",
-              "punct": ","
-            },
-            {
-              "id": "greek-1537",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-225",
-              "eng": "truth"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
+              "cht": "有虛謊"
             },
             {
               "id": "greek-2076",
-              "eng": "is",
-              "punct": "."
+              "cht": "是"
             },
             {
-              "id": "greek-1125"
+              "id": "greek-1537",
+              "cht": "從"
             },
             {
-              "id": ""
+              "id": "greek-225",
+              "cht": "真理"
+            },
+            {
+              "id": "",
+              "cht": "出來的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -175,105 +160,101 @@
             "hebrew-7971": 0.6898629381289483
           },
           "verseKey": "1sa.6.3",
-          "cunp": "他們說：「若要將以色列神的約櫃送回去，不可空空地送去，必要給他獻賠罪的禮物，然後你們可得痊癒，並知道他的手為何不離開你們。」",
+          "nasb": "They said, “If you send away the ark of the God of Israel, do not send it empty; but you shall surely return to Him a guilt offering. Then you will be healed and it will be known to you why His hand is not removed from you.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "So they said",
-              "punct": "､"
+              "cht": "他們說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-518",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "you send away"
+              "cht": "若"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-727",
-              "eng": "the ark"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "of the God"
+              "cht": "要將"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-408",
-              "eng": "not"
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-727",
+              "cht": "的約櫃"
             },
             {
               "id": "hebrew-7971",
-              "eng": "do send"
+              "cht": "送回去",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-853",
-              "eng": "it"
+              "id": "hebrew-408",
+              "cht": "不可"
             },
             {
               "id": "hebrew-7387",
-              "eng": "empty",
-              "punct": "–"
+              "cht": "空空地"
+            },
+            {
+              "id": "hebrew-7971",
+              "cht": "送去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "but"
+              "cht": "必"
             },
             {
               "id": "hebrew-7725",
-              "eng": "by all means"
+              "cht": "要"
             },
             {
               "id": "hebrew-7725",
-              "eng": "return [it]"
+              "cht": "獻"
             },
             {
               "id": "hebrew-817",
-              "eng": "[with] a trespass offering",
-              "punct": "–"
+              "cht": "賠罪的禮物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-227",
-              "eng": "then"
+              "cht": "然後"
             },
             {
               "id": "hebrew-7495",
-              "eng": "you will be healed",
-              "punct": "､"
+              "cht": "你們可得痊癒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "and it will be known"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "why"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5493",
-              "eng": "is removed"
+              "cht": "並知道"
             },
             {
               "id": "hebrew-3027",
-              "eng": "His hand"
+              "cht": "他的手"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "為何"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-5493",
+              "cht": "離開"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from you",
-              "punct": "."
+              "cht": "你們",
+              "punct_cht": "。」"
             }
           ]
         }

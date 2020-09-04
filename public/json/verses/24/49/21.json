@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6963": "its noise",
-          "hebrew-5307": "of their fall",
-          "hebrew-7493": "shakes",
-          "hebrew-776": "the earth",
-          "hebrew-6818": "at the cry",
-          "hebrew-3220": "at the Sea",
-          "hebrew-5488": "Red",
-          "hebrew-8085": "is heard",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-6963": "its noise",
+            "hebrew-5307": "of their fall",
+            "hebrew-7493": "shakes",
+            "hebrew-776": "the earth",
+            "hebrew-6818": "at the cry",
+            "hebrew-3220": "at the Sea",
+            "hebrew-5488": "Red",
+            "hebrew-8085": "is heard",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-6963": "的聲音",
+            "hebrew-5307": "因他們仆倒",
+            "hebrew-7493": "就震動",
+            "hebrew-776": "地",
+            "hebrew-6818": "呼喊",
+            "hebrew-3220": "海",
+            "hebrew-5488": "人在紅",
+            "hebrew-8085": "那裡必聽見",
+            "hebrew-4480": "的聲音"
+          }
         }
       },
       "translations": {
@@ -31,36 +44,37 @@
             "hebrew-8085": 0.5216855633148915
           },
           "verseKey": "job.34.28",
-          "cunp": "甚至使貧窮人的哀聲達到他那裏； 他也聽了困苦人的哀聲。",
+          "nasb": "So that they caused the cry of the poor to come to Him, And that He might hear the cry of the afflicted—",
           "words": [
             {
+              "id": "hebrew-1800",
+              "cht": "甚至使貧窮人"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀聲"
+            },
+            {
               "id": "hebrew-935",
-              "eng": "To come"
+              "cht": "達"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to Him"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "so that they caused the cry"
-            },
-            {
-              "id": "hebrew-1800",
-              "eng": "of the poor"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "and the cry"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "of the afflicted"
+              "cht": "到他那裡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8085",
-              "eng": "for He hears",
-              "punct": "."
+              "cht": "他也聽了"
+            },
+            {
+              "id": "hebrew-6041",
+              "cht": "困苦人"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -72,74 +86,66 @@
             "hebrew-8085": 0.5216855633148915
           },
           "verseKey": "1sa.4.14",
-          "cunp": "以利聽見呼喊的聲音就問說：「這喧嚷是甚麼緣故呢？」那人急忙來報信給以利。",
+          "nasb": "When Eli heard the noise of the outcry, he said, “What does the noise of this commotion mean?” Then the man came hurriedly and told Eli.",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "And when heard"
-            },
-            {
               "id": "hebrew-5941",
-              "eng": "Eli"
+              "cht": "以利"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "the noise"
+              "id": "hebrew-8085",
+              "cht": "聽見"
             },
             {
               "id": "hebrew-6818",
-              "eng": "of the outcry",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "what [does mean]"
+              "cht": "呼喊"
             },
             {
               "id": "hebrew-6963",
-              "eng": "the sound"
+              "cht": "的聲音"
             },
             {
-              "id": "hebrew-1995",
-              "eng": "of tumult"
+              "id": "hebrew-559",
+              "cht": "就問說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-1995",
+              "cht": "喧嚷"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "是甚麼"
+            },
+            {
+              "id": "",
+              "cht": "緣故呢",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-376",
-              "eng": "and the man"
+              "cht": "那人"
             },
             {
               "id": "hebrew-4116",
-              "eng": "quickly",
-              "punct": "､"
+              "cht": "急忙"
             },
             {
               "id": "hebrew-935",
-              "eng": "and came"
+              "cht": "來"
             },
             {
               "id": "hebrew-5046",
-              "eng": "and told"
+              "cht": "報信"
             },
             {
               "id": "hebrew-5941",
-              "eng": "Eli",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "給以利",
+              "punct_cht": "。"
             }
           ]
         },
@@ -151,127 +157,106 @@
             "hebrew-3220": 0.9220138243177167
           },
           "verseKey": "ezk.38.20",
-          "cunp": "甚至海中的魚、天空的鳥、田野的獸，並地上的一切昆蟲，和其上的眾人，因見我的面就都震動；山嶺必崩裂，陡巖必塌陷，牆垣都必坍倒。」",
+          "nasb": "The fish of the sea, the birds of the heavens, the beasts of the field, all the creeping things that creep on the earth, and all the men who are on the face of the earth will shake at My presence; the mountains also will be thrown down, the steep pathways will collapse and every wall will fall to the ground.",
           "words": [
             {
-              "id": "hebrew-7493",
-              "eng": "so that shall shake"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "at My presence"
+              "id": "hebrew-3220",
+              "cht": "甚至海中"
             },
             {
               "id": "hebrew-1709",
-              "eng": "the fish"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "of the sea",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5775",
-              "eng": "and the birds"
+              "cht": "的魚、"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of the heavens",
-              "punct": "､"
+              "cht": "天空"
             },
             {
-              "id": "hebrew-2416",
-              "eng": "and the beasts"
+              "id": "hebrew-5775",
+              "cht": "的鳥、"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "田野"
+            },
+            {
+              "id": "hebrew-2416",
+              "cht": "的獸",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-127",
+              "cht": "並地"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "上"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
+              "cht": "的一切"
             },
             {
               "id": "hebrew-7431",
-              "eng": "creeping things"
-            },
-            {
-              "id": "hebrew-7430",
-              "eng": "that creep"
+              "cht": "昆蟲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "men"
+              "cht": "和其上"
             },
             {
               "id": "hebrew-834",
-              "eng": "who [are]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-127",
-              "eng": "of the earth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2040",
-              "eng": "and shall be thrown down",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the mountains"
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "and shall fall",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4095",
-              "eng": "the steep places"
+              "cht": "的"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and every"
+              "cht": "眾"
             },
             {
-              "id": "hebrew-2346",
-              "eng": "wall"
+              "id": "hebrew-120",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-776",
-              "eng": "to the ground"
+              "id": "hebrew-4480",
+              "cht": "因見我的面"
+            },
+            {
+              "id": "hebrew-7493",
+              "cht": "就都震動",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山嶺"
+            },
+            {
+              "id": "hebrew-2040",
+              "cht": "必崩裂",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4095",
+              "cht": "陡巖"
             },
             {
               "id": "hebrew-5307",
-              "eng": "shall fall",
-              "punct": "."
+              "cht": "必塌陷",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2346",
+              "cht": "牆垣"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "必坍倒",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -281,79 +266,59 @@
             "hebrew-7493": 2.55020052759751
           },
           "verseKey": "heb.12.27",
-          "cunp": "這再一次的話，是指明被震動的，就是受造之物都要挪去，使那不被震動的常存。",
+          "nasb": "This expression, “Yet once more,” denotes the removing of those things which can be shaken, as of created things, so that those things which cannot be shaken may remain.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "This"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now",
-              "punct": ","
-            },
-            {
               "id": "greek-2089",
-              "eng": "Yet"
+              "cht": "這再"
             },
             {
               "id": "greek-530",
-              "eng": "once [more]",
-              "punct": ","
+              "cht": "一次"
+            },
+            {
+              "id": "",
+              "cht": "的話",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1213",
-              "eng": "signifies"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the [things]"
+              "cht": "是指明"
             },
             {
               "id": "greek-4531",
-              "eng": "being shaken"
-            },
-            {
-              "id": "greek-3331",
-              "eng": "removing",
-              "punct": ","
+              "cht": "被震動的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "as"
+              "cht": "就是"
             },
             {
               "id": "greek-4160",
-              "eng": "having been created",
-              "punct": ","
+              "cht": "受造"
+            },
+            {
+              "id": "greek-3331",
+              "cht": "之物都要挪去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-3306",
-              "eng": "should remain"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
+              "cht": "使"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "那不"
             },
             {
               "id": "greek-4531",
-              "eng": "being shaken",
-              "punct": "."
+              "cht": "被震動"
             },
             {
-              "id": ""
+              "id": "greek-3306",
+              "cht": "的常存",
+              "punct_cht": "。"
             }
           ]
         },
@@ -364,35 +329,32 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "jer.48.3",
-          "cunp": "從何羅念有喊荒涼大毀滅的哀聲：",
+          "nasb": "The sound of an outcry from Horonaim, ‘Devastation and great destruction!’",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "A voice"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "of crying"
-            },
-            {
               "id": "hebrew-2773",
-              "eng": "[shall be] from Horonaim"
+              "cht": "從何羅念"
             },
             {
               "id": "hebrew-7701",
-              "eng": "Plundering"
-            },
-            {
-              "id": "hebrew-7667",
-              "eng": "and destruction"
+              "cht": "有喊荒涼"
             },
             {
               "id": "hebrew-1419",
-              "eng": "great",
-              "punct": "."
+              "cht": "大"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7667",
+              "cht": "毀滅"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "的哀"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "聲",
+              "punct_cht": "："
             }
           ]
         },
@@ -403,57 +365,59 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "jer.25.36",
-          "cunp": "聽啊，有牧人呼喊， 有羣眾頭目哀號的聲音， 因為耶和華使他們的草場變為荒場。",
+          "nasb": "Hear the sound of the cry of the shepherds, And the wailing of the masters of the flock! For the Lord is destroying their pasture,",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "A voice"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "of the cry"
+              "id": "",
+              "cht": "聽啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7462",
-              "eng": "of the shepherds",
-              "punct": "､"
+              "cht": "有牧人"
             },
             {
-              "id": "hebrew-3215",
-              "eng": "and a wailing"
-            },
-            {
-              "id": "hebrew-117",
-              "eng": "of the leaders to"
+              "id": "hebrew-6818",
+              "cht": "呼喊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6629",
-              "eng": "the flock",
-              "punct": "､"
+              "cht": "有群眾"
+            },
+            {
+              "id": "hebrew-117",
+              "cht": "頭目"
+            },
+            {
+              "id": "hebrew-3215",
+              "cht": "哀號"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "[will be heard] for"
-            },
-            {
-              "id": "hebrew-7703",
-              "eng": "has plundered"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-4830",
-              "eng": "their pasture",
-              "punct": "."
+              "cht": "他們的草場"
             },
             {
-              "id": ""
+              "id": "hebrew-7703",
+              "cht": "變為荒場",
+              "punct_cht": "。"
             }
           ]
         },
@@ -464,85 +428,76 @@
             "hebrew-6818": 4.1389193993584925
           },
           "verseKey": "zep.1.10",
-          "cunp": "耶和華說：當那日， 從魚門必發出悲哀的聲音， 從二城發出哀號的聲音， 從山間發出大破裂的響聲。",
+          "nasb": "On that day,” declares the Lord, “There will be the sound of a cry from the Fish Gate, A wail from the Second Quarter, And a loud crash from the hills.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And there shall be"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "on day",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-1931",
+              "cht": "當那"
             },
             {
-              "id": "hebrew-6963",
-              "eng": "the sound"
-            },
-            {
-              "id": "hebrew-6818",
-              "eng": "of a [mournful] cry"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "from Gate",
-              "punct": "､"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1709",
-              "eng": "the Fish"
-            },
-            {
-              "id": "hebrew-3215",
-              "eng": "a wailing"
+              "cht": "從魚"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from",
-              "punct": "､"
+              "cht": "門"
+            },
+            {
+              "id": "hebrew-6818",
+              "cht": "必發出悲哀"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "的聲音",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從"
             },
             {
               "id": "hebrew-4932",
-              "eng": "the Second Quarter",
-              "punct": "､"
+              "cht": "二"
             },
             {
-              "id": "hebrew-7667",
-              "eng": "and a crashing"
+              "id": "hebrew-3215",
+              "cht": "城發出哀號"
             },
             {
-              "id": "hebrew-1419",
-              "eng": "loud"
+              "id": "",
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1389",
-              "eng": "from the hills",
-              "punct": "."
+              "cht": "從山間"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1419",
+              "cht": "發出大"
             },
             {
-              "id": ""
+              "id": "hebrew-7667",
+              "cht": "破裂"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的響聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -553,96 +508,80 @@
             "hebrew-5488": 3.0298663446363143
           },
           "verseKey": "exo.23.31",
-          "cunp": "我要定你的境界，從紅海直到非利士海，又從曠野直到大河。我要將那地的居民交在你手中，你要將他們從你面前攆出去。",
+          "nasb": "I will fix your boundary from the Red Sea to the sea of the Philistines, and from the wilderness to the River Euphrates; for I will deliver the inhabitants of the land into your hand, and you will drive them out before you.",
           "words": [
             {
               "id": "hebrew-7896",
-              "eng": "And I will set"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我要定"
             },
             {
               "id": "hebrew-1366",
-              "eng": "your bounds"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "from the Sea"
+              "cht": "你的境界",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5488",
-              "eng": "Red"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "and to"
+              "cht": "從紅"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the sea"
-            },
-            {
-              "id": "hebrew-6430",
-              "eng": "of the Philistines",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4057",
-              "eng": "and from the desert"
+              "cht": "海"
             },
             {
               "id": "hebrew-5704",
-              "eng": "to"
+              "cht": "直到"
+            },
+            {
+              "id": "hebrew-6430",
+              "cht": "非利士"
+            },
+            {
+              "id": "hebrew-3220",
+              "cht": "海",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4057",
+              "cht": "又從曠野"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "直到"
             },
             {
               "id": "hebrew-5104",
-              "eng": "the River",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "I will deliver"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "into your hand"
+              "cht": "大河",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "the inhabitants"
+              "cht": "我要將"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "､"
+              "cht": "那地"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "的居民"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "交"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "在你手中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "你要將他們從你面前"
             },
             {
               "id": "hebrew-1644",
-              "eng": "and you shall drive them out"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before you",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "攆出去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -653,71 +592,62 @@
             "hebrew-5488": 3.0298663446363143
           },
           "verseKey": "psa.106.7",
-          "cunp": "我們的祖宗在埃及不明白你的奇事， 不記念你豐盛的慈愛， 反倒在紅海行了悖逆。",
+          "nasb": "Our fathers in Egypt did not understand Your wonders; They did not remember Your abundant kindnesses, But rebelled by the sea, at the Red Sea.",
           "words": [
             {
               "id": "hebrew-1",
-              "eng": "Our fathers"
+              "cht": "我們的祖宗"
             },
             {
               "id": "hebrew-4714",
-              "eng": "in Egypt",
-              "punct": "–"
+              "cht": "在埃及"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-7919",
-              "eng": "did understand"
+              "cht": "明白"
             },
             {
               "id": "hebrew-6381",
-              "eng": "Your wonders"
+              "cht": "你的奇事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2142",
-              "eng": "they did remember"
+              "cht": "不"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "記念"
             },
             {
               "id": "hebrew-7230",
-              "eng": "the multitude"
+              "cht": "你豐盛的"
             },
             {
               "id": "hebrew-2617",
-              "eng": "of Your mercies",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4784",
-              "eng": "but rebelled"
+              "cht": "慈愛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "the sea",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "the Sea"
+              "cht": "反倒在"
             },
             {
               "id": "hebrew-5488",
-              "eng": "Red",
-              "punct": "."
+              "cht": "紅"
+            },
+            {
+              "id": "hebrew-3220",
+              "cht": "海"
+            },
+            {
+              "id": "hebrew-4784",
+              "cht": "行了悖逆",
+              "punct_cht": "。"
             }
           ]
         },
@@ -728,55 +658,50 @@
             "hebrew-5488": 3.0298663446363143
           },
           "verseKey": "exo.15.4",
-          "cunp": "法老的車輛、軍兵，耶和華已拋在海中； 他特選的軍長都沉於紅海。",
+          "nasb": "Pharaoh’s chariots and his army He has cast into the sea; And the choicest of his officers are drowned in the Red Sea.",
           "words": [
             {
-              "id": "hebrew-4818",
-              "eng": "Chariots"
-            },
-            {
               "id": "hebrew-6547",
-              "eng": "of Pharaoh"
+              "cht": "法老"
             },
             {
-              "id": "hebrew-2426",
-              "eng": "and his army"
+              "id": "hebrew-4818",
+              "cht": "的車輛、"
+            },
+            {
+              "id": "hebrew-2428",
+              "cht": "軍兵",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3384",
-              "eng": "He has cast"
+              "cht": "耶和華已拋"
             },
             {
               "id": "hebrew-3220",
-              "eng": "into the sea",
-              "punct": "–"
+              "cht": "在海中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4005",
-              "eng": "and chosen"
+              "cht": "他特選"
             },
             {
               "id": "hebrew-7991",
-              "eng": "His captains"
+              "cht": "的軍長"
             },
             {
               "id": "hebrew-2883",
-              "eng": "are drowned"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "in the Sea"
+              "cht": "都沉"
             },
             {
               "id": "hebrew-5488",
-              "eng": "Red",
-              "punct": "."
+              "cht": "於紅"
             },
             {
-              "id": "hebrew-2428"
-            },
-            {
-              "id": "hebrew-875"
+              "id": "hebrew-3220",
+              "cht": "海",
+              "punct_cht": "。"
             }
           ]
         }

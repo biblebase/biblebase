@@ -3,16 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "For",
-          "hebrew-3541": "thus",
-          "hebrew-559": "says",
-          "hebrew-3068": "Yahweh",
-          "hebrew-2600": "for nothing",
-          "hebrew-4376": "You have sold yourselves",
-          "hebrew-3808": "and without",
-          "hebrew-3701": "money",
-          "hebrew-1350": "you shall be redeemed",
-          "": null
+          "eng": {
+            "hebrew-3588": "For",
+            "hebrew-3541": "thus",
+            "hebrew-559": "says",
+            "hebrew-3068": "Yahweh",
+            "hebrew-2600": "for nothing",
+            "hebrew-4376": "You have sold yourselves",
+            "hebrew-3808": "and without",
+            "hebrew-3701": "money",
+            "hebrew-1350": "you shall be redeemed",
+            "": null
+          },
+          "cht": {
+            "hebrew-3541": "如此",
+            "hebrew-559": "說",
+            "hebrew-3068": "耶和華",
+            "hebrew-2600": "你們是無價",
+            "hebrew-4376": "被賣",
+            "hebrew-3808": "也必無",
+            "hebrew-3701": "銀",
+            "hebrew-1350": "被贖"
+          }
         }
       },
       "translations": {
@@ -29,41 +41,42 @@
             "hebrew-2600": 2.943137453388001
           },
           "verseKey": "psa.35.7",
-          "cunp": "因他們無故地為我暗設網羅， 無故地挖坑，要害我的性命。",
+          "nasb": "For without cause they hid their net for me; Without cause they dug a pit for my soul.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "因"
             },
             {
               "id": "hebrew-2600",
-              "eng": "without cause"
+              "cht": "他們無故地"
             },
             {
               "id": "hebrew-2934",
-              "eng": "they have hidden"
-            },
-            {
-              "id": "hebrew-7845",
-              "eng": "[in] a pit",
-              "punct": "､"
+              "cht": "暗設"
             },
             {
               "id": "hebrew-7568",
-              "eng": "their net"
+              "cht": "網羅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2600",
-              "eng": "without cause"
+              "cht": "無故地"
             },
             {
               "id": "hebrew-2658",
-              "eng": "[Which] they have dug"
+              "cht": "挖"
+            },
+            {
+              "id": "hebrew-7845",
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5315",
-              "eng": "for my life",
-              "punct": "."
+              "cht": "要害我的性命",
+              "punct_cht": "。"
             }
           ]
         },
@@ -73,93 +86,86 @@
             "hebrew-4376": 1.9166503558368797
           },
           "verseKey": "neh.5.8",
-          "cunp": "我對他們說：「我們盡力贖回我們弟兄，就是賣與外邦的猶大人；你們還要賣弟兄，使我們贖回來嗎？」他們就靜默不語，無話可答。",
+          "nasb": "I said to them, “We according to our ability have redeemed our Jewish brothers who were sold to the nations; now would you even sell your brothers that they may be sold to us?” Then they were silent and could not find a word to say.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And I said"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-587",
-              "eng": "we"
-            },
-            {
-              "id": "hebrew-7069",
-              "eng": "have redeemed"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "our brothers"
-            },
-            {
-              "id": "hebrew-3064",
-              "eng": "the Jews",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4376",
-              "eng": "who were sold"
-            },
-            {
-              "id": "hebrew-1471",
-              "eng": "to the nations",
-              "punct": "–"
+              "cht": "我們"
             },
             {
               "id": "hebrew-1767",
-              "eng": "According to ability"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and indeed even"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-4376",
-              "eng": "will sell"
+              "cht": "盡力"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "贖回"
             },
             {
               "id": "hebrew-251",
-              "eng": "your brothers"
+              "cht": "我們弟兄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4376",
-              "eng": "Or should they be sold"
+              "cht": "就是賣"
+            },
+            {
+              "id": "hebrew-1471",
+              "cht": "與外邦"
+            },
+            {
+              "id": "hebrew-3064",
+              "cht": "的猶大人",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你們"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "還要"
+            },
+            {
+              "id": "hebrew-4376",
+              "cht": "賣"
+            },
+            {
+              "id": "hebrew-251",
+              "cht": "弟兄",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4376",
+              "cht": "贖回來"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-2790",
-              "eng": "and they were silenced",
-              "punct": "､"
+              "cht": "他們就靜默不語",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and nothing"
+              "cht": "無"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "話"
             },
             {
               "id": "hebrew-4672",
-              "eng": "found"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "[to [say]",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-1697"
+              "cht": "可答",
+              "punct_cht": "。"
             }
           ]
         },
@@ -172,109 +178,91 @@
             "hebrew-4376": 1.9166503558368797
           },
           "verseKey": "isa.50.1",
-          "cunp": "耶和華如此說： 我休你們的母親， 休書在哪裏呢？ 我將你們賣給我哪一個債主呢？ 你們被賣，是因你們的罪孽； 你們的母親被休，是因你們的過犯。",
+          "nasb": "Thus says the Lord, “Where is the certificate of divorce By which I have sent your mother away? Or to whom of My creditors did I sell you? Behold, you were sold for your iniquities, And for your transgressions your mother was sent away.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "id": "hebrew-7971",
+              "cht": "我休"
             },
             {
-              "id": "hebrew-335",
-              "eng": "where [is]"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "he"
-            },
-            {
-              "id": "hebrew-5612",
-              "eng": "the certificate"
+              "id": "hebrew-517",
+              "cht": "你們的母親",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3748",
-              "eng": "of divorce",
-              "punct": "､"
+              "cht": "休"
             },
             {
-              "id": "hebrew-517",
-              "eng": "of your mother"
+              "id": "hebrew-5612",
+              "cht": "書"
             },
             {
-              "id": "hebrew-834",
-              "eng": "Whom"
+              "id": "hebrew-335",
+              "cht": "在哪裡"
             },
             {
-              "id": "hebrew-7971",
-              "eng": "I have put away"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
-              "id": "hebrew-176",
-              "eng": "Or"
+              "id": "hebrew-4376",
+              "cht": "我將你們賣"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who [is it]"
+              "cht": "給我哪一個"
             },
             {
               "id": "hebrew-5383",
-              "eng": "of My creditors"
+              "cht": "債主"
             },
             {
-              "id": "hebrew-834",
-              "eng": "to whom"
-            },
-            {
-              "id": "hebrew-4376",
-              "eng": "I have sold"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-853",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-2005",
-              "eng": "-",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "for your iniquities"
+              "cht": "你們"
             },
             {
               "id": "hebrew-4376",
-              "eng": "you have sold yourselves",
-              "punct": "､"
+              "cht": "被賣",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6588",
-              "eng": "and for your transgressions"
-            },
-            {
-              "id": "hebrew-7971",
-              "eng": "has been put away"
+              "id": "hebrew-5771",
+              "cht": "是因你們的罪孽",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-517",
-              "eng": "your mother",
-              "punct": "."
+              "cht": "你們的母親"
             },
             {
-              "id": ""
+              "id": "hebrew-7971",
+              "cht": "被休",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-6588",
+              "cht": "是因你們的過犯",
+              "punct_cht": "。"
             }
           ]
         },
@@ -286,119 +274,107 @@
             "hebrew-3701": 0.9542199558913412
           },
           "verseKey": "2ki.12.4",
-          "cunp": "約阿施對眾祭司說：「凡奉到耶和華殿分別為聖之物所值通用的銀子，或各人當納的身價，或樂意奉到耶和華殿的銀子，",
+          "nasb": "Then Jehoash said to the priests, “All the money of the sacred things which is brought into the house of the Lord, in current money, both the money of each man’s assessment and all the money which any man’s heart prompts him to bring into the house of the Lord,",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-3060",
-              "eng": "Jehoash"
+              "cht": "約阿施"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-3548",
-              "eng": "the priests",
-              "punct": "､"
+              "cht": "眾祭司"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
-              "id": "hebrew-3701",
-              "eng": "the money"
+              "id": "hebrew-935",
+              "cht": "奉到"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "殿"
             },
             {
               "id": "hebrew-6944",
-              "eng": "of the dedicated gifts"
+              "cht": "分別為聖"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "are brought"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "into the house"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3701",
-              "eng": "money"
+              "cht": "之物所"
             },
             {
               "id": "hebrew-5674",
-              "eng": "census"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "of each man"
+              "cht": "值通用"
             },
             {
               "id": "hebrew-3701",
-              "eng": "money"
+              "cht": "的銀子",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5315",
-              "eng": "of each man"
+              "id": "hebrew-376",
+              "cht": "或各人"
             },
             {
               "id": "hebrew-6187",
-              "eng": "assessment",
-              "punct": "､"
+              "cht": "當納"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "[and] all"
+              "id": "hebrew-5315",
+              "cht": "的身"
             },
             {
               "id": "hebrew-3701",
-              "eng": "the money"
+              "cht": "價",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "purposes"
+              "cht": "或"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in"
+              "cht": "樂意"
             },
             {
-              "id": "hebrew-3820",
-              "eng": "his heart"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "id": "hebrew-5927",
+              "cht": "奉"
             },
             {
               "id": "hebrew-935",
-              "eng": "to bring"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "into the house"
+              "cht": "到"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "殿"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-3701",
+              "cht": "銀子",
+              "punct_cht": "，"
             }
           ]
         },
@@ -411,87 +387,80 @@
             "hebrew-3701": 0.9542199558913412
           },
           "verseKey": "1ch.21.24",
-          "cunp": "大衛王對阿珥楠說：「不然！我必要用足價向你買。我不用你的物獻給耶和華，也不用白得之物獻為燔祭。」",
+          "nasb": "But King David said to Ornan, “No, but I will surely buy it for the full price; for I will not take what is yours for the Lord, or offer a burnt offering which costs me nothing.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "hebrew-1732",
+              "cht": "大衛"
             },
             {
               "id": "hebrew-4428",
-              "eng": "King"
+              "cht": "王"
             },
             {
-              "id": "hebrew-1732",
-              "eng": "David"
+              "id": "hebrew-413",
+              "cht": "對"
             },
             {
               "id": "hebrew-771",
-              "eng": "to Ornan",
-              "punct": "､"
+              "cht": "阿珥楠"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3808",
-              "eng": "No",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "but"
+              "cht": "不然",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-7069",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-7069",
-              "eng": "I will buy [it]"
-            },
-            {
-              "id": "hebrew-3701",
-              "eng": "for the price",
-              "punct": "–"
+              "cht": "我必"
             },
             {
               "id": "hebrew-4392",
-              "eng": "full"
+              "cht": "要用足"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-3701",
+              "cht": "價"
+            },
+            {
+              "id": "hebrew-7069",
+              "cht": "向你買",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我不"
             },
             {
               "id": "hebrew-5375",
-              "eng": "I will take"
+              "cht": "用"
             },
             {
               "id": "hebrew-834",
-              "eng": "what is"
+              "cht": "物"
             },
             {
               "id": "hebrew-3068",
-              "eng": "for Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "nor offer"
-            },
-            {
-              "id": "hebrew-5930",
-              "eng": "burnt offerings"
+              "cht": "獻給耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2600",
-              "eng": "with [that which] costs [me] nothing",
-              "punct": "."
+              "cht": "也不用白得"
             },
             {
-              "id": "hebrew-413"
+              "id": "hebrew-5927",
+              "cht": "之物獻"
+            },
+            {
+              "id": "hebrew-5930",
+              "cht": "為燔祭",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -504,121 +473,112 @@
             "hebrew-3701": 0.9542199558913412
           },
           "verseKey": "2sa.24.24",
-          "cunp": "王對亞勞拿說：「不然。我必要按着價值向你買；我不肯用白得之物作燔祭獻給耶和華－我的神。」大衛就用五十舍客勒銀子買了那禾場與牛。",
+          "nasb": "However, the king said to Araunah, “No, but I will surely buy it from you for a price, for I will not offer burnt offerings to the Lord my God which cost me nothing.” So David bought the threshing floor and the oxen for fifty shekels of silver.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-728",
-              "eng": "Araunah",
-              "punct": "､"
+              "cht": "亞勞拿"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3808",
-              "eng": "No",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "but"
+              "cht": "不然",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7069",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-7069",
-              "eng": "I will buy [it]"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "from you"
+              "cht": "我必"
             },
             {
               "id": "hebrew-4242",
-              "eng": "for a price",
-              "punct": "､"
+              "cht": "要按著價值"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "will I offer"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "to Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "my God"
-            },
-            {
-              "id": "hebrew-5930",
-              "eng": "burnt offerings"
-            },
-            {
-              "id": "hebrew-2600",
-              "eng": "with that which costs me nothing",
-              "punct": "."
+              "id": "hebrew-854",
+              "cht": "向你"
             },
             {
               "id": "hebrew-7069",
-              "eng": "So bought"
+              "cht": "買",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "我不肯"
+            },
+            {
+              "id": "hebrew-2600",
+              "cht": "用白得"
+            },
+            {
+              "id": "hebrew-5930",
+              "cht": "之物作燔祭"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "獻"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "給耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─我的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1637",
-              "eng": "the threshing floor"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-1241",
-              "eng": "the oxen"
-            },
-            {
-              "id": "hebrew-3701",
-              "eng": "for silver"
-            },
-            {
-              "id": "hebrew-8255",
-              "eng": "shekels"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-2572",
-              "eng": "of fifty",
-              "punct": "."
+              "cht": "就用五十"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-8255",
+              "cht": "舍客勒"
             },
             {
-              "id": "hebrew-854"
+              "id": "hebrew-3701",
+              "cht": "銀子"
             },
             {
-              "id": ""
+              "id": "hebrew-7069",
+              "cht": "買"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "了"
+            },
+            {
+              "id": "hebrew-1637",
+              "cht": "那禾場"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "與"
+            },
+            {
+              "id": "hebrew-1241",
+              "cht": "牛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -629,50 +589,54 @@
             "hebrew-3701": 0.9542199558913412
           },
           "verseKey": "exo.21.11",
-          "cunp": "若不向她行這三樣，她就可以不用錢贖，白白地出去。」",
+          "nasb": "If he will not do these three things for her, then she shall go out for nothing, without payment of money.",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "And if"
-            },
-            {
-              "id": "hebrew-7969",
-              "eng": "three"
-            },
-            {
-              "id": "hebrew-428",
-              "eng": "these"
+              "cht": "若"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-6213",
-              "eng": "he does do"
+              "cht": "行"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "then she shall go out"
+              "id": "hebrew-428",
+              "cht": "這"
             },
             {
-              "id": "hebrew-2600",
-              "eng": "free"
+              "id": "hebrew-7969",
+              "cht": "三"
+            },
+            {
+              "id": "",
+              "cht": "樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "without"
+              "cht": "她就可以不用"
             },
             {
               "id": "hebrew-3701",
-              "eng": "[paying] money",
-              "punct": "."
+              "cht": "錢"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "贖",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-2600",
+              "cht": "白白地"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "出去",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -682,132 +646,83 @@
             "hebrew-4376": 1.9166503558368797
           },
           "verseKey": "mat.21.12",
-          "cunp": "耶穌進了神的殿，趕出殿裏一切做買賣的人，推倒兌換銀錢之人的桌子，和賣鴿子之人的凳子，",
+          "nasb": "And Jesus entered the temple and drove out all those who were buying and selling in the temple, and overturned the tables of the money changers and the seats of those who were selling doves.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-1525",
-              "eng": "entered"
+              "cht": "進了"
             },
             {
-              "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2316",
+              "cht": "神"
             },
             {
               "id": "greek-2411",
-              "eng": "temple"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "的殿",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1544",
-              "eng": "cast out"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-4453",
-              "eng": "selling"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-59",
-              "eng": "buying"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "趕出"
             },
             {
               "id": "greek-2411",
-              "eng": "temple",
-              "punct": ","
+              "cht": "殿"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "裡"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "一切"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5132",
-              "eng": "tables"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2855",
-              "eng": "money changers"
-            },
-            {
-              "id": "greek-2690",
-              "eng": "He overturned",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2515",
-              "eng": "seats"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of those"
+              "cht": "作買"
             },
             {
               "id": "greek-4453",
-              "eng": "selling"
+              "cht": "賣"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2690",
+              "cht": "推倒"
+            },
+            {
+              "id": "greek-2855",
+              "cht": "兌換銀錢之人"
+            },
+            {
+              "id": "greek-5132",
+              "cht": "的桌子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "和"
+            },
+            {
+              "id": "greek-4453",
+              "cht": "賣"
             },
             {
               "id": "greek-4058",
-              "eng": "doves",
-              "punct": "."
+              "cht": "鴿子"
             },
             {
-              "id": "greek-2316"
-            },
-            {
-              "id": ""
+              "id": "greek-2515",
+              "cht": "之人的凳子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -817,148 +732,96 @@
             "hebrew-4376": 1.9166503558368797
           },
           "verseKey": "mrk.11.15",
-          "cunp": "他們來到耶路撒冷。耶穌進入聖殿，趕出殿裏做買賣的人，推倒兌換銀錢之人的桌子和賣鴿子之人的凳子；",
+          "nasb": "Then they *came to Jerusalem. And He entered the temple and began to drive out those who were buying and selling in the temple, and overturned the tables of the money changers and the seats of those who were selling doves;",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-2064",
-              "eng": "they come"
+              "cht": "他們來"
             },
             {
               "id": "greek-1519",
-              "eng": "to"
+              "cht": "到"
             },
             {
               "id": "greek-2414",
-              "eng": "Jerusalem",
-              "punct": "."
+              "cht": "耶路撒冷",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-1525",
-              "eng": "having entered"
+              "cht": "進"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "入"
             },
             {
               "id": "greek-2411",
-              "eng": "temple",
-              "punct": ","
-            },
-            {
-              "id": "greek-756",
-              "eng": "He began"
+              "cht": "聖殿",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1544",
-              "eng": "to cast out"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-4453",
-              "eng": "selling"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-59",
-              "eng": "buying"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "趕出"
             },
             {
               "id": "greek-2411",
-              "eng": "temple",
-              "punct": ";"
+              "cht": "殿"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "裡"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5132",
-              "eng": "tables"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2855",
-              "eng": "money changers"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2515",
-              "eng": "seats"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of those"
+              "cht": "作買"
             },
             {
               "id": "greek-4453",
-              "eng": "selling"
+              "cht": "賣"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4058",
-              "eng": "doves"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2690",
-              "eng": "He overturned",
-              "punct": "."
+              "cht": "推倒"
             },
             {
-              "id": "greek-2424"
+              "id": "greek-2855",
+              "cht": "兌換銀錢"
             },
             {
-              "id": ""
+              "id": "greek-5132",
+              "cht": "之人的桌子",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-846"
+              "id": "greek-2532",
+              "cht": "和"
+            },
+            {
+              "id": "greek-4453",
+              "cht": "賣"
+            },
+            {
+              "id": "greek-4058",
+              "cht": "鴿子"
+            },
+            {
+              "id": "greek-846",
+              "cht": "之人"
+            },
+            {
+              "id": "greek-2515",
+              "cht": "的凳子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -968,93 +831,93 @@
             "hebrew-4376": 1.9166503558368797
           },
           "verseKey": "est.7.4",
-          "cunp": "因我和我的本族被賣了，要剪除殺戮滅絕我們。我們若被賣為奴為婢，我也閉口不言；但王的損失，敵人萬不能補足。」",
+          "nasb": "for we have been sold, I and my people, to be destroyed, to be killed and to be annihilated. Now if we had only been sold as slaves, men and women, I would have remained silent, for the trouble would not be commensurate with the annoyance to the king.”",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-4376",
-              "eng": "we have been sold",
-              "punct": "､"
+              "cht": "因"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-5971",
-              "eng": "and my people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8045",
-              "eng": "to be destroyed",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2026",
-              "eng": "to be killed",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6",
-              "eng": "and to be annihilated",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-432",
-              "eng": "And"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "as male"
-            },
-            {
-              "id": "hebrew-8198",
-              "eng": "and female slaves",
-              "punct": "､"
+              "cht": "和我的本族"
             },
             {
               "id": "hebrew-4376",
-              "eng": "Had we been sold"
+              "cht": "被賣"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8045",
+              "cht": "要剪除"
+            },
+            {
+              "id": "hebrew-2026",
+              "cht": "殺戮"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "滅絕"
+            },
+            {
+              "id": "",
+              "cht": "我們",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-432",
+              "cht": "我們若"
+            },
+            {
+              "id": "hebrew-4376",
+              "cht": "被賣"
+            },
+            {
+              "id": "hebrew-5650",
+              "cht": "為奴"
+            },
+            {
+              "id": "hebrew-8198",
+              "cht": "為婢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2790",
-              "eng": "I would have held my tongue",
-              "punct": "､"
+              "cht": "我也閉口不言",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "although"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-6862",
-              "eng": "the enemy"
-            },
-            {
-              "id": "hebrew-7737",
-              "eng": "could compensate"
-            },
-            {
-              "id": "hebrew-5143",
-              "eng": "for loss"
+              "cht": "但"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king",
-              "punct": "."
+              "cht": "王"
             },
             {
-              "id": ""
+              "id": "hebrew-5143",
+              "cht": "的損失",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-6862",
+              "cht": "敵人"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "萬不能"
+            },
+            {
+              "id": "hebrew-7737",
+              "cht": "補足",
+              "punct_cht": "。」"
             }
           ]
         }

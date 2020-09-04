@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2074": "[over] Zebulun",
-          "hebrew-3460": "Ishmaiah",
-          "hebrew-1121": "son",
-          "hebrew-5662": "of Obadiah",
-          "hebrew-5321": "[over] Naphtali",
-          "hebrew-3406": "Jerimoth",
-          "hebrew-5837": "of Azriel"
+          "eng": {
+            "hebrew-2074": "[over] Zebulun",
+            "hebrew-3460": "Ishmaiah",
+            "hebrew-1121": "son",
+            "hebrew-5662": "of Obadiah",
+            "hebrew-5321": "[over] Naphtali",
+            "hebrew-3406": "Jerimoth",
+            "hebrew-5837": "of Azriel"
+          },
+          "cht": {
+            "hebrew-2074": "管西布倫人",
+            "hebrew-3460": "伊施瑪雅",
+            "hebrew-1121": "的兒子",
+            "hebrew-5662": "的是俄巴第雅",
+            "hebrew-5321": "管拿弗他利人",
+            "hebrew-3406": "耶利摩",
+            "hebrew-5837": "的是亞斯列"
+          }
         }
       },
       "translations": {
@@ -24,49 +35,54 @@
             "hebrew-3460": 10.248599871619378
           },
           "verseKey": "1ch.12.4",
-          "cunp": "基遍人以實買雅（他在三十人中是勇士，管理他們），且有耶利米、雅哈悉、約哈難，和基得拉人約撒拔、",
+          "nasb": "and Ishmaiah the Gibeonite, a mighty man among the thirty, and over the thirty. Then Jeremiah, Jahaziel, Johanan, Jozabad the Gederathite,",
           "words": [
             {
-              "id": "hebrew-3460",
-              "eng": "and Ishmaiah"
+              "id": "hebrew-1393",
+              "cht": "基遍人"
             },
             {
-              "id": "hebrew-1393",
-              "eng": "the Gibeonite",
-              "punct": "､"
+              "id": "hebrew-3460",
+              "cht": "以實買雅〈"
+            },
+            {
+              "id": "hebrew-7970",
+              "cht": "他在三十人中"
             },
             {
               "id": "hebrew-1368",
-              "eng": "a mighty man"
-            },
-            {
-              "id": "hebrew-7970",
-              "eng": "among the thirty",
-              "punct": "､"
+              "cht": "是勇士",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and over"
+              "cht": "管理"
             },
             {
               "id": "hebrew-7970",
-              "eng": "the thirty",
-              "punct": "–"
+              "cht": "他們〉",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3414"
+              "id": "hebrew-3414",
+              "cht": "且有耶利米、"
             },
             {
-              "id": "hebrew-3166"
+              "id": "hebrew-3166",
+              "cht": "雅哈悉、"
             },
             {
-              "id": "hebrew-3110"
+              "id": "hebrew-3110",
+              "cht": "約哈難",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1452"
+              "id": "hebrew-1452",
+              "cht": "和基得拉人"
             },
             {
-              "id": "hebrew-3107"
+              "id": "hebrew-3107",
+              "cht": "約撒拔、"
             }
           ]
         },
@@ -77,107 +93,100 @@
             "hebrew-5837": 8.539323589735611
           },
           "verseKey": "jer.36.26",
-          "cunp": "王就吩咐哈米勒的兒子耶拉篾和亞斯列的兒子西萊雅，並亞伯疊的兒子示利米雅，去捉拿文士巴錄和先知耶利米。耶和華卻將他們隱藏。",
+          "nasb": "And the king commanded Jerahmeel the king’s son, Seraiah the son of Azriel, and Shelemiah the son of Abdeel to seize Baruch the scribe and Jeremiah the prophet, but the Lord hid them.",
           "words": [
             {
-              "id": "hebrew-6680",
-              "eng": "And commanded"
-            },
-            {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3396",
-              "eng": "Jerahmeel"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "就吩咐"
             },
             {
               "id": "hebrew-4429",
-              "eng": "of the king",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-8304",
-              "eng": "Seraiah"
+              "cht": "哈米勒"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "",
+              "cht": "（或譯王的兒子）",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-3396",
+              "cht": "耶拉篾"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
             },
             {
               "id": "hebrew-5837",
-              "eng": "of Azriel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-8018",
-              "eng": "Shelemiah"
+              "cht": "亞斯列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-8304",
+              "cht": "西萊雅",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "並"
             },
             {
               "id": "hebrew-5655",
-              "eng": "of Abdeel",
-              "punct": "､"
+              "cht": "亞伯疊"
             },
             {
-              "id": "hebrew-3947",
-              "eng": "to seize"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-8018",
+              "cht": "示利米雅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1263",
-              "eng": "Baruch"
+              "cht": "去捉拿"
             },
             {
               "id": "hebrew-5608",
-              "eng": "the scribe"
+              "cht": "文士"
+            },
+            {
+              "id": "hebrew-1263",
+              "cht": "巴錄"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-3414",
-              "eng": "Jeremiah"
+              "cht": "和"
             },
             {
               "id": "hebrew-5030",
-              "eng": "the prophet",
-              "punct": "､"
+              "cht": "先知"
             },
             {
-              "id": "hebrew-5641",
-              "eng": "but hid them"
+              "id": "hebrew-3414",
+              "cht": "耶利米",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-5641",
+              "cht": "卻將他們隱藏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -187,103 +196,79 @@
             "hebrew-5837": 8.539323589735611
           },
           "verseKey": "1ch.5.24",
-          "cunp": "他們的族長是以弗、以示、以列、亞斯列、耶利米、何達威雅、雅疊，都是大能的勇士，是有名的人，也是作族長的。",
+          "nasb": "These were the heads of their fathers’ households, even Epher, Ishi, Eliel, Azriel, Jeremiah, Hodaviah and Jahdiel, mighty men of valor, famous men, heads of their fathers’ households.",
           "words": [
             {
-              "id": "hebrew-428",
-              "eng": "And these [were]"
+              "id": "hebrew-1004",
+              "cht": "他們的族"
             },
             {
               "id": "hebrew-7218",
-              "eng": "the heads"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of houses"
-            },
-            {
-              "id": "hebrew-1",
-              "eng": "their fathers'",
-              "punct": "､"
+              "cht": "長"
             },
             {
               "id": "hebrew-6081",
-              "eng": "and Epher",
-              "punct": "､"
+              "cht": "是以弗、"
             },
             {
               "id": "hebrew-3469",
-              "eng": "and Ishi",
-              "punct": "､"
+              "cht": "以示、"
             },
             {
               "id": "hebrew-447",
-              "eng": "and Eliel",
-              "punct": "､"
+              "cht": "以列、"
             },
             {
               "id": "hebrew-5837",
-              "eng": "and Azriel",
-              "punct": "､"
+              "cht": "亞斯列、"
             },
             {
               "id": "hebrew-3414",
-              "eng": "and Jeremiah",
-              "punct": "､"
+              "cht": "耶利米、"
             },
             {
               "id": "hebrew-1938",
-              "eng": "and Hodaviah",
-              "punct": "､"
+              "cht": "何達威雅、"
             },
             {
               "id": "hebrew-3164",
-              "eng": "and Jahdiel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "[They were] men"
-            },
-            {
-              "id": "hebrew-1368",
-              "eng": "of mighty"
+              "cht": "雅疊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2428",
-              "eng": "valor",
-              "punct": "､"
+              "cht": "都是大能的"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men",
-              "punct": "､"
+              "id": "hebrew-1368",
+              "cht": "勇"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "士",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8034",
-              "eng": "famous"
+              "cht": "是有名的"
             },
             {
-              "id": "hebrew-7218",
-              "eng": "[and] heads"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of houses"
+              "id": "hebrew-582",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1",
-              "eng": "their fathers'",
-              "punct": "."
+              "cht": "也是作族"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-7218",
+              "cht": "長"
             },
             {
-              "id": "hebrew-582"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -295,135 +280,107 @@
             "hebrew-5321": 2.325684742684198
           },
           "verseKey": "jdg.4.6",
-          "cunp": "她打發人從拿弗他利的基低斯將亞比挪菴的兒子巴拉召了來，對他說：「耶和華－以色列的神吩咐你說：『你率領一萬拿弗他利和西布倫人上他泊山去。",
+          "nasb": "Now she sent and summoned Barak the son of Abinoam from Kedesh-naphtali, and said to him, “Behold, the Lord, the God of Israel, has commanded, ‘Go and march to Mount Tabor, and take with you ten thousand men from the sons of Naphtali and from the sons of Zebulun.",
           "words": [
             {
               "id": "hebrew-7971",
-              "eng": "And she sent"
+              "cht": "她打發"
             },
             {
-              "id": "hebrew-7121",
-              "eng": "and called"
+              "id": "hebrew-5321",
+              "cht": "人從拿弗他利"
             },
             {
-              "id": "hebrew-1301",
-              "eng": "for Barak"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "id": "hebrew-4480",
+              "cht": "的基低斯"
             },
             {
               "id": "hebrew-42",
-              "eng": "of Abinoam"
+              "cht": "將亞比挪菴"
             },
             {
-              "id": "hebrew-6943",
-              "eng": "from Kedesh in"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-5321",
-              "eng": "Naphtali"
+              "id": "hebrew-1301",
+              "cht": "巴拉"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "id": "hebrew-7121",
+              "cht": "召了來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him"
+              "cht": "對他"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "Has not"
-            },
-            {
-              "id": "hebrew-6680",
-              "eng": "commanded",
-              "punct": "､"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
+              "cht": "耶和華─"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "go"
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-6680",
+              "cht": "吩咐"
+            },
+            {
+              "id": "",
+              "cht": "你說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-4900",
-              "eng": "and deploy [troops]"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "at Mount"
-            },
-            {
-              "id": "hebrew-8396",
-              "eng": "Tabor",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "and take"
+              "cht": "你率"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with you"
+              "cht": "領"
             },
             {
               "id": "hebrew-6235",
-              "eng": "ten"
+              "cht": "一萬"
             },
             {
-              "id": "hebrew-505",
-              "eng": "thousand"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "men"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
-            },
-            {
-              "id": "hebrew-5321",
-              "eng": "of Naphtali"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "and of the sons"
+              "id": "hebrew-4480",
+              "cht": "拿弗他利"
             },
             {
               "id": "hebrew-2074",
-              "eng": "of Zebulun"
+              "cht": "和西布倫"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1121",
+              "cht": "人"
             },
             {
-              "id": ""
+              "id": "hebrew-8396",
+              "cht": "上他泊"
             },
             {
-              "id": ""
+              "id": "hebrew-2022",
+              "cht": "山"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-3212"
+              "id": "hebrew-3212",
+              "cht": "去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -433,62 +390,57 @@
             "hebrew-5662": 3.6363404553480576
           },
           "verseKey": "1ki.18.3",
-          "cunp": "亞哈將他的家宰俄巴底召了來。（俄巴底甚是敬畏耶和華，",
+          "nasb": "Ahab called Obadiah who was over the household. (Now Obadiah feared the Lord greatly;",
           "words": [
             {
-              "id": "hebrew-7121",
-              "eng": "And had called"
-            },
-            {
               "id": "hebrew-256",
-              "eng": "Ahab"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-5662",
-              "eng": "Obadiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who [was]"
+              "cht": "亞哈"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in charge"
+              "cht": "將他的"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of [his] house",
-              "punct": "."
+              "cht": "家"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "宰"
             },
             {
               "id": "hebrew-5662",
-              "eng": "Now Obadiah"
+              "cht": "俄巴底"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "feared"
+              "id": "hebrew-7121",
+              "cht": "召了"
             },
             {
-              "id": "hebrew-3373",
-              "eng": "feared"
+              "id": "hebrew-413",
+              "cht": "來〈",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "hebrew-5662",
+              "cht": "俄巴底"
             },
             {
               "id": "hebrew-3966",
-              "eng": "greatly",
-              "punct": "–"
+              "cht": "甚"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-3373",
+              "cht": "敬畏"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華",
+              "punct_cht": "，"
             }
           ]
         },
@@ -499,42 +451,41 @@
             "hebrew-1121": 0.3213801148138742
           },
           "verseKey": "num.2.7",
-          "cunp": "又有西布倫支派。希倫的兒子以利押作西布倫人的首領。",
+          "nasb": "Then comes the tribe of Zebulun, and the leader of the sons of Zebulun: Eliab the son of Helon,",
           "words": [
             {
+              "id": "hebrew-2074",
+              "cht": "又有西布倫"
+            },
+            {
               "id": "hebrew-4294",
-              "eng": "Then [comes] the tribe"
-            },
-            {
-              "id": "hebrew-2074",
-              "eng": "of Zebulun",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5387",
-              "eng": "and the leader"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
-            },
-            {
-              "id": "hebrew-2074",
-              "eng": "of Zebulun",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-446",
-              "eng": "[shall be] Eliab"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "支派",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2497",
-              "eng": "of Helon",
-              "punct": "."
+              "cht": "希倫"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-446",
+              "cht": "以利押"
+            },
+            {
+              "id": "hebrew-2074",
+              "cht": "作西布倫"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人的"
+            },
+            {
+              "id": "hebrew-5387",
+              "cht": "首領",
+              "punct_cht": "。"
             }
           ]
         },
@@ -545,42 +496,41 @@
             "hebrew-5321": 2.325684742684198
           },
           "verseKey": "num.2.29",
-          "cunp": "又有拿弗他利支派。以南的兒子亞希拉作拿弗他利人的首領。",
+          "nasb": "Then comes the tribe of Naphtali, and the leader of the sons of Naphtali: Ahira the son of Enan,",
           "words": [
             {
+              "id": "hebrew-5321",
+              "cht": "又有拿弗他利"
+            },
+            {
               "id": "hebrew-4294",
-              "eng": "And [comes] the tribe"
-            },
-            {
-              "id": "hebrew-5321",
-              "eng": "of Naphtali",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5387",
-              "eng": "and the leader"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
-            },
-            {
-              "id": "hebrew-5321",
-              "eng": "of Naphtali",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-299",
-              "eng": "[shall be] Ahira"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "支派",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5881",
-              "eng": "of Enan",
-              "punct": "."
+              "cht": "以南"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-299",
+              "cht": "亞希拉"
+            },
+            {
+              "id": "hebrew-5321",
+              "cht": "作拿弗他利"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人的"
+            },
+            {
+              "id": "hebrew-5387",
+              "cht": "首領",
+              "punct_cht": "。"
             }
           ]
         },
@@ -591,41 +541,34 @@
             "hebrew-5321": 2.325684742684198
           },
           "verseKey": "jos.19.32",
-          "cunp": "為拿弗他利人，按着宗族，拈出第六鬮。",
+          "nasb": "The sixth lot fell to the sons of Naphtali; to the sons of Naphtali according to their families.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "To the sons"
-            },
-            {
               "id": "hebrew-5321",
-              "eng": "of Naphtali",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "came out"
-            },
-            {
-              "id": "hebrew-1486",
-              "eng": "the lot"
-            },
-            {
-              "id": "hebrew-8345",
-              "eng": "sixth"
+              "cht": "為拿弗他利"
             },
             {
               "id": "hebrew-1121",
-              "eng": "for the sons"
-            },
-            {
-              "id": "hebrew-5321",
-              "eng": "of Naphtali"
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4940",
-              "eng": "according to their families",
-              "punct": "."
+              "cht": "按著宗族",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "拈出"
+            },
+            {
+              "id": "hebrew-8345",
+              "cht": "第六"
+            },
+            {
+              "id": "hebrew-1486",
+              "cht": "鬮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -636,73 +579,70 @@
             "hebrew-5662": 3.6363404553480576
           },
           "verseKey": "1ch.9.16",
-          "cunp": "又有耶杜頓的曾孫、迦拉的孫子、示瑪雅的兒子俄巴底，還有以利加拿的孫子、亞撒的兒子比利家。他們都住在尼陀法人的村莊。",
+          "nasb": "and Obadiah the son of Shemaiah, the son of Galal, the son of Jeduthun, and Berechiah the son of Asa, the son of Elkanah, who lived in the villages of the Netophathites.",
           "words": [
             {
-              "id": "hebrew-5662",
-              "eng": "and Obadiah"
+              "id": "hebrew-3038",
+              "cht": "又有耶杜頓"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-8098",
-              "eng": "of Shemaiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的曾孫、"
             },
             {
               "id": "hebrew-1559",
-              "eng": "of Galal",
-              "punct": "､"
+              "cht": "迦拉"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的孫子、"
             },
             {
-              "id": "hebrew-3038",
-              "eng": "of Jeduthun",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1296",
-              "eng": "and Berechiah"
+              "id": "hebrew-8098",
+              "cht": "示瑪雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-609",
-              "eng": "of Asa",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the son"
+              "id": "hebrew-5662",
+              "cht": "俄巴底",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-511",
-              "eng": "of Elkanah",
-              "punct": "､"
+              "cht": "還有以利加拿"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的孫子、"
+            },
+            {
+              "id": "hebrew-609",
+              "cht": "亞撒"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-1296",
+              "cht": "比利家",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3427",
-              "eng": "who lived"
-            },
-            {
-              "id": "hebrew-2691",
-              "eng": "in the villages"
+              "cht": "他們都住"
             },
             {
               "id": "hebrew-5200",
-              "eng": "of the Netophathite",
-              "punct": "."
+              "cht": "在尼陀法人"
+            },
+            {
+              "id": "hebrew-2691",
+              "cht": "的村莊",
+              "punct_cht": "。"
             }
           ]
         },
@@ -713,62 +653,60 @@
             "hebrew-5662": 3.6363404553480576
           },
           "verseKey": "1ch.3.21",
-          "cunp": "哈拿尼雅的兒子是毗拉提、耶篩亞。還有利法雅的眾子，亞珥難的眾子，俄巴底亞的眾子，示迦尼的眾子。",
+          "nasb": "The sons of Hananiah were Pelatiah and Jeshaiah, the sons of Rephaiah, the sons of Arnan, the sons of Obadiah, the sons of Shecaniah.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
+              "id": "hebrew-2608",
+              "cht": "哈拿尼雅"
             },
             {
-              "id": "hebrew-2608",
-              "eng": "of Hananiah",
-              "punct": "–"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-6410",
-              "eng": "[were] Pelatiah",
-              "punct": "､"
+              "cht": "是毗拉提、"
             },
             {
               "id": "hebrew-3470",
-              "eng": "and Jeshaiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "耶篩亞",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7509",
-              "eng": "of Rephaiah",
-              "punct": "､"
+              "cht": "還有利法雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "的眾子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-770",
-              "eng": "of Arnan",
-              "punct": "､"
+              "cht": "亞珥難"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "的眾子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5662",
-              "eng": "of Obadiah",
-              "punct": "､"
+              "cht": "俄巴底亞"
             },
             {
               "id": "hebrew-1121",
-              "eng": "and the sons"
+              "cht": "的眾子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7935",
-              "eng": "of Shechaniah",
-              "punct": "."
+              "cht": "示迦尼"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的眾子",
+              "punct_cht": "。"
             }
           ]
         }

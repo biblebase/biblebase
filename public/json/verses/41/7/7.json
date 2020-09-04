@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3155": "In vain",
-          "greek-1161": "now",
-          "greek-4576": "they worship",
-          "greek-3165": "Me",
-          "greek-1321": "teaching",
-          "greek-1319": "[as] doctrines",
-          "greek-1778": "[the] precepts",
-          "greek-444": "of men",
-          "": null
+          "eng": {
+            "greek-3155": "In vain",
+            "greek-1161": "now",
+            "greek-4576": "they worship",
+            "greek-3165": "Me",
+            "greek-1321": "teaching",
+            "greek-1319": "[as] doctrines",
+            "greek-1778": "[the] precepts",
+            "greek-444": "of men",
+            "": null
+          },
+          "cht": {
+            "greek-3155": "也是枉然",
+            "greek-1161": "所以",
+            "greek-4576": "拜",
+            "greek-3165": "我",
+            "greek-1321": "教導",
+            "greek-1319": "當作道理",
+            "greek-1778": "的吩咐",
+            "greek-444": "他們將人"
+          }
         }
       },
       "translations": {
@@ -31,44 +43,45 @@
             "greek-444": 0.41706835347851695
           },
           "verseKey": "mat.15.9",
-          "cunp": "他們將人的吩咐當作道理教導人， 所以拜我也是枉然。」",
+          "nasb": "But in vain do they worship Me, Teaching as doctrines the precepts of men.’ ”",
           "words": [
             {
-              "id": "greek-3155",
-              "eng": "in vain"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-4576",
-              "eng": "they worship"
-            },
-            {
-              "id": "greek-3165",
-              "eng": "Me",
-              "punct": ","
-            },
-            {
-              "id": "greek-1321",
-              "eng": "teaching [as]"
-            },
-            {
-              "id": "greek-1319",
-              "eng": "doctrines"
+              "id": "greek-444",
+              "cht": "他們將人"
             },
             {
               "id": "greek-1778",
-              "eng": "[the] precepts"
+              "cht": "的吩咐"
             },
             {
-              "id": "greek-444",
-              "eng": "of men",
-              "punct": "."
+              "id": "greek-1319",
+              "cht": "當作道理"
             },
             {
-              "id": ""
+              "id": "greek-1321",
+              "cht": "教導"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1161",
+              "cht": "所以"
+            },
+            {
+              "id": "greek-4576",
+              "cht": "拜"
+            },
+            {
+              "id": "greek-3165",
+              "cht": "我"
+            },
+            {
+              "id": "greek-3155",
+              "cht": "也是枉然",
+              "punct_cht": "。"
             }
           ]
         },
@@ -78,66 +91,65 @@
             "greek-1778": 4.576110205744392
           },
           "verseKey": "isa.28.10",
-          "cunp": "他竟命上加命，令上加令， 律上加律，例上加例， 這裏一點，那裏一點。",
+          "nasb": "For He says, ‘Order on order, order on order, Line on line, line on line, A little here, a little there.’ ”",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "他竟"
             },
             {
               "id": "hebrew-6673",
-              "eng": "precept [must be]"
+              "cht": "命"
             },
             {
               "id": "hebrew-6673",
-              "eng": "upon precept",
-              "punct": "､"
+              "cht": "上加命",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6673",
-              "eng": "precept"
+              "cht": "令"
             },
             {
               "id": "hebrew-6673",
-              "eng": "upon precept",
-              "punct": "–"
+              "cht": "上加令",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6957",
-              "eng": "Line"
+              "cht": "律"
             },
             {
               "id": "hebrew-6957",
-              "eng": "upon line",
-              "punct": "､"
+              "cht": "上加律",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6957",
-              "eng": "line"
+              "cht": "例"
             },
             {
               "id": "hebrew-6957",
-              "eng": "upon line",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2191",
-              "eng": "a little",
-              "punct": "､"
+              "cht": "上加例",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8033",
-              "eng": "Here"
+              "cht": "這裡"
             },
             {
               "id": "hebrew-2191",
-              "eng": "a little",
-              "punct": "–"
+              "cht": "一點",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "."
+              "cht": "那裡"
+            },
+            {
+              "id": "hebrew-2191",
+              "cht": "一點",
+              "punct_cht": "。"
             }
           ]
         },
@@ -147,116 +159,109 @@
             "greek-1778": 4.576110205744392
           },
           "verseKey": "isa.28.13",
-          "cunp": "所以，耶和華向他們說的話是 命上加命，令上加令， 律上加律，例上加例， 這裏一點，那裏一點， 以致他們前行仰面跌倒， 而且跌碎，並陷入網羅被纏住。",
+          "nasb": "So the word of the Lord to them will be, “Order on order, order on order, Line on line, line on line, A little here, a little there,” That they may go and stumble backward, be broken, snared and taken captive.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "But was"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "to them"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the word"
+              "id": "",
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "說的話"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "是"
             },
             {
               "id": "hebrew-6673",
-              "eng": "Precept"
+              "cht": "命"
             },
             {
               "id": "hebrew-6673",
-              "eng": "upon precept",
-              "punct": "､"
+              "cht": "上加命",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6673",
-              "eng": "precept"
+              "cht": "令"
             },
             {
               "id": "hebrew-6673",
-              "eng": "upon precept",
-              "punct": "–"
+              "cht": "上加令",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6957",
-              "eng": "Line"
+              "cht": "律"
             },
             {
               "id": "hebrew-6957",
-              "eng": "upon line",
-              "punct": "､"
+              "cht": "上加律",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6957",
-              "eng": "line"
+              "cht": "例"
             },
             {
               "id": "hebrew-6957",
-              "eng": "upon line",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2191",
-              "eng": "a little",
-              "punct": "､"
+              "cht": "上加例",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8033",
-              "eng": "Here"
+              "cht": "這裡"
             },
             {
               "id": "hebrew-2191",
-              "eng": "a little",
-              "punct": "–"
+              "cht": "一點",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
+              "cht": "那裡"
+            },
+            {
+              "id": "hebrew-2191",
+              "cht": "一點",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4616",
-              "eng": "that"
+              "cht": "以致"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "they might go",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3782",
-              "eng": "and fall"
+              "id": "hebrew-3212",
+              "cht": "他們前行"
             },
             {
               "id": "hebrew-268",
-              "eng": "backward",
-              "punct": "､"
+              "cht": "仰面"
+            },
+            {
+              "id": "hebrew-3782",
+              "cht": "跌倒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7665",
-              "eng": "and be broken",
-              "punct": "､"
+              "cht": "而且跌碎",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3369",
-              "eng": "and snared",
-              "punct": "､"
+              "cht": "並陷入網羅"
             },
             {
               "id": "hebrew-3920",
-              "eng": "and caught",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "被纏住",
+              "punct_cht": "。"
             }
           ]
         },
@@ -268,68 +273,53 @@
             "greek-444": 0.41706835347851695
           },
           "verseKey": "col.2.22",
-          "cunp": "這都是照人所吩咐、所教導的。說到這一切，正用的時候就都敗壞了。",
+          "nasb": "(which all refer to things destined to perish with use)—in accordance with the commandments and teachings of men?",
           "words": [
             {
               "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "are"
+              "cht": "這"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "都"
             },
             {
-              "id": "greek-1519",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-5356",
-              "eng": "decay"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-671",
-              "eng": "use",
-              "punct": ","
+              "id": "greek-2076",
+              "cht": "是"
             },
             {
               "id": "greek-2596",
-              "eng": "according to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1778",
-              "eng": "commandments"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1319",
-              "eng": "teachings"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "照"
             },
             {
               "id": "greek-444",
-              "eng": "of men",
-              "punct": ","
+              "cht": "人"
             },
             {
-              "id": ""
+              "id": "greek-1778",
+              "cht": "所吩咐、"
+            },
+            {
+              "id": "greek-1319",
+              "cht": "所教導"
+            },
+            {
+              "id": "",
+              "cht": "的說到這一切",
+              "punct_cht": "。，"
+            },
+            {
+              "id": "greek-671",
+              "cht": "正用"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "的時候就都"
+            },
+            {
+              "id": "greek-5356",
+              "cht": "敗壞了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -340,58 +330,41 @@
             "greek-444": 0.41706835347851695
           },
           "verseKey": "act.18.13",
-          "cunp": "說：「這個人勸人不按着律法敬拜神。」",
+          "nasb": "saying, “This man persuades men to worship God contrary to the law.”",
           "words": [
             {
               "id": "greek-3004",
-              "eng": "saying"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
-              "punct": ","
-            },
-            {
-              "id": "greek-3844",
-              "eng": "Contrary to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law",
-              "punct": ","
-            },
-            {
-              "id": "greek-374",
-              "eng": "persuades"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3778",
-              "eng": "this [man]"
+              "cht": "這個人"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-374",
+              "cht": "勸"
             },
             {
               "id": "greek-444",
-              "eng": "men"
+              "cht": "人"
+            },
+            {
+              "id": "greek-3844",
+              "cht": "不按著"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法"
             },
             {
               "id": "greek-4576",
-              "eng": "to worship"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "敬拜"
             },
             {
               "id": "greek-2316",
-              "eng": "God",
-              "punct": "."
+              "cht": "神",
+              "punct_cht": "。"
             }
           ]
         },
@@ -402,55 +375,43 @@
             "greek-1319": 3.55737257852982
           },
           "verseKey": "rom.12.7",
-          "cunp": "或作執事，就當專一執事；或作教導的，就當專一教導；",
+          "nasb": "if service, in his serving; or he who teaches, in his teaching;",
           "words": [
             {
               "id": "greek-1535",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "greek-1248",
-              "eng": "service",
-              "punct": ","
+              "cht": "作執事",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "就當專一"
             },
             {
               "id": "greek-1248",
-              "eng": "service",
-              "punct": ";"
+              "cht": "執事",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1535",
-              "eng": "or"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "或"
             },
             {
               "id": "greek-1321",
-              "eng": "teaching",
-              "punct": ","
+              "cht": "作教導的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "就當專一"
             },
             {
               "id": "greek-1319",
-              "eng": "teaching",
-              "punct": ";"
+              "cht": "教導",
+              "punct_cht": "；"
             }
           ]
         },
@@ -460,106 +421,83 @@
             "greek-4576": 4.967387449270056
           },
           "verseKey": "act.17.4",
-          "cunp": "他們中間有些人聽了勸，就附從保羅和西拉，並有許多虔敬的希臘人，尊貴的婦女也不少。",
+          "nasb": "And some of them were persuaded and joined Paul and Silas, along with a large number of the God-fearing Greeks and a number of the leading women.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "some"
+              "id": "greek-846",
+              "cht": "他們"
             },
             {
               "id": "greek-1537",
-              "eng": "of"
+              "cht": "中間"
             },
             {
-              "id": "greek-846",
-              "eng": "them"
+              "id": "greek-5100",
+              "cht": "有些人"
             },
             {
               "id": "greek-3982",
-              "eng": "were obedient"
+              "cht": "聽了勸",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "就"
             },
             {
               "id": "greek-4345",
-              "eng": "joined themselves"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "附從"
             },
             {
               "id": "greek-3972",
-              "eng": "to Paul"
+              "cht": "保羅"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "和"
             },
             {
               "id": "greek-4609",
-              "eng": "to Silas",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "西拉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5037",
-              "eng": "along with"
-            },
-            {
-              "id": "greek-4576",
-              "eng": "worshipping"
-            },
-            {
-              "id": "greek-1672",
-              "eng": "Greeks"
+              "cht": "並"
             },
             {
               "id": "greek-4128",
-              "eng": "a multitude"
+              "cht": "有許多"
             },
             {
-              "id": "greek-4183",
-              "eng": "great",
-              "punct": ","
+              "id": "greek-4576",
+              "cht": "虔敬的"
             },
             {
-              "id": "greek-1135",
-              "eng": "women"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-1672",
+              "cht": "希臘人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4413",
-              "eng": "leading"
+              "cht": "尊貴的"
+            },
+            {
+              "id": "greek-1135",
+              "cht": "婦女"
+            },
+            {
+              "id": "greek-5037",
+              "cht": "也"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-3641",
-              "eng": "a few",
-              "punct": "."
+              "cht": "少",
+              "punct_cht": "。"
             }
           ]
         },
@@ -569,163 +507,107 @@
             "greek-4576": 4.967387449270056
           },
           "verseKey": "act.19.27",
-          "cunp": "這樣，不獨我們這事業被人藐視，就是大女神亞底米的廟也要被人輕忽，連亞細亞全地和普天下所敬拜的大女神之威榮也要消滅了。」",
+          "nasb": "Not only is there danger that this trade of ours fall into disrepute, but also that the temple of the great goddess Artemis be regarded as worthless and that she whom all of Asia and the world worship will even be dethroned from her magnificence.”",
           "words": [
             {
+              "id": "greek-1161",
+              "cht": "這樣",
+              "punct_cht": "，"
+            },
+            {
               "id": "greek-3756",
-              "eng": "Not"
+              "cht": "不"
             },
             {
               "id": "greek-3440",
-              "eng": "only"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "but"
-            },
-            {
-              "id": "greek-5124",
-              "eng": "this"
-            },
-            {
-              "id": "greek-2793",
-              "eng": "is endangered"
+              "cht": "獨"
             },
             {
               "id": "greek-2254",
-              "eng": "to us",
-              "punct": ","
+              "cht": "我們"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5124",
+              "cht": "這"
             },
             {
-              "id": "greek-3313",
-              "eng": "business"
+              "id": "greek-2793",
+              "cht": "事業"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-557",
-              "eng": "disrepute"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "to come",
-              "punct": ","
+              "cht": "被人藐視",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "就是"
             },
             {
               "id": "greek-3173",
-              "eng": "great"
+              "cht": "大"
             },
             {
               "id": "greek-2299",
-              "eng": "goddess"
+              "cht": "女神"
             },
             {
               "id": "greek-735",
-              "eng": "Artemis"
+              "cht": "亞底米"
             },
             {
               "id": "greek-2411",
-              "eng": "temple"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "for"
+              "cht": "的廟"
             },
             {
               "id": "greek-3762",
-              "eng": "nothing"
+              "cht": "也要被人輕忽",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3049",
-              "eng": "to be reckoned",
-              "punct": ","
-            },
-            {
-              "id": "greek-3195",
-              "eng": "to be"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-2507",
-              "eng": "deposed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3168",
-              "eng": "majesty"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of her",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-3650",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1161",
+              "cht": "連"
             },
             {
               "id": "greek-773",
-              "eng": "Asia"
+              "cht": "亞細亞"
+            },
+            {
+              "id": "greek-3650",
+              "cht": "全地"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-3625",
-              "eng": "world"
+              "cht": "普天下"
             },
             {
               "id": "greek-4576",
-              "eng": "worship",
-              "punct": "."
+              "cht": "所敬拜"
             },
             {
-              "id": "greek-1161"
+              "id": "greek-3739",
+              "cht": "的"
+            },
+            {
+              "id": "greek-846",
+              "cht": "大女神"
+            },
+            {
+              "id": "greek-3168",
+              "cht": "之威榮"
+            },
+            {
+              "id": "greek-3195",
+              "cht": "也要"
+            },
+            {
+              "id": "greek-2507",
+              "cht": "消滅了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -735,127 +617,74 @@
             "greek-4576": 4.967387449270056
           },
           "verseKey": "act.13.50",
-          "cunp": "但猶太人挑唆虔敬、尊貴的婦女和城內有名望的人，逼迫保羅、巴拿巴，將他們趕出境外。",
+          "nasb": "But the Jews incited the devout women of prominence and the leading men of the city, and instigated a persecution against Paul and Barnabas, and drove them out of their district.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-1161",
-              "eng": "but"
+              "cht": "但"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews"
+              "cht": "猶太人"
             },
             {
               "id": "greek-3951",
-              "eng": "incited"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "挑唆"
             },
             {
               "id": "greek-4576",
-              "eng": "worshipping"
-            },
-            {
-              "id": "greek-1135",
-              "eng": "women"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "虔敬、"
             },
             {
               "id": "greek-2158",
-              "eng": "of honorable position",
-              "punct": ","
+              "cht": "尊貴的"
+            },
+            {
+              "id": "greek-1135",
+              "cht": "婦女"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4413",
-              "eng": "principals"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "和"
             },
             {
               "id": "greek-4172",
-              "eng": "city",
-              "punct": ","
+              "cht": "城內"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4413",
+              "cht": "有名望的人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1892",
-              "eng": "they stirred up"
-            },
-            {
-              "id": "greek-1375",
-              "eng": "a persecution"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "against"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "逼迫"
             },
             {
               "id": "greek-3972",
-              "eng": "Paul"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "保羅、"
             },
             {
               "id": "greek-921",
-              "eng": "Barnabas",
-              "punct": ","
+              "cht": "巴拿巴",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-846",
+              "cht": "將他們"
             },
             {
               "id": "greek-1544",
-              "eng": "expelled"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "趕出"
             },
             {
               "id": "greek-3725",
-              "eng": "district"
+              "cht": "境"
             },
             {
-              "id": "greek-846",
-              "eng": "of them",
-              "punct": "."
+              "id": "greek-575",
+              "cht": "外",
+              "punct_cht": "。"
             }
           ]
         },
@@ -865,99 +694,72 @@
             "greek-4576": 4.967387449270056
           },
           "verseKey": "act.18.7",
-          "cunp": "於是離開那裏，到了一個人的家中；這人名叫提多‧猶士都，是敬拜神的，他的家靠近會堂。",
+          "nasb": "Then he left there and went to the house of a man named Titius Justus, a worshiper of God, whose house was next to the synagogue.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "於是"
             },
             {
               "id": "greek-3327",
-              "eng": "having departed"
+              "cht": "離開"
             },
             {
               "id": "greek-1564",
-              "eng": "from there"
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1525",
-              "eng": "he came"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to [the]"
-            },
-            {
-              "id": "greek-3614",
-              "eng": "house"
+              "id": "greek-2064",
+              "cht": "到了"
             },
             {
               "id": "greek-5100",
-              "eng": "of a certain one"
-            },
-            {
-              "id": "greek-3686",
-              "eng": "named"
-            },
-            {
-              "id": "greek-5103",
-              "eng": "Titius"
-            },
-            {
-              "id": "greek-2459",
-              "eng": "Justus",
-              "punct": ","
-            },
-            {
-              "id": "greek-4576",
-              "eng": "worshiping"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "of whom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "一個人"
             },
             {
               "id": "greek-3614",
-              "eng": "house"
+              "cht": "的家中",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-1510",
-              "eng": "was"
+              "id": "greek-3686",
+              "cht": "這人名叫"
+            },
+            {
+              "id": "greek-2459",
+              "cht": "提多猶士都",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4576",
+              "cht": "是敬拜"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "他的"
+            },
+            {
+              "id": "greek-3614",
+              "cht": "家"
             },
             {
               "id": "greek-4927",
-              "eng": "adjoining"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "靠近"
             },
             {
               "id": "greek-4864",
-              "eng": "synagogue",
-              "punct": "."
-            },
-            {
-              "id": "greek-2064"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2258"
+              "cht": "會堂",
+              "punct_cht": "。"
             }
           ]
         }

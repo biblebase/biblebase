@@ -3,15 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "For",
-          "hebrew-7230": null,
-          "hebrew-2451": "wisdom",
-          "hebrew-7227": "[is] much",
-          "hebrew-3708": "grief",
-          "hebrew-3254": "increases",
-          "hebrew-1847": "knowledge",
-          "hebrew-4341": "sorrow",
-          "": null
+          "eng": {
+            "hebrew-3588": "For",
+            "hebrew-7230": null,
+            "hebrew-2451": "wisdom",
+            "hebrew-7227": "[is] much",
+            "hebrew-3708": "grief",
+            "hebrew-3254": "increases",
+            "hebrew-1847": "knowledge",
+            "hebrew-4341": "sorrow",
+            "": null
+          },
+          "cht": {
+            "hebrew-3588": "因為",
+            "hebrew-7230": "就多有",
+            "hebrew-2451": "智慧",
+            "hebrew-3708": "愁煩",
+            "hebrew-3254": "就加增",
+            "hebrew-1847": "知識",
+            "hebrew-4341": "憂傷"
+          }
         }
       },
       "translations": {
@@ -29,72 +40,67 @@
             "hebrew-4341": 5.832220266167411
           },
           "verseKey": "ecc.2.23",
-          "cunp": "因為他日日憂慮，他的勞苦成為愁煩，連夜間心也不安。這也是虛空。",
+          "nasb": "Because all his days his task is painful and grievous; even at night his mind does not rest. This too is vanity.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "his days"
+              "cht": "他日日"
             },
             {
               "id": "hebrew-4341",
-              "eng": "[are] sorrowful",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3708",
-              "eng": "and burdensome",
-              "punct": "–"
+              "cht": "憂慮",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6045",
-              "eng": "his work"
+              "cht": "他的勞苦"
+            },
+            {
+              "id": "hebrew-3708",
+              "cht": "成為愁煩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "even",
-              "punct": "､"
+              "cht": "連"
             },
             {
               "id": "hebrew-3915",
-              "eng": "in the night",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "No"
-            },
-            {
-              "id": "hebrew-7901",
-              "eng": "takes rest"
+              "cht": "夜間"
             },
             {
               "id": "hebrew-3820",
-              "eng": "his heart"
+              "cht": "心"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-3808",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-7901",
+              "cht": "安",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-1892",
-              "eng": "vanity"
+              "id": "hebrew-1571",
+              "cht": "也"
             },
             {
               "id": "hebrew-1931",
-              "eng": "is",
-              "punct": "."
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-1892",
+              "cht": "虛空",
+              "punct_cht": "。"
             }
           ]
         },
@@ -105,38 +111,37 @@
             "hebrew-4341": 5.832220266167411
           },
           "verseKey": "psa.32.10",
-          "cunp": "惡人必多受苦楚； 惟獨倚靠耶和華的必有慈愛四面環繞他。",
+          "nasb": "Many are the sorrows of the wicked, But he who trusts in the Lord, lovingkindness shall surround him.",
           "words": [
             {
+              "id": "hebrew-7563",
+              "cht": "惡人"
+            },
+            {
               "id": "hebrew-7227",
-              "eng": "Many"
+              "cht": "必多"
             },
             {
               "id": "hebrew-4341",
-              "eng": "sorrows [shall be]"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "to the wicked",
-              "punct": "､"
+              "cht": "受苦楚",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-982",
-              "eng": "but he who trusts"
+              "cht": "惟獨倚靠"
             },
             {
               "id": "hebrew-3068",
-              "eng": "in Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2617",
-              "eng": "mercy"
+              "cht": "的必有慈愛"
             },
             {
               "id": "hebrew-5437",
-              "eng": "shall surround him",
-              "punct": "."
+              "cht": "四面環繞他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -146,95 +151,91 @@
             "hebrew-4341": 5.832220266167411
           },
           "verseKey": "lam.1.12",
-          "cunp": "你們一切過路的人哪，這事你們不介意嗎？ 你們要觀看： 有像這臨到我的痛苦沒有－ 就是耶和華在他發烈怒的日子使我所受的苦？",
+          "nasb": "“Is it nothing to all you who pass this way? Look and see if there is any pain like my pain Which was severely dealt out to me, Which the Lord inflicted on the day of His fierce anger.",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "[Is it] nothing"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to you"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "你們一切"
             },
             {
               "id": "hebrew-5674",
-              "eng": "you who pass by"
+              "cht": "過"
             },
             {
               "id": "hebrew-1870",
-              "eng": "this way"
+              "cht": "路"
+            },
+            {
+              "id": "",
+              "cht": "的人哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "這事你們"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不介意嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5027",
-              "eng": "behold",
-              "punct": "､"
+              "cht": "你們要觀"
             },
             {
               "id": "hebrew-7200",
-              "eng": "and see"
+              "cht": "看",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-518",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-3426",
-              "eng": "there is"
-            },
-            {
-              "id": "hebrew-4341",
-              "eng": "any sorrow"
-            },
-            {
-              "id": "hebrew-4341",
-              "eng": "like my sorrow",
-              "punct": "､"
+              "cht": "有"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "像這"
             },
             {
               "id": "hebrew-5953",
-              "eng": "has been brought"
+              "cht": "臨到"
+            },
+            {
+              "id": "hebrew-4341",
+              "cht": "的痛苦"
+            },
+            {
+              "id": "",
+              "cht": "沒有─"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3013",
-              "eng": "has inflicted"
+              "cht": "就是"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in the day"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2740",
-              "eng": "of fierce"
+              "cht": "在他發烈"
             },
             {
               "id": "hebrew-639",
-              "eng": "His anger",
-              "punct": "."
+              "cht": "怒"
             },
             {
-              "id": ""
+              "id": "hebrew-3117",
+              "cht": "的日子"
             },
             {
-              "id": ""
+              "id": "hebrew-3013",
+              "cht": "使我所受的"
             },
             {
-              "id": "hebrew-4341"
+              "id": "hebrew-4341",
+              "cht": "苦",
+              "punct_cht": "？"
             }
           ]
         },
@@ -244,67 +245,66 @@
             "hebrew-4341": 5.832220266167411
           },
           "verseKey": "isa.53.3",
-          "cunp": "他被藐視，被人厭棄； 多受痛苦，常經憂患。 他被藐視， 好像被人掩面不看的一樣； 我們也不尊重他。",
+          "nasb": "He was despised and forsaken of men, A man of sorrows and acquainted with grief; And like one from whom men hide their face He was despised, and we did not esteem Him.",
           "words": [
             {
               "id": "hebrew-959",
-              "eng": "He is despised"
+              "cht": "他被藐視",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "被人"
             },
             {
               "id": "hebrew-2310",
-              "eng": "and rejected by"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "men",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a Man"
+              "cht": "厭棄",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4341",
-              "eng": "of sorrows",
-              "punct": "､"
+              "cht": "多受痛苦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "and acquainted"
+              "cht": "常經"
             },
             {
               "id": "hebrew-2483",
-              "eng": "with grief",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4564",
-              "eng": "and as it were we hid"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "[our] faces"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from Him"
+              "cht": "憂患",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-959",
-              "eng": "He was despised",
-              "punct": "､"
+              "cht": "他被藐視",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4564",
+              "cht": "好像被人掩"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "面"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "不看"
+            },
+            {
+              "id": "",
+              "cht": "的一樣",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "我們也不"
             },
             {
               "id": "hebrew-2803",
-              "eng": "we did esteem Him",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "尊重他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -314,37 +314,33 @@
             "hebrew-4341": 5.832220266167411
           },
           "verseKey": "job.33.19",
-          "cunp": "人在牀上被懲治， 骨頭中不住地疼痛，",
+          "nasb": "“Man is also chastened with pain on his bed, And with unceasing complaint in his bones;",
           "words": [
             {
-              "id": "hebrew-3198",
-              "eng": "And Man is chastened"
-            },
-            {
-              "id": "hebrew-4341",
-              "eng": "with pain"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "人在"
             },
             {
               "id": "hebrew-4904",
-              "eng": "his bed",
-              "punct": "､"
+              "cht": "床上"
             },
             {
-              "id": "hebrew-7379",
-              "eng": "and in many of"
+              "id": "hebrew-3198",
+              "cht": "被懲治",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6106",
-              "eng": "his bones"
+              "cht": "骨頭"
             },
             {
               "id": "hebrew-386",
-              "eng": "with enduring [pain]",
-              "punct": "."
+              "cht": "中不住地"
+            },
+            {
+              "id": "hebrew-4341",
+              "cht": "疼痛",
+              "punct_cht": "，"
             }
           ]
         },
@@ -354,51 +350,48 @@
             "hebrew-4341": 5.832220266167411
           },
           "verseKey": "psa.69.26",
-          "cunp": "因為，你所擊打的，他們就逼迫； 你所擊傷的，他們戲說他的愁苦。",
+          "nasb": "For they have persecuted him whom You Yourself have smitten, And they tell of the pain of those whom You have wounded.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "You"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "the [ones]"
+              "cht": "你所"
             },
             {
               "id": "hebrew-5221",
-              "eng": "have struck",
-              "punct": "–"
+              "cht": "擊打"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7291",
-              "eng": "they persecute"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-4341",
-              "eng": "of the grief"
+              "cht": "他們就逼迫",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2491",
-              "eng": "of those You have wounded"
+              "cht": "你所擊傷"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5608",
-              "eng": "talk",
-              "punct": "."
+              "cht": "他們戲說"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-4341",
+              "cht": "他的愁苦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -410,104 +403,87 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "ecc.1.16",
-          "cunp": "我心裏議論說：我得了大智慧，勝過我以前在耶路撒冷的眾人，而且我心中多經歷智慧和知識的事。",
+          "nasb": "I said to myself, “Behold, I have magnified and increased wisdom more than all who were over Jerusalem before me; and my mind has observed a wealth of wisdom and knowledge.”",
           "words": [
             {
-              "id": "hebrew-1696",
-              "eng": "Communed"
-            },
-            {
               "id": "hebrew-589",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with"
+              "cht": "心裡"
             },
             {
-              "id": "hebrew-3820",
-              "eng": "my heart",
-              "punct": "､"
+              "id": "hebrew-1696",
+              "cht": "議論"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "Look",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1431",
-              "eng": "have attained greatness",
-              "punct": "､"
+              "cht": "我"
             },
             {
               "id": "hebrew-3254",
-              "eng": "and have gained more"
+              "cht": "得了"
+            },
+            {
+              "id": "hebrew-1431",
+              "cht": "大"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "than"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "智慧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "were"
+              "cht": "勝過"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before me"
+              "cht": "我以前"
             },
             {
               "id": "hebrew-5921",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "hebrew-3389",
-              "eng": "Jerusalem",
-              "punct": "–"
+              "cht": "耶路撒冷"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "的眾人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "and My heart"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "has understood"
+              "cht": "而且我心中"
             },
             {
               "id": "hebrew-7235",
-              "eng": "great"
+              "cht": "多"
+            },
+            {
+              "id": "hebrew-7200",
+              "cht": "經歷"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom"
+              "cht": "智慧"
             },
             {
               "id": "hebrew-1847",
-              "eng": "and knowledge",
-              "punct": "."
+              "cht": "和知識"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -517,113 +493,81 @@
             "hebrew-3708": 2.7912061306530696
           },
           "verseKey": "php.2.27",
-          "cunp": "他實在是病了，幾乎要死；然而神憐恤他，不但憐恤他，也憐恤我，免得我憂上加憂。",
+          "nasb": "For indeed he was sick to the point of death, but God had mercy on him, and not on him only but also on me, so that I would not have sorrow upon sorrow.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "indeed"
+              "cht": "他實在"
             },
             {
               "id": "greek-770",
-              "eng": "he was sick"
+              "cht": "是病了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3897",
-              "eng": "nearly"
+              "cht": "幾乎"
             },
             {
               "id": "greek-2288",
-              "eng": "unto death",
-              "punct": ","
+              "cht": "要死",
+              "punct_cht": "；"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "然而"
             },
             {
               "id": "greek-2316",
-              "eng": "God"
+              "cht": "神"
             },
             {
               "id": "greek-1653",
-              "eng": "had mercy on"
+              "cht": "憐恤"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": ";"
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "greek-3440",
+              "cht": "不但"
             },
             {
               "id": "greek-846",
-              "eng": "on him"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-3441",
-              "eng": "alone",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
+              "cht": "憐恤他",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "也"
             },
             {
               "id": "greek-1691",
-              "eng": "on me",
-              "punct": ","
+              "cht": "憐恤我",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3077",
-              "eng": "sorrow"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-3077",
-              "eng": "sorrow"
+              "id": "greek-3363",
+              "cht": "免得"
             },
             {
               "id": "greek-2192",
-              "eng": "I should have",
-              "punct": "."
+              "cht": "我"
             },
             {
-              "id": "hebrew-3756"
+              "id": "greek-3077",
+              "cht": "憂"
             },
             {
-              "id": "greek-3440"
+              "id": "greek-1909",
+              "cht": "上加"
             },
             {
-              "id": "greek-3363"
+              "id": "greek-3077",
+              "cht": "憂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -633,86 +577,71 @@
             "hebrew-3708": 2.7912061306530696
           },
           "verseKey": "2co.7.10",
-          "cunp": "因為依着神的意思憂愁，就生出沒有後悔的懊悔來，以致得救；但世俗的憂愁是叫人死。",
+          "nasb": "For the sorrow that is according to the will of God produces a repentance without regret, leading to salvation, but the sorrow of the world produces death.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for",
-              "punct": ","
+              "cht": "因為"
             },
             {
               "id": "greek-2596",
-              "eng": "according to"
+              "cht": "依著"
             },
             {
               "id": "greek-2316",
-              "eng": "God"
+              "cht": "神"
             },
             {
               "id": "greek-3077",
-              "eng": "grief",
-              "punct": ","
-            },
-            {
-              "id": "greek-3341",
-              "eng": "repentance"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-4991",
-              "eng": "salvation"
-            },
-            {
-              "id": "greek-278",
-              "eng": "without regret"
-            },
-            {
-              "id": "greek-2038",
-              "eng": "produces",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the of the"
-            },
-            {
-              "id": "greek-2889",
-              "eng": "world"
-            },
-            {
-              "id": "greek-3077",
-              "eng": "grief",
-              "punct": ","
-            },
-            {
-              "id": "greek-2288",
-              "eng": "death"
+              "cht": "的意思憂愁",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2716",
-              "eng": "produces",
-              "punct": "."
+              "cht": "就生出"
             },
             {
-              "id": ""
+              "id": "greek-278",
+              "cht": "沒有後悔的"
             },
             {
-              "id": "greek-2716"
+              "id": "greek-3341",
+              "cht": "懊悔"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "以致"
+            },
+            {
+              "id": "greek-4991",
+              "cht": "得救",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1161",
+              "cht": "但"
+            },
+            {
+              "id": "greek-2889",
+              "cht": "世俗的"
+            },
+            {
+              "id": "greek-3077",
+              "cht": "憂愁"
+            },
+            {
+              "id": "greek-2716",
+              "cht": "是叫"
+            },
+            {
+              "id": "greek-2288",
+              "cht": "人死",
+              "punct_cht": "。"
             }
           ]
         },
@@ -723,59 +652,63 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "ecc.7.12",
-          "cunp": "因為智慧護庇人， 好像銀錢護庇人一樣。 惟獨智慧能保全智慧人的生命。 這就是知識的益處。",
+          "nasb": "For wisdom is protection just as money is protection, But the advantage of knowledge is that wisdom preserves the lives of its possessors.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-6738",
-              "eng": "[is] a defense",
-              "punct": "､"
+              "cht": "因為"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom"
+              "cht": "智慧"
             },
             {
               "id": "hebrew-6738",
-              "eng": "[is] a defense",
-              "punct": "､"
+              "cht": "護庇"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3701",
-              "eng": "[as] money"
+              "cht": "好像銀錢"
             },
             {
-              "id": "hebrew-3504",
-              "eng": "but the excellence"
+              "id": "hebrew-6738",
+              "cht": "護庇"
             },
             {
-              "id": "hebrew-1847",
-              "eng": "of knowledge [is]"
+              "id": "",
+              "cht": "人一樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2451",
-              "eng": "[that] wisdom"
+              "cht": "惟獨智慧"
             },
             {
               "id": "hebrew-2421",
-              "eng": "gives life"
+              "cht": "能保全"
             },
             {
               "id": "hebrew-1167",
-              "eng": "to those who have it",
-              "punct": "."
+              "cht": "智慧人"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的生命",
+              "punct_cht": "。"
             },
             {
-              "id": ""
+              "id": "hebrew-1847",
+              "cht": "這就是知識"
             },
             {
-              "id": ""
+              "id": "hebrew-3504",
+              "cht": "的益處",
+              "punct_cht": "。"
             }
           ]
         }

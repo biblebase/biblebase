@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6605": "Open",
-          "hebrew-6310": "your mouth",
-          "hebrew-483": "for the mute",
-          "hebrew-413": "in",
-          "hebrew-1779": "the cause",
-          "hebrew-3605": "of all",
-          "hebrew-1121": "such as",
-          "hebrew-2475": "[who are appointed] to die",
-          "": null
+          "eng": {
+            "hebrew-6605": "Open",
+            "hebrew-6310": "your mouth",
+            "hebrew-483": "for the mute",
+            "hebrew-413": "in",
+            "hebrew-1779": "the cause",
+            "hebrew-3605": "of all",
+            "hebrew-1121": "such as",
+            "hebrew-2475": "[who are appointed] to die",
+            "": null
+          },
+          "cht": {
+            "hebrew-6605": "開",
+            "hebrew-6310": "口",
+            "hebrew-483": "你當為啞巴",
+            "hebrew-413": "為",
+            "hebrew-1779": "伸冤",
+            "hebrew-3605": "一切",
+            "hebrew-1121": "孤獨的",
+            "hebrew-2475": "孤獨的"
+          }
         }
       },
       "translations": {
@@ -28,39 +40,41 @@
             "hebrew-1779": 3.812899939371762
           },
           "verseKey": "job.36.17",
-          "cunp": "但你滿口有惡人批評的言語； 判斷和刑罰抓住你。",
+          "nasb": "“But you were full of judgment on the wicked; Judgment and justice take hold of you.",
           "words": [
             {
-              "id": "hebrew-1779",
-              "eng": "But with the judgment due"
+              "id": "hebrew-4390",
+              "cht": "但你滿口有"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4390",
-              "eng": "you are filled"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-1779",
-              "eng": "Judgment"
+              "cht": "批評的"
+            },
+            {
+              "id": "",
+              "cht": "言語",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "判斷"
             },
             {
               "id": "hebrew-4941",
-              "eng": "and justice"
+              "cht": "和刑罰"
             },
             {
               "id": "hebrew-8551",
-              "eng": "take hold [of you]",
-              "punct": "."
+              "cht": "抓住"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,119 +84,101 @@
             "hebrew-1779": 3.812899939371762
           },
           "verseKey": "deu.17.8",
-          "cunp": "「你城中若起了爭訟的事，或因流血，或因爭競，或因毆打，是你難斷的案件，你就當起來，往耶和華－你神所選擇的地方",
+          "nasb": "“If any case is too difficult for you to decide, between one kind of homicide or another, between one kind of lawsuit or another, and between one kind of assault or another, being cases of dispute in your courts, then you shall arise and go up to the place which the Lord your God chooses.",
           "words": [
             {
+              "id": "hebrew-8179",
+              "cht": "你城"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "If"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "arises"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "for you"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "a matter which is too hard"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "to judge",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-1818",
-              "eng": "[degrees of] guilt"
-            },
-            {
-              "id": "hebrew-1818",
-              "eng": "for bloodshed",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "one judgment"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "or another",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "or between"
-            },
-            {
-              "id": "hebrew-5061",
-              "eng": "one punishment or"
-            },
-            {
-              "id": "hebrew-5061",
-              "eng": "another",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "matters"
+              "cht": "中若"
             },
             {
               "id": "hebrew-7379",
-              "eng": "of controversy"
+              "cht": "起了爭訟"
             },
             {
-              "id": "hebrew-8179",
-              "eng": "within your gates",
-              "punct": "､"
+              "id": "hebrew-1697",
+              "cht": "的事",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6963",
-              "eng": "then you shall arise"
+              "id": "hebrew-996",
+              "cht": "或因"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "and go up"
+              "id": "hebrew-1818",
+              "cht": "流血",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "或因"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "爭競",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "或因"
+            },
+            {
+              "id": "hebrew-5061",
+              "cht": "毆打",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "是你"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "難"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "斷"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的案件",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "你就當起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "the place"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-977",
-              "eng": "chooses",
-              "punct": "–"
+              "cht": "往"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-6965"
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
-              "id": ""
+              "id": "hebrew-977",
+              "cht": "選擇"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "地方"
             }
           ]
         },
@@ -192,79 +188,69 @@
             "hebrew-1779": 3.812899939371762
           },
           "verseKey": "jer.5.28",
-          "cunp": "他們肥胖光潤， 作惡過甚，不為人伸冤！ 就是不為孤兒伸冤， 不使他亨通， 也不為窮人辨屈。",
+          "nasb": "They are fat, they are sleek, They also excel in deeds of wickedness; They do not plead the cause, The cause of the orphan, that they may prosper; And they do not defend the rights of the poor.",
           "words": [
             {
               "id": "hebrew-8080",
-              "eng": "They have grown fat",
-              "punct": "､"
+              "cht": "他們肥胖"
             },
             {
               "id": "hebrew-6245",
-              "eng": "they are sleek",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "Yes",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "they surpass"
+              "cht": "光潤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1697",
-              "eng": "the deeds"
+              "cht": "作"
             },
             {
               "id": "hebrew-7451",
-              "eng": "of the wicked",
-              "punct": "–"
+              "cht": "惡"
             },
             {
-              "id": "hebrew-1779",
-              "eng": "the cause",
-              "punct": "､"
+              "id": "hebrew-5674",
+              "cht": "過甚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-1777",
-              "eng": "they do plead"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "the cause"
+              "cht": "為人伸冤",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3490",
-              "eng": "of the fatherless",
-              "punct": "､"
+              "cht": "就是不為孤兒"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "伸冤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6743",
-              "eng": "and yet they prosper",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "and the right"
-            },
-            {
-              "id": "hebrew-34",
-              "eng": "of the needy"
+              "cht": "不使他亨通",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-34",
+              "cht": "為窮人"
             },
             {
               "id": "hebrew-8199",
-              "eng": "they do defend",
-              "punct": "."
+              "cht": "辨"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "屈",
+              "punct_cht": "。"
             }
           ]
         },
@@ -274,87 +260,80 @@
             "hebrew-483": 3.6363404553480576
           },
           "verseKey": "mat.12.22",
-          "cunp": "當下，有人將一個被鬼附着、又瞎又啞的人帶到耶穌那裏，耶穌就醫治他，甚至那啞巴又能說話，又能看見。",
+          "nasb": "Then a demon-possessed man who was blind and mute was brought to Jesus, and He healed him, so that the mute man spoke and saw.",
           "words": [
             {
               "id": "greek-5119",
-              "eng": "Then"
-            },
-            {
-              "id": "greek-4374",
-              "eng": "was brought"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to Him"
+              "cht": "當下",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1139",
-              "eng": "[one] possessed by a demon",
-              "punct": ","
+              "cht": "有人將一個被鬼附著、"
             },
             {
               "id": "greek-5185",
-              "eng": "blind"
+              "cht": "又瞎"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "又"
             },
             {
               "id": "greek-2974",
-              "eng": "mute",
-              "punct": ","
+              "cht": "啞"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2323",
-              "eng": "He healed"
+              "id": "greek-4374",
+              "cht": "的人帶"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": ","
+              "cht": "到耶穌"
             },
             {
-              "id": "greek-5620",
-              "eng": "in order for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2974",
-              "eng": "mute [man]"
-            },
-            {
-              "id": "greek-2980",
-              "eng": "to speak"
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "耶穌就"
+            },
+            {
+              "id": "greek-2323",
+              "cht": "醫治"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5620",
+              "cht": "甚至"
+            },
+            {
+              "id": "greek-2974",
+              "cht": "那啞巴"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "又"
+            },
+            {
+              "id": "greek-2980",
+              "cht": "能說話",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "又"
             },
             {
               "id": "greek-991",
-              "eng": "to see",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-5185"
-            },
-            {
-              "id": "greek-2532"
-            },
-            {
-              "id": "greek-2532"
+              "cht": "能看見",
+              "punct_cht": "。"
             }
           ]
         },
@@ -364,101 +343,55 @@
             "hebrew-483": 3.6363404553480576
           },
           "verseKey": "luk.11.14",
-          "cunp": "耶穌趕出一個叫人啞巴的鬼；鬼出去了，啞巴就說出話來；眾人都希奇。",
+          "nasb": "And He was casting out a demon, and it was mute; when the demon had gone out, the mute man spoke; and the crowds were amazed.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "He was"
-            },
-            {
               "id": "greek-1544",
-              "eng": "casting out"
-            },
-            {
-              "id": "greek-1140",
-              "eng": "a demon",
-              "punct": ","
+              "cht": "耶穌趕出"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "一個"
             },
             {
-              "id": "greek-846",
-              "eng": "it"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "was"
-            },
-            {
-              "id": "greek-2974",
-              "eng": "mute",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "it came to pass"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2258",
+              "cht": "叫人啞巴"
             },
             {
               "id": "greek-1140",
-              "eng": "demon"
+              "cht": "的鬼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1140",
+              "cht": "鬼"
             },
             {
               "id": "greek-1831",
-              "eng": "having gone out",
-              "punct": ","
+              "cht": "出去"
             },
             {
-              "id": "greek-2980",
-              "eng": "spoke"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2974",
-              "eng": "mute [man]",
-              "punct": "."
+              "cht": "啞巴"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-2296",
-              "eng": "marveled"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2980",
+              "cht": "就說出話來",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3793",
-              "eng": "crowds",
-              "punct": "."
+              "cht": "眾人"
             },
             {
-              "id": "greek-2258"
-            },
-            {
-              "id": "greek-2258"
-            },
-            {
-              "id": ""
+              "id": "greek-2296",
+              "cht": "都希奇",
+              "punct_cht": "。"
             }
           ]
         },
@@ -469,42 +402,41 @@
             "hebrew-483": 3.6363404553480576
           },
           "verseKey": "psa.38.13",
-          "cunp": "但我如聾子不聽， 像啞巴不開口。",
+          "nasb": "But I, like a deaf man, do not hear; And I am like a mute man who does not open his mouth.",
           "words": [
             {
               "id": "hebrew-589",
-              "eng": "But I",
-              "punct": "､"
+              "cht": "但我"
             },
             {
               "id": "hebrew-2795",
-              "eng": "like a deaf [man]"
+              "cht": "如聾子"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not",
-              "punct": "–"
+              "cht": "不"
             },
             {
               "id": "hebrew-8085",
-              "eng": "do hear"
+              "cht": "聽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-483",
-              "eng": "and like [I am] a mute"
+              "cht": "像啞巴"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-6605",
-              "eng": "who does open"
+              "cht": "開"
             },
             {
               "id": "hebrew-6310",
-              "eng": "his mouth",
-              "punct": "."
+              "cht": "口",
+              "punct_cht": "。"
             }
           ]
         },
@@ -515,100 +447,87 @@
             "hebrew-483": 3.6363404553480576
           },
           "verseKey": "exo.4.11",
-          "cunp": "耶和華對他說：「誰造人的口呢？誰使人口啞、耳聾、目明、眼瞎呢？豈不是我－耶和華嗎？",
+          "nasb": "The Lord said to him, “Who has made man’s mouth? Or who makes him mute or deaf, or seeing or blind? Is it not I, the Lord?",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "So said"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him",
-              "punct": "､"
+              "cht": "對他"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-7760",
-              "eng": "has made"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "the mouth"
+              "cht": "造"
             },
             {
               "id": "hebrew-120",
-              "eng": "of man"
+              "cht": "人的"
             },
             {
-              "id": "hebrew-176",
-              "eng": "Or"
+              "id": "hebrew-6310",
+              "cht": "口"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-7760",
-              "eng": "makes"
+              "cht": "使"
             },
             {
               "id": "hebrew-483",
-              "eng": "the mute",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
+              "cht": "人口啞、"
             },
             {
               "id": "hebrew-2795",
-              "eng": "the deaf",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
+              "cht": "耳聾、"
             },
             {
               "id": "hebrew-6493",
-              "eng": "the seeing",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
+              "cht": "目明、"
             },
             {
               "id": "hebrew-5787",
-              "eng": "the blind"
+              "cht": "眼瞎"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3808",
-              "eng": "[Have] not"
+              "cht": "豈不是"
             },
             {
               "id": "hebrew-595",
-              "eng": "I"
+              "cht": "我─"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -620,46 +539,45 @@
             "hebrew-1121": 0.3213801148138742
           },
           "verseKey": "pro.31.5",
-          "cunp": "恐怕喝了就忘記律例， 顛倒一切困苦人的是非。",
+          "nasb": "For they will drink and forget what is decreed, And pervert the rights of all the afflicted.",
           "words": [
             {
               "id": "hebrew-6435",
-              "eng": "lest"
+              "cht": "恐怕"
             },
             {
               "id": "hebrew-8354",
-              "eng": "they drink",
-              "punct": "､"
+              "cht": "喝了"
             },
             {
               "id": "hebrew-7911",
-              "eng": "and forget"
+              "cht": "就忘記"
             },
             {
               "id": "hebrew-2710",
-              "eng": "the law",
-              "punct": "､"
+              "cht": "律例",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8138",
-              "eng": "and pervert"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "the justice"
+              "cht": "顛倒"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the afflicted"
+              "cht": "一切"
             },
             {
               "id": "hebrew-6040",
-              "eng": "the afflicted",
-              "punct": "."
+              "cht": "困苦"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "的是非",
+              "punct_cht": "。"
             }
           ]
         },
@@ -670,132 +588,155 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "est.1.13",
-          "cunp": "",
+          "nasb": "Then the king said to the wise men who understood the times—for it was the custom of the king so to speak before all who knew law and justice",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "在"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
-              "id": "hebrew-2450",
-              "eng": "to the wise men",
-              "punct": "､"
+              "id": "hebrew-7138",
+              "cht": "左右"
             },
             {
-              "id": "hebrew-3045",
-              "eng": "who knew"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "the times",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "this [was]"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "manner"
+              "id": "hebrew-7200",
+              "cht": "常見"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-6440",
-              "eng": "toward"
+              "cht": "面、"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-4438",
+              "cht": "國"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "中坐"
+            },
+            {
+              "id": "hebrew-7223",
+              "cht": "高位"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6539",
+              "cht": "有波斯"
+            },
+            {
+              "id": "hebrew-4074",
+              "cht": "和米底亞"
+            },
+            {
+              "id": "hebrew-7651",
+              "cht": "的七"
+            },
+            {
+              "id": "hebrew-8269",
+              "cht": "個大臣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3771",
+              "cht": "就是甲示拿、"
+            },
+            {
+              "id": "hebrew-8369",
+              "cht": "示達、"
+            },
+            {
+              "id": "hebrew-133",
+              "cht": "押瑪他、"
+            },
+            {
+              "id": "hebrew-8659",
+              "cht": "他施斯、"
+            },
+            {
+              "id": "hebrew-4825",
+              "cht": "米力、"
+            },
+            {
+              "id": "hebrew-4826",
+              "cht": "瑪西拿、"
+            },
+            {
+              "id": "hebrew-4462",
+              "cht": "米母干",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "who understood"
+              "cht": "都是達"
             },
             {
-              "id": "hebrew-1881",
-              "eng": "law"
+              "id": "hebrew-6256",
+              "cht": "時務"
+            },
+            {
+              "id": "hebrew-2450",
+              "cht": "的明哲人",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "按"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的常規",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "辦事必先"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "詢問"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知"
             },
             {
               "id": "hebrew-1779",
-              "eng": "and justice",
-              "punct": "–"
+              "cht": "例"
             },
             {
-              "id": ""
+              "id": "hebrew-1881",
+              "cht": "明法"
             },
             {
-              "id": "hebrew-413"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-7138"
-            },
-            {
-              "id": "hebrew-7200"
-            },
-            {
-              "id": "hebrew-4438"
-            },
-            {
-              "id": "hebrew-3427"
-            },
-            {
-              "id": "hebrew-7223"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-6539"
-            },
-            {
-              "id": "hebrew-4074"
-            },
-            {
-              "id": "hebrew-7651"
-            },
-            {
-              "id": "hebrew-8269"
-            },
-            {
-              "id": "hebrew-3771"
-            },
-            {
-              "id": "hebrew-8369"
-            },
-            {
-              "id": "hebrew-133"
-            },
-            {
-              "id": "hebrew-8659"
-            },
-            {
-              "id": "hebrew-4825"
-            },
-            {
-              "id": "hebrew-4826"
-            },
-            {
-              "id": "hebrew-4462"
-            },
-            {
-              "id": "hebrew-4428"
-            },
-            {
-              "id": "hebrew-6440"
-            },
-            {
-              "id": ""
+              "id": "hebrew-559",
+              "cht": "王問他們說",
+              "punct_cht": "："
             }
           ]
         },
@@ -806,47 +747,49 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "pro.20.8",
-          "cunp": "王坐在審判的位上， 以眼目驅散諸惡。",
+          "nasb": "A king who sits on the throne of justice Disperses all evil with his eyes.",
           "words": [
             {
               "id": "hebrew-4428",
-              "eng": "A king"
+              "cht": "王"
             },
             {
               "id": "hebrew-3427",
-              "eng": "who sits"
+              "cht": "坐"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-3678",
-              "eng": "the throne"
+              "cht": "在"
             },
             {
               "id": "hebrew-1779",
-              "eng": "of judgment"
+              "cht": "審判"
             },
             {
-              "id": "hebrew-2219",
-              "eng": "Scatters"
+              "id": "hebrew-3678",
+              "cht": "的位"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "with his eyes"
+              "cht": "以眼目"
+            },
+            {
+              "id": "hebrew-2219",
+              "cht": "驅散"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "諸"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "惡",
+              "punct_cht": "。"
             }
           ]
         }

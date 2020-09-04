@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1984": "I will praise",
-          "hebrew-3068": "Yahweh",
-          "hebrew-2416": "while I live",
-          "hebrew-2167": "I will sing praises",
-          "hebrew-430": "to my God",
-          "hebrew-5750": "while I have my being",
-          "": null
+          "eng": {
+            "hebrew-1984": "I will praise",
+            "hebrew-3068": "Yahweh",
+            "hebrew-2416": "while I live",
+            "hebrew-2167": "I will sing praises",
+            "hebrew-430": "to my God",
+            "hebrew-5750": "while I have my being",
+            "": null
+          },
+          "cht": {
+            "hebrew-1984": "要讚美",
+            "hebrew-3068": "耶和華",
+            "hebrew-2416": "我一生",
+            "hebrew-2167": "要歌頌",
+            "hebrew-430": "神",
+            "hebrew-5750": "我還活的時候"
+          }
         }
       },
       "translations": {
@@ -26,38 +36,39 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "psa.47.6",
-          "cunp": "你們要向神歌頌，歌頌！ 向我們王歌頌，歌頌！",
+          "nasb": "Sing praises to God, sing praises; Sing praises to our King, sing praises.",
           "words": [
             {
-              "id": "hebrew-2167",
-              "eng": "Sing praises"
+              "id": "",
+              "cht": "你們要向"
             },
             {
               "id": "hebrew-430",
-              "eng": "to God",
-              "punct": "､"
+              "cht": "神"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing praises",
-              "punct": "–"
+              "cht": "歌頌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing praises"
+              "cht": "歌頌",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-4428",
-              "eng": "to our Sing",
-              "punct": "､"
+              "cht": "向我們王"
             },
             {
               "id": "hebrew-2167",
-              "eng": "Sing praises",
-              "punct": "."
+              "cht": "歌頌",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-2167",
+              "cht": "歌頌",
+              "punct_cht": "！"
             }
           ]
         },
@@ -67,37 +78,36 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.66.4",
-          "cunp": "全地要敬拜你，歌頌你， 要歌頌你的名。（細拉）",
+          "nasb": "All the earth will worship You, And will sing praises to You; They will sing praises to Your name.” Selah.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "全"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地"
             },
             {
               "id": "hebrew-7812",
-              "eng": "shall worship"
+              "cht": "要敬拜"
             },
             {
               "id": "hebrew-2167",
-              "eng": "and sing praises"
+              "cht": "歌頌"
             },
             {
               "id": "hebrew-2167",
-              "eng": "they shall sing praises"
+              "cht": "要歌頌"
             },
             {
               "id": "hebrew-8034",
-              "eng": "[to] Your name",
-              "punct": "."
+              "cht": "你的名（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
+              "cht": "細拉）"
             }
           ]
         },
@@ -108,50 +118,47 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "psa.113.1",
-          "cunp": "你們要讚美耶和華！ 耶和華的僕人哪，你們要讚美， 讚美耶和華的名！",
+          "nasb": "Praise the Lord! Praise, O servants of the Lord, Praise the name of the Lord.",
           "words": [
             {
               "id": "hebrew-1984",
-              "eng": "Praise"
+              "cht": "你們要讚美"
             },
             {
               "id": "hebrew-3050",
-              "eng": "YAH",
-              "punct": "."
+              "cht": "耶和華",
+              "punct_cht": "！"
             },
             {
-              "id": "hebrew-1984",
-              "eng": "Praise",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5650",
-              "eng": "servants"
+              "cht": "的僕人"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1984",
-              "eng": "Praise"
+              "cht": "你們要讚美",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "id": "hebrew-1984",
+              "cht": "讚美"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-8034",
+              "cht": "的名",
+              "punct_cht": "！"
             }
           ]
         },
@@ -162,76 +169,80 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "psa.135.1",
-          "cunp": "",
+          "nasb": "Praise the Lord! Praise the name of the Lord; Praise Him, O servants of the Lord,",
           "words": [
             {
               "id": "hebrew-1984",
-              "eng": "Praise"
+              "cht": "你們要讚美"
             },
             {
               "id": "hebrew-3050",
-              "eng": "YAH",
-              "punct": "."
+              "cht": "耶和華",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-1984",
-              "eng": "Praise"
+              "cht": "你們要讚美"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "的名",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1984",
-              "eng": "Praise [Him]"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5650",
-              "eng": "you servants"
+              "cht": "的僕人"
+            },
+            {
+              "id": "hebrew-7945",
+              "cht": "站"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "在耶和華"
             },
             {
-              "id": "hebrew-7945"
+              "id": "hebrew-1004",
+              "cht": "殿中"
             },
             {
-              "id": "hebrew-5975"
+              "id": "",
+              "cht": "站在我們",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": "hebrew-1004"
+              "id": "hebrew-1004",
+              "cht": "殿"
             },
             {
-              "id": ""
+              "id": "hebrew-2691",
+              "cht": "院中"
             },
             {
-              "id": "hebrew-430"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1004"
+              "id": "hebrew-1984",
+              "cht": "你們要讚美"
             },
             {
-              "id": "hebrew-2691"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "他",
+              "punct_cht": "！"
             }
           ]
         },
@@ -242,71 +253,71 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "jer.9.23",
-          "cunp": "耶和華如此說：「智慧人不要因他的智慧誇口，勇士不要因他的勇力誇口，財主不要因他的財物誇口。",
+          "nasb": "Thus says the Lord, “Let not a wise man boast of his wisdom, and let not the mighty man boast of his might, let not a rich man boast of his riches;",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-1984",
-              "eng": "let glory"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2450",
-              "eng": "the wise [man]"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "不要"
             },
             {
               "id": "hebrew-2451",
-              "eng": "in his wisdom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-408",
-              "eng": "and not"
+              "cht": "因他的智慧"
             },
             {
               "id": "hebrew-1984",
-              "eng": "let glory"
+              "cht": "誇口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1368",
-              "eng": "the mighty [man]"
-            },
-            {
-              "id": "hebrew-1369",
-              "eng": "in his might",
-              "punct": "､"
+              "cht": "勇士"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
+              "cht": "不要"
+            },
+            {
+              "id": "hebrew-1369",
+              "cht": "因他的勇力"
             },
             {
               "id": "hebrew-1984",
-              "eng": "let glory"
+              "cht": "誇口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6223",
-              "eng": "the rich [man]"
+              "cht": "財主"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "不要"
             },
             {
               "id": "hebrew-6239",
-              "eng": "in his riches",
-              "punct": "–"
+              "cht": "因他的財物"
+            },
+            {
+              "id": "hebrew-1984",
+              "cht": "誇口",
+              "punct_cht": "。"
             }
           ]
         },
@@ -318,47 +329,47 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.135.3",
-          "cunp": "你們要讚美耶和華！ 耶和華本為善； 要歌頌他的名， 因為這是美好的。",
+          "nasb": "Praise the Lord, for the Lord is good; Sing praises to His name, for it is lovely.",
           "words": [
             {
               "id": "hebrew-1984",
-              "eng": "Praise"
+              "cht": "你們要讚美"
             },
             {
               "id": "hebrew-3050",
-              "eng": "YAH",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "good",
-              "punct": "–"
+              "cht": "耶和華",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh [is]"
-            },
-            {
-              "id": "hebrew-2167",
-              "eng": "Sing praises"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "to His name",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "本為"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "善",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-2167",
+              "cht": "要歌頌"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "他的名",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-5273",
-              "eng": "[it is] pleasant",
-              "punct": "."
+              "cht": "這是美好的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -369,32 +380,32 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.149.3",
-          "cunp": "願他們跳舞讚美他的名， 擊鼓彈琴歌頌他！",
+          "nasb": "Let them praise His name with dancing; Let them sing praises to Him with timbrel and lyre.",
           "words": [
             {
+              "id": "hebrew-4234",
+              "cht": "願他們跳舞"
+            },
+            {
               "id": "hebrew-1984",
-              "eng": "Let them praise"
+              "cht": "讚美"
             },
             {
               "id": "hebrew-8034",
-              "eng": "His name"
-            },
-            {
-              "id": "hebrew-4234",
-              "eng": "with the dance",
-              "punct": "–"
+              "cht": "他的名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8596",
-              "eng": "with the timbrel"
+              "cht": "擊鼓"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and harp"
+              "cht": "彈琴"
             },
             {
               "id": "hebrew-2167",
-              "eng": "let them sing praises"
+              "cht": "歌頌"
             }
           ]
         },
@@ -405,92 +416,80 @@
             "hebrew-5750": 0.8328618768072236
           },
           "verseKey": "zec.1.17",
-          "cunp": "你要再宣告說，萬軍之耶和華如此說：我的城邑必再豐盛發達。耶和華必再安慰錫安，揀選耶路撒冷。」",
+          "nasb": "Again, proclaim, saying, ‘Thus says the Lord of hosts, “My cities will again overflow with prosperity, and the Lord will again comfort Zion and again choose Jerusalem.” ’ ”",
           "words": [
             {
               "id": "hebrew-5750",
-              "eng": "Again",
-              "punct": "､"
+              "cht": "你要再"
             },
             {
               "id": "hebrew-7121",
-              "eng": "proclaim"
+              "cht": "宣告"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "again"
-            },
-            {
-              "id": "hebrew-6327",
-              "eng": "shall spread out",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "My cities"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "through prosperity"
-            },
-            {
-              "id": "hebrew-5162",
-              "eng": "and will comfort"
+              "cht": "萬軍"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "之耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "我的城邑"
             },
             {
               "id": "hebrew-5750",
-              "eng": "again"
+              "cht": "必再"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "豐盛"
+            },
+            {
+              "id": "hebrew-6327",
+              "cht": "發達",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "必再"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "安慰"
             },
             {
               "id": "hebrew-6726",
-              "eng": "Zion",
-              "punct": "､"
+              "cht": "錫安",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-977",
-              "eng": "and will choose"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "again"
+              "cht": "揀選"
             },
             {
               "id": "hebrew-3389",
-              "eng": "Jerusalem",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "耶路撒冷",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -501,140 +500,128 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "2ch.5.13",
-          "cunp": "吹號的、歌唱的都一齊發聲，聲合為一，讚美感謝耶和華。吹號、敲鈸，用各種樂器，揚聲讚美耶和華說： 耶和華本為善， 他的慈愛永遠長存！ 那時，耶和華的殿有雲充滿，",
+          "nasb": "in unison when the trumpeters and the singers were to make themselves heard with one voice to praise and to glorify the Lord, and when they lifted up their voice accompanied by trumpets and cymbals and instruments of music, and when they praised the Lord  saying, “He indeed is good for His lovingkindness is everlasting,” then the house, the house of the Lord, was filled with a cloud,",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And indeed it came to pass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "when as one",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-2690",
-              "eng": "the trumpeters"
+              "cht": "吹號的、"
             },
             {
               "id": "hebrew-7891",
-              "eng": "and singers [were]"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "to make to be heard"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "sound"
+              "cht": "歌唱的"
             },
             {
               "id": "hebrew-259",
-              "eng": "one"
+              "cht": "都一齊"
             },
             {
-              "id": "hebrew-1984",
-              "eng": "in praising"
-            },
-            {
-              "id": "hebrew-3034",
-              "eng": "and thanking"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7311",
-              "eng": "and when they lifted up"
+              "id": "hebrew-8085",
+              "cht": "發聲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6963",
-              "eng": "their voice"
+              "cht": "聲"
             },
             {
-              "id": "hebrew-2689",
-              "eng": "with the trumpets"
-            },
-            {
-              "id": "hebrew-4700",
-              "eng": "and cymbals"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "and instruments"
-            },
-            {
-              "id": "hebrew-7892",
-              "eng": "of music",
-              "punct": "､"
+              "id": "hebrew-259",
+              "cht": "合為一",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1984",
-              "eng": "and praised"
+              "cht": "讚美"
+            },
+            {
+              "id": "hebrew-3034",
+              "cht": "感謝"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2689",
+              "cht": "吹號、"
+            },
+            {
+              "id": "hebrew-4700",
+              "cht": "敲鈸",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7892",
+              "cht": "用各種樂"
+            },
+            {
+              "id": "hebrew-3627",
+              "cht": "器",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7311",
+              "cht": "揚"
+            },
+            {
+              "id": "hebrew-6963",
+              "cht": "聲"
+            },
+            {
+              "id": "hebrew-1984",
+              "cht": "讚美"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3588",
-              "eng": "[saying For]"
+              "cht": "本為"
             },
             {
               "id": "hebrew-2896",
-              "eng": "[He is] good",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "ever",
-              "punct": "､"
+              "cht": "善",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2617",
-              "eng": "His mercy [endures]"
+              "cht": "他的慈愛"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "that the house"
+              "id": "hebrew-5769",
+              "cht": "永遠長存"
             },
             {
-              "id": "hebrew-4390",
-              "eng": "was filled"
-            },
-            {
-              "id": "hebrew-6051",
-              "eng": "with a cloud",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "！，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "–"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-2690"
+              "id": "hebrew-1004",
+              "cht": "的殿"
             },
             {
-              "id": ""
+              "id": "hebrew-6051",
+              "cht": "有雲"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
+              "id": "hebrew-4390",
+              "cht": "充滿",
+              "punct_cht": "，"
             }
           ]
         },
@@ -645,107 +632,106 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "ezr.3.11",
-          "cunp": "他們彼此唱和，讚美稱謝耶和華說： 他本為善， 他向以色列人永發慈愛。 他們讚美耶和華的時候，眾民大聲呼喊，因耶和華殿的根基已經立定。",
+          "nasb": "They sang, praising and giving thanks to the Lord, saying, “For He is good, for His lovingkindness is upon Israel forever.” And all the people shouted with a great shout when they praised the Lord because the foundation of the house of the Lord was laid.",
           "words": [
             {
               "id": "hebrew-6030",
-              "eng": "And they sang responsively"
+              "cht": "他們彼此唱和",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1984",
-              "eng": "praising"
+              "cht": "讚美"
             },
             {
               "id": "hebrew-3034",
-              "eng": "and giving thanks"
+              "cht": "稱謝"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "–"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "他本為"
             },
             {
               "id": "hebrew-2896",
-              "eng": "[He is] good",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "ever"
-            },
-            {
-              "id": "hebrew-2617",
-              "eng": "His mercy [endures]"
+              "cht": "善",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "toward"
+              "cht": "他向"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "."
+              "cht": "以色列人"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "And all"
+              "id": "hebrew-5769",
+              "cht": "永"
             },
             {
-              "id": "hebrew-5971",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-7321",
-              "eng": "shouted"
-            },
-            {
-              "id": "hebrew-8643",
-              "eng": "with a shout",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
+              "id": "hebrew-2617",
+              "cht": "發慈愛",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1984",
-              "eng": "when they praised"
+              "cht": "他們讚美"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "眾"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-8643",
+              "cht": "聲"
+            },
+            {
+              "id": "hebrew-7321",
+              "cht": "呼喊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-3245",
-              "eng": "the foundation was laid"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "of the house"
+              "cht": "因"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-1004",
+              "cht": "殿"
             },
             {
-              "id": ""
+              "id": "hebrew-3245",
+              "cht": "的根基已經立定",
+              "punct_cht": "。"
             }
           ]
         }

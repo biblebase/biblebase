@@ -3,19 +3,34 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "of the",
-          "greek-1063": "for",
-          "greek-5220": "married",
-          "greek-1135": "woman",
-          "greek-2198": "living",
-          "greek-435": "husband",
-          "greek-1210": "is bound",
-          "greek-3551": "law",
-          "greek-1437": "if",
-          "greek-1161": "however",
-          "greek-599": "should die",
-          "greek-2673": "she is cleared",
-          "greek-575": "from"
+          "eng": {
+            "greek-3588": "of the",
+            "greek-1063": "for",
+            "greek-5220": "married",
+            "greek-1135": "woman",
+            "greek-2198": "living",
+            "greek-435": "husband",
+            "greek-1210": "is bound",
+            "greek-3551": "law",
+            "greek-1437": "if",
+            "greek-1161": "however",
+            "greek-599": "should die",
+            "greek-2673": "she is cleared",
+            "greek-575": "from"
+          },
+          "cht": {
+            "greek-1063": "就如",
+            "greek-5220": "有了丈夫",
+            "greek-1135": "女人",
+            "greek-2198": "還活著",
+            "greek-435": "丈夫的",
+            "greek-1210": "約束",
+            "greek-3551": "律法",
+            "greek-1437": "若",
+            "greek-599": "死了",
+            "greek-2673": "就脫離了",
+            "greek-575": "就脫離了"
+          }
         }
       },
       "translations": {
@@ -35,130 +50,90 @@
             "greek-599": 0.6717396314377608
           },
           "verseKey": "rom.7.3",
-          "cunp": "所以丈夫活着，她若歸於別人，便叫淫婦；丈夫若死了，她就脫離了丈夫的律法，雖然歸於別人，也不是淫婦。",
+          "nasb": "So then, if while her husband is living she is joined to another man, she shall be called an adulteress; but if her husband dies, she is free from the law, so that she is not an adulteress though she is joined to another man.",
           "words": [
             {
               "id": "greek-686",
-              "eng": "Then"
+              "cht": "所以"
             },
             {
-              "id": "greek-3767",
-              "eng": "therefore",
-              "punct": ","
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-2198",
-              "eng": "being alive"
+              "cht": "活著",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1096",
+              "cht": "她若歸於"
             },
             {
               "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
-            },
-            {
-              "id": "greek-3428",
-              "eng": "an adulteress"
+              "cht": "別人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5537",
-              "eng": "she will be called"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "she is"
-            },
-            {
-              "id": "greek-435",
-              "eng": "to man"
-            },
-            {
-              "id": "greek-2087",
-              "eng": "another",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-599",
-              "eng": "should die"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
-            },
-            {
-              "id": "greek-1658",
-              "eng": "free"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "she is"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "[so as for]"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1511",
-              "eng": "to be"
-            },
-            {
-              "id": "greek-846",
-              "eng": "her"
+              "cht": "便叫"
             },
             {
               "id": "greek-3428",
-              "eng": "an adulteress",
-              "punct": ","
-            },
-            {
-              "id": "greek-1096",
-              "eng": "having been"
+              "cht": "淫婦",
+              "punct_cht": "；"
             },
             {
               "id": "greek-435",
-              "eng": "to man"
+              "cht": "丈夫"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "若"
+            },
+            {
+              "id": "greek-599",
+              "cht": "死了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "她就"
+            },
+            {
+              "id": "greek-1658",
+              "cht": "脫離了"
+            },
+            {
+              "id": "greek-575",
+              "cht": "丈夫的"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1096",
+              "cht": "雖然歸於"
             },
             {
               "id": "greek-2087",
-              "eng": "another",
-              "punct": "."
+              "cht": "別人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "也不"
+            },
+            {
+              "id": "greek-1511",
+              "cht": "是"
+            },
+            {
+              "id": "greek-3428",
+              "cht": "淫婦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -168,72 +143,59 @@
             "greek-2673": 3.1769789830261015
           },
           "verseKey": "1co.13.8",
-          "cunp": "愛是永不止息。先知講道之能終必歸於無有；說方言之能終必停止；知識也終必歸於無有。",
+          "nasb": "Love never fails; but if there are gifts of prophecy, they will be done away; if there are tongues, they will cease; if there is knowledge, it will be done away.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-26",
-              "eng": "Love"
+              "cht": "愛"
             },
             {
               "id": "greek-3763",
-              "eng": "never"
+              "cht": "是永不"
             },
             {
-              "id": "greek-4098",
-              "eng": "fails",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1535",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "id": "greek-1601",
+              "cht": "止息",
+              "punct_cht": "。"
             },
             {
               "id": "greek-4394",
-              "eng": "[there are] prophesies",
-              "punct": ","
+              "cht": "先知"
+            },
+            {
+              "id": "greek-1161",
+              "cht": "講道之能終必"
             },
             {
               "id": "greek-2673",
-              "eng": "they will be done away",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1535",
-              "eng": "if"
+              "cht": "歸於無有",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1100",
-              "eng": "tongues",
-              "punct": ","
-            },
-            {
-              "id": "greek-3973",
-              "eng": "they will be ceased",
-              "punct": ";"
+              "cht": "說方言"
             },
             {
               "id": "greek-1535",
-              "eng": "if"
+              "cht": "之能終必"
+            },
+            {
+              "id": "greek-3973",
+              "cht": "停止",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1108",
-              "eng": "knowledge"
+              "cht": "知識"
+            },
+            {
+              "id": "greek-1535",
+              "cht": "也終必"
             },
             {
               "id": "greek-2673",
-              "eng": "it will pass away",
-              "punct": "."
-            },
-            {
-              "id": "greek-1601"
+              "cht": "歸於無有",
+              "punct_cht": "。"
             }
           ]
         },
@@ -246,105 +208,85 @@
             "greek-1210": 1.8210031994102585
           },
           "verseKey": "1co.7.39",
-          "cunp": "丈夫活着的時候，妻子是被約束的；丈夫若死了，妻子就可以自由，隨意再嫁，只是要嫁這在主裏面的人。",
+          "nasb": "A wife is bound as long as her husband lives; but if her husband is dead, she is free to be married to whom she wishes, only in the Lord.",
           "words": [
             {
-              "id": "greek-1135",
-              "eng": "A wife"
-            },
-            {
-              "id": "greek-1210",
-              "eng": "is bound"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3745",
-              "eng": "as long as"
-            },
-            {
-              "id": "greek-5550",
-              "eng": "time"
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-2198",
-              "eng": "may live"
+              "cht": "活著"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5550",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1135",
+              "cht": "妻子"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "是被"
+            },
+            {
+              "id": "greek-1210",
+              "cht": "約束"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-435",
-              "eng": "husband"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of her",
-              "punct": ";"
+              "cht": "丈夫"
             },
             {
               "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "若"
             },
             {
               "id": "greek-2837",
-              "eng": "shall have died"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
-            },
-            {
-              "id": "greek-1658",
-              "eng": "free"
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2076",
-              "eng": "she is"
+              "cht": "妻子就可以"
             },
             {
-              "id": "greek-3739",
-              "eng": "to whom"
+              "id": "greek-1658",
+              "cht": "自由",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2309",
-              "eng": "she wills"
+              "cht": "隨意"
             },
             {
               "id": "greek-1060",
-              "eng": "to be married",
-              "punct": ","
+              "cht": "再嫁",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3440",
-              "eng": "only"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
+              "cht": "只"
             },
             {
               "id": "greek-2962",
-              "eng": "[the] Lord",
-              "punct": "."
+              "cht": "是要嫁這在主"
             },
             {
-              "id": "greek-3551"
+              "id": "greek-1722",
+              "cht": "裡面"
             },
             {
-              "id": ""
+              "id": "greek-3739",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -355,58 +297,55 @@
             "greek-2673": 3.1769789830261015
           },
           "verseKey": "rom.3.31",
-          "cunp": "這樣，我們因信廢了律法嗎？斷乎不是！更是堅固律法。",
+          "nasb": "Do we then nullify the Law through faith? May it never be! On the contrary, we establish the Law.",
           "words": [
             {
-              "id": "greek-3551",
-              "eng": "Law"
-            },
-            {
               "id": "greek-3767",
-              "eng": "then"
-            },
-            {
-              "id": "greek-2673",
-              "eng": "do we nullify"
+              "cht": "這樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我們因"
             },
             {
               "id": "greek-4102",
-              "eng": "faith",
-              "punct": "?"
+              "cht": "信"
             },
             {
-              "id": "greek-3361",
-              "eng": "Never"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "may it be",
-              "punct": "!"
-            },
-            {
-              "id": "greek-235",
-              "eng": "Instead",
-              "punct": ","
+              "id": "greek-2673",
+              "cht": "廢了"
             },
             {
               "id": "greek-3551",
-              "eng": "Law"
+              "cht": "律法"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "斷乎不"
+            },
+            {
+              "id": "greek-1096",
+              "cht": "是",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-235",
+              "cht": "更是"
             },
             {
               "id": "greek-2476",
-              "eng": "we uphold",
-              "punct": "."
+              "cht": "堅固"
             },
             {
-              "id": ""
+              "id": "greek-3551",
+              "cht": "律法",
+              "punct_cht": "。"
             }
           ]
         },
@@ -417,197 +356,126 @@
             "greek-1210": 1.8210031994102585
           },
           "verseKey": "act.21.11",
-          "cunp": "到了我們這裏，就拿保羅的腰帶捆上自己的手腳，說：「聖靈說：猶太人在耶路撒冷，要如此捆綁這腰帶的主人，把他交在外邦人手裏。」",
+          "nasb": "And coming to us, he took Paul’s belt and bound his own feet and hands, and said, “This is what the Holy Spirit says: ‘In this way the Jews at Jerusalem will bind the man who owns this belt and deliver him into the hands of the Gentiles.’ ”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
               "id": "greek-2064",
-              "eng": "having come"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
+              "cht": "到了"
             },
             {
               "id": "greek-2248",
-              "eng": "us",
-              "punct": ","
+              "cht": "我們"
+            },
+            {
+              "id": "",
+              "cht": "這裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "就"
             },
             {
               "id": "greek-142",
-              "eng": "having taken"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2223",
-              "eng": "belt"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "拿"
             },
             {
               "id": "greek-3972",
-              "eng": "of Paul",
-              "punct": ","
-            },
-            {
-              "id": "greek-1210",
-              "eng": "having bound"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "of himself"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4228",
-              "eng": "feet"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5495",
-              "eng": "hands",
-              "punct": ","
-            },
-            {
-              "id": "greek-2036",
-              "eng": "he said",
-              "punct": ","
-            },
-            {
-              "id": "greek-3592",
-              "eng": "Thus"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "says"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-40",
-              "eng": "Holy",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
-              "id": "greek-435",
-              "eng": "man"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "of whom"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "保羅"
             },
             {
               "id": "greek-2223",
-              "eng": "belt"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this",
-              "punct": ","
-            },
-            {
-              "id": "greek-3779",
-              "eng": "in this way"
+              "cht": "的腰帶"
             },
             {
               "id": "greek-1210",
-              "eng": "will bind"
+              "cht": "捆"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-2419",
-              "eng": "Jerusalem"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2453",
-              "eng": "Jews"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3860",
-              "eng": "will deliver [him]"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
+              "id": "greek-846",
+              "cht": "上自己"
             },
             {
               "id": "greek-5495",
-              "eng": "[the] hands"
+              "cht": "的手"
+            },
+            {
+              "id": "greek-4228",
+              "cht": "腳",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-40",
+              "cht": "聖"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "靈"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-3779",
+              "cht": "猶太人"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-2419",
+              "cht": "耶路撒冷",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3779",
+              "cht": "要如此"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "捆綁"
+            },
+            {
+              "id": "greek-3778",
+              "cht": "這"
+            },
+            {
+              "id": "greek-2223",
+              "cht": "腰帶"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "的主"
+            },
+            {
+              "id": "greek-435",
+              "cht": "人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3860",
+              "cht": "把他交在"
             },
             {
               "id": "greek-1484",
-              "eng": "of [the] Gentiles",
-              "punct": "."
+              "cht": "外邦人"
             },
             {
-              "id": ""
+              "id": "greek-5495",
+              "cht": "手"
             },
             {
-              "id": "greek-5037"
-            },
-            {
-              "id": "greek-846"
-            },
-            {
-              "id": "greek-3779"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -619,100 +487,85 @@
             "greek-2673": 3.1769789830261015
           },
           "verseKey": "rom.7.6",
-          "cunp": "但我們既然在捆我們的律法上死了，現今就脫離了律法，叫我們服事主，要按着心靈的新樣，不按着儀文的舊樣。",
+          "nasb": "But now we have been released from the Law, having died to that by which we were bound, so that we serve in newness of the Spirit and not in oldness of the letter.",
           "words": [
             {
-              "id": "greek-3570",
-              "eng": "Now"
-            },
-            {
               "id": "greek-1161",
-              "eng": "however"
+              "cht": "但"
             },
             {
-              "id": "greek-2673",
-              "eng": "we have been released"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law",
-              "punct": ","
-            },
-            {
-              "id": "greek-599",
-              "eng": "having died"
+              "id": "greek-3570",
+              "cht": "我們既然"
             },
             {
               "id": "greek-1722",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "that which"
+              "cht": "在"
             },
             {
               "id": "greek-2722",
-              "eng": "we were bound",
-              "punct": ","
+              "cht": "捆"
+            },
+            {
+              "id": "greek-599",
+              "cht": "我們的律法上死了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-575",
+              "cht": "現今就脫離了"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5620",
-              "eng": "in order for"
-            },
-            {
-              "id": "greek-1398",
-              "eng": "to serve"
+              "cht": "叫"
             },
             {
               "id": "greek-2248",
-              "eng": "us"
+              "cht": "我們"
+            },
+            {
+              "id": "greek-1398",
+              "cht": "服事"
+            },
+            {
+              "id": "",
+              "cht": "主",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-2538",
-              "eng": "newness"
+              "cht": "要按著"
             },
             {
               "id": "greek-4151",
-              "eng": "of [the] Spirit",
-              "punct": ","
+              "cht": "心靈"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "（心靈或作聖靈）",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-2538",
+              "cht": "的新樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3821",
-              "eng": "in oldness"
+              "cht": "不"
             },
             {
               "id": "greek-1121",
-              "eng": "of [the] letter",
-              "punct": "."
+              "cht": "按著儀文"
             },
             {
-              "id": "greek-599"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-3821",
+              "cht": "的舊樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -723,109 +576,77 @@
             "greek-599": 0.6717396314377608
           },
           "verseKey": "rom.14.8",
-          "cunp": "我們若活着，是為主而活；若死了，是為主而死。所以，我們或活或死總是主的人。",
+          "nasb": "for if we live, we live for the Lord, or if we die, we die for the Lord; therefore whether we live or die, we are the Lord’s.",
           "words": [
             {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
               "id": "greek-5037",
-              "eng": "both"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
+              "cht": "我們若"
             },
             {
               "id": "greek-2198",
-              "eng": "we should live",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "活著",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "是為主"
             },
             {
               "id": "greek-2198",
-              "eng": "we live",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
+              "cht": "而活",
+              "punct_cht": "；"
             },
             {
               "id": "greek-5037",
-              "eng": "also"
+              "cht": "若"
             },
             {
               "id": "greek-599",
-              "eng": "we should die",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2962",
-              "eng": "Lord"
+              "cht": "是為主"
             },
             {
               "id": "greek-599",
-              "eng": "we die",
-              "punct": "."
-            },
-            {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "both"
+              "cht": "而死",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "we should live",
-              "punct": ","
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1437",
-              "eng": "if"
+              "cht": "我們或"
             },
             {
-              "id": "greek-5037",
-              "eng": "also"
+              "id": "greek-2198",
+              "cht": "活"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "或"
             },
             {
               "id": "greek-599",
-              "eng": "we should die",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "Lord’s"
+              "cht": "死"
             },
             {
               "id": "greek-2070",
-              "eng": "we are",
-              "punct": "."
+              "cht": "總是"
             },
             {
-              "id": ""
+              "id": "greek-2962",
+              "cht": "主的"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -836,95 +657,81 @@
             "greek-2673": 3.1769789830261015
           },
           "verseKey": "1co.13.11",
-          "cunp": "我作孩子的時候，話語像孩子，心思像孩子，意念像孩子，既成了人，就把孩子的事丟棄了。",
+          "nasb": "When I was a child, I used to speak like a child, think like a child, reason like a child; when I became a man, I did away with childish things.",
           "words": [
             {
-              "id": "greek-3753",
-              "eng": "When"
-            },
-            {
               "id": "greek-2252",
-              "eng": "I was"
+              "cht": "我作"
             },
             {
               "id": "greek-3516",
-              "eng": "a child",
-              "punct": ","
+              "cht": "孩子"
+            },
+            {
+              "id": "greek-3753",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2980",
-              "eng": "I was speaking"
+              "cht": "話語"
             },
             {
               "id": "greek-5613",
-              "eng": "like"
+              "cht": "像"
             },
             {
               "id": "greek-3516",
-              "eng": "a child",
-              "punct": ","
+              "cht": "孩子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5426",
-              "eng": "I was thinking"
+              "cht": "心思"
             },
             {
               "id": "greek-5613",
-              "eng": "like"
+              "cht": "像"
             },
             {
-              "id": "greek-3516",
-              "eng": "a child",
-              "punct": ","
+              "id": "",
+              "cht": "孩子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3049",
-              "eng": "I was reasoning"
+              "cht": "意念"
             },
             {
               "id": "greek-5613",
-              "eng": "like"
+              "cht": "像"
             },
             {
               "id": "greek-3516",
-              "eng": "a child",
-              "punct": ";"
+              "cht": "孩子",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3753",
-              "eng": "when"
+              "id": "greek-1161",
+              "cht": "既"
             },
             {
               "id": "greek-1096",
-              "eng": "I became"
+              "cht": "成了"
             },
             {
               "id": "greek-435",
-              "eng": "a man",
-              "punct": ","
-            },
-            {
-              "id": "greek-2673",
-              "eng": "I did away with"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3516",
-              "eng": "child",
-              "punct": "."
+              "cht": "就把孩子的事"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-1161"
+              "id": "greek-2673",
+              "cht": "丟棄了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -935,109 +742,83 @@
             "greek-2673": 3.1769789830261015
           },
           "verseKey": "eph.2.15",
-          "cunp": "而且以自己的身體廢掉冤仇，就是那記在律法上的規條，為要將兩下藉着自己造成一個新人，如此便成就了和睦。",
+          "nasb": "by abolishing in His flesh the enmity, which is the Law of commandments contained in ordinances, so that in Himself He might make the two into one new man, thus establishing peace,",
           "words": [
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "flesh"
+              "cht": "而且以"
             },
             {
               "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
+              "cht": "自己的"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1785",
-              "eng": "of commandments"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-1378",
-              "eng": "ordinances"
+              "id": "greek-4561",
+              "cht": "身體"
             },
             {
               "id": "greek-2673",
-              "eng": "having annulled",
-              "punct": ","
+              "cht": "廢掉"
             },
             {
-              "id": "greek-2443",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1417",
-              "eng": "two"
-            },
-            {
-              "id": "greek-2936",
-              "eng": "He might create"
+              "id": "greek-2189",
+              "cht": "冤仇",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "就是那記在"
             },
             {
-              "id": "greek-848",
-              "eng": "Himself"
+              "id": "greek-1378",
+              "cht": "律法"
             },
             {
-              "id": "greek-1519",
-              "eng": "into"
+              "id": "greek-1785",
+              "cht": "上的規條",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2443",
+              "cht": "為要"
+            },
+            {
+              "id": "greek-1417",
+              "cht": "將兩下"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "藉著"
+            },
+            {
+              "id": "greek-1438",
+              "cht": "自己"
+            },
+            {
+              "id": "greek-2936",
+              "cht": "造成"
             },
             {
               "id": "greek-1520",
-              "eng": "one"
+              "cht": "一個"
             },
             {
               "id": "greek-2537",
-              "eng": "new"
+              "cht": "新"
             },
             {
               "id": "greek-444",
-              "eng": "man",
-              "punct": ","
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4160",
-              "eng": "making"
+              "cht": "如此便成就"
             },
             {
               "id": "greek-1515",
-              "eng": "peace",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2189"
-            },
-            {
-              "id": "greek-1438"
+              "cht": "了和睦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -1048,111 +829,75 @@
             "greek-2673": 3.1769789830261015
           },
           "verseKey": "gal.3.17",
-          "cunp": "我是這麼說，神預先所立的約，不能被那四百三十年以後的律法廢掉，叫應許歸於虛空。",
+          "nasb": "What I am saying is this: the Law, which came four hundred and thirty years later, does not invalidate a covenant previously ratified by God, so as to nullify the promise.",
           "words": [
             {
               "id": "greek-5124",
-              "eng": "This"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
+              "cht": "我是這麼"
             },
             {
               "id": "greek-3004",
-              "eng": "I say",
-              "punct": ":"
-            },
-            {
-              "id": "greek-1242",
-              "eng": "[The] covenant",
-              "punct": ","
-            },
-            {
-              "id": "greek-4300",
-              "eng": "having been confirmed beforehand"
-            },
-            {
-              "id": "greek-5259",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3326",
-              "eng": "afterward"
-            },
-            {
-              "id": "greek-5071",
-              "eng": "four hundred"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5144",
-              "eng": "thirty"
-            },
-            {
-              "id": "greek-2094",
-              "eng": "years"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "having come",
-              "punct": ","
-            },
-            {
-              "id": "greek-3551",
-              "eng": "[the] law"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-208",
-              "eng": "does annul",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1519",
-              "eng": "so as"
+              "cht": "神"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4300",
+              "cht": "預先所立的"
             },
             {
-              "id": "greek-2673",
-              "eng": "to nullify"
+              "id": "greek-1242",
+              "cht": "約",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3756",
+              "cht": "不能"
+            },
+            {
+              "id": "greek-1096",
+              "cht": "被那"
+            },
+            {
+              "id": "greek-5071",
+              "cht": "四百"
+            },
+            {
+              "id": "greek-5144",
+              "cht": "三十"
+            },
+            {
+              "id": "greek-2094",
+              "cht": "年"
+            },
+            {
+              "id": "greek-3326",
+              "cht": "以後的"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法"
+            },
+            {
+              "id": "greek-208",
+              "cht": "廢掉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "叫"
             },
             {
               "id": "greek-1860",
-              "eng": "promise",
-              "punct": "."
+              "cht": "應許"
             },
             {
-              "id": "greek-5547"
-            },
-            {
-              "id": "greek-1519"
+              "id": "greek-2673",
+              "cht": "歸於虛空",
+              "punct_cht": "。"
             }
           ]
         }

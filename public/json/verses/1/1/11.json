@@ -3,22 +3,41 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-559": "And said",
-          "hebrew-430": "God",
-          "hebrew-1876": "let bring forth",
-          "hebrew-776": "the earth",
-          "hebrew-1877": "grass",
-          "hebrew-6212": "the herb",
-          "hebrew-2232": "[that] yields",
-          "hebrew-2233": "seed [is]",
-          "hebrew-6086": "[and] the tree",
-          "hebrew-6529": "fruit",
-          "hebrew-6213": "[that] yields",
-          "hebrew-4327": "according to its kind",
-          "hebrew-834": "whose",
-          "hebrew-5921": "on",
-          "hebrew-1961": "and it was",
-          "hebrew-3651": "so"
+          "eng": {
+            "hebrew-559": "And said",
+            "hebrew-430": "God",
+            "hebrew-1876": "let bring forth",
+            "hebrew-776": "the earth",
+            "hebrew-1877": "grass",
+            "hebrew-6212": "the herb",
+            "hebrew-2232": "[that] yields",
+            "hebrew-2233": "seed [is]",
+            "hebrew-6086": "[and] the tree",
+            "hebrew-6529": "fruit",
+            "hebrew-6213": "[that] yields",
+            "hebrew-4327": "according to its kind",
+            "hebrew-834": "whose",
+            "hebrew-5921": "on",
+            "hebrew-1961": "and it was",
+            "hebrew-3651": "so"
+          },
+          "cht": {
+            "hebrew-559": "說",
+            "hebrew-430": "神",
+            "hebrew-1876": "要發生",
+            "hebrew-776": "地",
+            "hebrew-1877": "青草",
+            "hebrew-6212": "的菜蔬",
+            "hebrew-2232": "和結",
+            "hebrew-2233": "都包著核",
+            "hebrew-6086": "的樹木",
+            "hebrew-6529": "的樹木",
+            "hebrew-6213": "並結",
+            "hebrew-4327": "各從其類",
+            "hebrew-834": "果子",
+            "hebrew-1961": "成了",
+            "hebrew-3651": "事就這樣"
+          }
         }
       },
       "translations": {
@@ -45,110 +64,94 @@
             "hebrew-1961": 0.35469167652543065
           },
           "verseKey": "gen.1.29",
-          "cunp": "神說：「看哪，我將遍地上一切結種子的菜蔬和一切樹上所結有核的果子全賜給你們作食物。",
+          "nasb": "Then God said, “Behold, I have given you every plant yielding seed that is on the surface of all the earth, and every tree which has fruit yielding seed; it shall be food for you;",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
-              "id": "hebrew-430",
-              "eng": "God",
-              "punct": "､"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "I have given"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "herb"
-            },
-            {
-              "id": "hebrew-2232",
-              "eng": "[that] yields"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "seed",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "which [is]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face"
+              "cht": "我將"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "遍"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "地"
             },
             {
-              "id": "hebrew-853",
-              "eng": "and"
+              "id": "hebrew-6440",
+              "cht": "上"
             },
             {
               "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-6529",
-              "eng": "[is] the fruit"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "of a tree"
+              "cht": "一切"
             },
             {
               "id": "hebrew-2232",
-              "eng": "yielding"
+              "cht": "結"
             },
             {
               "id": "hebrew-2233",
-              "eng": "seed",
-              "punct": "–"
+              "cht": "種子"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "的菜蔬"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "樹"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-2232",
+              "cht": "結"
+            },
+            {
+              "id": "hebrew-2233",
+              "cht": "有核"
+            },
+            {
+              "id": "hebrew-6529",
+              "cht": "的果子"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "全賜"
             },
             {
               "id": "hebrew-1961",
-              "eng": "it shall be"
+              "cht": "作"
             },
             {
               "id": "hebrew-402",
-              "eng": "for food",
-              "punct": "."
+              "cht": "食物",
+              "punct_cht": "。"
             }
           ]
         },
@@ -165,80 +168,77 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "gen.1.12",
-          "cunp": "於是地發生了青草和結種子的菜蔬，各從其類；並結果子的樹木，各從其類；果子都包着核。神看着是好的。",
+          "nasb": "The earth brought forth vegetation, plants yielding seed after their kind, and trees bearing fruit with seed in them, after their kind; and God saw that it was good.",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "And brought forth"
+              "id": "hebrew-776",
+              "cht": "於是地"
             },
             {
-              "id": "hebrew-776",
-              "eng": "the earth"
+              "id": "hebrew-3318",
+              "cht": "發生了"
             },
             {
               "id": "hebrew-1877",
-              "eng": "grass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "the herb"
+              "cht": "青草"
             },
             {
               "id": "hebrew-2232",
-              "eng": "[that] yields"
+              "cht": "和結"
             },
             {
               "id": "hebrew-2233",
-              "eng": "seed"
+              "cht": "種子"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "的菜蔬",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4327",
-              "eng": "according to its kind",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "and the tree"
+              "cht": "各從其類",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6213",
-              "eng": "[that] yields"
+              "cht": "並結"
             },
             {
               "id": "hebrew-6529",
-              "eng": "fruit",
-              "punct": "､"
+              "cht": "果子"
             },
             {
-              "id": "hebrew-834",
-              "eng": "whose"
-            },
-            {
-              "id": "hebrew-2233",
-              "eng": "seed [is]"
+              "id": "hebrew-6086",
+              "cht": "的樹木",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4327",
-              "eng": "according to its kind",
-              "punct": "–"
+              "cht": "各從其類",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "and saw"
+              "id": "hebrew-834",
+              "cht": "果子"
+            },
+            {
+              "id": "hebrew-2233",
+              "cht": "都包著核",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-7200",
+              "cht": "看著"
             },
             {
               "id": "hebrew-2896",
-              "eng": "[it was] good",
-              "punct": "."
+              "cht": "是好的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -249,78 +249,73 @@
             "hebrew-6086": 1.010826773682372
           },
           "verseKey": "jol.2.22",
-          "cunp": "田野的走獸啊，不要懼怕； 因為，曠野的草發生， 樹木結果， 無花果樹、葡萄樹也都效力。",
+          "nasb": "Do not fear, beasts of the field, For the pastures of the wilderness have turned green, For the tree has borne its fruit, The fig tree and the vine have yielded in full.",
           "words": [
             {
-              "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-3372",
-              "eng": "do be afraid"
+              "id": "hebrew-7704",
+              "cht": "田野"
             },
             {
               "id": "hebrew-929",
-              "eng": "you beasts"
+              "cht": "的走獸啊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "–"
+              "id": "hebrew-408",
+              "cht": "不要"
+            },
+            {
+              "id": "hebrew-3372",
+              "cht": "懼怕",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-1876",
-              "eng": "are springing up",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4999",
-              "eng": "the pastures"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4057",
-              "eng": "open"
+              "cht": "曠野"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-4999",
+              "cht": "的草"
+            },
+            {
+              "id": "hebrew-1876",
+              "cht": "發生",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6086",
-              "eng": "the tree"
+              "cht": "樹木"
             },
             {
               "id": "hebrew-5375",
-              "eng": "and bears"
+              "cht": "結"
             },
             {
               "id": "hebrew-6529",
-              "eng": "its fruit",
-              "punct": "､"
+              "cht": "果",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8384",
-              "eng": "the fig tree"
+              "cht": "無花果樹、"
             },
             {
               "id": "hebrew-1612",
-              "eng": "and the vine"
+              "cht": "葡萄樹"
             },
             {
               "id": "hebrew-5414",
-              "eng": "yield"
+              "cht": "也都效"
             },
             {
-              "id": "hebrew-2426",
-              "eng": "their strength",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2428"
+              "id": "hebrew-2428",
+              "cht": "力",
+              "punct_cht": "。"
             }
           ]
         },
@@ -332,130 +327,118 @@
             "hebrew-6529": 1.4911194484118344
           },
           "verseKey": "exo.10.15",
-          "cunp": "因為這蝗蟲遮滿地面，甚至地都黑暗了，又吃地上一切的菜蔬和冰雹所剩樹上的果子。埃及遍地，無論是樹木，是田間的菜蔬，連一點青的也沒有留下。",
+          "nasb": "For they covered the surface of the whole land, so that the land was darkened; and they ate every plant of the land and all the fruit of the trees that the hail had left. Thus nothing green was left on tree or plant of the field through all the land of Egypt.",
           "words": [
             {
               "id": "hebrew-3680",
-              "eng": "For they covered"
+              "cht": "因為這蝗蟲遮"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3605",
+              "cht": "滿"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
               "id": "hebrew-5869",
-              "eng": "the face"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "､"
+              "cht": "甚至地"
             },
             {
               "id": "hebrew-2821",
-              "eng": "so that was darkened"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "."
+              "cht": "都黑暗了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "And they ate"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "herb"
+              "cht": "又吃"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "地"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "上一切"
             },
             {
-              "id": "hebrew-6529",
-              "eng": "the fruit"
+              "id": "hebrew-6212",
+              "cht": "的菜蔬"
             },
             {
-              "id": "hebrew-6086",
-              "eng": "of the trees"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3498",
-              "eng": "had left"
+              "id": "hebrew-853",
+              "cht": "和"
             },
             {
               "id": "hebrew-1259",
-              "eng": "the hail",
-              "punct": "."
+              "cht": "冰雹"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "So not"
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-3498",
-              "eng": "there remained"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "anything"
-            },
-            {
-              "id": "hebrew-3418",
-              "eng": "green"
+              "cht": "剩"
             },
             {
               "id": "hebrew-6086",
-              "eng": "on the trees",
-              "punct": "､"
+              "cht": "樹上"
             },
             {
-              "id": "hebrew-6212",
-              "eng": "or on the plants"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "throughout all"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "id": "hebrew-6529",
+              "cht": "的果子",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "埃及"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "遍"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "無論是樹木",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7704",
+              "cht": "是田間"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "的菜蔬",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "連一點"
+            },
+            {
+              "id": "hebrew-3418",
+              "cht": "青的"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "也沒有"
+            },
+            {
+              "id": "hebrew-3498",
+              "cht": "留下",
+              "punct_cht": "。"
             }
           ]
         },
@@ -467,119 +450,80 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "mat.12.33",
-          "cunp": "「你們或以為樹好，果子也好；樹壞，果子也壞；因為看果子就可以知道樹。",
+          "nasb": "“Either make the tree good and its fruit good, or make the tree bad and its fruit bad; for the tree is known by its fruit.",
           "words": [
             {
               "id": "greek-2228",
-              "eng": "Either"
+              "cht": "你們或"
             },
             {
               "id": "greek-4160",
-              "eng": "make"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "以為"
             },
             {
               "id": "greek-1186",
-              "eng": "tree"
+              "cht": "樹"
             },
             {
               "id": "greek-2570",
-              "eng": "good"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "好",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2590",
-              "eng": "fruit"
+              "cht": "果子"
             },
             {
-              "id": "greek-846",
-              "eng": "of it"
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-2570",
-              "eng": "good",
-              "punct": ","
-            },
-            {
-              "id": "greek-2228",
-              "eng": "or"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "make"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "好",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1186",
-              "eng": "tree"
+              "cht": "樹"
             },
             {
               "id": "greek-4550",
-              "eng": "bad"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "壞",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2590",
-              "eng": "fruit"
+              "cht": "果子"
             },
             {
-              "id": "greek-846",
-              "eng": "of it"
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-4550",
-              "eng": "bad",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "by"
+              "cht": "壞",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1537",
+              "cht": "看"
             },
             {
               "id": "greek-2590",
-              "eng": "fruit",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1186",
-              "eng": "tree"
+              "cht": "果子"
             },
             {
               "id": "greek-1097",
-              "eng": "is known",
-              "punct": "."
+              "cht": "就可以知道"
+            },
+            {
+              "id": "greek-1186",
+              "cht": "樹",
+              "punct_cht": "。"
             }
           ]
         },
@@ -591,76 +535,77 @@
             "hebrew-1961": 0.35469167652543065
           },
           "verseKey": "isa.37.27",
-          "cunp": "所以其中的居民力量甚小， 驚惶羞愧。 他們像野草，像青菜， 如房頂上的草， 又如田間未長成的禾稼。",
+          "nasb": "Therefore their inhabitants were short of strength, They were dismayed and put to shame; They were as the vegetation of the field and as the green herb, As grass on the housetops is scorched before it is grown up.",
           "words": [
             {
               "id": "hebrew-3427",
-              "eng": "Therefore their inhabitants [had]"
-            },
-            {
-              "id": "hebrew-7116",
-              "eng": "little"
+              "cht": "所以其中的居民"
             },
             {
               "id": "hebrew-3027",
-              "eng": "power",
-              "punct": "､"
+              "cht": "力量"
+            },
+            {
+              "id": "hebrew-7116",
+              "cht": "甚小",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2865",
-              "eng": "they were dismayed"
+              "cht": "驚惶"
             },
             {
               "id": "hebrew-954",
-              "eng": "and confounded",
-              "punct": "–"
+              "cht": "羞愧",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1961",
-              "eng": "they were"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "[as] the grass"
+              "cht": "他們"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "像野"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3419",
-              "eng": "and the green"
+              "cht": "像青"
             },
             {
               "id": "hebrew-1877",
-              "eng": "herb",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2682",
-              "eng": "[As] the grass on"
+              "cht": "菜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1406",
-              "eng": "the housetops",
-              "punct": "､"
+              "cht": "如房頂上"
+            },
+            {
+              "id": "hebrew-2682",
+              "cht": "的草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7709",
-              "eng": "and [grain] blighted"
+              "cht": "又如田間"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "未"
             },
             {
               "id": "hebrew-7054",
-              "eng": "it is grown",
-              "punct": "."
+              "cht": "長成"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的禾稼",
+              "punct_cht": "。"
             }
           ]
         },
@@ -672,73 +617,73 @@
             "hebrew-1961": 0.35469167652543065
           },
           "verseKey": "2ki.19.26",
-          "cunp": "所以其中的居民力量甚小， 驚惶羞愧。 他們像野草，像青菜， 如房頂上的草， 又如未長成而枯乾的禾稼。",
+          "nasb": "Therefore their inhabitants were short of strength, They were dismayed and put to shame; They were as the vegetation of the field and as the green herb, As grass on the housetops is scorched before it is grown up.",
           "words": [
             {
               "id": "hebrew-3427",
-              "eng": "Therefore their inhabitants had"
-            },
-            {
-              "id": "hebrew-7116",
-              "eng": "little"
+              "cht": "所以其中的居民"
             },
             {
               "id": "hebrew-3027",
-              "eng": "power",
-              "punct": "､"
+              "cht": "力量"
+            },
+            {
+              "id": "hebrew-7116",
+              "cht": "甚小",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2865",
-              "eng": "they were dismayed"
+              "cht": "驚惶"
             },
             {
               "id": "hebrew-954",
-              "eng": "and confounded",
-              "punct": "–"
+              "cht": "羞愧",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1961",
-              "eng": "they were"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "[as] the grass"
+              "cht": "他們"
             },
             {
               "id": "hebrew-7704",
-              "eng": "of the field",
-              "punct": "､"
+              "cht": "像野"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3419",
-              "eng": "and the green"
+              "cht": "像青"
             },
             {
               "id": "hebrew-1877",
-              "eng": "herb",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2682",
-              "eng": "[As] the grass on"
+              "cht": "菜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1406",
-              "eng": "the housetops",
-              "punct": "､"
+              "cht": "如房頂上"
             },
             {
-              "id": "hebrew-7711",
-              "eng": "and [grain] blighted"
+              "id": "hebrew-2682",
+              "cht": "的草",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "又如未長成"
+            },
+            {
+              "id": "hebrew-7711",
+              "cht": "而枯乾的"
             },
             {
               "id": "hebrew-7054",
-              "eng": "it is grown",
-              "punct": "."
+              "cht": "禾稼",
+              "punct_cht": "。"
             }
           ]
         },
@@ -749,38 +694,38 @@
             "hebrew-6212": 2.943137453388001
           },
           "verseKey": "pro.27.25",
-          "cunp": "乾草割去，嫩草發現， 山上的菜蔬也被收斂。",
+          "nasb": "When the grass disappears, the new growth is seen, And the herbs of the mountains are gathered in,",
           "words": [
             {
-              "id": "hebrew-1540",
-              "eng": "is removed",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-2682",
-              "eng": "[when] the hay"
+              "cht": "乾草"
             },
             {
-              "id": "hebrew-7200",
-              "eng": "and shows itself",
-              "punct": "､"
+              "id": "hebrew-1540",
+              "cht": "割去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1877",
-              "eng": "the tender grass"
+              "cht": "嫩草"
             },
             {
-              "id": "hebrew-622",
-              "eng": "and are gathered in"
-            },
-            {
-              "id": "hebrew-6212",
-              "eng": "the herbs"
+              "id": "hebrew-7200",
+              "cht": "發現",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the mountains",
-              "punct": "."
+              "cht": "山上"
+            },
+            {
+              "id": "hebrew-6212",
+              "cht": "的菜蔬"
+            },
+            {
+              "id": "hebrew-622",
+              "cht": "也被收斂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -791,65 +736,67 @@
             "hebrew-6212": 2.943137453388001
           },
           "verseKey": "deu.32.2",
-          "cunp": "我的教訓要淋漓如雨； 我的言語要滴落如露， 如細雨降在嫩草上， 如甘霖降在菜蔬中。",
+          "nasb": "Let my teaching drop as the rain, My speech distill as the dew, As the droplets on the fresh grass And as the showers on the herb.",
           "words": [
             {
+              "id": "hebrew-3948",
+              "cht": "我的教訓"
+            },
+            {
               "id": "hebrew-6201",
-              "eng": "Let drop"
+              "cht": "要淋漓"
             },
             {
               "id": "hebrew-4306",
-              "eng": "as the rain",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3948",
-              "eng": "my teaching"
-            },
-            {
-              "id": "hebrew-5140",
-              "eng": "distill"
-            },
-            {
-              "id": "hebrew-2919",
-              "eng": "as the dew",
-              "punct": "､"
+              "cht": "如雨",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-565",
-              "eng": "My speech"
+              "cht": "我的言語"
+            },
+            {
+              "id": "hebrew-5140",
+              "cht": "要滴落"
+            },
+            {
+              "id": "hebrew-2919",
+              "cht": "如露",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8164",
-              "eng": "as raindrops"
+              "cht": "如細雨"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "降在"
             },
             {
               "id": "hebrew-1877",
-              "eng": "the tender herb",
-              "punct": "､"
+              "cht": "嫩草"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7241",
-              "eng": "and as showers"
+              "cht": "如甘霖"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "降在"
             },
             {
               "id": "hebrew-6212",
-              "eng": "the grass",
-              "punct": "."
+              "cht": "菜蔬"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "中",
+              "punct_cht": "。"
             }
           ]
         },
@@ -861,74 +808,62 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "luk.6.43",
-          "cunp": "「因為，沒有好樹結壞果子，也沒有壞樹結好果子。",
+          "nasb": "For there is no good tree which produces bad fruit, nor, on the other hand, a bad tree which produces good fruit.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "No"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1510",
-              "eng": "there is"
-            },
-            {
-              "id": "greek-1186",
-              "eng": "tree"
+              "id": "greek-3756",
+              "cht": "沒有"
             },
             {
               "id": "greek-2570",
-              "eng": "good",
-              "punct": ","
+              "cht": "好"
             },
             {
-              "id": "greek-4160",
-              "eng": "producing"
+              "id": "greek-1186",
+              "cht": "樹"
             },
             {
-              "id": "greek-2590",
-              "eng": "fruit"
+              "id": "greek-2076",
+              "cht": "結"
             },
             {
               "id": "greek-4550",
-              "eng": "bad",
-              "punct": ";"
+              "cht": "壞"
+            },
+            {
+              "id": "greek-2590",
+              "cht": "果子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3761",
-              "eng": "nor"
-            },
-            {
-              "id": "greek-3825",
-              "eng": "again"
-            },
-            {
-              "id": "greek-1186",
-              "eng": "a tree"
+              "cht": "也沒有"
             },
             {
               "id": "greek-4550",
-              "eng": "bad",
-              "punct": ","
+              "cht": "壞"
+            },
+            {
+              "id": "greek-1186",
+              "cht": "樹"
             },
             {
               "id": "greek-4160",
-              "eng": "producing"
-            },
-            {
-              "id": "greek-2590",
-              "eng": "fruit"
+              "cht": "結"
             },
             {
               "id": "greek-2570",
-              "eng": "good",
-              "punct": "."
+              "cht": "好"
             },
             {
-              "id": "greek-2076"
+              "id": "greek-2590",
+              "cht": "果子",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-977": "He will choose",
-          "hebrew-853": "-",
-          "hebrew-5159": "our inheritance",
-          "hebrew-1347": "the excellence",
-          "hebrew-3290": "of Jacob",
-          "hebrew-834": "whom",
-          "hebrew-157": "He loves",
-          "hebrew-5542": "Selah"
+          "eng": {
+            "hebrew-977": "He will choose",
+            "hebrew-853": "-",
+            "hebrew-5159": "our inheritance",
+            "hebrew-1347": "the excellence",
+            "hebrew-3290": "of Jacob",
+            "hebrew-834": "whom",
+            "hebrew-157": "He loves",
+            "hebrew-5542": "Selah"
+          },
+          "cht": {
+            "hebrew-977": "選擇",
+            "hebrew-853": "就是",
+            "hebrew-5159": "產業",
+            "hebrew-1347": "的榮耀（",
+            "hebrew-3290": "之雅各",
+            "hebrew-834": "他所",
+            "hebrew-157": "愛",
+            "hebrew-5542": "細拉）"
+          }
         }
       },
       "translations": {
@@ -28,65 +40,60 @@
             "hebrew-3290": 0.9711660802345763
           },
           "verseKey": "nam.2.2",
-          "cunp": "耶和華復興雅各的榮華， 好像以色列的榮華一樣； 因為使地空虛的， 已經使雅各和以色列空虛， 將他們的葡萄枝毀壞了。）",
+          "nasb": "For the Lord will restore the splendor of Jacob Like the splendor of Israel, Even though devastators have devastated them And destroyed their vine branches.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-7725",
-              "eng": "will restore"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "the excellence"
+              "cht": "復興"
             },
             {
               "id": "hebrew-3290",
-              "eng": "of Jacob",
-              "punct": "､"
+              "cht": "雅各"
             },
             {
               "id": "hebrew-1347",
-              "eng": "Like the excellence"
+              "cht": "的榮華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "好像以色列"
+            },
+            {
+              "id": "hebrew-1347",
+              "cht": "的榮華"
+            },
+            {
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1238",
-              "eng": "have emptied them out"
+              "cht": "使地空虛的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1238",
-              "eng": "the emptiers"
+              "cht": "已經使雅各和以色列空虛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2156",
-              "eng": "and their vine branches"
+              "cht": "將他們的葡萄枝"
             },
             {
               "id": "hebrew-7843",
-              "eng": "ruined",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "毀壞了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -96,58 +103,53 @@
             "hebrew-1347": 2.6924581556670724
           },
           "verseKey": "jer.13.9",
-          "cunp": "「耶和華如此說：我必照樣敗壞猶大的驕傲和耶路撒冷的大驕傲。",
+          "nasb": "“Thus says the Lord, ‘Just so will I destroy the pride of Judah and the great pride of Jerusalem.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3602",
-              "eng": "in this manner"
+              "cht": "我必照樣"
             },
             {
               "id": "hebrew-7843",
-              "eng": "I will ruin"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "the pride"
+              "cht": "敗壞"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "猶大"
             },
             {
               "id": "hebrew-1347",
-              "eng": "pride"
+              "cht": "的驕傲"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
             },
             {
               "id": "hebrew-3389",
-              "eng": "of Jerusalem"
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-7227",
-              "eng": "the great",
-              "punct": "."
+              "cht": "的大"
+            },
+            {
+              "id": "hebrew-1347",
+              "cht": "驕傲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -157,92 +159,74 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "luk.6.32",
-          "cunp": "你們若單愛那愛你們的人，有甚麼可酬謝的呢？就是罪人也愛那愛他們的人。",
+          "nasb": "If you love those who love you, what credit is that to you? For even sinners love those who love them.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-5213",
+              "cht": "你們"
             },
             {
               "id": "greek-1487",
-              "eng": "if"
+              "cht": "若"
             },
             {
               "id": "greek-25",
-              "eng": "you love"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "單愛"
             },
             {
               "id": "greek-25",
-              "eng": "loving"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "you",
-              "punct": ","
-            },
-            {
-              "id": "greek-4169",
-              "eng": "what"
+              "cht": "那愛"
             },
             {
               "id": "greek-5209",
-              "eng": "to you"
+              "cht": "你們"
             },
             {
-              "id": "greek-5485",
-              "eng": "credit"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2076",
-              "eng": "is it",
-              "punct": "?"
+              "cht": "有"
             },
             {
-              "id": "greek-2532",
-              "eng": "Even"
+              "id": "greek-4169",
+              "cht": "甚麼"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-5485",
+              "cht": "可酬謝"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "的呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-268",
-              "eng": "sinners"
+              "cht": "就是罪人"
             },
             {
-              "id": "greek-3588",
-              "eng": "those"
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
+            },
+            {
+              "id": "greek-25",
+              "cht": "那愛"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "他們"
             },
             {
-              "id": "greek-25",
-              "eng": "love",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -252,140 +236,108 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "jhn.14.21",
-          "cunp": "有了我的命令又遵守的，這人就是愛我的；愛我的必蒙我父愛他，我也要愛他，並且要向他顯現。」",
+          "nasb": "He who has My commandments and keeps them is the one who loves Me; and he who loves Me will be loved by My Father, and I will love him and will disclose Myself to him.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1785",
-              "eng": "commandments"
+              "cht": "有"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me"
+              "cht": "了我的"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "命令"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5083",
-              "eng": "keeping"
+              "cht": "又"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "遵守"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1565",
-              "eng": "he"
+              "cht": "這人"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
+              "cht": "就是"
             },
             {
               "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
+              "cht": "我的",
+              "punct_cht": "；"
             },
             {
               "id": "greek-25",
-              "eng": "loving"
+              "cht": "愛"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": ","
-            },
-            {
-              "id": "greek-25",
-              "eng": "will be loved"
+              "cht": "我的"
             },
             {
               "id": "greek-5259",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father"
+              "cht": "必蒙"
             },
             {
               "id": "greek-3450",
-              "eng": "of Me",
-              "punct": ";"
+              "cht": "我"
             },
             {
-              "id": "greek-2504",
-              "eng": "and I"
+              "id": "greek-3962",
+              "cht": "父"
             },
             {
               "id": "greek-25",
-              "eng": "will love"
+              "cht": "愛"
             },
             {
-              "id": "greek-846",
-              "eng": "him"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3450",
+              "cht": "我"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "也"
             },
             {
-              "id": "greek-1718",
-              "eng": "will show"
+              "id": "greek-25",
+              "cht": "要愛"
             },
             {
               "id": "greek-846",
-              "eng": "to him"
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並且"
+            },
+            {
+              "id": "greek-846",
+              "cht": "要向他"
             },
             {
               "id": "greek-1683",
-              "eng": "Myself",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3450"
-            },
-            {
-              "id": "greek-2532"
+              "cht": "顯現",
+              "punct_cht": "。"
             }
           ]
         },
@@ -396,81 +348,82 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "mal.1.2",
-          "cunp": "耶和華說：「我曾愛你們。」你們卻說：「你在何事上愛我們呢？」耶和華說：「以掃不是雅各的哥哥嗎？我卻愛雅各，",
+          "nasb": "“I have loved you,” says the Lord. But you say, “How have You loved us?” “Was not Esau Jacob’s brother?” declares the Lord. “Yet I have loved Jacob;",
           "words": [
             {
-              "id": "hebrew-157",
-              "eng": "I have loved"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "And yet you say",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "in what [way]"
-            },
-            {
-              "id": "hebrew-157",
-              "eng": "have You loved us"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "[Was] not"
-            },
-            {
-              "id": "hebrew-251",
-              "eng": "brother"
-            },
-            {
-              "id": "hebrew-6215",
-              "eng": "Esau"
-            },
-            {
-              "id": "hebrew-3290",
-              "eng": "of Jacob"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5002",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-157",
-              "eng": "And yet I have loved"
+              "cht": "我曾愛"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "你們",
+              "punct_cht": "。」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "你們卻說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "你在何事上"
+            },
+            {
+              "id": "hebrew-157",
+              "cht": "愛我們"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-6215",
+              "cht": "以掃"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不是"
             },
             {
               "id": "hebrew-3290",
-              "eng": "Jacob",
-              "punct": "､"
+              "cht": "雅各的"
             },
             {
-              "id": ""
+              "id": "hebrew-251",
+              "cht": "哥哥"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "hebrew-157",
+              "cht": "我卻愛"
+            },
+            {
+              "id": "hebrew-3290",
+              "cht": "雅各",
+              "punct_cht": "，"
             }
           ]
         },
@@ -481,90 +434,83 @@
             "hebrew-3290": 0.9711660802345763
           },
           "verseKey": "amo.6.8",
-          "cunp": "主耶和華－萬軍之神指着自己起誓說： 我憎惡雅各的榮華，厭棄他的宮殿； 因此，我必將城和其中所有的都交付敵人。",
+          "nasb": "The Lord God has sworn by Himself, the Lord God of hosts has declared: “I loathe the arrogance of Jacob, And detest his citadels; Therefore I will deliver up the city and all it contains.”",
           "words": [
             {
-              "id": "hebrew-7650",
-              "eng": "Has sworn"
-            },
-            {
               "id": "hebrew-136",
-              "eng": "the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "by Himself",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "主"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "､"
+              "cht": "萬軍"
             },
             {
-              "id": "hebrew-8374",
-              "eng": "abhor"
+              "id": "",
+              "cht": "之"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "指著自己"
+            },
+            {
+              "id": "hebrew-7650",
+              "cht": "起誓"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-595",
-              "eng": "I"
+              "cht": "我"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "the pride"
+              "cht": "憎惡"
             },
             {
               "id": "hebrew-3290",
-              "eng": "of Jacob",
-              "punct": "､"
+              "cht": "雅各"
             },
             {
-              "id": "hebrew-759",
-              "eng": "and his palaces",
-              "punct": "–"
+              "id": "hebrew-1347",
+              "cht": "的榮華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8130",
-              "eng": "hate"
+              "cht": "厭棄"
             },
             {
-              "id": "hebrew-5462",
-              "eng": "therefore I will deliver up"
+              "id": "hebrew-759",
+              "cht": "他的宮殿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city"
+              "cht": "因此我必將城"
             },
             {
               "id": "hebrew-4393",
-              "eng": "and all that is in it",
-              "punct": "."
+              "cht": "和其中所有的"
             },
             {
-              "id": ""
+              "id": "hebrew-5462",
+              "cht": "都交付"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "敵人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -575,48 +521,50 @@
             "hebrew-3290": 0.9711660802345763
           },
           "verseKey": "amo.8.7",
-          "cunp": "耶和華指着雅各的榮耀起誓說： 他們的一切行為，我必永遠不忘。",
+          "nasb": "The Lord has sworn by the pride of Jacob, “Indeed, I will never forget any of their deeds.",
           "words": [
             {
-              "id": "hebrew-7650",
-              "eng": "has sworn"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "by the pride"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-3290",
-              "eng": "of Jacob",
-              "punct": "､"
+              "cht": "指著雅各"
             },
             {
-              "id": "hebrew-518",
-              "eng": "surely"
+              "id": "hebrew-1347",
+              "cht": "的榮耀"
             },
             {
-              "id": "hebrew-7911",
-              "eng": "I will forget"
+              "id": "hebrew-7650",
+              "cht": "起誓"
             },
             {
-              "id": "hebrew-5331",
-              "eng": "never"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3605",
-              "eng": "any"
+              "cht": "他們的一切"
             },
             {
               "id": "hebrew-4639",
-              "eng": "of their works",
-              "punct": "."
+              "cht": "行為",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-518",
+              "cht": "我必"
+            },
+            {
+              "id": "hebrew-5331",
+              "cht": "永遠"
+            },
+            {
+              "id": "hebrew-7911",
+              "cht": "不忘",
+              "punct_cht": "。"
             }
           ]
         },
@@ -626,71 +574,71 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "jhn.13.34",
-          "cunp": "我賜給你們一條新命令，乃是叫你們彼此相愛；我怎樣愛你們，你們也要怎樣相愛。",
+          "nasb": "A new commandment I give to you, that you love one another, even as I have loved you, that you also love one another.",
           "words": [
             {
-              "id": "greek-1785",
-              "eng": "A commandment"
-            },
-            {
-              "id": "greek-2537",
-              "eng": "new"
-            },
-            {
               "id": "greek-1325",
-              "eng": "I give"
+              "cht": "我賜給"
             },
             {
               "id": "greek-5213",
-              "eng": "to you",
-              "punct": ","
+              "cht": "你們"
+            },
+            {
+              "id": "greek-2537",
+              "cht": "一條新"
+            },
+            {
+              "id": "greek-1785",
+              "cht": "命令",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-25",
-              "eng": "you should love"
+              "cht": "乃是叫"
             },
             {
               "id": "greek-240",
-              "eng": "one another",
-              "punct": ";"
+              "cht": "你們彼此"
+            },
+            {
+              "id": "greek-25",
+              "cht": "相愛",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2531",
-              "eng": "as"
+              "cht": "我怎樣"
             },
             {
               "id": "greek-25",
-              "eng": "I have loved"
+              "cht": "愛"
             },
             {
               "id": "greek-5209",
-              "eng": "you",
-              "punct": ","
-            },
-            {
-              "id": "greek-2443",
-              "eng": "so"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5210",
-              "eng": "you"
+              "cht": "你們"
             },
             {
-              "id": "greek-25",
-              "eng": "should love"
+              "id": "greek-2532",
+              "cht": "也"
+            },
+            {
+              "id": "greek-2443",
+              "cht": "要"
             },
             {
               "id": "greek-240",
-              "eng": "one another",
-              "punct": "."
+              "cht": "怎樣相"
+            },
+            {
+              "id": "greek-25",
+              "cht": "愛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -700,108 +648,106 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "hos.3.1",
-          "cunp": "耶和華對我說：「你再去愛一個淫婦，就是她情人所愛的；好像以色列人，雖然偏向別神，喜愛葡萄餅，耶和華還是愛他們。」",
+          "nasb": "Then the Lord said to me, “Go again, love a woman who is loved by her husband, yet an adulteress, even as the Lord loves the sons of Israel, though they turn to other gods and love raisin cakes.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-413",
-              "eng": "to me"
+              "cht": "對我"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-5750",
-              "eng": "again",
-              "punct": "､"
+              "cht": "你再"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "go"
-            },
-            {
-              "id": "hebrew-157",
-              "eng": "love"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman"
+              "id": "hebrew-3212",
+              "cht": "去"
             },
             {
               "id": "hebrew-157",
-              "eng": "[who is] loved by"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "a lover",
-              "punct": "､"
+              "cht": "愛"
             },
             {
               "id": "hebrew-5003",
-              "eng": "and is committing adultery",
-              "punct": "､"
+              "cht": "一個淫"
             },
             {
-              "id": "hebrew-160",
-              "eng": "just like the love"
+              "id": "hebrew-802",
+              "cht": "婦",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "for the sons"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "and they"
-            },
-            {
-              "id": "hebrew-6437",
-              "eng": "look"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "gods",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-312",
-              "eng": "other"
+              "id": "hebrew-7453",
+              "cht": "就是她情人"
             },
             {
               "id": "hebrew-157",
-              "eng": "and love"
+              "cht": "所愛的",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-809",
-              "eng": "the cakes [of the pagans]"
+              "id": "hebrew-853",
+              "cht": "好像"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6437",
+              "cht": "雖然偏"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "向"
+            },
+            {
+              "id": "hebrew-312",
+              "cht": "別"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-157",
+              "cht": "喜愛"
             },
             {
               "id": "hebrew-6025",
-              "eng": "raisin",
-              "punct": "."
+              "cht": "葡萄"
             },
             {
-              "id": "hebrew-3212"
+              "id": "hebrew-809",
+              "cht": "餅",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-160",
+              "cht": "還是愛"
+            },
+            {
+              "id": "hebrew-1992",
+              "cht": "他們",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -811,158 +757,125 @@
             "hebrew-157": 1.1310124311736387
           },
           "verseKey": "1jn.4.20",
-          "cunp": "人若說「我愛神」，卻恨他的弟兄，就是說謊話的；不愛他所看見的弟兄，就不能愛沒有看見的神。",
+          "nasb": "If someone says, “I love God,” and hates his brother, he is a liar; for the one who does not love his brother whom he has seen, cannot love God whom he has not seen.",
           "words": [
             {
-              "id": "greek-1437",
-              "eng": "If"
+              "id": "greek-5100",
+              "cht": "人"
             },
             {
-              "id": "greek-5100",
-              "eng": "anyone"
+              "id": "greek-1437",
+              "cht": "若"
             },
             {
               "id": "greek-2036",
-              "eng": "should say"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "-",
-              "punct": ","
+              "cht": "說"
             },
             {
               "id": "greek-25",
-              "eng": "I love"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我愛"
             },
             {
               "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brother"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "卻"
             },
             {
               "id": "greek-3404",
-              "eng": "should hate",
-              "punct": ","
-            },
-            {
-              "id": "greek-5583",
-              "eng": "a liar"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "he is",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-25",
-              "eng": "loving"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brother"
+              "cht": "恨"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
+              "cht": "他的"
             },
             {
-              "id": "greek-3739",
-              "eng": "whom"
+              "id": "greek-80",
+              "cht": "弟兄",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3708",
-              "eng": "he has seen",
-              "punct": ","
+              "id": "greek-2076",
+              "cht": "就是"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5583",
+              "cht": "說謊話的",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-3708",
-              "eng": "he has seen",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1410",
-              "eng": "is he able"
+              "id": "greek-3361",
+              "cht": "不"
             },
             {
               "id": "greek-25",
-              "eng": "to love",
-              "punct": "."
+              "cht": "愛"
             },
             {
-              "id": ""
+              "id": "greek-846",
+              "cht": "他"
             },
             {
-              "id": ""
+              "id": "greek-3739",
+              "cht": "所"
             },
             {
-              "id": "greek-4459"
+              "id": "greek-3708",
+              "cht": "看見"
             },
             {
-              "id": ""
+              "id": "greek-80",
+              "cht": "的弟兄"
             },
             {
-              "id": "greek-2316"
+              "id": "",
+              "cht": "就不能愛沒有看見的",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "（有古卷作",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-4459",
+              "cht": "怎"
+            },
+            {
+              "id": "greek-1410",
+              "cht": "能"
+            },
+            {
+              "id": "greek-25",
+              "cht": "愛"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "沒有"
+            },
+            {
+              "id": "greek-3708",
+              "cht": "看見"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "呢）",
+              "punct_cht": "。"
             }
           ]
         }

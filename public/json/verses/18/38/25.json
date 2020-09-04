@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4310": "who",
-          "hebrew-6385": "has divided",
-          "hebrew-7858": "for the overflowing [water]",
-          "hebrew-8585": "a channel",
-          "hebrew-1870": "Or a path",
-          "hebrew-2385": "for",
-          "hebrew-6963": "the thunderbolt"
+          "eng": {
+            "hebrew-4310": "who",
+            "hebrew-6385": "has divided",
+            "hebrew-7858": "for the overflowing [water]",
+            "hebrew-8585": "a channel",
+            "hebrew-1870": "Or a path",
+            "hebrew-2385": "for",
+            "hebrew-6963": "the thunderbolt"
+          },
+          "cht": {
+            "hebrew-4310": "誰",
+            "hebrew-6385": "分",
+            "hebrew-7858": "為雨水",
+            "hebrew-8585": "道",
+            "hebrew-1870": "開路",
+            "hebrew-2385": "電",
+            "hebrew-6963": "誰為雷"
+          }
         }
       },
       "translations": {
@@ -24,33 +35,33 @@
             "hebrew-6963": 0.8636526616215596
           },
           "verseKey": "job.28.26",
-          "cunp": "他為雨露定命令， 為雷電定道路。",
+          "nasb": "When He set a limit for the rain And a course for the thunderbolt,",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "When He made"
+              "id": "hebrew-4306",
+              "cht": "他為雨露"
             },
             {
-              "id": "hebrew-4306",
-              "eng": "for the rain",
-              "punct": "､"
+              "id": "hebrew-6213",
+              "cht": "定"
             },
             {
               "id": "hebrew-2706",
-              "eng": "a law"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "and a path"
-            },
-            {
-              "id": "hebrew-2385",
-              "eng": "for"
+              "cht": "命令",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6963",
-              "eng": "the thunderbolt",
-              "punct": "､"
+              "cht": "為雷"
+            },
+            {
+              "id": "hebrew-2385",
+              "cht": "電"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "定道路",
+              "punct_cht": "。"
             }
           ]
         },
@@ -60,74 +71,63 @@
             "hebrew-2385": 8.539323589735611
           },
           "verseKey": "zec.10.1",
-          "cunp": "當春雨的時候， 你們要向發閃電的耶和華求雨。 他必為眾人降下甘霖， 使田園生長菜蔬。",
+          "nasb": "Ask rain from the Lord at the time of the spring rain— The Lord who makes the storm clouds; And He will give them showers of rain, vegetation in the field to each man.",
           "words": [
             {
-              "id": "hebrew-7592",
-              "eng": "Ask"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-4306",
-              "eng": "for rain"
+              "id": "hebrew-4456",
+              "cht": "當春雨"
             },
             {
               "id": "hebrew-6256",
-              "eng": "in the time"
-            },
-            {
-              "id": "hebrew-4456",
-              "eng": "of the latter rain",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "will make"
+              "cht": "你們要向發"
             },
             {
               "id": "hebrew-2385",
-              "eng": "flashing clouds",
-              "punct": "､"
+              "cht": "閃電"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的耶和華"
+            },
+            {
+              "id": "hebrew-7592",
+              "cht": "求"
             },
             {
               "id": "hebrew-4306",
-              "eng": "and rain",
-              "punct": "､"
+              "cht": "雨",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-1653",
-              "eng": "showers"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "of He will give"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "them"
+              "id": "hebrew-3068",
+              "cht": "他"
             },
             {
               "id": "hebrew-376",
-              "eng": "for everyone"
+              "cht": "必為眾人"
             },
             {
-              "id": "hebrew-6212",
-              "eng": "Grass"
+              "id": "hebrew-5414",
+              "cht": "降下"
+            },
+            {
+              "id": "hebrew-1653",
+              "cht": "甘霖",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7704",
-              "eng": "in the field",
-              "punct": "."
+              "cht": "使田園"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6212",
+              "cht": "生長菜蔬",
+              "punct_cht": "。"
             }
           ]
         },
@@ -137,73 +137,75 @@
             "hebrew-6385": 7.502414237754052
           },
           "verseKey": "1ch.1.19",
-          "cunp": "希伯生了兩個兒子：一個名叫法勒，因為那時人就分地居住；法勒的兄弟名叫約坍。",
+          "nasb": "Two sons were born to Eber, the name of the one was Peleg, for in his days the earth was divided, and his brother’s name was Joktan.",
           "words": [
             {
               "id": "hebrew-5677",
-              "eng": "And to Eber"
+              "cht": "希伯"
             },
             {
               "id": "hebrew-3205",
-              "eng": "were born"
+              "cht": "生了"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "兒子",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-259",
-              "eng": "of one"
-            },
-            {
-              "id": "hebrew-6389",
-              "eng": "[was] Peleg",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in his days"
-            },
-            {
-              "id": "hebrew-6385",
-              "eng": "was divided",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "一個"
             },
             {
               "id": "hebrew-8034",
-              "eng": "and name"
+              "cht": "名"
+            },
+            {
+              "id": "hebrew-6389",
+              "cht": "叫法勒"
+            },
+            {
+              "id": "",
+              "cht": "【就是分的意思】",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "那時"
+            },
+            {
+              "id": "hebrew-6385",
+              "cht": "人就分"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "",
+              "cht": "居住",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-251",
-              "eng": "of his brother"
+              "cht": "法勒的兄弟"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
             },
             {
               "id": "hebrew-3355",
-              "eng": "[was] Joktan",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "叫約坍",
+              "punct_cht": "。"
             }
           ]
         },
@@ -213,53 +215,55 @@
             "hebrew-6385": 7.502414237754052
           },
           "verseKey": "psa.55.9",
-          "cunp": "主啊，求你吞滅他們，變亂他們的舌頭！ 因為我在城中見了強暴爭競的事。",
+          "nasb": "Confuse, O Lord, divide their tongues, For I have seen violence and strife in the city.",
           "words": [
             {
-              "id": "hebrew-1104",
-              "eng": "Destroy",
-              "punct": "､"
+              "id": "hebrew-136",
+              "cht": "主啊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-136",
-              "eng": "Lord",
-              "punct": "､"
+              "id": "hebrew-1104",
+              "cht": "求你吞滅"
+            },
+            {
+              "id": "",
+              "cht": "他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6385",
-              "eng": "[and] divide"
+              "cht": "變亂"
             },
             {
               "id": "hebrew-3956",
-              "eng": "their tongues",
-              "punct": "､"
+              "cht": "他們的舌頭",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7200",
-              "eng": "I have seen"
-            },
-            {
-              "id": "hebrew-2555",
-              "eng": "violence"
-            },
-            {
-              "id": "hebrew-7379",
-              "eng": "and strife"
+              "cht": "因為"
             },
             {
               "id": "hebrew-5892",
-              "eng": "in the city",
-              "punct": "."
+              "cht": "我在城中"
             },
             {
-              "id": ""
+              "id": "hebrew-7200",
+              "cht": "見了"
             },
             {
-              "id": ""
+              "id": "hebrew-2555",
+              "cht": "強暴"
+            },
+            {
+              "id": "hebrew-7379",
+              "cht": "爭競"
+            },
+            {
+              "id": "",
+              "cht": "的事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -269,73 +273,71 @@
             "hebrew-6385": 7.502414237754052
           },
           "verseKey": "gen.10.25",
-          "cunp": "希伯生了兩個兒子，一個名叫法勒，因為那時人就分地居住；法勒的兄弟名叫約坍。",
+          "nasb": "Two sons were born to Eber; the name of the one was Peleg, for in his days the earth was divided; and his brother’s name was Joktan.",
           "words": [
             {
               "id": "hebrew-5677",
-              "eng": "And to Eber"
+              "cht": "希伯"
             },
             {
               "id": "hebrew-3205",
-              "eng": "were born"
+              "cht": "生了"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
+              "cht": "兩個"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons",
-              "punct": ":"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "兒子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "of one [was]"
-            },
-            {
-              "id": "hebrew-6389",
-              "eng": "Peleg",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in his days"
-            },
-            {
-              "id": "hebrew-6385",
-              "eng": "was divided"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
+              "cht": "一個"
             },
             {
               "id": "hebrew-8034",
-              "eng": "and the name"
+              "cht": "名"
+            },
+            {
+              "id": "",
+              "cht": "叫法勒〔法勒就是分的意思〕",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "那時"
+            },
+            {
+              "id": "hebrew-6385",
+              "cht": "人就分"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "",
+              "cht": "居住",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-251",
-              "eng": "of his brother"
+              "cht": "法勒的兄弟"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名"
             },
             {
               "id": "hebrew-3355",
-              "eng": "[was] Joktan",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "叫約坍",
+              "punct_cht": "。"
             }
           ]
         },
@@ -345,44 +347,47 @@
             "hebrew-7858": 6.2511507603914795
           },
           "verseKey": "pro.27.4",
-          "cunp": "忿怒為殘忍，怒氣為狂瀾， 惟有嫉妒，誰能敵得住呢？",
+          "nasb": "Wrath is fierce and anger is a flood, But who can stand before jealousy?",
           "words": [
             {
-              "id": "hebrew-395",
-              "eng": "Cruel",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-2534",
-              "eng": "Wrath [is]"
+              "cht": "忿怒"
             },
             {
-              "id": "hebrew-7858",
-              "eng": "and a torrent",
-              "punct": "–"
+              "id": "hebrew-395",
+              "cht": "為殘忍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-639",
-              "eng": "anger"
+              "cht": "怒氣"
             },
             {
-              "id": "hebrew-4310",
-              "eng": "but who"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "[is] able to stand"
+              "id": "hebrew-7858",
+              "cht": "為狂瀾",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "惟有"
             },
             {
               "id": "hebrew-7068",
-              "eng": "jealousy"
+              "cht": "嫉妒",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-4310",
+              "cht": "誰"
+            },
+            {
+              "id": "hebrew-5975",
+              "cht": "能敵得住"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -392,47 +397,46 @@
             "hebrew-7858": 6.2511507603914795
           },
           "verseKey": "dan.11.22",
-          "cunp": "必有無數的軍兵勢如洪水，在他面前沖沒敗壞；同盟的君也必如此。",
+          "nasb": "The overflowing forces will be flooded away before him and shattered, and also the prince of the covenant.",
           "words": [
             {
               "id": "hebrew-2220",
-              "eng": "And with the force"
+              "cht": "必有無數的軍兵勢"
             },
             {
               "id": "hebrew-7858",
-              "eng": "of a flood"
+              "cht": "如洪水",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "在他面前"
             },
             {
               "id": "hebrew-7857",
-              "eng": "they shall be swept away"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "from before him"
+              "cht": "沖沒"
             },
             {
               "id": "hebrew-7665",
-              "eng": "and be broken",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and also"
-            },
-            {
-              "id": "hebrew-5057",
-              "eng": "the prince"
+              "cht": "敗壞",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1285",
-              "eng": "of the covenant",
-              "punct": "."
+              "cht": "同盟"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5057",
+              "cht": "的君"
             },
             {
-              "id": ""
+              "id": "hebrew-1571",
+              "cht": "也"
+            },
+            {
+              "id": "",
+              "cht": "必如此",
+              "punct_cht": "。"
             }
           ]
         },
@@ -442,69 +446,71 @@
             "hebrew-7858": 6.2511507603914795
           },
           "verseKey": "psa.32.6",
-          "cunp": "為此，凡虔誠人都當趁你可尋找的時候禱告你； 大水泛溢的時候，必不能到他那裏。",
+          "nasb": "Therefore, let everyone who is godly pray to You in a time when You may be found; Surely in a flood of great waters they will not reach him.",
           "words": [
             {
               "id": "hebrew-5921",
-              "eng": "For"
+              "cht": "為"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this [cause]"
-            },
-            {
-              "id": "hebrew-6419",
-              "eng": "shall pray"
+              "cht": "此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "everyone"
+              "cht": "凡"
             },
             {
               "id": "hebrew-2623",
-              "eng": "who is godly"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to You"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "in a time"
+              "cht": "虔誠人"
             },
             {
               "id": "hebrew-4672",
-              "eng": "when You may be found",
-              "punct": "–"
+              "cht": "都當趁你可尋找"
             },
             {
-              "id": "hebrew-7535",
-              "eng": "surely"
+              "id": "hebrew-6256",
+              "cht": "的時候"
             },
             {
-              "id": "hebrew-7858",
-              "eng": "in a flood"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "of waters"
-            },
-            {
-              "id": "hebrew-7227",
-              "eng": "great"
+              "id": "hebrew-6419",
+              "cht": "禱告"
             },
             {
               "id": "hebrew-413",
-              "eng": "near him"
+              "cht": "你",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-7227",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "水"
+            },
+            {
+              "id": "hebrew-7858",
+              "cht": "泛溢的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7535",
+              "cht": "必"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不能"
             },
             {
               "id": "hebrew-5060",
-              "eng": "they shall come",
-              "punct": "."
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "他那裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -514,40 +520,41 @@
             "hebrew-7858": 6.2511507603914795
           },
           "verseKey": "nam.1.8",
-          "cunp": "但他必以漲溢的洪水淹沒尼尼微， 又驅逐仇敵進入黑暗。",
+          "nasb": "But with an overflowing flood He will make a complete end of its site, And will pursue His enemies into darkness.",
           "words": [
             {
-              "id": "hebrew-7858",
-              "eng": "But with flood"
+              "id": "hebrew-6213",
+              "cht": "但他必以"
             },
             {
               "id": "hebrew-5674",
-              "eng": "an overflowing"
+              "cht": "漲溢"
+            },
+            {
+              "id": "hebrew-7858",
+              "cht": "的洪水"
             },
             {
               "id": "hebrew-3617",
-              "eng": "an utter end"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "of He will make"
+              "cht": "淹沒"
             },
             {
               "id": "hebrew-4725",
-              "eng": "its place"
-            },
-            {
-              "id": "hebrew-341",
-              "eng": "and His enemies"
+              "cht": "尼尼微",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7291",
-              "eng": "will pursue"
+              "cht": "又驅逐"
+            },
+            {
+              "id": "hebrew-341",
+              "cht": "仇敵"
             },
             {
               "id": "hebrew-2822",
-              "eng": "darkness",
-              "punct": "."
+              "cht": "進入黑暗",
+              "punct_cht": "。"
             }
           ]
         },
@@ -557,97 +564,102 @@
             "hebrew-7858": 6.2511507603914795
           },
           "verseKey": "dan.9.26",
-          "cunp": "過了六十二個七，那受膏者必被剪除，一無所有；必有一王的民來毀滅這城和聖所，至終必如洪水沖沒。必有爭戰，一直到底，荒涼的事已經定了。",
+          "nasb": "Then after the sixty-two weeks the Messiah will be cut off and have nothing, and the people of the prince who is to come will destroy the city and the sanctuary. And its end will come with a flood; even to the end there will be war; desolations are determined.",
           "words": [
             {
               "id": "hebrew-310",
-              "eng": "And after"
-            },
-            {
-              "id": "hebrew-7620",
-              "eng": "the weeks"
+              "cht": "過了"
             },
             {
               "id": "hebrew-8346",
-              "eng": "sixty"
+              "cht": "六十"
             },
             {
               "id": "hebrew-8147",
-              "eng": "and two"
+              "cht": "二"
             },
             {
-              "id": "hebrew-3772",
-              "eng": "shall be cut off",
-              "punct": "､"
+              "id": "hebrew-7620",
+              "cht": "個七"
+            },
+            {
+              "id": "",
+              "cht": "那（或譯有）",
+              "punct_cht": "，："
             },
             {
               "id": "hebrew-4899",
-              "eng": "Messiah"
+              "cht": "受膏者"
+            },
+            {
+              "id": "hebrew-3772",
+              "cht": "必被剪除",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "but not"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "and the city"
-            },
-            {
-              "id": "hebrew-6944",
-              "eng": "and the sanctuary",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7843",
-              "eng": "shall destroy"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the people"
+              "cht": "一無"
             },
             {
               "id": "hebrew-5057",
-              "eng": "of the prince"
+              "cht": "必有一王"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "的民"
             },
             {
               "id": "hebrew-935",
-              "eng": "who is to come"
+              "cht": "來"
+            },
+            {
+              "id": "hebrew-7843",
+              "cht": "毀滅"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "這城"
+            },
+            {
+              "id": "hebrew-6944",
+              "cht": "和聖所",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7093",
-              "eng": "and the end of it [shall be]"
+              "cht": "至終"
             },
             {
               "id": "hebrew-7858",
-              "eng": "with a flood",
-              "punct": "､"
+              "cht": "必如洪水"
             },
             {
-              "id": "hebrew-5704",
-              "eng": "and till"
-            },
-            {
-              "id": "hebrew-7093",
-              "eng": "the end"
+              "id": "",
+              "cht": "沖沒",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4421",
-              "eng": "of the war"
+              "cht": "必有爭戰",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2782",
-              "eng": "are determined"
+              "id": "hebrew-5704",
+              "cht": "一直到"
+            },
+            {
+              "id": "hebrew-7093",
+              "cht": "底",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8074",
-              "eng": "desolations",
-              "punct": "."
+              "cht": "荒涼的事"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-2782",
+              "cht": "已經定了",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-1453": "Rise",
-          "greek-71": "let us go",
-          "greek-2400": "behold",
-          "greek-3588": "the [one]",
-          "greek-3860": "betraying",
-          "greek-3165": "Me",
-          "greek-1448": "has drawn near"
+          "eng": {
+            "greek-1453": "Rise",
+            "greek-71": "let us go",
+            "greek-2400": "behold",
+            "greek-3588": "the [one]",
+            "greek-3860": "betraying",
+            "greek-3165": "Me",
+            "greek-1448": "has drawn near"
+          },
+          "cht": {
+            "greek-1453": "起來",
+            "greek-71": "我們走吧",
+            "greek-2400": "看哪",
+            "greek-3860": "那賣",
+            "greek-3165": "我",
+            "greek-1448": "的人近了"
+          }
         }
       },
       "translations": {
@@ -28,39 +38,35 @@
             "greek-1448": 1.0782779315028928
           },
           "verseKey": "mat.26.46",
-          "cunp": "起來！我們走吧。看哪，賣我的人近了！」",
+          "nasb": "Get up, let us be going; behold, the one who betrays Me is at hand!”",
           "words": [
             {
               "id": "greek-1453",
-              "eng": "Rise up",
-              "punct": ","
+              "cht": "起來",
+              "punct_cht": "！"
             },
             {
               "id": "greek-71",
-              "eng": "let us go",
-              "punct": "!"
+              "cht": "我們走吧",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-1448",
-              "eng": "has drawn near"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "he who"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3860",
-              "eng": "is betraying"
+              "cht": "賣"
             },
             {
               "id": "greek-3165",
-              "eng": "Me",
-              "punct": "!"
+              "cht": "我"
+            },
+            {
+              "id": "greek-1448",
+              "cht": "的人近了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,109 +76,91 @@
             "greek-1453": 1.4865148448435892
           },
           "verseKey": "1co.15.15",
-          "cunp": "並且明顯我們是為神妄作見證的，因我們見證神是叫基督復活了。若死人真不復活，神也就沒有叫基督復活了。",
+          "nasb": "Moreover we are even found to be false witnesses of God, because we testified against God that He raised Christ, whom He did not raise, if in fact the dead are not raised.",
           "words": [
             {
-              "id": "greek-2147",
-              "eng": "We are found"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "並且"
+            },
+            {
+              "id": "greek-2147",
+              "cht": "明顯"
+            },
+            {
+              "id": "",
+              "cht": "我們是為"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
             },
             {
               "id": "greek-5575",
-              "eng": "false witnesses"
+              "cht": "妄作見證"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "of God",
-              "punct": ","
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "because"
-            },
-            {
-              "id": "greek-3140",
-              "eng": "we have witnessed"
+              "cht": "因"
             },
             {
               "id": "greek-2596",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "我們見證"
             },
             {
               "id": "greek-2316",
-              "eng": "God",
-              "punct": ","
+              "cht": "神"
             },
             {
               "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1453",
-              "eng": "He raised up"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "是"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
+              "cht": "叫基督"
             },
             {
               "id": "greek-1453",
-              "eng": "He has raised"
+              "cht": "復活了",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1512",
-              "eng": "if"
-            },
-            {
-              "id": "greek-686",
-              "eng": "then"
+              "cht": "若"
             },
             {
               "id": "greek-3498",
-              "eng": "[the] dead"
+              "cht": "死人"
+            },
+            {
+              "id": "greek-686",
+              "cht": "真"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-1453",
-              "eng": "are raised",
-              "punct": "."
+              "cht": "復活",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-3756",
+              "cht": "神也就沒"
             },
             {
-              "id": ""
+              "id": "greek-3739",
+              "cht": "有叫基督"
+            },
+            {
+              "id": "greek-1453",
+              "cht": "復活了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -182,99 +170,100 @@
             "greek-1448": 1.0782779315028928
           },
           "verseKey": "jos.7.14",
-          "cunp": "到了早晨，你們要按着支派近前來；耶和華所取的支派，要按着宗族近前來；耶和華所取的宗族，要按着家室近前來；耶和華所取的家室，要按着人丁，一個一個地近前來。",
+          "nasb": "In the morning then you shall come near by your tribes. And it shall be that the tribe which the Lord takes by lot shall come near by families, and the family which the Lord takes shall come near by households, and the household which the Lord takes shall come near man by man.",
           "words": [
             {
-              "id": "hebrew-7126",
-              "eng": "Therefore you shall be brought"
-            },
-            {
               "id": "hebrew-1242",
-              "eng": "in the morning"
+              "cht": "到了早晨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7626",
-              "eng": "according to your tribes",
-              "punct": "."
+              "cht": "你們要按著支派"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "And it shall be [that]",
-              "punct": "､"
+              "id": "hebrew-7126",
+              "cht": "近前來",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3920",
+              "cht": "取"
             },
             {
               "id": "hebrew-7626",
-              "eng": "the tribe"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3920",
-              "eng": "takes"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-7126",
-              "eng": "shall come"
+              "cht": "的支派",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4940",
-              "eng": "according to families"
+              "cht": "要按著宗族"
+            },
+            {
+              "id": "hebrew-7126",
+              "cht": "近前來",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3920",
+              "cht": "取"
             },
             {
               "id": "hebrew-4940",
-              "eng": "and the family"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3920",
-              "eng": "takes"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-7126",
-              "eng": "shall come"
+              "cht": "的宗族",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1004",
-              "eng": "by households",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "and the household"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-3920",
-              "eng": "takes"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "要按著家室"
             },
             {
               "id": "hebrew-7126",
-              "eng": "shall come"
+              "cht": "近前來",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3920",
+              "cht": "取"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "的家室",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1397",
-              "eng": "by man",
-              "punct": "."
+              "cht": "要按著人丁",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7126",
+              "cht": "一個一個的近前來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -284,127 +273,100 @@
             "greek-71": 2.082792210842197
           },
           "verseKey": "act.23.18",
-          "cunp": "於是把他領去見千夫長，說：「被囚的保羅請我到他那裏，求我領這少年人來見你；他有事告訴你。」",
+          "nasb": "So he took him and led him to the commander and *said, “Paul the prisoner called me to him and asked me to lead this young man to you since he has something to tell you.”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
               "id": "greek-3303",
-              "eng": "indeed"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore"
+              "cht": "於是"
             },
             {
               "id": "greek-3880",
-              "eng": "having taken"
+              "cht": "把"
             },
             {
               "id": "greek-846",
-              "eng": "him"
+              "cht": "他"
             },
             {
               "id": "greek-71",
-              "eng": "brought [him]"
+              "cht": "領"
             },
             {
               "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "去"
             },
             {
               "id": "greek-5506",
-              "eng": "commander",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "見千夫長",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5346",
-              "eng": "he says",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1198",
-              "eng": "prisoner"
+              "cht": "被囚"
             },
             {
               "id": "greek-3972",
-              "eng": "Paul",
-              "punct": ","
+              "cht": "的保羅"
             },
             {
               "id": "greek-4341",
-              "eng": "having called to"
+              "cht": "請"
             },
             {
               "id": "greek-3165",
-              "eng": "me",
-              "punct": ","
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "到他那裡",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2065",
-              "eng": "asked [me]"
-            },
-            {
-              "id": "greek-5126",
-              "eng": "this"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3495",
-              "eng": "young man"
+              "cht": "求"
             },
             {
               "id": "greek-71",
-              "eng": "to lead"
+              "cht": "我領"
+            },
+            {
+              "id": "greek-5126",
+              "cht": "這"
+            },
+            {
+              "id": "greek-3494",
+              "cht": "少年人"
             },
             {
               "id": "greek-4314",
-              "eng": "to"
+              "cht": "來見"
             },
             {
               "id": "greek-4571",
-              "eng": "you",
-              "punct": ","
+              "cht": "你",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2192",
-              "eng": "having"
+              "cht": "他有"
             },
             {
               "id": "greek-5100",
-              "eng": "something"
+              "cht": "事"
             },
             {
               "id": "greek-2980",
-              "eng": "to say"
+              "cht": "告訴"
             },
             {
               "id": "greek-4671",
-              "eng": "to you",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-3494"
+              "cht": "你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -415,119 +377,101 @@
             "greek-2400": 1.2068643049200045
           },
           "verseKey": "mat.28.7",
-          "cunp": "快去告訴他的門徒，說他從死裏復活了，並且在你們以先往加利利去，在那裏你們要見他。看哪，我已經告訴你們了。」",
+          "nasb": "Go quickly and tell His disciples that He has risen from the dead; and behold, He is going ahead of you into Galilee, there you will see Him; behold, I have told you.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-5035",
-              "eng": "quickly"
+              "cht": "快"
             },
             {
               "id": "greek-4198",
-              "eng": "having gone",
-              "punct": ","
+              "cht": "去"
             },
             {
               "id": "greek-2036",
-              "eng": "say"
+              "cht": "告訴"
             },
             {
-              "id": "greek-3588",
-              "eng": "to the"
+              "id": "greek-846",
+              "cht": "他的"
             },
             {
               "id": "greek-3101",
-              "eng": "disciples"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him"
+              "cht": "門徒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1453",
-              "eng": "He is risen"
+              "cht": "說"
             },
             {
               "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "他從"
             },
             {
               "id": "greek-3498",
-              "eng": "dead"
+              "cht": "死"
+            },
+            {
+              "id": "greek-1453",
+              "cht": "裡復活了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2400",
-              "eng": "behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-4254",
-              "eng": "He goes before"
+              "cht": "並且"
             },
             {
               "id": "greek-5209",
-              "eng": "you"
+              "cht": "在你們"
+            },
+            {
+              "id": "greek-4254",
+              "cht": "以先"
             },
             {
               "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "往"
             },
             {
               "id": "greek-1056",
-              "eng": "Galilee",
-              "punct": ";"
+              "cht": "加利利"
+            },
+            {
+              "id": "",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1563",
-              "eng": "there"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
+              "cht": "在那裡"
             },
             {
               "id": "greek-3708",
-              "eng": "you will see",
-              "punct": "."
+              "cht": "你們要見"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2036",
-              "eng": "I have told"
+              "cht": "我已經告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "you",
-              "punct": "."
+              "cht": "你們"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -538,102 +482,76 @@
             "greek-71": 2.082792210842197
           },
           "verseKey": "jhn.14.31",
-          "cunp": "但要叫世人知道我愛父，並且父怎樣吩咐我，我就怎樣行。起來，我們走吧！」",
+          "nasb": "but so that the world may know that I love the Father, I do exactly as the Father commanded Me. Get up, let us go from here.",
           "words": [
             {
               "id": "greek-235",
-              "eng": "but"
+              "cht": "但"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1097",
-              "eng": "may know"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "要叫"
             },
             {
               "id": "greek-2889",
-              "eng": "world"
+              "cht": "世"
             },
             {
-              "id": "greek-3754",
-              "eng": "that"
+              "id": "greek-1097",
+              "cht": "人知道"
             },
             {
               "id": "greek-25",
-              "eng": "I love"
+              "cht": "我愛"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-25",
+              "cht": "父",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-25",
+              "cht": "並且"
             },
             {
               "id": "greek-3962",
-              "eng": "Father",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "父"
             },
             {
               "id": "greek-2531",
-              "eng": "as"
+              "cht": "怎樣"
             },
             {
               "id": "greek-1781",
-              "eng": "has commanded"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "gives"
+              "cht": "吩咐"
             },
             {
               "id": "greek-3427",
-              "eng": "Me"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father",
-              "punct": ","
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3779",
-              "eng": "thus"
+              "cht": "我就怎樣"
             },
             {
               "id": "greek-4160",
-              "eng": "I do",
-              "punct": "."
+              "cht": "行",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1453",
-              "eng": "Rise up",
-              "punct": ","
+              "cht": "起來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-71",
-              "eng": "let us go"
+              "cht": "我們走"
             },
             {
               "id": "greek-1782",
-              "eng": "from here",
-              "punct": "."
-            },
-            {
-              "id": "greek-25"
-            },
-            {
-              "id": "greek-25"
+              "cht": "吧",
+              "punct_cht": "！"
             }
           ]
         },
@@ -644,115 +562,76 @@
             "greek-3860": 1.160710200619334
           },
           "verseKey": "mrk.10.33",
-          "cunp": "「看哪，我們上耶路撒冷去，人子將要被交給祭司長和文士，他們要定他死罪，交給外邦人。",
+          "nasb": "saying,  “Behold, we are going up to Jerusalem, and the Son of Man will be delivered to the chief priests and the scribes; and they will condemn Him to death and will hand Him over to the Gentiles.",
           "words": [
             {
-              "id": "greek-3754",
-              "eng": "-"
-            },
-            {
               "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-305",
-              "eng": "we go up"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
+              "cht": "我們上"
             },
             {
               "id": "greek-2414",
-              "eng": "Jerusalem",
-              "punct": ","
+              "cht": "耶路撒冷"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5207",
-              "eng": "Son"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1519",
+              "cht": "去",
+              "punct_cht": "，"
             },
             {
               "id": "greek-444",
-              "eng": "of Man"
+              "cht": "人"
+            },
+            {
+              "id": "greek-5207",
+              "cht": "子"
             },
             {
               "id": "greek-3860",
-              "eng": "will be betrayed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "將要被交給"
             },
             {
               "id": "greek-749",
-              "eng": "chief priests"
+              "cht": "祭司長"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "和"
             },
             {
               "id": "greek-1122",
-              "eng": "scribes",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "文士",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2632",
-              "eng": "they will condemn"
+              "cht": "他們要定"
             },
             {
               "id": "greek-846",
-              "eng": "Him"
+              "cht": "他"
             },
             {
               "id": "greek-2288",
-              "eng": "to death",
-              "punct": ","
+              "cht": "死"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "",
+              "cht": "罪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3860",
-              "eng": "will betray"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "交給"
             },
             {
               "id": "greek-1484",
-              "eng": "Gentiles",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "外邦人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -764,128 +643,92 @@
             "greek-1448": 1.0782779315028928
           },
           "verseKey": "mat.26.45",
-          "cunp": "於是來到門徒那裏，對他們說：「現在你們仍然睡覺安歇吧！時候到了，人子被賣在罪人手裏了。",
+          "nasb": "Then He *came to the disciples and *said to them, “Are you still sleeping and resting? Behold, the hour is at hand and the Son of Man is being betrayed into the hands of sinners.",
           "words": [
             {
               "id": "greek-5119",
-              "eng": "Then"
+              "cht": "於是"
             },
             {
               "id": "greek-2064",
-              "eng": "He comes"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3101",
-              "eng": "disciples"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3004",
-              "eng": "says"
+              "cht": "來"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
+              "cht": "到"
             },
             {
-              "id": "greek-2518",
-              "eng": "Sleep"
+              "id": "greek-3101",
+              "cht": "門徒"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "那裡",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "對他們"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-3063",
-              "eng": "later on"
+              "cht": "現在"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-2518",
+              "cht": "你們仍然睡覺"
             },
             {
               "id": "greek-373",
-              "eng": "take your rest",
-              "punct": "."
+              "cht": "安歇"
             },
             {
-              "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-1448",
-              "eng": "has drawn near"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "吧（吧或作嗎）",
+              "punct_cht": "：？！"
             },
             {
               "id": "greek-5610",
-              "eng": "hour",
-              "punct": ","
+              "cht": "時候"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5207",
-              "eng": "Son"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1448",
+              "cht": "到了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-444",
-              "eng": "of Man"
+              "cht": "人"
+            },
+            {
+              "id": "greek-5207",
+              "cht": "子"
             },
             {
               "id": "greek-3860",
-              "eng": "is betrayed"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-5495",
-              "eng": "[the] hands"
+              "cht": "被賣"
             },
             {
               "id": "greek-268",
-              "eng": "of sinners",
-              "punct": "."
+              "cht": "在罪人"
             },
             {
-              "id": ""
+              "id": "greek-5495",
+              "cht": "手"
             },
             {
-              "id": "greek-846"
+              "id": "greek-1519",
+              "cht": "裡"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -896,103 +739,78 @@
             "greek-2400": 1.2068643049200045
           },
           "verseKey": "jhn.19.4",
-          "cunp": "彼拉多又出來對眾人說：「我帶他出來見你們，叫你們知道我查不出他有甚麼罪來。」",
+          "nasb": "Pilate came out again and *said to them, “Behold, I am bringing Him out to you so that you may know that I find no guilt in Him.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-1831",
-              "eng": "went forth"
+              "id": "greek-4091",
+              "cht": "彼拉多"
             },
             {
               "id": "greek-3825",
-              "eng": "again"
+              "cht": "又"
             },
             {
               "id": "greek-1854",
-              "eng": "outside"
+              "cht": "出來"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4091",
-              "eng": "Pilate",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-846",
+              "cht": "對眾人"
             },
             {
               "id": "greek-3004",
-              "eng": "he says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2400",
-              "eng": "Behold",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-71",
-              "eng": "I bring"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "to you"
+              "cht": "我帶"
             },
             {
               "id": "greek-846",
-              "eng": "Him"
+              "cht": "他"
             },
             {
               "id": "greek-1854",
-              "eng": "out",
-              "punct": ","
+              "cht": "出來"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "見你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "so that"
+              "cht": "叫"
             },
             {
               "id": "greek-1097",
-              "eng": "you may know"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3762",
-              "eng": "no"
-            },
-            {
-              "id": "greek-156",
-              "eng": "guilt"
+              "cht": "你們知道"
             },
             {
               "id": "greek-2147",
-              "eng": "I find"
+              "cht": "我查"
+            },
+            {
+              "id": "greek-3762",
+              "cht": "不"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "出"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
+              "cht": "他"
             },
             {
-              "id": ""
+              "id": "greek-156",
+              "cht": "有甚麼罪"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -1003,151 +821,118 @@
             "greek-3860": 1.160710200619334
           },
           "verseKey": "mrk.13.11",
-          "cunp": "人把你們拉去交官的時候，不要預先思慮說甚麼；到那時候，賜給你們甚麼話，你們就說甚麼；因為說話的不是你們，乃是聖靈。",
+          "nasb": "When they arrest you and hand you over, do not worry beforehand about what you are to say, but say whatever is given you in that hour; for it is not you who speak, but it is the Holy Spirit.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3752",
-              "eng": "when"
+              "id": "greek-5209",
+              "cht": "人把你們"
             },
             {
               "id": "greek-71",
-              "eng": "they might lead away"
-            },
-            {
-              "id": "greek-5209",
-              "eng": "you",
-              "punct": ","
+              "cht": "拉去"
             },
             {
               "id": "greek-3860",
-              "eng": "delivering [you] up",
-              "punct": ","
+              "cht": "交"
+            },
+            {
+              "id": "greek-3752",
+              "cht": "官的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-4305",
-              "eng": "be anxious beforehand"
+              "cht": "要預先思慮"
+            },
+            {
+              "id": "greek-2980",
+              "cht": "說"
             },
             {
               "id": "greek-5101",
-              "eng": "what"
-            },
-            {
-              "id": "greek-2980",
-              "eng": "you should say",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whatever"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "might be given"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "to you",
-              "punct": ","
+              "cht": "甚麼",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "到"
             },
             {
               "id": "greek-1565",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "那"
             },
             {
               "id": "greek-5610",
-              "eng": "hour",
-              "punct": ","
+              "cht": "時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1325",
+              "cht": "賜給"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "你們"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "甚麼"
+            },
+            {
+              "id": "",
+              "cht": "話",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5124",
-              "eng": "that"
+              "cht": "你們就"
             },
             {
               "id": "greek-2980",
-              "eng": "speak",
-              "punct": ";"
+              "cht": "說"
             },
             {
-              "id": "greek-3756",
-              "eng": "not"
+              "id": "",
+              "cht": "甚麼",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-2075",
-              "eng": "are"
-            },
-            {
-              "id": "greek-5210",
-              "eng": "you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
+              "cht": "因為"
             },
             {
               "id": "greek-2980",
-              "eng": "speaking",
-              "punct": ","
+              "cht": "說話的"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "不"
+            },
+            {
+              "id": "greek-2075",
+              "cht": "是"
+            },
+            {
+              "id": "greek-5210",
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "乃是"
             },
             {
               "id": "greek-40",
-              "eng": "Holy",
-              "punct": "."
+              "cht": "聖"
             },
             {
-              "id": "greek-3366"
-            },
-            {
-              "id": "greek-3191"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-4151",
+              "cht": "靈",
+              "punct_cht": "。"
             }
           ]
         }

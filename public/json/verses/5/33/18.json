@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2074": "Zebulun",
-          "hebrew-559": "he said",
-          "hebrew-8055": "Rejoice",
-          "hebrew-3318": "in your going out",
-          "hebrew-3485": "and Issachar",
-          "hebrew-168": "in your tents",
-          "": null
+          "eng": {
+            "hebrew-2074": "Zebulun",
+            "hebrew-559": "he said",
+            "hebrew-8055": "Rejoice",
+            "hebrew-3318": "in your going out",
+            "hebrew-3485": "and Issachar",
+            "hebrew-168": "in your tents",
+            "": null
+          },
+          "cht": {
+            "hebrew-2074": "西布倫",
+            "hebrew-559": "說",
+            "hebrew-8055": "可以歡喜",
+            "hebrew-3318": "你出外",
+            "hebrew-3485": "以薩迦",
+            "hebrew-168": "在你帳棚"
+          }
         }
       },
       "translations": {
@@ -26,83 +36,68 @@
             "hebrew-168": 1.1107239698362885
           },
           "verseKey": "gen.31.33",
-          "cunp": "拉班進了雅各、利亞，並兩個使女的帳棚，都沒有搜出來，就從利亞的帳棚出來，進了拉結的帳棚。",
+          "nasb": "So Laban went into Jacob’s tent and into Leah’s tent and into the tent of the two maids, but he did not find them. Then he went out of Leah’s tent and entered Rachel’s tent.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "And went"
-            },
-            {
               "id": "hebrew-3837",
-              "eng": "Laban"
+              "cht": "拉班"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "進了"
             },
             {
               "id": "hebrew-168",
-              "eng": "into tent",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3290",
-              "eng": "of Jacob"
+              "cht": "雅各、"
             },
             {
               "id": "hebrew-168",
-              "eng": "and into tent"
-            },
-            {
-              "id": "hebrew-3812",
-              "eng": "of Leah"
-            },
-            {
-              "id": "hebrew-168",
-              "eng": "and into tents"
+              "cht": "利亞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8147",
-              "eng": "of the two"
+              "cht": "並兩個"
             },
             {
               "id": "hebrew-519",
-              "eng": "maidservants",
-              "punct": "､"
+              "cht": "使女"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "but not"
+              "id": "hebrew-168",
+              "cht": "的帳棚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4672",
-              "eng": "he did find [them]",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "And he went"
-            },
-            {
-              "id": "hebrew-168",
-              "eng": "out of tent",
-              "punct": "."
+              "cht": "搜出來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3812",
-              "eng": "of Leah"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "and entered"
+              "cht": "就從利亞"
             },
             {
               "id": "hebrew-168",
-              "eng": "tent"
+              "cht": "的帳棚"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "出來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "進了"
             },
             {
               "id": "hebrew-7354",
-              "eng": "of Rachel",
-              "punct": "."
+              "cht": "拉結"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-168",
+              "cht": "的帳棚",
+              "punct_cht": "。"
             }
           ]
         },
@@ -113,37 +108,34 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "jos.19.17",
-          "cunp": "為以薩迦人，按着宗族，拈出第四鬮。",
+          "nasb": "The fourth lot fell to Issachar, to the sons of Issachar according to their families.",
           "words": [
             {
               "id": "hebrew-3485",
-              "eng": "To Issachar",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "came out"
-            },
-            {
-              "id": "hebrew-1486",
-              "eng": "the lot"
-            },
-            {
-              "id": "hebrew-7243",
-              "eng": "fourth"
+              "cht": "為以薩迦"
             },
             {
               "id": "hebrew-1121",
-              "eng": "for the sons"
-            },
-            {
-              "id": "hebrew-3485",
-              "eng": "of Issachar"
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4940",
-              "eng": "according to their families",
-              "punct": "."
+              "cht": "按著宗族",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "拈出"
+            },
+            {
+              "id": "hebrew-7243",
+              "cht": "第四"
+            },
+            {
+              "id": "hebrew-1486",
+              "cht": "鬮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -155,166 +147,159 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "2ch.30.18",
-          "cunp": "",
+          "nasb": "For a multitude of the people, even many from Ephraim and Manasseh, Issachar and Zebulun, had not purified themselves, yet they ate the Passover otherwise than prescribed. For Hezekiah prayed for them, saying, “May the good Lord pardon",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-4768",
-              "eng": "a multitude"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of the people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7227",
-              "eng": "many"
-            },
-            {
               "id": "hebrew-669",
-              "eng": "from Ephraim"
+              "cht": "以法蓮、"
             },
             {
               "id": "hebrew-4519",
-              "eng": "and Manasseh",
-              "punct": "､"
+              "cht": "瑪拿西、"
             },
             {
               "id": "hebrew-3485",
-              "eng": "Issachar",
-              "punct": "､"
+              "cht": "以薩迦、"
             },
             {
-              "id": "hebrew-2074",
-              "eng": "and Zebulun",
-              "punct": "､"
+              "id": "hebrew-3588",
+              "cht": "西布倫"
+            },
+            {
+              "id": "hebrew-4768",
+              "cht": "有許多"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "人"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "尚未"
             },
             {
               "id": "hebrew-2891",
-              "eng": "had cleansed themselves",
-              "punct": "､"
+              "cht": "自潔",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "yet"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "they ate"
+              "cht": "他們卻"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "也吃"
             },
             {
               "id": "hebrew-6453",
-              "eng": "the Passover"
+              "cht": "逾越節的羔羊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "otherwise"
+              "cht": "不"
             },
             {
               "id": "hebrew-3789",
-              "eng": "contrary to what was written",
-              "punct": "."
+              "cht": "合所記錄"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "But"
+              "id": "",
+              "cht": "的定例",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-6419",
-              "eng": "prayed"
-            },
-            {
-              "id": "hebrew-2396",
-              "eng": "Hezekiah"
+              "id": "hebrew-3169",
+              "cht": "希西家"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for them"
+              "cht": "為他們"
+            },
+            {
+              "id": "hebrew-6419",
+              "cht": "禱告"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "凡"
+            },
+            {
+              "id": "hebrew-3559",
+              "cht": "專"
+            },
+            {
+              "id": "hebrew-3824",
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-1875",
+              "cht": "尋求"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "就是耶和華─"
+            },
+            {
+              "id": "hebrew-1",
+              "cht": "他列祖"
+            },
+            {
+              "id": "",
+              "cht": "之"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "雖不"
+            },
+            {
+              "id": "hebrew-6944",
+              "cht": "照著聖所"
+            },
+            {
+              "id": "hebrew-2893",
+              "cht": "潔淨之禮"
+            },
+            {
+              "id": "",
+              "cht": "自潔",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2896",
-              "eng": "the good"
+              "cht": "求至善"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "的耶和華"
             },
             {
               "id": "hebrew-3722",
-              "eng": "May provide atonement for"
+              "cht": "也饒恕"
             },
             {
               "id": "hebrew-1157",
-              "eng": "everyone",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3169"
-            },
-            {
-              "id": "hebrew-3605"
-            },
-            {
-              "id": "hebrew-3559"
-            },
-            {
-              "id": "hebrew-3824"
-            },
-            {
-              "id": "hebrew-1875"
-            },
-            {
-              "id": "hebrew-430"
-            },
-            {
-              "id": "hebrew-1"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-430"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3808"
-            },
-            {
-              "id": "hebrew-6944"
-            },
-            {
-              "id": "hebrew-2893"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
+              "cht": "他",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -324,50 +309,49 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "num.2.5",
-          "cunp": "挨着他安營的是以薩迦支派。有蘇押的兒子拿坦業作以薩迦人的首領。",
+          "nasb": "Those who camp next to him shall be the tribe of Issachar, and the leader of the sons of Issachar: Nethanel the son of Zuar,",
           "words": [
             {
-              "id": "hebrew-2583",
-              "eng": "And Those who camp [shall be]"
+              "id": "hebrew-5921",
+              "cht": "挨著他"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "next to him"
+              "id": "hebrew-2583",
+              "cht": "安營的"
+            },
+            {
+              "id": "hebrew-3485",
+              "cht": "是以薩迦"
             },
             {
               "id": "hebrew-4294",
-              "eng": "the tribe"
-            },
-            {
-              "id": "hebrew-3485",
-              "eng": "of Issachar",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5387",
-              "eng": "and the leader"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of the sons"
-            },
-            {
-              "id": "hebrew-3485",
-              "eng": "of Issachar",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5417",
-              "eng": "[shall be] Nethanel"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "支派",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6686",
-              "eng": "of Zuar",
-              "punct": "."
+              "cht": "有蘇押"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-5417",
+              "cht": "拿坦業"
+            },
+            {
+              "id": "hebrew-3485",
+              "cht": "作以薩迦"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人的"
+            },
+            {
+              "id": "hebrew-5387",
+              "cht": "首領",
+              "punct_cht": "。"
             }
           ]
         },
@@ -377,84 +361,84 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "jdg.5.15",
-          "cunp": "以薩迦的首領與底波拉同來； 以薩迦怎樣，巴拉也怎樣。 眾人都跟隨巴拉衝下平原； 在呂便的溪水旁有心中定大志的。",
+          "nasb": "And the princes of Issachar were with Deborah; As was Issachar, so was Barak; Into the valley they rushed at his heels; Among the divisions of Reuben There were great resolves of heart.",
           "words": [
             {
-              "id": "hebrew-8269",
-              "eng": "And the princes"
+              "id": "hebrew-3485",
+              "cht": "以薩迦"
             },
             {
-              "id": "hebrew-3485",
-              "eng": "of Issachar"
+              "id": "hebrew-8269",
+              "cht": "的首領"
             },
             {
               "id": "hebrew-5973",
-              "eng": "[were] with"
+              "cht": "與"
             },
             {
               "id": "hebrew-1683",
-              "eng": "Deborah",
-              "punct": "–"
+              "cht": "底波拉"
+            },
+            {
+              "id": "",
+              "cht": "同來",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3485",
-              "eng": "and as Issachar",
-              "punct": "､"
+              "cht": "以薩迦"
             },
             {
-              "id": "hebrew-3651",
-              "eng": "so [was]"
+              "id": "",
+              "cht": "怎樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1301",
-              "eng": "Barak",
-              "punct": "–"
+              "cht": "巴拉"
             },
             {
-              "id": "hebrew-6010",
-              "eng": "into the valley",
-              "punct": "."
+              "id": "hebrew-3651",
+              "cht": "也怎樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7971",
-              "eng": "Sent"
+              "cht": "眾人都跟隨"
             },
             {
               "id": "hebrew-7272",
-              "eng": "under his command"
+              "cht": "巴拉"
             },
             {
-              "id": "hebrew-6391",
-              "eng": "Among the divisions"
+              "id": "hebrew-6010",
+              "cht": "衝下平原",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7205",
-              "eng": "of Reuben"
+              "cht": "在流便"
             },
             {
-              "id": "hebrew-1419",
-              "eng": "[There were] great"
-            },
-            {
-              "id": "hebrew-2711",
-              "eng": "resolves"
+              "id": "hebrew-6390",
+              "cht": "的溪水"
             },
             {
               "id": "hebrew-3820",
-              "eng": "of heart",
-              "punct": "."
+              "cht": "旁有心"
             },
             {
-              "id": ""
+              "id": "hebrew-1419",
+              "cht": "中定大"
             },
             {
-              "id": ""
+              "id": "hebrew-2711",
+              "cht": "志"
             },
             {
-              "id": "hebrew-6390"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -465,55 +449,49 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "gen.35.23",
-          "cunp": "利亞所生的是雅各的長子呂便，還有西緬、利未、猶大、以薩迦、西布倫。",
+          "nasb": "the sons of Leah: Reuben, Jacob’s firstborn, then Simeon and Levi and Judah and Issachar and Zebulun;",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "the sons"
-            },
-            {
               "id": "hebrew-3812",
-              "eng": "of Leah [were]",
-              "punct": ":"
+              "cht": "利亞"
             },
             {
-              "id": "hebrew-1060",
-              "eng": "firstborn"
+              "id": "hebrew-1121",
+              "cht": "所生的"
             },
             {
               "id": "hebrew-3290",
-              "eng": "of Jacob",
-              "punct": "､"
+              "cht": "是雅各"
+            },
+            {
+              "id": "hebrew-1060",
+              "cht": "的長子"
             },
             {
               "id": "hebrew-7205",
-              "eng": "Reuben",
-              "punct": "､"
+              "cht": "流便",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8095",
-              "eng": "and Simeon",
-              "punct": "､"
+              "cht": "還有西緬、"
             },
             {
               "id": "hebrew-3878",
-              "eng": "and Levi",
-              "punct": "､"
+              "cht": "利未、"
             },
             {
               "id": "hebrew-3063",
-              "eng": "and Judah",
-              "punct": "､"
+              "cht": "猶大、"
             },
             {
               "id": "hebrew-3485",
-              "eng": "and Issachar",
-              "punct": "､"
+              "cht": "以薩迦、"
             },
             {
               "id": "hebrew-2074",
-              "eng": "and Zebulun",
-              "punct": "–"
+              "cht": "西布倫",
+              "punct_cht": "。"
             }
           ]
         },
@@ -524,56 +502,50 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "ezk.48.26",
-          "cunp": "挨着以薩迦的地界，從東到西，是西布倫的一分。",
+          "nasb": "Beside the border of Issachar, from the east side to the west side, Zebulun, one portion.",
           "words": [
             {
               "id": "hebrew-5921",
-              "eng": "And by"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "cht": "挨著"
             },
             {
               "id": "hebrew-3485",
-              "eng": "of Issachar",
-              "punct": "､"
+              "cht": "以薩迦"
             },
             {
-              "id": "hebrew-6285",
-              "eng": "from the side"
+              "id": "hebrew-1366",
+              "cht": "的地界",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "從"
             },
             {
               "id": "hebrew-6921",
-              "eng": "east"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "to"
+              "cht": "東"
             },
             {
               "id": "hebrew-6285",
-              "eng": "the",
-              "punct": "､"
+              "cht": "到"
             },
             {
               "id": "hebrew-3220",
-              "eng": "west"
+              "cht": "西",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2074",
-              "eng": "Zebulun [shall] [have]"
+              "cht": "是西布倫"
             },
             {
               "id": "hebrew-259",
-              "eng": "one [section]",
-              "punct": "."
+              "cht": "的一"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "分",
+              "punct_cht": "。"
             }
           ]
         },
@@ -584,22 +556,19 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "exo.1.3",
-          "cunp": "以薩迦、西布倫、便雅憫、",
+          "nasb": "Issachar, Zebulun and Benjamin;",
           "words": [
             {
               "id": "hebrew-3485",
-              "eng": "Issachar",
-              "punct": "､"
+              "cht": "以薩迦、"
             },
             {
               "id": "hebrew-2074",
-              "eng": "Zebulun",
-              "punct": "､"
+              "cht": "西布倫、"
             },
             {
               "id": "hebrew-1144",
-              "eng": "and Benjamin",
-              "punct": "､"
+              "cht": "便雅憫、"
             }
           ]
         },
@@ -610,50 +579,43 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "1ch.2.1",
-          "cunp": "以色列的兒子是呂便、西緬、利未、猶大、以薩迦、西布倫、",
+          "nasb": "These are the sons of Israel: Reuben, Simeon, Levi, Judah, Issachar, Zebulun,",
           "words": [
             {
-              "id": "hebrew-428",
-              "eng": "These [were]"
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "–"
+              "id": "hebrew-428",
+              "cht": "是"
             },
             {
               "id": "hebrew-7205",
-              "eng": "Reuben",
-              "punct": "､"
+              "cht": "流便、"
             },
             {
               "id": "hebrew-8095",
-              "eng": "Simeon",
-              "punct": "､"
+              "cht": "西緬、"
             },
             {
               "id": "hebrew-3878",
-              "eng": "Levi",
-              "punct": "､"
+              "cht": "利未、"
             },
             {
               "id": "hebrew-3063",
-              "eng": "Judah",
-              "punct": "､"
+              "cht": "猶大、"
             },
             {
               "id": "hebrew-3485",
-              "eng": "Issachar",
-              "punct": "､"
+              "cht": "以薩迦、"
             },
             {
               "id": "hebrew-2074",
-              "eng": "and Zebulun",
-              "punct": "､"
+              "cht": "西布倫、"
             }
           ]
         },
@@ -664,87 +626,84 @@
             "hebrew-3485": 2.57672001355142
           },
           "verseKey": "ezk.48.33",
-          "cunp": "南面四千五百肘，有三門，一為西緬門，一為以薩迦門，一為西布倫門；",
+          "nasb": "On the south side, 4,500 cubits by measurement, shall be three gates: the gate of Simeon, one; the gate of Issachar, one; the gate of Zebulun, one.",
           "words": [
             {
-              "id": "hebrew-6285",
-              "eng": "And on the side"
-            },
-            {
               "id": "hebrew-5045",
-              "eng": "south"
+              "cht": "南"
             },
             {
-              "id": "hebrew-2568",
-              "eng": "five"
-            },
-            {
-              "id": "hebrew-3967",
-              "eng": "hundred [cubits]"
+              "id": "hebrew-6285",
+              "cht": "面"
             },
             {
               "id": "hebrew-702",
-              "eng": "and four"
+              "cht": "四"
             },
             {
               "id": "hebrew-505",
-              "eng": "thousand"
+              "cht": "千"
             },
             {
-              "id": "hebrew-4060",
-              "eng": "measuring",
-              "punct": "､"
+              "id": "hebrew-2568",
+              "cht": "五"
             },
             {
-              "id": "hebrew-8179",
-              "eng": "and gates",
-              "punct": "–"
+              "id": "hebrew-3967",
+              "cht": "百"
+            },
+            {
+              "id": "",
+              "cht": "肘",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7969",
-              "eng": "three"
+              "cht": "有三"
             },
             {
               "id": "hebrew-8179",
-              "eng": "gate for"
+              "cht": "門",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一"
             },
             {
               "id": "hebrew-8095",
-              "eng": "Simeon",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "cht": "為西緬"
             },
             {
               "id": "hebrew-8179",
-              "eng": "gate for"
+              "cht": "門",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一"
             },
             {
               "id": "hebrew-3485",
-              "eng": "Issachar",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "cht": "為以薩迦"
             },
             {
               "id": "hebrew-8179",
-              "eng": "and gate for"
-            },
-            {
-              "id": "hebrew-2074",
-              "eng": "Zebulun"
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "one",
-              "punct": "."
+              "cht": "一"
             },
             {
-              "id": ""
+              "id": "hebrew-2074",
+              "cht": "為西布倫"
+            },
+            {
+              "id": "hebrew-8179",
+              "cht": "門",
+              "punct_cht": "；"
             }
           ]
         }

@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3045": "Considers",
-          "hebrew-6662": "the righteous",
-          "hebrew-1779": "the cause",
-          "hebrew-1800": "of the poor",
-          "hebrew-7563": "[But] the wicked",
-          "hebrew-3808": "not",
-          "hebrew-995": "does understand",
-          "hebrew-1847": "[such] knowledge"
+          "eng": {
+            "hebrew-3045": "Considers",
+            "hebrew-6662": "the righteous",
+            "hebrew-1779": "the cause",
+            "hebrew-1800": "of the poor",
+            "hebrew-7563": "[But] the wicked",
+            "hebrew-3808": "not",
+            "hebrew-995": "does understand",
+            "hebrew-1847": "[such] knowledge"
+          },
+          "cht": {
+            "hebrew-3045": "知道",
+            "hebrew-6662": "義人",
+            "hebrew-1779": "的案",
+            "hebrew-1800": "查明窮人",
+            "hebrew-7563": "惡人",
+            "hebrew-3808": "沒有",
+            "hebrew-995": "聰明",
+            "hebrew-1847": "就不得而知"
+          }
         }
       },
       "translations": {
@@ -27,39 +39,41 @@
             "hebrew-7563": 1.1425953560426105
           },
           "verseKey": "job.36.17",
-          "cunp": "但你滿口有惡人批評的言語； 判斷和刑罰抓住你。",
+          "nasb": "“But you were full of judgment on the wicked; Judgment and justice take hold of you.",
           "words": [
             {
-              "id": "hebrew-1779",
-              "eng": "But with the judgment due"
+              "id": "hebrew-4390",
+              "cht": "但你滿口有"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4390",
-              "eng": "you are filled"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-1779",
-              "eng": "Judgment"
+              "cht": "批評的"
+            },
+            {
+              "id": "",
+              "cht": "言語",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "判斷"
             },
             {
               "id": "hebrew-4941",
-              "eng": "and justice"
+              "cht": "和刑罰"
             },
             {
               "id": "hebrew-8551",
-              "eng": "take hold [of you]",
-              "punct": "."
+              "cht": "抓住"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -69,119 +83,101 @@
             "hebrew-1779": 3.812899939371762
           },
           "verseKey": "deu.17.8",
-          "cunp": "「你城中若起了爭訟的事，或因流血，或因爭競，或因毆打，是你難斷的案件，你就當起來，往耶和華－你神所選擇的地方",
+          "nasb": "“If any case is too difficult for you to decide, between one kind of homicide or another, between one kind of lawsuit or another, and between one kind of assault or another, being cases of dispute in your courts, then you shall arise and go up to the place which the Lord your God chooses.",
           "words": [
             {
+              "id": "hebrew-8179",
+              "cht": "你城"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "If"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "arises"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "for you"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "a matter which is too hard"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "to judge",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-1818",
-              "eng": "[degrees of] guilt"
-            },
-            {
-              "id": "hebrew-1818",
-              "eng": "for bloodshed",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "one judgment"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "or another",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "or between"
-            },
-            {
-              "id": "hebrew-5061",
-              "eng": "one punishment or"
-            },
-            {
-              "id": "hebrew-5061",
-              "eng": "another",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "matters"
+              "cht": "中若"
             },
             {
               "id": "hebrew-7379",
-              "eng": "of controversy"
+              "cht": "起了爭訟"
             },
             {
-              "id": "hebrew-8179",
-              "eng": "within your gates",
-              "punct": "､"
+              "id": "hebrew-1697",
+              "cht": "的事",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6963",
-              "eng": "then you shall arise"
+              "id": "hebrew-996",
+              "cht": "或因"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "and go up"
+              "id": "hebrew-1818",
+              "cht": "流血",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "或因"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "爭競",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-996",
+              "cht": "或因"
+            },
+            {
+              "id": "hebrew-5061",
+              "cht": "毆打",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "是你"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "難"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "斷"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的案件",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "你就當起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "the place"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-977",
-              "eng": "chooses",
-              "punct": "–"
+              "cht": "往"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-6965"
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
-              "id": ""
+              "id": "hebrew-977",
+              "cht": "選擇"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "地方"
             }
           ]
         },
@@ -191,79 +187,69 @@
             "hebrew-1779": 3.812899939371762
           },
           "verseKey": "jer.5.28",
-          "cunp": "他們肥胖光潤， 作惡過甚，不為人伸冤！ 就是不為孤兒伸冤， 不使他亨通， 也不為窮人辨屈。",
+          "nasb": "They are fat, they are sleek, They also excel in deeds of wickedness; They do not plead the cause, The cause of the orphan, that they may prosper; And they do not defend the rights of the poor.",
           "words": [
             {
               "id": "hebrew-8080",
-              "eng": "They have grown fat",
-              "punct": "､"
+              "cht": "他們肥胖"
             },
             {
               "id": "hebrew-6245",
-              "eng": "they are sleek",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "Yes",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "they surpass"
+              "cht": "光潤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1697",
-              "eng": "the deeds"
+              "cht": "作"
             },
             {
               "id": "hebrew-7451",
-              "eng": "of the wicked",
-              "punct": "–"
+              "cht": "惡"
             },
             {
-              "id": "hebrew-1779",
-              "eng": "the cause",
-              "punct": "､"
+              "id": "hebrew-5674",
+              "cht": "過甚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-1777",
-              "eng": "they do plead"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "the cause"
+              "cht": "為人伸冤",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3490",
-              "eng": "of the fatherless",
-              "punct": "､"
+              "cht": "就是不為孤兒"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "伸冤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6743",
-              "eng": "and yet they prosper",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "and the right"
-            },
-            {
-              "id": "hebrew-34",
-              "eng": "of the needy"
+              "cht": "不使他亨通",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-34",
+              "cht": "為窮人"
             },
             {
               "id": "hebrew-8199",
-              "eng": "they do defend",
-              "punct": "."
+              "cht": "辨"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "屈",
+              "punct_cht": "。"
             }
           ]
         },
@@ -274,67 +260,63 @@
             "hebrew-1800": 2.4756200969099407
           },
           "verseKey": "isa.10.2",
-          "cunp": "為要屈枉窮乏人， 奪去我民中困苦人的理， 以寡婦當作擄物， 以孤兒當作掠物。",
+          "nasb": "So as to deprive the needy of justice And rob the poor of My people of their rights, So that widows may be their spoil And that they may plunder the orphans.",
           "words": [
             {
               "id": "hebrew-5186",
-              "eng": "to rob"
+              "cht": "為要屈"
             },
             {
               "id": "hebrew-1779",
-              "eng": "of justice",
-              "punct": "､"
+              "cht": "枉"
             },
             {
               "id": "hebrew-1800",
-              "eng": "the poor"
+              "cht": "窮乏人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1497",
-              "eng": "and to take"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "what is right from"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "the poor"
+              "cht": "奪去"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of My people",
-              "punct": "､"
+              "cht": "我民中"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "that may be"
+              "id": "hebrew-6041",
+              "cht": "困苦人"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "的理",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-490",
-              "eng": "widows"
+              "cht": "以寡婦"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "當作"
             },
             {
               "id": "hebrew-7998",
-              "eng": "their prey",
-              "punct": "､"
+              "cht": "擄物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and [that]"
+              "cht": "以"
             },
             {
               "id": "hebrew-3490",
-              "eng": "the fatherless",
-              "punct": "!"
+              "cht": "孤兒"
             },
             {
               "id": "hebrew-962",
-              "eng": "they may rob",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "當作掠物",
+              "punct_cht": "。"
             }
           ]
         },
@@ -345,63 +327,63 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "jer.22.16",
-          "cunp": "他為困苦和窮乏人伸冤， 那時就得了福樂。 認識我不在乎此嗎？ 這是耶和華說的。",
+          "nasb": "He pled the cause of the afflicted and needy; Then it was well. Is not that what it means to know Me?” Declares the Lord.",
           "words": [
             {
-              "id": "hebrew-1777",
-              "eng": "He judged"
-            },
-            {
-              "id": "hebrew-1779",
-              "eng": "the cause"
-            },
-            {
               "id": "hebrew-6041",
-              "eng": "of the poor"
+              "cht": "他為困苦"
             },
             {
               "id": "hebrew-34",
-              "eng": "and needy",
-              "punct": "–"
+              "cht": "和窮乏人"
+            },
+            {
+              "id": "hebrew-1779",
+              "cht": "伸冤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-227",
-              "eng": "then"
+              "cht": "那時"
             },
             {
               "id": "hebrew-2896",
-              "eng": "[it was] well"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "[Was] not"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "就得了福樂",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowing"
+              "cht": "認識"
             },
             {
               "id": "hebrew-853",
-              "eng": "Me"
+              "cht": "我"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "在乎此"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-5002",
+              "cht": "說"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -412,132 +394,155 @@
             "hebrew-1779": 3.812899939371762
           },
           "verseKey": "est.1.13",
-          "cunp": "",
+          "nasb": "Then the king said to the wise men who understood the times—for it was the custom of the king so to speak before all who knew law and justice",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "在"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
-              "id": "hebrew-2450",
-              "eng": "to the wise men",
-              "punct": "､"
+              "id": "hebrew-7138",
+              "cht": "左右"
             },
             {
-              "id": "hebrew-3045",
-              "eng": "who knew"
-            },
-            {
-              "id": "hebrew-6256",
-              "eng": "the times",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "this [was]"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "manner"
+              "id": "hebrew-7200",
+              "cht": "常見"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-6440",
-              "eng": "toward"
+              "cht": "面、"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-4438",
+              "cht": "國"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "中坐"
+            },
+            {
+              "id": "hebrew-7223",
+              "cht": "高位"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6539",
+              "cht": "有波斯"
+            },
+            {
+              "id": "hebrew-4074",
+              "cht": "和米底亞"
+            },
+            {
+              "id": "hebrew-7651",
+              "cht": "的七"
+            },
+            {
+              "id": "hebrew-8269",
+              "cht": "個大臣",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3771",
+              "cht": "就是甲示拿、"
+            },
+            {
+              "id": "hebrew-8369",
+              "cht": "示達、"
+            },
+            {
+              "id": "hebrew-133",
+              "cht": "押瑪他、"
+            },
+            {
+              "id": "hebrew-8659",
+              "cht": "他施斯、"
+            },
+            {
+              "id": "hebrew-4825",
+              "cht": "米力、"
+            },
+            {
+              "id": "hebrew-4826",
+              "cht": "瑪西拿、"
+            },
+            {
+              "id": "hebrew-4462",
+              "cht": "米母干",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3045",
-              "eng": "who understood"
+              "cht": "都是達"
             },
             {
-              "id": "hebrew-1881",
-              "eng": "law"
+              "id": "hebrew-6256",
+              "cht": "時務"
+            },
+            {
+              "id": "hebrew-2450",
+              "cht": "的明哲人",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3651",
+              "cht": "按"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的常規",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "辦事必先"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "詢問"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知"
             },
             {
               "id": "hebrew-1779",
-              "eng": "and justice",
-              "punct": "–"
+              "cht": "例"
             },
             {
-              "id": ""
+              "id": "hebrew-1881",
+              "cht": "明法"
             },
             {
-              "id": "hebrew-413"
+              "id": "",
+              "cht": "的人",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-7138"
-            },
-            {
-              "id": "hebrew-7200"
-            },
-            {
-              "id": "hebrew-4438"
-            },
-            {
-              "id": "hebrew-3427"
-            },
-            {
-              "id": "hebrew-7223"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-6539"
-            },
-            {
-              "id": "hebrew-4074"
-            },
-            {
-              "id": "hebrew-7651"
-            },
-            {
-              "id": "hebrew-8269"
-            },
-            {
-              "id": "hebrew-3771"
-            },
-            {
-              "id": "hebrew-8369"
-            },
-            {
-              "id": "hebrew-133"
-            },
-            {
-              "id": "hebrew-8659"
-            },
-            {
-              "id": "hebrew-4825"
-            },
-            {
-              "id": "hebrew-4826"
-            },
-            {
-              "id": "hebrew-4462"
-            },
-            {
-              "id": "hebrew-4428"
-            },
-            {
-              "id": "hebrew-6440"
-            },
-            {
-              "id": ""
+              "id": "hebrew-559",
+              "cht": "王問他們說",
+              "punct_cht": "："
             }
           ]
         },
@@ -548,61 +553,60 @@
             "hebrew-995": 1.3494993415382406
           },
           "verseKey": "dan.12.10",
-          "cunp": "必有許多人使自己清淨潔白，且被熬煉；但惡人仍必行惡，一切惡人都不明白，惟獨智慧人能明白。",
+          "nasb": "Many will be purged, purified and refined, but the wicked will act wickedly; and none of the wicked will understand, but those who have insight will understand.",
           "words": [
             {
+              "id": "hebrew-7227",
+              "cht": "必有許多"
+            },
+            {
               "id": "hebrew-1305",
-              "eng": "Shall be purified",
-              "punct": "､"
+              "cht": "人使自己清淨"
             },
             {
               "id": "hebrew-3835",
-              "eng": "and made white",
-              "punct": "､"
+              "cht": "潔白",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6884",
-              "eng": "and refined",
-              "punct": "–"
+              "cht": "且被熬煉",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-7227",
-              "eng": "Many"
+              "id": "hebrew-7563",
+              "cht": "但惡人"
             },
             {
               "id": "hebrew-7561",
-              "eng": "but shall do wickedly",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "the wicked"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and none"
-            },
-            {
-              "id": "hebrew-995",
-              "eng": "shall understand",
-              "punct": "–"
+              "cht": "仍必行惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "一切"
             },
             {
               "id": "hebrew-7563",
-              "eng": "of the wicked"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-7919",
-              "eng": "but the wise"
+              "id": "hebrew-3808",
+              "cht": "都不"
             },
             {
               "id": "hebrew-995",
-              "eng": "shall understand",
-              "punct": "."
+              "cht": "明白",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7919",
+              "cht": "惟獨智慧人"
+            },
+            {
+              "id": "hebrew-995",
+              "cht": "能明白",
+              "punct_cht": "。"
             }
           ]
         },
@@ -612,53 +616,54 @@
             "hebrew-1800": 2.4756200969099407
           },
           "verseKey": "pro.22.22",
-          "cunp": "貧窮人，你不可因他貧窮就搶奪他的物， 也不可在城門口欺壓困苦人；",
+          "nasb": "Do not rob the poor because he is poor, Or crush the afflicted at the gate;",
           "words": [
             {
-              "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-1497",
-              "eng": "do rob"
-            },
-            {
               "id": "hebrew-1800",
-              "eng": "the poor",
-              "punct": "､"
+              "cht": "貧窮人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "你不可"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-1800",
-              "eng": "and poor",
-              "punct": "､"
+              "cht": "因"
             },
             {
               "id": "hebrew-1931",
-              "eng": "he [is]"
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-1800",
+              "cht": "貧窮"
+            },
+            {
+              "id": "hebrew-1497",
+              "cht": "就搶奪"
+            },
+            {
+              "id": "",
+              "cht": "他的物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-1792",
-              "eng": "oppress"
-            },
-            {
-              "id": "hebrew-6041",
-              "eng": "the afflicted"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-8179",
-              "eng": "at the gate",
-              "punct": "–"
+              "cht": "在城門口"
             },
             {
-              "id": ""
+              "id": "hebrew-1792",
+              "cht": "欺壓"
+            },
+            {
+              "id": "hebrew-6041",
+              "cht": "困苦人",
+              "punct_cht": "；"
             }
           ]
         },
@@ -669,41 +674,41 @@
             "hebrew-1847": 1.6486252249606381
           },
           "verseKey": "pro.18.15",
-          "cunp": "聰明人的心得知識； 智慧人的耳求知識。",
+          "nasb": "The mind of the prudent acquires knowledge, And the ear of the wise seeks knowledge.",
           "words": [
             {
-              "id": "hebrew-3820",
-              "eng": "the heart"
+              "id": "hebrew-995",
+              "cht": "聰明人"
             },
             {
-              "id": "hebrew-995",
-              "eng": "of the prudent"
+              "id": "hebrew-3820",
+              "cht": "的心"
             },
             {
               "id": "hebrew-7069",
-              "eng": "acquires"
+              "cht": "得"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-241",
-              "eng": "and the ear"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-241",
+              "cht": "的耳"
             },
             {
               "id": "hebrew-1245",
-              "eng": "seeks"
+              "cht": "求"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "."
+              "cht": "知識",
+              "punct_cht": "。"
             }
           ]
         },
@@ -713,108 +718,103 @@
             "hebrew-7563": 1.1425953560426105
           },
           "verseKey": "ezk.3.18",
-          "cunp": "我何時指着惡人說：他必要死；你若不警戒他，也不勸戒他，使他離開惡行，拯救他的性命，這惡人必死在罪孽之中；我卻要向你討他喪命的罪。",
+          "nasb": "When I say to the wicked, ‘You will surely die,’ and you do not warn him or speak out to warn the wicked from his wicked way that he may live, that wicked man shall die in his iniquity, but his blood I will require at your hand.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "when I say"
-            },
-            {
               "id": "hebrew-7563",
-              "eng": "to the wicked",
-              "punct": "､"
+              "cht": "我何時指著惡人"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4191",
-              "eng": "surely"
+              "cht": "他必要"
             },
             {
               "id": "hebrew-4191",
-              "eng": "You shall die"
+              "cht": "死",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and no"
+              "cht": "你若不"
             },
             {
               "id": "hebrew-2094",
-              "eng": "you give him warning",
-              "punct": "､"
+              "cht": "警戒他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-1696",
-              "eng": "speak"
+              "cht": "勸戒"
             },
             {
-              "id": "hebrew-2094",
-              "eng": "to warn"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "使他"
+            },
+            {
+              "id": "hebrew-7563",
+              "cht": "離開惡"
             },
             {
               "id": "hebrew-1870",
-              "eng": "from his way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "wicked"
+              "cht": "行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2421",
-              "eng": "to save his life",
-              "punct": "–"
+              "cht": "拯救他的性命",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "這"
             },
             {
               "id": "hebrew-7563",
-              "eng": "wicked [man]"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "in his iniquity",
-              "punct": "–"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die"
+              "cht": "必死"
             },
             {
-              "id": "hebrew-1818",
-              "eng": "but his blood"
+              "id": "hebrew-5771",
+              "cht": "在罪孽"
+            },
+            {
+              "id": "",
+              "cht": "之中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "at your hand"
+              "cht": "我卻要向你"
             },
             {
               "id": "hebrew-1245",
-              "eng": "I will require",
-              "punct": "."
+              "cht": "討"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "他喪命的罪（"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1818",
+              "cht": "原文是血）",
+              "punct_cht": "。"
             }
           ]
         }

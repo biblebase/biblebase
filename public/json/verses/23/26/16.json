@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3068": "Yahweh",
-          "hebrew-6862": "in trouble",
-          "hebrew-6485": "they have visited You",
-          "hebrew-6694": "they poured out",
-          "hebrew-3908": "a prayer",
-          "hebrew-4148": "[when] Your chastening [was]",
-          "": null
+          "eng": {
+            "hebrew-3068": "Yahweh",
+            "hebrew-6862": "in trouble",
+            "hebrew-6485": "they have visited You",
+            "hebrew-6694": "they poured out",
+            "hebrew-3908": "a prayer",
+            "hebrew-4148": "[when] Your chastening [was]",
+            "": null
+          },
+          "cht": {
+            "hebrew-3068": "耶和華",
+            "hebrew-6862": "他們在急難中",
+            "hebrew-6485": "尋求你",
+            "hebrew-6694": "他們就傾心吐膽",
+            "hebrew-3908": "禱告",
+            "hebrew-4148": "你的懲罰"
+          }
         }
       },
       "translations": {},
@@ -20,36 +30,33 @@
             "hebrew-6694": 10.248599871619378
           },
           "verseKey": "job.28.2",
-          "cunp": "鐵從地裏挖出； 銅從石中鎔化。",
+          "nasb": "Iron is taken from the dust, And copper is smelted from rock.",
           "words": [
             {
               "id": "hebrew-1270",
-              "eng": "Iron"
+              "cht": "鐵"
             },
             {
               "id": "hebrew-6083",
-              "eng": "from the earth",
-              "punct": "､"
+              "cht": "從地裡"
             },
             {
               "id": "hebrew-3947",
-              "eng": "is taken"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "and [from] ore"
-            },
-            {
-              "id": "hebrew-6694",
-              "eng": "[is] smelted"
+              "cht": "挖出",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5154",
-              "eng": "copper",
-              "punct": "."
+              "cht": "銅"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-68",
+              "cht": "從石"
+            },
+            {
+              "id": "hebrew-6694",
+              "cht": "中鎔化",
+              "punct_cht": "。"
             }
           ]
         },
@@ -59,41 +66,41 @@
             "hebrew-6694": 10.248599871619378
           },
           "verseKey": "job.29.6",
-          "cunp": "奶多可洗我的腳； 磐石為我出油成河。",
+          "nasb": "When my steps were bathed in butter, And the rock poured out for me streams of oil!",
           "words": [
             {
+              "id": "hebrew-2529",
+              "cht": "奶"
+            },
+            {
               "id": "hebrew-7364",
-              "eng": "When were bathed"
+              "cht": "多可洗"
             },
             {
               "id": "hebrew-1978",
-              "eng": "my steps"
-            },
-            {
-              "id": "hebrew-2529",
-              "eng": "with cream",
-              "punct": "､"
+              "cht": "我的腳",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6697",
-              "eng": "and the rock"
-            },
-            {
-              "id": "hebrew-6694",
-              "eng": "poured out"
+              "cht": "磐石"
             },
             {
               "id": "hebrew-5978",
-              "eng": "for me"
+              "cht": "為我"
             },
             {
-              "id": "hebrew-6388",
-              "eng": "rivers"
+              "id": "hebrew-6694",
+              "cht": "出"
             },
             {
               "id": "hebrew-8081",
-              "eng": "of oil",
-              "punct": "–"
+              "cht": "油"
+            },
+            {
+              "id": "hebrew-6388",
+              "cht": "成河",
+              "punct_cht": "。"
             }
           ]
         },
@@ -104,63 +111,51 @@
             "hebrew-3908": 6.7856512265994295
           },
           "verseKey": "jer.8.17",
-          "cunp": "看哪，我必使毒蛇到你們中間， 是不服法術的， 必咬你們。 這是耶和華說的。",
+          "nasb": "“For behold, I am sending serpents against you, Adders, for which there is no charm, And they will bite you,” declares the Lord.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2005",
-              "eng": "behold I"
+              "id": "hebrew-2009",
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7971",
-              "eng": "will send"
-            },
-            {
-              "id": "hebrew-5175",
-              "eng": "serpents",
-              "punct": "､"
+              "cht": "我必使"
             },
             {
               "id": "hebrew-6848",
-              "eng": "Vipers",
-              "punct": "､"
+              "cht": "毒蛇"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "是"
             },
             {
               "id": "hebrew-369",
-              "eng": "[can] not"
+              "cht": "不"
             },
             {
               "id": "hebrew-3908",
-              "eng": "be charmed",
-              "punct": "､"
+              "cht": "服法術的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5391",
-              "eng": "and they shall bite"
+              "cht": "必咬"
             },
             {
               "id": "hebrew-853",
-              "eng": "you"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "你們",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
             },
             {
-              "id": "hebrew-2009"
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -170,50 +165,38 @@
             "hebrew-3908": 6.7856512265994295
           },
           "verseKey": "isa.3.3",
-          "cunp": "五十夫長和尊貴人， 謀士和有巧藝的， 以及妙行法術的。",
+          "nasb": "The captain of fifty and the honorable man, The counselor and the expert artisan, And the skillful enchanter.",
           "words": [
             {
-              "id": "hebrew-8269",
-              "eng": "the captain"
+              "id": "hebrew-2572",
+              "cht": "五十"
             },
             {
-              "id": "hebrew-2572",
-              "eng": "of fifty",
-              "punct": "､"
+              "id": "hebrew-8269",
+              "cht": "夫長"
             },
             {
               "id": "hebrew-5375",
-              "eng": "and honorable"
+              "cht": "和尊貴"
             },
             {
               "id": "hebrew-6440",
-              "eng": "the man",
-              "punct": "､"
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3289",
-              "eng": "and the counselor",
-              "punct": "､"
+              "cht": "謀士"
             },
             {
               "id": "hebrew-2450",
-              "eng": "and the"
-            },
-            {
-              "id": "hebrew-2798",
-              "eng": "skillful artisan"
+              "cht": "和有巧藝的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "and the expert"
-            },
-            {
-              "id": "hebrew-3908",
-              "eng": "enchanter",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2791"
+              "cht": "以及妙行法術的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -223,51 +206,54 @@
             "hebrew-3908": 6.7856512265994295
           },
           "verseKey": "ecc.10.11",
-          "cunp": "未行法術以先，蛇若咬人， 後行法術也是無益。",
+          "nasb": "If the serpent bites before being charmed, there is no profit for the charmer.",
           "words": [
             {
-              "id": "hebrew-518",
-              "eng": "Surely"
-            },
-            {
-              "id": "hebrew-5391",
-              "eng": "may bite"
-            },
-            {
-              "id": "hebrew-5175",
-              "eng": "a serpent"
-            },
-            {
               "id": "hebrew-3808",
-              "eng": "when [it is] not"
+              "cht": "未"
             },
             {
               "id": "hebrew-3908",
-              "eng": "charmed",
-              "punct": "–"
+              "cht": "行法術"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and no"
+              "id": "",
+              "cht": "以先",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3504",
-              "eng": "is different"
+              "id": "hebrew-5175",
+              "cht": "蛇"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "若"
+            },
+            {
+              "id": "hebrew-5391",
+              "cht": "咬"
+            },
+            {
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1167",
-              "eng": "owner"
+              "cht": "後行"
             },
             {
               "id": "hebrew-3956",
-              "eng": "the babbler",
-              "punct": "."
+              "cht": "法術"
             },
             {
-              "id": ""
+              "id": "hebrew-369",
+              "cht": "也是無"
             },
             {
-              "id": ""
+              "id": "hebrew-3504",
+              "cht": "益",
+              "punct_cht": "。"
             }
           ]
         },
@@ -277,36 +263,31 @@
             "hebrew-3908": 6.7856512265994295
           },
           "verseKey": "isa.3.20",
-          "cunp": "華冠、足鍊、華帶、香盒、符囊、",
+          "nasb": "headdresses, ankle chains, sashes, perfume boxes, amulets,",
           "words": [
             {
               "id": "hebrew-6287",
-              "eng": "the headdresses",
-              "punct": "､"
+              "cht": "華冠、"
             },
             {
               "id": "hebrew-6807",
-              "eng": "and the leg ornaments",
-              "punct": "､"
+              "cht": "足鍊、"
             },
             {
               "id": "hebrew-7196",
-              "eng": "and the headbands",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "and"
+              "cht": "華帶、"
             },
             {
               "id": "hebrew-5315",
-              "eng": "the perfume boxes",
-              "punct": "､"
+              "cht": "香"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "盒、"
             },
             {
               "id": "hebrew-3908",
-              "eng": "and the charms",
-              "punct": "､"
+              "cht": "符囊、"
             }
           ]
         },
@@ -317,93 +298,84 @@
             "hebrew-4148": 2.452276740079168
           },
           "verseKey": "zep.3.7",
-          "cunp": "我說：你只要敬畏我，領受訓誨； 如此，你的住處不致照我所擬定的除滅。 只是你們從早起來就在一切事上敗壞自己。",
+          "nasb": "I said, ‘Surely you will revere Me, Accept instruction.’ So her dwelling will not be cut off According to all that I have appointed concerning her. But they were eager to corrupt all their deeds.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "I said",
-              "punct": "､"
+              "cht": "我說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-389",
-              "eng": "surely"
+              "cht": "你只"
             },
             {
               "id": "hebrew-3372",
-              "eng": "you will fear"
+              "cht": "要敬畏"
             },
             {
               "id": "hebrew-853",
-              "eng": "Me"
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3947",
-              "eng": "You will receive"
+              "cht": "領受"
             },
             {
               "id": "hebrew-4148",
-              "eng": "instruction",
-              "punct": "–"
+              "cht": "訓誨"
+            },
+            {
+              "id": "",
+              "cht": "如此",
+              "punct_cht": "；，"
+            },
+            {
+              "id": "hebrew-4583",
+              "cht": "你的住處"
             },
             {
               "id": "hebrew-3808",
-              "eng": "so that not"
-            },
-            {
-              "id": "hebrew-3772",
-              "eng": "would be cut off",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4585",
-              "eng": "her dwelling"
+              "cht": "不"
             },
             {
               "id": "hebrew-3605",
-              "eng": "[Despite] everything"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "for which"
+              "cht": "致照我所"
             },
             {
               "id": "hebrew-6485",
-              "eng": "I punished"
+              "cht": "擬定的"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "her"
+              "id": "hebrew-3772",
+              "cht": "除滅",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-403",
-              "eng": "but"
+              "cht": "只是"
             },
             {
               "id": "hebrew-7925",
-              "eng": "they rose early",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7843",
-              "eng": "and corrupted"
+              "cht": "你們從早"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "起來就在一切"
             },
             {
               "id": "hebrew-5949",
-              "eng": "their deeds",
-              "punct": "."
+              "cht": "事"
             },
             {
-              "id": ""
+              "id": "hebrew-7843",
+              "cht": "上敗壞"
             },
             {
-              "id": "hebrew-4583"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "自己",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,12 +3,21 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2587": "Gracious [is]",
-          "hebrew-3068": "Yahweh",
-          "hebrew-6662": "and righteous",
-          "hebrew-430": "and Yes our God [is]",
-          "hebrew-7355": "merciful",
-          "": null
+          "eng": {
+            "hebrew-2587": "Gracious [is]",
+            "hebrew-3068": "Yahweh",
+            "hebrew-6662": "and righteous",
+            "hebrew-430": "and Yes our God [is]",
+            "hebrew-7355": "merciful",
+            "": null
+          },
+          "cht": {
+            "hebrew-2587": "有恩惠",
+            "hebrew-3068": "耶和華",
+            "hebrew-6662": "有公義",
+            "hebrew-430": "神",
+            "hebrew-7355": "以憐憫"
+          }
         }
       },
       "translations": {
@@ -23,94 +32,85 @@
             "hebrew-7355": 3.0298663446363143
           },
           "verseKey": "exo.33.19",
-          "cunp": "耶和華說：「我要顯我一切的恩慈，在你面前經過，宣告我的名。我要恩待誰就恩待誰；要憐憫誰就憐憫誰」；",
+          "nasb": "And He said, “I Myself will make all My goodness pass before you, and will proclaim the name of the Lord before you; and I will be gracious to whom I will be gracious, and will show compassion on whom I will show compassion.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And He said",
-              "punct": "､"
+              "cht": "耶和華說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "will make pass"
+              "cht": "我"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "要顯我一切"
             },
             {
               "id": "hebrew-2898",
-              "eng": "My goodness"
+              "cht": "的恩慈",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "before"
+              "cht": "在"
             },
             {
               "id": "hebrew-6440",
-              "eng": "you",
-              "punct": "､"
+              "cht": "你面前"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "經過",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and I will proclaim"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "宣告"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "我"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before you",
-              "punct": "､"
+              "cht": "的名",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2603",
-              "eng": "and I will be gracious"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我要恩待"
             },
             {
               "id": "hebrew-834",
-              "eng": "to whom"
+              "cht": "誰"
             },
             {
               "id": "hebrew-2603",
-              "eng": "I will be gracious",
-              "punct": "､"
+              "cht": "就恩待"
             },
             {
-              "id": "hebrew-7355",
-              "eng": "and I will have compassion"
+              "id": "",
+              "cht": "誰",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "要憐憫"
             },
             {
               "id": "hebrew-834",
-              "eng": "on whom"
+              "cht": "誰"
             },
             {
               "id": "hebrew-7355",
-              "eng": "I will have compassion",
-              "punct": "."
+              "cht": "就憐憫"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "誰",
+              "punct_cht": "」；"
             }
           ]
         },
@@ -121,41 +121,33 @@
             "hebrew-7355": 3.0298663446363143
           },
           "verseKey": "psa.103.13",
-          "cunp": "父親怎樣憐恤他的兒女， 耶和華也怎樣憐恤敬畏他的人！",
+          "nasb": "Just as a father has compassion on his children, So the Lord has compassion on those who fear Him.",
           "words": [
             {
-              "id": "hebrew-7355",
-              "eng": "As pities"
-            },
-            {
               "id": "hebrew-1",
-              "eng": "a father"
+              "cht": "父親"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "怎樣憐恤"
             },
             {
               "id": "hebrew-1121",
-              "eng": "[his] children",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7355",
-              "eng": "[So] pities"
+              "cht": "他的兒女",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "id": "hebrew-7355",
+              "cht": "也怎樣憐恤"
             },
             {
               "id": "hebrew-3373",
-              "eng": "those who fear Him",
-              "punct": "."
+              "cht": "敬畏他的人",
+              "punct_cht": "！"
             }
           ]
         },
@@ -165,75 +157,71 @@
             "hebrew-7355": 3.0298663446363143
           },
           "verseKey": "hos.2.23",
-          "cunp": "我必將她種在這地。 素不蒙憐憫的，我必憐憫； 本非我民的，我必對他說： 你是我的民； 他必說：你是我的神。」",
+          "nasb": "I will sow her for Myself in the land. I will also have compassion on her who had not obtained compassion, And I will say to those who were not My people, ‘You are My people!’ And they will say, ‘You are my God!’ ”",
           "words": [
             {
               "id": "hebrew-2232",
-              "eng": "And I will sow her"
+              "cht": "將她種"
             },
             {
               "id": "hebrew-776",
-              "eng": "in the earth",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7355",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "在這地",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "素不"
             },
             {
               "id": "hebrew-7355",
-              "eng": "[who had] obtained mercy",
-              "punct": "–"
+              "cht": "蒙憐憫的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7355",
+              "cht": "我必憐憫",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "本非"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "我民的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and I will say"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "to not"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "to Lo-ammi",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "My people",
-              "punct": "–"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-859",
-              "eng": "You [are]"
+              "cht": "你是"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "我的民",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1931",
-              "eng": "and he"
+              "cht": "他"
             },
             {
               "id": "hebrew-559",
-              "eng": "shall say",
-              "punct": "､"
+              "cht": "必說"
+            },
+            {
+              "id": "",
+              "cht": "你是我的",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-430",
-              "eng": "[You are] My God",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3818"
-            },
-            {
-              "id": ""
+              "cht": "神",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -244,39 +232,40 @@
             "hebrew-6662": 1.0984070729221034
           },
           "verseKey": "psa.112.4",
-          "cunp": "正直人在黑暗中，有光向他發現； 他有恩惠，有憐憫，有公義。",
+          "nasb": "Light arises in the darkness for the upright; He is gracious and compassionate and righteous.",
           "words": [
             {
-              "id": "hebrew-2224",
-              "eng": "There arises"
+              "id": "hebrew-3477",
+              "cht": "正直人"
             },
             {
               "id": "hebrew-2822",
-              "eng": "in the darkness",
-              "punct": "–"
+              "cht": "在黑暗中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-216",
-              "eng": "light"
+              "cht": "有光"
             },
             {
-              "id": "hebrew-3477",
-              "eng": "Unto the upright"
+              "id": "hebrew-2224",
+              "cht": "發現",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2587",
-              "eng": "[He is] gracious",
-              "punct": "､"
+              "cht": "他有恩惠",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7349",
-              "eng": "and compassionate",
-              "punct": "､"
+              "cht": "有憐憫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6662",
-              "eng": "and righteous",
-              "punct": "."
+              "cht": "有公義",
+              "punct_cht": "。"
             }
           ]
         },
@@ -287,79 +276,73 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "exo.34.6",
-          "cunp": "耶和華在他面前宣告說：「耶和華，耶和華，是有憐憫有恩典的神，不輕易發怒，並有豐盛的慈愛和誠實，",
+          "nasb": "Then the Lord passed by in front of him and proclaimed, “The Lord, the Lord God, compassionate and gracious, slow to anger, and abounding in lovingkindness and truth;",
           "words": [
             {
               "id": "hebrew-5674",
-              "eng": "And passed"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5921",
-              "eng": "before"
+              "cht": "在"
             },
             {
               "id": "hebrew-6440",
-              "eng": "him"
+              "cht": "他面前"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and proclaimed",
-              "punct": "､"
+              "cht": "宣告"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "God",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7349",
-              "eng": "merciful"
+              "cht": "是有憐憫"
             },
             {
               "id": "hebrew-2587",
-              "eng": "and gracious",
-              "punct": "､"
+              "cht": "有恩典"
             },
             {
-              "id": "hebrew-750",
-              "eng": "slow"
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-639",
-              "eng": "to anger",
-              "punct": "､"
+              "cht": "不輕易發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "and abounding"
+              "cht": "並有豐盛"
             },
             {
               "id": "hebrew-2617",
-              "eng": "in goodness"
+              "cht": "的慈愛"
             },
             {
               "id": "hebrew-571",
-              "eng": "and truth",
-              "punct": "､"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "和誠實",
+              "punct_cht": "，"
             }
           ]
         },
@@ -370,111 +353,113 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "2ch.30.9",
-          "cunp": "你們若轉向耶和華，你們的弟兄和兒女必在擄掠他們的人面前蒙憐恤，得以歸回這地，因為耶和華－你們的神有恩典、施憐憫。你們若轉向他，他必不轉臉不顧你們。」",
+          "nasb": "For if you return to the Lord, your brothers and your sons will find compassion before those who led them captive and will return to this land. For the Lord your God is gracious and compassionate, and will not turn His face away from you if you return to Him.”",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
+              "cht": "你們若"
             },
             {
               "id": "hebrew-7725",
-              "eng": "if you return"
+              "cht": "轉"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to"
+              "cht": "向"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-251",
-              "eng": "your brothers"
+              "cht": "你們的弟兄"
             },
             {
               "id": "hebrew-1121",
-              "eng": "and your children"
-            },
-            {
-              "id": "hebrew-7356",
-              "eng": "[will be treated] with compassion"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "by"
+              "cht": "和兒女"
             },
             {
               "id": "hebrew-7617",
-              "eng": "those who lead them captive",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "so that they may come back"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "to land",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "This"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2587",
-              "eng": "gracious"
-            },
-            {
-              "id": "hebrew-7349",
-              "eng": "and merciful",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "your God [is]"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-5493",
-              "eng": "will turn"
+              "cht": "必在擄掠"
             },
             {
               "id": "hebrew-6440",
-              "eng": "[His] face"
+              "cht": "他們的人面前"
             },
             {
-              "id": "hebrew-4480",
-              "eng": "from you"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "if"
+              "id": "hebrew-7356",
+              "cht": "蒙憐恤",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "you return"
+              "cht": "得以歸回"
+            },
+            {
+              "id": "hebrew-2063",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-2587",
+              "cht": "有恩典、"
+            },
+            {
+              "id": "hebrew-7349",
+              "cht": "施憐憫",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "你們若"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "轉"
             },
             {
               "id": "hebrew-413",
-              "eng": "to Him",
-              "punct": "."
+              "cht": "向他",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "他必不"
+            },
+            {
+              "id": "hebrew-5493",
+              "cht": "轉"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "臉"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "不顧你們",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -485,39 +470,39 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "psa.145.8",
-          "cunp": "耶和華有恩惠，有憐憫， 不輕易發怒，大有慈愛。",
+          "nasb": "The Lord is gracious and merciful; Slow to anger and great in lovingkindness.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-2587",
-              "eng": "Gracious",
-              "punct": "､"
+              "cht": "有恩惠",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7349",
-              "eng": "and compassionate",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh [is]"
+              "cht": "有憐憫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-750",
-              "eng": "Slow to"
+              "cht": "不輕易"
             },
             {
               "id": "hebrew-639",
-              "eng": "anger",
-              "punct": "､"
+              "cht": "發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1419",
-              "eng": "and great"
+              "cht": "大"
             },
             {
               "id": "hebrew-2617",
-              "eng": "in mercy",
-              "punct": "."
+              "cht": "有慈愛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -528,38 +513,39 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "psa.103.8",
-          "cunp": "耶和華有憐憫，有恩典， 不輕易發怒，且有豐盛的慈愛。",
+          "nasb": "The Lord is compassionate and gracious, Slow to anger and abounding in lovingkindness.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-7349",
-              "eng": "Merciful"
+              "cht": "有憐憫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2587",
-              "eng": "and gracious",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh [is]"
+              "cht": "有恩典",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-750",
-              "eng": "Slow"
+              "cht": "不輕易"
             },
             {
               "id": "hebrew-639",
-              "eng": "to anger",
-              "punct": "､"
+              "cht": "發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "and abounding"
+              "cht": "且有豐盛的"
             },
             {
               "id": "hebrew-2617",
-              "eng": "in mercy",
-              "punct": "."
+              "cht": "慈愛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -570,33 +556,35 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "psa.111.4",
-          "cunp": "他行了奇事，使人記念； 耶和華有恩惠，有憐憫。",
+          "nasb": "He has made His wonders to be remembered; The Lord is gracious and compassionate.",
           "words": [
             {
-              "id": "hebrew-2143",
-              "eng": "To be remembered",
-              "punct": "–"
-            },
-            {
               "id": "hebrew-6213",
-              "eng": "He has made"
+              "cht": "他行了"
             },
             {
               "id": "hebrew-6381",
-              "eng": "His wonderful works"
+              "cht": "奇事",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2587",
-              "eng": "gracious"
-            },
-            {
-              "id": "hebrew-7349",
-              "eng": "and compassionate"
+              "id": "hebrew-2143",
+              "cht": "使人記念",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh [is]",
-              "punct": "."
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-2587",
+              "cht": "有恩惠",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7349",
+              "cht": "有憐憫",
+              "punct_cht": "。"
             }
           ]
         },
@@ -607,93 +595,95 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "jol.2.13",
-          "cunp": "你們要撕裂心腸， 不撕裂衣服。 歸向耶和華－你們的神； 因為他有恩典，有憐憫， 不輕易發怒， 有豐盛的慈愛， 並且後悔不降所說的災。",
+          "nasb": "And rend your heart and not your garments.” Now return to the Lord your God, For He is gracious and compassionate, Slow to anger, abounding in lovingkindness And relenting of evil.",
           "words": [
             {
               "id": "hebrew-7167",
-              "eng": "so rend"
+              "cht": "你們要撕裂"
             },
             {
               "id": "hebrew-3824",
-              "eng": "your heart",
-              "punct": "､"
+              "cht": "心腸",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "and not"
+              "cht": "不"
             },
             {
               "id": "hebrew-899",
-              "eng": "your garments",
-              "punct": "､"
+              "cht": "撕裂衣服",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-7725",
-              "eng": "and Return"
+              "cht": "歸"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "向"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─你們的"
             },
             {
               "id": "hebrew-430",
-              "eng": "your God",
-              "punct": "､"
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2587",
-              "eng": "gracious"
-            },
-            {
-              "id": "hebrew-7349",
-              "eng": "and merciful",
-              "punct": "､"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1931",
-              "eng": "He [is]"
+              "cht": "他有"
+            },
+            {
+              "id": "hebrew-2587",
+              "cht": "恩典",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7349",
+              "cht": "有憐憫",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-750",
-              "eng": "Slow"
+              "cht": "不輕易"
             },
             {
               "id": "hebrew-639",
-              "eng": "to anger",
-              "punct": "､"
+              "cht": "發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "and great"
+              "cht": "有豐盛的"
             },
             {
               "id": "hebrew-2617",
-              "eng": "of kindness",
-              "punct": "､"
+              "cht": "慈愛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5162",
-              "eng": "and He relents"
+              "cht": "並且後悔"
             },
             {
               "id": "hebrew-5921",
-              "eng": "from"
+              "cht": "不降"
             },
             {
               "id": "hebrew-7451",
-              "eng": "doing harm",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "所說的災",
+              "punct_cht": "。"
             }
           ]
         }

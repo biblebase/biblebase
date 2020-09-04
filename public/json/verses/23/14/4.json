@@ -3,17 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5375": "That you will take up",
-          "hebrew-4912": "proverb",
-          "hebrew-2088": "this",
-          "hebrew-5921": "against",
-          "hebrew-4428": "the king",
-          "hebrew-894": "of Babylon",
-          "hebrew-559": "and say",
-          "hebrew-349": "how",
-          "hebrew-7673": "ceased",
-          "hebrew-5065": "the oppressor",
-          "hebrew-4062": "the golden city"
+          "eng": {
+            "hebrew-5375": "That you will take up",
+            "hebrew-4912": "proverb",
+            "hebrew-2088": "this",
+            "hebrew-5921": "against",
+            "hebrew-4428": "the king",
+            "hebrew-894": "of Babylon",
+            "hebrew-559": "and say",
+            "hebrew-349": "how",
+            "hebrew-7673": "ceased",
+            "hebrew-5065": "the oppressor",
+            "hebrew-4062": "the golden city"
+          },
+          "cht": {
+            "hebrew-5375": "你必題",
+            "hebrew-4912": "詩歌",
+            "hebrew-2088": "這",
+            "hebrew-5921": "論",
+            "hebrew-4428": "王",
+            "hebrew-894": "巴比倫",
+            "hebrew-559": "說",
+            "hebrew-349": "何竟",
+            "hebrew-7673": "何竟止息",
+            "hebrew-5065": "欺壓人的",
+            "hebrew-4062": "強暴的"
+          }
         }
       },
       "translations": {
@@ -31,132 +46,95 @@
             "hebrew-4062": 3.7212505791847406
           },
           "verseKey": "heb.9.4",
-          "cunp": "有金香爐，有包金的約櫃，櫃裏有盛嗎哪的金罐和亞倫發過芽的杖，並兩塊約版；",
+          "nasb": "having a golden altar of incense and the ark of the covenant covered on all sides with gold, in which was a golden jar holding the manna, and Aaron’s rod which budded, and the tables of the covenant;",
           "words": [
             {
-              "id": "greek-5552",
-              "eng": "[the] golden"
+              "id": "greek-2192",
+              "cht": "有"
             },
             {
-              "id": "greek-2192",
-              "eng": "having"
+              "id": "greek-5552",
+              "cht": "金"
             },
             {
               "id": "greek-2369",
-              "eng": "altar of incense",
-              "punct": ","
+              "cht": "香爐"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2787",
-              "eng": "ark"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1242",
-              "eng": "covenant",
-              "punct": ","
+              "id": "",
+              "cht": "（或作壇）",
+              "punct_cht": "：，"
             },
             {
               "id": "greek-4028",
-              "eng": "having been covered around"
-            },
-            {
-              "id": "greek-3840",
-              "eng": "in every part"
+              "cht": "有包"
             },
             {
               "id": "greek-5553",
-              "eng": "with gold",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-4713",
-              "eng": "[was the] jar"
-            },
-            {
-              "id": "greek-5552",
-              "eng": "golden"
-            },
-            {
-              "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3131",
-              "eng": "manna",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4464",
-              "eng": "staff"
-            },
-            {
-              "id": "greek-2",
-              "eng": "of Aaron"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-985",
-              "eng": "having budded",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4109",
-              "eng": "tablets"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "金"
             },
             {
               "id": "greek-1242",
-              "eng": "covenant",
-              "punct": "."
+              "cht": "的約"
             },
             {
-              "id": ""
+              "id": "greek-2787",
+              "cht": "櫃",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "櫃"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "裡"
+            },
+            {
+              "id": "greek-2192",
+              "cht": "有"
+            },
+            {
+              "id": "greek-3131",
+              "cht": "盛嗎哪"
+            },
+            {
+              "id": "greek-5552",
+              "cht": "的金"
+            },
+            {
+              "id": "greek-4713",
+              "cht": "罐"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "和"
+            },
+            {
+              "id": "greek-2",
+              "cht": "亞倫"
+            },
+            {
+              "id": "greek-985",
+              "cht": "發過芽"
+            },
+            {
+              "id": "greek-4464",
+              "cht": "的杖",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
+            },
+            {
+              "id": "greek-1242",
+              "cht": "兩塊約"
+            },
+            {
+              "id": "greek-4109",
+              "cht": "版",
+              "punct_cht": "；"
             }
           ]
         },
@@ -166,143 +144,100 @@
             "hebrew-4062": 3.7212505791847406
           },
           "verseKey": "rev.8.3",
-          "cunp": "另有一位天使，拿着金香爐來，站在祭壇旁邊。有許多香賜給他，要和眾聖徒的祈禱一同獻在寶座前的金壇上。",
+          "nasb": "Another angel came and stood at the altar, holding a golden censer; and much incense was given to him, so that he might add it to the prayers of all the saints on the golden altar which was before the throne.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-243",
-              "eng": "another"
+              "cht": "另有一位"
             },
             {
               "id": "greek-32",
-              "eng": "angel"
-            },
-            {
-              "id": "greek-2064",
-              "eng": "came"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2476",
-              "eng": "stood"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "at"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2379",
-              "eng": "altar",
-              "punct": ","
+              "cht": "天使",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2192",
-              "eng": "having"
+              "cht": "拿著"
+            },
+            {
+              "id": "greek-5552",
+              "cht": "金"
             },
             {
               "id": "greek-3031",
-              "eng": "a censer"
+              "cht": "香爐"
             },
             {
-              "id": "greek-5552",
-              "eng": "golden",
-              "punct": ";"
+              "id": "greek-2064",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "was given"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him"
-            },
-            {
-              "id": "greek-2368",
-              "eng": "incense"
-            },
-            {
-              "id": "greek-4183",
-              "eng": "much",
-              "punct": ","
-            },
-            {
-              "id": "greek-2443",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "he will offer [it]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-4335",
-              "eng": "prayers"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-40",
-              "eng": "saints"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2476",
+              "cht": "站"
             },
             {
               "id": "greek-2379",
-              "eng": "altar"
+              "cht": "在祭壇"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "旁邊",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-4183",
+              "cht": "有許多"
+            },
+            {
+              "id": "greek-2368",
+              "cht": "香"
+            },
+            {
+              "id": "greek-1325",
+              "cht": "賜給"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "要和眾"
+            },
+            {
+              "id": "greek-40",
+              "cht": "聖徒"
+            },
+            {
+              "id": "greek-4335",
+              "cht": "的祈禱"
             },
             {
               "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5552",
-              "eng": "golden"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1799",
-              "eng": "before"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "一同獻"
             },
             {
               "id": "greek-2362",
-              "eng": "throne",
-              "punct": "."
+              "cht": "在寶座"
+            },
+            {
+              "id": "greek-1799",
+              "cht": "前"
+            },
+            {
+              "id": "greek-5552",
+              "cht": "的金"
+            },
+            {
+              "id": "greek-2379",
+              "cht": "壇"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -314,118 +249,110 @@
             "hebrew-7673": 1.9063487630112834
           },
           "verseKey": "ezk.12.23",
-          "cunp": "你要告訴他們說：『主耶和華如此說：我必使這俗語止息，以色列中不再用這俗語。』你卻要對他們說：『日子臨近，一切的異象必都應驗。』",
+          "nasb": "Therefore say to them, ‘Thus says the Lord God, “I will make this proverb cease so that they will no longer use it as a proverb in Israel.” But tell them, “The days draw near as well as the fulfillment of every vision.",
           "words": [
             {
-              "id": "hebrew-3651",
-              "eng": "Therefore",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-559",
-              "eng": "Tell"
+              "cht": "你要告訴"
             },
             {
               "id": "hebrew-413",
-              "eng": "them"
+              "cht": "他們"
             },
             {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "GOD"
+              "id": "hebrew-3069",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-7673",
-              "eng": "I will lay to rest",
-              "punct": "､"
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4912",
-              "eng": "proverb"
+              "cht": "我必使"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "and no"
+              "id": "hebrew-4912",
+              "cht": "俗語"
             },
             {
-              "id": "hebrew-4911",
-              "eng": "they shall use as a proverb"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "it"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "more"
+              "id": "hebrew-7673",
+              "cht": "止息",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3478",
-              "eng": "in Israel",
-              "punct": "–"
+              "cht": "以色列中"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "再"
+            },
+            {
+              "id": "hebrew-4911",
+              "cht": "用"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "這俗語",
+              "punct_cht": "。』"
             },
             {
               "id": "hebrew-518",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "say"
+              "cht": "你卻"
             },
             {
               "id": "hebrew-413",
-              "eng": "to them"
+              "cht": "要對他們"
             },
             {
-              "id": "hebrew-7126",
-              "eng": "are at hand",
-              "punct": "､"
+              "id": "hebrew-1696",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-3117",
-              "eng": "the days"
+              "cht": "日子"
             },
             {
-              "id": "hebrew-1697",
-              "eng": "and the fulfillment"
+              "id": "hebrew-7126",
+              "cht": "臨近",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of every"
+              "cht": "一切的"
             },
             {
               "id": "hebrew-2377",
-              "eng": "vision",
-              "punct": "."
+              "cht": "異象"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3069"
+              "id": "hebrew-1697",
+              "cht": "必都應驗",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -438,137 +365,126 @@
             "hebrew-7673": 1.9063487630112834
           },
           "verseKey": "jer.36.29",
-          "cunp": "論到猶大王約雅敬你要說，耶和華如此說：你燒了書卷，說：『你為甚麼在其上寫着，說巴比倫王必要來毀滅這地，使這地上絕了人民牲畜呢？』",
+          "nasb": "And concerning Jehoiakim king of Judah you shall say, ‘Thus says the Lord, “You have burned this scroll, saying, ‘Why have you written on it that the king of Babylon will certainly come and destroy this land, and will make man and beast to cease from it?’ ”",
           "words": [
             {
               "id": "hebrew-5921",
-              "eng": "And to"
-            },
-            {
-              "id": "hebrew-3079",
-              "eng": "Jehoiakim"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "論到"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "you shall say"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "You"
-            },
-            {
-              "id": "hebrew-8313",
-              "eng": "have burned"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4039",
-              "eng": "scroll",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2063",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4069",
-              "eng": "why"
-            },
-            {
-              "id": "hebrew-3789",
-              "eng": "have you written"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "in it",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "that will come"
+              "cht": "猶大"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
             },
             {
-              "id": "hebrew-894",
-              "eng": "of Babylon"
+              "id": "hebrew-3079",
+              "cht": "約雅敬"
             },
             {
-              "id": "hebrew-7843",
-              "eng": "and destroy"
+              "id": "hebrew-559",
+              "cht": "你要說",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-776",
-              "eng": "land",
-              "punct": "､"
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this"
+              "cht": "燒了"
             },
             {
-              "id": "hebrew-7673",
-              "eng": "and cause to cease"
+              "id": "hebrew-4039",
+              "cht": "書卷",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
+            },
+            {
+              "id": "hebrew-4069",
+              "cht": "你為甚麼"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在其上"
+            },
+            {
+              "id": "hebrew-3789",
+              "cht": "寫著",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說"
+            },
+            {
+              "id": "hebrew-894",
+              "cht": "巴比倫"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "必"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "要來"
+            },
+            {
+              "id": "hebrew-7843",
+              "cht": "毀滅"
+            },
+            {
+              "id": "hebrew-2063",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from here"
+              "cht": "使這地上"
+            },
+            {
+              "id": "hebrew-7673",
+              "cht": "絕了"
             },
             {
               "id": "hebrew-120",
-              "eng": "man"
+              "cht": "人民"
             },
             {
               "id": "hebrew-929",
-              "eng": "and beast"
+              "cht": "牲畜"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？』"
             }
           ]
         },
@@ -579,68 +495,58 @@
             "hebrew-5065": 3.7212505791847406
           },
           "verseKey": "exo.5.10",
-          "cunp": "督工的和官長出來對百姓說：「法老這樣說：『我不給你們草。",
+          "nasb": "So the taskmasters of the people and their foremen went out and spoke to the people, saying, “Thus says Pharaoh, ‘I am not going to give you any straw.",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "And went out"
-            },
-            {
               "id": "hebrew-5065",
-              "eng": "the taskmasters"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of the people"
+              "cht": "督工"
             },
             {
               "id": "hebrew-7860",
-              "eng": "and their officers",
-              "punct": "､"
+              "cht": "的和官長"
             },
             {
-              "id": "hebrew-559",
-              "eng": "and spoke"
+              "id": "hebrew-3318",
+              "cht": "出來"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "對"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "､"
+              "cht": "百姓"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6547",
-              "eng": "Pharaoh",
-              "punct": "､"
+              "cht": "法老"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "這樣"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-369",
-              "eng": "I will not"
+              "cht": "我不"
             },
             {
               "id": "hebrew-5414",
-              "eng": "give"
+              "cht": "給"
             },
             {
               "id": "hebrew-8401",
-              "eng": "straw",
-              "punct": "."
+              "cht": "草",
+              "punct_cht": "。"
             }
           ]
         },
@@ -652,97 +558,89 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "mic.2.4",
-          "cunp": "到那日，必有人向你們提起悲慘的哀歌， 譏刺說：我們全然敗落了！ 耶和華將我們的分轉歸別人， 何竟使這分離開我們？ 他將我們的田地分給悖逆的人。",
+          "nasb": "On that day they will take up against you a taunt And utter a bitter lamentation and say, ‘We are completely destroyed! He exchanges the portion of my people; How He removes it from me! To the apostate He apportions our fields.’",
           "words": [
             {
-              "id": "hebrew-3117",
-              "eng": "In day"
-            },
-            {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "到那"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "[one] shall take up"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against you"
+              "cht": "必有人向你們"
             },
             {
-              "id": "hebrew-4912",
-              "eng": "a proverb"
+              "id": "hebrew-5375",
+              "cht": "提起"
             },
             {
-              "id": "hebrew-5091",
-              "eng": "and lament"
+              "id": "hebrew-5093",
+              "cht": "悲慘"
             },
             {
               "id": "hebrew-5092",
-              "eng": "with a lamentation",
-              "punct": "､"
+              "cht": "的哀歌",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "bitter"
+              "id": "hebrew-5091",
+              "cht": "譏刺"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-7703",
-              "eng": "utterly"
+              "cht": "我們全然"
             },
             {
               "id": "hebrew-7703",
-              "eng": "we are destroyed",
-              "punct": "!"
-            },
-            {
-              "id": "hebrew-2506",
-              "eng": "the heritage"
+              "cht": "敗落了",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of my people",
-              "punct": "–"
+              "cht": "耶和華將我們"
+            },
+            {
+              "id": "hebrew-2506",
+              "cht": "的分"
             },
             {
               "id": "hebrew-4171",
-              "eng": "He has changed"
+              "cht": "轉歸"
+            },
+            {
+              "id": "",
+              "cht": "別人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-349",
-              "eng": "how"
+              "cht": "何竟"
             },
             {
               "id": "hebrew-4185",
-              "eng": "He has removed [it]"
-            },
-            {
-              "id": "hebrew-7728",
-              "eng": "to a turncoat"
+              "cht": "使這分離開"
             },
             {
               "id": "hebrew-7704",
-              "eng": "our fields"
+              "cht": "他將我們的田地"
             },
             {
               "id": "hebrew-2505",
-              "eng": "He has divided",
-              "punct": "."
+              "cht": "分"
             },
             {
-              "id": "hebrew-5093"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-7725"
+              "id": "hebrew-7725",
+              "cht": "給悖逆的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -754,86 +652,88 @@
             "hebrew-559": 0.27053312959209697
           },
           "verseKey": "hab.2.6",
-          "cunp": "這些國的民豈不都要提起詩歌並俗語譏刺他說： 禍哉！迦勒底人，你增添不屬自己的財物， 多多取人的當頭，要到幾時為止呢？",
+          "nasb": "“Will not all of these take up a taunt-song against him, Even mockery and insinuations against him And say, ‘Woe to him who increases what is not his— For how long— And makes himself rich with loans?’",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "Will not"
+              "id": "hebrew-428",
+              "cht": "這些"
             },
             {
-              "id": "hebrew-428",
-              "eng": "these"
+              "id": "hebrew-3808",
+              "cht": "國的民豈不"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against him"
-            },
-            {
-              "id": "hebrew-4912",
-              "eng": "a proverb"
+              "cht": "要"
             },
             {
               "id": "hebrew-5375",
-              "eng": "take up"
+              "cht": "提起"
             },
             {
-              "id": "hebrew-4426",
-              "eng": "and taunting"
+              "id": "hebrew-4912",
+              "cht": "詩歌"
             },
             {
               "id": "hebrew-2420",
-              "eng": "a riddle"
+              "cht": "並俗語"
+            },
+            {
+              "id": "hebrew-4426",
+              "cht": "譏刺"
             },
             {
               "id": "hebrew-559",
-              "eng": "and say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1945",
-              "eng": "Woe"
+              "cht": "禍哉"
+            },
+            {
+              "id": "",
+              "cht": "迦勒底人",
+              "punct_cht": "！，"
             },
             {
               "id": "hebrew-7235",
-              "eng": "to him who increases"
+              "cht": "你增添"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
-              "id": "hebrew-5704",
-              "eng": "how"
-            },
-            {
-              "id": "hebrew-4970",
-              "eng": "long"
+              "id": "",
+              "cht": "的財物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3513",
-              "eng": "and who loads himself"
+              "cht": "多多取"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to him"
+              "cht": "人的當頭",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5671",
-              "eng": "with many pledges",
-              "punct": "!"
+              "id": "hebrew-5704",
+              "cht": "要到"
             },
             {
-              "id": ""
+              "id": "hebrew-4970",
+              "cht": "幾時"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "為止呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -844,50 +744,41 @@
             "hebrew-5065": 3.7212505791847406
           },
           "verseKey": "exo.5.6",
-          "cunp": "當天，法老吩咐督工的和官長說：",
+          "nasb": "So the same day Pharaoh commanded the taskmasters over the people and their foremen, saying,",
           "words": [
             {
-              "id": "hebrew-6680",
-              "eng": "So commanded"
-            },
-            {
-              "id": "hebrew-6547",
-              "eng": "Pharaoh"
+              "id": "hebrew-1931",
+              "cht": "當"
             },
             {
               "id": "hebrew-3117",
-              "eng": "day"
+              "cht": "天",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-6547",
+              "cht": "法老"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-6680",
+              "cht": "吩咐"
             },
             {
               "id": "hebrew-5065",
-              "eng": "the taskmasters"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of the people",
-              "punct": "､"
+              "cht": "督工的"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-7860",
-              "eng": "their officers",
-              "punct": "､"
+              "cht": "官長"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             }
           ]
         },
@@ -898,58 +789,54 @@
             "hebrew-5065": 3.7212505791847406
           },
           "verseKey": "exo.5.13",
-          "cunp": "督工的催着說：「你們一天當完一天的工，與先前有草一樣。」",
+          "nasb": "The taskmasters pressed them, saying, “Complete your work quota, your daily amount, just as when you had straw.”",
           "words": [
             {
               "id": "hebrew-5065",
-              "eng": "And the taskmasters"
+              "cht": "督工的"
             },
             {
               "id": "hebrew-213",
-              "eng": "kept pressing them"
+              "cht": "催著"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-3615",
-              "eng": "Fulfill"
+              "id": "hebrew-3117",
+              "cht": "你們一天"
             },
             {
               "id": "hebrew-4639",
-              "eng": "your work",
-              "punct": "､"
+              "cht": "當完"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "一天的"
             },
             {
               "id": "hebrew-1697",
-              "eng": "quota"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "by day",
-              "punct": "､"
+              "cht": "工",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "as"
+              "cht": "與先前"
             },
             {
               "id": "hebrew-1961",
-              "eng": "when there was"
+              "cht": "有"
             },
             {
               "id": "hebrew-8401",
-              "eng": "straw",
-              "punct": "."
+              "cht": "草"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -960,121 +847,78 @@
             "hebrew-4062": 3.7212505791847406
           },
           "verseKey": "rev.2.1",
-          "cunp": "「你要寫信給以弗所教會的使者，說：『那右手拿着七星、在七個金燈臺中間行走的，說：",
+          "nasb": "“To the angel of the church in Ephesus write: The One who holds the seven stars in His right hand, the One who walks among the seven golden lampstands, says this:",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "To the"
-            },
-            {
-              "id": "greek-32",
-              "eng": "messenger"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
+              "id": "greek-1125",
+              "cht": "你要寫信"
             },
             {
               "id": "greek-2179",
-              "eng": "Ephesus"
+              "cht": "給以弗所"
             },
             {
               "id": "greek-1577",
-              "eng": "church"
+              "cht": "教會"
             },
             {
-              "id": "greek-1125",
-              "eng": "write",
-              "punct": ":"
-            },
-            {
-              "id": "greek-3592",
-              "eng": "These things"
+              "id": "greek-32",
+              "cht": "的使者",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "says"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [One]"
-            },
-            {
-              "id": "greek-2902",
-              "eng": "holding"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-792",
-              "eng": "stars"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "那"
             },
             {
               "id": "greek-1188",
-              "eng": "right hand"
+              "cht": "右手"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4043",
-              "eng": "walking"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3319",
-              "eng": "[the] midst"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2902",
+              "cht": "拿著"
             },
             {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "七"
             },
             {
-              "id": "greek-3087",
-              "eng": "lampstands"
+              "id": "greek-792",
+              "cht": "星、"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-2033",
+              "cht": "七個"
             },
             {
               "id": "greek-5552",
-              "eng": "golden",
-              "punct": "."
+              "cht": "金"
             },
             {
-              "id": ""
+              "id": "greek-3087",
+              "cht": "燈臺"
+            },
+            {
+              "id": "greek-3319",
+              "cht": "中間"
+            },
+            {
+              "id": "greek-4043",
+              "cht": "行走"
+            },
+            {
+              "id": "",
+              "cht": "的說",
+              "punct_cht": "，："
             }
           ]
         }

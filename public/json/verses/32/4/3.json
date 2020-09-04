@@ -3,18 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6258": "Therefore now",
-          "hebrew-3068": "Yahweh",
-          "hebrew-3947": "take",
-          "hebrew-4994": "please",
-          "hebrew-853": "-",
-          "hebrew-5315": "my life",
-          "hebrew-4480": null,
-          "hebrew-3588": "for",
-          "hebrew-2896": "[it is] better",
-          "hebrew-4194": "for me to die",
-          "hebrew-2416": "than to live",
-          "": null
+          "eng": {
+            "hebrew-6258": "Therefore now",
+            "hebrew-3068": "Yahweh",
+            "hebrew-3947": "take",
+            "hebrew-4994": "please",
+            "hebrew-853": "-",
+            "hebrew-5315": "my life",
+            "hebrew-4480": null,
+            "hebrew-3588": "for",
+            "hebrew-2896": "[it is] better",
+            "hebrew-4194": "for me to die",
+            "hebrew-2416": "than to live",
+            "": null
+          },
+          "cht": {
+            "hebrew-6258": "現在",
+            "hebrew-3068": "耶和華",
+            "hebrew-3947": "你取",
+            "hebrew-4994": "求",
+            "hebrew-853": "你取",
+            "hebrew-5315": "我的命",
+            "hebrew-4480": "比活著",
+            "hebrew-3588": "因為",
+            "hebrew-2896": "還好",
+            "hebrew-4194": "我死了",
+            "hebrew-2416": "比活著"
+          }
         }
       },
       "translations": {
@@ -30,66 +45,63 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -100,138 +112,110 @@
             "hebrew-4194": 1.1819666221246994
           },
           "verseKey": "rom.7.13",
-          "cunp": "既然如此，那良善的是叫我死嗎？斷乎不是！叫我死的乃是罪。但罪藉着那良善的叫我死，就顯出真是罪，叫罪因着誡命更顯出是惡極了。",
+          "nasb": "Therefore did that which is good become a cause of death for me? May it never be! Rather it was sin, in order that it might be shown to be sin by effecting my death through that which is good, so that through the commandment sin would become utterly sinful.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "That which"
-            },
-            {
               "id": "greek-3767",
-              "eng": "then"
+              "cht": "既然如此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-18",
-              "eng": "[is] good",
-              "punct": ","
+              "cht": "那良善的"
+            },
+            {
+              "id": "greek-1096",
+              "cht": "是叫"
             },
             {
               "id": "greek-1698",
-              "eng": "to me"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "has become"
+              "cht": "我"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": "?"
+              "cht": "死"
             },
             {
-              "id": "greek-3361",
-              "eng": "Never"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "greek-1096",
-              "eng": "may it be",
-              "punct": "!"
+              "cht": "斷乎不是",
+              "punct_cht": "！"
             },
             {
               "id": "greek-235",
-              "eng": "But"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "叫我死的乃是"
             },
             {
               "id": "greek-266",
-              "eng": "sin",
-              "punct": ","
-            },
-            {
-              "id": "greek-2443",
-              "eng": "in order that"
-            },
-            {
-              "id": "greek-5316",
-              "eng": "it might be shown to be"
-            },
-            {
-              "id": "greek-266",
-              "eng": "sin",
-              "punct": ","
+              "cht": "罪",
+              "punct_cht": "。"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "that which [is]"
+              "cht": "但罪藉著"
             },
             {
               "id": "greek-18",
-              "eng": "good"
-            },
-            {
-              "id": "greek-3427",
-              "eng": "to me"
+              "cht": "那良善的"
             },
             {
               "id": "greek-2716",
-              "eng": "is working out"
+              "cht": "叫"
+            },
+            {
+              "id": "greek-3427",
+              "cht": "我"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": ";"
+              "cht": "死",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "so that"
+              "cht": "就"
             },
             {
-              "id": "greek-1096",
-              "eng": "might become"
-            },
-            {
-              "id": "greek-2596",
-              "eng": "beyond"
-            },
-            {
-              "id": "greek-5236",
-              "eng": "excess"
-            },
-            {
-              "id": "greek-268",
-              "eng": "sinful",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-5316",
+              "cht": "顯出"
             },
             {
               "id": "greek-266",
-              "eng": "sin"
+              "cht": "真是罪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2443",
+              "cht": "叫"
+            },
+            {
+              "id": "greek-266",
+              "cht": "罪"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "因著"
             },
             {
               "id": "greek-1785",
-              "eng": "commandment",
-              "punct": "."
+              "cht": "誡命"
             },
             {
-              "id": ""
+              "id": "greek-1096",
+              "cht": "更顯出是"
+            },
+            {
+              "id": "greek-268",
+              "cht": "惡"
+            },
+            {
+              "id": "greek-2596",
+              "cht": "極了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -241,140 +225,100 @@
             "hebrew-4194": 1.1819666221246994
           },
           "verseKey": "1jn.5.16",
-          "cunp": "人若看見弟兄犯了不至於死的罪，就當為他祈求，神必將生命賜給他；有至於死的罪，我不說當為這罪祈求。",
+          "nasb": "If anyone sees his brother committing a sin not leading to death, he shall ask and God will for him give life to those who commit sin not leading to death. There is a sin leading to death; I do not say that he should make request for this.",
           "words": [
             {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
               "id": "greek-5100",
-              "eng": "anyone"
+              "cht": "人"
             },
             {
-              "id": "greek-3708",
-              "eng": "should see"
+              "id": "greek-1437",
+              "cht": "若"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1492",
+              "cht": "看見"
             },
             {
               "id": "greek-80",
-              "eng": "brother"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "弟兄"
             },
             {
               "id": "greek-264",
-              "eng": "sinning"
-            },
-            {
-              "id": "greek-266",
-              "eng": "a sin"
+              "cht": "犯了"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-4314",
-              "eng": "unto"
+              "cht": "至於"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": ","
+              "cht": "死"
+            },
+            {
+              "id": "greek-266",
+              "cht": "的罪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-154",
-              "eng": "he shall ask",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "He will give"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him"
+              "cht": "就當為他祈求",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2222",
-              "eng": "life",
-              "punct": ","
+              "cht": "神必將生命"
             },
             {
-              "id": "greek-3588",
-              "eng": "to those"
+              "id": "greek-1325",
+              "cht": "賜給"
             },
             {
               "id": "greek-264",
-              "eng": "sinning"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-2288",
-              "eng": "death",
-              "punct": "."
+              "cht": "他",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2076",
-              "eng": "There is"
-            },
-            {
-              "id": "greek-266",
-              "eng": "a sin"
+              "cht": "有"
             },
             {
               "id": "greek-4314",
-              "eng": "unto"
+              "cht": "至於"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": ";"
+              "cht": "死"
+            },
+            {
+              "id": "greek-266",
+              "cht": "的罪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-1565",
-              "eng": "that"
+              "cht": "我不"
             },
             {
               "id": "greek-3004",
-              "eng": "do I say"
+              "cht": "說"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
+              "id": "greek-4012",
+              "cht": "當為"
+            },
+            {
+              "id": "greek-1565",
+              "cht": "這罪"
             },
             {
               "id": "greek-2065",
-              "eng": "he should implore",
-              "punct": "."
-            },
-            {
-              "id": "greek-1492"
+              "cht": "祈求",
+              "punct_cht": "。"
             }
           ]
         }

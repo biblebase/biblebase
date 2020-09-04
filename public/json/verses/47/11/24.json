@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-5259": "From",
-          "greek-2453": "[the] Jews",
-          "greek-3999": "five times",
-          "greek-5062": "forty [lashes]",
-          "greek-3844": "minus",
-          "greek-1520": "one",
-          "greek-2983": "I received",
-          "greek-3391": null
+          "eng": {
+            "greek-5259": "From",
+            "greek-2453": "[the] Jews",
+            "greek-3999": "five times",
+            "greek-5062": "forty [lashes]",
+            "greek-3844": "minus",
+            "greek-1520": "one",
+            "greek-2983": "I received",
+            "greek-3391": null
+          },
+          "cht": {
+            "greek-5259": "被",
+            "greek-2453": "猶太人",
+            "greek-3999": "五次",
+            "greek-5062": "每次四十",
+            "greek-3844": "減去",
+            "greek-2983": "鞭打",
+            "greek-3391": "一下"
+          }
         }
       },
       "translations": {
@@ -25,45 +36,33 @@
             "greek-5062": 3.483676583494497
           },
           "verseKey": "mat.4.2",
-          "cunp": "他禁食四十晝夜，後來就餓了。",
+          "nasb": "And after He had fasted forty days and forty nights, He then became hungry.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-3522",
-              "eng": "having fasted"
-            },
-            {
-              "id": "greek-2250",
-              "eng": "days"
+              "cht": "他禁食"
             },
             {
               "id": "greek-5062",
-              "eng": "forty"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "四十"
             },
             {
               "id": "greek-5062",
-              "eng": "forty"
+              "cht": "晝"
             },
             {
               "id": "greek-3571",
-              "eng": "nights",
-              "punct": ","
+              "cht": "夜",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5305",
-              "eng": "afterward"
+              "cht": "後來"
             },
             {
               "id": "greek-3983",
-              "eng": "He was hungry",
-              "punct": "."
+              "cht": "就餓了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -74,89 +73,74 @@
             "greek-5062": 3.483676583494497
           },
           "verseKey": "jhn.2.20",
-          "cunp": "猶太人便說：「這殿是四十六年才造成的，你三日內就再建立起來嗎？」",
+          "nasb": "The Jews then said, “It took forty-six years to build this temple, and will You raise it up in three days?”",
           "words": [
             {
-              "id": "greek-2036",
-              "eng": "Said"
+              "id": "greek-2453",
+              "cht": "猶太人"
             },
             {
               "id": "greek-3767",
-              "eng": "therefore"
+              "cht": "便"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2453",
-              "eng": "Jews",
-              "punct": ","
-            },
-            {
-              "id": "greek-5062",
-              "eng": "Forty"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1803",
-              "eng": "six"
-            },
-            {
-              "id": "greek-2094",
-              "eng": "years"
-            },
-            {
-              "id": "greek-3618",
-              "eng": "was built"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3485",
-              "eng": "temple"
+              "id": "greek-2036",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "greek-3778",
-              "eng": "this",
-              "punct": ","
+              "cht": "這"
+            },
+            {
+              "id": "greek-3485",
+              "cht": "殿"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "是四十"
+            },
+            {
+              "id": "greek-1803",
+              "cht": "六"
+            },
+            {
+              "id": "greek-2094",
+              "cht": "年"
+            },
+            {
+              "id": "greek-3618",
+              "cht": "才造成的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4771",
-              "eng": "You"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
+              "cht": "你"
             },
             {
               "id": "greek-5140",
-              "eng": "three"
+              "cht": "三"
             },
             {
               "id": "greek-2250",
-              "eng": "days"
+              "cht": "日"
             },
             {
-              "id": "greek-1453",
-              "eng": "will raise up"
+              "id": "greek-1722",
+              "cht": "內"
             },
             {
               "id": "greek-846",
-              "eng": "it",
-              "punct": "?"
+              "cht": "就再建立"
             },
             {
-              "id": ""
+              "id": "greek-1453",
+              "cht": "起來"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？」"
             }
           ]
         },
@@ -166,102 +150,72 @@
             "greek-2983": 1.1386919976601375
           },
           "verseKey": "jhn.13.20",
-          "cunp": "我實實在在地告訴你們，有人接待我所差遣的，就是接待我；接待我，就是接待那差遣我的。」",
+          "nasb": "Truly, truly, I say to you, he who receives whomever I send receives Me; and he who receives Me receives Him who sent Me.”",
           "words": [
             {
               "id": "greek-281",
-              "eng": "Truly",
-              "punct": ","
+              "cht": "我實實"
             },
             {
               "id": "greek-281",
-              "eng": "truly",
-              "punct": ","
+              "cht": "在在"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "的告訴"
             },
             {
-              "id": "greek-4771",
-              "eng": "to you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "id": "greek-3004",
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "receiving"
-            },
-            {
-              "id": "greek-302",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "any"
+              "cht": "有人接待"
             },
             {
               "id": "greek-3992",
-              "eng": "I shall send",
-              "punct": ","
+              "cht": "我所差遣"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2983",
+              "cht": "就是接待"
             },
             {
               "id": "greek-1691",
-              "eng": "Me"
+              "cht": "我",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2983",
-              "eng": "receives",
-              "punct": ";"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-3165",
-              "eng": "Me"
+              "cht": "接待"
             },
             {
               "id": "greek-2983",
-              "eng": "receiving",
-              "punct": ","
+              "cht": "我",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "receives"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [One]"
+              "cht": "就是接待"
             },
             {
               "id": "greek-3992",
-              "eng": "having sent"
+              "cht": "那差遣"
             },
             {
-              "id": "greek-1473",
-              "eng": "Me",
-              "punct": "."
+              "id": "greek-3165",
+              "cht": "我"
             },
             {
-              "id": "greek-3004"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2983"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -272,152 +226,107 @@
             "greek-2983": 1.1386919976601375
           },
           "verseKey": "rom.5.17",
-          "cunp": "若因一人的過犯，死就因這一人作了王，何況那些受洪恩又蒙所賜之義的，豈不更要因耶穌基督一人在生命中作王嗎？",
+          "nasb": "For if by the transgression of the one, death reigned through the one, much more those who receive the abundance of grace and of the gift of righteousness will reign in life through the One, Jesus Christ.",
           "words": [
             {
               "id": "greek-1487",
-              "eng": "If"
+              "cht": "若"
             },
             {
               "id": "greek-1063",
-              "eng": "for",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "by the"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "因"
             },
             {
               "id": "greek-1520",
-              "eng": "one"
+              "cht": "一人"
             },
             {
               "id": "greek-3900",
-              "eng": "trespass",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "的過犯",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2288",
-              "eng": "death"
-            },
-            {
-              "id": "greek-936",
-              "eng": "reigned"
+              "cht": "死"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "就因"
             },
             {
               "id": "greek-1520",
-              "eng": "one",
-              "punct": ","
+              "cht": "這一人"
             },
             {
-              "id": "greek-4183",
-              "eng": "how much"
-            },
-            {
-              "id": "greek-3123",
-              "eng": "more"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4050",
-              "eng": "abundance"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-5485",
-              "eng": "of grace",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-1431",
-              "eng": "gift"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1343",
-              "eng": "of righteousness"
+              "id": "greek-936",
+              "cht": "作了王",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "receiving",
-              "punct": ","
+              "cht": "何況那些受"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
+              "id": "greek-4050",
+              "cht": "洪"
             },
             {
-              "id": "greek-2222",
-              "eng": "life"
+              "id": "greek-5485",
+              "cht": "恩"
             },
             {
-              "id": "greek-936",
-              "eng": "will reign"
+              "id": "greek-2532",
+              "cht": "又"
+            },
+            {
+              "id": "greek-1431",
+              "cht": "蒙所賜"
+            },
+            {
+              "id": "greek-1343",
+              "cht": "之義"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4183",
+              "cht": "豈不更要"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one",
-              "punct": ","
+              "cht": "因"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus"
+              "cht": "耶穌"
             },
             {
               "id": "greek-5547",
-              "eng": "Christ",
-              "punct": "!"
+              "cht": "基督"
             },
             {
-              "id": ""
+              "id": "greek-1520",
+              "cht": "一人"
             },
             {
-              "id": ""
+              "id": "greek-2222",
+              "cht": "在生命"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "中"
+            },
+            {
+              "id": "greek-936",
+              "cht": "作王"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -428,111 +337,98 @@
             "greek-1520": 1.0017049808855352
           },
           "verseKey": "1co.12.13",
-          "cunp": "我們不拘是猶太人，是希臘人，是為奴的，是自主的，都從一位聖靈受洗，成了一個身體，飲於一位聖靈。",
+          "nasb": "For by one Spirit we were all baptized into one body, whether Jews or Greeks, whether slaves or free, and we were all made to drink of one Spirit.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "Also"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "Spirit",
-              "punct": ","
-            },
-            {
               "id": "greek-2249",
-              "eng": "we"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "one"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
-            },
-            {
-              "id": "greek-907",
-              "eng": "were baptized",
-              "punct": ","
+              "cht": "我們"
             },
             {
               "id": "greek-1535",
-              "eng": "whether"
+              "cht": "不拘"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews"
+              "cht": "是猶太人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1535",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "greek-1672",
-              "eng": "Greeks",
-              "punct": ","
+              "cht": "希臘人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1535",
-              "eng": "whether"
+              "cht": "是"
             },
             {
               "id": "greek-1401",
-              "eng": "slaves"
+              "cht": "為奴的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1535",
-              "eng": "or"
+              "cht": "是"
             },
             {
               "id": "greek-1658",
-              "eng": "free",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "自主的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "都"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "從"
             },
             {
               "id": "greek-1520",
-              "eng": "one"
+              "cht": "一位"
             },
             {
               "id": "greek-4151",
-              "eng": "Spirit"
+              "cht": "聖靈"
+            },
+            {
+              "id": "greek-907",
+              "cht": "受洗",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "成了"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一個"
+            },
+            {
+              "id": "greek-4983",
+              "cht": "身體",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4222",
-              "eng": "we were made to drink",
-              "punct": "."
+              "cht": "飲"
             },
             {
-              "id": "greek-1519"
+              "id": "greek-1519",
+              "cht": "於"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一位"
+            },
+            {
+              "id": "greek-4151",
+              "cht": "聖靈",
+              "punct_cht": "。"
             }
           ]
         },
@@ -542,145 +438,121 @@
             "greek-5062": 3.483676583494497
           },
           "verseKey": "act.7.42",
-          "cunp": "神就轉臉不顧，任憑他們事奉天上的日月星辰，正如先知書上所寫的說： 以色列家啊， 你們四十年間在曠野， 豈是將犧牲和祭物獻給我嗎？",
+          "nasb": "But God turned away and delivered them up to serve the host of heaven; as it is written in the book of the prophets, ‘It was not to Me that you offered victims and sacrifices forty years in the wilderness, was it, O house of Israel?",
           "words": [
             {
-              "id": "greek-4762",
-              "eng": "Turned away"
+              "id": "greek-2316",
+              "cht": "神"
             },
             {
               "id": "greek-1161",
-              "eng": "however"
+              "cht": "就"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4762",
+              "cht": "轉臉不顧",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3860",
-              "eng": "delivered"
+              "cht": "任憑"
             },
             {
               "id": "greek-846",
-              "eng": "them"
+              "cht": "他們"
             },
             {
               "id": "greek-3000",
-              "eng": "to worship"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4756",
-              "eng": "host"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
+              "cht": "事奉"
             },
             {
               "id": "greek-3772",
-              "eng": "heaven",
-              "punct": ","
+              "cht": "天上"
+            },
+            {
+              "id": "greek-4756",
+              "cht": "的日月星辰",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2531",
-              "eng": "as"
-            },
-            {
-              "id": "greek-1125",
-              "eng": "it has been written"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in [the]"
-            },
-            {
-              "id": "greek-976",
-              "eng": "book"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "正如"
             },
             {
               "id": "greek-4396",
-              "eng": "prophets",
-              "punct": ":"
+              "cht": "先知"
             },
             {
-              "id": "greek-3361",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-4968",
-              "eng": "slain beasts"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2378",
-              "eng": "sacrifices"
-            },
-            {
-              "id": "greek-4374",
-              "eng": "did you offer"
-            },
-            {
-              "id": "greek-3427",
-              "eng": "to Me",
-              "punct": ","
-            },
-            {
-              "id": "greek-2094",
-              "eng": "years"
-            },
-            {
-              "id": "greek-5062",
-              "eng": "forty"
+              "id": "greek-976",
+              "cht": "書"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "上"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1125",
+              "cht": "所寫"
             },
             {
-              "id": "greek-2048",
-              "eng": "wilderness",
-              "punct": ","
-            },
-            {
-              "id": "greek-3624",
-              "eng": "O house"
+              "id": "",
+              "cht": "的說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2474",
-              "eng": "of Israel",
-              "punct": "?"
+              "cht": "以色列"
             },
             {
-              "id": ""
+              "id": "greek-3624",
+              "cht": "家"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-5062",
+              "cht": "你們四十"
+            },
+            {
+              "id": "greek-2094",
+              "cht": "年"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "間在"
+            },
+            {
+              "id": "greek-2048",
+              "cht": "曠野",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4968",
+              "cht": "豈是將犧牲"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "和"
+            },
+            {
+              "id": "greek-2378",
+              "cht": "祭物"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "獻給"
+            },
+            {
+              "id": "greek-3427",
+              "cht": "我"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -690,91 +562,71 @@
             "greek-5062": 3.483676583494497
           },
           "verseKey": "act.7.36",
-          "cunp": "這人領百姓出來，在埃及，在紅海，在曠野，四十年間行了奇事神蹟。",
+          "nasb": "This man led them out, performing wonders and signs in the land of Egypt and in the Red Sea and in the wilderness for forty years.",
           "words": [
             {
               "id": "greek-3778",
-              "eng": "this one"
-            },
-            {
-              "id": "greek-1806",
-              "eng": "led out"
+              "cht": "這人"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": ","
+              "cht": "領百姓"
             },
             {
-              "id": "greek-4160",
-              "eng": "having done"
-            },
-            {
-              "id": "greek-5059",
-              "eng": "wonders"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4592",
-              "eng": "signs"
+              "id": "greek-1806",
+              "cht": "出來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-1093",
-              "eng": "[the] land"
-            },
-            {
-              "id": "greek-125",
-              "eng": "of Egypt",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "埃及",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "在"
             },
             {
               "id": "greek-2063",
-              "eng": "[the] Red"
+              "cht": "紅"
             },
             {
               "id": "greek-2281",
-              "eng": "Sea",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "海、"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "在"
             },
             {
               "id": "greek-2048",
-              "eng": "wilderness"
-            },
-            {
-              "id": "greek-2094",
-              "eng": "years"
+              "cht": "曠野",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5062",
-              "eng": "forty",
-              "punct": "."
+              "cht": "四十"
+            },
+            {
+              "id": "greek-2094",
+              "cht": "年"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "間行了"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "奇事"
+            },
+            {
+              "id": "greek-4592",
+              "cht": "神蹟",
+              "punct_cht": "。"
             }
           ]
         },
@@ -784,80 +636,70 @@
             "greek-5062": 3.483676583494497
           },
           "verseKey": "act.7.30",
-          "cunp": "「過了四十年，在西奈山的曠野，有一位天使從荊棘火焰中向摩西顯現。",
+          "nasb": "“After forty years had passed, an angel appeared to him in the wilderness of Mount Sinai, in the flame of a burning thorn bush.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-4137",
-              "eng": "having been passed"
-            },
-            {
-              "id": "greek-2094",
-              "eng": "years"
+              "cht": "過了"
             },
             {
               "id": "greek-5062",
-              "eng": "forty",
-              "punct": ","
+              "cht": "四十"
             },
             {
-              "id": "greek-3708",
-              "eng": "appeared"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to him"
+              "id": "greek-2094",
+              "cht": "年",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2048",
-              "eng": "wilderness"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-3735",
-              "eng": "Mount"
+              "cht": "在"
             },
             {
               "id": "greek-4614",
-              "eng": "Sinai"
+              "cht": "西奈"
+            },
+            {
+              "id": "greek-3735",
+              "cht": "山"
+            },
+            {
+              "id": "greek-2048",
+              "cht": "的曠野",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "有一位"
             },
             {
               "id": "greek-32",
-              "eng": "an angel"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-5395",
-              "eng": "a flame"
-            },
-            {
-              "id": "greek-4442",
-              "eng": "of fire"
+              "cht": "天使"
             },
             {
               "id": "greek-942",
-              "eng": "of a bush",
-              "punct": "."
+              "cht": "從荊棘"
             },
             {
-              "id": "greek-2962"
+              "id": "greek-4442",
+              "cht": "火"
+            },
+            {
+              "id": "greek-5395",
+              "cht": "焰"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "中"
+            },
+            {
+              "id": "greek-846",
+              "cht": "向摩西"
+            },
+            {
+              "id": "greek-3708",
+              "cht": "顯現",
+              "punct_cht": "。"
             }
           ]
         },
@@ -867,115 +709,87 @@
             "greek-5062": 3.483676583494497
           },
           "verseKey": "act.1.3",
-          "cunp": "他受害之後，用許多的憑據將自己活活地顯給使徒看，四十天之久向他們顯現，講說神國的事。",
+          "nasb": "To these He also presented Himself alive after His suffering, by many convincing proofs, appearing to them over a period of forty days and speaking of the things concerning the kingdom of God.",
           "words": [
             {
-              "id": "greek-3739",
-              "eng": "to whom"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3936",
-              "eng": "He presented"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "Himself"
-            },
-            {
-              "id": "greek-2198",
-              "eng": "alive"
-            },
-            {
-              "id": "greek-3326",
-              "eng": "after"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-846",
+              "cht": "他"
             },
             {
               "id": "greek-3958",
-              "eng": "suffering"
+              "cht": "受害"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him"
+              "id": "greek-3326",
+              "cht": "之後",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1722",
-              "eng": "with"
+              "cht": "用"
             },
             {
               "id": "greek-4183",
-              "eng": "many"
+              "cht": "許多的"
             },
             {
               "id": "greek-5039",
-              "eng": "proofs",
-              "punct": ","
+              "cht": "憑據"
             },
             {
-              "id": "greek-1223",
-              "eng": "during"
+              "id": "greek-1438",
+              "cht": "將自己"
             },
             {
-              "id": "greek-2250",
-              "eng": "days"
+              "id": "greek-2198",
+              "cht": "活活的"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "顯給"
+            },
+            {
+              "id": "",
+              "cht": "使徒看",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5062",
-              "eng": "forty"
+              "cht": "四十"
             },
             {
-              "id": "greek-3700",
-              "eng": "being seen"
+              "id": "greek-2250",
+              "cht": "天"
+            },
+            {
+              "id": "greek-1223",
+              "cht": "之久"
             },
             {
               "id": "greek-846",
-              "eng": "by them"
+              "cht": "向他們"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3700",
+              "cht": "顯現",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3004",
-              "eng": "speaking"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the things"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-932",
-              "eng": "kingdom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "講說"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "greek-932",
+              "cht": "國"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -985,147 +799,95 @@
             "greek-5062": 3.483676583494497
           },
           "verseKey": "rev.14.1",
-          "cunp": "我又觀看，見羔羊站在錫安山，同他又有十四萬四千人，都有他的名和他父的名寫在額上。",
+          "nasb": "Then I looked, and behold, the Lamb was standing on Mount Zion, and with Him one hundred and forty-four thousand, having His name and the name of His Father written on their foreheads.",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "And"
+              "cht": "我又"
             },
             {
               "id": "greek-1492",
-              "eng": "I looked",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "觀看",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2400",
-              "eng": "behold",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "見"
             },
             {
               "id": "greek-721",
-              "eng": "Lamb"
+              "cht": "羔羊"
             },
             {
               "id": "greek-2476",
-              "eng": "was standing"
+              "cht": "站"
             },
             {
               "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3735",
-              "eng": "Mount"
+              "cht": "在"
             },
             {
               "id": "greek-4622",
-              "eng": "Zion",
-              "punct": ","
+              "cht": "錫安"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3735",
+              "cht": "山",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3326",
-              "eng": "with"
+              "cht": "同"
             },
             {
               "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-1540",
-              "eng": "one hundred"
-            },
-            {
-              "id": "greek-5062",
-              "eng": "forty"
-            },
-            {
-              "id": "greek-5064",
-              "eng": "four"
-            },
-            {
-              "id": "greek-5505",
-              "eng": "thousand",
-              "punct": ","
-            },
-            {
-              "id": "greek-2192",
-              "eng": "having"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3686",
-              "eng": "name"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him"
+              "cht": "他"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "又有"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-5062",
+              "cht": "十四萬四千"
             },
             {
-              "id": "greek-3686",
-              "eng": "name"
+              "id": "",
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2192",
+              "cht": "都有"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他的名和他"
             },
             {
               "id": "greek-3962",
-              "eng": "Father"
+              "cht": "父"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him"
+              "id": "greek-3686",
+              "cht": "的名"
             },
             {
               "id": "greek-1125",
-              "eng": "having been written"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3359",
-              "eng": "foreheads"
+              "cht": "寫"
             },
             {
               "id": "greek-846",
-              "eng": "of them",
-              "punct": "."
+              "cht": "在"
             },
             {
-              "id": ""
+              "id": "greek-3359",
+              "cht": "額"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         }

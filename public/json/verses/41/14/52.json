@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3588": "the",
-          "greek-1161": "and",
-          "greek-2641": "having left behind",
-          "greek-4616": "linen cloth",
-          "greek-1131": "naked",
-          "greek-5343": "he fled",
-          "greek-575": null,
-          "greek-846": null
+          "eng": {
+            "greek-3588": "the",
+            "greek-1161": "and",
+            "greek-2641": "having left behind",
+            "greek-4616": "linen cloth",
+            "greek-1131": "naked",
+            "greek-5343": "he fled",
+            "greek-575": null,
+            "greek-846": null
+          },
+          "cht": {
+            "greek-1161": "他卻",
+            "greek-2641": "丟了",
+            "greek-4616": "麻布",
+            "greek-1131": "赤身",
+            "greek-5343": "逃走了",
+            "greek-575": "逃走了",
+            "greek-846": "逃走了"
+          }
         }
       },
       "translations": {
@@ -25,59 +36,49 @@
             "greek-4616": 2.4756200969099407
           },
           "verseKey": "exo.39.28",
-          "cunp": "並用細麻布做冠冕和華美的裹頭巾，用撚的細麻布做褲子，",
+          "nasb": "and the turban of fine linen, and the decorated caps of fine linen, and the linen breeches of fine twisted linen,",
           "words": [
             {
+              "id": "hebrew-8336",
+              "cht": "並用細麻布"
+            },
+            {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "做"
             },
             {
               "id": "hebrew-4701",
-              "eng": "a turban"
-            },
-            {
-              "id": "hebrew-8336",
-              "eng": "of fine linen",
-              "punct": "､"
+              "cht": "冠冕"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-6287",
-              "eng": "exquisite"
-            },
-            {
-              "id": "hebrew-4021",
-              "eng": "hats"
+              "cht": "華美的"
             },
             {
               "id": "hebrew-8336",
-              "eng": "of fine linen",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-4370",
-              "eng": "short trousers"
-            },
-            {
-              "id": "hebrew-906",
-              "eng": "of linen",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8336",
-              "eng": "-"
+              "cht": "裹頭巾",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7806",
-              "eng": "fine woven",
-              "punct": "､"
+              "cht": "用撚的"
+            },
+            {
+              "id": "hebrew-8336",
+              "cht": "細麻布"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-4370",
+              "cht": "褲子",
+              "punct_cht": "，"
             }
           ]
         },
@@ -87,82 +88,77 @@
             "greek-1131": 2.985487611968215
           },
           "verseKey": "job.1.21",
-          "cunp": "說：「我赤身出於母胎，也必赤身歸回；賞賜的是耶和華，收取的也是耶和華。耶和華的名是應當稱頌的。」",
+          "nasb": "He said, “Naked I came from my mother’s womb, And naked I shall return there. The Lord gave and the Lord has taken away. Blessed be the name of the Lord.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6174",
-              "eng": "Naked"
+              "cht": "我赤身"
             },
             {
               "id": "hebrew-3318",
-              "eng": "I came"
-            },
-            {
-              "id": "hebrew-990",
-              "eng": "from womb"
+              "cht": "出"
             },
             {
               "id": "hebrew-517",
-              "eng": "of my mother"
+              "cht": "於母"
+            },
+            {
+              "id": "hebrew-990",
+              "cht": "胎",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6174",
-              "eng": "and naked"
+              "cht": "也必赤身"
             },
             {
               "id": "hebrew-7725",
-              "eng": "shall I return"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "歸回",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5414",
-              "eng": "gave",
-              "punct": "､"
+              "cht": "賞賜"
             },
             {
               "id": "hebrew-3068",
-              "eng": "and Yahweh"
+              "cht": "的是耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3947",
-              "eng": "has taken away",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "be"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "收取"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "的也是耶和華",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "的名"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "是"
             },
             {
               "id": "hebrew-1288",
-              "eng": "Blessed",
-              "punct": "."
+              "cht": "應當稱頌"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -173,64 +169,55 @@
             "greek-1131": 2.985487611968215
           },
           "verseKey": "mrk.14.51",
-          "cunp": "有一個少年人，赤身披着一塊麻布，跟隨耶穌，眾人就捉拿他。",
+          "nasb": "A young man was following Him, wearing nothing but a linen sheet over his naked body; and they *seized him.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-5100",
+              "cht": "有"
+            },
+            {
+              "id": "greek-1520",
+              "cht": "一個"
             },
             {
               "id": "greek-3495",
-              "eng": "[a] young man"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "certain"
-            },
-            {
-              "id": "greek-4870",
-              "eng": "was following"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-4016",
-              "eng": "having cast"
-            },
-            {
-              "id": "greek-4616",
-              "eng": "a linen cloth"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "about"
+              "cht": "少年人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1131",
-              "eng": "[his] naked [body]",
-              "punct": ";"
+              "cht": "赤身"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4016",
+              "cht": "披"
             },
             {
-              "id": "greek-2902",
-              "eng": "they seize"
+              "id": "greek-1909",
+              "cht": "著"
+            },
+            {
+              "id": "greek-4616",
+              "cht": "一塊麻布",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-190",
+              "cht": "跟隨"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": ","
+              "cht": "耶穌",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1520"
+              "id": "greek-2902",
+              "cht": "眾人就捉拿"
             },
             {
-              "id": "greek-190"
+              "id": "greek-846",
+              "cht": "他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -240,121 +227,92 @@
             "greek-4616": 2.4756200969099407
           },
           "verseKey": "mrk.15.46",
-          "cunp": "約瑟買了細麻布，把耶穌取下來，用細麻布裹好，安放在磐石中鑿出來的墳墓裏，又滾過一塊石頭來擋住墓門。",
+          "nasb": "Joseph bought a linen cloth, took Him down, wrapped Him in the linen cloth and laid Him in a tomb which had been hewn out in the rock; and he rolled a stone against the entrance of the tomb.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-59",
-              "eng": "having bought"
+              "cht": "約瑟買了"
             },
             {
               "id": "greek-4616",
-              "eng": "a linen cloth",
-              "punct": ","
+              "cht": "細麻布",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "把耶穌"
             },
             {
               "id": "greek-2507",
-              "eng": "having taken down"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him",
-              "punct": ","
-            },
-            {
-              "id": "greek-1750",
-              "eng": "he wrapped [Him] in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "取下來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4616",
-              "eng": "linen cloth"
+              "cht": "用細麻布"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1750",
+              "cht": "裹好",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-5087",
-              "eng": "laid"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
+              "id": "greek-2698",
+              "cht": "安放"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3419",
-              "eng": "a tomb"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "which"
-            },
-            {
-              "id": "greek-2258",
-              "eng": "was"
-            },
-            {
-              "id": "greek-2998",
-              "eng": "cut"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
+              "cht": "在"
             },
             {
               "id": "greek-4073",
-              "eng": "a rock",
-              "punct": "."
+              "cht": "磐石"
             },
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-2998",
+              "cht": "中鑿"
             },
             {
-              "id": "greek-4351",
-              "eng": "he rolled"
+              "id": "greek-1537",
+              "cht": "出來"
             },
             {
-              "id": "greek-3037",
-              "eng": "a stone"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2374",
-              "eng": "door"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2258",
+              "cht": "的"
             },
             {
               "id": "greek-3419",
-              "eng": "tomb",
-              "punct": "."
+              "cht": "墳墓"
             },
             {
-              "id": "greek-2698"
+              "id": "",
+              "cht": "裡",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-2532",
+              "cht": "又"
+            },
+            {
+              "id": "greek-4351",
+              "cht": "滾過"
+            },
+            {
+              "id": "greek-3037",
+              "cht": "一塊石頭"
+            },
+            {
+              "id": "greek-1909",
+              "cht": "來"
+            },
+            {
+              "id": "greek-3419",
+              "cht": "擋住墓"
+            },
+            {
+              "id": "greek-2374",
+              "cht": "門",
+              "punct_cht": "。"
             }
           ]
         },
@@ -364,115 +322,110 @@
             "greek-4616": 2.4756200969099407
           },
           "verseKey": "est.1.6",
-          "cunp": "有白色、綠色、藍色的帳子，用細麻繩、紫色繩從銀環內繫在白玉石柱上；有金銀的牀榻擺在紅、白、黃、黑玉石的鋪石地上。",
+          "nasb": "There were hangings of fine white and violet linen held by cords of fine purple linen on silver rings and marble columns, and couches of gold and silver on a mosaic pavement of porphyry, marble, mother-of-pearl and precious stones.",
           "words": [
             {
               "id": "hebrew-2353",
-              "eng": "[There were] white",
-              "punct": "､"
+              "cht": "有白色、"
             },
             {
               "id": "hebrew-3768",
-              "eng": "linen",
-              "punct": "､"
+              "cht": "綠色、"
             },
             {
               "id": "hebrew-8504",
-              "eng": "and blue linen [curtains]",
-              "punct": "､"
+              "cht": "藍色"
             },
             {
-              "id": "hebrew-270",
-              "eng": "fastened"
-            },
-            {
-              "id": "hebrew-2256",
-              "eng": "with cords"
+              "id": "",
+              "cht": "的帳子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-948",
-              "eng": "of fine linen"
+              "cht": "用細麻"
+            },
+            {
+              "id": "hebrew-2256",
+              "cht": "繩、"
             },
             {
               "id": "hebrew-713",
-              "eng": "and purple"
+              "cht": "紫色"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "繩從"
+            },
+            {
+              "id": "hebrew-3701",
+              "cht": "銀"
             },
             {
               "id": "hebrew-1550",
-              "eng": "rods"
+              "cht": "環"
             },
             {
-              "id": "hebrew-3701",
-              "eng": "silver"
+              "id": "hebrew-270",
+              "cht": "內繫"
             },
             {
               "id": "hebrew-5982",
-              "eng": "and pillars"
+              "cht": "在白玉石"
             },
             {
-              "id": "hebrew-8336",
-              "eng": "marble",
-              "punct": "–"
+              "id": "hebrew-5982",
+              "cht": "柱"
             },
             {
-              "id": "hebrew-4296",
-              "eng": "[and the] couches"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2091",
-              "eng": "[were] of gold"
+              "cht": "有金"
             },
             {
               "id": "hebrew-3701",
-              "eng": "and silver",
-              "punct": "､"
+              "cht": "銀"
+            },
+            {
+              "id": "hebrew-4296",
+              "cht": "的床榻"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-7531",
-              "eng": "a [mosaic] pavement"
+              "cht": "擺在"
             },
             {
               "id": "hebrew-923",
-              "eng": "of alabaster",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8336",
-              "eng": "and turquoise",
-              "punct": "､"
+              "cht": "紅、"
             },
             {
               "id": "hebrew-1858",
-              "eng": "and white",
-              "punct": "､"
+              "cht": "白、"
+            },
+            {
+              "id": "hebrew-8504",
+              "cht": "黃、"
             },
             {
               "id": "hebrew-5508",
-              "eng": "and black marble",
-              "punct": "."
+              "cht": "黑"
             },
             {
-              "id": ""
+              "id": "hebrew-8336",
+              "cht": "玉石"
             },
             {
-              "id": "hebrew-5982"
+              "id": "hebrew-7531",
+              "cht": "鋪的石地"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-8504"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -482,50 +435,50 @@
             "greek-4616": 2.4756200969099407
           },
           "verseKey": "exo.28.39",
-          "cunp": "要用雜色細麻線織內袍，用細麻布做冠冕，又用繡花的手工做腰帶。",
+          "nasb": "“You shall weave the tunic of checkered work of fine linen, and shall make a turban of fine linen, and you shall make a sash, the work of a weaver.",
           "words": [
             {
+              "id": "hebrew-8336",
+              "cht": "要用雜色細麻線"
+            },
+            {
               "id": "hebrew-7660",
-              "eng": "And You shall skillfully weave"
+              "cht": "織"
             },
             {
               "id": "hebrew-3801",
-              "eng": "the tunic"
+              "cht": "內袍",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8336",
-              "eng": "of fine linen [thread]",
-              "punct": "､"
+              "cht": "用細麻布"
             },
             {
               "id": "hebrew-6213",
-              "eng": "and you shall make"
+              "cht": "做"
             },
             {
               "id": "hebrew-4701",
-              "eng": "the turban"
-            },
-            {
-              "id": "hebrew-8336",
-              "eng": "of fine linen",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-73",
-              "eng": "and the sash"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "you shall make"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "the work"
+              "cht": "冠冕",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7551",
-              "eng": "woven",
-              "punct": "."
+              "cht": "又用繡花"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "的手工"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-73",
+              "cht": "腰帶",
+              "punct_cht": "。"
             }
           ]
         },
@@ -536,45 +489,43 @@
             "greek-5343": 1.342842399193818
           },
           "verseKey": "amo.2.16",
-          "cunp": "到那日，勇士中最有膽量的， 必赤身逃跑。 這是耶和華說的。",
+          "nasb": "Even the bravest among the warriors will flee naked in that day,” declares the Lord.",
           "words": [
             {
-              "id": "hebrew-533",
-              "eng": "And [most] strong"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "the men"
-            },
-            {
-              "id": "hebrew-1368",
-              "eng": "of might"
-            },
-            {
-              "id": "hebrew-6174",
-              "eng": "naked"
-            },
-            {
-              "id": "hebrew-5127",
-              "eng": "shall flee"
+              "id": "hebrew-1931",
+              "cht": "到那"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in day",
-              "punct": "､"
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-1368",
+              "cht": "勇士中"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-3820",
+              "cht": "最有膽量的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6174",
+              "cht": "必赤身"
+            },
+            {
+              "id": "hebrew-5127",
+              "cht": "逃跑",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -584,121 +535,117 @@
             "greek-5343": 1.342842399193818
           },
           "verseKey": "zec.14.5",
-          "cunp": "你們要從我山的谷中逃跑，因為山谷必延到亞薩。你們逃跑，必如猶大王烏西雅年間的人逃避大地震一樣。耶和華－我的神必降臨，有一切聖者同來。",
+          "nasb": "You will flee by the valley of My mountains, for the valley of the mountains will reach to Azel; yes, you will flee just as you fled before the earthquake in the days of Uzziah king of Judah. Then the Lord, my God, will come, and all the holy ones with Him!",
           "words": [
             {
-              "id": "hebrew-5127",
-              "eng": "And you shall flee"
+              "id": "hebrew-2022",
+              "cht": "你們要從我山"
             },
             {
               "id": "hebrew-1516",
-              "eng": "[through] My valley"
+              "cht": "的谷"
             },
             {
-              "id": "hebrew-2022",
-              "eng": "mountain",
-              "punct": "–"
+              "id": "hebrew-5127",
+              "cht": "中逃跑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "shall reach"
-            },
-            {
-              "id": "hebrew-1516",
-              "eng": "the valley"
+              "cht": "因為"
             },
             {
               "id": "hebrew-2022",
-              "eng": "mountain"
+              "cht": "山"
+            },
+            {
+              "id": "hebrew-1516",
+              "cht": "谷"
+            },
+            {
+              "id": "hebrew-5060",
+              "cht": "必延"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "到"
             },
             {
               "id": "hebrew-682",
-              "eng": "Azal",
-              "punct": "–"
+              "cht": "亞薩",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5127",
-              "eng": "and Yes you shall flee",
-              "punct": "､"
+              "cht": "你們逃跑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "as"
-            },
-            {
-              "id": "hebrew-5127",
-              "eng": "you fled"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-7494",
-              "eng": "the earthquake"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in the days"
-            },
-            {
-              "id": "hebrew-5818",
-              "eng": "of Uzziah"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "必如"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "."
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-935",
-              "eng": "Thus will come",
-              "punct": "､"
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-5818",
+              "cht": "烏西雅"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "年間"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "的人逃避"
+            },
+            {
+              "id": "hebrew-7494",
+              "cht": "大地震"
+            },
+            {
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "─我的"
             },
             {
               "id": "hebrew-430",
-              "eng": "my God"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "必降臨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "[And] all"
+              "cht": "有一切"
             },
             {
               "id": "hebrew-6918",
-              "eng": "the saints"
+              "cht": "聖者"
             },
             {
               "id": "hebrew-5973",
-              "eng": "with You",
-              "punct": "."
+              "cht": "同"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -708,135 +655,98 @@
             "greek-2641": 3.349908747650579
           },
           "verseKey": "mrk.12.19",
-          "cunp": "「夫子，摩西為我們寫着說：『人若死了，撇下妻子，沒有孩子，他兄弟當娶他的妻，為哥哥生子立後。』",
+          "nasb": "“Teacher, Moses wrote for us that if a man’s brother dies and leaves behind a wife and leaves no child, his brother should marry the wife and raise up children to his brother.",
           "words": [
             {
               "id": "greek-1320",
-              "eng": "Teacher",
-              "punct": ","
+              "cht": "夫子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3475",
-              "eng": "Moses"
-            },
-            {
-              "id": "greek-1125",
-              "eng": "wrote"
+              "cht": "摩西"
             },
             {
               "id": "greek-2254",
-              "eng": "for us"
+              "cht": "為我們"
             },
             {
-              "id": "greek-3754",
-              "eng": "that"
+              "id": "greek-1125",
+              "cht": "寫著"
             },
             {
-              "id": "greek-1437",
-              "eng": "if"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5100",
-              "eng": "of anyone"
+              "cht": "人"
             },
             {
-              "id": "greek-80",
-              "eng": "a brother"
+              "id": "greek-3754",
+              "cht": "若"
             },
             {
               "id": "greek-599",
-              "eng": "should die",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2641",
-              "eng": "leave behind"
+              "cht": "撇下"
             },
             {
               "id": "greek-1135",
-              "eng": "a wife",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "妻子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-863",
-              "eng": "leave"
+              "cht": "沒有"
             },
             {
               "id": "greek-5043",
-              "eng": "children",
-              "punct": ","
+              "cht": "孩子",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
+              "id": "greek-846",
+              "cht": "他"
+            },
+            {
+              "id": "greek-80",
+              "cht": "兄弟"
             },
             {
               "id": "greek-2983",
-              "eng": "should take"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brother"
+              "cht": "當娶"
             },
             {
               "id": "greek-846",
-              "eng": "of him"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "他的"
             },
             {
               "id": "greek-1135",
-              "eng": "wife",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1817",
-              "eng": "raise up"
-            },
-            {
-              "id": "greek-4690",
-              "eng": "seed"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "for the"
-            },
-            {
-              "id": "greek-80",
-              "eng": "brother"
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "cht": "為"
             },
             {
-              "id": ""
+              "id": "greek-80",
+              "cht": "哥哥"
             },
             {
-              "id": "greek-846"
+              "id": "greek-1817",
+              "cht": "生子立"
+            },
+            {
+              "id": "greek-4690",
+              "cht": "後",
+              "punct_cht": "。"
             }
           ]
         },
@@ -846,119 +756,85 @@
             "greek-2641": 3.349908747650579
           },
           "verseKey": "mat.19.5",
-          "cunp": "並且說：『因此，人要離開父母，與妻子連合，二人成為一體。』這經你們沒有念過嗎？",
+          "nasb": "and said, ‘For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh’?",
           "words": [
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "並且"
             },
             {
               "id": "greek-2036",
-              "eng": "said",
-              "punct": ","
-            },
-            {
-              "id": "greek-1752",
-              "eng": "On account of"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5127",
-              "eng": "this"
+              "cht": "因"
             },
             {
-              "id": "greek-2641",
-              "eng": "will leave"
+              "id": "greek-1752",
+              "cht": "此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-444",
-              "eng": "a man"
+              "cht": "人"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2641",
+              "cht": "要離開"
             },
             {
               "id": "greek-3962",
-              "eng": "father"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "父"
             },
             {
               "id": "greek-3384",
-              "eng": "mother"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2853",
-              "eng": "be joined with"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1135",
-              "eng": "wife"
+              "cht": "母",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": ","
+              "cht": "與"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1135",
+              "cht": "妻子"
             },
             {
-              "id": "greek-1510",
-              "eng": "will become"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-4347",
+              "cht": "連合",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1417",
-              "eng": "two"
+              "cht": "二人"
             },
             {
-              "id": "greek-1519",
-              "eng": "into"
+              "id": "greek-2071",
+              "cht": "成為"
+            },
+            {
+              "id": "greek-3391",
+              "cht": "一"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh"
+              "cht": "體",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-1520",
-              "eng": "one"
+              "id": "greek-3756",
+              "cht": "這經你們沒有"
             },
             {
-              "id": "greek-4347"
+              "id": "greek-314",
+              "cht": "念過"
             },
             {
-              "id": "greek-2071"
-            },
-            {
-              "id": "greek-3391"
-            },
-            {
-              "id": "greek-3756"
-            },
-            {
-              "id": "greek-314"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         }

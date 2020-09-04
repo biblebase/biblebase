@@ -3,13 +3,23 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6030": "Sing",
-          "hebrew-3068": "to Yahweh",
-          "hebrew-8426": "with thanksgiving",
-          "hebrew-2167": "Sing praises",
-          "hebrew-430": "to our God",
-          "hebrew-3658": "on the harp",
-          "": null
+          "eng": {
+            "hebrew-6030": "Sing",
+            "hebrew-3068": "to Yahweh",
+            "hebrew-8426": "with thanksgiving",
+            "hebrew-2167": "Sing praises",
+            "hebrew-430": "to our God",
+            "hebrew-3658": "on the harp",
+            "": null
+          },
+          "cht": {
+            "hebrew-6030": "歌唱",
+            "hebrew-3068": "向耶和華",
+            "hebrew-8426": "你們要以感謝",
+            "hebrew-2167": "歌頌",
+            "hebrew-430": "神",
+            "hebrew-3658": "用琴"
+          }
         }
       },
       "translations": {
@@ -26,38 +36,39 @@
             "hebrew-430": 0.3846268968661864
           },
           "verseKey": "psa.47.6",
-          "cunp": "你們要向神歌頌，歌頌！ 向我們王歌頌，歌頌！",
+          "nasb": "Sing praises to God, sing praises; Sing praises to our King, sing praises.",
           "words": [
             {
-              "id": "hebrew-2167",
-              "eng": "Sing praises"
+              "id": "",
+              "cht": "你們要向"
             },
             {
               "id": "hebrew-430",
-              "eng": "to God",
-              "punct": "､"
+              "cht": "神"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing praises",
-              "punct": "–"
+              "cht": "歌頌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2167",
-              "eng": "sing praises"
+              "cht": "歌頌",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-4428",
-              "eng": "to our Sing",
-              "punct": "､"
+              "cht": "向我們王"
             },
             {
               "id": "hebrew-2167",
-              "eng": "Sing praises",
-              "punct": "."
+              "cht": "歌頌",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-2167",
+              "cht": "歌頌",
+              "punct_cht": "！"
             }
           ]
         },
@@ -69,37 +80,37 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "psa.98.5",
-          "cunp": "要用琴歌頌耶和華， 用琴和詩歌的聲音歌頌他！",
+          "nasb": "Sing praises to the Lord with the lyre, With the lyre and the sound of melody.",
           "words": [
             {
+              "id": "hebrew-3658",
+              "cht": "要用琴"
+            },
+            {
               "id": "hebrew-2167",
-              "eng": "Sing"
+              "cht": "歌頌"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3658",
-              "eng": "with the harp",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3658",
-              "eng": "with the harp",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "and the sound"
+              "cht": "用琴"
             },
             {
               "id": "hebrew-2172",
-              "eng": "of a psalm",
-              "punct": "."
+              "cht": "和詩歌"
             },
             {
-              "id": ""
+              "id": "hebrew-6963",
+              "cht": "的聲音"
+            },
+            {
+              "id": "",
+              "cht": "歌頌他",
+              "punct_cht": "！"
             }
           ]
         },
@@ -110,102 +121,92 @@
             "hebrew-8426": 2.4756200969099407
           },
           "verseKey": "2ch.29.31",
-          "cunp": "希西家說：「你們既然歸耶和華為聖，就要前來把祭物和感謝祭奉到耶和華殿裏。」會眾就把祭物和感謝祭奉來，凡甘心樂意的也將燔祭奉來。",
+          "nasb": "Then Hezekiah said, “Now that you have consecrated yourselves to the Lord, come near and bring sacrifices and thank offerings to the house of the Lord.” And the assembly brought sacrifices and thank offerings, and all those who were willing brought burnt offerings.",
           "words": [
             {
               "id": "hebrew-6030",
-              "eng": "And answered"
-            },
-            {
-              "id": "hebrew-2396",
-              "eng": "Hezekiah"
+              "cht": "希西家"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6258",
-              "eng": "now"
+              "cht": "你們既然"
             },
             {
-              "id": "hebrew-4390",
-              "eng": "[that] you have consecrated"
+              "id": "hebrew-3068",
+              "cht": "歸耶和華"
             },
             {
               "id": "hebrew-3027",
-              "eng": "yourselves"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
+              "cht": "為聖",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5066",
-              "eng": "come near"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "and bring"
+              "cht": "就要前來"
             },
             {
               "id": "hebrew-2077",
-              "eng": "sacrifices"
+              "cht": "把祭物"
             },
             {
               "id": "hebrew-8426",
-              "eng": "and thank offerings"
+              "cht": "和感謝祭"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "into the house"
+              "id": "hebrew-935",
+              "cht": "奉到"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-935",
-              "eng": "So brought in"
+              "id": "hebrew-1004",
+              "cht": "殿裡",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-6951",
-              "eng": "the assembly"
+              "cht": "會眾"
             },
             {
               "id": "hebrew-2077",
-              "eng": "sacrifices"
+              "cht": "就把祭物"
             },
             {
               "id": "hebrew-8426",
-              "eng": "and thank offerings",
-              "punct": "–"
+              "cht": "和感謝祭"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "奉來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and as many as"
-            },
-            {
-              "id": "hebrew-5081",
-              "eng": "were of a willing"
+              "cht": "凡"
             },
             {
               "id": "hebrew-3820",
-              "eng": "heart"
+              "cht": "甘心"
+            },
+            {
+              "id": "hebrew-5081",
+              "cht": "樂意"
             },
             {
               "id": "hebrew-5930",
-              "eng": "[brought] burnt offerings",
-              "punct": "."
+              "cht": "的也將燔祭"
             },
             {
-              "id": "hebrew-3169"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "奉來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -217,32 +218,32 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "psa.33.2",
-          "cunp": "你們應當彈琴稱謝耶和華， 用十弦瑟歌頌他。",
+          "nasb": "Give thanks to the Lord with the lyre; Sing praises to Him with a harp of ten strings.",
           "words": [
             {
+              "id": "hebrew-3658",
+              "cht": "你們應當彈琴"
+            },
+            {
               "id": "hebrew-3034",
-              "eng": "Praise"
+              "cht": "稱謝"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-3658",
-              "eng": "with the harp",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5035",
-              "eng": "with an instrument"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6218",
-              "eng": "of ten [strings]"
+              "cht": "用十弦"
+            },
+            {
+              "id": "hebrew-5035",
+              "cht": "瑟"
             },
             {
               "id": "hebrew-2167",
-              "eng": "Make melody"
+              "cht": "歌頌"
             }
           ]
         },
@@ -252,37 +253,36 @@
             "hebrew-2167": 2.632541948095861
           },
           "verseKey": "psa.66.4",
-          "cunp": "全地要敬拜你，歌頌你， 要歌頌你的名。（細拉）",
+          "nasb": "All the earth will worship You, And will sing praises to You; They will sing praises to Your name.” Selah.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All"
+              "cht": "全"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "地"
             },
             {
               "id": "hebrew-7812",
-              "eng": "shall worship"
+              "cht": "要敬拜"
             },
             {
               "id": "hebrew-2167",
-              "eng": "and sing praises"
+              "cht": "歌頌"
             },
             {
               "id": "hebrew-2167",
-              "eng": "they shall sing praises"
+              "cht": "要歌頌"
             },
             {
               "id": "hebrew-8034",
-              "eng": "[to] Your name",
-              "punct": "."
+              "cht": "你的名（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
+              "cht": "細拉）"
             }
           ]
         },
@@ -293,32 +293,32 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "psa.149.3",
-          "cunp": "願他們跳舞讚美他的名， 擊鼓彈琴歌頌他！",
+          "nasb": "Let them praise His name with dancing; Let them sing praises to Him with timbrel and lyre.",
           "words": [
             {
+              "id": "hebrew-4234",
+              "cht": "願他們跳舞"
+            },
+            {
               "id": "hebrew-1984",
-              "eng": "Let them praise"
+              "cht": "讚美"
             },
             {
               "id": "hebrew-8034",
-              "eng": "His name"
-            },
-            {
-              "id": "hebrew-4234",
-              "eng": "with the dance",
-              "punct": "–"
+              "cht": "他的名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8596",
-              "eng": "with the timbrel"
+              "cht": "擊鼓"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and harp"
+              "cht": "彈琴"
             },
             {
               "id": "hebrew-2167",
-              "eng": "let them sing praises"
+              "cht": "歌頌"
             }
           ]
         },
@@ -329,65 +329,59 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "psa.71.22",
-          "cunp": "我的神啊，我要鼓瑟稱讚你， 稱讚你的誠實！ 以色列的聖者啊，我要彈琴歌頌你！",
+          "nasb": "I will also praise You with a harp, Even Your truth, O my God; To You I will sing praises with the lyre, O Holy One of Israel.",
           "words": [
             {
-              "id": "hebrew-1571",
-              "eng": "Also"
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-3034",
-              "eng": "will praise you"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-5035",
-              "eng": "the lute",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-571",
-              "eng": "[And] Your faithfulness",
-              "punct": "､"
+              "id": "",
+              "cht": "我的"
             },
             {
               "id": "hebrew-430",
-              "eng": "my God",
-              "punct": "–"
+              "cht": "神"
             },
             {
-              "id": "hebrew-2167",
-              "eng": "I will sing"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3658",
-              "eng": "with the harp",
-              "punct": "､"
+              "id": "hebrew-589",
+              "cht": "我要"
             },
             {
-              "id": "hebrew-6918",
-              "eng": "Holy one"
+              "id": "hebrew-3627",
+              "cht": "鼓瑟"
+            },
+            {
+              "id": "hebrew-3034",
+              "cht": "稱讚你",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-571",
+              "cht": "稱讚你的誠實",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列"
             },
             {
-              "id": ""
+              "id": "hebrew-6918",
+              "cht": "的聖者"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3658",
+              "cht": "我要彈琴"
+            },
+            {
+              "id": "hebrew-2167",
+              "cht": "歌頌"
             }
           ]
         },
@@ -398,96 +392,91 @@
             "hebrew-3658": 2.57672001355142
           },
           "verseKey": "neh.12.27",
-          "cunp": "耶路撒冷城牆告成的時候，眾民就把各處的利未人招到耶路撒冷，要稱謝、歌唱、敲鈸、鼓瑟、彈琴，歡歡喜喜地行告成之禮。",
+          "nasb": "Now at the dedication of the wall of Jerusalem they sought out the Levites from all their places, to bring them to Jerusalem so that they might celebrate the dedication with gladness, with hymns of thanksgiving and with songs to the accompaniment of cymbals, harps and lyres.",
           "words": [
             {
-              "id": "hebrew-2598",
-              "eng": "And at the dedication"
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-2346",
-              "eng": "of the wall"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "of Jerusalem"
-            },
-            {
-              "id": "hebrew-1245",
-              "eng": "they sought out"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3881",
-              "eng": "the Levites"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "in all"
-            },
-            {
-              "id": "hebrew-4725",
-              "eng": "their places",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "to bring them"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "to Jerusalem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "to celebrate"
+              "cht": "城牆"
             },
             {
               "id": "hebrew-2598",
-              "eng": "the dedication"
+              "cht": "告成"
             },
             {
-              "id": "hebrew-8057",
-              "eng": "and with gladness",
-              "punct": "､"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "眾民就把"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "各"
+            },
+            {
+              "id": "hebrew-4725",
+              "cht": "處的"
+            },
+            {
+              "id": "hebrew-3881",
+              "cht": "利未人"
+            },
+            {
+              "id": "hebrew-1245",
+              "cht": "招"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "到"
+            },
+            {
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8426",
-              "eng": "and both with thanksgivings",
-              "punct": "､"
+              "cht": "要稱謝、"
             },
             {
               "id": "hebrew-7892",
-              "eng": "and singing",
-              "punct": "､"
+              "cht": "歌唱、"
             },
             {
               "id": "hebrew-4700",
-              "eng": "[with] cymbals",
-              "punct": "､"
+              "cht": "敲鈸、"
             },
             {
               "id": "hebrew-5035",
-              "eng": "and stringed instruments",
-              "punct": "､"
+              "cht": "鼓瑟、"
             },
             {
               "id": "hebrew-3658",
-              "eng": "and harps",
-              "punct": "."
+              "cht": "彈琴",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-8057",
+              "cht": "歡歡喜喜地"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6213",
+              "cht": "行"
             },
             {
-              "id": ""
+              "id": "hebrew-2598",
+              "cht": "告成"
+            },
+            {
+              "id": "",
+              "cht": "之禮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -497,97 +486,95 @@
             "hebrew-8426": 2.4756200969099407
           },
           "verseKey": "lev.7.12",
-          "cunp": "他若為感謝獻上，就要用調油的無酵餅和抹油的無酵薄餅，並用油調勻細麵做的餅，與感謝祭一同獻上。",
+          "nasb": "If he offers it by way of thanksgiving, then along with the sacrifice of thanksgiving he shall offer unleavened cakes mixed with oil, and unleavened wafers spread with oil, and cakes of well stirred fine flour mixed with oil.",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "If"
+              "cht": "他若"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for"
+              "cht": "為"
             },
             {
               "id": "hebrew-8426",
-              "eng": "a thanksgiving"
+              "cht": "感謝"
             },
             {
               "id": "hebrew-7126",
-              "eng": "he offers it",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7126",
-              "eng": "then he shall offer"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-2077",
-              "eng": "the sacrifice"
-            },
-            {
-              "id": "hebrew-8426",
-              "eng": "of thanksgiving"
-            },
-            {
-              "id": "hebrew-2471",
-              "eng": "cakes"
-            },
-            {
-              "id": "hebrew-4682",
-              "eng": "unleavened"
+              "cht": "獻上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1101",
-              "eng": "mixed"
+              "cht": "就要用調"
             },
             {
               "id": "hebrew-8081",
-              "eng": "with oil",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7550",
-              "eng": "and wafers"
+              "cht": "油"
             },
             {
               "id": "hebrew-4682",
-              "eng": "unleavened"
+              "cht": "的無酵"
+            },
+            {
+              "id": "hebrew-2471",
+              "cht": "餅"
             },
             {
               "id": "hebrew-4886",
-              "eng": "anointed"
+              "cht": "和抹"
             },
             {
               "id": "hebrew-8081",
-              "eng": "with oil",
-              "punct": "､"
+              "cht": "油"
             },
             {
-              "id": "hebrew-5560",
-              "eng": "or of blended flour",
-              "punct": "､"
+              "id": "hebrew-4682",
+              "cht": "的無酵"
             },
             {
-              "id": "hebrew-7246",
-              "eng": "-"
+              "id": "hebrew-7550",
+              "cht": "薄餅",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2471",
-              "eng": "cakes",
-              "punct": "､"
+              "id": "hebrew-8081",
+              "cht": "並用油"
             },
             {
               "id": "hebrew-1101",
-              "eng": "mixed"
+              "cht": "調"
             },
             {
-              "id": "hebrew-8081",
-              "eng": "with oil",
-              "punct": "､"
+              "id": "hebrew-7246",
+              "cht": "勻"
+            },
+            {
+              "id": "hebrew-5560",
+              "cht": "細麵"
+            },
+            {
+              "id": "hebrew-2471",
+              "cht": "做的餅",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "與"
+            },
+            {
+              "id": "hebrew-8426",
+              "cht": "感謝"
+            },
+            {
+              "id": "hebrew-2077",
+              "cht": "祭"
+            },
+            {
+              "id": "hebrew-7126",
+              "cht": "一同獻上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -598,159 +585,140 @@
             "hebrew-8426": 2.4756200969099407
           },
           "verseKey": "jer.33.11",
-          "cunp": "必再聽見有歡喜和快樂的聲音、新郎和新婦的聲音，並聽見有人說： 要稱謝萬軍之耶和華， 因耶和華本為善； 他的慈愛永遠長存！ 又有奉感謝祭到耶和華殿中之人的聲音；因為我必使這地被擄的人歸回，和起初一樣。這是耶和華說的。」",
+          "nasb": "the voice of joy and the voice of gladness, the voice of the bridegroom and the voice of the bride, the voice of those who say, “Give thanks to the Lord of hosts, For the Lord is good, For His lovingkindness is everlasting”; and of those who bring a thank offering into the house of the Lord. For I will restore the fortunes of the land as they were at first,’ says the Lord.",
           "words": [
             {
-              "id": "hebrew-6963",
-              "eng": "the voice"
+              "id": "hebrew-5750",
+              "cht": "必再"
             },
             {
               "id": "hebrew-8342",
-              "eng": "of joy",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6963",
-              "eng": "and the voice"
+              "cht": "聽見有歡喜"
             },
             {
               "id": "hebrew-8057",
-              "eng": "of gladness",
-              "punct": "､"
+              "cht": "和快樂"
             },
             {
               "id": "hebrew-6963",
-              "eng": "the voice"
-            },
-            {
-              "id": "hebrew-2860",
-              "eng": "of the bridegroom",
-              "punct": "､"
+              "cht": "的聲音、"
             },
             {
               "id": "hebrew-6963",
-              "eng": "and the voice"
+              "cht": "新郎"
             },
             {
-              "id": "hebrew-3618",
-              "eng": "of the bride",
-              "punct": "､"
+              "id": "hebrew-3816",
+              "cht": "和新婦"
             },
             {
               "id": "hebrew-6963",
-              "eng": "the voice"
+              "cht": "的聲音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "of those who will say",
-              "punct": "､"
+              "cht": "並聽見有人說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3034",
-              "eng": "Praise"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "要稱謝"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "､"
+              "cht": "萬軍"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "之耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh [is]"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "ever",
-              "punct": "–"
+              "cht": "本為善",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2617",
-              "eng": "His mercy [endures]"
+              "cht": "他的慈愛"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "永遠長存",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-935",
-              "eng": "[and] of those [who will] bring"
+              "cht": "又有奉"
             },
             {
               "id": "hebrew-8426",
-              "eng": "the [sacrifice] of praise"
+              "cht": "感謝祭"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "到耶和華"
             },
             {
               "id": "hebrew-1004",
-              "eng": "into the house"
+              "cht": "殿"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "id": "hebrew-6963",
+              "cht": "中之人的聲音",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "I will cause to return"
+              "cht": "因為"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7622",
-              "eng": "the captives"
+              "cht": "我必使"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land",
-              "punct": "､"
+              "cht": "這地"
+            },
+            {
+              "id": "hebrew-7622",
+              "cht": "被擄的人"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "歸回",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7223",
-              "eng": "as at the first",
-              "punct": "､"
+              "cht": "和起初"
             },
             {
-              "id": "hebrew-559",
-              "eng": "says"
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
             },
             {
-              "id": "hebrew-5750"
+              "id": "hebrew-559",
+              "cht": "說"
             },
             {
-              "id": "hebrew-3816"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。」"
             }
           ]
         }

@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "No",
-          "hebrew-413": "I will offend more",
-          "hebrew-410": "For",
-          "hebrew-559": "to",
-          "hebrew-5375": "God",
-          "hebrew-3808": "has [anyone] said",
-          "hebrew-2254": "I have borne [chastening]"
+          "eng": {
+            "hebrew-3588": "No",
+            "hebrew-413": "I will offend more",
+            "hebrew-410": "For",
+            "hebrew-559": "to",
+            "hebrew-5375": "God",
+            "hebrew-3808": "has [anyone] said",
+            "hebrew-2254": "I have borne [chastening]"
+          },
+          "cht": {
+            "hebrew-3588": "有誰",
+            "hebrew-413": "對",
+            "hebrew-410": "神",
+            "hebrew-559": "說",
+            "hebrew-5375": "我受了責罰",
+            "hebrew-3808": "不再",
+            "hebrew-2254": "犯罪"
+          }
         }
       },
       "translations": {
@@ -23,71 +34,61 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "neh.1.7",
-          "cunp": "我們向你所行的甚是邪惡，沒有遵守你藉着僕人摩西所吩咐的誡命、律例、典章。",
+          "nasb": "We have acted very corruptly against You and have not kept the commandments, nor the statutes, nor the ordinances which You commanded Your servant Moses.",
           "words": [
             {
               "id": "hebrew-2254",
-              "eng": "We have dealt very"
+              "cht": "所行的甚是"
             },
             {
               "id": "hebrew-2254",
-              "eng": "we have acted very corruptly"
+              "cht": "邪惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-8104",
-              "eng": "have kept"
+              "cht": "遵守"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4687",
-              "eng": "the commandments",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-2706",
-              "eng": "the statutes",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "nor"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "the ordinances",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-6680",
-              "eng": "You commanded"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4872",
-              "eng": "Moses"
+              "cht": "你藉著"
             },
             {
               "id": "hebrew-5650",
-              "eng": "Your servant",
-              "punct": "."
+              "cht": "僕人"
+            },
+            {
+              "id": "hebrew-4872",
+              "cht": "摩西"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-6680",
+              "cht": "吩咐"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-4687",
+              "cht": "誡命、"
+            },
+            {
+              "id": "hebrew-2706",
+              "cht": "律例、"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "典章",
+              "punct_cht": "。"
             }
           ]
         },
@@ -97,48 +98,48 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "exo.22.26",
-          "cunp": "你即或拿鄰舍的衣服作當頭，必在日落以先歸還他；",
+          "nasb": "If you ever take your neighbor’s cloak as a pledge, you are to return it to him before the sun sets,",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "If"
+              "cht": "你即"
             },
             {
               "id": "hebrew-2254",
-              "eng": "ever"
+              "cht": "或"
             },
             {
               "id": "hebrew-2254",
-              "eng": "you take as a pledge"
-            },
-            {
-              "id": "hebrew-8008",
-              "eng": "garment"
+              "cht": "拿"
             },
             {
               "id": "hebrew-7453",
-              "eng": "of your neighbor",
-              "punct": "､"
+              "cht": "鄰舍"
             },
             {
-              "id": "hebrew-5704",
-              "eng": "before"
+              "id": "hebrew-8008",
+              "cht": "的衣服"
             },
             {
-              "id": "hebrew-935",
-              "eng": "goes down"
+              "id": "hebrew-2254",
+              "cht": "作當頭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8121",
-              "eng": "the sun",
-              "punct": "､"
+              "cht": "必在日"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "落"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "以先"
             },
             {
               "id": "hebrew-7725",
-              "eng": "you shall return it"
-            },
-            {
-              "id": "hebrew-2254"
+              "cht": "歸還"
             }
           ]
         },
@@ -148,43 +149,45 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "deu.24.6",
-          "cunp": "「不可拿人的全盤磨石或是上磨石作當頭，因為這是拿人的命作當頭。",
+          "nasb": "“No one shall take a handmill or an upper millstone in pledge, for he would be taking a life in pledge.",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "No"
+              "cht": "不可"
             },
             {
-              "id": "hebrew-2254",
-              "eng": "man shall take in pledge"
+              "id": "hebrew-376",
+              "cht": "拿人"
             },
             {
               "id": "hebrew-7347",
-              "eng": "the lower"
+              "cht": "的全盤磨石"
             },
             {
               "id": "hebrew-7393",
-              "eng": "or the upper millstone"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "[one's] living"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "he"
+              "cht": "或是上磨石"
             },
             {
               "id": "hebrew-2254",
-              "eng": "takes in pledge",
-              "punct": "､"
+              "cht": "作當頭",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-376"
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "這是"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "拿人的命"
+            },
+            {
+              "id": "hebrew-2254",
+              "cht": "作當頭",
+              "punct_cht": "。"
             }
           ]
         },
@@ -195,115 +198,107 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "ecc.5.6",
-          "cunp": "不可任你的口使肉體犯罪，也不可在祭司面前說是錯許了。為何使神因你的聲音發怒，敗壞你手所做的呢？",
+          "nasb": "Do not let your speech cause you to sin and do not say in the presence of the messenger of God that it was a mistake. Why should God be angry on account of your voice and destroy the work of your hands?",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
+              "cht": "不可"
             },
             {
               "id": "hebrew-5414",
-              "eng": "do let"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "任"
             },
             {
               "id": "hebrew-6310",
-              "eng": "your mouth"
-            },
-            {
-              "id": "hebrew-2398",
-              "eng": "cause to sin",
-              "punct": "–"
+              "cht": "你的口"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-1320",
-              "eng": "your flesh"
+              "cht": "肉體"
+            },
+            {
+              "id": "hebrew-2398",
+              "cht": "犯罪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
+              "cht": "也不可"
             },
             {
-              "id": "hebrew-559",
-              "eng": "say"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before"
+              "id": "",
+              "cht": "在祭司（"
             },
             {
               "id": "hebrew-4397",
-              "eng": "the messenger [of God]",
-              "punct": "､"
+              "cht": "原文是使者）"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
+              "id": "hebrew-6440",
+              "cht": "面前"
             },
             {
-              "id": "hebrew-7684",
-              "eng": "an error",
-              "punct": "."
+              "id": "hebrew-559",
+              "cht": "說"
             },
             {
               "id": "hebrew-1931",
-              "eng": "It [was]"
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-7684",
+              "cht": "錯"
+            },
+            {
+              "id": "",
+              "cht": "許了",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4100",
-              "eng": "why"
+              "cht": "為何"
             },
             {
-              "id": "hebrew-7107",
-              "eng": "should be angry"
+              "id": "",
+              "cht": "使"
             },
             {
               "id": "hebrew-430",
-              "eng": "God"
+              "cht": "神"
             },
             {
               "id": "hebrew-5921",
-              "eng": "at"
+              "cht": "因"
             },
             {
               "id": "hebrew-6963",
-              "eng": "your excuse",
-              "punct": "､"
+              "cht": "你的聲音"
             },
             {
-              "id": "hebrew-2254",
-              "eng": "and destroy"
+              "id": "hebrew-7107",
+              "cht": "發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "the work"
+              "cht": "敗壞"
             },
             {
               "id": "hebrew-3027",
-              "eng": "of your hands"
+              "cht": "你手"
             },
             {
-              "id": ""
+              "id": "hebrew-4639",
+              "cht": "所做的"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -313,93 +308,94 @@
             "hebrew-410": 1.2045306939875329
           },
           "verseKey": "dan.11.36",
-          "cunp": "「王必任意而行，自高自大，超過所有的神，又用奇異的話攻擊萬神之神。他必行事亨通，直到主的忿怒完畢，因為所定的事必然成就。",
+          "nasb": "“Then the king will do as he pleases, and he will exalt and magnify himself above every god and will speak monstrous things against the God of gods; and he will prosper until the indignation is finished, for that which is decreed will be done.",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And shall do"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-7522",
-              "eng": "according to his own will",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-7311",
-              "eng": "and he shall exalt",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1431",
-              "eng": "and magnify himself"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "above"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "god",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and against"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "the God"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "of gods",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "shall speak"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "blasphemies"
-            },
-            {
-              "id": "hebrew-6743",
-              "eng": "and shall prosper"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "till"
-            },
-            {
-              "id": "hebrew-3615",
-              "eng": "has been accomplished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2195",
-              "eng": "the wrath"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2782",
-              "eng": "what has been determined"
+              "cht": "必任意"
             },
             {
               "id": "hebrew-6213",
-              "eng": "shall be done",
-              "punct": "."
+              "cht": "而行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7311",
+              "cht": "自高"
+            },
+            {
+              "id": "hebrew-1431",
+              "cht": "自大",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "超過"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "所有的"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "神",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "又用"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "奇異的話"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "攻擊"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "萬神"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "之神",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-6743",
+              "cht": "他必行事亨通",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "直到"
+            },
+            {
+              "id": "hebrew-2195",
+              "cht": "主的忿怒"
+            },
+            {
+              "id": "hebrew-3615",
+              "cht": "完畢",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-2782",
+              "cht": "所定的事"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "必然成就",
+              "punct_cht": "。"
             }
           ]
         },
@@ -409,7 +405,7 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "rut.5.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -418,32 +414,34 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "job.17.1",
-          "cunp": "我的心靈消耗，我的日子滅盡； 墳墓為我預備好了。",
+          "nasb": "“My spirit is broken, my days are extinguished, The grave is ready for me.",
           "words": [
             {
               "id": "hebrew-7307",
-              "eng": "My spirit"
+              "cht": "我的心靈"
             },
             {
               "id": "hebrew-2254",
-              "eng": "is broken",
-              "punct": "､"
+              "cht": "消耗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3117",
-              "eng": "My days"
+              "cht": "我的日子"
             },
             {
               "id": "hebrew-2193",
-              "eng": "are extinguished",
-              "punct": "､"
+              "cht": "滅盡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6913",
-              "eng": "the grave [is ready]"
+              "cht": "墳墓"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "預備好了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -453,66 +451,61 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "isa.54.16",
-          "cunp": "吹噓炭火、打造合用器械的鐵匠是我所造； 殘害人、行毀滅的也是我所造。",
+          "nasb": "Behold, I Myself have created the smith who blows the fire of coals And brings out a weapon for its work; And I have created the destroyer to ruin.",
           "words": [
             {
-              "id": "hebrew-2005",
-              "eng": "Behold"
-            },
-            {
-              "id": "hebrew-595",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-1254",
-              "eng": "have created"
-            },
-            {
-              "id": "hebrew-2796",
-              "eng": "the blacksmith"
-            },
-            {
               "id": "hebrew-5301",
-              "eng": "who blows"
-            },
-            {
-              "id": "hebrew-784",
-              "eng": "in the fire",
-              "punct": "､"
+              "cht": "吹噓"
             },
             {
               "id": "hebrew-6352",
-              "eng": "the coals"
+              "cht": "炭"
+            },
+            {
+              "id": "hebrew-784",
+              "cht": "火、"
             },
             {
               "id": "hebrew-3318",
-              "eng": "and who brings forth"
-            },
-            {
-              "id": "hebrew-3627",
-              "eng": "an instrument"
+              "cht": "打造"
             },
             {
               "id": "hebrew-4639",
-              "eng": "for his work",
-              "punct": "–"
+              "cht": "合用"
+            },
+            {
+              "id": "hebrew-3627",
+              "cht": "器械"
+            },
+            {
+              "id": "hebrew-2796",
+              "cht": "的鐵匠"
             },
             {
               "id": "hebrew-595",
-              "eng": "and I"
+              "cht": "是我"
             },
             {
               "id": "hebrew-1254",
-              "eng": "have created"
+              "cht": "所造",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7843",
-              "eng": "the spoiler"
+              "cht": "殘害人、"
             },
             {
               "id": "hebrew-2254",
-              "eng": "to destroy",
-              "punct": "."
+              "cht": "行毀滅的"
+            },
+            {
+              "id": "hebrew-595",
+              "cht": "也是我"
+            },
+            {
+              "id": "hebrew-1254",
+              "cht": "所造",
+              "punct_cht": "。"
             }
           ]
         },
@@ -522,49 +515,49 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "deu.24.17",
-          "cunp": "「你不可向寄居的和孤兒屈枉正直，也不可拿寡婦的衣裳作當頭。",
+          "nasb": "“You shall not pervert the justice due an alien or  an orphan, nor take a widow’s garment in pledge.",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-5186",
-              "eng": "You shall pervert"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "justice due"
+              "cht": "你不可"
             },
             {
               "id": "hebrew-1616",
-              "eng": "the stranger",
-              "punct": "､"
+              "cht": "向寄居的"
             },
             {
               "id": "hebrew-3490",
-              "eng": "or the fatherless",
-              "punct": "–"
+              "cht": "和孤兒"
+            },
+            {
+              "id": "hebrew-5186",
+              "cht": "屈枉"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "正直",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不可"
             },
             {
               "id": "hebrew-2254",
-              "eng": "take as a pledge"
-            },
-            {
-              "id": "hebrew-899",
-              "eng": "garment"
+              "cht": "拿"
             },
             {
               "id": "hebrew-490",
-              "eng": "of a widow",
-              "punct": "."
+              "cht": "寡婦"
             },
             {
-              "id": "hebrew-2254"
+              "id": "hebrew-899",
+              "cht": "的衣裳"
+            },
+            {
+              "id": "hebrew-2254",
+              "cht": "作當頭",
+              "punct_cht": "。"
             }
           ]
         },
@@ -574,7 +567,7 @@
             "hebrew-2254": 3.349908747650579
           },
           "verseKey": "exo.15.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         }
       ]

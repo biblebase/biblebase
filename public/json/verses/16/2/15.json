@@ -3,17 +3,32 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1961": "and",
-          "hebrew-5927": "went up",
-          "hebrew-5158": "by the valley",
-          "hebrew-3915": "in the night",
-          "hebrew-7663": "viewed",
-          "hebrew-2346": "the wall",
-          "hebrew-7725": "so returned",
-          "hebrew-935": "and entered",
-          "hebrew-8179": "by the Gate",
-          "hebrew-1516": "Valley",
-          "hebrew-7665": null
+          "eng": {
+            "hebrew-1961": "and",
+            "hebrew-5927": "went up",
+            "hebrew-5158": "by the valley",
+            "hebrew-3915": "in the night",
+            "hebrew-7663": "viewed",
+            "hebrew-2346": "the wall",
+            "hebrew-7725": "so returned",
+            "hebrew-935": "and entered",
+            "hebrew-8179": "by the Gate",
+            "hebrew-1516": "Valley",
+            "hebrew-7665": null
+          },
+          "cht": {
+            "hebrew-1961": "而",
+            "hebrew-5927": "上",
+            "hebrew-5158": "沿溪",
+            "hebrew-3915": "於是夜間",
+            "hebrew-7663": "察看",
+            "hebrew-2346": "城牆",
+            "hebrew-7725": "就回來了",
+            "hebrew-935": "進入",
+            "hebrew-8179": "門",
+            "hebrew-1516": "谷",
+            "hebrew-7665": "察看"
+          }
         }
       },
       "translations": {
@@ -35,102 +50,89 @@
             "hebrew-1516": 2.234830709167281
           },
           "verseKey": "neh.2.13",
-          "cunp": "當夜我出了谷門，往野狗井去，到了糞廠門，察看耶路撒冷的城牆，見城牆拆毀，城門被火焚燒。",
+          "nasb": "So I went out at night by the Valley Gate in the direction of the Dragon’s Well and on to the Refuse Gate, inspecting the walls of Jerusalem which were broken down and its gates which were consumed by fire.",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "And I went out"
+              "id": "hebrew-3915",
+              "cht": "當夜"
             },
             {
-              "id": "hebrew-8179",
-              "eng": "through Gate"
+              "id": "hebrew-3318",
+              "cht": "我出了"
             },
             {
               "id": "hebrew-1516",
-              "eng": "the Valley",
-              "punct": "､"
+              "cht": "谷"
             },
             {
-              "id": "hebrew-3915",
-              "eng": "by night"
+              "id": "hebrew-8179",
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "the Serpent Well",
-              "punct": "､"
+              "cht": "往"
             },
             {
               "id": "hebrew-8577",
-              "eng": "the dragon"
+              "cht": "野狗"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "井"
+            },
+            {
+              "id": "",
+              "cht": "去（野狗或譯龍）",
+              "punct_cht": "：，"
             },
             {
               "id": "hebrew-413",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "Gate",
-              "punct": "､"
+              "cht": "到了"
             },
             {
               "id": "hebrew-830",
-              "eng": "the Refuse"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-7663",
-              "eng": "viewed"
-            },
-            {
-              "id": "hebrew-2346",
-              "eng": "the walls"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "of Jerusalem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-6555",
-              "eng": "broken down",
-              "punct": "､"
+              "cht": "糞廠"
             },
             {
               "id": "hebrew-8179",
-              "eng": "and its gates"
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-398",
-              "eng": "which were burned"
+              "id": "hebrew-7665",
+              "cht": "察看"
+            },
+            {
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷"
+            },
+            {
+              "id": "hebrew-2346",
+              "cht": "的城牆",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "見城牆"
+            },
+            {
+              "id": "hebrew-6555",
+              "cht": "拆毀",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8179",
+              "cht": "城門"
             },
             {
               "id": "hebrew-784",
-              "eng": "with fire",
-              "punct": "."
+              "cht": "被火"
             },
             {
-              "id": "hebrew-5886"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-7665"
+              "id": "hebrew-398",
+              "cht": "焚燒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -142,155 +144,140 @@
             "hebrew-8179": 1.024335267579189
           },
           "verseKey": "ezk.46.9",
-          "cunp": "「在各節期，國內居民朝見耶和華的時候，從北門進入敬拜的，必由南門而出；從南門進入的，必由北門而出。不可從所入的門而出，必要直往前行，由對門而出。",
+          "nasb": "But when the people of the land come before the Lord at the appointed feasts, he who enters by way of the north gate to worship shall go out by way of the south gate. And he who enters by way of the south gate shall go out by way of the north gate. No one shall return by way of the gate by which he entered but shall go straight out.",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "But when come"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the people"
+              "id": "hebrew-4150",
+              "cht": "在各節期",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the land"
+              "cht": "國內"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "居民"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "朝"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "見"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-4150",
-              "eng": "on the appointed feast [days]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "whoever enters"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6828",
-              "eng": "north"
+              "cht": "從北"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "門"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "進入"
             },
             {
               "id": "hebrew-7812",
-              "eng": "to worship"
+              "cht": "敬拜"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "shall go out"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate",
-              "punct": "–"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5045",
-              "eng": "south"
+              "cht": "必由南"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "門"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "而出",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5045",
+              "cht": "從南"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "門"
             },
             {
               "id": "hebrew-935",
-              "eng": "and whoever enters"
+              "cht": "進入"
             },
             {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate"
-            },
-            {
-              "id": "hebrew-5045",
-              "eng": "south"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "shall go out"
-            },
-            {
-              "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of gate",
-              "punct": "."
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6828",
-              "eng": "The north"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "He shall return"
+              "cht": "必由北"
             },
             {
               "id": "hebrew-1870",
-              "eng": "by way"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "of the gate"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "through which"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "he came",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "but"
-            },
-            {
-              "id": "hebrew-5226",
-              "eng": "through the opposite gate"
+              "cht": "門"
             },
             {
               "id": "hebrew-3318",
-              "eng": "shall go out",
-              "punct": "."
+              "cht": "而出",
+              "punct_cht": "。"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "不可"
             },
             {
-              "id": ""
+              "id": "hebrew-834",
+              "cht": "從所"
             },
             {
-              "id": ""
+              "id": "hebrew-935",
+              "cht": "入"
             },
             {
-              "id": "hebrew-8179"
+              "id": "hebrew-8179",
+              "cht": "的門"
             },
             {
-              "id": ""
+              "id": "hebrew-8179",
+              "cht": "而出",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "必要"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "直往前行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5226",
+              "cht": "由對門"
+            },
+            {
+              "id": "",
+              "cht": "而出",
+              "punct_cht": "。"
             }
           ]
         },
@@ -301,102 +288,96 @@
             "hebrew-7663": 5.832220266167411
           },
           "verseKey": "rut.1.13",
-          "cunp": "你們豈能等着他們長大呢？你們豈能等着他們不嫁別人呢？我女兒們哪，不要這樣。我為你們的緣故甚是愁苦，因為耶和華伸手攻擊我。」",
+          "nasb": "would you therefore wait until they were grown? Would you therefore refrain from marrying? No, my daughters; for it is harder for me than for you, for the hand of the Lord has gone forth against me.”",
           "words": [
             {
               "id": "hebrew-3860",
-              "eng": "would for them"
+              "cht": "你們豈能"
             },
             {
               "id": "hebrew-7663",
-              "eng": "you wait"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "until"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "till"
+              "cht": "等著"
             },
             {
               "id": "hebrew-1431",
-              "eng": "they were grown"
+              "cht": "他們長大"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3860",
-              "eng": "would"
+              "cht": "你們豈能"
             },
             {
               "id": "hebrew-5702",
-              "eng": "you restrain yourselves"
+              "cht": "等著他們"
             },
             {
               "id": "hebrew-1115",
-              "eng": "from"
+              "cht": "不"
             },
             {
               "id": "hebrew-1961",
-              "eng": "having"
+              "cht": "嫁"
             },
             {
               "id": "hebrew-376",
-              "eng": "husbands"
+              "cht": "別人"
             },
             {
-              "id": "hebrew-408",
-              "eng": "No",
-              "punct": "､"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-1323",
-              "eng": "my daughters",
-              "punct": "–"
+              "cht": "我女兒們"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4843",
-              "eng": "it grieves"
+              "id": "hebrew-408",
+              "cht": "不要"
             },
             {
-              "id": "hebrew-3966",
-              "eng": "very much"
+              "id": "",
+              "cht": "這樣",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4480",
-              "eng": "for"
+              "cht": "為你們"
+            },
+            {
+              "id": "hebrew-3966",
+              "cht": "的緣故甚是"
+            },
+            {
+              "id": "hebrew-4843",
+              "cht": "愁苦",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "your sakes that"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "has gone out"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "the hand"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-3027",
+              "cht": "伸手"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-3318",
+              "cht": "攻擊"
             }
           ]
         },
@@ -407,122 +388,107 @@
             "hebrew-1516": 2.234830709167281
           },
           "verseKey": "jos.15.8",
-          "cunp": "上到欣嫩子谷，貼近耶布斯的南界（耶布斯就是耶路撒冷）；又上到欣嫩谷西邊的山頂，就是在利乏音谷極北的邊界；",
+          "nasb": "Then the border went up the valley of Ben-hinnom to the slope of the Jebusite on the south (that is, Jerusalem); and the border went up to the top of the mountain which is before the valley of Hinnom to the west, which is at the end of the valley of Rephaim toward the north.",
           "words": [
             {
               "id": "hebrew-5927",
-              "eng": "And went up"
+              "cht": "上"
             },
             {
-              "id": "hebrew-1366",
-              "eng": "the border"
-            },
-            {
-              "id": "hebrew-1516",
-              "eng": "by the Valley"
+              "id": "hebrew-2011",
+              "cht": "到欣嫩"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the Son"
-            },
-            {
-              "id": "hebrew-2011",
-              "eng": "of Hinnom"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-3802",
-              "eng": "slope"
-            },
-            {
-              "id": "hebrew-2983",
-              "eng": "of the Jebusite [city]",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5045",
-              "eng": "the southern"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that [is]"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "Jerusalem",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "and went up"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the top"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "of the mountain"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that [lies]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "the face of"
+              "cht": "子"
             },
             {
               "id": "hebrew-1516",
-              "eng": "the Valley"
+              "cht": "谷",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "貼近"
+            },
+            {
+              "id": "hebrew-2983",
+              "cht": "耶布斯"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的南"
+            },
+            {
+              "id": "hebrew-3802",
+              "cht": "界（"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "耶布斯就是"
+            },
+            {
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷）",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "又上"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "到"
             },
             {
               "id": "hebrew-2011",
-              "eng": "of the Son of Hinnom"
+              "cht": "欣嫩"
+            },
+            {
+              "id": "hebrew-1516",
+              "cht": "谷"
             },
             {
               "id": "hebrew-3220",
-              "eng": "westward",
-              "punct": "､"
+              "cht": "西"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "邊"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山"
+            },
+            {
+              "id": "hebrew-7218",
+              "cht": "頂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "which [is]"
-            },
-            {
-              "id": "hebrew-7097",
-              "eng": "at the end"
-            },
-            {
-              "id": "hebrew-6010",
-              "eng": "of the Valley"
+              "cht": "就是"
             },
             {
               "id": "hebrew-7497",
-              "eng": "of the Rephaim"
+              "cht": "在利乏音"
+            },
+            {
+              "id": "hebrew-6010",
+              "cht": "谷"
             },
             {
               "id": "hebrew-6828",
-              "eng": "northward",
-              "punct": "."
+              "cht": "極北的"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7097",
+              "cht": "邊界",
+              "punct_cht": "；"
             }
           ]
         },
@@ -532,48 +498,45 @@
             "hebrew-7663": 5.832220266167411
           },
           "verseKey": "psa.145.15",
-          "cunp": "萬民都舉目仰望你； 你隨時給他們食物。",
+          "nasb": "The eyes of all look to You, And You give them their food in due time.",
           "words": [
             {
-              "id": "hebrew-5869",
-              "eng": "The eyes"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "萬民"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to You"
+              "id": "hebrew-5869",
+              "cht": "都舉目"
             },
             {
               "id": "hebrew-7663",
-              "eng": "look expectantly"
+              "cht": "仰望"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "你",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-859",
-              "eng": "and You"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "give"
-            },
-            {
-              "id": "hebrew-1992",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-400",
-              "eng": "their food"
+              "cht": "你"
             },
             {
               "id": "hebrew-6256",
-              "eng": "in due season",
-              "punct": "."
+              "cht": "隨時"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "給"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "他們"
+            },
+            {
+              "id": "hebrew-400",
+              "cht": "食物",
+              "punct_cht": "。"
             }
           ]
         },
@@ -583,124 +546,108 @@
             "hebrew-7663": 5.832220266167411
           },
           "verseKey": "est.9.1",
-          "cunp": "十二月，乃亞達月十三日，王的諭旨將要舉行，就是猶大人的仇敵盼望轄制他們的日子，猶大人反倒轄制恨他們的人。",
+          "nasb": "Now in the twelfth month (that is, the month Adar), on the thirteenth day when the king’s command and edict were about to be executed, on the day when the enemies of the Jews hoped to gain the mastery over them, it was turned to the contrary so that the Jews themselves gained the mastery over those who hated them.",
           "words": [
             {
-              "id": "hebrew-8147",
-              "eng": "And in two"
+              "id": "hebrew-6240",
+              "cht": "十"
             },
             {
-              "id": "hebrew-6240",
-              "eng": "and ten"
+              "id": "hebrew-8147",
+              "cht": "二"
             },
             {
               "id": "hebrew-2320",
-              "eng": "month",
-              "punct": "､"
+              "cht": "月",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it [is]"
-            },
-            {
-              "id": "hebrew-2320",
-              "eng": "the month"
+              "cht": "乃"
             },
             {
               "id": "hebrew-143",
-              "eng": "of Adar",
-              "punct": "､"
+              "cht": "亞達"
             },
             {
-              "id": "hebrew-7969",
-              "eng": "on three"
+              "id": "hebrew-2320",
+              "cht": "月"
             },
             {
               "id": "hebrew-6240",
-              "eng": "and ten"
+              "cht": "十"
+            },
+            {
+              "id": "hebrew-7969",
+              "cht": "三"
             },
             {
               "id": "hebrew-3117",
-              "eng": "day"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-5060",
-              "eng": "[the time] came for"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "command"
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的諭"
             },
             {
               "id": "hebrew-1881",
-              "eng": "and his decree"
+              "cht": "旨"
+            },
+            {
+              "id": "hebrew-5060",
+              "cht": "將要"
             },
             {
               "id": "hebrew-6213",
-              "eng": "to be executed",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "On the day"
+              "cht": "舉行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
+              "cht": "就是"
             },
             {
-              "id": "hebrew-7663",
-              "eng": "had hoped"
+              "id": "hebrew-3064",
+              "cht": "猶大人"
             },
             {
               "id": "hebrew-341",
-              "eng": "the enemies"
+              "cht": "的仇敵"
             },
             {
-              "id": "hebrew-3064",
-              "eng": "of the Jews"
-            },
-            {
-              "id": "hebrew-7980",
-              "eng": "to overpower"
-            },
-            {
-              "id": "hebrew-2015",
-              "eng": "and was overturned",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "it"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "in that"
+              "id": "hebrew-7663",
+              "cht": "盼望"
             },
             {
               "id": "hebrew-7980",
-              "eng": "overpowered"
+              "cht": "轄制"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "的日子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3064",
-              "eng": "the Jews"
+              "cht": "猶大人"
             },
             {
               "id": "hebrew-1992",
-              "eng": "they"
+              "cht": "反倒"
+            },
+            {
+              "id": "hebrew-7980",
+              "cht": "轄制"
             },
             {
               "id": "hebrew-8130",
-              "eng": "those who hated them",
-              "punct": "."
+              "cht": "恨他們的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -710,36 +657,34 @@
             "hebrew-7663": 5.832220266167411
           },
           "verseKey": "psa.119.166",
-          "cunp": "耶和華啊，我仰望了你的救恩， 遵行了你的命令。",
+          "nasb": "I hope for Your salvation, O Lord, And do Your commandments.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-7663",
-              "eng": "I hope"
+              "cht": "我仰望了"
             },
             {
               "id": "hebrew-3444",
-              "eng": "for Your salvation",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4687",
-              "eng": "and Your commandments"
+              "cht": "你的救恩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "I do",
-              "punct": "."
+              "cht": "遵行了"
             },
             {
-              "id": "hebrew-3068"
-            },
-            {
-              "id": ""
+              "id": "hebrew-4687",
+              "cht": "你的命令",
+              "punct_cht": "。"
             }
           ]
         },
@@ -749,56 +694,55 @@
             "hebrew-7663": 5.832220266167411
           },
           "verseKey": "isa.38.18",
-          "cunp": "原來，陰間不能稱謝你， 死亡不能頌揚你； 下坑的人不能盼望你的誠實。",
+          "nasb": "For Sheol cannot thank You, Death cannot praise You; Those who go down to the pit cannot hope for Your faithfulness.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "cannot"
+              "cht": "原來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7585",
-              "eng": "Sheol"
-            },
-            {
-              "id": "hebrew-3034",
-              "eng": "thank You"
-            },
-            {
-              "id": "hebrew-4194",
-              "eng": "Death"
-            },
-            {
-              "id": "hebrew-1984",
-              "eng": "cannot praise You"
+              "cht": "陰間"
             },
             {
               "id": "hebrew-3808",
-              "eng": "cannot"
+              "cht": "不能"
             },
             {
-              "id": "hebrew-7663",
-              "eng": "hope"
+              "id": "hebrew-3034",
+              "cht": "稱謝你",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4194",
+              "cht": "死亡"
+            },
+            {
+              "id": "hebrew-1984",
+              "cht": "不能頌揚你",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3381",
-              "eng": "Those who go down to"
+              "cht": "下"
             },
             {
               "id": "hebrew-953",
-              "eng": "the pit"
+              "cht": "坑"
             },
             {
-              "id": "hebrew-413",
-              "eng": "for"
+              "id": "hebrew-3808",
+              "cht": "的人不能"
+            },
+            {
+              "id": "hebrew-7663",
+              "cht": "盼望"
             },
             {
               "id": "hebrew-571",
-              "eng": "Your truth",
-              "punct": "."
+              "cht": "你的誠實",
+              "punct_cht": "。"
             }
           ]
         },
@@ -808,84 +752,84 @@
             "hebrew-8179": 1.024335267579189
           },
           "verseKey": "ezk.48.31",
-          "cunp": "城的各門要按以色列支派的名字。北面有三門，一為呂便門，一為猶大門，一為利未門；",
+          "nasb": "shall be the gates of the city, named for the tribes of Israel, three gates toward the north: the gate of Reuben, one; the gate of Judah, one; the gate of Levi, one.",
           "words": [
             {
-              "id": "hebrew-8179",
-              "eng": "And the gates"
+              "id": "hebrew-5892",
+              "cht": "城"
             },
             {
-              "id": "hebrew-5892",
-              "eng": "of the city"
+              "id": "hebrew-8179",
+              "cht": "的各門"
             },
             {
               "id": "hebrew-5921",
-              "eng": "after"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "[shall] [be] named"
-            },
-            {
-              "id": "hebrew-7626",
-              "eng": "the tribes"
+              "cht": "要按"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-8179",
-              "eng": "the gates"
+              "id": "hebrew-7626",
+              "cht": "支派"
             },
             {
-              "id": "hebrew-7969",
-              "eng": "three"
+              "id": "hebrew-8034",
+              "cht": "的名字",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6828",
-              "eng": "northward",
-              "punct": "–"
+              "cht": "北面"
+            },
+            {
+              "id": "hebrew-7969",
+              "cht": "有三"
             },
             {
               "id": "hebrew-8179",
-              "eng": "gate for"
+              "cht": "門",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一"
             },
             {
               "id": "hebrew-7205",
-              "eng": "Reuben",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "cht": "為流便"
             },
             {
               "id": "hebrew-8179",
-              "eng": "gate for"
+              "cht": "門",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一"
             },
             {
               "id": "hebrew-3063",
-              "eng": "Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
+              "cht": "為猶大"
             },
             {
               "id": "hebrew-8179",
-              "eng": "and gate for"
-            },
-            {
-              "id": "hebrew-3878",
-              "eng": "Levi"
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-259",
-              "eng": "one",
-              "punct": "."
+              "cht": "一"
+            },
+            {
+              "id": "hebrew-3878",
+              "cht": "為利未"
+            },
+            {
+              "id": "hebrew-8179",
+              "cht": "門",
+              "punct_cht": "；"
             }
           ]
         },
@@ -895,96 +839,78 @@
             "hebrew-8179": 1.024335267579189
           },
           "verseKey": "neh.12.39",
-          "cunp": "又過了以法蓮門、古門、魚門、哈楠業樓、哈米亞樓，直到羊門，就在護衛門站住。",
+          "nasb": "and above the Gate of Ephraim, by the Old Gate, by the Fish Gate, the Tower of Hananel and the Tower of the Hundred, as far as the Sheep Gate; and they stopped at the Gate of the Guard.",
           "words": [
             {
-              "id": "hebrew-5921",
-              "eng": "And"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "above the Gate"
+              "id": "hebrew-4480",
+              "cht": "又過了"
             },
             {
               "id": "hebrew-669",
-              "eng": "of Ephraim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and above"
+              "cht": "以法蓮"
             },
             {
               "id": "hebrew-8179",
-              "eng": "Gate",
-              "punct": "､"
+              "cht": "門、"
             },
             {
-              "id": "hebrew-3466",
-              "eng": "the Old"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and above"
+              "id": "hebrew-3465",
+              "cht": "古"
             },
             {
               "id": "hebrew-8179",
-              "eng": "Gate",
-              "punct": "､"
+              "cht": "門、"
             },
             {
               "id": "hebrew-1709",
-              "eng": "the Fish"
+              "cht": "魚"
             },
             {
-              "id": "hebrew-4026",
-              "eng": "and the Tower"
+              "id": "hebrew-8179",
+              "cht": "門、"
             },
             {
               "id": "hebrew-2606",
-              "eng": "of Hananel",
-              "punct": "､"
+              "cht": "哈楠業"
             },
             {
               "id": "hebrew-4026",
-              "eng": "and the Tower"
+              "cht": "樓、"
             },
             {
               "id": "hebrew-3968",
-              "eng": "of the Hundred",
-              "punct": "､"
+              "cht": "哈米亞"
+            },
+            {
+              "id": "hebrew-4026",
+              "cht": "樓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and as far as"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "Gate",
-              "punct": "–"
+              "cht": "直到"
             },
             {
               "id": "hebrew-6629",
-              "eng": "the Sheep"
-            },
-            {
-              "id": "hebrew-5975",
-              "eng": "and they stopped"
+              "cht": "羊"
             },
             {
               "id": "hebrew-8179",
-              "eng": "by the Gate"
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4307",
-              "eng": "of the Prison",
-              "punct": "."
+              "cht": "就在護衛"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-8179",
+              "cht": "門"
             },
             {
-              "id": "hebrew-3465"
+              "id": "hebrew-5975",
+              "cht": "站住",
+              "punct_cht": "。"
             }
           ]
         }

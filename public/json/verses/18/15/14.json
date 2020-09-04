@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4100": "what [is]",
-          "hebrew-582": "man",
-          "hebrew-3588": "that",
-          "hebrew-2135": "he could be pure",
-          "hebrew-6663": "he could be righteous",
-          "hebrew-3205": "[he who is] born",
-          "hebrew-802": "of a woman",
-          "": null
+          "eng": {
+            "hebrew-4100": "what [is]",
+            "hebrew-582": "man",
+            "hebrew-3588": "that",
+            "hebrew-2135": "he could be pure",
+            "hebrew-6663": "he could be righteous",
+            "hebrew-3205": "[he who is] born",
+            "hebrew-802": "of a woman",
+            "": null
+          },
+          "cht": {
+            "hebrew-4100": "是甚麼",
+            "hebrew-582": "人",
+            "hebrew-3588": "竟",
+            "hebrew-2135": "算為潔淨",
+            "hebrew-6663": "算為義",
+            "hebrew-3205": "所生",
+            "hebrew-802": "婦人"
+          }
         }
       },
       "translations": {
@@ -28,46 +39,50 @@
             "hebrew-802": 0.6811622264965705
           },
           "verseKey": "job.25.4",
-          "cunp": "這樣在神面前，人怎能稱義？ 婦人所生的怎能潔淨？",
+          "nasb": "How then can a man be just with God? Or how can he be clean who is born of woman?",
           "words": [
             {
-              "id": "hebrew-4100",
-              "eng": "then how"
-            },
-            {
-              "id": "hebrew-6663",
-              "eng": "can be righteous"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "man"
-            },
-            {
               "id": "hebrew-5973",
-              "eng": "before"
+              "cht": "這樣在"
             },
             {
               "id": "hebrew-410",
-              "eng": "God"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "面前",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "人"
             },
             {
               "id": "hebrew-4100",
-              "eng": "Or what"
+              "cht": "怎能"
             },
             {
-              "id": "hebrew-2135",
-              "eng": "can be pure"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "[that is] born"
+              "id": "hebrew-6663",
+              "cht": "稱義",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-802",
-              "eng": "of a woman"
+              "cht": "婦人"
             },
             {
-              "id": ""
+              "id": "hebrew-3205",
+              "cht": "所生的"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "怎能"
+            },
+            {
+              "id": "hebrew-2135",
+              "cht": "潔淨",
+              "punct_cht": "？"
             }
           ]
         },
@@ -78,52 +93,52 @@
             "hebrew-6663": 2.7912061306530696
           },
           "verseKey": "psa.51.4",
-          "cunp": "我向你犯罪，惟獨得罪了你； 在你眼前行了這惡， 以致你責備我的時候顯為公義， 判斷我的時候顯為清正。",
+          "nasb": "Against You, You only, I have sinned And done what is evil in Your sight, So that You are justified when You speak And blameless when You judge.",
           "words": [
             {
-              "id": "hebrew-905",
-              "eng": "You only",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-2398",
-              "eng": "have I sinned",
-              "punct": "､"
+              "cht": "犯罪",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-7451",
-              "eng": "and [this] evil"
+              "id": "hebrew-905",
+              "cht": "惟獨得罪了你",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in Your sight",
-              "punct": "､"
+              "cht": "在你眼前"
             },
             {
               "id": "hebrew-6213",
-              "eng": "done"
+              "cht": "行了"
+            },
+            {
+              "id": "hebrew-7451",
+              "cht": "這惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4616",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-6663",
-              "eng": "You may be found just"
+              "cht": "以致"
             },
             {
               "id": "hebrew-1696",
-              "eng": "when You speak",
-              "punct": "､"
+              "cht": "你責備我的時候"
             },
             {
-              "id": "hebrew-2135",
-              "eng": "[And] blameless"
+              "id": "hebrew-6663",
+              "cht": "顯為公義",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8199",
-              "eng": "when You judge",
-              "punct": "."
+              "cht": "判斷我的時候"
+            },
+            {
+              "id": "hebrew-2135",
+              "cht": "顯為清正",
+              "punct_cht": "。"
             }
           ]
         },
@@ -133,35 +148,37 @@
             "hebrew-2135": 5.492088685277254
           },
           "verseKey": "mic.6.11",
-          "cunp": "我若用不公道的天平和囊中詭詐的法碼， 豈可算為清潔呢？",
+          "nasb": "Can I justify wicked scales And a bag of deceptive weights?",
           "words": [
             {
-              "id": "hebrew-2135",
-              "eng": "shall I count pure"
+              "id": "hebrew-7562",
+              "cht": "我若用不公道"
             },
             {
               "id": "hebrew-3976",
-              "eng": "[those] with the scales",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7562",
-              "eng": "wicked"
+              "cht": "的天平"
             },
             {
               "id": "hebrew-3599",
-              "eng": "and with the bag"
-            },
-            {
-              "id": "hebrew-68",
-              "eng": "of weights"
+              "cht": "和囊中"
             },
             {
               "id": "hebrew-4820",
-              "eng": "deceitful"
+              "cht": "詭詐"
             },
             {
-              "id": ""
+              "id": "hebrew-68",
+              "cht": "的法碼",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2135",
+              "cht": "豈可算為清潔"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -171,49 +188,46 @@
             "hebrew-2135": 5.492088685277254
           },
           "verseKey": "isa.1.16",
-          "cunp": "你們要洗濯、自潔， 從我眼前除掉你們的惡行， 要止住作惡，",
+          "nasb": "“Wash yourselves, make yourselves clean; Remove the evil of your deeds from My sight. Cease to do evil,",
           "words": [
             {
               "id": "hebrew-7364",
-              "eng": "Wash yourselves"
+              "cht": "你們要洗濯、"
             },
             {
               "id": "hebrew-2135",
-              "eng": "make yourselves clean",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5493",
-              "eng": "Put away"
-            },
-            {
-              "id": "hebrew-7455",
-              "eng": "the evil"
-            },
-            {
-              "id": "hebrew-4611",
-              "eng": "of your doings"
-            },
-            {
-              "id": "hebrew-5048",
-              "eng": "from before"
+              "cht": "自潔",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "My eyes",
-              "punct": "–"
+              "cht": "從我眼"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "前"
+            },
+            {
+              "id": "hebrew-5493",
+              "cht": "除掉"
+            },
+            {
+              "id": "hebrew-7455",
+              "cht": "你們的惡"
+            },
+            {
+              "id": "hebrew-4611",
+              "cht": "行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2308",
-              "eng": "Cease"
+              "cht": "要止住"
             },
             {
               "id": "hebrew-7489",
-              "eng": "to do evil",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "作惡",
+              "punct_cht": "，"
             }
           ]
         },
@@ -223,39 +237,37 @@
             "hebrew-2135": 5.492088685277254
           },
           "verseKey": "psa.119.9",
-          "cunp": "少年人用甚麼潔淨他的行為呢？ 是要遵行你的話！",
+          "nasb": "How can a young man keep his way pure? By keeping it according to Your word.",
           "words": [
             {
+              "id": "hebrew-5288",
+              "cht": "少年人"
+            },
+            {
               "id": "hebrew-4100",
-              "eng": "With what"
+              "cht": "用甚麼"
             },
             {
               "id": "hebrew-2135",
-              "eng": "can cleanse"
-            },
-            {
-              "id": "hebrew-5288",
-              "eng": "a young man"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "潔淨"
             },
             {
               "id": "hebrew-734",
-              "eng": "his way"
+              "cht": "他的行為"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-8104",
-              "eng": "by taking heed"
+              "cht": "是要遵行"
             },
             {
               "id": "hebrew-1697",
-              "eng": "according to Your word",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "你的話",
+              "punct_cht": "！"
             }
           ]
         },
@@ -265,37 +277,37 @@
             "hebrew-2135": 5.492088685277254
           },
           "verseKey": "psa.73.13",
-          "cunp": "我實在徒然潔淨了我的心， 徒然洗手表明無辜。",
+          "nasb": "Surely in vain I have kept my heart pure And washed my hands in innocence;",
           "words": [
             {
               "id": "hebrew-389",
-              "eng": "Surely"
+              "cht": "我實在"
             },
             {
               "id": "hebrew-7385",
-              "eng": "[in] vain",
-              "punct": "､"
+              "cht": "徒然"
             },
             {
               "id": "hebrew-2135",
-              "eng": "I have cleansed"
+              "cht": "潔淨了"
             },
             {
               "id": "hebrew-3824",
-              "eng": "my heart"
+              "cht": "我的心",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7364",
-              "eng": "and washed"
-            },
-            {
-              "id": "hebrew-5356",
-              "eng": "in innocence"
+              "cht": "徒然洗"
             },
             {
               "id": "hebrew-3709",
-              "eng": "my hands",
-              "punct": "."
+              "cht": "手"
+            },
+            {
+              "id": "hebrew-5356",
+              "cht": "表明無辜",
+              "punct_cht": "。"
             }
           ]
         },
@@ -305,36 +317,34 @@
             "hebrew-2135": 5.492088685277254
           },
           "verseKey": "pro.20.9",
-          "cunp": "誰能說，我潔淨了我的心， 我脫淨了我的罪？",
+          "nasb": "Who can say, “I have cleansed my heart, I am pure from my sin”?",
           "words": [
             {
               "id": "hebrew-4310",
-              "eng": "Who"
+              "cht": "誰"
             },
             {
               "id": "hebrew-559",
-              "eng": "can say",
-              "punct": "､"
+              "cht": "能說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2135",
-              "eng": "I have made clean",
-              "punct": "､"
+              "cht": "我潔淨了"
             },
             {
               "id": "hebrew-3820",
-              "eng": "my heart"
+              "cht": "我的心",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2891",
-              "eng": "I am pure"
+              "cht": "我脫淨了"
             },
             {
               "id": "hebrew-2403",
-              "eng": "from my sin"
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "我的罪",
+              "punct_cht": "？"
             }
           ]
         },
@@ -346,89 +356,89 @@
             "hebrew-802": 0.6811622264965705
           },
           "verseKey": "jer.29.6",
-          "cunp": "娶妻生兒女，為你們的兒子娶妻，使你們的女兒嫁人，生兒養女。在那裏生養眾多，不致減少。",
+          "nasb": "Take wives and become the fathers of sons and daughters, and take wives for your sons and give your daughters to husbands, that they may bear sons and daughters; and multiply there and do not decrease.",
           "words": [
             {
               "id": "hebrew-3947",
-              "eng": "Take"
+              "cht": "娶"
             },
             {
               "id": "hebrew-802",
-              "eng": "wives",
-              "punct": "､"
+              "cht": "妻"
             },
             {
               "id": "hebrew-3205",
-              "eng": "and beget"
+              "cht": "生"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons"
+              "cht": "兒"
             },
             {
               "id": "hebrew-1323",
-              "eng": "and daughters",
-              "punct": "–"
+              "cht": "女",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "為你們的兒子"
             },
             {
               "id": "hebrew-3947",
-              "eng": "and take"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "for your sons",
-              "punct": "､"
+              "cht": "娶"
             },
             {
               "id": "hebrew-802",
-              "eng": "wives"
+              "cht": "妻",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "使"
             },
             {
               "id": "hebrew-1323",
-              "eng": "your daughters"
+              "cht": "你們的女兒"
             },
             {
               "id": "hebrew-5414",
-              "eng": "give"
+              "cht": "嫁"
             },
             {
               "id": "hebrew-582",
-              "eng": "to husbands"
+              "cht": "人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3205",
-              "eng": "so that they may bear"
+              "cht": "生"
             },
             {
               "id": "hebrew-1121",
-              "eng": "sons"
+              "cht": "兒"
             },
             {
               "id": "hebrew-1323",
-              "eng": "and daughters",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7235",
-              "eng": "that you may be increased"
+              "cht": "養女",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "､"
+              "cht": "在那裡"
+            },
+            {
+              "id": "hebrew-7235",
+              "cht": "生養眾多",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "and not"
+              "cht": "不致"
             },
             {
               "id": "hebrew-4591",
-              "eng": "diminished",
-              "punct": "."
+              "cht": "減少",
+              "punct_cht": "。"
             }
           ]
         },
@@ -439,70 +449,63 @@
             "hebrew-6663": 2.7912061306530696
           },
           "verseKey": "deu.25.1",
-          "cunp": "「人若有爭訟，來聽審判，審判官就要定義人有理，定惡人有罪。",
+          "nasb": "“If there is a dispute between men and they go to court, and the judges decide their case, and they justify the righteous and condemn the wicked,",
           "words": [
             {
+              "id": "hebrew-582",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "If"
+              "cht": "若"
             },
             {
               "id": "hebrew-1961",
-              "eng": "there is"
+              "cht": "有"
             },
             {
               "id": "hebrew-7379",
-              "eng": "a dispute"
-            },
-            {
-              "id": "hebrew-996",
-              "eng": "between"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "men"
+              "cht": "爭訟",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5066",
-              "eng": "and they come"
+              "cht": "來"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "聽"
             },
             {
               "id": "hebrew-4941",
-              "eng": "court",
-              "punct": "､"
+              "cht": "審判",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8199",
-              "eng": "that [the judges] may judge them"
-            },
-            {
-              "id": "hebrew-6663",
-              "eng": "and they justify"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "審判官就要定"
             },
             {
               "id": "hebrew-6662",
-              "eng": "the righteous",
-              "punct": "､"
+              "cht": "義人"
             },
             {
-              "id": "hebrew-7561",
-              "eng": "and condemn"
+              "id": "hebrew-6663",
+              "cht": "有理",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "定"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked",
-              "punct": "."
+              "cht": "惡人"
+            },
+            {
+              "id": "hebrew-7561",
+              "cht": "有罪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -513,52 +516,46 @@
             "hebrew-6663": 2.7912061306530696
           },
           "verseKey": "job.33.12",
-          "cunp": "我要回答你說：你這話無理， 因神比世人更大。",
+          "nasb": "Behold, let me tell you, you are not right in this, For God is greater than man.",
           "words": [
             {
-              "id": "hebrew-2005",
-              "eng": "Look",
-              "punct": "､"
+              "id": "hebrew-6030",
+              "cht": "我要回答你"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2063",
-              "eng": "[in] this"
+              "cht": "你這話"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "無"
             },
             {
               "id": "hebrew-6663",
-              "eng": "you are righteous",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6030",
-              "eng": "I will answer you"
+              "cht": "理",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7235",
-              "eng": "is greater"
+              "cht": "因"
             },
             {
               "id": "hebrew-433",
-              "eng": "God"
+              "cht": "神"
             },
             {
-              "id": "hebrew-582",
-              "eng": "than man",
-              "punct": "."
+              "id": "hebrew-4480",
+              "cht": "比世人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-7235",
+              "cht": "更大",
+              "punct_cht": "。"
             }
           ]
         }

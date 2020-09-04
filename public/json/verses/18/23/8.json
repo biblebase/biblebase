@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-2005": "Look",
-          "hebrew-6924": "forward",
-          "hebrew-1980": "I go",
-          "hebrew-369": "but He is not [there]",
-          "hebrew-268": "and backward",
-          "hebrew-3808": "but cannot",
-          "hebrew-995": "I perceive"
+          "eng": {
+            "hebrew-2005": "Look",
+            "hebrew-6924": "forward",
+            "hebrew-1980": "I go",
+            "hebrew-369": "but He is not [there]",
+            "hebrew-268": "and backward",
+            "hebrew-3808": "but cannot",
+            "hebrew-995": "I perceive"
+          },
+          "cht": {
+            "hebrew-2005": "只是",
+            "hebrew-6924": "我往前",
+            "hebrew-1980": "行",
+            "hebrew-369": "他不在那裡",
+            "hebrew-268": "往後退",
+            "hebrew-3808": "也不能",
+            "hebrew-995": "見"
+          }
         }
       },
       "translations": {
@@ -25,89 +36,77 @@
             "hebrew-268": 2.632541948095861
           },
           "verseKey": "isa.9.12",
-          "cunp": "東有亞蘭人，西有非利士人； 他們張口要吞吃以色列。 雖然如此，耶和華的怒氣還未轉消； 他的手仍伸不縮。",
+          "nasb": "The Arameans on the east and the Philistines on the west; And they devour Israel with gaping jaws. In spite of all this, His anger does not turn away And His hand is still stretched out.",
           "words": [
             {
-              "id": "hebrew-758",
-              "eng": "Syria"
+              "id": "hebrew-4480",
+              "cht": "東有"
             },
             {
-              "id": "hebrew-6924",
-              "eng": "before",
-              "punct": "､"
+              "id": "hebrew-758",
+              "cht": "亞蘭人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "西有"
             },
             {
               "id": "hebrew-6430",
-              "eng": "and the Philistines"
-            },
-            {
-              "id": "hebrew-268",
-              "eng": "behind",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "and they shall devour"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "Israel"
+              "cht": "非利士人",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "with open"
+              "cht": "他們張"
             },
             {
               "id": "hebrew-6310",
-              "eng": "an mouth",
-              "punct": "."
+              "cht": "口"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "For all"
+              "id": "hebrew-853",
+              "cht": "要吞吃"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "以色列",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "is turned away",
-              "punct": "､"
+              "cht": "雖然如此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-639",
-              "eng": "His anger"
+              "cht": "耶和華的怒氣"
             },
             {
-              "id": "hebrew-5750",
-              "eng": "but still"
+              "id": "hebrew-3808",
+              "cht": "還未"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "轉消",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "His hand"
+              "cht": "他的手"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "仍"
             },
             {
               "id": "hebrew-5186",
-              "eng": "[is] stretched out",
-              "punct": "."
+              "cht": "伸"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "不縮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -118,33 +117,33 @@
             "hebrew-268": 2.632541948095861
           },
           "verseKey": "psa.139.5",
-          "cunp": "你在我前後環繞我， 按手在我身上。",
+          "nasb": "You have enclosed me behind and before, And laid Your hand upon me.",
           "words": [
             {
-              "id": "hebrew-268",
-              "eng": "Behind"
+              "id": "hebrew-6924",
+              "cht": "你在我前"
             },
             {
-              "id": "hebrew-6924",
-              "eng": "and before",
-              "punct": "､"
+              "id": "hebrew-268",
+              "cht": "後"
             },
             {
               "id": "hebrew-6696",
-              "eng": "You have hedged me"
+              "cht": "環繞我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7896",
-              "eng": "and laid"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon me"
+              "cht": "按"
             },
             {
               "id": "hebrew-3709",
-              "eng": "Your hand",
-              "punct": "."
+              "cht": "手"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在我身上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -154,97 +153,85 @@
             "hebrew-6924": 2.2015553563646506
           },
           "verseKey": "gen.12.8",
-          "cunp": "從那裏他又遷到伯特利東邊的山，支搭帳棚；西邊是伯特利，東邊是艾。他在那裏又為耶和華築了一座壇，求告耶和華的名。",
+          "nasb": "Then he proceeded from there to the mountain on the east of Bethel, and pitched his tent, with Bethel on the west and Ai on the east; and there he built an altar to the Lord and called upon the name of the Lord.",
           "words": [
             {
-              "id": "hebrew-6275",
-              "eng": "And he moved"
+              "id": "hebrew-8033",
+              "cht": "從那裡"
             },
             {
-              "id": "hebrew-8033",
-              "eng": "from there"
+              "id": "hebrew-6275",
+              "cht": "他又遷"
+            },
+            {
+              "id": "hebrew-1008",
+              "cht": "到伯特利"
+            },
+            {
+              "id": "hebrew-6924",
+              "cht": "東邊"
             },
             {
               "id": "hebrew-2022",
-              "eng": "to the mountain"
-            },
-            {
-              "id": "hebrew-6924",
-              "eng": "east"
-            },
-            {
-              "id": "hebrew-1008",
-              "eng": "Bethel",
-              "punct": "､"
+              "cht": "的山",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5186",
-              "eng": "and he pitched"
+              "cht": "支搭"
             },
             {
               "id": "hebrew-168",
-              "eng": "his tent",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1008",
-              "eng": "Bethel"
+              "cht": "帳棚",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3220",
-              "eng": "on the west",
-              "punct": "､"
+              "cht": "西邊"
+            },
+            {
+              "id": "hebrew-1008",
+              "cht": "是伯特利",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "東邊"
             },
             {
               "id": "hebrew-5857",
-              "eng": "and Ai"
-            },
-            {
-              "id": "hebrew-6924",
-              "eng": "on the east",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1129",
-              "eng": "and he built"
+              "cht": "是艾",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
+              "cht": "他在那裡"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "又為耶和華"
+            },
+            {
+              "id": "hebrew-1129",
+              "cht": "築了"
             },
             {
               "id": "hebrew-4196",
-              "eng": "an altar"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
+              "cht": "一座壇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and called"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "on the name"
+              "cht": "求告"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-8034",
+              "cht": "的名",
+              "punct_cht": "。"
             }
           ]
         }

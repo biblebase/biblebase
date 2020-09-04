@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-935": "I will go",
-          "hebrew-1369": "in the strength",
-          "hebrew-136": "of the Lord",
-          "hebrew-3069": "GOD",
-          "hebrew-2142": "I will make mention",
-          "hebrew-6666": "of Your righteousness",
-          "hebrew-905": "of Yours only"
+          "eng": {
+            "hebrew-935": "I will go",
+            "hebrew-1369": "in the strength",
+            "hebrew-136": "of the Lord",
+            "hebrew-3069": "GOD",
+            "hebrew-2142": "I will make mention",
+            "hebrew-6666": "of Your righteousness",
+            "hebrew-905": "of Yours only"
+          },
+          "cht": {
+            "hebrew-935": "我要來",
+            "hebrew-1369": "大能的事",
+            "hebrew-136": "說主─",
+            "hebrew-3069": "耶和華",
+            "hebrew-2142": "提說",
+            "hebrew-6666": "你的公義",
+            "hebrew-905": "我單要"
+          }
         }
       },
       "translations": {
@@ -25,71 +36,47 @@
             "hebrew-2142": 1.2236181281704333
           },
           "verseKey": "lev.26.42",
-          "cunp": "我就要記念我與雅各所立的約，與以撒所立的約，與亞伯拉罕所立的約，並要記念這地。",
+          "nasb": "then I will remember My covenant with Jacob, and I will remember also My covenant with Isaac, and My covenant with Abraham as well, and I will remember the land.",
           "words": [
             {
               "id": "hebrew-2142",
-              "eng": "then I will remember"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1285",
-              "eng": "My covenant"
+              "cht": "我就要記念"
             },
             {
               "id": "hebrew-3290",
-              "eng": "with Jacob",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我與雅各"
             },
             {
               "id": "hebrew-1285",
-              "eng": "My covenant"
+              "cht": "所立的約",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3327",
-              "eng": "with Isaac",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "與以撒"
             },
             {
               "id": "hebrew-1285",
-              "eng": "My covenant"
+              "cht": "所立的約",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-85",
-              "eng": "with Abraham"
+              "cht": "與亞伯拉罕"
+            },
+            {
+              "id": "hebrew-1285",
+              "cht": "所立的約",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2142",
-              "eng": "I will remember",
-              "punct": "–"
+              "cht": "並要記念"
             },
             {
               "id": "hebrew-776",
-              "eng": "and the land"
-            },
-            {
-              "id": "hebrew-2142",
-              "eng": "I will remember",
-              "punct": "."
+              "cht": "這地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -101,108 +88,101 @@
             "hebrew-3069": 0.7828762618194047
           },
           "verseKey": "ezk.6.3",
-          "cunp": "說：以色列的眾山哪，要聽主耶和華的話。主耶和華對大山、小岡、水溝、山谷如此說：我必使刀劍臨到你們，也必毀滅你們的邱壇。",
+          "nasb": "and say, ‘Mountains of Israel, listen to the word of the Lord God! Thus says the Lord God to the mountains, the hills, the ravines and the valleys: “Behold, I Myself am going to bring a sword on you, and I will destroy your high places.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And say",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "mountains"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "hear"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "the word"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "of the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD"
+              "cht": "以色列"
             },
             {
               "id": "hebrew-2022",
-              "eng": "to the mountains",
-              "punct": "､"
+              "cht": "的眾山"
+            },
+            {
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8085",
+              "cht": "要聽"
+            },
+            {
+              "id": "hebrew-136",
+              "cht": "主"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "的話",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-136",
+              "cht": "主"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "對大山、"
             },
             {
               "id": "hebrew-1389",
-              "eng": "and to the hills",
-              "punct": "､"
+              "cht": "小岡、"
             },
             {
               "id": "hebrew-650",
-              "eng": "to the ravines",
-              "punct": "､"
+              "cht": "水溝、"
             },
             {
               "id": "hebrew-1516",
-              "eng": "and to the valleys",
-              "punct": "–"
+              "cht": "山谷"
             },
             {
-              "id": "hebrew-2009",
-              "eng": "indeed I",
-              "punct": "､"
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-589",
-              "eng": "[even] I",
-              "punct": "､"
+              "cht": "我"
             },
             {
               "id": "hebrew-935",
-              "eng": "will bring"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "against you"
+              "cht": "必使"
             },
             {
               "id": "hebrew-2719",
-              "eng": "a sword"
+              "cht": "刀劍"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "臨到你們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6",
-              "eng": "and I will destroy"
+              "cht": "也必毀滅"
             },
             {
               "id": "hebrew-1116",
-              "eng": "your high places",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "你們的邱壇",
+              "punct_cht": "。"
             }
           ]
         },
@@ -213,102 +193,102 @@
             "hebrew-3069": 0.7828762618194047
           },
           "verseKey": "ezk.45.9",
-          "cunp": "主耶和華如此說：「以色列的王啊，你們應當知足，要除掉強暴和搶奪的事，施行公平和公義，不再勒索我的民。這是主耶和華說的。",
+          "nasb": "‘Thus says the Lord God, “Enough, you princes of Israel; put away violence and destruction, and practice justice and righteousness. Stop your expropriations from My people,” declares the Lord God.",
           "words": [
             {
+              "id": "hebrew-136",
+              "cht": "主"
+            },
+            {
+              "id": "hebrew-3069",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-136",
-              "eng": "the Lord"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7227",
-              "eng": "Enough"
-            },
-            {
-              "id": "hebrew-5387",
-              "eng": "princes"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "–"
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-2555",
-              "eng": "violence"
+              "id": "hebrew-5387",
+              "cht": "的王"
             },
             {
-              "id": "hebrew-7701",
-              "eng": "and plundering",
-              "punct": "､"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7227",
+              "cht": "應當知足",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5493",
-              "eng": "Remove"
+              "cht": "要除掉"
             },
             {
-              "id": "hebrew-4941",
-              "eng": "and justice"
+              "id": "hebrew-2555",
+              "cht": "強暴"
             },
             {
-              "id": "hebrew-6666",
-              "eng": "and righteousness",
-              "punct": "､"
+              "id": "hebrew-7701",
+              "cht": "和搶奪"
+            },
+            {
+              "id": "",
+              "cht": "的事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6213",
-              "eng": "execute"
+              "cht": "施行"
             },
             {
-              "id": "hebrew-7311",
-              "eng": "and stop"
+              "id": "hebrew-4941",
+              "cht": "公平"
             },
             {
-              "id": "hebrew-1646",
-              "eng": "dispossessing"
+              "id": "hebrew-6666",
+              "cht": "和公義",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
+              "cht": "不再"
+            },
+            {
+              "id": "hebrew-7311",
+              "cht": "勒"
+            },
+            {
+              "id": "hebrew-1646",
+              "cht": "索"
             },
             {
               "id": "hebrew-5971",
-              "eng": "My people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "我的民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "這是主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         }

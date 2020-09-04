@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1293": "By the blessing",
-          "hebrew-3477": "of the upright",
-          "hebrew-7311": "is exalted",
-          "hebrew-7176": "the city",
-          "hebrew-6310": "but by the mouth",
-          "hebrew-7563": "of the wicked",
-          "hebrew-2040": "it is overthrown"
+          "eng": {
+            "hebrew-1293": "By the blessing",
+            "hebrew-3477": "of the upright",
+            "hebrew-7311": "is exalted",
+            "hebrew-7176": "the city",
+            "hebrew-6310": "but by the mouth",
+            "hebrew-7563": "of the wicked",
+            "hebrew-2040": "it is overthrown"
+          },
+          "cht": {
+            "hebrew-1293": "祝福",
+            "hebrew-3477": "因正直人",
+            "hebrew-7311": "便高舉",
+            "hebrew-7176": "城",
+            "hebrew-6310": "的口",
+            "hebrew-7563": "卻因邪惡人",
+            "hebrew-2040": "就傾覆"
+          }
         }
       },
       "translations": {
@@ -24,38 +35,39 @@
             "hebrew-6310": 1.0398887997976216
           },
           "verseKey": "pro.8.3",
-          "cunp": "在城門旁，在城門口， 在城門洞，大聲說：",
+          "nasb": "Beside the gates, at the opening to the city, At the entrance of the doors, she cries out:",
           "words": [
             {
-              "id": "hebrew-3027",
-              "eng": "By"
-            },
-            {
               "id": "hebrew-8179",
-              "eng": "the gates",
-              "punct": "､"
+              "cht": "在城門"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "at the entry"
+              "id": "hebrew-3027",
+              "cht": "旁",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7176",
-              "eng": "of the city",
-              "punct": "､"
+              "cht": "在城"
             },
             {
-              "id": "hebrew-3996",
-              "eng": "at the entrance"
+              "id": "hebrew-6310",
+              "cht": "門口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6607",
-              "eng": "of the doors"
+              "cht": "在城門"
+            },
+            {
+              "id": "hebrew-3996",
+              "cht": "洞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7442",
-              "eng": "she cries out",
-              "punct": "."
+              "cht": "大聲說",
+              "punct_cht": "："
             }
           ]
         },
@@ -65,40 +77,37 @@
             "hebrew-7176": 6.7856512265994295
           },
           "verseKey": "pro.9.3",
-          "cunp": "打發使女出去， 自己在城中至高處呼叫，",
+          "nasb": "She has sent out her maidens, she calls From the tops of the heights of the city:",
           "words": [
             {
               "id": "hebrew-7971",
-              "eng": "She has sent out"
+              "cht": "打發"
             },
             {
               "id": "hebrew-5291",
-              "eng": "her maidens",
-              "punct": "､"
+              "cht": "使女"
             },
             {
-              "id": "hebrew-7121",
-              "eng": "she cries out"
+              "id": "hebrew-7971",
+              "cht": "出去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-1610",
-              "eng": "the places"
-            },
-            {
-              "id": "hebrew-4791",
-              "eng": "highest"
+              "cht": "自己在"
             },
             {
               "id": "hebrew-7176",
-              "eng": "of the city",
-              "punct": "､"
+              "cht": "城中"
             },
             {
-              "id": "hebrew-7971"
+              "id": "hebrew-1610",
+              "cht": "至高處"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "呼叫",
+              "punct_cht": "，"
             }
           ]
         },
@@ -108,38 +117,37 @@
             "hebrew-7176": 6.7856512265994295
           },
           "verseKey": "job.29.7",
-          "cunp": "我出到城門， 在街上設立座位；",
+          "nasb": "When I went out to the gate of the city, When I took my seat in the square,",
           "words": [
             {
               "id": "hebrew-3318",
-              "eng": "when I went out"
-            },
-            {
-              "id": "hebrew-8179",
-              "eng": "to the gate"
+              "cht": "我出"
             },
             {
               "id": "hebrew-5921",
-              "eng": "by"
+              "cht": "到"
             },
             {
               "id": "hebrew-7176",
-              "eng": "the city",
-              "punct": "､"
+              "cht": "城"
+            },
+            {
+              "id": "hebrew-8179",
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7339",
-              "eng": "in the open square",
-              "punct": "!"
+              "cht": "在街上"
             },
             {
               "id": "hebrew-3559",
-              "eng": "[when] I took"
+              "cht": "設立"
             },
             {
               "id": "hebrew-4186",
-              "eng": "my seat",
-              "punct": "."
+              "cht": "座位",
+              "punct_cht": "；"
             }
           ]
         },
@@ -149,40 +157,41 @@
             "hebrew-7176": 6.7856512265994295
           },
           "verseKey": "pro.9.14",
-          "cunp": "她坐在自己的家門口， 坐在城中高處的座位上，",
+          "nasb": "She sits at the doorway of her house, On a seat by the high places of the city,",
           "words": [
             {
               "id": "hebrew-3427",
-              "eng": "For she sits"
-            },
-            {
-              "id": "hebrew-6607",
-              "eng": "at the door"
+              "cht": "她坐"
             },
             {
               "id": "hebrew-1004",
-              "eng": "of her house",
-              "punct": "､"
+              "cht": "在自己的家"
+            },
+            {
+              "id": "hebrew-6607",
+              "cht": "門口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "On"
-            },
-            {
-              "id": "hebrew-3678",
-              "eng": "a seat [by]"
-            },
-            {
-              "id": "hebrew-4791",
-              "eng": "the highest places"
+              "cht": "坐在"
             },
             {
               "id": "hebrew-7176",
-              "eng": "of the city",
-              "punct": "､"
+              "cht": "城中"
             },
             {
-              "id": ""
+              "id": "hebrew-4791",
+              "cht": "高處"
+            },
+            {
+              "id": "hebrew-3678",
+              "cht": "的座位"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             }
           ]
         },
@@ -192,89 +201,76 @@
             "hebrew-1293": 2.217991987904543
           },
           "verseKey": "gen.49.25",
-          "cunp": "你父親的神必幫助你； 那全能者必將天上所有的福， 地裏所藏的福，以及生產乳養的福，都賜給你。",
+          "nasb": "From the God of your father who helps you, And by the Almighty who blesses you With blessings of heaven above, Blessings of the deep that lies beneath, Blessings of the breasts and of the womb.",
           "words": [
             {
-              "id": "hebrew-410",
-              "eng": "By the God"
+              "id": "hebrew-1",
+              "cht": "你父親"
             },
             {
-              "id": "hebrew-1",
-              "eng": "of your father",
-              "punct": "､"
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "神"
             },
             {
               "id": "hebrew-5826",
-              "eng": "and who will help you"
+              "cht": "必幫助你",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-853",
-              "eng": "and",
-              "punct": "､"
+              "id": "hebrew-854",
+              "cht": "那"
             },
             {
               "id": "hebrew-7706",
-              "eng": "by the Almighty"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "who will bless you"
-            },
-            {
-              "id": "hebrew-1293",
-              "eng": "[with] blessings"
+              "cht": "全能者"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of heaven",
-              "punct": "､"
+              "cht": "必將天"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "above"
+              "id": "hebrew-4480",
+              "cht": "上"
             },
             {
               "id": "hebrew-1293",
-              "eng": "blessings"
+              "cht": "所有的福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8415",
-              "eng": "of the deep"
+              "cht": "地裡"
             },
             {
               "id": "hebrew-7257",
-              "eng": "that lies"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "beneath",
-              "punct": "､"
+              "cht": "所藏"
             },
             {
               "id": "hebrew-1293",
-              "eng": "Blessings"
-            },
-            {
-              "id": "hebrew-7699",
-              "eng": "of the breasts",
-              "punct": "､"
+              "cht": "的福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7356",
-              "eng": "and of the womb",
-              "punct": "."
+              "cht": "以及生產"
             },
             {
-              "id": ""
+              "id": "hebrew-7699",
+              "cht": "乳養"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1293",
+              "cht": "的福",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-854"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-1288",
+              "cht": "都賜給你",
+              "punct_cht": "。"
             }
           ]
         },
@@ -284,108 +280,103 @@
             "hebrew-7563": 1.1425953560426105
           },
           "verseKey": "ezk.3.18",
-          "cunp": "我何時指着惡人說：他必要死；你若不警戒他，也不勸戒他，使他離開惡行，拯救他的性命，這惡人必死在罪孽之中；我卻要向你討他喪命的罪。",
+          "nasb": "When I say to the wicked, ‘You will surely die,’ and you do not warn him or speak out to warn the wicked from his wicked way that he may live, that wicked man shall die in his iniquity, but his blood I will require at your hand.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "when I say"
-            },
-            {
               "id": "hebrew-7563",
-              "eng": "to the wicked",
-              "punct": "､"
+              "cht": "我何時指著惡人"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4191",
-              "eng": "surely"
+              "cht": "他必要"
             },
             {
               "id": "hebrew-4191",
-              "eng": "You shall die"
+              "cht": "死",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and no"
+              "cht": "你若不"
             },
             {
               "id": "hebrew-2094",
-              "eng": "you give him warning",
-              "punct": "､"
+              "cht": "警戒他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-1696",
-              "eng": "speak"
+              "cht": "勸戒"
             },
             {
-              "id": "hebrew-2094",
-              "eng": "to warn"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "使他"
+            },
+            {
+              "id": "hebrew-7563",
+              "cht": "離開惡"
             },
             {
               "id": "hebrew-1870",
-              "eng": "from his way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "wicked"
+              "cht": "行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2421",
-              "eng": "to save his life",
-              "punct": "–"
+              "cht": "拯救他的性命",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "這"
             },
             {
               "id": "hebrew-7563",
-              "eng": "wicked [man]"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "in his iniquity",
-              "punct": "–"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die"
+              "cht": "必死"
             },
             {
-              "id": "hebrew-1818",
-              "eng": "but his blood"
+              "id": "hebrew-5771",
+              "cht": "在罪孽"
+            },
+            {
+              "id": "",
+              "cht": "之中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "at your hand"
+              "cht": "我卻要向你"
             },
             {
               "id": "hebrew-1245",
-              "eng": "I will require",
-              "punct": "."
+              "cht": "討"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "他喪命的罪（"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1818",
+              "cht": "原文是血）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -395,99 +386,98 @@
             "hebrew-7563": 1.1425953560426105
           },
           "verseKey": "ezk.33.8",
-          "cunp": "我對惡人說：『惡人哪，你必要死！』你－以西結若不開口警戒惡人，使他離開所行的道，這惡人必死在罪孽之中，我卻要向你討他喪命的罪。",
+          "nasb": "When I say to the wicked, ‘O wicked man, you will surely die,’ and you do not speak to warn the wicked from his way, that wicked man shall die in his iniquity, but his blood I will require from your hand.",
           "words": [
             {
+              "id": "hebrew-7563",
+              "cht": "我對惡人"
+            },
+            {
               "id": "hebrew-559",
-              "eng": "when I say"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-7563",
-              "eng": "to the wicked",
-              "punct": "､"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-7563",
-              "eng": "wicked [man]"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "surely",
-              "punct": "–"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "you shall die",
-              "punct": "–"
+              "cht": "你必要"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "死"
+            },
+            {
+              "id": "",
+              "cht": "你─",
+              "punct_cht": "！』"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "以西結若不"
             },
             {
               "id": "hebrew-1696",
-              "eng": "you do speak"
+              "cht": "開口"
             },
             {
               "id": "hebrew-2094",
-              "eng": "to warn"
+              "cht": "警戒"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "惡人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1870",
-              "eng": "from his way",
-              "punct": "､"
+              "cht": "使他離開所行的道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "這"
             },
             {
               "id": "hebrew-7563",
-              "eng": "wicked [man]"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "in his iniquity",
-              "punct": "–"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die"
+              "cht": "必死"
             },
             {
-              "id": "hebrew-1818",
-              "eng": "but his blood"
+              "id": "hebrew-5771",
+              "cht": "在罪孽"
+            },
+            {
+              "id": "",
+              "cht": "之中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "at your hand"
+              "cht": "我卻要向你"
             },
             {
               "id": "hebrew-1245",
-              "eng": "I will require",
-              "punct": "."
+              "cht": "討"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "他喪命的罪（"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1818",
+              "cht": "原文是血）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -497,80 +487,81 @@
             "hebrew-1293": 2.217991987904543
           },
           "verseKey": "gen.49.26",
-          "cunp": "你父親所祝的福 勝過我祖先所祝的福， 如永世的山嶺，至極的邊界； 這些福必降在約瑟的頭上， 臨到那與弟兄迥別之人的頂上。",
+          "nasb": "The blessings of your father Have surpassed the blessings of my ancestors Up to the utmost bound of the everlasting hills; May they be on the head of Joseph, And on the crown of the head of the one distinguished among his brothers.",
           "words": [
             {
-              "id": "hebrew-1293",
-              "eng": "The blessings"
+              "id": "hebrew-1",
+              "cht": "你父親"
             },
             {
-              "id": "hebrew-1",
-              "eng": "of your father"
+              "id": "hebrew-1293",
+              "cht": "所祝的福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1396",
-              "eng": "have excelled"
+              "cht": "勝"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-1293",
-              "eng": "the blessings"
+              "cht": "過"
             },
             {
               "id": "hebrew-2029",
-              "eng": "of my ancestors"
+              "cht": "我祖先"
             },
             {
-              "id": "hebrew-5704",
-              "eng": "up to"
-            },
-            {
-              "id": "hebrew-8379",
-              "eng": "the utmost bound"
-            },
-            {
-              "id": "hebrew-1389",
-              "eng": "of the hills",
-              "punct": "–"
+              "id": "hebrew-1293",
+              "cht": "所祝的福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "如永世"
+            },
+            {
+              "id": "hebrew-1389",
+              "cht": "的山嶺",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8379",
+              "cht": "至極的邊界",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1961",
-              "eng": "they shall be"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "on the head"
+              "cht": "這些福必降在"
             },
             {
               "id": "hebrew-3130",
-              "eng": "of Joseph",
-              "punct": "､"
+              "cht": "約瑟"
             },
             {
-              "id": "hebrew-6936",
-              "eng": "and on the brow"
+              "id": "hebrew-7218",
+              "cht": "的頭"
             },
             {
-              "id": "hebrew-5139",
-              "eng": "of the prince"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-251",
-              "eng": "of his brothers",
-              "punct": "."
+              "cht": "臨到那與弟兄"
             },
             {
-              "id": ""
+              "id": "hebrew-5139",
+              "cht": "迥別之人"
             },
             {
-              "id": ""
+              "id": "hebrew-6936",
+              "cht": "的頂"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -580,57 +571,58 @@
             "hebrew-1293": 2.217991987904543
           },
           "verseKey": "ezk.34.26",
-          "cunp": "我必使他們與我山的四圍成為福源，我也必叫時雨落下，必有福如甘霖而降。",
+          "nasb": "I will make them and the places around My hill a blessing. And I will cause showers to come down in their season; they will be showers of blessing.",
           "words": [
             {
               "id": "hebrew-5414",
-              "eng": "And I will make"
+              "cht": "我必使"
             },
             {
               "id": "hebrew-853",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-5439",
-              "eng": "and the places all around"
+              "cht": "他們"
             },
             {
               "id": "hebrew-1389",
-              "eng": "My hill"
+              "cht": "與我山"
+            },
+            {
+              "id": "hebrew-5439",
+              "cht": "的四圍"
             },
             {
               "id": "hebrew-1293",
-              "eng": "a blessing",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "and I will cause to come down"
-            },
-            {
-              "id": "hebrew-1653",
-              "eng": "showers"
+              "cht": "成為福源",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6256",
-              "eng": "in their season",
-              "punct": "–"
+              "cht": "我也必叫時"
             },
             {
               "id": "hebrew-1653",
-              "eng": "showers"
+              "cht": "雨"
             },
             {
-              "id": "hebrew-1293",
-              "eng": "of blessing"
+              "id": "hebrew-3381",
+              "cht": "落下",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "there shall be",
-              "punct": "."
+              "cht": "必有"
             },
             {
-              "id": ""
+              "id": "hebrew-1293",
+              "cht": "福"
+            },
+            {
+              "id": "hebrew-1653",
+              "cht": "如甘霖"
+            },
+            {
+              "id": "",
+              "cht": "而降",
+              "punct_cht": "。"
             }
           ]
         },
@@ -642,37 +634,37 @@
             "hebrew-7563": 1.1425953560426105
           },
           "verseKey": "pro.10.6",
-          "cunp": "福祉臨到義人的頭； 強暴蒙蔽惡人的口。",
+          "nasb": "Blessings are on the head of the righteous, But the mouth of the wicked conceals violence.",
           "words": [
             {
               "id": "hebrew-1293",
-              "eng": "Blessings [are]"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "on the head"
+              "cht": "福祉"
             },
             {
               "id": "hebrew-6662",
-              "eng": "of the righteous",
-              "punct": "､"
+              "cht": "臨到義人"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "but the mouth"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "of the wicked"
-            },
-            {
-              "id": "hebrew-3680",
-              "eng": "covers"
+              "id": "hebrew-7218",
+              "cht": "的頭",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2555",
-              "eng": "violence",
-              "punct": "."
+              "cht": "強暴"
+            },
+            {
+              "id": "hebrew-3680",
+              "cht": "蒙蔽"
+            },
+            {
+              "id": "hebrew-7563",
+              "cht": "惡人"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "的口",
+              "punct_cht": "。"
             }
           ]
         }

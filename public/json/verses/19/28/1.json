@@ -3,21 +3,39 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1732": "A Psalm of David",
-          "hebrew-413": "To You",
-          "hebrew-3068": "Yahweh",
-          "hebrew-7121": "I will cry",
-          "hebrew-6697": "my Rock",
-          "hebrew-408": "not",
-          "hebrew-2790": "You [are] silent",
-          "hebrew-4480": "to me",
-          "hebrew-6435": "lest if",
-          "hebrew-4911": "and I become",
-          "hebrew-5973": "like",
-          "hebrew-3381": "those who go down",
-          "hebrew-953": "to the pit",
-          "": null,
-          "hebrew-2814": null
+          "eng": {
+            "hebrew-1732": "A Psalm of David",
+            "hebrew-413": "To You",
+            "hebrew-3068": "Yahweh",
+            "hebrew-7121": "I will cry",
+            "hebrew-6697": "my Rock",
+            "hebrew-408": "not",
+            "hebrew-2790": "You [are] silent",
+            "hebrew-4480": "to me",
+            "hebrew-6435": "lest if",
+            "hebrew-4911": "and I become",
+            "hebrew-5973": "like",
+            "hebrew-3381": "those who go down",
+            "hebrew-953": "to the pit",
+            "": null,
+            "hebrew-2814": null
+          },
+          "cht": {
+            "hebrew-1732": "大衛的",
+            "hebrew-413": "你",
+            "hebrew-3068": "耶和華",
+            "hebrew-7121": "我要求告",
+            "hebrew-6697": "我的磐石",
+            "hebrew-408": "不要",
+            "hebrew-2790": "閉口",
+            "hebrew-4480": "你向我",
+            "hebrew-6435": "倘若",
+            "hebrew-4911": "我就如",
+            "hebrew-5973": "將死的人",
+            "hebrew-3381": "將死的人",
+            "hebrew-953": "將死的人",
+            "hebrew-2814": "緘默"
+          }
         }
       },
       "translations": {
@@ -38,65 +56,68 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "psa.143.7",
-          "cunp": "耶和華啊，求你速速應允我！ 我心神耗盡！ 不要向我掩面， 免得我像那些下坑的人一樣。",
+          "nasb": "Answer me quickly, O Lord, my spirit fails; Do not hide Your face from me, Or I will become like those who go down to the pit.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-4118",
-              "eng": "Speedily"
+              "cht": "求你速速"
             },
             {
               "id": "hebrew-6030",
-              "eng": "Answer me"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3615",
-              "eng": "fails",
-              "punct": "–"
+              "cht": "應允我",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-7307",
-              "eng": "My spirit"
+              "cht": "我心神"
+            },
+            {
+              "id": "hebrew-3615",
+              "cht": "耗盡",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5641",
-              "eng": "do hide"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "Your face"
+              "cht": "不要"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from me"
+              "cht": "向我"
+            },
+            {
+              "id": "hebrew-5641",
+              "cht": "掩"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "面",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4911",
-              "eng": "and lest I be like"
-            },
-            {
-              "id": "hebrew-5973",
-              "eng": "to"
+              "cht": "免得我像"
             },
             {
               "id": "hebrew-3381",
-              "eng": "those who go down"
+              "cht": "那些下"
             },
             {
               "id": "hebrew-953",
-              "eng": "into the pit",
-              "punct": "."
+              "cht": "坑"
             },
             {
-              "id": ""
+              "id": "hebrew-5973",
+              "cht": "的人一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -106,49 +127,47 @@
             "hebrew-4911": 3.1769789830261015
           },
           "verseKey": "ezk.16.44",
-          "cunp": "「凡說俗語的必用俗語攻擊你，說：『母親怎樣，女兒也怎樣。』",
+          "nasb": "“Behold, everyone who quotes proverbs will quote this proverb concerning you, saying, ‘Like mother, like daughter.’",
           "words": [
             {
-              "id": "hebrew-2009",
-              "eng": "Indeed",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "everyone"
+              "cht": "凡"
             },
             {
               "id": "hebrew-4911",
-              "eng": "who quotes proverbs"
+              "cht": "說俗語"
+            },
+            {
+              "id": "hebrew-4911",
+              "cht": "的必用俗語"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against you"
-            },
-            {
-              "id": "hebrew-4911",
-              "eng": "will use [this] proverb"
+              "cht": "攻擊你",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "-",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-517",
-              "eng": "Like mother",
-              "punct": "､"
+              "cht": "母親"
+            },
+            {
+              "id": "",
+              "cht": "怎樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1323",
-              "eng": "like daughter",
-              "punct": "."
+              "cht": "女兒"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "也怎樣",
+              "punct_cht": "。』"
             }
           ]
         },
@@ -158,126 +177,83 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "rev.9.2",
-          "cunp": "它開了無底坑，便有煙從坑裏往上冒，好像大火爐的煙；日頭和天空都因這煙昏暗了。",
+          "nasb": "He opened the bottomless pit, and smoke went up out of the pit, like the smoke of a great furnace; and the sun and the air were darkened by the smoke of the pit.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-455",
-              "eng": "he opened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "它開了"
             },
             {
               "id": "greek-12",
-              "eng": "Abyss",
-              "punct": ","
+              "cht": "無底"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "便有"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "煙"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-5421",
+              "cht": "坑裡"
             },
             {
               "id": "greek-305",
-              "eng": "went up"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "smoke"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": ","
+              "cht": "往上冒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5613",
-              "eng": "like"
-            },
-            {
-              "id": "greek-2586",
-              "eng": "[the] smoke"
-            },
-            {
-              "id": "greek-2575",
-              "eng": "of a furnace"
+              "cht": "好像"
             },
             {
               "id": "greek-3173",
-              "eng": "great",
-              "punct": ","
+              "cht": "大"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4656",
-              "eng": "were darkened"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2246",
-              "eng": "sun"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-109",
-              "eng": "air"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2575",
+              "cht": "火爐"
             },
             {
               "id": "greek-2586",
-              "eng": "smoke"
+              "cht": "的煙",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "of the"
+              "id": "greek-2246",
+              "cht": "日頭"
             },
             {
-              "id": "greek-5421",
-              "eng": "pit",
-              "punct": "."
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
-              "id": "greek-4654"
+              "id": "greek-109",
+              "cht": "天空"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "都因"
+            },
+            {
+              "id": "greek-2586",
+              "cht": "這煙"
+            },
+            {
+              "id": "greek-4654",
+              "cht": "昏暗了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -288,51 +264,48 @@
             "hebrew-2814": 4.1389193993584925
           },
           "verseKey": "isa.42.14",
-          "cunp": "我許久閉口不言，靜默不語； 現在我要喊叫，像產難的婦人； 我要急氣而喘哮。",
+          "nasb": "“I have kept silent for a long time, I have kept still and restrained Myself. Now like a woman in labor I will groan, I will both gasp and pant.",
           "words": [
             {
-              "id": "hebrew-2814",
-              "eng": "I have held My peace",
-              "punct": "–"
+              "id": "hebrew-4480",
+              "cht": "我許久"
             },
             {
-              "id": "hebrew-5769",
-              "eng": "a long time"
+              "id": "hebrew-2814",
+              "cht": "閉口不言",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2790",
-              "eng": "I have been still",
-              "punct": "､"
+              "cht": "靜默"
             },
             {
               "id": "hebrew-662",
-              "eng": "and restrained Myself",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "like a woman in labor",
-              "punct": "–"
+              "cht": "不語",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6463",
-              "eng": "[Now] I will cry"
+              "cht": "現在我要喊叫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3205",
+              "cht": "像產難的婦人",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5395",
-              "eng": "I will pant"
-            },
-            {
-              "id": "hebrew-7602",
-              "eng": "and gasp"
+              "cht": "我要急氣"
             },
             {
               "id": "hebrew-3162",
-              "eng": "at once",
-              "punct": "."
+              "cht": "而"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7602",
+              "cht": "喘哮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -342,109 +315,83 @@
             "hebrew-2790": 2.056183068949172
           },
           "verseKey": "num.30.14",
-          "cunp": "倘若她丈夫天天向她默默不言，就算是堅定她所許的願和約束自己的話；因丈夫聽見的日子向她默默不言，就使這兩樣堅定。",
+          "nasb": "But if her husband indeed says nothing to her from day to day, then he confirms all her vows or all her obligations which are on her; he has confirmed them, because he said nothing to her on the day he heard them.",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "And if"
-            },
-            {
-              "id": "hebrew-2790",
-              "eng": "whatever"
-            },
-            {
-              "id": "hebrew-2790",
-              "eng": "makes no response"
+              "cht": "倘若"
             },
             {
               "id": "hebrew-376",
-              "eng": "her husband"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "from day"
+              "cht": "她丈夫"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "天"
             },
             {
               "id": "hebrew-3117",
-              "eng": "day",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6965",
-              "eng": "then he confirms"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5088",
-              "eng": "her vows",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-632",
-              "eng": "the agreements",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "bind her"
-            },
-            {
-              "id": "hebrew-6965",
-              "eng": "he confirms"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "天"
             },
             {
               "id": "hebrew-2790",
-              "eng": "he made no response"
+              "cht": "默默"
             },
             {
-              "id": "hebrew-3117",
-              "eng": "on the day"
+              "id": "hebrew-2790",
+              "cht": "不言",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "就算是堅定"
+            },
+            {
+              "id": "hebrew-5088",
+              "cht": "她所許的願"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-632",
+              "cht": "約束"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "自己"
+            },
+            {
+              "id": "",
+              "cht": "的話",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因"
             },
             {
               "id": "hebrew-8085",
-              "eng": "that he heard [them]",
-              "punct": "."
+              "cht": "丈夫聽見"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3117",
+              "cht": "的日子"
             },
             {
-              "id": ""
+              "id": "hebrew-2790",
+              "cht": "默默不言",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "就使"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "這兩樣堅定",
+              "punct_cht": "。"
             }
           ]
         },
@@ -455,111 +402,92 @@
             "hebrew-953": 2.069349839395605
           },
           "verseKey": "ezk.26.20",
-          "cunp": "那時，我要叫你下入陰府，與古時的人一同在地的深處、久已荒涼之地居住，使你不再有居民。我也要在活人之地顯榮耀。",
+          "nasb": "then I will bring you down with those who go down to the pit, to the people of old, and I will make you dwell in the lower parts of the earth, like the ancient waste places, with those who go down to the pit, so that you will not be inhabited; but I will set glory in the land of the living.",
           "words": [
             {
-              "id": "hebrew-3381",
-              "eng": "Then I will bring you down"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "with"
+              "id": "",
+              "cht": "那時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3381",
-              "eng": "those who descend"
+              "cht": "我要叫你下"
+            },
+            {
+              "id": "hebrew-3381",
+              "cht": "入"
             },
             {
               "id": "hebrew-953",
-              "eng": "into the Pit",
-              "punct": "､"
+              "cht": "陰府",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-413",
-              "eng": "to"
+              "id": "hebrew-854",
+              "cht": "與"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "古時"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "of old",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "and I will make you dwell"
+              "cht": "的人"
             },
             {
               "id": "hebrew-776",
-              "eng": "in the earth",
-              "punct": "､"
+              "cht": "一同在地"
             },
             {
               "id": "hebrew-8482",
-              "eng": "the lowest part of"
-            },
-            {
-              "id": "hebrew-2723",
-              "eng": "in [places] desolate"
+              "cht": "的深處、"
             },
             {
               "id": "hebrew-5769",
-              "eng": "from antiquity",
-              "punct": "､"
+              "cht": "久"
             },
             {
-              "id": "hebrew-854",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "those who go down"
-            },
-            {
-              "id": "hebrew-953",
-              "eng": "to the Pit",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4616",
-              "eng": "so that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "never"
+              "id": "hebrew-2723",
+              "cht": "已荒涼"
             },
             {
               "id": "hebrew-3427",
-              "eng": "you may be inhabited",
-              "punct": "–"
+              "cht": "之地居住",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "and I shall establish"
+              "id": "hebrew-4616",
+              "cht": "使"
             },
             {
-              "id": "hebrew-6643",
-              "eng": "glory"
+              "id": "hebrew-3808",
+              "cht": "你不"
             },
             {
-              "id": "hebrew-776",
-              "eng": "in the land"
+              "id": "hebrew-3427",
+              "cht": "再有居民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2416",
-              "eng": "of the living",
-              "punct": "–"
+              "cht": "我也要在活人"
             },
             {
-              "id": ""
+              "id": "hebrew-776",
+              "cht": "之地"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5414",
+              "cht": "顯"
             },
             {
-              "id": ""
+              "id": "hebrew-6643",
+              "cht": "榮耀"
+            },
+            {
+              "id": "",
+              "cht": "（我也……榮耀或譯在活人之地不再有榮耀）",
+              "punct_cht": "：。"
             }
           ]
         },
@@ -571,86 +499,80 @@
             "hebrew-2814": 4.1389193993584925
           },
           "verseKey": "isa.62.6",
-          "cunp": "耶路撒冷啊， 我在你城上設立守望的， 他們晝夜必不靜默。 呼籲耶和華的，你們不要歇息，",
+          "nasb": "On your walls, O Jerusalem, I have appointed watchmen; All day and all night they will never keep silent. You who remind the Lord, take no rest for yourselves;",
           "words": [
             {
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-5921",
-              "eng": "On"
+              "cht": "我在"
             },
             {
               "id": "hebrew-2346",
-              "eng": "your walls",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "Jerusalem",
-              "punct": "､"
+              "cht": "你城"
             },
             {
               "id": "hebrew-6485",
-              "eng": "I have set"
+              "cht": "上設立"
             },
             {
               "id": "hebrew-8104",
-              "eng": "watchmen"
+              "cht": "守望的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "他們"
             },
             {
               "id": "hebrew-3117",
-              "eng": "day"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "or"
+              "cht": "晝"
             },
             {
               "id": "hebrew-3915",
-              "eng": "night",
-              "punct": "–"
+              "cht": "夜"
             },
             {
               "id": "hebrew-8548",
-              "eng": "-"
+              "cht": "必"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never"
+              "cht": "不"
             },
             {
               "id": "hebrew-2814",
-              "eng": "they shall hold their peace"
+              "cht": "靜默",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2142",
-              "eng": "You who make mention"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "of"
+              "cht": "呼籲"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "不要"
             },
             {
               "id": "hebrew-1824",
-              "eng": "do keep silent",
-              "punct": "､"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "歇息",
+              "punct_cht": "，"
             }
           ]
         },
@@ -661,56 +583,52 @@
             "hebrew-2814": 4.1389193993584925
           },
           "verseKey": "neh.8.11",
-          "cunp": "於是利未人使眾民靜默，說：「今日是聖日；不要作聲，也不要憂愁。」",
+          "nasb": "So the Levites calmed all the people, saying, “Be still, for the day is holy; do not be grieved.”",
           "words": [
             {
               "id": "hebrew-3881",
-              "eng": "So the Levites"
-            },
-            {
-              "id": "hebrew-2814",
-              "eng": "quieted"
+              "cht": "於是利未人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "使眾"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "､"
+              "cht": "民"
+            },
+            {
+              "id": "hebrew-2814",
+              "cht": "靜默",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2013",
-              "eng": "Be still",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the day [is]"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6918",
-              "eng": "holy",
-              "punct": "–"
+              "cht": "今日是聖"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-2013",
+              "cht": "不要作聲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "and not"
+              "cht": "也不要"
             },
             {
               "id": "hebrew-6087",
-              "eng": "do be grieved",
-              "punct": "."
+              "cht": "憂愁",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -721,106 +639,107 @@
             "hebrew-2814": 4.1389193993584925
           },
           "verseKey": "jdg.18.9",
-          "cunp": "他們回答說：「起來，我們上去攻擊他們吧！我們已經窺探那地，見那地甚好。你們為何靜坐不動呢？要急速前往得那地為業，不可遲延。",
+          "nasb": "They said, “Arise, and let us go up against them; for we have seen the land, and behold, it is very good. And will you sit still? Do not delay to go, to enter, to possess the land.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "so they said",
-              "punct": "､"
+              "cht": "他們回答說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-6965",
-              "eng": "Arise",
-              "punct": "､"
+              "cht": "起來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5927",
-              "eng": "and let us go up"
+              "cht": "我們上去"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against them"
+              "cht": "攻擊他們"
+            },
+            {
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "我們已經"
             },
             {
               "id": "hebrew-7200",
-              "eng": "we have seen"
+              "cht": "窺探"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "那"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "､"
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and indeed it [is]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2896",
-              "eng": "good",
-              "punct": "."
+              "cht": "見"
             },
             {
               "id": "hebrew-3966",
-              "eng": "Very"
+              "cht": "那地甚"
+            },
+            {
+              "id": "hebrew-2896",
+              "cht": "好",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-859",
-              "eng": "and [Would] you [do]"
+              "cht": "你們"
             },
             {
               "id": "hebrew-2814",
-              "eng": "nothing"
+              "cht": "為何靜坐不動"
             },
             {
-              "id": "hebrew-408",
-              "eng": "not"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
-              "id": "hebrew-6101",
-              "eng": "do hesitate"
-            },
-            {
-              "id": "hebrew-1980",
-              "eng": "to go",
-              "punct": "､"
+              "id": "hebrew-3212",
+              "cht": "要急速前"
             },
             {
               "id": "hebrew-935",
-              "eng": "[and] enter"
+              "cht": "往"
             },
             {
               "id": "hebrew-3423",
-              "eng": "to possess"
+              "cht": "得"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "那"
             },
             {
               "id": "hebrew-776",
-              "eng": "the land",
-              "punct": "."
+              "cht": "地"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "為業",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-408",
+              "cht": "不可"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": ""
+              "id": "hebrew-6101",
+              "cht": "遲延",
+              "punct_cht": "。"
             }
           ]
         },
@@ -831,49 +750,51 @@
             "hebrew-2814": 4.1389193993584925
           },
           "verseKey": "isa.64.12",
-          "cunp": "耶和華啊，有這些事，你還忍得住嗎？ 你仍靜默使我們深受苦難嗎？",
+          "nasb": "Will You restrain Yourself at these things, O Lord? Will You keep silent and afflict us beyond measure?",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
               "id": "hebrew-5921",
-              "eng": "Because"
+              "cht": "有"
             },
             {
               "id": "hebrew-428",
-              "eng": "of these [things]"
+              "cht": "這些事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-662",
-              "eng": "will You restrain Yourself"
+              "cht": "你還忍得住"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-2814",
-              "eng": "will You hold Your peace",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6031",
-              "eng": "and afflict us"
+              "cht": "你仍靜默"
             },
             {
               "id": "hebrew-5704",
-              "eng": "even to"
+              "cht": "使我們深"
             },
             {
-              "id": "hebrew-3966",
-              "eng": "very severely"
+              "id": "hebrew-6031",
+              "cht": "受苦難"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         }

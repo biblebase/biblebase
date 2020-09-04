@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-859": "You [are]",
-          "hebrew-5643": "hiding place",
-          "hebrew-6862": "from trouble",
-          "hebrew-5341": "You shall preserve me",
-          "hebrew-7438": "with songs",
-          "hebrew-6405": "of deliverance",
-          "hebrew-5437": "You shall surround me",
-          "hebrew-5542": "Selah",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-859": "You [are]",
+            "hebrew-5643": "hiding place",
+            "hebrew-6862": "from trouble",
+            "hebrew-5341": "You shall preserve me",
+            "hebrew-7438": "with songs",
+            "hebrew-6405": "of deliverance",
+            "hebrew-5437": "You shall surround me",
+            "hebrew-5542": "Selah",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-859": "你是",
+            "hebrew-5643": "藏身之處",
+            "hebrew-6862": "脫離苦難",
+            "hebrew-5341": "你必保佑我",
+            "hebrew-7438": "的樂歌",
+            "hebrew-6405": "以得救",
+            "hebrew-5437": "四面環繞我（",
+            "hebrew-5542": "細拉）",
+            "hebrew-4480": "脫離苦難"
+          }
         }
       },
       "translations": {
@@ -24,46 +37,50 @@
             "hebrew-6405": 10.248599871619378
           },
           "verseKey": "psa.56.7",
-          "cunp": "他們豈能因罪孽逃脫嗎？ 神啊，求你在怒中使眾民墮落！",
+          "nasb": "Because of wickedness, cast them forth, In anger put down the peoples, O God!",
           "words": [
             {
+              "id": "hebrew-3926",
+              "cht": "他們豈能"
+            },
+            {
               "id": "hebrew-5921",
-              "eng": "By"
+              "cht": "因"
             },
             {
               "id": "hebrew-205",
-              "eng": "iniquity"
+              "cht": "罪孽"
             },
             {
               "id": "hebrew-6405",
-              "eng": "escape"
+              "cht": "逃脫"
             },
             {
-              "id": "hebrew-639",
-              "eng": "in anger"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "the peoples",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3381",
-              "eng": "cast down"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": "hebrew-3926"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-639",
+              "cht": "求你在怒中"
             },
             {
-              "id": ""
+              "id": "hebrew-5971",
+              "cht": "使眾民"
+            },
+            {
+              "id": "hebrew-3381",
+              "cht": "墮落",
+              "punct_cht": "！"
             }
           ]
         },
@@ -73,96 +90,71 @@
             "hebrew-5643": 2.3453296518890085
           },
           "verseKey": "mat.6.4",
-          "cunp": "要叫你施捨的事行在暗中。你父在暗中察看，必然報答你 。」",
+          "nasb": "so that your giving will be in secret; and your Father who sees what is done in secret will reward you.",
           "words": [
             {
               "id": "greek-3704",
-              "eng": "so that"
-            },
-            {
-              "id": "greek-5600",
-              "eng": "may be"
+              "cht": "要叫"
             },
             {
               "id": "greek-4675",
-              "eng": "your"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "你"
             },
             {
               "id": "greek-1654",
-              "eng": "giving"
+              "cht": "施捨的事"
+            },
+            {
+              "id": "greek-5600",
+              "cht": "行"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "在"
             },
             {
               "id": "greek-2927",
-              "eng": "secret",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father"
+              "cht": "暗中",
+              "punct_cht": "。"
             },
             {
               "id": "greek-4675",
-              "eng": "of you",
-              "punct": ","
+              "cht": "你"
             },
             {
               "id": "greek-3588",
-              "eng": "the [One]"
-            },
-            {
-              "id": "greek-991",
-              "eng": "seeing"
+              "cht": "父"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "在"
             },
             {
               "id": "greek-2927",
-              "eng": "secret",
-              "punct": ","
+              "cht": "暗中"
+            },
+            {
+              "id": "greek-991",
+              "cht": "察看",
+              "punct_cht": "，"
+            },
+            {
+              "id": "",
+              "cht": "必然報答你（有古卷",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-5318",
+              "cht": "必在明處"
             },
             {
               "id": "greek-591",
-              "eng": "will reward"
+              "cht": "報答"
             },
             {
               "id": "greek-4671",
-              "eng": "you",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-1722"
-            },
-            {
-              "id": "greek-5318"
+              "cht": "你）",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -172,127 +164,83 @@
             "hebrew-5643": 2.3453296518890085
           },
           "verseKey": "mat.6.18",
-          "cunp": "不叫人看出你禁食來，只叫你暗中的父看見；你父在暗中察看，必然報答你。」",
+          "nasb": "so that your fasting will not be noticed by men, but by your Father who is in secret; and your Father who sees what is done in secret will reward you.",
           "words": [
             {
-              "id": "greek-3704",
-              "eng": "so that"
-            },
-            {
               "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-5316",
-              "eng": "you might appear"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "不"
             },
             {
               "id": "greek-444",
-              "eng": "to men"
+              "cht": "叫人"
+            },
+            {
+              "id": "greek-5316",
+              "cht": "看出"
             },
             {
               "id": "greek-3522",
-              "eng": "[as] fasting",
-              "punct": ","
+              "cht": "你禁食"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "to Father"
+              "cht": "只"
             },
             {
               "id": "greek-4675",
-              "eng": "your"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [One]"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "叫你"
             },
             {
               "id": "greek-2927",
-              "eng": "secret",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "暗中"
             },
             {
               "id": "greek-3962",
-              "eng": "Father"
+              "cht": "的父"
             },
             {
-              "id": "greek-4771",
-              "eng": "of you",
-              "punct": ","
+              "id": "",
+              "cht": "看見",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3588",
-              "eng": "the [One]"
+              "id": "greek-4675",
+              "cht": "你"
             },
             {
-              "id": "greek-991",
-              "eng": "seeing"
+              "id": "greek-3962",
+              "cht": "父"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "在"
             },
             {
               "id": "greek-2927",
-              "eng": "secret",
-              "punct": ","
+              "cht": "暗中"
+            },
+            {
+              "id": "greek-991",
+              "cht": "察看",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "必然"
             },
             {
               "id": "greek-591",
-              "eng": "will reward"
+              "cht": "報答"
             },
             {
               "id": "greek-4671",
-              "eng": "you",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-4675"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-1722"
-            },
-            {
-              "id": "greek-5318"
+              "cht": "你",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -302,160 +250,97 @@
             "hebrew-5643": 2.3453296518890085
           },
           "verseKey": "mat.6.6",
-          "cunp": "你禱告的時候，要進你的內屋，關上門，禱告你在暗中的父；你父在暗中察看，必然報答你。",
+          "nasb": "But you, when you pray, go into your inner room, close your door and pray to your Father who is in secret, and your Father who sees what is done in secret will reward you.",
           "words": [
             {
               "id": "greek-4771",
-              "eng": "You"
+              "cht": "你"
             },
             {
-              "id": "greek-1161",
-              "eng": "however",
-              "punct": ","
+              "id": "greek-4336",
+              "cht": "禱告"
             },
             {
               "id": "greek-3752",
-              "eng": "when"
-            },
-            {
-              "id": "greek-4336",
-              "eng": "you pray",
-              "punct": ","
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1525",
-              "eng": "enter"
+              "cht": "要進"
             },
             {
-              "id": "greek-1519",
-              "eng": "into"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-4675",
+              "cht": "你的"
             },
             {
               "id": "greek-5009",
-              "eng": "room"
-            },
-            {
-              "id": "greek-4675",
-              "eng": "of you",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "內屋",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2808",
-              "eng": "having shut"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "關上"
             },
             {
               "id": "greek-2374",
-              "eng": "door"
-            },
-            {
-              "id": "greek-4675",
-              "eng": "of you",
-              "punct": ","
+              "cht": "門",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4336",
-              "eng": "pray"
+              "cht": "禱告"
             },
             {
               "id": "greek-3588",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "Father"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "of you",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [One]"
+              "cht": "你"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "在"
             },
             {
               "id": "greek-2927",
-              "eng": "secret",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "暗中"
             },
             {
               "id": "greek-3962",
-              "eng": "Father"
+              "cht": "的父",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-4771",
-              "eng": "of you",
-              "punct": ","
+              "id": "greek-4675",
+              "cht": "你"
             },
             {
-              "id": "greek-3588",
-              "eng": "the [One]"
+              "id": "greek-3962",
+              "cht": "父"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
+            },
+            {
+              "id": "greek-2927",
+              "cht": "暗中"
             },
             {
               "id": "greek-991",
-              "eng": "seeing"
+              "cht": "察看",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2927",
-              "eng": "secret",
-              "punct": ","
+              "id": "greek-5318",
+              "cht": "必然"
             },
             {
               "id": "greek-591",
-              "eng": "will reward"
+              "cht": "報答"
             },
             {
               "id": "greek-4671",
-              "eng": "you",
-              "punct": "."
-            },
-            {
-              "id": "greek-4675"
-            },
-            {
-              "id": "greek-4675"
-            },
-            {
-              "id": "greek-1722"
-            },
-            {
-              "id": "greek-5318"
+              "cht": "你",
+              "punct_cht": "。"
             }
           ]
         }

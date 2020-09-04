@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3820": "In the heart",
-          "hebrew-995": "of him who has understanding",
-          "hebrew-5117": "rests",
-          "hebrew-2451": "Wisdom",
-          "hebrew-7130": "but [what is] in the heart",
-          "hebrew-3684": "of fools",
-          "hebrew-3045": "is made known",
-          "": null
+          "eng": {
+            "hebrew-3820": "In the heart",
+            "hebrew-995": "of him who has understanding",
+            "hebrew-5117": "rests",
+            "hebrew-2451": "Wisdom",
+            "hebrew-7130": "but [what is] in the heart",
+            "hebrew-3684": "of fools",
+            "hebrew-3045": "is made known",
+            "": null
+          },
+          "cht": {
+            "hebrew-3820": "心",
+            "hebrew-995": "聰明人",
+            "hebrew-5117": "存在",
+            "hebrew-2451": "智慧",
+            "hebrew-7130": "心裡",
+            "hebrew-3684": "愚昧人",
+            "hebrew-3045": "顯而易見"
+          }
         }
       },
       "translations": {
@@ -29,38 +40,40 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "pro.8.5",
-          "cunp": "說：愚蒙人哪，你們要會悟靈明； 愚昧人哪，你們當心裏明白。",
+          "nasb": "O naive ones, understand prudence; And, O fools, understand wisdom.",
           "words": [
             {
-              "id": "hebrew-995",
-              "eng": "Understand"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-6612",
-              "eng": "you simple ones",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6195",
-              "eng": "prudence",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3684",
-              "eng": "and you fools",
-              "punct": "､"
+              "cht": "愚蒙人哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "be of an understanding"
+              "cht": "你們要會悟"
+            },
+            {
+              "id": "hebrew-6195",
+              "cht": "靈明",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3684",
+              "cht": "愚昧人哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "heart",
-              "punct": "."
+              "cht": "你們當心裡"
             },
             {
-              "id": ""
+              "id": "hebrew-995",
+              "cht": "明白",
+              "punct_cht": "。"
             }
           ]
         },
@@ -72,41 +85,37 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "pro.17.24",
-          "cunp": "明哲人眼前有智慧； 愚昧人眼望地極。",
+          "nasb": "Wisdom is in the presence of the one who has understanding, But the eyes of a fool are on the ends of the earth.",
           "words": [
             {
-              "id": "hebrew-854",
-              "eng": "With"
+              "id": "hebrew-995",
+              "cht": "明哲人"
             },
             {
               "id": "hebrew-6440",
-              "eng": "in the sight"
-            },
-            {
-              "id": "hebrew-995",
-              "eng": "of him who has understanding",
-              "punct": "–"
+              "cht": "眼前"
             },
             {
               "id": "hebrew-2451",
-              "eng": "Wisdom [is]"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "but the eyes"
+              "cht": "有智慧",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of a fool"
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-7097",
-              "eng": "[are] on the ends"
+              "id": "hebrew-5869",
+              "cht": "眼"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "."
+              "cht": "望地"
+            },
+            {
+              "id": "hebrew-7097",
+              "cht": "極",
+              "punct_cht": "。"
             }
           ]
         },
@@ -118,40 +127,41 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "pro.14.8",
-          "cunp": "通達人的智慧在乎明白己道； 愚昧人的愚妄乃是詭詐。",
+          "nasb": "The wisdom of the sensible is to understand his way, But the foolishness of fools is deceit.",
           "words": [
             {
-              "id": "hebrew-2451",
-              "eng": "The wisdom"
+              "id": "hebrew-6175",
+              "cht": "通達人"
             },
             {
-              "id": "hebrew-6175",
-              "eng": "of the prudent"
+              "id": "hebrew-2451",
+              "cht": "的智慧"
             },
             {
               "id": "hebrew-995",
-              "eng": "[is] to understand"
+              "cht": "在乎明白"
             },
             {
               "id": "hebrew-1870",
-              "eng": "his way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-200",
-              "eng": "but the folly"
+              "cht": "己道",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-200",
+              "cht": "的愚妄"
             },
             {
               "id": "hebrew-4820",
-              "eng": "[is] deceit",
-              "punct": "."
+              "cht": "乃是詭詐"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "（或譯自歎）",
+              "punct_cht": "：。"
             }
           ]
         },
@@ -162,86 +172,90 @@
             "hebrew-3045": 0.5860924714677592
           },
           "verseKey": "hab.3.2",
-          "cunp": "耶和華啊，我聽見你的名聲就懼怕。 耶和華啊，求你在這些年間復興你的作為， 在這些年間顯明出來； 在發怒的時候以憐憫為念。",
+          "nasb": "Lord, I have heard the report about You and I fear. O Lord, revive Your work in the midst of the years, In the midst of the years make it known; In wrath remember mercy.",
           "words": [
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8085",
-              "eng": "I have heard"
+              "cht": "我聽見"
+            },
+            {
+              "id": "",
+              "cht": "你的名聲（或譯",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-8088",
-              "eng": "your speech",
-              "punct": "､"
+              "cht": "言語）"
             },
             {
               "id": "hebrew-3372",
-              "eng": "[and] was afraid",
-              "punct": "."
+              "cht": "就懼怕",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-6467",
-              "eng": "Your work"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "in the midst"
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8141",
-              "eng": "of the years",
-              "punct": "､"
+              "cht": "求你在這些年"
+            },
+            {
+              "id": "hebrew-7130",
+              "cht": "間"
             },
             {
               "id": "hebrew-2421",
-              "eng": "revive"
+              "cht": "復興"
             },
             {
-              "id": "hebrew-7130",
-              "eng": "in the midst"
+              "id": "hebrew-6467",
+              "cht": "你的作為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8141",
-              "eng": "of the years"
+              "cht": "在這些年"
+            },
+            {
+              "id": "hebrew-7130",
+              "cht": "間"
             },
             {
               "id": "hebrew-3045",
-              "eng": "make [it] known",
-              "punct": "–"
+              "cht": "顯明"
+            },
+            {
+              "id": "",
+              "cht": "出來",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7267",
-              "eng": "in wrath"
+              "cht": "在發怒"
             },
             {
               "id": "hebrew-7355",
-              "eng": "mercy"
+              "cht": "的時候以憐憫"
             },
             {
               "id": "hebrew-2142",
-              "eng": "remember",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "為念",
+              "punct_cht": "。"
             }
           ]
         },
@@ -253,48 +267,45 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "pro.17.16",
-          "cunp": "愚昧人既無聰明， 為何手拿價銀買智慧呢？",
+          "nasb": "Why is there a price in the hand of a fool to buy wisdom, When he has no sense?",
           "words": [
             {
-              "id": "hebrew-4100",
-              "eng": "Why [is]"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "is there"
-            },
-            {
-              "id": "hebrew-4242",
-              "eng": "the purchase price"
-            },
-            {
-              "id": "hebrew-3027",
-              "eng": "in the hand"
-            },
-            {
               "id": "hebrew-3684",
-              "eng": "of a fool"
-            },
-            {
-              "id": "hebrew-7069",
-              "eng": "of"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "wisdom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "since heart [for it]"
+              "cht": "愚昧人"
             },
             {
               "id": "hebrew-369",
-              "eng": "[he has] no",
-              "punct": "."
+              "cht": "既無"
             },
             {
-              "id": ""
+              "id": "hebrew-3820",
+              "cht": "聰明",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "為何"
+            },
+            {
+              "id": "hebrew-3027",
+              "cht": "手"
+            },
+            {
+              "id": "hebrew-4242",
+              "cht": "拿價銀"
+            },
+            {
+              "id": "hebrew-7069",
+              "cht": "買"
+            },
+            {
+              "id": "hebrew-2451",
+              "cht": "智慧"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -306,44 +317,41 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "pro.15.14",
-          "cunp": "聰明人心求知識； 愚昧人口吃愚昧。",
+          "nasb": "The mind of the intelligent seeks knowledge, But the mouth of fools feeds on folly.",
           "words": [
             {
-              "id": "hebrew-3820",
-              "eng": "The heart"
+              "id": "hebrew-995",
+              "cht": "聰明人"
             },
             {
-              "id": "hebrew-995",
-              "eng": "of him who has understanding"
+              "id": "hebrew-3820",
+              "cht": "心"
             },
             {
               "id": "hebrew-1245",
-              "eng": "seeks"
+              "cht": "求"
             },
             {
               "id": "hebrew-1847",
-              "eng": "knowledge",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "but the mouth of"
+              "cht": "知識",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3684",
-              "eng": "fools"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-6310",
+              "cht": "口"
             },
             {
               "id": "hebrew-7462",
-              "eng": "feeds on"
+              "cht": "吃"
             },
             {
               "id": "hebrew-200",
-              "eng": "foolishness",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-6310"
+              "cht": "愚昧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -354,45 +362,45 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "ecc.7.9",
-          "cunp": "你不要心裏急躁惱怒， 因為惱怒存在愚昧人的懷中。",
+          "nasb": "Do not be eager in your heart to be angry, For anger resides in the bosom of fools.",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-926",
-              "eng": "do hasten"
+              "cht": "你不要"
             },
             {
               "id": "hebrew-7307",
-              "eng": "in your spirit"
+              "cht": "心裡"
+            },
+            {
+              "id": "hebrew-926",
+              "cht": "急躁"
             },
             {
               "id": "hebrew-3707",
-              "eng": "to be angry",
-              "punct": "､"
+              "cht": "惱怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3708",
-              "eng": "anger"
-            },
-            {
-              "id": "hebrew-2436",
-              "eng": "in the bosom"
-            },
-            {
-              "id": "hebrew-3684",
-              "eng": "of fools"
+              "cht": "惱怒"
             },
             {
               "id": "hebrew-5117",
-              "eng": "rests",
-              "punct": "."
+              "cht": "存在"
+            },
+            {
+              "id": "hebrew-3684",
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-2436",
+              "cht": "的懷中",
+              "punct_cht": "。"
             }
           ]
         },
@@ -402,55 +410,44 @@
             "hebrew-2451": 1.373665129919359
           },
           "verseKey": "1ki.4.30",
-          "cunp": "所羅門的智慧超過東方人和埃及人的一切智慧。",
+          "nasb": "Solomon’s wisdom surpassed the wisdom of all the sons of the east and all the wisdom of Egypt.",
           "words": [
             {
-              "id": "hebrew-7235",
-              "eng": "Thus excelled"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "wisdom"
-            },
-            {
               "id": "hebrew-8010",
-              "eng": "of Solomon"
+              "cht": "所羅門"
             },
             {
               "id": "hebrew-2451",
-              "eng": "the wisdom"
+              "cht": "的智慧"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the men"
+              "id": "hebrew-7235",
+              "cht": "超過"
             },
             {
               "id": "hebrew-6924",
-              "eng": "of the East",
-              "punct": "､"
+              "cht": "東方"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and all"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "the wisdom"
+              "cht": "和"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "埃及人"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3605",
+              "cht": "的一切"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-2451",
+              "cht": "智慧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -460,98 +457,80 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "2co.11.16",
-          "cunp": "我再說，人不可把我看作愚妄的。縱然如此，也要把我當作愚妄人接納，叫我可以略略自誇。",
+          "nasb": "Again I say, let no one think me foolish; but if you do, receive me even as foolish, so that I also may boast a little.",
           "words": [
             {
               "id": "greek-3825",
-              "eng": "Again"
+              "cht": "我再"
             },
             {
               "id": "greek-3004",
-              "eng": "I say",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5100",
+              "cht": "人"
             },
             {
               "id": "greek-3361",
-              "eng": "no"
-            },
-            {
-              "id": "greek-5100",
-              "eng": "one"
+              "cht": "不可"
             },
             {
               "id": "greek-3165",
-              "eng": "me"
+              "cht": "把我"
             },
             {
               "id": "greek-1380",
-              "eng": "should think"
-            },
-            {
-              "id": "greek-878",
-              "eng": "a fool"
+              "cht": "看"
             },
             {
               "id": "greek-1511",
-              "eng": "to be",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1487",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-1490",
-              "eng": "otherwise"
-            },
-            {
-              "id": "greek-2579",
-              "eng": "even"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "as"
+              "cht": "作"
             },
             {
               "id": "greek-878",
-              "eng": "a fool"
+              "cht": "愚妄的",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-1209",
-              "eng": "receive"
+              "id": "greek-2579",
+              "cht": "縱然如此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3165",
-              "eng": "me",
-              "punct": ","
+              "cht": "也要把我"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "當作"
+            },
+            {
+              "id": "greek-878",
+              "cht": "愚妄人"
+            },
+            {
+              "id": "greek-1209",
+              "cht": "接納",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
+              "cht": "叫"
             },
             {
               "id": "greek-2504",
-              "eng": "I also"
-            },
-            {
-              "id": "greek-3398",
-              "eng": "little"
+              "cht": "我"
             },
             {
               "id": "greek-5100",
-              "eng": "a"
+              "cht": "可以略略"
             },
             {
               "id": "greek-2744",
-              "eng": "may boast",
-              "punct": "."
-            },
-            {
-              "id": "greek-3397"
+              "cht": "自誇",
+              "punct_cht": "。"
             }
           ]
         },
@@ -561,84 +540,84 @@
             "hebrew-3684": 1.9378036838463604
           },
           "verseKey": "ecc.2.16",
-          "cunp": "智慧人和愚昧人一樣，永遠無人記念，因為日後都被忘記；可歎智慧人死亡，與愚昧人無異。",
+          "nasb": "For there is no lasting remembrance of the wise man as with the fool, inasmuch as in the coming days all will be forgotten. And how the wise man and the fool alike die!",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "[there is] no"
-            },
-            {
-              "id": "hebrew-2146",
-              "eng": "remembrance"
-            },
-            {
               "id": "hebrew-2450",
-              "eng": "of the wise"
+              "cht": "智慧人"
             },
             {
               "id": "hebrew-5973",
-              "eng": "more than"
+              "cht": "和"
             },
             {
               "id": "hebrew-3684",
-              "eng": "of the fool"
+              "cht": "愚昧人"
+            },
+            {
+              "id": "hebrew-7945",
+              "cht": "一樣",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "–"
+              "cht": "永遠"
             },
             {
-              "id": "hebrew-3528",
-              "eng": "Since that now [is]"
+              "id": "hebrew-369",
+              "cht": "無人"
+            },
+            {
+              "id": "hebrew-2146",
+              "cht": "記念",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in the days"
+              "cht": "日"
             },
             {
               "id": "hebrew-935",
-              "eng": "to come"
+              "cht": "後"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "都"
             },
             {
               "id": "hebrew-7911",
-              "eng": "will be forgotten",
-              "punct": "."
+              "cht": "被忘記",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-349",
-              "eng": "And how"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "does die"
+              "cht": "可歎"
             },
             {
               "id": "hebrew-2450",
-              "eng": "a wise [man]"
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "死亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5973",
-              "eng": "as"
+              "cht": "與"
             },
             {
               "id": "hebrew-3684",
-              "eng": "the fool",
-              "punct": "."
+              "cht": "愚昧人"
             },
             {
-              "id": "hebrew-7945"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "無異",
+              "punct_cht": "。"
             }
           ]
         }

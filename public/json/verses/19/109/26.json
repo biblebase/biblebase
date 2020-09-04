@@ -3,12 +3,21 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5826": "Help me",
-          "hebrew-3068": "Yahweh",
-          "hebrew-430": "my God",
-          "hebrew-3467": "Oh save me",
-          "hebrew-2617": "according to Your mercy",
-          "": null
+          "eng": {
+            "hebrew-5826": "Help me",
+            "hebrew-3068": "Yahweh",
+            "hebrew-430": "my God",
+            "hebrew-3467": "Oh save me",
+            "hebrew-2617": "according to Your mercy",
+            "": null
+          },
+          "cht": {
+            "hebrew-5826": "求你幫助我",
+            "hebrew-3068": "耶和華",
+            "hebrew-430": "神",
+            "hebrew-3467": "拯救我",
+            "hebrew-2617": "照你的慈愛"
+          }
         }
       },
       "translations": {
@@ -25,88 +34,87 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "isa.31.3",
-          "cunp": "埃及人不過是人，並不是神； 他們的馬不過是血肉，並不是靈。 耶和華一伸手，那幫助人的必絆跌， 那受幫助的也必跌倒，都一同滅亡。",
+          "nasb": "Now the Egyptians are men and not God, And their horses are flesh and not spirit; So the Lord will stretch out His hand, And he who helps will stumble And he who is helped will fall, And all of them will come to an end together.",
           "words": [
             {
               "id": "hebrew-4714",
-              "eng": "And Egypt [is]"
+              "cht": "埃及人"
             },
             {
               "id": "hebrew-120",
-              "eng": "men",
-              "punct": "､"
+              "cht": "不過是人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "並不是"
             },
             {
               "id": "hebrew-410",
-              "eng": "God",
-              "punct": "–"
+              "cht": "神",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5483",
-              "eng": "and their horses are"
+              "cht": "他們的馬"
             },
             {
               "id": "hebrew-1320",
-              "eng": "flesh",
-              "punct": "､"
+              "cht": "不過是血肉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "並不是"
             },
             {
               "id": "hebrew-7307",
-              "eng": "spirit",
-              "punct": "."
+              "cht": "靈",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "When Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5186",
-              "eng": "stretches out"
+              "cht": "一伸"
             },
             {
               "id": "hebrew-3027",
-              "eng": "His hand",
-              "punct": "､"
+              "cht": "手",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5826",
+              "cht": "那幫助人的"
             },
             {
               "id": "hebrew-3782",
-              "eng": "and both will fall",
-              "punct": "､"
+              "cht": "必絆跌",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5826",
-              "eng": "he who helps"
+              "cht": "那受幫助的"
             },
             {
               "id": "hebrew-5307",
-              "eng": "and he will fall down",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5826",
-              "eng": "who is helped"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "and together",
-              "punct": "."
+              "cht": "也必跌倒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3605",
-              "eng": "They all"
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "一同"
             },
             {
               "id": "hebrew-3615",
-              "eng": "will perish",
-              "punct": "."
+              "cht": "滅亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -117,39 +125,41 @@
             "hebrew-3467": 1.2187549705829357
           },
           "verseKey": "job.26.2",
-          "cunp": "無能的人蒙你何等的幫助！ 膀臂無力的人蒙你何等的拯救！",
+          "nasb": "“What a help you are to the weak! How you have saved the arm without strength!",
           "words": [
             {
-              "id": "hebrew-4100",
-              "eng": "how"
-            },
-            {
-              "id": "hebrew-5826",
-              "eng": "have you helped [him who is]"
-            },
-            {
               "id": "hebrew-3808",
-              "eng": "without"
+              "cht": "無"
             },
             {
               "id": "hebrew-3581",
-              "eng": "power"
+              "cht": "能"
             },
             {
-              "id": "hebrew-3467",
-              "eng": "[How] have you saved"
+              "id": "hebrew-4100",
+              "cht": "的人蒙你何等"
+            },
+            {
+              "id": "hebrew-5826",
+              "cht": "的幫助",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-2220",
-              "eng": "the arm [that has]"
+              "cht": "膀臂"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "無"
             },
             {
               "id": "hebrew-5797",
-              "eng": "strength"
+              "cht": "力"
+            },
+            {
+              "id": "hebrew-3467",
+              "cht": "的人蒙你何等的拯救",
+              "punct_cht": "！"
             }
           ]
         },
@@ -160,59 +170,57 @@
             "hebrew-3467": 1.2187549705829357
           },
           "verseKey": "isa.63.5",
-          "cunp": "我仰望，見無人幫助； 我詫異，沒有人扶持。 所以，我自己的膀臂為我施行拯救； 我的烈怒將我扶持。",
+          "nasb": "I looked, and there was no one to help, And I was astonished and there was no one to uphold; So My own arm brought salvation to Me, And My wrath upheld Me.",
           "words": [
             {
               "id": "hebrew-5027",
-              "eng": "And I looked",
-              "punct": "､"
+              "cht": "我仰望",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "but [there was] no one"
+              "cht": "見無人"
             },
             {
               "id": "hebrew-5826",
-              "eng": "to help",
-              "punct": "–"
+              "cht": "幫助",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8074",
-              "eng": "and I wondered"
+              "cht": "我詫異",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-369",
-              "eng": "that [there was] no one"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-5564",
-              "eng": "to uphold",
-              "punct": "–"
+              "cht": "人扶持"
             },
             {
-              "id": "hebrew-3467",
-              "eng": "therefore brought salvation"
+              "id": "",
+              "cht": "所以",
+              "punct_cht": "。，"
             },
             {
               "id": "hebrew-2220",
-              "eng": "My own arm"
+              "cht": "我自己的膀臂"
+            },
+            {
+              "id": "hebrew-3467",
+              "cht": "施行拯救",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2534",
-              "eng": "and My own fury",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "我的烈怒"
             },
             {
               "id": "hebrew-5564",
-              "eng": "sustained Me",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "將我扶持",
+              "punct_cht": "。"
             }
           ]
         }

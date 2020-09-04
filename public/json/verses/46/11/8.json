@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3756": "Not",
-          "greek-1063": "for",
-          "greek-2076": "is",
-          "greek-435": "man",
-          "greek-1537": "of",
-          "greek-1135": "woman",
-          "greek-235": "but",
-          "": null
+          "eng": {
+            "greek-3756": "Not",
+            "greek-1063": "for",
+            "greek-2076": "is",
+            "greek-435": "man",
+            "greek-1537": "of",
+            "greek-1135": "woman",
+            "greek-235": "but",
+            "": null
+          },
+          "cht": {
+            "greek-3756": "不",
+            "greek-1063": "起初",
+            "greek-2076": "是",
+            "greek-435": "男人",
+            "greek-1537": "是由",
+            "greek-1135": "女人",
+            "greek-235": "乃"
+          }
         }
       },
       "translations": {
@@ -23,130 +34,90 @@
             "greek-435": 1.2463035947172354
           },
           "verseKey": "rom.7.3",
-          "cunp": "所以丈夫活着，她若歸於別人，便叫淫婦；丈夫若死了，她就脫離了丈夫的律法，雖然歸於別人，也不是淫婦。",
+          "nasb": "So then, if while her husband is living she is joined to another man, she shall be called an adulteress; but if her husband dies, she is free from the law, so that she is not an adulteress though she is joined to another man.",
           "words": [
             {
               "id": "greek-686",
-              "eng": "Then"
+              "cht": "所以"
             },
             {
-              "id": "greek-3767",
-              "eng": "therefore",
-              "punct": ","
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-2198",
-              "eng": "being alive"
+              "cht": "活著",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1096",
+              "cht": "她若歸於"
             },
             {
               "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
-            },
-            {
-              "id": "greek-3428",
-              "eng": "an adulteress"
+              "cht": "別人",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5537",
-              "eng": "she will be called"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1096",
-              "eng": "she is"
-            },
-            {
-              "id": "greek-435",
-              "eng": "to man"
-            },
-            {
-              "id": "greek-2087",
-              "eng": "another",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
-            },
-            {
-              "id": "greek-599",
-              "eng": "should die"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
-            },
-            {
-              "id": "greek-1658",
-              "eng": "free"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "she is"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "[so as for]"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-1511",
-              "eng": "to be"
-            },
-            {
-              "id": "greek-846",
-              "eng": "her"
+              "cht": "便叫"
             },
             {
               "id": "greek-3428",
-              "eng": "an adulteress",
-              "punct": ","
-            },
-            {
-              "id": "greek-1096",
-              "eng": "having been"
+              "cht": "淫婦",
+              "punct_cht": "；"
             },
             {
               "id": "greek-435",
-              "eng": "to man"
+              "cht": "丈夫"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "若"
+            },
+            {
+              "id": "greek-599",
+              "cht": "死了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2076",
+              "cht": "她就"
+            },
+            {
+              "id": "greek-1658",
+              "cht": "脫離了"
+            },
+            {
+              "id": "greek-575",
+              "cht": "丈夫的"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1096",
+              "cht": "雖然歸於"
             },
             {
               "id": "greek-2087",
-              "eng": "another",
-              "punct": "."
+              "cht": "別人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "也不"
+            },
+            {
+              "id": "greek-1511",
+              "cht": "是"
+            },
+            {
+              "id": "greek-3428",
+              "cht": "淫婦",
+              "punct_cht": "。"
             }
           ]
         },
@@ -157,91 +128,64 @@
             "greek-1135": 0.6811622264965705
           },
           "verseKey": "rom.7.2",
-          "cunp": "就如女人有了丈夫，丈夫還活着，就被律法約束；丈夫若死了，就脫離了丈夫的律法。",
+          "nasb": "For the married woman is bound by law to her husband while he is living; but if her husband dies, she is released from the law concerning the husband.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-5220",
-              "eng": "married"
+              "cht": "就如"
             },
             {
               "id": "greek-1135",
-              "eng": "woman",
-              "punct": ","
+              "cht": "女人"
             },
             {
-              "id": "greek-3588",
-              "eng": "to the"
+              "id": "greek-5220",
+              "cht": "有了丈夫",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-2198",
-              "eng": "living"
+              "cht": "還活著",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-435",
-              "eng": "husband"
+              "id": "greek-3551",
+              "cht": "就被律法"
             },
             {
               "id": "greek-1210",
-              "eng": "is bound"
+              "cht": "約束",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3551",
-              "eng": "by law",
-              "punct": ";"
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-1437",
-              "eng": "if"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "若"
             },
             {
               "id": "greek-599",
-              "eng": "should die"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-435",
-              "eng": "husband",
-              "punct": ","
+              "cht": "死了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2673",
-              "eng": "she is cleared"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3551",
-              "eng": "law"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "就脫離了"
             },
             {
               "id": "greek-435",
-              "eng": "husband",
-              "punct": "."
+              "cht": "丈夫的"
+            },
+            {
+              "id": "greek-3551",
+              "cht": "律法",
+              "punct_cht": "。"
             }
           ]
         },
@@ -252,105 +196,71 @@
             "greek-1135": 0.6811622264965705
           },
           "verseKey": "1co.7.4",
-          "cunp": "妻子沒有權柄主張自己的身子，乃在丈夫；丈夫也沒有權柄主張自己的身子，乃在妻子。",
+          "nasb": "The wife does not have authority over her own body, but the husband does; and likewise also the husband does not have authority over his own body, but the wife does.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-1135",
-              "eng": "wife",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2398",
-              "eng": "own"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
+              "cht": "妻子"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "沒"
             },
             {
               "id": "greek-1850",
-              "eng": "has authority over",
-              "punct": ","
+              "cht": "有權柄"
+            },
+            {
+              "id": "greek-2398",
+              "cht": "主張自己"
+            },
+            {
+              "id": "greek-4983",
+              "cht": "的身子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "乃"
             },
             {
               "id": "greek-435",
-              "eng": "husband",
-              "punct": ";"
+              "cht": "在丈夫",
+              "punct_cht": "；"
             },
             {
-              "id": "greek-3668",
-              "eng": "likewise"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now",
-              "punct": ","
+              "id": "greek-435",
+              "cht": "丈夫"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-435",
-              "eng": "husband"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2398",
-              "eng": "own"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
+              "cht": "也"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "沒"
             },
             {
               "id": "greek-1850",
-              "eng": "has authority over",
-              "punct": ","
+              "cht": "有權柄"
+            },
+            {
+              "id": "greek-2398",
+              "cht": "主張自己"
+            },
+            {
+              "id": "greek-4983",
+              "cht": "的身子",
+              "punct_cht": "，"
             },
             {
               "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "乃"
             },
             {
               "id": "greek-1135",
-              "eng": "wife",
-              "punct": "."
+              "cht": "在妻子",
+              "punct_cht": "。"
             }
           ]
         }

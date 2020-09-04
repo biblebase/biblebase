@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4592": "little",
-          "hebrew-8142": "a sleep",
-          "hebrew-8572": "a slumber",
-          "hebrew-2264": "a folding",
-          "hebrew-3027": "of the hands",
-          "hebrew-7901": "to sleep"
+          "eng": {
+            "hebrew-4592": "little",
+            "hebrew-8142": "a sleep",
+            "hebrew-8572": "a slumber",
+            "hebrew-2264": "a folding",
+            "hebrew-3027": "of the hands",
+            "hebrew-7901": "to sleep"
+          },
+          "cht": {
+            "hebrew-4592": "片時",
+            "hebrew-8142": "再睡",
+            "hebrew-8572": "打盹",
+            "hebrew-2264": "抱著",
+            "hebrew-3027": "手",
+            "hebrew-7901": "躺臥"
+          }
         }
       },
       "translations": {
@@ -28,42 +38,42 @@
             "hebrew-7901": 1.254172327535188
           },
           "verseKey": "pro.24.33",
-          "cunp": "再睡片時，打盹片時， 抱着手躺臥片時，",
+          "nasb": "“A little sleep, a little slumber, A little folding of the hands to rest,”",
           "words": [
             {
-              "id": "hebrew-4592",
-              "eng": "Little"
-            },
-            {
               "id": "hebrew-8142",
-              "eng": "a sleep",
-              "punct": "､"
+              "cht": "再睡"
             },
             {
               "id": "hebrew-4592",
-              "eng": "little"
+              "cht": "片時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8572",
-              "eng": "a slumber",
-              "punct": "､"
+              "cht": "打盹"
             },
             {
               "id": "hebrew-4592",
-              "eng": "little"
+              "cht": "片時",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2264",
-              "eng": "a folding"
+              "cht": "抱著"
             },
             {
               "id": "hebrew-3027",
-              "eng": "of the hands"
+              "cht": "手"
             },
             {
               "id": "hebrew-7901",
-              "eng": "to rest",
-              "punct": "､"
+              "cht": "躺臥"
+            },
+            {
+              "id": "hebrew-4592",
+              "cht": "片時",
+              "punct_cht": "，"
             }
           ]
         },
@@ -74,33 +84,33 @@
             "hebrew-8572": 5.832220266167411
           },
           "verseKey": "pro.6.4",
-          "cunp": "不要容你的眼睛睡覺； 不要容你的眼皮打盹。",
+          "nasb": "Give no sleep to your eyes, Nor slumber to your eyelids;",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "No"
+              "cht": "不要"
             },
             {
               "id": "hebrew-5414",
-              "eng": "Give"
-            },
-            {
-              "id": "hebrew-8142",
-              "eng": "sleep"
+              "cht": "容"
             },
             {
               "id": "hebrew-5869",
-              "eng": "to your eyes",
-              "punct": "､"
+              "cht": "你的眼睛"
             },
             {
-              "id": "hebrew-8572",
-              "eng": "nor slumber"
+              "id": "hebrew-8142",
+              "cht": "睡覺",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6079",
-              "eng": "to your eyelids",
-              "punct": "."
+              "cht": "不要容你的眼皮"
+            },
+            {
+              "id": "hebrew-8572",
+              "cht": "打盹",
+              "punct_cht": "。"
             }
           ]
         },
@@ -111,62 +121,54 @@
             "hebrew-8142": 4.758842454566098
           },
           "verseKey": "ecc.5.12",
-          "cunp": "勞碌的人不拘吃多吃少，睡得香甜；富足人的豐滿卻不容他睡覺。",
+          "nasb": "The sleep of the working man is pleasant, whether he eats little or much; but the full stomach of the rich man does not allow him to sleep.",
           "words": [
             {
-              "id": "hebrew-4966",
-              "eng": "[is] sweet",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8142",
-              "eng": "the sleep"
-            },
-            {
               "id": "hebrew-5647",
-              "eng": "of a laboring man"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "Whether"
-            },
-            {
-              "id": "hebrew-4592",
-              "eng": "little"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-7235",
-              "eng": "much",
-              "punct": "–"
+              "cht": "勞碌的人"
             },
             {
               "id": "hebrew-398",
-              "eng": "he eats"
+              "cht": "不拘吃"
             },
             {
-              "id": "hebrew-7647",
-              "eng": "but the abundance"
+              "id": "hebrew-518",
+              "cht": "多"
+            },
+            {
+              "id": "hebrew-4592",
+              "cht": "吃少",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8142",
+              "cht": "睡"
+            },
+            {
+              "id": "hebrew-4966",
+              "cht": "得香甜",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6223",
-              "eng": "of the rich"
+              "cht": "富足人"
+            },
+            {
+              "id": "hebrew-7647",
+              "cht": "的豐滿"
             },
             {
               "id": "hebrew-369",
-              "eng": "not"
+              "cht": "卻不"
             },
             {
               "id": "hebrew-3240",
-              "eng": "will permit"
+              "cht": "容"
             },
             {
               "id": "hebrew-3462",
-              "eng": "to sleep",
-              "punct": "."
+              "cht": "睡覺",
+              "punct_cht": "。"
             }
           ]
         },
@@ -176,60 +178,53 @@
             "hebrew-8572": 5.832220266167411
           },
           "verseKey": "job.33.15",
-          "cunp": "人躺在牀上沉睡的時候， 神就用夢和夜間的異象，",
+          "nasb": "In a dream, a vision of the night, When sound sleep falls on men, While they slumber in their beds,",
           "words": [
             {
-              "id": "hebrew-2472",
-              "eng": "In a dream",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2384",
-              "eng": "in a vision"
-            },
-            {
-              "id": "hebrew-3915",
-              "eng": "of the night",
-              "punct": "､"
+              "id": "hebrew-582",
+              "cht": "人"
             },
             {
               "id": "hebrew-5307",
-              "eng": "when falls"
-            },
-            {
-              "id": "hebrew-8639",
-              "eng": "deep sleep"
+              "cht": "躺"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "men",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8572",
-              "eng": "while slumbering"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "在"
             },
             {
               "id": "hebrew-4904",
-              "eng": "their beds",
-              "punct": "–"
+              "cht": "床上"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-8639",
+              "cht": "沉"
             },
             {
-              "id": ""
+              "id": "hebrew-8572",
+              "cht": "睡"
             },
             {
-              "id": "hebrew-430"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-2472",
+              "cht": "就用夢"
+            },
+            {
+              "id": "hebrew-3915",
+              "cht": "和夜間"
+            },
+            {
+              "id": "hebrew-2384",
+              "cht": "的異象",
+              "punct_cht": "，"
             }
           ]
         },
@@ -239,44 +234,34 @@
             "hebrew-8572": 5.832220266167411
           },
           "verseKey": "mat.25.5",
-          "cunp": "新郎遲延的時候，她們都打盹，睡着了。",
+          "nasb": "Now while the bridegroom was delaying, they all got drowsy and began to sleep.",
           "words": [
             {
-              "id": "greek-5549",
-              "eng": "Tarrying"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-3566",
-              "eng": "bridegroom",
-              "punct": ","
+              "cht": "新郎"
             },
             {
-              "id": "greek-3573",
-              "eng": "they became drowsy"
+              "id": "greek-5549",
+              "cht": "遲延"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "她們都"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3573",
+              "cht": "打盹",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2518",
-              "eng": "were sleeping",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "睡著了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -286,34 +271,33 @@
             "hebrew-8572": 5.832220266167411
           },
           "verseKey": "psa.132.4",
-          "cunp": "我不容我的眼睛睡覺， 也不容我的眼目打盹；",
+          "nasb": "I will not give sleep to my eyes Or slumber to my eyelids,",
           "words": [
             {
               "id": "hebrew-518",
-              "eng": "not"
+              "cht": "我不"
             },
             {
               "id": "hebrew-5414",
-              "eng": "I will give"
-            },
-            {
-              "id": "hebrew-8153",
-              "eng": "sleep"
+              "cht": "容"
             },
             {
               "id": "hebrew-5869",
-              "eng": "to my eyes",
-              "punct": "､"
+              "cht": "我的眼睛"
+            },
+            {
+              "id": "hebrew-8153",
+              "cht": "睡覺",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6079",
-              "eng": "to my eyelids",
-              "punct": "､"
+              "cht": "也不容我的眼目"
             },
             {
               "id": "hebrew-8572",
-              "eng": "[Or] slumber",
-              "punct": "."
+              "cht": "打盹",
+              "punct_cht": "；"
             }
           ]
         },
@@ -323,89 +307,76 @@
             "hebrew-8572": 5.832220266167411
           },
           "verseKey": "2pe.2.3",
-          "cunp": "他們因有貪心，要用捏造的言語在你們身上取利。他們的刑罰，自古以來並不遲延；他們的滅亡也必速速來到。",
+          "nasb": "and in their greed they will exploit you with false words; their judgment from long ago is not idle, and their destruction is not asleep.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
               "id": "greek-1722",
-              "eng": "through"
+              "cht": "他們因有"
             },
             {
               "id": "greek-4124",
-              "eng": "covetousness"
+              "cht": "貪心",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4112",
-              "eng": "with fabricated"
+              "cht": "要用捏造的"
             },
             {
               "id": "greek-3056",
-              "eng": "words"
+              "cht": "言語"
             },
             {
               "id": "greek-5209",
-              "eng": "you"
+              "cht": "在你們"
             },
             {
               "id": "greek-1710",
-              "eng": "they will exploit",
-              "punct": ","
+              "cht": "身上取利",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3739",
-              "eng": "for whom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "他們的"
             },
             {
               "id": "greek-2917",
-              "eng": "judgment"
+              "cht": "刑罰",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1597",
-              "eng": "of long ago"
+              "cht": "自古以來"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "並不"
             },
             {
               "id": "greek-691",
-              "eng": "is idle",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-684",
-              "eng": "destruction"
+              "cht": "遲延",
+              "punct_cht": "；"
             },
             {
               "id": "greek-846",
-              "eng": "of them"
+              "cht": "他們的"
+            },
+            {
+              "id": "greek-684",
+              "cht": "滅亡"
+            },
+            {
+              "id": "",
+              "cht": "也必速速來到（"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "原文是不"
             },
             {
               "id": "greek-3573",
-              "eng": "slumbers",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "打盹）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -415,80 +386,58 @@
             "hebrew-8142": 4.758842454566098
           },
           "verseKey": "est.6.1",
-          "cunp": "那夜王睡不着覺，就吩咐人取歷史來，念給他聽。",
+          "nasb": "During that night the king could not sleep so he gave an order to bring the book of records, the chronicles, and they were read before the king.",
           "words": [
             {
-              "id": "hebrew-3915",
-              "eng": "Night"
+              "id": "hebrew-1931",
+              "cht": "那"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-3915",
+              "cht": "夜"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-5074",
-              "eng": "could not"
+              "cht": "睡不著"
             },
             {
               "id": "hebrew-8142",
-              "eng": "sleep",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "覺",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "so one was commanded"
+              "cht": "就吩咐人"
             },
             {
               "id": "hebrew-935",
-              "eng": "to bring"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "取"
             },
             {
               "id": "hebrew-5612",
-              "eng": "the book"
+              "cht": "歷史"
             },
             {
-              "id": "hebrew-2146",
-              "eng": "of the records"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "of"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "the chronicles",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and they were"
+              "id": "",
+              "cht": "來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7121",
-              "eng": "read"
+              "cht": "念"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "給他"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "the king",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "聽",
+              "punct_cht": "。"
             }
           ]
         },
@@ -498,59 +447,61 @@
             "hebrew-8142": 4.758842454566098
           },
           "verseKey": "psa.127.2",
-          "cunp": "你們清晨早起，夜晚安歇， 吃勞碌得來的飯，本是枉然； 惟有耶和華所親愛的，必叫他安然睡覺。",
+          "nasb": "It is vain for you to rise up early, To retire late, To eat the bread of painful labors; For He gives to His beloved even in his sleep.",
           "words": [
             {
-              "id": "hebrew-7723",
-              "eng": "[it is] vain"
-            },
-            {
               "id": "hebrew-7925",
-              "eng": "early",
-              "punct": "､"
+              "cht": "你們清晨早"
             },
             {
               "id": "hebrew-6965",
-              "eng": "to rise up"
+              "cht": "起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-309",
-              "eng": "late",
-              "punct": "､"
+              "cht": "夜晚"
             },
             {
               "id": "hebrew-3427",
-              "eng": "to sit up"
+              "cht": "安歇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-398",
-              "eng": "to eat"
-            },
-            {
-              "id": "hebrew-3899",
-              "eng": "the bread"
+              "cht": "吃"
             },
             {
               "id": "hebrew-6089",
-              "eng": "of sorrows",
-              "punct": "–"
+              "cht": "勞碌"
+            },
+            {
+              "id": "hebrew-3899",
+              "cht": "得來的飯",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7723",
+              "cht": "本是枉然",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3651",
-              "eng": "[For] so"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "He gives"
+              "cht": "惟有"
             },
             {
               "id": "hebrew-3039",
-              "eng": "His beloved"
+              "cht": "耶和華所親愛的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "必叫"
             },
             {
               "id": "hebrew-8142",
-              "eng": "sleep",
-              "punct": "."
+              "cht": "他安然睡覺",
+              "punct_cht": "。"
             }
           ]
         },
@@ -560,78 +511,78 @@
             "hebrew-8142": 4.758842454566098
           },
           "verseKey": "jer.51.39",
-          "cunp": "他們火熱的時候， 我必為他們設擺酒席， 使他們沉醉，好叫他們快樂， 睡了長覺，永不醒起。 這是耶和華說的。",
+          "nasb": "When they become heated up, I will serve them their banquet And make them drunk, that they may become jubilant And may sleep a perpetual sleep And not wake up,” declares the Lord.",
           "words": [
             {
-              "id": "hebrew-2527",
-              "eng": "In their excitement"
+              "id": "hebrew-2552",
+              "cht": "他們火熱"
             },
             {
-              "id": "hebrew-7896",
-              "eng": "I will prepare"
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我必為他們"
+            },
+            {
+              "id": "hebrew-7896",
+              "cht": "設擺"
             },
             {
               "id": "hebrew-4960",
-              "eng": "their feasts",
-              "punct": "､"
+              "cht": "酒席",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7937",
-              "eng": "and I will make them drunk",
-              "punct": "､"
+              "cht": "使他們沉醉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4616",
-              "eng": "that"
+              "cht": "好叫"
             },
             {
               "id": "hebrew-5937",
-              "eng": "they may rejoice",
-              "punct": "､"
+              "cht": "他們快樂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3462",
-              "eng": "and sleep"
-            },
-            {
-              "id": "hebrew-8142",
-              "eng": "a sleep",
-              "punct": "､"
+              "cht": "睡了"
             },
             {
               "id": "hebrew-5769",
-              "eng": "perpetual"
+              "cht": "長"
+            },
+            {
+              "id": "hebrew-8142",
+              "cht": "覺",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "永不"
             },
             {
               "id": "hebrew-6974",
-              "eng": "awake",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "cht": "醒起",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "這是耶和華"
             },
             {
-              "id": "hebrew-2552"
+              "id": "hebrew-5002",
+              "cht": "說"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         }

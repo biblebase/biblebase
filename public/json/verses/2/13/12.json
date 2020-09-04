@@ -3,17 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5674": "That you shall set apart",
-          "hebrew-3605": "that is every",
-          "hebrew-6363": "firstborn",
-          "hebrew-7358": "the womb",
-          "hebrew-3068": "[shall be] Yahweh",
-          "hebrew-7698": "that comes from",
-          "hebrew-929": "an animal",
-          "hebrew-834": "which",
-          "hebrew-1961": "have",
-          "hebrew-2145": "the males",
-          "": null
+          "eng": {
+            "hebrew-5674": "That you shall set apart",
+            "hebrew-3605": "that is every",
+            "hebrew-6363": "firstborn",
+            "hebrew-7358": "the womb",
+            "hebrew-3068": "[shall be] Yahweh",
+            "hebrew-7698": "that comes from",
+            "hebrew-929": "an animal",
+            "hebrew-834": "which",
+            "hebrew-1961": "have",
+            "hebrew-2145": "the males",
+            "": null
+          },
+          "cht": {
+            "hebrew-5674": "歸",
+            "hebrew-3605": "並",
+            "hebrew-6363": "中頭生的",
+            "hebrew-7358": "頭生",
+            "hebrew-3068": "屬耶和華",
+            "hebrew-7698": "中頭生的",
+            "hebrew-929": "牲畜",
+            "hebrew-1961": "都要",
+            "hebrew-2145": "公的"
+          }
         }
       },
       "translations": {
@@ -32,48 +45,46 @@
             "hebrew-7358": 3.55737257852982
           },
           "verseKey": "exo.34.19",
-          "cunp": "凡頭生的都是我的；一切牲畜頭生的，無論是牛是羊，公的都是我的。",
+          "nasb": "“The first offspring from every womb belongs to Me, and all your male livestock, the first offspring from cattle and sheep.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "All [are]"
+              "cht": "凡"
             },
             {
               "id": "hebrew-6363",
-              "eng": "that open"
+              "cht": "頭生的"
             },
             {
-              "id": "hebrew-7358",
-              "eng": "the womb"
+              "id": "",
+              "cht": "都是我的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3605",
-              "eng": "and every"
+              "cht": "一切"
             },
             {
               "id": "hebrew-4735",
-              "eng": "your livestock"
-            },
-            {
-              "id": "hebrew-2142",
-              "eng": "-"
+              "cht": "牲畜"
             },
             {
               "id": "hebrew-6363",
-              "eng": "male firstborn among",
-              "punct": "､"
+              "cht": "頭生的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7794",
-              "eng": "[whether] ox"
+              "cht": "無論是牛"
             },
             {
               "id": "hebrew-7716",
-              "eng": "or sheep",
-              "punct": "､"
+              "cht": "是羊",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-2142",
+              "cht": "公的"
             }
           ]
         },
@@ -89,136 +100,118 @@
             "hebrew-2145": 1.8389054889739125
           },
           "verseKey": "exo.13.15",
-          "cunp": "那時法老幾乎不容我們去，耶和華就把埃及地所有頭生的，無論是人是牲畜，都殺了。因此，我把一切頭生的公牲畜獻給耶和華為祭，但將頭生的兒子都贖出來。",
+          "nasb": "It came about, when Pharaoh was stubborn about letting us go, that the Lord killed every firstborn in the land of Egypt, both the firstborn of man and the firstborn of beast. Therefore, I sacrifice to the Lord the males, the first offspring of every womb, but every firstborn of my sons I redeem.’",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it came to pass",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3588",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-7185",
-              "eng": "was stubborn"
+              "cht": "那時"
             },
             {
               "id": "hebrew-6547",
-              "eng": "Pharaoh"
+              "cht": "法老"
+            },
+            {
+              "id": "hebrew-7185",
+              "cht": "幾乎不容"
             },
             {
               "id": "hebrew-7971",
-              "eng": "about letting us go",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2026",
-              "eng": "that killed"
+              "cht": "我們去",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-1060",
-              "eng": "the firstborn"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "in the land"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "､"
+              "cht": "就把埃及"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "所有"
             },
             {
               "id": "hebrew-1060",
-              "eng": "from the firstborn"
+              "cht": "頭生的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "無論是"
             },
             {
               "id": "hebrew-120",
-              "eng": "of man",
-              "punct": "､"
+              "cht": "人"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and to"
-            },
-            {
-              "id": "hebrew-1060",
-              "eng": "the firstborn"
+              "cht": "是"
             },
             {
               "id": "hebrew-929",
-              "eng": "of beast",
-              "punct": "."
+              "cht": "牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2026",
+              "cht": "都殺了",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5921",
-              "eng": "Upon"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "thus"
+              "cht": "因此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-589",
-              "eng": "I"
-            },
-            {
-              "id": "hebrew-2076",
-              "eng": "sacrifice"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "to Yahweh"
+              "cht": "我"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "把一切"
             },
             {
               "id": "hebrew-6363",
-              "eng": "that open"
-            },
-            {
-              "id": "hebrew-7358",
-              "eng": "the womb"
+              "cht": "頭生"
             },
             {
               "id": "hebrew-2145",
-              "eng": "males",
-              "punct": "–"
+              "cht": "的公"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "but all"
+              "id": "hebrew-2076",
+              "cht": "牲畜獻"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "給耶和華"
+            },
+            {
+              "id": "",
+              "cht": "為祭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1060",
-              "eng": "the firstborn"
+              "cht": "但將頭生的"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of my sons"
+              "cht": "兒子"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-6299",
-              "eng": "I redeem",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "cht": "贖出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -233,106 +226,94 @@
             "hebrew-1961": 0.35469167652543065
           },
           "verseKey": "num.18.15",
-          "cunp": "他們所有奉給耶和華的，連人帶牲畜，凡頭生的，都要歸給你；只是人頭生的，總要贖出來；不潔淨牲畜頭生的，也要贖出來。",
+          "nasb": "Every first issue of the womb of all flesh, whether man or animal, which they offer to the Lord, shall be yours; nevertheless the firstborn of man you shall surely redeem, and the firstborn of unclean animals you shall redeem.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "Everything"
-            },
-            {
-              "id": "hebrew-6363",
-              "eng": "that first opens"
-            },
-            {
-              "id": "hebrew-7358",
-              "eng": "the womb"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
-            },
-            {
-              "id": "hebrew-1320",
-              "eng": "flesh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "cht": "他們所有"
             },
             {
               "id": "hebrew-7126",
-              "eng": "they bring"
+              "cht": "奉"
             },
             {
               "id": "hebrew-3068",
-              "eng": "to Yahweh",
-              "punct": "､"
+              "cht": "給耶和華"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-120",
-              "eng": "whether man"
+              "cht": "連人"
             },
             {
               "id": "hebrew-929",
-              "eng": "or beast",
-              "punct": "､"
+              "cht": "帶牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "凡"
+            },
+            {
+              "id": "hebrew-6363",
+              "cht": "頭"
+            },
+            {
+              "id": "hebrew-7358",
+              "cht": "生"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "shall be"
+              "cht": "都要歸"
             },
             {
               "id": "hebrew-389",
-              "eng": "nevertheless"
-            },
-            {
-              "id": "hebrew-6299",
-              "eng": "surely"
-            },
-            {
-              "id": "hebrew-6299",
-              "eng": "you shall redeem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1060",
-              "eng": "the firstborn"
+              "cht": "只是"
             },
             {
               "id": "hebrew-120",
-              "eng": "of man"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "人"
             },
             {
               "id": "hebrew-1060",
-              "eng": "the firstborn"
-            },
-            {
-              "id": "hebrew-929",
-              "eng": "of animals"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean"
+              "cht": "頭生的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6299",
-              "eng": "you shall redeem",
-              "punct": "."
+              "cht": "總要"
             },
             {
-              "id": ""
+              "id": "hebrew-6299",
+              "cht": "贖出來",
+              "punct_cht": "；"
             },
             {
-              "id": ""
+              "id": "hebrew-2931",
+              "cht": "不潔淨"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "牲畜"
+            },
+            {
+              "id": "hebrew-1060",
+              "cht": "頭生的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6299",
+              "cht": "也要贖出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -345,55 +326,45 @@
             "hebrew-929": 1.262203421354749
           },
           "verseKey": "exo.13.2",
-          "cunp": "「以色列中凡頭生的，無論是人是牲畜，都是我的，要分別為聖歸我。」",
+          "nasb": "“Sanctify to Me every firstborn, the first offspring of every womb among the sons of Israel, both of man and beast; it belongs to Me.”",
           "words": [
             {
-              "id": "hebrew-6942",
-              "eng": "Consecrate"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-1060",
-              "eng": "the firstborn",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6363",
-              "eng": "opens"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "whatever"
-            },
-            {
-              "id": "hebrew-7358",
-              "eng": "the womb"
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "among the sons"
+              "cht": "中"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "id": "hebrew-3605",
+              "cht": "凡"
+            },
+            {
+              "id": "hebrew-7358",
+              "cht": "頭生的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-120",
-              "eng": "[both] of man"
+              "cht": "無論是人"
             },
             {
               "id": "hebrew-929",
-              "eng": "and beast",
-              "punct": "–"
+              "cht": "是牲畜",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it",
-              "punct": "."
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-6942",
+              "cht": "要分別為聖"
             }
           ]
         },
@@ -406,86 +377,65 @@
             "hebrew-1961": 0.35469167652543065
           },
           "verseKey": "num.3.12",
-          "cunp": "「我從以色列人中揀選了利未人，代替以色列人一切頭生的；利未人要歸我。",
+          "nasb": "“Now, behold, I have taken the Levites from among the sons of Israel instead of every firstborn, the first issue of the womb among the sons of Israel. So the Levites shall be Mine.",
           "words": [
             {
               "id": "hebrew-589",
-              "eng": "and I",
-              "punct": "､"
+              "cht": "我"
             },
             {
-              "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
+              "id": "hebrew-3478",
+              "cht": "從以色列"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "中"
             },
             {
               "id": "hebrew-3947",
-              "eng": "have taken"
+              "cht": "揀選"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "了"
             },
             {
               "id": "hebrew-3881",
-              "eng": "the Levites"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "from among"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "cht": "利未人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8478",
-              "eng": "instead"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of every"
-            },
-            {
-              "id": "hebrew-1060",
-              "eng": "firstborn"
-            },
-            {
-              "id": "hebrew-6363",
-              "eng": "who opens"
-            },
-            {
-              "id": "hebrew-7358",
-              "eng": "the womb"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "among the sons"
+              "cht": "代替"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-1961",
-              "eng": "Therefore shall be"
+              "id": "hebrew-4480",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-6363",
+              "cht": "頭生的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3881",
-              "eng": "the Levite",
-              "punct": "."
+              "cht": "利未人"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-1961",
+              "cht": "要"
             }
           ]
         },
@@ -497,87 +447,69 @@
             "hebrew-7358": 3.55737257852982
           },
           "verseKey": "num.8.16",
-          "cunp": "因為他們是從以色列人中全然給我的，我揀選他們歸我，是代替以色列人中一切頭生的。",
+          "nasb": "for they are wholly given to Me from among the sons of Israel. I have taken them for Myself instead of every first issue of the womb, the firstborn of all the sons of Israel.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "given"
-            },
-            {
-              "id": "hebrew-5414",
-              "eng": "given"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1992",
-              "eng": "they"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "from among"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "他們"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "Instead"
-            },
-            {
-              "id": "hebrew-6363",
-              "eng": "such as open"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-7358",
-              "eng": "the womb",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1060",
-              "eng": "the firstborn"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "of all"
+              "cht": "是從以色列"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "人"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "､"
+              "id": "hebrew-4480",
+              "cht": "中"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "全然"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "給"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3947",
-              "eng": "have taken"
+              "cht": "我揀選"
             },
             {
               "id": "hebrew-853",
-              "eng": "I them"
+              "cht": "他們"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-8478",
+              "cht": "是代替"
             },
             {
-              "id": ""
+              "id": "hebrew-3478",
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4480",
+              "cht": "人中"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "一切"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "頭生的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -590,74 +522,67 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "ezk.20.26",
-          "cunp": "因他們將一切頭生的經火，我就任憑他們在這供獻的事上玷污自己，好叫他們淒涼，使他們知道我是耶和華。",
+          "nasb": "and I pronounced them unclean because of their gifts, in that they caused all their firstborn to pass through the fire so that I might make them desolate, in order that they might know that I am the Lord.” ’",
           "words": [
             {
-              "id": "hebrew-2930",
-              "eng": "And I pronounced unclean"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-4979",
-              "eng": "because [of] their [ritual] gifts",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5674",
-              "eng": "in that they caused to pass through the [fire]"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "因他們將一切"
             },
             {
               "id": "hebrew-6363",
-              "eng": "-"
+              "cht": "頭"
             },
             {
               "id": "hebrew-7356",
-              "eng": "their firstborn",
-              "punct": "､"
+              "cht": "生的"
+            },
+            {
+              "id": "hebrew-5674",
+              "cht": "經"
+            },
+            {
+              "id": "",
+              "cht": "火",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4979",
+              "cht": "我就任憑他們在這供獻"
+            },
+            {
+              "id": "hebrew-2930",
+              "cht": "的事上玷污"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "自己",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4616",
-              "eng": "that"
+              "cht": "好叫"
             },
             {
               "id": "hebrew-8074",
-              "eng": "I might make them desolate",
-              "punct": "､"
+              "cht": "他們淒涼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4616",
-              "eng": "to the end that"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "-"
+              "cht": "使"
             },
             {
               "id": "hebrew-3045",
-              "eng": "and they might know"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
+              "cht": "他們知道"
             },
             {
               "id": "hebrew-589",
-              "eng": "I [am]"
+              "cht": "我"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "是耶和華",
+              "punct_cht": "。"
             }
           ]
         },
@@ -667,47 +592,47 @@
             "hebrew-7698": 5.832220266167411
           },
           "verseKey": "deu.28.18",
-          "cunp": "你身所生的，地所產的，以及牛犢、羊羔，都必受咒詛。",
+          "nasb": "“Cursed shall be the offspring of your body and the produce of your ground, the increase of your herd and the young of your flock.",
           "words": [
             {
-              "id": "hebrew-779",
-              "eng": "Cursed [shall be]"
-            },
-            {
-              "id": "hebrew-6529",
-              "eng": "the fruit"
-            },
-            {
               "id": "hebrew-990",
-              "eng": "of your body",
-              "punct": "､"
+              "cht": "你身所生"
             },
             {
               "id": "hebrew-6529",
-              "eng": "and the produce"
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-127",
-              "eng": "of your land",
-              "punct": "､"
+              "cht": "地"
             },
             {
-              "id": "hebrew-7698",
-              "eng": "the increase"
+              "id": "hebrew-6529",
+              "cht": "所產的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-504",
-              "eng": "of your cattle",
-              "punct": "､"
+              "cht": "以及牛"
             },
             {
-              "id": "hebrew-6251",
-              "eng": "and the offspring"
+              "id": "hebrew-7698",
+              "cht": "犢、"
             },
             {
               "id": "hebrew-6629",
-              "eng": "of your flocks",
-              "punct": "."
+              "cht": "羊"
+            },
+            {
+              "id": "hebrew-6251",
+              "cht": "羔",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-779",
+              "cht": "都必受咒詛",
+              "punct_cht": "。"
             }
           ]
         },
@@ -717,134 +642,100 @@
             "hebrew-7698": 5.832220266167411
           },
           "verseKey": "eph.4.16",
-          "cunp": "全身都靠他聯絡得合式，百節各按各職，照着各體的功用彼此相助，便叫身體漸漸增長，在愛中建立自己。",
+          "nasb": "from whom the whole body, being fitted and held together by what every joint supplies, according to the proper working of each individual part, causes the growth of the body for the building up of itself in love.",
           "words": [
             {
+              "id": "greek-3956",
+              "cht": "全"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "身"
+            },
+            {
               "id": "greek-1537",
-              "eng": "from"
+              "cht": "都靠"
             },
             {
               "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body",
-              "punct": ","
-            },
-            {
-              "id": "greek-4883",
-              "eng": "being joined together"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "他"
             },
             {
               "id": "greek-4822",
-              "eng": "being held together"
+              "cht": "聯絡"
             },
             {
-              "id": "greek-1223",
-              "eng": "by"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "every"
+              "id": "greek-4883",
+              "cht": "得合式",
+              "punct_cht": "，"
             },
             {
               "id": "greek-860",
-              "eng": "ligament"
+              "cht": "百節"
             },
             {
-              "id": "greek-3588",
-              "eng": "of [its]"
+              "id": "greek-1223",
+              "cht": "各按"
             },
             {
-              "id": "greek-2024",
-              "eng": "supply",
-              "punct": ","
+              "id": "",
+              "cht": "各職",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2596",
-              "eng": "according to"
-            },
-            {
-              "id": "greek-1753",
-              "eng": "[the] working"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3358",
-              "eng": "[the] measure"
-            },
-            {
-              "id": "greek-1520",
-              "eng": "individual"
+              "cht": "照著"
             },
             {
               "id": "greek-1538",
-              "eng": "of each"
+              "cht": "各"
             },
             {
               "id": "greek-3313",
-              "eng": "part",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-838",
-              "eng": "increase"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "makes for itself"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "to"
-            },
-            {
-              "id": "greek-3619",
-              "eng": "[the] building up"
-            },
-            {
-              "id": "greek-1438",
-              "eng": "of itself"
+              "cht": "體"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "的功用"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "彼此"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "相助",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "便叫"
+            },
+            {
+              "id": "greek-3588",
+              "cht": "身體"
+            },
+            {
+              "id": "greek-838",
+              "cht": "漸漸增長",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "在"
             },
             {
               "id": "greek-26",
-              "eng": "love",
-              "punct": "."
+              "cht": "愛"
             },
             {
-              "id": ""
+              "id": "greek-3619",
+              "cht": "中建立"
+            },
+            {
+              "id": "greek-1438",
+              "cht": "自己",
+              "punct_cht": "。"
             }
           ]
         },
@@ -854,106 +745,71 @@
             "hebrew-7698": 5.832220266167411
           },
           "verseKey": "col.2.19",
-          "cunp": "不持定元首。全身既然靠着他，筋節得以相助聯絡，就因神大得長進。",
+          "nasb": "and not holding fast to the head, from whom the entire body, being supplied and held together by the joints and ligaments, grows with a growth which is from God.",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
               "id": "greek-3756",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-2902",
-              "eng": "holding fast"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
+              "cht": "持定"
             },
             {
               "id": "greek-2776",
-              "eng": "head",
-              "punct": ","
-            },
-            {
-              "id": "greek-1537",
-              "eng": "from"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
+              "cht": "元首",
+              "punct_cht": "。"
             },
             {
               "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "全"
             },
             {
               "id": "greek-4983",
-              "eng": "body",
-              "punct": ","
+              "cht": "身"
             },
             {
-              "id": "greek-1223",
-              "eng": "by"
+              "id": "greek-1537",
+              "cht": "既然靠著"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-860",
-              "eng": "joints"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-3739",
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4886",
-              "eng": "ligaments"
+              "cht": "筋"
+            },
+            {
+              "id": "greek-860",
+              "cht": "節"
+            },
+            {
+              "id": "greek-1223",
+              "cht": "得以"
             },
             {
               "id": "greek-2023",
-              "eng": "being supplied"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "相助"
             },
             {
               "id": "greek-4822",
-              "eng": "being knit together",
-              "punct": ","
+              "cht": "聯絡"
             },
             {
-              "id": "greek-837",
-              "eng": "increases"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "with the"
-            },
-            {
-              "id": "greek-838",
-              "eng": "increase"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "就因",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": "."
+              "cht": "神"
             },
             {
-              "id": ""
+              "id": "greek-837",
+              "cht": "大得長進",
+              "punct_cht": "。"
             }
           ]
         }

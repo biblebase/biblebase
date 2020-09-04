@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6213": "He does",
-          "hebrew-1419": "great things",
-          "hebrew-5704": "outside",
-          "hebrew-369": "without",
-          "hebrew-2714": "finding out",
-          "hebrew-6381": "and Yes wonders",
-          "hebrew-4557": "number"
+          "eng": {
+            "hebrew-6213": "He does",
+            "hebrew-1419": "great things",
+            "hebrew-5704": "outside",
+            "hebrew-369": "without",
+            "hebrew-2714": "finding out",
+            "hebrew-6381": "and Yes wonders",
+            "hebrew-4557": "number"
+          },
+          "cht": {
+            "hebrew-6213": "他行",
+            "hebrew-1419": "大事",
+            "hebrew-5704": "勝",
+            "hebrew-369": "不可",
+            "hebrew-2714": "測度",
+            "hebrew-6381": "行奇事",
+            "hebrew-4557": "數"
+          }
         }
       },
       "translations": {
@@ -31,41 +42,41 @@
             "hebrew-4557": 1.5502252173863187
           },
           "verseKey": "job.5.9",
-          "cunp": "他行大事不可測度， 行奇事不可勝數：",
+          "nasb": "Who does great and unsearchable things, Wonders without number.",
           "words": [
             {
               "id": "hebrew-6213",
-              "eng": "who does"
+              "cht": "他行"
             },
             {
               "id": "hebrew-1419",
-              "eng": "great things"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and"
+              "cht": "大事"
             },
             {
               "id": "hebrew-2714",
-              "eng": "unsearchable",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "Marvelous things"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "outside"
+              "cht": "不可"
             },
             {
               "id": "hebrew-369",
-              "eng": "without"
+              "cht": "測度",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "行奇事"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "不可"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "勝"
             },
             {
               "id": "hebrew-4557",
-              "eng": "number",
-              "punct": "."
+              "cht": "數",
+              "punct_cht": "："
             }
           ]
         },
@@ -76,46 +87,42 @@
             "hebrew-4557": 1.5502252173863187
           },
           "verseKey": "job.36.26",
-          "cunp": "神為大，我們不能全知； 他的年數不能測度。",
+          "nasb": "Behold, God is exalted, and we do not know Him; The number of His years is unsearchable.",
           "words": [
             {
-              "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-410",
-              "eng": "God [is]"
+              "cht": "神"
             },
             {
               "id": "hebrew-7689",
-              "eng": "great",
-              "punct": "､"
+              "cht": "為大",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "我們不能"
             },
             {
               "id": "hebrew-3045",
-              "eng": "we do know [Him]"
-            },
-            {
-              "id": "hebrew-4557",
-              "eng": "the number"
+              "cht": "全知",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8141",
-              "eng": "of His years"
+              "cht": "他的年"
+            },
+            {
+              "id": "hebrew-4557",
+              "cht": "數"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "不能"
             },
             {
               "id": "hebrew-2714",
-              "eng": "can [be] discovered",
-              "punct": "."
+              "cht": "測度",
+              "punct_cht": "。"
             }
           ]
         },
@@ -127,38 +134,38 @@
             "hebrew-2714": 4.414215456672498
           },
           "verseKey": "psa.145.3",
-          "cunp": "耶和華本為大，該受大讚美； 其大無法測度。",
+          "nasb": "Great is the Lord, and highly to be praised, And His greatness is unsearchable.",
           "words": [
             {
-              "id": "hebrew-1419",
-              "eng": "Great [is]"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-1984",
-              "eng": "and to be praised",
-              "punct": "–"
+              "id": "hebrew-1419",
+              "cht": "本為大",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3966",
-              "eng": "greatly"
+              "cht": "該受大"
+            },
+            {
+              "id": "hebrew-1984",
+              "cht": "讚美",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1420",
-              "eng": "and His greatness [is]"
+              "cht": "其大"
             },
             {
               "id": "hebrew-369",
-              "eng": "not"
+              "cht": "無法"
             },
             {
               "id": "hebrew-2714",
-              "eng": "unsearchable",
-              "punct": "."
+              "cht": "測度",
+              "punct_cht": "。"
             }
           ]
         },
@@ -169,97 +176,102 @@
             "hebrew-2714": 4.414215456672498
           },
           "verseKey": "isa.40.28",
-          "cunp": "你豈不曾知道嗎？ 你豈不曾聽見嗎？ 永在的神耶和華，創造地極的主， 並不疲乏，也不困倦； 他的智慧無法測度。",
+          "nasb": "Do you not know? Have you not heard? The Everlasting God, the Lord, the Creator of the ends of the earth Does not become weary or tired. His understanding is inscrutable.",
           "words": [
             {
               "id": "hebrew-3808",
-              "eng": "Have not"
+              "cht": "你豈不"
             },
             {
               "id": "hebrew-3045",
-              "eng": "you known"
+              "cht": "曾知道"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-518",
-              "eng": "lo"
+              "cht": "你豈"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-8085",
-              "eng": "have you heard",
-              "punct": "､"
+              "cht": "曾聽見"
             },
             {
-              "id": "hebrew-430",
-              "eng": "the God",
-              "punct": "､"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "永在"
+            },
+            {
+              "id": "",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1254",
-              "eng": "the Creator"
-            },
-            {
-              "id": "hebrew-7098",
-              "eng": "of the ends"
+              "cht": "創造"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "､"
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-7098",
+              "cht": "極"
+            },
+            {
+              "id": "",
+              "cht": "的主",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "neither",
-              "punct": "､"
+              "cht": "並不"
             },
             {
               "id": "hebrew-3286",
-              "eng": "faints"
+              "cht": "疲乏",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-3021",
-              "eng": "is weary"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2714",
-              "eng": "is unsearchable"
+              "cht": "困倦",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8394",
-              "eng": "His understanding",
-              "punct": "."
+              "cht": "他的智慧"
             },
             {
-              "id": ""
+              "id": "hebrew-369",
+              "cht": "無法"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-2714",
+              "cht": "測度",
+              "punct_cht": "。"
             }
           ]
         },
@@ -270,45 +282,46 @@
             "hebrew-2714": 4.414215456672498
           },
           "verseKey": "pro.25.3",
-          "cunp": "天之高，地之厚， 君王之心也測不透。",
+          "nasb": "As the heavens for height and the earth for depth, So the heart of kings is unsearchable.",
           "words": [
             {
               "id": "hebrew-8064",
-              "eng": "[As] the heavens"
+              "cht": "天"
             },
             {
               "id": "hebrew-7312",
-              "eng": "for height",
-              "punct": "､"
+              "cht": "之高",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "and the earth"
+              "cht": "地"
             },
             {
               "id": "hebrew-6011",
-              "eng": "for depth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "so the heart"
+              "cht": "之厚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of kings"
+              "cht": "君王"
             },
             {
-              "id": "hebrew-369",
-              "eng": "unsearchable"
+              "id": "hebrew-3820",
+              "cht": "之心"
             },
             {
               "id": "hebrew-2714",
-              "eng": "[is] unsearchable",
-              "punct": "."
+              "cht": "也測"
             },
             {
-              "id": ""
+              "id": "hebrew-369",
+              "cht": "不"
+            },
+            {
+              "id": "",
+              "cht": "透",
+              "punct_cht": "。"
             }
           ]
         },
@@ -319,66 +332,65 @@
             "hebrew-2714": 4.414215456672498
           },
           "verseKey": "jdg.5.16",
-          "cunp": "你為何坐在羊圈內 聽羣中吹笛的聲音呢？ 在呂便的溪水旁有心中設大謀的。",
+          "nasb": "Why did you sit among the sheepfolds, To hear the piping for the flocks? Among the divisions of Reuben There were great searchings of heart.",
           "words": [
             {
               "id": "hebrew-4100",
-              "eng": "Why"
+              "cht": "你為何"
             },
             {
               "id": "hebrew-3427",
-              "eng": "did you sit"
+              "cht": "坐"
             },
             {
               "id": "hebrew-996",
-              "eng": "among"
+              "cht": "在"
             },
             {
               "id": "hebrew-4942",
-              "eng": "the sheepfolds",
-              "punct": "､"
+              "cht": "羊圈內"
             },
             {
               "id": "hebrew-8085",
-              "eng": "to hear"
-            },
-            {
-              "id": "hebrew-8292",
-              "eng": "the pipings for"
+              "cht": "聽"
             },
             {
               "id": "hebrew-5739",
-              "eng": "the flocks"
+              "cht": "群"
             },
             {
-              "id": "hebrew-6391",
-              "eng": "the divisions"
+              "id": "hebrew-8292",
+              "cht": "中吹笛"
+            },
+            {
+              "id": "",
+              "cht": "的聲音呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-7205",
-              "eng": "of Reuben"
+              "cht": "在流便"
             },
             {
-              "id": "hebrew-1419",
-              "eng": "great"
-            },
-            {
-              "id": "hebrew-2714",
-              "eng": "have searchings"
+              "id": "hebrew-6390",
+              "cht": "的溪水"
             },
             {
               "id": "hebrew-3820",
-              "eng": "of heart",
-              "punct": "."
+              "cht": "旁有心"
             },
             {
-              "id": ""
+              "id": "hebrew-1419",
+              "cht": "中設大"
             },
             {
-              "id": "hebrew-6390"
+              "id": "hebrew-2714",
+              "cht": "謀"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -388,81 +400,72 @@
             "hebrew-6381": 2.407639909866712
           },
           "verseKey": "isa.29.14",
-          "cunp": "所以，我在這百姓中要行奇妙的事， 就是奇妙又奇妙的事。 他們智慧人的智慧必然消滅， 聰明人的聰明必然隱藏。",
+          "nasb": "Therefore behold, I will once again deal marvelously with this people, wondrously marvelous; And the wisdom of their wise men will perish, And the discernment of their discerning men will be concealed.”",
           "words": [
             {
               "id": "hebrew-3651",
-              "eng": "Therefore",
-              "punct": "､"
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2005",
-              "eng": "behold I"
+              "id": "hebrew-2009",
+              "cht": "我"
             },
             {
-              "id": "hebrew-3254",
-              "eng": "will again"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "do a marvelous work"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "among"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "Among people",
-              "punct": "､"
+              "id": "hebrew-853",
+              "cht": "在"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "這"
             },
             {
-              "id": "hebrew-6381",
-              "eng": "a marvelous work"
+              "id": "hebrew-5971",
+              "cht": "百姓"
+            },
+            {
+              "id": "hebrew-3254",
+              "cht": "中要行"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "奇妙的事",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6382",
-              "eng": "and a wonder",
-              "punct": "–"
+              "cht": "就是奇妙"
             },
             {
-              "id": "hebrew-6",
-              "eng": "for shall perish",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "the wisdom"
+              "id": "hebrew-6381",
+              "cht": "又奇妙的事",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2450",
-              "eng": "of their wise [men]"
+              "cht": "他們智慧人"
             },
             {
-              "id": "hebrew-998",
-              "eng": "and the understanding"
+              "id": "hebrew-2451",
+              "cht": "的智慧"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "必然消滅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-995",
-              "eng": "of their prudent [men]"
+              "cht": "聰明人"
+            },
+            {
+              "id": "hebrew-998",
+              "cht": "的聰明"
             },
             {
               "id": "hebrew-5641",
-              "eng": "shall be hidden",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-2009"
-            },
-            {
-              "id": "hebrew-853"
-            },
-            {
-              "id": "hebrew-1931"
+              "cht": "必然隱藏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -472,91 +475,80 @@
             "hebrew-6381": 2.407639909866712
           },
           "verseKey": "zec.8.6",
-          "cunp": "萬軍之耶和華如此說：到那日，這事在餘剩的民眼中看為希奇，在我眼中也看為希奇嗎？這是萬軍之耶和華說的。",
+          "nasb": "Thus says the Lord of hosts, ‘If it is too difficult in the sight of the remnant of this people in those days, will it also be too difficult in My sight?’ declares the Lord of hosts.",
           "words": [
             {
+              "id": "hebrew-6635",
+              "cht": "萬軍"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "Thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "if"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "it is marvelous"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "in the eyes"
-            },
-            {
-              "id": "hebrew-7611",
-              "eng": "of the remnant"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of people"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in days",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1992",
-              "eng": "those"
+              "cht": "到那"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "also"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7611",
+              "cht": "這事在餘剩的"
+            },
+            {
+              "id": "hebrew-5971",
+              "cht": "民"
             },
             {
               "id": "hebrew-5869",
-              "eng": "in My eyes"
+              "cht": "眼"
             },
             {
               "id": "hebrew-6381",
-              "eng": "will it be marvelous"
+              "cht": "中看為希奇",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-5869",
+              "cht": "在我眼"
             },
             {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
+              "id": "hebrew-1571",
+              "cht": "中也"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "看為希奇"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-6635",
-              "eng": "of hosts",
-              "punct": "."
+              "cht": "這是萬軍"
             },
             {
-              "id": "hebrew-3068"
+              "id": "hebrew-3068",
+              "cht": "之耶和華"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -566,105 +558,80 @@
             "hebrew-4557": 1.5502252173863187
           },
           "verseKey": "rev.13.18",
-          "cunp": "在這裏有智慧：凡有聰明的，可以算計獸的數目；因為這是人的數目，它的數目是六百六十六。",
+          "nasb": "Here is wisdom. Let him who has understanding calculate the number of the beast, for the number is that of a man; and his number is six hundred and sixty-six.",
           "words": [
             {
               "id": "greek-5602",
-              "eng": "Here"
+              "cht": "在這裡"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2076",
+              "cht": "有"
             },
             {
               "id": "greek-4678",
-              "eng": "wisdom"
-            },
-            {
-              "id": "greek-2076",
-              "eng": "is",
-              "punct": "."
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The [one]"
+              "cht": "智慧",
+              "punct_cht": "："
             },
             {
               "id": "greek-2192",
-              "eng": "having"
+              "cht": "凡有"
             },
             {
               "id": "greek-3563",
-              "eng": "understanding",
-              "punct": ","
+              "cht": "聰明的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5585",
-              "eng": "let him count"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-706",
-              "eng": "number"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "可以算計"
             },
             {
               "id": "greek-2342",
-              "eng": "beast",
-              "punct": ";"
+              "cht": "獸"
             },
             {
               "id": "greek-706",
-              "eng": "number"
+              "cht": "的數目",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-444",
-              "eng": "a man’s"
+              "cht": "因為"
             },
             {
               "id": "greek-2076",
-              "eng": "it is",
-              "punct": ","
+              "cht": "這是"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-444",
+              "cht": "人的"
             },
             {
               "id": "greek-706",
-              "eng": "number [is]"
+              "cht": "數目",
+              "punct_cht": "，"
             },
             {
               "id": "greek-846",
-              "eng": "of it",
-              "punct": ","
+              "cht": "它的"
+            },
+            {
+              "id": "greek-706",
+              "cht": "數目"
             },
             {
               "id": "greek-1812",
-              "eng": "six hundred"
+              "cht": "是六百"
             },
             {
               "id": "greek-1835",
-              "eng": "sixty"
+              "cht": "六十"
             },
             {
               "id": "greek-1803",
-              "eng": "six",
-              "punct": "."
+              "cht": "六",
+              "punct_cht": "。"
             }
           ]
         },
@@ -674,84 +641,67 @@
             "hebrew-2714": 4.414215456672498
           },
           "verseKey": "rom.11.33",
-          "cunp": "深哉，神豐富的智慧和知識！ 他的判斷何其難測！ 他的蹤跡何其難尋！",
+          "nasb": "Oh, the depth of the riches both of the wisdom and knowledge of God! How unsearchable are His judgments and unfathomable His ways!",
           "words": [
             {
-              "id": "greek-5599",
-              "eng": "O",
-              "punct": ","
-            },
-            {
               "id": "greek-899",
-              "eng": "[the] depth"
+              "cht": "深"
             },
             {
-              "id": "greek-4149",
-              "eng": "of riches",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "both"
-            },
-            {
-              "id": "greek-4678",
-              "eng": "of wisdom"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1108",
-              "eng": "knowledge"
+              "id": "greek-5599",
+              "cht": "哉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2316",
-              "eng": "of God",
-              "punct": "!"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "How"
-            },
-            {
-              "id": "greek-419",
-              "eng": "unsearchable"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2917",
-              "eng": "judgments"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": ","
+              "cht": "神"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "豐富的"
             },
             {
-              "id": "greek-421",
-              "eng": "untraceable"
+              "id": "greek-4678",
+              "cht": "智慧"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2532",
+              "cht": "和"
             },
             {
-              "id": "greek-3598",
-              "eng": "ways"
+              "id": "greek-1108",
+              "cht": "知識",
+              "punct_cht": "！"
             },
             {
               "id": "greek-846",
-              "eng": "of Him",
-              "punct": "!"
+              "cht": "他的"
+            },
+            {
+              "id": "greek-2917",
+              "cht": "判斷"
+            },
+            {
+              "id": "greek-5613",
+              "cht": "何其"
+            },
+            {
+              "id": "greek-419",
+              "cht": "難測",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他的"
+            },
+            {
+              "id": "greek-3598",
+              "cht": "蹤跡"
+            },
+            {
+              "id": "greek-421",
+              "cht": "何其難尋",
+              "punct_cht": "！"
             }
           ]
         }

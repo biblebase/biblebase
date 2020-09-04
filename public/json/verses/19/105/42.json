@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "For",
-          "hebrew-2142": "He remembered",
-          "hebrew-853": "-",
-          "hebrew-1697": "promise",
-          "hebrew-6944": "His holy",
-          "hebrew-85": "[And] Abraham",
-          "hebrew-5650": "His servant"
+          "eng": {
+            "hebrew-3588": "For",
+            "hebrew-2142": "He remembered",
+            "hebrew-853": "-",
+            "hebrew-1697": "promise",
+            "hebrew-6944": "His holy",
+            "hebrew-85": "[And] Abraham",
+            "hebrew-5650": "His servant"
+          },
+          "cht": {
+            "hebrew-3588": "這都因",
+            "hebrew-2142": "他記念",
+            "hebrew-853": "和",
+            "hebrew-1697": "言",
+            "hebrew-6944": "他的聖",
+            "hebrew-85": "亞伯拉罕",
+            "hebrew-5650": "他的僕人"
+          }
         }
       },
       "translations": {
@@ -27,71 +38,47 @@
             "hebrew-85": 1.1711830524090032
           },
           "verseKey": "lev.26.42",
-          "cunp": "我就要記念我與雅各所立的約，與以撒所立的約，與亞伯拉罕所立的約，並要記念這地。",
+          "nasb": "then I will remember My covenant with Jacob, and I will remember also My covenant with Isaac, and My covenant with Abraham as well, and I will remember the land.",
           "words": [
             {
               "id": "hebrew-2142",
-              "eng": "then I will remember"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1285",
-              "eng": "My covenant"
+              "cht": "我就要記念"
             },
             {
               "id": "hebrew-3290",
-              "eng": "with Jacob",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "我與雅各"
             },
             {
               "id": "hebrew-1285",
-              "eng": "My covenant"
+              "cht": "所立的約",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3327",
-              "eng": "with Isaac",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-637",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "與以撒"
             },
             {
               "id": "hebrew-1285",
-              "eng": "My covenant"
+              "cht": "所立的約",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-85",
-              "eng": "with Abraham"
+              "cht": "與亞伯拉罕"
+            },
+            {
+              "id": "hebrew-1285",
+              "cht": "所立的約",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2142",
-              "eng": "I will remember",
-              "punct": "–"
+              "cht": "並要記念"
             },
             {
               "id": "hebrew-776",
-              "eng": "and the land"
-            },
-            {
-              "id": "hebrew-2142",
-              "eng": "I will remember",
-              "punct": "."
+              "cht": "這地",
+              "punct_cht": "。"
             }
           ]
         },
@@ -101,110 +88,68 @@
             "hebrew-85": 1.1711830524090032
           },
           "verseKey": "jhn.8.39",
-          "cunp": "他們說：「我們的父就是亞伯拉罕。」耶穌說：「你們若是亞伯拉罕的兒子，就必行亞伯拉罕所行的事。",
+          "nasb": "They answered and said to Him, “Abraham is our father.” Jesus *said to them, “If you are Abraham’s children, do the deeds of Abraham.",
           "words": [
             {
               "id": "greek-611",
-              "eng": "They answered"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "said"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to Him",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
-              "id": "greek-3962",
-              "eng": "father"
+              "cht": "他們說",
+              "punct_cht": "："
             },
             {
               "id": "greek-2257",
-              "eng": "of us"
+              "cht": "我們的"
             },
             {
-              "id": "greek-11",
-              "eng": "Abraham"
+              "id": "greek-3962",
+              "cht": "父"
             },
             {
               "id": "greek-2076",
-              "eng": "is",
-              "punct": "."
+              "cht": "就是"
             },
             {
-              "id": "greek-3004",
-              "eng": "Says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-11",
+              "cht": "亞伯拉罕",
+              "punct_cht": "。"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-846",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1487",
-              "eng": "If"
+              "cht": "你們若"
+            },
+            {
+              "id": "greek-2258",
+              "cht": "是"
+            },
+            {
+              "id": "greek-11",
+              "cht": "亞伯拉罕"
             },
             {
               "id": "greek-5043",
-              "eng": "children"
+              "cht": "的兒子",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-302",
+              "cht": "就必行"
             },
             {
               "id": "greek-11",
-              "eng": "of Abraham"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "you were",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "亞伯拉罕"
             },
             {
               "id": "greek-2041",
-              "eng": "works"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-11",
-              "eng": "of Abraham"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "you would do",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2258"
-            },
-            {
-              "id": "greek-302"
+              "cht": "所行的事",
+              "punct_cht": "。"
             }
           ]
         },
@@ -215,65 +160,57 @@
             "hebrew-85": 1.1711830524090032
           },
           "verseKey": "gen.22.1",
-          "cunp": "這些事以後，神要試驗亞伯拉罕，就呼叫他說：「亞伯拉罕！」他說：「我在這裏。」",
+          "nasb": "Now it came about after these things, that God tested Abraham, and said to him, “Abraham!” And he said, “Here I am.”",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "And it came to pass"
-            },
-            {
-              "id": "hebrew-310",
-              "eng": "after"
+              "id": "hebrew-428",
+              "cht": "這些"
             },
             {
               "id": "hebrew-1697",
-              "eng": "things"
+              "cht": "事"
             },
             {
-              "id": "hebrew-428",
-              "eng": "these",
-              "punct": "､"
+              "id": "hebrew-310",
+              "cht": "以後",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "that God"
+              "cht": "神"
             },
             {
               "id": "hebrew-5254",
-              "eng": "tested"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "要試驗"
             },
             {
               "id": "hebrew-85",
-              "eng": "Abraham",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and said"
+              "cht": "亞伯拉罕",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-413",
-              "eng": "to him",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-85",
-              "eng": "Abraham",
-              "punct": "!"
+              "cht": "就呼叫他"
             },
             {
               "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
+            },
+            {
+              "id": "hebrew-85",
+              "cht": "亞伯拉罕",
+              "punct_cht": "！」"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "他說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-2009",
-              "eng": "Here I am",
-              "punct": "."
+              "cht": "我在這裡",
+              "punct_cht": "。」"
             }
           ]
         }

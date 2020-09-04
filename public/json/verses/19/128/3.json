@@ -3,16 +3,30 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-802": "Your wife [shall be]",
-          "hebrew-1612": "like a vine",
-          "hebrew-6509": "fruitful",
-          "hebrew-3411": "in the very heart",
-          "hebrew-1004": "of your house",
-          "hebrew-1121": "Your children",
-          "hebrew-8363": "like plants",
-          "hebrew-2132": "olive",
-          "hebrew-5439": "all around",
-          "hebrew-7979": "your table"
+          "eng": {
+            "hebrew-802": "Your wife [shall be]",
+            "hebrew-1612": "like a vine",
+            "hebrew-6509": "fruitful",
+            "hebrew-3411": "in the very heart",
+            "hebrew-1004": "of your house",
+            "hebrew-1121": "Your children",
+            "hebrew-8363": "like plants",
+            "hebrew-2132": "olive",
+            "hebrew-5439": "all around",
+            "hebrew-7979": "your table"
+          },
+          "cht": {
+            "hebrew-802": "你妻子",
+            "hebrew-1612": "葡萄樹",
+            "hebrew-6509": "好像多結果子的",
+            "hebrew-3411": "在你的內",
+            "hebrew-1004": "室",
+            "hebrew-1121": "你兒女",
+            "hebrew-8363": "栽子",
+            "hebrew-2132": "好像橄欖",
+            "hebrew-5439": "圍繞",
+            "hebrew-7979": "你的桌子"
+          }
         }
       },
       "translations": {
@@ -33,57 +47,58 @@
             "hebrew-1121": 0.3213801148138742
           },
           "verseKey": "gen.49.22",
-          "cunp": "約瑟是多結果子的樹枝， 是泉旁多結果的枝子； 他的枝條探出牆外。",
+          "nasb": "“Joseph is a fruitful bough, A fruitful bough by a spring; Its  branches run over a wall.",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "Vine"
-            },
-            {
-              "id": "hebrew-6509",
-              "eng": "a fruitful"
-            },
-            {
               "id": "hebrew-3130",
-              "eng": "Joseph [is]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "vine"
+              "cht": "約瑟"
             },
             {
               "id": "hebrew-6509",
-              "eng": "a fruitful"
+              "cht": "是多結果子"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "by"
+              "id": "hebrew-1121",
+              "cht": "的樹枝",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5869",
-              "eng": "a well",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "his branches"
-            },
-            {
-              "id": "hebrew-6805",
-              "eng": "run"
+              "cht": "是泉"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over"
+              "cht": "旁"
+            },
+            {
+              "id": "hebrew-6509",
+              "cht": "多結果"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的枝子",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "他的枝條"
+            },
+            {
+              "id": "hebrew-6805",
+              "cht": "探"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "出"
             },
             {
               "id": "hebrew-7791",
-              "eng": "the wall",
-              "punct": "."
+              "cht": "牆"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "外",
+              "punct_cht": "。"
             }
           ]
         },
@@ -94,84 +109,87 @@
             "hebrew-2132": 2.4756200969099407
           },
           "verseKey": "isa.17.6",
-          "cunp": "其間所剩下的不多，好像人打橄欖樹－ 在儘上的枝梢上只剩兩三個果子； 在多果樹的旁枝上只剩四五個果子。 這是耶和華－以色列的神說的。",
+          "nasb": "Yet gleanings will be left in it like the shaking of an olive tree, Two or three olives on the topmost bough, Four or five on the branches of a fruitful tree, Declares the Lord, the God of Israel.",
           "words": [
             {
               "id": "hebrew-7604",
-              "eng": "And yet will be left"
+              "cht": "所剩下的"
             },
             {
               "id": "hebrew-5955",
-              "eng": "gleaning grapes"
+              "cht": "不多",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5363",
-              "eng": "Like the shaking"
+              "cht": "好像人打"
             },
             {
               "id": "hebrew-2132",
-              "eng": "of an olive tree",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8147",
-              "eng": "two"
-            },
-            {
-              "id": "hebrew-7969",
-              "eng": "[or] three"
-            },
-            {
-              "id": "hebrew-1620",
-              "eng": "olives"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "at the top"
+              "cht": "橄欖樹─"
             },
             {
               "id": "hebrew-534",
-              "eng": "of the uppermost bough",
-              "punct": "､"
+              "cht": "在儘上的"
             },
             {
-              "id": "hebrew-702",
-              "eng": "four"
+              "id": "hebrew-7218",
+              "cht": "枝梢上"
             },
             {
-              "id": "hebrew-2568",
-              "eng": "[or] five"
+              "id": "hebrew-8147",
+              "cht": "只剩兩"
             },
             {
-              "id": "hebrew-5585",
-              "eng": "in its most branches"
+              "id": "hebrew-7969",
+              "cht": "三個"
+            },
+            {
+              "id": "hebrew-1620",
+              "cht": "果子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6509",
-              "eng": "fruitful"
+              "cht": "在多果樹的"
             },
             {
-              "id": "hebrew-5002",
-              "eng": "says"
+              "id": "hebrew-5585",
+              "cht": "旁枝上"
+            },
+            {
+              "id": "hebrew-702",
+              "cht": "只剩四"
+            },
+            {
+              "id": "hebrew-2568",
+              "cht": "五個"
+            },
+            {
+              "id": "",
+              "cht": "果子",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "God"
+              "cht": "這是耶和華─"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的"
             },
             {
-              "id": ""
+              "id": "hebrew-430",
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-5002",
+              "cht": "說的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -182,66 +200,69 @@
             "hebrew-6509": 3.1769789830261015
           },
           "verseKey": "ezk.19.10",
-          "cunp": "你的母親先前如葡萄樹， 極其茂盛，栽於水旁。 因為水多， 就多結果子，滿生枝子；",
+          "nasb": "Your mother was like a vine in your vineyard, Planted by the waters; It was fruitful and full of branches Because of abundant waters.",
           "words": [
             {
               "id": "hebrew-517",
-              "eng": "Your mother [was]"
+              "cht": "你的母親"
             },
             {
               "id": "hebrew-1612",
-              "eng": "like a vine"
+              "cht": "先前如葡萄樹"
+            },
+            {
+              "id": "",
+              "cht": "極其茂盛（",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1818",
-              "eng": "in your bloodline",
-              "punct": "､"
+              "cht": "原文是在你血"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "by"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "the waters",
-              "punct": "–"
+              "id": "",
+              "cht": "中）",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8362",
-              "eng": "Planted"
+              "cht": "栽"
             },
             {
-              "id": "hebrew-6509",
-              "eng": "Fruitful"
-            },
-            {
-              "id": "hebrew-6058",
-              "eng": "and full of branches"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "she was"
+              "id": "hebrew-5921",
+              "cht": "於"
             },
             {
               "id": "hebrew-4325",
-              "eng": "because of waters"
+              "cht": "水"
+            },
+            {
+              "id": "",
+              "cht": "旁",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "因為水"
             },
             {
               "id": "hebrew-7227",
-              "eng": "many",
-              "punct": "."
+              "cht": "多",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-1961",
+              "cht": "就"
             },
             {
-              "id": ""
+              "id": "hebrew-6509",
+              "cht": "多結果子",
+              "punct_cht": "，"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-6058",
+              "cht": "滿生枝子",
+              "punct_cht": "；"
             }
           ]
         },
@@ -252,46 +273,45 @@
             "hebrew-6509": 3.1769789830261015
           },
           "verseKey": "isa.32.12",
-          "cunp": "她們必為美好的田地 和多結果的葡萄樹，搥胸哀哭。",
+          "nasb": "Beat your breasts for the pleasant fields, for the fruitful vine,",
           "words": [
             {
               "id": "hebrew-5921",
-              "eng": "Upon"
-            },
-            {
-              "id": "hebrew-7699",
-              "eng": "their breasts",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5594",
-              "eng": "People shall mourn"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7704",
-              "eng": "the fields",
-              "punct": "､"
+              "cht": "她們必為"
             },
             {
               "id": "hebrew-2531",
-              "eng": "pleasant"
+              "cht": "美好的"
+            },
+            {
+              "id": "hebrew-7704",
+              "cht": "田地"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-1612",
-              "eng": "the vine"
+              "cht": "和"
             },
             {
               "id": "hebrew-6509",
-              "eng": "fruitful",
-              "punct": "."
+              "cht": "多結果的"
+            },
+            {
+              "id": "hebrew-1612",
+              "cht": "葡萄樹",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "搥"
+            },
+            {
+              "id": "hebrew-7699",
+              "cht": "胸"
+            },
+            {
+              "id": "hebrew-5594",
+              "cht": "哀哭",
+              "punct_cht": "。"
             }
           ]
         },
@@ -301,133 +321,121 @@
             "hebrew-2132": 2.4756200969099407
           },
           "verseKey": "zec.14.4",
-          "cunp": "那日，他的腳必站在耶路撒冷前面朝東的橄欖山上。這山必從中間分裂，自東至西成為極大的谷。山的一半向北挪移，一半向南挪移。",
+          "nasb": "In that day His feet will stand on the Mount of Olives, which is in front of Jerusalem on the east; and the Mount of Olives will be split in its middle from east to west by a very large valley, so that half of the mountain will move toward the north and the other half toward the south.",
           "words": [
             {
-              "id": "hebrew-5975",
-              "eng": "And will stand"
-            },
-            {
-              "id": "hebrew-7272",
-              "eng": "His feet"
+              "id": "hebrew-1931",
+              "cht": "那"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in day"
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-7272",
+              "cht": "他的腳"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the Mount"
-            },
-            {
-              "id": "hebrew-2132",
-              "eng": "of Olives",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
+              "id": "hebrew-5975",
+              "cht": "必站"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-6440",
-              "eng": "faces"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "Jerusalem"
+              "cht": "前面"
             },
             {
               "id": "hebrew-6924",
-              "eng": "on the east",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1234",
-              "eng": "and shall be split"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the Mount"
+              "cht": "朝東"
             },
             {
               "id": "hebrew-2132",
-              "eng": "of Olives"
-            },
-            {
-              "id": "hebrew-2677",
-              "eng": "in two"
-            },
-            {
-              "id": "hebrew-4217",
-              "eng": "from east"
-            },
-            {
-              "id": "hebrew-3220",
-              "eng": "and to west",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1516",
-              "eng": "[Making] a valley",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "large"
-            },
-            {
-              "id": "hebrew-3966",
-              "eng": "very"
-            },
-            {
-              "id": "hebrew-4185",
-              "eng": "and shall move"
-            },
-            {
-              "id": "hebrew-2677",
-              "eng": "Half"
+              "cht": "的橄欖"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the mountain"
+              "cht": "山"
             },
             {
-              "id": "hebrew-6828",
-              "eng": "toward the north",
-              "punct": "､"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2132",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山"
             },
             {
               "id": "hebrew-2677",
-              "eng": "and half of it"
+              "cht": "必從中間"
+            },
+            {
+              "id": "hebrew-1234",
+              "cht": "分裂",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4217",
+              "cht": "自東"
+            },
+            {
+              "id": "hebrew-3220",
+              "cht": "至西"
+            },
+            {
+              "id": "hebrew-3966",
+              "cht": "成為極"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "大"
+            },
+            {
+              "id": "hebrew-1516",
+              "cht": "的谷",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山"
+            },
+            {
+              "id": "hebrew-2677",
+              "cht": "的一半"
+            },
+            {
+              "id": "hebrew-6828",
+              "cht": "向北"
+            },
+            {
+              "id": "hebrew-4185",
+              "cht": "挪移",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2677",
+              "cht": "一半"
             },
             {
               "id": "hebrew-5045",
-              "eng": "toward the south",
-              "punct": "."
+              "cht": "向南"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "挪移",
+              "punct_cht": "。"
             }
           ]
         },
@@ -438,96 +446,93 @@
             "hebrew-2132": 2.4756200969099407
           },
           "verseKey": "hab.3.17",
-          "cunp": "雖然無花果樹不發旺， 葡萄樹不結果， 橄欖樹也不效力， 田地不出糧食， 圈中絕了羊， 棚內也沒有牛；",
+          "nasb": "Though the fig tree should not blossom And there be no fruit on the vines, Though the yield of the olive should fail And the fields produce no food, Though the flock should be cut off from the fold And there be no cattle in the stalls,",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "Though"
+              "cht": "雖然"
             },
             {
               "id": "hebrew-8384",
-              "eng": "the fig tree"
+              "cht": "無花果樹"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-6524",
-              "eng": "may blossom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-2981",
-              "eng": "fruit be"
+              "cht": "發旺",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1612",
-              "eng": "on the vines",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3584",
-              "eng": "Though may fail",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "the labor"
-            },
-            {
-              "id": "hebrew-2132",
-              "eng": "of the olive"
-            },
-            {
-              "id": "hebrew-7709",
-              "eng": "and the fields"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "yield"
-            },
-            {
-              "id": "hebrew-400",
-              "eng": "food",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1504",
-              "eng": "Though may be cut off"
-            },
-            {
-              "id": "hebrew-4356",
-              "eng": "from the fold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "the flock"
+              "cht": "葡萄樹"
             },
             {
               "id": "hebrew-369",
-              "eng": "and there be no"
+              "cht": "不"
             },
             {
-              "id": "hebrew-1241",
-              "eng": "herd"
+              "id": "hebrew-2981",
+              "cht": "結果",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2132",
+              "cht": "橄欖樹"
+            },
+            {
+              "id": "hebrew-3584",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "效力",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7709",
+              "cht": "田地"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "出"
+            },
+            {
+              "id": "hebrew-400",
+              "cht": "糧食",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "圈中"
+            },
+            {
+              "id": "hebrew-1504",
+              "cht": "絕了"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "羊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7517",
-              "eng": "in the stalls",
-              "punct": "､"
+              "cht": "棚內"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-369",
+              "cht": "也沒有"
+            },
+            {
+              "id": "hebrew-1241",
+              "cht": "牛",
+              "punct_cht": "；"
             }
           ]
         },
@@ -538,85 +543,83 @@
             "hebrew-2132": 2.4756200969099407
           },
           "verseKey": "hag.2.19",
-          "cunp": "倉裏有穀種嗎？葡萄樹、無花果樹、石榴樹、橄欖樹都沒有結果子。從今日起，我必賜福與你們。",
+          "nasb": "Is the seed still in the barn? Even including the vine, the fig tree, the pomegranate and the olive tree, it has not borne fruit. Yet from this day on I will bless you.’ ”",
           "words": [
             {
+              "id": "hebrew-4035",
+              "cht": "倉裡"
+            },
+            {
               "id": "hebrew-5750",
-              "eng": "Is still"
+              "cht": "有"
             },
             {
               "id": "hebrew-2233",
-              "eng": "the seed"
+              "cht": "穀種"
             },
             {
-              "id": "hebrew-4035",
-              "eng": "in the barn"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "and as yet"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-1612",
-              "eng": "the vine",
-              "punct": "､"
+              "cht": "葡萄樹、"
             },
             {
               "id": "hebrew-8384",
-              "eng": "and the fig tree",
-              "punct": "､"
+              "cht": "無花果樹、"
             },
             {
               "id": "hebrew-7416",
-              "eng": "and the pomegranate",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "and tree",
-              "punct": "､"
+              "cht": "石榴樹、"
             },
             {
               "id": "hebrew-2132",
-              "eng": "the olive"
+              "cht": "橄欖"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "樹"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "都沒有"
             },
             {
               "id": "hebrew-5375",
-              "eng": "have yielded [fruit]",
-              "punct": "–"
+              "cht": "結"
+            },
+            {
+              "id": "",
+              "cht": "果子",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-4480",
-              "eng": "[But] from"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day"
+              "cht": "從"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "今"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "",
+              "cht": "起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1288",
-              "eng": "I will bless [you]",
-              "punct": "."
+              "cht": "我必賜福"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "與你們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -627,57 +630,45 @@
             "hebrew-2132": 2.4756200969099407
           },
           "verseKey": "deu.8.8",
-          "cunp": "那地有小麥、大麥、葡萄樹、無花果樹、石榴樹、橄欖樹，和蜜。",
+          "nasb": "a land of wheat and barley, of vines and fig trees and pomegranates, a land of olive oil and honey;",
           "words": [
             {
               "id": "hebrew-776",
-              "eng": "a land"
+              "cht": "那地"
             },
             {
               "id": "hebrew-2406",
-              "eng": "of wheat",
-              "punct": "､"
+              "cht": "有小麥、"
             },
             {
               "id": "hebrew-8184",
-              "eng": "and barley",
-              "punct": "､"
+              "cht": "大麥、"
             },
             {
               "id": "hebrew-1612",
-              "eng": "and of vines",
-              "punct": "､"
+              "cht": "葡萄樹、"
             },
             {
               "id": "hebrew-8384",
-              "eng": "and fig trees",
-              "punct": "､"
+              "cht": "無花果樹、"
             },
             {
               "id": "hebrew-7416",
-              "eng": "and pomegranates",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "a land"
+              "cht": "石榴樹、"
             },
             {
               "id": "hebrew-2132",
-              "eng": "of olive",
-              "punct": "､"
+              "cht": "橄欖"
             },
             {
-              "id": "hebrew-8081",
-              "eng": "oil"
+              "id": "",
+              "cht": "樹",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1706",
-              "eng": "and honey",
-              "punct": "–"
-            },
-            {
-              "id": ""
+              "cht": "和蜜",
+              "punct_cht": "。"
             }
           ]
         },
@@ -688,89 +679,75 @@
             "hebrew-2132": 2.4756200969099407
           },
           "verseKey": "jas.3.12",
-          "cunp": "我的弟兄們，無花果樹能生橄欖嗎？葡萄樹能結無花果嗎？鹹水裏也不能發出甜水來。",
+          "nasb": "Can a fig tree, my brethren, produce olives, or a vine produce figs? Nor can salt water produce fresh.",
           "words": [
             {
-              "id": "greek-3361",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-1410",
-              "eng": "is able",
-              "punct": ","
+              "id": "greek-3450",
+              "cht": "我的"
             },
             {
               "id": "greek-80",
-              "eng": "brothers"
-            },
-            {
-              "id": "greek-3450",
-              "eng": "of me",
-              "punct": ","
+              "cht": "弟兄們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4808",
-              "eng": "a fig tree"
+              "cht": "無花果樹"
+            },
+            {
+              "id": "greek-1410",
+              "cht": "能"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "生"
             },
             {
               "id": "greek-1636",
-              "eng": "olives"
+              "cht": "橄欖"
             },
             {
-              "id": "greek-4160",
-              "eng": "to produce",
-              "punct": "?"
-            },
-            {
-              "id": "greek-2228",
-              "eng": "Or"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "greek-288",
-              "eng": "a vine",
-              "punct": ","
+              "cht": "葡萄樹"
             },
             {
               "id": "greek-4810",
-              "eng": "figs",
-              "punct": "?"
+              "cht": "能結無花果"
             },
             {
-              "id": "greek-3777",
-              "eng": "Nor"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "greek-252",
-              "eng": "a salt [spring]",
-              "punct": ","
-            },
-            {
-              "id": "greek-1099",
-              "eng": "fresh"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "to produce"
+              "cht": "鹹"
             },
             {
               "id": "greek-5204",
-              "eng": "water",
-              "punct": "."
+              "cht": "水"
             },
             {
-              "id": ""
+              "id": "greek-3762",
+              "cht": "裡也不能"
             },
             {
-              "id": ""
+              "id": "greek-4160",
+              "cht": "發出"
             },
             {
-              "id": "greek-3762"
+              "id": "greek-1099",
+              "cht": "甜"
             },
             {
-              "id": "greek-2532"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "水來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -781,33 +758,35 @@
             "hebrew-2132": 2.4756200969099407
           },
           "verseKey": "job.15.33",
-          "cunp": "他必像葡萄樹的葡萄，未熟而落； 又像橄欖樹的花，一開而謝。",
+          "nasb": "He will drop off his unripe grape like the vine, And will cast off his flower like the olive tree.",
           "words": [
             {
-              "id": "hebrew-2554",
-              "eng": "He will shake off"
-            },
-            {
               "id": "hebrew-1612",
-              "eng": "like a vine",
-              "punct": "､"
+              "cht": "他必像葡萄樹的葡萄",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1154",
-              "eng": "his unripe grape"
+              "cht": "未熟"
             },
             {
-              "id": "hebrew-7993",
-              "eng": "and cast off"
+              "id": "hebrew-2554",
+              "cht": "而落",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2132",
-              "eng": "like an olive tree"
+              "cht": "又像橄欖樹"
             },
             {
               "id": "hebrew-5328",
-              "eng": "his blossom",
-              "punct": "."
+              "cht": "的花",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7993",
+              "cht": "一開而謝",
+              "punct_cht": "。"
             }
           ]
         }

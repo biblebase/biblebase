@@ -3,19 +3,35 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7121": "So called for",
-          "hebrew-4428": "the king",
-          "hebrew-4714": "of Egypt",
-          "hebrew-3205": "the midwives",
-          "hebrew-559": "and said",
-          "hebrew-4069": "why",
-          "hebrew-6213": "have you done",
-          "hebrew-1697": "thing",
-          "hebrew-2088": "this",
-          "hebrew-2421": null,
-          "hebrew-853": "-",
-          "hebrew-3206": "the male children",
-          "": null
+          "eng": {
+            "hebrew-7121": "So called for",
+            "hebrew-4428": "the king",
+            "hebrew-4714": "of Egypt",
+            "hebrew-3205": "the midwives",
+            "hebrew-559": "and said",
+            "hebrew-4069": "why",
+            "hebrew-6213": "have you done",
+            "hebrew-1697": "thing",
+            "hebrew-2088": "this",
+            "hebrew-2421": null,
+            "hebrew-853": "-",
+            "hebrew-3206": "the male children",
+            "": null
+          },
+          "cht": {
+            "hebrew-7121": "召了",
+            "hebrew-4428": "王",
+            "hebrew-4714": "埃及",
+            "hebrew-3205": "收生婆",
+            "hebrew-559": "說",
+            "hebrew-4069": "你們為甚麼",
+            "hebrew-6213": "做",
+            "hebrew-1697": "事",
+            "hebrew-2088": "這",
+            "hebrew-2421": "的性命",
+            "hebrew-853": "存留",
+            "hebrew-3206": "男孩"
+          }
         }
       },
       "translations": {
@@ -36,102 +52,94 @@
             "hebrew-4714": 0.7805657497592092
           },
           "verseKey": "2ki.24.7",
-          "cunp": "埃及王不再從他國中出來；因為巴比倫王將埃及王所管之地，從埃及小河直到幼發拉底河都奪去了。",
+          "nasb": "The king of Egypt did not come out of his land again, for the king of Babylon had taken all that belonged to the king of Egypt from the brook of Egypt to the river Euphrates.",
           "words": [
             {
+              "id": "hebrew-4714",
+              "cht": "埃及"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "And not"
+              "cht": "不"
             },
             {
               "id": "hebrew-3254",
-              "eng": "again"
+              "cht": "再"
             },
             {
-              "id": "hebrew-5750",
-              "eng": "anymore"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-4714",
-              "eng": "of Egypt"
+              "id": "hebrew-4480",
+              "cht": "從他國中"
             },
             {
               "id": "hebrew-3318",
-              "eng": "did come"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "out of his land",
-              "punct": "–"
+              "cht": "出來",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "had taken"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "因為"
             },
             {
               "id": "hebrew-894",
-              "eng": "of Babylon"
-            },
-            {
-              "id": "hebrew-5158",
-              "eng": "from the Brook"
-            },
-            {
-              "id": "hebrew-4714",
-              "eng": "of Egypt"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-5104",
-              "eng": "the River"
-            },
-            {
-              "id": "hebrew-6578",
-              "eng": "Euphrates"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "belonged"
+              "cht": "巴比倫"
             },
             {
               "id": "hebrew-4428",
-              "eng": "to the king"
+              "cht": "王"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt",
-              "punct": "."
+              "cht": "將埃及"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
-              "id": ""
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1961",
+              "cht": "管"
+            },
+            {
+              "id": "",
+              "cht": "之地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4714",
+              "cht": "從埃及"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "小河"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "直到"
+            },
+            {
+              "id": "hebrew-6578",
+              "cht": "伯拉"
+            },
+            {
+              "id": "hebrew-5104",
+              "cht": "河"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-3947",
+              "cht": "奪去了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -141,75 +149,59 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "gen.4.18",
-          "cunp": "以諾生以拿；以拿生米戶雅利；米戶雅利生瑪土撒利；瑪土撒利生拉麥。",
+          "nasb": "Now to Enoch was born Irad, and Irad became the father of Mehujael, and Mehujael became the father of Methushael, and Methushael became the father of Lamech.",
           "words": [
             {
-              "id": "hebrew-3205",
-              "eng": "And was born"
-            },
-            {
               "id": "hebrew-2585",
-              "eng": "to Enoch"
+              "cht": "以諾"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3205",
+              "cht": "生"
             },
             {
               "id": "hebrew-5897",
-              "eng": "Irad",
-              "punct": "､"
+              "cht": "以拿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5897",
-              "eng": "and Irad"
+              "cht": "以拿"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-4232",
-              "eng": "Mehujael",
-              "punct": "､"
+              "cht": "米戶雅利",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4232",
-              "eng": "and Mehujael"
+              "cht": "米戶雅利"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-4967",
-              "eng": "Methushael",
-              "punct": "､"
+              "cht": "瑪土撒利",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4967",
-              "eng": "and Methushael"
+              "cht": "瑪土撒利"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-3929",
-              "eng": "Lamech",
-              "punct": "."
+              "cht": "拉麥",
+              "punct_cht": "。"
             }
           ]
         },
@@ -220,189 +212,170 @@
             "hebrew-4428": 0.4103064360103035
           },
           "verseKey": "est.4.11",
-          "cunp": "「王的一切臣僕和各省的人民都知道有一個定例：若不蒙召，擅入內院見王的，無論男女必被治死；除非王向他伸出金杖，不得存活。現在我沒有蒙召進去見王已經三十日了。」",
+          "nasb": "“All the king’s servants and the people of the king’s provinces know that for any man or woman who comes to the king to the inner court who is not summoned, he has but one law, that he be put to death, unless the king holds out to him the golden scepter so that he may live. And I have not been summoned to come to the king for these thirty days.”",
           "words": [
             {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "的一切"
             },
             {
               "id": "hebrew-5650",
-              "eng": "servants",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "of the king"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "and the people"
+              "cht": "臣僕"
             },
             {
               "id": "hebrew-4082",
-              "eng": "of provinces",
-              "punct": "､"
+              "cht": "和各省"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "of the king"
+              "id": "hebrew-5971",
+              "cht": "的人民"
             },
             {
               "id": "hebrew-3045",
-              "eng": "know",
-              "punct": "､"
+              "cht": "都知道"
             },
             {
               "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "any",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "or woman",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "goes"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "into"
-            },
-            {
-              "id": "hebrew-2691",
-              "eng": "the court",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6442",
-              "eng": "the inner"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7121",
-              "eng": "has been called",
-              "punct": "､"
+              "cht": "有"
             },
             {
               "id": "hebrew-259",
-              "eng": "[he has but] one"
+              "cht": "一個"
             },
             {
               "id": "hebrew-1881",
-              "eng": "law"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "put [all] to death",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-905",
-              "eng": "except"
+              "cht": "定例",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-834",
-              "eng": "the one"
-            },
-            {
-              "id": "hebrew-3447",
-              "eng": "holds out"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-8275",
-              "eng": "scepter",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2091",
-              "eng": "the golden"
-            },
-            {
-              "id": "hebrew-2421",
-              "eng": "that he may live",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-589",
-              "eng": "And yet I"
+              "cht": "若"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-7121",
-              "eng": "have been called"
+              "cht": "蒙召",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-935",
-              "eng": "to go in"
+              "cht": "擅入"
+            },
+            {
+              "id": "hebrew-6442",
+              "cht": "內"
+            },
+            {
+              "id": "hebrew-2691",
+              "cht": "院"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "見"
             },
             {
               "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "無論"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "男"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "女"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "必被治死",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-905",
+              "cht": "除"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "非"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-3447",
+              "cht": "伸出"
+            },
+            {
+              "id": "hebrew-2091",
+              "cht": "金"
+            },
+            {
+              "id": "hebrew-8275",
+              "cht": "杖",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2421",
+              "cht": "不得存活",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-589",
+              "cht": "現在我"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "蒙召"
+            },
+            {
+              "id": "hebrew-935",
+              "cht": "進去"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "見"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this [is]"
+              "cht": "已經"
             },
             {
               "id": "hebrew-7970",
-              "eng": "thirty"
+              "cht": "三十"
             },
             {
               "id": "hebrew-3117",
-              "eng": "days",
-              "punct": "."
+              "cht": "日"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。」"
             }
           ]
         }

@@ -3,21 +3,40 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1060": "Firstborn",
-          "hebrew-7794": "a bull",
-          "hebrew-1926": "glory [is like]",
-          "hebrew-7161": "his horns [like]",
-          "hebrew-7214": "of the wild ox",
-          "hebrew-5971": "the peoples",
-          "hebrew-5055": "He shall push",
-          "hebrew-3162": "Together",
-          "hebrew-657": "to the ends",
-          "hebrew-776": "of the earth",
-          "hebrew-1992": "and they [are]",
-          "hebrew-7233": "the ten thousands",
-          "hebrew-669": "of Ephraim",
-          "hebrew-505": "the thousands",
-          "hebrew-4519": "of Manasseh"
+          "eng": {
+            "hebrew-1060": "Firstborn",
+            "hebrew-7794": "a bull",
+            "hebrew-1926": "glory [is like]",
+            "hebrew-7161": "his horns [like]",
+            "hebrew-7214": "of the wild ox",
+            "hebrew-5971": "the peoples",
+            "hebrew-5055": "He shall push",
+            "hebrew-3162": "Together",
+            "hebrew-657": "to the ends",
+            "hebrew-776": "of the earth",
+            "hebrew-1992": "and they [are]",
+            "hebrew-7233": "the ten thousands",
+            "hebrew-669": "of Ephraim",
+            "hebrew-505": "the thousands",
+            "hebrew-4519": "of Manasseh"
+          },
+          "cht": {
+            "hebrew-1060": "中頭生的",
+            "hebrew-7794": "他為牛群",
+            "hebrew-1926": "有威嚴",
+            "hebrew-7161": "的角",
+            "hebrew-7214": "是野牛",
+            "hebrew-5971": "邦",
+            "hebrew-5055": "用以牴觸",
+            "hebrew-3162": "萬",
+            "hebrew-657": "極",
+            "hebrew-776": "直到地",
+            "hebrew-1992": "這角是",
+            "hebrew-7233": "的萬萬",
+            "hebrew-669": "以法蓮",
+            "hebrew-505": "的千千",
+            "hebrew-4519": "瑪拿西"
+          }
         }
       },
       "translations": {
@@ -38,88 +57,75 @@
             "hebrew-5055": 4.758842454566098
           },
           "verseKey": "exo.21.28",
-          "cunp": "「牛若觸死男人或是女人，總要用石頭打死那牛，卻不可吃牠的肉；牛的主人可算無罪。",
+          "nasb": "“If an ox gores a man or a woman to death, the ox shall surely be stoned and its flesh shall not be eaten; but the owner of the ox shall go unpunished.",
           "words": [
             {
+              "id": "hebrew-7794",
+              "cht": "牛"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "And if"
+              "cht": "若"
             },
             {
               "id": "hebrew-5055",
-              "eng": "gores"
-            },
-            {
-              "id": "hebrew-7794",
-              "eng": "an ox"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "a woman",
-              "punct": "､"
+              "cht": "觸"
             },
             {
               "id": "hebrew-4191",
-              "eng": "and to death",
-              "punct": "､"
+              "cht": "死"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "男人"
+            },
+            {
+              "id": "hebrew-176",
+              "cht": "或是"
+            },
+            {
+              "id": "hebrew-802",
+              "cht": "女人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5619",
-              "eng": "surely"
+              "cht": "總要"
             },
             {
               "id": "hebrew-5619",
-              "eng": "then shall be stoned"
+              "cht": "用石頭打死"
             },
             {
               "id": "hebrew-7794",
-              "eng": "the ox",
-              "punct": "､"
+              "cht": "那牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "shall be eaten"
+              "cht": "卻不可"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "吃"
             },
             {
               "id": "hebrew-1320",
-              "eng": "its flesh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1167",
-              "eng": "but the owner"
+              "cht": "牠的肉",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7794",
-              "eng": "of the ox"
+              "cht": "牛"
+            },
+            {
+              "id": "hebrew-1167",
+              "cht": "的主人"
             },
             {
               "id": "hebrew-5355",
-              "eng": "[shall be] acquitted",
-              "punct": "."
+              "cht": "可算無罪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -129,45 +135,41 @@
             "hebrew-5055": 4.758842454566098
           },
           "verseKey": "exo.21.31",
-          "cunp": "牛無論觸了人的兒子或是女兒，必照這例辦理。",
+          "nasb": "Whether it gores a son or a daughter, it shall be done to him according to the same rule.",
           "words": [
             {
               "id": "hebrew-176",
-              "eng": "Whether"
+              "cht": "牛無論"
+            },
+            {
+              "id": "hebrew-5055",
+              "cht": "觸了"
             },
             {
               "id": "hebrew-1121",
-              "eng": "a son"
+              "cht": "人的兒子"
             },
             {
               "id": "hebrew-5055",
-              "eng": "it has gored",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或是"
             },
             {
               "id": "hebrew-1323",
-              "eng": "a daughter"
-            },
-            {
-              "id": "hebrew-5055",
-              "eng": "gored",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4941",
-              "eng": "according to judgment"
+              "cht": "女兒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "必照這"
+            },
+            {
+              "id": "hebrew-4941",
+              "cht": "例"
             },
             {
               "id": "hebrew-6213",
-              "eng": "it shall be done"
+              "cht": "辦理",
+              "punct_cht": "。"
             }
           ]
         },
@@ -178,63 +180,62 @@
             "hebrew-5055": 4.758842454566098
           },
           "verseKey": "exo.21.32",
-          "cunp": "牛若觸了奴僕或是婢女，必將銀子三十舍客勒給他們的主人，也要用石頭把牛打死。",
+          "nasb": "If the ox gores a male or female slave, the owner shall give his or her master thirty shekels of silver, and the ox shall be stoned.",
           "words": [
             {
-              "id": "hebrew-518",
-              "eng": "If"
+              "id": "hebrew-7794",
+              "cht": "牛"
             },
             {
-              "id": "hebrew-5650",
-              "eng": "a male"
+              "id": "hebrew-518",
+              "cht": "若"
             },
             {
               "id": "hebrew-5055",
-              "eng": "gores"
+              "cht": "觸了"
             },
             {
-              "id": "hebrew-7794",
-              "eng": "the ox",
-              "punct": "､"
+              "id": "hebrew-5650",
+              "cht": "奴僕"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或是"
             },
             {
               "id": "hebrew-519",
-              "eng": "maidservant",
-              "punct": "､"
+              "cht": "婢女",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3701",
-              "eng": "of silver"
+              "cht": "必將銀子"
             },
             {
               "id": "hebrew-7970",
-              "eng": "thirty"
+              "cht": "三十"
             },
             {
               "id": "hebrew-8255",
-              "eng": "shekels"
+              "cht": "舍客勒"
             },
             {
               "id": "hebrew-5414",
-              "eng": "he shall give"
+              "cht": "給"
             },
             {
               "id": "hebrew-113",
-              "eng": "to their master",
-              "punct": "､"
+              "cht": "他們的主人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7794",
-              "eng": "and the ox"
+              "cht": "也要用石頭把牛"
             },
             {
               "id": "hebrew-5619",
-              "eng": "shall be stoned",
-              "punct": "."
+              "cht": "打死",
+              "punct_cht": "。"
             }
           ]
         },
@@ -245,39 +246,34 @@
             "hebrew-7214": 5.208574812158221
           },
           "verseKey": "psa.22.21",
-          "cunp": "救我脫離獅子的口； 你已經應允我，使我脫離野牛的角。",
+          "nasb": "Save me from the lion’s mouth; From the horns of the wild oxen You answer me.",
           "words": [
             {
               "id": "hebrew-3467",
-              "eng": "Save Me"
-            },
-            {
-              "id": "hebrew-6310",
-              "eng": "from the mouth",
-              "punct": "–"
+              "cht": "救我"
             },
             {
               "id": "hebrew-738",
-              "eng": "lion's"
+              "cht": "脫離獅子"
             },
             {
-              "id": "hebrew-7161",
-              "eng": "and from the horns"
-            },
-            {
-              "id": "hebrew-7214",
-              "eng": "of the wild oxen"
+              "id": "hebrew-6310",
+              "cht": "的口",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6030",
-              "eng": "You have answered Me",
-              "punct": "."
+              "cht": "你已經應允我",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7214",
+              "cht": "使我脫離野牛"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7161",
+              "cht": "的角",
+              "punct_cht": "。"
             }
           ]
         },
@@ -289,96 +285,90 @@
             "hebrew-4519": 1.4729710624028098
           },
           "verseKey": "isa.9.21",
-          "cunp": "瑪拿西  吞吃    以法蓮； 以法蓮  吞吃  瑪拿西， 又一同攻擊猶大。 雖然如此，耶和華的怒氣還未轉消； 他的手仍伸不縮。",
+          "nasb": "Manasseh devours Ephraim, and Ephraim Manasseh, And together they are against Judah. In spite of all this, His anger does not turn away And His hand is still stretched out.",
           "words": [
             {
               "id": "hebrew-4519",
-              "eng": "Manasseh [shall devour]",
-              "punct": "､"
+              "cht": "瑪拿西"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-669",
-              "eng": "Ephraim",
-              "punct": "–"
+              "id": "",
+              "cht": "吞吃（或譯攻擊下同）",
+              "punct_cht": "：；"
             },
             {
               "id": "hebrew-669",
-              "eng": "and Ephraim",
-              "punct": "､"
+              "cht": "以法蓮",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-669",
+              "cht": "以法蓮"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "吞吃"
             },
             {
               "id": "hebrew-4519",
-              "eng": "Manasseh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3162",
-              "eng": "Together"
+              "cht": "瑪拿西",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1992",
-              "eng": "they [shall be]"
+              "cht": "又"
+            },
+            {
+              "id": "hebrew-3162",
+              "cht": "一同"
             },
             {
               "id": "hebrew-5921",
-              "eng": "against"
+              "cht": "攻擊"
             },
             {
               "id": "hebrew-3063",
-              "eng": "Judah",
-              "punct": "."
+              "cht": "猶大",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3605",
-              "eng": "For all"
+              "cht": "雖然"
             },
             {
               "id": "hebrew-2063",
-              "eng": "this"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "is turned away",
-              "punct": "､"
+              "cht": "如此",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-639",
-              "eng": "His anger"
+              "cht": "耶和華的怒氣"
             },
             {
-              "id": "hebrew-5750",
-              "eng": "but still",
-              "punct": "."
+              "id": "hebrew-3605",
+              "cht": "還未"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "轉消",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "His hand"
+              "cht": "他的手"
+            },
+            {
+              "id": "hebrew-5750",
+              "cht": "仍"
             },
             {
               "id": "hebrew-5186",
-              "eng": "[is] stretched out",
-              "punct": "."
+              "cht": "伸"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3605"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "不縮",
+              "punct_cht": "。"
             }
           ]
         },
@@ -389,76 +379,72 @@
             "hebrew-5055": 4.758842454566098
           },
           "verseKey": "1ki.22.11",
-          "cunp": "基拿拿的兒子西底家造了兩個鐵角，說：「耶和華如此說：『你要用這角牴觸亞蘭人，直到將他們滅盡。』」",
+          "nasb": "Then Zedekiah the son of Chenaanah made horns of iron for himself and said, “Thus says the Lord, ‘With these you will gore the Arameans until they are consumed.’ ”",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And had made"
-            },
-            {
-              "id": "hebrew-6667",
-              "eng": "Zedekiah"
+              "id": "hebrew-3668",
+              "cht": "基拿拿"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-3668",
-              "eng": "of Chenaanah"
+              "id": "hebrew-6667",
+              "cht": "西底家"
             },
             {
-              "id": "hebrew-7161",
-              "eng": "horns"
+              "id": "hebrew-6213",
+              "cht": "造了"
             },
             {
               "id": "hebrew-1270",
-              "eng": "of iron",
-              "punct": "–"
+              "cht": "兩個鐵"
+            },
+            {
+              "id": "hebrew-7161",
+              "cht": "角",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-428",
-              "eng": "with these"
+              "cht": "你要用這"
             },
             {
               "id": "hebrew-5055",
-              "eng": "you shall gore"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "角牴觸"
             },
             {
               "id": "hebrew-758",
-              "eng": "Syria",
-              "punct": "､"
+              "cht": "亞蘭人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
+              "cht": "直到"
             },
             {
               "id": "hebrew-3615",
-              "eng": "they are destroyed",
-              "punct": "."
+              "cht": "將他們滅盡",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -469,75 +455,72 @@
             "hebrew-5055": 4.758842454566098
           },
           "verseKey": "2ch.18.10",
-          "cunp": "基拿拿的兒子西底家造了兩個鐵角，說：「耶和華如此說：『你要用這角牴觸亞蘭人，直到將他們滅盡。』」",
+          "nasb": "Zedekiah the son of Chenaanah made horns of iron for himself and said, “Thus says the Lord, ‘With these you shall gore the Arameans until they are consumed.’ ”",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And had made"
-            },
-            {
-              "id": "hebrew-6667",
-              "eng": "Zedekiah"
+              "id": "hebrew-3668",
+              "cht": "基拿拿"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-3668",
-              "eng": "of Chenaanah"
+              "id": "hebrew-6667",
+              "cht": "西底家"
             },
             {
-              "id": "hebrew-7161",
-              "eng": "horns"
+              "id": "hebrew-6213",
+              "cht": "造了"
             },
             {
               "id": "hebrew-1270",
-              "eng": "of iron",
-              "punct": "､"
+              "cht": "兩個鐵"
+            },
+            {
+              "id": "hebrew-7161",
+              "cht": "角",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-428",
-              "eng": "with these"
+              "cht": "你要用這角"
             },
             {
               "id": "hebrew-5055",
-              "eng": "you shall gore"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "牴觸"
             },
             {
               "id": "hebrew-758",
-              "eng": "Syria"
+              "cht": "亞蘭人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "until"
+              "cht": "直到"
             },
             {
               "id": "hebrew-3615",
-              "eng": "they are destroyed",
-              "punct": "."
+              "cht": "將他們滅盡",
+              "punct_cht": "。』」"
             }
           ]
         },
@@ -548,118 +531,97 @@
             "hebrew-4519": 1.4729710624028098
           },
           "verseKey": "jdg.12.4",
-          "cunp": "於是耶弗他招聚基列人，與以法蓮人爭戰。基列人擊殺以法蓮人，是因他們說：「你們基列人在以法蓮、瑪拿西中間，不過是以法蓮逃亡的人。」",
+          "nasb": "Then Jephthah gathered all the men of Gilead and fought Ephraim; and the men of Gilead defeated Ephraim, because they said, “You are fugitives of Ephraim, O Gileadites, in the midst of Ephraim and in the midst of Manasseh.”",
           "words": [
             {
-              "id": "hebrew-6908",
-              "eng": "And gathered together"
-            },
-            {
               "id": "hebrew-3316",
-              "eng": "Jephthah"
+              "cht": "於是耶弗他"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the men"
+              "id": "hebrew-6908",
+              "cht": "招聚"
             },
             {
               "id": "hebrew-1568",
-              "eng": "of Gilead",
-              "punct": "､"
+              "cht": "基列"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "與"
+            },
+            {
+              "id": "hebrew-669",
+              "cht": "以法蓮人"
             },
             {
               "id": "hebrew-3898",
-              "eng": "and fought"
-            },
-            {
-              "id": "hebrew-854",
-              "eng": "against"
-            },
-            {
-              "id": "hebrew-669",
-              "eng": "Ephraim",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "and defeated"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the men"
+              "cht": "爭戰",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1568",
-              "eng": "of Gilead"
+              "cht": "基列"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "人"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "擊殺"
             },
             {
               "id": "hebrew-669",
-              "eng": "Ephraim",
-              "punct": "､"
+              "cht": "以法蓮",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
+              "cht": "是因"
             },
             {
               "id": "hebrew-559",
-              "eng": "they said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6412",
-              "eng": "fugitives"
-            },
-            {
-              "id": "hebrew-669",
-              "eng": "of Ephraim"
+              "cht": "他們說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-859",
-              "eng": "You"
+              "cht": "你們"
             },
             {
               "id": "hebrew-1568",
-              "eng": "Gilead [are]"
+              "cht": "基列人"
             },
             {
               "id": "hebrew-8432",
-              "eng": "among"
+              "cht": "在"
             },
             {
               "id": "hebrew-669",
-              "eng": "Ephraim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8432",
-              "eng": "[and] among"
+              "cht": "以法蓮、"
             },
             {
               "id": "hebrew-4519",
-              "eng": "the Manassites",
-              "punct": "."
+              "cht": "瑪拿西"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-8432",
+              "cht": "中間",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-669",
+              "cht": "不過是以法蓮"
             },
             {
-              "id": "hebrew-853"
+              "id": "hebrew-6412",
+              "cht": "逃亡的人",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -669,147 +631,119 @@
             "hebrew-7161": 2.154502723353603
           },
           "verseKey": "zec.1.21",
-          "cunp": "我說：「他們來做甚麼呢？」他說：「這是打散猶大的角，使人不敢擡頭；但這些匠人來威嚇列國，打掉他們的角，就是舉起打散猶大地的角。」",
+          "nasb": "I said, “What are these coming to do?” And he said, “These are the horns which have scattered Judah so that no man lifts up his head; but these craftsmen have come to terrify them, to throw down the horns of the nations who have lifted up their horns against the land of Judah in order to scatter it.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And I said"
-            },
-            {
-              "id": "hebrew-4100",
-              "eng": "what [are]"
+              "cht": "我說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-428",
-              "eng": "these"
+              "cht": "他們"
             },
             {
               "id": "hebrew-935",
-              "eng": "coming"
+              "cht": "來"
             },
             {
               "id": "hebrew-6213",
-              "eng": "to do"
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "甚麼"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？」"
             },
             {
               "id": "hebrew-559",
-              "eng": "so he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "他說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-428",
-              "eng": "these [are]"
-            },
-            {
-              "id": "hebrew-7161",
-              "eng": "the horns"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-2219",
-              "eng": "scattered"
+              "cht": "這"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "是打散"
             },
             {
               "id": "hebrew-3063",
-              "eng": "Judah",
-              "punct": "､"
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-6310",
-              "eng": "so that"
+              "id": "hebrew-7161",
+              "cht": "的角",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-376",
-              "eng": "one"
+              "cht": "使人"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
+              "cht": "不"
             },
             {
               "id": "hebrew-5375",
-              "eng": "could lift up"
+              "cht": "敢抬"
             },
             {
               "id": "hebrew-7218",
-              "eng": "his head",
-              "punct": "–"
+              "cht": "頭",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-408",
+              "cht": "但這些"
             },
             {
               "id": "hebrew-935",
-              "eng": "but are coming"
-            },
-            {
-              "id": "hebrew-428",
-              "eng": "these [craftsmen]"
+              "cht": "匠人來"
             },
             {
               "id": "hebrew-2729",
-              "eng": "to terrify"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "them"
-            },
-            {
-              "id": "hebrew-3034",
-              "eng": "to cast out"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7161",
-              "eng": "the horns"
+              "cht": "威嚇"
             },
             {
               "id": "hebrew-1471",
-              "eng": "of the nations",
-              "punct": "､"
+              "cht": "列國",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-5375",
-              "eng": "that lifted up"
+              "id": "hebrew-853",
+              "cht": "打掉"
             },
             {
               "id": "hebrew-7161",
-              "eng": "[their] horn"
+              "cht": "他們的角",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5375",
+              "cht": "就是舉起"
             },
             {
               "id": "hebrew-413",
-              "eng": "against"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "打散"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah"
+              "cht": "猶大"
             },
             {
-              "id": "hebrew-2219",
-              "eng": "to scatter it",
-              "punct": "."
+              "id": "hebrew-776",
+              "cht": "地"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-408"
+              "id": "hebrew-7161",
+              "cht": "的角",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -819,89 +753,76 @@
             "hebrew-7794": 2.1248744020317227
           },
           "verseKey": "exo.21.35",
-          "cunp": "「這人的牛若傷了那人的牛，以至於死，他們要賣了活牛，平分價值，也要平分死牛。",
+          "nasb": "“If one man’s ox hurts another’s so that it dies, then they shall sell the live ox and divide its price equally; and also they shall divide the dead ox.",
           "words": [
             {
-              "id": "hebrew-3588",
-              "eng": "And if"
-            },
-            {
-              "id": "hebrew-5062",
-              "eng": "hurts"
+              "id": "hebrew-376",
+              "cht": "這人"
             },
             {
               "id": "hebrew-7794",
-              "eng": "ox"
+              "cht": "的牛"
             },
             {
-              "id": "hebrew-376",
-              "eng": "of one man"
+              "id": "hebrew-3588",
+              "cht": "若"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "傷了"
             },
             {
               "id": "hebrew-7794",
-              "eng": "-"
+              "cht": "那人的"
             },
             {
               "id": "hebrew-7453",
-              "eng": "of another"
+              "cht": "牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "so that it dies",
-              "punct": "–"
+              "cht": "以至於死",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4376",
-              "eng": "then they shall sell"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7794",
-              "eng": "the ox"
+              "cht": "他們要賣了"
             },
             {
               "id": "hebrew-2416",
-              "eng": "live"
+              "cht": "活"
+            },
+            {
+              "id": "hebrew-7794",
+              "cht": "牛",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2673",
-              "eng": "and divide"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "平分"
             },
             {
               "id": "hebrew-3701",
-              "eng": "the money from it",
-              "punct": "､"
+              "cht": "價值",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1571",
-              "eng": "and also"
+              "cht": "也要"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "平分"
             },
             {
               "id": "hebrew-4191",
-              "eng": "the dead [ox]"
+              "cht": "死"
             },
             {
-              "id": "hebrew-2673",
-              "eng": "they shall divide",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "牛",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-6223": "The rich",
-          "hebrew-7326": "and the poor",
-          "hebrew-6298": "have this in common",
-          "hebrew-6213": "the maker",
-          "hebrew-3605": "of them all",
-          "hebrew-3068": "Yahweh [is]"
+          "eng": {
+            "hebrew-6223": "The rich",
+            "hebrew-7326": "and the poor",
+            "hebrew-6298": "have this in common",
+            "hebrew-6213": "the maker",
+            "hebrew-3605": "of them all",
+            "hebrew-3068": "Yahweh [is]"
+          },
+          "cht": {
+            "hebrew-6223": "富戶",
+            "hebrew-7326": "窮人",
+            "hebrew-6298": "在世相遇",
+            "hebrew-6213": "所造",
+            "hebrew-3605": "都",
+            "hebrew-3068": "為耶和華"
+          }
         }
       },
       "translations": {
@@ -25,41 +35,41 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "pro.29.13",
-          "cunp": "貧窮人、強暴人在世相遇； 他們的眼目都蒙耶和華光照。",
+          "nasb": "The poor man and the oppressor have this in common: The Lord gives light to the eyes of both.",
           "words": [
             {
               "id": "hebrew-7326",
-              "eng": "The poor [man]"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "and the"
+              "cht": "貧窮人、"
             },
             {
               "id": "hebrew-8501",
-              "eng": "oppressor"
+              "cht": "強暴"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-6298",
-              "eng": "have this in common",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-215",
-              "eng": "gives light to"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "the eyes"
+              "cht": "在世相遇",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8147",
-              "eng": "of the two of them"
+              "cht": "他們"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "的眼目"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "都蒙耶和華"
+            },
+            {
+              "id": "hebrew-215",
+              "cht": "光照",
+              "punct_cht": "。"
             }
           ]
         },
@@ -70,65 +80,62 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "gen.33.8",
-          "cunp": "以掃說：「我所遇見的這些羣畜是甚麼意思呢？」雅各說：「是要在我主面前蒙恩的。」",
+          "nasb": "And he said, “What do you mean by all this company which I have met?” And he said, “To find favor in the sight of my lord.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And Esau said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4310",
-              "eng": "who [is]"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-4264",
-              "eng": "company"
-            },
-            {
-              "id": "hebrew-2088",
-              "eng": "this",
-              "punct": "､"
+              "cht": "以掃說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-834",
-              "eng": "which"
+              "cht": "我所"
             },
             {
               "id": "hebrew-6298",
-              "eng": "I met"
+              "cht": "遇見"
+            },
+            {
+              "id": "hebrew-2088",
+              "cht": "的這"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "些群"
+            },
+            {
+              "id": "hebrew-4264",
+              "cht": "畜"
+            },
+            {
+              "id": "hebrew-4100",
+              "cht": "是甚麼"
             },
             {
               "id": "hebrew-559",
-              "eng": "and he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "[These are] to find"
-            },
-            {
-              "id": "hebrew-2580",
-              "eng": "favor"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "in the sight"
+              "cht": "雅各說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-113",
-              "eng": "of my lord",
-              "punct": "."
+              "cht": "是要在我主"
             },
             {
-              "id": "hebrew-4100"
+              "id": "hebrew-5869",
+              "cht": "面前"
             },
             {
-              "id": ""
+              "id": "hebrew-4672",
+              "cht": "蒙"
+            },
+            {
+              "id": "hebrew-2580",
+              "cht": "恩"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -138,70 +145,71 @@
             "hebrew-6298": 5.208574812158221
           },
           "verseKey": "isa.34.14",
-          "cunp": "曠野的走獸要和豺狼相遇； 野山羊要與伴偶對叫。 夜間的怪物必在那裏棲身， 自找安歇之處。",
+          "nasb": "The desert creatures will meet with the wolves, The hairy goat also will cry to its kind; Yes, the night monster will settle there And will find herself a resting place.",
           "words": [
             {
-              "id": "hebrew-6298",
-              "eng": "And shall meet"
-            },
-            {
               "id": "hebrew-6728",
-              "eng": "the wild beasts of the desert"
+              "cht": "曠野"
             },
             {
               "id": "hebrew-854",
-              "eng": "with"
+              "cht": "的走獸要和"
             },
             {
               "id": "hebrew-338",
-              "eng": "the jackals",
-              "punct": "､"
+              "cht": "豺狼"
+            },
+            {
+              "id": "hebrew-6298",
+              "cht": "相遇",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8163",
-              "eng": "and the wild goat"
+              "cht": "野山羊"
             },
             {
               "id": "hebrew-5921",
-              "eng": "to"
+              "cht": "要與"
             },
             {
               "id": "hebrew-7453",
-              "eng": "its companion",
-              "punct": "–"
+              "cht": "伴偶"
             },
             {
               "id": "hebrew-7121",
-              "eng": "shall bleat"
-            },
-            {
-              "id": "hebrew-389",
-              "eng": "Also"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7280",
-              "eng": "shall rest"
+              "cht": "對叫",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3917",
-              "eng": "the night creature"
+              "cht": "夜間的怪物"
+            },
+            {
+              "id": "hebrew-389",
+              "cht": "必"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "在那裡"
+            },
+            {
+              "id": "hebrew-7280",
+              "cht": "棲身",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4672",
-              "eng": "and find"
+              "cht": "找"
             },
             {
               "id": "hebrew-4494",
-              "eng": "a place of rest",
-              "punct": "."
+              "cht": "安歇"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "之處",
+              "punct_cht": "。"
             }
           ]
         },
@@ -211,33 +219,33 @@
             "hebrew-6298": 5.208574812158221
           },
           "verseKey": "job.5.14",
-          "cunp": "他們白晝遇見黑暗， 午間摸索如在夜間。",
+          "nasb": "By day they meet with darkness, And grope at noon as in the night.",
           "words": [
             {
               "id": "hebrew-3119",
-              "eng": "In the daytime",
-              "punct": "､"
+              "cht": "他們白晝"
             },
             {
               "id": "hebrew-6298",
-              "eng": "they meet"
+              "cht": "遇見"
             },
             {
               "id": "hebrew-2822",
-              "eng": "with darkness"
-            },
-            {
-              "id": "hebrew-3915",
-              "eng": "and as in the night"
-            },
-            {
-              "id": "hebrew-4959",
-              "eng": "grope"
+              "cht": "黑暗",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6672",
-              "eng": "at noontime",
-              "punct": "."
+              "cht": "午間"
+            },
+            {
+              "id": "hebrew-4959",
+              "cht": "摸索"
+            },
+            {
+              "id": "hebrew-3915",
+              "cht": "如在夜間",
+              "punct_cht": "。"
             }
           ]
         },
@@ -247,77 +255,63 @@
             "hebrew-6298": 5.208574812158221
           },
           "verseKey": "1sa.25.20",
-          "cunp": "亞比該騎着驢，正下山坡，見大衛和跟隨他的人從對面下來，亞比該就迎接他們。",
+          "nasb": "It came about as she was riding on her donkey and coming down by the hidden part of the mountain, that behold, David and his men were coming down toward her; so she met them.",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "So it was"
-            },
-            {
               "id": "hebrew-1931",
-              "eng": "[as] she"
+              "cht": "亞比該"
             },
             {
               "id": "hebrew-7392",
-              "eng": "rode"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "騎著"
             },
             {
               "id": "hebrew-2543",
-              "eng": "the donkey",
-              "punct": "､"
+              "cht": "驢",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3381",
-              "eng": "that she went down"
-            },
-            {
-              "id": "hebrew-5643",
-              "eng": "under cover"
+              "cht": "正下"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the hill",
-              "punct": "､"
+              "cht": "山"
+            },
+            {
+              "id": "hebrew-5643",
+              "cht": "坡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and there",
-              "punct": "､"
+              "cht": "見"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
-              "id": "hebrew-376",
-              "eng": "and his men"
+              "id": "hebrew-582",
+              "cht": "和跟隨他的人"
+            },
+            {
+              "id": "hebrew-7125",
+              "cht": "從對面"
             },
             {
               "id": "hebrew-3381",
-              "eng": "were coming down"
-            },
-            {
-              "id": "hebrew-7122",
-              "eng": "toward her"
+              "cht": "下來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6298",
-              "eng": "and she met"
+              "cht": "亞比該就迎接"
             },
             {
               "id": "hebrew-853",
-              "eng": "them",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-582"
-            },
-            {
-              "id": "hebrew-7125"
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -327,90 +321,84 @@
             "hebrew-6298": 5.208574812158221
           },
           "verseKey": "jer.41.6",
-          "cunp": "尼探雅的兒子以實瑪利出米斯巴迎接他們，隨走隨哭；遇見了他們，就對他們說：「你們可以來見亞希甘的兒子基大利。」",
+          "nasb": "Then Ishmael the son of Nethaniah went out from Mizpah to meet them, weeping as he went; and as he met them, he said to them, “Come to Gedaliah the son of Ahikam!”",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "And went out"
+              "id": "hebrew-5418",
+              "cht": "尼探雅"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-3458",
-              "eng": "Ishmael"
+              "cht": "以實瑪利"
             },
             {
-              "id": "hebrew-1121",
-              "eng": "son"
-            },
-            {
-              "id": "hebrew-5418",
-              "eng": "of Nethaniah"
-            },
-            {
-              "id": "hebrew-7125",
-              "eng": "to meet them"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from"
+              "id": "hebrew-3318",
+              "cht": "出"
             },
             {
               "id": "hebrew-4709",
-              "eng": "Mizpah"
+              "cht": "米斯巴"
+            },
+            {
+              "id": "hebrew-7125",
+              "cht": "迎接他們",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1980",
-              "eng": "as"
+              "cht": "隨"
             },
             {
               "id": "hebrew-1980",
-              "eng": "he went along",
-              "punct": "–"
+              "cht": "走"
             },
             {
               "id": "hebrew-1058",
-              "eng": "and weeping"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "and it came to pass",
-              "punct": "､"
+              "cht": "隨哭",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6298",
-              "eng": "as he met"
+              "cht": "遇見了"
             },
             {
               "id": "hebrew-853",
-              "eng": "them"
+              "cht": "他們",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-413",
+              "cht": "就對他們"
             },
             {
               "id": "hebrew-559",
-              "eng": "that he said"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "to them"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-935",
-              "eng": "come"
+              "cht": "你們可以來"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-1436",
-              "eng": "Gedaliah"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "見"
             },
             {
               "id": "hebrew-296",
-              "eng": "of Ahikam",
-              "punct": "."
+              "cht": "亞希甘"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-1436",
+              "cht": "基大利",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -420,33 +408,33 @@
             "hebrew-6298": 5.208574812158221
           },
           "verseKey": "psa.85.10",
-          "cunp": "慈愛和誠實彼此相遇； 公義和平安彼此相親。",
+          "nasb": "Lovingkindness and truth have met together; Righteousness and peace have kissed each other.",
           "words": [
             {
               "id": "hebrew-2617",
-              "eng": "Mercy"
+              "cht": "慈愛"
             },
             {
               "id": "hebrew-571",
-              "eng": "and truth"
+              "cht": "和誠實"
             },
             {
               "id": "hebrew-6298",
-              "eng": "have met together",
-              "punct": "–"
+              "cht": "彼此相遇",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6664",
-              "eng": "Righteousness"
+              "cht": "公義"
             },
             {
               "id": "hebrew-7965",
-              "eng": "and peace"
+              "cht": "和平安"
             },
             {
               "id": "hebrew-5401",
-              "eng": "have kissed",
-              "punct": "."
+              "cht": "彼此相親",
+              "punct_cht": "。"
             }
           ]
         },
@@ -456,37 +444,37 @@
             "hebrew-6298": 5.208574812158221
           },
           "verseKey": "pro.17.12",
-          "cunp": "寧可遇見丟崽子的母熊， 不可遇見正行愚妄的愚昧人。",
+          "nasb": "Let a man meet a bear robbed of her cubs, Rather than a fool in his folly.",
           "words": [
             {
-              "id": "hebrew-6298",
-              "eng": "Let meet"
+              "id": "hebrew-7909",
+              "cht": "寧可遇見丟崽子"
             },
             {
               "id": "hebrew-1677",
-              "eng": "a bear"
-            },
-            {
-              "id": "hebrew-7909",
-              "eng": "robbed of her cubs"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man",
-              "punct": "､"
+              "cht": "的母熊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "and Rather than"
+              "cht": "不可"
             },
             {
-              "id": "hebrew-3684",
-              "eng": "a fool"
+              "id": "hebrew-6298",
+              "cht": "遇見"
             },
             {
               "id": "hebrew-200",
-              "eng": "in his folly",
-              "punct": "."
+              "cht": "正行愚妄"
+            },
+            {
+              "id": "hebrew-3684",
+              "cht": "的愚昧"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -498,46 +486,45 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "psa.34.10",
-          "cunp": "少壯獅子還缺食忍餓， 但尋求耶和華的甚麼好處都不缺。",
+          "nasb": "The young lions do lack and suffer hunger; But they who seek the Lord shall not be in want of any good thing.",
           "words": [
             {
               "id": "hebrew-3715",
-              "eng": "The young lions"
+              "cht": "少壯獅子"
             },
             {
               "id": "hebrew-7326",
-              "eng": "lack",
-              "punct": "､"
+              "cht": "還缺"
             },
             {
               "id": "hebrew-7456",
-              "eng": "and suffer hunger",
-              "punct": "–"
+              "cht": "食忍餓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1875",
-              "eng": "but those who seek"
+              "cht": "但尋求"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2637",
-              "eng": "shall lack"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "any"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good [thing]",
-              "punct": "."
+              "cht": "的甚麼好處"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-2637",
+              "cht": "缺",
+              "punct_cht": "。"
             }
           ]
         },
@@ -548,37 +535,39 @@
             "hebrew-6213": 0.3767268458386281
           },
           "verseKey": "pro.10.4",
-          "cunp": "手懶的，要受貧窮； 手勤的，卻要富足。",
+          "nasb": "Poor is he who works with a negligent hand, But the hand of the diligent makes rich.",
           "words": [
             {
-              "id": "hebrew-7326",
-              "eng": "He becomes poor"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "who has"
-            },
-            {
               "id": "hebrew-3709",
-              "eng": "a hand",
-              "punct": "､"
+              "cht": "手"
             },
             {
               "id": "hebrew-7423",
-              "eng": "slack"
+              "cht": "懶的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "要受"
+            },
+            {
+              "id": "hebrew-7326",
+              "cht": "貧窮",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "but the hand"
+              "cht": "手"
             },
             {
               "id": "hebrew-2742",
-              "eng": "of the diligent"
+              "cht": "勤的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6238",
-              "eng": "makes rich",
-              "punct": "."
+              "cht": "卻要富足",
+              "punct_cht": "。"
             }
           ]
         }

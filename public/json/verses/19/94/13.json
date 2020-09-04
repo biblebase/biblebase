@@ -3,15 +3,27 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8252": "That You may give rest",
-          "hebrew-3117": "from the days",
-          "hebrew-7451": "of adversity",
-          "hebrew-5704": "Until",
-          "hebrew-3738": "is dug",
-          "hebrew-7563": "for the wicked",
-          "hebrew-7845": "the pit",
-          "hebrew-4480": null,
-          "": null
+          "eng": {
+            "hebrew-8252": "That You may give rest",
+            "hebrew-3117": "from the days",
+            "hebrew-7451": "of adversity",
+            "hebrew-5704": "Until",
+            "hebrew-3738": "is dug",
+            "hebrew-7563": "for the wicked",
+            "hebrew-7845": "the pit",
+            "hebrew-4480": null,
+            "": null
+          },
+          "cht": {
+            "hebrew-8252": "得享平安",
+            "hebrew-3117": "的日子",
+            "hebrew-7451": "在遭難",
+            "hebrew-5704": "惟有",
+            "hebrew-3738": "陷在所挖的",
+            "hebrew-7563": "惡人",
+            "hebrew-7845": "坑",
+            "hebrew-4480": "的日子"
+          }
         }
       },
       "translations": {
@@ -27,33 +39,34 @@
             "hebrew-7845": 3.55737257852982
           },
           "verseKey": "psa.7.15",
-          "cunp": "他掘了坑，又挖深了， 竟掉在自己所挖的阱裏。",
+          "nasb": "He has dug a pit and hollowed it out, And has fallen into the hole which he made.",
           "words": [
             {
-              "id": "hebrew-953",
-              "eng": "A pit",
-              "punct": "､"
+              "id": "hebrew-3738",
+              "cht": "他掘了"
             },
             {
-              "id": "hebrew-3738",
-              "eng": "He made"
+              "id": "hebrew-953",
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2658",
-              "eng": "and dug it out"
+              "cht": "又挖深了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5307",
-              "eng": "and has fallen"
-            },
-            {
-              "id": "hebrew-7845",
-              "eng": "into the ditch"
+              "cht": "竟掉"
             },
             {
               "id": "hebrew-6466",
-              "eng": "[which] he made",
-              "punct": "."
+              "cht": "在自己所挖"
+            },
+            {
+              "id": "hebrew-7845",
+              "cht": "的阱裡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -64,43 +77,46 @@
             "hebrew-7845": 3.55737257852982
           },
           "verseKey": "pro.26.27",
-          "cunp": "挖陷坑的，自己必掉在其中； 滾石頭的，石頭必反滾在他身上。",
+          "nasb": "He who digs a pit will fall into it, And he who rolls a stone, it will come back on him.",
           "words": [
             {
               "id": "hebrew-3738",
-              "eng": "Whoever digs"
+              "cht": "挖"
             },
             {
               "id": "hebrew-7845",
-              "eng": "a pit"
+              "cht": "陷坑"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5307",
-              "eng": "will fall"
+              "cht": "自己必掉"
             },
             {
               "id": "hebrew-1556",
-              "eng": "and he who rolls"
+              "cht": "滾"
             },
             {
               "id": "hebrew-68",
-              "eng": "a stone",
-              "punct": "､"
+              "cht": "石頭"
             },
             {
-              "id": "hebrew-413",
-              "eng": "on him"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "will have it roll back",
-              "punct": "."
+              "cht": "石頭必反滾"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-413",
+              "cht": "在他身上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -111,41 +127,41 @@
             "hebrew-3738": 4.0204442424896225
           },
           "verseKey": "pro.16.27",
-          "cunp": "匪徒圖謀奸惡， 嘴上彷彿有燒焦的火。",
+          "nasb": "A worthless man digs up evil, While his words are like scorching fire.",
           "words": [
             {
-              "id": "hebrew-376",
-              "eng": "An man"
+              "id": "hebrew-1100",
+              "cht": "匪"
             },
             {
-              "id": "hebrew-1100",
-              "eng": "ungodly"
+              "id": "hebrew-376",
+              "cht": "徒"
             },
             {
               "id": "hebrew-3738",
-              "eng": "digs up"
+              "cht": "圖謀"
             },
             {
               "id": "hebrew-7451",
-              "eng": "evil",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and [it is] on"
+              "cht": "奸惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8193",
-              "eng": "his lips"
+              "cht": "嘴"
             },
             {
-              "id": "hebrew-784",
-              "eng": "like a fire"
+              "id": "hebrew-5921",
+              "cht": "上"
             },
             {
               "id": "hebrew-6867",
-              "eng": "burning",
-              "punct": "."
+              "cht": "彷彿有燒焦"
+            },
+            {
+              "id": "hebrew-784",
+              "cht": "的火",
+              "punct_cht": "。"
             }
           ]
         },
@@ -156,87 +172,79 @@
             "hebrew-3738": 4.0204442424896225
           },
           "verseKey": "jer.18.20",
-          "cunp": "豈可以惡報善呢？ 他們竟挖坑要害我的性命！ 求你記念我怎樣站在你面前為他們代求， 要使你的忿怒向他們轉消。",
+          "nasb": "Should good be repaid with evil? For they have dug a pit for me. Remember how I stood before You To speak good on their behalf, So as to turn away Your wrath from them.",
           "words": [
             {
-              "id": "hebrew-7999",
-              "eng": "Shall be repaid"
+              "id": "hebrew-7451",
+              "cht": "豈可以惡"
             },
             {
-              "id": "hebrew-8478",
-              "eng": "for"
+              "id": "hebrew-7999",
+              "cht": "報"
             },
             {
               "id": "hebrew-2896",
-              "eng": "good"
+              "cht": "善"
             },
             {
-              "id": "hebrew-7451",
-              "eng": "evil"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "他們竟"
             },
             {
               "id": "hebrew-3738",
-              "eng": "they have dug"
+              "cht": "挖"
             },
             {
               "id": "hebrew-7745",
-              "eng": "a pit"
+              "cht": "坑"
             },
             {
               "id": "hebrew-5315",
-              "eng": "for my life",
-              "punct": "."
+              "cht": "要害我的性命",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-2142",
-              "eng": "Remember"
+              "cht": "求你記念"
             },
             {
               "id": "hebrew-5975",
-              "eng": "that I stood"
+              "cht": "我怎樣站"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before You"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "to speak"
+              "cht": "在你面前"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for them"
+              "cht": "為他們"
             },
             {
-              "id": "hebrew-2896",
-              "eng": "good"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "to turn away"
+              "id": "hebrew-1696",
+              "cht": "代求",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "要使"
             },
             {
               "id": "hebrew-2534",
-              "eng": "Your wrath"
+              "cht": "你的忿怒"
             },
             {
-              "id": "hebrew-1992",
-              "eng": "from them",
-              "punct": "."
+              "id": "hebrew-4480",
+              "cht": "向他們"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-7725",
+              "cht": "轉消",
+              "punct_cht": "。"
             }
           ]
         },
@@ -246,108 +254,103 @@
             "hebrew-7563": 1.1425953560426105
           },
           "verseKey": "ezk.3.18",
-          "cunp": "我何時指着惡人說：他必要死；你若不警戒他，也不勸戒他，使他離開惡行，拯救他的性命，這惡人必死在罪孽之中；我卻要向你討他喪命的罪。",
+          "nasb": "When I say to the wicked, ‘You will surely die,’ and you do not warn him or speak out to warn the wicked from his wicked way that he may live, that wicked man shall die in his iniquity, but his blood I will require at your hand.",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "when I say"
-            },
-            {
               "id": "hebrew-7563",
-              "eng": "to the wicked",
-              "punct": "､"
+              "cht": "我何時指著惡人"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4191",
-              "eng": "surely"
+              "cht": "他必要"
             },
             {
               "id": "hebrew-4191",
-              "eng": "You shall die"
+              "cht": "死",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and no"
+              "cht": "你若不"
             },
             {
               "id": "hebrew-2094",
-              "eng": "you give him warning",
-              "punct": "､"
+              "cht": "警戒他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-1696",
-              "eng": "speak"
+              "cht": "勸戒"
             },
             {
-              "id": "hebrew-2094",
-              "eng": "to warn"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "使他"
+            },
+            {
+              "id": "hebrew-7563",
+              "cht": "離開惡"
             },
             {
               "id": "hebrew-1870",
-              "eng": "from his way",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "wicked"
+              "cht": "行",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2421",
-              "eng": "to save his life",
-              "punct": "–"
+              "cht": "拯救他的性命",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "這"
             },
             {
               "id": "hebrew-7563",
-              "eng": "wicked [man]"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "in his iniquity",
-              "punct": "–"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die"
+              "cht": "必死"
             },
             {
-              "id": "hebrew-1818",
-              "eng": "but his blood"
+              "id": "hebrew-5771",
+              "cht": "在罪孽"
+            },
+            {
+              "id": "",
+              "cht": "之中",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "at your hand"
+              "cht": "我卻要向你"
             },
             {
               "id": "hebrew-1245",
-              "eng": "I will require",
-              "punct": "."
+              "cht": "討"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "他喪命的罪（"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1818",
+              "cht": "原文是血）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -357,99 +360,98 @@
             "hebrew-7563": 1.1425953560426105
           },
           "verseKey": "ezk.33.8",
-          "cunp": "我對惡人說：『惡人哪，你必要死！』你－以西結若不開口警戒惡人，使他離開所行的道，這惡人必死在罪孽之中，我卻要向你討他喪命的罪。",
+          "nasb": "When I say to the wicked, ‘O wicked man, you will surely die,’ and you do not speak to warn the wicked from his way, that wicked man shall die in his iniquity, but his blood I will require from your hand.",
           "words": [
             {
+              "id": "hebrew-7563",
+              "cht": "我對惡人"
+            },
+            {
               "id": "hebrew-559",
-              "eng": "when I say"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-7563",
-              "eng": "to the wicked",
-              "punct": "､"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-7563",
-              "eng": "wicked [man]"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "surely",
-              "punct": "–"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4191",
-              "eng": "you shall die",
-              "punct": "–"
+              "cht": "你必要"
+            },
+            {
+              "id": "hebrew-4191",
+              "cht": "死"
+            },
+            {
+              "id": "",
+              "cht": "你─",
+              "punct_cht": "！』"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "以西結若不"
             },
             {
               "id": "hebrew-1696",
-              "eng": "you do speak"
+              "cht": "開口"
             },
             {
               "id": "hebrew-2094",
-              "eng": "to warn"
+              "cht": "警戒"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "惡人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1870",
-              "eng": "from his way",
-              "punct": "､"
+              "cht": "使他離開所行的道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that"
+              "cht": "這"
             },
             {
               "id": "hebrew-7563",
-              "eng": "wicked [man]"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "in his iniquity",
-              "punct": "–"
+              "cht": "惡人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die"
+              "cht": "必死"
             },
             {
-              "id": "hebrew-1818",
-              "eng": "but his blood"
+              "id": "hebrew-5771",
+              "cht": "在罪孽"
+            },
+            {
+              "id": "",
+              "cht": "之中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3027",
-              "eng": "at your hand"
+              "cht": "我卻要向你"
             },
             {
               "id": "hebrew-1245",
-              "eng": "I will require",
-              "punct": "."
+              "cht": "討"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "他喪命的罪（"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-1818",
+              "cht": "原文是血）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -459,54 +461,55 @@
             "hebrew-3738": 4.0204442424896225
           },
           "verseKey": "psa.57.6",
-          "cunp": "他們為我的腳設下網羅，壓制我的心； 他們在我面前挖了坑，自己反掉在其中。（細拉）",
+          "nasb": "They have prepared a net for my steps; My soul is bowed down; They dug a pit before me; They themselves have fallen into the midst of it. Selah.",
           "words": [
             {
-              "id": "hebrew-7568",
-              "eng": "A net"
+              "id": "hebrew-6471",
+              "cht": "他們為我的腳"
             },
             {
               "id": "hebrew-3559",
-              "eng": "they have prepared"
+              "cht": "設下"
             },
             {
-              "id": "hebrew-6471",
-              "eng": "for my steps",
-              "punct": "–"
+              "id": "hebrew-7568",
+              "cht": "網羅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3721",
-              "eng": "is bowed down",
-              "punct": "–"
+              "cht": "壓制"
             },
             {
               "id": "hebrew-5315",
-              "eng": "My soul"
-            },
-            {
-              "id": "hebrew-3738",
-              "eng": "they have dug"
+              "cht": "我的心",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before me"
+              "cht": "他們在我面前"
+            },
+            {
+              "id": "hebrew-3738",
+              "cht": "挖了"
             },
             {
               "id": "hebrew-7882",
-              "eng": "a pit"
+              "cht": "坑",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5307",
-              "eng": "they [themselves] have fallen"
+              "cht": "自己反掉"
             },
             {
               "id": "hebrew-8432",
-              "eng": "Into the midst of it"
+              "cht": "在其中（",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5542",
-              "eng": "Selah",
-              "punct": "."
+              "cht": "細拉）"
             }
           ]
         },
@@ -516,70 +519,67 @@
             "hebrew-3738": 4.0204442424896225
           },
           "verseKey": "gen.26.25",
-          "cunp": "以撒就在那裏築了一座壇，求告耶和華的名，並且支搭帳棚；他的僕人便在那裏挖了一口井。",
+          "nasb": "So he built an altar there and called upon the name of the Lord, and pitched his tent there; and there Isaac’s servants dug a well.",
           "words": [
             {
-              "id": "hebrew-1129",
-              "eng": "So he built"
+              "id": "hebrew-3327",
+              "cht": "以撒"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
+              "cht": "就在那裡"
+            },
+            {
+              "id": "hebrew-1129",
+              "cht": "築了"
             },
             {
               "id": "hebrew-4196",
-              "eng": "an altar",
-              "punct": "､"
+              "cht": "一座壇",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and called"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "on the name"
+              "cht": "求告"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "的名",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5186",
-              "eng": "And he pitched"
+              "cht": "並且支搭"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-168",
-              "eng": "his tent",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3738",
-              "eng": "and dug"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-5650",
-              "eng": "servants"
+              "cht": "帳棚",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3327",
-              "eng": "Isaac's"
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-5650",
+              "cht": "的僕人"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "便在那裡"
+            },
+            {
+              "id": "hebrew-3738",
+              "cht": "挖"
             },
             {
               "id": "hebrew-875",
-              "eng": "a well",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-3327"
+              "cht": "了一口井",
+              "punct_cht": "。"
             }
           ]
         },
@@ -589,97 +589,76 @@
             "hebrew-3738": 4.0204442424896225
           },
           "verseKey": "gen.50.5",
-          "cunp": "『我父親要死的時候叫我起誓說：你要將我葬在迦南地，在我為自己所掘的墳墓裏。』現在求你讓我上去葬我父親，以後我必回來。」",
+          "nasb": "‘My father made me swear, saying, “Behold, I am about to die; in my grave which I dug for myself in the land of Canaan, there you shall bury me.” Now therefore, please let me go up and bury my father; then I will return.’ ”",
           "words": [
             {
               "id": "hebrew-1",
-              "eng": "My father"
-            },
-            {
-              "id": "hebrew-7650",
-              "eng": "made me swear",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2009",
-              "eng": "behold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-595",
-              "eng": "I"
+              "cht": "我父親"
             },
             {
               "id": "hebrew-4191",
-              "eng": "am dying",
-              "punct": "–"
+              "cht": "要死"
             },
             {
-              "id": "hebrew-6913",
-              "eng": "in my grave"
+              "id": "hebrew-7650",
+              "cht": "的時候叫我起誓"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that"
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-3738",
-              "eng": "I dug"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "in the land"
+              "id": "hebrew-6912",
+              "cht": "你要將我葬"
             },
             {
               "id": "hebrew-3667",
-              "eng": "of Canaan",
-              "punct": "､"
+              "cht": "在迦南"
             },
             {
-              "id": "hebrew-8033",
-              "eng": "there"
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6912",
-              "eng": "you shall bury me",
-              "punct": "."
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-3738",
+              "cht": "掘"
+            },
+            {
+              "id": "hebrew-6913",
+              "cht": "的墳墓裡",
+              "punct_cht": "。』"
             },
             {
               "id": "hebrew-6258",
-              "eng": "Now therefore"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "let me go up",
-              "punct": "､"
+              "cht": "現在"
             },
             {
               "id": "hebrew-4994",
-              "eng": "please",
-              "punct": "､"
+              "cht": "求"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "你讓我上去"
             },
             {
               "id": "hebrew-6912",
-              "eng": "and bury"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "葬"
             },
             {
               "id": "hebrew-1",
-              "eng": "my father",
-              "punct": "､"
+              "cht": "我父親",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7725",
-              "eng": "and I will return",
-              "punct": "."
+              "cht": "以後我必回來",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -689,75 +668,66 @@
             "hebrew-3738": 4.0204442424896225
           },
           "verseKey": "exo.21.33",
-          "cunp": "「人若敞着井口，或挖井不遮蓋，有牛或驢掉在裏頭，",
+          "nasb": "“If a man opens a pit, or digs a pit and does not cover it over, and an ox or a donkey falls into it,",
           "words": [
             {
+              "id": "hebrew-376",
+              "cht": "人"
+            },
+            {
               "id": "hebrew-3588",
-              "eng": "And if"
+              "cht": "若"
             },
             {
               "id": "hebrew-6605",
-              "eng": "opens"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "敞著"
             },
             {
               "id": "hebrew-953",
-              "eng": "a pit",
-              "punct": "､"
+              "cht": "井口",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "if"
+              "cht": "或"
             },
             {
               "id": "hebrew-3738",
-              "eng": "digs"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "a man"
+              "cht": "挖"
             },
             {
               "id": "hebrew-953",
-              "eng": "a pit",
-              "punct": "､"
+              "cht": "井"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and not"
+              "cht": "不"
             },
             {
               "id": "hebrew-3680",
-              "eng": "does cover it",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "and falls"
-            },
-            {
-              "id": "hebrew-8033",
-              "eng": "in it"
+              "cht": "遮蓋",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7794",
-              "eng": "an ox"
+              "cht": "有牛"
             },
             {
               "id": "hebrew-176",
-              "eng": "or"
+              "cht": "或"
             },
             {
               "id": "hebrew-2543",
-              "eng": "a donkey",
-              "punct": "､"
+              "cht": "驢"
+            },
+            {
+              "id": "hebrew-5307",
+              "cht": "掉"
+            },
+            {
+              "id": "hebrew-8033",
+              "cht": "在裡頭",
+              "punct_cht": "，"
             }
           ]
         }

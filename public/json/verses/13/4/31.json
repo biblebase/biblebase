@@ -3,16 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-1024": "Beth Marcaboth",
-          "hebrew-2702": "Hazar Susah",
-          "hebrew-1011": "Beth Biri",
-          "hebrew-8189": "and at Shaaraim",
-          "hebrew-428": "These [were]",
-          "hebrew-5892": "their cities",
-          "hebrew-5704": "until",
-          "hebrew-4427": "the reign",
-          "hebrew-1732": "of David",
-          "": null
+          "eng": {
+            "hebrew-1024": "Beth Marcaboth",
+            "hebrew-2702": "Hazar Susah",
+            "hebrew-1011": "Beth Biri",
+            "hebrew-8189": "and at Shaaraim",
+            "hebrew-428": "These [were]",
+            "hebrew-5892": "their cities",
+            "hebrew-5704": "until",
+            "hebrew-4427": "the reign",
+            "hebrew-1732": "of David",
+            "": null
+          },
+          "cht": {
+            "hebrew-1024": "瑪嘉博",
+            "hebrew-2702": "蘇撒",
+            "hebrew-1011": "比利、",
+            "hebrew-8189": "沙拉音",
+            "hebrew-428": "這些",
+            "hebrew-5892": "城邑",
+            "hebrew-5704": "直到",
+            "hebrew-4427": "作王",
+            "hebrew-1732": "大衛"
+          }
         }
       },
       "translations": {
@@ -27,25 +40,23 @@
             "hebrew-1024": 10.248599871619378
           },
           "verseKey": "jos.19.5",
-          "cunp": "洗革拉、伯‧瑪加博、哈薩‧蘇撒、",
+          "nasb": "and Ziklag and Beth-marcaboth and Hazar-susah,",
           "words": [
             {
               "id": "hebrew-6860",
-              "eng": "and Ziklag",
-              "punct": "､"
+              "cht": "洗革拉"
+            },
+            {
+              "id": "",
+              "cht": "、伯‧"
             },
             {
               "id": "hebrew-1024",
-              "eng": "Beth Marcaboth",
-              "punct": "､"
+              "cht": "瑪加博、"
             },
             {
               "id": "hebrew-2701",
-              "eng": "Hazar Susah",
-              "punct": "､"
-            },
-            {
-              "id": ""
+              "cht": "哈薩蘇撒、"
             }
           ]
         },
@@ -56,44 +67,42 @@
             "hebrew-5892": 0.5914215478951839
           },
           "verseKey": "jos.15.36",
-          "cunp": "沙拉音、亞底他音、基底拉、基底羅他音，共十四座城，還有屬城的村莊。",
+          "nasb": "and Shaaraim and Adithaim and Gederah and Gederothaim; fourteen cities with their villages.",
           "words": [
             {
               "id": "hebrew-8189",
-              "eng": "and Shaaraim",
-              "punct": "､"
+              "cht": "沙拉音、"
             },
             {
               "id": "hebrew-5723",
-              "eng": "and Adithaim",
-              "punct": "､"
+              "cht": "亞底他音、"
             },
             {
               "id": "hebrew-1449",
-              "eng": "and Gederah",
-              "punct": "､"
+              "cht": "基底拉、"
             },
             {
               "id": "hebrew-1453",
-              "eng": "and Gederothaim",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5892",
-              "eng": "cities"
-            },
-            {
-              "id": "hebrew-702",
-              "eng": "four"
+              "cht": "基底羅他音",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6240",
-              "eng": "[and] ten"
+              "cht": "共十"
+            },
+            {
+              "id": "hebrew-702",
+              "cht": "四"
+            },
+            {
+              "id": "hebrew-5892",
+              "cht": "座城",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2691",
-              "eng": "and with their villages",
-              "punct": "."
+              "cht": "還有屬城的村莊",
+              "punct_cht": "。"
             }
           ]
         },
@@ -103,113 +112,101 @@
             "hebrew-8189": 8.539323589735611
           },
           "verseKey": "1sa.17.52",
-          "cunp": "以色列人和猶大人便起身吶喊，追趕非利士人，直到迦特和以革倫的城門。被殺的非利士人倒在沙拉音的路上，直到迦特和以革倫。",
+          "nasb": "The men of Israel and Judah arose and shouted and pursued the Philistines as far as the valley, and to the gates of Ekron. And the slain Philistines lay along the way to Shaaraim, even to Gath and Ekron.",
           "words": [
             {
-              "id": "hebrew-6965",
-              "eng": "And arose",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the men"
-            },
-            {
               "id": "hebrew-3478",
-              "eng": "of Israel"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "人"
             },
             {
               "id": "hebrew-3063",
-              "eng": "and Judah"
+              "cht": "和猶大人"
+            },
+            {
+              "id": "hebrew-6965",
+              "cht": "便起身"
             },
             {
               "id": "hebrew-7321",
-              "eng": "and shouted",
-              "punct": "､"
+              "cht": "吶喊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7291",
-              "eng": "and pursued"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "追趕"
             },
             {
               "id": "hebrew-6430",
-              "eng": "the Philistines",
-              "punct": "､"
+              "cht": "非利士人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "as far as"
+              "cht": "直"
             },
             {
               "id": "hebrew-935",
-              "eng": "the entrance"
+              "cht": "到"
             },
             {
-              "id": "hebrew-1516",
-              "eng": "of the valley",
-              "punct": "､"
+              "id": "",
+              "cht": "迦特（或譯該）",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5704",
-              "eng": "and to"
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-6138",
+              "cht": "以革倫"
             },
             {
               "id": "hebrew-8179",
-              "eng": "the gates"
-            },
-            {
-              "id": "hebrew-6138",
-              "eng": "of Ekron",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-5307",
-              "eng": "And fell"
+              "cht": "的城門",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2491",
-              "eng": "the wounded"
+              "cht": "被殺的"
             },
             {
               "id": "hebrew-6430",
-              "eng": "of the Philistines"
+              "cht": "非利士人"
             },
             {
-              "id": "hebrew-1870",
-              "eng": "along the road"
+              "id": "hebrew-5307",
+              "cht": "倒在"
             },
             {
               "id": "hebrew-8189",
-              "eng": "to Shaaraim",
-              "punct": "､"
+              "cht": "沙拉音"
+            },
+            {
+              "id": "hebrew-1870",
+              "cht": "的路上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and even as far as"
+              "cht": "直到"
             },
             {
               "id": "hebrew-1661",
-              "eng": "Gath",
-              "punct": "､"
+              "cht": "迦特"
             },
             {
               "id": "hebrew-5704",
-              "eng": "and"
+              "cht": "和"
             },
             {
               "id": "hebrew-6138",
-              "eng": "Ekron",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-582"
-            },
-            {
-              "id": ""
+              "cht": "以革倫",
+              "punct_cht": "。"
             }
           ]
         },
@@ -220,79 +217,70 @@
             "hebrew-1732": 0.5937877723175385
           },
           "verseKey": "1ki.2.11",
-          "cunp": "大衛作以色列王四十年：在希伯崙作王七年，在耶路撒冷作王三十三年。",
+          "nasb": "The days that David reigned over Israel were forty years: seven years he reigned in Hebron and thirty-three years he reigned in Jerusalem.",
           "words": [
             {
-              "id": "hebrew-3117",
-              "eng": "And the period [was]"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "reigned"
-            },
-            {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over"
+              "cht": "作"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel"
+              "cht": "以色列"
+            },
+            {
+              "id": "hebrew-4427",
+              "cht": "王"
             },
             {
               "id": "hebrew-705",
-              "eng": "forty"
+              "cht": "四十"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "–"
+              "cht": "年",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2275",
-              "eng": "in Hebron",
-              "punct": "､"
+              "cht": "在希伯崙"
             },
             {
               "id": "hebrew-4427",
-              "eng": "he reigned"
+              "cht": "作王"
             },
             {
               "id": "hebrew-7651",
-              "eng": "seven"
+              "cht": "七"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years"
+              "cht": "年",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3389",
-              "eng": "and in Jerusalem",
-              "punct": "."
+              "cht": "在耶路撒冷"
             },
             {
               "id": "hebrew-4427",
-              "eng": "He reigned"
+              "cht": "作王"
             },
             {
               "id": "hebrew-7970",
-              "eng": "thirty"
+              "cht": "三十"
             },
             {
               "id": "hebrew-7969",
-              "eng": "and three"
+              "cht": "三"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "."
+              "cht": "年",
+              "punct_cht": "。"
             }
           ]
         },
@@ -303,131 +291,50 @@
             "hebrew-1732": 0.5937877723175385
           },
           "verseKey": "1ch.12.39",
-          "cunp": "他們在那裏三日，與大衛一同吃喝，因為他們的族弟兄給他們預備了。",
+          "nasb": "They were there with David three days, eating and drinking, for their kinsmen had prepared for them.",
           "words": [
             {
-              "id": "hebrew-3605",
-              "eng": "All"
+              "id": "hebrew-8033",
+              "cht": "他們在那裡"
             },
             {
-              "id": "hebrew-428",
-              "eng": "these"
+              "id": "hebrew-7969",
+              "cht": "三"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4421",
-              "eng": "of war",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6186",
-              "eng": "who could keep"
-            },
-            {
-              "id": "hebrew-4634",
-              "eng": "ranks",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8003",
-              "eng": "with a heart"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "loyal"
-            },
-            {
-              "id": "hebrew-935",
-              "eng": "came"
-            },
-            {
-              "id": "hebrew-2275",
-              "eng": "to Hebron",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "to make king"
+              "id": "hebrew-5973",
+              "cht": "與"
             },
             {
               "id": "hebrew-1732",
-              "eng": "David"
+              "cht": "大衛"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "over"
+              "id": "hebrew-398",
+              "cht": "一同吃"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
+              "id": "hebrew-8354",
+              "cht": "喝",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "–"
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
-              "id": "hebrew-1571",
-              "eng": "and"
+              "id": "hebrew-251",
+              "cht": "他們的族弟兄"
             },
             {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-7611",
-              "eng": "the rest"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "of Israel"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "[were] of mind"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "to make king"
-            },
-            {
-              "id": "hebrew-1732",
-              "eng": "David",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-8033"
-            },
-            {
-              "id": "hebrew-7969"
-            },
-            {
-              "id": "hebrew-3117"
-            },
-            {
-              "id": "hebrew-5973"
-            },
-            {
-              "id": "hebrew-398"
-            },
-            {
-              "id": "hebrew-8354"
-            },
-            {
-              "id": "hebrew-3588"
-            },
-            {
-              "id": "hebrew-251"
-            },
-            {
-              "id": "hebrew-3559"
+              "id": "hebrew-3559",
+              "cht": "預備了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -437,74 +344,58 @@
             "hebrew-4427": 1.0654998520874626
           },
           "verseKey": "1ch.29.27",
-          "cunp": "作王共四十年：在希伯崙作王七年，在耶路撒冷作王三十三年。",
+          "nasb": "The period which he reigned over Israel was forty years; he reigned in Hebron seven years and in Jerusalem thirty-three years.",
           "words": [
             {
-              "id": "hebrew-3117",
-              "eng": "And the period [was]"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
               "id": "hebrew-4427",
-              "eng": "he reigned"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "over"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "Israel"
+              "cht": "作王"
             },
             {
               "id": "hebrew-705",
-              "eng": "forty"
+              "cht": "共四十"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years",
-              "punct": "–"
+              "cht": "年",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2275",
-              "eng": "in Hebron",
-              "punct": "､"
+              "cht": "在希伯崙"
             },
             {
               "id": "hebrew-4427",
-              "eng": "he reigned"
+              "cht": "作王"
             },
             {
               "id": "hebrew-7651",
-              "eng": "seven"
+              "cht": "七"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years"
+              "cht": "年",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3389",
-              "eng": "and in Jerusalem",
-              "punct": "."
+              "cht": "在耶路撒冷"
             },
             {
               "id": "hebrew-4427",
-              "eng": "He reigned"
+              "cht": "作王"
             },
             {
               "id": "hebrew-7970",
-              "eng": "thirty"
+              "cht": "三十"
             },
             {
               "id": "hebrew-7969",
-              "eng": "and three [years]",
-              "punct": "."
+              "cht": "三"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "年",
+              "punct_cht": "。"
             }
           ]
         }

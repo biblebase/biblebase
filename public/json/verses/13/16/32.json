@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7481": "Let roar",
-          "hebrew-3220": "the sea",
-          "hebrew-4393": "and all its fullness",
-          "hebrew-5970": "let rejoice",
-          "hebrew-7704": "the field",
-          "hebrew-3605": "and all",
-          "hebrew-834": "that [is]"
+          "eng": {
+            "hebrew-7481": "Let roar",
+            "hebrew-3220": "the sea",
+            "hebrew-4393": "and all its fullness",
+            "hebrew-5970": "let rejoice",
+            "hebrew-7704": "the field",
+            "hebrew-3605": "and all",
+            "hebrew-834": "that [is]"
+          },
+          "cht": {
+            "hebrew-7481": "澎湃",
+            "hebrew-3220": "願海",
+            "hebrew-4393": "和其中所充滿的",
+            "hebrew-5970": "都歡樂",
+            "hebrew-7704": "願田",
+            "hebrew-3605": "所有的",
+            "hebrew-834": "和其"
+          }
         }
       },
       "translations": {
@@ -25,125 +36,89 @@
             "hebrew-7481": 3.349908747650579
           },
           "verseKey": "rev.10.4",
-          "cunp": "七雷發聲之後，我正要寫出來，就聽見從天上有聲音說：「七雷所說的，你要封上，不可寫出來。」",
+          "nasb": "When the seven peals of thunder had spoken, I was about to write; and I heard a voice from heaven saying, “Seal up the things which the seven peals of thunder have spoken and do not write them.”",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
-            },
-            {
-              "id": "greek-3753",
-              "eng": "when"
-            },
-            {
-              "id": "greek-2980",
-              "eng": "had spoken"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
               "id": "greek-2033",
-              "eng": "seven"
+              "cht": "七"
             },
             {
               "id": "greek-1027",
-              "eng": "thunders",
-              "punct": ","
+              "cht": "雷"
             },
             {
-              "id": "greek-3195",
-              "eng": "I was about"
-            },
-            {
-              "id": "greek-1125",
-              "eng": "to write",
-              "punct": "."
-            },
-            {
-              "id": "greek-2532",
-              "eng": "But"
-            },
-            {
-              "id": "greek-191",
-              "eng": "I heard"
+              "id": "greek-1438",
+              "cht": "發"
             },
             {
               "id": "greek-5456",
-              "eng": "a voice"
+              "cht": "聲"
             },
             {
-              "id": "greek-1537",
-              "eng": "out of"
+              "id": "greek-3753",
+              "cht": "之後",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-3772",
-              "eng": "heaven",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-4972",
-              "eng": "Seal"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "what"
-            },
-            {
-              "id": "greek-2980",
-              "eng": "have spoken"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2033",
-              "eng": "seven"
-            },
-            {
-              "id": "greek-1027",
-              "eng": "thunders",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them"
+              "id": "greek-3195",
+              "cht": "我正要"
             },
             {
               "id": "greek-1125",
-              "eng": "write",
-              "punct": "."
+              "cht": "寫出來",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-1438"
+              "id": "greek-2532",
+              "cht": "就"
             },
             {
-              "id": "greek-5456"
+              "id": "greek-191",
+              "cht": "聽見"
             },
             {
-              "id": "greek-3427"
+              "id": "greek-1537",
+              "cht": "從"
             },
             {
-              "id": "greek-5023"
+              "id": "greek-3772",
+              "cht": "天上"
+            },
+            {
+              "id": "greek-3427",
+              "cht": "有聲音"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-2033",
+              "cht": "七"
+            },
+            {
+              "id": "greek-1027",
+              "cht": "雷"
+            },
+            {
+              "id": "greek-2980",
+              "cht": "所說的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-4972",
+              "cht": "你要封上",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3361",
+              "cht": "不可"
+            },
+            {
+              "id": "greek-5023",
+              "cht": "寫出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -154,54 +129,56 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "psa.5.11",
-          "cunp": "凡投靠你的，願他們喜樂，時常歡呼， 因為你護庇他們； 又願那愛你名的人都靠你歡欣。",
+          "nasb": "But let all who take refuge in You be glad, Let them ever sing for joy; And may You shelter them, That those who love Your name may exult in You.",
           "words": [
             {
-              "id": "hebrew-8055",
-              "eng": "But let rejoice",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "hebrew-2620",
-              "eng": "those who put their trust"
+              "cht": "投靠"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-8055",
+              "cht": "願他們喜樂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5769",
-              "eng": "ever"
+              "cht": "時常"
             },
             {
               "id": "hebrew-7442",
-              "eng": "let them shout for joy",
-              "punct": "､"
+              "cht": "歡呼",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5526",
-              "eng": "and because You defend"
+              "cht": "因為你護庇"
             },
             {
               "id": "hebrew-5921",
-              "eng": "them",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5970",
-              "eng": "and Be joyful"
+              "cht": "他們",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-157",
-              "eng": "let those who love"
+              "cht": "又願那愛"
             },
             {
               "id": "hebrew-8034",
-              "eng": "Your name",
-              "punct": "."
+              "cht": "你名"
             },
             {
-              "id": ""
+              "id": "hebrew-5970",
+              "cht": "歡欣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -211,41 +188,37 @@
             "hebrew-5970": 5.492088685277254
           },
           "verseKey": "psa.68.3",
-          "cunp": "惟有義人必然歡喜， 在神面前高興快樂。",
+          "nasb": "But let the righteous be glad; let them exult before God; Yes, let them rejoice with gladness.",
           "words": [
             {
               "id": "hebrew-6662",
-              "eng": "But the righteous"
+              "cht": "惟有義人"
             },
             {
               "id": "hebrew-8055",
-              "eng": "let be glad",
-              "punct": "–"
+              "cht": "必然歡喜"
             },
             {
-              "id": "hebrew-5970",
-              "eng": "let them rejoice"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "before"
+              "id": "",
+              "cht": "在",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "–"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "面前"
             },
             {
               "id": "hebrew-7797",
-              "eng": "and Yes let them rejoice"
+              "cht": "高興"
             },
             {
               "id": "hebrew-8057",
-              "eng": "exceedingly",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "快樂",
+              "punct_cht": "。"
             }
           ]
         },
@@ -255,39 +228,39 @@
             "hebrew-5970": 5.492088685277254
           },
           "verseKey": "pro.11.10",
-          "cunp": "義人享福，合城喜樂； 惡人滅亡，人都歡呼。",
+          "nasb": "When it goes well with the righteous, the city rejoices, And when the wicked perish, there is joyful shouting.",
           "words": [
             {
-              "id": "hebrew-2898",
-              "eng": "When it [goes] well"
-            },
-            {
               "id": "hebrew-6662",
-              "eng": "with the righteous",
-              "punct": "､"
+              "cht": "義人"
             },
             {
-              "id": "hebrew-5970",
-              "eng": "rejoices",
-              "punct": "､"
+              "id": "hebrew-2898",
+              "cht": "享福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7151",
-              "eng": "the city"
+              "cht": "合城"
             },
             {
-              "id": "hebrew-6",
-              "eng": "and when perish",
-              "punct": "､"
+              "id": "hebrew-5970",
+              "cht": "喜樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "惡人"
+            },
+            {
+              "id": "hebrew-6",
+              "cht": "滅亡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7440",
-              "eng": "[there is] jubilation",
-              "punct": "."
+              "cht": "人都歡呼",
+              "punct_cht": "。"
             }
           ]
         },
@@ -297,43 +270,43 @@
             "hebrew-5970": 5.492088685277254
           },
           "verseKey": "pro.28.12",
-          "cunp": "義人得志，有大榮耀； 惡人興起，人就躲藏。",
+          "nasb": "When the righteous triumph, there is great glory, But when the wicked rise, men hide themselves.",
           "words": [
             {
-              "id": "hebrew-5970",
-              "eng": "When rejoice",
-              "punct": "､"
+              "id": "hebrew-6662",
+              "cht": "義人"
             },
             {
-              "id": "hebrew-6662",
-              "eng": "the righteous"
+              "id": "hebrew-5970",
+              "cht": "得志",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7227",
-              "eng": "great"
+              "cht": "有大"
             },
             {
               "id": "hebrew-8597",
-              "eng": "[there is] glory",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6965",
-              "eng": "but when arise",
-              "punct": "､"
+              "cht": "榮耀",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "惡人"
             },
             {
-              "id": "hebrew-2664",
-              "eng": "hide themselves"
+              "id": "hebrew-6965",
+              "cht": "興起",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-120",
-              "eng": "men",
-              "punct": "."
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-2664",
+              "cht": "就躲藏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -343,32 +316,34 @@
             "hebrew-5970": 5.492088685277254
           },
           "verseKey": "psa.9.2",
-          "cunp": "我要因你歡喜快樂； 至高者啊，我要歌頌你的名！",
+          "nasb": "I will be glad and exult in You; I will sing praise to Your name, O Most High.",
           "words": [
             {
               "id": "hebrew-8055",
-              "eng": "I will be glad"
+              "cht": "歡喜"
             },
             {
               "id": "hebrew-5970",
-              "eng": "and rejoice"
-            },
-            {
-              "id": "hebrew-2167",
-              "eng": "I will sing praise"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "to Your name",
-              "punct": "､"
+              "cht": "快樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5945",
-              "eng": "Most High",
-              "punct": "."
+              "cht": "至高者"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2167",
+              "cht": "我要歌頌"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "你的名",
+              "punct_cht": "！"
             }
           ]
         },
@@ -378,43 +353,46 @@
             "hebrew-5970": 5.492088685277254
           },
           "verseKey": "psa.25.2",
-          "cunp": "我的神啊，我素來倚靠你； 求你不要叫我羞愧， 不要叫我的仇敵向我誇勝。",
+          "nasb": "O my God, in You I trust, Do not let me be ashamed; Do not let my enemies exult over me.",
           "words": [
             {
+              "id": "",
+              "cht": "我的"
+            },
+            {
               "id": "hebrew-430",
-              "eng": "My God",
-              "punct": "､"
+              "cht": "神"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-982",
-              "eng": "I trust"
+              "cht": "我素來倚靠"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "求你不要"
             },
             {
               "id": "hebrew-954",
-              "eng": "let me be ashamed",
-              "punct": "､"
+              "cht": "叫我羞愧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-5970",
-              "eng": "let triumph"
+              "cht": "不要"
             },
             {
               "id": "hebrew-341",
-              "eng": "my enemies"
+              "cht": "叫我的仇敵"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-5970",
+              "cht": "誇勝",
+              "punct_cht": "。"
             }
           ]
         },
@@ -424,77 +402,76 @@
             "hebrew-5970": 5.492088685277254
           },
           "verseKey": "1sa.2.1",
-          "cunp": "哈拿禱告說： 我的心因耶和華快樂； 我的角因耶和華高舉。 我的口向仇敵張開； 我因耶和華的救恩歡欣。",
+          "nasb": "Then Hannah prayed and said, “My heart exults in the Lord; My horn is exalted in the Lord, My mouth speaks boldly against my enemies, Because I rejoice in Your salvation.",
           "words": [
             {
-              "id": "hebrew-6419",
-              "eng": "And prayed",
-              "punct": "､"
+              "id": "hebrew-2584",
+              "cht": "哈拿"
             },
             {
-              "id": "hebrew-2584",
-              "eng": "Hannah"
+              "id": "hebrew-6419",
+              "cht": "禱告"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5970",
-              "eng": "rejoices"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3820",
-              "eng": "My heart"
+              "cht": "我的心"
             },
             {
               "id": "hebrew-3068",
-              "eng": "in Yahweh",
-              "punct": "､"
+              "cht": "因耶和華"
             },
             {
-              "id": "hebrew-7311",
-              "eng": "is exalted"
+              "id": "hebrew-5970",
+              "cht": "快樂",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7161",
-              "eng": "My horn"
+              "cht": "我的角"
             },
             {
               "id": "hebrew-3068",
-              "eng": "in Yahweh",
-              "punct": "､"
+              "cht": "因耶和華"
             },
             {
-              "id": "hebrew-7337",
-              "eng": "I smile"
+              "id": "hebrew-7311",
+              "cht": "高舉",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-6310",
-              "eng": "my mouth"
+              "cht": "我的口"
             },
             {
               "id": "hebrew-5921",
-              "eng": "at"
+              "cht": "向"
             },
             {
               "id": "hebrew-341",
-              "eng": "my enemies",
-              "punct": "–"
+              "cht": "仇敵"
+            },
+            {
+              "id": "hebrew-7337",
+              "cht": "張開",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-8055",
-              "eng": "I rejoice"
+              "cht": "我因"
             },
             {
               "id": "hebrew-3444",
-              "eng": "in Your salvation",
-              "punct": "."
+              "cht": "耶和華的救恩"
+            },
+            {
+              "id": "hebrew-8055",
+              "cht": "歡欣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -505,32 +482,33 @@
             "hebrew-3220": 0.9220138243177167
           },
           "verseKey": "psa.98.7",
-          "cunp": "願海和其中所充滿的澎湃； 世界和住在其間的也要發聲。",
+          "nasb": "Let the sea roar and all it contains, The world and those who dwell in it.",
           "words": [
             {
-              "id": "hebrew-7481",
-              "eng": "let roar",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-3220",
-              "eng": "the sea"
+              "cht": "願海"
             },
             {
               "id": "hebrew-4393",
-              "eng": "and all its fullness"
+              "cht": "和其中所充滿的"
+            },
+            {
+              "id": "hebrew-7481",
+              "cht": "澎湃",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8398",
-              "eng": "the world",
-              "punct": "､"
+              "cht": "世界"
             },
             {
               "id": "hebrew-3427",
-              "eng": "and those who dwell"
+              "cht": "和住"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "也要發聲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -541,39 +519,38 @@
             "hebrew-3220": 0.9220138243177167
           },
           "verseKey": "psa.96.11",
-          "cunp": "願天歡喜，願地快樂！ 願海和其中所充滿的澎湃！",
+          "nasb": "Let the heavens be glad, and let the earth rejoice; Let the sea roar, and all it contains;",
           "words": [
             {
-              "id": "hebrew-8055",
-              "eng": "Let rejoice",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-8064",
-              "eng": "the heavens"
+              "cht": "願天"
             },
             {
-              "id": "hebrew-1523",
-              "eng": "and let be glad",
-              "punct": "–"
+              "id": "hebrew-8055",
+              "cht": "歡喜",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth"
+              "cht": "願地"
             },
             {
-              "id": "hebrew-7481",
-              "eng": "let roar",
-              "punct": "､"
+              "id": "hebrew-1523",
+              "cht": "快樂",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-3220",
-              "eng": "the sea"
+              "cht": "願海"
             },
             {
               "id": "hebrew-4393",
-              "eng": "and all its fullness",
-              "punct": "."
+              "cht": "和其中所充滿的"
+            },
+            {
+              "id": "hebrew-7481",
+              "cht": "澎湃",
+              "punct_cht": "！"
             }
           ]
         }

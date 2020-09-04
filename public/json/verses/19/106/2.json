@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4310": "Who",
-          "hebrew-4448": "can utter",
-          "hebrew-1369": "the mighty acts",
-          "hebrew-3068": "of Yahweh",
-          "hebrew-8085": "who can declare",
-          "hebrew-3605": "all",
-          "hebrew-8416": "His praise"
+          "eng": {
+            "hebrew-4310": "Who",
+            "hebrew-4448": "can utter",
+            "hebrew-1369": "the mighty acts",
+            "hebrew-3068": "of Yahweh",
+            "hebrew-8085": "who can declare",
+            "hebrew-3605": "all",
+            "hebrew-8416": "His praise"
+          },
+          "cht": {
+            "hebrew-4310": "誰",
+            "hebrew-4448": "能傳說",
+            "hebrew-1369": "的大能",
+            "hebrew-3068": "耶和華",
+            "hebrew-8085": "誰能表明",
+            "hebrew-3605": "他一切的",
+            "hebrew-8416": "美德"
+          }
         }
       },
       "translations": {
@@ -23,34 +34,34 @@
             "hebrew-4448": 6.7856512265994295
           },
           "verseKey": "pro.6.13",
-          "cunp": "用眼傳神， 用腳示意， 用指點劃，",
+          "nasb": "Who winks with his eyes, who signals with his feet, Who points with his fingers;",
           "words": [
             {
-              "id": "hebrew-7169",
-              "eng": "He winks"
-            },
-            {
               "id": "hebrew-5869",
-              "eng": "with his eyes",
-              "punct": "､"
+              "cht": "用眼"
             },
             {
-              "id": "hebrew-4448",
-              "eng": "He shuffles"
+              "id": "hebrew-7169",
+              "cht": "傳神",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7272",
-              "eng": "his feet",
-              "punct": "､"
+              "cht": "用腳"
             },
             {
-              "id": "hebrew-3384",
-              "eng": "He points"
+              "id": "hebrew-4448",
+              "cht": "示意",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-676",
-              "eng": "with his fingers",
-              "punct": "–"
+              "cht": "用指"
+            },
+            {
+              "id": "hebrew-3384",
+              "cht": "點劃",
+              "punct_cht": "，"
             }
           ]
         },
@@ -60,37 +71,38 @@
             "hebrew-4448": 6.7856512265994295
           },
           "verseKey": "job.33.3",
-          "cunp": "我的言語要發明心中所存的正直； 我所知道的，我嘴唇要誠實地說出。",
+          "nasb": "My words are from the uprightness of my heart, And my lips speak knowledge sincerely.",
           "words": [
             {
-              "id": "hebrew-3476",
-              "eng": "Upright"
+              "id": "hebrew-561",
+              "cht": "我的言語"
             },
             {
               "id": "hebrew-3820",
-              "eng": "[come] from my heart",
-              "punct": "､"
+              "cht": "要發明心中"
             },
             {
-              "id": "hebrew-561",
-              "eng": "My words"
+              "id": "hebrew-3476",
+              "cht": "所存的正直",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1847",
-              "eng": "and knowledge"
+              "cht": "我所知道的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8193",
-              "eng": "My lips"
+              "cht": "我嘴唇"
             },
             {
               "id": "hebrew-1305",
-              "eng": "pure"
+              "cht": "要誠實地"
             },
             {
               "id": "hebrew-4448",
-              "eng": "utter",
-              "punct": "."
+              "cht": "說出",
+              "punct_cht": "。"
             }
           ]
         },
@@ -100,43 +112,45 @@
             "hebrew-4448": 6.7856512265994295
           },
           "verseKey": "job.8.2",
-          "cunp": "這些話你要說到幾時？ 口中的言語如狂風要到幾時呢？",
+          "nasb": "“How long will you say these things, And the words of your mouth be a mighty wind?",
           "words": [
             {
-              "id": "hebrew-5704",
-              "eng": "how"
-            },
-            {
-              "id": "hebrew-575",
-              "eng": "long"
+              "id": "hebrew-428",
+              "cht": "這些話"
             },
             {
               "id": "hebrew-4448",
-              "eng": "will you speak"
+              "cht": "你要說"
             },
             {
-              "id": "hebrew-428",
-              "eng": "these [things]"
+              "id": "hebrew-5704",
+              "cht": "到"
             },
             {
-              "id": "hebrew-7307",
-              "eng": "and a wind"
-            },
-            {
-              "id": "hebrew-3524",
-              "eng": "strong"
-            },
-            {
-              "id": "hebrew-561",
-              "eng": "the words"
+              "id": "hebrew-575",
+              "cht": "幾時",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-6310",
-              "eng": "of your mouth [be like]",
-              "punct": "."
+              "cht": "口"
             },
             {
-              "id": ""
+              "id": "hebrew-561",
+              "cht": "中的言語"
+            },
+            {
+              "id": "hebrew-3524",
+              "cht": "如狂"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "風"
+            },
+            {
+              "id": "",
+              "cht": "要到幾時呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -146,60 +160,64 @@
             "hebrew-4448": 6.7856512265994295
           },
           "verseKey": "gen.21.7",
-          "cunp": "又說：「誰能預先對亞伯拉罕說『撒拉要乳養嬰孩』呢？因為在他年老的時候，我給他生了一個兒子。」",
+          "nasb": "And she said, “Who would have said to Abraham that Sarah would nurse children? Yet I have borne him a son in his old age.”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And she said",
-              "punct": "､"
+              "cht": "又說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-4448",
-              "eng": "would have said"
+              "cht": "誰"
             },
             {
               "id": "hebrew-85",
-              "eng": "to Abraham",
-              "punct": "､"
+              "cht": "能預先對亞伯拉罕"
             },
             {
-              "id": "hebrew-3243",
-              "eng": "that would nurse"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "children"
+              "id": "hebrew-4448",
+              "cht": "說",
+              "punct_cht": "『"
             },
             {
               "id": "hebrew-8283",
-              "eng": "Sarah"
+              "cht": "撒拉"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-3205",
-              "eng": "I have borne [him]"
+              "id": "hebrew-3243",
+              "cht": "要乳養"
             },
             {
               "id": "hebrew-1121",
-              "eng": "a son"
+              "cht": "嬰孩"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "』？"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-2208",
-              "eng": "in his old age",
-              "punct": "."
+              "cht": "在他年老"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-3205",
+              "cht": "我給他生"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "了一個兒子",
+              "punct_cht": "。」"
             }
           ]
         }

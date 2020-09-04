@@ -3,15 +3,28 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-8085": "We have heard",
-          "hebrew-1347": "and his arrogance",
-          "hebrew-4124": "of Moab",
-          "hebrew-1343": "He [is] proud",
-          "hebrew-3966": "exceedingly",
-          "hebrew-1363": "of his loftiness",
-          "hebrew-1346": "and pride",
-          "hebrew-7312": "and of the haughtiness",
-          "hebrew-3820": "of heart"
+          "eng": {
+            "hebrew-8085": "We have heard",
+            "hebrew-1347": "and his arrogance",
+            "hebrew-4124": "of Moab",
+            "hebrew-1343": "He [is] proud",
+            "hebrew-3966": "exceedingly",
+            "hebrew-1363": "of his loftiness",
+            "hebrew-1346": "and pride",
+            "hebrew-7312": "and of the haughtiness",
+            "hebrew-3820": "of heart"
+          },
+          "cht": {
+            "hebrew-8085": "我們聽說",
+            "hebrew-1347": "並且狂妄",
+            "hebrew-4124": "摩押人",
+            "hebrew-1343": "驕傲",
+            "hebrew-3966": "是極其",
+            "hebrew-1363": "聽說他自高",
+            "hebrew-1346": "自傲",
+            "hebrew-7312": "自大",
+            "hebrew-3820": "居心"
+          }
         }
       },
       "translations": {
@@ -29,45 +42,46 @@
             "hebrew-3820": 0.9299891508959751
           },
           "verseKey": "pro.25.3",
-          "cunp": "天之高，地之厚， 君王之心也測不透。",
+          "nasb": "As the heavens for height and the earth for depth, So the heart of kings is unsearchable.",
           "words": [
             {
               "id": "hebrew-8064",
-              "eng": "[As] the heavens"
+              "cht": "天"
             },
             {
               "id": "hebrew-7312",
-              "eng": "for height",
-              "punct": "､"
+              "cht": "之高",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-776",
-              "eng": "and the earth"
+              "cht": "地"
             },
             {
               "id": "hebrew-6011",
-              "eng": "for depth",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3820",
-              "eng": "so the heart"
+              "cht": "之厚",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of kings"
+              "cht": "君王"
             },
             {
-              "id": "hebrew-369",
-              "eng": "unsearchable"
+              "id": "hebrew-3820",
+              "cht": "之心"
             },
             {
               "id": "hebrew-2714",
-              "eng": "[is] unsearchable",
-              "punct": "."
+              "cht": "也測"
             },
             {
-              "id": ""
+              "id": "hebrew-369",
+              "cht": "不"
+            },
+            {
+              "id": "",
+              "cht": "透",
+              "punct_cht": "。"
             }
           ]
         },
@@ -78,63 +92,59 @@
             "hebrew-1346": 4.967387449270056
           },
           "verseKey": "isa.13.11",
-          "cunp": "我必因邪惡刑罰世界， 因罪孽刑罰惡人， 使驕傲人的狂妄止息， 制伏強暴人的狂傲。",
+          "nasb": "Thus I will punish the world for its evil And the wicked for their iniquity; I will also put an end to the arrogance of the proud And abase the haughtiness of the ruthless.",
           "words": [
             {
-              "id": "hebrew-6485",
-              "eng": "And I will punish"
+              "id": "hebrew-7451",
+              "cht": "我必因邪惡"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "upon"
+              "id": "hebrew-6485",
+              "cht": "刑罰"
             },
             {
               "id": "hebrew-8398",
-              "eng": "the world"
-            },
-            {
-              "id": "hebrew-7451",
-              "eng": "for [its] evil",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-7563",
-              "eng": "the wicked"
+              "cht": "世界",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5771",
-              "eng": "for their iniquity",
-              "punct": "–"
+              "cht": "因罪孽"
             },
             {
-              "id": "hebrew-7673",
-              "eng": "and I will halt",
-              "punct": "､"
+              "id": "hebrew-5921",
+              "cht": "刑罰"
             },
             {
-              "id": "hebrew-1347",
-              "eng": "the arrogance"
+              "id": "hebrew-7563",
+              "cht": "惡人",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2086",
-              "eng": "of the presumptuous"
+              "cht": "使驕傲人"
             },
             {
-              "id": "hebrew-1346",
-              "eng": "and the haughtiness"
+              "id": "hebrew-1347",
+              "cht": "的狂妄"
             },
             {
-              "id": "hebrew-6184",
-              "eng": "of the terrible"
+              "id": "hebrew-7673",
+              "cht": "止息",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8213",
-              "eng": "will lay low",
-              "punct": "."
+              "cht": "制伏"
+            },
+            {
+              "id": "hebrew-6184",
+              "cht": "強暴人"
+            },
+            {
+              "id": "hebrew-1346",
+              "cht": "的狂傲",
+              "punct_cht": "。"
             }
           ]
         },
@@ -145,40 +155,37 @@
             "hebrew-1363": 4.758842454566098
           },
           "verseKey": "job.40.10",
-          "cunp": "你要以榮耀莊嚴為妝飾， 以尊榮威嚴為衣服；",
+          "nasb": "“Adorn yourself with eminence and dignity, And clothe yourself with honor and majesty.",
           "words": [
             {
-              "id": "hebrew-5710",
-              "eng": "adorn yourself"
-            },
-            {
               "id": "hebrew-4994",
-              "eng": "then"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "[with] majesty"
+              "cht": "你要"
             },
             {
               "id": "hebrew-1363",
-              "eng": "and splendor",
-              "punct": "–"
+              "cht": "以榮耀"
+            },
+            {
+              "id": "hebrew-1347",
+              "cht": "莊嚴"
+            },
+            {
+              "id": "hebrew-5710",
+              "cht": "為妝飾",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1935",
-              "eng": "and with glory"
+              "cht": "以尊榮"
             },
             {
-              "id": "hebrew-1926",
-              "eng": "and beauty"
+              "id": "hebrew-1935",
+              "cht": "威嚴"
             },
             {
               "id": "hebrew-3847",
-              "eng": "array yourself",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1935"
+              "cht": "為衣服",
+              "punct_cht": "；"
             }
           ]
         },
@@ -189,37 +196,37 @@
             "hebrew-1363": 4.758842454566098
           },
           "verseKey": "pro.16.18",
-          "cunp": "驕傲在敗壞以先； 狂心在跌倒之前。",
+          "nasb": "Pride goes before destruction, And a haughty spirit before stumbling.",
           "words": [
             {
-              "id": "hebrew-6440",
-              "eng": "Before"
+              "id": "hebrew-1347",
+              "cht": "驕傲"
             },
             {
               "id": "hebrew-7667",
-              "eng": "destruction",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "Pride [goes]"
+              "cht": "在敗壞"
             },
             {
               "id": "hebrew-6440",
-              "eng": "and before"
-            },
-            {
-              "id": "hebrew-3783",
-              "eng": "a fall"
+              "cht": "以先",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1363",
-              "eng": "haughty"
+              "cht": "狂"
             },
             {
               "id": "hebrew-7307",
-              "eng": "a spirit",
-              "punct": "."
+              "cht": "心"
+            },
+            {
+              "id": "hebrew-3783",
+              "cht": "在跌倒"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "之前",
+              "punct_cht": "。"
             }
           ]
         },
@@ -229,98 +236,81 @@
             "hebrew-7312": 6.7856512265994295
           },
           "verseKey": "isa.10.12",
-          "cunp": "主在錫安山和耶路撒冷成就他一切工作的時候，主說：「我必罰亞述王自大的心和他高傲眼目的榮耀。」",
+          "nasb": "So it will be that when the Lord has completed all His work on Mount Zion and on Jerusalem, He will say, “I will punish the fruit of the arrogant heart of the king of Assyria and the pomp of his haughtiness.”",
           "words": [
             {
-              "id": "hebrew-1961",
-              "eng": "therefore it shall come to pass",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "when"
-            },
-            {
-              "id": "hebrew-1214",
-              "eng": "has performed"
-            },
-            {
               "id": "hebrew-136",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "his work"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "on Mount"
+              "cht": "主"
             },
             {
               "id": "hebrew-6726",
-              "eng": "Zion"
+              "cht": "在錫安"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山"
             },
             {
               "id": "hebrew-3389",
-              "eng": "and on Jerusalem",
-              "punct": "､"
+              "cht": "和耶路撒冷"
             },
             {
-              "id": "hebrew-6485",
-              "eng": "[that He will say] I will punish"
+              "id": "hebrew-1214",
+              "cht": "成就"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "他一切"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "工作"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "的時候"
+            },
+            {
+              "id": "",
+              "cht": "主說",
+              "punct_cht": "，：「"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-6529",
-              "eng": "the fruit"
-            },
-            {
-              "id": "hebrew-1433",
-              "eng": "of the arrogant"
-            },
-            {
-              "id": "hebrew-3824",
-              "eng": "heart"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "我必罰"
             },
             {
               "id": "hebrew-804",
-              "eng": "of Assyria",
-              "punct": "､"
+              "cht": "亞述"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-1433",
+              "cht": "自大"
+            },
+            {
+              "id": "hebrew-6529",
+              "cht": "的心"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-8597",
-              "eng": "the glory"
+              "cht": "和"
             },
             {
               "id": "hebrew-7312",
-              "eng": "of haughty"
+              "cht": "他高傲"
             },
             {
               "id": "hebrew-5869",
-              "eng": "His looks",
-              "punct": "."
+              "cht": "眼目"
             },
             {
-              "id": ""
+              "id": "hebrew-8597",
+              "cht": "的榮耀",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -330,57 +320,47 @@
             "hebrew-7312": 6.7856512265994295
           },
           "verseKey": "isa.2.17",
-          "cunp": "驕傲的必屈膝； 狂妄的必降卑。 在那日，惟獨耶和華被尊崇；",
+          "nasb": "The pride of man will be humbled And the loftiness of men will be abased; And the Lord alone will be exalted in that day,",
           "words": [
             {
-              "id": "hebrew-7817",
-              "eng": "And shall be bowed down",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-1365",
-              "eng": "the loftiness"
+              "cht": "驕傲的"
             },
             {
-              "id": "hebrew-120",
-              "eng": "of man"
+              "id": "hebrew-7817",
+              "cht": "必屈膝",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "狂妄的"
             },
             {
               "id": "hebrew-8213",
-              "eng": "and shall be brought low",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-7312",
-              "eng": "the haughtiness"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "of men"
-            },
-            {
-              "id": "hebrew-7682",
-              "eng": "and will be exalted"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-905",
-              "eng": "alone"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in day"
+              "cht": "必降卑",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-1931",
-              "eng": "that",
-              "punct": "."
+              "cht": "在那"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-905",
+              "cht": "惟獨"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-7682",
+              "cht": "被尊崇",
+              "punct_cht": "；"
             }
           ]
         },
@@ -390,61 +370,51 @@
             "hebrew-7312": 6.7856512265994295
           },
           "verseKey": "isa.2.11",
-          "cunp": "到那日，眼目高傲的必降為卑； 性情狂傲的都必屈膝； 惟獨耶和華被尊崇。",
+          "nasb": "The proud look of man will be abased And the loftiness of man will be humbled, And the Lord alone will be exalted in that day.",
           "words": [
             {
-              "id": "hebrew-5869",
-              "eng": "The looks"
-            },
-            {
-              "id": "hebrew-1365",
-              "eng": "of lofty"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-8213",
-              "eng": "shall be humbled",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7817",
-              "eng": "and shall be bowed down",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7312",
-              "eng": "the haughtiness"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "of men"
-            },
-            {
-              "id": "hebrew-7682",
-              "eng": "and shall be exalted"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-905",
-              "eng": "alone"
+              "id": "hebrew-1931",
+              "cht": "到那"
             },
             {
               "id": "hebrew-3117",
-              "eng": "in day"
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that",
-              "punct": "."
+              "id": "hebrew-5869",
+              "cht": "眼目"
             },
             {
-              "id": "hebrew-582"
+              "id": "hebrew-120",
+              "cht": "高傲的"
+            },
+            {
+              "id": "hebrew-8213",
+              "cht": "必降為卑",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-582",
+              "cht": "性情狂傲"
+            },
+            {
+              "id": "hebrew-7817",
+              "cht": "的都必屈膝",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-905",
+              "cht": "惟獨"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-7682",
+              "cht": "被尊崇",
+              "punct_cht": "。"
             }
           ]
         },
@@ -457,57 +427,51 @@
             "hebrew-3966": 1.0782779315028928
           },
           "verseKey": "isa.16.6",
-          "cunp": "我們聽說摩押人驕傲， 是極其驕傲； 聽說他狂妄、驕傲、忿怒； 他誇大的話是虛空的。",
+          "nasb": "We have heard of the pride of Moab, an excessive pride; Even of his arrogance, pride, and fury; His idle boasts are false.",
           "words": [
             {
               "id": "hebrew-8085",
-              "eng": "We have heard"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "of the pride"
+              "cht": "我們聽說"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1341",
-              "eng": "[He is] proud",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3966",
-              "eng": "very"
-            },
-            {
-              "id": "hebrew-1346",
-              "eng": "of his haughtiness",
-              "punct": "､"
+              "cht": "摩押人"
             },
             {
               "id": "hebrew-1347",
-              "eng": "and his pride",
-              "punct": "､"
+              "cht": "驕傲",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3966",
+              "cht": "是極其"
+            },
+            {
+              "id": "hebrew-1341",
+              "cht": "驕傲",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-1346",
+              "cht": "聽說他狂妄、"
+            },
+            {
+              "id": "hebrew-1347",
+              "cht": "驕傲、"
             },
             {
               "id": "hebrew-5678",
-              "eng": "and his wrath",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "[shall] not [be]"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "so"
+              "cht": "忿怒",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-907",
-              "eng": "[But] his lies",
-              "punct": "."
+              "cht": "他誇大的話"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "是虛空的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -517,120 +481,101 @@
             "hebrew-4124": 1.3494993415382406
           },
           "verseKey": "jdg.11.18",
-          "cunp": "他們又經過曠野，繞着以東和摩押地，從摩押地的東邊過來，在亞嫩河邊安營，並沒有入摩押的境內，因為亞嫩河是摩押的邊界。",
+          "nasb": "Then they went through the wilderness and around the land of Edom and the land of Moab, and came to the east side of the land of Moab, and they camped beyond the Arnon; but they did not enter the territory of Moab, for the Arnon was the border of Moab.",
           "words": [
             {
-              "id": "hebrew-1980",
-              "eng": "And they went along"
+              "id": "hebrew-3212",
+              "cht": "他們又經過"
             },
             {
               "id": "hebrew-4057",
-              "eng": "through the wilderness",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5437",
-              "eng": "and bypassed"
+              "cht": "曠野",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "繞著"
             },
             {
               "id": "hebrew-123",
-              "eng": "of Edom",
-              "punct": "､"
+              "cht": "以東"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the land"
+              "cht": "和"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "､"
+              "cht": "摩押"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4124",
+              "cht": "從摩押"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "地"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的東邊"
             },
             {
               "id": "hebrew-935",
-              "eng": "and came"
+              "cht": "過來",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4217",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-8121",
-              "eng": "the east side"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "of the land"
-            },
-            {
-              "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2583",
-              "eng": "and encamped"
+              "id": "hebrew-769",
+              "cht": "在亞嫩河"
             },
             {
               "id": "hebrew-5676",
-              "eng": "on the other side"
+              "cht": "邊"
             },
             {
-              "id": "hebrew-769",
-              "eng": "of the Arnon",
-              "punct": "､"
+              "id": "hebrew-2583",
+              "cht": "安營",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "but not"
+              "cht": "並沒有"
             },
             {
               "id": "hebrew-935",
-              "eng": "they did enter"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "cht": "入"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "､"
+              "cht": "摩押"
+            },
+            {
+              "id": "hebrew-1366",
+              "cht": "的境內",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-769",
-              "eng": "the Arnon [was]"
-            },
-            {
-              "id": "hebrew-1366",
-              "eng": "the border"
+              "cht": "亞嫩河"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab",
-              "punct": "."
+              "cht": "是摩押"
             },
             {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-1366",
+              "cht": "的邊界",
+              "punct_cht": "。"
             }
           ]
         },
@@ -640,58 +585,53 @@
             "hebrew-1347": 2.6924581556670724
           },
           "verseKey": "jer.13.9",
-          "cunp": "「耶和華如此說：我必照樣敗壞猶大的驕傲和耶路撒冷的大驕傲。",
+          "nasb": "“Thus says the Lord, ‘Just so will I destroy the pride of Judah and the great pride of Jerusalem.",
           "words": [
             {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
               "id": "hebrew-3541",
-              "eng": "thus"
+              "cht": "如此"
             },
             {
               "id": "hebrew-559",
-              "eng": "says"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3602",
-              "eng": "in this manner"
+              "cht": "我必照樣"
             },
             {
               "id": "hebrew-7843",
-              "eng": "I will ruin"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1347",
-              "eng": "the pride"
+              "cht": "敗壞"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "猶大"
             },
             {
               "id": "hebrew-1347",
-              "eng": "pride"
+              "cht": "的驕傲"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "和"
             },
             {
               "id": "hebrew-3389",
-              "eng": "of Jerusalem"
+              "cht": "耶路撒冷"
             },
             {
               "id": "hebrew-7227",
-              "eng": "the great",
-              "punct": "."
+              "cht": "的大"
+            },
+            {
+              "id": "hebrew-1347",
+              "cht": "驕傲",
+              "punct_cht": "。"
             }
           ]
         }

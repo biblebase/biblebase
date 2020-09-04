@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7218": "and with the best things",
-          "hebrew-2042": "of the mountains",
-          "hebrew-6924": "ancient",
-          "hebrew-4022": "and with the precious things",
-          "hebrew-1389": "of the hills",
-          "hebrew-5769": "everlasting",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-7218": "and with the best things",
+            "hebrew-2042": "of the mountains",
+            "hebrew-6924": "ancient",
+            "hebrew-4022": "and with the precious things",
+            "hebrew-1389": "of the hills",
+            "hebrew-5769": "everlasting",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-7218": "的至寶",
+            "hebrew-2042": "之山",
+            "hebrew-6924": "得上古",
+            "hebrew-4022": "的寶物",
+            "hebrew-1389": "之嶺",
+            "hebrew-5769": "永世",
+            "hebrew-4480": "的寶物"
+          }
         }
       },
       "translations": {
@@ -23,39 +34,33 @@
             "hebrew-4022": 5.832220266167411
           },
           "verseKey": "deu.33.14",
-          "cunp": "得太陽所曬熟的美果， 月亮所養成的寶物；",
+          "nasb": "And with the choice yield of the sun, And with the choice produce of the months.",
           "words": [
             {
-              "id": "hebrew-4022",
-              "eng": "and with the precious"
+              "id": "hebrew-8121",
+              "cht": "得太陽"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "所曬熟的美"
             },
             {
               "id": "hebrew-8393",
-              "eng": "fruits"
-            },
-            {
-              "id": "hebrew-8121",
-              "eng": "of the sun",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4022",
-              "eng": "and with the precious"
-            },
-            {
-              "id": "hebrew-1645",
-              "eng": "produce"
+              "cht": "果",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3391",
-              "eng": "of the months",
-              "punct": "､"
+              "cht": "月亮"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1645",
+              "cht": "所養成"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4022",
+              "cht": "的寶物",
+              "punct_cht": "；"
             }
           ]
         },
@@ -67,75 +72,78 @@
             "hebrew-5769": 0.9076353225721897
           },
           "verseKey": "hab.3.6",
-          "cunp": "他站立，量了大地， 觀看，趕散萬民。 永久的山崩裂； 長存的嶺塌陷； 他的作為與古時一樣。",
+          "nasb": "He stood and surveyed the earth; He looked and startled the nations. Yes, the perpetual mountains were shattered, The ancient hills collapsed. His ways are everlasting.",
           "words": [
             {
               "id": "hebrew-5975",
-              "eng": "He stood",
-              "punct": "､"
+              "cht": "他站立",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4058",
-              "eng": "and measured"
+              "cht": "量了"
             },
             {
               "id": "hebrew-776",
-              "eng": "the earth",
-              "punct": "–"
+              "cht": "大地"
+            },
+            {
+              "id": "",
+              "cht": "（或譯使地震動）",
+              "punct_cht": "：，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "He looked",
-              "punct": "､"
+              "cht": "觀看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5425",
-              "eng": "and startled"
+              "cht": "趕散"
             },
             {
               "id": "hebrew-1471",
-              "eng": "the nations",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6327",
-              "eng": "and were scattered",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2042",
-              "eng": "the mountains"
+              "cht": "萬民",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-5703",
-              "eng": "everlasting"
+              "cht": "永久"
             },
             {
-              "id": "hebrew-7817",
-              "eng": "bowed",
-              "punct": "."
+              "id": "hebrew-2042",
+              "cht": "的山"
+            },
+            {
+              "id": "hebrew-6327",
+              "cht": "崩裂",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "長存"
             },
             {
               "id": "hebrew-1389",
-              "eng": "The hills"
+              "cht": "的嶺"
             },
             {
-              "id": "hebrew-5769",
-              "eng": "perpetual"
+              "id": "hebrew-7817",
+              "cht": "塌陷",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1979",
-              "eng": "ways [are]"
+              "cht": "作為"
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "與古時"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -146,95 +154,86 @@
             "hebrew-6924": 2.2015553563646506
           },
           "verseKey": "num.23.7",
-          "cunp": "巴蘭便題起詩歌說： 巴勒引我出亞蘭， 摩押王引我出東山，說： 來啊，為我咒詛雅各； 來啊，怒罵以色列。",
+          "nasb": "He took up his discourse and said, “From Aram Balak has brought me, Moab’s king from the mountains of the East, ‘Come curse Jacob for me, And come, denounce Israel!’",
           "words": [
             {
               "id": "hebrew-5375",
-              "eng": "And he took up"
+              "cht": "巴蘭便題起"
             },
             {
               "id": "hebrew-4912",
-              "eng": "his oracle",
-              "punct": "､"
+              "cht": "詩歌"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4480",
-              "eng": "from"
-            },
-            {
-              "id": "hebrew-758",
-              "eng": "Syria",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5148",
-              "eng": "has brought me"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-1111",
-              "eng": "Balak"
+              "cht": "巴勒"
             },
             {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "id": "hebrew-5148",
+              "cht": "引"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "我出"
+            },
+            {
+              "id": "hebrew-758",
+              "cht": "亞蘭",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4124",
-              "eng": "of Moab"
+              "cht": "摩押"
             },
             {
-              "id": "hebrew-2042",
-              "eng": "from the mountains"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-6924",
-              "eng": "of the east",
-              "punct": "､"
+              "cht": "引我出東"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "come",
-              "punct": "､"
+              "id": "hebrew-2042",
+              "cht": "山"
+            },
+            {
+              "id": "",
+              "cht": "說",
+              "punct_cht": "，："
+            },
+            {
+              "id": "hebrew-3212",
+              "cht": "來啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-779",
-              "eng": "curse"
+              "cht": "咒詛"
             },
             {
               "id": "hebrew-3290",
-              "eng": "Jacob",
-              "punct": "､"
+              "cht": "雅各",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-1980",
-              "eng": "and come",
-              "punct": "､"
+              "id": "hebrew-3212",
+              "cht": "來啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2194",
-              "eng": "denounce"
+              "cht": "怒罵"
             },
             {
               "id": "hebrew-3478",
-              "eng": "Israel",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3212"
-            },
-            {
-              "id": "hebrew-3212"
+              "cht": "以色列",
+              "punct_cht": "。"
             }
           ]
         },
@@ -245,71 +244,66 @@
             "hebrew-5769": 0.9076353225721897
           },
           "verseKey": "psa.133.3",
-          "cunp": "又好比黑門的甘露降在錫安山； 因為在那裏有耶和華所命定的福， 就是永遠的生命。",
+          "nasb": "It is like the dew of Hermon Coming down upon the mountains of Zion; For there the Lord commanded the blessing—life forever.",
           "words": [
             {
-              "id": "hebrew-2919",
-              "eng": "[it is] like the dew"
+              "id": "hebrew-2768",
+              "cht": "又好比黑門"
             },
             {
-              "id": "hebrew-2768",
-              "eng": "of Hermon",
-              "punct": "､"
+              "id": "hebrew-2919",
+              "cht": "的甘露"
             },
             {
               "id": "hebrew-3381",
-              "eng": "Descending"
+              "cht": "降"
             },
             {
               "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-2042",
-              "eng": "the mountains"
+              "cht": "在"
             },
             {
               "id": "hebrew-6726",
-              "eng": "of Zion",
-              "punct": "–"
+              "cht": "錫安"
+            },
+            {
+              "id": "hebrew-2042",
+              "cht": "山",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there"
-            },
-            {
-              "id": "hebrew-6680",
-              "eng": "commanded"
+              "cht": "在那裡"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "有耶和華"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-6680",
+              "cht": "命定"
             },
             {
               "id": "hebrew-1293",
-              "eng": "the blessing",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "Life"
+              "cht": "的福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "even to"
+              "cht": "就是永遠"
             },
             {
-              "id": "hebrew-5769",
-              "eng": "forevermore",
-              "punct": "."
+              "id": "hebrew-2416",
+              "cht": "的生命",
+              "punct_cht": "。"
             }
           ]
         },
@@ -319,65 +313,55 @@
             "hebrew-4022": 5.832220266167411
           },
           "verseKey": "deu.33.13",
-          "cunp": "論約瑟說： 願他的地蒙耶和華賜福， 得天上的寶物、甘露， 以及地裏所藏的泉水；",
+          "nasb": "Of Joseph he said, “Blessed of the Lord  be his land, With the choice things of heaven, with the dew, And from the deep lying beneath,",
           "words": [
             {
               "id": "hebrew-3130",
-              "eng": "And of Joseph"
+              "cht": "論約瑟"
             },
             {
               "id": "hebrew-559",
-              "eng": "he said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "Blessed"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-776",
-              "eng": "[is] his land",
-              "punct": "､"
+              "cht": "願他的地"
             },
             {
-              "id": "hebrew-4022",
-              "eng": "with the precious things"
+              "id": "hebrew-3068",
+              "cht": "蒙耶和華"
+            },
+            {
+              "id": "hebrew-1288",
+              "cht": "賜福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8064",
-              "eng": "of heaven",
-              "punct": "､"
+              "cht": "得天上"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "的寶物、"
             },
             {
               "id": "hebrew-2919",
-              "eng": "with the dew",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8415",
-              "eng": "and the deep"
-            },
-            {
-              "id": "hebrew-7257",
-              "eng": "lying"
+              "cht": "甘露",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8478",
-              "eng": "beneath",
-              "punct": "､"
+              "cht": "以及地裡"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-7257",
+              "cht": "所藏的"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-8415",
+              "cht": "泉水",
+              "punct_cht": "；"
             }
           ]
         },
@@ -387,7 +371,7 @@
             "hebrew-4022": 5.832220266167411
           },
           "verseKey": "jdg.13.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -396,61 +380,59 @@
             "hebrew-4022": 5.832220266167411
           },
           "verseKey": "deu.33.16",
-          "cunp": "得地和其中所充滿的寶物， 並住荊棘中上主的喜悅。 願這些福都歸於約瑟的頭上， 歸於那與弟兄迥別之人的頂上。",
+          "nasb": "And with the choice things of the earth and its fullness, And the favor of Him who dwelt in the bush. Let it come to the head of Joseph, And to the crown of the head of the one distinguished among his brothers.",
           "words": [
             {
-              "id": "hebrew-4022",
-              "eng": "And with the precious things"
-            },
-            {
               "id": "hebrew-776",
-              "eng": "of the earth"
+              "cht": "得地"
             },
             {
               "id": "hebrew-4393",
-              "eng": "and its fullness"
+              "cht": "和其中所充滿"
             },
             {
-              "id": "hebrew-7522",
-              "eng": "and the favor"
+              "id": "hebrew-4022",
+              "cht": "的寶物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7931",
-              "eng": "of Him who dwelt"
+              "cht": "並住"
             },
             {
               "id": "hebrew-5572",
-              "eng": "in the bush",
-              "punct": "."
+              "cht": "荊棘中"
+            },
+            {
+              "id": "hebrew-7522",
+              "cht": "上主的喜悅",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-935",
-              "eng": "Let [the blessing] come"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "on the head"
+              "cht": "願這些福都歸於"
             },
             {
               "id": "hebrew-3130",
-              "eng": "of Joseph",
-              "punct": "､"
+              "cht": "約瑟"
             },
             {
-              "id": "hebrew-6936",
-              "eng": "and on the crown of the head"
-            },
-            {
-              "id": "hebrew-5139",
-              "eng": "of him [who was] separate from"
+              "id": "hebrew-7218",
+              "cht": "的頭上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-251",
-              "eng": "his brothers",
-              "punct": "."
+              "cht": "歸於那與弟兄"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5139",
+              "cht": "迥別"
+            },
+            {
+              "id": "hebrew-6936",
+              "cht": "之人的頂上",
+              "punct_cht": "。"
             }
           ]
         },
@@ -460,7 +442,7 @@
             "hebrew-4022": 5.832220266167411
           },
           "verseKey": "num.13.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         },
         {
@@ -469,39 +451,41 @@
             "hebrew-2042": 5.208574812158221
           },
           "verseKey": "psa.50.10",
-          "cunp": "因為，樹林中的百獸是我的， 千山上的牲畜也是我的。",
+          "nasb": "For every beast of the forest is Mine, The cattle on a thousand hills.",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-2416",
-              "eng": "beast"
+              "cht": "因為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3293",
-              "eng": "of the forest"
+              "cht": "樹林"
             },
             {
-              "id": "hebrew-929",
-              "eng": "[And] the cattle"
+              "id": "hebrew-3605",
+              "cht": "中的百"
             },
             {
-              "id": "hebrew-2042",
-              "eng": "on hills"
+              "id": "hebrew-2416",
+              "cht": "獸"
             },
             {
               "id": "hebrew-505",
-              "eng": "a thousand",
-              "punct": "."
+              "cht": "千"
             },
             {
-              "id": ""
+              "id": "hebrew-2042",
+              "cht": "山上"
+            },
+            {
+              "id": "hebrew-929",
+              "cht": "的牲畜"
+            },
+            {
+              "id": "",
+              "cht": "也是我的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -511,7 +495,7 @@
             "hebrew-2042": 5.208574812158221
           },
           "verseKey": "num.8.biblehub.htm",
-          "cunp": "",
+          "nasb": "",
           "words": []
         }
       ]

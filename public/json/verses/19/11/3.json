@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-3588": "If",
-          "hebrew-8356": "the foundations",
-          "hebrew-2040": "are destroyed",
-          "hebrew-6662": "the righteous",
-          "hebrew-4100": "what",
-          "hebrew-6466": "can do"
+          "eng": {
+            "hebrew-3588": "If",
+            "hebrew-8356": "the foundations",
+            "hebrew-2040": "are destroyed",
+            "hebrew-6662": "the righteous",
+            "hebrew-4100": "what",
+            "hebrew-6466": "can do"
+          },
+          "cht": {
+            "hebrew-3588": "若",
+            "hebrew-8356": "根基",
+            "hebrew-2040": "毀壞",
+            "hebrew-6662": "義人",
+            "hebrew-4100": "甚麼呢",
+            "hebrew-6466": "還能做"
+          }
         }
       },
       "translations": {
@@ -22,40 +32,41 @@
             "hebrew-6466": 2.3453296518890085
           },
           "verseKey": "pro.21.15",
-          "cunp": "秉公行義使義人喜樂， 使作孽的人敗壞。",
+          "nasb": "The exercise of justice is joy for the righteous, But is terror to the workers of iniquity.",
           "words": [
             {
-              "id": "hebrew-8057",
-              "eng": "[it is] a joy"
-            },
-            {
               "id": "hebrew-6662",
-              "eng": "for the just"
+              "cht": "秉公"
             },
             {
               "id": "hebrew-6213",
-              "eng": "to do"
+              "cht": "行"
             },
             {
               "id": "hebrew-4941",
-              "eng": "justice",
-              "punct": "–"
+              "cht": "義"
             },
             {
-              "id": "hebrew-4288",
-              "eng": "but destruction [will come]"
+              "id": "hebrew-6662",
+              "cht": "使義人"
+            },
+            {
+              "id": "hebrew-8057",
+              "cht": "喜樂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6466",
-              "eng": "to the workers"
+              "cht": "使作"
             },
             {
               "id": "hebrew-205",
-              "eng": "of iniquity",
-              "punct": "."
+              "cht": "孽"
             },
             {
-              "id": "hebrew-6662"
+              "id": "hebrew-4288",
+              "cht": "的人敗壞",
+              "punct_cht": "。"
             }
           ]
         },
@@ -65,87 +76,75 @@
             "hebrew-6662": 1.0984070729221034
           },
           "verseKey": "mat.10.41",
-          "cunp": "人因為先知的名接待先知，必得先知所得的賞賜；人因為義人的名接待義人，必得義人所得的賞賜。",
+          "nasb": "He who receives a prophet in the name of a prophet shall receive a prophet’s reward; and he who receives a righteous man in the name of a righteous man shall receive a righteous man’s reward.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The [one]"
-            },
-            {
-              "id": "greek-1209",
-              "eng": "receiving"
+              "id": "greek-1519",
+              "cht": "人因為"
             },
             {
               "id": "greek-4396",
-              "eng": "a prophet"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "in [the]"
+              "cht": "先知"
             },
             {
               "id": "greek-3686",
-              "eng": "name"
-            },
-            {
-              "id": "greek-4396",
-              "eng": "of a prophet",
-              "punct": ","
-            },
-            {
-              "id": "greek-3408",
-              "eng": "[the] reward"
-            },
-            {
-              "id": "greek-4396",
-              "eng": "of a prophet"
-            },
-            {
-              "id": "greek-2983",
-              "eng": "will receive",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the [one]"
+              "cht": "的名"
             },
             {
               "id": "greek-1209",
-              "eng": "receiving"
+              "cht": "接待"
             },
             {
-              "id": "greek-1342",
-              "eng": "a righteous [man]"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "in [the]"
-            },
-            {
-              "id": "greek-3686",
-              "eng": "name"
-            },
-            {
-              "id": "greek-1342",
-              "eng": "of a righteous [man]",
-              "punct": ","
-            },
-            {
-              "id": "greek-3408",
-              "eng": "the reward"
-            },
-            {
-              "id": "greek-1342",
-              "eng": "of a righteous [man]"
+              "id": "greek-4396",
+              "cht": "先知",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2983",
-              "eng": "will receive",
-              "punct": "."
+              "cht": "必得"
+            },
+            {
+              "id": "greek-4396",
+              "cht": "先知"
+            },
+            {
+              "id": "greek-3408",
+              "cht": "所得的賞賜",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1519",
+              "cht": "人因為"
+            },
+            {
+              "id": "greek-1342",
+              "cht": "義人"
+            },
+            {
+              "id": "greek-3686",
+              "cht": "的名"
+            },
+            {
+              "id": "greek-2983",
+              "cht": "接待"
+            },
+            {
+              "id": "greek-1342",
+              "cht": "義人",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1209",
+              "cht": "必得"
+            },
+            {
+              "id": "greek-1342",
+              "cht": "義人"
+            },
+            {
+              "id": "greek-3408",
+              "cht": "所得的賞賜",
+              "punct_cht": "。"
             }
           ]
         },
@@ -155,74 +154,63 @@
             "hebrew-2040": 2.863930819310529
           },
           "verseKey": "jer.1.10",
-          "cunp": "看哪，我今日立你在列邦列國之上， 為要施行拔出、拆毀、毀壞、傾覆， 又要建立、栽植。",
+          "nasb": "See, I have appointed you this day over the nations and over the kingdoms, To pluck up and to break down, To destroy and to overthrow, To build and to plant.”",
           "words": [
             {
               "id": "hebrew-7200",
-              "eng": "See",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6485",
-              "eng": "I have set you"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "day"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2088",
-              "eng": "this"
+              "cht": "我今"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "日"
+            },
+            {
+              "id": "hebrew-6485",
+              "cht": "立你"
             },
             {
               "id": "hebrew-5921",
-              "eng": "over"
-            },
-            {
-              "id": "hebrew-1471",
-              "eng": "the nations"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and over"
+              "cht": "在列邦"
             },
             {
               "id": "hebrew-4467",
-              "eng": "the kingdoms",
-              "punct": "､"
+              "cht": "列國"
+            },
+            {
+              "id": "",
+              "cht": "之上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5428",
-              "eng": "to root out",
-              "punct": "､"
+              "cht": "為要施行拔出、"
             },
             {
               "id": "hebrew-5422",
-              "eng": "and to pull down",
-              "punct": "､"
+              "cht": "拆毀、"
             },
             {
               "id": "hebrew-6",
-              "eng": "and to destroy",
-              "punct": "､"
+              "cht": "毀壞、"
             },
             {
               "id": "hebrew-2040",
-              "eng": "and to throw down",
-              "punct": "､"
+              "cht": "傾覆",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1129",
-              "eng": "to build",
-              "punct": "､"
+              "cht": "又要建立、"
             },
             {
               "id": "hebrew-5193",
-              "eng": "and to plant",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "栽植",
+              "punct_cht": "。"
             }
           ]
         }

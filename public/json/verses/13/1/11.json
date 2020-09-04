@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4714": "And Mizraim",
-          "hebrew-3205": "begat",
-          "hebrew-853": "and",
-          "hebrew-3866": "Ludim",
-          "hebrew-6047": "Anamim",
-          "hebrew-3853": "Lehabim",
-          "hebrew-5320": "Naphtuhim"
+          "eng": {
+            "hebrew-4714": "And Mizraim",
+            "hebrew-3205": "begat",
+            "hebrew-853": "and",
+            "hebrew-3866": "Ludim",
+            "hebrew-6047": "Anamim",
+            "hebrew-3853": "Lehabim",
+            "hebrew-5320": "Naphtuhim"
+          },
+          "cht": {
+            "hebrew-4714": "麥西",
+            "hebrew-3205": "生",
+            "hebrew-853": "生",
+            "hebrew-3866": "路低人、",
+            "hebrew-6047": "亞拿米人、",
+            "hebrew-3853": "利哈比人、",
+            "hebrew-5320": "拿弗土希人、"
+          }
         }
       },
       "translations": {
@@ -28,51 +39,31 @@
             "hebrew-5320": 10.248599871619378
           },
           "verseKey": "gen.10.13",
-          "cunp": "麥西生路低人、亞拿米人、利哈比人、拿弗土希人、",
+          "nasb": "Mizraim became the father of Ludim and Anamim and Lehabim and Naphtuhim",
           "words": [
             {
               "id": "hebrew-4714",
-              "eng": "And Mizraim"
+              "cht": "麥西"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-3866",
-              "eng": "Ludim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "路低人、"
             },
             {
               "id": "hebrew-6047",
-              "eng": "Anamim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "亞拿米人、"
             },
             {
               "id": "hebrew-3853",
-              "eng": "Lehabim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
+              "cht": "利哈比人、"
             },
             {
               "id": "hebrew-5320",
-              "eng": "Naphtuhim",
-              "punct": "､"
+              "cht": "拿弗土希人、"
             }
           ]
         },
@@ -82,75 +73,73 @@
             "hebrew-3866": 8.539323589735611
           },
           "verseKey": "jer.46.9",
-          "cunp": "馬匹上去吧！ 車輛急行吧！ 勇士，就是手拿盾牌的古實人和弗人， 並拉弓的路德族，都出去吧！",
+          "nasb": "Go up, you horses, and drive madly, you chariots, That the mighty men may march forward: Ethiopia and Put, that handle the shield, And the Lydians, that handle and bend the bow.",
           "words": [
             {
-              "id": "hebrew-5927",
-              "eng": "Come up",
-              "punct": "､"
-            },
-            {
               "id": "hebrew-5483",
-              "eng": "horses",
-              "punct": "–"
+              "cht": "馬匹"
             },
             {
-              "id": "hebrew-1984",
-              "eng": "and rage",
-              "punct": "､"
+              "id": "hebrew-5927",
+              "cht": "上去吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-7393",
-              "eng": "chariots",
-              "punct": "–"
+              "cht": "車輛"
             },
             {
-              "id": "hebrew-3318",
-              "eng": "and let come forth",
-              "punct": "–"
+              "id": "hebrew-1984",
+              "cht": "急行吧",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-1368",
-              "eng": "the mighty men"
-            },
-            {
-              "id": "hebrew-3568",
-              "eng": "Ethiopia"
-            },
-            {
-              "id": "hebrew-6316",
-              "eng": "and Libya",
-              "punct": "､"
+              "cht": "勇士",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8610",
-              "eng": "who handle"
+              "cht": "就是手拿"
             },
             {
               "id": "hebrew-4043",
-              "eng": "the shield",
-              "punct": "–"
+              "cht": "盾牌"
             },
             {
-              "id": "hebrew-3866",
-              "eng": "and the Lydians",
-              "punct": "､"
+              "id": "hebrew-3568",
+              "cht": "的古實人"
+            },
+            {
+              "id": "",
+              "cht": "和弗人（"
+            },
+            {
+              "id": "hebrew-6316",
+              "cht": "又作利比亞人）",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8610",
-              "eng": "who handle"
+              "cht": "並"
             },
             {
               "id": "hebrew-1869",
-              "eng": "[and] bend"
+              "cht": "拉"
             },
             {
               "id": "hebrew-7198",
-              "eng": "the bow",
-              "punct": "."
+              "cht": "弓"
             },
             {
-              "id": ""
+              "id": "hebrew-3866",
+              "cht": "的路德族",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "都出去吧",
+              "punct_cht": "！"
             }
           ]
         },
@@ -160,75 +149,59 @@
             "hebrew-3205": 0.8851953964706981
           },
           "verseKey": "gen.4.18",
-          "cunp": "以諾生以拿；以拿生米戶雅利；米戶雅利生瑪土撒利；瑪土撒利生拉麥。",
+          "nasb": "Now to Enoch was born Irad, and Irad became the father of Mehujael, and Mehujael became the father of Methushael, and Methushael became the father of Lamech.",
           "words": [
             {
-              "id": "hebrew-3205",
-              "eng": "And was born"
-            },
-            {
               "id": "hebrew-2585",
-              "eng": "to Enoch"
+              "cht": "以諾"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3205",
+              "cht": "生"
             },
             {
               "id": "hebrew-5897",
-              "eng": "Irad",
-              "punct": "､"
+              "cht": "以拿",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-5897",
-              "eng": "and Irad"
+              "cht": "以拿"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-4232",
-              "eng": "Mehujael",
-              "punct": "､"
+              "cht": "米戶雅利",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4232",
-              "eng": "and Mehujael"
+              "cht": "米戶雅利"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-4967",
-              "eng": "Methushael",
-              "punct": "､"
+              "cht": "瑪土撒利",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4967",
-              "eng": "and Methushael"
+              "cht": "瑪土撒利"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-3929",
-              "eng": "Lamech",
-              "punct": "."
+              "cht": "拉麥",
+              "punct_cht": "。"
             }
           ]
         },
@@ -238,88 +211,81 @@
             "hebrew-4714": 0.7805657497592092
           },
           "verseKey": "isa.19.1",
-          "cunp": "論埃及的默示： 看哪，耶和華乘駕快雲， 臨到埃及。 埃及的偶像在他面前戰兢； 埃及人的心在裏面消化。",
+          "nasb": "The oracle concerning Egypt. Behold, the Lord is riding on a swift cloud and is about to come to Egypt; The idols of Egypt will tremble at His presence, And the heart of the Egyptians will melt within them.",
           "words": [
             {
-              "id": "hebrew-4853",
-              "eng": "The burden against"
+              "id": "hebrew-4714",
+              "cht": "論埃及"
             },
             {
-              "id": "hebrew-4714",
-              "eng": "Egypt",
-              "punct": "."
+              "id": "hebrew-4853",
+              "cht": "的默示",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-2009",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-7392",
-              "eng": "rides"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-5645",
-              "eng": "a cloud",
-              "punct": "､"
+              "cht": "乘駕"
             },
             {
               "id": "hebrew-7031",
-              "eng": "swift"
+              "cht": "快"
+            },
+            {
+              "id": "hebrew-5645",
+              "cht": "雲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-935",
-              "eng": "and will come"
+              "cht": "臨到"
             },
             {
               "id": "hebrew-4714",
-              "eng": "into Egypt",
-              "punct": "–"
+              "cht": "埃及",
+              "punct_cht": "。"
             },
             {
-              "id": "hebrew-5128",
-              "eng": "and will totter"
+              "id": "hebrew-4714",
+              "cht": "埃及"
             },
             {
               "id": "hebrew-457",
-              "eng": "the idols"
+              "cht": "的偶像"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "在他面前"
+            },
+            {
+              "id": "hebrew-5128",
+              "cht": "戰兢",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4714",
-              "eng": "of Egypt"
-            },
-            {
-              "id": "hebrew-6440",
-              "eng": "at His presence",
-              "punct": "､"
+              "cht": "埃及人"
             },
             {
               "id": "hebrew-3824",
-              "eng": "and the heart"
-            },
-            {
-              "id": "hebrew-4714",
-              "eng": "of Egypt"
-            },
-            {
-              "id": "hebrew-4549",
-              "eng": "will melt"
+              "cht": "的心"
             },
             {
               "id": "hebrew-7130",
-              "eng": "in its midst",
-              "punct": "."
+              "cht": "在裡面"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-4549",
+              "cht": "消化",
+              "punct_cht": "。"
             }
           ]
         },
@@ -329,80 +295,76 @@
             "hebrew-4714": 0.7805657497592092
           },
           "verseKey": "isa.19.23",
-          "cunp": "當那日，必有從埃及通亞述去的大道。亞述人要進入埃及，埃及人也進入亞述；埃及人要與亞述人一同敬拜耶和華。",
+          "nasb": "In that day there will be a highway from Egypt to Assyria, and the Assyrians will come into Egypt and the Egyptians into Assyria, and the Egyptians will worship with the Assyrians.",
           "words": [
             {
-              "id": "hebrew-3117",
-              "eng": "In day"
+              "id": "hebrew-1931",
+              "cht": "當那"
             },
             {
-              "id": "hebrew-1931",
-              "eng": "that"
+              "id": "hebrew-3117",
+              "cht": "日",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "there will be"
+              "cht": "必有"
+            },
+            {
+              "id": "hebrew-4714",
+              "cht": "從埃及"
+            },
+            {
+              "id": "hebrew-804",
+              "cht": "通亞述"
             },
             {
               "id": "hebrew-4546",
-              "eng": "a highway"
-            },
-            {
-              "id": "hebrew-4714",
-              "eng": "from Egypt",
-              "punct": "､"
+              "cht": "去的大道",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-804",
-              "eng": "to Assyria",
-              "punct": "､"
+              "cht": "亞述人"
             },
             {
               "id": "hebrew-935",
-              "eng": "and will come"
-            },
-            {
-              "id": "hebrew-804",
-              "eng": "Assyria"
+              "cht": "要進"
             },
             {
               "id": "hebrew-4714",
-              "eng": "into Egypt"
+              "cht": "入埃及",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4714",
-              "eng": "and Egypt"
+              "cht": "埃及人"
             },
             {
               "id": "hebrew-804",
-              "eng": "into Assyria",
-              "punct": "､"
+              "cht": "也進入亞述",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4714",
+              "cht": "埃及人"
+            },
+            {
+              "id": "hebrew-854",
+              "cht": "要與"
+            },
+            {
+              "id": "hebrew-804",
+              "cht": "亞述人"
             },
             {
               "id": "hebrew-5647",
-              "eng": "and will serve"
+              "cht": "一同敬拜"
             },
             {
-              "id": "hebrew-4714",
-              "eng": "Egypt"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "with"
-            },
-            {
-              "id": "hebrew-804",
-              "eng": "Assyria",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": "hebrew-854"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "耶和華",
+              "punct_cht": "。"
             }
           ]
         }

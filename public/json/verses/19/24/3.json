@@ -3,13 +3,24 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4310": "Or who",
-          "hebrew-5927": "may ascend",
-          "hebrew-2022": "into the hill",
-          "hebrew-3068": "of Yahweh",
-          "hebrew-6965": "may stand",
-          "hebrew-4725": "in place",
-          "hebrew-6944": "His holy"
+          "eng": {
+            "hebrew-4310": "Or who",
+            "hebrew-5927": "may ascend",
+            "hebrew-2022": "into the hill",
+            "hebrew-3068": "of Yahweh",
+            "hebrew-6965": "may stand",
+            "hebrew-4725": "in place",
+            "hebrew-6944": "His holy"
+          },
+          "cht": {
+            "hebrew-4310": "誰",
+            "hebrew-5927": "能登",
+            "hebrew-2022": "的山",
+            "hebrew-3068": "耶和華",
+            "hebrew-6965": "能站",
+            "hebrew-4725": "所",
+            "hebrew-6944": "在他的聖"
+          }
         }
       },
       "translations": {
@@ -26,75 +37,70 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "exo.19.20",
-          "cunp": "耶和華降臨在西奈山頂上，耶和華召摩西上山頂，摩西就上去。",
+          "nasb": "The Lord came down on Mount Sinai, to the top of the mountain; and the Lord called Moses to the top of the mountain, and Moses went up.",
           "words": [
             {
-              "id": "hebrew-3381",
-              "eng": "And came down"
-            },
-            {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "upon"
+              "id": "hebrew-3381",
+              "cht": "降臨"
             },
             {
-              "id": "hebrew-2022",
-              "eng": "Mount"
+              "id": "hebrew-413",
+              "cht": "在"
             },
             {
               "id": "hebrew-5514",
-              "eng": "Sinai",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-413",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the top"
+              "cht": "西奈"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the mountain",
-              "punct": "–"
+              "cht": "山"
             },
             {
-              "id": "hebrew-7121",
-              "eng": "and called"
+              "id": "hebrew-7218",
+              "cht": "頂"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-7121",
+              "cht": "召"
             },
             {
               "id": "hebrew-4872",
-              "eng": "Moses"
+              "cht": "摩西"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the top"
+              "cht": "上"
             },
             {
               "id": "hebrew-2022",
-              "eng": "of the mountain",
-              "punct": "–"
+              "cht": "山"
             },
             {
-              "id": "hebrew-5927",
-              "eng": "and went up"
+              "id": "hebrew-7218",
+              "cht": "頂",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4872",
-              "eng": "Moses",
-              "punct": "."
+              "cht": "摩西"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "就上去",
+              "punct_cht": "。"
             }
           ]
         },
@@ -104,44 +110,45 @@
             "hebrew-2022": 0.7947689469735278
           },
           "verseKey": "psa.68.15",
-          "cunp": "巴珊山是神的山； 巴珊山是多峯多嶺的山。",
+          "nasb": "A mountain of God is the mountain of Bashan; A mountain of many peaks is the mountain of Bashan.",
           "words": [
             {
+              "id": "hebrew-1316",
+              "cht": "巴珊"
+            },
+            {
               "id": "hebrew-2022",
-              "eng": "A mountain"
+              "cht": "山"
+            },
+            {
+              "id": "",
+              "cht": "是"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God"
+              "cht": "神"
             },
             {
               "id": "hebrew-2022",
-              "eng": "[is] the mountain"
+              "cht": "的山",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-1316",
-              "eng": "of Bashan",
-              "punct": "–"
+              "cht": "巴珊"
             },
             {
               "id": "hebrew-2022",
-              "eng": "a mountain [of]"
+              "cht": "山"
             },
             {
               "id": "hebrew-1386",
-              "eng": "[many] peaks"
+              "cht": "是多峰多嶺"
             },
             {
               "id": "hebrew-2022",
-              "eng": "[is] the mountain"
-            },
-            {
-              "id": "hebrew-1316",
-              "eng": "of Bashan",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "的山",
+              "punct_cht": "。"
             }
           ]
         },
@@ -152,134 +159,136 @@
             "hebrew-3068": 0.27478005916650944
           },
           "verseKey": "1ki.19.11",
-          "cunp": "耶和華說：「你出來站在山上，在我面前。」那時耶和華從那裏經過，在他面前有烈風大作，崩山碎石，耶和華卻不在風中；風後地震，耶和華卻不在其中；",
+          "nasb": "So He said, “Go forth and stand on the mountain before the Lord.” And behold, the Lord was passing by! And a great and strong wind was rending the mountains and breaking in pieces the rocks before the Lord; but the Lord  was not in the wind. And after the wind an earthquake, but the Lord  was not in the earthquake.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And He said",
-              "punct": "､"
+              "cht": "耶和華說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3318",
-              "eng": "go out",
-              "punct": "､"
+              "cht": "你出來"
             },
             {
               "id": "hebrew-5975",
-              "eng": "and stand"
+              "cht": "站"
             },
             {
               "id": "hebrew-2022",
-              "eng": "on the mountain"
+              "cht": "在山"
             },
             {
-              "id": "hebrew-6440",
-              "eng": "before"
+              "id": "",
+              "cht": "上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "."
+              "cht": "在我"
+            },
+            {
+              "id": "hebrew-6440",
+              "cht": "面前",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-2009",
-              "eng": "And behold",
-              "punct": "､"
+              "cht": "那時"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "耶和華"
             },
             {
               "id": "hebrew-5674",
-              "eng": "passed by",
-              "punct": "､"
+              "cht": "從那裡經過",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-7307",
-              "eng": "and a wind"
-            },
-            {
-              "id": "hebrew-1419",
-              "eng": "great"
-            },
-            {
-              "id": "hebrew-2389",
-              "eng": "and mighty"
-            },
-            {
-              "id": "hebrew-6561",
-              "eng": "tore into"
-            },
-            {
-              "id": "hebrew-2022",
-              "eng": "the mountains",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7665",
-              "eng": "and broke in pieces"
-            },
-            {
-              "id": "hebrew-5553",
-              "eng": "the rocks"
+              "id": "hebrew-3068",
+              "cht": "在他"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before"
+              "cht": "面前"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "[but] not"
+              "id": "hebrew-2389",
+              "cht": "有烈"
             },
             {
               "id": "hebrew-7307",
-              "eng": "in the wind",
-              "punct": "."
+              "cht": "風"
+            },
+            {
+              "id": "hebrew-1419",
+              "cht": "大"
+            },
+            {
+              "id": "",
+              "cht": "作",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6561",
+              "cht": "崩"
+            },
+            {
+              "id": "hebrew-2022",
+              "cht": "山"
+            },
+            {
+              "id": "hebrew-7665",
+              "cht": "碎"
+            },
+            {
+              "id": "hebrew-5553",
+              "cht": "石",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh [was]"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "卻不"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "在風"
+            },
+            {
+              "id": "",
+              "cht": "中",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "風"
             },
             {
               "id": "hebrew-310",
-              "eng": "and after"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "the wind"
+              "cht": "後"
             },
             {
               "id": "hebrew-7494",
-              "eng": "an earthquake",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-7494",
-              "eng": "in the earthquake"
+              "cht": "地震",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3068",
-              "eng": "[but] Yahweh [was]",
-              "punct": "."
+              "cht": "耶和華"
             },
             {
-              "id": ""
+              "id": "hebrew-3808",
+              "cht": "卻不"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-7494",
+              "cht": "在其中",
+              "punct_cht": "；"
             }
           ]
         }

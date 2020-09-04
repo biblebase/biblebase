@@ -3,24 +3,45 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7200": "Here is",
-          "hebrew-2088": "this [that]",
-          "hebrew-4672": null,
-          "hebrew-559": "says",
-          "hebrew-6953": "the Teacher",
-          "hebrew-259": null,
-          "hebrew-2808": "the reason",
-          "hebrew-4480": null,
-          "hebrew-505": null,
-          "hebrew-120": null,
-          "hebrew-3605": null,
-          "hebrew-802": null,
-          "hebrew-428": null,
-          "hebrew-3808": null,
-          "": null,
-          "hebrew-5315": null,
-          "hebrew-5750": null,
-          "hebrew-1245": null
+          "eng": {
+            "hebrew-7200": "Here is",
+            "hebrew-2088": "this [that]",
+            "hebrew-4672": null,
+            "hebrew-559": "says",
+            "hebrew-6953": "the Teacher",
+            "hebrew-259": null,
+            "hebrew-2808": "the reason",
+            "hebrew-4480": null,
+            "hebrew-505": null,
+            "hebrew-120": null,
+            "hebrew-3605": null,
+            "hebrew-802": null,
+            "hebrew-428": null,
+            "hebrew-3808": null,
+            "": null,
+            "hebrew-5315": null,
+            "hebrew-5750": null,
+            "hebrew-1245": null
+          },
+          "cht": {
+            "hebrew-7200": "看哪",
+            "hebrew-2088": "看哪",
+            "hebrew-4672": "曾找到",
+            "hebrew-559": "說",
+            "hebrew-6953": "傳道者",
+            "hebrew-259": "一",
+            "hebrew-2808": "其理",
+            "hebrew-4480": "一千男子中",
+            "hebrew-505": "一千男子中",
+            "hebrew-120": "正直人",
+            "hebrew-3605": "但眾",
+            "hebrew-802": "女子",
+            "hebrew-428": "中",
+            "hebrew-3808": "卻未",
+            "hebrew-5315": "我心",
+            "hebrew-5750": "仍要",
+            "hebrew-1245": "尋找"
+          }
         }
       },
       "translations": {
@@ -42,102 +63,70 @@
             "hebrew-2808": 3.7212505791847406
           },
           "verseKey": "mrk.2.8",
-          "cunp": "耶穌心中知道他們心裏這樣議論，就說：「你們心裏為甚麼這樣議論呢？",
+          "nasb": "Immediately Jesus, aware in His spirit that they were reasoning that way within themselves, *said to them, “Why are you reasoning about these things in your hearts?",
           "words": [
             {
-              "id": "greek-2532",
-              "eng": "And"
+              "id": "greek-3588",
+              "cht": "耶穌"
             },
             {
-              "id": "greek-2112",
-              "eng": "immediately",
-              "punct": ","
+              "id": "greek-3588",
+              "cht": "心中"
             },
             {
               "id": "greek-1921",
-              "eng": "having known"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "in the"
-            },
-            {
-              "id": "greek-4151",
-              "eng": "spirit"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of Him"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-3779",
-              "eng": "thus"
-            },
-            {
-              "id": "greek-1260",
-              "eng": "they are reasoning"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "within"
+              "cht": "知道"
             },
             {
               "id": "greek-1438",
-              "eng": "themselves",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "He says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-5101",
-              "eng": "Why"
-            },
-            {
-              "id": "greek-5023",
-              "eng": "these things"
-            },
-            {
-              "id": "greek-1260",
-              "eng": "reason you"
+              "cht": "他們自己"
             },
             {
               "id": "greek-1722",
-              "eng": "in"
+              "cht": "心裡"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3779",
+              "cht": "這樣"
             },
             {
-              "id": "greek-2588",
-              "eng": "hearts"
+              "id": "greek-1260",
+              "cht": "議論",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "就"
+            },
+            {
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5216",
-              "eng": "of you",
-              "punct": "?"
+              "cht": "你們"
             },
             {
-              "id": ""
+              "id": "greek-2588",
+              "cht": "心裡"
+            },
+            {
+              "id": "greek-5101",
+              "cht": "為甚麼"
+            },
+            {
+              "id": "greek-5023",
+              "cht": "這樣"
+            },
+            {
+              "id": "greek-1260",
+              "cht": "議論"
+            },
+            {
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             }
           ]
         },
@@ -152,135 +141,117 @@
             "hebrew-1245": 1.0547100487778034
           },
           "verseKey": "ecc.8.17",
-          "cunp": "我就看明神一切的作為，知道人查不出日光之下所做的事；任憑他費多少力尋查，都查不出來，就是智慧人雖想知道，也是查不出來。",
+          "nasb": "and I saw every work of God, I concluded that man cannot discover the work which has been done under the sun. Even though man should seek laboriously, he will not discover; and though the wise man should say, “I know,” he cannot discover.",
           "words": [
             {
-              "id": "hebrew-7200",
-              "eng": "Then I saw"
-            },
-            {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "the work"
+              "cht": "我就看明"
             },
             {
               "id": "hebrew-430",
-              "eng": "of God",
-              "punct": "､"
+              "cht": "神"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3201",
-              "eng": "cannot"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "find out"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3605",
+              "cht": "一切的"
             },
             {
               "id": "hebrew-4639",
-              "eng": "the work"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "is done"
-            },
-            {
-              "id": "hebrew-8478",
-              "eng": "under"
-            },
-            {
-              "id": "hebrew-8121",
-              "eng": "the sun",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-7945",
-              "eng": "For"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "though"
-            },
-            {
-              "id": "hebrew-5998",
-              "eng": "labors"
+              "cht": "作為",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-120",
-              "eng": "a man"
-            },
-            {
-              "id": "hebrew-1245",
-              "eng": "to discover [it]",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and yet not"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "he will find [it]"
-            },
-            {
-              "id": "hebrew-1571",
-              "eng": "and moreover"
-            },
-            {
-              "id": "hebrew-518",
-              "eng": "though"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "attempts"
-            },
-            {
-              "id": "hebrew-2450",
-              "eng": "a wise [man]"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "to know [it]"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "知道人"
             },
             {
               "id": "hebrew-3201",
-              "eng": "he will be able"
+              "cht": "查"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
             },
             {
               "id": "hebrew-4672",
-              "eng": "to find [it]",
-              "punct": "."
+              "cht": "出"
+            },
+            {
+              "id": "hebrew-8121",
+              "cht": "日光"
+            },
+            {
+              "id": "hebrew-8478",
+              "cht": "之下"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "的事",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-7945",
+              "cht": "任憑"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-5998",
+              "cht": "費多少力"
+            },
+            {
+              "id": "hebrew-1245",
+              "cht": "尋查",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "都查不"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "出來",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-518",
+              "cht": "就是"
+            },
+            {
+              "id": "hebrew-2450",
+              "cht": "智慧人"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "雖想"
+            },
+            {
+              "id": "hebrew-3045",
+              "cht": "知道",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1571",
+              "cht": "也是"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "查不"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "出來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -295,74 +266,11 @@
             "hebrew-1245": 1.0547100487778034
           },
           "verseKey": "ecc.7.28",
-          "cunp": "",
+          "nasb": "which I am still seeking but have not found. I have found one man among a thousand, but I have not found a woman among all these.",
           "words": [
             {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-5750",
-              "eng": "still"
-            },
-            {
-              "id": "hebrew-1245",
-              "eng": "seeks",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "my soul"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "but cannot",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "I find"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-505",
-              "eng": "among a thousand"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "I have found",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-802",
-              "eng": "but a woman"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "among all"
-            },
-            {
-              "id": "hebrew-428",
-              "eng": "these"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "I have found",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "併入27節"
             }
           ]
         },
@@ -373,66 +281,63 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.18.4",
-          "cunp": "看哪，世人都是屬我的；為父的怎樣屬我，為子的也照樣屬我；犯罪的，他必死亡。",
+          "nasb": "Behold, all souls are Mine; the soul of the father as well as the soul of the son is Mine. The soul who sins will die.",
           "words": [
             {
               "id": "hebrew-2005",
-              "eng": "Behold",
-              "punct": "､"
+              "cht": "看哪",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "世人"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "souls"
+              "cht": "都"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "是"
             },
             {
               "id": "hebrew-1",
-              "eng": "of the father",
-              "punct": "､"
+              "cht": "為父"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and as well as the soul"
+              "cht": "的怎樣"
+            },
+            {
+              "id": "",
+              "cht": "屬我",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1121",
-              "eng": "of the son"
+              "cht": "為子"
             },
             {
               "id": "hebrew-2007",
-              "eng": "are"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the soul"
+              "cht": "的也照樣"
             },
             {
               "id": "hebrew-2398",
-              "eng": "who sins",
-              "punct": "､"
+              "cht": "犯罪"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1931",
-              "eng": "it"
+              "cht": "他"
             },
             {
               "id": "hebrew-4191",
-              "eng": "shall die",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "必死亡",
+              "punct_cht": "。"
             }
           ]
         },
@@ -444,87 +349,80 @@
             "hebrew-3605": 0.29767249352396796
           },
           "verseKey": "ecc.9.10",
-          "cunp": "凡你手所當做的事要盡力去做；因為在你所必去的陰間沒有工作，沒有謀算，沒有知識，也沒有智慧。",
+          "nasb": "Whatever your hand finds to do, do it with all your might; for there is no activity or planning or knowledge or wisdom in Sheol where you are going.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "Whatever"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "whatever"
-            },
-            {
-              "id": "hebrew-4672",
-              "eng": "finds"
+              "cht": "凡"
             },
             {
               "id": "hebrew-3027",
-              "eng": "your hand"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "to do",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3581",
-              "eng": "with your might",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "do [it]"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "[there is] no"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "work",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2808",
-              "eng": "or device",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1847",
-              "eng": "or knowledge",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2451",
-              "eng": "or wisdom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7585",
-              "eng": "in the grave",
-              "punct": "､"
+              "cht": "你手"
             },
             {
               "id": "hebrew-834",
-              "eng": "where"
+              "cht": "所"
+            },
+            {
+              "id": "hebrew-4672",
+              "cht": "當"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "做"
+            },
+            {
+              "id": "hebrew-3581",
+              "cht": "的事要盡力"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "去做",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
             },
             {
               "id": "hebrew-859",
-              "eng": "you"
+              "cht": "在你"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "所"
             },
             {
               "id": "hebrew-1980",
-              "eng": "are going"
+              "cht": "必去"
             },
             {
               "id": "hebrew-8033",
-              "eng": "there",
-              "punct": "."
+              "cht": "的陰間"
+            },
+            {
+              "id": "hebrew-369",
+              "cht": "沒有"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "工作",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2808",
+              "cht": "沒有謀算",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1847",
+              "cht": "沒有知識",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2451",
+              "cht": "也沒有智慧",
+              "punct_cht": "。"
             }
           ]
         },
@@ -535,70 +433,69 @@
             "hebrew-1245": 1.0547100487778034
           },
           "verseKey": "ecc.7.25",
-          "cunp": "我轉念，一心要知道，要考察，要尋求智慧和萬事的理由；又要知道邪惡為愚昧，愚昧為狂妄。",
+          "nasb": "I directed my mind to know, to investigate and to seek wisdom and an explanation, and to know the evil of folly and the foolishness of madness.",
           "words": [
             {
-              "id": "hebrew-5437",
-              "eng": "applied"
+              "id": "hebrew-589",
+              "cht": "我"
             },
             {
-              "id": "hebrew-589",
-              "eng": "I"
+              "id": "hebrew-5437",
+              "cht": "轉"
+            },
+            {
+              "id": "",
+              "cht": "念",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "and my heart"
+              "cht": "一心"
             },
             {
               "id": "hebrew-3045",
-              "eng": "to know",
-              "punct": "､"
+              "cht": "要知道",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8446",
-              "eng": "and to search",
-              "punct": "､"
+              "cht": "要考察",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1245",
-              "eng": "and seek out"
+              "cht": "要尋求"
             },
             {
               "id": "hebrew-2451",
-              "eng": "wisdom",
-              "punct": "､"
+              "cht": "智慧"
             },
             {
               "id": "hebrew-2808",
-              "eng": "and the reason [of things]"
+              "cht": "和萬事的理由",
+              "punct_cht": "；"
             },
             {
-              "id": "hebrew-1847",
-              "eng": "and to know"
+              "id": "hebrew-3045",
+              "cht": "又要知道"
             },
             {
               "id": "hebrew-7562",
-              "eng": "the wickedness"
+              "cht": "邪惡"
             },
             {
               "id": "hebrew-3689",
-              "eng": "of folly",
-              "punct": "､"
+              "cht": "為愚昧",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5531",
-              "eng": "and Even of foolishness"
+              "cht": "愚昧"
             },
             {
               "id": "hebrew-1947",
-              "eng": "[and] madness",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3045"
+              "cht": "為狂妄",
+              "punct_cht": "。"
             }
           ]
         },
@@ -610,120 +507,114 @@
             "hebrew-5315": 1.1406382967384052
           },
           "verseKey": "ezk.13.18",
-          "cunp": "說主耶和華如此說：『這些婦女有禍了！她們為眾人的膀臂縫靠枕，給高矮之人做下垂的頭巾，為要獵取人的性命。難道你們要獵取我百姓的性命，為利己將人救活嗎？",
+          "nasb": "and say, ‘Thus says the Lord God, “Woe to the women who sew magic bands on all wrists and make veils for the heads of persons of every stature to hunt down lives! Will you hunt down the lives of My people, but preserve the lives of others for yourselves?",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And say",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3541",
-              "eng": "thus"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "says"
+              "cht": "說"
             },
             {
               "id": "hebrew-136",
-              "eng": "the Lord"
+              "cht": "主"
             },
             {
               "id": "hebrew-3069",
-              "eng": "GOD",
-              "punct": "–"
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3541",
+              "cht": "如此"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-1945",
-              "eng": "Woe"
-            },
-            {
-              "id": "hebrew-8609",
-              "eng": "to the [women] who sew"
-            },
-            {
-              "id": "hebrew-3704",
-              "eng": "[magic] charms"
+              "cht": "這些婦女有禍了",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on"
+              "cht": "她們為"
             },
             {
               "id": "hebrew-3605",
-              "eng": "all"
+              "cht": "眾人"
             },
             {
               "id": "hebrew-679",
-              "eng": "wrists"
+              "cht": "的膀"
             },
             {
               "id": "hebrew-3027",
-              "eng": "their sleeves",
-              "punct": "､"
+              "cht": "臂"
             },
             {
-              "id": "hebrew-6213",
-              "eng": "and make"
+              "id": "hebrew-8609",
+              "cht": "縫"
             },
             {
-              "id": "hebrew-4555",
-              "eng": "veils"
+              "id": "hebrew-3704",
+              "cht": "靠枕",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-7218",
-              "eng": "the heads of [people]"
+              "cht": "給"
             },
             {
               "id": "hebrew-3605",
-              "eng": "of every"
+              "cht": "高矮之人"
             },
             {
-              "id": "hebrew-6967",
-              "eng": "height"
+              "id": "hebrew-6213",
+              "cht": "做"
             },
             {
-              "id": "hebrew-6679",
-              "eng": "to hunt"
+              "id": "hebrew-7218",
+              "cht": "下垂的頭"
             },
             {
-              "id": "hebrew-5315",
-              "eng": "souls",
-              "punct": "!"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "the souls"
+              "id": "hebrew-4555",
+              "cht": "巾",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6679",
-              "eng": "will you hunt"
+              "cht": "為要獵取"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "人的性命",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-6679",
+              "cht": "難道你們要獵取"
             },
             {
               "id": "hebrew-5971",
-              "eng": "of My people",
-              "punct": "､"
+              "cht": "我百姓"
             },
             {
               "id": "hebrew-5315",
-              "eng": "and"
+              "cht": "的性命",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "將人"
             },
             {
               "id": "hebrew-2421",
-              "eng": "yourselves"
+              "cht": "救活"
             },
             {
-              "id": "hebrew-2421",
-              "eng": "keep alive",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -735,108 +626,81 @@
             "hebrew-2808": 3.7212505791847406
           },
           "verseKey": "luk.20.14",
-          "cunp": "不料，園戶看見他，就彼此商量說：『這是承受產業的，我們殺他吧，使產業歸於我們！』",
+          "nasb": "But when the vine-growers saw him, they reasoned with one another, saying, ‘This is the heir; let us kill him so that the inheritance will be ours.’",
           "words": [
             {
-              "id": "greek-1492",
-              "eng": "Having seen"
-            },
-            {
               "id": "greek-1161",
-              "eng": "now"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "不料",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1092",
-              "eng": "farmers"
+              "cht": "園戶"
             },
             {
-              "id": "greek-1260",
-              "eng": "began reasoning"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "among"
-            },
-            {
-              "id": "greek-240",
-              "eng": "themselves",
-              "punct": ","
-            },
-            {
-              "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
-            },
-            {
-              "id": "greek-3778",
-              "eng": "This"
-            },
-            {
-              "id": "greek-1510",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2818",
-              "eng": "heir",
-              "punct": ";"
-            },
-            {
-              "id": "greek-615",
-              "eng": "let us kill"
+              "id": "greek-1492",
+              "cht": "看見"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": ","
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2443",
-              "eng": "so that"
+              "id": "greek-4314",
+              "cht": "就彼此"
             },
             {
-              "id": "greek-2257",
-              "eng": "ours"
+              "id": "greek-1260",
+              "cht": "商量"
             },
             {
-              "id": "greek-1096",
-              "eng": "might become"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3778",
+              "cht": "這"
+            },
+            {
+              "id": "greek-1205",
+              "cht": "是"
+            },
+            {
+              "id": "greek-2818",
+              "cht": "承受產業"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-615",
+              "cht": "我們殺"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他"
+            },
+            {
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2817",
-              "eng": "inheritance",
-              "punct": "."
+              "cht": "使產業"
             },
             {
-              "id": "greek-1438"
+              "id": "greek-1096",
+              "cht": "歸於"
             },
             {
-              "id": "greek-2076"
-            },
-            {
-              "id": "greek-1205"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "greek-2257",
+              "cht": "我們",
+              "punct_cht": "！"
             }
           ]
         },
@@ -846,72 +710,49 @@
             "hebrew-6953": 2.1248744020317227
           },
           "verseKey": "luk.6.40",
-          "cunp": "學生不能高過先生；凡學成了的不過和先生一樣。",
+          "nasb": "A pupil is not above his teacher; but everyone, after he has been fully trained, will be like his teacher.",
           "words": [
             {
+              "id": "greek-3101",
+              "cht": "學生"
+            },
+            {
               "id": "greek-3756",
-              "eng": "Not"
+              "cht": "不"
             },
             {
               "id": "greek-2076",
-              "eng": "is"
-            },
-            {
-              "id": "greek-3101",
-              "eng": "a disciple"
+              "cht": "能"
             },
             {
               "id": "greek-5228",
-              "eng": "above"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "高過"
             },
             {
               "id": "greek-1320",
-              "eng": "teacher",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2675",
-              "eng": "fully trained"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however",
-              "punct": ","
+              "cht": "先生",
+              "punct_cht": "；"
             },
             {
               "id": "greek-3956",
-              "eng": "everyone"
+              "cht": "凡"
             },
             {
-              "id": "greek-1510",
-              "eng": "will be"
-            },
-            {
-              "id": "greek-5613",
-              "eng": "like"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1320",
-              "eng": "teacher"
+              "id": "greek-2675",
+              "cht": "學成了的"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "cht": "不過和"
             },
             {
-              "id": "greek-846"
+              "id": "greek-1320",
+              "cht": "先生"
             },
             {
-              "id": "greek-2071"
+              "id": "greek-5613",
+              "cht": "一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -924,127 +765,112 @@
             "hebrew-5750": 0.8328618768072236
           },
           "verseKey": "num.19.13",
-          "cunp": "凡摸了人死屍、不潔淨自己的，就玷污了耶和華的帳幕，這人必從以色列中剪除；因為那除污穢的水沒有灑在他身上，他就為不潔淨，污穢還在他身上。",
+          "nasb": "Anyone who touches a corpse, the body of a man who has died, and does not purify himself, defiles the tabernacle of the Lord; and that person shall be cut off from Israel. Because the water for impurity was not sprinkled on him, he shall be unclean; his uncleanness is still on him.",
           "words": [
             {
               "id": "hebrew-3605",
-              "eng": "Whoever"
+              "cht": "凡"
             },
             {
               "id": "hebrew-5060",
-              "eng": "touches"
-            },
-            {
-              "id": "hebrew-4191",
-              "eng": "the dead"
-            },
-            {
-              "id": "hebrew-5315",
-              "eng": "body"
+              "cht": "摸了"
             },
             {
               "id": "hebrew-120",
-              "eng": "of anyone"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "who"
+              "cht": "人"
             },
             {
               "id": "hebrew-4191",
-              "eng": "has died",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "and not"
-            },
-            {
-              "id": "hebrew-2398",
-              "eng": "does purify himself",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-4908",
-              "eng": "the tabernacle of"
-            },
-            {
-              "id": "hebrew-3069",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-2930",
-              "eng": "defiles"
-            },
-            {
-              "id": "hebrew-3772",
-              "eng": "and shall be cut off"
+              "cht": "死"
             },
             {
               "id": "hebrew-5315",
-              "eng": "person"
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3478",
-              "eng": "from Israel"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "because"
-            },
-            {
-              "id": "hebrew-4325",
-              "eng": "the water"
-            },
-            {
-              "id": "hebrew-5079",
-              "eng": "of purification"
+              "cht": "屍、"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-2398",
+              "cht": "潔淨自己"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "就玷污了"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-4908",
+              "cht": "的帳幕",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "這"
+            },
+            {
+              "id": "hebrew-5315",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-3478",
+              "cht": "必從以色列"
+            },
+            {
+              "id": "hebrew-3772",
+              "cht": "中剪除",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-5079",
+              "cht": "那除污穢"
+            },
+            {
+              "id": "hebrew-4325",
+              "cht": "的水"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "沒有"
             },
             {
               "id": "hebrew-2236",
-              "eng": "was sprinkled"
+              "cht": "灑"
             },
             {
               "id": "hebrew-5921",
-              "eng": "on him"
-            },
-            {
-              "id": "hebrew-2931",
-              "eng": "unclean",
-              "punct": "–"
+              "cht": "在他身上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1961",
-              "eng": "shall be"
+              "cht": "他就為"
             },
             {
-              "id": "hebrew-5750",
-              "eng": "yet"
+              "id": "hebrew-2931",
+              "cht": "不潔淨",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2932",
-              "eng": "his uncleanness"
+              "cht": "污穢"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "hebrew-3068"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-5750",
+              "cht": "還"
             }
           ]
         }

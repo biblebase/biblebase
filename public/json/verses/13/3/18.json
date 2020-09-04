@@ -3,12 +3,22 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-4443": "and [and] Malchiram",
-          "hebrew-6305": "and Pedaiah",
-          "hebrew-8137": "and Shenazzar",
-          "hebrew-3359": "Jekamiah",
-          "hebrew-1953": "Hoshama",
-          "hebrew-5072": "and Nedabiah"
+          "eng": {
+            "hebrew-4443": "and [and] Malchiram",
+            "hebrew-6305": "and Pedaiah",
+            "hebrew-8137": "and Shenazzar",
+            "hebrew-3359": "Jekamiah",
+            "hebrew-1953": "Hoshama",
+            "hebrew-5072": "and Nedabiah"
+          },
+          "cht": {
+            "hebrew-4443": "瑪基蘭、",
+            "hebrew-6305": "毗大雅、",
+            "hebrew-8137": "示拿薩、",
+            "hebrew-3359": "耶加米、",
+            "hebrew-1953": "何沙瑪、",
+            "hebrew-5072": "尼大比雅"
+          }
         }
       },
       "translations": {},
@@ -19,41 +29,33 @@
             "hebrew-3359": 8.539323589735611
           },
           "verseKey": "1ch.2.41",
-          "cunp": "沙龍生耶加米雅；耶加米雅生以利沙瑪。",
+          "nasb": "and Shallum became the father of Jekamiah, and Jekamiah became the father of Elishama.",
           "words": [
             {
               "id": "hebrew-7967",
-              "eng": "and Shallum"
+              "cht": "沙龍"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-3359",
-              "eng": "Jekamiah",
-              "punct": "､"
+              "cht": "耶加米雅",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3359",
-              "eng": "and Jekamiah"
+              "cht": "耶加米雅"
             },
             {
               "id": "hebrew-3205",
-              "eng": "begat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "生"
             },
             {
               "id": "hebrew-476",
-              "eng": "Elishama",
-              "punct": "."
+              "cht": "以利沙瑪",
+              "punct_cht": "。"
             }
           ]
         },
@@ -63,141 +65,128 @@
             "hebrew-6305": 5.492088685277254
           },
           "verseKey": "neh.8.4",
-          "cunp": "文士以斯拉站在為這事特備的木臺上。瑪他提雅、示瑪、亞奈雅、烏利亞、希勒家，和瑪西雅站在他的右邊；毗大雅、米沙利、瑪基雅、哈順、哈拔大拿、撒迦利亞，和米書蘭站在他的左邊。",
+          "nasb": "Ezra the scribe stood at a wooden podium which they had made for the purpose. And beside him stood Mattithiah, Shema, Anaiah, Uriah, Hilkiah, and Maaseiah on his right hand; and Pedaiah, Mishael, Malchijah, Hashum, Hashbaddanah, Zechariah and Meshullam on his left hand.",
           "words": [
             {
-              "id": "hebrew-5975",
-              "eng": "So stood"
+              "id": "hebrew-5608",
+              "cht": "文士"
             },
             {
               "id": "hebrew-5830",
-              "eng": "Ezra"
-            },
-            {
-              "id": "hebrew-5608",
-              "eng": "the scribe"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-4026",
-              "eng": "a platform"
-            },
-            {
-              "id": "hebrew-6086",
-              "eng": "of wood",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "which"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "they had made"
-            },
-            {
-              "id": "hebrew-1697",
-              "eng": "for the purpose",
-              "punct": "–"
+              "cht": "以斯拉"
             },
             {
               "id": "hebrew-5975",
-              "eng": "and stood"
-            },
-            {
-              "id": "hebrew-681",
-              "eng": "beside him"
-            },
-            {
-              "id": "hebrew-4993",
-              "eng": "Mattithiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8087",
-              "eng": "and Shema",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6043",
-              "eng": "and Anaiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-223",
-              "eng": "and Urijah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2518",
-              "eng": "and Hilkiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4641",
-              "eng": "and Maaseiah",
-              "punct": "､"
+              "cht": "站"
             },
             {
               "id": "hebrew-5921",
-              "eng": "at"
+              "cht": "在"
+            },
+            {
+              "id": "hebrew-1697",
+              "cht": "為這事"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "特備"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的"
+            },
+            {
+              "id": "hebrew-6086",
+              "cht": "木"
+            },
+            {
+              "id": "hebrew-4026",
+              "cht": "臺"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-4993",
+              "cht": "瑪他提雅、"
+            },
+            {
+              "id": "hebrew-8087",
+              "cht": "示瑪、"
+            },
+            {
+              "id": "hebrew-6043",
+              "cht": "亞奈雅、"
+            },
+            {
+              "id": "hebrew-223",
+              "cht": "烏利亞、"
+            },
+            {
+              "id": "hebrew-2518",
+              "cht": "希勒家",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4641",
+              "cht": "和瑪西雅"
+            },
+            {
+              "id": "hebrew-5975",
+              "cht": "站"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "在"
             },
             {
               "id": "hebrew-3225",
-              "eng": "his right hand",
-              "punct": "–"
+              "cht": "他的右"
             },
             {
-              "id": "hebrew-8040",
-              "eng": "and at his left hand",
-              "punct": "､"
+              "id": "hebrew-681",
+              "cht": "邊",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6305",
-              "eng": "Pedaiah",
-              "punct": "､"
+              "cht": "毗大雅、"
             },
             {
               "id": "hebrew-4332",
-              "eng": "and Mishael",
-              "punct": "､"
+              "cht": "米沙利、"
             },
             {
               "id": "hebrew-4441",
-              "eng": "and Malchijah",
-              "punct": "､"
+              "cht": "瑪基雅、"
             },
             {
               "id": "hebrew-2828",
-              "eng": "and Hashum",
-              "punct": "､"
+              "cht": "哈順、"
             },
             {
               "id": "hebrew-2806",
-              "eng": "and Hashbadana",
-              "punct": "､"
+              "cht": "哈拔大拿、"
             },
             {
               "id": "hebrew-2148",
-              "eng": "Zechariah",
-              "punct": "､"
+              "cht": "撒迦利亞",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4918",
-              "eng": "[and] Meshullam",
-              "punct": "."
+              "cht": "和米書蘭"
             },
             {
-              "id": ""
+              "id": "hebrew-5921",
+              "cht": "站在"
             },
             {
-              "id": "hebrew-5921"
-            },
-            {
-              "id": "hebrew-4480"
+              "id": "hebrew-8040",
+              "cht": "他的左邊",
+              "punct_cht": "。"
             }
           ]
         },
@@ -207,88 +196,82 @@
             "hebrew-6305": 5.492088685277254
           },
           "verseKey": "neh.3.25",
-          "cunp": "烏賽的兒子巴拉修造對着城牆的轉彎和王上宮凸出來的城樓，靠近護衛院的那一段。其次是巴錄的兒子毗大雅修造。（",
+          "nasb": "Palal the son of Uzai made repairs in front of the Angle and the tower projecting from the upper house of the king, which is by the court of the guard. After him Pedaiah the son of Parosh made repairs.",
           "words": [
             {
-              "id": "hebrew-6420",
-              "eng": "Palal [made repairs]"
+              "id": "hebrew-186",
+              "cht": "烏賽"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-186",
-              "eng": "of Uzai",
-              "punct": "､"
+              "id": "hebrew-6420",
+              "cht": "巴拉"
             },
             {
-              "id": "hebrew-5048",
-              "eng": "opposite"
+              "id": "hebrew-4480",
+              "cht": "修造對著"
             },
             {
               "id": "hebrew-4740",
-              "eng": "the buttress"
-            },
-            {
-              "id": "hebrew-4026",
-              "eng": "and on the tower"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "which projects"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "from house",
-              "punct": "､"
+              "cht": "城牆的轉彎"
             },
             {
               "id": "hebrew-4428",
-              "eng": "of the king"
+              "cht": "和王"
             },
             {
               "id": "hebrew-5945",
-              "eng": "upper"
+              "cht": "上"
             },
             {
-              "id": "hebrew-834",
-              "eng": "that [was]"
+              "id": "hebrew-4480",
+              "cht": "宮"
             },
             {
-              "id": "hebrew-2691",
-              "eng": "by the court"
+              "id": "hebrew-3318",
+              "cht": "凸出來"
+            },
+            {
+              "id": "hebrew-4026",
+              "cht": "的城樓",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4307",
-              "eng": "of the prison",
-              "punct": "."
+              "cht": "靠近護衛"
+            },
+            {
+              "id": "hebrew-2691",
+              "cht": "院"
+            },
+            {
+              "id": "hebrew-834",
+              "cht": "的那一段",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-310",
-              "eng": "After him"
-            },
-            {
-              "id": "hebrew-6305",
-              "eng": "Pedaiah [made repairs]"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "其次"
             },
             {
               "id": "hebrew-6551",
-              "eng": "of Parosh",
-              "punct": "."
+              "cht": "是巴錄"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6305",
+              "cht": "毗大雅"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "修造",
+              "punct_cht": "。"
             }
           ]
         },
@@ -298,83 +281,83 @@
             "hebrew-6305": 5.492088685277254
           },
           "verseKey": "2ki.23.36",
-          "cunp": "約雅敬登基的時候年二十五歲，在耶路撒冷作王十一年。他母親名叫西布大，是魯瑪人毗大雅的女兒。",
+          "nasb": "Jehoiakim was twenty-five years old when he became king, and he reigned eleven years in Jerusalem; and his mother’s name was Zebidah the daughter of Pedaiah of Rumah.",
           "words": [
             {
+              "id": "hebrew-3079",
+              "cht": "約雅敬"
+            },
+            {
+              "id": "hebrew-4427",
+              "cht": "登基"
+            },
+            {
               "id": "hebrew-1121",
-              "eng": "Old"
+              "cht": "的時候年"
             },
             {
               "id": "hebrew-6242",
-              "eng": "twenty"
+              "cht": "二十"
             },
             {
               "id": "hebrew-2568",
-              "eng": "and five"
+              "cht": "五"
             },
             {
               "id": "hebrew-8141",
-              "eng": "years"
-            },
-            {
-              "id": "hebrew-3079",
-              "eng": "Jehoiakim [was]"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "when he became king",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "and one"
-            },
-            {
-              "id": "hebrew-6240",
-              "eng": "[and] ten"
-            },
-            {
-              "id": "hebrew-8141",
-              "eng": "years"
-            },
-            {
-              "id": "hebrew-4427",
-              "eng": "he reigned"
+              "cht": "歲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3389",
-              "eng": "in Jerusalem",
-              "punct": "."
+              "cht": "在耶路撒冷"
             },
             {
-              "id": "hebrew-8034",
-              "eng": "And name [was]"
+              "id": "hebrew-4427",
+              "cht": "作王"
+            },
+            {
+              "id": "hebrew-6240",
+              "cht": "十"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一"
+            },
+            {
+              "id": "hebrew-8141",
+              "cht": "年",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-517",
-              "eng": "of His mother"
+              "cht": "他母親"
+            },
+            {
+              "id": "hebrew-8034",
+              "cht": "名叫"
             },
             {
               "id": "hebrew-2080",
-              "eng": "Zebudah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "the daughter"
-            },
-            {
-              "id": "hebrew-6305",
-              "eng": "of Pedaiah"
+              "cht": "西布大",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "of"
+              "cht": "是"
             },
             {
               "id": "hebrew-7316",
-              "eng": "Rumah",
-              "punct": "."
+              "cht": "魯瑪人"
+            },
+            {
+              "id": "hebrew-6305",
+              "cht": "毗大雅"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "的女兒",
+              "punct_cht": "。"
             }
           ]
         },
@@ -384,87 +367,86 @@
             "hebrew-6305": 5.492088685277254
           },
           "verseKey": "neh.11.7",
-          "cunp": "便雅憫人中有米書蘭的兒子撒路。米書蘭是約葉的兒子；約葉是毗大雅的兒子；毗大雅是哥賴雅的兒子；哥賴雅是瑪西雅的兒子；瑪西雅是以鐵的兒子；以鐵是耶篩亞的兒子。",
+          "nasb": "Now these are the sons of Benjamin: Sallu the son of Meshullam, the son of Joed, the son of Pedaiah, the son of Kolaiah, the son of Maaseiah, the son of Ithiel, the son of Jeshaiah;",
           "words": [
             {
-              "id": "hebrew-428",
-              "eng": "And these [are]"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "the sons"
-            },
-            {
               "id": "hebrew-1144",
-              "eng": "of Benjamin",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5543",
-              "eng": "Sallu"
+              "cht": "便雅憫"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-428",
+              "cht": "中有"
             },
             {
               "id": "hebrew-4918",
-              "eng": "of Meshullam",
-              "punct": "､"
+              "cht": "米書蘭"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-5543",
+              "cht": "撒路",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3133",
-              "eng": "of Joed",
-              "punct": "､"
+              "cht": "米書蘭是約葉"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6305",
-              "eng": "of Pedaiah",
-              "punct": "､"
+              "cht": "約葉是毗大雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6964",
-              "eng": "of Kolaiah",
-              "punct": "､"
+              "cht": "毗大雅是哥賴雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4641",
-              "eng": "of Maaseiah",
-              "punct": "､"
+              "cht": "哥賴雅是瑪西雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-384",
-              "eng": "of Ithiel",
-              "punct": "､"
+              "cht": "瑪西雅是以鐵"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3470",
-              "eng": "of Jeshaiah",
-              "punct": "."
+              "cht": "以鐵是耶篩亞"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "。"
             }
           ]
         },
@@ -474,55 +456,53 @@
             "hebrew-6305": 5.492088685277254
           },
           "verseKey": "1ch.27.20",
-          "cunp": "管以法蓮人的是阿撒細雅的兒子何細亞；管瑪拿西半支派的是毗大雅的兒子約珥；",
+          "nasb": "for the sons of Ephraim, Hoshea the son of Azaziah; for the half-tribe of Manasseh, Joel the son of Pedaiah;",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "[over] the sons"
-            },
-            {
               "id": "hebrew-669",
-              "eng": "of Ephraim",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1954",
-              "eng": "Hoshea"
+              "cht": "管以法蓮"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "人"
             },
             {
               "id": "hebrew-5812",
-              "eng": "of Azaziah",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2677",
-              "eng": "[over] the"
-            },
-            {
-              "id": "hebrew-7626",
-              "eng": "half-tribe"
-            },
-            {
-              "id": "hebrew-4519",
-              "eng": "of Manasseh",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3100",
-              "eng": "Joel"
+              "cht": "的是阿撒細雅"
             },
             {
               "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-1954",
+              "cht": "何細亞",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-4519",
+              "cht": "管瑪拿西"
+            },
+            {
+              "id": "hebrew-2677",
+              "cht": "半"
+            },
+            {
+              "id": "hebrew-7626",
+              "cht": "支派"
             },
             {
               "id": "hebrew-6305",
-              "eng": "of Pedaiah",
-              "punct": "–"
+              "cht": "的是毗大雅"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
+            },
+            {
+              "id": "hebrew-3100",
+              "cht": "約珥",
+              "punct_cht": "；"
             }
           ]
         },
@@ -532,53 +512,50 @@
             "hebrew-6305": 5.492088685277254
           },
           "verseKey": "1ch.3.19",
-          "cunp": "毗大雅的兒子是所羅巴伯、示每。所羅巴伯的兒子是米書蘭、哈拿尼雅，他們的妹子名叫示羅密。",
+          "nasb": "The sons of Pedaiah were Zerubbabel and Shimei. And the sons of Zerubbabel were Meshullam and Hananiah, and Shelomith was their sister;",
           "words": [
             {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
+              "id": "hebrew-6305",
+              "cht": "毗大雅"
             },
             {
-              "id": "hebrew-6305",
-              "eng": "of Pedaiah"
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-2216",
-              "eng": "[were] Zerubbabel",
-              "punct": "､"
+              "cht": "是所羅巴伯、"
             },
             {
               "id": "hebrew-8096",
-              "eng": "and Shimei",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "And the sons"
+              "cht": "示每",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2216",
-              "eng": "of Zerubbabel",
-              "punct": "–"
+              "cht": "所羅巴伯"
+            },
+            {
+              "id": "hebrew-1121",
+              "cht": "的兒子"
             },
             {
               "id": "hebrew-4918",
-              "eng": "[were] Meshullam",
-              "punct": "､"
+              "cht": "是米書蘭、"
             },
             {
               "id": "hebrew-2608",
-              "eng": "and Hananiah",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-8019",
-              "eng": "and Shelomith"
+              "cht": "哈拿尼雅",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-269",
-              "eng": "their sister",
-              "punct": "–"
+              "cht": "他們的妹子"
+            },
+            {
+              "id": "hebrew-8019",
+              "cht": "名叫示羅密",
+              "punct_cht": "。"
             }
           ]
         },
@@ -588,111 +565,102 @@
             "hebrew-6305": 5.492088685277254
           },
           "verseKey": "neh.13.13",
-          "cunp": "我派祭司示利米雅、文士撒督，和利未人毗大雅作庫官管理庫房；副官是哈難。哈難是撒刻的兒子；撒刻是瑪他尼的兒子。這些人都是忠信的，他們的職分是將所供給的分給他們的弟兄。",
+          "nasb": "In charge of the storehouses I appointed Shelemiah the priest, Zadok the scribe, and Pedaiah of the Levites, and in addition to them was Hanan the son of Zaccur, the son of Mattaniah; for they were considered reliable, and it was their task to distribute to their kinsmen.",
           "words": [
             {
-              "id": "hebrew-686",
-              "eng": "And I appointed as treasurers"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "over"
-            },
-            {
-              "id": "hebrew-214",
-              "eng": "the storehouse",
-              "punct": "､"
+              "id": "hebrew-3548",
+              "cht": "我派祭司"
             },
             {
               "id": "hebrew-8018",
-              "eng": "Shelemiah"
-            },
-            {
-              "id": "hebrew-3548",
-              "eng": "the priest",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6659",
-              "eng": "and Zadok"
+              "cht": "示利米雅、"
             },
             {
               "id": "hebrew-5608",
-              "eng": "the scribe",
-              "punct": "､"
+              "cht": "文士"
             },
             {
-              "id": "hebrew-6305",
-              "eng": "and Pedaiah",
-              "punct": "–"
+              "id": "hebrew-6659",
+              "cht": "撒督",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "of"
+              "cht": "和"
             },
             {
               "id": "hebrew-3881",
-              "eng": "the Levites",
-              "punct": "､"
+              "cht": "利未人"
+            },
+            {
+              "id": "hebrew-6305",
+              "cht": "毗大雅"
+            },
+            {
+              "id": "hebrew-686",
+              "cht": "作庫官"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and"
+              "cht": "管理"
+            },
+            {
+              "id": "hebrew-214",
+              "cht": "庫房",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "next to them"
+              "cht": "副官"
             },
             {
               "id": "hebrew-2605",
-              "eng": "[was] Hanan"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "son"
+              "cht": "是哈難",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2139",
-              "eng": "of Zaccur",
-              "punct": "､"
+              "cht": "哈難是撒刻"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the son"
+              "cht": "的兒子",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4983",
-              "eng": "of Mattaniah",
-              "punct": "–"
+              "cht": "撒刻是瑪他尼"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-539",
-              "eng": "faithful",
-              "punct": "､"
+              "id": "hebrew-1121",
+              "cht": "的兒子",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-2803",
-              "eng": "they were considered"
+              "cht": "這些人都是"
+            },
+            {
+              "id": "hebrew-539",
+              "cht": "忠信"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5921",
-              "eng": "and their task [was]"
+              "cht": "他們的職分"
             },
             {
               "id": "hebrew-2505",
-              "eng": "to distribute"
+              "cht": "是將所供給的分"
             },
             {
               "id": "hebrew-251",
-              "eng": "to their brothers",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "給他們的弟兄",
+              "punct_cht": "。"
             }
           ]
         }

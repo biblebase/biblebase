@@ -3,18 +3,33 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3004": "They say",
-          "greek-846": null,
-          "greek-3588": "who",
-          "greek-4091": "Pilate",
-          "greek-5101": "What",
-          "greek-3767": "then",
-          "greek-4160": "should I do with",
-          "greek-2424": "Jesus",
-          "greek-5547": "Christ",
-          "greek-3956": "all",
-          "greek-4717": "Let [Him] be crucified",
-          "": null
+          "eng": {
+            "greek-3004": "They say",
+            "greek-846": null,
+            "greek-3588": "who",
+            "greek-4091": "Pilate",
+            "greek-5101": "What",
+            "greek-3767": "then",
+            "greek-4160": "should I do with",
+            "greek-2424": "Jesus",
+            "greek-5547": "Christ",
+            "greek-3956": "all",
+            "greek-4717": "Let [Him] be crucified",
+            "": null
+          },
+          "cht": {
+            "greek-3004": "說",
+            "greek-846": "他們都",
+            "greek-3588": "那",
+            "greek-4091": "彼拉多",
+            "greek-5101": "我怎麼",
+            "greek-3767": "這樣",
+            "greek-4160": "辦",
+            "greek-2424": "的耶穌",
+            "greek-5547": "基督",
+            "greek-3956": "他們都",
+            "greek-4717": "把他釘十字架"
+          }
         }
       },
       "translations": {
@@ -30,136 +45,106 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "jhn.19.6",
-          "cunp": "祭司長和差役看見他，就喊着說：「釘他十字架！釘他十字架！」彼拉多說：「你們自己把他釘十字架吧！我查不出他有甚麼罪來。」",
+          "nasb": "So when the chief priests and the officers saw Him, they cried out saying, “Crucify, crucify!” Pilate *said to them, “Take Him yourselves and crucify Him, for I find no guilt in Him.”",
           "words": [
             {
-              "id": "greek-3753",
-              "eng": "When"
-            },
-            {
               "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-1492",
-              "eng": "saw"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-749",
-              "eng": "chief priests"
+              "cht": "祭司長"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "和"
             },
             {
               "id": "greek-5257",
-              "eng": "officers",
-              "punct": ","
+              "cht": "差役"
+            },
+            {
+              "id": "greek-1492",
+              "cht": "看見"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2905",
-              "eng": "they cried out"
+              "cht": "就喊著"
             },
             {
               "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4717",
-              "eng": "Crucify",
-              "punct": "!"
+              "cht": "釘他十字架",
+              "punct_cht": "！"
             },
             {
               "id": "greek-4717",
-              "eng": "Crucify",
-              "punct": "!"
+              "cht": "釘他十字架",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-846",
+              "cht": "彼拉多"
             },
             {
               "id": "greek-3004",
-              "eng": "Says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4091",
-              "eng": "Pilate",
-              "punct": ","
-            },
-            {
-              "id": "greek-2983",
-              "eng": "Take"
-            },
-            {
-              "id": "greek-846",
-              "eng": "Him"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5210",
-              "eng": "yourselves"
+              "cht": "你們"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4717",
-              "eng": "crucify [Him]",
-              "punct": ";"
-            },
-            {
-              "id": "greek-1473",
-              "eng": "I"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "no"
-            },
-            {
-              "id": "greek-2147",
-              "eng": "find"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
+              "id": "greek-2983",
+              "cht": "自己把"
             },
             {
               "id": "greek-846",
-              "eng": "Him"
+              "cht": "他"
+            },
+            {
+              "id": "greek-4717",
+              "cht": "釘十字架"
+            },
+            {
+              "id": "",
+              "cht": "吧",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-1473",
+              "cht": "我"
+            },
+            {
+              "id": "greek-2147",
+              "cht": "查"
+            },
+            {
+              "id": "greek-3756",
+              "cht": "不"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "出"
+            },
+            {
+              "id": "greek-846",
+              "cht": "他"
             },
             {
               "id": "greek-156",
-              "eng": "guilt",
-              "punct": "."
+              "cht": "有甚麼罪"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -171,127 +156,100 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "jhn.19.15",
-          "cunp": "他們喊着說：「除掉他！除掉他！釘他在十字架上！」彼拉多說：「我可以把你們的王釘十字架嗎？」祭司長回答說：「除了凱撒，我們沒有王。」",
+          "nasb": "So they cried out, “Away with Him, away with Him, crucify Him!” Pilate *said to them, “Shall I crucify your King?” The chief priests answered, “We have no king but Caesar.”",
           "words": [
             {
               "id": "greek-2905",
-              "eng": "They cried out"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore",
-              "punct": ","
-            },
-            {
-              "id": "greek-1565",
-              "eng": "With Him"
+              "cht": "他們喊著說",
+              "punct_cht": "："
             },
             {
               "id": "greek-142",
-              "eng": "away",
-              "punct": ","
+              "cht": "除掉"
+            },
+            {
+              "id": "",
+              "cht": "他",
+              "punct_cht": "！"
             },
             {
               "id": "greek-142",
-              "eng": "away",
-              "punct": "!"
+              "cht": "除掉"
             },
             {
-              "id": "greek-4717",
-              "eng": "Crucify"
+              "id": "",
+              "cht": "他",
+              "punct_cht": "！"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "!"
+              "cht": "釘他"
+            },
+            {
+              "id": "greek-4717",
+              "cht": "在十字架"
+            },
+            {
+              "id": "",
+              "cht": "上",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-846",
+              "cht": "彼拉多"
             },
             {
               "id": "greek-3004",
-              "eng": "Says"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4091",
-              "eng": "Pilate",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
-              "id": "greek-935",
-              "eng": "King"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-5216",
-              "eng": "of you"
-            },
-            {
-              "id": "greek-4717",
-              "eng": "shall I crucify",
-              "punct": "?"
-            },
-            {
-              "id": "greek-611",
-              "eng": "Answered"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-749",
-              "eng": "chief priests",
-              "punct": ","
-            },
-            {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
-              "id": "greek-2192",
-              "eng": "we have"
+              "cht": "我可以把你們的"
             },
             {
               "id": "greek-935",
-              "eng": "a king",
-              "punct": ","
+              "cht": "王"
             },
             {
-              "id": "greek-1487",
-              "eng": "if"
+              "id": "greek-4717",
+              "cht": "釘十字架"
             },
             {
-              "id": "greek-3361",
-              "eng": "not"
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
+            },
+            {
+              "id": "greek-749",
+              "cht": "祭司長"
+            },
+            {
+              "id": "greek-611",
+              "cht": "回答說",
+              "punct_cht": "："
+            },
+            {
+              "id": "greek-1508",
+              "cht": "除了"
             },
             {
               "id": "greek-2541",
-              "eng": "Caesar",
-              "punct": "."
+              "cht": "凱撒",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "greek-3756",
+              "cht": "我們沒"
             },
             {
-              "id": ""
+              "id": "greek-2192",
+              "cht": "有"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-1508"
+              "id": "greek-935",
+              "cht": "王",
+              "punct_cht": "。"
             }
           ]
         },
@@ -302,172 +260,112 @@
             "greek-2424": 0.6476856215615396
           },
           "verseKey": "jhn.19.38",
-          "cunp": "這些事以後，有亞利馬太人約瑟，是耶穌的門徒，只因怕猶太人，就暗暗地作門徒。他來求彼拉多，要把耶穌的身體領去。彼拉多允准，他就把耶穌的身體領去了。",
+          "nasb": "After these things Joseph of Arimathea, being a disciple of Jesus, but a secret one for fear of the Jews, asked Pilate that he might take away the body of Jesus; and Pilate granted permission. So he came and took away His body.",
           "words": [
             {
-              "id": "greek-3326",
-              "eng": "After"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "then"
-            },
-            {
               "id": "greek-5023",
-              "eng": "these things",
-              "punct": ","
+              "cht": "這些事"
             },
             {
-              "id": "greek-2065",
-              "eng": "asked"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-4091",
-              "eng": "Pilate"
-            },
-            {
-              "id": "greek-2501",
-              "eng": "Joseph"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-575",
-              "eng": "from"
+              "id": "greek-3326",
+              "cht": "以後",
+              "punct_cht": "，"
             },
             {
               "id": "greek-707",
-              "eng": "Arimathea",
-              "punct": ","
+              "cht": "有亞利馬太人"
+            },
+            {
+              "id": "greek-2501",
+              "cht": "約瑟",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5607",
-              "eng": "being"
+              "cht": "是"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌"
             },
             {
               "id": "greek-3101",
-              "eng": "a disciple"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "of Jesus",
-              "punct": "—"
-            },
-            {
-              "id": "greek-2928",
-              "eng": "concealed"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "however"
+              "cht": "的門徒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-1223",
-              "eng": "through"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "cht": "只因"
             },
             {
               "id": "greek-5401",
-              "eng": "fear"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
+              "cht": "怕"
             },
             {
               "id": "greek-2453",
-              "eng": "Jews",
-              "punct": "—"
+              "cht": "猶太人",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
+              "id": "greek-2928",
+              "cht": "就暗暗的"
             },
             {
-              "id": "greek-142",
-              "eng": "he might take away"
+              "id": "",
+              "cht": "作門徒",
+              "punct_cht": "。"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "of Jesus",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-2010",
-              "eng": "gave permission"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-2065",
+              "cht": "他來求"
             },
             {
               "id": "greek-4091",
-              "eng": "Pilate",
-              "punct": "."
+              "cht": "彼拉多",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-2064",
-              "eng": "He came"
+              "id": "greek-2443",
+              "cht": "要"
             },
             {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-142",
-              "eng": "took away"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-2424",
+              "cht": "把耶穌"
             },
             {
               "id": "greek-4983",
-              "eng": "body"
+              "cht": "的身體"
             },
             {
-              "id": "greek-846",
-              "eng": "of Him",
-              "punct": "."
+              "id": "greek-142",
+              "cht": "領去",
+              "punct_cht": "。"
             },
             {
-              "id": ""
+              "id": "greek-4091",
+              "cht": "彼拉多"
             },
             {
-              "id": "greek-2424"
+              "id": "greek-2010",
+              "cht": "允准",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2064",
+              "cht": "他就"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "把耶穌"
+            },
+            {
+              "id": "greek-4983",
+              "cht": "的身體"
+            },
+            {
+              "id": "greek-142",
+              "cht": "領去了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -480,93 +378,67 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "mrk.15.15",
-          "cunp": "彼拉多要叫眾人喜悅，就釋放巴拉巴給他們，將耶穌鞭打了，交給人釘十字架。",
+          "nasb": "Wishing to satisfy the crowd, Pilate released Barabbas for them, and after having Jesus scourged, he handed Him over to be crucified.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-4091",
-              "eng": "Pilate",
-              "punct": ","
+              "cht": "彼拉多"
             },
             {
               "id": "greek-1014",
-              "eng": "desiring"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "to the"
-            },
-            {
-              "id": "greek-3793",
-              "eng": "crowd"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "that which [was]"
+              "cht": "要"
             },
             {
               "id": "greek-2425",
-              "eng": "satisfactory"
+              "cht": "叫眾"
+            },
+            {
+              "id": "greek-3793",
+              "cht": "人"
             },
             {
               "id": "greek-4160",
-              "eng": "to do",
-              "punct": ","
+              "cht": "喜悅",
+              "punct_cht": "，"
             },
             {
               "id": "greek-630",
-              "eng": "released"
-            },
-            {
-              "id": "greek-846",
-              "eng": "to them"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "就釋放"
             },
             {
               "id": "greek-912",
-              "eng": "Barabbas",
-              "punct": ","
+              "cht": "巴拉巴"
+            },
+            {
+              "id": "greek-846",
+              "cht": "給他們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3860",
-              "eng": "he delivered"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "將"
             },
             {
               "id": "greek-2424",
-              "eng": "Jesus",
-              "punct": ","
+              "cht": "耶穌"
             },
             {
               "id": "greek-5417",
-              "eng": "having flogged [him]",
-              "punct": ","
+              "cht": "鞭打了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3860",
+              "cht": "交"
             },
             {
               "id": "greek-2443",
-              "eng": "that"
+              "cht": "給"
             },
             {
               "id": "greek-4717",
-              "eng": "He might be crucified",
-              "punct": "."
+              "cht": "人釘十字架",
+              "punct_cht": "。"
             }
           ]
         },
@@ -577,45 +449,42 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "luk.23.21",
-          "cunp": "無奈他們喊着說：「釘他十字架！釘他十字架！」",
+          "nasb": "but they kept on calling out, saying, “Crucify, crucify Him!”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
               "id": "greek-1161",
-              "eng": "But"
+              "cht": "無奈"
             },
             {
               "id": "greek-2019",
-              "eng": "they were crying out",
-              "punct": ","
+              "cht": "他們喊著"
             },
             {
               "id": "greek-3004",
-              "eng": "saying",
-              "punct": ","
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-4717",
-              "eng": "Crucify",
-              "punct": ","
+              "cht": "釘"
+            },
+            {
+              "id": "",
+              "cht": "他十字架",
+              "punct_cht": "！"
             },
             {
               "id": "greek-4717",
-              "eng": "crucify"
+              "cht": "釘"
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "."
+              "cht": "他"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "十字架",
+              "punct_cht": "！"
             }
           ]
         },
@@ -626,69 +495,54 @@
             "greek-2424": 0.6476856215615396
           },
           "verseKey": "mat.27.58",
-          "cunp": "這人去見彼拉多，求耶穌的身體；彼拉多就吩咐給他。",
+          "nasb": "This man went to Pilate and asked for the body of Jesus. Then Pilate ordered it to be given to him.",
           "words": [
             {
               "id": "greek-3778",
-              "eng": "He"
+              "cht": "這人"
             },
             {
               "id": "greek-4334",
-              "eng": "having gone"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "去"
             },
             {
               "id": "greek-4091",
-              "eng": "to Pilate",
-              "punct": ","
+              "cht": "見彼拉多",
+              "punct_cht": "，"
             },
             {
               "id": "greek-154",
-              "eng": "asked for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4983",
-              "eng": "body"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "求"
             },
             {
               "id": "greek-2424",
-              "eng": "of Jesus",
-              "punct": "."
+              "cht": "耶穌"
             },
             {
-              "id": "greek-5119",
-              "eng": "Then"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-4983",
+              "cht": "的身體",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4091",
-              "eng": "Pilate"
+              "cht": "彼拉多"
+            },
+            {
+              "id": "greek-5119",
+              "cht": "就"
             },
             {
               "id": "greek-2753",
-              "eng": "commanded it"
+              "cht": "吩咐"
             },
             {
               "id": "greek-591",
-              "eng": "to be given up",
-              "punct": "."
+              "cht": "給"
             },
             {
-              "id": "greek-4983"
+              "id": "greek-4983",
+              "cht": "他",
+              "punct_cht": "。"
             }
           ]
         },
@@ -700,83 +554,64 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "mrk.15.14",
-          "cunp": "彼拉多說：「為甚麼呢？他做了甚麼惡事呢？」他們便極力地喊着說：「把他釘十字架！」",
+          "nasb": "But Pilate said to them, “Why, what evil has He done?” But they shouted all the more, “Crucify Him!”",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "And"
-            },
-            {
               "id": "greek-4091",
-              "eng": "Pilate"
-            },
-            {
-              "id": "greek-2036",
-              "eng": "was saying"
+              "cht": "彼拉多"
             },
             {
               "id": "greek-846",
-              "eng": "to them",
-              "punct": ","
-            },
-            {
-              "id": "greek-5101",
-              "eng": "What"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-1063",
-              "eng": "indeed"
+              "cht": "為甚麼呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-4160",
-              "eng": "did He commit"
+              "cht": "他作了"
+            },
+            {
+              "id": "greek-5101",
+              "cht": "甚麼"
             },
             {
               "id": "greek-2556",
-              "eng": "evil",
-              "punct": "?"
+              "cht": "惡事"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "",
+              "cht": "呢",
+              "punct_cht": "？"
             },
             {
               "id": "greek-1161",
-              "eng": "But"
+              "cht": "他們便"
             },
             {
-              "id": "greek-4057",
-              "eng": "much more"
+              "id": "greek-4056",
+              "cht": "極力的"
             },
             {
               "id": "greek-2896",
-              "eng": "they shouted",
-              "punct": ","
+              "cht": "喊著"
             },
             {
-              "id": "greek-4717",
-              "eng": "Crucify"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "greek-846",
-              "eng": "Him",
-              "punct": "!"
+              "cht": "把他釘"
             },
             {
-              "id": "greek-3004"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-4056"
-            },
-            {
-              "id": ""
+              "id": "greek-4717",
+              "cht": "十字架",
+              "punct_cht": "！"
             }
           ]
         },
@@ -789,149 +624,109 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "act.4.10",
-          "cunp": "你們眾人和以色列百姓都當知道，站在你們面前的這人得痊癒是因你們所釘十字架、神叫他從死裏復活的拿撒勒人耶穌基督的名。",
+          "nasb": "let it be known to all of you and to all the people of Israel, that by the name of Jesus Christ the Nazarene, whom you crucified, whom God raised from the dead—by this name this man stands here before you in good health.",
           "words": [
             {
-              "id": "greek-1110",
-              "eng": "known"
-            },
-            {
-              "id": "greek-2077",
-              "eng": "let it be"
+              "id": "greek-5213",
+              "cht": "你們"
             },
             {
               "id": "greek-3956",
-              "eng": "to all"
-            },
-            {
-              "id": "greek-5213",
-              "eng": "you"
+              "cht": "眾人"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "to all"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2992",
-              "eng": "people"
+              "cht": "和"
             },
             {
               "id": "greek-2474",
-              "eng": "of Israel"
+              "cht": "以色列"
             },
             {
-              "id": "greek-3754",
-              "eng": "that"
+              "id": "greek-3956",
+              "cht": "百姓"
             },
             {
-              "id": "greek-1722",
-              "eng": "in"
+              "id": "greek-2077",
+              "cht": "都當"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-3686",
-              "eng": "name"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "of Jesus"
-            },
-            {
-              "id": "greek-5547",
-              "eng": "Christ"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of"
-            },
-            {
-              "id": "greek-3480",
-              "eng": "Nazareth",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-4771",
-              "eng": "you"
-            },
-            {
-              "id": "greek-4717",
-              "eng": "crucified",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God"
-            },
-            {
-              "id": "greek-1453",
-              "eng": "raised"
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out from"
-            },
-            {
-              "id": "greek-3498",
-              "eng": "[the] dead",
-              "punct": ","
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this [man]"
+              "id": "greek-1110",
+              "cht": "知道",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3936",
-              "eng": "stands"
+              "cht": "站"
+            },
+            {
+              "id": "greek-5216",
+              "cht": "在你們"
             },
             {
               "id": "greek-1799",
-              "eng": "before"
+              "cht": "面前"
+            },
+            {
+              "id": "greek-3778",
+              "cht": "的這人"
+            },
+            {
+              "id": "greek-5129",
+              "cht": "得痊癒是"
+            },
+            {
+              "id": "greek-1722",
+              "cht": "因"
             },
             {
               "id": "greek-5210",
-              "eng": "you"
+              "cht": "你們"
             },
             {
-              "id": "greek-5199",
-              "eng": "sound",
-              "punct": "."
+              "id": "greek-3739",
+              "cht": "所"
             },
             {
-              "id": "greek-5216"
+              "id": "greek-4717",
+              "cht": "釘十字架、"
             },
             {
-              "id": "greek-5129"
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "叫他"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "從"
+            },
+            {
+              "id": "greek-3498",
+              "cht": "死裡"
+            },
+            {
+              "id": "greek-1453",
+              "cht": "復活"
+            },
+            {
+              "id": "greek-3480",
+              "cht": "的拿撒勒人"
+            },
+            {
+              "id": "greek-2424",
+              "cht": "耶穌"
+            },
+            {
+              "id": "greek-5547",
+              "cht": "基督"
+            },
+            {
+              "id": "greek-3686",
+              "cht": "的名",
+              "punct_cht": "。"
             }
           ]
         },
@@ -943,97 +738,83 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "jhn.19.10",
-          "cunp": "彼拉多說：「你不對我說話嗎？你豈不知我有權柄釋放你，也有權柄把你釘十字架嗎？」",
+          "nasb": "So Pilate *said to Him, “You do not speak to me? Do You not know that I have authority to release You, and I have authority to crucify You?”",
           "words": [
             {
-              "id": "greek-3004",
-              "eng": "Says"
-            },
-            {
-              "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
               "id": "greek-846",
-              "eng": "to Him"
+              "cht": "彼拉多"
             },
             {
-              "id": "greek-3588",
-              "eng": "-"
+              "id": "greek-3004",
+              "cht": "說",
+              "punct_cht": "："
             },
             {
-              "id": "greek-4091",
-              "eng": "Pilate",
-              "punct": ","
+              "id": "greek-3756",
+              "cht": "你不"
             },
             {
               "id": "greek-1698",
-              "eng": "To me"
-            },
-            {
-              "id": "greek-3756",
-              "eng": "not"
+              "cht": "對我"
             },
             {
               "id": "greek-2980",
-              "eng": "speak You",
-              "punct": "?"
+              "cht": "說話"
+            },
+            {
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             },
             {
               "id": "greek-3756",
-              "eng": "Not"
+              "cht": "你豈不"
             },
             {
               "id": "greek-1492",
-              "eng": "know You"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-1849",
-              "eng": "authority"
+              "cht": "知"
             },
             {
               "id": "greek-2192",
-              "eng": "I have"
+              "cht": "我有"
+            },
+            {
+              "id": "greek-1849",
+              "cht": "權柄"
             },
             {
               "id": "greek-630",
-              "eng": "to release"
+              "cht": "釋放"
             },
             {
               "id": "greek-4571",
-              "eng": "You",
-              "punct": ","
+              "cht": "你",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1849",
-              "eng": "authority"
+              "cht": "也"
             },
             {
               "id": "greek-2192",
-              "eng": "I have"
+              "cht": "有"
             },
             {
-              "id": "greek-4717",
-              "eng": "to crucify"
+              "id": "greek-1849",
+              "cht": "權柄"
             },
             {
               "id": "greek-4571",
-              "eng": "You",
-              "punct": "?"
+              "cht": "把你"
             },
             {
-              "id": ""
+              "id": "greek-4717",
+              "cht": "釘十字架"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？"
             }
           ]
         },
@@ -1047,99 +828,76 @@
             "greek-4717": 2.499694941916128
           },
           "verseKey": "act.2.36",
-          "cunp": "「故此，以色列全家當確實地知道，你們釘在十字架上的這位耶穌，神已經立他為主，為基督了。」",
+          "nasb": "Therefore let all the house of Israel know for certain that God has made Him both Lord and Christ—this Jesus whom you crucified.”",
           "words": [
             {
-              "id": "greek-806",
-              "eng": "Assuredly"
-            },
-            {
               "id": "greek-3767",
-              "eng": "therefore"
-            },
-            {
-              "id": "greek-1097",
-              "eng": "let know"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all"
-            },
-            {
-              "id": "greek-3624",
-              "eng": "[the] house"
+              "cht": "故此",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2474",
-              "eng": "of Israel"
+              "cht": "以色列"
             },
             {
-              "id": "greek-3754",
-              "eng": "that"
+              "id": "greek-3956",
+              "cht": "全"
             },
             {
-              "id": "greek-2532",
-              "eng": "both"
+              "id": "greek-3624",
+              "cht": "家"
             },
             {
-              "id": "greek-2962",
-              "eng": "Lord"
+              "id": "greek-806",
+              "cht": "當確實的"
             },
             {
-              "id": "greek-846",
-              "eng": "Him"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-5547",
-              "eng": "Christ"
-            },
-            {
-              "id": "greek-4160",
-              "eng": "has made"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2316",
-              "eng": "God",
-              "punct": "—"
-            },
-            {
-              "id": "greek-3778",
-              "eng": "this"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-2424",
-              "eng": "Jesus"
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
+              "id": "greek-1097",
+              "cht": "知道",
+              "punct_cht": "，"
             },
             {
               "id": "greek-5210",
-              "eng": "you"
+              "cht": "你們"
             },
             {
               "id": "greek-4717",
-              "eng": "crucified",
-              "punct": "."
+              "cht": "釘在十字架"
             },
             {
-              "id": "greek-5126"
+              "id": "greek-3739",
+              "cht": "上的這位"
             },
             {
-              "id": ""
+              "id": "greek-2424",
+              "cht": "耶穌",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2316",
+              "cht": "神"
+            },
+            {
+              "id": "greek-4160",
+              "cht": "已經立"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "他"
+            },
+            {
+              "id": "greek-2962",
+              "cht": "為主",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-5547",
+              "cht": "為基督"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         }

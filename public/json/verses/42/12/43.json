@@ -3,17 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3107": "Blessed [is]",
-          "greek-3588": "the",
-          "greek-1401": "servant",
-          "greek-1565": "that",
-          "greek-3739": "whom",
-          "greek-2064": "having come",
-          "greek-2962": "master",
-          "greek-846": "of him",
-          "greek-2147": "will find",
-          "greek-4160": "doing",
-          "greek-3779": "thus"
+          "eng": {
+            "greek-3107": "Blessed [is]",
+            "greek-3588": "the",
+            "greek-1401": "servant",
+            "greek-1565": "that",
+            "greek-3739": "whom",
+            "greek-2064": "having come",
+            "greek-2962": "master",
+            "greek-846": "of him",
+            "greek-2147": "will find",
+            "greek-4160": "doing",
+            "greek-3779": "thus"
+          },
+          "cht": {
+            "greek-3107": "就有福了",
+            "greek-1401": "僕人",
+            "greek-1565": "那",
+            "greek-2064": "來到",
+            "greek-2962": "主人",
+            "greek-2147": "看見",
+            "greek-4160": "行",
+            "greek-3779": "僕人這樣"
+          }
         }
       },
       "translations": {
@@ -38,58 +50,46 @@
             "greek-3779": 0.6973273356499421
           },
           "verseKey": "mat.24.46",
-          "cunp": "主人來到，看見他這樣行，那僕人就有福了。",
+          "nasb": "Blessed is that slave whom his master finds so doing when he comes.",
           "words": [
             {
-              "id": "greek-3107",
-              "eng": "Blessed [is]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1401",
-              "eng": "servant"
-            },
-            {
-              "id": "greek-1565",
-              "eng": "that",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
+              "id": "greek-2962",
+              "cht": "主人"
             },
             {
               "id": "greek-2064",
-              "eng": "having come",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "master"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "來到",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2147",
-              "eng": "will find"
+              "cht": "看見"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "他"
             },
             {
               "id": "greek-3779",
-              "eng": "thus"
+              "cht": "這樣"
             },
             {
               "id": "greek-4160",
-              "eng": "doing",
-              "punct": "."
+              "cht": "行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1565",
+              "cht": "那"
+            },
+            {
+              "id": "greek-1401",
+              "cht": "僕人"
+            },
+            {
+              "id": "greek-3107",
+              "cht": "就有福了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -103,101 +103,86 @@
             "greek-2147": 0.8130975381906252
           },
           "verseKey": "luk.12.37",
-          "cunp": "主人來了，看見僕人警醒，那僕人就有福了。我實在告訴你們，主人必叫他們坐席，自己束上帶，進前伺候他們。",
+          "nasb": "Blessed are those slaves whom the master will find on the alert when he comes; truly I say to you, that he will gird himself to serve, and have them recline at the table, and will come up and wait on them.",
           "words": [
             {
-              "id": "greek-3107",
-              "eng": "Blessed [are]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-1401",
-              "eng": "servants"
-            },
-            {
-              "id": "greek-1565",
-              "eng": "those",
-              "punct": ","
-            },
-            {
-              "id": "greek-3739",
-              "eng": "whom"
+              "id": "greek-2962",
+              "cht": "主人"
             },
             {
               "id": "greek-2064",
-              "eng": "having come",
-              "punct": ","
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2962",
-              "eng": "master"
+              "cht": "來了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2147",
-              "eng": "will find"
+              "cht": "看見"
+            },
+            {
+              "id": "greek-3739",
+              "cht": "僕人"
             },
             {
               "id": "greek-1127",
-              "eng": "watching",
-              "punct": "."
+              "cht": "儆醒",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1565",
+              "cht": "那"
+            },
+            {
+              "id": "greek-1401",
+              "cht": "僕人"
+            },
+            {
+              "id": "greek-3107",
+              "cht": "就有福了",
+              "punct_cht": "。"
             },
             {
               "id": "greek-281",
-              "eng": "Truly"
+              "cht": "我實在"
             },
             {
               "id": "greek-3004",
-              "eng": "I say"
+              "cht": "告訴"
             },
             {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3754",
-              "eng": "that"
-            },
-            {
-              "id": "greek-4024",
-              "eng": "he will gird himself"
+              "cht": "你們",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "主人"
+            },
+            {
+              "id": "greek-846",
+              "cht": "必叫他們"
             },
             {
               "id": "greek-347",
-              "eng": "will make recline"
+              "cht": "坐席",
+              "punct_cht": "，"
             },
             {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-4024",
+              "cht": "自己束上帶",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3928",
-              "eng": "having come up",
-              "punct": ","
+              "cht": "進前"
             },
             {
               "id": "greek-1247",
-              "eng": "will serve"
+              "cht": "伺候"
             },
             {
               "id": "greek-846",
-              "eng": "them",
-              "punct": "."
+              "cht": "他們",
+              "punct_cht": "。"
             }
           ]
         },
@@ -207,75 +192,72 @@
             "greek-3107": 1.0848551050184374
           },
           "verseKey": "1ch.17.27",
-          "cunp": "現在你喜悅賜福與僕人的家，可以永存在你面前。耶和華啊，你已經賜福，還要賜福到永遠。」",
+          "nasb": "And now it has pleased You to bless the house of Your servant, that it may continue forever before You; for You, O Lord, have blessed, and it is blessed forever.”",
           "words": [
             {
               "id": "hebrew-6258",
-              "eng": "Now"
+              "cht": "現在"
             },
             {
               "id": "hebrew-2974",
-              "eng": "You have been pleased"
+              "cht": "你喜悅"
             },
             {
               "id": "hebrew-1288",
-              "eng": "to bless"
+              "cht": "賜福"
             },
             {
               "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "the house"
+              "cht": "與"
             },
             {
               "id": "hebrew-5650",
-              "eng": "of Your servant",
-              "punct": "､"
+              "cht": "僕人"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "的家",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5769",
+              "cht": "可以永"
             },
             {
               "id": "hebrew-1961",
-              "eng": "that it may continue"
-            },
-            {
-              "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "–"
+              "cht": "存"
             },
             {
               "id": "hebrew-6440",
-              "eng": "before You"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-859",
-              "eng": "You"
+              "cht": "在你面前",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-859",
+              "cht": "你"
             },
             {
               "id": "hebrew-1288",
-              "eng": "have blessed it",
-              "punct": "､"
+              "cht": "已經賜福",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1288",
-              "eng": "and [it shall be] blessed"
+              "cht": "還要賜福"
             },
             {
               "id": "hebrew-5769",
-              "eng": "forever",
-              "punct": "."
-            },
-            {
-              "id": ""
+              "cht": "到永遠",
+              "punct_cht": "。」"
             }
           ]
         }

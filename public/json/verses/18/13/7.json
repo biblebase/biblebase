@@ -3,11 +3,19 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-410": "Will for God",
-          "hebrew-1696": "talk",
-          "hebrew-5766": "wickedly",
-          "hebrew-7423": "deceitfully",
-          "": null
+          "eng": {
+            "hebrew-410": "Will for God",
+            "hebrew-1696": "talk",
+            "hebrew-5766": "wickedly",
+            "hebrew-7423": "deceitfully",
+            "": null
+          },
+          "cht": {
+            "hebrew-410": "神",
+            "hebrew-1696": "說",
+            "hebrew-5766": "不義的話",
+            "hebrew-7423": "詭詐的言語"
+          }
         }
       },
       "translations": {
@@ -23,44 +31,45 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "job.27.4",
-          "cunp": "我的嘴決不說非義之言； 我的舌也不說詭詐之語。",
+          "nasb": "My lips certainly will not speak unjustly, Nor will my tongue mutter deceit.",
           "words": [
             {
+              "id": "hebrew-8193",
+              "cht": "我的嘴"
+            },
+            {
               "id": "hebrew-518",
-              "eng": "not"
+              "cht": "決不"
             },
             {
               "id": "hebrew-1696",
-              "eng": "will speak"
-            },
-            {
-              "id": "hebrew-8193",
-              "eng": "My lips"
+              "cht": "說"
             },
             {
               "id": "hebrew-5766",
-              "eng": "wickedness",
-              "punct": "､"
+              "cht": "非義之言",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3956",
-              "eng": "and my tongue"
+              "cht": "我的舌"
             },
             {
               "id": "hebrew-518",
-              "eng": "nor"
+              "cht": "也不"
             },
             {
               "id": "hebrew-1897",
-              "eng": "utter"
+              "cht": "說"
             },
             {
               "id": "hebrew-7423",
-              "eng": "deceit",
-              "punct": "."
+              "cht": "詭詐"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "之語",
+              "punct_cht": "。"
             }
           ]
         },
@@ -71,53 +80,50 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "mic.6.12",
-          "cunp": "城裏的富戶滿行強暴； 其中的居民也說謊言， 口中的舌頭是詭詐的。",
+          "nasb": "For the rich men of the city are full of violence, Her residents speak lies, And their tongue is deceitful in their mouth.",
           "words": [
             {
-              "id": "hebrew-834",
-              "eng": "for"
-            },
-            {
               "id": "hebrew-6223",
-              "eng": "her rich men"
+              "cht": "城裡的富戶"
             },
             {
               "id": "hebrew-4390",
-              "eng": "are full"
+              "cht": "滿"
             },
             {
               "id": "hebrew-2555",
-              "eng": "of violence",
-              "punct": "､"
+              "cht": "行強暴",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3427",
-              "eng": "and Her inhabitants"
+              "cht": "其中的居民"
             },
             {
               "id": "hebrew-1696",
-              "eng": "have spoken"
+              "cht": "也說"
             },
             {
               "id": "hebrew-8267",
-              "eng": "lies",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3956",
-              "eng": "and their tongue"
-            },
-            {
-              "id": "hebrew-7423",
-              "eng": "is deceitful"
+              "cht": "謊言",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6310",
-              "eng": "in their mouth",
-              "punct": "."
+              "cht": "口中"
             },
             {
-              "id": ""
+              "id": "hebrew-3956",
+              "cht": "的舌頭"
+            },
+            {
+              "id": "hebrew-7423",
+              "cht": "是詭詐"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -128,63 +134,67 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.101.7",
-          "cunp": "行詭詐的，必不得住在我家裏； 說謊話的，必不得立在我眼前。",
+          "nasb": "He who practices deceit shall not dwell within my house; He who speaks falsehood shall not maintain his position before me.",
           "words": [
             {
-              "id": "hebrew-3808",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-3427",
-              "eng": "shall dwell"
-            },
-            {
-              "id": "hebrew-7130",
-              "eng": "within"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "my house",
-              "punct": "–"
-            },
-            {
               "id": "hebrew-6213",
-              "eng": "He who works"
+              "cht": "行"
             },
             {
               "id": "hebrew-7423",
-              "eng": "deceit"
+              "cht": "詭詐"
             },
             {
-              "id": "hebrew-1696",
-              "eng": "He who tells"
-            },
-            {
-              "id": "hebrew-8267",
-              "eng": "lies"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "必不"
+            },
+            {
+              "id": "hebrew-3427",
+              "cht": "得住"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "在我家"
+            },
+            {
+              "id": "hebrew-7130",
+              "cht": "裡",
+              "punct_cht": "；"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "說"
+            },
+            {
+              "id": "hebrew-8267",
+              "cht": "謊話"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "必不"
             },
             {
               "id": "hebrew-3559",
-              "eng": "shall continue"
-            },
-            {
-              "id": "hebrew-5048",
-              "eng": "in"
+              "cht": "得立"
             },
             {
               "id": "hebrew-5869",
-              "eng": "my presence",
-              "punct": "."
+              "cht": "在我眼"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-5048",
+              "cht": "前",
+              "punct_cht": "。"
             }
           ]
         },
@@ -195,93 +205,94 @@
             "hebrew-1696": 0.5357712866951944
           },
           "verseKey": "dan.11.36",
-          "cunp": "「王必任意而行，自高自大，超過所有的神，又用奇異的話攻擊萬神之神。他必行事亨通，直到主的忿怒完畢，因為所定的事必然成就。",
+          "nasb": "“Then the king will do as he pleases, and he will exalt and magnify himself above every god and will speak monstrous things against the God of gods; and he will prosper until the indignation is finished, for that which is decreed will be done.",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And shall do"
+              "id": "hebrew-4428",
+              "cht": "王"
             },
             {
               "id": "hebrew-7522",
-              "eng": "according to his own will",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
-            },
-            {
-              "id": "hebrew-7311",
-              "eng": "and he shall exalt",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1431",
-              "eng": "and magnify himself"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "above"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "every"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "god",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "and against"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "the God"
-            },
-            {
-              "id": "hebrew-410",
-              "eng": "of gods",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "shall speak"
-            },
-            {
-              "id": "hebrew-6381",
-              "eng": "blasphemies"
-            },
-            {
-              "id": "hebrew-6743",
-              "eng": "and shall prosper"
-            },
-            {
-              "id": "hebrew-5704",
-              "eng": "till"
-            },
-            {
-              "id": "hebrew-3615",
-              "eng": "has been accomplished",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2195",
-              "eng": "the wrath"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2782",
-              "eng": "what has been determined"
+              "cht": "必任意"
             },
             {
               "id": "hebrew-6213",
-              "eng": "shall be done",
-              "punct": "."
+              "cht": "而行",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7311",
+              "cht": "自高"
+            },
+            {
+              "id": "hebrew-1431",
+              "cht": "自大",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "超過"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "所有的"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "神",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "又用"
+            },
+            {
+              "id": "hebrew-6381",
+              "cht": "奇異的話"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "攻擊"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "萬神"
+            },
+            {
+              "id": "hebrew-410",
+              "cht": "之神",
+              "punct_cht": "。"
+            },
+            {
+              "id": "hebrew-6743",
+              "cht": "他必行事亨通",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5704",
+              "cht": "直到"
+            },
+            {
+              "id": "hebrew-2195",
+              "cht": "主的忿怒"
+            },
+            {
+              "id": "hebrew-3615",
+              "cht": "完畢",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "因為"
+            },
+            {
+              "id": "hebrew-2782",
+              "cht": "所定的事"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "必然成就",
+              "punct_cht": "。"
             }
           ]
         },
@@ -291,38 +302,34 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.52.2",
-          "cunp": "你的舌頭邪惡詭詐， 好像剃頭刀，快利傷人。",
+          "nasb": "Your tongue devises destruction, Like a sharp razor, O worker of deceit.",
           "words": [
             {
+              "id": "hebrew-3956",
+              "cht": "你的舌頭"
+            },
+            {
               "id": "hebrew-1942",
-              "eng": "Destruction",
-              "punct": "–"
+              "cht": "邪惡"
             },
             {
               "id": "hebrew-2803",
-              "eng": "devises"
-            },
-            {
-              "id": "hebrew-3956",
-              "eng": "Your tongue"
+              "cht": "詭詐",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-8593",
-              "eng": "Like a razor",
-              "punct": "､"
+              "cht": "好像剃頭刀",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3913",
-              "eng": "sharp"
+              "cht": "快利"
             },
             {
               "id": "hebrew-6213",
-              "eng": "working"
-            },
-            {
-              "id": "hebrew-7423",
-              "eng": "deceitfully",
-              "punct": "."
+              "cht": "傷人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -332,37 +339,39 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "pro.10.4",
-          "cunp": "手懶的，要受貧窮； 手勤的，卻要富足。",
+          "nasb": "Poor is he who works with a negligent hand, But the hand of the diligent makes rich.",
           "words": [
             {
-              "id": "hebrew-7326",
-              "eng": "He becomes poor"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "who has"
-            },
-            {
               "id": "hebrew-3709",
-              "eng": "a hand",
-              "punct": "､"
+              "cht": "手"
             },
             {
               "id": "hebrew-7423",
-              "eng": "slack"
+              "cht": "懶的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "要受"
+            },
+            {
+              "id": "hebrew-7326",
+              "cht": "貧窮",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3027",
-              "eng": "but the hand"
+              "cht": "手"
             },
             {
               "id": "hebrew-2742",
-              "eng": "of the diligent"
+              "cht": "勤的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6238",
-              "eng": "makes rich",
-              "punct": "."
+              "cht": "卻要富足",
+              "punct_cht": "。"
             }
           ]
         },
@@ -372,54 +381,55 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "jer.48.10",
-          "cunp": "懶惰為耶和華行事的，必受咒詛；禁止刀劍不經血的，必受咒詛。）",
+          "nasb": "Cursed be the one who does the Lord’s work negligently, And cursed be the one who restrains his sword from blood.",
           "words": [
             {
-              "id": "hebrew-779",
-              "eng": "Cursed [is]"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "he who does"
-            },
-            {
-              "id": "hebrew-4399",
-              "eng": "the work"
+              "id": "hebrew-7423",
+              "cht": "懶惰"
             },
             {
               "id": "hebrew-3068",
-              "eng": "of Yahweh"
+              "cht": "為耶和華"
             },
             {
-              "id": "hebrew-7423",
-              "eng": "deceitfully",
-              "punct": "､"
+              "id": "hebrew-6213",
+              "cht": "行"
+            },
+            {
+              "id": "hebrew-4399",
+              "cht": "事"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-779",
-              "eng": "and cursed [is]"
+              "cht": "必受咒詛",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4513",
-              "eng": "he who keeps back"
+              "cht": "禁止"
             },
             {
               "id": "hebrew-2719",
-              "eng": "his sword"
+              "cht": "刀劍"
             },
             {
               "id": "hebrew-1818",
-              "eng": "from blood",
-              "punct": "."
+              "cht": "不經血"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-4480"
-            },
-            {
-              "id": ""
+              "id": "hebrew-779",
+              "cht": "必受咒詛）",
+              "punct_cht": "。"
             }
           ]
         },
@@ -429,45 +439,45 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "psa.32.2",
-          "cunp": "凡心裏沒有詭詐、耶和華不算為有罪的， 這人是有福的！",
+          "nasb": "How blessed is the man to whom the Lord does not impute iniquity, And in whose spirit there is no deceit!",
           "words": [
             {
-              "id": "hebrew-835",
-              "eng": "Blessed [is]"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "the man"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-2803",
-              "eng": "does impute"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-5771",
-              "eng": "iniquity",
-              "punct": "､"
+              "id": "hebrew-7307",
+              "cht": "凡心裡"
             },
             {
               "id": "hebrew-369",
-              "eng": "and [there is] no"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "in whose spirit"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-7423",
-              "eng": "deceit",
-              "punct": "."
+              "cht": "詭詐、"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-2803",
+              "cht": "算為"
+            },
+            {
+              "id": "hebrew-5771",
+              "cht": "有罪的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "這人"
+            },
+            {
+              "id": "hebrew-835",
+              "cht": "是有福的",
+              "punct_cht": "！"
             }
           ]
         },
@@ -477,41 +487,41 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "pro.12.27",
-          "cunp": "懶惰的人不烤打獵所得的； 殷勤的人卻得寶貴的財物。",
+          "nasb": "A lazy man does not roast his prey, But the precious possession of a man is diligence.",
           "words": [
             {
+              "id": "hebrew-7423",
+              "cht": "懶惰的人"
+            },
+            {
               "id": "hebrew-3808",
-              "eng": "Not"
+              "cht": "不"
             },
             {
               "id": "hebrew-2760",
-              "eng": "does roast"
-            },
-            {
-              "id": "hebrew-7423",
-              "eng": "the lazy [man]"
+              "cht": "烤"
             },
             {
               "id": "hebrew-6718",
-              "eng": "what he [took] in hunting",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-1952",
-              "eng": "but possession"
-            },
-            {
-              "id": "hebrew-120",
-              "eng": "man's"
-            },
-            {
-              "id": "hebrew-3368",
-              "eng": "precious"
+              "cht": "打獵所得的",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-2742",
-              "eng": "diligence [is]",
-              "punct": "."
+              "cht": "殷勤"
+            },
+            {
+              "id": "hebrew-120",
+              "cht": "的人"
+            },
+            {
+              "id": "hebrew-3368",
+              "cht": "卻得寶貴"
+            },
+            {
+              "id": "hebrew-1952",
+              "cht": "的財物",
+              "punct_cht": "。"
             }
           ]
         },
@@ -521,53 +531,42 @@
             "hebrew-7423": 4.0204442424896225
           },
           "verseKey": "2co.11.13",
-          "cunp": "那等人是假使徒，行事詭詐，裝作基督使徒的模樣。",
+          "nasb": "For such men are false apostles, deceitful workers, disguising themselves as apostles of Christ.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "-"
-            },
-            {
-              "id": "greek-1063",
-              "eng": "For"
-            },
-            {
               "id": "greek-5108",
-              "eng": "such [are]"
+              "cht": "那等人"
             },
             {
               "id": "greek-5570",
-              "eng": "false apostles",
-              "punct": ","
+              "cht": "是假使徒",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2040",
-              "eng": "workers"
+              "cht": "行事"
             },
             {
               "id": "greek-1386",
-              "eng": "deceitful",
-              "punct": ","
+              "cht": "詭詐",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3345",
-              "eng": "disguising themselves"
-            },
-            {
-              "id": "greek-1519",
-              "eng": "as"
-            },
-            {
-              "id": "greek-652",
-              "eng": "apostles"
+              "cht": "裝作"
             },
             {
               "id": "greek-5547",
-              "eng": "of Christ",
-              "punct": "."
+              "cht": "基督"
             },
             {
-              "id": ""
+              "id": "greek-652",
+              "cht": "使徒"
+            },
+            {
+              "id": "",
+              "cht": "的模樣",
+              "punct_cht": "。"
             }
           ]
         }

@@ -3,16 +3,29 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-7200": "See",
-          "hebrew-5414": "I have set",
-          "hebrew-6440": "today before you",
-          "hebrew-3117": "this day",
-          "hebrew-853": "and",
-          "hebrew-2416": "life",
-          "hebrew-2896": "good",
-          "hebrew-4194": "death",
-          "hebrew-7451": "evil",
-          "": null
+          "eng": {
+            "hebrew-7200": "See",
+            "hebrew-5414": "I have set",
+            "hebrew-6440": "today before you",
+            "hebrew-3117": "this day",
+            "hebrew-853": "and",
+            "hebrew-2416": "life",
+            "hebrew-2896": "good",
+            "hebrew-4194": "death",
+            "hebrew-7451": "evil",
+            "": null
+          },
+          "cht": {
+            "hebrew-7200": "看",
+            "hebrew-5414": "陳明",
+            "hebrew-6440": "在你面前",
+            "hebrew-3117": "我今日",
+            "hebrew-853": "與",
+            "hebrew-2416": "生",
+            "hebrew-2896": "福",
+            "hebrew-4194": "死",
+            "hebrew-7451": "禍"
+          }
         }
       },
       "translations": {
@@ -34,140 +47,100 @@
             "hebrew-4194": 1.1819666221246994
           },
           "verseKey": "1jn.5.16",
-          "cunp": "人若看見弟兄犯了不至於死的罪，就當為他祈求，神必將生命賜給他；有至於死的罪，我不說當為這罪祈求。",
+          "nasb": "If anyone sees his brother committing a sin not leading to death, he shall ask and God will for him give life to those who commit sin not leading to death. There is a sin leading to death; I do not say that he should make request for this.",
           "words": [
             {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
               "id": "greek-5100",
-              "eng": "anyone"
+              "cht": "人"
             },
             {
-              "id": "greek-3708",
-              "eng": "should see"
+              "id": "greek-1437",
+              "cht": "若"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-1492",
+              "cht": "看見"
             },
             {
               "id": "greek-80",
-              "eng": "brother"
-            },
-            {
-              "id": "greek-846",
-              "eng": "of him"
+              "cht": "弟兄"
             },
             {
               "id": "greek-264",
-              "eng": "sinning"
-            },
-            {
-              "id": "greek-266",
-              "eng": "a sin"
+              "cht": "犯了"
             },
             {
               "id": "greek-3361",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "greek-4314",
-              "eng": "unto"
+              "cht": "至於"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": ","
+              "cht": "死"
+            },
+            {
+              "id": "greek-266",
+              "cht": "的罪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-154",
-              "eng": "he shall ask",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1325",
-              "eng": "He will give"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him"
+              "cht": "就當為他祈求",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2222",
-              "eng": "life",
-              "punct": ","
+              "cht": "神必將生命"
             },
             {
-              "id": "greek-3588",
-              "eng": "to those"
+              "id": "greek-1325",
+              "cht": "賜給"
             },
             {
               "id": "greek-264",
-              "eng": "sinning"
-            },
-            {
-              "id": "greek-3361",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4314",
-              "eng": "unto"
-            },
-            {
-              "id": "greek-2288",
-              "eng": "death",
-              "punct": "."
+              "cht": "他",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2076",
-              "eng": "There is"
-            },
-            {
-              "id": "greek-266",
-              "eng": "a sin"
+              "cht": "有"
             },
             {
               "id": "greek-4314",
-              "eng": "unto"
+              "cht": "至於"
             },
             {
               "id": "greek-2288",
-              "eng": "death",
-              "punct": ";"
+              "cht": "死"
+            },
+            {
+              "id": "greek-266",
+              "cht": "的罪",
+              "punct_cht": "，"
             },
             {
               "id": "greek-3756",
-              "eng": "not"
-            },
-            {
-              "id": "greek-4012",
-              "eng": "concerning"
-            },
-            {
-              "id": "greek-1565",
-              "eng": "that"
+              "cht": "我不"
             },
             {
               "id": "greek-3004",
-              "eng": "do I say"
+              "cht": "說"
             },
             {
-              "id": "greek-2443",
-              "eng": "that"
+              "id": "greek-4012",
+              "cht": "當為"
+            },
+            {
+              "id": "greek-1565",
+              "cht": "這罪"
             },
             {
               "id": "greek-2065",
-              "eng": "he should implore",
-              "punct": "."
-            },
-            {
-              "id": "greek-1492"
+              "cht": "祈求",
+              "punct_cht": "。"
             }
           ]
         },
@@ -178,94 +151,77 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "mat.12.35",
-          "cunp": "善人從他心裏所存的善就發出善來；惡人從他心裏所存的惡就發出惡來。",
+          "nasb": "The good man brings out of his good treasure what is good; and the evil man brings out of his evil treasure what is evil.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-18",
-              "eng": "good"
+              "cht": "善"
             },
             {
               "id": "greek-444",
-              "eng": "man"
+              "cht": "人"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
+              "cht": "從"
             },
             {
-              "id": "greek-3588",
-              "eng": "his"
-            },
-            {
-              "id": "greek-18",
-              "eng": "good"
+              "id": "greek-2588",
+              "cht": "他心裡"
             },
             {
               "id": "greek-2344",
-              "eng": "treasure"
-            },
-            {
-              "id": "greek-1544",
-              "eng": "puts forth"
+              "cht": "所存的"
             },
             {
               "id": "greek-18",
-              "eng": "good things",
-              "punct": ";"
+              "cht": "善"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
+              "id": "greek-1544",
+              "cht": "就發出"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-18",
+              "cht": "善"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4190",
-              "eng": "evil"
+              "cht": "惡"
             },
             {
               "id": "greek-444",
-              "eng": "man"
+              "cht": "人"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "his"
-            },
-            {
-              "id": "greek-4190",
-              "eng": "evil"
+              "cht": "從"
             },
             {
               "id": "greek-2344",
-              "eng": "treasure"
-            },
-            {
-              "id": "greek-1544",
-              "eng": "puts forth"
+              "cht": "他心裡所存的"
             },
             {
               "id": "greek-4190",
-              "eng": "evil things",
-              "punct": "."
+              "cht": "惡"
             },
             {
-              "id": "greek-2588"
+              "id": "greek-1544",
+              "cht": "就發出"
             },
             {
-              "id": ""
+              "id": "greek-4190",
+              "cht": "惡"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "來",
+              "punct_cht": "。"
             }
           ]
         },
@@ -276,155 +232,111 @@
             "hebrew-7451": 0.7409385372102525
           },
           "verseKey": "luk.6.45",
-          "cunp": "善人從他心裏所存的善就發出善來；惡人從他心裏所存的惡就發出惡來；因為心裏所充滿的，口裏就說出來。」",
+          "nasb": "The good man out of the good treasure of his heart brings forth what is good; and the evil man out of the evil treasure brings forth what is evil; for his mouth speaks from that which fills his heart.",
           "words": [
             {
-              "id": "greek-3588",
-              "eng": "The"
-            },
-            {
               "id": "greek-18",
-              "eng": "good"
+              "cht": "善"
             },
             {
               "id": "greek-444",
-              "eng": "man",
-              "punct": ","
+              "cht": "人"
             },
             {
               "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-18",
-              "eng": "good"
-            },
-            {
-              "id": "greek-2344",
-              "eng": "treasure"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of the"
-            },
-            {
-              "id": "greek-2588",
-              "eng": "heart"
+              "cht": "從"
             },
             {
               "id": "greek-846",
-              "eng": "of him"
+              "cht": "他"
             },
             {
-              "id": "greek-4393",
-              "eng": "brings forth"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "that which [is]"
+              "id": "greek-2588",
+              "cht": "心裡"
             },
             {
               "id": "greek-18",
-              "eng": "good",
-              "punct": ";"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4190",
-              "eng": "evil",
-              "punct": ","
-            },
-            {
-              "id": "greek-1537",
-              "eng": "out of"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-4190",
-              "eng": "evil",
-              "punct": ","
+              "cht": "所存的善"
             },
             {
               "id": "greek-4393",
-              "eng": "brings forth"
+              "cht": "就發出"
             },
             {
-              "id": "greek-3588",
-              "eng": "that which [is]"
+              "id": "greek-18",
+              "cht": "善"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
             },
             {
               "id": "greek-4190",
-              "eng": "evil",
-              "punct": "."
+              "cht": "惡"
+            },
+            {
+              "id": "greek-444",
+              "cht": "人"
             },
             {
               "id": "greek-1537",
-              "eng": "Out of"
+              "cht": "從"
             },
             {
-              "id": "greek-1063",
-              "eng": "for"
+              "id": "greek-846",
+              "cht": "他"
+            },
+            {
+              "id": "greek-2588",
+              "cht": "心裡"
+            },
+            {
+              "id": "greek-4190",
+              "cht": "所存的惡"
+            },
+            {
+              "id": "greek-4393",
+              "cht": "就發出"
+            },
+            {
+              "id": "greek-4190",
+              "cht": "惡"
+            },
+            {
+              "id": "",
+              "cht": "來",
+              "punct_cht": "；"
+            },
+            {
+              "id": "greek-1537",
+              "cht": "因為"
+            },
+            {
+              "id": "greek-2588",
+              "cht": "心裡"
             },
             {
               "id": "greek-4051",
-              "eng": "the abundance"
+              "cht": "所充滿"
             },
             {
-              "id": "greek-2588",
-              "eng": "of his heart",
-              "punct": ","
-            },
-            {
-              "id": "greek-2980",
-              "eng": "speaks"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4750",
-              "eng": "mouth"
+              "cht": "口裡"
             },
             {
-              "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "id": "greek-2980",
+              "cht": "就說"
             },
             {
-              "id": ""
-            },
-            {
-              "id": "greek-444"
-            },
-            {
-              "id": "greek-2344"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": "greek-2588"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "出來",
+              "punct_cht": "。"
             }
           ]
         }

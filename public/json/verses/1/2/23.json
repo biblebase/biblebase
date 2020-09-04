@@ -3,19 +3,35 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-559": "And said",
-          "hebrew-120": "Adam",
-          "hebrew-2063": "this [one]",
-          "hebrew-6471": "now",
-          "hebrew-6106": "of my bones",
-          "hebrew-1320": "of my flesh",
-          "hebrew-7121": "shall be called",
-          "hebrew-802": "Woman",
-          "hebrew-3588": "because",
-          "hebrew-376": "out of Man",
-          "hebrew-3947": "was taken",
-          "hebrew-4480": null,
-          "": null
+          "eng": {
+            "hebrew-559": "And said",
+            "hebrew-120": "Adam",
+            "hebrew-2063": "this [one]",
+            "hebrew-6471": "now",
+            "hebrew-6106": "of my bones",
+            "hebrew-1320": "of my flesh",
+            "hebrew-7121": "shall be called",
+            "hebrew-802": "Woman",
+            "hebrew-3588": "because",
+            "hebrew-376": "out of Man",
+            "hebrew-3947": "was taken",
+            "hebrew-4480": null,
+            "": null
+          },
+          "cht": {
+            "hebrew-559": "說",
+            "hebrew-120": "那人",
+            "hebrew-2063": "她是",
+            "hebrew-6471": "這是",
+            "hebrew-6106": "的骨",
+            "hebrew-1320": "的肉",
+            "hebrew-7121": "可以稱",
+            "hebrew-802": "女人",
+            "hebrew-3588": "因為",
+            "hebrew-376": "男人",
+            "hebrew-3947": "身上取出來的",
+            "hebrew-4480": "男人"
+          }
         }
       },
       "translations": {
@@ -34,130 +50,95 @@
             "hebrew-1320": 1.042799396354061
           },
           "verseKey": "rev.19.18",
-          "cunp": "可以吃君王與將軍的肉，壯士與馬和騎馬者的肉，並一切自主的為奴的，以及大小人民的肉。」",
+          "nasb": "so that you may eat the flesh of kings and the flesh of commanders and the flesh of mighty men and the flesh of horses and of those who sit on them and the flesh of all men, both free men and slaves, and small and great.”",
           "words": [
             {
               "id": "greek-2443",
-              "eng": "so that"
+              "cht": "可以"
             },
             {
               "id": "greek-5315",
-              "eng": "you may eat"
+              "cht": "吃"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
-            },
-            {
-              "id": "greek-935",
-              "eng": "of kings",
-              "punct": ","
+              "cht": "君王"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "與"
             },
             {
               "id": "greek-5506",
-              "eng": "of commanders",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "將軍"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
-            },
-            {
-              "id": "greek-2478",
-              "eng": "of mighty [men]",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "的肉",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "壯士"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "與"
             },
             {
               "id": "greek-2462",
-              "eng": "of horses"
+              "cht": "馬"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "of those"
+              "cht": "和"
             },
             {
               "id": "greek-2521",
-              "eng": "sitting"
+              "cht": "騎"
             },
             {
               "id": "greek-1909",
-              "eng": "on"
-            },
-            {
-              "id": "greek-846",
-              "eng": "them",
-              "punct": ","
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "馬"
             },
             {
               "id": "greek-4561",
-              "eng": "[the] flesh"
+              "cht": "者的肉",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "並"
             },
             {
               "id": "greek-3956",
-              "eng": "of all",
-              "punct": ","
-            },
-            {
-              "id": "greek-1658",
-              "eng": "free"
-            },
-            {
-              "id": "greek-5037",
-              "eng": "both"
+              "cht": "一切"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "自主的"
             },
             {
               "id": "greek-1401",
-              "eng": "slaves",
-              "punct": ","
+              "cht": "為奴的",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "以及"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "大"
             },
             {
               "id": "greek-3398",
-              "eng": "small"
+              "cht": "小"
             },
             {
-              "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-3173",
-              "eng": "great",
-              "punct": "."
+              "id": "greek-4561",
+              "cht": "人民的肉",
+              "punct_cht": "。"
             }
           ]
         },
@@ -168,96 +149,72 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "1co.15.39",
-          "cunp": "凡肉體各有不同：人是一樣，獸又是一樣，鳥又是一樣，魚又是一樣。",
+          "nasb": "All flesh is not the same flesh, but there is one flesh of men, and another flesh of beasts, and another flesh of birds, and another of fish.",
           "words": [
             {
-              "id": "greek-3756",
-              "eng": "Not"
-            },
-            {
               "id": "greek-3956",
-              "eng": "all"
+              "cht": "凡"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh [is]"
+              "cht": "肉體"
             },
             {
-              "id": "greek-3588",
-              "eng": "the"
+              "id": "greek-3756",
+              "cht": "各有不"
             },
             {
               "id": "greek-846",
-              "eng": "same"
-            },
-            {
-              "id": "greek-4561",
-              "eng": "flesh",
-              "punct": ","
-            },
-            {
-              "id": "greek-235",
-              "eng": "but"
-            },
-            {
-              "id": "greek-243",
-              "eng": "one"
-            },
-            {
-              "id": "greek-3303",
-              "eng": "indeed"
+              "cht": "同",
+              "punct_cht": "："
             },
             {
               "id": "greek-444",
-              "eng": "of men",
-              "punct": ","
-            },
-            {
-              "id": "greek-243",
-              "eng": "another"
-            },
-            {
-              "id": "greek-1161",
-              "eng": "now"
+              "cht": "人"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh"
+              "cht": "是一樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2934",
-              "eng": "of beasts",
-              "punct": ","
-            },
-            {
-              "id": "greek-243",
-              "eng": "another"
+              "cht": "獸"
             },
             {
               "id": "greek-1161",
-              "eng": "now"
+              "cht": "又"
             },
             {
               "id": "greek-4561",
-              "eng": "flesh"
+              "cht": "是一樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4421",
-              "eng": "of birds",
-              "punct": ","
-            },
-            {
-              "id": "greek-243",
-              "eng": "another"
+              "cht": "鳥"
             },
             {
               "id": "greek-1161",
-              "eng": "now"
+              "cht": "又"
+            },
+            {
+              "id": "greek-243",
+              "cht": "是一樣",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2486",
-              "eng": "of fish",
-              "punct": "."
+              "cht": "魚"
+            },
+            {
+              "id": "greek-1161",
+              "cht": "又"
+            },
+            {
+              "id": "greek-243",
+              "cht": "是一樣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -269,77 +226,74 @@
             "hebrew-7121": 0.6789499881031074
           },
           "verseKey": "1sa.3.10",
-          "cunp": "耶和華又來站着，像前三次呼喚說：「撒母耳啊！撒母耳啊！」撒母耳回答說：「請說，僕人敬聽！」",
+          "nasb": "Then the Lord came and stood and called as at other times, “Samuel! Samuel!” And Samuel said, “Speak, for Your servant is listening.”",
           "words": [
             {
-              "id": "hebrew-935",
-              "eng": "And came",
-              "punct": "､"
+              "id": "hebrew-3068",
+              "cht": "耶和華"
             },
             {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "id": "hebrew-935",
+              "cht": "又來"
             },
             {
               "id": "hebrew-3320",
-              "eng": "and stood",
-              "punct": "､"
+              "cht": "站著",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6471",
+              "cht": "像前"
+            },
+            {
+              "id": "hebrew-6471",
+              "cht": "三次"
             },
             {
               "id": "hebrew-7121",
-              "eng": "and called"
+              "cht": "呼喚"
             },
             {
-              "id": "hebrew-6471",
-              "eng": "as"
-            },
-            {
-              "id": "hebrew-6471",
-              "eng": "at other times",
-              "punct": "､"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-8050",
-              "eng": "Samuel",
-              "punct": "､"
+              "cht": "撒母耳啊",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-8050",
-              "eng": "Samuel",
-              "punct": "."
+              "cht": "撒母耳啊",
+              "punct_cht": "！」"
+            },
+            {
+              "id": "hebrew-8050",
+              "cht": "撒母耳"
             },
             {
               "id": "hebrew-559",
-              "eng": "And answered",
-              "punct": "､"
+              "cht": "回答"
             },
             {
-              "id": "hebrew-8050",
-              "eng": "Samuel"
+              "id": "",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-1696",
-              "eng": "speak",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-8085",
-              "eng": "hears"
+              "cht": "請說",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5650",
-              "eng": "Your servant",
-              "punct": "."
+              "cht": "僕人"
             },
             {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "hebrew-8085",
+              "cht": "敬聽",
+              "punct_cht": "！」"
             }
           ]
         },
@@ -352,92 +306,88 @@
             "hebrew-3947": 0.6334002295984578
           },
           "verseKey": "gen.27.36",
-          "cunp": "以掃說：「他名雅各，豈不是正對嗎？因為他欺騙了我兩次：他從前奪了我長子的名分，你看，他現在又奪了我的福分。」以掃又說：「你沒有留下為我可祝的福嗎？」",
+          "nasb": "Then he said, “Is he not rightly named Jacob, for he has supplanted me these two times? He took away my birthright, and behold, now he has taken away my blessing.” And he said, “Have you not reserved a blessing for me?”",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And [Esau] said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "is not he rightly"
+              "cht": "以掃說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-7121",
-              "eng": "called"
-            },
-            {
-              "id": "hebrew-8034",
-              "eng": "the name"
+              "cht": "他名"
             },
             {
               "id": "hebrew-3290",
-              "eng": "Jacob"
+              "cht": "雅各",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "豈不是正對嗎",
+              "punct_cht": "？"
             },
             {
               "id": "hebrew-6117",
-              "eng": "for he has supplanted me"
+              "cht": "因為他欺騙"
             },
             {
               "id": "hebrew-2088",
-              "eng": "these"
+              "cht": "了我"
             },
             {
               "id": "hebrew-6471",
-              "eng": "two times",
-              "punct": ":"
+              "cht": "兩次",
+              "punct_cht": "："
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3947",
+              "cht": "他從前奪了"
             },
             {
               "id": "hebrew-1062",
-              "eng": "my birthright"
-            },
-            {
-              "id": "hebrew-3947",
-              "eng": "He took away",
-              "punct": "､"
+              "cht": "我長子的名分",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2009",
-              "eng": "and behold"
+              "cht": "你看",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-6258",
-              "eng": "now"
+              "cht": "他現在"
             },
             {
               "id": "hebrew-3947",
-              "eng": "he has taken away"
+              "cht": "又奪了"
             },
             {
               "id": "hebrew-1293",
-              "eng": "my blessing",
-              "punct": "."
+              "cht": "我的福分",
+              "punct_cht": "。」"
             },
             {
               "id": "hebrew-559",
-              "eng": "And he said",
-              "punct": "､"
+              "cht": "以掃又說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "你沒有"
             },
             {
               "id": "hebrew-680",
-              "eng": "have you reserved"
+              "cht": "留下"
             },
             {
               "id": "hebrew-1293",
-              "eng": "a blessing",
-              "punct": "."
+              "cht": "可祝的福"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "嗎",
+              "punct_cht": "？」"
             }
           ]
         },
@@ -449,99 +399,84 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "2ki.13.19",
-          "cunp": "神人向他發怒，說：「應當擊打五六次，就能攻打亞蘭人直到滅盡；現在只能打敗亞蘭人三次。」",
+          "nasb": "So the man of God was angry with him and said, “You should have struck five or six times, then you would have struck Aram until you would have destroyed it. But now you shall strike Aram only three times.”",
           "words": [
             {
-              "id": "hebrew-7107",
-              "eng": "And was angry"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "with him"
+              "id": "hebrew-430",
+              "cht": "神"
             },
             {
               "id": "hebrew-376",
-              "eng": "the man"
+              "cht": "人"
             },
             {
-              "id": "hebrew-430",
-              "eng": "of God"
+              "id": "hebrew-5921",
+              "cht": "向他"
+            },
+            {
+              "id": "hebrew-7107",
+              "cht": "發怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-5221",
-              "eng": "You should have struck"
+              "cht": "應當擊打"
             },
             {
               "id": "hebrew-2568",
-              "eng": "five"
-            },
-            {
-              "id": "hebrew-176",
-              "eng": "or"
+              "cht": "五"
             },
             {
               "id": "hebrew-8337",
-              "eng": "six"
+              "cht": "六"
             },
             {
               "id": "hebrew-6471",
-              "eng": "times",
-              "punct": "–"
+              "cht": "次",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-227",
-              "eng": "then"
+              "cht": "就能"
             },
             {
               "id": "hebrew-5221",
-              "eng": "you would have struck"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "攻打"
             },
             {
               "id": "hebrew-758",
-              "eng": "Syria"
+              "cht": "亞蘭人"
             },
             {
               "id": "hebrew-5704",
-              "eng": "till"
+              "cht": "直到"
             },
             {
               "id": "hebrew-3615",
-              "eng": "you had destroyed [it]"
+              "cht": "滅盡",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-6258",
-              "eng": "but now"
-            },
-            {
-              "id": "hebrew-7969",
-              "eng": "three"
-            },
-            {
-              "id": "hebrew-6471",
-              "eng": "[only] times",
-              "punct": "."
+              "cht": "現在"
             },
             {
               "id": "hebrew-5221",
-              "eng": "You will strike"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "只能打敗"
             },
             {
               "id": "hebrew-758",
-              "eng": "Syria",
-              "punct": "."
+              "cht": "亞蘭人"
+            },
+            {
+              "id": "hebrew-6471",
+              "cht": "三次",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -552,101 +487,94 @@
             "hebrew-6471": 1.7316616259976423
           },
           "verseKey": "jdg.16.20",
-          "cunp": "大利拉說：「參孫哪，非利士人拿你來了！」參孫從睡中醒來，心裏說：「我要像前幾次出去活動身體」；他卻不知道耶和華已經離開他了。",
+          "nasb": "She said, “The Philistines are upon you, Samson!” And he awoke from his sleep and said, “I will go out as at other times and shake myself free.” But he did not know that the Lord had departed from him.",
           "words": [
             {
               "id": "hebrew-559",
-              "eng": "And she said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6430",
-              "eng": "the Philistines [are]"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "upon you"
+              "cht": "大利拉說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-8123",
-              "eng": "Samson",
-              "punct": "."
+              "cht": "參孫"
             },
             {
-              "id": "hebrew-3364",
-              "eng": "So he awoke"
+              "id": "",
+              "cht": "哪",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-8142",
-              "eng": "from his sleep",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-559",
-              "eng": "and said",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3318",
-              "eng": "I will go out"
-            },
-            {
-              "id": "hebrew-6471",
-              "eng": "as before"
-            },
-            {
-              "id": "hebrew-6471",
-              "eng": "at other times",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-5287",
-              "eng": "and shake myself free",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-1931",
-              "eng": "But he"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "not"
-            },
-            {
-              "id": "hebrew-3045",
-              "eng": "did know"
-            },
-            {
-              "id": "hebrew-3588",
-              "eng": "that"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "Yahweh"
-            },
-            {
-              "id": "hebrew-5493",
-              "eng": "had departed"
+              "id": "hebrew-6430",
+              "cht": "非利士人"
             },
             {
               "id": "hebrew-5921",
-              "eng": "from him",
-              "punct": "."
+              "cht": "拿你來了",
+              "punct_cht": "！」"
             },
             {
-              "id": ""
+              "id": "hebrew-4480",
+              "cht": "參孫從睡中"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-3364",
+              "cht": "醒來",
+              "punct_cht": "，"
             },
             {
-              "id": ""
+              "id": "hebrew-559",
+              "cht": "心裡說",
+              "punct_cht": "：「"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-6471",
+              "cht": "我要像前"
             },
             {
-              "id": ""
+              "id": "hebrew-6471",
+              "cht": "幾次"
+            },
+            {
+              "id": "hebrew-3318",
+              "cht": "出去"
+            },
+            {
+              "id": "hebrew-5287",
+              "cht": "活動"
+            },
+            {
+              "id": "",
+              "cht": "身體",
+              "punct_cht": "」；"
+            },
+            {
+              "id": "hebrew-1931",
+              "cht": "他"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "卻不"
+            },
+            {
+              "id": "hebrew-3588",
+              "cht": "知道"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "耶和華"
+            },
+            {
+              "id": "hebrew-5493",
+              "cht": "已經離開"
+            },
+            {
+              "id": "hebrew-5921",
+              "cht": "他"
+            },
+            {
+              "id": "",
+              "cht": "了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -657,119 +585,106 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "jdg.20.31",
-          "cunp": "便雅憫人也出來迎敵，就被引誘離城；在田間兩條路上，一通伯特利，一通基比亞，像前兩次，動手殺死以色列人約有三十個。",
+          "nasb": "The sons of Benjamin went out against the people and were drawn away from the city, and they began to strike and kill some of the people as at other times, on the highways, one of which goes up to Bethel and the other to Gibeah, and in the field, about thirty men of Israel.",
           "words": [
             {
-              "id": "hebrew-3318",
-              "eng": "So went out"
+              "id": "hebrew-1144",
+              "cht": "便雅憫"
             },
             {
               "id": "hebrew-1121",
-              "eng": "the sons"
+              "cht": "人"
             },
             {
-              "id": "hebrew-1144",
-              "eng": "of Benjamin"
+              "id": "hebrew-3318",
+              "cht": "也出來"
             },
             {
               "id": "hebrew-7125",
-              "eng": "against"
+              "cht": "迎"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people",
-              "punct": "､"
+              "cht": "敵",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5423",
-              "eng": "[and] were drawn away"
+              "cht": "就被引誘"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from"
+              "cht": "離"
             },
             {
               "id": "hebrew-5892",
-              "eng": "the city",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-2490",
-              "eng": "and they began"
-            },
-            {
-              "id": "hebrew-5221",
-              "eng": "to strike down"
-            },
-            {
-              "id": "hebrew-5971",
-              "eng": "of the people",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-2491",
-              "eng": "[and] kill some",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6471",
-              "eng": "as"
-            },
-            {
-              "id": "hebrew-6471",
-              "eng": "at the other times",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4546",
-              "eng": "in the highways",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "of which"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "one"
-            },
-            {
-              "id": "hebrew-5927",
-              "eng": "goes up"
-            },
-            {
-              "id": "hebrew-1008",
-              "eng": "Bethel",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-259",
-              "eng": "and one"
-            },
-            {
-              "id": "hebrew-1390",
-              "eng": "to Gibeah"
+              "cht": "城",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7704",
-              "eng": "and in the field",
-              "punct": "､"
+              "cht": "在田間"
             },
             {
-              "id": "hebrew-7970",
-              "eng": "about thirty"
+              "id": "hebrew-4546",
+              "cht": "兩條路上",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-376",
-              "eng": "men"
+              "id": "hebrew-259",
+              "cht": "一"
+            },
+            {
+              "id": "hebrew-5927",
+              "cht": "通"
+            },
+            {
+              "id": "hebrew-1008",
+              "cht": "伯特利",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-259",
+              "cht": "一"
+            },
+            {
+              "id": "hebrew-1390",
+              "cht": "通基比亞",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-6471",
+              "cht": "像"
+            },
+            {
+              "id": "hebrew-6471",
+              "cht": "前兩次",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2490",
+              "cht": "動手"
+            },
+            {
+              "id": "hebrew-5221",
+              "cht": "殺死"
             },
             {
               "id": "hebrew-3478",
-              "eng": "of Israel",
-              "punct": "."
+              "cht": "以色列"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-5971",
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-7970",
+              "cht": "約有三十"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "個",
+              "punct_cht": "。"
             }
           ]
         },
@@ -780,118 +695,101 @@
             "hebrew-6471": 1.7316616259976423
           },
           "verseKey": "jdg.6.39",
-          "cunp": "基甸又對神說：「求你不要向我發怒，我再說這一次：讓我將羊毛再試一次。但願羊毛是乾的，別的地方都有露水。」",
+          "nasb": "Then Gideon said to God, “Do not let Your anger burn against me that I may speak once more; please let me make a test once more with the fleece, let it now be dry only on the fleece, and let there be dew on all the ground.”",
           "words": [
             {
-              "id": "hebrew-559",
-              "eng": "And said"
-            },
-            {
               "id": "hebrew-1439",
-              "eng": "Gideon"
+              "cht": "基甸"
             },
             {
               "id": "hebrew-413",
-              "eng": "to"
+              "cht": "又對"
             },
             {
               "id": "hebrew-430",
-              "eng": "God",
-              "punct": "､"
+              "cht": "神"
+            },
+            {
+              "id": "hebrew-559",
+              "cht": "說",
+              "punct_cht": "：「"
             },
             {
               "id": "hebrew-408",
-              "eng": "not"
+              "cht": "求你不要"
             },
             {
               "id": "hebrew-2734",
-              "eng": "do be angry"
+              "cht": "發"
             },
             {
               "id": "hebrew-639",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1696",
-              "eng": "but let me speak"
+              "cht": "怒",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-389",
-              "eng": "-"
+              "cht": "我再"
+            },
+            {
+              "id": "hebrew-1696",
+              "cht": "說"
             },
             {
               "id": "hebrew-6471",
-              "eng": "just once more",
-              "punct": "–"
+              "cht": "這一次",
+              "punct_cht": "："
+            },
+            {
+              "id": "hebrew-1492",
+              "cht": "讓我將羊毛"
             },
             {
               "id": "hebrew-5254",
-              "eng": "let me test",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "I pray",
-              "punct": "､"
+              "cht": "再試"
             },
             {
               "id": "hebrew-7535",
-              "eng": "but"
+              "cht": "一"
             },
             {
               "id": "hebrew-6471",
-              "eng": "just once more"
-            },
-            {
-              "id": "hebrew-1492",
-              "eng": "with the fleece",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "let it be"
-            },
-            {
-              "id": "hebrew-4994",
-              "eng": "now"
-            },
-            {
-              "id": "hebrew-2721",
-              "eng": "dry"
+              "cht": "次",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-413",
-              "eng": "on"
+              "cht": "但願"
             },
             {
               "id": "hebrew-1492",
-              "eng": "the fleece",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-905",
-              "eng": "only"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "but on"
-            },
-            {
-              "id": "hebrew-3605",
-              "eng": "all"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "the ground"
+              "cht": "羊毛"
             },
             {
               "id": "hebrew-1961",
-              "eng": "let there be"
+              "cht": "是"
+            },
+            {
+              "id": "hebrew-2721",
+              "cht": "乾的",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "別的地方"
+            },
+            {
+              "id": "hebrew-3605",
+              "cht": "都"
+            },
+            {
+              "id": "hebrew-1961",
+              "cht": "有"
             },
             {
               "id": "hebrew-2919",
-              "eng": "dew",
-              "punct": "."
+              "cht": "露水",
+              "punct_cht": "。」"
             }
           ]
         },
@@ -902,104 +800,99 @@
             "hebrew-1320": 1.042799396354061
           },
           "verseKey": "num.11.18",
-          "cunp": "又要對百姓說：『你們應當自潔，預備明天吃肉，因為你們哭號說：誰給我們肉吃！我們在埃及很好。這聲音達到了耶和華的耳中，所以他必給你們肉吃。",
+          "nasb": "Say to the people, ‘Consecrate yourselves for tomorrow, and you shall eat meat; for you have wept in the ears of the Lord, saying, “Oh that someone would give us meat to eat! For we were well-off in Egypt.” Therefore the Lord will give you meat and you shall eat.",
           "words": [
             {
               "id": "hebrew-413",
-              "eng": "And to"
+              "cht": "又要對"
             },
             {
               "id": "hebrew-5971",
-              "eng": "the people"
+              "cht": "百姓"
             },
             {
               "id": "hebrew-559",
-              "eng": "you shall say",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "：『"
             },
             {
               "id": "hebrew-6942",
-              "eng": "Consecrate yourselves"
+              "cht": "你們應當自潔",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4279",
-              "eng": "for tomorrow",
-              "punct": "､"
+              "cht": "預備明天"
             },
             {
               "id": "hebrew-398",
-              "eng": "and you shall eat"
+              "cht": "吃"
             },
             {
               "id": "hebrew-1320",
-              "eng": "meat",
-              "punct": "–"
+              "cht": "肉",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-1058",
-              "eng": "you have wept"
-            },
-            {
-              "id": "hebrew-241",
-              "eng": "in the hearing"
-            },
-            {
-              "id": "hebrew-3068",
-              "eng": "of Yahweh",
-              "punct": "､"
+              "cht": "你們哭號"
             },
             {
               "id": "hebrew-559",
-              "eng": "saying",
-              "punct": "､"
+              "cht": "說",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-4310",
-              "eng": "who"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "will give us to eat"
+              "cht": "誰"
             },
             {
               "id": "hebrew-1320",
-              "eng": "meat",
-              "punct": "､"
+              "cht": "給我們肉"
             },
             {
-              "id": "hebrew-3588",
-              "eng": "for"
-            },
-            {
-              "id": "hebrew-2895",
-              "eng": "[it was] well"
+              "id": "hebrew-398",
+              "cht": "吃",
+              "punct_cht": "！"
             },
             {
               "id": "hebrew-4714",
-              "eng": "in Egypt",
-              "punct": "."
+              "cht": "在埃及"
             },
             {
-              "id": "hebrew-5414",
-              "eng": "Therefore will give"
+              "id": "hebrew-2895",
+              "cht": "很好",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh"
+              "cht": "這聲音達到了耶和華"
+            },
+            {
+              "id": "hebrew-241",
+              "cht": "的耳中",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-3068",
+              "cht": "所以他"
+            },
+            {
+              "id": "hebrew-5414",
+              "cht": "必給"
             },
             {
               "id": "hebrew-1320",
-              "eng": "meat",
-              "punct": "､"
+              "cht": "肉"
             },
             {
               "id": "hebrew-398",
-              "eng": "and you shall eat",
-              "punct": "."
+              "cht": "吃",
+              "punct_cht": "。"
             }
           ]
         },
@@ -1010,86 +903,74 @@
             "hebrew-376": 0.41706835347851695
           },
           "verseKey": "jer.19.9",
-          "cunp": "我必使他們在圍困窘迫之中，就是仇敵和尋索其命的人窘迫他們的時候，各人吃自己兒女的肉和朋友的肉。』",
+          "nasb": "I will make them eat the flesh of their sons and the flesh of their daughters, and they will eat one another’s flesh in the siege and in the distress with which their enemies and those who seek their life will distress them.” ’",
           "words": [
             {
-              "id": "hebrew-398",
-              "eng": "And I will cause them to eat"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-1320",
-              "eng": "the flesh"
-            },
-            {
-              "id": "hebrew-1121",
-              "eng": "of their sons"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "and"
-            },
-            {
-              "id": "hebrew-1320",
-              "eng": "the flesh"
-            },
-            {
-              "id": "hebrew-1323",
-              "eng": "of their daughters",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "and everyone"
-            },
-            {
-              "id": "hebrew-1320",
-              "eng": "the flesh"
-            },
-            {
-              "id": "hebrew-7453",
-              "eng": "of his friend"
-            },
-            {
-              "id": "hebrew-398",
-              "eng": "shall eat"
-            },
-            {
               "id": "hebrew-4692",
-              "eng": "in the siege"
+              "cht": "我必使他們在圍困"
             },
             {
               "id": "hebrew-4689",
-              "eng": "and in the desperation",
-              "punct": "､"
+              "cht": "窘迫之中",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-834",
-              "eng": "with which"
-            },
-            {
-              "id": "hebrew-6693",
-              "eng": "shall drive to despair"
+              "cht": "就是"
             },
             {
               "id": "hebrew-341",
-              "eng": "their enemies",
-              "punct": "､"
+              "cht": "仇敵"
             },
             {
               "id": "hebrew-1245",
-              "eng": "and those who seek"
+              "cht": "和尋索"
             },
             {
               "id": "hebrew-5315",
-              "eng": "their lives",
-              "punct": "､"
+              "cht": "其命"
             },
             {
-              "id": ""
+              "id": "hebrew-6693",
+              "cht": "的人窘迫"
+            },
+            {
+              "id": "",
+              "cht": "的時候",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-376",
+              "cht": "各人"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "吃"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "自己兒"
+            },
+            {
+              "id": "hebrew-1323",
+              "cht": "女"
+            },
+            {
+              "id": "hebrew-1320",
+              "cht": "的肉"
+            },
+            {
+              "id": "hebrew-398",
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-7453",
+              "cht": "朋友"
+            },
+            {
+              "id": "hebrew-1320",
+              "cht": "的肉",
+              "punct_cht": "。』"
             }
           ]
         }

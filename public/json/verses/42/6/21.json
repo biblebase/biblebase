@@ -3,14 +3,25 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "greek-3107": "Blessed [are]",
-          "greek-3588": "those",
-          "greek-3983": "hungering",
-          "greek-3568": "now",
-          "greek-3754": "for",
-          "greek-5526": "you will be filled",
-          "greek-2799": "weeping",
-          "greek-1070": "you will laugh"
+          "eng": {
+            "greek-3107": "Blessed [are]",
+            "greek-3588": "those",
+            "greek-3983": "hungering",
+            "greek-3568": "now",
+            "greek-3754": "for",
+            "greek-5526": "you will be filled",
+            "greek-2799": "weeping",
+            "greek-1070": "you will laugh"
+          },
+          "cht": {
+            "greek-3107": "的人有福了",
+            "greek-3983": "飢餓",
+            "greek-3568": "你們",
+            "greek-3754": "因為",
+            "greek-5526": "你們將要飽足",
+            "greek-2799": "哀哭",
+            "greek-1070": "你們將要喜笑"
+          }
         }
       },
       "translations": {
@@ -28,74 +39,55 @@
             "greek-1070": 10.248599871619378
           },
           "verseKey": "luk.6.25",
-          "cunp": "你們飽足的人有禍了！ 因為你們將要飢餓。 你們喜笑的人有禍了！ 因為你們將要哀慟哭泣。",
+          "nasb": "Woe to you who are well-fed now, for you shall be hungry. Woe to you who laugh now, for you shall mourn and weep.",
           "words": [
             {
-              "id": "greek-3759",
-              "eng": "Woe"
-            },
-            {
               "id": "greek-5213",
-              "eng": "to you"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "who"
+              "cht": "你們"
             },
             {
               "id": "greek-1705",
-              "eng": "having been filled"
-            },
-            {
-              "id": "greek-3568",
-              "eng": "now",
-              "punct": ","
-            },
-            {
-              "id": "greek-3754",
-              "eng": "for"
-            },
-            {
-              "id": "greek-3983",
-              "eng": "you will hunger",
-              "punct": "."
+              "cht": "飽足"
             },
             {
               "id": "greek-3759",
-              "eng": "Woe to"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
-              "id": "greek-1070",
-              "eng": "laughing"
-            },
-            {
-              "id": "greek-3568",
-              "eng": "now",
-              "punct": ","
+              "cht": "的人有禍了",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3754",
-              "eng": "for"
+              "cht": "因為"
+            },
+            {
+              "id": "greek-3983",
+              "cht": "你們將要飢餓",
+              "punct_cht": "。"
+            },
+            {
+              "id": "greek-5213",
+              "cht": "你們"
+            },
+            {
+              "id": "greek-1070",
+              "cht": "喜笑"
+            },
+            {
+              "id": "greek-3759",
+              "cht": "的人有禍了",
+              "punct_cht": "！"
+            },
+            {
+              "id": "greek-3754",
+              "cht": "因為"
             },
             {
               "id": "greek-3996",
-              "eng": "you will mourn"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "你們將要哀慟"
             },
             {
               "id": "greek-2799",
-              "eng": "will weep",
-              "punct": "."
-            },
-            {
-              "id": "greek-5213"
+              "cht": "哭泣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -107,49 +99,37 @@
             "greek-5526": 1.7392070394734038
           },
           "verseKey": "mat.5.6",
-          "cunp": "飢渴慕義的人有福了！ 因為他們必得飽足。",
+          "nasb": "“Blessed are those who hunger and thirst for righteousness, for they shall be satisfied.",
           "words": [
             {
-              "id": "greek-3107",
-              "eng": "Blessed [are]"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "those"
-            },
-            {
               "id": "greek-3983",
-              "eng": "hungering"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "and"
+              "cht": "飢"
             },
             {
               "id": "greek-1372",
-              "eng": "thirsting for"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "-"
+              "cht": "渴慕"
             },
             {
               "id": "greek-1343",
-              "eng": "righteousness",
-              "punct": ";"
+              "cht": "義"
+            },
+            {
+              "id": "greek-3107",
+              "cht": "的人有福了",
+              "punct_cht": "！"
             },
             {
               "id": "greek-3754",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "greek-846",
-              "eng": "they"
+              "cht": "他們"
             },
             {
               "id": "greek-5526",
-              "eng": "will be filled",
-              "punct": "."
+              "cht": "必得飽足",
+              "punct_cht": "。"
             }
           ]
         },
@@ -160,92 +140,79 @@
             "greek-5526": 1.7392070394734038
           },
           "verseKey": "php.4.12",
-          "cunp": "我知道怎樣處卑賤，也知道怎樣處豐富；或飽足，或飢餓；或有餘，或缺乏，隨事隨在，我都得了秘訣。",
+          "nasb": "I know how to get along with humble means, and I also know how to live in prosperity; in any and every circumstance I have learned the secret of being filled and going hungry, both of having abundance and suffering need.",
           "words": [
             {
               "id": "greek-1492",
-              "eng": "I know"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "我知道"
             },
             {
               "id": "greek-5013",
-              "eng": "[how] to be brought low",
-              "punct": ","
+              "cht": "怎樣處卑賤",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "也"
             },
             {
               "id": "greek-1492",
-              "eng": "I know"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "知道"
             },
             {
               "id": "greek-4052",
-              "eng": "[how] to abound",
-              "punct": "."
-            },
-            {
-              "id": "greek-1722",
-              "eng": "In"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "everything"
+              "cht": "怎樣處豐富",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
-            },
-            {
-              "id": "greek-1722",
-              "eng": "in"
-            },
-            {
-              "id": "greek-3956",
-              "eng": "all things",
-              "punct": ","
-            },
-            {
-              "id": "greek-3453",
-              "eng": "I have learned the secret"
-            },
-            {
-              "id": "greek-2532",
-              "eng": "also"
+              "cht": "或"
             },
             {
               "id": "greek-5526",
-              "eng": "to be full"
+              "cht": "飽足",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "或"
             },
             {
               "id": "greek-3983",
-              "eng": "to hunger",
-              "punct": ","
+              "cht": "飢餓",
+              "punct_cht": "；"
             },
             {
               "id": "greek-2532",
-              "eng": "also"
+              "cht": "或"
             },
             {
               "id": "greek-4052",
-              "eng": "to abound"
+              "cht": "有餘",
+              "punct_cht": "，"
             },
             {
               "id": "greek-2532",
-              "eng": "and"
+              "cht": "或"
             },
             {
               "id": "greek-5302",
-              "eng": "to be deficient",
-              "punct": "."
+              "cht": "缺乏",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-2532",
+              "cht": "隨事"
+            },
+            {
+              "id": "greek-3956",
+              "cht": "隨在",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-3453",
+              "cht": "我都得了祕訣",
+              "punct_cht": "。"
             }
           ]
         },
@@ -255,75 +222,72 @@
             "greek-2799": 1.455515691517328
           },
           "verseKey": "jer.22.10",
-          "cunp": "不要為死人哭號； 不要為他悲傷， 卻要為離家出外的人大大哭號； 因為他不得再回來， 也不得再見他的本國。",
+          "nasb": "Do not weep for the dead or mourn for him, But weep continually for the one who goes away; For he will never return Or see his native land.",
           "words": [
             {
               "id": "hebrew-408",
-              "eng": "Not"
-            },
-            {
-              "id": "hebrew-1058",
-              "eng": "Weep"
+              "cht": "不要"
             },
             {
               "id": "hebrew-4191",
-              "eng": "for the dead",
-              "punct": "､"
+              "cht": "為死人"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "哭號",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-408",
-              "eng": "nor"
+              "cht": "不要"
             },
             {
               "id": "hebrew-5110",
-              "eng": "bemoan"
-            },
-            {
-              "id": "hebrew-1058",
-              "eng": "Weep"
-            },
-            {
-              "id": "hebrew-1058",
-              "eng": "bitterly"
+              "cht": "悲傷",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1980",
-              "eng": "for him who goes away",
-              "punct": "–"
+              "cht": "卻要為離家出外"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "的人大大"
+            },
+            {
+              "id": "hebrew-1058",
+              "cht": "哭號",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3588",
-              "eng": "for"
+              "cht": "因為"
             },
             {
               "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-7725",
-              "eng": "he shall return"
+              "cht": "他不得"
             },
             {
               "id": "hebrew-5750",
-              "eng": "more",
-              "punct": "､"
+              "cht": "再"
+            },
+            {
+              "id": "hebrew-7725",
+              "cht": "回來",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7200",
-              "eng": "nor see"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-776",
-              "eng": "country"
+              "cht": "也不得再見"
             },
             {
               "id": "hebrew-4138",
-              "eng": "his native",
-              "punct": "."
+              "cht": "他的本"
+            },
+            {
+              "id": "hebrew-776",
+              "cht": "國",
+              "punct_cht": "。"
             }
           ]
         },
@@ -334,33 +298,25 @@
             "greek-5526": 1.7392070394734038
           },
           "verseKey": "psa.132.15",
-          "cunp": "我要使其中的糧食豐滿， 使其中的窮人飽足。",
+          "nasb": "I will abundantly bless her provision; I will satisfy her needy with bread.",
           "words": [
             {
               "id": "hebrew-6718",
-              "eng": "Her provision",
-              "punct": "–"
+              "cht": "我要使其中的糧食"
             },
             {
               "id": "hebrew-1288",
-              "eng": "abundantly"
-            },
-            {
-              "id": "hebrew-1288",
-              "eng": "I will bless"
+              "cht": "豐滿",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-34",
-              "eng": "her poor"
+              "cht": "使其中的窮人"
             },
             {
               "id": "hebrew-7646",
-              "eng": "I will satisfy"
-            },
-            {
-              "id": "hebrew-3899",
-              "eng": "with bread",
-              "punct": "."
+              "cht": "飽足",
+              "punct_cht": "。"
             }
           ]
         },
@@ -370,44 +326,43 @@
             "greek-5526": 1.7392070394734038
           },
           "verseKey": "pro.18.20",
-          "cunp": "人口中所結的果子，必充滿肚腹； 他嘴所出的，必使他飽足。",
+          "nasb": "With the fruit of a man’s mouth his stomach will be satisfied; He will be satisfied with the product of his lips.",
           "words": [
             {
-              "id": "hebrew-6529",
-              "eng": "From the fruit"
+              "id": "hebrew-376",
+              "cht": "人"
             },
             {
               "id": "hebrew-6310",
-              "eng": "of his mouth",
-              "punct": "–"
+              "cht": "口"
             },
             {
-              "id": "hebrew-376",
-              "eng": "of man"
+              "id": "hebrew-6529",
+              "cht": "中所結的果子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7646",
-              "eng": "shall be satisfied"
+              "cht": "必充滿"
             },
             {
               "id": "hebrew-990",
-              "eng": "a stomach"
-            },
-            {
-              "id": "hebrew-8393",
-              "eng": "[From] the produce"
+              "cht": "肚腹",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-8193",
-              "eng": "of his lips"
+              "cht": "他嘴"
+            },
+            {
+              "id": "hebrew-8393",
+              "cht": "所出的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7646",
-              "eng": "he shall be filled",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-4480"
+              "cht": "必使他飽足",
+              "punct_cht": "。"
             }
           ]
         },
@@ -417,44 +372,35 @@
             "greek-5526": 1.7392070394734038
           },
           "verseKey": "hos.13.6",
-          "cunp": "這些民照我所賜的食物得了飽足； 既得飽足，心就高傲， 忘記了我。",
+          "nasb": "As they had their pasture, they became satisfied, And being satisfied, their heart became proud; Therefore they forgot Me.",
           "words": [
             {
               "id": "hebrew-4830",
-              "eng": "When they had pasture",
-              "punct": "､"
+              "cht": "這些民照我所賜的食物"
             },
             {
               "id": "hebrew-7646",
-              "eng": "and they were filled",
-              "punct": "–"
+              "cht": "得了飽足",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7646",
-              "eng": "they were filled",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-7311",
-              "eng": "and was exalted",
-              "punct": "–"
+              "cht": "既得飽足",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3820",
-              "eng": "their heart"
+              "cht": "心"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "upon"
-            },
-            {
-              "id": "hebrew-3651",
-              "eng": "thus"
+              "id": "hebrew-7311",
+              "cht": "就高傲",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7911",
-              "eng": "they forgot Me",
-              "punct": "."
+              "cht": "忘記了我",
+              "punct_cht": "。"
             }
           ]
         },
@@ -464,47 +410,47 @@
             "greek-5526": 1.7392070394734038
           },
           "verseKey": "pro.28.19",
-          "cunp": "耕種自己田地的，必得飽食； 追隨虛浮的，足受窮乏。",
+          "nasb": "He who tills his land will have plenty of food, But he who follows empty pursuits will have poverty in plenty.",
           "words": [
             {
               "id": "hebrew-5647",
-              "eng": "He who tills"
+              "cht": "耕種"
             },
             {
               "id": "hebrew-127",
-              "eng": "his land"
+              "cht": "自己田地"
+            },
+            {
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7646",
-              "eng": "will have plenty"
+              "cht": "必得飽"
             },
             {
               "id": "hebrew-3899",
-              "eng": "of bread",
-              "punct": "､"
+              "cht": "食",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7291",
-              "eng": "but he who follows"
+              "cht": "追隨"
             },
             {
               "id": "hebrew-7386",
-              "eng": "frivolity"
+              "cht": "虛浮"
             },
             {
-              "id": "hebrew-7646",
-              "eng": "will have enough"
+              "id": "",
+              "cht": "的",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7389",
-              "eng": "poverty",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "足受窮乏",
+              "punct_cht": "。"
             }
           ]
         },
@@ -514,44 +460,37 @@
             "greek-5526": 1.7392070394734038
           },
           "verseKey": "pro.27.20",
-          "cunp": "陰間和滅亡永不滿足； 人的眼目也是如此。",
+          "nasb": "Sheol and Abaddon are never satisfied, Nor are the eyes of man ever satisfied.",
           "words": [
             {
               "id": "hebrew-7585",
-              "eng": "Hell"
+              "cht": "陰間"
             },
             {
               "id": "hebrew-10",
-              "eng": "and Destruction"
+              "cht": "和滅亡"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never"
+              "cht": "永不"
             },
             {
               "id": "hebrew-7646",
-              "eng": "are full",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-5869",
-              "eng": "so the eyes"
+              "cht": "滿足",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-120",
-              "eng": "of man"
+              "cht": "人"
+            },
+            {
+              "id": "hebrew-5869",
+              "cht": "的眼目"
             },
             {
               "id": "hebrew-3808",
-              "eng": "never"
-            },
-            {
-              "id": "hebrew-7646",
-              "eng": "are satisfied",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-11"
+              "cht": "也是如此",
+              "punct_cht": "。"
             }
           ]
         },
@@ -561,111 +500,97 @@
             "greek-3983": 3.4146839202627715
           },
           "verseKey": "rom.12.20",
-          "cunp": "所以，「你的仇敵若餓了，就給他吃，若渴了，就給他喝；因為你這樣行就是把炭火堆在他的頭上。」",
+          "nasb": "“But if your enemy is hungry, feed him, and if he is thirsty, give him a drink; for in so doing you will heap burning coals on his head.”",
           "words": [
             {
-              "id": "greek-235",
-              "eng": "On the contrary",
-              "punct": ","
-            },
-            {
-              "id": "greek-1437",
-              "eng": "If"
-            },
-            {
-              "id": "greek-3983",
-              "eng": "should hunger"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2190",
-              "eng": "enemy"
+              "id": "greek-3767",
+              "cht": "所以",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4675",
-              "eng": "of you",
-              "punct": ","
+              "cht": "你的"
             },
             {
-              "id": "greek-5595",
-              "eng": "feed"
-            },
-            {
-              "id": "greek-846",
-              "eng": "him",
-              "punct": ";"
+              "id": "greek-2190",
+              "cht": "仇敵"
             },
             {
               "id": "greek-1437",
-              "eng": "if"
+              "cht": "若"
+            },
+            {
+              "id": "greek-3983",
+              "cht": "餓了",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-846",
+              "cht": "就給他"
+            },
+            {
+              "id": "greek-5595",
+              "cht": "吃",
+              "punct_cht": "，"
+            },
+            {
+              "id": "greek-1437",
+              "cht": "若"
             },
             {
               "id": "greek-1372",
-              "eng": "he should thirst",
-              "punct": ","
+              "cht": "渴了",
+              "punct_cht": "，"
             },
             {
               "id": "greek-4222",
-              "eng": "give drink"
+              "cht": "就給"
             },
             {
               "id": "greek-846",
-              "eng": "him",
-              "punct": ";"
+              "cht": "他"
             },
             {
-              "id": "greek-5124",
-              "eng": "this"
+              "id": "greek-4222",
+              "cht": "喝",
+              "punct_cht": "；"
             },
             {
               "id": "greek-1063",
-              "eng": "for"
+              "cht": "因為"
+            },
+            {
+              "id": "greek-5124",
+              "cht": "你這樣"
             },
             {
               "id": "greek-4160",
-              "eng": "doing",
-              "punct": ","
+              "cht": "行"
             },
             {
               "id": "greek-440",
-              "eng": "coals"
+              "cht": "就是把炭"
             },
             {
               "id": "greek-4442",
-              "eng": "of fire"
+              "cht": "火"
             },
             {
               "id": "greek-4987",
-              "eng": "you will heap"
-            },
-            {
-              "id": "greek-1909",
-              "eng": "upon"
-            },
-            {
-              "id": "greek-3588",
-              "eng": "the"
-            },
-            {
-              "id": "greek-2776",
-              "eng": "head"
+              "cht": "堆在"
             },
             {
               "id": "greek-846",
-              "eng": "of him",
-              "punct": "."
+              "cht": "他的"
             },
             {
-              "id": "greek-3767"
+              "id": "greek-2776",
+              "cht": "頭"
             },
             {
-              "id": "greek-4222"
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "上",
+              "punct_cht": "。"
             }
           ]
         }

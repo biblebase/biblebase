@@ -3,14 +3,26 @@
     "analytics": {
       "thisVerse": {
         "dict": {
-          "hebrew-5921": "above you",
-          "hebrew-3651": "therefore",
-          "hebrew-3607": "withholds",
-          "hebrew-8064": "the heavens",
-          "hebrew-2919": "the dew",
-          "hebrew-776": "and the earth",
-          "hebrew-2981": "its fruit",
-          "hebrew-4480": null
+          "eng": {
+            "hebrew-5921": "above you",
+            "hebrew-3651": "therefore",
+            "hebrew-3607": "withholds",
+            "hebrew-8064": "the heavens",
+            "hebrew-2919": "the dew",
+            "hebrew-776": "and the earth",
+            "hebrew-2981": "its fruit",
+            "hebrew-4480": null
+          },
+          "cht": {
+            "hebrew-5921": "為你們的緣故",
+            "hebrew-3651": "所以",
+            "hebrew-3607": "也不出",
+            "hebrew-8064": "天",
+            "hebrew-2919": "甘露",
+            "hebrew-776": "地",
+            "hebrew-2981": "土產",
+            "hebrew-4480": "甘露"
+          }
         }
       },
       "translations": {
@@ -24,33 +36,34 @@
             "hebrew-2981": 8.539323589735611
           },
           "verseKey": "job.20.28",
-          "cunp": "他的家產必然過去； 神發怒的日子，他的貨物都要消滅。",
+          "nasb": "The increase of his house will depart; His possessions will flow away in the day of His anger.",
           "words": [
             {
-              "id": "hebrew-1540",
-              "eng": "Will depart",
-              "punct": "､"
+              "id": "hebrew-1004",
+              "cht": "他的家"
             },
             {
               "id": "hebrew-2981",
-              "eng": "the increase"
+              "cht": "產"
             },
             {
-              "id": "hebrew-1004",
-              "eng": "of his house"
-            },
-            {
-              "id": "hebrew-5064",
-              "eng": "[And his goods] will flow away"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in the day"
+              "id": "hebrew-1540",
+              "cht": "必然過去",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-639",
-              "eng": "of His wrath",
-              "punct": "."
+              "cht": "神發怒"
+            },
+            {
+              "id": "hebrew-3117",
+              "cht": "的日子",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5064",
+              "cht": "他的貨物都要消滅",
+              "punct_cht": "。"
             }
           ]
         },
@@ -60,80 +73,76 @@
             "hebrew-2981": 8.539323589735611
           },
           "verseKey": "jdg.6.4",
-          "cunp": "對着他們安營，毀壞土產，直到迦薩，沒有給以色列人留下食物，牛、羊、驢也沒有留下；",
+          "nasb": "So they would camp against them and destroy the produce of the earth as far as Gaza, and leave no sustenance in Israel as well as no sheep, ox, or donkey.",
           "words": [
             {
-              "id": "hebrew-2583",
-              "eng": "And they would encamp"
+              "id": "hebrew-5921",
+              "cht": "對著他們"
             },
             {
-              "id": "hebrew-5921",
-              "eng": "against them"
+              "id": "hebrew-2583",
+              "cht": "安營",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7843",
-              "eng": "and destroy"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-2981",
-              "eng": "the produce"
+              "cht": "毀壞"
             },
             {
               "id": "hebrew-776",
-              "eng": "of the earth",
-              "punct": "､"
+              "cht": "土"
+            },
+            {
+              "id": "hebrew-2981",
+              "cht": "產",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-5704",
-              "eng": "as far as"
+              "cht": "直"
             },
             {
               "id": "hebrew-935",
-              "eng": "-"
+              "cht": "到"
             },
             {
               "id": "hebrew-5804",
-              "eng": "Gaza",
-              "punct": "､"
+              "cht": "迦薩",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3808",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-7604",
-              "eng": "leave"
-            },
-            {
-              "id": "hebrew-4241",
-              "eng": "sustenance"
+              "cht": "沒有"
             },
             {
               "id": "hebrew-3478",
-              "eng": "for Israel",
-              "punct": "､"
+              "cht": "給以色列人"
             },
             {
-              "id": "hebrew-7716",
-              "eng": "and neither sheep",
-              "punct": "､"
+              "id": "hebrew-7604",
+              "cht": "留下"
+            },
+            {
+              "id": "hebrew-4241",
+              "cht": "食物",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7794",
-              "eng": "nor ox",
-              "punct": "､"
+              "cht": "牛、"
+            },
+            {
+              "id": "hebrew-7716",
+              "cht": "羊、"
             },
             {
               "id": "hebrew-2543",
-              "eng": "nor donkey",
-              "punct": "."
+              "cht": "驢"
             },
             {
-              "id": ""
+              "id": "",
+              "cht": "也沒有留下",
+              "punct_cht": "；"
             }
           ]
         },
@@ -143,96 +152,93 @@
             "hebrew-2981": 8.539323589735611
           },
           "verseKey": "hab.3.17",
-          "cunp": "雖然無花果樹不發旺， 葡萄樹不結果， 橄欖樹也不效力， 田地不出糧食， 圈中絕了羊， 棚內也沒有牛；",
+          "nasb": "Though the fig tree should not blossom And there be no fruit on the vines, Though the yield of the olive should fail And the fields produce no food, Though the flock should be cut off from the fold And there be no cattle in the stalls,",
           "words": [
             {
               "id": "hebrew-3588",
-              "eng": "Though"
+              "cht": "雖然"
             },
             {
               "id": "hebrew-8384",
-              "eng": "the fig tree"
+              "cht": "無花果樹"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "不"
             },
             {
               "id": "hebrew-6524",
-              "eng": "may blossom",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-369",
-              "eng": "and no"
-            },
-            {
-              "id": "hebrew-2981",
-              "eng": "fruit be"
+              "cht": "發旺",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-1612",
-              "eng": "on the vines",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-3584",
-              "eng": "Though may fail",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-4639",
-              "eng": "the labor"
-            },
-            {
-              "id": "hebrew-2132",
-              "eng": "of the olive"
-            },
-            {
-              "id": "hebrew-7709",
-              "eng": "and the fields"
-            },
-            {
-              "id": "hebrew-3808",
-              "eng": "no"
-            },
-            {
-              "id": "hebrew-6213",
-              "eng": "yield"
-            },
-            {
-              "id": "hebrew-400",
-              "eng": "food",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-1504",
-              "eng": "Though may be cut off"
-            },
-            {
-              "id": "hebrew-4356",
-              "eng": "from the fold",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-6629",
-              "eng": "the flock"
+              "cht": "葡萄樹"
             },
             {
               "id": "hebrew-369",
-              "eng": "and there be no"
+              "cht": "不"
             },
             {
-              "id": "hebrew-1241",
-              "eng": "herd"
+              "id": "hebrew-2981",
+              "cht": "結果",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-2132",
+              "cht": "橄欖樹"
+            },
+            {
+              "id": "hebrew-3584",
+              "cht": "也不"
+            },
+            {
+              "id": "hebrew-4639",
+              "cht": "效力",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-7709",
+              "cht": "田地"
+            },
+            {
+              "id": "hebrew-3808",
+              "cht": "不"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "出"
+            },
+            {
+              "id": "hebrew-400",
+              "cht": "糧食",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-4480",
+              "cht": "圈中"
+            },
+            {
+              "id": "hebrew-1504",
+              "cht": "絕了"
+            },
+            {
+              "id": "hebrew-6629",
+              "cht": "羊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-7517",
-              "eng": "in the stalls",
-              "punct": "､"
+              "cht": "棚內"
             },
             {
-              "id": "hebrew-4480"
+              "id": "hebrew-369",
+              "cht": "也沒有"
+            },
+            {
+              "id": "hebrew-1241",
+              "cht": "牛",
+              "punct_cht": "；"
             }
           ]
         },
@@ -243,46 +249,41 @@
             "hebrew-8064": 0.7424012920136152
           },
           "verseKey": "gen.8.2",
-          "cunp": "淵源和天上的窗戶都閉塞了，天上的大雨也止住了。",
+          "nasb": "Also the fountains of the deep and the floodgates of the sky were closed, and the rain from the sky was restrained;",
           "words": [
             {
-              "id": "hebrew-5534",
-              "eng": "And were stopped"
+              "id": "hebrew-8415",
+              "cht": "淵"
             },
             {
               "id": "hebrew-4599",
-              "eng": "the fountains"
+              "cht": "源"
             },
             {
-              "id": "hebrew-8415",
-              "eng": "of the deep",
-              "punct": "､"
+              "id": "hebrew-8064",
+              "cht": "和天上的"
             },
             {
               "id": "hebrew-699",
-              "eng": "and the windows"
+              "cht": "窗戶"
             },
             {
-              "id": "hebrew-8064",
-              "eng": "of heaven",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3607",
-              "eng": "and was restrained"
-            },
-            {
-              "id": "hebrew-1653",
-              "eng": "the rain"
+              "id": "hebrew-5534",
+              "cht": "都閉塞了",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from"
+              "cht": "天上的"
             },
             {
-              "id": "hebrew-8064",
-              "eng": "heaven",
-              "punct": "."
+              "id": "hebrew-1653",
+              "cht": "大雨"
+            },
+            {
+              "id": "hebrew-3607",
+              "cht": "也止住了",
+              "punct_cht": "。"
             }
           ]
         },
@@ -293,66 +294,62 @@
             "hebrew-3607": 4.1389193993584925
           },
           "verseKey": "1sa.6.10",
-          "cunp": "非利士人就這樣行：將兩隻有乳的母牛套在車上，將牛犢關在家裏，",
+          "nasb": "Then the men did so, and took two milch cows and hitched them to the cart, and shut up their calves at home.",
           "words": [
             {
-              "id": "hebrew-6213",
-              "eng": "And did"
-            },
-            {
-              "id": "hebrew-376",
-              "eng": "the men"
+              "id": "hebrew-582",
+              "cht": "非利士人"
             },
             {
               "id": "hebrew-3651",
-              "eng": "so",
-              "punct": "–"
+              "cht": "就這"
+            },
+            {
+              "id": "hebrew-6213",
+              "cht": "樣行",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-3947",
-              "eng": "and they took"
+              "cht": "將"
             },
             {
               "id": "hebrew-8147",
-              "eng": "two"
-            },
-            {
-              "id": "hebrew-6510",
-              "eng": "cows",
-              "punct": "､"
+              "cht": "兩隻"
             },
             {
               "id": "hebrew-5763",
-              "eng": "milk"
+              "cht": "有乳的"
+            },
+            {
+              "id": "hebrew-6510",
+              "cht": "母牛"
             },
             {
               "id": "hebrew-631",
-              "eng": "and hitched them"
+              "cht": "套"
             },
             {
               "id": "hebrew-5699",
-              "eng": "to the cart",
-              "punct": "､"
+              "cht": "在車上",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-853",
-              "eng": "and"
+              "cht": "將"
             },
             {
               "id": "hebrew-1121",
-              "eng": "their calves"
+              "cht": "牛犢"
             },
             {
               "id": "hebrew-3607",
-              "eng": "shut up"
+              "cht": "關"
             },
             {
               "id": "hebrew-1004",
-              "eng": "at home",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-582"
+              "cht": "在家裡",
+              "punct_cht": "，"
             }
           ]
         },
@@ -362,78 +359,66 @@
             "hebrew-3607": 4.1389193993584925
           },
           "verseKey": "jer.32.2",
-          "cunp": "那時巴比倫王的軍隊圍困耶路撒冷，先知耶利米囚在護衛兵的院內，在猶大王的宮中；",
+          "nasb": "Now at that time the army of the king of Babylon was besieging Jerusalem, and Jeremiah the prophet was shut up in the court of the guard, which was in the house of the king of Judah,",
           "words": [
             {
               "id": "hebrew-227",
-              "eng": "For then"
-            },
-            {
-              "id": "hebrew-2428",
-              "eng": "army"
-            },
-            {
-              "id": "hebrew-4428",
-              "eng": "the king"
+              "cht": "那時"
             },
             {
               "id": "hebrew-894",
-              "eng": "of Babylon"
-            },
-            {
-              "id": "hebrew-6696",
-              "eng": "besieged"
-            },
-            {
-              "id": "hebrew-5921",
-              "eng": "on"
-            },
-            {
-              "id": "hebrew-3389",
-              "eng": "Jerusalem",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-3414",
-              "eng": "and Jeremiah"
-            },
-            {
-              "id": "hebrew-5030",
-              "eng": "the prophet"
-            },
-            {
-              "id": "hebrew-1961",
-              "eng": "was"
-            },
-            {
-              "id": "hebrew-3607",
-              "eng": "shut up"
-            },
-            {
-              "id": "hebrew-2691",
-              "eng": "in the court"
-            },
-            {
-              "id": "hebrew-4307",
-              "eng": "of the prison",
-              "punct": "､"
-            },
-            {
-              "id": "hebrew-834",
-              "eng": "that [was]"
-            },
-            {
-              "id": "hebrew-1004",
-              "eng": "[in] the house"
+              "cht": "巴比倫"
             },
             {
               "id": "hebrew-4428",
-              "eng": "king"
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-2428",
+              "cht": "的軍隊"
+            },
+            {
+              "id": "hebrew-6696",
+              "cht": "圍困"
+            },
+            {
+              "id": "hebrew-3389",
+              "cht": "耶路撒冷",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-5030",
+              "cht": "先知"
+            },
+            {
+              "id": "hebrew-3414",
+              "cht": "耶利米"
+            },
+            {
+              "id": "hebrew-3607",
+              "cht": "囚在"
+            },
+            {
+              "id": "hebrew-4307",
+              "cht": "護衛兵"
+            },
+            {
+              "id": "hebrew-2691",
+              "cht": "的院內",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3063",
-              "eng": "of Judah",
-              "punct": "."
+              "cht": "在猶大"
+            },
+            {
+              "id": "hebrew-4428",
+              "cht": "王"
+            },
+            {
+              "id": "hebrew-1004",
+              "cht": "的宮中",
+              "punct_cht": "；"
             }
           ]
         },
@@ -443,62 +428,59 @@
             "hebrew-3607": 4.1389193993584925
           },
           "verseKey": "psa.40.9",
-          "cunp": "我在大會中宣傳公義的佳音； 我必不止住我的嘴唇。 耶和華啊，這是你所知道的。",
+          "nasb": "I have proclaimed glad tidings of righteousness in the great congregation; Behold, I will not restrain my lips, O Lord, You know.",
           "words": [
             {
-              "id": "hebrew-1319",
-              "eng": "I have proclaimed the good news"
-            },
-            {
-              "id": "hebrew-6664",
-              "eng": "of righteousness"
+              "id": "hebrew-7227",
+              "cht": "我在大"
             },
             {
               "id": "hebrew-6951",
-              "eng": "in the assembly",
-              "punct": "–"
+              "cht": "會中"
             },
             {
-              "id": "hebrew-7227",
-              "eng": "great"
+              "id": "hebrew-1319",
+              "cht": "宣傳"
             },
             {
-              "id": "hebrew-2009",
-              "eng": "indeed",
-              "punct": "､"
+              "id": "hebrew-6664",
+              "cht": "公義"
             },
             {
-              "id": "hebrew-8193",
-              "eng": "my lips",
-              "punct": "､"
+              "id": "",
+              "cht": "的佳音",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-3808",
-              "eng": "not"
+              "cht": "我必不"
             },
             {
               "id": "hebrew-3607",
-              "eng": "I do restrain"
+              "cht": "止住"
+            },
+            {
+              "id": "hebrew-8193",
+              "cht": "我的嘴唇",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3068",
-              "eng": "Yahweh",
-              "punct": "､"
+              "cht": "耶和華"
+            },
+            {
+              "id": "",
+              "cht": "啊",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-859",
-              "eng": "You"
+              "cht": "這是你"
             },
             {
               "id": "hebrew-3045",
-              "eng": "know",
-              "punct": "."
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "cht": "所知道的",
+              "punct_cht": "。"
             }
           ]
         },
@@ -508,87 +490,85 @@
             "hebrew-3607": 4.1389193993584925
           },
           "verseKey": "ecc.8.8",
-          "cunp": "無人有權力掌管生命，將生命留住；也無人有權力掌管死期；這場爭戰，無人能免；邪惡也不能救那好行邪惡的人。",
+          "nasb": "No man has authority to restrain the wind with the wind, or authority over the day of death; and there is no discharge in the time of war, and evil will not deliver those who practice it.",
           "words": [
             {
               "id": "hebrew-369",
-              "eng": "No"
+              "cht": "無"
             },
             {
               "id": "hebrew-120",
-              "eng": "one"
+              "cht": "人"
             },
             {
               "id": "hebrew-7989",
-              "eng": "has power"
+              "cht": "有權力掌管"
             },
             {
               "id": "hebrew-7307",
-              "eng": "over the spirit"
+              "cht": "生命",
+              "punct_cht": "，"
+            },
+            {
+              "id": "hebrew-853",
+              "cht": "將"
+            },
+            {
+              "id": "hebrew-7307",
+              "cht": "生命"
             },
             {
               "id": "hebrew-3607",
-              "eng": "to retain"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-7307",
-              "eng": "the spirit",
-              "punct": "–"
+              "cht": "留住",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-369",
-              "eng": "and no one"
+              "cht": "也無人"
             },
             {
               "id": "hebrew-7983",
-              "eng": "has power"
-            },
-            {
-              "id": "hebrew-3117",
-              "eng": "in the day"
+              "cht": "有權力掌管"
             },
             {
               "id": "hebrew-4194",
-              "eng": "of death",
-              "punct": "–"
+              "cht": "死"
             },
             {
-              "id": "hebrew-369",
-              "eng": "and [There is] no"
-            },
-            {
-              "id": "hebrew-4917",
-              "eng": "release"
+              "id": "hebrew-3117",
+              "cht": "期",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4421",
-              "eng": "from that war",
-              "punct": "–"
+              "cht": "這場爭戰",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-3808",
-              "eng": "and not"
+              "id": "hebrew-369",
+              "cht": "無人"
             },
             {
-              "id": "hebrew-4422",
-              "eng": "will deliver"
+              "id": "hebrew-4917",
+              "cht": "能免",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-7562",
-              "eng": "wickedness"
+              "cht": "邪惡"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
+              "id": "hebrew-3808",
+              "cht": "也不能"
+            },
+            {
+              "id": "hebrew-4422",
+              "cht": "救"
             },
             {
               "id": "hebrew-1167",
-              "eng": "those who are given to it",
-              "punct": "."
+              "cht": "那好行邪惡的人",
+              "punct_cht": "。"
             }
           ]
         },
@@ -598,115 +578,116 @@
             "hebrew-3607": 4.1389193993584925
           },
           "verseKey": "dan.9.24",
-          "cunp": "「為你本國之民和你聖城，已經定了七十個七。要止住罪過，除淨罪惡，贖盡罪孽，引進永義，封住異象和預言，並膏至聖者。",
+          "nasb": "“Seventy weeks have been decreed for your people and your holy city, to finish the transgression, to make an end of sin, to make atonement for iniquity, to bring in everlasting righteousness, to seal up vision and prophecy and to anoint the most holy place.",
           "words": [
             {
-              "id": "hebrew-7620",
-              "eng": "Weeks"
-            },
-            {
-              "id": "hebrew-7657",
-              "eng": "Seventy"
-            },
-            {
-              "id": "hebrew-2852",
-              "eng": "are determined"
-            },
-            {
               "id": "hebrew-5921",
-              "eng": "for"
+              "cht": "為"
             },
             {
               "id": "hebrew-5971",
-              "eng": "your people"
+              "cht": "你本國之民"
             },
             {
               "id": "hebrew-5921",
-              "eng": "for"
+              "cht": "和"
+            },
+            {
+              "id": "hebrew-6944",
+              "cht": "你聖"
             },
             {
               "id": "hebrew-5892",
-              "eng": "city",
-              "punct": "､"
+              "cht": "城",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-6944",
-              "eng": "your holy"
+              "id": "hebrew-2852",
+              "cht": "已經定了"
+            },
+            {
+              "id": "hebrew-7657",
+              "cht": "七十個"
+            },
+            {
+              "id": "hebrew-7620",
+              "cht": "七",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-3607",
-              "eng": "to finish"
+              "cht": "要止住"
             },
             {
               "id": "hebrew-6588",
-              "eng": "the transgression",
-              "punct": "､"
+              "cht": "罪過",
+              "punct_cht": "，"
             },
             {
-              "id": "hebrew-2856",
-              "eng": "to make an end of"
+              "id": "hebrew-8552",
+              "cht": "除淨"
             },
             {
               "id": "hebrew-2403",
-              "eng": "sins",
-              "punct": "､"
+              "cht": "罪惡",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-3722",
-              "eng": "and to make reconciliation for"
+              "cht": "贖盡"
             },
             {
               "id": "hebrew-5771",
-              "eng": "iniquity",
-              "punct": "､"
+              "cht": "罪孽",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-935",
-              "eng": "and to bring in"
+              "cht": "引進"
             },
             {
-              "id": "hebrew-6664",
-              "eng": "righteousness",
-              "punct": "､"
+              "id": "",
+              "cht": "（或譯彰顯）",
+              "punct_cht": "："
             },
             {
               "id": "hebrew-5769",
-              "eng": "everlasting"
+              "cht": "永"
+            },
+            {
+              "id": "hebrew-6664",
+              "cht": "義",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-2856",
-              "eng": "and to seal up"
+              "cht": "封住"
             },
             {
               "id": "hebrew-2377",
-              "eng": "vision"
+              "cht": "異象"
             },
             {
               "id": "hebrew-5030",
-              "eng": "and prophecy",
-              "punct": "､"
+              "cht": "和預言",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4886",
-              "eng": "and to anoint"
+              "cht": "並膏"
             },
             {
               "id": "hebrew-6944",
-              "eng": "the Holy"
+              "cht": "至"
             },
             {
               "id": "hebrew-6944",
-              "eng": "Most",
-              "punct": "."
+              "cht": "聖者"
             },
             {
-              "id": "hebrew-8552"
-            },
-            {
-              "id": ""
-            },
-            {
-              "id": ""
+              "id": "",
+              "cht": "（者或譯所）",
+              "punct_cht": "：。"
             }
           ]
         },
@@ -716,94 +697,83 @@
             "hebrew-3607": 4.1389193993584925
           },
           "verseKey": "gen.23.6",
-          "cunp": "「我主請聽。你在我們中間是一位尊大的王子，只管在我們最好的墳地裏埋葬你的死人；我們沒有一人不容你在他的墳地裏埋葬你的死人。」",
+          "nasb": "“Hear us, my lord, you are a mighty prince among us; bury your dead in the choicest of our graves; none of us will refuse you his grave for burying your dead.”",
           "words": [
             {
-              "id": "hebrew-8085",
-              "eng": "Hear us"
-            },
-            {
               "id": "hebrew-113",
-              "eng": "my lord",
-              "punct": "､"
+              "cht": "我主"
             },
             {
-              "id": "hebrew-5387",
-              "eng": "a prince"
-            },
-            {
-              "id": "hebrew-430",
-              "eng": "mighty"
+              "id": "hebrew-8085",
+              "cht": "請聽",
+              "punct_cht": "。"
             },
             {
               "id": "hebrew-859",
-              "eng": "You [are]",
-              "punct": "."
+              "cht": "你"
             },
             {
               "id": "hebrew-8432",
-              "eng": "Among us"
+              "cht": "在我們中間"
+            },
+            {
+              "id": "hebrew-430",
+              "cht": "是一位尊大"
+            },
+            {
+              "id": "hebrew-5387",
+              "cht": "的王子",
+              "punct_cht": "，"
             },
             {
               "id": "hebrew-4005",
-              "eng": "in the choicest"
+              "cht": "只管在我們最好的"
             },
             {
               "id": "hebrew-6913",
-              "eng": "of our burial places"
+              "cht": "墳地"
             },
             {
               "id": "hebrew-6912",
-              "eng": "bury"
-            },
-            {
-              "id": "hebrew-853",
-              "eng": "-"
+              "cht": "裡埋葬"
             },
             {
               "id": "hebrew-4191",
-              "eng": "your dead",
-              "punct": "–"
-            },
-            {
-              "id": "hebrew-582",
-              "eng": "-"
+              "cht": "你的死人",
+              "punct_cht": "；"
             },
             {
               "id": "hebrew-4480",
-              "eng": "of us"
+              "cht": "我們沒有"
             },
             {
-              "id": "hebrew-853",
-              "eng": "-"
-            },
-            {
-              "id": "hebrew-6913",
-              "eng": "his burial place"
+              "id": "hebrew-376",
+              "cht": "一人"
             },
             {
               "id": "hebrew-3808",
-              "eng": "none"
+              "cht": "不"
             },
             {
               "id": "hebrew-3607",
-              "eng": "will withhold"
+              "cht": "容"
             },
             {
               "id": "hebrew-4480",
-              "eng": "from you"
+              "cht": "你"
+            },
+            {
+              "id": "hebrew-6913",
+              "cht": "在他的墳地"
             },
             {
               "id": "hebrew-6912",
-              "eng": "that you may bury"
+              "cht": "裡埋葬"
             },
             {
               "id": "hebrew-4191",
-              "eng": "your dead",
-              "punct": "."
-            },
-            {
-              "id": "hebrew-376"
+              "cht": "你的死人",
+              "punct_cht": "。」"
             }
           ]
         }
