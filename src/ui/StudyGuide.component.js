@@ -91,6 +91,7 @@ class StudyGuide extends React.Component {
       crossRef.book = books[crVerseBook].index;
       crossRef.chapter = crVerseChapter;
       crossRef.verse = crVerseVerse;
+      crossRef.verseTextEn = cr.nasb;
       crossRef.verseTextCh = cr.words.map((word) => 
         Object.assign({}, word, 
           cr.anchors[word.id] ? {anchorWordId: word.id} : {},
@@ -558,6 +559,7 @@ class StudyGuide extends React.Component {
                             </Link>
                           </td>
                           <td className="cr-verse-col">
+                            <p>
                             {cr.verseTextCh.map((word, idx) => (
                               <span key={idx}>
                                 { word.anchorWordId
@@ -569,6 +571,8 @@ class StudyGuide extends React.Component {
                                 }
                               </span>
                             ))}
+                            </p>
+                            <p className="cr-verse-lang2">{ cr.verseTextEn }</p>
                           </td>
                           <td className="cross-ref-words-col">
                             {Object.keys(cr.wordMap).map((key) => (
