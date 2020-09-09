@@ -67,6 +67,12 @@ $VERSIONS = {
     lang: 'chs',
     bible_com_index: 36
   },
+  csbs: {
+    version_id: 'CSBS',
+    version_name: '中文标准译本',
+    lang: 'chs',
+    bible_com_index: 43
+  },
   niv: {
     version_id: 'NIV',
     version_name: 'New International Version',
@@ -84,6 +90,18 @@ $VERSIONS = {
     version_name: 'New American Standard Bible',
     lang: 'en',
     bible_com_index: 100
+  },
+  esv: {
+    version_id: 'ESV',
+    version_name: 'English Standard Version',
+    lang: 'en',
+    bible_com_index: 59
+  },
+  nkjv: {
+    version_id: 'NKJV',
+    version_name: 'New King James Version',
+    lang: 'en',
+    bible_com_index: 114
   }
 }
 

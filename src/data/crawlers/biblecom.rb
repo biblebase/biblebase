@@ -4,8 +4,10 @@ require_relative 'base'
 class BiblecomCrawler < Base
   BASE_URL = 'https://www.bible.com'
   VERSION_NUMS = {
-    NLT: 116, NIV: 111, NASB: 100,
-    CNV: 40, CUNP: 46, CCB: 36
+    # NLT: 116, NIV: 111, NASB: 100,
+    # CNV: 40, CUNP: 46, CCB: 36
+    ESV: 59, NKJV: 114,
+    CSBS: 43 # 中文标准译本
   }
   VERSION_METADATA = $VERSIONS.each_with_object({}) do |kv, h|
     version, info = kv
@@ -95,6 +97,6 @@ end
 
 if $0 == __FILE__
   c = BiblecomCrawler.new
-  # c.fetch_all
+  #c.fetch_all
   c.parse_all
 end

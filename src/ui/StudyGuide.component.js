@@ -19,7 +19,8 @@ class StudyGuide extends React.Component {
   VERSION_NAMES = {
     CCB: '当代译本',
     CNV: '新譯本',
-    CUNP: '和合本'
+    CUNP: '和合本',
+    CSBS: '中文标准译本'
   }
 
   state = {
