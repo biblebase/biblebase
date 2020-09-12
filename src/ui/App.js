@@ -30,7 +30,7 @@ class BibleApp extends React.Component {
     return (
       <div>
         <Switch>
-          <Route path="/biblebase/:book?/:chapter?/:verse?"
+          <Route path={process.env.PUBLIC_URL + '/:book?/:chapter?/:verse?'}
             render={(props) => (
               <div className="bible-app">
                 <div className="header">
