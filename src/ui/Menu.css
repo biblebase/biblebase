@@ -1,19 +1,22 @@
 #book-menu {
+  position: relative;
   width: 100%;
-  display: flex;
   background-color: #494949;;
 }
 
-#book-menu #branding {
+#book-menu header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
   color: #ffffff;
-  width: 30%;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   box-sizing: border-box;
 }
 
 #book-menu #book-selector {
   position: relative;
-  width: 40%;
   padding: 10px 10px;
   text-align: center;
   box-sizing: border-box;
@@ -191,4 +194,11 @@
 #book-menu .disable-link {
   /* pointer-events: none; */
   cursor: default;
+}
+
+@media screen and (max-width: 700px) {
+
+  #book-menu #book-selector {
+    justify-content: flex-end;
+  }
 }

@@ -169,9 +169,9 @@ class Menu extends React.Component {
 
     return (
       <div id="book-menu" onClickCapture={this.handleMenuPaneClick}>
-        <div id="branding">
+        <header>
           <h1>Biblebase</h1>
-        </div>
+        </header>
 
         <div id="book-selector">
           {this.renderPrevChLink(bookId, chapter)}
