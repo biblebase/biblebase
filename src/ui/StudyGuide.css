@@ -301,16 +301,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
 
-  #study-guide .menu-heading {
-    font-size: 0.9em;
-  }
-  
-  #study-guide .menu-items {
-    font-size: 0.9em;
-  }
-}
 
 @media screen and (max-width: 500px) {
 
@@ -320,5 +311,9 @@
   
   #study-guide .menu-items {
     font-size: 0.7em;
+  }
+
+  #study-guide #word-lookup {
+    width: 80%;
   }
 }

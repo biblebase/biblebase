@@ -322,7 +322,6 @@ class StudyGuide extends React.Component {
     if (verse === 0) return this.renderChapterData();
 
     const verseObject = Object.entries(contentData)[0][1];
-    console.log(this.props.bibleIndex[bookId].abbr);
     const bookTitle = this.getWidth() > 1000 ?
       this.props.bibleIndex[bookId].title
       :
