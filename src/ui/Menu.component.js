@@ -66,8 +66,10 @@ class Menu extends React.Component {
     event.stopPropagation();
 
     // call parent function to change selected
-    if (this.state.selectedbookId === 0) // if using default selection (only changing chapter)
-      this.props.history.push(`/biblebase/${this.props.match.params.book}/${parseInt(event.target.value)}`);
+    if (this.state.selectedbookId === 0) {// if using default selection (only changing chapter)
+      let book = this.props.match.params.book? this.props.match.params.book : 1
+      this.props.history.push(`/biblebase/${book}/${parseInt(event.target.value)}`);
+    }
     else
       this.props.history.push(`/biblebase/${this.state.selectedbookId}/${parseInt(event.target.value)}`);
 

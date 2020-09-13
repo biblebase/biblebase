@@ -50,7 +50,7 @@ class BibleApp extends React.Component {
               </div>
             )}
           />
-          <Route exact path="/" render={() => (<Redirect to={process.env.PUBLIC_URL} />)} />
+          <Route path="/" render={() => (<Redirect to={process.env.PUBLIC_URL + '/1/1'} />)} />
         </Switch>
       </div>
     );
