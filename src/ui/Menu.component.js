@@ -157,13 +157,13 @@ class Menu extends React.Component {
     let menu = [];
     if (this.state.selectedbookId !== 0) { // selected a book
       for (let i = 1; i <= this.props.bibleIndex[this.state.selectedbookId].chapters; i++) {
-        menu.push(<option className="chapter-list-item" value={i} key={i}>{i}</option>)
+        menu.push(<li className="chapter-list-item" value={i} key={i}>{i}</li>)
       }
     } else { // book has not been selected, is pointing to current book
       for (let i = 1; i <= this.props.bibleIndex[bookId].chapters; i++) {
-        menu.push(<option className={classNames("chapter-list-item", 
+        menu.push(<li className={classNames("chapter-list-item", 
             {"highlight-current": i === chapter})} // highlight original chapter 
-            value={i} key={i}>{i}</option>)
+            value={i} key={i}>{i}</li>)
       }
     }
 
