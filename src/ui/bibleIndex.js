@@ -27,7 +27,7 @@ const bibleIndex =
     25: { abbr: "lam", id: 25, name: "Lamentations", title: "耶利米哀歌", chapters: 5 },
     26: { abbr: "ezk", id: 26, name: "Ezekiel", title: "以西結書", chapters: 48 },
     27: { abbr: "dan", id: 27, name: "Daniel", title: "但以理書", chapters: 12 },
-    28: { abbr: "hos", id: 28, name: "Hosea", title: "何阿西書", chapters: 14 },
+    28: { abbr: "hos", id: 28, name: "Hosea", title: "何西阿書", chapters: 14 },
     29: { abbr: "jol", id: 29, name: "Joel", title: "約珥書", chapters: 3 },
     30: { abbr: "amo", id: 30, name: "Amos", title: "阿摩司書", chapters: 9 },
     31: { abbr: "oba", id: 31, name: "Obadiah", title: "俄巴底亞書", chapters: 1 },
