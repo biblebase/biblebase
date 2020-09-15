@@ -50,6 +50,20 @@
   margin-top: 5px; /* compensate for menu shadow */
 }
 
+#study-guide #study-content-no-menu {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin-top: 5px; /* compensate for menu shadow */
+}
+
 #study-guide .section {
   width: 100%;
   padding: 20px 0;
@@ -271,4 +285,35 @@
 #study-guide .disable-link {
   /* pointer-events: none; */
   cursor: default;
+}
+
+@media screen and (max-width: 1100px) {
+  #study-guide #sermons .section-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #study-guide .menu-heading {
+    font-size: 1em;
+  }
+  
+  #study-guide .menu-items {
+    font-size: 1em;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+  #study-guide .menu-heading {
+    font-size: 0.7em;
+  }
+  
+  #study-guide .menu-items {
+    font-size: 0.7em;
+  }
+
+  #study-guide #word-lookup {
+    width: 80%;
+  }
 }

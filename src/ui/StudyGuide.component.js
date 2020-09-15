@@ -126,6 +126,16 @@ class StudyGuide extends React.Component {
     return;
   };
 
+  getWidth = () => {
+    return Math.max(
+      document.body.scrollWidth,
+      document.documentElement.scrollWidth,
+      document.body.offsetWidth,
+      document.documentElement.offsetWidth,
+      document.documentElement.clientWidth
+    );
+  }
+
   /************************* handlers **********************************/
 
   handleMenuSelection = (event) => {
@@ -142,7 +152,12 @@ class StudyGuide extends React.Component {
       let section = document.getElementById(sectionId);
       const headerHeight = 70; // offsetHeight is height of header
       const menuHeight = document.getElementById("studyguide-menu").offsetHeight; // offsetHeight is height of menu content
-      document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight - headerHeight;
+      const readingHeight = document.getElementsByClassName("body-left")[0].offsetHeight;
+      if (this.getWidth() <= 1000) {
+        document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight - headerHeight - readingHeight;
+      } else {
+        document.getElementById("study-content").scrollTop = section.offsetTop - menuHeight - headerHeight;
+      }
     }
   };
 
@@ -258,7 +273,7 @@ class StudyGuide extends React.Component {
     const reference = Object.entries(this.state.contentData)[0][1];
     return (
       <div id="study-guide" onClickCapture={this.handleStudyPaneClick}>
-        <div id="study-content">
+        <div id="study-content-no-menu">
           <div id="sermons" className={classNames("section", {
               dim: reference.sermons === undefined || reference.sermons.length === 0})}>
             <div className="section-heading">證道與讀經班</div>
@@ -307,7 +322,11 @@ class StudyGuide extends React.Component {
     if (verse === 0) return this.renderChapterData();
 
     const verseObject = Object.entries(contentData)[0][1];
-    const bookTitle = this.props.bibleIndex[bookId].title;
+    const bookTitle = this.getWidth() > 1000 ?
+      this.props.bibleIndex[bookId].title
+      :
+      books[this.props.bibleIndex[bookId].abbr].short_name.cht;
+  
     const title = `${bookTitle} ${chapter} : ${verse}`;
 
     const words = this.state.wordSequenceInOriginal
