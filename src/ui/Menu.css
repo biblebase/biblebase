@@ -36,6 +36,7 @@
   width: 200px;
   height: 30px;
   box-sizing: border-box;
+  align-items: center;
 }
 
 #book-menu .search-button {
@@ -43,7 +44,16 @@
 }
 
 #book-menu #user {
-  width: 5%;
+  min-width: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#book-menu #user button {
+  cursor: pointer;
+  border: 0px;
+  color: #494949;
+  background-color: #494949;
 }
 
 #book-menu .prev {
@@ -195,6 +205,7 @@
   /* pointer-events: none; */
   cursor: default;
 }
+
 
 @media screen and (min-width:501) and (max-width: 700px) {
 

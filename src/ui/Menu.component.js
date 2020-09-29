@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Menu.css";
+import Profile from "./Profile.component";
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-
 
 class Menu extends React.Component {
 
@@ -15,6 +15,7 @@ class Menu extends React.Component {
   }
 
   state = {
+    requireLogin: false,
     bookId: 1,
     chapter: 1,
     selectedbookId: 0,
@@ -41,6 +42,13 @@ class Menu extends React.Component {
     this.setState({
       bookId: bookId,
       chapter: chapter
+    });
+  }
+
+  login = (event) => {
+    event.stopPropagation();
+    this.setState({
+      requireLogin: true
     });
   }
 
@@ -152,9 +160,7 @@ class Menu extends React.Component {
   }
 
   render() {
-
-    const bookId = this.state.bookId;
-    const chapter = this.state.chapter;
+    const { bookId, chapter } = this.state;
 
     let menu = [];
     if (this.state.selectedbookId !== 0) { // selected a book
@@ -170,12 +176,12 @@ class Menu extends React.Component {
     }
 
     return (
-      <div id="book-menu" onClickCapture={this.handleMenuPaneClick}>
+      <div id="book-menu">
         <header>
           <h1>Biblebase</h1>
         </header>
 
-        <div id="book-selector">
+        <div id="book-selector" onClickCapture={this.handleMenuPaneClick}>
           {this.renderPrevChLink(bookId, chapter)}
           <div className="book-nav">
             <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
@@ -204,7 +210,12 @@ class Menu extends React.Component {
 
         <div id="search"></div>
 
-        <div id="user"></div>
+        <div id="user">
+          { this.state.requireLogin
+            ? <Profile />
+            : <button onClick={ this.login }>Login</button>
+          }
+        </div>
 
       </div>
     );
