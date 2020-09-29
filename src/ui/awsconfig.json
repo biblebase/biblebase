@@ -1,0 +1,18 @@
+{
+  "Auth": {
+    "region": "us-east-1",
+    "userPoolId": "us-east-1_och7U3GZG",
+    "userPoolWebClientId": "2rbeiseu3icdqot0qqp9qsdjfa",
+    "mandatorySignIn": false,
+    "redirectSignIn": "http://localhost:3000/",
+    "redirectSignOut": "http://localhost:3000/"
+  },
+  "API": {
+    "endpoints": [
+      {
+        "name": "demo",
+        "endpoint": "http://localhost:3000/demo"
+      }
+    ]
+  }
+}
