@@ -4,6 +4,7 @@ import Profile from "./Profile.component";
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { withRouter } from 'react-router-dom';
 
 class Menu extends React.Component {
 
@@ -11,13 +12,13 @@ class Menu extends React.Component {
     bibleIndex: PropTypes.object.isRequired,
     menuOpen: PropTypes.bool.isRequired,
     openMenu: PropTypes.func.isRequired,
-    closeMenu: PropTypes.func.isRequired
+    closeMenu: PropTypes.func.isRequired,
+    book: PropTypes.number.isRequired,
+    chapter: PropTypes.number.isRequired
   }
 
   state = {
     requireLogin: false,
-    bookId: 1,
-    chapter: 1,
     selectedbookId: 0,
     selectedChapter: 0
   }
@@ -55,7 +56,6 @@ class Menu extends React.Component {
   handleDropdownButtonClick = (event) => {
     event.stopPropagation();
     if (this.props.menuOpen) {
-      console.log("close menu");
       this.props.closeMenu();
     } else {
       this.props.openMenu();
@@ -160,7 +160,7 @@ class Menu extends React.Component {
   }
 
   render() {
-    const { bookId, chapter } = this.state;
+    const { book, chapter } = this.props;
 
     let menu = [];
     if (this.state.selectedbookId !== 0) { // selected a book
@@ -168,7 +168,7 @@ class Menu extends React.Component {
         menu.push(<li className="chapter-list-item" value={i} key={i}>{i}</li>)
       }
     } else { // book has not been selected, is pointing to current book
-      for (let i = 1; i <= this.props.bibleIndex[bookId].chapters; i++) {
+      for (let i = 1; i <= this.props.bibleIndex[book].chapters; i++) {
         menu.push(<li className={classNames("chapter-list-item", 
             {"highlight-current": i === chapter})} // highlight original chapter 
             value={i} key={i}>{i}</li>)
@@ -180,23 +180,22 @@ class Menu extends React.Component {
         <header>
           <h1>Biblebase</h1>
         </header>
-
-        <div id="book-selector" onClickCapture={this.handleMenuPaneClick}>
-          {this.renderPrevChLink(bookId, chapter)}
+        <div id="book-selector">
+          {this.renderPrevChLink(book, chapter)}
           <div className="book-nav">
             <button className="book-dropdown-button" onClick={this.handleDropdownButtonClick}>
-              {this.props.bibleIndex[bookId].title} {chapter}  
+              {this.props.bibleIndex[book].title} {chapter}  
               <span className="triangle triangle-down"></span>
             </button>
           </div>
-          {this.renderNextChLink(bookId, chapter)}
+          {this.renderNextChLink(book, chapter)}
           <div className={classNames("book-dropdown", {hide: !this.props.menuOpen})}>
             <ul className="book-list" onClick={this.handleBookSelection}>
               {Object.keys(this.props.bibleIndex).map(bid => (
                   (<li className={classNames("book-list-item", 
                       {"highlight-current": this.state.selectedbookId !== 0? 
                         this.props.bibleIndex[bid].id === this.state.selectedbookId :
-                        this.props.bibleIndex[bid].id === bookId})} 
+                        this.props.bibleIndex[bid].id === book})} 
                   value={bid} key={bid}>{this.props.bibleIndex[bid].title}</li>)
               ))}
             </ul>
@@ -222,4 +221,4 @@ class Menu extends React.Component {
   }
 }
 
-export default Menu;
+export default withRouter(Menu);

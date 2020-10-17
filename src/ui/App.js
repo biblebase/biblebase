@@ -30,18 +30,34 @@ class BibleApp extends React.Component {
     return (
       <div>
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/:book?/:chapter?/:verse?'}
+          <Route exact path={process.env.PUBLIC_URL} render={() => (<Redirect to={process.env.PUBLIC_URL + '/1/1'} />)} />
+          <Route path={process.env.PUBLIC_URL + '/:book/:chapter/:verse?'}
             render={(props) => (
               <div className="bible-app">
                 <div className="header">
-                  <Menu bibleIndex={bibleIndex} menuOpen={this.state.menuOpen} openMenu={this.openMenu} closeMenu={this.closeMenu} {...props} />
+                  <Menu bibleIndex={bibleIndex} 
+                        menuOpen={this.state.menuOpen} 
+                        openMenu={this.openMenu} 
+                        closeMenu={this.closeMenu}
+                        book={parseInt(props.match.params.book)}
+                        chapter={parseInt(props.match.params.chapter)} />
                 </div>
                 <div className="body">
                   <div className="body-left">
-                    <ReadingPane bibleIndex={bibleIndex} menuOpen={this.state.menuOpen} closeMenu={this.closeMenu} {...props} />
+                    <ReadingPane bibleIndex={bibleIndex} 
+                                 menuOpen={this.state.menuOpen} 
+                                 closeMenu={this.closeMenu}
+                                 book={parseInt(props.match.params.book)}
+                                 chapter={parseInt(props.match.params.chapter)}
+                                 verse={props.match.params.verse? parseInt(props.match.params.verse) : 0}/>
                   </div>
                   <div className="body-right">
-                    <StudyGuide bibleIndex={bibleIndex} menuOpen={this.state.menuOpen} closeMenu={this.closeMenu} {...props} />
+                    <StudyGuide bibleIndex={bibleIndex} 
+                                menuOpen={this.state.menuOpen} 
+                                closeMenu={this.closeMenu} 
+                                book={parseInt(props.match.params.book)}
+                                chapter={parseInt(props.match.params.chapter)}
+                                verse={props.match.params.verse? parseInt(props.match.params.verse) : 0}/>
                   </div>
                 </div>
                 <div className="footer">

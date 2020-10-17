@@ -13,7 +13,10 @@ class StudyGuide extends React.Component {
   static propTypes = {
     bibleIndex: PropTypes.object.isRequired,
     menuOpen: PropTypes.bool.isRequired,
-    closeMenu: PropTypes.func.isRequired
+    closeMenu: PropTypes.func.isRequired,
+    book: PropTypes.number.isRequired,
+    chapter: PropTypes.number.isRequired,
+    verse: PropTypes.number
   };
 
   VERSION_NAMES = {
@@ -24,9 +27,6 @@ class StudyGuide extends React.Component {
   }
 
   state = {
-    bookId: 0,
-    chapter: 0,
-    verse: 0,
     contentData: {},
     activeSection: "other-versions",
     showWordInfo: false,
@@ -35,21 +35,19 @@ class StudyGuide extends React.Component {
   };
 
   componentDidMount() {
-    this.propsUpdated(this.props);
+    this.fetch();
   }
 
-  componentWillReceiveProps(props) {
-    this.propsUpdated(props);
+  componentDidUpdate(prevProps) {
+    if (prevProps.book !== this.props.book || prevProps.chapter !== this.props.chapter || prevProps.verse !== this.props.verse) {
+      this.fetch();
+    }
   }
 
   // update state
-  propsUpdated = (props) => {
-    const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
-    const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
-    const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
-    if (bookId !== this.state.bookId || chapter !== this.state.chapterData || verse !== this.state.verse) {
-      this.getVerseData(bookId, chapter, verse);
-    }
+  fetch = () => {
+    const {book, chapter, verse} = this.props;
+    this.getVerseData(book, chapter, verse);
   }
 
   getVerseData = async (book, chapter, verse) => {
@@ -66,9 +64,6 @@ class StudyGuide extends React.Component {
     if (verse === 0) {
       this.setState({
         contentData: verseData,
-        bookId: book,
-        chapter: chapter,
-        verse: verse,
         crossReferences: [],
         wordObj: {},
         showWordInfo: false
@@ -116,9 +111,6 @@ class StudyGuide extends React.Component {
 
     this.setState({
       contentData: verseData,
-      bookId: book,
-      chapter: chapter,
-      verse: verse,
       crossReferences: crossReferences,
       showWordInfo: false
     });
@@ -213,19 +205,29 @@ class StudyGuide extends React.Component {
         <p>{wordObj.pos}</p>
         <h3>聖經中出現次數</h3>
         <p>{`共${wordObj.occurences}次`}</p>
-        <h3>上下文意思</h3>
-        <p>{`共${wordObj.meaningsCount}種`}</p>
+        {wordObj.meaningsCount? (
+          <React.Fragment>
+            <h3>上下文意思</h3>
+            <p>{`共${wordObj.meaningsCount}種`}</p>
+          </React.Fragment>)
+          :
+          null
+        }
         <table>
-          <tbody>
-            {Object.keys(wordObj.meanings).map((key) => (
-              <tr key={key}>
-                <td>
-                  <b>{key}</b>
-                </td>
-                <td>{`${wordObj.meanings[key]}次`}</td>
-              </tr>
-            ))}
-          </tbody>
+          {wordObj.meaning? 
+            <tbody>
+              {Object.keys(wordObj.meanings).map((key) => (
+                <tr key={key}>
+                  <td>
+                    <b>{key}</b>
+                  </td>
+                  <td>{`${wordObj.meanings[key]}次`}</td>
+                </tr>
+              ))}
+            </tbody>
+            :
+            null
+          }
         </table>        
         <h3>原文上下文舉例</h3>
         {Object.keys(wordObj.translits).map((word) => {
@@ -305,27 +307,26 @@ class StudyGuide extends React.Component {
   }
 
   render() {
-    const bookId = this.state.bookId;
-    const chapter = this.state.chapter;
-    const verse = this.state.verse;
+    const { book, chapter, verse }  = this.props;
     const contentData = this.state.contentData;
 
-    if (bookId === 0)
-      return <div></div>
+    if (book === 0 || isEmptyObject(contentData))
+      return null;
 
-      // if no content data or content data is not current
-    if (isEmptyObject(contentData)) {
-      this.getVerseData(bookId, chapter, verse);
-      return <div></div>;
-    }
-
-    if (verse === 0) return this.renderChapterData();
+    if (verse === 0) 
+      return this.renderChapterData();
 
     const verseObject = Object.entries(contentData)[0][1];
+    
+    // this data is missing if just switching from verse 0 to a selected verse before fetching
+    // return null and when data fetched, it will be re-rendered with data
+    if (!verseObject.analytics)
+      return null;
+
     const bookTitle = this.getWidth() > 1000 ?
-      this.props.bibleIndex[bookId].title
+      this.props.bibleIndex[book].title
       :
-      books[this.props.bibleIndex[bookId].abbr].short_name.cht;
+      books[this.props.bibleIndex[book].abbr].short_name.cht;
   
     const title = `${bookTitle} ${chapter} : ${verse}`;
 
@@ -338,7 +339,7 @@ class StudyGuide extends React.Component {
         (idx > 1 && words[idx-1].index_cht === w.index_cht)
         ? Object.assign({}, w, {cht: '~'})
         : w
-        )
+        );
 
     return (
       <div id="study-guide" onClickCapture={this.handleStudyPaneClick}>
