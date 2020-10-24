@@ -9,7 +9,6 @@ import { bibleIndex } from "./bibleIndex";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 class BibleApp extends React.Component {
-
   state = {
     menuOpen: false
   }
@@ -23,25 +22,41 @@ class BibleApp extends React.Component {
   openMenu = () => {
     this.setState({
       menuOpen: true
-    })
+    });
   }
 
   render() {
     return (
       <div>
         <Switch>
-          <Route path={process.env.PUBLIC_URL + '/:book?/:chapter?/:verse?'}
+          <Route path={process.env.PUBLIC_URL + "/:book?/:chapter?/:verse?"}
             render={(props) => (
               <div className="bible-app">
                 <div className="header">
-                  <Menu bibleIndex={bibleIndex} menuOpen={this.state.menuOpen} openMenu={this.openMenu} closeMenu={this.closeMenu} {...props} />
+                  <Menu
+                    bibleIndex={bibleIndex}
+                    menuOpen={this.state.menuOpen}
+                    openMenu={this.openMenu}
+                    closeMenu={this.closeMenu}
+                    {...props}
+                  />
                 </div>
                 <div className="body">
                   <div className="body-left">
-                    <ReadingPane bibleIndex={bibleIndex} menuOpen={this.state.menuOpen} closeMenu={this.closeMenu} {...props} />
+                    <ReadingPane
+                      bibleIndex={bibleIndex}
+                      menuOpen={this.state.menuOpen}
+                      closeMenu={this.closeMenu}
+                      {...props}
+                    />
                   </div>
                   <div className="body-right">
-                    <StudyGuide bibleIndex={bibleIndex} menuOpen={this.state.menuOpen} closeMenu={this.closeMenu} {...props} />
+                    <StudyGuide
+                      bibleIndex={bibleIndex}
+                      menuOpen={this.state.menuOpen}
+                      closeMenu={this.closeMenu}
+                      {...props}
+                    />
                   </div>
                 </div>
                 <div className="footer">
@@ -50,7 +65,7 @@ class BibleApp extends React.Component {
               </div>
             )}
           />
-          <Route path="/" render={() => (<Redirect to={process.env.PUBLIC_URL + '/1/1'} />)} />
+          <Route path="/" render={() => <Redirect to={process.env.PUBLIC_URL + "/1/1"} />} />
         </Switch>
       </div>
     );
