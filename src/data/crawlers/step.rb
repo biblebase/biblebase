@@ -4,6 +4,7 @@ class StepCrawler < Base
   URL_PREFIX = {
     old: "https://www.stepbible.org/?display=INTERLINEAR&q=version=CUn|version=OHB|reference=",
     new: "https://www.stepbible.org/?display=INTERLINEAR&q=version=CUn|version=BYZ|reference="
+    #https://www.stepbible.org/?display=INTERLEAVED&q=version=CUn|version=WHNU|reference=2Tim.2
   }
 
   def fetch(url, book_index, ch)
