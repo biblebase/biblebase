@@ -11,52 +11,34 @@ class ReadingPane extends React.Component {
   static propTypes = {
     bibleIndex: PropTypes.object.isRequired,
     menuOpen: PropTypes.bool.isRequired,
-    closeMenu: PropTypes.func.isRequired
+    closeMenu: PropTypes.func.isRequired,
+    book: PropTypes.number.isRequired,
+    chapter: PropTypes.number.isRequired,
+    verse: PropTypes.number
   }
 
   state = {
-    bookId: 0,
-    chapter: 0, 
-    verse: 0,
     chapterData: {}
   }
 
   componentDidMount() {
-    this.propsUpdated(this.props);
+    this.fetch();
   }
 
-  /* 
-   * When props changes (when routing has changed), we need to catch is and update the state
-   * so that it will cause updates to relevent elements in the UI. If we skip this part, 
-   * the whole componenet is re-rendered when routing changes
-   */
-  componentWillReceiveProps(props) {
-    this.propsUpdated(props);
+  componentDidUpdate(prevProps) {
+    if (prevProps.book !== this.props.book || prevProps.chapter !== this.props.chapter)
+      this.fetch();
   }
 
   // update current state when props change
-  propsUpdated = (props) => {
-    const bookId = props.match.params.book? parseInt(props.match.params.book) : 1;
-    const chapter = props.match.params.chapter? parseInt(props.match.params.chapter) : 1;
-    const verse = props.match.params.verse? parseInt(props.match.params.verse) : 0;
-    if (bookId !== this.state.bookId || chapter !== this.state.chapterData || verse !== this.state.verse) {
-      getBookChapterJson(bookId, chapter).then(data => {
-        this.setState({
-          chapterData: data,
-          bookId: bookId,
-          chapter: chapter,
-          verse: verse
-        });
-      });
-    }
-  }
-
-  getBookData = (book, chapter) => {
+  fetch = () => {
+    const {book, chapter} = this.props;
     getBookChapterJson(book, chapter).then(data => {
       this.setState({
         chapterData: data
       });
     });
+    
   }
 
   handleReadingPaneClick = (event) => {
@@ -69,9 +51,7 @@ class ReadingPane extends React.Component {
   }
 
   renderSection = (section, key) => {
-    const bookId = this.state.bookId;
-    const chapter = this.state.chapter;
-    const verse = this.state.verse;
+    let { book, chapter, verse } = this.props;
 
     if ("heading" in section) { // heading section
       return (
@@ -83,7 +63,7 @@ class ReadingPane extends React.Component {
           {section.contents.map( (content, index) => (
             <span className="section-content" key={index}>
               { "hasVerseLabel" in content &&  content.hasVerseLabel? <span className="label">{content.verseNum}</span> : ""}
-              <Link to={content.verseNum === verse? `/biblebase/${bookId}/${chapter}` : `/biblebase/${bookId}/${chapter}/${content.verseNum}`}
+              <Link to={content.verseNum === verse? `/biblebase/${book}/${chapter}` : `/biblebase/${book}/${chapter}/${content.verseNum}`}
                     className={classNames({"disable-link": this.props.menuOpen})} >
                 <span data-verse={content.verseNum} className={classNames("verse", {selected: content.verseNum === verse})} >
                   {content.verseText}
@@ -98,20 +78,10 @@ class ReadingPane extends React.Component {
   }
 
   render() {
-    const bookId = this.state.bookId;
-    const chapter = this.state.chapter;
-    // const verse = this.state.verse;
-    const chapterData = this.state.chapterData;
+    const { chapterData } = this.state;
 
-    if (bookId === 0)
-      return <div></div>
-
-    // data has not been loaded
-    if (isEmptyObject(chapterData) || 
-        chapterData.book !== bookId || chapterData.chapter !== chapter) {
-      this.getBookData(bookId, chapter);
-      return <div></div>
-    }
+    if (isEmptyObject(chapterData))
+      return null;
 
     const sections = chapterData['sections'];
     

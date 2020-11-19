@@ -38,12 +38,6 @@ async function fetchJson(path) {
     return data;
 }
 
-async function fetchHtml(path) {
-  const res = await fetch(path);
-  const text = await res.text();
-  return text;
-}
-
 async function fetchLocalJsonData(path) {
     const res = await fetch(path, {mode: 'no-cors'});
     const text = await res.text();   
