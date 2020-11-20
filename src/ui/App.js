@@ -7,6 +7,7 @@ import Footer from "./Footer.component";
 import "./App.css";
 import { bibleIndex } from "./bibleIndex";
 import { Switch, Route, Redirect } from "react-router-dom";
+import queryString from "query-string";
 
 class BibleApp extends React.Component {
 
@@ -26,12 +27,18 @@ class BibleApp extends React.Component {
     })
   }
 
+  parseVerses = (query) => {
+    const { verses: versesStr } = queryString.parse(query);
+    const verses = versesStr.split(",").map( v => parseInt(v));
+    return verses;
+  }
+
   render() {
     return (
       <div>
         <Switch>
           <Route exact path={process.env.PUBLIC_URL} render={() => (<Redirect to={process.env.PUBLIC_URL + '/1/1'} />)} />
-          <Route path={process.env.PUBLIC_URL + '/:book/:chapter/:verse?'}
+          <Route path={process.env.PUBLIC_URL + '/:book/:chapter'}
             render={(props) => (
               <div className="bible-app">
                 <div className="header">
@@ -49,7 +56,8 @@ class BibleApp extends React.Component {
                                  closeMenu={this.closeMenu}
                                  book={parseInt(props.match.params.book)}
                                  chapter={parseInt(props.match.params.chapter)}
-                                 verse={props.match.params.verse? parseInt(props.match.params.verse) : 0}/>
+                                 verses={props.location.search? this.parseVerses(props.location.search) : []}
+                                 history={props.history}/>
                   </div>
                   <div className="body-right">
                     <StudyGuide bibleIndex={bibleIndex} 
@@ -57,7 +65,7 @@ class BibleApp extends React.Component {
                                 closeMenu={this.closeMenu} 
                                 book={parseInt(props.match.params.book)}
                                 chapter={parseInt(props.match.params.chapter)}
-                                verse={props.match.params.verse? parseInt(props.match.params.verse) : 0}/>
+                                verses={props.location.search? this.parseVerses(props.location.search)  : []}/>
                   </div>
                 </div>
                 <div className="footer">
