@@ -56,16 +56,19 @@ class ReadingPane extends React.Component {
     const { book, chapter, verses } = this.props;
 
     let selected = [...verses];
-    if (!selected.includes(verseNum)) { // select a new verse
+    if (!selected.includes(verseNum)) {
+      // select a new verse
       selected.push(verseNum);
-    } else { // deselect a verse
-      selected = selected.filter(v => v !== verseNum);
-    } 
+    } else {
+      // deselect a verse
+      selected = selected.filter((v) => v !== verseNum);
+    }
+    selected.sort();
 
     let url = `/biblebase/${book}/${chapter}`;
-    url += selected.length === 0? "" : "?verses=" + selected.join(",");
+    url += selected.length === 0 ? "" : "?verses=" + selected.join(",");
     this.props.history.push(url);
-  }
+  };
 
   renderSection = (section, key) => {
     let { verses } = this.props;
