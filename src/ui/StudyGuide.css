@@ -9,10 +9,10 @@
   height: 50px;
   padding: 20px 20px 40px 20px;
   width: 100%;
-  background-color:#eeeeee;
+  background-color: #eeeeee;
   display: flex;
   justify-content: flex-start;
-  box-shadow: 0px 2px 2px -2px rgba(0,0,0,.2);
+  box-shadow: 0px 2px 2px -2px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
 }
 
@@ -42,7 +42,9 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  height: calc(100% - 80px); /* minus height of menu or portion at bottom won't show */
+  height: calc(
+    100% - 80px
+  ); /* minus height of menu or portion at bottom won't show */
   overflow: scroll;
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -114,24 +116,40 @@
 #study-guide .section .section-content .desc {
   font-size: 0.8em;
 
-    /* below takes care of long URL that's unable to wrap */
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-  
-    -ms-word-break: break-all;
-    word-break: break-word;
-  
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
-    -ms-hyphens: auto;
-    -moz-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
+  /* below takes care of long URL that's unable to wrap */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+#study-guide .version {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin: 10px 0 0 0;
 }
 
 #study-guide .version-name {
   font-size: 1.1m;
   font-weight: bold;
   white-space: nowrap;
+  width: 100px;
+}
+
+#study-guide .verse-num {
+  padding: inherit;
+  font-size: 0.7em;
+  background-color: transparent;
+  color: inherit;
+  margin-right: 5px;
+  color: #8b8b8b;
 }
 
 #study-guide #sermons .section-content {
@@ -268,9 +286,10 @@
   border-bottom-left-radius: 4px;
 }
 
-#study-guide #word-lookup a, #word-lookup a:visited {
-   color: #ddd; 
-   text-decoration: underline;
+#study-guide #word-lookup a,
+#word-lookup a:visited {
+  color: #ddd;
+  text-decoration: underline;
 }
 
 #study-guide #word-lookup h3 {
@@ -295,20 +314,17 @@
   #study-guide .menu-heading {
     font-size: 1em;
   }
-  
+
   #study-guide .menu-items {
     font-size: 1em;
   }
 }
 
-
-
 @media screen and (max-width: 500px) {
-
   #study-guide .menu-heading {
     font-size: 0.7em;
   }
-  
+
   #study-guide .menu-items {
     font-size: 0.7em;
   }

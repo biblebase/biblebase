@@ -91,7 +91,8 @@ class StudyGuide extends React.Component {
     const promises = urls.map((url) => fetch(url));
 
     let versesData = {};
-    versesData.sermons = {};
+    versesData.sermons = {}; // merged sermons
+    versesData.versions = {}; // merged verses: {version: {verse_num: data}}, verse sorted
     versesData.versesObjects = {};
 
     // for each url response, parse verse data
@@ -106,6 +107,14 @@ class StudyGuide extends React.Component {
         for (const sermon of verseObj.sermons) {
           versesData.sermons[sermon.id] = sermon;
         }
+      }
+
+      for (const [ver, obj] of Object.entries(verseObj.versions)) {
+        if (!(ver in versesData.versions)) {
+          versesData.versions[ver] = [];
+        }
+        const verseNum = verseKey.split(".")[2];
+        versesData.versions[ver].push({ verse: parseInt(verseNum), ...obj });
       }
 
       const crDict = verseObj.analytics.thisVerse.dict.cht;
@@ -455,32 +464,22 @@ class StudyGuide extends React.Component {
               中英文各選取三個常用版本。
             </div>
             <div className="section-content">
-              {Object.entries(versesData.versesObjects).map(
-                ([verseKey, verseObj], index, arr) =>
-                  verseObj.versions === undefined ||
-                  isEmptyObject(verseObj.versions) || (
-                    <React.Fragment key={verseKey}>
-                      <table>
-                        <tbody>
-                          {Object.entries(verseObj.versions).map(
-                            ([key, version]) => (
-                              <tr className="version" key={version.version_id}>
-                                <td className="version-name">
-                                  {this.VERSION_NAMES[version.version_id] ||
-                                    version.version_id}
-                                </td>
-                                <td className="version-content">
-                                  {version.text}
-                                </td>
-                              </tr>
-                            )
-                          )}
-                        </tbody>
-                      </table>
-                      {index === arr.length - 1 || <hr />}
-                    </React.Fragment>
-                  )
-              )}
+              {Object.entries(versesData.versions).map(([version, list]) => (
+                <div className="version" key={version}>
+                  <div className="version-name">
+                    {this.VERSION_NAMES[list[0]["version_id"]] ||
+                      list[0]["version_id"]}
+                  </div>
+                  <div className="version-verses">
+                    {list.map((data) => (
+                      <div key={data.verse}>
+                        <span className="verse-num">{data.verse}</span>{" "}
+                        {data.text}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
 
