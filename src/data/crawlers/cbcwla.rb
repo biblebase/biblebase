@@ -81,20 +81,25 @@ class CbcwlaCrawler < Base
     sermons = sermon_sections.each_with_object({}) do |sermon, h|
       verse_bundle = VerseBundle.new(sermon.search('.bible_passage').text)
       date = Date.parse(sermon.search('.sermon_date').text).to_s
-      url = sermon.search('.entry-title a').attr('href').value
-      id = url.split('/')[3..-1].join('_')
+
+      audio_elem = sermon.search('a.sermon-audio')
+      audio_url = audio_elem.empty? ? '' : audio_elem.attr('href').value
+      slides_elem = sermon.search('a.sermon-notes')
+      slides_url = slides_elem.empty? ? '' : slides_elem.attr('href').value
+
+      next if slides_url.empty?
+      id = slides_url.split('/').last.split('.').first
+
       obj = {
         id: id,
         title: sermon.search('.entry-title').text,
         date: date,
         preacher: sermon.search('.preacher_name').text,
         verses: verse_bundle.to_s,
-        verse_keys: verse_bundle.to_a
+        verse_keys: verse_bundle.to_a,
+        slides: slides_url
       }
-      audio_elem = sermon.search('a.sermon-audio')
-      obj.merge!(audio: audio_elem.attr('href').value) unless audio_elem.empty?
-      slides_elem = sermon.search('a.sermon-notes')
-      obj.merge!(slides: slides_elem.attr('href').value) unless slides_elem.empty?
+      obj.merge!(audio: audio_url) unless audio_url.empty?
 
       h[id] = obj
     end
