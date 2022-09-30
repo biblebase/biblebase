@@ -32,39 +32,43 @@ class BibleApp extends React.Component {
         <Switch>
           <Route exact path={process.env.PUBLIC_URL} render={() => (<Redirect to={process.env.PUBLIC_URL + '/1/1'} />)} />
           <Route path={process.env.PUBLIC_URL + '/:book/:chapter/:verse?'}
-            render={(props) => (
+            render={(props) => {
+              const {book, chapter, verse} = props.match.params;
+
+              return (
               <div className="bible-app">
                 <div className="header">
                   <Menu bibleIndex={bibleIndex} 
                         menuOpen={this.state.menuOpen} 
                         openMenu={this.openMenu} 
                         closeMenu={this.closeMenu}
-                        book={parseInt(props.match.params.book)}
-                        chapter={parseInt(props.match.params.chapter)} />
+                        book={parseInt(book)}
+                        chapter={parseInt(chapter)} />
                 </div>
                 <div className="body">
                   <div className="body-left">
                     <ReadingPane bibleIndex={bibleIndex} 
                                  menuOpen={this.state.menuOpen} 
                                  closeMenu={this.closeMenu}
-                                 book={parseInt(props.match.params.book)}
-                                 chapter={parseInt(props.match.params.chapter)}
-                                 verse={props.match.params.verse? parseInt(props.match.params.verse) : 0}/>
+                                 book={parseInt(book)}
+                                 chapter={parseInt(chapter)}
+                                 jin={chapter && chapter.endsWith('j') }
+                                 verse={verse? parseInt(verse) : 0}/>
                   </div>
                   <div className="body-right">
                     <StudyGuide bibleIndex={bibleIndex} 
                                 menuOpen={this.state.menuOpen} 
                                 closeMenu={this.closeMenu} 
-                                book={parseInt(props.match.params.book)}
-                                chapter={parseInt(props.match.params.chapter)}
-                                verse={props.match.params.verse? parseInt(props.match.params.verse) : 0}/>
+                                book={parseInt(book)}
+                                chapter={parseInt(chapter)}
+                                verse={verse? parseInt(verse) : 0}/>
                   </div>
                 </div>
                 <div className="footer">
                   <Footer />
                 </div>
               </div>
-            )}
+            )}}
           />
           <Route path="/" render={() => (<Redirect to={process.env.PUBLIC_URL + '/1/1'} />)} />
         </Switch>

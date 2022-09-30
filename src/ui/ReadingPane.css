@@ -44,6 +44,18 @@
   line-height: 1.7em;
 }
 
+.reading-pane .jin.chapter .heading { font-weight: 800; font-size: 140%; }
+.reading-pane .jin.chapter .ref-heading { font-weight: 600; font-size: 90%; margin-top: 5px; margin-bottom: 20px; }
+  
+.reading-pane .jin.chapter .verse { font-family: FreeSans; }
+.reading-pane .jin.chapter .verse.ot_xref { font-family: sans-serif; font-size: 110% }
+
+.reading-pane .person { border-bottom: solid; }
+.reading-pane .place { border-bottom: medium double; }
+.reading-pane .quote { margin-left: 40px; }
+.reading-pane .lord { color: #F34; }
+.reading-pane .note { vertical-align: super; cursor: pointer; font-size: 80% }
+
 .reading-pane .disable-link {
   /* pointer-events: none; */
   cursor: default;

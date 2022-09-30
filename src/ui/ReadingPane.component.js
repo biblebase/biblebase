@@ -12,6 +12,7 @@ class ReadingPane extends React.Component {
     bibleIndex: PropTypes.object.isRequired,
     menuOpen: PropTypes.bool.isRequired,
     closeMenu: PropTypes.func.isRequired,
+    jin: PropTypes.bool,
     book: PropTypes.number.isRequired,
     chapter: PropTypes.number.isRequired,
     verse: PropTypes.number
@@ -32,8 +33,8 @@ class ReadingPane extends React.Component {
 
   // update current state when props change
   fetch = () => {
-    const {book, chapter} = this.props;
-    getBookChapterJson(book, chapter).then(data => {
+    const {book, chapter, jin} = this.props;
+    getBookChapterJson(book, chapter, jin).then(data => {
       this.setState({
         chapterData: data
       });
@@ -54,24 +55,46 @@ class ReadingPane extends React.Component {
     let { book, chapter, verse } = this.props;
 
     if ("heading" in section) { // heading section
-      return (
-        <div className={`heading ${section.type}`} key={key}>{section.heading}</div>
-      )
+      if (Array.isArray(section.heading)) {
+        return <div className={`heading ${section.type}`} key={key}>{
+          section.heading.map( (content, idx) => {
+            if (typeof content === 'object') {
+              return (
+                <Link to={content.href} key={idx}
+                      className={classNames({"disable-link": this.props.menuOpen})} >
+                {content.text}
+                </Link>);
+            } else {
+              return content;
+            }
+          })
+        }</div>
+      } else {
+        return (
+          <div className={`heading ${section.type}`} key={key}>{section.heading}</div>
+        )
+      }
     } else { // content section
       return (
         <div className={`section ${section.type}`} key={key}>
-          {section.contents.map( (content, index) => (
-            <span className="section-content" key={index}>
-              { "hasVerseLabel" in content &&  content.hasVerseLabel? <span className="label">{content.verseNum}</span> : ""}
-              <Link to={content.verseNum === verse? `/biblebase/${book}/${chapter}` : `/biblebase/${book}/${chapter}/${content.verseNum}`}
-                    className={classNames({"disable-link": this.props.menuOpen})} >
-                <span data-verse={content.verseNum} className={classNames("verse", {selected: content.verseNum === verse})} >
-                  {content.verseText}
-                </span>
-              </Link>
-            </span>
-            
-          ))}
+          {section.contents.map( (content, index) => {
+            const {hasVerseLabel, verseNum, verseText, classes, title, href} = content;
+            const link = href ?
+              href :
+              verseNum === verse? `/biblebase/${book}/${chapter}` : `/biblebase/${book}/${chapter}/${verseNum}`;
+            return(
+              <span className="section-content" key={index}>
+                { hasVerseLabel ? <span className="label">{verseNum}</span> : ""}
+                <Link to={link}
+                      title={title}
+                      className={classNames({"disable-link": this.props.menuOpen})} >
+                  <span data-verse={verseNum} className={classNames("verse", classes, {selected: verseNum === verse})} >
+                    {verseText}
+                  </span>
+                </Link>
+              </span>
+            )}
+          )}
         </div>
       )
     }
@@ -79,6 +102,7 @@ class ReadingPane extends React.Component {
 
   render() {
     const { chapterData } = this.state;
+    const { jin } = this.props;
 
     if (isEmptyObject(chapterData))
       return null;
@@ -87,7 +111,7 @@ class ReadingPane extends React.Component {
     
     return (
       <div className="reading-pane" onClickCapture={this.handleReadingPaneClick}>
-          <div className="chapter">
+          <div className={classNames("chapter", jin ? 'jin' : '')}>
             {sections.map( (section, index) => this.renderSection(section, index))}
           </div>
       </div>

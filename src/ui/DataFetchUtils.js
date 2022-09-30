@@ -12,9 +12,9 @@ function getBibleIndex() {
   return fetchLocalJsonData('./json/bibleIndex.json');
 }
 
-function getBookChapterJson(bookId, chapter) {
+function getBookChapterJson(bookId, chapter, jin) {
   // return fetchLocalJsonData(`/json/b${bookId}.${chapter}.json`);
-    const url = encodeURI(`${GET_BIBLE_ENDPOINT}/${bookId}/${chapter}.json`);
+    const url = encodeURI(`${GET_BIBLE_ENDPOINT}/${bookId}/${chapter}${jin ? '.jin' : ''}.json`);
     return fetchJson(url);
 }
 
