@@ -27,6 +27,9 @@ GEM
     pry-byebug (3.9.0)
       byebug (~> 11.0)
       pry (~> 0.13.0)
+    rmmseg-cpp-new (0.3.1)
+    ruby-pinyin (0.5.0)
+      rmmseg-cpp-new (~> 0.3.1)
     ruby-progressbar (1.8.1)
     stemmify (0.0.2)
     thread_safe (0.3.6)
@@ -46,6 +49,7 @@ DEPENDENCIES
   nokogiri
   parallel
   pry-byebug
+  ruby-pinyin
   ruby-progressbar
   stemmify
   tradsim

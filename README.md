@@ -36,3 +36,15 @@ This module crawls cbcwla.org for sermons, and parses each sermon into a JSON-fo
 ### Interlinear in Chinese
 ### Dictionary
 ### Cross References
+
+# BibleBase v1
+
+Just in case v1 needs to be updated. It can be done in these steps:
+
+1. Run `cd src/data`
+1. Update the `start` script coordinately to entirely or partially regenerate the content
+1. Run `start`
+1. Now the generated final html is in `s3://biblebase/html/`, go to your local clone of repo biblebase.github.io, and run `aws s3 sync --profile=me s3://biblebase/html/ html/`
+1. Start local dev server by `python -m SimpleHTTPServer 8080`
+1. Debug and fix issues, then commit and push the changes to biblebase.github.io
+1. Done
