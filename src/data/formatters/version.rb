@@ -26,7 +26,7 @@ class Version < Base
   end
 
   def description
-    "中英文各選取三個常用版本。"
+    "包括中英文常用版本，以及和合本的拼音注音。"
   end
 
   def format(item, idx)
