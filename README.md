@@ -41,10 +41,17 @@ This module crawls cbcwla.org for sermons, and parses each sermon into a JSON-fo
 
 Just in case v1 needs to be updated. It can be done in these steps:
 
+## Dev locally
+
 1. Run `cd src/data`
 1. Update the `start` script coordinately to entirely or partially regenerate the content
 1. Run `./start`
 1. Now the generated final html is in `s3://biblebase/html/`, go to your local clone of repo biblebase.github.io, and run `aws s3 sync --profile=me s3://biblebase/html/ html/` (you can also bypass the `s3 sync` to save s3 traffic, and just use `cp -R` to copy your html folder to the html folder under your biblebase.github.io clone)
 1. Start local dev server by `python -m SimpleHTTPServer 8080`
-1. QA at localhost:8080 and fix issues, then commit and push the changes to biblebase.github.io
-1. Done
+1. QA at localhost:8080 and fix issues
+
+## Deploy to biblebase.github.io
+
+1. Go to your local clone of [biblebase.github.io](https://github.com/biblebase/biblebase.github.io)
+1. Commit the changed files during development, and push the commit
+1. Wait until the [deployment](https://github.com/biblebase/biblebase.github.io/deployments/github-pages) to be started and finished by github automatically
