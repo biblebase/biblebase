@@ -2,6 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <title>BIBLEBASE</title>
+    <script src="assets/sql.js-httpvfs.js"></script>
     <style>
       body {
         font-family: ArialMT, "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
@@ -685,6 +686,33 @@
       }
       document.getElementById('verseData').addEventListener('click', hideWordInfo);
       document.getElementById('bibleChapter').addEventListener('click', hideWordInfo);
+
+      // sqlite.httpvfs
+      const workerUrl = "./assets/sqlite.worker.js";
+      const wasmUrl = "./sql-wasm.wasm";
+
+      async function load() {
+        const worker = await createDbWorker(
+          [
+            {
+              from: "inline",
+              config: {
+                serverMode: "full",
+                url: "./example.sqlite3",
+                requestChunkSize: 4096,
+              },
+            },
+          ],
+          workerUrl.toString(),
+          wasmUrl.toString()
+        );
+
+        const result = await worker.db.query(`select * from mytable where foo like "英%"`);
+
+        console.log( result );
+      }
+
+      load();
     </script>
   </body>
 </html>
