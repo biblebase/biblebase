@@ -180,3 +180,6 @@ def verse_link(html_builder, verse_key, desc_mode=:full)
     html_builder.text! verse_desc(verse_key, desc_mode)
   end
 end
+
+# verse bundle
+$VERSE_KEY_FORMAT = /[#{$BOOKS.keys.join('|')}]\.\d+(\.\d+(-\d+)?)?/
