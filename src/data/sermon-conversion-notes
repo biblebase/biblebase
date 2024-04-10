@@ -1,0 +1,24 @@
+# export all sermons
+1. login wp as admin
+1. https://cbcwla.org/home/wp-admin/edit.php?post_type=wpfc_sermon&page=sm-import-export&doimport=exsm
+1. wait for 1 min
+1. rename the downloaded file to sermons.xml
+
+# run xq
+
+```
+cat ~/Downloads/sermons.xml | xq -r -f sermons-xml.xq > table-sermons.tsv
+ruby lib/import-sql.rb table-sermons.tsv
+```
+
+# fix parsing issues
++ across chapters
+
+# parse bible_passage to index
++ need to test if sqlite vfs works with join
++ sqlite has to use another join table to index each value of an array
+> populate sermons on biblebase.github.io
+
+```
+ruby lib/import-sql.rb | sqlite3 assets/example.sqlite3
+```

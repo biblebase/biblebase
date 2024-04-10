@@ -32,7 +32,7 @@ class VerseBundle
       next if ch_ds.nil? or ch_ds.size == 0
       book_name_mode = desc_mode == :full ? :full_name : :short_name
       book_key = key.to_s.split('-').first
-      b = $BOOKS.dig(book_key, book_name_mode, :cht)
+      b = $BOOKS.dig(book_key.to_sym, book_name_mode, :cht)
       ch_s = if ch_ds.is_a? Range
               "#{ch_ds.begin}-#{ch_ds.end}章"
             elsif ch_ds.is_a? Integer
@@ -223,6 +223,7 @@ elsif __FILE__ == $0
     "創9:3,4",
     "以弗所書4:11-16 彼得前書1:23-25 羅馬書10:17 使徒行傳20:32b, 12:24, 4:4, 5:17-20, 6:7, 19:20",
     "來9:12,14,22-23, 10:19, 11:1-2; 彼前1:2,18-19, 2:9; 約一1:5-2:2; 啟1:5-6, 5:9-10, 12:11",
+    "詩篇 19 12-14",
     "羅馬書 課程介紹"
   ]
 

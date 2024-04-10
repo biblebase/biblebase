@@ -1,6 +1,6 @@
 .rss.channel.item[] | 
   select(."wp:status" == "publish") |
-    { title, link } *
+    { title, link, "wp:post_id" } *
     ([.category] | flatten |
       map( .key = ."@domain" | .value = ."#text") |
       from_entries |
@@ -10,6 +10,7 @@
       from_entries) |
     select(.bible_passage | tostring | test("\\d+")) |
     [
+      ."wp:post_id",
       .title,
       .link,
       (.sermon_date | tonumber | todate | split("T") | first),
