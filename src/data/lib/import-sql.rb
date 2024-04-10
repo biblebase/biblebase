@@ -37,7 +37,12 @@ File.readlines(filename, chomp: true).each do |line|
 
   puts "insert into sermons(id,title,link,date,type,preacher,audio,notes,video,passages) values(#{new_values.map{|v| v.inspect}.join(",")});".gsub('\"', '""')
 
-  vb.to_a.each do |v|
+  hashes = vb.to_a.map do |p|
+    b,c,v = p.split('.')
+    ["##{$BOOKS[b.to_sym][:index]}", c, v].compact.join("/")
+  end
+
+  hashes.each do |v|
     puts "insert into sermon_passages(sermon_id, passage) values(#{sermon_id}, #{v.inspect});"
   end
 end

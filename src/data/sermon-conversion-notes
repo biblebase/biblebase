@@ -17,7 +17,7 @@ ruby lib/import-sql.rb table-sermons.tsv
 # parse bible_passage to index
 + need to test if sqlite vfs works with join
 + sqlite has to use another join table to index each value of an array
-> populate sermons on biblebase.github.io
++ populate sermons on biblebase.github.io
 
 ```
 ruby lib/import-sql.rb | sqlite3 assets/example.sqlite3
