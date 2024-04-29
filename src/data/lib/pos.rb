@@ -27,6 +27,9 @@ class Pos
     pror: '關係代詞'
   }
 
+  POS_KEYS = PARTS_OF_SPEECH.keys
+  MAX_INDEX = 10000
+
   TENSES = {
     p: '現在時',
     i: '未完成時',
@@ -146,8 +149,16 @@ class Pos
     Pos.display_pos(main)
   end
 
+  def index
+    Pos.index(main) || MAX_INDEX
+  end
+
   def self.display_pos(pos)
     pos ?  PARTS_OF_SPEECH[pos.to_sym] : ''
+  end
+
+  def self.index(pos)
+    pos ? POS_KEYS.index(pos.to_sym) : nil
   end
 
   private

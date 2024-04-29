@@ -1,24 +1,45 @@
-# export all sermons
-1. login wp as admin
-1. https://cbcwla.org/home/wp-admin/edit.php?post_type=wpfc_sermon&page=sm-import-export&doimport=exsm
-1. wait for 1 min
-1. rename the downloaded file to sermons.xml
+# How to regenerate sermons data
 
-# run xq
+* export all sermons
+  1. login wp as admin
+  1. https://cbcwla.org/home/wp-admin/edit.php?post_type=wpfc_sermon&page=sm-import-export&doimport=exsm
+  1. wait for 1 min
+  1. rename the downloaded file to sermons.xml
+* run xq
+  ```
+  cat ~/Downloads/sermons.xml | xq -r -f sermons-xml.xq > table-sermons.tsv
+  ```
+* fix parsing issues
+  if anything goes wrong, it usually is caused by an invalid passage description, fix it on the original post, and start over from the beginning of this process
+* import it into sqlite db
+  ```
+  ruby lib/import-sql.rb table-sermons.tsv | sqlite3 assets/example.sqlite3
+  ```
 
-```
-cat ~/Downloads/sermons.xml | xq -r -f sermons-xml.xq > table-sermons.tsv
-ruby lib/import-sql.rb table-sermons.tsv
-```
+# Working notes of processing words db
 
-# fix parsing issues
-+ across chapters
+1. words source should be more accurate, problems
+   + gen1.2 over, face -> 2 words mapped to 1
+   + 1ti2.2 的度日 -> 2 words mapped to 1
+   > jhn15.13 life missing -> corrected on step, maybe just recrawl it
+   - rev22.11 kinda of messy
+   => it is actually acceptable, maybe just need another crawl
+      - 57, 31, 63, 65, 64 are books that have only 1 chapter, need some touches in source_htmls folder
 
-# parse bible_passage to index
-+ need to test if sqlite vfs works with join
-+ sqlite has to use another join table to index each value of an array
-+ populate sermons on biblebase.github.io
-
-```
-ruby lib/import-sql.rb | sqlite3 assets/example.sqlite3
-```
+* ui requirements
+  * searching by word
+    * show mind map of another translation (original words as bridge)
+      * old testament on the left, new testament on the right
+    * and histagrams of words occurance
+      * book name as filter
+  * click on an original-word
+    * histagrams of words occurance (in one testament)
+      * book name as filter
+    * show mind map of meanings
+      * eng meanings as filter
+      * chn meanings as filter
+  * only display the top ten verses
+    * narrow down the search by filtering
+* how to index
+  * strong-id (pk), type (hebrew, greek) (i), eng (i), chn (i), book, chapter, verse, eng_context, chn_context
+  

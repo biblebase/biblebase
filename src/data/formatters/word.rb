@@ -44,7 +44,10 @@ class Word < Base
 
   def format_all(items)
     @cht_indexes = {}
-    super(items)
+    items.each do |item|
+      item[:pos_obj] = Pos.new(item["pos"], item["lang"])
+    end
+    super(items.sort_by{|i| i[:pos_obj].index})
   end
 
   def format(item, idx)
@@ -87,7 +90,7 @@ class Word < Base
 
           # NOTE extended
           word_info = $DICT[item["id"]] || {}
-          pos, pos_ext, pos_conj = Pos.new(item["pos"], item["lang"]).to_display
+          pos, pos_ext, pos_conj = item[:pos_obj].to_display
 
           @h.span(class: 'pos extended') do
             text(@h, pos)
@@ -185,7 +188,7 @@ end
 
 if __FILE__ == $0
   section_key = 'words'
-  obj = JSON.parse File.read("verses_data/51/1/1/#{section_key}.json")
+  obj = JSON.parse File.read("verses_data/54/2/2/#{section_key}.json")
 
   puts Word.new('gen.1.1').format_all(obj.values.first[section_key])
 end

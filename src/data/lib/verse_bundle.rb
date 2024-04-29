@@ -18,11 +18,11 @@ class VerseBundle
   # }
   def initialize(verse_key_or_random_string)
     # remove useless letters
-    s = verse_key_or_random_string.gsub(/[A-Za-z]+/, '').gsub(/第/, '')
-
-    if s.match $VERSE_KEY_FORMAT
-      @bundles = parse_verse_key(s)
+    if verse_key_or_random_string.match $VERSE_KEY_FORMAT
+      @bundles = parse_verse_key(verse_key_or_random_string)
     else
+      s = verse_key_or_random_string.gsub(/[A-Za-z]+/, '').gsub(/第/, '')
+
       @bundles = parse(s)
     end
   end
@@ -211,6 +211,7 @@ if $_
   p VerseBundle.new(s).to_a
 elsif __FILE__ == $0
   samples = [
+    "mat.12.29",
     "民數記 34-36 申命記 1-7",
     "申命記4:32-39, 6:4-5",
     "申命記28；雅各書1:19-25；馬可福音4:1-25",

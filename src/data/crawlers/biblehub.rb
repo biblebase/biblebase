@@ -33,12 +33,12 @@ class BiblehubCrawler < Base
   def parse_all()
     files = `find #{HTML_CACHE_ROOT} -name #{klass_name}.htm`.split
     Parallel.each(files, progress: 'Parsing') do |f|
+    # files.each do |f|
       verse_key = path_to_key(f)
-      output = Hash[*[verse_key, words: parse(f)]]
 
       # save
       _, bn, c, v, _ = f.split('/')
-      save_json(output, bn, c, v)
+      save_json(parse(f), bn, c, v)
     end
   end
 

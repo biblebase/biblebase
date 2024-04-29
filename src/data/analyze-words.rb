@@ -37,6 +37,7 @@ def get_words_hash
     words.each.with_index do |w, idx|
       ext_verse_key = [verse_key, idx].join('|')
       id = w["id"]
+      next unless w["translit"]
       translit = w["translit"].sub($TRAILING_PUNC, '')
 
       parts = stemmed_parts(w["eng"])
@@ -157,6 +158,7 @@ def save_json_and_html(words_hash)
   `mkdir -p ./json/words`
   `mkdir -p words`
   Parallel.each(words_hash, progress: 'Saving Words') do |id, v|
+  # words_hash.each do |id, v|
     # saving json
     File.open("./json/words/#{id}.json", 'w') do |f|
       f << v.to_json

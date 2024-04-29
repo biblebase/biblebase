@@ -47,6 +47,8 @@ class StepCrawler < Base
           break
         end
       end
+
+      # TODO fix single chapter books: 57, 31, 63, 65, 64
     end
   end
 
@@ -56,13 +58,14 @@ class StepCrawler < Base
     doc.search('.ltr').each do |elem|
       v = elem.search('.verseStart .verseNumber').text.split(/[\s:]/)[-1]
       verse_key = get_verse_key(bn, c, v)
-      warn verse_key
+      # warn verse_key
       loaded = load_json(bn, c, v)
       words_hash = loaded.values[0][section_name].reject{|w| w['lang'].nil?}
-      next if words_hash.any?{|w| w.key?('index_cht')}
+      #next if words_hash.any?{|w| w.key?('index_cht')}
 
       words_hash = words_hash.map do |w|
-        w.merge(origin_simp: w[w['lang']].downcase.tr(*$GREEK_TRANSLITERATES))
+        w.transform_keys(&:to_sym)
+          .merge(origin_simp: w[w['lang']].downcase.tr(*$GREEK_TRANSLITERATES))
       end
 
       words_in_cht = elem.search('span.w')[1..-1].map.with_index do |w, idx|
@@ -95,16 +98,24 @@ class StepCrawler < Base
       words_in_cht.each do |wc|
         candidates = words_hash.select do |w|
           w[:index_cht].nil? and
-            (wc[:id] == w['id'] or
+            (wc[:id] == w[:id] or
              wc[:origin_simp] == w[:origin_simp]
             )
         end
 
+        word_info = wc
         if candidates[0]
           candidates[0].merge!(wc)
+          word_info = candidates[0]
         else
           words_hash.push wc
         end
+
+        if word_info[:cht] =~ /生命/
+          puts verse_key
+          puts [word_info[:eng], word_info[:cht]].inspect
+        end
+
       end
       
       save_json(words_hash, bn, c, v)
@@ -113,8 +124,8 @@ class StepCrawler < Base
 
   def parse_all()
     files = `find #{HTML_CACHE_ROOT} -name #{klass_name}.htm`.split
-    # Parallel.each(files, progress: 'Parsing') do |f|
-    files.each do |f|
+    Parallel.each(files, progress: 'Parsing') do |f|
+    # files.each do |f|
       parse(f)
     end
   end
