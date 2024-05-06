@@ -74,7 +74,7 @@ class StepCrawler < Base
         puncts = text.scan($CHINESE_PUNCT)
         punct_cht = puncts.empty? ? nil : puncts.join
 
-        origins = w.search('.interlinear').text.gsub($SP_RE, '').split
+        origins = w.search('.interlinear').text.split($SP_RE)
         ids = if w['strong']
                 w['strong'].split.map do |step_id|
                   lang = step_id[0] == 'G' ? 'greek' : 'hebrew'
@@ -95,7 +95,38 @@ class StepCrawler < Base
         end
       end.flatten
 
-      words_in_cht.each do |wc|
+      # NOTE merge by id
+      # [{
+      #   index_cht: 3, id: 'greek-5087', origin: 'θη', cht: '捨'},{
+      #   index_cht: 3, id: 'greek-5590', origin: 'ψυχην', cht: '捨'},{
+      #   index_cht: 4, id: 'greek-5590', origin: '[soul:', cht: '命'}]
+      # should be:
+      # [{
+      #   index_cht: 3, id: 'greek-5087', origin: 'θη', cht: '捨'}, {
+      #   index_cht: 4, id: 'greek-5590', origin: 'ψυχην', cht: '命'}]
+      merge_to_next = nil
+      merged_words_in_cht = words_in_cht.map.with_index do |word, idx|
+        prev_word = idx == 0 ? {} : words_in_cht[idx -1]
+        multi_meaning = word[:index_cht] == prev_word[:index_cht]
+
+        next_word = words_in_cht[idx +1] || {}
+        same_strong_id = next_word[:id] == word[:id]
+        index_next = next_word[:index_cht] == (word[:index_cht] + 1)
+        next_origin_missing = next_word[:origin_simp].to_s[0] == '['
+
+        if multi_meaning && same_strong_id && index_next && next_origin_missing
+          merge_to_next = word.slice(:origin_simp)
+          nil
+        elsif merge_to_next
+          merged_word = word.merge(merge_to_next)
+          merge_to_next = nil
+          merged_word
+        else
+          word
+        end
+      end.compact
+
+      merged_words_in_cht.each do |wc|
         candidates = words_hash.select do |w|
           w[:index_cht].nil? and
             (wc[:id] == w[:id] or
@@ -110,12 +141,6 @@ class StepCrawler < Base
         else
           words_hash.push wc
         end
-
-        if word_info[:cht] =~ /生命/
-          puts verse_key
-          puts [word_info[:eng], word_info[:cht]].inspect
-        end
-
       end
       
       save_json(words_hash, bn, c, v)
@@ -135,9 +160,10 @@ class StepCrawler < Base
   end
 end
 
-# NOTE crawlers/biblehub#parse_all should be executed first.
 if $0 == __FILE__
   c = StepCrawler.new
   # c.fetch_all
-  c.parse_all
+
+  # NOTE crawlers/biblehub#parse_all should be executed first.
+   c.parse_all
 end

@@ -18,13 +18,21 @@
 
 # Working notes of processing words db
 
-1. words source should be more accurate, problems
-   + gen1.2 over, face -> 2 words mapped to 1
-   + 1ti2.2 的度日 -> 2 words mapped to 1
-   > jhn15.13 life missing -> corrected on step, maybe just recrawl it
-   - rev22.11 kinda of messy
-   => it is actually acceptable, maybe just need another crawl
-      - 57, 31, 63, 65, 64 are books that have only 1 chapter, need some touches in source_htmls folder
++ 1. words source should be more accurate, problems
+  + gen1.2 over, face -> 2 words mapped to 1
+  + 1ti2.2 的度日 -> 2 words mapped to 1
+  + jhn15.13 life missing -> corrected on step, maybe just recrawl it
+  x rev22.11 kinda of messy => because step doesn't have some words
+  + jhn15.13 extra word placeholders
+  + chinese all gone
+  > 显示中文语序
+2. words sample verses
+  - find code of generating greek-1234.html
+  - sorted by sermon counts
+  - remove translits
+3. ui improvements
+  - mind map
+  - heat histogram
 
 * ui requirements
   * searching by word

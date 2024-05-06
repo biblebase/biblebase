@@ -51,6 +51,11 @@ class Word < Base
   end
 
   def format(item, idx)
+    index_cht = item["index_cht"].to_s
+    cht_dup = item["index_cht"] && @cht_indexes[index_cht]
+    eng_missing = item["eng"].nil?
+    return if cht_dup and eng_missing
+
     @h.table(class: :word) do
       @h.tr do
         @h.td do
@@ -74,11 +79,11 @@ class Word < Base
           end
           @h.br
           @h.span(class: :cht, index: item["index_cht"]) do
-            if item["index_cht"] and @cht_indexes[item["index_cht"].to_s]
+            if cht_dup
               @h.text! CHAR_PLACEHOLDER
             else
               text(@h, item["cht"], CHAR_PLACEHOLDER)
-              @cht_indexes[item["index_cht"].to_s] = true
+              @cht_indexes[index_cht] = true
               if item["punct_cht"]
                 @h.span(class: :punctCht) do
                   @h.text! "#{$NBSP}#{item["punct_cht"]}"
@@ -188,7 +193,7 @@ end
 
 if __FILE__ == $0
   section_key = 'words'
-  obj = JSON.parse File.read("verses_data/54/2/2/#{section_key}.json")
+  obj = JSON.parse File.read("verses_data/43/15/13/#{section_key}.json")
 
   puts Word.new('gen.1.1').format_all(obj.values.first[section_key])
 end
