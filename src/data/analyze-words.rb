@@ -6,15 +6,22 @@ require_relative 'lib/consts'
 require_relative 'lib/pos'
 require_relative 'lib/verse_bundle'
 
+CONTEXT_LENGTH = 2 # word-2, word-1, word, word+1, word+2
+CONTEXT_LANG = 'cht' # || 'eng'
+
 # NOTE utils functions
-def text(word_info)
+def text(word_info, opts = { highlight: false })
   return unless word_info
-  [word_info["eng"], word_info["punct"]].compact.join
+
+  punct = CONTEXT_LANG == 'eng' ? 'punct' : 'punct_cht'
+  t = [word_info[CONTEXT_LANG], word_info[punct]].compact.join
+  opts[:highlight] ? "「#{t}」" : t
 end
 
 WORDS_FILES = `find ./verses_data -name words.json`.split
 
-# NOTE index words, output as (in YAML):
+# NOTE index words,
+# when CONTEXT_LANG is 'eng', CONTEXT_LENGTH is 1, output as (in YAML):
 # hebrew-123:
 #   pos: n
 #   candidates:
@@ -27,13 +34,20 @@ WORDS_FILES = `find ./verses_data -name words.json`.split
 #     hoti:
 #       php.2.1|3:
 #         - thing,
-#         - that
+#         - 「that」
 #         - is
 def get_words_hash
   bar = ProgressBar.create(title: 'Indexing', total: WORDS_FILES.count)
   WORDS_FILES.each_with_object({}) do |words_file, h|
     verse_key, obj = JSON.parse(File.read(words_file)).to_a.first
-    words = obj["words"]
+    words = if CONTEXT_LANG == 'cht'
+              obj["words"]
+                .select{|word| word["index_cht"]}
+                .sort_by{|word| word["index_cht"]}
+                .uniq{|word| word["index_cht"]}
+            else
+              obj["words"]
+            end
     words.each.with_index do |w, idx|
       ext_verse_key = [verse_key, idx].join('|')
       id = w["id"]
@@ -56,17 +70,21 @@ def get_words_hash
       end
 
       h[id][:translits][translit] ||= {}
-      h[id][:translits][translit][ext_verse_key] = [
-        idx == 0 ? nil : text(words[idx-1]),
-        text(w),
-        text(words[idx+1])
-      ]
+      lbound = [0, idx - CONTEXT_LENGTH].max
+      ubound = idx + CONTEXT_LENGTH
+      quote_parts = words[lbound..ubound].map.with_index do |word, i|
+        text(word, highlight: word['id'] == w['id'])
+      end
+      quote_parts.prepend('…') if lbound > 0
+      quote_parts.push('…') if ubound < words.length
+      h[id][:translits][translit][ext_verse_key] = quote_parts
     end
     bar.increment
   end
 end
 
-MAX_SAMPLES = 10
+MAX_MEANINGS = 10
+MAX_SAMPLES = 50
 
 # NOTE detect english roots, output as (in YAML):
 # hebrew-123:
@@ -158,7 +176,7 @@ def save_json_and_html(words_hash)
   `mkdir -p ./json/words`
   `mkdir -p words`
   Parallel.each(words_hash, progress: 'Saving Words') do |id, v|
-  # words_hash.each do |id, v|
+  # words_hash.each do |id, v| # for debugging without parallel
     # saving json
     File.open("./json/words/#{id}.json", 'w') do |f|
       f << v.to_json
@@ -192,7 +210,7 @@ def save_json_and_html(words_hash)
       html.h3 "上下文意思"
       html.p "共#{v[:meaningsCount]}種"
       html.table do
-        v[:meanings].first(MAX_SAMPLES).each do |meaning, c|
+        v[:meanings].first(MAX_MEANINGS).each do |meaning, c|
           html.tr do
             html.td do
               html.b meaning
@@ -200,7 +218,7 @@ def save_json_and_html(words_hash)
             html.td "#{c}次"
           end
         end
-        if v[:meanings].size > MAX_SAMPLES
+        if v[:meanings].size > MAX_MEANINGS
           html.tr do
             html.td(colspan: 2, align: 'center') do
               html.i "<and more>"
@@ -212,43 +230,27 @@ def save_json_and_html(words_hash)
 
     if v[:translits].size > 0
       html.h3 "原文上下文舉例"
-      v[:translits].each do |word, occurences|
-        html.h4 word
-        html.table do
-          sampled_occurences = occurences.to_a
-            .shuffle
-            .first(MAX_SAMPLES)
-            .sort_by do |ext_verse_key, _|
-              verse_path(ext_verse_key.split('|').first)
-            end
-          sampled_occurences.each do |ext_verse_key, words|
-            verse_key, idx = ext_verse_key.split('|')
-            html.tr do
-              html.td do
-                verse_link(html, verse_key, :short)
-              end
-              html.td do
-                html.i do
-                  if idx.to_i > 1
-                    html.span '...'
-                  end
-                  html.span words[0]
-                  html.span " "
-                  html.b words[1]
-                  html.span " "
-                  html.span words[2]
-                  if words[2] and !words[2].match(/[\.\?\!]$/)
-                    html.span '...'
-                  end
-                end
-              end
-            end
+      html.table do
+        occurences = v[:translits].values.reduce({}, :merge)
+        samples = occurences.to_a
+          .shuffle
+          .first(MAX_SAMPLES)
+          .sort_by do |ext_verse_key, _|
+            verse_path(ext_verse_key.split('|').first)
           end
-          if occurences.size > MAX_SAMPLES
-            html.tr do
-              html.td(colspan: 2, align: 'center') do
-                html.i "<and more>"
-              end
+        samples.each do |ext_verse_key, words|
+          verse_key, idx = ext_verse_key.split('|')
+          html.tr do
+            html.td do
+              verse_link(html, verse_key, :short)
+            end
+            html.td words.join(CONTEXT_LANG == 'eng' ? ' ' : '')
+          end
+        end
+        if occurences.size > MAX_SAMPLES
+          html.tr do
+            html.td(colspan: 2, align: 'center') do
+              html.i "<and more>"
             end
           end
         end
